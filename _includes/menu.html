@@ -10,7 +10,7 @@ where we provide an easy way to manage your navigation system
 
         <a href="../" accesskey="1" title="Home" aria-label="Home">
           {% if site.logo %}
-          <img src="{{ site.logo | prepend: site.baseurl }}" alt=" logo" >
+          <img class="logo-size" src="{{ site.logo | prepend: site.baseurl }}" alt=" logo" >
           {% else %}
           <h1 class="usa-header-title">{{ site.title }}</h1>
           {% endif %}
@@ -49,7 +49,7 @@ where we provide an easy way to manage your navigation system
         {% endunless %}
         {% endfor %}
       </ul>
-      <div class="usa-nav__secondary">
+      <div class="usa-nav__secondary secondary-nav-padding">
         <ul class="usa-nav__secondary-links">
           {% for nav_item in include.secondary_navigation %}
           <li class="usa-nav__secondary-item">
