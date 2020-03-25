@@ -1,0 +1,37 @@
+
+// Import the US Web Design System SASS.
+
+@import "uswds";
+
+// Add your SASS/CSS here
+
+// default mode hide banner
+
+.logo-size {
+  width: 183px;
+  height: 46px;
+}
+
+.header-menu-text {
+  font: caption;
+  font-size: inherit;
+}
+
+.secondary-nav-padding {
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .logo-size {
+    width: 214px;
+    height: 72px;
+  }
+}
+
+.search-button {
+  background-color: #E96651;
+}
+
+.usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
+  background-color: #E96651;
+}

@@ -5,7 +5,19 @@ where we provide an easy way to manage your navigation system
 
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
-    {% include logo.html %}
+    <div class="usa-logo" id="logo">
+      <em class="usa-logo-text">
+
+        <a href="../" accesskey="1" title="Home" aria-label="Home">
+          {% if site.logo %}
+          <img class="logo-size" src="{{ site.logo | prepend: site.baseurl }}" alt=" logo" >
+          {% else %}
+          <h1 class="usa-header-title">{{ site.title }}</h1>
+          {% endif %}
+        </a>
+
+      </em>
+    </div>
     <button class="usa-menu-btn">Menu</button>
   </div>
   <nav role="navigation" class="usa-nav">
@@ -24,7 +36,7 @@ where we provide an easy way to manage your navigation system
         {% assign nav_id = 'primary-nav-' | append: forloop.index %}
         <li class="usa-nav__primary-item">
           <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
-            aria-controls="{{ nav_id }}"><span>{{ nav_item.name | escape }}</span></button>
+            aria-controls="{{ nav_id }}"><span class="header-menu-text">{{ nav_item.name | escape }}</span></button>
           <ul id="{{ nav_id }}" class="usa-nav__submenu">
             {% for subnav_item in nav_item.children %}
             <li class="usa-nav__submenu-item">
@@ -37,7 +49,7 @@ where we provide an easy way to manage your navigation system
         {% endunless %}
         {% endfor %}
       </ul>
-      <div class="usa-nav__secondary">
+      <div class="usa-nav__secondary secondary-nav-padding">
         <ul class="usa-nav__secondary-links">
           {% for nav_item in include.secondary_navigation %}
           <li class="usa-nav__secondary-item">
