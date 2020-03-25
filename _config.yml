@@ -117,6 +117,12 @@ secondary_navigation:
   - name: Feed Back
     url: "#main-content"
 
+footer:
+  contact:
+    name: Agency Contact Center
+    phonenumber: (800) CALL-GOVT
+    email: info@agency.gov
+    text: Department of the Treasury
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup

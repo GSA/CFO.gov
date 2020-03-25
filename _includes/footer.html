@@ -2,29 +2,32 @@
   <div class="footer-section-bottom bg-base-lighter">
     <div class="grid-container">
       <div class="grid-row padding-3">
+
+
         <div class="tablet:grid-col">
           <div class="logo-links">
-            <a class="footer-logo media_link" href="https://18f.gsa.gov">
-              {% asset logo-img.png width="50" alt="Agency logo" %}
-            </a>
+            <p><img src="{{ site.baseurl }}/assets/images/logos/logo-footer.png" width="100" alt="Council Logo" /></p>
           </div>
         </div>
+
+        <h1 class="usa-footer-contact-heading">{{ site.footer.contact.text }}</h1>
+
+
         <div class="tablet:grid-col"></div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
+        <div class="usa-footer-contact-links usa-width-one-half">
+          <address>
+            {% if site.footer.contact.name %}
+            <h3 class="usa-footer-contact-heading">{{ site.footer.contact.name }}</h3>
+            {% endif %}
+            {% if site.footer.contact.phonenumber %}
+            <p>{{ site.footer.contact.phonenumber }}</p>
+            {% endif %}
+            <p> {{ site.footer.contact.email }}</p>
+          </address>
         </div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
-        </div>
+
       </div>
     </div>
+  </div>
   </div>
 </footer>
