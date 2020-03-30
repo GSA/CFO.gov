@@ -18,7 +18,7 @@
 # Be sure to edit the values below
 ##########################################################################################
 
-title: CFO.GOV
+title: CFO Home page
 email: contact@example.gov
 description: >- # this means to ignore newlines until "baseurl:"
   Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -130,9 +130,9 @@ footer:
 # 3. Add your site/affiliate name here.
 searchgov:
   endpoint: https://search.usa.gov # You should not change this.
-  affiliate: federalist-uswds-example # replace this with your search.gov account
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko= # This is placeholder. Not private.
-  inline: true #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
+  affiliate: cfoc # replace this with your search.gov account
+  access_key: 7zdoD3jfIA3XVL-Oo90qp31mCdqWg5qbk_95HxXDGAk= # This is placeholder. Not private.
+  inline: false #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
 
 ##########################################################################################
 # The values below here are more advanced and should only be

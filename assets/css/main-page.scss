@@ -13,8 +13,17 @@
 }
 
 .header-menu-text {
-  font: caption;
-  font-size: inherit;
+  font-family: public_sanslight;
+  font-size: initial;
+  font-weight: 100;
+}
+
+@media (min-width: 64em) {
+  .usa-nav__primary > .usa-nav__primary-item {
+    font-size: 0.931618rem;
+    line-height: 0.939227;
+    padding-right: 1rem;
+  }
 }
 
 .secondary-nav-padding {
@@ -29,9 +38,9 @@
 }
 
 .search-button {
-  background-color: #E96651;
+  background-color: #d83933;
 }
 
 .usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
-  background-color: #E96651;
+  background-color: #d83933;
 }
