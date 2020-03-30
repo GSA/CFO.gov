@@ -13,8 +13,17 @@
 }
 
 .header-menu-text {
-  font: caption;
-  font-size: inherit;
+  font-family: public_sanslight;
+  font-size: initial;
+  font-weight: 100;
+}
+
+@media (min-width: 64em) {
+  .usa-nav__primary > .usa-nav__primary-item {
+    font-size: 0.931618rem;
+    line-height: 0.939227;
+    padding-right: 1rem;
+  }
 }
 
 .secondary-nav-padding {
