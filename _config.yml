@@ -92,7 +92,7 @@ primary_navigation:
         url: "#main-content"
       - name: Navigation link
         url: "#main-content"
-  - name: Policies and Guidlance
+  - name: Policies and Guidance
     children:
       - name: Navigation link
         url: "#main-content"
