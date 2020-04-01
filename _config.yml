@@ -76,7 +76,7 @@ primary_navigation:
         url: "#main-content"
       - name: Navigation link
         url: "#main-content"
-  - name: Priorities Areas
+  - name: Priority Areas
     children:
       - name: Navigation link
         url: "#main-content"
