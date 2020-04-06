@@ -1,33 +1,31 @@
 <footer class="usa-footer site-footer" role="contentinfo">
-  <div class="footer-section-bottom bg-base-lighter">
-    <div class="grid-container">
-      <div class="grid-row padding-3">
+    <div class="footer-section-bottom bg-base-lighter">
+        <div class="grid-container">
 
 
-        <div class="tablet:grid-col">
-          <div class="logo-links">
-            <p><img src="{{ site.baseurl }}/assets/images/logos/logo-footer.png" width="100" alt="Council Logo" /></p>
-          </div>
+            <div class="usa-graphic-list__row grid-row grid-gap padding-3 ">
+
+                <div class="tablet:grid-col">
+                    <div class="footer-logo logo-links">
+                        <img  class="usa-media_block-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" width="100" alt="GSA Logo"/>&nbsp;&nbsp;&nbsp;
+                        <img  class="usa-media_block-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" width="100" alt="Executive Office of the President"/>
+                        <h2 class="usa-footer-contact-heading">{{ site.footer.contact.text }}</h2>
+                    </div>
+                </div>
+
+                <div class="usa-graphic-list__row grid-row grid-gap padding-3 ">
+                <div class="usa-footer-contact-links usa-width-one-half">
+
+                    <address>
+                        {% if site.footer.contact.name %}
+                        <h2 class="usa-footer-contact-heading" style="text-align: right">{{ site.footer.contact.name }}</h2>
+                        {% endif %}
+                        <p>{{ site.footer.contact.phonenumber }} &nbsp;&nbsp;&nbsp; {{ site.footer.contact.email }}</p>
+                    </address>
+                </div>
+                </div>
+            </div>
         </div>
-
-        <h1 class="usa-footer-contact-heading">{{ site.footer.contact.text }}</h1>
-
-
-        <div class="tablet:grid-col"></div>
-        <div class="usa-footer-contact-links usa-width-one-half">
-          <address>
-            {% if site.footer.contact.name %}
-            <h3 class="usa-footer-contact-heading">{{ site.footer.contact.name }}</h3>
-            {% endif %}
-            {% if site.footer.contact.phonenumber %}
-            <p>{{ site.footer.contact.phonenumber }}</p>
-            {% endif %}
-            <p> {{ site.footer.contact.email }}</p>
-          </address>
-        </div>
-
-      </div>
     </div>
-  </div>
-  </div>
+    </div>
 </footer>

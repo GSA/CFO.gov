@@ -119,10 +119,10 @@ secondary_navigation:
 
 footer:
   contact:
-    name: Agency Contact Center
+    name: Contact Us
     phonenumber: (800) CALL-GOVT
     email: info@agency.gov
-    text: Department of the Treasury
+    text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
