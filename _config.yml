@@ -79,11 +79,11 @@ primary_navigation:
   - name: Priority Areas
     children:
       - name: FDT page
-        url: "../fdt/"
+        url: "/fdt/"
       - name: FMT page
-        url: "../fmt/"
+        url: "/fmt/"
       - name: Grants Page
-        url: "../grants/"
+        url: "/grants/"
   - name: Collaboration Partners
     children:
       - name: Navigation link
