@@ -57,7 +57,7 @@
   @include border-box-sizing;
   @include typeset;
   @include u-padding-y($theme-site-margins-width);
-  background-image: url('/assets/images/priority-top-image.png');
+  background-image: url(/assets/images/priority-top-image.png);
   background-position: center;
   background-size: cover;
   color: color('white');
@@ -68,7 +68,7 @@
   @include border-box-sizing;
   @include typeset;
   @include u-padding-y($theme-site-margins-width);
-  background-image: url('/assets/images/priority-middle-image.png');
+  background-image: url(/assets/images/priority-middle-image.png);
   background-position: center;
   background-size: cover;
   color: color('white');
