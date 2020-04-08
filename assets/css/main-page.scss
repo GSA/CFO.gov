@@ -7,6 +7,13 @@
 
 // default mode hide banner
 
+@media screen and (min-width: 640px) {
+  .site-margin {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+}
+
 .logo-size {
   width: 183px;
   height: 46px;
@@ -43,4 +50,25 @@
 
 .usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
   background-color: #d83933;
+}
+
+
+.priority-top-container {
+  @include border-box-sizing;
+  @include typeset;
+  @include u-padding-y($theme-site-margins-width);
+  background-position: center;
+  background-size: cover;
+  color: color('white');
+  height: 260px;
+}
+
+.priority-middle-container {
+  @include border-box-sizing;
+  @include typeset;
+  @include u-padding-y($theme-site-margins-width);
+  background-position: center;
+  background-size: cover;
+  color: color('white');
+  height: 300px;
 }
