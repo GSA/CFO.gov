@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!--    <link rel="stylesheet" href="/resources/demos/style.css">-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+            $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+        } );
+    </script>
+    <style>
+
+    </style>
+</head>
+<body>
+
+<div id="tabs">
+    <ul>
+        <li><a href="#tabs-1">The Latest</a></li>
+        <li><a href="#tabs-2">About Priority Area</a></li>
+        <li><a href="#tabs-3">Milestones</a></li>
+        <li><a href="#tabs-4">ESC Membership</a></li>
+        <li><a href="#tabs-5">Org Structure</a></li>
+
+    </ul>
+    <div id="tabs-1">
+        <h2>Content heading 1</h2>
+        {% for item in site.fmt limit:3 %}
+        <p>{{ item.date | date: '%B %d, %Y' }} - {{ item.filler }}</p>
+        {% endfor %}
+    </div>
+    <div id="tabs-2">
+        <h2>Content heading 2</h2>
+        <p>Content 2</p>
+    </div>
+    <div id="tabs-3">
+        <h2>Content heading 3</h2>
+        <p>Content 3</p>
+    </div>
+    <div id="tabs-4">
+        <h2>Content heading 4</h2>
+        <p>Content 4</p>
+    </div>
+    <div id="tabs-5">
+        <h2>Content heading 5</h2>
+        <p>Content 5</p>
+    </div>
+
+</div>
+
+
+</body>
+</html>

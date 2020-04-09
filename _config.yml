@@ -143,6 +143,12 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  fdt:
+    output: true
+  fmt:
+    output: true
+  grants:
+    output: true
 
 permalink: pretty
 

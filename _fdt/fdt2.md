@@ -3,7 +3,8 @@ layout: priority
 title: FDT ECS
 permalink: /fdt/
 type: fdt
-filler: some random text here to check the layout
+filler:  Text of second md file of type fdt
+date: March 20, 2020
 ---
 
 ## this is from FDT page
