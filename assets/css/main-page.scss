@@ -73,6 +73,43 @@
   height: 300px;
 }
 
+.circle-image {
+  border-radius: 50%;
+  border: 4px solid #337BB7;
+  width: 129px;
+}
+
+.priority-areas {
+  margin-left: 13em;
+}
+
+.priority-area-text-1{
+  font-size: 42px;
+}
+.square-image {
+  border-radius: 31%;
+  border: 3px solid #FB5A47;
+  width: 114px;
+  float: left;
+  margin: 2em;
+}
+
+.column {
+  float: left;
+  width: 24.33%;
+  padding-top: 3em;
+  padding-left: 4em;
+  text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 
 .priority-bottom-container {
   @include border-box-sizing;
