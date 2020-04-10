@@ -149,6 +149,8 @@ collections:
     output: true
   grants:
     output: true
+  members:
+    output: true
 
 permalink: pretty
 
