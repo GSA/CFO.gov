@@ -75,21 +75,21 @@
 
 .circle-image {
   border-radius: 50%;
-  border: 4px solid #337BB7;
-  width: 129px;
+  width: 110px;
 }
 
 .priority-areas {
-  margin-left: 13em;
+  margin-left: 7em;
 }
 
 .priority-area-text-1{
-  font-size: 42px;
+  font-size: 50px;
+  padding-top: .75em;
+  font-family: public_sansmedium;
 }
-.square-image {
-  border-radius: 31%;
-  border: 3px solid #FB5A47;
-  width: 114px;
+.circle-image-1 {
+  border-radius: 50%;
+  width: 164px;
   float: left;
   margin: 2em;
 }
@@ -107,5 +107,11 @@
   content: "";
   clear: both;
   display: table;
+}
+
+.section_font {
+  font-family: public_sansmedium;
+  color: gray;
+  font-size: 23px;
 }
 
