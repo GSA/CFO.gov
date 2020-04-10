@@ -43,8 +43,27 @@ title: Priority
 
 </section>
 
-
 {{ content }}
+
+<section class="priority-middle-container usa-graphic_list" style="background-image: url('{{site.baseurl}}/assets/images/priority-middle-image.png');">
+
+{% if page.type == "fdt" %}
+    {% include priority_fdt_sidenav.html %}
+{% endif %}
+
+{% if page.type == "fmt" %}
+    {% include priority_fmt_sidenav.html %}
+{% endif %}
+
+{% if page.type == "grant" %}
+    {% include priority_grants_sidenav.html %}
+{% endif %}
+
+</section>
+
+
+
+
 
 
 <button onclick="topFunction()" id="backtotop" title="Go to top">Return to Top</button>
