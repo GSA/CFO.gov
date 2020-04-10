@@ -1,7 +1,7 @@
 ---
 layout: priority
 title: FDT ECS
-permalink: /fdt/
+permalink: /fdt1/
 type: fdt
 filler: Text of first md file of type fdt
 date: March 13, 2020
