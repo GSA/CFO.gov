@@ -1,9 +1,13 @@
 ---
+bio-image:
+bio-image-alt-text:
+layout: bio
+permalink: /bio/mr-gerard-badorrek/
 name : MR. GERARD BADORREK
 department: GENERAL SERVICES ADMINISTRATION
 title: CHIEF FINANCIAL OFFICER
-img:
-description: Gerard Badorrek was named the Chief Financial Officer of the U.S. General Services Administration (GSA) effective December 2014.
+---
+   Gerard Badorrek was named the Chief Financial Officer of the U.S. General Services Administration (GSA) effective December 2014.
              
    In this role, he is responsible for the management of GSA’s $24 billion budget. As the senior executive at GSA who is responsible for all the financial programs of the agency, he is accountable for providing sound financial management across GSA and leads and oversees all financial functions and activities, including Strategic Planning, Budgeting, Accounting, Analytics and Reporting, Financial Policies, Financial Operations and Audits.
              
@@ -15,4 +19,3 @@ description: Gerard Badorrek was named the Chief Financial Officer of the U.S. G
   
    Mr. Badorrek has an MBA degree from the Graduate School of Business at Stanford University, a Masters in Economics from Case Western Reserve University and a Bachelor of Science degree in Operations Research and Industrial Engineering at Cornell University.
 
----

@@ -1,9 +1,13 @@
 ---
+bio-image:
+bio-image-alt-text:
+layout: bio
+permalink: /bio/ms-lynn-moaney/
 name : MS. LYNN MOANEY
 department: DEPARTMENT OF AGRICULTURE
 title: DEPUTY CHIEF FINANCIAL OFFICER
-img:
-description: Ms. Moaney has over 30 years developing and maintaining financial standards across the Federal Government and a proven record of leading organizational initiatives. Experience includes implementation of financial and administrative systems, budget formulation and execution, acquisitions, audit, risk management, shared services, policy development and financial operations support.
+---
+   Ms. Moaney has over 30 years developing and maintaining financial standards across the Federal Government and a proven record of leading organizational initiatives. Experience includes implementation of financial and administrative systems, budget formulation and execution, acquisitions, audit, risk management, shared services, policy development and financial operations support.
              
    Currently, Ms. Moaney is the Deputy Chief Financial Officer (DCFO) of the U.S. Department of Agriculture. During a time of great transition, she stands firmly at the helm as an example of strong leadership for the Department. She is well respected in the management community and and has earned the trust of her colleagues and government counterparts on important issues facing the federal government.
              
@@ -13,4 +17,3 @@ description: Ms. Moaney has over 30 years developing and maintaining financial s
              
    Prior to this position, Ms. Moaney served as the Deputy Chief Financial Officer at the Federal Communications Commission where she was responsible for the day-to-day management and development of financial systems, budget, audit findings and remediation, financial statements and new or proposed changes to policy and procedures that affect financial operations.
 
----

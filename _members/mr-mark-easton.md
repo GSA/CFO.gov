@@ -1,9 +1,13 @@
 ---
+bio-image:
+bio-image-alt-text:
+layout: bio
+permalink: /bio/mr-mark-easton/
 name : MR. MARK EASTON
 department: DEPARTMENT OF DEFENSE
 title: DEPUTY CHIEF FINANCIAL OFFICER
-img:
-description: Mr. Mark Easton has served as the Deputy Chief Financial
+---
+   Mr. Mark Easton has served as the Deputy Chief Financial
              Officer (DCFO), in the Office of the Under Secretary of
              Defense (Comptroller) since May 2009. He is the principal
              advisor to the Under Secretary of Defense (Comptroller)/
@@ -45,4 +49,3 @@ description: Mr. Mark Easton has served as the Deputy Chief Financial
              awards, including the Presidential Rank Award (Distinguished and Meritorious), the DoD Medal
              for Distinguished Civilian Service, the Defense Superior Service Medal, and two Navy Civilian
              Superior Service Awards.
----
