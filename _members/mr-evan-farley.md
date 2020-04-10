@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/01/Evan-Farley-July-2019-Mug-e1570133089440.jpg
+bio-image-alt-text: EVAN FARLEY
 layout: bio
 permalink: /bio/mr-evan-farley/
 name : MR. EVAN FARLEY

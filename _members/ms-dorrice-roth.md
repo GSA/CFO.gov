@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/Dorrice-Roth.jpg
+bio-image-alt-text: DORRICE ROTH
 layout: bio
 permalink: /bio/ms-dorrice-roth/
 name : MS. DORRICE ROTH

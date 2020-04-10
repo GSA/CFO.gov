@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/09/stevekunze.png
+bio-image-alt-text: STEPHEN KUNZE
 layout: bio
 permalink: /bio/mr-stephen-kunze/
 name : MR. STEPHEN KUNZE

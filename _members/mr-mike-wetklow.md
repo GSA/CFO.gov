@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/01/Mike.png
+bio-image-alt-text: MIKE WETKLOW
 layout: bio
 permalink: /bio/mr-mike-wetklow/
 name : MR. MIKE WETKLOW

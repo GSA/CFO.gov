@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/01/gaspariniJ-photo.jpg
+bio-image-alt-text: JOANNE GASPARINI
 layout: bio
 permalink: /bio/ms-joanne-gasparini/
 name: MS. JOANNE GASPARINI

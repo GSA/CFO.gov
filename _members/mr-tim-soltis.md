@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/01/Tim-photo.jpg
+bio-image-alt-text: TIM SOLTIS
 layout: bio
 permalink: /bio/mr-tim-soltis/
 name : MR. TIM SOLTIS

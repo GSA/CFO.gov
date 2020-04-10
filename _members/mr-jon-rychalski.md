@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/02/Rychalski_021218.jpg
+bio-image-alt-text: JON RYCHALSKI
 layout: bio
 permalink: /bio/mr-jon-rychalski/
 name : MR. JON RYCHALSKI

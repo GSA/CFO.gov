@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/02/Teresa_Grancorvitz-2.png
+bio-image-alt-text: TERESA GRANCORVITZ
 layout: bio
 permalink: /bio/ms-teresa-grancorvitz/
 name : MS. TERESA GRANCORVITZ
