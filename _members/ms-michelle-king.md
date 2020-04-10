@@ -1,9 +1,13 @@
 ---
+bio-image:
+bio-image-alt-text:
+layout: bio
+permalink: /bio/ms-michelle-king/
 name : MS. MICHELLE KING
 department: SOCIAL SECURITY ADMINISTRATION
 title: CHIEF FINANCIAL OFFICER
-img:
-description: Michelle King became the Deputy Commissioner for Budget, Finance, Quality, and Management (BFQM) for the Social Security Administration (SSA) in November 2015.  In this role, Michelle serves as the agency’s Chief Financial Officer and is accountable for an over $940 billion program budget and an over $11 billion administrative budget.  Michelle is also responsible for providing executive leadership for the following agency programs and operations:  acquisition and grants; anti-fraud programs; audit liaison; budget; financial policy and operations; facilities and supply management; media management; quality improvement; quality review; and security and emergency preparedness.
+---
+   Michelle King became the Deputy Commissioner for Budget, Finance, Quality, and Management (BFQM) for the Social Security Administration (SSA) in November 2015.  In this role, Michelle serves as the agency’s Chief Financial Officer and is accountable for an over $940 billion program budget and an over $11 billion administrative budget.  Michelle is also responsible for providing executive leadership for the following agency programs and operations:  acquisition and grants; anti-fraud programs; audit liaison; budget; financial policy and operations; facilities and supply management; media management; quality improvement; quality review; and security and emergency preparedness.
              
    Prior to her current appointment, Michelle was the Acting Assistant Deputy Commissioner for BFQM.  She also previously served as the Associate Commissioner for the Office of Anti-Fraud Programs (OAFP).  In this role, Michelle provided executive oversight and accountability for SSA’s anti-fraud initiatives.  Michelle was responsible for implementing the agency’s anti-fraud framework, providing a comprehensive approach to agency fraud detection and prevention, and aligning agency efforts with industry standards.  Michelle served as the Deputy Associate Commissioner for the Office of Budget, prior to joining OAFP.  Michelle has also held various senior executive leadership positions throughout the agency, including Associate Commissioner for the Office of Income Security Programs in the Office of Retirement and Disability Policy and in the Office of Public Service and Operations Support in the Office of Operations.
              
@@ -11,4 +15,3 @@ description: Michelle King became the Deputy Commissioner for Budget, Finance, Q
              
    Michelle earned her Masters of Public Administration from Northern Illinois University in 1997 with a concentration in Public Policy and Organizational Development.  She graduated cum laude with a dual BA in Political Science and Public Administration from Augustana College in Rock Island, Illinois in 1993 and earned a minor in Speech Communications.  Michelle has an Executive Leadership certificate from American University.  She is also a graduate of the Duke Executive Leadership and Federal Executive Institute’s Leadership in a Democratic Society programs.
 
----

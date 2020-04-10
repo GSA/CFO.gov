@@ -1,9 +1,13 @@
 ---
+bio-image:
+bio-image-alt-text:
+layout: bio
+permalink: /bio/mr-mike-wetklow/
 name : MR. MIKE WETKLOW
 department: NATIONAL SCIENCE FOUNDATION
 title: DEPUTY CHIEF FINANCIAL OFFICER & DIRECTOR OF THE DIVISION OF FINANCIAL MANAGEMENT (DFM)
-img:
-description: Mike Wetklow is the National Science Foundation’s (NSF) Deputy Chief Financial Officer and Division Director for Financial Management. At NSF Mike supports the Chief Financial Officer (CFO) in executing responsibilities of the CFO Act, serving as NSF’s top financial management official, responsible for financial reporting, risk management, financial systems, and maintaining the control and disbursement of over $7 billion of Federal funds. Currently focused on modernizing accounting functions to include robotic processing automation, cyber security, data analytics, enterprise risk management and exploring block chain.
+---
+   Mike Wetklow is the National Science Foundation’s (NSF) Deputy Chief Financial Officer and Division Director for Financial Management. At NSF Mike supports the Chief Financial Officer (CFO) in executing responsibilities of the CFO Act, serving as NSF’s top financial management official, responsible for financial reporting, risk management, financial systems, and maintaining the control and disbursement of over $7 billion of Federal funds. Currently focused on modernizing accounting functions to include robotic processing automation, cyber security, data analytics, enterprise risk management and exploring block chain.
              
    Before NSF, for four years, Mike was a Branch Chief in the Office of Management and Budget’s (OMB) Office of Federal Financial Management (OFFM) responsible for leadership, policy, and implementation of OMB efforts to initiate government-wide financial management improvements. Most significantly, while at OMB he led efforts to develop the Federal Government’s first ever guidance on Enterprise Risk Management in OMB Circular No. A-123, Management’s Responsibility for Enterprise Risk Management and Internal Control.
              
@@ -11,4 +15,3 @@ description: Mike Wetklow is the National Science Foundation’s (NSF) Deputy Ch
              
    Mike received his undergraduate degree in accounting and his graduate degree in public administration both from the University of Maryland at College Park. Mike is a Certified Public Accountant and Certified Government Financial Manager.
 
----

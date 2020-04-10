@@ -1,9 +1,13 @@
 ---
+bio-image:
+bio-image-alt-text:
+layout: bio
+permalink: /bio/ms-lana-t-hurdle/
 name : MS. LANA T. HURDLE
 department: DEPARTMENT OF TRANSPORTATION
 title: DEPUTY ASSISTANT SECRETARY FOR BUDGET AND PROGRAMS & ACTING CHIEF FINANCIAL OFFICER
-img:
-description: Lana Hurdle is the Deputy Assistant Secretary for Budget and Programs at the United States Department of Transportation.  She is the principal career Deputy and the senior member of the Chief Financial Officer and Assistant Secretary for Budget and Programs team.  Lana directs the overall budget and program performance process for the Department and supports the leadership team on a wide variety of projects.  Most recently, Lana has served as the Department’s Presidential Transition Director providing advice and assistance to the senior career staff in preparing for a change in Administrations.
+---
+   Lana Hurdle is the Deputy Assistant Secretary for Budget and Programs at the United States Department of Transportation.  She is the principal career Deputy and the senior member of the Chief Financial Officer and Assistant Secretary for Budget and Programs team.  Lana directs the overall budget and program performance process for the Department and supports the leadership team on a wide variety of projects.  Most recently, Lana has served as the Department’s Presidential Transition Director providing advice and assistance to the senior career staff in preparing for a change in Administrations.
              
    Since the passage of the Fixing America’s Surface Transportation Act, Lana has been a key resource in the implementation of the Department’s new “Build America Bureau”.  When fully implemented, the Bureau will provide a modern center for innovative finance solutions that will support transportation projects throughout the Nation.   Lana co-lead the Department’s Transportation Investments Generating Economic Recovery (TIGER) Team charged with implementing the 2009 Recovery Act.   This team successfully obligated $48.1 billion on transportation projects throughout the Nation creating jobs and assisting local economies.  From 2001 through 2008, Lana served as the Department’s Director of Budget and Program Performance and was responsible for the formulation, justification, and execution of the Department’s annual budget requests.
              
@@ -15,4 +19,3 @@ description: Lana Hurdle is the Deputy Assistant Secretary for Budget and Progra
              
    She received her Bachelor’s Degree in Government and Foreign Affairs from the University of Virginia in 1977.  Lana lives in Arlington, Virginia with her husband Robert.  Lana and Robert are active dog foster parents with “A Forever Home Dog Rescue” and are devoted to their canine companions Riesling and Pearl.
 
----

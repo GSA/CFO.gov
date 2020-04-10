@@ -1,9 +1,13 @@
 ---
+bio-image:
+bio-image-alt-text:
+layout: bio
+permalink: /bio/mr-tim-soltis/
 name : MR. TIM SOLTIS
 department: OFFICE OF MANAGEMENT AND BUDGET
 title: DEPUTY CONTROLLER, OFFICE OF FEDERAL FINANCIAL MANAGEMENT
-img:
-description: Tim Soltis is the Deputy Controller in Office of Federal Financial Management. In that role, he serves as a
+---
+  Tim Soltis is the Deputy Controller in Office of Federal Financial Management. In that role, he serves as a
              senior member of the Office of Management and Budget&#39;s (OMB) management team supporting the
              President&#39;s Management Agenda (PMA) across multiple Cross Agency Priority (CAP) goals and in
              providing policy to the federal financial management and financial assistance communities to support
@@ -17,4 +21,3 @@ description: Tim Soltis is the Deputy Controller in Office of Federal Financial 
              
    A Cleveland, Ohio native, Tim earned his Bachelor of Science degree in accounting from Case Western Reserve University, and he has completed executive leadership programs at Harvard and the Federal Executive Institute. He is a Certified Public Accountant and Certified Information Systems Auditor.
 
----

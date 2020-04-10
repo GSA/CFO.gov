@@ -1,9 +1,13 @@
 ---
+bio-image:
+bio-image-alt-text:
+layout: bio
+permalink: /bio/mr-edward-murray/
 name : MR. EDWARD MURRAY
 department: DEPARTMENT OF VETERANS AFFAIRS
 title: PRINCIPAL DEPUTY ASSISTANT SECRETARY FOR MANAGEMENT AND DEPUTY CHIEF FINANCIAL OFFICER
-img:
-description: Edward Joseph Murray was appointed as the Interim Assistant Secretary for Management and Interim Chief Financial Officer for the Department of Veterans Affairs on April 1, 2015. In this role, he is responsible for the overall budget and financial management of VA’s $163+ billion budget as well as the Department’s performance management, business oversight, asset enterprise management, and corporate analysis and evaluations programs. Prior to assuming these duties, Mr. Murray served as the Principal Deputy Assistant Secretary (PDAS) for the Office of Management. As the PDAS, Mr. Murray was the principle advisor to the Assistant Secretary for Management on operations including budget, performance management, business oversight, enterprise risk management, and asset enterprise management programs. Mr. Murray also served as VA’s Deputy Chief Financial Officer (DCFO).
+---
+   Edward Joseph Murray was appointed as the Interim Assistant Secretary for Management and Interim Chief Financial Officer for the Department of Veterans Affairs on April 1, 2015. In this role, he is responsible for the overall budget and financial management of VA’s $163+ billion budget as well as the Department’s performance management, business oversight, asset enterprise management, and corporate analysis and evaluations programs. Prior to assuming these duties, Mr. Murray served as the Principal Deputy Assistant Secretary (PDAS) for the Office of Management. As the PDAS, Mr. Murray was the principle advisor to the Assistant Secretary for Management on operations including budget, performance management, business oversight, enterprise risk management, and asset enterprise management programs. Mr. Murray also served as VA’s Deputy Chief Financial Officer (DCFO).
              
    Mr. Murray served as the Executive Director for Operations, Office of Management from February 2014 to July 2014. Between December 2004 and February 2014, Mr. Murray served as VA’s Deputy Assistant Secretary for Finance and DCFO, responsible for Department-wide financial policy formulation and financial statement preparation; managing enterprise financial operations, including VA’s Financial Services Center in Austin, Texas, and VA’s Debt Management Center in St. Paul, Minnesota; and corporate financial applications including VA core accounting, payroll, and human resources management systems.
              
@@ -11,4 +15,3 @@ description: Edward Joseph Murray was appointed as the Interim Assistant Secreta
              
    Mr. Murray has received numerous civil service awards to include twice being a Presidential Rank Award (Meritorious) recipient, in 2006 and 2011. Further recognition includes the 2011 Association of Government Accountants Achievement of the Year Award and completion of VA’s Executive Fellows Program in 2007. Mr. Murray has also received numerous distinguished awards from the Commandant of the Coast Guard, Secretary of Transportation and the American Society of Military Comptrollers for his innovative leadership in implementing commercial technology in Federal government. Mr. Murray received his Bachelor of Science degree in Accounting from Virginia Tech in Blacksburg, Virginia, and a Masters degree in Information Systems Management from the University of Denver.
 
----

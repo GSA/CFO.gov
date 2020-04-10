@@ -1,9 +1,13 @@
 ---
+bio-image:
+bio-image-alt-text:
+layout: bio
+permalink: /bio/ms-jolene-lauria/
 name : MS. JOLENE LAURIA
 department: DEPARTMENT OF JUSTICE
 title: DEPUTY CHIEF FINANCIAL OFFICER
-img:
-description: Jolene Ann Lauria is the Deputy Assistant Attorney General/Controller for the Department of Justice (DOJ). She is the principal financial management and budget expert for the Department of Justice. In this capacity, she is responsible for the development and execution of a budget of over $30 billion, DOJ’s Performance and Accountability Reports, and the operational responsibilities which are at the core of executing one of the nation’s largest public sector budgets. This budget spans over 40 separate component organizations, including high-profile law enforcement organizations, such as the Federal Bureau of Investigation, Drug Enforcement Administration, the United States Marshals Service, the Bureau of Alcohol, Tobacco, Firearms and Explosives, and the Bureau of Prisons. Her responsibilities also include the issuance of the Department’s public financial statements, its accounting operations, and operational control over Departmental funds such as the Working Capital Fund ($1.7 billion), the Assets Forfeiture Fund ($2.1 billion), and the Civil Debt Collection Fund ($180 million).  Jolene also serves as the Department’s Performance Improvement Officer.  In all of these capacities, she makes critical strategic planning and resource recommendations to the Attorney General, Senior Policy Staff, the White House and Congress.
+---
+ Jolene Ann Lauria is the Deputy Assistant Attorney General/Controller for the Department of Justice (DOJ). She is the principal financial management and budget expert for the Department of Justice. In this capacity, she is responsible for the development and execution of a budget of over $30 billion, DOJ’s Performance and Accountability Reports, and the operational responsibilities which are at the core of executing one of the nation’s largest public sector budgets. This budget spans over 40 separate component organizations, including high-profile law enforcement organizations, such as the Federal Bureau of Investigation, Drug Enforcement Administration, the United States Marshals Service, the Bureau of Alcohol, Tobacco, Firearms and Explosives, and the Bureau of Prisons. Her responsibilities also include the issuance of the Department’s public financial statements, its accounting operations, and operational control over Departmental funds such as the Working Capital Fund ($1.7 billion), the Assets Forfeiture Fund ($2.1 billion), and the Civil Debt Collection Fund ($180 million).  Jolene also serves as the Department’s Performance Improvement Officer.  In all of these capacities, she makes critical strategic planning and resource recommendations to the Attorney General, Senior Policy Staff, the White House and Congress.
              
    Ms. Lauria is the lead executive responsible for implementing DOJ’s Unified Financial Management System, turning a long-standing Departmental vision of operating a single modern financial management system into a reality.
              
@@ -11,4 +15,3 @@ description: Jolene Ann Lauria is the Deputy Assistant Attorney General/Controll
              
    Ms. Lauria has a B.S. in Political Science, a certificate in Public Administration from the University of Maryland, Baltimore County, and has a Master’s degree in Public Administration (MPA) from the American University. Jolene is also a graduate of the Federal Bureau of Investigation National Academy.  She was the recipient of the Patricia Roberts-Harris Fellowship at the American University and the American University’s Arthur S. Flemming Award for Exemplary Public Service.  Ms. Lauria was awarded the Presidential Rank Award in 2010 (Distinguished) and 2006 (Meritorious), and in 2010, she received the Attorney General’s Award, the highest honor granted by the Department. Jolene was twice a Federal 100 winner, in 2009 and 2015. This prestigious award recognized her risk-taking, vision and pioneering spirit in the federal IT community.
 
----
