@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2017/02/lana_hurdle_bio.jpg
+bio-image-alt-text: LANA T. HURDLE
 layout: bio
 permalink: /bio/ms-lana-t-hurdle/
 name : MS. LANA T. HURDLE

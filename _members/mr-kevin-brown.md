@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/01/Labor_Department_Seal-e1574704554891.png
+bio-image-alt-text: KEVIN BROWN
 layout: bio
 permalink: /bio/mr-kevin-brown/
 name : MR. KEVIN BROWN

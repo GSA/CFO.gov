@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/05/dewit-1.png
+bio-image-alt-text: JEFFREY DEWIT
 layout: bio
 permalink: /bio/mr-jeffrey-dewit/
 name : MR. JEFFREY DEWIT

@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/01/Sheila-Conley1.png
+bio-image-alt-text: SHEILA CONLEY
 layout: bio
 permalink: /bio/ms-sheila-conley/
 name : MS. SHEILA CONLEY

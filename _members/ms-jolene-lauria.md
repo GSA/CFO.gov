@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/Jolene-Lauria.jpg
+bio-image-alt-text: JOLENE LAURIA
 layout: bio
 permalink: /bio/ms-jolene-lauria/
 name : MS. JOLENE LAURIA

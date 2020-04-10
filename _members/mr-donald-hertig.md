@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/Don-Hertig_EOP.jpg
+bio-image-alt-text: DONALD HERTIG
 layout: bio
 permalink: /bio/mr-donald-hertig/
 name : MR. DONALD HERTIG

@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/Dennis-Coleman.jpg
+bio-image-alt-text: DENNIS COLEMAN
 layout: bio
 permalink: /bio/mr-dennis-coleman/
 name : MR. DENNIS COLEMAN

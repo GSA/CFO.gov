@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/David-Bloom.jpg
+bio-image-alt-text: DAVID BLOOM
 layout: bio
 permalink: /bio/mr-david-bloom/
 name : MR. DAVID BLOOM
