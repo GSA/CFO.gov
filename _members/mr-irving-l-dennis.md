@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/02/MemberPhotoTemplate_Dennis.jpg
+bio-image-alt-text: IRVING L. DENNIS
 layout: bio
 permalink: /bio/mr-irving-l-dennis/
 name : MR. IRVING L. DENNIS

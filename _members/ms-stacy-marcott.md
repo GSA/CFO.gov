@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/Stacy-Marcott.jpg
+bio-image-alt-text: STACY MARCOTT
 layout: bio
 permalink: /bio/ms-stacy-marcott/
 name : MS. STACY MARCOTT

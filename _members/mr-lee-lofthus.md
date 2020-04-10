@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/lofthus_lee.jpg
+bio-image-alt-text: LEE LOFTHUS
 layout: bio
 permalink: /bio/mr-lee-lofthus/
 name : MR. LEE LOFTHUS

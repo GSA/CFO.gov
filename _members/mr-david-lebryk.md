@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/davdlebryk.jpg
+bio-image-alt-text: DAVID LEBRYK
 layout: bio
 permalink: /bio/mr-david-lebryk/
 name : MR. DAVID LEBRYK

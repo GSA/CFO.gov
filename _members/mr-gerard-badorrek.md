@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/Gerard-Badorrek.jpg
+bio-image-alt-text: GERARD BADORREK
 layout: bio
 permalink: /bio/mr-gerard-badorrek/
 name : MR. GERARD BADORREK

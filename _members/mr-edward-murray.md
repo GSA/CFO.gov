@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/Edward-Murray.jpg
+bio-image-alt-text: EDWARD MURRAY
 layout: bio
 permalink: /bio/mr-edward-murray/
 name : MR. EDWARD MURRAY

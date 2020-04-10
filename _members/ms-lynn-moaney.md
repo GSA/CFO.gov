@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/02/MemberPhoto_Moaney.png
+bio-image-alt-text: LYNN MOANEY
 layout: bio
 permalink: /bio/ms-lynn-moaney/
 name : MS. LYNN MOANEY

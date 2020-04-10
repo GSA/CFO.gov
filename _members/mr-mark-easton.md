@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2018/01/Mark-Easton-Sep-2016.jpg
+bio-image-alt-text: MARK EASTON
 layout: bio
 permalink: /bio/mr-mark-easton/
 name : MR. MARK EASTON

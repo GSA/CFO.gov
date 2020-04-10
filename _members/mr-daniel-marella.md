@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/01/DANIEL-MARELLA.jpg
+bio-image-alt-text: DANIEL MARELLA
 layout: bio
 permalink: /bio/mr-daniel-marella/
 name : MR. DANIEL MARELLA

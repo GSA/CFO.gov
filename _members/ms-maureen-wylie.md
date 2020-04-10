@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/Maureen-Wylie1.jpg
+bio-image-alt-text: MAUREEN WYLIE
 layout: bio
 permalink: /bio/ms-maureen-wylie/
 name : MS. MAUREEN WYLIE

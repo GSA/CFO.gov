@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image: /wp-content/uploads/2016/02/Michelle-King.jpg
+bio-image-alt-text: MICHELLE KING
 layout: bio
 permalink: /bio/ms-michelle-king/
 name : MS. MICHELLE KING
