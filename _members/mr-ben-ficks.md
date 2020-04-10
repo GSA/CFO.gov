@@ -1,6 +1,6 @@
 ---
-bio-image:
-bio-image-alt-text:
+bio-image:/wp-content/uploads/2018/01/Ben-Ficks-6.png
+bio-image-alt-text:MR. L. BEN FICKS
 layout: bio
 permalink: /bio/mr-ben-ficks/
 name : MR. L. BEN FICKS
