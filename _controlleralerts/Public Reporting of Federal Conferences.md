@@ -1,3 +1,4 @@
+---
 posted-date: 2012-12-12
 author: CFO Council
 title: "Public Reporting of Federal Conferences"
