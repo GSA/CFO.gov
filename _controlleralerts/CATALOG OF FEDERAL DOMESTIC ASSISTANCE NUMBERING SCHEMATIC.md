@@ -1,6 +1,7 @@
 ---
 posted-date: 2016-12-22
 author: CFO Council
+layout: controlleralertsdetails
 title: "CATALOG OF FEDERAL DOMESTIC ASSISTANCE NUMBERING SCHEMATIC"
 permalink: /controller-alert-catalog-of-federal-domestic-assistance-numbering-schematic/
 ---

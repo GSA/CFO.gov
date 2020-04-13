@@ -1,6 +1,7 @@
 ---
 posted-date: 2013-01-17
 author: CFO Council
+layout: controlleralertsdetails
 title: "THE IMPROPER PAYMENTS ELIMINATION AND RECOVERY IMPROVEMENT ACT AND THE DO NOT PAY INITIATIVE"
 permalink: /controller-alert-the-improper-payments-elimination-and-recovery-improvement-act-and-the-do-not-pay-initiative-1.17.13/
 ---

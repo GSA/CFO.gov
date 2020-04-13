@@ -1,6 +1,7 @@
 ---
 posted-date: 2014-06-23
 author: CFO Council
+layout: controlleralertsdetails
 title: "FEDERAL FINANCIAL MANAGEMENT LEADERSHIP PROGRAMS"
 permalink: /controller-alert-federal-financial-community-leadership-programs/
 ---

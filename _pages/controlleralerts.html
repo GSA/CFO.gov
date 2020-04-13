@@ -8,8 +8,8 @@ permalink: /controller-alerts/
     <p>THE LATEST ALERTS-----------</p><br>
     {% assign sorted = site.controlleralerts | sort: 'posted-date' | reverse %}
     {% for alerts in sorted %}
-    <div>
+    <a href="{{ site.baseurl }}{{ alerts.permalink }}" style="text-decoration: none"><div>
          <span>{{ alerts.posted-date | date: "%m/%d/%Y" }}: {{ alerts.title }}</span><br><br><br>
-    </div>
+    </div></a>
     {% endfor %}
 </div>
