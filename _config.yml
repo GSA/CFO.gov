@@ -72,7 +72,7 @@ primary_navigation:
     children:
       - name: Financial Data Transformation
         url: "/fdt/"
-      - name: Fisical Management Transformation
+      - name: Fiscal Management Transformation
         url: "/fmt/"
       - name: Grants Optimization
         url: "/grants/"
