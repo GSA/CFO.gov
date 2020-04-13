@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div>
+    <h2>CONTROLLER ALERT: {{ page.title }}</h2>
+</div>
+<div>
+    <p><i>Posted By: {{ page.author}}, On: {{ page.posted-date | date: "%m/%d/%Y" }}</i></p>
+</div>
+<div>
+    {{ content }}
+</div>
+<br>
+<p class="card-tag"><a href="{{site.baseurl}}/controller-alerts/">&#10094; &nbsp; Back to Controller Alerts</a> </p>

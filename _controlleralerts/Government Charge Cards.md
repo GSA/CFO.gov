@@ -1,6 +1,7 @@
 ---
 posted-date: 2014-05-09
 author: CFO Council
+layout: controlleralertsdetails
 title: "Government Charge Cards"
 permalink: /controller-alert-government-charge-cards/
 ---

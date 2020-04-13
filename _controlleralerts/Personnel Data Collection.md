@@ -1,6 +1,7 @@
 ---
 posted-date: 2016-10-13
 author: CFO Council
+layout: controlleralertsdetails
 title: "Personnel Data Collection"
 permalink: /controller-alert-personnel-Data-Collection/
 ---

@@ -1,6 +1,7 @@
 ---
 posted-date: 2017-04-03
 author: CFO Council
+layout: controlleralertsdetails
 title: "ACKNOWLEDGING INCONSISTENT RECORDS FOR A SUBSET OF PUBLIC FINANCIAL ASSISTANCE DATA FOR ENTITY ADDRESS ZIP+4"
 permalink: /controller-alert-acknowledging-inconsistent-records-for-a-subset-of-public-financial-assistance-data-for-entity-address-zip4/
 ---
