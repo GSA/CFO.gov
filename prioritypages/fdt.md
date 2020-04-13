@@ -7,6 +7,5 @@ description: The description belongs to FDT page
 filler: some random text here to check the layout
 ---
 
-## this is from FDT page
 
 

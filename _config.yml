@@ -70,12 +70,16 @@ primary_navigation:
   - name: Priority Areas
     url: /
     children:
-      - name: FDT page
+      - name: Financial Data Transformation
         url: "/fdt/"
-      - name: FMT page
+      - name: Fiscal Management Transformation
         url: "/fmt/"
-      - name: Grants Page
+      - name: Grants Optimization
         url: "/grants/"
+      - name: Getting Payments Rights
+        url: "/gpr/"
+      - name: Enterprise Risk Management
+        url: "/erm/"
   - name: Policies and Guidance
     children:
       - name: Navigation link
