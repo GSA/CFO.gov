@@ -15,7 +15,7 @@ OFFM is pleased to announce the Financial Management Leadership Program. The yea
 
 More information can be found in the attached brochure and note that applications for the 2014-2015 year are due to OFFM by July 15.
 
-[Financial Management Leadership Program Brochure](/assets/files/2014-06-16-Financial-Management-Leadership-Program-Brochure.docx)
+[Financial Management Leadership Program Brochure]({{site.baseurl}}/assets/files/2014-06-16-Financial-Management-Leadership-Program-Brochure.docx)
 
 CFO Council Fellows
 
@@ -25,6 +25,6 @@ Selected Fellows remain in their current position at their home agency. Fellows 
 
 CFOC Fellows are rising stars in grades 9-12 and are nominated by the OCFO. Nominations are due August 1st for a start date in September. Please complete the application form to nominate a member of your staff.
 
-[CFOC Fellows 2014.2015 Application](/assets/files/CFOC-Fellows-2014.2015-Application.docx)
+[CFOC Fellows 2014.2015 Application]({{site.baseurl}}/assets/files/CFOC-Fellows-2014.2015-Application.docx)
 
 Please direct any questions to Mary Reding ([mary.reding@cfoc.gov](mary.reding@cfoc.gov)).

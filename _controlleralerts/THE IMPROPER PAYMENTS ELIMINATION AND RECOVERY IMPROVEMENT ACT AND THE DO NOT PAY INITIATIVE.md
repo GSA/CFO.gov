@@ -6,4 +6,4 @@ title: "THE IMPROPER PAYMENTS ELIMINATION AND RECOVERY IMPROVEMENT ACT AND THE D
 permalink: /controller-alert-the-improper-payments-elimination-and-recovery-improvement-act-and-the-do-not-pay-initiative-1.17.13/
 ---
 
-[THE IMPROPER PAYMENTS ELIMINATION AND RECOVERY IMPROVEMENT ACT AND THE DO NOT PAY INITIATIVE](/assets/files/Controller-Alert-The-Improper-Payments-Elimination-and-Recovery-Improvement-Act-and-the-Do-Not-Pay-Initiative-1.17.13.pdf)
+[THE IMPROPER PAYMENTS ELIMINATION AND RECOVERY IMPROVEMENT ACT AND THE DO NOT PAY INITIATIVE]({{site.baseurl}}/assets/files/Controller-Alert-The-Improper-Payments-Elimination-and-Recovery-Improvement-Act-and-the-Do-Not-Pay-Initiative-1.17.13.pdf)
