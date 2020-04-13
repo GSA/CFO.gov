@@ -9,10 +9,7 @@
 // default mode hide banner
 
 @media screen and (min-width: 640px) {
-  .site-margin {
-    margin-left: 10em;
-    margin-right: 10em;
-  }
+
 }
 
 .logo-size {
@@ -54,79 +51,37 @@
 }
 
 
-.priority-top-container {
-  @include border-box-sizing;
-  @include typeset;
-  @include u-padding-y($theme-site-margins-width);
-  background-position: center;
-  background-size: cover;
-  color: color('white');
-  height: 260px;
-}
 
-.priority-middle-container {
-  @include border-box-sizing;
-  @include typeset;
-  @include u-padding-y($theme-site-margins-width);
-  background-position: center;
-  background-size: cover;
-  color: color('white');
-  height: 300px;
-}
+
 
 .circle-image {
   border-radius: 50%;
   width: 110px;
 }
 
-.priority-areas {
-  margin-left: 7em;
+
+
+.priority-tag-line{
+
+}
+.priority-icons {
+  background-image: url('/assets/images/priority-middle-image1.jpg');
+  background-position: center;
 }
 
-.priority-area-text-1{
-  font-size: 50px;
-  padding-top: .75em;
-  font-family: public_sansmedium;
-}
-.circle-image-1 {
-  border-radius: 50%;
-  width: 164px;
-  float: left;
-  margin: 2em;
-}
 
-.column {
-  float: left;
-  width: 24.33%;
-  padding-top: 3em;
-  padding-left: 4em;
-  text-align: center;
-}
 
 /* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 
 .section_font {
   font-family: public_sansmedium;
-  color: #454545;
-  font-size: 23px;
+
 }
 
 
 
-.priority-bottom-container {
-  @include border-box-sizing;
-  @include typeset;
-  @include u-padding-y($theme-site-margins-width);
-  background-position: center;
-  background-size: cover;
-  color: color('white');
-  height: 500px;
-}
+
 
 .ui-tabs-vertical { width: 55em; }
 .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
