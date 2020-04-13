@@ -1,0 +1,40 @@
+---
+layout: default
+permalink: /members/
+---
+<!-- *****LOOP FOR MEMBERS PAGE *********-->
+<div class="grid-container font-sans-sm">
+<section class="usa-graphic-list padding-top-0" >
+    <div class="grid-container">
+        <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+
+            {% for bio in site.members %}
+            <div class="tablet:grid-col-4 container" style="padding:10px;">
+                <a style="color:black" href="{{ site.baseurl }}{{ bio.permalink }}">
+                    <div class="left">
+                        <img src="{{ site.baseurl }}{{ bio.bio-image }}">
+                    </div>
+                    <div class="right">
+                        {% assign member_name = bio.name | split: ' ' %}
+
+                        {% capture namecase %}{% for name_component in member_name %}{{ name_component | capitalize }} {% endfor %}{% endcapture %}
+                        <p><span class="name">{{ namecase }}<br></span>
+                            {% assign member_title = bio.title | split: ' ' %}
+
+                            {% capture titlecase %}{% for title_component in member_title %}{{ title_component | capitalize }} {% endfor %}{% endcapture %}
+
+                            {% assign member_department = bio.department | split: ' ' %}
+
+                            {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
+
+                            <span class="title">{{ titlecase }}, {{ deptcase }}</span></p>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+
+
+        </div>
+    </div>
+</section>
+</div>
