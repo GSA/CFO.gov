@@ -9,10 +9,7 @@
 // default mode hide banner
 
 @media screen and (min-width: 640px) {
-  .site-margin {
-    margin-left: 10em;
-    margin-right: 10em;
-  }
+
 }
 
 .logo-size {
@@ -79,20 +76,14 @@
   width: 110px;
 }
 
-.priority-areas {
-  margin-left: 7em;
-}
 
-.priority-area-text-1{
-  font-size: 50px;
-  padding-top: .75em;
-  font-family: public_sansmedium;
+
+.priority-tag-line{
+
 }
-.circle-image-1 {
-  border-radius: 50%;
-  width: 164px;
-  float: left;
-  margin: 2em;
+.priority-icons {
+  background-image: url('/assets/images/priority-middle-image1.jpg');
+  background-position: center;
 }
 
 .column {
@@ -112,8 +103,7 @@
 
 .section_font {
   font-family: public_sansmedium;
-  color: #454545;
-  font-size: 23px;
+
 }
 
 

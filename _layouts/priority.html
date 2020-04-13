@@ -5,47 +5,51 @@ title: Priority
 
 ---
 
-<section class="priority-top-container" style="background-image: url('{{site.baseurl}}/assets/images/priority-top-image1.png');">
-    <div class="priority-areas">
-        <img class="circle-image-1" src="{{site.baseurl}}/assets/images/logos/asset 13.jpg" alt="priority" />
-        <div class="priority-area-text-1">{{ page.title }}</div>
-        <div>{{ page.description }}</div>
-    </div>
-</section>
-<br>
-<section class="priority-middle-container usa-graphic_list" style="background-image: url('{{site.baseurl}}/assets/images/priority-middle-image1.jpg');">
-
-    <div class="row">
-        <div class="column">
-          <a href="#" style="text-decoration:none">  <img class="circle-image"
-                 src="{{site.baseurl}}/assets/images/logos/asset 9.jpg" alt="Guidance, Policies and Resources" /><BR>
-            <span class="section_font">Guidance, Policies and Resources</span></a><BR>
+<section class="usa-hero grid-container" style="background-image: url('{{site.baseurl}}/assets/images/priority-top-image1.png');">
+    <div class="grid-row grid-gap">
+        <div class="grid-col-auto grid-offset-1">
+            <img class="circle-card float-left" src="{{site.baseurl}}/assets/images/logos/asset 13.jpg" alt="priority" />
         </div>
-
-        <div class="column">
-            <a href="https://portal.max.gov/portal/home" style="text-decoration:none">  <img class="circle-image"
-                 src="{{site.baseurl}}/assets/images/logos/asset 10.jpg" alt="OMB Max" /><BR>
-                <span class="section_font">OMB Max</span></a><BR>
-        </div>
-
-        <div class="column">
-          <a href="#" style="text-decoration:none">  <img class="circle-image"
-                 src="{{site.baseurl}}/assets/images/logos/asset 11.jpg" alt="FDT.jpg" /><BR>
-              <span class="section_font">Training</span></a><BR>
-        </div>
-
-        <div class="column">
-            <a href="#" style="text-decoration:none"> <img class="circle-image"
-                 src="{{site.baseurl}}/assets/images/logos/asset 12.jpg" alt="Initatives" /><BR>
-            <span class="section_font">Initatives</span></a><BR>
+        <div class="grid-col-8">
+            <div class="priority-tag-line"><h1 class="margin-0 font-ui-3xl text-normal">{{ page.title }}</h1></div>
+            <div><p class="margin-0 font-sans-md">{{ page.description }}</p></div>
         </div>
     </div>
-
 </section>
 
-{{ content }}
+<section class="usa-graphic_list usa-section usa-prose clearfix">
 
-<section class="priority-middle-container usa-graphic_list" style="background-image: url('{{site.baseurl}}/assets/images/priority-middle-image.png');">
+    <div class="grid-row clearfix grid-container priority-icons" style="background-image: url('{{site.baseurl}}/assets/images/priority-middle-image1.jpg');">
+        <div class="grid-col-3 text-center margin-y-10">
+          <a href="#" class="text-no-underline">
+              <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/asset 9.jpg" alt="Guidance, Policies and Resources" />
+            <h2 class="text-gray-70 text-normal section_font">Guidance, Policies and Resources</h2></a>
+        </div>
+
+        <div class="grid-col-3 text-center margin-y-10">
+            <a href="https://portal.max.gov/portal/home" class="text-no-underline">
+                <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/asset 10.jpg" alt="OMB Max" />
+                <h2 class="text-gray-70 text-normal section_font">OMB Max</h2></a>
+        </div>
+
+        <div class="grid-col-3 text-center margin-y-10">
+          <a href="#" class="text-no-underline">
+              <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/asset 11.jpg" alt="FDT.jpg" />
+              <h2 class="text-gray-70 text-normal section_font">Training</h2></a>
+        </div>
+
+        <div class="grid-col-3 text-center margin-y-10">
+            <a href="#" class="text-no-underline">
+                <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/asset 12.jpg" alt="Initatives" />
+                <h2 class="text-gray-70 text-normal section_font">Initatives</h2></a>
+        </div>
+    </div>
+
+</section>
+<div class="grid-container grid-gap">{{ content }}</div>
+
+
+<section class="grid-container grid-gap usa-graphic_list" style="background-image: url('{{site.baseurl}}/assets/images/priority-middle-image.png');">
 
 {% if page.type == "fdt" %}
     {% include priority_fdt_sidenav.html %}
@@ -65,13 +69,7 @@ title: Priority
 
 
 
+<div class="grid-container padding-3">
+<a onclick="topFunction()" id="backtotop" title="Go to top" class="margin-1em">Return to Top</a>
+</div>
 
-<button onclick="topFunction()" id="backtotop" title="Go to top">Return to Top</button>
-<br><br>
-
-<script>
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-</script>
