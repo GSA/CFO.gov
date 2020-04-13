@@ -5,4 +5,4 @@ layout: controlleralertsdetails
 title: "Personnel Data Collection"
 permalink: /controller-alert-personnel-Data-Collection/
 ---
-[Personal Data Collection](/assets/files/Controller-Alert-Personnel-Data-Collection.pdf)
+[Personal Data Collection]({{site.baseurl}}/assets/files/Controller-Alert-Personnel-Data-Collection.pdf)

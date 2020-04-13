@@ -6,4 +6,4 @@ title: "Government Charge Cards"
 permalink: /controller-alert-government-charge-cards/
 ---
 
-[Government Charge Cards](/assets/files/CONTROLLER-Alert-12-5-2014.pdf)
+[Government Charge Cards]({{site.baseurl}}/assets/files/CONTROLLER-Alert-12-5-2014.pdf)
