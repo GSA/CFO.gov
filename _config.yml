@@ -67,16 +67,8 @@ dap_agency: GSA
 
 # Site Navigation
 primary_navigation:
-  - name: About Our Council
-    url: /
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
   - name: Priority Areas
+    url: /
     children:
       - name: FDT page
         url: "/fdt/"
@@ -84,7 +76,7 @@ primary_navigation:
         url: "/fmt/"
       - name: Grants Page
         url: "/grants/"
-  - name: Collaboration Partners
+  - name: Policies and Guidance
     children:
       - name: Navigation link
         url: "#main-content"
@@ -92,7 +84,15 @@ primary_navigation:
         url: "#main-content"
       - name: Navigation link
         url: "#main-content"
-  - name: Policies and Guidance
+  - name: JFMIP
+    children:
+      - name: Navigation link
+        url: "#main-content"
+      - name: Navigation link
+        url: "#main-content"
+      - name: Navigation link
+        url: "#main-content"
+  - name: FRPC
     children:
       - name: Navigation link
         url: "#main-content"
