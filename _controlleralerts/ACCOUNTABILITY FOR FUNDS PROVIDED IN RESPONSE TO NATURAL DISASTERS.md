@@ -1,6 +1,7 @@
 ---
 posted-date: 2017-09-13
 author: Amy Bontrager
+layout: controlleralertsdetails
 title: "ACCOUNTABILITY FOR FUNDS PROVIDED IN RESPONSE TO NATURAL DISASTERS"
 permalink: /controller-alert-accountability-for-funds-provided-in-response-to-natural-disasters/
 ---

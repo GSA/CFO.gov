@@ -1,6 +1,7 @@
 ---
 posted-date: 2016-12-01
 author: CFO Council
+layout: controlleralertsdetails
 title: "FEDERAL REAL PROPERTY PROFILE DATA ELEMENTS"
 permalink: /controller-alert-federal-real-property-profile-data-elements/
 ---

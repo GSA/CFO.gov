@@ -1,6 +1,7 @@
 ---
 posted-date: 2014-08-20
 author: CFO Council
+layout: controlleralertsdetails
 title: "IMPROVING THE QUALITY OF FEDERAL SPENDING TRANSPARENCY ON USASPENDING.GOV"
 permalink: /controller-alert-improving-the-quality-of-federal-spending-transparency-on-usaspending-gov/
 ---
