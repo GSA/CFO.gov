@@ -15,8 +15,19 @@ permalink: /members/
                         <img src="{{ site.baseurl }}{{ bio.bio-image }}">
                     </div>
                     <div class="right">
-                        <p><span class="name">{{ bio.name }}<br></span>
-                            <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
+                        {% assign member_name = bio.name | split: ' ' %}
+
+                        {% capture namecase %}{% for name_component in member_name %}{{ name_component | capitalize }} {% endfor %}{% endcapture %}
+                        <p><span class="name">{{ namecase }}<br></span>
+                            {% assign member_title = bio.title | split: ' ' %}
+
+                            {% capture titlecase %}{% for title_component in member_title %}{{ title_component | capitalize }} {% endfor %}{% endcapture %}
+
+                            {% assign member_department = bio.department | split: ' ' %}
+
+                            {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
+
+                            <span class="title">{{ titlecase }}, {{ deptcase }}</span></p>
                     </div>
                 </a>
             </div>
