@@ -6,4 +6,4 @@ title: "Key Dates for Fiscal Year-End Reporting and the	Financial Report of the	
 permalink: /controller-alert-key-dates-for-fiscal-year-end-reporting-and-the-financial-report-of-the-united-states-government/
 ---
 
-[Key Dates for Fiscal Year-End Reporting and the Financial Report of the United States Government](/assets/files/CONTROLLER-ALERT-Key-Dates-for-Fiscal-Year-End-Reporting-and-the-Financial-Report-of-the-United-States-Government.pdf)
+[Key Dates for Fiscal Year-End Reporting and the Financial Report of the United States Government]({{site.baseurl}}/assets/files/CONTROLLER-ALERT-Key-Dates-for-Fiscal-Year-End-Reporting-and-the-Financial-Report-of-the-United-States-Government.pdf)
