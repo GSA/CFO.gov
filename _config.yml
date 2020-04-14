@@ -153,6 +153,10 @@ collections:
     output: true
   grants:
     output: true
+  erm:
+    output: true
+  gpr:
+    output: true
   members:
     output: true
   controlleralerts:
