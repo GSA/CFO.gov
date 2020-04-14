@@ -1,6 +1,6 @@
 ---
 layout: priority
-title: FDT ECS
+title: Financial Data Transformation
 permalink: /fdt/
 type: fdt
 description: The description belongs to FDT page
