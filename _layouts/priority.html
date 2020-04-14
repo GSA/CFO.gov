@@ -8,10 +8,10 @@ title: Priority
 <section class="usa-hero grid-container" style="background-image: url('{{site.baseurl}}/assets/images/priority-top-image1.png');">
     <div class="grid-row grid-gap">
         <div class="grid-col-auto grid-offset-1">
-            <img class="circle-card float-left" src="{{site.baseurl}}/assets/images/logos/asset 13.jpg" alt="priority" />
+            <img class="circle-card float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.jpg" alt="priority" />
         </div>
         <div class="grid-col-8">
-            <div class="priority-tag-line"><h1 class="margin-0 font-ui-3xl text-normal">{{ page.title }}</h1></div>
+            <div class="priority-tag-line"><h1 class="margin-0 font-ui-2xl text-normal">{{ page.title }}</h1></div>
             <div><p class="margin-0 font-sans-md">{{ page.description }}</p></div>
         </div>
     </div>
@@ -31,12 +31,20 @@ title: Priority
                 <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/asset 10.jpg" alt="OMB Max" />
                 <h2 class="text-gray-70 text-normal section_font">OMB Max</h2></a>
         </div>
-
+        {% if page.type != 'gpr'%}
         <div class="grid-col-3 text-center margin-y-10">
           <a href="#" class="text-no-underline">
               <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/asset 11.jpg" alt="FDT.jpg" />
               <h2 class="text-gray-70 text-normal section_font">Training</h2></a>
         </div>
+        {% endif %}
+        {% if page.type == 'gpr'%}
+        <div class="grid-col-3 text-center margin-y-10">
+            <a href="#" class="text-no-underline">
+                <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/gpr.jpg" alt="FDT.jpg" />
+                <h2 class="text-gray-70 text-normal section_font">Payments</h2></a>
+        </div>
+        {% endif %}
 
         <div class="grid-col-3 text-center margin-y-10">
             <a href="#" class="text-no-underline">
@@ -61,6 +69,14 @@ title: Priority
 
 {% if page.type == "grant" %}
     {% include priority_grants_sidenav.html %}
+{% endif %}
+
+{% if page.type == "erm" %}
+    {% include priority_erm_sidenav.html %}
+{% endif %}
+
+{% if page.type == "gpr" %}
+    {% include priority_gpr_sidenav.html %}
 {% endif %}
 
 </section>
