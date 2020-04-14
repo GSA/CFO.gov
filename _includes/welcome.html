@@ -51,27 +51,4 @@
     </div>
 </section>
 
-<section class="usa-graphic_list usa-section usa-prose clearfix">
-    <div class="grid-row clearfix grid-container priority-icons">
-        <div>Members</div>
-        {% for bio in site.members limit:4 %}
-        <div>
-            <img class="circle-image" src="{{ site.baseurl }}{{ bio.bio-image }}">
-            {% assign member_name = bio.name | split: ' ' %}
-
-             {% capture namecase %}{% for name_component in member_name %}{{ name_component | capitalize }} {% endfor %}{% endcapture %}
-            <p><span class="name">{{ namecase }}<br></span>
-            {% assign member_title = bio.title | split: ' ' %}
-
-            {% capture titlecase %}{% for title_component in member_title %}{{ title_component | capitalize }} {% endfor %}{% endcapture %}
-
-            {% assign member_department = bio.department | split: ' ' %}
-
-            {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
-
-            <span class="title">{{ titlecase }}, {{ deptcase }}</span></p>
-            {% endfor %}
-        </div>
-        <a href="{{site.baseurl}}/members/"><button>See All</button></a>
-    </div>
-</section>
+{% include members_preview.html %}
