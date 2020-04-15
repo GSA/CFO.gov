@@ -8,9 +8,16 @@
 
     </ul>
     <div id="tabs-1" class="grid-col-8 grid-offset-1">
-        <h2>Content heading 1</h2>
         {% for item in site.grants limit:3 %}
-        <p>{{ item.date | date: '%B %d, %Y' }} - {{ item.filler }}</p>
+        <div class="grid-container border-bottom border-gray-30">
+            <div class="grid-row">
+                <div class="grid-col-2">{{ item.date | date: '%B %d, %Y' }}</div>
+                <div class="grid-col">
+                    <div class="grid-col-12">{{ item.title }}</div>
+                    <div class="grid-col-12">{{ item.filler }}</div>
+                </div>
+            </div>
+        </div>
         {% endfor %}
     </div>
     <div id="tabs-2" class="grid-col-8 grid-offset-1">
