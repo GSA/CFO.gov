@@ -1,13 +1,57 @@
 ---
 
 layout: default
-titile: About Our Council
+title: About the Council
+permalink: /about-the-council/
+description: Description for this page will go here
 
 ---
-
-<div>First Div</div>
-<section class="usa-graphic_list usa-section usa-prose clearfix">
-    <div>Second Div</div>
+<section class="usa-hero grid-container" style="background-image: url('{{site.baseurl}}/assets/images/priority-top-image1.png');">
+    <h1>About the Council</h1>
+    <div class="usa-content">About the council content goes here. Filler image for now. </div>
 </section>
-<div>Third Div</div>
-<div>Fourth Div</div>
+<br>
+<section class="grid-container grid-gap usa-graphic_list clearfix position-sticky" style="background:#f9f9f9">
+    <div class="usa-width-one-third">
+        <a class="usa-button"  href="#history">Mission History</a>
+        <a class="usa-button"  href="#strategy">Strategy</a>
+        <a class="usa-button"  href="#members">Members</a>
+        <a class="usa-button"  href="#orgstructure">Org Structure</a>
+        <a class="usa-button"  href="#getinvolved">Get Involved</a>
+    </div>
+</section>
+<br>
+
+<section id="history" class="grid-container clearfix">
+    <h1>Mission History</h1>
+    <div class="usa-content">
+        Mission history content goes here.
+    </div>
+</section>
+
+
+<section id="strategy" class="grid-container clearfix border-gray-10">
+    <h1>Strategy</h1>
+    <div class="usa-content">
+        Strategy content goes here.
+    </div>
+</section>
+
+<section id="members" class="grid-container clearfix">
+    <h1>Members</h1>
+    {% include members_preview.html %}
+</section>
+
+<section id="orgstructure" class="grid-container clearfix">
+    <h1>Org Structure</h1>
+    <div class="usa-content">
+        Org structure content goes here.
+    </div>
+</section>
+
+
+<section id="getinvolved" class="grid-container clearfix">
+    <h1>Get involved</h1>
+   {% include council_sidenav.html %}
+</section>
+

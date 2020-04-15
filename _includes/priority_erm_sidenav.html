@@ -1,5 +1,5 @@
 <div id="tabs" class="grid-row clearfix">
-    <ul>
+    <ul class="grid-col-3">
         <li><a href="#tabs-1" class="text-no-underline">The Latest</a></li>
         <li><a href="#tabs-2" class="text-no-underline">About Priority Area</a></li>
         <li><a href="#tabs-3" class="text-no-underline">Milestones</a></li>
@@ -7,25 +7,25 @@
         <li><a href="#tabs-5" class="text-no-underline">Org Structure</a></li>
 
     </ul>
-    <div id="tabs-1">
+    <div id="tabs-1" class="grid-col-8 grid-offset-1">
         <h2>Content heading 1</h2>
         {% for item in site.erm limit:3 %}
         <p>{{ item.date | date: '%B %d, %Y' }} - {{ item.filler }}</p>
         {% endfor %}
     </div>
-    <div id="tabs-2">
+    <div id="tabs-2" class="grid-col-8 grid-offset-1">
         <h2>Content heading 2</h2>
         <p>Content 2</p>
     </div>
-    <div id="tabs-3">
+    <div id="tabs-3" class="grid-col-8 grid-offset-1">
         <h2>Content heading 3</h2>
         <p>Content 3</p>
     </div>
-    <div id="tabs-4">
+    <div id="tabs-4" class="grid-col-8 grid-offset-1">
         <h2>Content heading 4</h2>
         <p>Content 4</p>
     </div>
-    <div id="tabs-5">
+    <div id="tabs-5" class="grid-col-8 grid-offset-1">
         <h2>Content heading 5</h2>
         <p>Content 5</p>
     </div>
