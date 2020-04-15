@@ -3,8 +3,7 @@ layout: priority
 title: Financial Data Transformation
 permalink: /fdt/
 type: fdt
-description: The description belongs to FDT page
-filler: some random text here to check the layout
+description: Build a data-centric environment to promote public trust in financial management, transparency, and accountability of Federal dollars that meets user needs while minimizing reporting burden, and orients the business of government around data.
 ---
 
 
