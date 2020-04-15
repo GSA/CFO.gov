@@ -1,5 +1,5 @@
 ---
-layout: priority
+layout: page
 title: ERM ECS
 permalink: /erm2/
 type: erm
@@ -10,3 +10,4 @@ date: March 20, 2020
 ## this is from ERM page
 
 
+All content goes here. 

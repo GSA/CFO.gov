@@ -15,7 +15,8 @@
                 <div class="grid-col-2"><h3>{{ item.date | date: "%m-%d-%Y" }}</h3></div>
                 <div class="grid-col">
                     <div class="grid-col-12"><h3>{{ item.title }}</h3></div>
-                    <div class="grid-col-12">{{ item.filler }}</div>
+                    <div class="grid-col-12 clearfix">{{ item.filler }}</div>
+                    <a href="{{ site.baseurl }}{{ item.permalink }}">Read more</a>
                 </div>
             </div>
         </div>
