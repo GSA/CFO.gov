@@ -1,5 +1,5 @@
 ---
-layout: priority
+layout: page
 title: FDT ECS
 permalink: /fmt2/
 type: fdt
@@ -8,5 +8,5 @@ date: March 20, 2020
 ---
 
 ## this is from FDT page
-
+All content goes here. 
 

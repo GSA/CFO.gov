@@ -1,5 +1,5 @@
 ---
-layout: priority
+layout: page
 title: FDT ECS
 permalink: /grant1/
 type: grant
@@ -8,5 +8,5 @@ date: March 10, 2020
 ---
 
 ## this is from FDT page
-
+All content goes here. 
 

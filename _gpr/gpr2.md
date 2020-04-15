@@ -1,5 +1,5 @@
 ---
-layout: priority
+layout: page
 title: GPR ECS
 permalink: /gpr2/
 type: gpr
@@ -9,4 +9,4 @@ date: March 20, 2020
 
 ## this is from GPR page
 
-
+All content goes here. 
