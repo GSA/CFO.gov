@@ -49,70 +49,67 @@
 .usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
   background-color: #d83933;
 }
-
-
-
-
-
 .circle-image {
   border-radius: 50%;
   width: 110px;
 }
-
-
-
 .priority-tag-line{
   padding-top: .5em;
 }
 .priority-icons {
-  background-image: url('/assets/images/priority-middle-image1.jpg');
   background-position: center;
 }
-
-
-
 /* Clearfix (clear floats) */
-
-
 .section_font {
   font-family: public_sansmedium;
 
 }
-
-
-
-
-
 .ui-tabs-vertical {
-  width: 57em; }
+  margin: 0em -2em;
+  padding: 0.5em 0 1.5em 0;
+  background-image: url("../assets/images/tab-top.png");
+  background-repeat: no-repeat;
+  background-size: 150px 32px;
+  background-color: #eeeeed;
+}
 
 .ui-tabs-vertical .ui-tabs-nav {
-  padding: 0;
-  float: left;
-  width: 16em;
+  padding: 1.5em 0;
+
   list-style: none;
-  background:#fff;
-  border-radius: 10px 40px 40px 10px;
-  -moz-border-radius: 10px 40px 40px 10px;
-  -webkit-border-radius: 10px 40px 40px 10px;
-  -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.1);
-}
+  background: #fff;
+  border-radius: 0px 40px 40px 0px;
+  -moz-border-radius: 0px 40px 40px 0px;
+  -webkit-border-radius: 0px 40px 40px 0px;
+  -webkit-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.3) }
 
 .ui-tabs-vertical .ui-tabs-nav li {
   clear: left;
   width: 100%;
-  padding: 2em 1em;
+  padding: 0em 0 0em 2em;
+  margin: 1em 2em 1em 0.5em;
 }
 
 .ui-tabs-vertical .ui-tabs-nav li a {
   display: block;
+  padding: 1em 0;
 }
 
 .ui-tabs-vertical .ui-tabs-panel {
-  padding: 1em;
-  float: right;
-  width: 38em;
+
 }
 
+.ui-state-hover, .ui-state-active {
+  border-right: 8px solid #5b6cc5;
+  background: #eef1ff;
+  -webkit-border-top-left-radius: 50px;
+  -webkit-border-bottom-left-radius: 50px;
+  -moz-border-radius-topleft: 50px;
+  -moz-border-radius-bottomleft: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px; }
+
+#tabs .ui-state-focus a:focus, #tabs li:focus {
+  outline: 0; }
