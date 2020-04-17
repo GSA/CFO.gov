@@ -1,5 +1,14 @@
 images:
   - image: /assets/images/welocme to cfo.jpg
+    text : this is the first carousel text
+    description: this is the description about first carousel
+    button-name: About Us
   - image: /assets/images/priority-middle-image.png
+    text : this is the second carousel text
+    description: this is the description about second carousel
   - image: /assets/images/welocme to cfo.jpg
+    text : this is the third carousel text
+    description: this is the description about fourth carousel
   - image: /assets/images/priority-middle-image.png
+    text : this is the fourth carousel text
+    description: this is the description about fourth carousel

@@ -27,7 +27,17 @@
         <div class="carousel__track">
             <ul>
                 {% for item in site.data.carousel.images %}
-                <li class="carousel__slide" style="background-image: url('{{site.baseurl}}{{ item.image }}');"></li>
+                <li class="carousel__slide" style="background-image: url('{{site.baseurl}}{{ item.image }}');">
+                {% if item.text %}
+                     <h1>{{item.text}}</h1>
+                {% endif %}
+                {% if item.description %}
+                    <h2>{{item.description}}</h2>
+                {% endif %}
+                {% if item.button-name %}
+                    <button class="margin-top-5 margin-bottom-5 usa-button--outline-inverse usa-button members-button bg-red border-0"><a href="{{site.baseurl}}/about-the-council/">{{item.button-name}}</a></button>
+                {% endif %}
+                </li>
                 {% endfor %}
             </ul>
         </div>
