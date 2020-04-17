@@ -1,24 +1,25 @@
-<section class="usa-graphic_list usa-section usa-prose clearfix">
-    <div class="grid-row clearfix grid-container priority-icons">
-        <div>Members</div>
+
+       <div class="grid-row grid-gap">
         {% for bio in site.members limit:4 %}
-        <div>
-            <img class="circle-image" src="{{ site.baseurl }}{{ bio.bio-image }}">
-            {% assign member_name = bio.name | split: ' ' %}
+            <div class="grid-col-3">
+                <div class="bg-white padding-3 border-bottom-05 border-accent-warm shadow-5 height-full">
+                <img class="circle-10" src="{{ site.baseurl }}{{ bio.bio-image }}">
+                {% assign member_name = bio.name | split: ' ' %}
 
-            {% capture namecase %}{% for name_component in member_name %}{{ name_component | capitalize }} {% endfor %}{% endcapture %}
-            <p><span class="name">{{ namecase }}<br></span>
-                {% assign member_title = bio.title | split: ' ' %}
+                {% capture namecase %}{% for name_component in member_name %}{{ name_component | capitalize }} {% endfor %}{% endcapture %}
+                <p class="name-leader">{{ namecase }}</p>
+                    {% assign member_title = bio.title | split: ' ' %}
 
-                {% capture titlecase %}{% for title_component in member_title %}{{ title_component | capitalize }} {% endfor %}{% endcapture %}
+                    {% capture titlecase %}{% for title_component in member_title %}{{ title_component | capitalize }} {% endfor %}{% endcapture %}
 
-                {% assign member_department = bio.department | split: ' ' %}
+                    {% assign member_department = bio.department | split: ' ' %}
 
-                {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
+                    {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
 
-                <span class="title">{{ titlecase }}, {{ deptcase }}</span></p>
-            {% endfor %}
+                    <p class="text-leader">{{ titlecase }}, {{ deptcase }}</p>
+                </div>
+            </div>
+           {% endfor %}
+
         </div>
-        <a href="{{site.baseurl}}/members/"><button>See All</button></a>
-    </div>
-</section>
+       <div class="grid-container text-center"> <a href="{{site.baseurl}}/members/" class="margin-top-5 margin-bottom-5 usa-button--outline-inverse usa-button members-button bg-white border-0">See All</a></div>
