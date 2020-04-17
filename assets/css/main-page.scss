@@ -8,19 +8,14 @@
 
 // default mode hide banner
 
-@media screen and (min-width: 640px) {
-
-}
-
 .logo-size {
   width: 183px;
   height: 46px;
 }
 
 .header-menu-text {
-  font-family: public_sanslight;
   font-size: initial;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 @media (min-width: 64em) {
@@ -61,18 +56,24 @@
 }
 /* Clearfix (clear floats) */
 .section_font {
-  font-family: public_sansmedium;
+
 
 }
 .ui-tabs-vertical {
   margin: 0em -2em;
   padding: 0.5em 0 1.5em 0;
-  background-image: url("../assets/images/tab-top.png");
+  background-image: url('../assets/images/yellow-back.png');
   background-repeat: no-repeat;
-  background-size: 150px 32px;
-  background-color: #eeeeed;
+  background-position: -200px -43px;
+  background-color:transparent;
 }
-
+.tabSection{
+  background-image: url("../assets/images/blue-back.png");
+  background-repeat: no-repeat;
+  background-color: #eeeeed;
+  background-position: bottom right;
+  background-size: 20%;
+}
 .ui-tabs-vertical .ui-tabs-nav {
   padding: 1.5em 0;
 
@@ -112,4 +113,11 @@
   border-bottom-left-radius: 50px; }
 
 #tabs .ui-state-focus a:focus, #tabs li:focus {
-  outline: 0; }
+  outline: 0;
+}
+#backtotop {
+  color: #0050d8;
+}
+.pill {
+  background: #fff;
+}
