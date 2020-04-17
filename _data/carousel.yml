@@ -12,3 +12,15 @@ images:
   - image: /assets/images/priority-middle-image.png
     text : this is the fourth carousel text
     description: this is the description about fourth carousel
+
+images2:
+  - image: /assets/images/welocme to cfo.jpg
+    header-text: Policy and Guidance
+    text: grants
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/priority-middle-image.png
+    text: text for welcomepart2
+  - image: /assets/images/welocme to cfo.jpg
+    text: text for welcomepart3
+  - image: /assets/images/priority-middle-image.png
+    text: text for welcomepart4
