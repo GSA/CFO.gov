@@ -26,6 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/logos/logo-main-cfo.png
+jfmip-logo: /assets/images/logos/JFMIP-logo.jpg
+jfmip-title: JFMIP Page
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
@@ -89,13 +91,7 @@ primary_navigation:
       - name: Navigation link
         url: "#main-content"
   - name: JFMIP
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+    url: "/jfmip/"
   - name: FRPC
     children:
       - name: Navigation link
@@ -126,6 +122,7 @@ footer:
     name: Contact Us
     phonenumber: (800) CALL-GOVT
     email: info@agency.gov
+    email1: example@email.com
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #
