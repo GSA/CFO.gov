@@ -6,24 +6,30 @@ permalink: /about-the-council/
 description: Description for this page will go here
 
 ---
-<section class="usa-hero grid-container" style="background-image: url('{{site.baseurl}}/assets/images/priority-top-image1.png');">
-    <h1>About the Council</h1>
-    <div class="usa-content">About the council content goes here. Filler image for now. </div>
+<section class="usa-hero grid-container about clearfix margin-bottom-5 ">
+    <div class="grid-row grid-gap padding-top-5 padding-bottom-5">
+
+        <div class="grid-col-10 grid-offset-1">
+            <div class="priority-tag-line"><h1 class="margin-0 font-ui-2xl text-normal">About the Council</h1></div>
+            <div><p class="margin-0 font-sans-md">About the council content goes here. Filler image for now.</p></div>
+        </div>
+    </div>
+
 </section>
-<br>
+
 <section class="grid-container grid-gap usa-graphic_list clearfix position-sticky" style="background:#f9f9f9">
     <div class="usa-width-one-third">
-        <a class="usa-button"  href="#history">Mission History</a>
-        <a class="usa-button"  href="#strategy">Strategy</a>
-        <a class="usa-button"  href="#members">Members</a>
-        <a class="usa-button"  href="#orgstructure">Org Structure</a>
-        <a class="usa-button"  href="#getinvolved">Get Involved</a>
+        <a class="usa-button usa-button--outline"  href="#history">Mission History</a>
+        <a class="usa-button usa-button--outline"  href="#strategy">Strategy</a>
+        <a class="usa-button usa-button--outline"  href="#members">Members</a>
+        <a class="usa-button usa-button--outline"  href="#orgstructure">Org Structure</a>
+        <a class="usa-button usa-button--outline"  href="#getinvolved">Get Involved</a>
     </div>
 </section>
 
 
 <section id="history" class="grid-container clearfix border-bottom border-gray-30">
-    <h1>Mission History</h1>
+    <h2>Mission History</h2>
     <div class="usa-content">
         Mission history content goes here.
     </div>
@@ -31,27 +37,29 @@ description: Description for this page will go here
 
 
 <section id="strategy" class="grid-container clearfix border-bottom border-gray-30">
-    <h1>Strategy</h1>
+    <h2>Strategy</h2>
     <div class="usa-content">
         Strategy content goes here.
     </div>
 </section>
 
 <section id="members" class="grid-container clearfix border-bottom border-gray-30">
-    <h1>Members</h1>
+    <h2>Members</h2>
     {% include members_preview.html %}
 </section>
 
 <section id="orgstructure" class="grid-container clearfix border-bottom border-gray-30">
-    <h1>Org Structure</h1>
+    <h2>Org Structure</h2>
     <div class="usa-content">
         Org structure content goes here.
     </div>
 </section>
 
+<div class="grid-container">
+    <h2>Get involved</h2>
+</div>
+<section id="getinvolved" class="grid-container clearfix tabSection margin-bottom-5">
 
-<section id="getinvolved" class="grid-container clearfix">
-    <h1>Get involved</h1>
    {% include council_sidenav.html %}
 </section>
 

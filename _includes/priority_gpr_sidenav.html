@@ -1,5 +1,5 @@
 <div id="tabs" class="grid-row clearfix">
-    <ul>
+    <ul class="grid-col-3 shadow-5">
         <li><a href="#tabs-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
         <li><a href="#tabs-2" class="text-no-underline text-base-darker font-sans-md">About Priority Area</a></li>
         <li><a href="#tabs-3" class="text-no-underline text-base-darker font-sans-md">Milestones</a></li>
@@ -7,33 +7,33 @@
         <li><a href="#tabs-5" class="text-no-underline text-base-darker font-sans-md">Org Structure</a></li>
 
     </ul>
-    <div id="tabs-1" class="grid-col-8 grid-offset-1">
+    <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
         {% for item in site.gpr limit:3 %}
-        <div class="grid-container border-bottom border-gray-30">
-            <div class="grid-row">
-                <div class="grid-col-2"><h3>{{ item.date | date: "%m-%d-%Y" }}</h3></div>
+        <div class="border-top border-gray-30">
+            <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
+                <div class="grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m-%d-%Y" }}</p></div>
                 <div class="grid-col">
-                    <div class="grid-col-12"><h3>{{ item.title }}</h3></div>
-                    <div class="grid-col-12">{{ item.filler }}</div>
-                    <a href="{{ site.baseurl }}{{ item.permalink }}">Read more</a>
+                    <h3 class="margin-top-0">{{ item.title }}</h3>
+                    <p>{{ item.filler }}</p>
+                    <a href="{{ site.baseurl }}{{ item.permalink }}" class="text-no-underline text-bold">Read More</a>
                 </div>
             </div>
         </div>
         {% endfor %}
     </div>
-    <div id="tabs-2" class="grid-col-8 grid-offset-1">
+    <div id="tabs-2" class="grid-col-9 padding-4">
         <h2>Content heading 2</h2>
         <p>Content 2</p>
     </div>
-    <div id="tabs-3" class="grid-col-8 grid-offset-1">
+    <div id="tabs-3" class="grid-col-9 padding-4">
         <h2>Content heading 3</h2>
         <p>Content 3</p>
     </div>
-    <div id="tabs-4" class="grid-col-8 grid-offset-1">
+    <div id="tabs-4" class="grid-col-9 padding-4">
         <h2>Content heading 4</h2>
         <p>Content 4</p>
     </div>
-    <div id="tabs-5" class="grid-col-8 grid-offset-1">
+    <div id="tabs-5" class="grid-col-9 padding-4">
         <h2>Content heading 5</h2>
         <p>Content 5</p>
     </div>

@@ -1,5 +1,18 @@
 images:
   - image: /assets/images/welocme to cfo.jpg
+    text: text for welcome1
   - image: /assets/images/priority-middle-image.png
+    text: text for welcome2
   - image: /assets/images/welocme to cfo.jpg
+    text: text for welcome3
   - image: /assets/images/priority-middle-image.png
+    text: text for welcome4
+images2:
+  - image: /assets/images/welocme to cfo.jpg
+    text: text for welcomepart1
+  - image: /assets/images/priority-middle-image.png
+    text: text for welcomepart2
+  - image: /assets/images/welocme to cfo.jpg
+    text: text for welcomepart3
+  - image: /assets/images/priority-middle-image.png
+    text: text for welcomepart4

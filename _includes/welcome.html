@@ -1,54 +1,60 @@
-<div>{% include carousel.html height="30" unit="%" duration="3" %}</div>
+<div class="grid-container padding-0">{% include carousel_homepage_top.html height="30" unit="%" duration="3" %}</div>
 
 <section class="usa-graphic_list usa-section usa-prose clearfix">
-    <div class="grid-row clearfix grid-container priority-icons">
-       <div>Priority Areas</div>
-        <div class="grid-col-2 text-center margin-y-10">
+
+    <div class="clearfix grid-container priority-icons">
+        <div class="grid-row"><h2 class="text-primary-darker">Priority Areas</h2></div>
+     <div class="grid-row">
+        <div class="grid-col-fill text-center margin-y-6">
             <a href="{{site.baseurl}}/grants/" class="text-no-underline">
                 <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/grant.jpg" alt="grant.jpg" />
                 <h2 class="text-gray-70 text-normal section_font">Grants</h2></a>
         </div>
-        <div class="grid-col-2 text-center margin-y-10">
+        <div class="grid-col-fill text-center margin-y-6">
             <a href="#" class="text-no-underline">
                 <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/PI.jpg" alt="Payment Integration" />
                 <h2 class="text-gray-70 text-normal section_font">Payment Integration</h2></a>
         </div>
 
-        <div class="grid-col-2 text-center margin-y-10">
+        <div class="grid-col-fill text-center margin-y-6">
             <a href="{{site.baseurl}}/erm/" class="text-no-underline">
                 <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/erm.jpg" alt="ERM.jpg" />
                 <h2 class="text-gray-70 text-normal section_font">ERM</h2></a>
         </div>
 
-        <div class="grid-col-2 text-center margin-y-10">
+        <div class="grid-col-fill text-center margin-y-6">
             <a href="{{site.baseurl}}/fdt/" class="text-no-underline">
                 <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/financial data transformation.jpg" alt="FDT.jpg" />
                 <h2 class="text-gray-70 text-normal section_font">FDT</h2></a>
         </div>
 
-        <div class="grid-col-2 text-center margin-y-10">
+        <div class="grid-col-fill text-center margin-y-6">
             <a href="{{site.baseurl}}/fmt/" class="text-no-underline">
                 <img class="circle-image" src="{{site.baseurl}}/assets/images/logos/fmt.jpg" alt="FMT.jpg" />
                 <h2 class="text-gray-70 text-normal section_font">FMT</h2></a>
         </div>
-        <div><a href="#"><button>See All</button></a></div>
+      </div>
     </div>
 </section>
 
-<div>{% include carousel.html height="30" unit="%" duration="3" %}</div>
+<div class="grid-container margin-bottom-5">{% include carousel_homepage_bottom.html height="30" unit="%" duration="3" %}</div>
 
-<section class="usa-hero grid-container" style="background-image: url('{{site.baseurl}}/assets/images/priority-top-image1.png');">
-    <div class="grid-row grid-gap font-ui-2xl text-normal">Knowledge Sharing</div>
-    <div class="grid-row grid-gap">
-        <div class="grid-col-auto grid-offset-1">
-            <img class="circle-card float-left" src="{{site.baseurl}}/assets/images/logos/knowledge sharing.jpg" alt="priority" />
-        </div>
-        <div class="grid-col-8">
-            <div class="priority-tag-line"><h1 class="margin-0 font-ui-2xl text-normal">My career</h1></div>
-            <div><p class="margin-0 font-sans-md">For more information on training resources and best practices, please visit out knowledge sharing page here.</p></div>
-            <div><a href="#"><button>Explore</button></a></div>
-        </div>
-    </div>
-</section>
-
+<!--<section class="usa-hero grid-container grey-back">-->
+<!--    <h2 class="text-base-darker margin-top-0">Knowledge Sharing</h2>-->
+<!--    <div class="grid-row grid-gap">-->
+<!--        <div class="grid-col-auto grid-offset-1">-->
+<!--            <img class="circle-card float-left" src="{{site.baseurl}}/assets/images/logos/knowledge sharing.jpg" alt="priority" />-->
+<!--        </div>-->
+<!--        <div class="grid-col-8">-->
+<!--            <div class="priority-tag-line"><h3 class="margin-0 text-base-darkest margin-top-0">My Career</h3></div>-->
+<!--            <div><p class="margin-0 font-sans-md text-base-darkest">For more information on training resources and best practices, please visit out knowledge sharing page here.</p></div>-->
+<!--            <div><a href="#" class="usa-button margin-top-3 cfo-button">Explore</a></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<section class="usa-graphic_list usa-section usa-prose clearfix ">
+    <div class="clearfix grid-container grey-back padding-top-2 padding-bottom-2">
+        <h2 class="text-base-darker margin-top-0">Members</h2>
 {% include members_preview.html %}
+    </div>
+</section>

@@ -1,4 +1,4 @@
-{% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
+{% assign letterstring = "a,b,c,d" %}
 {% assign letters = letterstring | split: ',' %}
 
 <div class="carousel__holder">
@@ -19,15 +19,15 @@
         {% assign previndex = forloop.index0 | minus: 1 %}
         {% endif %}
         {% assign prevletter = letters[previndex] %}
-        <div class="carousel__controls">
-            <label class="carousel__control carousel__control--backward" for="{{ prevletter }}"></label>
-            <label class="carousel__control carousel__control--forward" for="{{ nextletter }}"></label>
-        </div>
+<!--        <div class="carousel__controls">-->
+<!--            <label class="carousel__control carousel__control&#45;&#45;backward" for="{{ prevletter }}"></label>-->
+<!--            <label class="carousel__control carousel__control&#45;&#45;forward" for="{{ nextletter }}"></label>-->
+<!--        </div>-->
         {% endfor %}
         <div class="carousel__track">
             <ul>
                 {% for item in site.data.carousel.images %}
-                <li class="carousel__slide" style="background-image: url('{{site.baseurl}}{{ item.image }}');"></li>
+                <li class="carousel__slide" style="background-image: url('{{site.baseurl}}{{ item.image }}');"> <h1>{{ item.text }}</h1></li>
                 {% endfor %}
             </ul>
         </div>
@@ -40,7 +40,7 @@
 </div>
 
 <style>
-    .carousel__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 1rem 0 1rem;}
+    .carousel__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }};}
     .carousel {
         height: 100%;
         width: 100%;
