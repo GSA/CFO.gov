@@ -35,7 +35,7 @@
                     <h2>{{item.description}}</h2>
                     {% endif %}
                     {% if item.button-name %}
-                    <button class="margin-top-5 margin-bottom-5 usa-button--outline-inverse usa-button members-button bg-red border-0"><a href="{{site.baseurl}}/about-the-council/">{{item.button-name}}</a></button>
+                    <button class="margin-top-5 margin-bottom-5 usa-button--outline-inverse usa-button members-button bg-red border-0"><a href="{{site.baseurl}}{{item.url}}">{{item.button-name}}</a></button>
                     {% endif %}
                 </li>
                 {% endfor %}
