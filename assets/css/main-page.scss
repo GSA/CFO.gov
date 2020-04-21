@@ -13,6 +13,11 @@
   height: 46px;
 }
 
+.jfmip-logo-size {
+  width: 150px;
+  height: 47px;
+}
+
 .header-menu-text {
   font-size: initial;
   font-weight: 400;
@@ -34,6 +39,13 @@
   .logo-size {
     width: 214px;
     height: 72px;
+  }
+}
+
+@media screen and (min-width: 640px){
+.jfmip-logo-size {
+  width: 148px;
+  height: 86px;
   }
 }
 
