@@ -11,7 +11,7 @@
         {% for item in site.gpr limit:3 %}
         <div class="border-top border-gray-30">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
-                <div class="grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m-%d-%Y" }}</p></div>
+                <div class="grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
                 <div class="grid-col">
                     <h3 class="margin-top-0">{{ item.title }}</h3>
                     <p>{{ item.filler }}</p>
