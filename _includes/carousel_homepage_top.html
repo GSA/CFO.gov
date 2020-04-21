@@ -27,7 +27,7 @@
         <div class="carousel__track">
             <ul>
                 {% for item in site.data.carousel.images %}
-                <li class="carousel__slide" style="background-image: url('{{site.baseurl}}{{ item.image }}');">
+                <li class="carousel__slide" tabindex="0" style="background-image: url('{{site.baseurl}}{{ item.image }}');">
                     {% if item.text %}
                     <h1>{{item.text}}</h1>
                     {% endif %}
@@ -43,7 +43,7 @@
         </div>
         <div class="carousel__indicators">
             {% for item in site.data.carousel.images %}
-            <label class="carousel__indicator" for="{{ letters[forloop.index0] }}"></label>
+            <label class="carousel__indicator" tabindex="0" role="button" for="{{ letters[forloop.index0] }}"></label>
             {% endfor %}
         </div>
     </div>
