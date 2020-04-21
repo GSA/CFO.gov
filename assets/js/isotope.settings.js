@@ -3,7 +3,7 @@
 // Losely based on: http://isotope.metafizzy.co/filtering.html#url-hash
 
 jQuery(document).ready(function ($) {
-    var $container = $(".knowledge-sharing");
+    var $container = $(".policies");
 
     // Filter isotope
     $container.isotope({
@@ -54,16 +54,16 @@ function updateFilterCount() {
         var hashFilter = getHashFilter();
         // Set filters to current values (important for first run)
         filters["priority_area"] = hashFilter["priority_area"];
-        filters["type"] = hashFilter["type"];
+        filters["role"] = hashFilter["role"];
         // filters["status"] = hashFilter["status"];
         // data-filter attribute of clicked button
         var currentFilter = $(this).attr("data-filter");
-        // Navigation group (priority_area or type) as object
+        // Navigation group (priority_area or role) as object
         var $navGroup = $(this).parents(".filter-list");
         // data-filter-group key for the current nav group
         var filterGroup = $navGroup.attr("data-filter-group");
         // If the current data-filter attribute matches the current filter,
-        if ( currentFilter == hashFilter["priority_area"] || currentFilter == hashFilter["type"] || currentFilter == hashFilter["status"] ) {
+        if ( currentFilter == hashFilter["priority_area"] || currentFilter == hashFilter["role"] || currentFilter == hashFilter["status"] ) {
             // Reset group filter as the user has unselected the button
             filters[ filterGroup ] = "*";
         } else {
@@ -71,7 +71,7 @@ function updateFilterCount() {
             filters[ filterGroup ] = $(this).attr("data-filter");
         }
         // Create new hash
-        var newHash = "priority_area=" + encodeURIComponent( filters["priority_area"] ) + "&type=" + encodeURIComponent( filters["type"] );
+        var newHash = "priority_area=" + encodeURIComponent( filters["priority_area"] ) + "&role=" + encodeURIComponent( filters["role"] );
         // + "&status=" + encodeURIComponent( filters["status"] );
         // If sort value exists, add it to hash
         if ( sortValue ) {
@@ -84,8 +84,8 @@ function updateFilterCount() {
     function onHashChange() {
         // Current hash value
         var hashFilter = getHashFilter();
-        // Concatenate priority_area and type for Isotope filtering
-        var theFilter = hashFilter["priority_area"] + hashFilter["type"] ;
+        // Concatenate priority_area and role for Isotope filtering
+        var theFilter = hashFilter["priority_area"] + hashFilter["role"] ;
         // + hashFilter["status"];
 
         if ( hashFilter ) {
@@ -104,7 +104,7 @@ function updateFilterCount() {
             }
             // Toggle checked status of filter buttons
             $( ".filter-list" ).find(".checked").removeClass("checked").attr("aria-checked","false");
-            $( ".filter-list" ).find("[data-filter='" + hashFilter["priority_area"] + "'],[data-filter='" + hashFilter["type"] + "']").addClass("checked").attr("aria-checked","true");
+            $( ".filter-list" ).find("[data-filter='" + hashFilter["priority_area"] + "'],[data-filter='" + hashFilter["role"] + "']").addClass("checked").attr("aria-checked","true");
             //,[data-filter='" + hashFilter["status"] + "']
         }
     } // onHahschange
@@ -112,7 +112,7 @@ function updateFilterCount() {
     function getHashFilter() {
         // Get filters (matches) and sort order (sorts)
         var priority_area = location.hash.match( /priority_area=([^&]+)/i );
-        var type = location.hash.match( /type=([^&]+)/i );
+        var role = location.hash.match( /role=([^&]+)/i );
         // var status = location.hash.match( /status=([^&]+)/i );
         var sorts = location.hash.match( /sort=([^&]+)/i );
 
@@ -120,7 +120,7 @@ function updateFilterCount() {
         var hashFilter = {};
         // Populate array with matches and sorts using ternary logic
         hashFilter["priority_area"] = priority_area ? priority_area[1] : "*";
-        hashFilter["type"] = type ? type[1] : "*";
+        hashFilter["role"] = role ? role[1] : "*";
         // hashFilter["status"] = status ? status[1] : "*";
         hashFilter["sorts"] = sorts ? sorts[1]: "";
 
