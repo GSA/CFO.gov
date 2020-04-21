@@ -1,15 +1,31 @@
 images:
   - image: /assets/images/welocme to cfo.jpg
-    text: text for welcome1
+    text:
+    description: The CFO Council tackles the most pressing issues in federal financial management.
+    url: /about-the-council/
+    button-name: About the CFO Council
   - image: /assets/images/priority-middle-image.png
-    text: text for welcome2
+    text:
+    description: Financial management is a critical mission support activity – we need to address change drivers - IT modernization, data and workforce
+    url: /
+    button-name: CFO Council Strategy
   - image: /assets/images/welocme to cfo.jpg
-    text: text for welcome3
+    text:
+    description: Welcome to the modernized CFO.gov! Bringing you policies, guidance, and priority areas that inform Federal financial management.
+    url: /
+    button-name: Policies & Guidance
   - image: /assets/images/priority-middle-image.png
-    text: text for welcome4
+    text:
+    description: Sharing best practices, training modules, career paths, video, and more with the CFO community
+    url: /
+    button-name: Knowledge Sharing
+
+
 images2:
   - image: /assets/images/welocme to cfo.jpg
-    text: text for welcomepart1
+    header-text: Policy and Guidance
+    text: grants
+    img: /assets/images/logos/asset 11.jpg
   - image: /assets/images/priority-middle-image.png
     text: text for welcomepart2
   - image: /assets/images/welocme to cfo.jpg
