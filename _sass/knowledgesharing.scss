@@ -1,0 +1,80 @@
+/****************************styling for policy catalog******************************/
+.no-style {
+  text-decoration: none;
+  color: black;
+}
+.grid-spacing {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px 10px 0px 0px;
+
+}
+
+.filters {
+
+}
+
+.filters ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.filters li {
+  margin: 0 2px 2px 0;
+}
+
+.big {
+  font-size: 20px;
+}
+
+.filters a {
+  display: block;
+  padding: .5em 1em;
+  font-size: 80%;
+  border: solid 1px hsl(0, 0%, 50%);
+  color: #333;
+  text-decoration: none;
+  background: white;
+}
+
+.text-container {
+  height: 140px;
+}
+
+.filters a:hover {
+  outline: 2px solid hsl(0, 0%, 50%);
+}
+
+a.checked {
+  background: hsl(0, 0%, 50%);
+  color: white;
+}
+
+.knowledge-border {
+  border-top: solid 4px #f2938c;
+}
+
+.priority-border {
+  border-top: solid 4px #97d4ea
+}
+
+
+.website-border {
+  border-top: solid 4px #07648d;
+}
+
+.guidance-border {
+  border-top: solid 4px #07648d;
+}
+
+.report-border {
+  border-top: solid 4px #07648d;
+}
+
+.presentation-border {
+  border-top: solid 4px #07648d;
+}

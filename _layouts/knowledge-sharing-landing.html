@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% comment %}
+This template is for a single knowledge sharing landing page.
+{% endcomment %}
+
+<div class="grid-row grid-gap">
+    {% if page.sidenav == true %}
+    {% include sidenav.html %}
+    {% endif %}
+
+    <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
+        {{ content }}
+
+
+        <p class="card-tag padding-bottom-3"><a href="{{site.baseurl}}/knowledge-sharing/">&#10094; &nbsp; Back to Knowledge Sharing</a></p>
+    </div>
+
+</div>

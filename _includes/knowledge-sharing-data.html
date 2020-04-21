@@ -1,0 +1,17 @@
+<!--********Generates resource catalog items. Individual cards live in the in the _presources folder**************-->
+
+<div class="usa-media-block tablet:grid-col-9">
+    <p class="filter-count card-tag margin-top-0 text-gray-50 text-thin"></p>
+    <div class="knowledge-sharing" >
+        {% for knowledge_item in site.knowledge_sharing %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ knowledge_item.filters }}">
+            <div class="shadow-1 knowledge-border ">
+                <div class="text-container">
+                    <span class="card-tag">{{ knowledge_item.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ knowledge_item.permalink }}">{{ knowledge_item.subtitle }}</a></p>
+                </div>
+            </div>
+        </div>
+     {% endfor %}
+    </div>
+</div>
