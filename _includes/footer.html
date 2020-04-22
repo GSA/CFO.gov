@@ -10,9 +10,9 @@
 
                 <div class="tablet:grid-col">
                     <div class="footer-logo logo-links">
-                        <img  class="usa-media_block-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" width="100" alt="GSA Logo"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <img  class="usa-media_block-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" width="100" alt="Executive Office of the President logo"/>
-                        <h2 class="usa-footer-logo-heading">{{ site.footer.contact.text }}</h2>
+                        <img  class="usa-media_block-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" width="90" alt="GSA Logo"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img  class="usa-media_block-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" width="90" alt="Executive Office of the President logo"/>
+                        <h2 class="usa-footer-logo-heading" style="line-height: 120%">{{ site.footer.contact.text }}</h2>
                     </div>
                 </div>
 
@@ -21,7 +21,7 @@
 
                         <address>
                             {% if site.footer.contact.name %}
-                            <h2 class="usa-footer-logo-heading" style="text-align: right">{{ site.footer.contact.name }}</h2>
+                            <h2 class="usa-footer-contact-heading" style="text-align: right">{{ site.footer.contact.name }}</h2>
                             {% endif %}
                             <p>{{ site.footer.contact.phonenumber }} &nbsp;&nbsp;&nbsp; {{ site.footer.contact.email }}</p>
                         </address>
@@ -32,3 +32,7 @@
     </div>
     </div>
 </footer>
+
+
+
+
