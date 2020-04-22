@@ -93,13 +93,7 @@ primary_navigation:
   - name: JFMIP
     url: "/jfmip/"
   - name: FRPC
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+    url: "/frpc/"
   - name: Knowledge Sharing
     children:
       - name: Navigation link
@@ -122,7 +116,8 @@ footer:
     name: Contact Us
     phonenumber: (800) CALL-GOVT
     email: Cfoc.support@gsa.gov
-    email1: example@email.com
+    fmip-email: example@email.com
+    frpc-email: example@email.com
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #
