@@ -81,13 +81,7 @@ primary_navigation:
       - name: Enterprise Risk Management
         url: "/erm/"
   - name: Policies and Guidance
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+    url: "/policies-guidance/"
   - name: JFMIP
     children:
       - name: Navigation link
@@ -156,6 +150,8 @@ collections:
   controlleralerts:
     output: true
   knowledge_sharing:
+    output: true
+  policies_guidance:
     output: true
 
 permalink: pretty
