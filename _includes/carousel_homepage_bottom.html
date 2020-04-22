@@ -27,7 +27,18 @@
         <div class="carousel__track">
             <ul>
                 {% for item in site.data.carousel.images2 %}
-                <li class="carousel__slide" style="background-image: url('{{site.baseurl}}{{ item.image }}');"> <h1>{{ item.text }}</h1></li>
+                <li class="carousel__slide" style="background-image: url('{{site.baseurl}}{{ item.image }}');">
+                {% if item.header-text%}
+                    <h2>{{item.header-text}}</h2>
+                {% endif%}
+                {% if item.img %}
+                    <img class="circle-image" src="{{site.baseurl}}{{item.img}}">
+                {% endif %}
+                {% if item.text %}
+                    <h2>{{item.text}}</h2>
+                {% endif %}
+                </li>
+
                 {% endfor %}
             </ul>
         </div>
