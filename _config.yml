@@ -72,10 +72,10 @@ primary_navigation:
   - name: Priority Areas
     url: /
     children:
-      - name: Grants
-        url: "/grants/"
-      - name: Getting Payments Right
-        url: "/gpr/"
+      - name: Grants Optimization
+        url: "/grants-optimization/"
+      - name: Payment Integrity
+        url: "/payment-integrity/"
       - name: Fiscal Management Transformation
         url: "/fmt/"
       - name: Financial Data Transformation

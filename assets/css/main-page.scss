@@ -72,6 +72,12 @@
   border-radius: 50%;
   width: 110px;
 }
+.circle-image:hover {
+-webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+-moz-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+}
+
 .priority-tag-line{
   padding-top: .5em;
 }
@@ -155,6 +161,13 @@
 .members-button,.members-button:visited{
 color:#005ea2;
 }
+
+.members-hover:hover{
+  -webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+  -moz-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+  box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+}
+
 .about{
   background: rgb(25,56,123);
   background: linear-gradient(90deg, rgba(25,56,123,1) 0%, rgba(9,13,121,0.9164040616246498) 59%, rgba(2,0,36,1) 100%);
