@@ -2,11 +2,11 @@
 title: Policies Guidance 12
 subtitle: Policies Guidance 12
 description: Policies Guidance  description. 
-permalink: /policies-guidance/content12/
+permalink: /policies/content12/
 layout: policies-guidance-landing
 policy-publish-date: December 20, 2018
-type: CXO Fellows/training video
-filters: cxo-fellows training-video
+type: controller-alerts/FRPC
+filters: controller-alerts frpc
 
 ---
 ## Policy Overview ##

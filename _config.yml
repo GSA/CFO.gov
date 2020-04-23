@@ -83,7 +83,7 @@ primary_navigation:
       - name: Enterprise Risk Management
         url: "/erm/"
   - name: Policies and Guidance
-    url: "/policies-guidance/"
+    url: "/policies/"
   - name: JFMIP
     url: "/jfmip/"
   - name: FRPC

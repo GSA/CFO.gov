@@ -2,7 +2,7 @@
 title: Policies Guidance 4
 subtitle: Policies Guidance 4
 description: Policies Guidance  description 4. 
-permalink: /policies-guidance/content4/
+permalink: /policies/content4/
 layout: policies-guidance-landing
 policy-publish-date: December 20, 2018
 type: Grants

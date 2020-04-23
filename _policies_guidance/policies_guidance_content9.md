@@ -2,11 +2,11 @@
 title: Policies Guidance 9
 subtitle: Policies Guidance 9
 description: Policies Guidance  description. 
-permalink: /policies-guidance/content9/
+permalink: /policies/content9/
 layout: policies-guidance-landing
 policy-publish-date: December 20, 2018
-type: FDT/training-video
-filters: fdt training-video
+type: FDT/others
+filters: fdt others
 
 ---
 ## Policy Overview ##
