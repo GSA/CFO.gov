@@ -5,8 +5,8 @@ description: Knowledge sharing  description.
 permalink: /knowledge-sharing/content8/
 layout: knowledge-sharing-landing
 policy-publish-date: December 20, 2018
-type: GPR/Grants
-filters: gpr grants
+type: Grants/FRPC/My-career
+filters: grants frpc my-career
 
 ---
 ## Policy Overview ##

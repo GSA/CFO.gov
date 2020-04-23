@@ -5,8 +5,8 @@ description: Knowledge sharing 3.
 permalink: /knowledge-sharing/content3/
 layout: knowledge-sharing-landing
 policy-publish-date: December 20, 2018
-type: GPR
-filters: gpr
+type: Payment Integrity
+filters: payment-integrity
 
 ---
 ## Policy Overview ##

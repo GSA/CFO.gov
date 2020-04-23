@@ -5,8 +5,8 @@ description: Knowledge sharing  description.
 permalink: /knowledge-sharing/content11/
 layout: knowledge-sharing-landing
 policy-publish-date: December 20, 2018
-type: My career/training module
-filters: my-career training-module
+type: My career/training module/jfmip
+filters: my-career training-module jfmip
 
 ---
 ## Policy Overview ##
