@@ -1,0 +1,208 @@
+<!DOCTYPE html><html>
+<head>
+<link rel="STYLESHEET" type="text/css" href="../../css/main.css" media="screen, projection"/>
+<script language="JavaScript" src="../../script/main.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/jwplayer.js" type="text/javascript"></script>
+<script language="javascript">
+PageNext="03100";
+PageBack="03300";
+NextEnabled=true;
+BackEnabled=true;
+Dependencies="";
+IsQuestion=true;
+var iacount=0;
+
+function judgeQuestion(){
+	var ta=new Array();
+	var ca=new Array(3,2,0,1);
+	var cf=new Array();
+	var st=new Array("First","Second","Third","Fourth");
+	var v;
+	var naflag=false;
+	var i;
+	var c;
+	var s;
+	
+    v=parseInt(document.f1.sel1.value);
+	if(v==-1){naflag=true;}
+	ta.push(v);
+	v=parseInt(document.f1.sel2.value);
+	if(v==-1){naflag=true;}
+	ta.push(v);
+	v=parseInt(document.f1.sel3.value);
+	if(v==-1){naflag=true;}
+	ta.push(v);
+	v=parseInt(document.f1.sel4.value);
+	if(v==-1){naflag=true;}
+	ta.push(v);
+	
+	if(naflag){
+		alert("Please provide answers for all questions, then select Submit.");
+		return;
+	}
+
+	i=0;
+	c=0;
+	while(i<ca.length){
+		if(ta[i]==ca[i]){
+			c++;
+			cf.push("Correct!");
+		}
+		else{
+			cf.push("Incorrect.  The correct answer is " + st[ca[i]]);
+		}
+		i++;
+	}
+
+	
+	if(c>3){
+		fb="Excellent work, you got them all correct.<p>";
+	}
+	else if(c>2){
+		fb="Pretty good, but you missed one.<p>";
+	}
+	else{
+		fb="Review what was missed. <p>"
+	}
+
+	s="<table cols='3' border='1' width='100%'>";
+	s+="<tr>"
+	s+="<th><b>Question</b></th><th><b>Your Answer</b></th><th><b>Feedback</b></th></tr>";
+	s+="<tr><td>Government-wide requirements</td><td>" + st[ta[0]] + "</td><td>" + cf[0] + "</td></tr>";
+	s+="<tr><td>Program specific requirements</td><td>" + st[ta[1]] + "</td><td>" + cf[1] + "</td></tr>";
+	s+="<tr><td>The Constitution of the United States</td><td>" + st[ta[2]] + "</td><td>" + cf[2] + "</td></tr>";
+	s+="<tr><td>Statutes</td><td>" + st[ta[3]] + "</td><td>" + cf[3] + "</td></tr>";
+	s+="</table>";
+	fb+=s;
+    Enable('next');
+	DisplayFeedback(fb);
+}
+</script>
+<style>
+.screentext_custom{
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	width: 600px;
+	height: 480px;
+	overflow: auto;
+}
+.graphic_custom{
+	position: absolute;
+	width: 250px;
+	height: 310px;
+	top: 90px;
+	left: 645px;
+}
+#custom1 td, #custom1 th{
+   font-size:1em;
+   border:1px solid black;
+   padding:5px 5px 5px 5px;
+}
+
+</style>
+</head>
+<body>
+
+
+<div id='backg' class='backg'><img src="../../images/FGM101_background.jpg" width='1024px' height="768px" alt="" border="0"></img></div>
+<div id='header' class='header'><img src="../../images/FGM101_header.jpg" alt="" border="0"></img></div>
+
+
+<div id='main' class='main'>
+<h1>Knowledge Check</h1>
+<div id='screentext' class='screentext_custom'>
+<form id='f1' name='f1'>
+Select the legal hierarchy (1-4) as it applies to grants management. 
+<br><br>
+<table id="custom1" cols='2' style="border-collapse:collapse;">
+<tr style><td>
+<select id='sel1' name='sel1'>
+<option value='-1'></option>
+<option value='0'>First</option>
+<option value='1'>Second</option>
+<option value='2'>Third</option>
+<option value='3'>Fourth</option>
+ </select>
+</td>
+<td>
+Government-wide requirements
+</td></tr>
+<tr><td>
+<select id='sel2' name='sel2'>
+<option value='-1'></option>
+<option value='0'>First</option>
+<option value='1'>Second</option>
+<option value='2'>Third</option>
+<option value='3'>Fourth</option>
+</select>
+</td>
+<td>
+Program specific requirements
+</td></tr>
+<tr><td>
+<select id='sel3' name='sel3'>
+<option value='-1'></option>
+<option value='0'>First</option>
+<option value='1'>Second</option>
+<option value='2'>Third</option>
+<option value='3'>Fourth</option>
+</select>
+</td>
+<td>
+The Consititution of the United States
+</td></tr>
+<tr><td>
+<select id='sel4' name='sel4'>
+<option value='-1'></option>
+<option value='0'>First</option>
+<option value='1'>Second</option>
+<option value='2'>Third</option>
+<option value='3'>Fourth</option>
+</select>
+</td>
+<td>
+Statutes
+</td></tr>
+</table>
+</form>
+<p>
+<button onClick="judgeQuestion()">Check your Answer</button>
+
+
+</div>
+<div id='audioplayer' name='audioplayer'></div>
+<div id='navtext' class='navtext'>Select the legal hierarchy (1-4) as it applies to grants management. After you finish, select Check your Answer. After reviewing the feedback, Select Next to continue. </div>
+<div id='graphic' class='graphic_custom'><img src="../../images/FGM101_KC.jpg" alt="Three dice marked Q & A" border="0"></img></div>
+</div>
+
+<div id='screennumber' class='screennumber'>Page 81 of 83</div>
+
+
+<div id='bottombar' class='bottombar'>
+<div id='exitdiv' class='exitbutton'><a href="javascript:Click('exit');"><img id='exitbtn' src='../../images/btn_exit_up.jpg' border='0' onMouseOver="Rollover('exit');" onMouseOut="Rollout('exit');" onClick="Click('exit');" alt='Exit the course'></img></a></div>
+<div id='sep1' class='sep1'><img src='../../images/FGM101_nav_divider.jpg' border='0' alt=''></img></div>
+<div id='refdiv' class='referencebutton'><a href="javascript:Click('ref');"><img id='refbtn' src="../../images/btn_reference_up.jpg" border="0" onMouseOver="Rollover('ref');" onMouseOut="Rollout('ref');" onClick="Click('ref');" alt="References"></img></a></div>
+<div id='sep2' class='sep2'><img src='../../images/FGM101_nav_divider.jpg' border='0' alt=''></img></div>
+<div id='glossdiv' class='glossarybutton'><a href="javascript:Click('glossary');"><img id='glossarybtn' src="../../images/btn_glossary_up.jpg" border="0" onMouseOver="Rollover('glossary');" onMouseOut="Rollout('glossary');" onClick="Click('glossary');" alt="Glossary"></img> </a></div>
+<div id='sep3' class='sep3'><img src='../../images/FGM101_nav_divider.jpg' border='0' alt=''></img></div>
+<div id='indexdiv' class='indexbutton'><a href="javascript:Click('index');"><img id='indexbtn' src="../../images/btn_index_up.jpg" border="0" onMouseOver="Rollover('index');" onMouseOut="Rollout('index');" onClick="Click('index');" alt="Return to Lesson Menu."></img></a></div>
+<div id='sep4' class='sep4'><img src='../../images/FGM101_nav_divider.jpg' border='0' alt=''></img></div>
+<div id='homediv' class='homebutton'><a href="javascript:Click('home');"><img id="homebtn" src="../../images/btn_home_up.jpg" border="0" onMouseOver="Rollover('home');" onMouseOut="Rollout('home');" onClick="Click('home');" alt="Return to Module Menu."></img></a></div>
+<div id="progressbar" class="progressbar"></div>
+<div id="progresstitle" class="progresstitle"><b>Progress</b></div>
+<div id="progressindicator" class="progressindicator"></div>
+<div id='ccdiv' class='ccbutton'><a href="javascript:Click('cc');"><img id='ccbtn' src='../../images/btn_cc_up.jpg' border='0' onMouseOver="Rollover('cc');" onMouseOut="Rollout('cc');" onClick="Click('cc');" alt='Toggle Closed Captioning'></img></a></div>
+<div id='sep5' class='sep5'><img src='../../images/FGM101_nav_divider.jpg' border='0' alt=''></img></div>
+<div id='audiobtndiv' class='audiobutton'><a href="javascript:Click('audio');"><img id='audiobtn' src="../../images/btn_audio_up.jpg" border="0" onMouseOver="Rollover('audio');" onMouseOut="Rollout('audio');" onClick="Click('audio');" alt="Toggle Audio"></img></a></div>
+<div id='sep6' class='sep6'><img src='../../images/FGM101_nav_divider.jpg' border='0' alt=''></img></div>
+<div id="backbtndiv" class="backbutton"><a href="javascript:Click('back');"><img id="backbtn" src="../../images/btn_back_up.jpg" border="0" onMouseOver="Rollover('back');" onMouseOut="Rollout('back');" onClick="Click('back');" alt="Back One Screen"></img></a></div>
+<div id='sep7' class='sep7'><img src='../../images/FGM101_nav_divider.jpg' border='0' alt=''></img></div>
+<div id="nextbtndiv" class="nextbutton"><a href="javascript:Click('next');"><img id="nextbtn" src="../../images/btn_next_up.jpg" border="0" onMouseOver="Rollover('next');" onMouseOut="Rollout('next');" onClick="Click('next');" alt="Forward One Screen"></img></a></div>
+</div>
+
+<script language="javascript">
+doState();
+</script>
+</body>
+</html>
