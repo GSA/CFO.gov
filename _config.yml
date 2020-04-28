@@ -82,26 +82,14 @@ primary_navigation:
         url: "/fdt/"
       - name: Enterprise Risk Management
         url: "/erm/"
-  - name: Policies and Guidance
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+  - name: Policies & Guidance
+    url: "/policies-and-guidance/"
   - name: JFMIP
     url: "/jfmip/"
   - name: FRPC
     url: "/frpc/"
   - name: Knowledge Sharing
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+    url: /knowledge-sharing/
 
 secondary_navigation:
   - name: Contact Us
@@ -151,6 +139,10 @@ collections:
   members:
     output: true
   controlleralerts:
+    output: true
+  knowledge_sharing:
+    output: true
+  policies_guidance:
     output: true
 
 permalink: pretty

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% comment %}
+This template is for a single knowledge sharing landing page.
+{% endcomment %}
+
+<div class="usa-layout-docs usa-section">
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+                <h1 class="title">{{page.title}}</h1>
+                {{ content }}
+            </div>
+        </div>
+        <p class="card-tag padding-bottom-3"><a href="{{site.baseurl}}/knowledge-sharing/">&#10094; &nbsp; Back to Knowledge Sharing</a></p>
+    </div>
+</div>
