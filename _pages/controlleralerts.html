@@ -9,8 +9,14 @@ permalink: /controller-alerts/
     <p>THE LATEST ALERTS-----------</p><br>
     {% assign sorted = site.controlleralerts | sort: 'posted-date' | reverse %}
     {% for alerts in sorted %}
-    <a href="{{ site.baseurl }}{{ alerts.permalink }}" style="text-decoration: none"><div>
-         <span>{{ alerts.posted-date | date: "%m/%d/%Y" }}: {{ alerts.title }}</span><br><br><br>
-    </div></a>
+    {% if alerts.permalink %}
+        <a href="{{ site.baseurl }}{{ alerts.permalink }}" style="text-decoration: none"><div>
+             <span>{{ alerts.posted-date | date: "%m/%d/%Y" }}: {{ alerts.title }}</span><br><br><br>
+        </div></a>
+    {% else %}
+        <a href="{{ alerts.doc-link }}" style="text-decoration: none"><div>
+            <span>{{ alerts.posted-date | date: "%m/%d/%Y" }}: {{ alerts.title }}</span><br><br><br>
+        </div></a>
+    {% endif %}
     {% endfor %}
 </div>
