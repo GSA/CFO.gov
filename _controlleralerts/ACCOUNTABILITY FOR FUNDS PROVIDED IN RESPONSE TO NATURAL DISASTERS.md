@@ -13,7 +13,7 @@ On September 8, 2017, President Trump signed into law the Continuing Appropriati
 
 Towards that end, this Controller Alert provides an overview of the risk-based internal control planning for all funding for natural disasters as reflected in OMB Memorandum M-16-17 and OMB Circular No. A-123, Management’s Responsibility for Enterprise Risk Management and Internal Control.
 
-## <u>Managing Risk in Disaster Situations</u>
+### <u>Managing Risk in Disaster Situations</u>
 
 As required by OMB Circular No. A-123, each agency has overall responsibility for establishing internal controls to manage the risk of fraud.  Agencies must use a risk-based approach to design and implement financial and administrative control activities to mitigate identified fraud risks.  In assessing risk in disaster situations, agencies should leverage their existing enterprise risk management processes, including assessments that contributed to the development of initial risk profiles and efforts to integrate fraud risks identified and linked to formal internal controls.
 
@@ -21,7 +21,7 @@ This approach includes establishing risk tolerances in disaster situations.  Age
 
 Risk tolerance reflects a Federal manager’s willingness to accept a higher level of fraud risks and may vary depending on the circumstances of the program.  When determining risk tolerances in disaster situations, managers must weigh the program’s operational objectives of expeditiously providing assistance against the objective of lowering the likelihood of fraud as activities to lower fraud risks may cause delays in service.
 
-## <u>Improper Payments</u>
+### <u>Improper Payments</u>
 
 As required by Appendix C to OMB Circular No. A-123, Requirements for Effective Estimation and Remediation of Improper Payments, if a low risk program experiences a significant change in legislation and/or a significant increase in its funding level, agencies are required to reassess the program’s risk susceptibility during the next annual cycle, even if it is less than three years from the last risk assessment. Additional funding received after a natural disaster could create a significant increase in funding level and require agencies to reassess the program’s risk in accordance with OMB Circular No. A-123.
 

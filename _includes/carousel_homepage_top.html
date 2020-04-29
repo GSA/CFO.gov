@@ -1,7 +1,7 @@
 {% assign letterstring = "a,b,c,d" %}
 {% assign letters = letterstring | split: ',' %}
 
-<div class="carousel__holder" style="background-image: url('/assets/images/welocme to cfo.jpg');">
+<div class="carousel__holder">
     <div class="carousel">
         {% for item in site.data.carousel.images %}
         <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
@@ -27,7 +27,7 @@
         <div class="carousel__track">
             <ul>
                 {% for item in site.data.carousel.images %}
-                <li class="carousel__slide" tabindex="0">
+                <li class="carousel__slide" tabindex="0" style="background-image: url('{{site.baseurl}}{{ item.image }}');">
                     {% if item.text %}
                     <h1 style="margin-right: 18em">{{item.text}}</h1>
                     {% endif %}
