@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: knowledge-sharing-landing
 title: GRANTS RESOURCES
+subtitle: GRANTS RESOURCES
 permalink: /grants/grants-resources/
-type: grant
+type: Grant
 filler: Grants Resources What was the Council on Financial Assistance Reform?  OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying, rescinded the COFAR. The group’s policy priorities will now be considered part of the President’s Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific … Continued
-
+filters: grants helpful-link
 ---
 
 

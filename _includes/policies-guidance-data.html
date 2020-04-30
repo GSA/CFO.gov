@@ -14,4 +14,16 @@
         </div>
         {% endfor %}
     </div>
+    <div class="knowledge-sharing" >
+        {% for knowledge_item in site.grants %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ knowledge_item.filters }}">
+            <div class="shadow-1 knowledge-border ">
+                <div class="text-container">
+                    <span class="card-tag">{{ knowledge_item.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ knowledge_item.permalink }}">{{ knowledge_item.subtitle }}</a></p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </div>
