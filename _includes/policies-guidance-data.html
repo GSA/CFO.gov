@@ -4,6 +4,7 @@
     <p class="filter-count card-tag margin-top-0 text-gray-50 text-thin"></p>
     <div class="knowledge-sharing" >
         {% for knowledge_item in site.policies_guidance %}
+        {% if knowledge_item.layout == "policies-guidance-landing" %}
         <div class="tablet:grid-col-3 grid-spacing policy {{ knowledge_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
@@ -12,18 +13,49 @@
                 </div>
             </div>
         </div>
+        {% endif %}
         {% endfor %}
-    </div>
-    <div class="knowledge-sharing" >
-        {% for knowledge_item in site.grants %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ knowledge_item.filters }}">
+        <!--    </div>-->
+        <!--    <div class="knowledge-sharing" >-->
+        {% for grant in site.grants %}
+        {% if grant.layout == "policies-guidance-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ grant.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">{{ knowledge_item.type }}</span>
-                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ knowledge_item.permalink }}">{{ knowledge_item.subtitle }}</a></p>
+                    <span class="card-tag">{{ grant.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.permalink }}">{{ grant.subtitle }}</a></p>
                 </div>
             </div>
         </div>
+        {% endif %}
+        {% endfor %}
+        <!--    </div>-->
+        <!--    <div class="knowledge-sharing" >-->
+        {% for erm_item in site.erm %}
+        {% if erm_item.layout == "policies-guidance-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ erm_item.filters }}">
+            <div class="shadow-1 knowledge-border ">
+                <div class="text-container">
+                    <span class="card-tag">{{ erm_item.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ erm_item.permalink }}">{{ erm_item.subtitle }}</a></p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        <!--    </div>-->
+        {% for fdt_item in site.fdt %}
+        {% if fdt_item.layout == "policies-guidance-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ fdt_item.filters }}">
+            <div class="shadow-1 knowledge-border ">
+                <div class="text-container">
+                    <span class="card-tag">{{ fdt_item.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fdt_item.permalink }}">{{ fdt_item.subtitle }}</a></p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
         {% endfor %}
     </div>
 </div>
+
