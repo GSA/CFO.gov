@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: knowledge-sharing-landing
 title: OCTOBER 2014 UNIFORM GUIDANCE IMPLEMENTATION A SERIES OF DIALOGUES
+subtitle: OCTOBER 2014 UNIFORM GUIDANCE IMPLEMENTATION A SERIES OF DIALOGUES
 permalink: /october-2014-uniform-guidance-implementation-a-series-of-dialogues/
-type: grant
+type: Grant
 date: October 24, 2014
 author: CFO Council 
+filters: grants best-practice
 ---
 
 ## OPENING REMARKS
