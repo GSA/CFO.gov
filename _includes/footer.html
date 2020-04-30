@@ -1,5 +1,5 @@
 <div class="grid-container padding-3">
-    <a onclick="topFunction()" id="backtotop" class="margin-1em font-sans-md text-underline" tabindex="0">Return to Top</a>
+    <a onclick="topFunction()" onkeydown="topFunctionKeyboard(event)" id="backtotop" class="margin-1em font-sans-md text-underline" tabindex="0">Return to Top</a>
 </div>
 <footer class="usa-footer site-footer" role="contentinfo">
     <div class="footer-section-bottom bg-base-lighter">
@@ -23,7 +23,7 @@
                             {% if site.footer.contact.name %}
                             <h2 class="usa-footer-contact-heading" style="text-align: right">{{ site.footer.contact.name }}</h2>
                             {% endif %}
-                            <p>{{ site.footer.contact.phonenumber }} &nbsp;&nbsp;&nbsp; {{ site.footer.contact.email }}</p>
+                            <p> &nbsp;&nbsp;&nbsp; {{ site.footer.contact.email }}</p>
                         </address>
                     </div>
                 </div>
