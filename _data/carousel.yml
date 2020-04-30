@@ -23,12 +23,34 @@ images:
 
 images2:
   - image: /assets/images/welocme to cfo.jpg
-    header-text: Policy and Guidance
-    text: grants
+    header-text: President’s Management Agenda
+    text:
     img: /assets/images/logos/asset 11.jpg
   - image: /assets/images/priority-middle-image.png
-    text: text for welcomepart2
+    header-text: CFO Act
+    text:
+    img: /assets/images/logos/asset 11.jpg
   - image: /assets/images/welocme to cfo.jpg
-    text: text for welcomepart3
+    header-text: Grants Resources
+    text:
+    img: /assets/images/logos/asset 11.jpg
   - image: /assets/images/priority-middle-image.png
-    text: text for welcomepart4
+    header-text: FASAB
+    text:
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/welocme to cfo.jpg
+    header-text: Treasury Financial Manual
+    text:
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/priority-middle-image.png
+    header-text: GAO Yellow Book
+    text:
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/welocme to cfo.jpg
+    header-text: OMB Budget Guidance
+    text:
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/priority-middle-image.png
+    header-text: AGA CEAR
+    text:
+    img: /assets/images/logos/asset 11.jpg
