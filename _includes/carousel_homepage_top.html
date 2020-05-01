@@ -2,7 +2,7 @@
 {% assign letters = letterstring | split: ',' %}
 
 <div class="carousel__holder">
-    <div class="carousel">
+    <div class="carousel top" style="background-image: url('{{site.baseurl}}/assets/images/slider-image-new.png');">
         {% for item in site.data.carousel.images %}
         <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
@@ -19,24 +19,26 @@
         {% assign previndex = forloop.index0 | minus: 1 %}
         {% endif %}
         {% assign prevletter = letters[previndex] %}
-      <div class="carousel__controls">
+      <!--<div class="carousel__controls">
             <label class="carousel__control carousel__control&#45;&#45;backward" for="{{ prevletter }}"></label>
             <label class="carousel__control carousel__control&#45;&#45;forward" for="{{ nextletter }}"></label>
-        </div>
+        </div>-->
         {% endfor %}
         <div class="carousel__track">
             <ul>
                 {% for item in site.data.carousel.images %}
-                <li class="carousel__slide" tabindex="0" style="background-image: url('{{site.baseurl}}{{ item.image }}');">
+                <li class="carousel__slide" tabindex="0">
+                    <div class="grid-col-10 grid-offset-1">
                     {% if item.text %}
-                    <h1 style="margin-right: 18em">{{item.text}}</h1>
+                    <h2 class="font-ui-xl">{{item.text}}</h2>
                     {% endif %}
                     {% if item.description %}
-                    <h2>{{item.description}}</h2>
+                    <p class="font-ui-md">{{item.description}}</p>
                     {% endif %}
                     {% if item.button-name %}
-                    <button class="margin-top-5 margin-bottom-5 usa-button--outline-inverse usa-button members-button bg-red border-0"><a href="{{site.baseurl}}{{item.url}}">{{item.button-name}}</a></button>
+                    <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0" href="{{site.baseurl}}{{item.url}}">{{item.button-name}}</a>
                     {% endif %}
+                    </div>
                 </li>
                 {% endfor %}
             </ul>
@@ -121,7 +123,8 @@
         position: absolute;
         bottom: 20px;
         width: 100%;
-        text-align: center;
+        text-align: right;
+        right:15px;
     }
     .carousel__indicator {
         height: 15px;

@@ -1,8 +1,8 @@
 {% assign letterstring = "1,2,3,4,5,6,7,8" %}
 {% assign letters = letterstring | split: ',' %}
-
+<div class="grid-col-10 grid-offset-1">
 <div class="carousel__holder">
-    <div class="carousel">
+    <div class="carousel bottom radius-md">
         {% for item in site.data.carousel.images2 %}
         <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
@@ -19,7 +19,7 @@
         {% assign previndex = forloop.index0 | minus: 1 %}
         {% endif %}
         {% assign prevletter = letters[previndex] %}
-              <div class="carousel__controls">
+             <div class="carousel__controls">
                     <label class="carousel__control carousel__control&#45;&#45;backward" for="{{ prevletter }}"></label>
                     <label class="carousel__control carousel__control&#45;&#45;forward" for="{{ nextletter }}"></label>
                 </div>
@@ -27,16 +27,26 @@
         <div class="carousel__track">
             <ul>
                 {% for item in site.data.carousel.images2 %}
-                <li class="carousel__slide" style="background-image: url('{{site.baseurl}}{{ item.image }}');">
+
+                <li class="carousel__slide">
+                    <div class="grid-col-10 grid-offset-1">
                 {% if item.header-text%}
                     <h2>{{item.header-text}}</h2>
                 {% endif%}
-                {% if item.img %}
-                    <img class="circle-image" src="{{site.baseurl}}{{item.img}}" alt="{{ item.text }} logo">
-                {% endif %}
-                {% if item.text %}
-                    <h2>{{item.text}}</h2>
-                {% endif %}
+                        <div class="grid-row grid-gap">
+                            {% if item.img %}
+                            <div class="grid-col-auto grid-offset-1">
+                                <img class="circle-image" src="{{site.baseurl}}{{item.img}}" alt="{{ item.text }} logo">
+                            </div>
+                            {% endif %}
+                            {% if item.text %}
+                            <div class="grid-col-6">
+                                <p class="font-ui-md margin-top-0">{{item.text}}</p>
+
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
                 </li>
 
                 {% endfor %}
@@ -44,12 +54,12 @@
         </div>
         <div class="carousel__indicators">
             {% for item in site.data.carousel.images2 %}
-            <label class="carousel__indicator" for="{{ letters[forloop.index0] }}"></label>
+            <label class="carousel__indicator bg-red" for="{{ letters[forloop.index0] }}"></label>
             {% endfor %}
         </div>
     </div>
 </div>
-
+</div>
 <style>
     .carousel__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }};}
     .carousel {
@@ -88,8 +98,14 @@
         opacity: 1;
     }
     {% endfor %}
-
-    .carousel__control {
+    .bottom .carousel__indicators {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+        right: auto;
+    }
+    /*.carousel__control {
         height: 30px;
         width: 30px;
         margin-top: -15px;
@@ -155,14 +171,14 @@
         left: 0;
         right: 0;
         opacity: 1;
-    }
+    }*/
     {% for item in site.data.carousel.images2 %}
     .carousel__track .carousel__slide:nth-of-type({{ forloop.index }}) {
     -webkit-transform: translateX({{ forloop.index0 }}00%);
     transform: translateX({{ forloop.index0 }}00%);
     }
     {% endfor %}
-
+/*
     .carousel--scale .carousel__slide {
         -webkit-transform: scale(0);
         transform: scale(0);
@@ -180,7 +196,7 @@
     }
     .carousel__indicator {
         background-color: #fafafa;
-    }
+    }*/
     {% for item in site.data.carousel.images2 %}
     .carousel__slide:nth-of-type({{ forloop.index }}),
     .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
@@ -188,4 +204,5 @@
         background-position: center;
     }
     {% endfor %}
+
 </style>
