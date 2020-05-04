@@ -1,8 +1,8 @@
 
 ---
 layout: policies-guidance-landing
-title: GRANTS RESOURCES
-subtitle: GRANTS RESOURCES
+title: 
+subtitle: 
 permalink: wp-content/uploads/2016/01/GRANTS-MANAGEMENT-Action-Needed-to-Improve-the-Timeliness-of-Grant-Closeouts-by-Federal-Agencies.pdf
 type: Grant
 filler: 

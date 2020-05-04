@@ -1,6 +1,6 @@
 ---
-bio-image: /wp-content/uploads/2019/08/Randall-M-Hendrickson-e1565712767945-215x300.jpg
-bio-image-alt-text: RANDALL HENDRICKSON
+bio-image: /wp-content/uploads/2020/02/Johnson-Cherish-CFO-NRC.jpg
+bio-image-alt-text: CHERISH K. JOHNSON
 layout: bio
 permalink: /bio/ms-cherish-k-johnson/
 name : MS. CHERISH K. JOHNSON

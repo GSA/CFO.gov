@@ -4,7 +4,7 @@ title: GRANTS TRAINING
 permalink: /grant/training/
 type: grant
 filler: TGrants Training As a part of the CFO Council's mission to foster more efficient and effective Federal grants management system, the Council coordinates training on key issues related to that mission. Please Note To properly view all Grants 101 Training Modules, please use either Google Chrome or Microsoft Internet Explorer. Please also make sure that Flash is enabled … Continued
-
+filters: grants Interactive-training
 ---
 
 

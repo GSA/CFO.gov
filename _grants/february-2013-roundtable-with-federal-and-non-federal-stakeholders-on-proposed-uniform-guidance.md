@@ -1,13 +1,12 @@
 ---
 layout: knowledge-sharing-landing
-title: DECEMBER 2013&#58; INTRODUCING THE UNIFORM GUIDANCE&#58; IMPROVING OUTCOMES BY REDUCING RED TAPE FOR FINANCIAL ASSISTANCE
-subtitle: DECEMBER 2013&#58; INTRODUCING THE UNIFORM GUIDANCE&#58; IMPROVING OUTCOMES BY REDUCING RED TAPE FOR FINANCIAL ASSISTANCE
-permalink: /december-2013-introducing-the-uniform-guidance-improving-outcomes-by-reducing-red-tape-for-financial-assistance/
+title: FEBRUARY 2013&#58; ROUNDTABLE WITH FEDERAL AND NON-FEDERAL STAKEHOLDERS ON PROPOSED UNIFORM GUIDANCE
+permalink: /february-2013-roundtable-with-federal-and-non-federal-stakeholders-on-proposed-uniform-guidance/
 type: Grant
 filler:  
 filters: grants guidance
 author: CFO Council 
-date: January 12, 2013
+date: January 02, 2013
 ---
 
 {% include youtube_embed.html id="dlZfb9ALBck" %}  
