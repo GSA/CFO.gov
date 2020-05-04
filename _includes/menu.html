@@ -31,8 +31,8 @@ where we provide an easy way to manage your navigation system
         {% else %}
         {% assign nav_id = 'primary-nav-' | append: forloop.index %}
         <li class="usa-nav__primary-item">
-          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
-            aria-controls="{{ nav_id }}"><span class="header-menu-text">{{ nav_item.name | escape }}</span></button>
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ nav_id }}"><span
+              class="header-menu-text">{{ nav_item.name | escape }}</span></button>
           <ul id="{{ nav_id }}" class="usa-nav__submenu">
             {% for subnav_item in nav_item.children %}
             <li class="usa-nav__submenu-item">
@@ -49,7 +49,7 @@ where we provide an easy way to manage your navigation system
         <ul class="usa-nav__secondary-links">
           {% for nav_item in include.secondary_navigation %}
           <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url | prepend: site.baseurl }}">{{ nav_item.name | escape }}</a>
+            <a href="{{ nav_item.url  }}">{{ nav_item.name | escape }}</a>
           </li>
           {% endfor %}
         </ul>
