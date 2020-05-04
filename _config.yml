@@ -99,6 +99,18 @@ secondary_navigation:
   - name: Feedback
     url: "#main-content"
 
+payment-accuracy-navigation:
+  - name: About
+    url: /about-payment-accuracy/
+  - name: Program Scorecards
+    url: /payment-accuracy-high-priority-programs/
+  - name: The Numbers
+    url: /payment-accuracy-the-numbers/
+  - name: Resources
+    url: /payment-accuracy-resources/
+  - name: FAQ
+    url: /payment-accuracy-FAQ/
+
 footer:
   contact:
     name: Contact Us
