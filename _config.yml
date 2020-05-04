@@ -93,11 +93,11 @@ primary_navigation:
 
 secondary_navigation:
   - name: Contact Us
-    url: "#main-content"
+    url: "mailto:Cfoc.support@gsa.gov"
   - name: Get Involved
-    url: "#main-content"
+    url: "mailto:Cfoc.support@gsa.gov"
   - name: Feedback
-    url: "#main-content"
+    url: "mailto:Cfoc.support@gsa.gov"
 
 footer:
   contact:
