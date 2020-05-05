@@ -1,5 +1,5 @@
 ---
-bio-image: /wp-content/uploads/2019/11/Jeffrey-C.-Mounts-Picture-232x300.jpg"
+bio-image: /wp-content/uploads/2019/11/Jeffrey-C.-Mounts-Picture-scaled.jpg
 bio-image-alt-text: JEFFREY C. MOUNTS
 layout: bio
 permalink: /bio/mr-jeffrey-c-mounts/

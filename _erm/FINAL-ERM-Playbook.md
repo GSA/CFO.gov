@@ -1,11 +1,9 @@
 ---
 layout: knowledge-sharing-landing
-title: FINAL-ERM-Playbook
-subtitle: ENTERPRISE RISK MANAGEMENT (ERM) PLAYBOOK RELEASED
-permalink: /knowledge-sharing/FINAL-ERM-Playbook/
+title: FINAL ERM Playbook
+subtitle: FINAL ERM Playbook
+permalink: /link/
 type: ERM
-filler:  Text of second md file of type erm
-date: March 20, 2020
-filters: erm best-practice
+filters: best-practice
 ---
-
+<a href="{{ site.baseurl }}/wp-content/uploads/2016/07/FINAL-ERM-Playbook.pdf"></a>

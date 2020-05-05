@@ -7,7 +7,7 @@ type: Grant
 filler: Opening Remarks Dave Mader, Controller, OMB Rhea Hubbard, Policy Analyst, OMB Gil Tran, Policy Analyst, OMB Promising Practices in Implementation; Risk Assessment (Panel 1) Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and COFAR Co-Chair Phil Maestri, Director, Risk Management Service, U.S. Department of Education Moderator; Rhea Hubbard, Policy Analyst, OMB … Continued
 date: July 07, 2015
 author: CFO Council 
-filters: grants best-practice
+filters: grants guidance
 ---
 
 

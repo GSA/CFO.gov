@@ -1,9 +1,10 @@
 ---
 posted-date: 2017-09-13
 author: Amy Bontrager
-layout: controlleralertsdetails
+layout: policies-guidance-landing
 title: "ACCOUNTABILITY FOR FUNDS PROVIDED IN RESPONSE TO NATURAL DISASTERS"
-permalink: /controller-alert-accountability-for-funds-provided-in-response-to-natural-disasters/
+permalink: /policies/controller-alert-accountability-for-funds-provided-in-response-to-natural-disasters/
+filters: controller-alerts
 ---
 *Controller Alerts are designed to bring your attention to emerging financial management issues where the Office of Management and Budget (OMB) believes further action may be warranted, but do not constitute official guidance or include specific tasks for agencies beyond consideration of appropriate steps to address the issue.  These Alerts are intended to make sure that the Chief Financial Officer (CFO) community is aware of key issues. This Alert includes notice to the Council of the Inspectors General on Integrity and Efficiency (CIGIE) because of reporting specific for Inspectors General. Additional Controller Alerts are available at [https://cfo.gov/controller-alerts/](https://cfo.gov/controller-alerts/).*
 

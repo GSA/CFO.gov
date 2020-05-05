@@ -6,7 +6,7 @@ permalink:  /policies/controller-alert-reducing-burden-for-federal-agencies-by-r
 type: Grant
 date: March 07, 2017
 author: CFO Council 
-filters: grants best-practice
+filters: grants controller-alerts
 ---
 
 *Controller Alerts are designed to highlight emerging financial management issues that may require agency attention or action.  These Alerts are intended to inform the Chief Financial Officer (CFO) community of key issues where the Office of Management and Budget (OMB) believes further action may be warranted, but do not constitute official guidance or prescribe specific tasks for agencies beyond consideration of appropriate steps to address the issue.*
