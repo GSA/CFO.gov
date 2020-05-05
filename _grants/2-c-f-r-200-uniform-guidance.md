@@ -4,7 +4,6 @@ title: 2 C.F.R 200&#58; UNIFORM GUIDANCE
 subtitle: 2 C.F.R 200&#58; UNIFORM GUIDANCE
 permalink: /knowledge-sharing/2-c-f-r-200-uniform-guidance/
 type: Grant
-filler: 
 date: January 12, 2015
 author: Amy Bontrager 
 filters: grants guidance

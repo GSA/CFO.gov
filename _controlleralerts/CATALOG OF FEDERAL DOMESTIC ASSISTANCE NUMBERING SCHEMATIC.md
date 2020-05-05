@@ -1,9 +1,11 @@
 ---
 posted-date: 2016-12-22
 author: CFO Council
-layout: controlleralertsdetails
+layout: policies-guidance-landing
 title: "CATALOG OF FEDERAL DOMESTIC ASSISTANCE NUMBERING SCHEMATIC"
-permalink: /controller-alert-catalog-of-federal-domestic-assistance-numbering-schematic/
+subtitle: "CATALOG OF FEDERAL DOMESTIC ASSISTANCE NUMBERING SCHEMATIC"
+permalink: /policies/controller-alert-catalog-of-federal-domestic-assistance-numbering-schematic/
+filters: controller-alerts
 ---
 *Controller Alerts are designed to highlight emerging financial management issues that may require agency attention or action. These Alerts are intended to inform the Chief Financial Officer (CFO) community of key issues where the Office of Management and Budget (OMB) believes further action may be warranted, but do not constitute official guidance or prescribe specific tasks for agencies beyond consideration of appropriate steps to address the issue.*
 

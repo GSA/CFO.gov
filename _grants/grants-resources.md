@@ -9,8 +9,6 @@ filters: grants helpful-link
 ---
 
 
-
-
 GRANTS RESOURCES
 What was the Council on Financial Assistance Reform? 
 

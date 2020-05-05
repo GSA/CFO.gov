@@ -3,6 +3,7 @@ posted-date: 2017-09-13
 author: Amy Bontrager
 layout: policies-guidance-landing
 title: "ACCOUNTABILITY FOR FUNDS PROVIDED IN RESPONSE TO NATURAL DISASTERS"
+subtitle: "ACCOUNTABILITY FOR FUNDS PROVIDED IN RESPONSE TO NATURAL DISASTERS"
 permalink: /policies/controller-alert-accountability-for-funds-provided-in-response-to-natural-disasters/
 filters: controller-alerts
 ---
