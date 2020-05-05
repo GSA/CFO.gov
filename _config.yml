@@ -156,6 +156,8 @@ collections:
     output: true
   policies_guidance:
     output: true
+  my_career:
+    output: true
 
 permalink: pretty
 

@@ -56,5 +56,53 @@
         </div>
         {% endif %}
         {% endfor %}
+        {% for fmt_item in site.fmt %}
+        {% if fmt_item.layout == "knowledge-sharing-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ fmt_item.filters }}">
+            <div class="shadow-1 knowledge-border ">
+                <div class="text-container">
+                    <span class="card-tag">{{ fmt_item.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fmt_item.permalink }}">{{ fmt_item.subtitle }}</a></p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% for gpr_item in site.gpr %}
+        {% if gpr_item.layout == "knowledge-sharing-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ gpr_item.filters }}">
+            <div class="shadow-1 knowledge-border ">
+                <div class="text-container">
+                    <span class="card-tag">{{ gpr_item.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ gpr_item.permalink }}">{{ gpr_item.subtitle }}</a></p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% for jfmip_item in site.jfmip %}
+        {% if jfmip_item.layout == "knowledge-sharing-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ jfmip_item.filters }}">
+            <div class="shadow-1 knowledge-border">
+                <div class="text-container">
+                    <span class="card-tag">{{ jfmip_item.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ jfmip_item.permalink }}">{{ jfmip_item.subtitle }}</a></p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% for career_item in site.my_career %}
+        {% if career_item.layout == "knowledge-sharing-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ career_item.filters }}">
+            <div class="shadow-1 knowledge-border">
+                <div class="text-container">
+                    <span class="card-tag">{{ career_item.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ career_item.permalink }}">{{ career_item.subtitle }}</a></p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
