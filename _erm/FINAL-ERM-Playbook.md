@@ -2,7 +2,7 @@
 layout: knowledge-sharing-landing
 title: FINAL ERM Playbook
 subtitle: FINAL ERM Playbook
-permalink: /link/
+doc-link: ../wp-content/uploads/2016/07/FINAL-ERM-Playbook.pdf
 type: ERM
 filters: best-practice
 ---

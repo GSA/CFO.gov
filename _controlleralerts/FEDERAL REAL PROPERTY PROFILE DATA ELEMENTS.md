@@ -3,8 +3,8 @@ posted-date: 2016-12-01
 author: CFO Council
 layout: policies-guidance-landing
 type: Controller Alert
-title: "FEDERAL REAL PROPERTY PROFILE DATA ELEMENTS"
-subtitle: "FEDERAL REAL PROPERTY PROFILE DATA ELEMENTS"
+title: "Federal Real Property Profile Data Elements"
+subtitle: "Federal Real Property Profile Data Elements"
 permalink: /policies/controller-alert-federal-real-property-profile-data-elements/
 filters: controller-alerts
 ---

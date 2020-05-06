@@ -1,8 +1,8 @@
 ---
 layout: policies-guidance-landing
-title: CONTROLLER ALERT REDUCING BURDEN FOR FEDERAL AGENCIES BY RESCINDING GRANTS MANAGEMENT RELATED REQUIREMENTS
-subtitle: CONTROLLER ALERT REDUCING BURDEN FOR FEDERAL AGENCIES 
-permalink:  /policies/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/
+title: Controller Alert Reducing Burden For Federal Agencies By Rescinding Grants Management Related Requirements
+subtitle: Controller Alert Reducing Burden For Federal Agencies By Rescinding Grants Management Related Requirements 
+permalink: /policies/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/
 type: Grant
 date: March 07, 2017
 author: CFO Council 

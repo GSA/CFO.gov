@@ -1,7 +1,7 @@
 ---
 layout: knowledge-sharing-landing
-title: FEBRUARY 2013&#58; ROUNDTABLE WITH FEDERAL AND NON-FEDERAL STAKEHOLDERS ON PROPOSED UNIFORM GUIDANCE
-subtitle: FEBRUARY 2013&#58; ROUNDTABLE WITH FEDERAL AND NON-FEDERAL STAKEHOLDERS
+title: Februrary 2013&#58; Roundtable with Federal and Non-Deferal Stakeholders on Proposed Uniform Guidance
+subtitle: Februrary 2013&#58; Roundtable with Federal and Non-Deferal Stakeholders on Proposed Uniform Guidance
 permalink: /knowledge-sharing/february-2013-roundtable-with-federal-and-non-federal-stakeholders-on-proposed-uniform-guidance/
 type: Grant
 filler:  
