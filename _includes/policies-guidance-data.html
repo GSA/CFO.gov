@@ -92,6 +92,18 @@
         </div>
         {% endif %}
         {% endfor %}
+        {% for ctrlalert_item in site.controlleralerts %}
+        {% if ctrlalert_item.layout == "policies-guidance-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ ctrlalert_item.filters }}">
+            <div class="shadow-1 knowledge-border ">
+                <div class="text-container">
+                    <span class="card-tag">{{ ctrlalert_item.type }}</span>
+                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ ctrlalert_item.permalink }}">{{ ctrlalert_item.subtitle }}</a></p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
 
