@@ -1,13 +1,11 @@
 ---
-title: Knowledge Sharing
-subtitle: Knowledge sharing 2
-description: Knowledge sharing  description 2. 
-permalink: /knowledge-sharing/content2/
 layout: knowledge-sharing-landing
-policy-publish-date: December 20, 2018
-type: FMT/Helpful link
-filters: fmt helpful-link
-
+title: CFOC FAM Career Roadmap Report
+subtitle: CFOC FAM Career Roadmap Report
+doc-link: ../wp-content/uploads/2017/08/CFOC_FAM-Career-Roadmap-Report_Final.pdf
+type: My Career
+filler:
+filters: my-career
 ---
 ## Policy Overview ##
 

@@ -134,6 +134,24 @@
         </div>
         {% endif %}
         {% endfor %}
+        {% for item in site.policies_guidance %}
+        {% if item.layout == "policies-guidance-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ item.filters }}">
+            <div class="shadow-1 knowledge-border ">
+                <div class="text-container">
+                    <span class="card-tag">{{ item.type }}</span>
+                    <p class="title-resources">
+                        {% if item.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ item.permalink }}">{{ item.subtitle }}</a>
+                        {% else %}
+                        <a title="policy or priority title" class="no-style" href="{{ item.doc-link }}">{{ item.subtitle }}</a>
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
 
