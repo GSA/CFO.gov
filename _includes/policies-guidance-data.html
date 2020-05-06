@@ -23,7 +23,13 @@
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
                     <span class="card-tag">{{ grant.type }}</span>
-                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.permalink }}">{{ grant.subtitle }}</a></p>
+                    <p class="title-resources">
+                        {% if grant.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.permalink }}">{{ grant.subtitle }}</a>
+                        {% else %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.doc-link }}">{{ grant.subtitle }}</a>
+                        {% endif %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -37,7 +43,13 @@
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
                     <span class="card-tag">{{ erm_item.type }}</span>
-                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ erm_item.permalink }}">{{ erm_item.subtitle }}</a></p>
+                    <p class="title-resources">
+                        {% if erm_item.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ erm_item.permalink }}">{{ erm_item.subtitle }}</a>
+                        {% else %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ erm_item.doc-link }}">{{ erm_item.subtitle }}</a>
+                        {% endif %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -50,7 +62,13 @@
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
                     <span class="card-tag">{{ fdt_item.type }}</span>
-                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fdt_item.permalink }}">{{ fdt_item.subtitle }}</a></p>
+                    <p class="title-resources">
+                        {% if fdt_item.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fdt_item.permalink }}">{{ fdt_item.subtitle }}</a>
+                        {% else %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fdt_item.doc-link }}">{{ fdt_item.subtitle }}</a>
+                        {% endif %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -62,7 +80,13 @@
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
                     <span class="card-tag">{{ fmt_item.type }}</span>
-                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fmt_item.permalink }}">{{ fmt_item.subtitle }}</a></p>
+                    <p class="title-resources">
+                        {% if fmt_item.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fmt_item.permalink }}">{{ fmt_item.subtitle }}</a>
+                        {% else %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fmt_item.doc-link }}">{{ fmt_item.subtitle }}</a>
+                        {% endif %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -74,7 +98,13 @@
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
                     <span class="card-tag">{{ gpr_item.type }}</span>
-                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ gpr_item.permalink }}">{{ gpr_item.subtitle }}</a></p>
+                    <p class="title-resources">
+                        {% if jfmip_item.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ gpr_item.permalink }}">{{ gpr_item.subtitle }}</a>
+                        {% else %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ gpr_item.doc-link }}">{{ gpr_item.subtitle }}</a>
+                        {% endif %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -86,7 +116,13 @@
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
                     <span class="card-tag">{{ jfmip_item.type }}</span>
-                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ jfmip_item.permalink }}">{{ jfmip_item.subtitle }}</a></p>
+                    <p class="title-resources">
+                        {% if jfmip_item.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ jfmip_item.permalink }}">{{ jfmip_item.subtitle }}</a>
+                        {% else %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ jfmip_item.doc-link }}">{{ jfmip_item.subtitle }}</a>
+                        {% endif %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -98,7 +134,13 @@
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
                     <span class="card-tag">{{ ctrlalert_item.type }}</span>
-                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ ctrlalert_item.permalink }}">{{ ctrlalert_item.subtitle }}</a></p>
+                    <p class="title-resources">
+                        {% if ctrlalert_item.permalink %}
+                            <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ ctrlalert_item.permalink }}">{{ ctrlalert_item.subtitle }}</a>
+                        {% else %}
+                            <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ ctrlalert_item.doc-link }}">{{ ctrlalert_item.subtitle }}</a>
+                        {% endif %}
+                    </p>
                 </div>
             </div>
         </div>
