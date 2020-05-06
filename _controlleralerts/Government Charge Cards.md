@@ -6,5 +6,6 @@ title: "Government Charge Cards"
 subtitle: "Government Charge Cards"
 doc-link: ../assets/files/CONTROLLER-Alert.pdf
 filters: controller-alerts
+type: Controller Alert
 ---
 

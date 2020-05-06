@@ -6,4 +6,5 @@ title: "Travel and Conferences"
 subtitle: "Travel and Conferences"
 doc-link: ../assets/files/Controller-Alert-Travel-and-Conferencess.pdf
 filters: controller-alerts
+type: Controller Alert
 ---
