@@ -24,7 +24,7 @@ title: DEPUTY CHIEF FINANCIAL OFFICER
              includes ongoing annual financial audit support and
              remediation, following the successful audit readiness efforts that resulted in the first
              comprehensive audit in fiscal year 2018. In addition, Mr. Easton has oversight of the
-             Department’s Manager’s Internal Control Program; improper payment reduction program;
+             Department's Manager's Internal Control Program; improper payment reduction program;
              implementation of the Digital Accountability and Transparency Act of 2014 (DATA Act); cost
              accounting initiatives; CFO of the Future strategy implementation; CFO data transformation for
              better decision making and governance, and various other business process reforms to
@@ -43,7 +43,7 @@ title: DEPUTY CHIEF FINANCIAL OFFICER
              Bachelor of Science degree in economics from Miami University (Ohio) and a Master of
              Business Administration degree from the University of Michigan. He has completed the
              Executive Development Program at the Northwestern University Kellogg Graduate School of
-             Business and is a graduate of the National Defense University’s Industrial College of the Armed
+             Business and is a graduate of the National Defense University's Industrial College of the Armed
              Forces. He is a Certified Defense Financial Manager with Acquisition Specialty and has also
              earned the Defense Financial Management Certification. He is the recipient of various personal
              awards, including the Presidential Rank Award (Distinguished and Meritorious), the DoD Medal

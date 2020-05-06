@@ -13,5 +13,5 @@ title: ACTING DEPUTY CHIEF FINANCIAL OFFICER
              
    Don also served 20 years with the U.S. Navy, serving as a Supply Corps Officer where he completed tours with the National Reconnaissance Office (comptroller and contracts support), Naval Air Systems Command (contracting officer), USS THORN, USS RODNEY M. DAVIS, and various other posts.
              
-   He holds a Bachelor’s degree from the University of Florida, a Master’s degree from the Naval Postgraduate School, and a Master’s certificate from Berklee College of Music. He and his wife currently reside in Northern Virginia.
+   He holds a Bachelor's degree from the University of Florida, a Master's degree from the Naval Postgraduate School, and a Master's certificate from Berklee College of Music. He and his wife currently reside in Northern Virginia.
 
