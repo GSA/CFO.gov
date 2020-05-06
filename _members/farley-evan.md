@@ -11,5 +11,5 @@ title: DEPUTY CHIEF FINANCIAL OFFICER
              
    Mr. Farley also served a combined twenty-two years active and reserve duty as a Naval Officer until his retirement from the service in 2010. His tours include serving aboard the U.S.S. Pharris (FF-1094), at the U.S. Central Command, and two tours with the Seabees.
              
-   Mr. Farley is a graduate of the University of Notre Dame, the U.S. Naval War College, and has a Master’s Degree in Public Policy from the University of Minnesota. He lives in Arlington Virginia with his wife and two children.
+   Mr. Farley is a graduate of the University of Notre Dame, the U.S. Naval War College, and has a Master's Degree in Public Policy from the University of Minnesota. He lives in Arlington Virginia with his wife and two children.
 

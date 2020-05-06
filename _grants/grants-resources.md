@@ -4,7 +4,7 @@ title: Grant Resources
 subtitle: Grant Resources
 permalink: /knowledge-sharing/grants-resources/
 type: Grant
-filler: Grants Resources What was the Council on Financial Assistance Reform?  OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying, rescinded the COFAR. The group’s policy priorities will now be considered part of the President’s Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific … Continued
+filler: Grants Resources What was the Council on Financial Assistance Reform?  OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying, rescinded the COFAR. The group's policy priorities will now be considered part of the President's Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific . Continued
 filters: grants helpful-link
 ---
 
@@ -12,7 +12,7 @@ filters: grants helpful-link
 GRANTS RESOURCES
 What was the Council on Financial Assistance Reform? 
 
-[OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/M-17-26.pdf), rescinded the COFAR. The group’s policy priorities will now be considered part of the President’s Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific initiatives. The Financial Assistance Committee for E-Government (FACE),  will remain operational. 
+[OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/M-17-26.pdf), rescinded the COFAR. The group's policy priorities will now be considered part of the President's Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific initiatives. The Financial Assistance Committee for E-Government (FACE),  will remain operational. 
 
 **Background**
 
@@ -39,13 +39,13 @@ What was the Council on Financial Assistance Reform?
 * [Data Act Page on USAspending.gov](https://www.usaspending.gov/Pages/data-act.aspx)
 * [OMB Treasury Federal Spending Transparency Website](https://fedspendingtransparency.github.io/)
 * [COFAR Transparency Initiatives 2014]({{ site.baseurl }}/wp-content/uploads/2013/01/COFAR-Transparancy-Initiatives-2014.pdf)
-* [Executive Order 13576 –Delivering an Efficient, Effective, and Accountable Government](https://www.govinfo.gov/content/pkg/CFR-2012-title3-vol1/pdf/CFR-2012-title3-vol1-eo13576.pdf)
+* [Executive Order 13576 -Delivering an Efficient, Effective, and Accountable Government](https://www.govinfo.gov/content/pkg/CFR-2012-title3-vol1/pdf/CFR-2012-title3-vol1-eo13576.pdf)
 * [Government Accountability and Transparency Board](http://www.recovery.gov/gatb/Pages/default.aspx)
 * [Federal Funding Accountability and Transparency Act](https://www.govinfo.gov/content/pkg/BILLS-109s2590enr/pdf/BILLS-109s2590enr.pdf)
 * [USASpending.gov](https://www.usaspending.gov/#/)
 
 **UNIFORM GUIDANCE RESOURCES**
-* [CFR 200 – Uniform Guidance(Note: the CFR will be updated to reflect the technical corrections and changes to agency regulations after the December 26th effective date.)](https://www.ecfr.gov/cgi-bin/text-idx?SID=6214841a79953f26c5c230d72d6b70a1&tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl)
+* [CFR 200 - Uniform Guidance(Note: the CFR will be updated to reflect the technical corrections and changes to agency regulations after the December 26th effective date.)](https://www.ecfr.gov/cgi-bin/text-idx?SID=6214841a79953f26c5c230d72d6b70a1&tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl)
 * [Joint Interim Final Rule Implementing the Uniform Guidance (xx FR xxxx)](https://www.federalregister.gov/documents/2014/12/19/2014-28697/federal-awarding-agency-regulatory-implementation-of-office-of-management-and-budgets-uniform)
 * [Blog Post Announcing Implementation of the Uniform Guidance](https://obamawhitehouse.archives.gov/blog/2014/12/18/transforming-landscape-federal-financial-assistance)
 * [Uniform Guidance Crosswalk for Federal agency Exceptions and Additions]({{ site.baseurl }}/wp-content/uploads/2014/12/Agency-Exceptions.pdf)

@@ -12,4 +12,4 @@ Cherish K. Johnson has been appointed as the Chief Financial Officer, U.S. Nucle
 
 Before joining NOAA, Ms. Johnson served at the National Aeronautics and Space Administration (NASA), where she began her career within the Space Operations Mission Directorate supporting the Space Communications, Space Shuttle and Space Station resource and acquisition offices. Ms. Johnson then worked at NASA, in the area of Program Analysis and Evaluation as the Budget Officer and was subsequently named the Mission Support Division Director, with financial, acquisition, and administrative responsibilities.
 
-Ms. Johnson is a graduate of Houston University, where she received a bachelor’s degree in accounting and a master’s degree in accounting and management information systems. She is a recipient of the NOAA Administrators Award and NASA Space Flight Awareness Award.
+Ms. Johnson is a graduate of Houston University, where she received a bachelor's degree in accounting and a master's degree in accounting and management information systems. She is a recipient of the NOAA Administrators Award and NASA Space Flight Awareness Award.
