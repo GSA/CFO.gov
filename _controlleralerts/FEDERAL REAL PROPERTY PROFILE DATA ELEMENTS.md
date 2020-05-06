@@ -1,9 +1,11 @@
 ---
 posted-date: 2016-12-01
 author: CFO Council
-layout: controlleralertsdetails
+layout: policies-guidance-landing 
 title: "FEDERAL REAL PROPERTY PROFILE DATA ELEMENTS"
-permalink: /controller-alert-federal-real-property-profile-data-elements/
+subtitle: "FEDERAL REAL PROPERTY PROFILE DATA ELEMENTS"
+permalink: /policies/controller-alert-federal-real-property-profile-data-elements/
+filters: controller-alerts
 ---
 *This Controller Alert brings your attention to an emerging financial management issue that may require agency attention or action. These Alerts are designed to make sure that the Senior Real Property Officer and CFO communities are aware of key issues where OMB believes further action may be warranted, but do not constitute official guidance or include specific tasks for agencies beyond consideration of appropriate steps to address the issue.*
 

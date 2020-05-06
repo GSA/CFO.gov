@@ -1,9 +1,11 @@
 ---
 posted-date: 2017-04-03
 author: CFO Council
-layout: controlleralertsdetails
+layout: policies-guidance-landing
 title: "ACKNOWLEDGING INCONSISTENT RECORDS FOR A SUBSET OF PUBLIC FINANCIAL ASSISTANCE DATA FOR ENTITY ADDRESS ZIP+4"
-permalink: /controller-alert-acknowledging-inconsistent-records-for-a-subset-of-public-financial-assistance-data-for-entity-address-zip4/
+filters: "ACKNOWLEDGING INCONSISTENT RECORDS FOR A SUBSET"
+permalink: /policies/controller-alert-acknowledging-inconsistent-records-for-a-subset-of-public-financial-assistance-data-for-entity-address-zip4/
+filters: controller-alerts
 ---
 *Controller Alerts are designed to highlight emerging financial management issues that may require agency attention or action. These Alerts are intended to inform the Chief Financial Officer (CFO) community of key issues where the Office of Management and Budget (OMB) believes further action may be warranted, but do not constitute official guidance or prescribe specific tasks for agencies beyond consideration of appropriate steps to address the issue.*
 
