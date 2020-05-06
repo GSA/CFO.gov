@@ -3,18 +3,6 @@
 <div class="usa-media-block tablet:grid-col-9">
     <p class="filter-count card-tag margin-top-0 text-gray-50 text-thin"></p>
     <div class="knowledge-sharing" >
-        {% for knowledge_item in site.policies_guidance %}
-        {% if knowledge_item.layout == "policies-guidance-landing" %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ knowledge_item.filters }}">
-            <div class="shadow-1 knowledge-border ">
-                <div class="text-container">
-                    <span class="card-tag">{{ knowledge_item.type }}</span>
-                    <p class="title-resources"><a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ knowledge_item.permalink }}">{{ knowledge_item.subtitle }}</a></p>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        {% endfor %}
         <!--    </div>-->
         <!--    <div class="knowledge-sharing" >-->
         {% for grant in site.grants %}
@@ -27,7 +15,7 @@
                         {% if grant.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.permalink }}">{{ grant.subtitle }}</a>
                         {% else %}
-                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.doc-link }}">{{ grant.subtitle }}</a>
+                        <a title="policy or priority title" class="no-style" href="{{ grant.doc-link }}">{{ grant.subtitle }}</a>
                         {% endif %}
                     </p>
                 </div>
@@ -47,7 +35,7 @@
                         {% if erm_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ erm_item.permalink }}">{{ erm_item.subtitle }}</a>
                         {% else %}
-                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ erm_item.doc-link }}">{{ erm_item.subtitle }}</a>
+                        <a title="policy or priority title" class="no-style" href="{{ erm_item.doc-link }}">{{ erm_item.subtitle }}</a>
                         {% endif %}
                     </p>
                 </div>
@@ -66,7 +54,7 @@
                         {% if fdt_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fdt_item.permalink }}">{{ fdt_item.subtitle }}</a>
                         {% else %}
-                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fdt_item.doc-link }}">{{ fdt_item.subtitle }}</a>
+                        <a title="policy or priority title" class="no-style" href="{{ fdt_item.doc-link }}">{{ fdt_item.subtitle }}</a>
                         {% endif %}
                     </p>
                 </div>
@@ -84,7 +72,7 @@
                         {% if fmt_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fmt_item.permalink }}">{{ fmt_item.subtitle }}</a>
                         {% else %}
-                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fmt_item.doc-link }}">{{ fmt_item.subtitle }}</a>
+                        <a title="policy or priority title" class="no-style" href="{{ fmt_item.doc-link }}">{{ fmt_item.subtitle }}</a>
                         {% endif %}
                     </p>
                 </div>
@@ -102,7 +90,7 @@
                         {% if jfmip_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ gpr_item.permalink }}">{{ gpr_item.subtitle }}</a>
                         {% else %}
-                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ gpr_item.doc-link }}">{{ gpr_item.subtitle }}</a>
+                        <a title="policy or priority title" class="no-style" href="{{ gpr_item.doc-link }}">{{ gpr_item.subtitle }}</a>
                         {% endif %}
                     </p>
                 </div>
@@ -120,7 +108,7 @@
                         {% if jfmip_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ jfmip_item.permalink }}">{{ jfmip_item.subtitle }}</a>
                         {% else %}
-                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ jfmip_item.doc-link }}">{{ jfmip_item.subtitle }}</a>
+                        <a title="policy or priority title" class="no-style" href="{{ jfmip_item.doc-link }}">{{ jfmip_item.subtitle }}</a>
                         {% endif %}
                     </p>
                 </div>
@@ -138,7 +126,7 @@
                         {% if ctrlalert_item.permalink %}
                             <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ ctrlalert_item.permalink }}">{{ ctrlalert_item.subtitle }}</a>
                         {% else %}
-                            <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ ctrlalert_item.doc-link }}">{{ ctrlalert_item.subtitle }}</a>
+                            <a title="policy or priority title" class="no-style" href="{{ ctrlalert_item.doc-link }}">{{ ctrlalert_item.subtitle }}</a>
                         {% endif %}
                     </p>
                 </div>
