@@ -2,8 +2,8 @@
 layout: policies-guidance-landing 
 posted-date: 2013-02-19
 author: CFO Council
-title: " IMPROVING COLLECTION OF DELINQUENT DEBT"
-subtitle: " IMPROVING COLLECTION OF DELINQUENT DEBT"
+title: "Improving Collection of Delinquent Debt"
+subtitle: "Improving Collection of Delinquent Debt"
 doc-link: ../assets/files/Controller-Alert-Improving-Collection-of-Delinquent-Debt.pdf
 filters: controller-alerts
 type: Controller Alert

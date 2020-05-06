@@ -4,6 +4,7 @@ author: CFO Council
 type: Controller Alert
 layout: policies-guidance-landing
 title: "ACKNOWLEDGING INCONSISTENT RECORDS FOR A SUBSET OF PUBLIC FINANCIAL ASSISTANCE DATA FOR ENTITY ADDRESS ZIP+4"
+subtitle: Acknowledging Inconsistent records for a subset of public financial assistance
 filters: "ACKNOWLEDGING INCONSISTENT RECORDS FOR A SUBSET"
 permalink: /policies/controller-alert-acknowledging-inconsistent-records-for-a-subset-of-public-financial-assistance-data-for-entity-address-zip4/
 filters: controller-alerts

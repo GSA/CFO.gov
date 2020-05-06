@@ -1,7 +1,7 @@
 ---
 layout: knowledge-sharing-landing
-title: ENTERPRISE RISK MANAGEMENT (ERM) PLAYBOOK RELEASED
-subtitle: ENTERPRISE RISK MANAGEMENT (ERM) PLAYBOOK RELEASED
+title: Enterprise Risk Management (ERM) Playbook Released
+subtitle: Enterprise Risk Management (ERM) Playbook Released
 permalink: /knowledge-sharing/enterprise-risk-management-playbook-released/
 type: ERM
 filler:  Text of second md file of type erm

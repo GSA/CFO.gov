@@ -35,5 +35,5 @@ Many Federal awarding agencies also revised program-specific regulations to upda
 
 **What happens to my organization on December 26th?**
 
-The Uniform Guidance becomes effective on December 26, 2014. In practice, non-Federal entities are not required to implement the final guidance until they receive a Federal award with terms and conditions that incorporate the Uniform Guidance on or after December 26, 2014. For more information regarding the effective date please see the [COFAR’s FAQ document](https://cfo.gov//wp-content/uploads/2014/11/2014-11-26-Frequently-Asked-Questions.pdf).
+The Uniform Guidance becomes effective on December 26, 2014. In practice, non-Federal entities are not required to implement the final guidance until they receive a Federal award with terms and conditions that incorporate the Uniform Guidance on or after December 26, 2014. For more information regarding the effective date please see the [COFAR’s FAQ document]({{ site.baseurl }}/wp-content/uploads/2014/11/2014-11-26-Frequently-Asked-Questions.pdf).
 

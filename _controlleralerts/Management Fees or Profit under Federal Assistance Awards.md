@@ -4,7 +4,7 @@ posted-date: 2015-04-19
 author: CFO Council
 title: "Management Fees or Profit under Federal Assistance Awards"
 subtitle: "Management Fees or Profit under Federal"
-doc-link: /assets/files/CONTROLLER-ALERT-Management-Fees-or-Profit-under-Federal-Assistance-Awards.pdf
+doc-link: ../assets/files/CONTROLLER-ALERT-Management-Fees-or-Profit-under-Federal-Assistance-Awards.pdf
 filters: controller-alerts
 type: Controller Alert
 ---
