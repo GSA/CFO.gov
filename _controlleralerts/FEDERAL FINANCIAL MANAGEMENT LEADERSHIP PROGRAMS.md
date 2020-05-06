@@ -1,9 +1,11 @@
 ---
 posted-date: 2014-06-23
 author: CFO Council
-layout: controlleralertsdetails
+layout: policies-guidance-landing 
 title: "FEDERAL FINANCIAL MANAGEMENT LEADERSHIP PROGRAMS"
-permalink: /controller-alert-federal-financial-community-leadership-programs/
+subtitle: "FEDERAL FINANCIAL MANAGEMENT LEADERSHIP PROGRAMS"
+permalink: /policies/controller-alert-federal-financial-community-leadership-programs/
+filters: controller-alerts
 ---
 *Controller Alerts are designed to bring your attention to emerging financial management issues that may require agency attention or action.  These Alerts are intended to make sure that the Chief Financial Officer (CFO) community is aware of key issues where the Office of Management and Budget (OMB) believes further action may be warranted, but do not constitute official guidance or include specific tasks for agencies beyond consideration of appropriate steps to address the issue.  Additional Controller Alerts can be viewed at [https://max.omb.gov/community/x/ihXjJg](https://login.max.gov/cas/login?service=https%3A%2F%2Fcommunity.max.gov%2Flogin.action%3Fos_destination%3D%252Fpages%252Ftinyurl.action%253FurlIdentifier%253DihXjJg).*
 
