@@ -5,11 +5,6 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-function topFunctionKeyboard(event) {
-    if (event.keyCode === 13) {
-        topFunction();
-    }
-}
 // jQuery( document ).ready(function($) );
 jQuery(document).ready(function ($) {
     $(function () {
