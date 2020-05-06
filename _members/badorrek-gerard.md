@@ -9,7 +9,7 @@ title: CHIEF FINANCIAL OFFICER
 ---
    Gerard Badorrek was named the Chief Financial Officer of the U.S. General Services Administration (GSA) effective December 2014.
              
-   In this role, he is responsible for the management of GSA’s $24 billion budget. As the senior executive at GSA who is responsible for all the financial programs of the agency, he is accountable for providing sound financial management across GSA and leads and oversees all financial functions and activities, including Strategic Planning, Budgeting, Accounting, Analytics and Reporting, Financial Policies, Financial Operations and Audits.
+   In this role, he is responsible for the management of GSA's $24 billion budget. As the senior executive at GSA who is responsible for all the financial programs of the agency, he is accountable for providing sound financial management across GSA and leads and oversees all financial functions and activities, including Strategic Planning, Budgeting, Accounting, Analytics and Reporting, Financial Policies, Financial Operations and Audits.
              
    Mr. Badorrek comes to GSA with more than 25 years of experience in both public and private companies; with demonstrated expertise in financial management and operations, leading and driving organizational change and developing successful teams. While the majority of his career has been spent helping large multi-national organizations become more efficient and effective, he also has experience guiding smaller companies and start-up enterprises.
              

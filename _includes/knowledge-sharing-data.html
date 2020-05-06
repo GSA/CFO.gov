@@ -114,17 +114,17 @@
         </div>
         {% endif %}
         {% endfor %}
-        {% for career_item in site.my_career %}
-        {% if career_item.layout == "knowledge-sharing-landing" %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ career_item.filters }}">
-            <div class="shadow-1 knowledge-border">
+        {% for item in site.knowledge_sharing %}
+        {% if item.layout == "knowledge-sharing-landing" %}
+        <div class="tablet:grid-col-3 grid-spacing policy {{ item.filters }}">
+            <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">{{ career_item.type }}</span>
+                    <span class="card-tag">{{ item.type }}</span>
                     <p>
-                        {% if career_item.permalink %}
-                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ career_item.permalink }}">{{ career_item.subtitle }}</a>
+                        {% if item.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ item.permalink }}">{{ item.subtitle }}</a>
                         {% else %}
-                        <a title="policy or priority title" class="no-style" href="{{ career_item.doc-link }}">{{ career_item.subtitle }}</a>
+                        <a title="policy or priority title" class="no-style" href="{{ item.doc-link }}">{{ item.subtitle }}</a>
                         {% endif %}
                     </p>
                 </div>
@@ -132,5 +132,23 @@
         </div>
         {% endif %}
         {% endfor %}
+<!--        {% for career_item in site.my_career %}-->
+<!--        {% if career_item.layout == "knowledge-sharing-landing" %}-->
+<!--        <div class="tablet:grid-col-3 grid-spacing policy {{ career_item.filters }}">-->
+<!--            <div class="shadow-1 knowledge-border">-->
+<!--                <div class="text-container">-->
+<!--                    <span class="card-tag">{{ career_item.type }}</span>-->
+<!--                    <p>-->
+<!--                        {% if career_item.permalink %}-->
+<!--                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ career_item.permalink }}">{{ career_item.subtitle }}</a>-->
+<!--                        {% else %}-->
+<!--                        <a title="policy or priority title" class="no-style" href="{{ career_item.doc-link }}">{{ career_item.subtitle }}</a>-->
+<!--                        {% endif %}-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        {% endif %}-->
+<!--        {% endfor %}-->
     </div>
 </div>

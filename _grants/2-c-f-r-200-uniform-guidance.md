@@ -13,7 +13,7 @@ OMB together with Federal awarding agencies is issuing a [joint interim final ru
 
 The final guidance and implementing regulations delivers on President Obama’s second term management agenda and his first term directives under [Executive Order 13520](https://www.whitehouse.gov/the-press-office/executive-order-reducing-improper-payments), the [February 28, 2011 Presidential Memorandum](https://obamawhitehouse.archives.gov/the-press-office/2011/02/28/presidential-memorandum-administrative-flexibility), and the objectives laid out in [OMB Memorandum M-13-17](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-17.pdf) to better target financial risks and better direct resources to achieve evidence-based outcomes. The final guidance, which was originally published December 26, 2013 ([available at 78 FR 78589](https://www.govinfo.gov/app/details/FR-2013-12-26/2013-30465)) simultaneously improves performance, transparency, and oversight for Federal awards. The COFAR will measure the impact of this guidance as described under [M-14-17](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-17.pdf).
 
-***This is the first I’ve heard of this. Where can I find a good summary of the Uniform Guidance and policy changes it includes?***
+***This is the first I've heard of this. Where can I find a good summary of the Uniform Guidance and policy changes it includes?***
 
 The best summary of the Uniform Guidance is in the preamble that was published when it was finalized. The preamble is available at [78 FR 78589](https://www.govinfo.gov/content/pkg/FR-2013-12-26/pdf/2013-30465.pdf).
 
