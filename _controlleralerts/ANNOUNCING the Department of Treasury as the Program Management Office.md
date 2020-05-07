@@ -1,6 +1,6 @@
 ---
 layout: policies-guidance-landing
-posted-date: 2013-04-29
+date: 2013-04-29
 author: CFO Council
 type: Controller Alert
 title: "Announcing the Department of Treasury as the Program Management Office for the Financial Management Line of Business"

@@ -1,6 +1,6 @@
 ---
 layout: policies-guidance-landing 
-posted-date: 2013-02-19
+date: 2013-02-19
 author: CFO Council
 title: "Improving Collection of Delinquent Debt"
 subtitle: "Improving Collection of Delinquent Debt"

@@ -1,6 +1,6 @@
 ---
 layout: policies-guidance-landing 
-posted-date: 2013-05-28
+date: 2013-05-28
 author: CFO Council
 title: "Travel and Conferences"
 subtitle: "Travel and Conferences"

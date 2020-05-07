@@ -1,6 +1,6 @@
 ---
 layout: policies-guidance-landing 
-posted-date: 2013-08-04
+date: 2013-08-04
 author: CFO Council
 title: "Implementing the SAVE Award"
 subtitle: "Implementing the SAVE Award"
