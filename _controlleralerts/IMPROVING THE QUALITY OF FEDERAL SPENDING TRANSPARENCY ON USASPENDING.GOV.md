@@ -1,5 +1,5 @@
 ---
-posted-date: 2014-08-20
+date: 2014-08-20
 author: CFO Council
 layout: policies-guidance-landing 
 title: "IMPROVING THE QUALITY OF FEDERAL SPENDING TRANSPARENCY ON USASPENDING.GOV"

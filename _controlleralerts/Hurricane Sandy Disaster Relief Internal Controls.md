@@ -1,5 +1,5 @@
 ---
-posted-date: 2013-02-19
+date: 2013-02-19
 author: CFO Council
 title: "Hurricane Sandy Disaster Relief Internal Controls"
 subtitle: "Hurricane Sandy Disaster Relief Internal Controls"

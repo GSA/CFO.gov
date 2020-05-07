@@ -1,5 +1,5 @@
 ---
-posted-date: 2017-09-13
+date: 2017-09-13
 author: Amy Bontrager
 layout: policies-guidance-landing
 type: Controller Alert

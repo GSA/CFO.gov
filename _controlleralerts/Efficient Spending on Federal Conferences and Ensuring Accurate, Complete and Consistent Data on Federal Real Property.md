@@ -1,5 +1,5 @@
 ---
-posted-date: 2012-08-31
+date: 2012-08-31
 layout: policies-guidance-landing 
 author: CFO Council
 type: Controller Alert

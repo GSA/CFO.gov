@@ -1,5 +1,5 @@
 ---
-posted-date: 2017-04-03
+date: 2017-04-03
 author: CFO Council
 type: Controller Alert
 layout: policies-guidance-landing

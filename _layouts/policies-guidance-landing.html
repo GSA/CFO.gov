@@ -11,6 +11,11 @@ This template is for a single policy landing page.
         <div class="grid-row grid-gap">
             <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
                 <h1 class="column-centered-heading">{{page.title}}</h1>
+                <div class="text-base margin-bottom-2">
+                    <div class="margin-top-neg-105">
+                       Posted By <span class="text-bold">{{ page.author }}</span> on {{ page.date | date: '%B %d, %Y' }}
+                    </div>
+                </div>
                 {{ content }}
             </div>
         </div>
