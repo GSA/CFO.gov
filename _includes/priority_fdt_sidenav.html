@@ -9,14 +9,19 @@
     </ul>
 
     <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
-        {% for item in site.fdt limit:3 %}
+        {% assign sorted = (site.fdt | sort: 'date') | reverse %}
+        {% for item in sorted limit:3 %}
         <div class="border-top border-gray-30">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
                 <div class="grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
                 <div class="grid-col">
                     <h3 class="margin-top-0">{{ item.title }}</h3>
-                    <p>{{ item.filler }}</p>
-                    <a href="{{ site.baseurl }}{{ item.permalink }}" class="text-no-underline text-bold">Read More</a>
+                    <p>{{ item.filler | truncate:120 }}</p>
+                    {% if item.permalink %}
+                    <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ item.permalink }}">Read more</a>
+                    {% else %}
+                    <a title="policy or priority title" class="no-style" href="{{ item.doc-link }}">Read more</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
