@@ -15,11 +15,11 @@
                 <div class="grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
                 <div class="grid-col">
                     <h3 class="margin-top-0">{{ item.title }}</h3>
-                    <p>{{ item.filler | truncate:120 }}</p>
+                    <p>{{ item.filler | truncate:500 }}</p>
                     {% if item.permalink %}
-                   <a title="policy or priority title" class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read more</a>
-                    {% else %}
-                    <a title="policy or priority title" class="text-no-underline text-bold" href="{{ item.doc-link }}">Read more</a>
+                        <a title="policy or priority title" class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read more</a>
+                    {% elsif item.doc-link  %}
+                        <a title="policy or priority title" class="text-no-underline text-bold" href="{{ item.doc-link }}">Read more</a>
                     {% endif %}
                 </div>
             </div>
