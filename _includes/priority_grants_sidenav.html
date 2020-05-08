@@ -15,11 +15,11 @@
                 <div class="grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
                 <div class="grid-col font-sans-sm">
                     <h3 class="margin-top-0">{{ item.title }}</h3>
-                    <p>{{ item.filler | truncate:120 }}</p>
+                    <p>{{ item.filler | truncate:500 }}</p>
                     {% if item.permalink %}
-                    <a title="policy or priority title" class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read more</a>
-                    {% else %}
-                    <a title="policy or priority title" class="text-no-underline text-bold" href="{{ item.doc-link }}">Read more</a>
+                        <a title="policy or priority title" class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read more</a>
+                    {% elsif item.doc-link %}
+                        <a title="policy or priority title" class="text-no-underline text-bold" href="{{ item.doc-link }}">Read more</a>
                     {% endif %}
                 </div>
             </div>
@@ -32,7 +32,7 @@
             Maximize the value of grant funding by applying a risk-based, data-driven framework that balances compliance requirements with demonstrating successful
         results for the American taxpayer.
 
-        <h2>Challenge</h2>
+        <h2>Challenges</h2>
             The Federal government uses grants to invest approximately $700 billion each year in mission-critical needs for American taxpayers, but managers
         report spending 40% of their time using antiquated processes to monitor compliance instead of analyzing data to improve results.
 
