@@ -16,10 +16,13 @@ permalink: /members/
                         <img src="{{ site.baseurl }}{{ bio.bio-image }}">
                     </div>
                     <div class="right">
+                        {% if bio.special_name %}
+                            <p><span class="name">{{ bio.special_name }}<br></span>
+                                {% else %}
                         {% assign member_name = bio.name | split: ' ' %}
 
                         {% capture namecase %}{% for name_component in member_name %}{{ name_component | capitalize }} {% endfor %}{% endcapture %}
-                        <p><span class="name">{{ namecase }}<br></span>
+                            <p><span class="name">{{ namecase }}<br></span>
                             {% assign member_title = bio.title | split: ' ' %}
 
                             {% capture titlecase %}{% for title_component in member_title %}{{ title_component | capitalize }} {% endfor %}{% endcapture %}
@@ -27,7 +30,7 @@ permalink: /members/
                             {% assign member_department = bio.department | split: ' ' %}
 
                             {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
-
+                            {% endif %}
                             <span class="title">{{ titlecase }}, {{ deptcase }}</span></p>
                     </div>
                 </a>

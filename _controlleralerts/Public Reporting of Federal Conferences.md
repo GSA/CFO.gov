@@ -2,7 +2,7 @@
 layout: policies-guidance-landing 
 date: 2012-12-12
 author: CFO Council
-title: "Public Reporting of Federal Conferences"
+title: "CONTROLLER ALERT&#58; Public Reporting of Federal Conferences"
 subtitle: "Public Reporting of Federal Conferences"
 doc-link: ../assets/files/Controller-Alert-Public-Reporting-of-Federal-Conferences.pdf
 filters: controller-alerts

@@ -3,7 +3,7 @@ date: 2014-06-23
 author: CFO Council
 layout: policies-guidance-landing 
 type: Controller Alert
-title: "Federal Financial Management Leadership Programs"
+title: "CONTROLLER ALERT&#58; Federal Financial Management Leadership Programs"
 subtitle: "Federal Financial Management Leadership Programs"
 permalink: /policies/controller-alert-federal-financial-community-leadership-programs/
 filters: controller-alerts
