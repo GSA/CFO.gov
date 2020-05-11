@@ -3,7 +3,7 @@
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	 xmlns:pkgprop="http://www.scorm.com/xsd/ScormEnginePackageProperties"
      xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd 
-	 http://www.scorm.com/xsd/ScormEnginePackageProperties ScormEnginePackageProperties.xsd">
+	 http://www.scorm.com/xsd/ScormEnginePackageProperties ../../../../../lms/Lesson3/ScormEnginePackageProperties.xsd">
 
     <general>
         
