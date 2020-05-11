@@ -5,17 +5,22 @@
     <div class="knowledge-sharing" >
         {% for grant in site.grants %}
         {% if grant.layout == "knowledge-sharing-landing" %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ grant.filters }}">
-            <div class="shadow-1 knowledge-border ">
+        <div class="tablet:grid-col-4 grid-spacing policy {{ grant.filters }}">
+            <div class="shadow-1 knowledge-border">
                 <div class="text-container">
-                    <span class="card-tag">{{ grant.type }}</span>
-                    <p class="title-resources">
+                    <span class="card-tag">
                         {% if grant.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.permalink }}">{{ grant.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ grant.doc-link }}">{{ grant.subtitle }}</a>
                         {% endif %}
+                    </span>
+                    {% assign filters = grant.filters | split: ' ' %}
+                    {% for filter in filters %}
+                    <p class="title-resources">
+                        {{ filter | capitalize }}
                     </p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -25,17 +30,22 @@
 <!--    <div class="knowledge-sharing" >-->
         {% for erm_item in site.erm %}
         {% if erm_item.layout == "knowledge-sharing-landing" %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ erm_item.filters }}">
+        <div class="tablet:grid-col-4 grid-spacing policy {{ erm_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">{{ erm_item.type }}</span>
-                    <p class="title-resources">
+                    <span class="card-tag">
                         {% if erm_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ erm_item.permalink }}">{{ erm_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ erm_item.doc-link }}">{{ erm_item.subtitle }}</a>
                         {% endif %}
+                    </span>
+                    {% assign filters = erm_item.filters | split: ' ' %}
+                    {% for filter in filters %}
+                    <p class="title-resources">
+                        {{ filter | capitalize }}
                     </p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -44,17 +54,22 @@
 <!--    </div>-->
         {% for fdt_item in site.fdt %}
         {% if fdt_item.layout == "knowledge-sharing-landing" %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ fdt_item.filters }}">
+        <div class="tablet:grid-col-4 grid-spacing policy {{ fdt_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">{{ fdt_item.type }}</span>
-                    <p class="title-resources">
-                        {% if fdt_item.permalink %}
+                    <span class="card-tag">
+                         {% if fdt_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fdt_item.permalink }}">{{ fdt_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ fdt_item.doc-link }}">{{ fdt_item.subtitle }}</a>
                         {% endif %}
+                    </span>
+                    {% assign filters = fdt_item.filters | split: ' ' %}
+                    {% for filter in filters %}
+                    <p class="title-resources">
+                        {{ filter | capitalize }}
                     </p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -62,17 +77,22 @@
         {% endfor %}
         {% for fmt_item in site.fmt %}
         {% if fmt_item.layout == "knowledge-sharing-landing" %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ fmt_item.filters }}">
+        <div class="tablet:grid-col-4 grid-spacing policy {{ fmt_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">{{ fmt_item.type }}</span>
-                    <p class="title-resources">
-                        {% if fmt_item.permalink %}
+                    <span class="card-tag">
+                         {% if fmt_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fmt_item.permalink }}">{{ fmt_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ fmt_item.doc-link }}">{{ fmt_item.subtitle }}</a>
                         {% endif %}
+                    </span>
+                    {% assign filters = fmt_item.filters | split: ' ' %}
+                    {% for filter in filters %}
+                    <p class="title-resources">
+                        {{ filter | capitalize }}
                     </p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -80,17 +100,22 @@
         {% endfor %}
         {% for gpr_item in site.gpr %}
         {% if gpr_item.layout == "knowledge-sharing-landing" %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ gpr_item.filters }}">
+        <div class="tablet:grid-col-4 grid-spacing policy {{ gpr_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">{{ gpr_item.type }}</span>
-                    <p class="title-resources">
-                        {% if gpr_item.permalink %}
+                    <span class="card-tag">
+                        {% if jfmip_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ gpr_item.permalink }}">{{ gpr_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ gpr_item.doc-link }}">{{ gpr_item.subtitle }}</a>
                         {% endif %}
+                    </span>
+                    {% assign filters = gpr_item.filters | split: ' ' %}
+                    {% for filter in filters %}
+                    <p class="title-resources">
+                        {{ filter | capitalize }}
                     </p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -98,17 +123,22 @@
         {% endfor %}
         {% for jfmip_item in site.jfmip %}
         {% if jfmip_item.layout == "knowledge-sharing-landing" %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ jfmip_item.filters }}">
-            <div class="shadow-1 knowledge-border">
+        <div class="tablet:grid-col-4 grid-spacing policy {{ jfmip_item.filters }}">
+            <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">{{ jfmip_item.type }}</span>
-                    <p class="title-resources">
+                    <span class="card-tag">
                         {% if jfmip_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ jfmip_item.permalink }}">{{ jfmip_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ jfmip_item.doc-link }}">{{ jfmip_item.subtitle }}</a>
                         {% endif %}
+                    </span>
+                    {% assign filters = jfmip_item.filters | split: ' ' %}
+                    {% for filter in filters %}
+                    <p class="title-resources">
+                        {{ filter | capitalize }}
                     </p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -116,17 +146,22 @@
         {% endfor %}
         {% for item in site.knowledge_sharing %}
         {% if item.layout == "knowledge-sharing-landing" %}
-        <div class="tablet:grid-col-3 grid-spacing policy {{ item.filters }}">
+        <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">{{ item.type }}</span>
-                    <p class="title-resources">
+                    <span class="card-tag">
                         {% if item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ item.permalink }}">{{ item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ item.doc-link }}">{{ item.subtitle }}</a>
                         {% endif %}
+                    </span>
+                    {% assign filters = item.filters | split: ' ' %}
+                    {% for filter in filters %}
+                    <p class="title-resources">
+                        {{ filter | capitalize }}
                     </p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
