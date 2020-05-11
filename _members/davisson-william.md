@@ -4,6 +4,7 @@ bio-image-alt-text: WILLIAM BRANDON (BUTCH) DAVISSON
 layout: bio
 permalink: /bio/mr-william-brandon-butch-davisson/
 name : MR. WILLIAM BRANDON (BUTCH) DAVISSON
+special_name: Mr. William Brandon (Butch) Davisson 
 department: DEPARTMENT OF STATE
 title: DEPUTY COMPTROLLER
 ---

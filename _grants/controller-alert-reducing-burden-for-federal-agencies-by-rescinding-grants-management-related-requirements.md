@@ -1,6 +1,6 @@
 ---
 layout: policies-guidance-landing
-title: Controller Alert Reducing Burden For Federal Agencies By Rescinding Grants Management Related Requirements
+title: Controller Alert&#58; Reducing Burden For Federal Agencies By Rescinding Grants Management Related Requirements
 subtitle: Controller Alert Reducing Burden For Federal Agencies By Rescinding Grants Management Related Requirements 
 permalink: /policies/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/
 type: Grant
@@ -13,7 +13,7 @@ filters: grants controller-alerts
 
 The purpose of this Controller Alert is to provide additional details and updates regarding the grants management related requirements that were rescinded in [M-17-26](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/M-17-26.pdf), *Reducing Burden for Federal Agencies by Rescinding and Modifying OMB Memoranda*.
 
- **M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying OMB Memorandum** 
+**<u>M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying OMB Memorandum</u>**
 
 M-17-26, published on June 15, 2017,  provided relief to agencies by rolling back low-value, duplicative, and obsolete activities to reduce costs and minimize staff hours responding to duplicative and burdensome reporting requirements.
 
@@ -60,5 +60,5 @@ Module 5 - Risk Management and Single Audit
 
 This module provides common techniques to manage risk to strengthen compliance with the Uniform Guidance (2 C.F.R. Part 200) and an introduction to the single audit requirements, including recipient and Federal awarding agency requirements.
 
-If you have any questions regarding this alert please contact Rhea Hubbard (rhubbard@omb.eop.gov) or Maribel Langas Miller ([Maribel_L_Miller@omb.eop.gov](mailto:Maribel_L_Miller@omb.eop.gov)).
+If you have any questions regarding this alert please contact Rhea Hubbard ([rhubbard@omb.eop.gov](mailto:rhubbard@omb.eop.gov)) or Maribel Langas Miller ([Maribel_L_Miller@omb.eop.gov](mailto:Maribel_L_Miller@omb.eop.gov)).
 
