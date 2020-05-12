@@ -6,7 +6,7 @@ permalink: /knowledge-sharing/2-c-f-r-200-uniform-guidance/
 type: Grant
 date: December 01, 2014
 author: Amy Bontrager 
-filters: grants guidance
+filters: grants best-practice-guidance
 ---
 
 OMB together with Federal awarding agencies is issuing a [joint interim final rule](https://www.federalregister.gov/documents/2014/12/19/2014-28697/federal-awarding-agency-regulatory-implementation-of-office-of-management-and-budgets-uniform) to implement the new guidance at 2 C.F.R. 200 titled Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards (Uniform Guidance). The rule will be available for public inspection December 18th, published in the Federal register December 19th (at www.Federalregister.gov) and effective for new awards or some funding increments on or after December 26, 2014.
