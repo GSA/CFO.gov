@@ -31,10 +31,14 @@ PROMISING PRACTICES IN IMPLEMENTATION: RISK ASSESSMENT (PANEL 1)
 {% include youtube_embed.html id="uBJMc5hNc1I" %}  
 
 **Resources:**
+
 EDUC Entity Risk Report Example: [http://go.usa.gov/x34pk](https://cfo.gov/wp-content/uploads/2016/06/Panel1_EDUC-Entity-Risk-Report-Example.pdf)
-DHS Vulnerability Risk Assessment: [http://go.usa.gov/x34dW]
-DHS Site Visit Checklists and Guidelines: [http://go.usa.gov/x34dd]
-DHS FAPO Risk Assessment Tool Chart: [http://go.usa.gov/x34dF]
+
+DHS Vulnerability Risk Assessment: [http://go.usa.gov/x34dW](http://go.usa.gov/x34dW)
+
+DHS Site Visit Checklists and Guidelines: [http://go.usa.gov/x34dd](http://go.usa.gov/x34dd)
+
+DHS FAPO Risk Assessment Tool Chart: [http://go.usa.gov/x34dF](http://go.usa.gov/x34dF)
 
 **CONTRACT VS. SUBAWARD DETERMINATION (PANEL 2)**
 
@@ -53,7 +57,8 @@ DHS FAPO Risk Assessment Tool Chart: [http://go.usa.gov/x34dF]
 
 {% include youtube_embed.html id="VMRQ6K01h74" %} 
 
-Resources:
+**Resources:**
+
 AGA Contractor vs. Subrecipient Checklist: [http://go.usa.gov/x34mJ](https://cfo.gov/wp-content/uploads/2016/06/Panel3_AGA-contractor-v-subrecipient_checklist100315.pdf)
 
 **PROMISING PRACTICES IN IMPLEMENTATION: PERSONNEL SERVICES (PANEL 4)**
@@ -63,11 +68,12 @@ AGA Contractor vs. Subrecipient Checklist: [http://go.usa.gov/x34mJ](https://cfo
 {% include youtube_embed.html id="pA5n6oixAPI" %} 
 
 **Resources:**
+
 REPORT: Labor Effort Reporting under the Federal Demonstration Project's Pilot Payroll
-Certification Program at George Mason University, Report No. 15-1-017 http://go.usa.gov/x3WyJ
+Certification Program at George Mason University, Report No. 15-1-017 [http://go.usa.gov/x3WyJ](http://go.usa.gov/x3WyJ)
 
 REPORT: Labor Effort Reporting under the Federal Demonstration Partnership Pilot
-Payroll Certification at Michigan Technological University http://go.usa.gov/x3WMd
+Payroll Certification at Michigan Technological University [http://go.usa.gov/x3WMd](http://go.usa.gov/x3WMd)
 
 **INDIRECT COST RATES (PANEL 5)**
  
@@ -86,8 +92,11 @@ Payroll Certification at Michigan Technological University http://go.usa.gov/x3W
 {% include youtube_embed.html id="ATmLGP7Pxv4" %} 
 
 **Resources:**
+
 CAROI Playbook: [http://go.usa.gov/x34cB](https://cfo.gov/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf)
+
 AGA CAROI Guide: [http://go.usa.gov/x34cY](https://cfo.gov/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf)
+
 AGA Tools: [http://www.agacgfm.org/tools](https://www.agacgfm.org/tools)
 
 **CLOSING REMARKS**
