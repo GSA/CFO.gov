@@ -1,7 +1,7 @@
 ---
 layout: knowledge-sharing-landing
 title: 2 C.F.R 200&#58; UNIFORM GUIDANCE
-subtitle: 2 C.F.R 200&#58; UNIFORM GUIDANCE
+subtitle: 2 C.F.R 200&#58; Uniform Guidance
 permalink: /knowledge-sharing/2-c-f-r-200-uniform-guidance/
 type: Grant
 date: December 01, 2014
