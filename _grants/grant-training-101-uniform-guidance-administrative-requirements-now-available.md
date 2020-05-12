@@ -7,7 +7,7 @@ type: Grant
 filler: 
 date: March 20, 2017
 author: CFO Council 
-filters: grants guidance
+filters: grants best-practice-guidance
 ---
 
 
