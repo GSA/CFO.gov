@@ -8,28 +8,32 @@
         <div class="tablet:grid-col-4 grid-spacing policy {{ grant.filters }}">
             <div class="shadow-1 knowledge-border">
                 <div class="text-container">
-                    <span class="card-tag">
-                        {% if grant.permalink %}
-                            <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.permalink }}">{{ grant.subtitle }}</a>
-                        {% else %}
-                            <a title="policy or priority title" class="no-style" href="{{ grant.doc-link }}">{{ grant.subtitle }}</a>
-                        {% endif %}
+                    <span class="title-resources">
+                        {{ grant.type | upcase }}
+
                     </span>
-                    {% assign filters = grant.filters | split: ' ' %}
-                    {% for filter in filters %}
-                        {% if filter.size == 3 or filter.size == 5 %}
-                            <p class="title-resources">
-                                {{ filter | upcase }}
-                            </p>
+                    <p class="title-resources">
+                        {% if grant.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.permalink }}">{{ grant.subtitle }}</a>
                         {% else %}
-                            {% assign hyphen_filter = filter | split: '-' %}
-                            <p class="title-resources">
-                                    {% for second_filter in hyphen_filter %}
-                                        {{ second_filter | capitalize }}
-                                    {% endfor %}
-                            </p>
+                        <a title="policy or priority title" class="no-style" href="{{ grant.doc-link }}">{{ grant.subtitle }}</a>
                         {% endif %}
-                    {% endfor %}
+                    </p>
+<!--                    {% assign filters = grant.filters | split: ' ' %}-->
+<!--                    {% for filter in filters %}-->
+<!--                        {% if filter.size == 3 or filter.size == 5 %}-->
+<!--                            <p class="title-resources">-->
+<!--                                {{ filter | upcase }}-->
+<!--                            </p>-->
+<!--                        {% else %}-->
+<!--                            {% assign hyphen_filter = filter | split: '-' %}-->
+<!--                            <p class="title-resources">-->
+<!--                                    {% for second_filter in hyphen_filter %}-->
+<!--                                        {{ second_filter | capitalize }}-->
+<!--                                    {% endfor %}-->
+<!--                            </p>-->
+<!--                        {% endif %}-->
+<!--                    {% endfor %}-->
                 </div>
             </div>
         </div>
@@ -42,28 +46,16 @@
         <div class="tablet:grid-col-4 grid-spacing policy {{ erm_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">
+                    <span class="title-resources">
+                         {{ erm_item.type | upcase }}
+                    </span>
+                    <p class="title-resources">
                         {% if erm_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ erm_item.permalink }}">{{ erm_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ erm_item.doc-link }}">{{ erm_item.subtitle }}</a>
                         {% endif %}
-                    </span>
-                    {% assign filters = erm_item.filters | split: ' ' %}
-                    {% for filter in filters %}
-                        {% if filter.size == 3 or filter.size == 5 %}
-                            <p class="title-resources">
-                                {{ filter | upcase }}
-                            </p>
-                        {% else %}
-                            {% assign hyphen_filter = filter | split: '-' %}
-                            <p class="title-resources">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | capitalize }}
-                                {% endfor %}
-                            </p>
-                        {% endif %}
-                    {% endfor %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -75,28 +67,16 @@
         <div class="tablet:grid-col-4 grid-spacing policy {{ fdt_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">
-                         {% if fdt_item.permalink %}
+                    <span class="title-resources">
+                         {{ fdt_item.type | upcase }}
+                    </span>
+                    <p class="title-resources">
+                        {% if fdt_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fdt_item.permalink }}">{{ fdt_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ fdt_item.doc-link }}">{{ fdt_item.subtitle }}</a>
                         {% endif %}
-                    </span>
-                    {% assign filters = fdt_item.filters | split: ' ' %}
-                    {% for filter in filters %}
-                        {% if filter.size == 3 or filter.size == 5 %}
-                            <p class="title-resources">
-                                {{ filter | upcase }}
-                            </p>
-                        {% else %}
-                            {% assign hyphen_filter = filter | split: '-' %}
-                            <p class="title-resources">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | capitalize }}
-                                {% endfor %}
-                            </p>
-                        {% endif %}
-                    {% endfor %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -107,28 +87,17 @@
         <div class="tablet:grid-col-4 grid-spacing policy {{ fmt_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">
-                         {% if fmt_item.permalink %}
+                    <span class="title-resources">
+                         {{ fmt_item.type | upcase }}
+                    </span>
+                    <p class="title-resources">
+
+                        {% if fmt_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ fmt_item.permalink }}">{{ fmt_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ fmt_item.doc-link }}">{{ fmt_item.subtitle }}</a>
                         {% endif %}
-                    </span>
-                    {% assign filters = fmt_item.filters | split: ' ' %}
-                    {% for filter in filters %}
-                        {% if filter.size == 3 or filter.size == 5 %}
-                            <p class="title-resources">
-                                {{ filter | upcase }}
-                            </p>
-                        {% else %}
-                            {% assign hyphen_filter = filter | split: '-' %}
-                            <p class="title-resources">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | capitalize }}
-                                {% endfor %}
-                            </p>
-                        {% endif %}
-                    {% endfor %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -139,28 +108,17 @@
         <div class="tablet:grid-col-4 grid-spacing policy {{ gpr_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">
+                    <span class="title-resources">
+                        {{ gpr_item.type | upcase }}
+                    </span>
+                    <p class="title-resources">
+
                         {% if jfmip_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ gpr_item.permalink }}">{{ gpr_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ gpr_item.doc-link }}">{{ gpr_item.subtitle }}</a>
                         {% endif %}
-                    </span>
-                    {% assign filters = gpr_item.filters | split: ' ' %}
-                    {% for filter in filters %}
-                        {% if filter.size == 3 or filter.size == 5 %}
-                            <p class="title-resources">
-                                {{ filter | upcase }}
-                            </p>
-                        {% else %}
-                        {% assign hyphen_filter = filter | split: '-' %}
-                            <p class="title-resources">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | capitalize }}
-                                {% endfor %}
-                            </p>
-                        {% endif %}
-                    {% endfor %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -171,28 +129,16 @@
         <div class="tablet:grid-col-4 grid-spacing policy {{ jfmip_item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">
+                    <span class="title-resources">
+                        {{ jfmip_item.type | upcase }}
+                    </span>
+                    <p class="title-resources">
                         {% if jfmip_item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ jfmip_item.permalink }}">{{ jfmip_item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ jfmip_item.doc-link }}">{{ jfmip_item.subtitle }}</a>
                         {% endif %}
-                    </span>
-                    {% assign filters = jfmip_item.filters | split: ' ' %}
-                    {% for filter in filters %}
-                        {% if filter.size == 3 or filter.size == 5 %}
-                            <p class="title-resources">
-                                {{ filter | upcase }}
-                            </p>
-                        {% else %}
-                            {% assign hyphen_filter = filter | split: '-' %}
-                            <p class="title-resources">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | capitalize }}
-                                {% endfor %}
-                            </p>
-                        {% endif %}
-                    {% endfor %}
+                    </p>
                 </div>
             </div>
         </div>
@@ -203,28 +149,16 @@
         <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }}">
             <div class="shadow-1 knowledge-border ">
                 <div class="text-container">
-                    <span class="card-tag">
+                    <span class="title-resources">
+                        {{ item.type | upcase }}
+                    </span>
+                    <p class="title-resources">
                         {% if item.permalink %}
                         <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ item.permalink }}">{{ item.subtitle }}</a>
                         {% else %}
                         <a title="policy or priority title" class="no-style" href="{{ item.doc-link }}">{{ item.subtitle }}</a>
                         {% endif %}
-                    </span>
-                    {% assign filters = item.filters | split: ' ' %}
-                    {% for filter in filters %}
-                        {% if filter.size == 3 or filter.size == 5 %}
-                            <p class="title-resources">
-                                {{ filter | upcase }}
-                            </p>
-                        {% else %}
-                            {% assign hyphen_filter = filter | split: '-' %}
-                            <p class="title-resources">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | capitalize }}
-                                {% endfor %}
-                            </p>
-                        {% endif %}
-                    {% endfor %}
+                    </p>
                 </div>
             </div>
         </div>
