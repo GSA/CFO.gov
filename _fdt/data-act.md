@@ -6,7 +6,7 @@ permalink: /knowledge-sharing/data-act/
 type: FDT
 filler: The Leveraging Data as a Strategic Asset Working Group developed and issued this Playbook in collaboration with federal agencies to assist with developing Data Quality Plans in support of the DATA Act implementation. This playbook is a result of extensive collaboration between agencies, OMB, and the Department of the Treasury.
 date: March 13, 2020
-filters: fdt
+filters: fdt playbook
 ---
 
 

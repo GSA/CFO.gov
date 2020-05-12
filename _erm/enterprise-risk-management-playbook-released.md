@@ -5,7 +5,7 @@ subtitle: Enterprise Risk Management (ERM) Playbook Released
 permalink: /knowledge-sharing/enterprise-risk-management-playbook-released/
 type: ERM
 filler:  Today, the Chief Financial Officers Council (CFOC) and the Performance Improvement Council (PIC) release the Playbook.
-filters: erm best-practice
+filters: erm guidance
 ---
 
 Today, the Chief Financial Officers Council (CFOC) and the Performance Improvement Council (PIC) release the <a href= "{{ site.baseurl }}/wp-content/uploads/2016/07/FINAL-ERM-Playbook.pdf">Playbook: Enterprise Risk Management (ERM) for the U.S. Federal Government</a>. The Playbook and accompanying appendices are tools designed to help government departments and agencies meet requirements of the [revised Office of Management and Budget Circular A -123](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m-16-17.pdf). They are also designed to provide high-level key concepts for consideration when establishing a comprehensive and effective ERM program.

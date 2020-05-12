@@ -10,16 +10,25 @@
                 <div class="text-container">
                     <span class="card-tag">
                         {% if grant.permalink %}
-                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.permalink }}">{{ grant.subtitle }}</a>
+                            <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ grant.permalink }}">{{ grant.subtitle }}</a>
                         {% else %}
-                        <a title="policy or priority title" class="no-style" href="{{ grant.doc-link }}">{{ grant.subtitle }}</a>
+                            <a title="policy or priority title" class="no-style" href="{{ grant.doc-link }}">{{ grant.subtitle }}</a>
                         {% endif %}
                     </span>
                     {% assign filters = grant.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                    {% for second_filter in hyphen_filter %}
+                                        {{ second_filter | capitalize }}
+                                    {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -42,9 +51,18 @@
                     </span>
                     {% assign filters = erm_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -66,9 +84,18 @@
                     </span>
                     {% assign filters = fdt_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -89,9 +116,18 @@
                     </span>
                     {% assign filters = fmt_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -112,9 +148,18 @@
                     </span>
                     {% assign filters = gpr_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                        {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -135,9 +180,18 @@
                     </span>
                     {% assign filters = jfmip_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -158,32 +212,23 @@
                     </span>
                     {% assign filters = item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
         </div>
         {% endif %}
         {% endfor %}
-<!--        {% for career_item in site.my_career %}-->
-<!--        {% if career_item.layout == "knowledge-sharing-landing" %}-->
-<!--        <div class="tablet:grid-col-3 grid-spacing policy {{ career_item.filters }}">-->
-<!--            <div class="shadow-1 knowledge-border">-->
-<!--                <div class="text-container">-->
-<!--                    <span class="card-tag">{{ career_item.type }}</span>-->
-<!--                    <p>-->
-<!--                        {% if career_item.permalink %}-->
-<!--                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ career_item.permalink }}">{{ career_item.subtitle }}</a>-->
-<!--                        {% else %}-->
-<!--                        <a title="policy or priority title" class="no-style" href="{{ career_item.doc-link }}">{{ career_item.subtitle }}</a>-->
-<!--                        {% endif %}-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        {% endif %}-->
-<!--        {% endfor %}-->
     </div>
 </div>

@@ -19,9 +19,18 @@
                     </span>
                     {% assign filters = grant.filters | split: ' ' %}
                     {% for filter in filters %}
-                        <p class="title-resources">
-                            {{ filter | capitalize }}
-                        </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                    {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -44,9 +53,18 @@
                     </span>
                     {% assign filters = erm_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                    {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -68,9 +86,18 @@
                     </span>
                     {% assign filters = fdt_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                    {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -91,9 +118,18 @@
                     </span>
                     {% assign filters = fmt_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                    {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -114,9 +150,18 @@
                     </span>
                     {% assign filters = gpr_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                    {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -137,9 +182,18 @@
                     </span>
                     {% assign filters = jfmip_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                    {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -160,9 +214,18 @@
                     </span>
                     {% assign filters = ctrlalert_item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                    {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -183,9 +246,18 @@
                     </span>
                     {% assign filters = item.filters | split: ' ' %}
                     {% for filter in filters %}
-                    <p class="title-resources">
-                        {{ filter | capitalize }}
-                    </p>
+                        {% if filter.size == 3 or filter.size == 5 %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                        {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                    {{ second_filter | capitalize }}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
