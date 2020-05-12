@@ -21,4 +21,4 @@ It was also determined that the CFDA number prefix should align with the 3-digit
 
 The timing of this change coincides with the requirement for the Financial assistance community to implement the Activity Address Code (AAC) for awarding and funding offices as required by [MPM-2016-03](https://www.whitehouse.gov/sites/default/files/omb/financial/memos/management-procedures-memorandum-no-2016-03-additional-guidance-for-data-act-implementation.pdf).
 
-If you have any questions regarding this alert please contact Rhea Hubbard ([rhubbard@omb.eop.gov](rhubbard@omb.eop.gov))
+If you have any questions regarding this alert please contact Rhea Hubbard ([rhubbard@omb.eop.gov](mailto:rhubbard@omb.eop.gov))

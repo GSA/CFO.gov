@@ -14,10 +14,11 @@ This Controller Alert provides information on GAO's recent report on data transp
 
 On August 1, 2014, the GAO publicly released its report [Data Transparency: Oversight Needed to Address Underreporting and Inconsistencies on Federal Award Website](https://www.gao.gov/products/GAO-14-476), and several news outlets subsequently reported on its findings. The report highlights:
 
-deficiencies in the oversight process for validating data,
-gaps in OMB guidance,
-inconsistencies in USASpending.gov data, and
-that agencies were generally reporting required contract information but more work is needed to be done on assistance awards reporting .
+* deficiencies in the oversight process for validating data,
+* gaps in OMB guidance,
+* inconsistencies in USASpending.gov data, and
+* that agencies were generally reporting required contract information but more work is needed to be done on assistance awards reporting .
+
 The report specifically stated that in FY 2012, information about $619 billion in assistance awards was improperly reported by agencies. This figure has been highlighted by several news outlets, and while the GAO report noted that $600 billion of this amount was subsequently reported, the news coverage failed to include this information. The report also identified three main data quality issues and concerns; validation of data, consistency of reporting, and timeliness of submissions.  OMB is working with Treasury, the CFO community and other stakeholders to implement the DATA Act and other statutory requirements that will support increased quality and timeliness of data.  Most significantly, to relieve manual reconciliation burdens, the Treasury Department will be developing long term plans to populate USAspending.gov based on financial records drawn from Agency financial management systems, supplemented by additional information drawn from nonfinancial management systems. In the interim, agencies are required by OMB guidance to provide an assurance of a level of accuracy of the information reported, based on their chosen methodology.
 
 Since OMB's June 2013 Memorandum, [Improving Data Quality for USAspending.gov](https://www.whitehouse.gov/sites/default/files/omb/financial/memos/improving-data-quality-for-usaspending-gov.pdf), and prior guidance for Federal procurement, agencies have engaged in considerable effort to improve the reliability and accuracy of USAspending.gov financial data.   Although the quarterly reporting requirement has been rescinded by the May 23 Controller Alert, Suspension of Reporting Requirements under OMB's June 2013 Memorandum and Forthcoming Town Hall Meeting, agencies are still responsible for establishing internal control over data quality to provide reasonable assurance that the objectives of the Federal Managers' Financial Integrity Act of 1982 (FMFIA) are met.
@@ -28,4 +29,4 @@ OMB plans to work closely with the Chief Financial Officer's Council to strength
 
 As we move ahead, this work, complimented with statutory requirements under the DATA Act will continue to expand and improve the quality of our federal spending information.
 
-If you have any questions regarding this alert, please contact Rehana Mohammed at [Rehana_I_Mohammed@omb.eop.gov](Rehana_I_Mohammed@omb.eop.gov).
+If you have any questions regarding this alert, please contact Rehana Mohammed at [Rehana_I_Mohammed@omb.eop.gov](mailto:Rehana_I_Mohammed@omb.eop.gov).

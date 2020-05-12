@@ -4,7 +4,7 @@ date: 2013-02-19
 author: CFO Council
 title: "CONTROLLER ALERT&#58; Improving Collection of Delinquent Debt"
 subtitle: "Improving Collection of Delinquent Debt"
-doc-link: ../assets/files/Controller-Alert-Improving-Collection-of-Delinquent-Debt.pdf
+doc-link: ../assets/files/Controller-Alert-Improving-Collection-of-Delinquent-Debt-1.4.13.pdf
 filters: controller-alerts
 type: Controller Alert
 ---
