@@ -6,7 +6,7 @@ permalink: /knowledge-sharing/october-2014-uniform-guidance-implementation-a-ser
 type: Grant
 date: October 24, 2014
 author: CFO Council 
-filters: grants best-practice
+filters: grants best-practice-guidance
 ---
 
 ## OPENING REMARKS

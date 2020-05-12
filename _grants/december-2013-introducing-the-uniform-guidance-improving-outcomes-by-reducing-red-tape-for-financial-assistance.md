@@ -5,7 +5,7 @@ subtitle: December 2013&#58; Introducing the Uniform Guidance&#58; Improving Out
 permalink: /knowledge-sharing/december-2013-introducing-the-uniform-guidance-improving-outcomes-by-reducing-red-tape-for-financial-assistance/
 type: Grant
 filler:  
-filters: grants best-practice
+filters: grants best-practice-guidance
 author: CFO Council 
 date: January 12, 2013
 ---
