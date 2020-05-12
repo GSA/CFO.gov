@@ -1,6 +1,6 @@
 ---
 layout: knowledge-sharing-landing
-title: Grant Resources
+title: GRANTS RESOURCES
 subtitle: Grant Resources
 permalink: /knowledge-sharing/grants-resources/
 type: Grant
@@ -9,8 +9,7 @@ filters: grants helpful-link
 ---
 
 
-GRANTS RESOURCES
-What was the Council on Financial Assistance Reform? 
+**What was the Council on Financial Assistance Reform?**
 
 [OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/M-17-26.pdf), rescinded the COFAR. The group's policy priorities will now be considered part of the President's Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific initiatives. The Financial Assistance Committee for E-Government (FACE),  will remain operational. 
 
@@ -45,7 +44,7 @@ What was the Council on Financial Assistance Reform?
 * [USASpending.gov](https://www.usaspending.gov/#/)
 
 **UNIFORM GUIDANCE RESOURCES**
-* [CFR 200 - Uniform Guidance(Note: the CFR will be updated to reflect the technical corrections and changes to agency regulations after the December 26th effective date.)](https://www.ecfr.gov/cgi-bin/text-idx?SID=6214841a79953f26c5c230d72d6b70a1&tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl)
+* [2 CFR 200 - Uniform Guidance(Note: the CFR will be updated to reflect the technical corrections and changes to agency regulations after the December 26th effective date.)](https://www.ecfr.gov/cgi-bin/text-idx?SID=6214841a79953f26c5c230d72d6b70a1&tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl)
 * [Joint Interim Final Rule Implementing the Uniform Guidance (xx FR xxxx)](https://www.federalregister.gov/documents/2014/12/19/2014-28697/federal-awarding-agency-regulatory-implementation-of-office-of-management-and-budgets-uniform)
 * [Blog Post Announcing Implementation of the Uniform Guidance](https://obamawhitehouse.archives.gov/blog/2014/12/18/transforming-landscape-federal-financial-assistance)
 * [Uniform Guidance Crosswalk for Federal agency Exceptions and Additions]({{ site.baseurl }}/wp-content/uploads/2014/12/Agency-Exceptions.pdf)
