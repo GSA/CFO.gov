@@ -1,5 +1,7 @@
 <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
 <script type="text/javascript" src="https://federalist.18f.gov/assets/js/3/jquery.min.js"></script>
+
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="{{ site.baseurl }}/assets/js/isotope.pkgd.min.js"></script>
@@ -7,3 +9,21 @@
 {% asset uswds.min.js %}
 {% asset app.js %}
 
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/slick.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.top').slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            infinite: true,
+            dots:true,
+            arrows:false
+        });
+        jQuery('.bottom').slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            infinite: true,
+            dots:true
+
+        });
+    });
+
+</script>
