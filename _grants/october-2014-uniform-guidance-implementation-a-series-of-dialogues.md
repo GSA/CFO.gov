@@ -1,7 +1,7 @@
 ---
 layout: knowledge-sharing-landing
-title: October 2014&#58; Uniform Guidance Implementation a Series of Dialogues
-subtitle: October 2014&#58; Uniform Guidance Implementation a Series of Dialogues
+title: October 2014&#58; Uniform Guidance Implementation&#58; a Series of Dialogues
+subtitle: Uniform Guidance Implementation a Series of Dialogues
 permalink: /knowledge-sharing/october-2014-uniform-guidance-implementation-a-series-of-dialogues/
 type: Grant
 date: October 24, 2014
