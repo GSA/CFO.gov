@@ -5,6 +5,7 @@ subtitle: Controller Alert&#58; Reducing Burden For Federal Agencies By Rescindi
 permalink: /policies/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/
 type: Grant
 date: March 07, 2017
+has_date: 'yes'
 author: CFO Council 
 filters: grants controller-alerts
 ---

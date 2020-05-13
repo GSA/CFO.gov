@@ -7,6 +7,7 @@ type: ERM
 filler:  Today, the Chief Financial Officers Council (CFOC) and the Performance Improvement Council (PIC) release the Playbook.
 author: CFO Council 
 date: July 28, 2016
+has_date: 'yes'
 filters: erm best-practice-guidance
 ---
 
