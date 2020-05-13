@@ -1,7 +1,7 @@
 ---
 layout: knowledge-sharing-landing
 title: July 2016&#58; Uniform Guidance Promising Practices in Implementation
-subtitle: July 2016&#58; Uniform Guidance Promising Practices in Implementation
+subtitle: Uniform Guidance Promising Practices in Implementation
 permalink: /knowledge-sharing/july-2016-uniform-guidance-promising-practices-in-implementation/
 type: Grant
 filler: Opening Remarks Dave Mader, Controller, OMB Rhea Hubbard, Policy Analyst, OMB Gil Tran, Policy Analyst, OMB Promising Practices in Implementation; Risk Assessment (Panel 1) Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and COFAR Co-Chair Phil Maestri, Director, Risk Management Service, U.S. Department of Education Moderator; Rhea Hubbard, Policy Analyst, OMB . Continued

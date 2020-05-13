@@ -1,7 +1,7 @@
 ---
 layout: knowledge-sharing-landing
 title: GRANTS RESOURCES
-subtitle: Grant Resources
+subtitle: Grants Resources
 permalink: /knowledge-sharing/grants-resources/
 type: Grant
 filler: Grants Resources What was the Council on Financial Assistance Reform?  OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying, rescinded the COFAR. The group's policy priorities will now be considered part of the President's Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific . Continued
@@ -16,11 +16,8 @@ filters: grants helpful-link
 **Background**
 
 * [OMB Memorandum M-12-01 Establishing the COFAR](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2012/m-12-01.pdf)
-* [Improving Management of Federal Grant Dollars: Council on Financial Assistance Reform Priorities for FY13-15 1-28-13(PDF)]({{ site.baseurl }} /wp-content/uploads/2013/01/2013-01-28-COFAR-Priorities.pdf)
 * [Effective Management of Federal Grant Dollars: Council on Financial Assistance Reform (COFAR) Priorities for FY12-15(PDF)]({{ site.baseurl }} /wp-content/uploads/2013/12/2013-12-04-COFAR-Priorities-for-Principals.pdf)
-* [COFAR Priorities for FY16-17: Strong Controls Yield Better Outcomes](https://cfo.gov/2016/01/11/draft-cofar-priorities-for-fy16-17-strong-controls-yield-better-outcomes/)
-* [Updating Progress on COFAR Priorities for FY 16-17](https://cfo.gov/2016/12/21/updating-progress-on-cofar-priorities-for-fy-16-17/)
-* [CONTROLLER ALERT: Reducing Burden for Federal Agencies by Rescinding Grants Management Related Requirements](https://cfo.gov/2017/07/03/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/)
+* [CONTROLLER ALERT: Reducing Burden for Federal Agencies by Rescinding Grants Management Related Requirements]({{ site.baseurl }} /policies/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/)
 
 
 **Related Links**
@@ -28,18 +25,13 @@ filters: grants helpful-link
 * [Financial Assistance Career Roadmap Report](https://cfo.gov/wp-content/uploads/2017/08/CFOC_FAM-Career-Roadmap-Report_Final.pdf)
 * [OMB Blog](https://www.whitehouse.gov/omb/)
 * To apply for a Federal Grant please visit: [Grants.gov](https://www.grants.gov/) to find opportunities and [SAM.gov](https://www.sam.gov/SAM/) to register prior to applying.
-* To see what financial assistance is available from the Federal government please visit the Catalogue of Federal Domestic Assistance at: [CFDA.gov](https://www.cfda.gov/)
 * To see how the Federal government spends its money, and who receives financial assistance please visit [USASpending.gov](https://www.usaspending.gov/#/).
-* [CFO ACT](https://www.dol.gov/ocfo/media/regs/CFOA.pdf)
 * [Federal Financial Management Assistance Management Act of 1999](https://www.govinfo.gov/content/pkg/PLAW-106publ107/pdf/PLAW-106publ107.pdf)
 
 **TRANSPARENCY RESOURCES**
 * [DATA ACT](https://www.congress.gov/bill/113th-congress/senate-bill/994)
-* [Data Act Page on USAspending.gov](https://www.usaspending.gov/Pages/data-act.aspx)
 * [OMB Treasury Federal Spending Transparency Website](https://fedspendingtransparency.github.io/)
-* [COFAR Transparency Initiatives 2014]({{ site.baseurl }}/wp-content/uploads/2013/01/COFAR-Transparancy-Initiatives-2014.pdf)
 * [Executive Order 13576 -Delivering an Efficient, Effective, and Accountable Government](https://www.govinfo.gov/content/pkg/CFR-2012-title3-vol1/pdf/CFR-2012-title3-vol1-eo13576.pdf)
-* [Government Accountability and Transparency Board](http://www.recovery.gov/gatb/Pages/default.aspx)
 * [Federal Funding Accountability and Transparency Act](https://www.govinfo.gov/content/pkg/BILLS-109s2590enr/pdf/BILLS-109s2590enr.pdf)
 * [USASpending.gov](https://www.usaspending.gov/#/)
 
