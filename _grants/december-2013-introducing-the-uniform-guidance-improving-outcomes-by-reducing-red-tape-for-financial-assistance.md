@@ -8,6 +8,7 @@ filler:
 filters: grants best-practice-guidance
 author: CFO Council 
 date: January 12, 2013
+has_date: 'yes'
 ---
 
 {% include youtube_embed.html id="dlZfb9ALBck" %}  

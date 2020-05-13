@@ -72,8 +72,8 @@ primary_navigation:
   - name: Priority Areas
     url: /
     children:
-      - name: Grants Optimization
-        url: "/grants-optimization/"
+      - name: Financial Assistance
+        url: "/financial-assistance/"
       - name: Payment Integrity
         url: "/payment-integrity/"
       - name: Fiscal Management Transformation

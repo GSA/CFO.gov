@@ -1,14 +1,14 @@
 <div id="tabs" class="grid-row clearfix">
     <ul class="grid-col-3 shadow-5">
         <li><a href="#tabs-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
-        <li><a href="#tabs-2" class="text-no-underline text-base-darker font-sans-md">About Grants Optimization</a></li>
+        <li><a href="#tabs-2" class="text-no-underline text-base-darker font-sans-md">About Financial Assistance</a></li>
         <li><a href="#tabs-3" class="text-no-underline text-base-darker font-sans-md">Strategy</a></li>
         <li><a href="#tabs-4" class="text-no-underline text-base-darker font-sans-md">ESC Membership</a></li>
         <li><a href="#tabs-5" class="text-no-underline text-base-darker font-sans-md">Org Structure</a></li>
 
     </ul>
     <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
-        {% assign sorted = (site.grants | sort: 'date') | reverse %}
+        {% assign sorted = (site.grants | where: 'has_date', 'yes' | sort: 'date') | reverse %}
         {% for item in sorted limit:3 %}
         <div class="border-top border-gray-30">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
@@ -44,11 +44,11 @@
         </p>
     </div>
     <div id="tabs-3" class="grid-col-9 padding-4 font-s">
-        <p>The Grants Priority Area strategic approach is featured below:</p>
+        <p>The Financial Assistance Priority Area strategic approach is featured below:</p>
         <img  alt="Grants strategy image" src="{{ site.baseurl }}/assets/images/image123.jpg">
     </div>
     <div id="tabs-4" class="grid-col-9 padding-4">
-        <p>The Executive Steering Committee membership for the Grants Priority Area includes:
+        <p>The Executive Steering Committee membership for the Financial Assistance Priority Area includes:
 
             <ul>
                 <li>Office of Management and Budget</li>
@@ -61,7 +61,7 @@
         </p>
     </div>
     <div id="tabs-5" class="grid-col-9 padding-4">
-        <p>Below is the Executive Steering Committee organizational structure for the Grants Priority Area:</p>
+        <p>Below is the Executive Steering Committee organizational structure for the Financial Assistance Priority Area:</p>
         <img  alt="Grants org structure image" src="{{ site.baseurl }}/assets/images/Grants_org_structure.jpg">
     </div>
 
