@@ -16,7 +16,7 @@ The home page uses wide.html layout, since it extends full width of page
 <body class="site-margin">
 {% include header.html %}
 
-{% include payment-accuracy-menu.html primary_navigation=site.payment-accuracy-navigation secondary_navigation=site.secondary_navigation %}
+{% include sub-page-menu.html primary_navigation=site.payment-accuracy-navigation secondary_navigation=site.secondary_navigation page_type='payment-accuracy' %}
 
 <main id="main-content">
     <div>{{ content }}</div>

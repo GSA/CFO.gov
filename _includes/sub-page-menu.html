@@ -1,0 +1,66 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
+where we provide an easy way to manage your navigation system
+{% endcomment %}
+
+<header class="usa-header usa-header--extended" role="banner">
+    <div class="usa-navbar">
+        <div class="usa-logo" id="logo">
+
+
+                {% if include.page_type == 'frpc' %}
+                <h1 class="margin-0 clearfix font-ui-xl ">
+                <a href="{{ site.baseurl }}/frpc/" accesskey="1" title="FRPC Page" aria-label="FRPC Page">
+                    <em class="usa-logo-text text-red"> FRPC</em><br/><span class="font-body-md"> Federal Real Property Council</span>
+                </a>
+                {% endif %}
+
+                {% if include.page_type == 'jfmip' %}
+                    <em class="usa-logo-text">
+                        <a href="{{ site.baseurl }}/jfmip/" accesskey="1" title="JFMIP Page" aria-label="JFMIP Page">
+                            <img class="jfmip-logo-size" src="{{ site.jfmip-logo | prepend: site.baseurl }}" alt="JFMIP logo">
+                        </a>
+                    </em>
+                {% endif %}
+
+                    {% if include.page_type == 'payment-accuracy' %}
+                    <em class="usa-logo-text">
+                        <a href="{{ site.baseurl }}/payment-accuracy/" accesskey="1" title="Payment Accuracy Page" aria-label="Payment Accuracy Page">
+                            PaymentAccuracy
+                            <!--                    <img class="jfmip-logo-size" src="{{ site.jfmip-logo | prepend: site.baseurl }}" alt="Payment Accuracy logo">-->
+                        </a>
+                    </em>
+                    {% endif %}
+            </h1>
+
+            <div><a class="margin-1em font-sans-md text-underline" href="{{ site.baseurl }}/">&#10094; &nbsp; Connect to CFO</a></div>
+        </div>
+    </div>
+    <nav role="navigation" class="usa-nav">
+        <div class="usa-nav__inner">
+            {% if include.page_type == 'payment-accuracy' %}
+            <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
+            <ul class="usa-nav__primary usa-accordion">
+                {% for nav_item in include.primary_navigation %}
+                {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
+                {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+                       href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <div class="usa-nav__secondary secondary-nav-padding">
+                <ul class="usa-nav__secondary-links">
+                    {% for nav_item in include.secondary_navigation %}
+                    <li class="usa-nav__secondary-item">
+                        <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% include searchgov/form.html searchgov=site.searchgov %}
+            </div>
+        </div>
+    </nav>
+</header>
