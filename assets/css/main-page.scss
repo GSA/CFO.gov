@@ -6,6 +6,8 @@
 @import "../../_sass/knowledgesharing";
 
 // Add your SASS/CSS here
+//@import "../assets/css/slick.css";
+//@import "../assets/css/slick-theme.css";
 
 // default mode hide banner
 
@@ -201,6 +203,47 @@ color:#005ea2;
   color: #ffffff;
   text-align:left;
 }
-.carousel.bottom{
-  background: #342080;
+.carousel.bottom {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -72px;
+}
+.slick-prev {
+  left:5px;
+}
+.slick-next{
+  right:5px;
+}
+
+.slick-dots
+{
+  position: absolute;
+  bottom: 9px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+  right:5px;
+}
+.bottom .slick-dots{
+  text-align: center;
+  right:0;
+}
+.slick-dots li button:before{
+  color:#fff;
+  font-size:15px;
+}
+
+.slick-dots li.slick-active button:before{
+  color:#FB5A47;
+  opacity: 1;
+}
+.slick-dotted.slick-slider{
+  margin-bottom:0;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #FB5A47;
 }
