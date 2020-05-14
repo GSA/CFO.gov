@@ -7,6 +7,13 @@ where we provide an easy way to manage your navigation system
     <div class="usa-navbar">
         <div class="usa-logo" id="logo">
 
+            {% if include.page_type == 'cxo' %}
+            <h1 class="margin-0 clearfix font-ui-xl ">
+                <a href="{{ site.baseurl }}/cxo-fellows/" accesskey="1" title="CXO Page" aria-label="CXO Page">
+                    <em class="usa-logo-text text-red"> CXO Fellows</em><br/><span class="font-body-md"> CXO Fellows</span>
+                </a>
+                {% endif %}
+
 
                 {% if include.page_type == 'frpc' %}
                 <h1 class="margin-0 clearfix font-ui-xl ">

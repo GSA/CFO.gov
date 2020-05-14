@@ -90,6 +90,8 @@ primary_navigation:
     url: "/frpc/"
   - name: Knowledge Sharing
     url: /knowledge-sharing/
+  - name: CXO Fellows
+    url: /cxo-fellows/
 
 secondary_navigation:
   - name: Contact Us
@@ -157,6 +159,8 @@ collections:
   policies_guidance:
     output: true
   my_career:
+    output: true
+  cxo:
     output: true
 
 permalink: pretty

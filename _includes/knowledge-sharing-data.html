@@ -144,6 +144,26 @@
         </div>
         {% endif %}
         {% endfor %}
+        {% for item in site.cxo %}
+        {% if item.layout == "knowledge-sharing-landing" %}
+        <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }}">
+            <div class="shadow-1 knowledge-border ">
+                <div class="text-container">
+                    <span class="title-resources">
+                        {{ item.type | upcase }}
+                    </span>
+                    <p class="title-resources">
+                        {% if item.permalink %}
+                        <a title="policy or priority title" class="no-style" href="{{ site.baseurl }}{{ item.permalink }}">{{ item.subtitle }}</a>
+                        {% else %}
+                        <a title="policy or priority title" class="no-style" href="{{ item.doc-link }}">{{ item.subtitle }}</a>
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
         {% for item in site.knowledge_sharing %}
         {% if item.layout == "knowledge-sharing-landing" %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }}">

@@ -31,7 +31,7 @@
     <div class="footer-section-bottom bg-base-lighter">
         <div class="grid-container">
 
-            {% if include.page_type == 'frpc' %}
+            {% if include.page_type == 'frpc' or include.page_type == 'cxo' %}
                 <div class="usa-graphic-list__row grid-row grid-gap padding-3 ">
 
                     <div class="tablet:grid-col">
@@ -52,7 +52,11 @@
                                 <h2 class="usa-footer-contact-heading" style="text-align: right">
                                     {{ site.footer.contact.name }}</h2>
                                 {% endif %}
+                                {% if include.page_type == 'frpc'
                                 <p>{{ site.footer.contact.frpc-email }}</p>
+                                {% else %}
+                                {{ site.footer.contact.email }}
+                                {% endif %}
                             </address>
                         </div>
                     </div>
