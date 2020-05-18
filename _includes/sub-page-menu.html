@@ -17,16 +17,16 @@ where we provide an easy way to manage your navigation system
 
                 {% if include.page_type == 'frpc' %}
                 <h1 class="margin-0 clearfix font-ui-xl ">
-                <a href="{{ site.baseurl }}/frpc/" accesskey="1" title="FRPC Page" aria-label="FRPC Page">
+                <div href="{{ site.baseurl }}/frpc/" accesskey="1" title="FRPC Page" aria-label="FRPC Page">
                     <em class="usa-logo-text text-red"> FRPC</em><span class="font-body-md" style="display: block;"> Federal Real Property Council</span>
-                </a>
+                </div>
                 {% endif %}
 
                 {% if include.page_type == 'jfmip' %}
                     <em class="usa-logo-text">
-                        <a href="{{ site.baseurl }}/jfmip/" accesskey="1" title="JFMIP Page" aria-label="JFMIP Page">
+                        <div href="{{ site.baseurl }}/jfmip/" accesskey="1" title="JFMIP Page" aria-label="JFMIP Page">
                             <img class="jfmip-logo-size" src="{{ site.jfmip-logo | prepend: site.baseurl }}" alt="JFMIP logo">
-                        </a>
+                        </div>
                     </em>
                 {% endif %}
 
@@ -36,10 +36,11 @@ where we provide an easy way to manage your navigation system
                             PaymentAccuracy
                         </a>
                     </em>
-                    {% endif %}
+
             </h1>
 
             <div><a class="margin-1em font-sans-md text-underline" href="{{ site.baseurl }}/">&#10094; &nbsp; Connect to CFO</a></div>
+            {% endif %}
         </div>
         <button class="usa-menu-btn">Menu</button>
     </div>
@@ -57,6 +58,15 @@ where we provide an easy way to manage your navigation system
                 </li>
                 {% endfor %}
             </ul>
+            {% else %}
+
+            <ul class="usa-nav__primary usa-accordion">
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link"
+                       href="/"><span>&#10094; &nbsp; Connect to CFO</span></a>
+                </li>
+            </ul>
+
             {% endif %}
             <div class="usa-nav__secondary secondary-nav-padding">
                 <ul class="usa-nav__secondary-links">
