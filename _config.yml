@@ -95,11 +95,11 @@ primary_navigation:
 
 secondary_navigation:
   - name: Contact Us
-    url: "mailto:Cfoc.support@gsa.gov"
+    url: "mailto:CFOC.support@gsa.gov"
   - name: Get Involved
-    url: "mailto:Cfoc.support@gsa.gov"
+    url: "mailto:CFOC.support@gsa.gov"
   - name: Feedback
-    url: "mailto:Cfoc.support@gsa.gov"
+    url: "mailto:CFOC.support@gsa.gov"
 
 payment-accuracy-navigation:
   - name: About
@@ -117,7 +117,7 @@ footer:
   contact:
     name: Contact Us
     phonenumber: (800) CALL-GOVT
-    email: Cfoc.support@gsa.gov
+    email: CFOC.support@gsa.gov
     frpc-email: Realpropertypolicy@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
