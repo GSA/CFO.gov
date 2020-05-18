@@ -36,10 +36,7 @@ where we provide an easy way to manage your navigation system
                             PaymentAccuracy
                         </a>
                     </em>
-
             </h1>
-
-            <div><a class="margin-1em font-sans-md text-underline" href="{{ site.baseurl }}/">&#10094; &nbsp; Connect to CFO</a></div>
             {% endif %}
 
         </div>
@@ -60,16 +57,7 @@ where we provide an easy way to manage your navigation system
                 </li>
                 {% endfor %}
             </ul>
-            {% else %}
-
-            <ul class="usa-nav__primary usa-accordion">
-                <li class="usa-nav__primary-item">
-                    <a class="usa-nav__link"
-                       href="/"><span>&#10094; &nbsp; Connect to CFO</span></a>
-                </li>
-            </ul>
-
-            {% endif %}
+           {% endif %}
             <div class="usa-nav__secondary secondary-nav-padding">
                 <ul class="usa-nav__secondary-links">
                     {% for nav_item in include.secondary_navigation %}
