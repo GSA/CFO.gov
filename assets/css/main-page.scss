@@ -271,3 +271,19 @@ color:#005ea2;
   color: #1b1b1b;
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 951px) {
+  .jfmip-logo-size{
+    height: 46px;
+    width: 72px;
+  }
+
+  .cxo-logo-size{
+    height: 42px;
+    width: 120px;
+  }
+  .frpcSubText{
+    font-size: .75rem;
+  }
+}
