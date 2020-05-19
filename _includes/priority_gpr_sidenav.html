@@ -17,9 +17,9 @@
                     <h3 class="margin-top-0">{{ item.title }}</h3>
                     <p>{{ item.filler | truncate:500 }}</p>
                     {% if item.permalink %}
-                        <a title="policy or priority title" class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read more</a>
+                        <a title="policy or priority title" class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read More</a>
                     {% elsif item.doc-link  %}
-                        <a title="policy or priority title" class="text-no-underline text-bold" href="{{ item.doc-link }}">Read more</a>
+                        <a title="policy or priority title" class="text-no-underline text-bold" href="{{ item.doc-link }}">Read More</a>
                     {% endif %}
                 </div>
             </div>
