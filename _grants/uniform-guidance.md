@@ -13,4 +13,4 @@ In December 2014, OMB together with Federal awarding agencies issued an interim 
 
 Questions about the Uniform Guidance? Check the <a href="{{ site.baseurl }}/wp-content/uploads/2017/08/July2017-UniformGuidanceFrequentlyAskedQuestions.pdf">Frequently Asked Questions</a>, and then our <a href="{{ site.baseurl }}/grants-training/">Training page</a>.
 
-{% include Uniform-guidance-latest.html %}
+{% include Uniform-guidance-Latest.html %}
