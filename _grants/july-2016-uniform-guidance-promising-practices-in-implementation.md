@@ -8,7 +8,7 @@ filler: Opening Remarks Dave Mader, Controller, OMB Rhea Hubbard, Policy Analyst
 date: July 07, 2015
 has_date: 'yes'
 author: CFO Council 
-filters: grants best-practice-guidance
+filters: financial-assistance best-practice-guidance
 ---
 
 
