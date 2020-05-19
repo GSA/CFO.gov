@@ -1,32 +1,41 @@
-<div class="grid-container padding-3">
-    <a href="javascript:topFunction();" id="backtotop" class="margin-1em font-sans-md text-underline" >Return to Top</a>
-</div>
+<!--<div class="grid-container padding-3">-->
+<!--    <a href="javascript:topFunction();" id="backtotop" class="margin-1em font-sans-md text-underline" >Return to Top</a>-->
+<!--</div>-->
 
-<div class="footer-section-bottom bg-base-lighter">
-    <div class="grid-container">
-        <div class="usa-graphic-list__row grid-row grid-gap padding-3">
+<footer class="usa-footer">
+    <div class="grid-container usa-footer__return-to-top">
+        <a href="#">Return to top</a>
+    </div>
+    <div class="usa-footer__primary-section">
 
-            <div class="tablet:grid-col">
-                <div class="footer-logo logo-links">
-                    <img src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" width="80" alt="GSA Logo" />
-                    <img src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" width="80" alt="OMB Logo" />
-                    <h2 class="usa-footer-logo-heading" style="line-height: 120%">{{ site.footer.contact.text }}</h2>
+    </div>
+
+    <div class="usa-footer__secondary-section">
+        <div class="grid-container">
+            <div class="grid-row grid-gap">
+                <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                    <div class="mobile-lg:grid-col-auto">
+                        <img class="usa-footer__logo-img" src="/assets/images/logos/footer-logo2.png" alt="">
+                        <img class="usa-footer__logo-img" src="/assets/images/logos/footer-logo1.png" alt="">
+                    </div>
+                    <div class="mobile-lg:grid-col-auto">
+                        <h3 class="usa-footer-logo-heading">General Services Administration & the Office of Management and Budget</h3>
+                    </div>
+                </div>
+                <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+                    <h3 class="usa-footer__contact-heading">Contact Us</h3>
+                    <address class="usa-footer__address">
+                        <div class="usa-footer__contact-info grid-row grid-gap">
+                            <div class="grid-col-auto">
+                                <p>{{ site.footer.contact.email }}</p>
+                            </div>
+                        </div>
+                    </address>
                 </div>
             </div>
-
-            <div class="usa-footer-contact-links usa-width-one-half">
-
-                <address>
-                    {% if site.footer.contact.name %}
-                    <h2 class="usa-footer-contact-heading" style="text-align: right">{{ site.footer.contact.name }}</h2>
-                    {% endif %}
-                    <p> {{ site.footer.contact.email }}</p>
-                </address>
-            </div>
-
         </div>
     </div>
-</div>
+</footer>
 
 
 <!--<footer class="usa-footer site-footer" role="contentinfo">-->
