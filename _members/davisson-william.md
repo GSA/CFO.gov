@@ -1,5 +1,5 @@
 ---
-bio-image: /wp-content/uploads/2017/04/StateDepartment_Logo1.jpeg
+bio-image: /wp-content/uploads/2017/04/StateDepartment_Logo1.png
 bio-image-alt-text: WILLIAM BRANDON (BUTCH) DAVISSON
 layout: bio
 permalink: /bio/mr-william-brandon-butch-davisson/
