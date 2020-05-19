@@ -96,10 +96,6 @@ primary_navigation:
 secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
-  - name: Get Involved
-    url: "mailto:CFOC.support@gsa.gov"
-  - name: Feedback
-    url: "mailto:CFOC.support@gsa.gov"
 
 payment-accuracy-navigation:
   - name: About
