@@ -7,7 +7,7 @@ type: Grant
 date: October 24, 2014
 has_date: 'yes'
 author: CFO Council 
-filters: grants best-practice-guidance
+filters: financial-assistance best-practice-guidance
 ---
 
 ## OPENING REMARKS

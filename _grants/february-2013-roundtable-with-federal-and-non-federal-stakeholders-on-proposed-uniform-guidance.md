@@ -5,7 +5,7 @@ subtitle: Roundtable with Federal and Non-Federal Stakeholders on Proposed Unifo
 permalink: /knowledge-sharing/february-2013-roundtable-with-federal-and-non-federal-stakeholders-on-proposed-uniform-guidance/
 type: Grant
 filler:  
-filters: grants best-practice-guidance
+filters: financial-assistance best-practice-guidance
 author: CFO Council 
 date: January 02, 2013
 has_date: 'yes'
