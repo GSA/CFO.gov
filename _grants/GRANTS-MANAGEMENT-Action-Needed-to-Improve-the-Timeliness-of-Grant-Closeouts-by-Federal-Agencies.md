@@ -5,7 +5,7 @@ subtitle: Grants Management&#58; Improve the Timeliness of Grant Closeouts by Fe
 doc-link: ../wp-content/uploads/2016/01/GRANTS-MANAGEMENT-Action-Needed-to-Improve-the-Timeliness-of-Grant-Closeouts-by-Federal-Agencies.pdf
 type: Grant
 filler: 
-filters: grants controller-alerts
+filters: financial-assistance controller-alerts
 ---
 
 <a href="{{ site.baseurl }}/wp-content/uploads/2016/01/GRANTS-MANAGEMENT-Action-Needed-to-Improve-the-Timeliness-of-Grant-Closeouts-by-Federal-Agencies.pdf">pdf</a>

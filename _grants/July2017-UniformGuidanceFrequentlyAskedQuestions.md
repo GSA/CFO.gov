@@ -5,7 +5,7 @@ subtitle: Uniform Guidance Frequently Asked Questions
 doc-link: ../wp-content/uploads/2017/08/July2017-UniformGuidanceFrequentlyAskedQuestions.pdf
 type: Grant
 filler: Uniform Guidance Frequently Asked Questions
-filters: grants best-practice-guidance
+filters: financial-assistance best-practice-guidance
 ---
 
 <a href="{{ site.baseurl }}/wp-content/uploads/2017/08/July2017-UniformGuidanceFrequentlyAskedQuestions.pdf">text</a>
