@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-Grants101Module2:FederalFinancialAssistance001" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd"> 
+<organizations default="ORG-Grants101Module2:FederalFinancialAssistance0001">
+<organization identifier="ORG-Grants101Module2:FederalFinancialAssistance0001" structure="hierarchical">
+<title>Grants 101 Module 2: Federal Financial Assistance</title>
+<item identifier="ITEM-Grants101Module2:FederalFinancialAssistance0001SCO" isvisible="true" identifierref="RES-Grants101Module2:FederalFinancialAssistanceSCO1">
+<title>Grants 101 Module 2: Federal Financial Assistance</title>
+</item>
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+<adlcp:location>index.xml</adlcp:location>
+</metadata>
+</organization>
+</organizations>
+<resources>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistanceSCO1" type="webcontent" adlcp:scormtype="sco" href="index.htm">
+		<file href="Module2/index.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-1" type="webcontent" adlcp:scormtype="asset" href="css/main.css">
+		<file href="css/main.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-2" type="webcontent" adlcp:scormtype="asset" href="css/print.css">
+		<file href="css/print.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-3" type="webcontent" adlcp:scormtype="asset" href="css/print_main.css">
+		<file href="css/print_main.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-4" type="webcontent" adlcp:scormtype="asset" href="css/styles.css">
+		<file href="css/styles.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-5" type="webcontent" adlcp:scormtype="asset" href="css/styles_admin.css">
+		<file href="css/styles_admin.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-6" type="webcontent" adlcp:scormtype="asset" href="css/styles_course.css">
+		<file href="css/styles_course.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-7" type="webcontent" adlcp:scormtype="asset" href="css/styles_main.css">
+		<file href="css/styles_main.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-8" type="webcontent" adlcp:scormtype="asset" href="images/btn_audio_dm.jpg">
+		<file href="images/btn_audio_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-9" type="webcontent" adlcp:scormtype="asset" href="images/btn_audio_ov.jpg">
+		<file href="images/btn_audio_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-10" type="webcontent" adlcp:scormtype="asset" href="images/btn_audio_up.jpg">
+		<file href="images/btn_audio_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-11" type="webcontent" adlcp:scormtype="asset" href="images/btn_back_dm.jpg">
+		<file href="images/btn_back_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-12" type="webcontent" adlcp:scormtype="asset" href="images/btn_back_ov.jpg">
+		<file href="images/btn_back_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-13" type="webcontent" adlcp:scormtype="asset" href="images/btn_back_up.jpg">
+		<file href="images/btn_back_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-14" type="webcontent" adlcp:scormtype="asset" href="images/btn_cc_dm.jpg">
+		<file href="images/btn_cc_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-15" type="webcontent" adlcp:scormtype="asset" href="images/btn_cc_ov.jpg">
+		<file href="images/btn_cc_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-16" type="webcontent" adlcp:scormtype="asset" href="images/btn_cc_up.jpg">
+		<file href="images/btn_cc_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-17" type="webcontent" adlcp:scormtype="asset" href="images/btn_exit_dm.jpg">
+		<file href="images/btn_exit_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-18" type="webcontent" adlcp:scormtype="asset" href="images/btn_exit_ov.jpg">
+		<file href="images/btn_exit_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-19" type="webcontent" adlcp:scormtype="asset" href="images/btn_exit_up.jpg">
+		<file href="images/btn_exit_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-20" type="webcontent" adlcp:scormtype="asset" href="images/btn_glossary_dm.jpg">
+		<file href="images/btn_glossary_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-21" type="webcontent" adlcp:scormtype="asset" href="images/btn_glossary_ov.jpg">
+		<file href="images/btn_glossary_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-22" type="webcontent" adlcp:scormtype="asset" href="images/btn_glossary_up.jpg">
+		<file href="images/btn_glossary_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-23" type="webcontent" adlcp:scormtype="asset" href="images/btn_home_dm.jpg">
+		<file href="images/btn_home_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-24" type="webcontent" adlcp:scormtype="asset" href="images/btn_home_ov.jpg">
+		<file href="images/btn_home_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-25" type="webcontent" adlcp:scormtype="asset" href="images/btn_home_up.jpg">
+		<file href="images/btn_home_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-26" type="webcontent" adlcp:scormtype="asset" href="images/btn_index_dm.jpg">
+		<file href="images/btn_index_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-27" type="webcontent" adlcp:scormtype="asset" href="images/btn_index_ov.jpg">
+		<file href="images/btn_index_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-28" type="webcontent" adlcp:scormtype="asset" href="images/btn_index_up.jpg">
+		<file href="images/btn_index_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-29" type="webcontent" adlcp:scormtype="asset" href="images/btn_next_dm.jpg">
+		<file href="images/btn_next_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-30" type="webcontent" adlcp:scormtype="asset" href="images/btn_next_ov.jpg">
+		<file href="images/btn_next_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-31" type="webcontent" adlcp:scormtype="asset" href="images/btn_next_up.jpg">
+		<file href="images/btn_next_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-32" type="webcontent" adlcp:scormtype="asset" href="images/btn_reference_dm.jpg">
+		<file href="images/btn_reference_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-33" type="webcontent" adlcp:scormtype="asset" href="images/btn_reference_ov.jpg">
+		<file href="images/btn_reference_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-34" type="webcontent" adlcp:scormtype="asset" href="images/btn_reference_up.jpg">
+		<file href="images/btn_reference_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-35" type="webcontent" adlcp:scormtype="asset" href="images/bullet_completed.gif">
+		<file href="images/bullet_completed.gif"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-36" type="webcontent" adlcp:scormtype="asset" href="images/bullet_not_started.gif">
+		<file href="images/bullet_not_started.gif"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-37" type="webcontent" adlcp:scormtype="asset" href="images/bullet_started.gif">
+		<file href="images/bullet_started.gif"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-38" type="webcontent" adlcp:scormtype="asset" href="images/FGM101_background.jpg">
+		<file href="images/FGM101_background.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-39" type="webcontent" adlcp:scormtype="asset" href="images/FGM101_header.jpg">
+		<file href="images/FGM101_header.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-40" type="webcontent" adlcp:scormtype="asset" href="images/FGM101_KC.jpg">
+		<file href="images/FGM101_KC.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-41" type="webcontent" adlcp:scormtype="asset" href="images/FGM101_nav_divider.jpg">
+		<file href="images/FGM101_nav_divider.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-42" type="webcontent" adlcp:scormtype="asset" href="images/FGM101_Objectives.jpg">
+		<file href="images/FGM101_Objectives.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-43" type="webcontent" adlcp:scormtype="asset" href="images/FGM101_PopupWindow.jpg">
+		<file href="images/FGM101_PopupWindow.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-44" type="webcontent" adlcp:scormtype="asset" href="images/header_Login_Welcome.png">
+		<file href="images/header_Login_Welcome.png"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-45" type="webcontent" adlcp:scormtype="asset" href="images/Progress_Bar.png">
+		<file href="images/Progress_Bar.png"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-46" type="webcontent" adlcp:scormtype="asset" href="images/Progress_Indicator.png">
+		<file href="images/Progress_Indicator.png"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-47" type="webcontent" adlcp:scormtype="asset" href="images/Thumbs.db">
+		<file href="images/Thumbs.db"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-48" type="webcontent" adlcp:scormtype="asset" href="images/xg.jpg">
+		<file href="images/xg.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-49" type="webcontent" adlcp:scormtype="asset" href="images/header_background/FGM101_background.jpg">
+		<file href="images/header_background/FGM101_background.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-50" type="webcontent" adlcp:scormtype="asset" href="images/header_background/FGM101_header.jpg">
+		<file href="images/header_background/FGM101_header.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-51" type="webcontent" adlcp:scormtype="asset" href="images/header_background/Thumbs.db">
+		<file href="images/header_background/Thumbs.db"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-52" type="webcontent" adlcp:scormtype="asset" href="images/navigation/FGM101_nav_divider.jpg">
+		<file href="images/navigation/FGM101_nav_divider.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-53" type="webcontent" adlcp:scormtype="asset" href="images/navigation/Thumbs.db">
+		<file href="images/navigation/Thumbs.db"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-54" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_audio_dm.jpg">
+		<file href="images/navigation/btns/btn_audio_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-55" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_audio_ov.jpg">
+		<file href="images/navigation/btns/btn_audio_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-56" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_audio_up.jpg">
+		<file href="images/navigation/btns/btn_audio_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-57" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_back_dm.jpg">
+		<file href="images/navigation/btns/btn_back_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-58" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_back_ov.jpg">
+		<file href="images/navigation/btns/btn_back_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-59" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_back_up.jpg">
+		<file href="images/navigation/btns/btn_back_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-60" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_cc_dm.jpg">
+		<file href="images/navigation/btns/btn_cc_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-61" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_cc_ov.jpg">
+		<file href="images/navigation/btns/btn_cc_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-62" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_cc_up.jpg">
+		<file href="images/navigation/btns/btn_cc_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-63" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_exit_dm.jpg">
+		<file href="images/navigation/btns/btn_exit_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-64" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_exit_ov.jpg">
+		<file href="images/navigation/btns/btn_exit_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-65" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_exit_up.jpg">
+		<file href="images/navigation/btns/btn_exit_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-66" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_glossary_dm.jpg">
+		<file href="images/navigation/btns/btn_glossary_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-67" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_glossary_ov.jpg">
+		<file href="images/navigation/btns/btn_glossary_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-68" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_glossary_up.jpg">
+		<file href="images/navigation/btns/btn_glossary_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-69" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_home_dm.jpg">
+		<file href="images/navigation/btns/btn_home_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-70" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_home_ov.jpg">
+		<file href="images/navigation/btns/btn_home_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-71" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_home_up.jpg">
+		<file href="images/navigation/btns/btn_home_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-72" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_index_dm.jpg">
+		<file href="images/navigation/btns/btn_index_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-73" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_index_ov.jpg">
+		<file href="images/navigation/btns/btn_index_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-74" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_index_up.jpg">
+		<file href="images/navigation/btns/btn_index_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-75" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_next_dm.jpg">
+		<file href="images/navigation/btns/btn_next_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-76" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_next_ov.jpg">
+		<file href="images/navigation/btns/btn_next_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-77" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_next_up.jpg">
+		<file href="images/navigation/btns/btn_next_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-78" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_reference_dm.jpg">
+		<file href="images/navigation/btns/btn_reference_dm.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-79" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_reference_ov.jpg">
+		<file href="images/navigation/btns/btn_reference_ov.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-80" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/btn_reference_up.jpg">
+		<file href="images/navigation/btns/btn_reference_up.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-81" type="webcontent" adlcp:scormtype="asset" href="images/navigation/btns/Thumbs.db">
+		<file href="images/navigation/btns/Thumbs.db"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-82" type="webcontent" adlcp:scormtype="asset" href="images/screen_info/FGM101_font_color_info.jpg">
+		<file href="images/screen_info/FGM101_font_color_info.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-83" type="webcontent" adlcp:scormtype="asset" href="images/screen_info/FGM101_placementGuide.jpg">
+		<file href="images/screen_info/FGM101_placementGuide.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-84" type="webcontent" adlcp:scormtype="asset" href="images/screen_info/pg2.jpg">
+		<file href="images/screen_info/pg2.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-85" type="webcontent" adlcp:scormtype="asset" href="images/screen_info/Thumbs.db">
+		<file href="images/screen_info/Thumbs.db"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-87" type="webcontent" adlcp:scormtype="asset" href="Module2/APIWrapper.js">
+		<file href="Module2/APIWrapper.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-88" type="webcontent" adlcp:scormtype="asset" href="Module2/APIWrapper_bd.js">
+		<file href="Module2/APIWrapper_bd.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-89" type="webcontent" adlcp:scormtype="asset" href="Module2/dtm.htm">
+		<file href="Module2/dtm.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-93" type="webcontent" adlcp:scormtype="asset" href="Module2/index.htm">
+		<file href="Module2/index.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-94" type="webcontent" adlcp:scormtype="asset" href="Module2/index.xml">
+		<file href="Module2/index.xml"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-95" type="webcontent" adlcp:scormtype="asset" href="Module2/loading-in-progress.htm">
+		<file href="Module2/loading-in-progress.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-96" type="webcontent" adlcp:scormtype="asset" href="Module2/pageNumbering.htm">
+		<file href="Module2/pageNumbering.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-97" type="webcontent" adlcp:scormtype="asset" href="Module2/audio/AS1.mp3">
+		<file href="Module2/audio/AS1.mp3"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-98" type="webcontent" adlcp:scormtype="asset" href="Module2/captions/c1.vtt">
+		<file href="Module2/captions/c1.vtt"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-99" type="webcontent" adlcp:scormtype="asset" href="Module2/captions/c1.xml">
+		<file href="Module2/captions/c1.xml"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-100" type="webcontent" adlcp:scormtype="asset" href="Module2/flash/player.swf">
+		<file href="Module2/flash/player.swf"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-101" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/00100.htm">
+		<file href="Module2/Lesson1/00100.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-102" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/00200.htm">
+		<file href="Module2/Lesson1/00200.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-103" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/00300.htm">
+		<file href="Module2/Lesson1/00300.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-104" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/00400.htm">
+		<file href="Module2/Lesson1/00400.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-105" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/00500.htm">
+		<file href="Module2/Lesson1/00500.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-106" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/00600.htm">
+		<file href="Module2/Lesson1/00600.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-107" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/00700.htm">
+		<file href="Module2/Lesson1/00700.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-108" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/00800.htm">
+		<file href="Module2/Lesson1/00800.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-109" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/00900.htm">
+		<file href="Module2/Lesson1/00900.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-110" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/01000.htm">
+		<file href="Module2/Lesson1/01000.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-111" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/01100.htm">
+		<file href="Module2/Lesson1/01100.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-112" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/images/FGM101_M2_L1_p10.jpg">
+		<file href="Module2/Lesson1/images/FGM101_M2_L1_p10.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-113" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/images/FGM101_M2_L1_p11.jpg">
+		<file href="Module2/Lesson1/images/FGM101_M2_L1_p11.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-114" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/images/FGM101_M2_L1_p12.jpg">
+		<file href="Module2/Lesson1/images/FGM101_M2_L1_p12.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-115" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/images/FGM101_M2_L1_p3.jpg">
+		<file href="Module2/Lesson1/images/FGM101_M2_L1_p3.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-116" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/images/FGM101_M2_L1_p4.jpg">
+		<file href="Module2/Lesson1/images/FGM101_M2_L1_p4.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-117" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/images/FGM101_M2_L1_p5.jpg">
+		<file href="Module2/Lesson1/images/FGM101_M2_L1_p5.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-118" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/images/FGM101_M2_L1_p7.jpg">
+		<file href="Module2/Lesson1/images/FGM101_M2_L1_p7.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-119" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/images/FGM101_M2_L1_p8.jpg">
+		<file href="Module2/Lesson1/images/FGM101_M2_L1_p8.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-120" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson1/images/FGM101_M2_L1_p9.jpg">
+		<file href="Module2/Lesson1/images/FGM101_M2_L1_p9.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-121" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/00100.htm">
+		<file href="Module2/Lesson2/00100.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-122" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/00200.htm">
+		<file href="Module2/Lesson2/00200.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-123" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/00300.htm">
+		<file href="Module2/Lesson2/00300.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-124" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/00400.htm">
+		<file href="Module2/Lesson2/00400.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-125" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/00500.htm">
+		<file href="Module2/Lesson2/00500.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-126" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/00600.htm">
+		<file href="Module2/Lesson2/00600.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-127" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/00700.htm">
+		<file href="Module2/Lesson2/00700.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-128" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/00800.htm">
+		<file href="Module2/Lesson2/00800.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-129" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/00900.htm">
+		<file href="Module2/Lesson2/00900.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-130" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/01000.htm">
+		<file href="Module2/Lesson2/01000.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-131" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/01100.htm">
+		<file href="Module2/Lesson2/01100.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-132" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/01200.htm">
+		<file href="Module2/Lesson2/01200.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-133" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/01300.htm">
+		<file href="Module2/Lesson2/01300.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-134" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/01400.htm">
+		<file href="Module2/Lesson2/01400.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-135" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_00600.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_00600.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-136" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_01200.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_01200.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-137" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p15.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p15.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-138" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p16.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p16.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-139" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p17.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p17.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-140" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p18.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p18.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-141" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p19.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p19.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-142" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p20.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p20.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-143" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p21.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p21.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-144" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p22.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p22.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-145" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p23.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p23.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-146" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p25.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p25.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-147" type="webcontent" adlcp:scormtype="asset" href="Module2/Lesson2/images/FGM101_M2_L2_p26.jpg">
+		<file href="Module2/Lesson2/images/FGM101_M2_L2_p26.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-148" type="webcontent" adlcp:scormtype="asset" href="Module2/Menu/00000.htm">
+		<file href="Module2/Menu/00000.htm"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-149" type="webcontent" adlcp:scormtype="asset" href="script/jwplayer.js">
+		<file href="script/jwplayer.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-150" type="webcontent" adlcp:scormtype="asset" href="script/main.js">
+		<file href="script/main.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-151" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/.gitattributes">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/.gitattributes"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-152" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/.gitignore">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/.gitignore"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-153" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/bower.json">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/bower.json"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-154" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/composer.json">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/composer.json"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-155" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/Gruntfile.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/Gruntfile.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-156" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/package.json">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/package.json"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-157" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/readme.md">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/readme.md"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-158" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/dist/html5shiv.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/dist/html5shiv.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-159" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/dist/html5shiv.min.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/dist/html5shiv.min.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-160" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/dist/html5shiv-printshiv.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/dist/html5shiv-printshiv.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-161" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/dist/html5shiv-printshiv.min.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/dist/html5shiv-printshiv.min.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-162" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/src/html5shiv.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/src/html5shiv.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-163" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/src/html5shiv-printshiv.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/src/html5shiv-printshiv.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-164" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/html5shiv.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/html5shiv.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-165" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/iframe.1.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/iframe.1.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-166" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/iframe.1-1.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/iframe.1-1.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-167" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/iframe.1-2.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/iframe.1-2.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-168" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/index.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/index.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-169" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/mixed-test.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/mixed-test.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-170" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/object-test.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/object-test.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-171" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/perf.1.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/perf.1.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-172" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/perf.2.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/perf.2.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-173" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/style.all.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/style.all.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-174" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/style.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/style.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-175" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/style.print.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/style.print.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-176" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/body-crash.jpg">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/body-crash.jpg"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-177" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/iframed-tests.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/iframed-tests.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-178" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/inline-mixed-media.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/inline-mixed-media.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-179" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/inline-print-media.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/inline-print-media.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-180" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/no-print.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/no-print.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-181" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/paramtracer.swf">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/paramtracer.swf"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-182" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/print.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/print.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-183" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/print-styles.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/print-styles.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-184" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/screen.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/data/screen.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-185" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/highcharts/area-basic.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/highcharts/area-basic.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-186" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/highcharts/highcharts.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/highcharts/highcharts.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-187" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/index.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/index.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-188" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/dashboard.xml">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/dashboard.xml"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-189" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/iframe.html">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/iframe.html"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-190" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/test.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/test.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-191" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/testinit.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/testinit.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-192" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/testrunner.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/testrunner.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-193" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/testsuite.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/testsuite.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-194" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/versioncheck.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/data/versioncheck.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-195" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/unit/core.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/unit/core.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-196" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/unit/manipulation.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/unit/manipulation.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-197" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/unit/traversing.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/jquery-1.7.1/unit/traversing.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-198" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/qunit/qunit.css">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/qunit/qunit.css"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-199" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/qunit/qunit.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/qunit/qunit.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-200" type="webcontent" adlcp:scormtype="asset" href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/unit/tests.js">
+		<file href="script/aFarkas-html5shiv-3.7.2-0-g40df868/aFarkas-html5shiv-40df868/test/unit/tests.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-201" type="webcontent" adlcp:scormtype="asset" href="script/html5shiv/html5shiv.js">
+		<file href="script/html5shiv/html5shiv.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-202" type="webcontent" adlcp:scormtype="asset" href="script/html5shiv/html5shiv.min.js">
+		<file href="script/html5shiv/html5shiv.min.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-203" type="webcontent" adlcp:scormtype="asset" href="script/html5shiv/html5shiv-printshiv.js">
+		<file href="script/html5shiv/html5shiv-printshiv.js"/>
+	</resource>
+	<resource identifier="RES-Grants101Module2:FederalFinancialAssistance-204" type="webcontent" adlcp:scormtype="asset" href="script/html5shiv/html5shiv-printshiv.min.js">
+		<file href="script/html5shiv/html5shiv-printshiv.min.js"/>
+	</resource>
+</resources>
+</manifest>

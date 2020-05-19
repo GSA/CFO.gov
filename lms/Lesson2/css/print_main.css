@@ -1,0 +1,41 @@
+body 
+{
+}
+
+#OPMHeader 
+{
+}
+
+
+#opmprintheaderdiv h1 {
+	display: none;
+}
+
+#OPMHeader h1 {
+	font-size: 100%;
+}
+
+#OPMHeader #tagline {
+	font-size: 95%;
+	display: block;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 110%;
+}
+
+.searchbox_mainv3, .topnav_mainv3 {
+	display: none;
+}
+
+a.skipnav {
+	display : none;
+}
+
+.marker_v3 {
+	display: none;
+}
