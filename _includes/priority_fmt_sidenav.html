@@ -8,7 +8,7 @@
 
     </ul>
     <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
-        {% assign sorted = (site.fmt | where: 'has_date', 'yes' | where: 'type', 'fmt' | sort: 'date') | reverse %}
+        {% assign sorted = (site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'fmt' | sort: 'date') | reverse %}
         {% for item in sorted limit:3 %}
         <div class="border-top border-gray-30">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
@@ -28,7 +28,7 @@
     </div>
     <div id="tabs-2" class="grid-col-9 padding-4">
         <h2>Goal Statements</h2>
-        <ul>
+        <ul class="usa-list">
             <li>Modernize the production of financial information to efficiently and effectively manage operations of the federal government and provide accountability to taxpayers.</li>
             <li>Provide opportunities for federal agencies to consolidate financial management requirements to develop and implement standardized solutions.</li>
             <li>Align with the government-wide human capital strategy to recruit, develop, empower, and retain the financial management workforce for the 21st Century.</li>
@@ -36,14 +36,14 @@
             </li>
         </ul>
         <h2>Challenges</h2>
-        <ul>
+        <ul class="usa-list">
             <li>Over time, agencies have implemented financial management processes that are incompatible, operating in silos, highly tailored to their specific needs, and unable to share or compare information.</li>
             <li>Financial management modernization efforts present unique human capital challenges encompassing a wide range of job classifications, technical skills, and geographic needs.</li>
             <li>Resistance to change held by financial management policy and oversight communities have resulted in capability gaps,  fragmentation, and duplication.</li>
             <li>Agencies are in various phases of the systems lifecycle, standards adoption, and implementation.</li>
         </ul>
         <h2>Opportunities</h2>
-        <ul>
+        <ul class="usa-list">
             <li>Leverage investments and lessons learned from the past to inform the path towards financial management modernization.</li>
             <li>Improve on existing resources, tools, and best practices to optimize financial management processes to drive better outcomes.</li>
             <li>Connect talented candidates to address critical financial management needs, build institutional knowledge, and ensure successful succession planning.</li>
@@ -55,7 +55,7 @@
     </div>
     <div id="tabs-4" class="grid-col-9 padding-4">
         <p>The Executive Steering Committee membership for the Fiscal Management Transformation Priority Area includes:
-            <ul>
+            <ul class="usa-list">
                 <li>Office of Management & Budget</li>
                 <li>Department of Treasury</li>
                 <li>Department of Commerce</li>
