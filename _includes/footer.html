@@ -1,37 +1,68 @@
-<div class="grid-container padding-3">
-    <a href="javascript:topFunction();" id="backtotop" class="margin-1em font-sans-md text-underline" >Return to Top</a>
-</div>
-<footer class="usa-footer site-footer" role="contentinfo">
-    <div class="footer-section-bottom bg-base-lighter">
+<footer class="usa-footer">
+    <div class="grid-container usa-footer__return-to-top">
+        <a href="#">Return to top</a>
+    </div>
+
+    <div class="usa-footer__secondary-section">
+
+        {% if include.page_type != 'payment-accuracy' %}
         <div class="grid-container">
-
-
-            <div class="usa-graphic-list__row grid-row grid-gap padding-3 ">
-
-                <div class="tablet:grid-col">
-                    <div class="footer-logo logo-links">
-                        <img  class="usa-media_block-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" width="90" alt="GSA Logo"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <img  class="usa-media_block-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" width="90" alt="Executive Office of the President logo"/>
-                        <h2 class="usa-footer-logo-heading" style="line-height: 120%">{{ site.footer.contact.text }}</h2>
+            <div class="grid-row grid-gap">
+                <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                    <div class="mobile-lg:grid-col-auto">
+                        <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" alt="">
+                        <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" alt="">
+                    </div>
+                    <div class="mobile-lg:grid-col-auto">
+                        <h3 class="usa-footer-logo-heading">General Services Administration & the Office of Management and Budget</h3>
                     </div>
                 </div>
+                <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+                    <h3 class="usa-footer__contact-heading">Contact Us</h3>
+                    <address class="usa-footer__address">
+                        <div class="usa-footer__contact-info grid-row grid-gap">
+                            <div class="grid-col-auto">
+                                <p>
+                                {% if include.page_type == 'frpc' %}
+                                {{ site.footer.contact.frpc-email }}
+                                {% else %}
+                                {{ site.footer.contact.email }}
+                                {% endif %}
+                                </p>
+                            </div>
+                        </div>
+                    </address>
+                </div>
+            </div>
+        </div>
 
+        {% else %}
+
+        <div class="footer-section-bottom bg-base-lighter">
+            <div class="grid-container">
                 <div class="usa-graphic-list__row grid-row grid-gap padding-3 ">
-                    <div class="usa-footer-contact-links usa-width-one-half">
 
-                        <address>
-                            {% if site.footer.contact.name %}
-                            <h2 class="usa-footer-contact-heading" style="text-align: right">{{ site.footer.contact.name }}</h2>
-                            {% endif %}
-                            <p> &nbsp;&nbsp;&nbsp; {{ site.footer.contact.email }}</p>
-                        </address>
+                    <div class="col-md-4">
+                        <div id="text-3" class="widget widget_text">
+                            <div class="textwidget"><p><a href="https://www.usaspending.gov/#/about/accessibility">Accessibility</a> | <a href="https://paymentaccuracy.gov/plugins-and-viewers/">Plugins &amp; Viewers</a> |<a href="https://www.usaspending.gov/#/about/privacy"> Privacy Policy</a></p>
+                            </div>
+                        </div>
+                        <div id="text-4" class="widget widget_text">
+                            <div class="textwidget">
+                                <p><a href="http://www.performance.gov">Performance.gov</a> | <a href="https://www.whitehouse.gov/">Whitehouse.gov</a> | <a href="https://www.usa.gov/">USA.gov</a> | <a href="https://www.usaspending.gov/#/">USAspending.gov</a> | <a href="https://fiscal.treasury.gov/DNP/">Fiscal.Treasury.gov&nbsp;</a></p>
+                            </div>
+                        </div>
+                        <div id="text-6" class="widget widget_text">
+                            <div class="textwidget">
+                                <p><a href="https://www.gao.gov/about/what-gao-does/fraudnet/">Report Fraud, Waste and Abuse</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        {% endif %}
+
     </div>
+
 </footer>
-
-
-
-
