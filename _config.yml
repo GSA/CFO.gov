@@ -136,27 +136,11 @@ collections:
   pages:
     output: true
     permalink: /:path/
-  fdt:
-    output: true
-  fmt:
-    output: true
-  grants:
-    output: true
-  erm:
-    output: true
-  gpr:
-    output: true
   members:
     output: true
   controlleralerts:
     output: true
-  knowledge_sharing:
-    output: true
   policies_guidance:
-    output: true
-  my_career:
-    output: true
-  cxo:
     output: true
 
 permalink: pretty
