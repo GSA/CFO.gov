@@ -9,9 +9,9 @@
                 <div class="text-container">
                     <p style="height: 70px;" class="title-resources">
                         {% if grant.permalink %}
-                        <a title="policy or priority title" class="no-style" href="../..{{ grant.permalink }}">{{ grant.subtitle }}</a>
+                        <a class="no-style" href="../..{{ grant.permalink }}">{{ grant.subtitle }}</a>
                         {% else %}
-                        <a title="policy or priority title" class="no-style" href="../{{ grant.doc-link }}">{{ grant.subtitle }}</a>
+                        <a class="no-style" href="../{{ grant.doc-link }}">{{ grant.subtitle }}</a>
                         {% endif %}
                     </p>
                     {% for filter in filters %}
