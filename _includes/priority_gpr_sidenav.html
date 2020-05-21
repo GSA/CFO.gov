@@ -8,7 +8,7 @@
 
     </ul>
     <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
-        {% assign sorted = (site.gpr | where: 'has_date', 'yes' | sort: 'date') | reverse %}
+        {% assign sorted = (site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'gpr' |sort: 'date') | reverse %}
         {% for item in sorted limit:3 %}
         <div class="border-top border-gray-30">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
@@ -35,9 +35,12 @@
             While improper payments may compromise citizens' trust in government, they are not always indicative of fraud, nor do they necessarily represent payments that should not have been made. Having the right information and the capacity to address root causes are critical components.
 
            <h2>Opportunity</h2>
+        <p>
         The Payment Integrity Priority Area works to improve the efficiencies of government programs by focusing on getting government payments right the first time they are made and reducing the cost associated with an incorrect payment.
-
+        </p>
+        <p>
             Additionally, this Priority Area builds trust in government by better understanding the nature of improper payments and their relationship to payment integrity.
+        </p>
         </p>
     </div>
     <div id="tabs-3" class="grid-col-9 padding-4">
@@ -46,7 +49,7 @@
     </div>
     <div id="tabs-4" class="grid-col-9 padding-4">
         The Executive Steering Committee membership for the Payment Integrity Priority Area includes:
-        <ul>
+        <ul class="usa-list">
             <li>Office of Management and Budget (OMB)</li>
             <li>Department of Labor (DoL)</li>
             <li>Department of Treasury</li>

@@ -3,7 +3,7 @@ layout: knowledge-sharing-landing
 title: Enterprise Risk Management
 subtitle: Enterprise Risk Management
 permalink: /knowledge-sharing/enterprise-risk-management/
-type: ERM
+type: erm
 filler:  As federal entities continue to focus on enterprise solutions to manage risks that impact strategic 
 filters: erm best-practice-guidance
 ---

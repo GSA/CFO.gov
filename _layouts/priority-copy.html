@@ -1,0 +1,90 @@
+---
+
+layout: default
+title: Priority
+
+---
+
+<section class="usa-hero grid-container {{ page.type }}-page">
+    <div class="grid-row grid-gap">
+        <div class="grid-col-auto grid-offset-1">
+            <img class="circle-card float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.png" alt="{{ page.type }}" />
+        </div>
+        <div class="grid-col-8">
+            <div class="priority-tag-line"><h1 class="margin-0 font-ui-2xl text-normal">{{ page.title }}</h1></div>
+            <div><p class="margin-0 font-sans-md">{{ page.description }}</p></div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="usa-graphic_list usa-section usa-prose clearfix">
+
+    <div class="grid-row clearfix grid-container priority-icons">
+        {% if page.number_of_icons == 4 %}
+            {% for icon in page.priority_icons %}
+                <div class="tablet:grid-col-3 text-center margin-y-10">
+                    {% if icon.url %}
+                        <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline">
+                    {% else %}
+                        <a href="{{ icon.link }}" class="text-no-underline">
+                    {% endif %}
+                    <img class="circle-image" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }}" />
+                    <h2 class="text-gray-70 text-normal section_font">{{ icon.name }}</h2></a>
+                </div>
+            {% endfor %}
+        {% endif %}
+
+        {% if page.number_of_icons == 3 %}
+        {% for icon in page.priority_icons %}
+        <div class="grid-col-4 text-center margin-y-10">
+            {% if icon.url %}
+            <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline">
+                {% else %}
+                <a href="{{ icon.link }}" class="text-no-underline">
+                    {% endif %}
+                    <img class="circle-image" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }}" />
+                    <h2 class="text-gray-70 text-normal section_font">{{ icon.name }}</h2></a>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<div class="grid-container grid-gap">{{ content }}</div>
+
+
+<section class="grid-container grid-gap usa-graphic_list clearfix tabSection">
+
+    {% if page.type == "fdt" %}
+    {% include priority_fdt_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "fmt" %}
+    {% include priority_fmt_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "grant" %}
+    {% include priority_grants_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "erm" %}
+    {% include priority_erm_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "gpr" %}
+    {% include priority_gpr_sidenav.html %}
+    {% endif %}
+
+
+</section>

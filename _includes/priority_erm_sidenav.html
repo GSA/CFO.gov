@@ -8,7 +8,7 @@
 
     </ul>
     <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
-        {% assign sorted = (site.erm | where: 'has_date', 'yes' | sort: 'date') | reverse %}
+        {% assign sorted = (site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'erm' | sort: 'date') | reverse %}
         {% for item in sorted limit:3 %}
         <div class="border-top border-gray-30">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
@@ -52,7 +52,7 @@
     </div>
     <div id="tabs-4" class="grid-col-9 padding-4">
         The Executive Steering Committee membership for the Enterprise Risk Management Priority Area includes:
-        <ul>
+        <ul class="usa-list">
             <li>Office of Management & Budget</li>
             <li>Department of Defense</li>
             <li>Health and Human Services</li>
