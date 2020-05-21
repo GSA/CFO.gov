@@ -10,6 +10,7 @@ author: CFO Council
 date: January 02, 2013
 has_date: 'yes'
 uniform_guidance: 'yes'
+training: 'yes'
 ---
 
 {% include youtube_embed.html id="dlZfb9ALBck" %}  

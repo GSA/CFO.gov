@@ -4,7 +4,6 @@
         {% assign sorted = (site.policies_guidance | where: 'uniform_guidance', 'yes') %}
         {% for grant in sorted %}
         {% assign filters = grant.filters | split: ' ' %}
-        {% if grant.layout == "knowledge-sharing-landing" and grant.type == "Grant" and grant.filters contains 'financial-assistance' and grant.filters contains 'best-practice-guidance' %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ grant.filters }}">
             <div class="border-top-05 border-accent-warm bg-white padding-3 shadow-5 height-full members-hover ">
                 <div class="text-container">
@@ -33,7 +32,6 @@
                 </div>
             </div>
         </div>
-        {% endif %}
         {% endfor %}
     </div>
 </div>

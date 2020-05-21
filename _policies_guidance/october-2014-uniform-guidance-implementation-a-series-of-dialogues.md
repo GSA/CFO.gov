@@ -9,6 +9,7 @@ has_date: 'yes'
 author: CFO Council 
 filters: financial-assistance best-practice-guidance
 uniform_guidance: 'yes'
+training: 'yes'
 ---
 
 ## OPENING REMARKS
