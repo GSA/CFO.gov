@@ -35,7 +35,7 @@ PROMISING PRACTICES IN IMPLEMENTATION: RISK ASSESSMENT (PANEL 1)
 
 **Resources:**
 
-EDUC Entity Risk Report Example: [http://go.usa.gov/x34pk](https://cfo.gov/wp-content/uploads/2016/06/Panel1_EDUC-Entity-Risk-Report-Example.pdf)
+EDUC Entity Risk Report Example: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel1_EDUC-Entity-Risk-Report-Example.pdf">http://go.usa.gov/x34pk</a>
 
 DHS Vulnerability Risk Assessment: [http://go.usa.gov/x34dW](http://go.usa.gov/x34dW)
 
@@ -62,7 +62,7 @@ DHS FAPO Risk Assessment Tool Chart: [http://go.usa.gov/x34dF](http://go.usa.gov
 
 **Resources:**
 
-AGA Contractor vs. Subrecipient Checklist: [http://go.usa.gov/x34mJ](https://cfo.gov/wp-content/uploads/2016/06/Panel3_AGA-contractor-v-subrecipient_checklist100315.pdf)
+AGA Contractor vs. Subrecipient Checklist: <a href="/wp-content/uploads/2016/06/Panel3_AGA-contractor-v-subrecipient_checklist100315.pdf">http://go.usa.gov/x34mJ</a>
 
 **PROMISING PRACTICES IN IMPLEMENTATION: PERSONNEL SERVICES (PANEL 4)**
 * Laura Rainey, Director (Acting), Financial & IT Audits, Office of Inspector General, National Science Foundation
@@ -96,9 +96,9 @@ Payroll Certification at Michigan Technological University [http://go.usa.gov/x3
 
 **Resources:**
 
-CAROI Playbook: [http://go.usa.gov/x34cB](https://cfo.gov/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf)
+CAROI Playbook: <a href="/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf">http://go.usa.gov/x34cB</a> 
 
-AGA CAROI Guide: [http://go.usa.gov/x34cY](https://cfo.gov/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf)
+AGA CAROI Guide: <a href="/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf">http://go.usa.gov/x34cB</a>
 
 AGA Tools: [http://www.agacgfm.org/tools](https://www.agacgfm.org/tools)
 

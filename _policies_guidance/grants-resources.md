@@ -22,7 +22,7 @@ filters: financial-assistance helpful-link
 
 **Related Links**
 
-* [Financial Assistance Career Roadmap Report](https://cfo.gov/wp-content/uploads/2017/08/CFOC_FAM-Career-Roadmap-Report_Final.pdf)
+* <a href="{{site.baseurl}}/wp-content/uploads/2017/08/CFOC_FAM-Career-Roadmap-Report_Final.pdf">Financial Assistance Career Roadmap Report</a>
 * [OMB Blog](https://www.whitehouse.gov/omb/)
 * To apply for a Federal Grant please visit: [Grants.gov](https://www.grants.gov/) to find opportunities and [SAM.gov](https://www.sam.gov/SAM/) to register prior to applying.
 * To see how the Federal government spends its money, and who receives financial assistance please visit [USASpending.gov](https://www.usaspending.gov/#/).
