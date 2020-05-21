@@ -1,7 +1,8 @@
 <div class="usa-media-block tablet:grid-col-12">
     <p class="card-tag margin-top-0 text-gray-50 text-thin"> The Latest: </p>
     <div class="knowledge-sharing" >
-        {% for grant in site.policies_guidance %}
+        {% assign sorted = (site.policies_guidance | where: 'uniform_guidance', 'yes') %}
+        {% for grant in sorted %}
         {% assign filters = grant.filters | split: ' ' %}
         {% if grant.layout == "knowledge-sharing-landing" and grant.type == "Grant" and grant.filters contains 'financial-assistance' and grant.filters contains 'best-practice-guidance' %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ grant.filters }}">

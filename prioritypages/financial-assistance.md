@@ -10,7 +10,7 @@ priority_icons:
    url: /coming-soon/
  - name: Guidance, Policies and Resources
    logo: /assets/images/logos/asset 9.png
-   url: /policies-and-guidance/#priority_area=.grants&type=*
+   url: /policies-and-guidance/#priority_area=.financial-assistance&type=*
  - name: Grants Training Module
    logo: /assets/images/logos/asset 11.png
    url: /grants-training/

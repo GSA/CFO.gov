@@ -8,6 +8,7 @@ date: October 24, 2014
 has_date: 'yes'
 author: CFO Council 
 filters: financial-assistance best-practice-guidance
+uniform_guidance: 'yes'
 ---
 
 ## OPENING REMARKS

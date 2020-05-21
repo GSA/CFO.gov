@@ -9,6 +9,7 @@ date: July 07, 2015
 has_date: 'yes'
 author: CFO Council 
 filters: financial-assistance best-practice-guidance
+uniform_guidance: 'yes'
 ---
 
 
