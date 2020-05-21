@@ -298,3 +298,10 @@
   text-decoration: none;
   color: #1b1b1b
 }
+
+.backgroundCover{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
