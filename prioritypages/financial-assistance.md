@@ -2,7 +2,7 @@
 layout: priority-copy
 title: Financial Assistance
 permalink: /financial-assistance/
-type: grant
+type: financial-assistance
 number_of_icons: 4
 priority_icons: 
  - name: Initiatives

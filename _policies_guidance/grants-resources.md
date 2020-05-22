@@ -3,8 +3,8 @@ layout: knowledge-sharing-landing
 title: GRANTS RESOURCES
 subtitle: Grants Resources
 permalink: /knowledge-sharing/grants-resources/
-type: Grant
-filler: Grants Resources What was the Council on Financial Assistance Reform?  OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying, rescinded the COFAR. The group's policy priorities will now be considered part of the President's Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific . Continued
+type: financial-assistance
+filler: Grants Resources What was the Council on Financial Assistance Reform?  OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying, rescinded the COFAR. The group's policy priorities will now be considered part of the President's Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific. Continued
 filters: financial-assistance helpful-link
 ---
 
@@ -17,7 +17,7 @@ filters: financial-assistance helpful-link
 
 * [OMB Memorandum M-12-01 Establishing the COFAR](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2012/m-12-01.pdf)
 * [Effective Management of Federal Grant Dollars: Council on Financial Assistance Reform (COFAR) Priorities for FY12-15(PDF)]({{ site.baseurl }} /wp-content/uploads/2013/12/2013-12-04-COFAR-Priorities-for-Principals.pdf)
-* [CONTROLLER ALERT: Reducing Burden for Federal Agencies by Rescinding Grants Management Related Requirements]({{ site.baseurl }} /policies/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/)
+* [CONTROLLER ALERT: Reducing Burden for Federal Agencies by Rescinding Grants Management Related Requirements]({{ site.baseurl }}/policies/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/)
 
 
 **Related Links**
