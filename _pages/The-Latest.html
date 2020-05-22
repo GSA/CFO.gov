@@ -2,6 +2,7 @@
 layout: default
 permalink: /the-latest/
 title: The Latest from Priority Areas
+description: This page shows the latest updates from all priority areas.
 ---
 
 {% comment %}
@@ -9,17 +10,25 @@ This template is for a single policy landing page.
 {% endcomment %}
 
 
+<section class="usa-graphic_list usa-prose usa-hero tablet:grid-container about clearfix ">
+    <div class="grid-row grid-gap ">
 
+        <div class="grid-col-10 grid-offset-1">
+            <div class="priority-tag-line"><h1 class="margin-0 font-ui-2xl">{{ page.title }}</h1></div><br>
+            <div><p class="margin-0 font-sans-md">{{ page.description }}</p></div>
+        </div>
+    </div>
+
+</section>
 
 <div class="usa-layout-docs__main tablet:grid-col-12">
     <div class="grid-container font-sans-sm">
         <div class="grid-row grid-gap">
             <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
-                <h1 class="column-centered-heading">{{page.title}}</h1>
 
                 {% assign sorted = site.policies_guidance | where: 'has_date', 'yes'| sort: 'date' | reverse %}
-                {% for post in sorted limit:20 %}
-                    {% if post.type == 'Grant' or post.type == 'erm' or post.type == 'fdt' or post.type == 'fmt' or post.type == 'gpr' %}
+                {% for post in sorted limit:30 %}
+                    {% if post.coming_soon != 'yes' and post.type == 'Grant' or post.type == 'erm' or post.type == 'fdt' or post.type == 'fmt' or post.type == 'payment-integrity' %}
 
                         <div class="padding-bottom-4 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
                     <h3 class="title">{{post.title}}</h3>

@@ -2,7 +2,7 @@
 layout: priority-copy
 title: Payment Integrity
 permalink: /payment-integrity/
-type: gpr
+type: payment-integrity
 number_of_icons: 4
 priority_icons: 
  - name: Initiatives
@@ -12,7 +12,7 @@ priority_icons:
    logo: /assets/images/logos/asset 9.png
    url: /policies-and-guidance/#priority_area=.payment-integrity&type=*
  - name: PaymentAccuracy.gov
-   logo: /assets/images/logos/gpr.png
+   logo: /assets/images/logos/payment-integrity.png
    url: /payment-accuracy/
  - name: OMB MAX
    logo: /assets/images/logos/asset 10.png
