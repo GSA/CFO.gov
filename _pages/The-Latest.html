@@ -28,7 +28,7 @@ This template is for a single policy landing page.
 
                 {% assign sorted = site.policies_guidance | where: 'has_date', 'yes'| sort: 'date' | reverse %}
                 {% for post in sorted limit:30 %}
-                    {% if post.coming_soon != 'yes' and post.type == 'Grant' or post.type == 'erm' or post.type == 'fdt' or post.type == 'fmt' or post.type == 'payment-integrity' %}
+                    {% if post.coming_soon != 'yes' and post.type == 'financial-assistance' or post.type == 'erm' or post.type == 'fdt' or post.type == 'fmt' or post.type == 'payment-integrity' %}
 
                         <div class="padding-bottom-4 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
                     <h3 class="title">{{post.title}}</h3>

@@ -4,7 +4,7 @@ title: October 2014&#58; Uniform Guidance Implementation&#58; a Series of Dialog
 subtitle: Uniform Guidance Implementation a Series of Dialogues
 filler: Video content. 
 permalink: /knowledge-sharing/october-2014-uniform-guidance-implementation-a-series-of-dialogues/
-type: Grant
+type: financial-assistance
 date: October 24, 2014
 has_date: 'yes'
 author: CFO Council 
