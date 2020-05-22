@@ -1,7 +1,8 @@
 ---
 layout: knowledge-sharing-landing
-title: December 2013&#58; Introducing the Uniform Guidance&#58; Improving Outtcomes by Reducing Red Tape for Financial Assistance
+title: December 2013&#58; Introducing the Uniform Guidance&#58; Improving Outcomes by Reducing Red Tape for Financial Assistance
 subtitle: Introducing the Uniform Guidance&#58; Improving Outcomes by Reducing Red Tape for Financial Assistance
+filler: Video content.
 permalink: /knowledge-sharing/december-2013-introducing-the-uniform-guidance-improving-outcomes-by-reducing-red-tape-for-financial-assistance/
 type: Grant
 filler:  

@@ -2,6 +2,7 @@
 layout: knowledge-sharing-landing
 title: 2 C.F.R 200&#58; UNIFORM GUIDANCE
 subtitle: 2 C.F.R 200&#58; Uniform Guidance
+filler: OMB together with Federal awarding agencies is issuing a joint interim final rule to implement the new guidance at 2 C.F.R. 200 titled Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards (Uniform Guidance).
 permalink: /knowledge-sharing/2-c-f-r-200-uniform-guidance/
 type: Grant
 date: December 01, 2014
