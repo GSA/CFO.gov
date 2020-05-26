@@ -16,7 +16,6 @@ filters: financial-assistance helpful-link
 **Background**
 
 * [OMB Memorandum M-12-01 Establishing the COFAR](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2012/m-12-01.pdf)
-* [Effective Management of Federal Grant Dollars: Council on Financial Assistance Reform (COFAR) Priorities for FY12-15(PDF)]({{ site.baseurl }} /wp-content/uploads/2013/12/2013-12-04-COFAR-Priorities-for-Principals.pdf)
 * [CONTROLLER ALERT: Reducing Burden for Federal Agencies by Rescinding Grants Management Related Requirements]({{ site.baseurl }}/policies/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/)
 
 
