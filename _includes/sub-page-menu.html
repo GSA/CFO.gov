@@ -53,7 +53,7 @@ where we provide an easy way to manage your navigation system
         <div class="usa-nav__inner">
             <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
             {% if include.page_type == 'payment-accuracy' %}
-            <ul class="usa-nav__primary usa-accordion" hidden="">
+            <ul class="usa-nav__primary usa-accordion" >
                 {% for nav_item in include.primary_navigation %}
                 {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
                 {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
@@ -65,7 +65,7 @@ where we provide an easy way to manage your navigation system
             </ul>
             {% endif %}
             <div class="usa-nav__secondary secondary-nav-padding">
-                <ul class="usa-nav__secondary-links">
+                <ul class="usa-nav__secondary-links" hidden="">
                     {% for nav_item in include.secondary_navigation %}
                     <li class="usa-nav__secondary-item">
                         <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>

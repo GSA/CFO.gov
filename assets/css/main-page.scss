@@ -83,7 +83,8 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
 .priority-tag-line{
-  padding-top: .5em;
+  /*padding-top: .5em;*/
+
 }
 
 .cxo{
@@ -265,14 +266,14 @@ color:#005ea2;
 .slick-dots
 {
   position: absolute;
-  bottom: 9px;
+  bottom: 15px;
   display: block;
   width: 100%;
   padding: 0;
   margin: 0;
   list-style: none;
   text-align: right;
-  right:5px;
+  right:15px;
 }
 .bottom .slick-dots{
   text-align: center;
@@ -294,10 +295,10 @@ color:#005ea2;
 .slick-dots li.slick-active button:before {
   color: #FB5A47;
 }
-/*
+
 .bg-red{
   background-color: #FB5A47;
-}*/
+}
 
 
 .connectToCFO{
