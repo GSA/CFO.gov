@@ -2,9 +2,8 @@
        <div class="grid-row ">
         {% for bio in site.members limit:4 %}
             <div class="tablet:grid-col-3 padding-1">
+                <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black;text-decoration: none">
                 <div class="bg-white padding-3 border-bottom-05 border-accent-warm shadow-5 height-full members-hover">
-                    <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black;text-decoration: none">
-
                     <img class="circle-10" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text}}">
                 {% assign member_name = bio.name | split: ' ' %}
 
@@ -17,9 +16,13 @@
                     {% assign member_department = bio.department | split: ' ' %}
 
                     {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
-
-                    <p class="text-leader">{{ titlecase }}, {{ deptcase }}</p></a>
+                    {% if bio.special_title != 'yes' %}
+                    <p class="text-leader">{{ titlecase | strip }}, {{ deptcase }}</p>
+                    {% else %}
+                    <p class="text-leader">{{ bio.title }}, {{ bio.department }}</p>
+                    {% endif %}
                 </div>
+                </a>
 
             </div>
            {% endfor %}

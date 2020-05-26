@@ -4,8 +4,9 @@ bio-image-alt-text: MIKE WETKLOW
 layout: bio
 permalink: /bio/mr-mike-wetklow/
 name : MR. MIKE WETKLOW
-department: NATIONAL SCIENCE FOUNDATION
-title: DEPUTY CHIEF FINANCIAL OFFICER & DIRECTOR OF THE DIVISION OF FINANCIAL MANAGEMENT (DFM)
+department: National Science Foundation
+title: Deputy Chief Financial Officer & Director of the Division of Financial Management(DFM)
+special_title: 'yes'
 ---
    Mike Wetklow is the National Science Foundation's (NSF) Deputy Chief Financial Officer and Division Director for Financial Management. At NSF Mike supports the Chief Financial Officer (CFO) in executing responsibilities of the CFO Act, serving as NSF's top financial management official, responsible for financial reporting, risk management, financial systems, and maintaining the control and disbursement of over $7 billion of Federal funds. Currently focused on modernizing accounting functions to include robotic processing automation, cyber security, data analytics, enterprise risk management and exploring block chain.
              

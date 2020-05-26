@@ -4,8 +4,9 @@ bio-image-alt-text: REGINALD MITCHELL
 layout: bio
 permalink: /bio/mr-reginald-mitchell/
 name : MR. REGINALD MITCHELL
-department: US AGENCY FOR INTERNATIONAL DEVELOPMENT
-title: CHIEF FINANCIAL OFFICER
+department: US Agency for International Development
+title: Chief Financial Officer
+special_title: 'yes'
 ---
    Reginald W. Mitchell is the U.S. Agency for International Development (USAID) Chief Financial Officer (CFO) responsible for the oversight of the accounting and financial reporting functions of the agency. This includes the oversight and development of USAID worldwide financial management policies, program, and systems in support of the agency's development activities. Mr. Mitchell provides financial management leadership by establishing clear set of policies and procedures to ensure the financial integrity of the agency's programs. In carrying out his fiduciary duties as CFO, Mr. Mitchell directs the daily operations of the CFO organization and provides technical financial leadership for USAID's worldwide controller network and for Washington operating units in executing the agency's approximately 9,000 FTE and $25 billion dollar financial portfolio.
              

@@ -4,8 +4,9 @@ bio-image-alt-text: ANDREA BRANDON
 layout: bio
 permalink: /bio/ms-andrea-brandon/
 name : MS. ANDREA BRANDON
-department: U.S. DEPARTMENT OF THE INTERIOR
-title: DEPUTY ASSISTANT SECRETARY FOR BUDGET, FINANCE, GRANTS AND ACQUISITION
+department: U.S. Department of Interior
+title: Deputy Assistant Secretary for Budget, Grants and Acquisition
+special_title: 'yes'
 ---
 
 Ms. Andrea Brandon is currently the Deputy Assistant Secretary (DAS) for Budget, Finance, Grants and Acquisition within the Department of Interior (DOI). As the DAS she has executive responsibility for the leadership and strategic direction of all budget, finance, financial assistance, acquisitions, property, and related business IT systems for the DOI. This portfolio comprises of more than $5.3 Billion in financial assistance and contract awards across the United States. She was formerly the DAS for the Office of Grants and Acquisition Policy and Accountability (OGAPA), the Senior Procurement Executive, and the Suspension and Debarment Official for the Department of Health and Human Services. In addition, she was the Director for Financial Assistance Policy and Oversight at the Department of Homeland Security (DHS); and an Executive Assistant Director for the USDA National Institute of Food and Agriculture.
