@@ -17,9 +17,11 @@
 
                     {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
                     {% if bio.special_title != 'yes' %}
-                    <p class="text-leader">{{ titlecase | strip }}, {{ deptcase }}</p>
+                    <p class="text-leader">{{ deptcase }}</p>
+                    <p class="text-leader">{{ titlecase | strip }}</p>
                     {% else %}
-                    <p class="text-leader">{{ bio.title }}, {{ bio.department }}</p>
+                    <p class="text-leader">{{ bio.department | strip }}</p>
+                    <p class="text-leader">{{ bio.title }}</p>
                     {% endif %}
                 </div>
                 </a>
