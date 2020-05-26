@@ -4,8 +4,8 @@ bio-image-alt-text: JOHN KRAMER
 layout: bio
 permalink: /bio/mr-john-kramer/
 name : MR. JOHN KRAMER
-department: CHIEF FINANCIAL OFFICER AND ASSISTANT SECRETARY FOR BUDGET AND PROGRAMS
-title: U. S. DEPARTMENT OF TRANSPORTATION
+department: U. S. DEPARTMENT OF TRANSPORTATION
+title: CHIEF FINANCIAL OFFICER AND ASSISTANT SECRETARY FOR BUDGET AND PROGRAMS
 ---
 
 John E. Kramer currently serves as the Chief Financial Officer and Assistant Secretary for Budget and Programs in the Office of the Secretary at the Department of Transportation. John was confirmed by the Senate and sworn in on December 16, 2020. John also was appointed to the Northeast Corridor Commission by Secretary Chao. John comes to the Department of Transportation with extensive experience in both finance and industry.
