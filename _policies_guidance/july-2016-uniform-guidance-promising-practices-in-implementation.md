@@ -25,7 +25,7 @@ training: 'yes'
 * Rhea Hubbard, Policy Analyst, OMB
 * Gil Tran, Policy Analyst, OMB
 
-PROMISING PRACTICES IN IMPLEMENTATION: RISK ASSESSMENT (PANEL 1)
+**PROMISING PRACTICES IN IMPLEMENTATION: RISK ASSESSMENT (PANEL 1)**
 
 * Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and COFAR Co-Chair
 * Phil Maestri, Director, Risk Management Service, U.S. Department of Education
@@ -62,9 +62,11 @@ DHS FAPO Risk Assessment Tool Chart: [http://go.usa.gov/x34dF](http://go.usa.gov
 
 **Resources:**
 
-AGA Contractor vs. Subrecipient Checklist: <a href="/wp-content/uploads/2016/06/Panel3_AGA-contractor-v-subrecipient_checklist100315.pdf">http://go.usa.gov/x34mJ</a>
+AGA Contractor vs. Subrecipient Checklist: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel3_AGA-contractor-v-subrecipient_checklist100315.pdf">http://go.usa.gov/x34mJ</a>
+
 
 **PROMISING PRACTICES IN IMPLEMENTATION: PERSONNEL SERVICES (PANEL 4)**
+
 * Laura Rainey, Director (Acting), Financial & IT Audits, Office of Inspector General, National Science Foundation
 * Moderator: Gil Tran, Policy Analyst, OMB
 
@@ -96,9 +98,9 @@ Payroll Certification at Michigan Technological University [http://go.usa.gov/x3
 
 **Resources:**
 
-CAROI Playbook: <a href="/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf">http://go.usa.gov/x34cB</a> 
+CAROI Playbook: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf">http://go.usa.gov/x34cB</a> 
 
-AGA CAROI Guide: <a href="/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf">http://go.usa.gov/x34cB</a>
+AGA CAROI Guide: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf">http://go.usa.gov/x34cB</a>
 
 AGA Tools: [http://www.agacgfm.org/tools](https://www.agacgfm.org/tools)
 
