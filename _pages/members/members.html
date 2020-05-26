@@ -33,7 +33,12 @@ permalink: /members/
 
                             {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
 
-                            <span class="title">{{ titlecase | strip }}, {{ deptcase }}</span></p>
+<!--                            <span class="title">{{ titlecase | strip }}, {{ deptcase }}</span></p>-->
+                        {% if bio.special_title != 'yes' %}
+                        <span class="title">{{ titlecase | strip }}, {{ deptcase }}</span>
+                        {% else %}
+                        <span class="title">{{ bio.title }}, {{ bio.department }}</span>
+                        {% endif %}
                     </div>
                 </a>
             </div>

@@ -4,8 +4,9 @@ bio-image-alt-text: DENISE L. CARTER
 layout: bio
 permalink: /bio/ms-denise-l-carter/
 name : MS. DENISE L. CARTER
-department: U.S. DEPARTMENT OF EDUCATION
-title: ACTING ASSISTANT SECRETARY, OFFICE OF FINANCE AND OPERATIONS
+department: U.S. Department of Education
+title: Acting Assistant Secretary, Office of Finance and Operations
+special_title: 'yes'
 ---
 
 Denise L. Carter joined the U.S. Department of Education leadership team as the Principal Deputy Assistant Secretary for the [former] Office of Management on May 6, 2013, and currently leads the Office of Finance and Operations (OFO) as the Acting Assistant Secretary. In this role she is responsible for providing strategic leadership covering a broad operational portfolio, including oversight of budget and financial management, financial management systems, human resources, acquisition management, grants administration, diversity and inclusion programs, equal employment opportunity services, real property management, security services, transportation and fleet management, and education appeals adjudication.

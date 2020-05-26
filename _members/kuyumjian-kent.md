@@ -5,7 +5,8 @@ layout: bio
 permalink: /bio/mr-kent-kuyumjian/
 name : MR. KENT KUYUMJIAN
 department: USAID
-title: DEPUTY CHIEF FINANCIAL OFFICER
+title: Deputy Chief Financial Officer
+special_title: 'yes'
 ---
 
 Kent Kuyumjian is the Deputy and Acting Chief Financial Officer at the U. S. Agency for International Development (USAID). Previously, Mr. Kuyumjian was the Comptroller and Deputy CFO at Treasury in the Financial Management Service Division.
