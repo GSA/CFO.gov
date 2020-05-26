@@ -4,8 +4,9 @@ bio-image-alt-text: CHERISH K. JOHNSON
 layout: bio
 permalink: /bio/ms-cherish-k-johnson/
 name : MS. CHERISH K. JOHNSON
-department: U.S. NUCLEAR REGULATORY COMMISSION
-title: CHIEF FINANCIAL OFFICER
+department: U.S. Nuclear Regulatory Commission
+title: Chief Financial Officer
+special_title: 'yes'
 ---
 
 Cherish K. Johnson has been appointed as the Chief Financial Officer, U.S. Nuclear Regulatory Commission (NRC) effective February 18, 2020. Ms. Johnson comes to the NRC from the National Oceanic and Atmospheric Administration (NOAA), where she served as Chief Financial Officer/Chief Administrative Officer since 2014. In this position she led the Budget, Accounting, Property, and Congressional Divisions and the Facilities and Personnel Administrative Divisions for NOAA. Ms. Johnson began her career at NOAA as the Deputy Chief Financial Officer in 2009.
