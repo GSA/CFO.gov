@@ -1,5 +1,5 @@
 ---
-bio-image: /wp-content/uploads/2018/02/MemberPhoto_USITC.png
+bio-image: /assets/images/JOHN-ASCIENZO.png
 bio-image-alt-text: JOHN ASCIENZO
 layout: bio
 permalink: /bio/mr-john-ascienzo/
