@@ -4,7 +4,7 @@ subtitle: The Antifraud Playbook
 permalink: /knowledge-sharing/fraudprevention/
 layout: knowledge-sharing-landing
 type: fraud
-filters: playbook fraud
+filters: fraud playbook
 author: CFO Council
 date: 2018-10-15
 
