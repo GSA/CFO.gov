@@ -1,0 +1,56 @@
+images:
+  - image: /assets/images/welocme to cfo.jpg
+    text: Welcome to CFO.gov
+    description: The CFO Council tackles the most pressing issues in federal financial management.
+    url: /about-the-council/
+    button-name: About the CFO Council
+  - image: /assets/images/welocme to cfo.jpg
+    text: CFO Council Strategy
+    description: Financial management is a critical mission support activity - we need to address change drivers - IT modernization, data and workforce
+    url: /
+    button-name: CFO Council Strategy
+  - image: /assets/images/welocme to cfo.jpg
+    text: Policies & Guidance
+    description: Welcome to the modernized CFO.gov! Bringing you policies, guidance, and priority areas that inform Federal financial management.
+    url: /
+    button-name: Policies & Guidance
+  - image: /assets/images/welocme to cfo.jpg
+    text: Knowledge Sharing
+    description: Sharing best practices, training modules, career paths, video, and more with the CFO community
+    url: /
+    button-name: Knowledge Sharing
+
+
+images2:
+  - image: /assets/images/welocme to cfo.jpg
+    header-text: President's Management Agenda
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/priority-middle-image.png
+    header-text: CFO Act
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/welocme to cfo.jpg
+    header-text: Grants Resources
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/priority-middle-image.png
+    header-text: FASAB
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/welocme to cfo.jpg
+    header-text: Treasury Financial Manual
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/priority-middle-image.png
+    header-text: GAO Yellow Book
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/welocme to cfo.jpg
+    header-text: OMB Budget Guidance
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    img: /assets/images/logos/asset 11.jpg
+  - image: /assets/images/priority-middle-image.png
+    header-text: AGA CEAR
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    img: /assets/images/logos/asset 11.jpg

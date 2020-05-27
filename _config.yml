@@ -18,7 +18,7 @@
 # Be sure to edit the values below
 ##########################################################################################
 
-title: CFO Home page
+
 email: contact@example.gov
 description: >- # this means to ignore newlines until "baseurl:"
   Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -26,6 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/logos/logo-main-cfo.png
+jfmip-logo: /assets/images/logos/JFMIP-logo.png
+
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
@@ -67,61 +69,52 @@ dap_agency: GSA
 
 # Site Navigation
 primary_navigation:
-  - name: About Our Council
+  - name: Priority Areas
     url: /
     children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-  - name: Priority Areas
-    children:
-      - name: FDT page
-        url: "/fdt/"
-      - name: FMT page
+      - name: Financial Assistance
+        url: "/financial-assistance/"
+      - name: Payment Integrity
+        url: "/payment-integrity/"
+      - name: Fiscal Management Transformation
         url: "/fmt/"
-      - name: Grants Page
-        url: "/grants/"
-  - name: Collaboration Partners
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-  - name: Policies and Guidance
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+      - name: Financial Data Transformation
+        url: "/fdt/"
+      - name: Enterprise Risk Management
+        url: "/erm/"
+  - name: Policies & Guidance
+    url: "/policies-and-guidance/"
+  - name: JFMIP
+    url: "/jfmip/"
+  - name: FRPC
+    url: "/frpc/"
   - name: Knowledge Sharing
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+    url: /knowledge-sharing/
+  - name: CXO Fellows
+    url: /cxo-fellows/
 
 secondary_navigation:
   - name: Contact Us
-    url: "#main-content"
-  - name: Get Involved
-    url: "#main-content"
-  - name: Feedback
-    url: "#main-content"
+    url: "mailto:CFOC.support@gsa.gov"
+
+payment-accuracy-navigation:
+  - name: About
+    url: /about-payment-accuracy/
+  - name: Program Scorecards
+    url: /payment-accuracy-high-priority-programs/
+  - name: The Numbers
+    url: /payment-accuracy-the-numbers/
+  - name: Resources
+    url: /payment-accuracy-resources/
+  - name: FAQ
+    url: /payment-accuracy-FAQ/
 
 footer:
   contact:
     name: Contact Us
     phonenumber: (800) CALL-GOVT
-    email: info@agency.gov
+    email: CFOC.support@gsa.gov
+    frpc-email: Realpropertypolicy@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #
@@ -143,6 +136,12 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  members:
+    output: true
+  controlleralerts:
+    output: true
+  policies_guidance:
+    output: true
 
 permalink: pretty
 

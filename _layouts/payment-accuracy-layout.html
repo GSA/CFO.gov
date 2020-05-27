@@ -1,0 +1,30 @@
+{% comment %}
+This is used for just about every page. It provides the border around the content.
+The home page uses wide.html layout, since it extends full width of page
+{% endcomment %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!--<head>-->
+<!--    <title>{{ page.title }}</title>-->
+<!--</head>-->
+
+{% include meta.html %}
+
+<body class="site-margin">
+{% include header.html %}
+
+{% include sub-page-menu.html primary_navigation=site.payment-accuracy-navigation secondary_navigation=site.secondary_navigation page_type='payment-accuracy' %}
+
+<main id="main-content">
+    <div>{{ content }}</div>
+</main>
+
+{% include footer.html page_type='payment-accuracy' %}
+
+{% include scripts.html %}
+</body>
+
+</html>

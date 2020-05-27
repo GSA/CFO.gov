@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div class="grid-container">
+<section class="usa-graphic-list margin-top-6">
+    <div class="padding-left-0">
+        <div class="grid-row">
+            <div class="desktop:grid-col-3">
+                <img class="bio-photo" src="{{ site.baseurl }}{{ page.bio-image }}" alt="{{ page.bio-image-alt-text }}">
+            </div>
+            <div class="desktop:grid-col-9">
+                {% if page.name %}
+                <h2 class="font-alt-xl">{{ page.name | upcase }}</h2>
+                {% endif %}
+                {% if page.department %}
+                <h3 class="font-sans-lg margin-top-0 margin-bottom-105">
+                    <p>{{ page.department | upcase }}</p>
+                    {% endif %}
+
+                    {% if page.title %}
+                    {{ page.title | upcase }}</h3>
+                {% endif %}
+                <!--  Removing contact info for now since only one CIO member has it (Joe K)
+                        {% if page.bio-email  %}
+                         <b>Email:  </b><a href="mailto:{{ page.bio-email }}">{{ page.bio-email }}</a><br>
+                        {% endif %}
+                        {% if page.bio-phone %}
+                         <b>Phone:</b> {{ page.bio-phone }}<BR>
+                        {% endif %}-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="fade_line"></div>
+
+<section class="usa-graphic-list usa-section" style="padding-top:0">
+    <div class="desktop:grid-col-12">
+        {{ content }}
+    </div>
+
+    <br>
+    <p class="card-tag"><a href="{{site.baseurl}}/members/">&#10094; &nbsp; Back to Members</a> </p>
+</section>
+</div>

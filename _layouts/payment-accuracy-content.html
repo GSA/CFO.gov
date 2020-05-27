@@ -1,0 +1,25 @@
+---
+layout: payment-accuracy-layout
+---
+
+{% comment %}
+This is used in blog posts. The index page can be found at blog/index.html
+{% endcomment %}
+
+<div class="usa-layout-docs usa-section">
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
+                <h1 class="column-centered-heading">{{page.title}}</h1>
+                <div class="text-base margin-bottom-2">
+                    <div class="margin-top-neg-105">
+                        {% if page.author %}
+                        By <span class="text-bold">{{ page.author }}</span> on {{ page.date | date: '%B %d, %Y' }}
+                        {% endif %}
+                    </div>
+                </div>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>

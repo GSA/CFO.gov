@@ -1,0 +1,64 @@
+<div id="tabs" class="grid-row clearfix">
+    <ul class="grid-col-3 shadow-5">
+        <li><a href="#tabs-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
+        <li><a href="#tabs-2" class="text-no-underline text-base-darker font-sans-md">About Payment Integrity</a></li>
+        <li><a href="#tabs-3" class="text-no-underline text-base-darker font-sans-md">Strategy</a></li>
+        <li><a href="#tabs-4" class="text-no-underline text-base-darker font-sans-md">ESC Membership</a></li>
+        <li><a href="#tabs-5" class="text-no-underline text-base-darker font-sans-md">Org Structure</a></li>
+
+    </ul>
+    <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
+        {% assign sorted = (site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'payment-integrity' | sort: 'date') | reverse %}
+        {% for item in sorted limit:3 %}
+        <div class="border-top border-gray-30 grid-container">
+            <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
+                <div class="grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
+                <div class="grid-col-10">
+                    <h3 class="margin-top-0">{{ item.title }}</h3>
+                    <p>{{ item.filler | truncate:500 }}</p>
+                    {% if item.permalink %}
+                        <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read More</a>
+                    {% elsif item.doc-link  %}
+                        <a class="text-no-underline text-bold" href="{{ item.doc-link }}">Read More</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div id="tabs-2" class="grid-col-9 padding-4">
+        <h2>Goal Statement</h2>
+        <p>
+            The Payment Integrity Priority Area is focused on demonstrating stewardship of taxpayer dollars by reducing monetary loss and making payments correctly the first time.
+
+        <h2>Challenges</h2>
+            While improper payments may compromise citizens' trust in government, they are not always indicative of fraud, nor do they necessarily represent payments that should not have been made. Having the right information and the capacity to address root causes are critical components.
+
+           <h2>Opportunity</h2>
+        <p>
+        The Payment Integrity Priority Area works to improve the efficiencies of government programs by focusing on getting government payments right the first time they are made and reducing the cost associated with an incorrect payment.
+        </p>
+        <p>
+            Additionally, this Priority Area builds trust in government by better understanding the nature of improper payments and their relationship to payment integrity.
+        </p>
+        </p>
+    </div>
+    <div id="tabs-3" class="grid-col-9 padding-4">
+        <p>The Payment Integrity Priority Area strategic approach is featured below:</p>
+        <img  alt="gpr strategy image" src="{{ site.baseurl }}/assets/images/gpr_strategy.png">
+    </div>
+    <div id="tabs-4" class="grid-col-9 padding-4">
+        The Executive Steering Committee membership for the Payment Integrity Priority Area includes:
+        <ul class="usa-list">
+            <li>Office of Management and Budget (OMB)</li>
+            <li>Department of Labor (DoL)</li>
+            <li>Department of Treasury</li>
+            <li>Department of Health and Human Services (HHS) / Center for Medicaid and Medicare Services (CMS)</li>
+        </ul>
+    </div>
+    <div id="tabs-5" class="grid-col-9 padding-4">
+        <p>Below is the Executive Steering Committee organizational structure for the Payment Integrity Priority Area:</p>
+        <img  alt="gpr org structure image" src="{{ site.baseurl }}/assets/images/gpr_org_structure.png">
+    </div>
+
+</div>

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% comment %}
+This template is for a single policy landing page.
+{% endcomment %}
+
+<div class="usa-layout-docs__main desktop:grid-col-12">
+    <div class="grid-container font-sans-sm">
+        <div class="grid-row grid-gap">
+            <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
+                <h1 class="column-centered-heading">{{page.title}}</h1>
+                <div class="text-base margin-bottom-2">
+                    <div class="margin-top-neg-105">
+                        {% if page.author %}
+                       Posted By <span class="text-bold">{{ page.author }}</span> on {{ page.date | date: '%B %d, %Y' }}
+                        {% endif %}
+                    </div>
+                </div>
+                {{ content }}
+            </div>
+        </div>
+        <p class="card-tag padding-bottom-3"><a href="{{site.baseurl}}/policies-and-guidance/">&#10094; &nbsp; Back to Policies</a></p>
+    </div>
+</div>
