@@ -527,7 +527,7 @@ function DisplayFeedback(Feedback,height,width)
 	//parent.popWin=window.open("","Feedback1","width=400,height=300,left=180,top=110,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no");
 	if (parent.popWin != null)
 	{
-		parent.popWin.document.write('<html><head><title>Feedback</title>');
+		parent.popWin.document.write('<html lang="en"><head><title>Feedback</title>');
 		parent.popWin.document.write('<link rel="stylesheet" href="../../css/main.css"></head><body LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINBOTTOM=0 MARGINHEIGHT=0>');
 		parent.popWin.document.write('<div class="pop_main">');
 		parent.popWin.document.write(Feedback);		
