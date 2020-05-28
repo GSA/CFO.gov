@@ -5,8 +5,9 @@ layout: bio
 permalink: /bio/ms-elaine-mccusker/
 name : MS. ELAINE MCCUSKER
 special_name: Ms. Elaine McCusker
-department: DEPARTMENT OF DEFENSE
-title: ACTING UNDER SECRETARY OF DEFENSE (COMPTROLLER)/CHIEF FINANCIAL OFFICER
+department: Department Of Defense
+title: Acting Under Secretary Of Defense (Comptroller)/Chief Financial Officer 
+special_title: 'yes'
 ---
 
 Official bio coming soon.
