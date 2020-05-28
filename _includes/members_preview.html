@@ -4,7 +4,11 @@
             <div class="tablet:grid-col-3 padding-1">
                 <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black;text-decoration: none">
                 <div class="bg-white padding-3 border-bottom-05 border-accent-warm shadow-5 height-full members-hover">
+                    {% if bio.preview-image %}
+                    <img class="circle-10" src="{{ site.baseurl }}{{ bio.preview-image }}" alt="{{bio.bio-image-alt-text}}">
+                    {% else %}
                     <img class="circle-10" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text}}">
+                    {% endif %}
                 {% assign member_name = bio.name | split: ' ' %}
 
                 {% capture namecase %}{% for name_component in member_name %}{{ name_component | capitalize }} {% endfor %}{% endcapture %}
