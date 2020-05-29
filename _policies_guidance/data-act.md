@@ -8,6 +8,8 @@ filler: The Leveraging Data as a Strategic Asset Working Group developed and iss
 filters: fdt playbook
 ---
 
+## DATA ACT ##
+
 
 The Leveraging Data as a Strategic Asset Working Group developed and issued this Playbook in collaboration with federal agencies to assist with developing Data Quality Plans in support of the DATA Act implementation. This playbook is a result of extensive collaboration between agencies, OMB, and the Department of the Treasury. The final document and subsequent versions will be posted to the CFOC website. The use of the playbook format is a practice to gather, define, and illustrate concepts in federal financial management.
 

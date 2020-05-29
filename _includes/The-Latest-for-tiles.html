@@ -1,7 +1,12 @@
+<!--If a tile under knowledge sharing or policies page needs a section in it with a set of tiles, -->
+<!--include this page and add a variable to the md files that need to be included and assign it the value 'yes'. Pass that variable -->
+<!--to this page from the md file where the tiles are to be included, along with the text that you want to show up. -->
+
+
 <div class="usa-media-block tablet:grid-col-12">
-    <p class="card-tag margin-top-0 text-gray-50 text-thin"> The Latest: </p>
+    <p class="card-tag margin-top-0 text-gray-50 text-thin"> {{ include.text }} </p>
     <div class="knowledge-sharing" >
-        {% assign sorted = (site.policies_guidance | where: 'uniform_guidance', 'yes') %}
+        {% assign sorted = (site.policies_guidance | where: include.filter, 'yes') %}
         {% for grant in sorted %}
         {% assign filters = grant.filters | split: ' ' %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ grant.filters }}">
