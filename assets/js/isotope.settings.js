@@ -19,7 +19,9 @@ var iso = $container.data('isotope');
 var $filterCount = $('.filter-count');
 
 function updateFilterCount() {
-  $filterCount.text( iso.filteredItems.length + ' items' );
+    if (iso != null){
+        $filterCount.text( iso.filteredItems.length + ' items' );
+    }
 }
 
 
