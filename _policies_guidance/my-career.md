@@ -1,7 +1,7 @@
 ---
 layout: knowledge-sharing-landing 
 permalink: /my-career/
-title: "Welcome to the CFO Council MyCareer Landing Page! Your Hub for Federal Financial Career Resources"
+title: "WELCOME TO THE CFO COUNCIL MYCAREER LANDING PAGE! YOUR HUB FOR FEDERAL FINANCIAL CAREER RESOURCES"
 subtitle: "Welcome to the CFO Council MyCareer Landing Page!"
 filters: my-career
 type: Controller Alert
