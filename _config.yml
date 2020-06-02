@@ -97,6 +97,10 @@ secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
 
+secondary_navigation_frpc:
+  - name: Contact Us
+    url: "mailto:Realpropertypolicy@gsa.gov"
+
 payment-accuracy-navigation:
   - name: About
     url: /about-payment-accuracy/
