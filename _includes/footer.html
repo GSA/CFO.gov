@@ -24,7 +24,9 @@
                             <div class="grid-col-auto">
                                 <p>
                                 {% if include.page_type == 'frpc' %}
-                                {{ site.footer.contact.frpc-email }}
+                                    {{ site.footer.contact.frpc-email }}
+                                {% elsif include.page_type == 'cxo'  %}
+                                    {{ site.footer.contact.cxo-email }}
                                 {% else %}
                                 {{ site.footer.contact.email }}
                                 {% endif %}
