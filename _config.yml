@@ -101,6 +101,10 @@ secondary_navigation_frpc:
   - name: Contact Us
     url: "mailto:Realpropertypolicy@gsa.gov"
 
+secondary_navigation_cxo:
+  - name: Contact Us
+    url: "mailto:cxofellowship@gsa.gov"
+
 payment-accuracy-navigation:
   - name: About
     url: /about-payment-accuracy/
@@ -119,6 +123,7 @@ footer:
     phonenumber: (800) CALL-GOVT
     email: CFOC.support@gsa.gov
     frpc-email: Realpropertypolicy@gsa.gov
+    cxo-email: cxofellowship@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #
