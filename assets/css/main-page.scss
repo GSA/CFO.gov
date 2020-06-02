@@ -321,7 +321,13 @@ color:#005ea2;
 .fdt-page .priority-tag-line h1{
   margin-top:-0.25rem;
 }
-
+.circle-image.picons{
+  width: auto;
+}
+.picon{
+  height: 120px;
+  padding: 30px;
+}
 @media screen and (max-width: 1025px) {
   .jfmip-logo-size{
     height: 46px;
