@@ -84,12 +84,13 @@ primary_navigation:
         url: "/erm/"
   - name: Policies & Guidance
     url: "/policies-and-guidance/"
+  - name: Knowledge Sharing
+    url: /knowledge-sharing/
   - name: JFMIP
     url: "/jfmip/"
   - name: FRPC
     url: "/frpc/"
-  - name: Knowledge Sharing
-    url: /knowledge-sharing/
+
   - name: CXO Fellows
     url: /cxo-fellows/
 
