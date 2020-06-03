@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2017/02/lana_hurdle_bio.jpg
 bio-image-alt-text: LANA T. HURDLE
 layout: bio
 permalink: /bio/ms-lana-t-hurdle/
-name : MS. LANA T. HURDLE
-department: DEPARTMENT OF TRANSPORTATION
-title: DEPUTY ASSISTANT SECRETARY FOR BUDGET AND PROGRAMS & ACTING CHIEF FINANCIAL OFFICER
+name : Ms. Lana T. Hurdle
+department: Department of Transportation
+title: Deputy Assistant Secretary for Budget and Programs & Acting Chief Financial Officer
 ---
    Lana Hurdle is the Deputy Assistant Secretary for Budget and Programs at the United States Department of Transportation.  She is the principal career Deputy and the senior member of the Chief Financial Officer and Assistant Secretary for Budget and Programs team.  Lana directs the overall budget and program performance process for the Department and supports the leadership team on a wide variety of projects.  Most recently, Lana has served as the Department's Presidential Transition Director providing advice and assistance to the senior career staff in preparing for a change in Administrations.
              

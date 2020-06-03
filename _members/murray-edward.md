@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/02/Edward-Murray.jpg
 bio-image-alt-text: EDWARD MURRAY
 layout: bio
 permalink: /bio/mr-edward-murray/
-name : MR. EDWARD MURRAY
-department: DEPARTMENT OF VETERANS AFFAIRS
-title: PRINCIPAL DEPUTY ASSISTANT SECRETARY FOR MANAGEMENT AND DEPUTY CHIEF FINANCIAL OFFICER
+name : Mr. Edward Murray
+department: Department of Veterans Affairs
+title: Principal Deputy Assistant Secretary for Management and Deputy Chief Financial Officer
 ---
    Edward Joseph Murray was appointed as the Interim Assistant Secretary for Management and Interim Chief Financial Officer for the Department of Veterans Affairs on April 1, 2015. In this role, he is responsible for the overall budget and financial management of VA's $163+ billion budget as well as the Department's performance management, business oversight, asset enterprise management, and corporate analysis and evaluations programs. Prior to assuming these duties, Mr. Murray served as the Principal Deputy Assistant Secretary (PDAS) for the Office of Management. As the PDAS, Mr. Murray was the principle advisor to the Assistant Secretary for Management on operations including budget, performance management, business oversight, enterprise risk management, and asset enterprise management programs. Mr. Murray also served as VA's Deputy Chief Financial Officer (DCFO).
              

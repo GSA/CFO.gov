@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2019/08/Randall-M-Hendrickson-e1565712767945-215x
 bio-image-alt-text: RANDALL HENDRICKSON
 layout: bio
 permalink: /bio/mr-randall-hendrickson/
-name : MR. RANDALL HENDRICKSON
-department: DEPARTMENT OF ENERGY
-title: DEPUTY CHIEF FINANCIAL, OFFICER ACTING CHIEF FINANCIAL OFFICER
+name : Mr. Randall Hendrickson
+department: Department of Energy
+title: Deputy Chief Financial Officer, Acting Chief Financial Officer
 ---
 
 Randall Hendrickson is a member of the Senior Executive Service and serves as the Deputy Chief Financial Officer (DCFO) for the Department of Energy.

@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2018/01/Ben-Ficks-6.png
 bio-image-alt-text: BEN FICKS
 layout: bio
 permalink: /bio/mr-ben-ficks/
-name : MR. L. BEN FICKS
-department: NUCLEAR REGULATORY COMMISSION
-title: DEPUTY CHIEF FINANCIAL OFFICER
+name : Mr. L. Ben Ficks
+department: Nuclear Regulatory Commission
+title: Deputy Chief Financial Officer
 ---
  Mr. Ficks was selected by the Chief Financial Officer of the U.S. Nuclear Regulatory Commission to serve as the agency Deputy Chief Financial Officer effective October 29, 2017. His experience as a seasoned executive with extensive agency-level budget formulation and execution expertise allowed him to address major challenges facing the agency, including increased Congressional oversight and demand for greater fee transparency by stakeholders. He addressed these challenges through extensive collaboration with key internal and external customers and by empowering his staff. He is the former co-chair of the Federal Chief Learning Officers Council.
              

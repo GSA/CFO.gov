@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2018/02/MemberPhoto_Moaney.png
 bio-image-alt-text: LYNN MOANEY
 layout: bio
 permalink: /bio/ms-lynn-moaney/
-name : MS. LYNN MOANEY
-department: DEPARTMENT OF AGRICULTURE
-title: DEPUTY CHIEF FINANCIAL OFFICER
+name : Ms. Lynn Moaney
+department: Department of Agriculture
+title: Deputy Chief Financial Officer
 ---
    Ms. Moaney has over 30 years developing and maintaining financial standards across the Federal Government and a proven record of leading organizational initiatives. Experience includes implementation of financial and administrative systems, budget formulation and execution, acquisitions, audit, risk management, shared services, policy development and financial operations support.
              

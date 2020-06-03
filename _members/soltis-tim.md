@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2018/01/Tim-photo.jpg
 bio-image-alt-text: TIM SOLTIS
 layout: bio
 permalink: /bio/mr-tim-soltis/
-name : MR. TIM SOLTIS
-department: OFFICE OF MANAGEMENT AND BUDGET
-title: DEPUTY CONTROLLER, OFFICE OF FEDERAL FINANCIAL MANAGEMENT
+name : Mr. Tim Soltis
+department: Office of Management and Budget
+title: Deputy Controller, Office of Federal Financial Management
 ---
   Tim Soltis is the Deputy Controller in Office of Federal Financial Management. In that role, he serves as a
              senior member of the Office of Management and Budget&#39;s (OMB) management team supporting the
