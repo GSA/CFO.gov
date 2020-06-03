@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/02/Dennis-Coleman.jpg
 bio-image-alt-text: DENNIS COLEMAN
 layout: bio
 permalink: /bio/mr-dennis-coleman/
-name : MR. DENNIS COLEMAN
-department: OFFICE OF PERSONNEL MANAGEMENT
-title: CHIEF FINANCIAL OFFICER
+name : Mr. Dennis Coleman
+department: Office of Personnel Management
+title: Chief Financial Officer
 ---
 As Acting Chief Operating Officer (COO), Dennis Coleman provides the overall organizational management needed to improve agency performance and achieve OPM's mission and goals through strategic and performance planning, measurement, analysis, and regular progress assessment. The COO is responsible for managing OPM's human, financial, and other resources to achieve intended program results efficiently, economically, and effectively.
              

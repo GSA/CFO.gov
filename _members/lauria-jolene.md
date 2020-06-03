@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/02/Jolene-Lauria.jpg
 bio-image-alt-text: JOLENE LAURIA
 layout: bio
 permalink: /bio/ms-jolene-lauria/
-name : MS. JOLENE LAURIA
-department: DEPARTMENT OF JUSTICE
-title: DEPUTY CHIEF FINANCIAL OFFICER
+name : Ms. Jolene Lauria
+department: Department of Justice
+title: Deputy Chief Financial Officer
 ---
  Jolene Ann Lauria is the Deputy Assistant Attorney General/Controller for the Department of Justice (DOJ). She is the principal financial management and budget expert for the Department of Justice. In this capacity, she is responsible for the development and execution of a budget of over $30 billion, DOJ's Performance and Accountability Reports, and the operational responsibilities which are at the core of executing one of the nation's largest public sector budgets. This budget spans over 40 separate component organizations, including high-profile law enforcement organizations, such as the Federal Bureau of Investigation, Drug Enforcement Administration, the United States Marshals Service, the Bureau of Alcohol, Tobacco, Firearms and Explosives, and the Bureau of Prisons. Her responsibilities also include the issuance of the Department's public financial statements, its accounting operations, and operational control over Departmental funds such as the Working Capital Fund ($1.7 billion), the Assets Forfeiture Fund ($2.1 billion), and the Civil Debt Collection Fund ($180 million).  Jolene also serves as the Department's Performance Improvement Officer.  In all of these capacities, she makes critical strategic planning and resource recommendations to the Attorney General, Senior Policy Staff, the White House and Congress.
              
