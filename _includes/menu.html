@@ -8,8 +8,8 @@ where we provide an easy way to manage your navigation system
     <div class="usa-logo" id="logo">
       <em class="usa-logo-text">
 
-        <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
-          <img class="logo-size" src="{{ site.logo | prepend: site.baseurl }}" alt="United States CFO logo">
+        <a href="{{ site.baseurl }}/" accesskey="1" title="CFO.gov" aria-label="CFO.gov">
+          <img class="logo-size cfo-logo-size" src="{{ site.logo | prepend: site.baseurl }}" alt="United States CFO logo">
         </a>
 
       </em>
@@ -19,7 +19,7 @@ where we provide an easy way to manage your navigation system
   <nav role="navigation" class="usa-nav">
     <div class="usa-nav__inner">
       <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
-      <ul class="usa-nav__primary usa-accordion">
+      <ul class="usa-nav__primary usa-accordion"  >
         {% for nav_item in include.primary_navigation %}
         {% unless nav_item.children %}
         {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
@@ -33,7 +33,7 @@ where we provide an easy way to manage your navigation system
         <li class="usa-nav__primary-item">
           <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ nav_id }}"><span
               class="header-menu-text">{{ nav_item.name | escape }}</span></button>
-          <ul id="{{ nav_id }}" class="usa-nav__submenu">
+          <ul id="{{ nav_id }}" class="usa-nav__submenu" hidden="">
             {% for subnav_item in nav_item.children %}
             <li class="usa-nav__submenu-item">
               <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>

@@ -10,13 +10,15 @@ layout: default
             </div>
             <div class="desktop:grid-col-9">
                 {% if page.name %}
-                <h2 class="font-alt-xl">{{ page.name }}</h2>
+                <h2 class="font-alt-xl">{{ page.name | upcase }}</h2>
                 {% endif %}
-                {% if page.title %}
-                <h3 class="font-sans-lg margin-top-0 margin-bottom-105">{{ page.title }},
+                {% if page.department %}
+                <h3 class="font-sans-lg margin-top-0 margin-bottom-105">
+                    <p>{{ page.department | upcase }}</p>
                     {% endif %}
-                    {% if page.department %}
-                    {{ page.department }}</h3>
+
+                    {% if page.title %}
+                    {{ page.title | upcase }}</h3>
                 {% endif %}
                 <!--  Removing contact info for now since only one CIO member has it (Joe K)
                         {% if page.bio-email  %}

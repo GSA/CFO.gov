@@ -18,47 +18,30 @@ title: Priority
 </section>
 
 
-
+<!--All icons and text for each priority area are referenced in the respective md file under prioritypages folder-->
 <section class="usa-graphic_list usa-section usa-prose clearfix">
 
     <div class="grid-row clearfix grid-container priority-icons">
-        {% if page.number_of_icons == 4 %}
+
             {% for icon in page.priority_icons %}
+                {% if page.number_of_icons == 4 %}
                 <div class="tablet:grid-col-3 text-center margin-y-10">
+                {% endif %}
+                {% if page.number_of_icons == 3 %}
+                <div class="grid-col-4 text-center margin-y-10">
+                {% endif %}
                     {% if icon.url %}
                         <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline">
                     {% else %}
                         <a href="{{ icon.link }}" class="text-no-underline">
                     {% endif %}
                     <img class="circle-image" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }}" />
-                    <h2 class="text-gray-70 text-normal section_font">{{ icon.name }}</h2></a>
+                            <p class="font-heading-md text-gray-70">{{ icon.name }}</p></a>
                 </div>
             {% endfor %}
-        {% endif %}
-
-        {% if page.number_of_icons == 3 %}
-        {% for icon in page.priority_icons %}
-        <div class="grid-col-4 text-center margin-y-10">
-            {% if icon.url %}
-            <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline">
-                {% else %}
-                <a href="{{ icon.link }}" class="text-no-underline">
-                    {% endif %}
-                    <img class="circle-image" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }}" />
-                    <h2 class="text-gray-70 text-normal section_font">{{ icon.name }}</h2></a>
-        </div>
-        {% endfor %}
-        {% endif %}
-
-
-
     </div>
 
 </section>
-
-
-
-
 
 
 <div class="grid-container grid-gap">{{ content }}</div>
@@ -74,7 +57,7 @@ title: Priority
     {% include priority_fmt_sidenav.html %}
     {% endif %}
 
-    {% if page.type == "grant" %}
+    {% if page.type == "financial-assistance" %}
     {% include priority_grants_sidenav.html %}
     {% endif %}
 
@@ -82,7 +65,7 @@ title: Priority
     {% include priority_erm_sidenav.html %}
     {% endif %}
 
-    {% if page.type == "gpr" %}
+    {% if page.type == "payment-integrity" %}
     {% include priority_gpr_sidenav.html %}
     {% endif %}
 

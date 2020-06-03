@@ -2,8 +2,9 @@
 layout: policies-guidance-landing
 title: Controller Alert&#58; Reducing Burden For Federal Agencies By Rescinding Grants Management Related Requirements
 subtitle: Reducing Burden&#58; Rescinding Grants Management Related Requirements 
+filler: The purpose of this Controller Alert is to provide additional details and updates regarding the grants management related requirements that were rescinded in M-17-26. 
 permalink: /policies/controller-alert-reducing-burden-for-federal-agencies-by-rescinding-grants-management-related-requirements/
-type: Grant
+type: financial-assistance
 date: March 07, 2017
 has_date: 'yes'
 author: CFO Council 
@@ -21,7 +22,7 @@ M-17-26, published on June 15, 2017,  provided relief to agencies by rolling bac
 To help reduce the burden for grants management related requirements, the following changes apply to agencies' management of grants and financial assistance:
 
 * Agencies are no longer required to report the metrics measuring the impact of the Uniform Guidance (2 C.F.R. Part 200), as instructed by OMB Memorandum [M-14-17](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2014/m-14-17.pdf).
-* Agencies are no longer required to prepare for an expanded Catalog of Federal Domestic Assistance (CFDA) numbering schematic, as informed by OMB's [Controller Alert](https://cfo.gov//2016/12/22/controller-alert-catalog-of-federal-domestic-assistance-numbering-schematic/) of December 22, 2016. OMB will consider future changes to the CFDA following the implementation of [M-17-22](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/M-17-22.pdf) Comprehensive Plan for Reforming the Federal Government and Reducing the Federal Civilian Workforce.
+* Agencies are no longer required to prepare for an expanded Catalog of Federal Domestic Assistance (CFDA) numbering schematic, as informed by OMB's <a href="{{site.baseurl}}/policies/controller-alert-catalog-of-federal-domestic-assistance-numbering-schematic/">Controller Alert</a> of December 22, 2016. OMB will consider future changes to the CFDA following the implementation of [M-17-22](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/M-17-22.pdf) Comprehensive Plan for Reforming the Federal Government and Reducing the Federal Civilian Workforce.
 * The Council on Financial Assistance Reform (COFAR) was established by OMB Memorandum [M-12-01](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2012/m-12-01.pdf) and is now disbanded. The COFAR included the Chief Financial Officers of the eight largest grant-making agencies; it was created to provide recommendations to OMB on policies and actions to effectively deliver financial assistance, which culminated in the creation of the Uniform Guidance (UG). The UG reduced regulation volume by 75% and focused agency efforts on performance over compliance. With the completion of the designated purpose, moving forward, financial assistance priorities will be coordinated by the Chief Financial Officers Council (CFOC), consistent with the goal of involving a broader community of financial assistance agencies to participate in developing future priorities. The Office of Federal Financial Management (OFFM) looks forward to engaging with the CFOC, oversight entities, and non-Federal community as appropriate on topics relevant to the financial assistance community. Future groups may be formed around certain topics as necessary.
 As an immediate action of financial assistance oversight, CFOs are asked to disseminate news of the following two resources to their financial assistance workforce:
 

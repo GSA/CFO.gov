@@ -1,15 +1,16 @@
 ---
 layout: knowledge-sharing-landing
-title: July 2016&#58; Uniform Guidance Promising Practices in Implementation
+title: July 2016&#58; Uniform Guidance&#58; Promising Practices in Implementation
 subtitle: Uniform Guidance Promising Practices in Implementation
 permalink: /knowledge-sharing/july-2016-uniform-guidance-promising-practices-in-implementation/
-type: Grant
-filler: Opening Remarks Dave Mader, Controller, OMB Rhea Hubbard, Policy Analyst, OMB Gil Tran, Policy Analyst, OMB Promising Practices in Implementation; Risk Assessment (Panel 1) Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and COFAR Co-Chair Phil Maestri, Director, Risk Management Service, U.S. Department of Education Moderator; Rhea Hubbard, Policy Analyst, OMB . Continued
-date: July 07, 2015
+type: financial-assistance
+filler: Opening Remarks Dave Mader, Controller, OMB Rhea Hubbard, Policy Analyst, OMB Gil Tran, Policy Analyst, OMB Promising Practices in Implementation; Risk Assessment (Panel 1) Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and COFAR Co-Chair Phil Maestri, Director, Risk Management Service, U.S. Department of Education Moderator; Rhea Hubbard, Policy Analyst, OMB. Continued
+date: July 05, 2016
 has_date: 'yes'
 author: CFO Council 
 filters: financial-assistance best-practice-guidance
 uniform_guidance: 'yes'
+training: 'yes'
 ---
 
 
@@ -24,7 +25,7 @@ uniform_guidance: 'yes'
 * Rhea Hubbard, Policy Analyst, OMB
 * Gil Tran, Policy Analyst, OMB
 
-PROMISING PRACTICES IN IMPLEMENTATION: RISK ASSESSMENT (PANEL 1)
+**PROMISING PRACTICES IN IMPLEMENTATION: RISK ASSESSMENT (PANEL 1)**
 
 * Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and COFAR Co-Chair
 * Phil Maestri, Director, Risk Management Service, U.S. Department of Education
@@ -34,7 +35,7 @@ PROMISING PRACTICES IN IMPLEMENTATION: RISK ASSESSMENT (PANEL 1)
 
 **Resources:**
 
-EDUC Entity Risk Report Example: [http://go.usa.gov/x34pk](https://cfo.gov/wp-content/uploads/2016/06/Panel1_EDUC-Entity-Risk-Report-Example.pdf)
+EDUC Entity Risk Report Example: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel1_EDUC-Entity-Risk-Report-Example.pdf">http://go.usa.gov/x34pk</a>
 
 DHS Vulnerability Risk Assessment: [http://go.usa.gov/x34dW](http://go.usa.gov/x34dW)
 
@@ -61,9 +62,11 @@ DHS FAPO Risk Assessment Tool Chart: [http://go.usa.gov/x34dF](http://go.usa.gov
 
 **Resources:**
 
-AGA Contractor vs. Subrecipient Checklist: [http://go.usa.gov/x34mJ](https://cfo.gov/wp-content/uploads/2016/06/Panel3_AGA-contractor-v-subrecipient_checklist100315.pdf)
+AGA Contractor vs. Subrecipient Checklist: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel3_AGA-contractor-v-subrecipient_checklist100315.pdf">http://go.usa.gov/x34mJ</a>
+
 
 **PROMISING PRACTICES IN IMPLEMENTATION: PERSONNEL SERVICES (PANEL 4)**
+
 * Laura Rainey, Director (Acting), Financial & IT Audits, Office of Inspector General, National Science Foundation
 * Moderator: Gil Tran, Policy Analyst, OMB
 
@@ -95,15 +98,15 @@ Payroll Certification at Michigan Technological University [http://go.usa.gov/x3
 
 **Resources:**
 
-CAROI Playbook: [http://go.usa.gov/x34cB](https://cfo.gov/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf)
+CAROI Playbook: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf">http://go.usa.gov/x34cB</a> 
 
-AGA CAROI Guide: [http://go.usa.gov/x34cY](https://cfo.gov/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf)
+AGA CAROI Guide: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf">http://go.usa.gov/x34cB</a>
 
 AGA Tools: [http://www.agacgfm.org/tools](https://www.agacgfm.org/tools)
 
 **CLOSING REMARKS**
 
-*Karen Lee, Branch Chief, Office of Federal Financial Management, OMB
+* Karen Lee, Branch Chief, Office of Federal Financial Management, OMB
 
 {% include youtube_embed.html id="VkY5zt7jKWg" %} 
 

@@ -4,4 +4,5 @@ title: Coming Soon! We will update Financial Data Transformation's latest news h
 type: fdt
 filler: For any questions, please contact CFOC.support@gsa.gov.
 has_date: 'yes'
+coming_soon: 'yes'
 ---

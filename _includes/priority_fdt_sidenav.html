@@ -1,19 +1,19 @@
 <div id="tabs" class="grid-row clearfix">
     <ul class="grid-col-3 shadow-5">
-        <li><a href="#tabs-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
-        <li><a href="#tabs-2" class="text-no-underline text-base-darker font-sans-md">About Financial Data Transformation</a></li>
-        <li><a href="#tabs-3" class="text-no-underline text-base-darker font-sans-md">Strategy</a></li>
-        <li><a href="#tabs-4" class="text-no-underline text-base-darker font-sans-md">ESC Membership</a></li>
+        <li><a href="#tabs-1" role="tab" aria-controls="tabs-1" id="tab-btn-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
+        <li><a href="#tabs-2" role="tab" aria-controls="tabs-2" id="tab-btn-2" class="text-no-underline text-base-darker font-sans-md">About Financial Data Transformation</a></li>
+        <li><a href="#tabs-3" role="tab" aria-controls="tabs-3" id="tab-btn-3" class="text-no-underline text-base-darker font-sans-md">Strategy</a></li>
+        <li><a href="#tabs-4" role="tab" aria-controls="tabs-4" id="tab-btn-4" class="text-no-underline text-base-darker font-sans-md">ESC Membership</a></li>
 
     </ul>
 
-    <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
+    <div id="tabs-1" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
         {% assign sorted = (site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'fdt' | sort: 'date') | reverse %}
         {% for item in sorted limit:3 %}
-        <div class="border-top border-gray-30">
+        <div class="border-top border-gray-30 grid-container">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
                 <div class="grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
-                <div class="grid-col">
+                <div class="grid-col-10">
                     <h3 class="margin-top-0">{{ item.title }}</h3>
                     <p>{{ item.filler | truncate:500 }}</p>
                     {% if item.permalink %}
@@ -26,7 +26,7 @@
         </div>
         {% endfor %}
     </div>
-    <div id="tabs-2" class="grid-col-9 padding-4">
+    <div id="tabs-2" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-2" class="grid-col-9 padding-4">
         <h2>Goal Statement</h2>
         <p>Build a data-centric environment to promote public trust in financial management, transparency and accountability of Federal dollars that
             meets user needs while minimizing reporting burden, and orients the business of government around data.</p>
@@ -45,11 +45,11 @@
             <li>Data is used to drive innovation in transparency and accountability for the Federal Government, including for policy-making, innovation, oversight, and learning.</li>
         </ul>
     </div>
-    <div id="tabs-3" class="grid-col-9 padding-4">
+    <div id="tabs-3" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-3" class="grid-col-9 padding-4">
         <p>The Financial Data Transformation Priority Area strategic approach is featured below:</p>
         <img  alt="fdt strategy image" src="{{ site.baseurl }}/assets/images/fdt_strategy.png">
     </div>
-    <div id="tabs-4" class="grid-col-9 padding-4">
+    <div id="tabs-4" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-4" class="grid-col-9 padding-4">
   The Executive Steering Committee membership for the Financial Data Transformation Priority Area includes:
         <ul class="usa-list">
             <li>Office of Management & Budget</li>
@@ -62,7 +62,7 @@
             <li>Nuclear Regulatory Commission</li>
         </ul>
     </div>
-<!--    <div id="tabs-5" class="grid-col-9 padding-4">-->
+<!--    <div id="tabs-5" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-5" class="grid-col-9 padding-4">-->
 <!--        <h2>Content heading 5</h2>-->
 <!--        <p>Content 5</p>-->
 <!--    </div>-->
