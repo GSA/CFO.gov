@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/02/Dorrice-Roth.jpg
 bio-image-alt-text: DORRICE ROTH
 layout: bio
 permalink: /bio/ms-dorrice-roth/
-name : MS. DORRICE ROTH
-department: SMALL BUSINESS ADMINISTRATION
-title: ACTING CHIEF FINANCIAL OFFICER
+name : Ms. Dorrice Roth
+department: Small Business Administration
+title: Acting Chief Financial Officer
 ---
    Dorrice Roth began her career with the Small Business Administration as the Deputy Chief Financial Officer in January 2017.  Ms. Roth manages the day-to-day operations through locations in Washington DC and Denver CO providing agency-wide services in the following:  Budget, Credit Modeling, Accounting, Financial Administration and Accountability, Financial Systems, Financial Operations, and the Acquisition Division.
              

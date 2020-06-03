@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/02/lofthus_lee.jpg
 bio-image-alt-text: LEE LOFTHUS
 layout: bio
 permalink: /bio/mr-lee-lofthus/
-name : MR. LEE LOFTHUS
-department: DEPARTMENT OF JUSTICE
-title: CHIEF FINANCIAL OFFICER
+name : Mr. Lee Lofthus
+department: Department of Justice
+title: Chief Financial Officer
 ---
    Lee Lofthus was appointed as Assistant Attorney General for Administration on December 15, 2006. Prior to his appointment, he served as the Acting Assistant Attorney General for Administration, and earlier he was the Principal Deputy Assistant Attorney General/Controller, Justice Management Division. Mr. Lofthus is the Department's Chief Financial Officer, and his responsibilities include Department-wide financial reporting, budget formulation and execution, accounting operations, assets forfeiture fund operational support, procurement, and debt management support. Mr. Lofthus also oversees facilities management, human resources, business services, and planning. He is a key executive liaison with the appropriations subcommittees on appropriations matters. He is also is responsible for key initiatives in the President's Management Agenda, and the issuance of the Department's public financial statements.
              

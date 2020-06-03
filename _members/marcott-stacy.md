@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/02/Stacy-Marcott.jpg
 bio-image-alt-text: STACY MARCOTT
 layout: bio
 permalink: /bio/ms-stacy-marcott/
-name : MS. STACY MARCOTT
-department: DEPARTMENT OF HOMELAND SECURITY
-title: DEPUTY CHIEF FINANCIAL OFFICER
+name : Ms. Stacy Marcott
+department: Department of Homeland Security
+title: Deputy Chief Financial Officer
 ---
   Stacy Marcott became the Deputy Chief Financial Officer (DCFO) for the Department of Homeland Security (DHS) on May 21, 2012. Ms. Marcott served as the Senior Advisor to the DHS CFO and DCFO beginning in 2009. During her tenure, she impacted the direction of financial and accounting programs Department-wide, providing advice on long- and short-range financial planning and evaluation of program goals as well as directing and managing oversight of financial management activities and operations for DHS.
              

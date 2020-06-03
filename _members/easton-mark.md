@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2018/01/Mark-Easton-Sep-2016.jpg
 bio-image-alt-text: MARK EASTON
 layout: bio
 permalink: /bio/mr-mark-easton/
-name : MR. MARK EASTON
-department: DEPARTMENT OF DEFENSE
-title: DEPUTY CHIEF FINANCIAL OFFICER
+name : Mr. Mark Easton
+department: Department of Defense
+title: Deputy Chief Financial Officer
 ---
    Mr. Mark Easton has served as the Deputy Chief Financial
              Officer (DCFO), in the Office of the Under Secretary of

@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/02/davdlebryk.jpg
 bio-image-alt-text: DAVID LEBRYK
 layout: bio
 permalink: /bio/mr-david-lebryk/
-name : MR. DAVID LEBRYK
-department: DEPARTMENT OF THE TREASURY
-title: FISCAL ASSISTANT SECRETARY
+name : Mr. David Lebryk
+department: Department of the Treasury
+title: Fiscal Assistant Secretary
 ---
 
 David A. Lebryk was appointed by Secretary Lew to serve as the U.S. Department of the Treasury's Fiscal Assistant Secretary. As the Fiscal Assistant Secretary, Mr. Lebryk is responsible for developing policy and overseeing the operations of the financial infrastructure of the federal government in the areas of payments, collections, debt financing, accounting, delinquent debt collection, and shared services.

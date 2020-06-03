@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2018/02/Rychalski_021218.jpg
 bio-image-alt-text: JON RYCHALSKI
 layout: bio
 permalink: /bio/mr-jon-rychalski/
-name : MR. JON RYCHALSKI
-department: DEPARTMENT OF VETERANS AFFAIRS
-title: CHIEF FINANCIAL OFFICER
+name : Mr. Jon Rychalski
+department: Department of Veterans Affairs
+title: Chief Financial Officer
 ---
   Mr. Jon Rychalski is the Chief Financial Officer of the Department of Veterans Affairs. In this role, he is responsible for directing the Department's budgetary, financial, capital asset management, and business oversight functions as well as corporate analysis and evaluation.
              

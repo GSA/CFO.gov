@@ -3,7 +3,7 @@ bio-image: /wp-content/uploads/2019/10/Denise-Carter-Portrait-1.png
 bio-image-alt-text: DENISE L. CARTER
 layout: bio
 permalink: /bio/ms-denise-l-carter/
-name : MS. DENISE L. CARTER
+name : Ms. Denise L. Carter
 department: U.S. Department of Education
 title: Acting Assistant Secretary, Office of Finance and Operations
 special_title: 'yes'

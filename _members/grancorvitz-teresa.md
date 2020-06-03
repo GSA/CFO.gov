@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2018/02/Teresa_Grancorvitz-2.png
 bio-image-alt-text: TERESA GRANCORVITZ
 layout: bio
 permalink: /bio/ms-teresa-grancorvitz/
-name : MS. TERESA GRANCORVITZ
-department: NATIONAL SCIENCE FOUNDATION
-title: CHIEF FINANCIAL OFFICER
+name : Ms. Teresa Grancorvitz
+department: National Science Foundation
+title: Chief Financial Officer
 ---
    Teresa Grancorvitz is the Chief Financial Officer (CFO) and Office Head, Office of Budget, Finance and Award Management (BFA) at the National Science Foundation (NSF).  Previously she was the Deputy Office Head for BFA when she joined NSF in November 2015. Prior to becoming the BFA Deputy Office Head she worked for 22 years at the Nuclear Regulatory Commission (NRC) where she last served as the Budget Director in the Office of the Chief Financial Officer (OCFO). As the Budget Director at the NRC, she was responsible for the development of the annual budget including schedules and guidance for formulating and executing the agency's budget.
              

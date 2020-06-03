@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2018/05/dewit-1.png
 bio-image-alt-text: JEFFREY DEWIT
 layout: bio
 permalink: /bio/mr-jeffrey-dewit/
-name : MR. JEFFREY DEWIT
-department: NATIONAL AERONAUTICS & SPACE ADMINISTRATION
-title: CHIEF FINANCIAL OFFICER
+name : Mr. Jeffrey Dewit
+department: National Aeronautics and Space Administration
+title: Chief Financial Officer
 ---
    Jeff DeWit was unanimously confirmed by the U.S. Senate on March 14, 2018, to serve as NASA's Chief Financial Officer. As NASA CFO, DeWit ensures the financial health of the agency, which includes effectively employing agency resources toward the achievement of NASA's strategic plan. He manages the organization's budget and fiscal operations, directs the preparation and submission of annual financial and budgetary reports, and coordinates agency financial management activities with other federal agencies.
              
