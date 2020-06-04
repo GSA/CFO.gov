@@ -13,7 +13,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
 
                 {% for bio in site.members %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <a style="color:black" href="{{ site.baseurl }}{{ bio.permalink }}">
+                    <a style="color:black;text-decoration: none; display: block;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
                         <div class="left">
                             <img src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                         </div>
