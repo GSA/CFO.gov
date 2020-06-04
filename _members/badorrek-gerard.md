@@ -4,9 +4,9 @@ preview-image: /assets/images/gerard_Badorrek.png
 bio-image-alt-text: GERARD BADORREK
 layout: bio
 permalink: /bio/mr-gerard-badorrek/
-name : MR. GERARD BADORREK
-department: GENERAL SERVICES ADMINISTRATION
-title: CHIEF FINANCIAL OFFICER
+name : Mr. Gerard Badorrek
+department: General Services Administration
+title: Chief Financial Officer
 ---
    Gerard Badorrek was named the Chief Financial Officer of the U.S. General Services Administration (GSA) effective December 2014.
              

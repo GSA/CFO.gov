@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/01/DANIEL-MARELLA.jpg
 bio-image-alt-text: DANIEL MARELLA
 layout: bio
 permalink: /bio/mr-daniel-marella/
-name : MR. DANIEL MARELLA
-department: OFFICE OF PERSONNEL MANAGEMENT
-title: DEPUTY CHIEF FINANCIAL OFFICER
+name : Mr. Daniel Marella
+department: Office of Personnel Management
+title: Deputy Chief Financial Officer
 ---
  Dan has worked for the Office of Personnel Management for 29 years in various budget and financial management positions including Assistant Inspector General for Policy, Resources Management and Oversight, Associate Chief Financial Officer for Budget and Performance, Performance Improvement Officer, and currently as the Deputy Chief Financial Officer.
              

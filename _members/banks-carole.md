@@ -4,9 +4,9 @@ preview-image: /assets/images/CAROLE-BANKS.png
 bio-image-alt-text: CAROLE BANKS
 layout: bio
 permalink: /bio/ms-carole-banks/
-name : MS. CAROLE BANKS
-department: DEPARTMENT OF THE TREASURY
-title: DEPUTY CHIEF FINANCIAL OFFICER
+name : Ms. Carole Banks
+department: Department of the Treasury
+title: Deputy Chief Financial Officer
 ---
 
 Carole Banks began her public service career in 2010 when she joined the Department of the Treasury. Since 2017, Ms. Banks has served as the Deputy Chief Financial Officer (DCFO) within Departmental Offices, responsible for the Department's compliance with financial management and reporting guidelines as mandated by Congress. She provides advice to the Assistant Secretary for Management and other executives on all Department-wide financial management, financial reporting, financial systems, internal control, and credit modeling.

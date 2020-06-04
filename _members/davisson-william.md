@@ -3,10 +3,10 @@ bio-image: /wp-content/uploads/2017/04/StateDepartment_Logo1.png
 bio-image-alt-text: WILLIAM BRANDON (BUTCH) DAVISSON
 layout: bio
 permalink: /bio/mr-william-brandon-butch-davisson/
-name : MR. WILLIAM BRANDON (BUTCH) DAVISSON
+name : Mr. William Brandon (Butch) Davisson 
 special_name: Mr. William Brandon (Butch) Davisson 
-department: DEPARTMENT OF STATE
-title: DEPUTY COMPTROLLER
+department: Department of State
+title: Deputy Comptroller
 ---
 
 William Brandon (Butch) Davisson is the Deputy Comptroller for Global Financial Services in the Bureau of the Comptroller and Global Financial Services (CGFS). Located in Charleston, South Carolina, he is responsible for the Department's financial centers in Charleston and Bangkok, including global compensation and accounting. Prior to this position, he served as the Managing Director for the CGFS' Office of Oversight and Management Analysis and as the Senior Advisor to the Department's Chief Financial Officer and Comptroller.

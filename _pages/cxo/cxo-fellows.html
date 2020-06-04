@@ -14,14 +14,14 @@ permalink: /cxo-fellows/
 <section class="grid-container grid-gap usa-graphic_list clearfix tabSection">
 <div id="tabs" class="grid-row clearfix">
     <ul class="grid-col-3 shadow-5">
-        <li><a href="#tabs-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
-        <li><a href="#tabs-2" class="text-no-underline text-base-darker font-sans-md">CXO Fellowship</a></li>
-        <li><a href="#tabs-3" class="text-no-underline text-base-darker font-sans-md">How to Apply</a></li>
-        <li><a href="#tabs-4" class="text-no-underline text-base-darker font-sans-md">Who are the fellows?</a></li>
-        <li><a href="#tabs-5" class="text-no-underline text-base-darker font-sans-md">Our Mission</a></li>
+        <li><a href="#tabs-1" role="tab" aria-controls="tabs-1" id="tab-btn-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
+        <li><a href="#tabs-2" role="tab" aria-controls="tabs-2" id="tab-btn-2" class="text-no-underline text-base-darker font-sans-md">CXO Fellowship</a></li>
+        <li><a href="#tabs-3" role="tab" aria-controls="tabs-3" id="tab-btn-3" class="text-no-underline text-base-darker font-sans-md">How to Apply</a></li>
+        <li><a href="#tabs-4" role="tab" aria-controls="tabs-4" id="tab-btn-4" class="text-no-underline text-base-darker font-sans-md">Who are the fellows?</a></li>
+        <li><a href="#tabs-5" role="tab" aria-controls="tabs-5" id="tab-btn-5" class="text-no-underline text-base-darker font-sans-md">Our Mission</a></li>
 
     </ul>
-    <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
+    <div id="tabs-1" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
         {% assign sorted = site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'CXO Fellows' | sort: 'date' | reverse %}
         {% for item in sorted limit:3 %}
         <div class="border-top border-gray-30 grid-container">
@@ -40,7 +40,7 @@ permalink: /cxo-fellows/
         </div>
         {% endfor %}
     </div>
-    <div id="tabs-2" class="grid-col-9 padding-4">
+    <div id="tabs-2" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-2" class="grid-col-9 padding-4">
         <div class="wpb_text_column wpb_content_element ">
             <div class="wpb_wrapper">
                 <h2> CXO Fellowship </h2>
@@ -53,9 +53,9 @@ permalink: /cxo-fellows/
                 </p></div>
         </div>
     </div>
-    <div id="tabs-3" class="grid-col-9 padding-4 font-s">
+    <div id="tabs-3" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-3" class="grid-col-9 padding-4 font-s">
             <h2>How to Apply</h2>
-            <div><iframe src="https://player.vimeo.com/video/413718546" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+            <div><iframe src="https://player.vimeo.com/video/413718546" title="CXO Fellow How to Apply Video" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
             <h2>Application Period</h2>
             <p>The application period for the 2020 CXO Fellowship program is:</p>
             <p><strong>May 1, 2020 to June 12, 2020</strong></p>
@@ -63,14 +63,14 @@ permalink: /cxo-fellows/
         <p>To learn more about the CXO Fellows program, <a href="https://www.performance.gov/3-reasons-why-you-should-apply-to-CXO-fellowship-program/">please read our recent blog post on Performance.gov.</a></p>
     </div>
 
-    <div id="tabs-4" class="grid-col-9 padding-4">
+    <div id="tabs-4" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-4" class="grid-col-9 padding-4">
             <h2>Who are the fellows?</h2>
             <p>Fellows are mid-level Federal employees (typically GS 9-13) that have demonstrated leadership potential.</p>
             <p>&nbsp;
             </p>
     </div>
 
-    <div id="tabs-5" class="grid-col-9 padding-4">
+    <div id="tabs-5" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-5" class="grid-col-9 padding-4">
 
             <h2>Our Mission</h2>
             <p>1) To connect the rising leaders across government in functions of federal acquisition, finance, human capital, and information technology.</p>

@@ -3,7 +3,7 @@ bio-image: /wp-content/uploads/2018/01/Mike.png
 bio-image-alt-text: MIKE WETKLOW
 layout: bio
 permalink: /bio/mr-mike-wetklow/
-name : MR. MIKE WETKLOW
+name : Mr. Mike Wetklow
 department: National Science Foundation
 title: Deputy Chief Financial Officer & Director of the Division of Financial Management(DFM)
 special_title: 'yes'

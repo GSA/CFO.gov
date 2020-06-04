@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2019/08/susan_combs.jpg
 bio-image-alt-text: SUSAN COMBS
 layout: bio
 permalink: /bio/ms-susan-combs/
-name : MS. SUSAN COMBS
-department: DEPARTMENT OF THE INTERIOR
-title: CHIEF FINANCIAL OFFICER
+name : Ms. Susan Combs
+department: Department of the Interior
+title: Chief Financial Officer
 ---
 
 As Assistant Secretary for Policy, Management and Budget, Ms. Combs will play an important role in policy development, management reforms to align efforts among the bureaus, and stewardship of DOI's fiscal resources. The Assistant Secretary for Policy, Management and Budget leads the office and serves as DOI's Chief Financial Officer, Chief Acquisition Officer and Chief Performance Officer.
