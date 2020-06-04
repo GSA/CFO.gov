@@ -15,26 +15,26 @@ training: 'yes'
 
 ## OPENING REMARKS
 
-{% include youtube_embed.html id="HGPmUcIW4ug" %}  
+{% include youtube_embed.html title="OPENING REMARKS"  id="HGPmUcIW4ug" %}  
 
 ## SESSION 1: INTERNAL CONTROLS
 
-{% include youtube_embed.html id="HGPmUcIW4ug" %}  
+{% include youtube_embed.html title="SESSION 1: INTERNAL CONTROLS"  id="HGPmUcIW4ug" %}  
 
 ## SESSION 2: PROCUREMENT STANDARDS
 
-{% include youtube_embed.html id="lfbKQ9JyM8o" %}  
+{% include youtube_embed.html title="SESSION 2: PROCUREMENT STANDARDS"  id="lfbKQ9JyM8o" %}  
 
 ## SESSION 3: SINGLE AUDIT REPORTING
 
-{% include youtube_embed.html id="XixytE7atQ0" %} 
+{% include youtube_embed.html title="SESSION 3: SINGLE AUDIT REPORTING"  id="XixytE7atQ0" %} 
 
 ## SESSION 4: ADMINISTRATIVE FLEXIBILITIES
 
-{% include youtube_embed.html id="6HFO8Y529kM" %}  
+{% include youtube_embed.html title="SESSION 4: ADMINISTRATIVE FLEXIBILITIES"  id="6HFO8Y529kM" %}  
 
 ## SESSION 5: INDIRECT COST RATES FOR SUBRECIPIENTS
 
-{% include youtube_embed.html id="EV1E6YPHfbM" %}  
+{% include youtube_embed.html title="SESSION 5: INDIRECT COST RATES FOR SUBRECIPIENTS"  id="EV1E6YPHfbM" %}  
 
 

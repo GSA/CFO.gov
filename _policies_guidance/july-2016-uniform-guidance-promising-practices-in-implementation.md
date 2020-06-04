@@ -17,7 +17,7 @@ training: 'yes'
 
 ## OPENING REMARKS
 
-{% include youtube_embed.html id="Zr3rtJMZvhY" %}  
+{% include youtube_embed.html title="OPENING REMARKS"  id="Zr3rtJMZvhY" %}  
 
 
 
@@ -31,7 +31,7 @@ training: 'yes'
 * Phil Maestri, Director, Risk Management Service, U.S. Department of Education
 * Moderator: Rhea Hubbard, Policy Analyst, OMB
 
-{% include youtube_embed.html id="uBJMc5hNc1I" %}  
+{% include youtube_embed.html title="PROMISING PRACTICES IN IMPLEMENTATION: RISK ASSESSMENT (PANEL 1)" id="uBJMc5hNc1I" %}  
 
 **Resources:**
 
@@ -50,7 +50,7 @@ DHS FAPO Risk Assessment Tool Chart: [http://go.usa.gov/x34dF](http://go.usa.gov
 * Kim Moreland, Associate Vice Chancellor for Research and Sponsored Programs, University of Wisconsin - Madison.
 * Moderator: Rhea Hubbard, Policy Analyst, OMB
 
-{% include youtube_embed.html id="2GLHjA9uH9s" %} 
+{% include youtube_embed.html title="CONTRACT VS. SUBAWARD DETERMINATION (PANEL 2)"  id="2GLHjA9uH9s" %} 
 
 **SUB-RECIPIENT MONITORING (PANEL 3)**
 * Merril Oliver, Director, Governor's Grants Office, State of Maryland
@@ -58,7 +58,7 @@ DHS FAPO Risk Assessment Tool Chart: [http://go.usa.gov/x34dF](http://go.usa.gov
 * Kim Moreland, Associate Vice Chancellor for Research and Sponsored Programs, University of Wisconsin - Madison
 * Moderator: Rhea Hubbard, Policy Analyst, OMB
 
-{% include youtube_embed.html id="VMRQ6K01h74" %} 
+{% include youtube_embed.html title="SUB-RECIPIENT MONITORING (PANEL 3)"  id="VMRQ6K01h74" %} 
 
 **Resources:**
 
@@ -70,7 +70,7 @@ AGA Contractor vs. Subrecipient Checklist: <a href="{{site.baseurl}}/wp-content/
 * Laura Rainey, Director (Acting), Financial & IT Audits, Office of Inspector General, National Science Foundation
 * Moderator: Gil Tran, Policy Analyst, OMB
 
-{% include youtube_embed.html id="pA5n6oixAPI" %} 
+{% include youtube_embed.html title="PROMISING PRACTICES IN IMPLEMENTATION: PERSONNEL SERVICES (PANEL 4)"  id="pA5n6oixAPI" %} 
 
 **Resources:**
 
@@ -86,7 +86,7 @@ Payroll Certification at Michigan Technological University [http://go.usa.gov/x3
 * Carol A. Kraus CPA, Director, Grant Accountability and Transparency Unit, State of Illinois
 * Moderator: Gil Tran, Policy Analyst, OMB
 
-{% include youtube_embed.html id="dVFsaGkhbrU" %} 
+{% include youtube_embed.html title="INDIRECT COST RATES (PANEL 5)"  id="dVFsaGkhbrU" %} 
 
 **PROMISING PRACTICES IN IMPLEMENTATION: SINGLE AUDIT & CAROI (PANEL 6)**
 
@@ -94,7 +94,7 @@ Payroll Certification at Michigan Technological University [http://go.usa.gov/x3
 * Merril Oliver, Director, Governor's Grants Office, state of Maryland
 * Moderator: Gil Tran, Policy Analyst, OMB
 
-{% include youtube_embed.html id="ATmLGP7Pxv4" %} 
+{% include youtube_embed.html title="PROMISING PRACTICES IN IMPLEMENTATION: SINGLE AUDIT & CAROI (PANEL 6)"  id="ATmLGP7Pxv4" %} 
 
 **Resources:**
 
@@ -108,7 +108,7 @@ AGA Tools: [http://www.agacgfm.org/tools](https://www.agacgfm.org/tools)
 
 * Karen Lee, Branch Chief, Office of Federal Financial Management, OMB
 
-{% include youtube_embed.html id="VkY5zt7jKWg" %} 
+{% include youtube_embed.html title="CLOSING REMARKS"  id="VkY5zt7jKWg" %} 
 
 SPEAKER BIOS
 
