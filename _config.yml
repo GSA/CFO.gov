@@ -84,18 +84,27 @@ primary_navigation:
         url: "/erm/"
   - name: Policies & Guidance
     url: "/policies-and-guidance/"
+  - name: Knowledge Sharing
+    url: /knowledge-sharing/
   - name: JFMIP
     url: "/jfmip/"
   - name: FRPC
     url: "/frpc/"
-  - name: Knowledge Sharing
-    url: /knowledge-sharing/
+
   - name: CXO Fellows
     url: /cxo-fellows/
 
 secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
+
+secondary_navigation_frpc:
+  - name: Contact Us
+    url: "mailto:Realpropertypolicy@gsa.gov"
+
+secondary_navigation_cxo:
+  - name: Contact Us
+    url: "mailto:cxofellowship@gsa.gov"
 
 payment-accuracy-navigation:
   - name: About
@@ -115,6 +124,7 @@ footer:
     phonenumber: (800) CALL-GOVT
     email: CFOC.support@gsa.gov
     frpc-email: Realpropertypolicy@gsa.gov
+    cxo-email: cxofellowship@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #

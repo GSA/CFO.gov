@@ -32,38 +32,6 @@
   font-weight: 400;
 }
 
-@media (min-width: 64em) {
-  .usa-nav__primary > .usa-nav__primary-item {
-    font-size: 0.931618rem;
-    line-height: 0.939227;
-    padding-right: 1rem;
-  }
-}
-
-.secondary-nav-padding {
-  padding-bottom: 1rem;
-}
-
-@media screen and (min-width: 640px) {
-  .logo-size {
-    width: 214px;
-    height: 72px;
-  }
-}
-
-@media screen and (min-width: 640px){
-.jfmip-logo-size {
-  width: 148px;
-  height: 86px;
-  }
-}
-
-@media screen and (min-width: 640px){
-  .frpc-logo-size {
-    width: 148px;
-    height: 86px;
-  }
-}
 
 .search-button {
   background-color: #d83933;
@@ -95,6 +63,8 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 .priority-icons {
   background-position: center;
   background-image: url('../assets/images/priority-middle-image1.png');
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 /* Clearfix (clear floats) */
 .section_font {
@@ -212,6 +182,18 @@ color:#005ea2;
   background-image: url('../assets/images/frpc.png');
   background-color:  #19387b;
   background-size: cover;
+  padding:3em 0;
+}
+.jfmip-page{
+  background-image: url('../assets/images/jfmip.png');
+  background-color:  #19387b;
+  background-size: cover;
+  padding:3em 0;
+}
+.financial-assistance-page{
+  background-image: url('../assets/images/grants.png');
+  background-color:  #19387b;
+  background-size: cover;
   padding:4em 0;
 }
 .financial-assistance-page{
@@ -296,16 +278,59 @@ color:#005ea2;
   color: #FB5A47;
 }
 
-.bg-red{
+/*.bg-red{
   background-color: #FB5A47;
 }
-
+*/
 
 .connectToCFO{
   color: #1b1b1b;
   text-decoration: none;
 }
+.fdt-page .priority-tag-line h1{
+  margin-top:-0.25rem;
+}
+.circle-image.picons{
+  margin: 0 auto;
+}
+.picon{
+  height: 100px;
+  padding: 25px;
+}
 
+/* media queries*/
+@media (min-width: 64em) {
+  .usa-nav__primary > .usa-nav__primary-item {
+    font-size: 0.931618rem;
+    line-height: 0.939227;
+    padding-right: 1rem;
+  }
+}
+
+.secondary-nav-padding {
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .logo-size {
+    width: 214px;
+    height: 72px;
+  }
+}
+
+@media screen and (min-width: 640px){
+  .jfmip-logo-size {
+    width: 148px;
+    height: 86px;
+  }
+}
+
+@media screen and (min-width: 640px){
+  .frpc-logo-size {
+    width: 148px;
+    height: 86px;
+  }
+}
 
 @media screen and (max-width: 1025px) {
   .jfmip-logo-size{

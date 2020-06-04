@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2019/09/Tom-Gilman-Portrait-200x300.jpg
 bio-image-alt-text: THOMAS GILMAN
 layout: bio
 permalink: /bio/mr-thomas-gilman/
-name : MR. THOMAS GILMAN
-department: DEPARTMENT OF COMMERCE
-title: CHIEF FINANCIAL OFFICER
+name : Mr. Thomas Gilman
+department: Department of Commerce
+title: Chief Financial Officer
 ---
 
 Thomas F. Gilman was nominated by President Donald J. Trump to be the Chief Financial Officer and Assistant Secretary for Administration of the U.S. Department of Commerce. He was confirmed by the U.S. Senate in January 2019.

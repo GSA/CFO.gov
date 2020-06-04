@@ -14,7 +14,7 @@ filters: cxo-fellows
                 
 
                                                                                                                                                                                                                                                                     
-<p><img src="{{ site.baseurl }}/wp-content/uploads/2018/08/Sandra-e1535043568462-300x225.jpg" sizes="(max-width: 300px) 100vw, 300px" style="float: left;margin-right: 30px;margin-bottom: 10px;max-width: 100%; height: auto;" ><b>CXO Fellows Cohort: </b><span>FY 15-16</span></p>
+<p><img alt="SANDRA OLIVER SCHMIDT portrait" src="{{ site.baseurl }}/wp-content/uploads/2018/08/Sandra-e1535043568462-300x225.jpg" sizes="(max-width: 300px) 100vw, 300px" style="float: left;margin-right: 30px;margin-bottom: 10px;max-width: 100%; height: auto;" ><b>CXO Fellows Cohort: </b><span>FY 15-16</span></p>
 <p><b>Functional Group: </b><span style="font-weight: 400;">Procurement </span></p>
 <p><b>Current Position: </b><span style="font-weight: 400;">Contracting Officer</span></p>
 

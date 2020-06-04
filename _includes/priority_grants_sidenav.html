@@ -1,13 +1,13 @@
 <div id="tabs" class="grid-row clearfix">
     <ul class="grid-col-3 shadow-5">
-        <li><a href="#tabs-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
-        <li><a href="#tabs-2" class="text-no-underline text-base-darker font-sans-md">About Financial Assistance</a></li>
-        <li><a href="#tabs-3" class="text-no-underline text-base-darker font-sans-md">Strategy</a></li>
-        <li><a href="#tabs-4" class="text-no-underline text-base-darker font-sans-md">ESC Membership</a></li>
-        <li><a href="#tabs-5" class="text-no-underline text-base-darker font-sans-md">Org Structure</a></li>
+        <li><a href="#tabs-1" role="tab" aria-controls="tabs-1" id="tab-btn-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
+        <li><a href="#tabs-2" role="tab" aria-controls="tabs-2" id="tab-btn-2" class="text-no-underline text-base-darker font-sans-md">About Financial Assistance</a></li>
+        <li><a href="#tabs-3" role="tab" aria-controls="tabs-3" id="tab-btn-3" class="text-no-underline text-base-darker font-sans-md">Strategy</a></li>
+        <li><a href="#tabs-4" role="tab" aria-controls="tabs-4" id="tab-btn-4" class="text-no-underline text-base-darker font-sans-md">ESC Membership</a></li>
+        <li><a href="#tabs-5" role="tab" aria-controls="tabs-5" id="tab-btn-5" class="text-no-underline text-base-darker font-sans-md">Org Structure</a></li>
 
     </ul>
-    <div id="tabs-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
+    <div id="tabs-1" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-1" class="grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
         {% assign sorted = (site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'financial-assistance' | sort: 'date') | reverse %}
         {% for item in sorted limit:3 %}
         <div class="border-top border-gray-30 grid-container">
@@ -26,7 +26,7 @@
         </div>
         {% endfor %}
     </div>
-    <div id="tabs-2" class="grid-col-9 padding-4">
+    <div id="tabs-2" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-2" class="grid-col-9 padding-4">
         <p>
         <h2>Goal Statement</h2>
             Maximize the value of grant funding by applying a risk-based, data-driven framework that balances compliance requirements with demonstrating successful
@@ -36,18 +36,19 @@
             The Federal government uses grants to invest approximately $700 billion each year in mission-critical needs for American taxpayers, but managers
         report spending 40% of their time using antiquated processes to monitor compliance instead of analyzing data to improve results.
 
-           <h2>Opportunity</h2>
+           <h2>Opportunities</h2>
         Standardize the grants management business process and identify, open, standardize, and link data. Use standard business processes and data to
         establish a robust marketplace of modern solutions that ease burden and drive efficiencies, respond to customer needs, and deliver on mission.
         Leverage data, including data produced by annual audits, to assess and manage recipient risk. Hold recipients accountable for good performance
         practices that support achievement of program goals and objectives and streamline burdensome compliance requirements for those that demonstrate results.
         </p>
     </div>
-    <div id="tabs-3" class="grid-col-9 padding-4 font-s">
+    <div id="tabs-3" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-3" class="grid-col-9 padding-4 font-s">
         <p>The Financial Assistance Priority Area strategic approach is featured below:</p>
-        <img  alt="Grants strategy image" src="{{ site.baseurl }}/assets/images/image123.png">
+        <img  alt="The Grants Priority Area strategic approach features the following 4 strategies. These strategies build on one another. Strategy 1: Operationalize the Grants Management Standards -- Operationalize and maintain the GM standards to streamline recipient reporting, increase transparency, support the development of future and shared solutions, and implement the GREAT Act. Strategy 2: Establish a Robust Marketplace of Modern Solutions -- Use standard business process and data to establish a robust marketplace of modern solutions that ease burden and drive efficiencies, respond to customer needs, and deliver on mission.Strategy 3: Manage Risk -- Leverage data, including data produced by annual audits, to assess and manage recipient risk. Strategy 4: Achieve Program Goals and Objectives -- Hold recipients accountable for good performance practices that supports achievement of program goals and objectives and streamline burdensome compliance requirements for those that demonstrate results."
+         src="{{ site.baseurl }}/assets/images/image123.png">
     </div>
-    <div id="tabs-4" class="grid-col-9 padding-4">
+    <div id="tabs-4" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-4" class="grid-col-9 padding-4">
         <p>The Executive Steering Committee membership for the Financial Assistance Priority Area includes:
 
             <ul class="usa-list">
@@ -60,9 +61,10 @@
             </ul>
         </p>
     </div>
-    <div id="tabs-5" class="grid-col-9 padding-4">
+    <div id="tabs-5" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-5" class="grid-col-9 padding-4">
         <p>Below is the Executive Steering Committee organizational structure for the Financial Assistance Priority Area:</p>
-        <img  alt="Grants org structure image" src="{{ site.baseurl }}/assets/images/Grants_org_structure.png">
+        <img  alt="Hierarchy Row 1 (from top): Chief Financial Officers Council (CFOC) Hierarchy Row 2: Executive Steering Committee (ESC) OMB, HHS, DOL, NSF & the co-chairs from the Financial Assistance Committee for E-Government Stakeholder Outreach Hierarchy Row 3: Operationalize the Grants Management Standards ESC Lead: Dale Bell, NSF Grants Management Business Process and Data Standards Governance Group Establish a Robust Marketplace of Modern Solutions ESC Lead: Sheila Conley, HHS Single Audit and Risk Management Solution Working Group Quality Service Management Organization (QSMO) Governance Management Risk ESC Lead: Laura Watson, DOLRisk Management Working GroupCompliance Supplement teams Achieve Program Goals & Objectives ESC Lead: Robin Funston, DOJ Performance Management Working Group"
+         src="{{ site.baseurl }}/assets/images/Grants_org_structure.png">
     </div>
 
 </div>
