@@ -4,6 +4,8 @@ title: Enterprise Risk Management
 permalink: /erm/
 type: erm
 number_of_icons: 4
+description: Learn about Enterprise Risk Management and promoting a risk-aware culture across the federal government.
+keyword: CFO Priority Areas, CFO Council, CFOC, Enterprise Risk Management, ERM
 priority_icons: 
  - name: Initiatives
    logo: /assets/images/logos/asset 12.png
@@ -17,6 +19,6 @@ priority_icons:
  - name: OMB MAX
    logo: /assets/images/logos/asset 10.png
    link: https://community.max.gov/x/rgTvVg
-description: The Enterprise Risk Management Priority Area focuses on promoting and facilitating a risk-aware culture across the federal government through comprehensive strategy-setting supported by quality data.
+description1: The Enterprise Risk Management Priority Area focuses on promoting and facilitating a risk-aware culture across the federal government through comprehensive strategy-setting supported by quality data.
 ---
 

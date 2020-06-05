@@ -4,6 +4,8 @@ title: Financial Assistance
 permalink: /financial-assistance/
 type: financial-assistance
 number_of_icons: 4
+description: Learn about Financial Assistance maximizing the value of grant funding.
+keyword: CFO Priority Areas, CFO Council, CFOC, Financial Assistance
 priority_icons: 
  - name: Initiatives
    logo: /assets/images/logos/asset 12.png
@@ -17,7 +19,7 @@ priority_icons:
  - name: OMB MAX
    logo: /assets/images/logos/asset 10.png
    link: https://community.max.gov/x/rgTvVg   
-description: The Financial Assistance Priority Area focuses on maximizing the value of grant funding by applying a risk-based, data-driven framework that balances compliance requirements with demonstrating successful results for the American taxpayer.
+description1: The Financial Assistance Priority Area focuses on maximizing the value of grant funding by applying a risk-based, data-driven framework that balances compliance requirements with demonstrating successful results for the American taxpayer.
 ---
 
 
