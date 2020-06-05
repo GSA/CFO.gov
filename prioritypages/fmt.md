@@ -4,6 +4,8 @@ title: Fiscal Management Transformation
 permalink: /fmt/
 type: fmt
 number_of_icons: 3
+description: Learn about Fiscal Management Transformation and modernizing federal financial information.
+keyword: CFO Priority Areas, CFO Council, CFOC, Fiscal Management Transformation, FMT
 priority_icons: 
  - name: Initiatives
    logo: /assets/images/logos/asset 12.png
@@ -14,7 +16,7 @@ priority_icons:
  - name: OMB MAX
    logo: /assets/images/logos/asset 10.png
    link: https://community.max.gov/x/rgTvVg
-description: The Fiscal Management Transformation Priority Area focuses on modernizing federal financial information to standardize solutions and provide accountability to taxpayers.
+description1: The Fiscal Management Transformation Priority Area focuses on modernizing federal financial information to standardize solutions and provide accountability to taxpayers.
 ---
 
 
