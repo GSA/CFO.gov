@@ -69,6 +69,15 @@ dap_agency: GSA
 
 # Site Navigation
 primary_navigation:
+  - name: About
+    url: /
+    children:
+      - name: The Council
+        url: /about-the-council/
+      - name: The Members
+        url: /members/
+      - name: The Latest from Priority Areas
+        url: /the-latest/
   - name: Priority Areas
     url: /
     children:
