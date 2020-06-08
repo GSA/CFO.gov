@@ -86,7 +86,7 @@ primary_navigation:
     url: "/policies-and-guidance/"
   - name: Knowledge Sharing
     url: /knowledge-sharing/
-  - name: JFMIP
+  - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
     url: "/jfmip/"
   - name: FRPC
     url: "/frpc/"
