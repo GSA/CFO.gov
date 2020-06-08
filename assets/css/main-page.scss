@@ -398,3 +398,11 @@ color:#005ea2;
 abbr{
   text-decoration: none !important;
 }
+
+@media screen and (min-width: 1025px) {
+  .councilAgenciesList {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+}
