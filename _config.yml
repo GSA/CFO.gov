@@ -97,7 +97,7 @@ primary_navigation:
     url: /knowledge-sharing/
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
     url: "/jfmip/"
-  - name: FRPC
+  - name: <abbr title="Federal Real Property Council">FRPC</abbr>
     url: "/frpc/"
 
   - name: CXO Fellows
