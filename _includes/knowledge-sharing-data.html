@@ -6,7 +6,7 @@
         {% for item in site.policies_guidance %}
         {% if item.layout == "knowledge-sharing-landing" %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }}">
-            <div class="border-top-05 border-accent-warm bg-white padding-3 shadow-5 height-full members-hover ">
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover ">
                 {% if item.permalink %}
                 <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.permalink }}">
                     {% else %}
