@@ -72,9 +72,9 @@ primary_navigation:
   - name: About
     url: /
     children:
-      - name: The Council
+      - name: The  CFO Council
         url: /about-the-council/
-      - name: The Members
+      - name: Members
         url: /members/
       - name: The Latest from Priority Areas
         url: /the-latest/
@@ -95,8 +95,9 @@ primary_navigation:
     url: "/policies-and-guidance/"
   - name: Knowledge Sharing
     url: /knowledge-sharing/
-  - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
-    url: "/jfmip/"
+#    commented out JFMIP nav. But page is there based on PO's request.
+#  - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
+#    url: "/jfmip/"
   - name: <abbr title="Federal Real Property Council">FRPC</abbr>
     url: "/frpc/"
 
