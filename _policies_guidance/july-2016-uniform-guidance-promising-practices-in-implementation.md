@@ -24,7 +24,7 @@ training: 'yes'
 <h3>Promising Practices in Implementation: Risk Assessment (Panel 1)</h3>
 <ul>
 <ul>
-<li>Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and COFAR Co-Chair</li>
+<li>Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and <abbr title="Council on Financial Assistance Reform">COFAR</abbr> Co-Chair</li>
 <li>Phil Maestri, Director, Risk Management Service, U.S. Department of Education</li>
 <li>Moderator: Rhea Hubbard, Policy Analyst, OMB</li>
 </ul>
