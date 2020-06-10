@@ -69,6 +69,15 @@ dap_agency: GSA
 
 # Site Navigation
 primary_navigation:
+  - name: About
+    url: /
+    children:
+      - name: The  CFO Council
+        url: /about-the-council/
+      - name: Members
+        url: /members/
+      - name: The Latest from Priority Areas
+        url: /the-latest/
   - name: Priority Areas
     url: /
     children:
@@ -86,9 +95,10 @@ primary_navigation:
     url: "/policies-and-guidance/"
   - name: Knowledge Sharing
     url: /knowledge-sharing/
-  - name: JFMIP
-    url: "/jfmip/"
-  - name: FRPC
+#    commented out JFMIP nav. But page is there based on PO's request.
+#  - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
+#    url: "/jfmip/"
+  - name: <abbr title="Federal Real Property Council">FRPC</abbr>
     url: "/frpc/"
 
   - name: CXO Fellows

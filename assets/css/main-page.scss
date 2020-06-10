@@ -297,7 +297,71 @@ color:#005ea2;
   height: 100px;
   padding: 25px;
 }
+.divTable {
+  display: table;
 
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+}
+
+.divTableCell,
+.divTableHead {
+  border-top: .5px solid black;
+  border-left: .5px solid black;
+  display: table-cell;
+
+}
+.divTableCellBottom{
+  border-bottom: .5px solid black;
+}
+.divTableCellRight{
+  border-right: .5px solid black;
+}
+
+
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+.divTableBody {
+  display: table-row-group;
+}
+.view-full {
+  background-position: center;
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-indent: -9999px;
+  background-image: url("../img/search.svg");
+  background-repeat:no-repeat;
+  background-size:1.5rem;
+  background-color:#005ea2;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  border-radius:50%
+}
 /* media queries*/
 @media (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item {
@@ -349,5 +413,17 @@ color:#005ea2;
   .cfo-logo-size{
     width:  160px;
     height: 50px;
+  }
+}
+
+abbr{
+  text-decoration: none !important;
+}
+
+@media screen and (min-width: 1025px) {
+  .councilAgenciesList {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
   }
 }

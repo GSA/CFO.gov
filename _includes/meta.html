@@ -17,14 +17,15 @@ site, this is the place to do it.
   <!-- Title and meta description
     ================================================== -->
   <title>{{page.title}}</title>
-  <meta property="og:title" content="{{site.title}}">
-  <meta name="description" content="{{site.description}}">
-  <meta property="og:description" content="{{site.description}}">
+  <meta property="og:title" content="{{page.title}}">
+  <meta name="description" content="{{page.description}}">
+  <meta name="keyword" content="{{page.keyword}}">
+  <meta property="og:description" content="{{page.description}}">
 
-  <meta name="twitter:card" content="summary" />
+ <!-- <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{{site.title}}" />
-  <meta name="twitter:description" content="{{site.description}}" />
+  <meta name="twitter:description" content="{{site.description}}" />-->
 
   <meta property="og:type" content="article">
   <link rel="canonical" href="{{site.baseurl}}/">
@@ -50,6 +51,7 @@ site, this is the place to do it.
     ================================================== -->
   {% asset slick.css%}
   {% asset slick-theme.css%}
+  {% asset magnific-popup.css%}
   {% asset index.scss %}
   {% asset main-page.scss %}
 </head>

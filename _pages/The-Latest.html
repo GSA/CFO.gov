@@ -10,7 +10,7 @@ This template is for a single policy landing page.
 {% endcomment %}
 
 
-<section class="usa-graphic_list usa-prose usa-hero tablet:grid-container about clearfix ">
+<section class="usa-graphic_list usa-prose usa-hero tablet:grid-container about clearfix margin-bottom-3">
     <div class="grid-row grid-gap ">
 
         <div class="grid-col-10 grid-offset-1">
@@ -21,8 +21,8 @@ This template is for a single policy landing page.
 
 </section>
 
-<div class="usa-layout-docs__main tablet:grid-col-12">
-    <div class="grid-container font-sans-sm">
+<div class="usa-layout-docs__main">
+    <div class="grid-container font-sans-sm padding-0">
         <div class="grid-row grid-gap">
             <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
 
@@ -30,7 +30,7 @@ This template is for a single policy landing page.
                 {% for post in sorted limit:30 %}
                     {% if post.coming_soon != 'yes' and post.type == 'financial-assistance' or post.type == 'erm' or post.type == 'fdt' or post.type == 'fmt' or post.type == 'payment-integrity' %}
 
-                        <div class="padding-bottom-4 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
+                        <div class="padding-bottom-1 margin-top-2 usa-prose border-bottom-05 border-base-lightest">
                     <h3 class="title">{{post.title}}</h3>
 
                     <div class="text-base margin-bottom-2">
