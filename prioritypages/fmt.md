@@ -8,13 +8,13 @@ description: Learn about Fiscal Management Transformation and modernizing federa
 keyword: CFO Priority Areas, CFO Council, CFOC, Fiscal Management Transformation, FMT
 priority_icons: 
  - name: Initiatives
-   logo: /assets/images/logos/asset 12.svg
+   logo: /assets/images/logos/asset_12.svg
    url: /coming-soon/
  - name: Guidance, Policies and Resources
-   logo: /assets/images/logos/asset 9.svg
+   logo: /assets/images/logos/asset_9.svg
    url: /policies-and-guidance/#priority_area=.fmt&type=*
  - name: OMB MAX
-   logo: /assets/images/logos/asset 10.svg
+   logo: /assets/images/logos/asset_10.svg
    link: https://community.max.gov/x/rgTvVg
 description1: The Fiscal Management Transformation Priority Area focuses on modernizing federal financial information to standardize solutions and provide accountability to taxpayers.
 ---

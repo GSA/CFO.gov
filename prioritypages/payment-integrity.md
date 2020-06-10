@@ -8,16 +8,16 @@ description: Learn about Payment Integrity and the demonstration of stewardship 
 keyword: CFO Priority Areas, CFO Council, CFOC, Payment Integrity, Getting Payments Right, GPR
 priority_icons: 
  - name: Initiatives
-   logo: /assets/images/logos/asset 12.svg
+   logo: /assets/images/logos/asset_12.svg
    link: https://www.performance.gov/CAP/getting-payments-right/
  - name: Guidance, Policies and Resources
-   logo: /assets/images/logos/asset 9.svg
+   logo: /assets/images/logos/asset_9.svg
    url: /policies-and-guidance/#priority_area=.payment-integrity&type=*
  - name: PaymentAccuracy.gov
    logo: /assets/images/logos/PI.svg
    url: /payment-accuracy/
  - name: OMB MAX
-   logo: /assets/images/logos/asset 10.svg
+   logo: /assets/images/logos/asset_10.svg
    link: https://community.max.gov/x/rgTvVg
 description1: The Payment Integrity Priority Area is focused on demonstrating stewardship of taxpayer dollars by reducing monetary loss and making payments correctly the first time.
 ---

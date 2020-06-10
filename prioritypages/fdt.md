@@ -8,16 +8,16 @@ description: Learn about Financial Data Transformation and building a data-centr
 keyword: CFO Priority Areas, CFO Council, CFOC, Financial Data Transformation
 priority_icons: 
  - name: Initiatives
-   logo: /assets/images/logos/asset 12.svg
+   logo: /assets/images/logos/asset_12.svg
    url: /coming-soon/
  - name: Guidance, Policies and Resources
-   logo: /assets/images/logos/asset 9.svg
+   logo: /assets/images/logos/asset_9.svg
    url: /policies-and-guidance/#priority_area=.fdt&type=*
  - name: USAspending.gov
-   logo: /assets/images/logos/asset 11.svg
+   logo: /assets/images/logos/asset_11.svg
    link: https://www.usaspending.gov/#/
  - name: OMB MAX
-   logo: /assets/images/logos/asset 10.svg
+   logo: /assets/images/logos/asset_10.svg
    link: https://community.max.gov/x/rgTvVg
 description1: The Financial Data Transformation Priority Area is focused on building a data-centric environment to promote public trust in financial management, transparency, and accountability of Federal dollars that meets user needs while minimizing reporting burden, and orients the business of government around data.
 ---
