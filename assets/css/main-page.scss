@@ -343,8 +343,8 @@ color:#005ea2;
 }
 .view-full {
   background-position: center;
-  height: 32px;
-  width: 32px;
+  height: 48px;
+  width: 48px;
   margin: 10px;
   position: absolute;
   right: 0;
@@ -352,7 +352,7 @@ color:#005ea2;
   text-indent: -9999px;
   background-image: url("../img/search.svg");
   background-repeat:no-repeat;
-  background-size:cover;
+  background-size:1.5rem;
   background-color:#005ea2;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
