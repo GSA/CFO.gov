@@ -30,13 +30,13 @@ title: Priority
                 {% if page.number_of_icons == 3 %}
                 <div class="grid-col-4 text-center margin-y-10">
                 {% endif %}
+               <div class="circle-image picons bg-white">
                     {% if icon.url %}
-                        <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline">
-                    {% else %}
-                        <a href="{{ icon.link }}" class="text-no-underline">
+                    <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline"><img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }}" /></a></div>
+                {% else %}
+                <a href="{{ icon.link }}" class="text-no-underline"><img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }}" /></a></div>
                     {% endif %}
-                    <img class="circle-image" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }}" />
-                            <p class="font-heading-md text-gray-70">{{ icon.name }}</p></a>
+                <p class="font-heading-md"><a href="{{site.baseurl}}/fmt/" class="text-no-underline text-gray-70">{{ icon.name }}</a></p>
                 </div>
             {% endfor %}
     </div>
