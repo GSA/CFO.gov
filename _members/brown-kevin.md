@@ -1,5 +1,5 @@
 ---
-bio-image: /wp-content/uploads/2018/01/department_of_labor_Seal.png
+bio-image: /assets/images/logos/labor_logo.png
 bio-image-alt-text: KEVIN BROWN
 layout: bio
 permalink: /bio/mr-kevin-brown/
