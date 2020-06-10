@@ -14,7 +14,7 @@ training: 'yes'
 ---
 
 <h3>Opening Remarks</h3>
-<p><iframe src="https://www.youtube.com/embed/Zr3rtJMZvhY" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe title="Uniform Guidance: Promising Practices in Implementation: Opening Remarks" src="https://www.youtube.com/embed/Zr3rtJMZvhY" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <ul>
 <li>Dave Mader, Controller, OMB</li>
 <li>Rhea Hubbard, Policy Analyst, OMB</li>
@@ -29,7 +29,7 @@ training: 'yes'
 <li>Moderator: Rhea Hubbard, Policy Analyst, OMB</li>
 </ul>
 </ul>
-<p><iframe src="https://www.youtube.com/embed/uBJMc5hNc1I?list=PLhAybMDfZ8sPMbnpE5PW_mc-kSz3qS-7z" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe title="Uniform Guidance: Promising Practices in Implementation: Risk Assessment (Panel 1)" src="https://www.youtube.com/embed/uBJMc5hNc1I?list=PLhAybMDfZ8sPMbnpE5PW_mc-kSz3qS-7z" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <p><strong>Resources:</strong><br />
 EDUC Entity Risk Report Example: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel1_EDUC-Entity-Risk-Report-Example.pdf">http://go.usa.gov/x34pk</a><br />
 DHS Vulnerability Risk Assessment: <a href="http://go.usa.gov/x34dW">http://go.usa.gov/x34dW</a><br />
@@ -43,7 +43,7 @@ DHS FAPO Risk Assessment Tool Chart: <a href="http://go.usa.gov/x34dF">http://go
 <li>Kim Moreland, Associate Vice Chancellor for Research and Sponsored Programs, University of Wisconsin &#8211; Madison.</li>
 <li>Moderator: Rhea Hubbard, Policy Analyst, OMB</li>
 </ul>
-<p><iframe src="https://www.youtube.com/embed/2GLHjA9uH9s" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe title="Uniform Guidance: Contract vs. Subaward Determination (Panel 2)" src="https://www.youtube.com/embed/2GLHjA9uH9s" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <hr />
 <h3>Sub-recipient Monitoring (Panel 3)</h3>
 <ul>
@@ -52,7 +52,7 @@ DHS FAPO Risk Assessment Tool Chart: <a href="http://go.usa.gov/x34dF">http://go
 <li>Kim Moreland, Associate Vice Chancellor for Research and Sponsored Programs, University of Wisconsin &#8211; Madison</li>
 <li>Moderator: Rhea Hubbard, Policy Analyst, OMB</li>
 </ul>
-<p><iframe src="https://www.youtube.com/embed/VMRQ6K01h74" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
+<p><iframe title="Uniform Guidance: Sub-recipient Monitoring (Panel 3)" src="https://www.youtube.com/embed/VMRQ6K01h74" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
 Resources:<br />
 AGA Contractor vs. Subrecipient Checklist: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel3_AGA-contractor-v-subrecipient_checklist100315.pdf">http://go.usa.gov/x34mJ</a></p>
 <hr />
@@ -61,7 +61,7 @@ AGA Contractor vs. Subrecipient Checklist: <a href="{{site.baseurl}}/wp-content/
 <li>Laura Rainey, Director (Acting), Financial &amp; IT Audits, Office of Inspector General, National Science Foundation</li>
 <li>Moderator: Gil Tran, Policy Analyst, OMB</li>
 </ul>
-<p><iframe src="https://www.youtube.com/embed/pA5n6oixAPI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
+<p><iframe title="Uniform Guidance: Promising Practices in Implementation: Personnel Services (Panel 4)" src="https://www.youtube.com/embed/pA5n6oixAPI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
 <strong>Resources:</strong><br />
 REPORT: Labor Effort Reporting under the Federal Demonstration Project’s Pilot Payroll<br />
 Certification Program at George Mason University, Report No. 15-1-017 <a href="http://go.usa.gov/x3WyJ">http://go.usa.gov/x3WyJ</a></p>
@@ -74,7 +74,7 @@ Payroll Certification at Michigan Technological University <a href="http://go.us
 <li>Carol A. Kraus CPA, Director, Grant Accountability and Transparency Unit, State of Illinois</li>
 <li>Moderator: Gil Tran, Policy Analyst, OMB</li>
 </ul>
-<p><iframe src="https://www.youtube.com/embed/dVFsaGkhbrU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe title="Uniform Guidance: Indirect Cost Rates (Panel 5)" src="https://www.youtube.com/embed/dVFsaGkhbrU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <hr />
 <h3>Promising Practices in Implementation: Single Audit &amp; CAROI (Panel 6)</h3>
 <ul>
@@ -82,7 +82,7 @@ Payroll Certification at Michigan Technological University <a href="http://go.us
 <li>Merril Oliver, Director, Governor’s Grants Office, state of Maryland</li>
 <li>Moderator: Gil Tran, Policy Analyst, OMB</li>
 </ul>
-<p><iframe src="https://www.youtube.com/embed/ATmLGP7Pxv4" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
+<p><iframe title="Uniform Guidance: Promising Practices in Implementation: Single Audit & CAROI (Panel 6)" src="https://www.youtube.com/embed/ATmLGP7Pxv4" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
 <strong>Resources:</strong><br />
 CAROI Playbook: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf">http://go.usa.gov/x34cB</a> <br />
 AGA CAROI Guide: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf">http://go.usa.gov/x34cB</a><br />
@@ -92,7 +92,7 @@ AGA Tools: <a href="http://www.agacgfm.org/tools">http://www.agacgfm.org/tools</
 <ul>
 <li>Karen Lee, Branch Chief, Office of Federal Financial Management, OMB</li>
 </ul>
-<p><iframe src="https://www.youtube.com/embed/VkY5zt7jKWg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe title="July 2016: Uniform Guidance: Closing Remarks" src="https://www.youtube.com/embed/VkY5zt7jKWg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <hr />
 <h2>Speaker Bios</h2>
 <p><strong>Andrea Brandon </strong>is the Director, Financial Assistance Policy and Oversight, Department of Homeland Security (DHS).  She provides executive leadership and strategic direction for financial assistance programs across the DHS.  Andrea has broad experience in risk management, audits, internal controls, information technology, acquisition management, and financial operations in a federal career spanning 27 years. She has led several government-wide initiatives: FFAMIA Grants Streamlining; the CFO Council’s Grants Training and Certification Workgroup; and the FFATA Grant Sub-award Pilot Subcommittee.  While at HHS, Andrea also led the Grants Management Line of Business Grants System consolidation effort. Andrea has recently been appointed as the co-chair of COFAR (Council on Financial Assistance Reform) and is the 2016 Winner of the National Grants Management Association Newton Award.</p>
