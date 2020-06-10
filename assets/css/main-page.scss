@@ -341,6 +341,27 @@ color:#005ea2;
 .divTableBody {
   display: table-row-group;
 }
+.view-full {
+  background-position: center;
+  height: 32px;
+  width: 32px;
+  margin: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-indent: -9999px;
+  background-image: url("../img/search.svg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:#5b6cc5;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  border-radius:50%
+}
 /* media queries*/
 @media (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item {
