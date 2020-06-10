@@ -76,7 +76,7 @@ Payroll Certification at Michigan Technological University <a href="http://go.us
 </ul>
 <p><iframe title="Uniform Guidance: Indirect Cost Rates (Panel 5)" src="https://www.youtube.com/embed/dVFsaGkhbrU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <hr />
-<h3>Promising Practices in Implementation: Single Audit &amp; CAROI (Panel 6)</h3>
+<h3>Promising Practices in Implementation: Single Audit &amp; <abbr title="Cooperative Audit Resolution and Oversight Initiative">CAROI</abbr> (Panel 6)</h3>
 <ul>
 <li>Rich Rasa, Director, State and Local Advisory and Assistance, Office of Inspector General, U.S. Department of Education</li>
 <li>Merril Oliver, Director, Governor’s Grants Office, state of Maryland</li>
@@ -84,7 +84,7 @@ Payroll Certification at Michigan Technological University <a href="http://go.us
 </ul>
 <p><iframe title="Uniform Guidance: Promising Practices in Implementation: Single Audit & CAROI (Panel 6)" src="https://www.youtube.com/embed/ATmLGP7Pxv4" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
 <strong>Resources:</strong><br />
-CAROI Playbook: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf">http://go.usa.gov/x34cB</a> <br />
+<abbr title="Cooperative Audit Resolution and Oversight Initiative">CAROI</abbr> Playbook: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf">http://go.usa.gov/x34cB</a> <br />
 AGA CAROI Guide: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf">http://go.usa.gov/x34cB</a><br />
 AGA Tools: <a href="http://www.agacgfm.org/tools">http://www.agacgfm.org/tools</a></p>
 <hr />
@@ -108,7 +108,7 @@ AGA Tools: <a href="http://www.agacgfm.org/tools">http://www.agacgfm.org/tools</
 <p>&nbsp;</p>
 <p><strong>Beth Bowsky</strong> is the Policy Specialist for Government-Nonprofit Contracting at the National Council of Nonprofits, a role in which she combines her educational background of social work and public administration with her unique blend of nonprofit and government experience toward encouraging and supporting fairer and simpler contracting and grant processes and procedures across the country, which includes implementation of the OMB Uniform Guidance.</p>
 <p>&nbsp;</p>
-<p><strong>Rich Rasa</strong> has served as the Director of the Education Department’s Office of Inspector General State and Local Advisory and Assistance staff since 1991. Rich was instrumental in establishing the Department’s <em>Cooperative Audit Resolution and Oversight Initiative</em> (CAROI), and he and his staff have participated in the initiative since its inception in 1994.  Rich is also a founding Steering Committee member of the Association of Government Accountants Partnership for Intergovernmental Management and Accountability, since 2007.  In 2010 Rich was awarded the President’s Award from the Association of Government Accountants for his work on the Intergovernmental Partnership.  In 2013, he received the AGA President’s Award for his CAROI efforts and the AGA Intergovernmental Partnership Steering Committee awarded him <em>The Innovator Award</em>.  Rich is a Certified Government Financial Manager.</p>
+<p><strong>Rich Rasa</strong> has served as the Director of the Education Department’s Office of Inspector General State and Local Advisory and Assistance staff since 1991. Rich was instrumental in establishing the Department’s <em>Cooperative Audit Resolution and Oversight Initiative</em> (CAROI), and he and his staff have participated in the initiative since its inception in 1994.  Rich is also a founding Steering Committee member of the Association of Government Accountants Partnership for Intergovernmental Management and Accountability, since 2007.  In 2010 Rich was awarded the President’s Award from the Association of Government Accountants for his work on the Intergovernmental Partnership.  In 2013, he received the AGA President’s Award for his <abbr title="Cooperative Audit Resolution and Oversight Initiative">CAROI</abbr> efforts and the AGA Intergovernmental Partnership Steering Committee awarded him <em>The Innovator Award</em>.  Rich is a Certified Government Financial Manager.</p>
 <p>&nbsp;</p>
 <p><strong>Merril Oliver</strong> is Director of the Maryland Governor’s Grants Office after serving as the founding deputy director in 2004 for nine years.  Oliver returned to Maryland from Puerto Rico, where she developed a centralized federal funds management office for Governor Alejandro Garcia Padilla during 2014. As a member of the Association of Government Accountants Intergovernmental Partnership since 2007, she served as co-chair of multiple grants related workgroups.  She was president of the National Grants Management Association from 2009-2012. Oliver also sat on the Board of Editorial Advisors for Thompson Publishing’s Federal Grants Management Handbook from 2004-2012 and is published in the Journal of Government Financial Management.  In 2011, she was appointed by the Obama Administration to the Presidential Executive Order Workgroup on Improper Payments. She is a Certified Grants Management Specialist (CGMS).</p>
 <p>&nbsp;</p>
