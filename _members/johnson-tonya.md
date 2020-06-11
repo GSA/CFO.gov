@@ -19,10 +19,10 @@ As the ACFO, Ms. Johnson was instrumental in leading several key Government-wide
 
 * Established the credit monitoring funding sources for the security breach at OPM for all agencies and collaborated with the Department of Defense and contractors to ensure that official notices were received by all persons impacted by the breach and all offered identity protection for 10 years;
 * Assisted the National Background Investigation Bureau, formerly the Federal Investigative Services, with new pricing, which moved the program from a $250 million program to a $1.1 billion program; and
-* Ensured OPM maintained an unqualified opinion and remediated 22 Notice of Findings and Recommendations in 6 months.
-Prior to serving as the ACFO at OPM, Ms. Johnson served as the Chief of the Financial Reporting and Analysis (FRA), where she oversaw reporting and preparation for all trust funds and revolving fund program financial statements. As the Chief of FRA, she planned and directed financial, accounting, and reporting operations of OPM's billion-dollar revolving fund.  Ms.  Johnson also managed the preparation of monthly and quarterly financial statements, material differences, current and future cash flow analysis, and oversaw key audit functions.
+* Ensured <abbr title="Office of Personnel Management">OPM</abbr> maintained an unqualified opinion and remediated 22 Notice of Findings and Recommendations in 6 months.
+Prior to serving as the ACFO at <abbr title="Office of Personnel Management">OPM</abbr>, Ms. Johnson served as the Chief of the Financial Reporting and Analysis (FRA), where she oversaw reporting and preparation for all trust funds and revolving fund program financial statements. As the Chief of FRA, she planned and directed financial, accounting, and reporting operations of <abbr title="Office of Personnel Management">OPM</abbr>'s billion-dollar revolving fund.  Ms.  Johnson also managed the preparation of monthly and quarterly financial statements, material differences, current and future cash flow analysis, and oversaw key audit functions.
 
-Prior to working for OPM, Ms. Johnson held key positions that advanced her expertise and leadership in Federal financial management operations including:
+Prior to working for <abbr title="Office of Personnel Management">OPM</abbr>, Ms. Johnson held key positions that advanced her expertise and leadership in Federal financial management operations including:
 
 **Department of Agriculture, National Institute of Food and Agriculture**
 **Director, Financial Operations**
