@@ -17,7 +17,7 @@ title: Deputy Assistant Secretary, Finance and Deputy Chief Financial Officer
                   
    Ms. Conley is the 2010 recipient of the Donald L. Scantlebury Memorial Award, which annually commemorates a dynamic leader whose ideas and actions have significantly advanced financial management in the public sector. This award is the highest honor bestowed by the Joint Financial Management Improvement Program (JFMIP) Principals, representing GAO, OMB, Treasury, and OPM.
                   
-   She is a certified public accountant in the District of Columbia and a Certified Government Financial Manager. She is a member of the Greater Washington Society of Certified Public Accountants, American Institute of Certified Public Accountants, and AGA. Sheila obtained a bachelor's of business administration degree (summa cum laude) in 1981 from James Madison University in Harrisonburg, VA. She is married and has three energetic sons.
+   She is a certified public accountant in the District of Columbia and a Certified Government Financial Manager. She is a member of the Greater Washington Society of Certified Public Accountants, American Institute of Certified Public Accountants, and <abbr title="Association of Government Accountants">AGA</abbr>. Sheila obtained a bachelor's of business administration degree (summa cum laude) in 1981 from James Madison University in Harrisonburg, VA. She is married and has three energetic sons.
     
     
 
