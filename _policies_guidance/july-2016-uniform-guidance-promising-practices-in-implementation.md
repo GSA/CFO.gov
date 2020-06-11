@@ -16,9 +16,9 @@ training: 'yes'
 <h3>Opening Remarks</h3>
 <p><iframe title="Uniform Guidance: Promising Practices in Implementation: Opening Remarks" src="https://www.youtube.com/embed/Zr3rtJMZvhY" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <ul>
-<li>Dave Mader, Controller, OMB</li>
-<li>Rhea Hubbard, Policy Analyst, OMB</li>
-<li>Gil Tran, Policy Analyst, OMB</li>
+<li>Dave Mader, Controller, <abbr title="Office of Management and Budget">OMB</abbr></li>
+<li>Rhea Hubbard, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
+<li>Gil Tran, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
 <hr />
 <h3>Promising Practices in Implementation: Risk Assessment (Panel 1)</h3>
@@ -26,7 +26,7 @@ training: 'yes'
 <ul>
 <li>Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and <abbr title="Council on Financial Assistance Reform">COFAR</abbr> Co-Chair</li>
 <li>Phil Maestri, Director, Risk Management Service, U.S. Department of Education</li>
-<li>Moderator: Rhea Hubbard, Policy Analyst, OMB</li>
+<li>Moderator: Rhea Hubbard, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
 </ul>
 <p><iframe title="Uniform Guidance: Promising Practices in Implementation: Risk Assessment (Panel 1)" src="https://www.youtube.com/embed/uBJMc5hNc1I?list=PLhAybMDfZ8sPMbnpE5PW_mc-kSz3qS-7z" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
@@ -41,7 +41,7 @@ EDUC Entity Risk Report Example: <a href="{{site.baseurl}}/wp-content/uploads/20
 <li>Merril Oliver, Director, Governor’s Grants Office, State of Maryland</li>
 <li>Carol A. Kraus CPA, Director, Grant Accountability and Transparency Unit, State of Illinois</li>
 <li>Kim Moreland, Associate Vice Chancellor for Research and Sponsored Programs, University of Wisconsin &#8211; Madison.</li>
-<li>Moderator: Rhea Hubbard, Policy Analyst, OMB</li>
+<li>Moderator: Rhea Hubbard, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
 <p><iframe title="Uniform Guidance: Contract vs. Subaward Determination (Panel 2)" src="https://www.youtube.com/embed/2GLHjA9uH9s" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <hr />
@@ -50,7 +50,7 @@ EDUC Entity Risk Report Example: <a href="{{site.baseurl}}/wp-content/uploads/20
 <li>Merril Oliver, Director, Governor’s Grants Office, State of Maryland</li>
 <li>Carol A. Kraus CPA, Director, Grant Accountability and Transparency Unit, State of Illinois</li>
 <li>Kim Moreland, Associate Vice Chancellor for Research and Sponsored Programs, University of Wisconsin &#8211; Madison</li>
-<li>Moderator: Rhea Hubbard, Policy Analyst, OMB</li>
+<li>Moderator: Rhea Hubbard, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
 <p><iframe title="Uniform Guidance: Sub-recipient Monitoring (Panel 3)" src="https://www.youtube.com/embed/VMRQ6K01h74" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
 Resources:<br />
@@ -59,7 +59,7 @@ Resources:<br />
 <h3> Promising Practices in Implementation: Personnel Services (Panel 4)</h3>
 <ul>
 <li>Laura Rainey, Director (Acting), Financial &amp; <abbr title="Information Technology">IT</abbr> Audits, Office of Inspector General, National Science Foundation</li>
-<li>Moderator: Gil Tran, Policy Analyst, OMB</li>
+<li>Moderator: Gil Tran, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
 <p><iframe title="Uniform Guidance: Promising Practices in Implementation: Personnel Services (Panel 4)" src="https://www.youtube.com/embed/pA5n6oixAPI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
 <strong>Resources:</strong><br />
@@ -72,7 +72,7 @@ Payroll Certification at Michigan Technological University <a href="http://go.us
 <ul>
 <li>Beth Bowsky, Policy Specialist, Government-Nonprofit Contracting, National Council of Nonprofits</li>
 <li>Carol A. Kraus CPA, Director, Grant Accountability and Transparency Unit, State of Illinois</li>
-<li>Moderator: Gil Tran, Policy Analyst, OMB</li>
+<li>Moderator: Gil Tran, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
 <p><iframe title="Uniform Guidance: Indirect Cost Rates (Panel 5)" src="https://www.youtube.com/embed/dVFsaGkhbrU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <hr />
@@ -80,7 +80,7 @@ Payroll Certification at Michigan Technological University <a href="http://go.us
 <ul>
 <li>Rich Rasa, Director, State and Local Advisory and Assistance, Office of Inspector General, U.S. Department of Education</li>
 <li>Merril Oliver, Director, Governor’s Grants Office, state of Maryland</li>
-<li>Moderator: Gil Tran, Policy Analyst, OMB</li>
+<li>Moderator: Gil Tran, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
 <p><iframe title="Uniform Guidance: Promising Practices in Implementation: Single Audit & CAROI (Panel 6)" src="https://www.youtube.com/embed/ATmLGP7Pxv4" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
 <strong>Resources:</strong><br />
@@ -90,7 +90,7 @@ Payroll Certification at Michigan Technological University <a href="http://go.us
 <hr />
 <h3>Closing Remarks</h3>
 <ul>
-<li>Karen Lee, Branch Chief, Office of Federal Financial Management, OMB</li>
+<li>Karen Lee, Branch Chief, Office of Federal Financial Management, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
 <p><iframe title="July 2016: Uniform Guidance: Closing Remarks" src="https://www.youtube.com/embed/VkY5zt7jKWg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <hr />
@@ -112,5 +112,5 @@ Payroll Certification at Michigan Technological University <a href="http://go.us
 <p>&nbsp;</p>
 <p><strong>Merril Oliver</strong> is Director of the Maryland Governor’s Grants Office after serving as the founding deputy director in 2004 for nine years.  Oliver returned to Maryland from Puerto Rico, where she developed a centralized federal funds management office for Governor Alejandro Garcia Padilla during 2014. As a member of the Association of Government Accountants Intergovernmental Partnership since 2007, she served as co-chair of multiple grants related workgroups.  She was president of the National Grants Management Association from 2009-2012. Oliver also sat on the Board of Editorial Advisors for Thompson Publishing’s Federal Grants Management Handbook from 2004-2012 and is published in the Journal of Government Financial Management.  In 2011, she was appointed by the Obama Administration to the Presidential Executive Order Workgroup on Improper Payments. She is a Certified Grants Management Specialist (CGMS).</p>
 <p>&nbsp;</p>
-<p><strong>Dave Mader</strong> has had a distinguished career in both the Government and private sector.  He formerly served as an IRS assistant deputy commissioner, where he received the Distinguished and Meritorious President Rank Award and the Treasury Secretary’s Honor Award for his work.  Before joining OMB, he was a senior vice president at Booz Allen Hamilton, leading the firm’s work with the Department of Treasury and many other Federal agencies.  Dave is also a Fellow with the National Academy of Public Administration.  Since joining OMB as Controller, Dave has been an inspirational advocate for strong financial management and partnership across government and beyond.</p>
+<p><strong>Dave Mader</strong> has had a distinguished career in both the Government and private sector.  He formerly served as an IRS assistant deputy commissioner, where he received the Distinguished and Meritorious President Rank Award and the Treasury Secretary’s Honor Award for his work.  Before joining OMB, he was a senior vice president at Booz Allen Hamilton, leading the firm’s work with the Department of Treasury and many other Federal agencies.  Dave is also a Fellow with the National Academy of Public Administration.  Since joining <abbr title="Office of Management and Budget">OMB</abbr> as Controller, Dave has been an inspirational advocate for strong financial management and partnership across government and beyond.</p>
 	

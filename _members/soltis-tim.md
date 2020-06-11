@@ -11,7 +11,7 @@ title: Deputy Controller, Office of Federal Financial Management
              senior member of the Office of Management and Budget&#39;s (OMB) management team supporting the
              President&#39;s Management Agenda (PMA) across multiple Cross Agency Priority (CAP) goals and in
              providing policy to the federal financial management and financial assistance communities to support
-             their mission, service, and stewardship responsibilities. He also provides leadership to OMB&#39;s statutory
+             their mission, service, and stewardship responsibilities. He also provides leadership to <abbr title="Office of Management and Budget">OMB</abbr>&#39;s statutory
              Office of Federal Financial Management (OFFM) across a diverse financial management portfolio and on
              major initiatives.
              

@@ -11,7 +11,7 @@ filters: fdt playbook
 ## DATA ACT ##
 
 
-The Leveraging Data as a Strategic Asset Working Group developed and issued this Playbook in collaboration with federal agencies to assist with developing Data Quality Plans in support of the DATA Act implementation. This playbook is a result of extensive collaboration between agencies, OMB, and the Department of the Treasury. The final document and subsequent versions will be posted to the CFOC website. The use of the playbook format is a practice to gather, define, and illustrate concepts in federal financial management.
+The Leveraging Data as a Strategic Asset Working Group developed and issued this Playbook in collaboration with federal agencies to assist with developing Data Quality Plans in support of the DATA Act implementation. This playbook is a result of extensive collaboration between agencies, <abbr title="Office of Management and Budget">OMB</abbr>, and the Department of the Treasury. The final document and subsequent versions will be posted to the CFOC website. The use of the playbook format is a practice to gather, define, and illustrate concepts in federal financial management.
 
 The DATA Quality playbook joins a library of management resources developed for agency use to include the ERM Playbook and the Program Integrity; Anti-fraud Playbook. As with these playbooks, nothing in this Playbook should be considered prescriptive. All examples provided should be modified to fit the circumstances, conditions, and structure of each agency (or other government organization).
 

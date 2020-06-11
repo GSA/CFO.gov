@@ -8,7 +8,7 @@ subtitle: "Federal Real Property Profile Data Elements"
 permalink: /policies/controller-alert-federal-real-property-profile-data-elements/
 filters: controller-alerts
 ---
-*This Controller Alert brings your attention to an emerging financial management issue that may require agency attention or action. These Alerts are designed to make sure that the Senior Real Property Officer and CFO communities are aware of key issues where OMB believes further action may be warranted, but do not constitute official guidance or include specific tasks for agencies beyond consideration of appropriate steps to address the issue.*
+*This Controller Alert brings your attention to an emerging financial management issue that may require agency attention or action. These Alerts are designed to make sure that the Senior Real Property Officer and CFO communities are aware of key issues where <abbr title="Office of Management and Budget">OMB</abbr> believes further action may be warranted, but do not constitute official guidance or include specific tasks for agencies beyond consideration of appropriate steps to address the issue.*
 
 To further improve the consistency and quality of FRPP data among agencies and within agencies (i.e., among agency components) the General Services Administration (GSA) recently issued revised definitions for the critical FRPP data elements repair needs, replacement value, annual maintenance costs, and annual operations costs for the December 2018 data reporting cycle. <a href="{{site.baseurl}}/wp-content/uploads/2016/12/GSA-Memo-to-Agencies-Regarding-Revised-Definitions-for-FY-2018-Reporting-12.1.16.pdf">The GSA memorandum and revised definitions are attached here.</a>
 
