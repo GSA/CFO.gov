@@ -15,7 +15,7 @@ Ms. Johnson holds a Master of Accountancy with a concentration in Forensic Accou
 
 As the Associate Chief Financial Officer (ACFO) of Financial Services, Ms. Johnson oversaw the Office of Personnel Management's (OPM) $1.1 trillion trust fund program and $1.2 billion revolving fund program, which encompasses the Retirement and Disability Program, Federal Employee's Health Benefits Program, Retired Employees' Health Benefits Program, Federal Employees Group Life Insurance and National Background Investigation Bureau.
 
-As the ACFO, Ms. Johnson was instrumental in leading several key Government-wide initiatives including:
+As the <abbr title="Associate Chief Financial Officer">ACFO</abbr>, Ms. Johnson was instrumental in leading several key Government-wide initiatives including:
 
 * Established the credit monitoring funding sources for the security breach at OPM for all agencies and collaborated with the Department of Defense and contractors to ensure that official notices were received by all persons impacted by the breach and all offered identity protection for 10 years;
 * Assisted the National Background Investigation Bureau, formerly the Federal Investigative Services, with new pricing, which moved the program from a $250 million program to a $1.1 billion program; and
