@@ -13,7 +13,7 @@ filters: cxo-fellows
 
 <div style="line-height: 1.8em;margin-bottom: 80px; display: block;">
 			
-<p><b>CXO Fellows Cohort FY 16-17<a href="{{ site.baseurl }}/wp-content/uploads/2018/06/Angela.png"><img   alt="Angela McPherson portrait" src="{{ site.baseurl }}/wp-content/uploads/2018/06/Angela-300x300.png" width="300" height="300" sizes="(max-width: 300px) 100vw, 300px" style="float: left;margin-right: 30px;margin-bottom: 10px;max-width: 100%; height: auto;"></a></b></p>
+<p><b>CXO Fellows Cohort <abbr title="Fiscal year">FY</abbr> 16-17<a href="{{ site.baseurl }}/wp-content/uploads/2018/06/Angela.png"><img   alt="Angela McPherson portrait" src="{{ site.baseurl }}/wp-content/uploads/2018/06/Angela-300x300.png" width="300" height="300" sizes="(max-width: 300px) 100vw, 300px" style="float: left;margin-right: 30px;margin-bottom: 10px;max-width: 100%; height: auto;"></a></b></p>
 <p><b>Functional Group: </b><i><span style="font-weight: 400;">Information Technology</span></i></p>
 <p><b>Current Position: </b><i><span style="font-weight: 400;">Program Liaison Specialist, MY <abbr title="Office of Shared Solutions Performance Improvement">OSSPI</abbr></span></i></p>
 <p><b>Agency: </b><i><span style="font-weight: 400;">GSA </span></i></p>
