@@ -39,19 +39,19 @@ filters: cxo-fellows
         		
   <div id="gallery-1" class="gallery galleryid-94 gallery-columns-1 gallery-size-large"><dl class="gallery-item">
                 			<dt class="gallery-icon landscape">
-                				<a href="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-01.jpeg"><img width="1024" height="768" src="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-01-1024x768.jpeg" alt="CXO Fellows Class - OMB Briefing" aria-describedby="gallery-1-96" sizes="(max-width: 1024px) 100vw, 1024px"></a>
+                				<img width="1024" height="768" src="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-01-1024x768.jpeg" alt="CXO Fellows Class - OMB Briefing" aria-describedby="gallery-1-96" sizes="(max-width: 1024px) 100vw, 1024px">
                 			</dt>
                 				<dd class="wp-caption-text gallery-caption" id="gallery-1-96">
                 				Kate Hudson, Director of the CXO Fellows Program, opens the briefing from <abbr title="Office of Management and Budget">OMB</abbr> leaders.
                 				</dd></dl><br style="clear: both"><dl class="gallery-item">
                 			<dt class="gallery-icon portrait">
-                				<a href="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-02-e1452007088411.jpeg"><img width="1014" height="1024" src="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-02-e1452007088411-1014x1024.jpeg"  alt="CXO Fellows Class - Karen Lee presents" aria-describedby="gallery-1-98" srcset="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-02-e1452007088411-1014x1024.jpeg 1014w, {{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-02-e1452007088411-150x150.jpeg 150w, {{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-02-e1452007088411-297x300.jpeg 297w" sizes="(max-width: 1014px) 100vw, 1014px"></a>
+                				<img width="1014" height="1024" src="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-02-e1452007088411-1014x1024.jpeg"  alt="CXO Fellows Class - Karen Lee presents" aria-describedby="gallery-1-98" srcset="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-02-e1452007088411-1014x1024.jpeg 1014w, {{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-02-e1452007088411-150x150.jpeg 150w, {{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-02-e1452007088411-297x300.jpeg 297w" sizes="(max-width: 1014px) 100vw, 1014px">
                 			</dt>
                 				<dd class="wp-caption-text gallery-caption" id="gallery-1-98">
                 				Karen Lee, Branch Chief at the Office of Federal Financial Management, speaks to the CXO Fellows class about federal financial management.
                 				</dd></dl><br style="clear: both"><dl class="gallery-item">
                 			<dt class="gallery-icon landscape">
-                				<a href="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-04.jpeg"><img width="1024" height="768" src="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-04-1024x768.jpeg" class="attachment-large size-large" alt="CXO Fellows Class - Anne Rung" aria-describedby="gallery-1-97" srcset="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-04-1024x768.jpeg 1024w, {{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-04-300x225.jpeg 300w" sizes="(max-width: 1024px) 100vw, 1024px"></a>
+                				<img width="1024" height="768" src="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-04-1024x768.jpeg" class="attachment-large size-large" alt="CXO Fellows Class - Anne Rung" aria-describedby="gallery-1-97" srcset="{{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-04-1024x768.jpeg 1024w, {{ site.baseurl }}/wp-content/uploads/2016/01/Fellows-OMB-Brief-04-300x225.jpeg 300w" sizes="(max-width: 1024px) 100vw, 1024px">
                 			</dt>
                 				<dd class="wp-caption-text gallery-caption" id="gallery-1-97">
                 				Anne Rung, Administrator, Office of Federal Procurement Policy, speaks to CXO Fellows about building a better procurement system.
