@@ -15,7 +15,7 @@ filters: cxo-fellows
 			
 <p><b>CXO Fellows Cohort FY 16-17<a href="{{ site.baseurl }}/wp-content/uploads/2018/06/Angela.png"><img   alt="Angela McPherson portrait" src="{{ site.baseurl }}/wp-content/uploads/2018/06/Angela-300x300.png" width="300" height="300" sizes="(max-width: 300px) 100vw, 300px" style="float: left;margin-right: 30px;margin-bottom: 10px;max-width: 100%; height: auto;"></a></b></p>
 <p><b>Functional Group: </b><i><span style="font-weight: 400;">Information Technology</span></i></p>
-<p><b>Current Position: </b><i><span style="font-weight: 400;">Program Liaison Specialist, MY OSSPI</span></i></p>
+<p><b>Current Position: </b><i><span style="font-weight: 400;">Program Liaison Specialist, MY <abbr title="Office of Shared Solutions Performance Improvement">OSSPI</abbr></span></i></p>
 <p><b>Agency: </b><i><span style="font-weight: 400;">GSA </span></i></p>
 <p><span style="font-weight: 400;">Angela McPherson is a member of the 2016-2017 CXO Fellows cohort. During her participation in the CXO Fellowship, Angela was a Program Specialist working as a financial management systems trainer at the General Services Administration (GSA). In February 2018, Angela transitioned to GSA’s Office of Shared Solutions &amp; Performance Improvement (OSSPI) as a Program Liaison Specialist supporting the Chief Acquisition Officers Council (CAOC), Performance Improvement Council (PIC), and President Management Council (PMC).</span> <span style="font-weight: 400;">We sat down with Angela to discuss her experience as a recent CXO Fellow. </span></p>
 <p><b>How did the program advance your career as a public servant?</b></p>
