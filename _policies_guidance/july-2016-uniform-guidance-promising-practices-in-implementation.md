@@ -28,7 +28,6 @@ training: 'yes'
 <li>Phil Maestri, Director, Risk Management Service, U.S. Department of Education</li>
 <li>Moderator: Rhea Hubbard, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
-</ul>
 <p><iframe title="Uniform Guidance: Promising Practices in Implementation: Risk Assessment (Panel 1)" src="https://www.youtube.com/embed/uBJMc5hNc1I?list=PLhAybMDfZ8sPMbnpE5PW_mc-kSz3qS-7z" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <p><strong>Resources:</strong><br />
 EDUC Entity Risk Report Example: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel1_EDUC-Entity-Risk-Report-Example.pdf">http://go.usa.gov/x34pk</a><br />
