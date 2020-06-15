@@ -24,7 +24,7 @@ filters: cxo-fellows
                     }
         	
                  
-                    tr:nth-child(odd) {background-color: #f2f2f2;}
+                    tr:nth-child(even) {background-color: #f2f2f2;}
         
         th, td {
           padding: 10px;
@@ -35,7 +35,11 @@ filters: cxo-fellows
 <div style="overflow-x:auto;">
 <div >
 <table style="height: 845px;" border="0" width="653" cellspacing="5" cellpadding="5">
-<tbody>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Agency</th>
+        </tr>
 <tr>
 <td>Hicham</td>
 <td>Touti</td>
@@ -171,7 +175,7 @@ filters: cxo-fellows
 <td>Greene</td>
 <td>United States Navy</td>
 </tr>
-</tbody>
+
 </table>
 </div>
 </div>
