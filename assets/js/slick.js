@@ -1288,7 +1288,9 @@
         _.$slides.not(_.$slideTrack.find('.slick-cloned')).each(function (i) {
             $(this).attr({
               //  'role': 'option',
-                'aria-describedby': 'slick-slide' + _.instanceUid + i + ''
+                'aria-describedby': 'slick-slide' + _.instanceUid + i + '',
+                'id': 'navigation' + _.instanceUid + i + ''
+
             });
         });
 

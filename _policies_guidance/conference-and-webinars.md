@@ -5,7 +5,7 @@ permalink: /conference-and-webinars/
 ---
 
 ##<abbr title="Joint Financial Management Improvement Program">JFMIP</abbr> FEDERAL FINANCIAL MANAGEMENT CONFERENCE, MAY 20, 2019
-The Joint Financial Management Improvement Program (JFMIP), a cooperative undertaking of the Treasury, GAO, OMB and OPM, will hold its annual Federal Financial Management Conference on May 20, 2019, at the Ronald Reagan Building and International Trade Center. This one-day conference provides a forum for those in the federal financial management community to learn about current issues, exchange knowledge, and share experiences in improving financial management operations and policies.
+The Joint Financial Management Improvement Program (JFMIP), a cooperative undertaking of the Treasury, <abbr title="Government Accountability Office">GAO</abbr>, <abbr title="Office of Management and Budget">OMB</abbr> and <abbr title="Office of Personnel Management">OPM</abbr>, will hold its annual Federal Financial Management Conference on May 20, 2019, at the Ronald Reagan Building and International Trade Center. This one-day conference provides a forum for those in the federal financial management community to learn about current issues, exchange knowledge, and share experiences in improving financial management operations and policies.
 
 Registration for federal employees will be done through their agency's Intragovernmental Payment and Collection System. Vendors with government contracts or federal government employees using their own funds will register through Pay.gov. Registration will open in the mid-March timeframe. More information to follow.
 

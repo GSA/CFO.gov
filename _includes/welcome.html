@@ -3,43 +3,59 @@
 <section class="usa-graphic_list usa-section usa-prose clearfix">
 
     <div class="clearfix grid-container priority-icons">
-        <div class="grid-row"><h2 class="text-primary-darker">Priority Areas</h2></div>
-     <div class="grid-row grid-gap">
-        <div class="tablet:grid-col-2 text-center margin-y-6  desktop:grid-offset-1">
-
-                <div class="circle-image picons bg-white"><a href="{{site.baseurl}}/financial-assistance/" class="text-no-underline"> <img class="picon" src="{{site.baseurl}}/assets/images/logos/grants.svg" alt="Financial Assistance logo" /></a></div>
-             <p class="font-heading-md"><a href="{{site.baseurl}}/financial-assistance/" class="text-no-underline text-gray-70">Financial Assistance</a></p>
+        <div class="grid-row">
+            <h2 class="text-primary-darker">Priority Areas</h2>
         </div>
-        <div class="tablet:grid-col-2 text-center margin-y-6">
+        <div class="grid-row grid-gap">
+            <div class="tablet:grid-col-2 text-center margin-y-6  desktop:grid-offset-1">
+                <a href="{{site.baseurl}}/financial-assistance/" class="text-no-underline text-gray-70"
+                    style="display: inline-block;">
+                    <div class="circle-image picons bg-white"> <img class="picon"
+                            src="{{site.baseurl}}/assets/images/logos/grants.svg" alt="Financial Assistance logo" />
+                    </div>
+                    <p class="font-heading-md">Financial Assistance</p>
+                </a>
+            </div>
+            <div class="tablet:grid-col-2 text-center margin-y-6">
+                <a href="{{site.baseurl}}/payment-integrity/" class="text-no-underline text-gray-70"
+                    style="display: inline-block;">
+                    <div class="circle-image picons bg-white"> <img class="picon"
+                            src="{{site.baseurl}}/assets/images/logos/PI.svg" alt="Payment Integrity logo" /></div>
+                    <p class="font-heading-md">Payment Integrity</p>
+                </a>
+            </div>
 
-                <div class="circle-image picons bg-white"> <a href="{{site.baseurl}}/payment-integrity/" class="text-no-underline"><img class="picon" src="{{site.baseurl}}/assets/images/logos/PI.svg" alt="Payment Integrity logo" /></a></div>
-             <p class="font-heading-md"><a href="{{site.baseurl}}/payment-integrity/" class="text-no-underline text-gray-70">Payment Integrity</a></p>
+            <div class="tablet:grid-col-2 text-center margin-y-6">
+                <a href="{{site.baseurl}}/erm/" class="text-no-underline text-gray-70" style="display: inline-block;">
+                    <div class="circle-image picons bg-white"> <img class="picon"
+                            src="{{site.baseurl}}/assets/images/logos/ERM.svg" alt="ERM logo" /></div>
+                    <p class="font-heading-md">Enterprise Risk Management</p>
+                </a>
+            </div>
+
+            <div class="tablet:grid-col-2 text-center margin-y-6">
+                <a href="{{site.baseurl}}/fdt/" class="text-no-underline text-gray-70" style="display: inline-block;">
+                    <div class="circle-image picons bg-white"> <img class="picon"
+                            src="{{site.baseurl}}/assets/images/logos/FDT.svg" alt="FDT logo" /></div>
+                    <p class="font-heading-md">Financial Data Transformation</p>
+                </a>
+            </div>
+
+            <div class="tablet:grid-col-2 text-center margin-y-6">
+                <a href="{{site.baseurl}}/fmt/" class="text-no-underline text-gray-70" style="display: inline-block;">
+                    <div class="circle-image picons bg-white"> <img class="picon"
+                            src="{{site.baseurl}}/assets/images/logos/FMT.svg" alt="FMT logo" /></div>
+                    <p class="font-heading-md">Fiscal
+                        Management Transformation</p>
+                </a>
+            </div>
         </div>
-
-        <div class="tablet:grid-col-2 text-center margin-y-6">
-
-                <div class="circle-image picons bg-white"> <a href="{{site.baseurl}}/erm/" class="text-no-underline"><img class="picon" src="{{site.baseurl}}/assets/images/logos/ERM.svg" alt="ERM logo" /></a></div>
-            <p class="font-heading-md"><a href="{{site.baseurl}}/erm/" class="text-no-underline text-gray-70">Enterprise Risk Management</a></p>
-        </div>
-
-        <div class="tablet:grid-col-2 text-center margin-y-6">
-
-                <div class="circle-image picons bg-white"> <a href="{{site.baseurl}}/fdt/" class="text-no-underline"><img class="picon" src="{{site.baseurl}}/assets/images/logos/FDT.svg" alt="FDT logo" /></a></div>
-                <p class="font-heading-md"><a href="{{site.baseurl}}/fdt/" class="text-no-underline text-gray-70">Financial Data Transformation</a></p>
-        </div>
-
-        <div class="tablet:grid-col-2 text-center margin-y-6">
-
-                <div class="circle-image picons bg-white"> <a href="{{site.baseurl}}/fmt/" class="text-no-underline"><img class="picon" src="{{site.baseurl}}/assets/images/logos/FMT.svg" alt="FMT logo" /></a></div>
-                <p class="font-heading-md"><a href="{{site.baseurl}}/fmt/" class="text-no-underline text-gray-70">Fiscal Management Transformation</a></p>
-        </div>
-      </div>
     </div>
 </section>
 
-<section class="usa-graphic_list usa-section usa-prose clearfix ">
+<section class="usa-graphic_list clearfix ">
     <div class="clearfix grid-container grey-back padding-top-2 padding-bottom-2">
         <h2 class="text-base-darker margin-top-0">Members</h2>
-{% include members_preview.html %}
+        {% include members_preview.html %}
     </div>
 </section>

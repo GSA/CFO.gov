@@ -14,7 +14,7 @@ In that capacity, Mr. Gilman holds a dual role overseeing all financial and mana
 
 Prior to joining the government, Mr. Gilman had a 40+ year career as a senior executive and entrepreneur within the global automotive industry. Mr. Gilman has unique experience having worked in automotive manufacturing, automotive retailing, automotive financial services and automotive supply.
 
-Mr. Gilman spent 22 years at Chrysler Corporation and 5 years at Chrysler Financial where he served as CFO. During that time, Chrysler Financial achieved four years of double-digit growth and 16 consecutive quarters of record profits. In 1998, Mr. Gilman helped lead the Daimler-Benz/Chrysler Corporation merger.
+Mr. Gilman spent 22 years at Chrysler Corporation and 5 years at Chrysler Financial where he served as <abbr title="Chief Financial Officer">CFO</abbr>. During that time, Chrysler Financial achieved four years of double-digit growth and 16 consecutive quarters of record profits. In 1998, Mr. Gilman helped lead the Daimler-Benz/Chrysler Corporation merger.
 
 Following the merger, Mr. Gilman joined the Asbury Automotive Group in 2001, where he oversaw their Initial Public Offering on the NYSE in 2002.
 
