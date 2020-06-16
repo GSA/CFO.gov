@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2019/09/Tom-Gilman-Portrait-200x300.jpg
 bio-image-alt-text: THOMAS GILMAN
 layout: bio
 permalink: /bio/mr-thomas-gilman/
-name : MR. THOMAS GILMAN
-department: DEPARTMENT OF COMMERCE
-title: CHIEF FINANCIAL OFFICER
+name : Mr. Thomas Gilman
+department: Department of Commerce
+title: Chief Financial Officer
 ---
 
 Thomas F. Gilman was nominated by President Donald J. Trump to be the Chief Financial Officer and Assistant Secretary for Administration of the U.S. Department of Commerce. He was confirmed by the U.S. Senate in January 2019.
@@ -14,7 +14,7 @@ In that capacity, Mr. Gilman holds a dual role overseeing all financial and mana
 
 Prior to joining the government, Mr. Gilman had a 40+ year career as a senior executive and entrepreneur within the global automotive industry. Mr. Gilman has unique experience having worked in automotive manufacturing, automotive retailing, automotive financial services and automotive supply.
 
-Mr. Gilman spent 22 years at Chrysler Corporation and 5 years at Chrysler Financial where he served as CFO. During that time, Chrysler Financial achieved four years of double-digit growth and 16 consecutive quarters of record profits. In 1998, Mr. Gilman helped lead the Daimler-Benz/Chrysler Corporation merger.
+Mr. Gilman spent 22 years at Chrysler Corporation and 5 years at Chrysler Financial where he served as <abbr title="Chief Financial Officer">CFO</abbr>. During that time, Chrysler Financial achieved four years of double-digit growth and 16 consecutive quarters of record profits. In 1998, Mr. Gilman helped lead the Daimler-Benz/Chrysler Corporation merger.
 
 Following the merger, Mr. Gilman joined the Asbury Automotive Group in 2001, where he oversaw their Initial Public Offering on the NYSE in 2002.
 

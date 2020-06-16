@@ -20,16 +20,16 @@ where we provide an easy way to manage your navigation system
             <h1 class="margin-0 clearfix font-ui-xl ">
                 <a href="{{ site.baseurl }}/frpc/" accesskey="1" class="usa-logo-text" title="FRPC Page"
                     aria-label="FRPC Page">
-                    <em class="text-red"> FRPC</em>
+                    <em class="text-red"> <abbr title="Federal Real Property Council">FRPC</abbr></em>
                     <span class="font-body-md frpcSubText" style="display: block;">Federal Real Property Council</span>
                 </a>
                 {% endif %}
 
                 {% if include.page_type == 'jfmip' %}
                 <em class="usa-logo-text">
-                    <a href="{{ site.baseurl }}/jfmip/" accesskey="1" title="JFMIP Page" aria-label="JFMIP Page">
+                    <a href="{{ site.baseurl }}/jfmip/" accesskey="1" title="Joint Financial Management Improvement Program" aria-label="Joint Financial Management Improvement Program">
                         <img class="logo-size  jfmip-logo-size" src="{{ site.jfmip-logo | prepend: site.baseurl }}"
-                            alt="JFMIP logo">
+                            alt="Joint Financial Management Improvement Program logo">
                     </a>
                 </em>
                 {% endif %}
@@ -53,7 +53,7 @@ where we provide an easy way to manage your navigation system
         <div class="usa-nav__inner">
             <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
             {% if include.page_type == 'payment-accuracy' %}
-            <ul class="usa-nav__primary usa-accordion" hidden="">
+            <ul class="usa-nav__primary usa-accordion" >
                 {% for nav_item in include.primary_navigation %}
                 {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
                 {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
@@ -72,7 +72,7 @@ where we provide an easy way to manage your navigation system
                     </li>
                     {% endfor %}
                 </ul>
-                {% include searchgov/form.html searchgov=site.searchgov %}
+                {% include searchgov/form.html affiliate=site.searchgov.affiliate %}
             </div>
         </div>
     </nav>

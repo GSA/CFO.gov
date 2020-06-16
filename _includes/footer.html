@@ -1,6 +1,6 @@
 <footer class="usa-footer">
-    <div class="grid-container usa-footer__return-to-top">
-        <a href="#">Return to top</a>
+    <div class="grid-container margin-top-2 margin-bottom-2">
+        <a href="#" class="usa-button usa-button--outline border-0">Return to top</a>
     </div>
 
     <div class="usa-footer__secondary-section">
@@ -8,23 +8,25 @@
         {% if include.page_type != 'payment-accuracy' %}
         <div class="grid-container">
             <div class="grid-row grid-gap">
-                <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                <div class="usa-footer__logo grid-row mobile-lg:grid-col-9 mobile-lg:grid-gap-2">
                     <div class="mobile-lg:grid-col-auto">
-                        <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" alt="">
-                        <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" alt="">
+                        <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" alt="General Services Administration logo">
+                        <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" alt="Seal of the Executive Office of the President of the United States">
                     </div>
-                    <div class="mobile-lg:grid-col-auto">
-                        <h3 class="usa-footer-logo-heading">General Services Administration & the Office of Management and Budget</h3>
+                    <div class="mobile-lg:grid-col-8">
+                        <p class="usa-footer-logo-heading mobile-lg:font-ui-md"><strong>General Services Administration & the Office of Management and Budget</strong></p>
                     </div>
                 </div>
-                <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-                    <h3 class="usa-footer__contact-heading">Contact Us</h3>
+                <div class="usa-footer__contact-links mobile-lg:grid-col-3">
+                    <div class="usa-footer-logo-heading mobile-lg:font-ui-md"><strong>Contact Us</strong></div>
                     <address class="usa-footer__address">
                         <div class="usa-footer__contact-info grid-row grid-gap">
                             <div class="grid-col-auto">
                                 <p>
                                 {% if include.page_type == 'frpc' %}
-                                {{ site.footer.contact.frpc-email }}
+                                    {{ site.footer.contact.frpc-email }}
+                                {% elsif include.page_type == 'cxo'  %}
+                                    {{ site.footer.contact.cxo-email }}
                                 {% else %}
                                 {{ site.footer.contact.email }}
                                 {% endif %}

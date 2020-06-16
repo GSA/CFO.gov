@@ -24,7 +24,7 @@ filters: cxo-fellows
                     }
         	
                  
-                    tr:nth-child(odd) {background-color: #f2f2f2;}
+                    tr:nth-child(even) {background-color: #f2f2f2;}
         
         th, td {
           padding: 10px;
@@ -38,7 +38,11 @@ filters: cxo-fellows
 <p><img src="{{ site.baseurl }}/wp-content/uploads/2016/02/13-14-Fellows.jpg" alt="13-14 Fellows" width="911" height="310" srcset="https://cfo.gov/wp-content/uploads/2016/02/13-14-Fellows.jpg 911w, https://cfo.gov/wp-content/uploads/2016/02/13-14-Fellows-300x102.jpg 300w" sizes="(max-width: 911px) 100vw, 911px"></p>
 <p>&nbsp;</p>
 <table  style="height: 845px;" border="0" width="653" cellspacing="5" cellpadding="5">
-<tbody>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Agency</th>
+        </tr>
 <tr>
 <td>Janani</td>
 <td>Ramachandran</td>
@@ -139,7 +143,6 @@ filters: cxo-fellows
 <td>Schuster</td>
 <td>Social Security Administration</td>
 </tr>
-</tbody>
 </table>
 <p>&nbsp;</p>
 <p>&nbsp;</p>

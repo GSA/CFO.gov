@@ -32,38 +32,6 @@
   font-weight: 400;
 }
 
-@media (min-width: 64em) {
-  .usa-nav__primary > .usa-nav__primary-item {
-    font-size: 0.931618rem;
-    line-height: 0.939227;
-    padding-right: 1rem;
-  }
-}
-
-.secondary-nav-padding {
-  padding-bottom: 1rem;
-}
-
-@media screen and (min-width: 640px) {
-  .logo-size {
-    width: 214px;
-    height: 72px;
-  }
-}
-
-@media screen and (min-width: 640px){
-.jfmip-logo-size {
-  width: 148px;
-  height: 86px;
-  }
-}
-
-@media screen and (min-width: 640px){
-  .frpc-logo-size {
-    width: 148px;
-    height: 86px;
-  }
-}
 
 .search-button {
   background-color: #d83933;
@@ -83,7 +51,8 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
 .priority-tag-line{
-  padding-top: .5em;
+  /*padding-top: .5em;*/
+
 }
 
 .cxo{
@@ -94,6 +63,8 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 .priority-icons {
   background-position: center;
   background-image: url('../assets/images/priority-middle-image1.png');
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 /* Clearfix (clear floats) */
 .section_font {
@@ -211,6 +182,18 @@ color:#005ea2;
   background-image: url('../assets/images/frpc.png');
   background-color:  #19387b;
   background-size: cover;
+  padding:3em 0;
+}
+.jfmip-page{
+  background-image: url('../assets/images/jfmip.png');
+  background-color:  #19387b;
+  background-size: cover;
+  padding:3em 0;
+}
+.financial-assistance-page{
+  background-image: url('../assets/images/grants.png');
+  background-color:  #19387b;
+  background-size: cover;
   padding:4em 0;
 }
 .financial-assistance-page{
@@ -265,14 +248,14 @@ color:#005ea2;
 .slick-dots
 {
   position: absolute;
-  bottom: 9px;
+  bottom: 15px;
   display: block;
   width: 100%;
   padding: 0;
   margin: 0;
   list-style: none;
   text-align: right;
-  right:5px;
+  right:15px;
 }
 .bottom .slick-dots{
   text-align: center;
@@ -294,19 +277,127 @@ color:#005ea2;
 .slick-dots li.slick-active button:before {
   color: #FB5A47;
 }
-/*
-.bg-red{
-  background-color: #FB5A47;
-}*/
 
+/*.bg-red{
+  background-color: #FB5A47;
+}
+*/
 
 .connectToCFO{
   color: #1b1b1b;
   text-decoration: none;
 }
+.fdt-page .priority-tag-line h1{
+  margin-top:-0.25rem;
+}
+.circle-image.picons{
+  margin: 0 auto;
+}
+.picon{
+  height: 100px;
+  padding: 25px;
+}
+.divTable {
+  display: table;
+
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+}
+
+.divTableCell,
+.divTableHead {
+  border-top: .5px solid black;
+  border-left: .5px solid black;
+  display: table-cell;
+
+}
+.divTableCellBottom{
+  border-bottom: .5px solid black;
+}
+.divTableCellRight{
+  border-right: .5px solid black;
+}
 
 
-@media screen and (max-width: 951px) {
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+.divTableBody {
+  display: table-row-group;
+}
+.view-full {
+  background-position: center;
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-indent: -9999px;
+  background-image: url("../img/search.svg");
+  background-repeat:no-repeat;
+  background-size:1.5rem;
+  background-color:#005ea2;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  border-radius:50%
+}
+.white-popup{position: relative;background: #FFF;padding: 20px;width: auto;max-width: 1200px;margin: 20px auto;}
+/* media queries*/
+@media (min-width: 64em) {
+  .usa-nav__primary > .usa-nav__primary-item {
+    font-size: 0.931618rem;
+    line-height: 0.939227;
+    padding-right: 1rem;
+  }
+}
+
+.secondary-nav-padding {
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .logo-size {
+    width: 214px;
+    height: 72px;
+  }
+}
+
+@media screen and (min-width: 640px){
+  .jfmip-logo-size {
+    width: 148px;
+    height: 86px;
+  }
+}
+
+@media screen and (min-width: 640px){
+  .frpc-logo-size {
+    width: 148px;
+    height: 86px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
   .jfmip-logo-size{
     height: 46px;
     width: 72px;
@@ -318,5 +409,22 @@ color:#005ea2;
   }
   .frpcSubText{
     font-size: .75rem;
+  }
+
+  .cfo-logo-size{
+    width:  160px;
+    height: 50px;
+  }
+}
+
+abbr{
+  text-decoration: none !important;
+}
+
+@media screen and (min-width: 1025px) {
+  .councilAgenciesList {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
   }
 }

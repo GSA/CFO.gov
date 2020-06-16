@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2018/01/Mark-Easton-Sep-2016.jpg
 bio-image-alt-text: MARK EASTON
 layout: bio
 permalink: /bio/mr-mark-easton/
-name : MR. MARK EASTON
-department: DEPARTMENT OF DEFENSE
-title: DEPUTY CHIEF FINANCIAL OFFICER
+name : Mr. Mark Easton
+department: Department of Defense
+title: Deputy Chief Financial Officer
 ---
    Mr. Mark Easton has served as the Deputy Chief Financial
              Officer (DCFO), in the Office of the Under Secretary of
@@ -26,11 +26,11 @@ title: DEPUTY CHIEF FINANCIAL OFFICER
              comprehensive audit in fiscal year 2018. In addition, Mr. Easton has oversight of the
              Department's Manager's Internal Control Program; improper payment reduction program;
              implementation of the Digital Accountability and Transparency Act of 2014 (DATA Act); cost
-             accounting initiatives; CFO of the Future strategy implementation; CFO data transformation for
+             accounting initiatives; <abbr title="Chief Financial Officer">CFO</abbr> of the Future strategy implementation; CFO data transformation for
              better decision making and governance, and various other business process reforms to
              streamline, simplify and make financial management more efficient.
              
-   Prior to becoming the DCFO, Mr. Easton was the Deputy Assistant Secretary of the Navy
+   Prior to becoming the <abbr title="Deputy Chief Financial Officer">DCFO</abbr>, Mr. Easton was the Deputy Assistant Secretary of the Navy
              and Director for Financial Operations. In this position, he was responsible for Department of the
              Navy financial improvement initiatives that involved systems and processes employed by 9,000
              Navy-Marine Corps financial managers. Earlier, he was appointed to the Senior Executive

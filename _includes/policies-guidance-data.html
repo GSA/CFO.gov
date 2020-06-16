@@ -6,15 +6,18 @@
         {% for item in site.policies_guidance %}
         {% if item.layout == "policies-guidance-landing" %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }}">
-            <div class="border-top-05 border-accent-warm bg-white padding-3 shadow-5 height-full members-hover ">
-                <div class="text-container">
-                    <p  class="title-resources">
-                        {% if item.permalink %}
-                        <a class="no-style" href="{{ site.baseurl }}{{ item.permalink }}">{{ item.subtitle }}</a>
-                        {% else %}
-                        <a  class="no-style" href="{{ item.doc-link }}">{{ item.subtitle }}</a>
-                        {% endif %}
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover ">
+                {% if item.permalink %}
+                <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.permalink }}">
+                {% else %}
+                <a class="no-style anchor-fill" href="{{ item.doc-link }}">
+                {% endif %}
+                <div class="text-container height-card-lg">
+                    <strong>
+                    <p  class="usa-link" >
+                        {{ item.subtitle }}
                     </p>
+                    </strong>
                     {% assign filters = item.filters | split: ' ' %}
                     {% for filter in filters %}
                     {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
@@ -31,7 +34,7 @@
                     </p>
                     {% endif %}
                     {% endfor %}
-                </div>
+                </div></a>
             </div>
         </div>
         {% endif %}

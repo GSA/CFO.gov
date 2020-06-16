@@ -2,45 +2,32 @@
 title: Members
 layout: default
 permalink: /members/
+description: Learn more on the CFOC members.
+keyword: CFO Priority Areas, CFO Council, CFOC members, Members
 ---
 <!-- *****LOOP FOR MEMBERS PAGE *********-->
 <div class="grid-container font-sans-sm">
-<section class="usa-graphic-list padding-top-0" >
-    <div class="grid-container">
-        <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+    <section class="usa-graphic-list padding-top-0" >
+        <div class="grid-container">
+            <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
 
-            {% for bio in site.members %}
-            <div class="tablet:grid-col-4 container" style="padding:10px;">
-                <a style="color:black" href="{{ site.baseurl }}{{ bio.permalink }}">
-                    <div class="left">
-                        <img src="{{ site.baseurl }}{{ bio.bio-image }}">
-                    </div>
-                    <div class="right">
-                        {% if bio.special_name %}
-                            <p><span class="name">{{ bio.special_name }}<br></span>
-                                {% else %}
-                        {% assign member_name = bio.name | split: ' ' %}
-
-                        {% capture namecase %}{% for name_component in member_name %}{{ name_component | capitalize }} {% endfor %}{% endcapture %}
-                            <p><span class="name">{{ namecase }}<br></span>
-                        {% endif %}
-                            {% assign member_title = bio.title | split: ' ' %}
+                {% for bio in site.members %}
+                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                    <a style="color:black;text-decoration: none; display: block;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
+                        <div class="left">
+                            <img src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
+                        </div>
+                        <div class="right">
+                            <p><span class="name">{{ bio.name }}<br></span>
+                                <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
 
 
-                            {% capture titlecase %}{% for title_component in member_title %}{{ title_component | capitalize }} {% endfor %}{% endcapture %}
-
-                            {% assign member_department = bio.department | split: ' ' %}
-
-                            {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
-
-                            <span class="title">{{ titlecase }}, {{ deptcase }}</span></p>
-                    </div>
-                </a>
             </div>
-            {% endfor %}
-
-
         </div>
-    </div>
-</section>
+    </section>
+
 </div>

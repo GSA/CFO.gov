@@ -2,27 +2,23 @@
        <div class="grid-row ">
         {% for bio in site.members limit:4 %}
             <div class="tablet:grid-col-3 padding-1">
+                <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black;text-decoration: none; display: block;" class="height-full">
                 <div class="bg-white padding-3 border-bottom-05 border-accent-warm shadow-5 height-full members-hover">
-                    <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black;text-decoration: none">
 
+                    {% if bio.preview-image %}
+                    <img class="circle-10" src="{{ site.baseurl }}{{ bio.preview-image }}" alt="{{bio.bio-image-alt-text}}">
+                    {% else %}
                     <img class="circle-10" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text}}">
-                {% assign member_name = bio.name | split: ' ' %}
+                    {% endif %}
+                    <p class="name-leader">{{ bio.name }}</p>
+                    <p class="text-leader">{{ bio.department | strip }}</p>
+                    <p class="text-leader">{{ bio.title }}</p>
 
-                {% capture namecase %}{% for name_component in member_name %}{{ name_component | capitalize }} {% endfor %}{% endcapture %}
-                <p class="name-leader">{{ namecase }}</p>
-                    {% assign member_title = bio.title | split: ' ' %}
-
-                    {% capture titlecase %}{% for title_component in member_title %}{{ title_component | capitalize }} {% endfor %}{% endcapture %}
-
-                    {% assign member_department = bio.department | split: ' ' %}
-
-                    {% capture deptcase %}{% for dept_component in member_department %}{{ dept_component | capitalize }} {% endfor %}{% endcapture %}
-
-                    <p class="text-leader">{{ titlecase }}, {{ deptcase }}</p></a>
                 </div>
+                </a>
 
             </div>
-           {% endfor %}
+        {% endfor %}
 
         </div>
        <div class="grid-container text-center"> <a href="{{site.baseurl}}/members/" class="margin-top-5 margin-bottom-5 usa-button--outline-inverse usa-button members-button bg-white border-0">See All</a></div>

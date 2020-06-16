@@ -69,6 +69,15 @@ dap_agency: GSA
 
 # Site Navigation
 primary_navigation:
+  - name: About
+    url: /
+    children:
+      - name: The  CFO Council
+        url: /about-the-council/
+      - name: Members
+        url: /members/
+      - name: The Latest from Priority Areas
+        url: /the-latest/
   - name: Priority Areas
     url: /
     children:
@@ -84,18 +93,28 @@ primary_navigation:
         url: "/erm/"
   - name: Policies & Guidance
     url: "/policies-and-guidance/"
-  - name: JFMIP
-    url: "/jfmip/"
-  - name: FRPC
-    url: "/frpc/"
   - name: Knowledge Sharing
     url: /knowledge-sharing/
+#    commented out JFMIP nav. But page is there based on PO's request.
+#  - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
+#    url: "/jfmip/"
+  - name: <abbr title="Federal Real Property Council">FRPC</abbr>
+    url: "/frpc/"
+
   - name: CXO Fellows
     url: /cxo-fellows/
 
 secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
+
+secondary_navigation_frpc:
+  - name: Contact Us
+    url: "mailto:Realpropertypolicy@gsa.gov"
+
+secondary_navigation_cxo:
+  - name: Contact Us
+    url: "mailto:cxofellowship@gsa.gov"
 
 payment-accuracy-navigation:
   - name: About
@@ -115,6 +134,7 @@ footer:
     phonenumber: (800) CALL-GOVT
     email: CFOC.support@gsa.gov
     frpc-email: Realpropertypolicy@gsa.gov
+    cxo-email: cxofellowship@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #

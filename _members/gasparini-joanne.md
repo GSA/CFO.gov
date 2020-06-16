@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2018/01/gaspariniJ-photo.jpg
 bio-image-alt-text: JOANNE GASPARINI
 layout: bio
 permalink: /bio/ms-joanne-gasparini/
-name: MS. JOANNE GASPARINI
-department: SOCIAL SECURITY ADMINISTRATION
-title: ACTING DCFO, ASSOCIATE COMMISSIONER, OFFICE OF FINANCIAL POLICY & OPERATIONS
+name: Ms. Joanne Gasparini
+department: Social Security Administration
+title: Acting DCFO, Associate Commissioner, Office of Financial Policy & Operations
 ---
 Joanne R. Gasparini is the Acting Associate Commissioner for the Office of Financial Policy and Operations (OFPO) for the Social Security Administration (SSA) since November 2018.  In this role, Joanne serves as the agency's Acting Deputy Chief Financial Officer and is accountable for certification and payment delivery of $1 trillion in Old-Age, Survivors, and Disability Insurance and Supplemental Security Income (SSI) benefit payments and accounting for execution of more than $12 billion in administrative expenditures, as well as reimbursable activity.  Joanne is also responsible for providing executive leadership for the Social Security Online Reporting and Accounting System, development and publication of the Agency Financial Report (AFR) (which contains audited financial statements), employee travel, Third Party Draft Payment System for field offices, Social Security Electronic Remittance System, Debt Management modernization, Cost Analysis System (to measure productivity and costs of agency workloads), the agency's internal control program, and Enterprise Risk Management.  Under Joanne's leadership, the agency received its 25th consecutive unmodified (clean) audit opinion on its financial statements.  In addition, the Association of Government Accountants (AGA) recognized SSA with its 21st consecutive Certificate in Accountability Reporting Award for its AFR.  Both achievements are unprecedented in Federal Government.
              
@@ -15,4 +15,4 @@ Since the beginning of fiscal year 2018, Joanne is the enterprise-wide executive
              
 Joanne began her career with SSA as a Clerk in the Office of Disability Operations in 1979.  She then served as a Management Analyst in SSI policy while pursuing her Bachelors in Science in Accounting from Towson University, which she obtained in 1986.  Joanne subsequently advanced to a Management Analyst for the Deputy Commissioner for Programs. She held increasing higher levels of responsibility in OFPO, including Senior Accountant for the agency's financial reporting and then Director for Payment and Recovery Policy.  In 2009, Joanne was appointed to the Senior Executive Service as the Deputy Associate Commissioner for OFPO.
              
-Joanne is a Certified Public Accountant with the State of Maryland and Certified Government Financial Manager with the AGA.  Joanne has served on the Board of Directors for the AGA Baltimore Chapter, as well as Chapter President. Joanne is married with twin children.  She and her family reside in Northern Baltimore County.
+Joanne is a Certified Public Accountant with the State of Maryland and Certified Government Financial Manager with the <abbr title="Association of Government Accountants">AGA</abbr>.  Joanne has served on the Board of Directors for the <abbr title="Association of Government Accountants">AGA</abbr> Baltimore Chapter, as well as Chapter President. Joanne is married with twin children.  She and her family reside in Northern Baltimore County.

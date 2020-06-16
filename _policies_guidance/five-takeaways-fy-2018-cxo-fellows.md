@@ -12,9 +12,9 @@ filters: cxo-fellows
 ---
 
 <div style="line-height: 1.8em;margin-bottom: 80px; display: block">
-			<figure style="width: 300px" class="wp-caption right"><a href="{{ site.baseurl }}/wp-content/uploads/2018/09/091418_CXO_Fellowship_set2-20.jpg"><img class="wp-image-4468 size-medium" src="{{ site.baseurl }}/wp-content/uploads/2018/09/091418_CXO_Fellowship_set2-20-300x242.jpg" alt="Department of Homeland Security Chief Procurement Officer Soraya Correa speaking at the FY18 CXO Fellowship Graduation" width="300" height="220" sizes="(max-width: 300px) 100vw, 300px"></a><figcaption style="font-size: 12px; color: #aaa;">DHS CPO, Soraya Correa addresses the CXO Fellows</figcaption></figure>
+			<figure style="width: 300px" class="wp-caption right"><img class="wp-image-4468 size-medium" src="{{ site.baseurl }}/wp-content/uploads/2018/09/091418_CXO_Fellowship_set2-20-300x242.jpg" alt="Department of Homeland Security Chief Procurement Officer Soraya Correa speaking at the FY18 CXO Fellowship Graduation" width="300" height="220" sizes="(max-width: 300px) 100vw, 300px"><figcaption style="font-size: 12px; color: #6B6B6B;">DHS CPO, Soraya Correa addresses the CXO Fellows</figcaption></figure>
 <p>Last Friday, the CXO Fellows ended their year-long fellowship program with a&nbsp;commencement ceremony at the General Services Administration. Speakers included U.S. General Services Administration Administrator, Emily Murphy, U.S. Department of Homeland Security Chief Procurement Officer Soraya Correa, and several members of the Fiscal Year 2018 cohort.&nbsp;We sat down with fellows to learn about some of their top takeaways and lessons learned from the year.</p>
-<h3>Five Takeaways from the Fiscal Year 2018 CXO Fellows</h3>
+<h2>Five Takeaways from the Fiscal Year 2018 CXO Fellows</h2>
 
 <div style="width: 600px">
 

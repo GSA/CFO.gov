@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/09/stevekunze.png
 bio-image-alt-text: STEPHEN KUNZE
 layout: bio
 permalink: /bio/mr-stephen-kunze/
-name : MR. STEPHEN KUNZE
-department: DEPARTMENT OF COMMERCE
-title: DEPUTY CHIEF FINANCIAL OFFICER AND DIRECTOR FOR FINANCIAL MANAGEMENT
+name : Mr. Stephen Kunze
+department: Department of Commerce
+title: Deputy Chief Financial Officer and Director for Financial Management
 ---
  Stephen Kunze serves as the Deputy Chief Financial Officer and Director for Financial Management within the Office of the Chief Financial Officer and Assistant Secretary for Administration (OCFO/ASA). In this role, he is responsible for financial management and accounting throughout the Department, for preparation of the Department's annual consolidated financial statements, and for development and implementation of a Department-wide integrated financial system.  His responsibilities include promulgating financial management policy throughout the Department and for ensuring the Department's compliance with financial management laws and regulations, including the Chief Financial Officers' Act, the Government Management Reform Act, the Government Performance and Results Act and the Federal Financial Management Improvement Act.  Mr. Kunze is also responsible for the Office of Secretary budget operations.
              

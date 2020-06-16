@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/02/Michelle-King.jpg
 bio-image-alt-text: MICHELLE KING
 layout: bio
 permalink: /bio/ms-michelle-king/
-name : MS. MICHELLE KING
-department: SOCIAL SECURITY ADMINISTRATION
-title: CHIEF FINANCIAL OFFICER
+name : Ms. Michelle King
+department: Social Security Administration
+title: Chief Financial Officer
 ---
    Michelle King became the Deputy Commissioner for Budget, Finance, Quality, and Management (BFQM) for the Social Security Administration (SSA) in November 2015.  In this role, Michelle serves as the agency's Chief Financial Officer and is accountable for an over $940 billion program budget and an over $11 billion administrative budget.  Michelle is also responsible for providing executive leadership for the following agency programs and operations:  acquisition and grants; anti-fraud programs; audit liaison; budget; financial policy and operations; facilities and supply management; media management; quality improvement; quality review; and security and emergency preparedness.
              

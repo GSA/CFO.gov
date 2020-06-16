@@ -3,12 +3,13 @@ bio-image: /wp-content/uploads/2019/11/Kent_Kuyumjian_fullsize-photo-e1574704154
 bio-image-alt-text: KENT KUYUMJIAN
 layout: bio
 permalink: /bio/mr-kent-kuyumjian/
-name : MR. KENT KUYUMJIAN
+name : Mr. Kent Kuyumjian
 department: USAID
-title: DEPUTY CHIEF FINANCIAL OFFICER
+title: Deputy Chief Financial Officer
+special_title: 'yes'
 ---
 
-Kent Kuyumjian is the Deputy and Acting Chief Financial Officer at the U. S. Agency for International Development (USAID). Previously, Mr. Kuyumjian was the Comptroller and Deputy CFO at Treasury in the Financial Management Service Division.
+Kent Kuyumjian is the Deputy and Acting Chief Financial Officer at the U. S. Agency for International Development (USAID). Previously, Mr. Kuyumjian was the Comptroller and Deputy <abbr title="Chief Financial Officer">CFO</abbr> at Treasury in the Financial Management Service Division.
 
 Mr. Kuyumjian earned a Master of Arts (M.A.) degree and a Bachelor of Arts degree (B.A.) from the University of Connecticut in 1983 with a major in economics.
 

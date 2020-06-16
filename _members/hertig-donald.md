@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2016/02/Don-Hertig_EOP.jpg
 bio-image-alt-text: DONALD HERTIG
 layout: bio
 permalink: /bio/mr-donald-hertig/
-name : MR. DONALD HERTIG
-department: EXECUTIVE OFFICE OF THE PRESIDENT
-title: ACTING DEPUTY CHIEF FINANCIAL OFFICER
+name : Mr. Donald Hertig
+department: Executive Office of the President
+title: Acting Deputy Chief Financial Officer
 ---
    In January, 2009, Don Hertig assumed responsibilities as the Deputy Chief Financial Officer for the Executive Office of the President of the United States (EOP). In his role, he oversees financial operations (accounting, budget, financial systems, and fiscal policy) for the offices of the President, Vice President, National Security Council, Council of Economic Advisers, Executive Residence, U.S. Trade Representative, and various other offices providing direct support to the President. Prior to this, Don served as the EOP Budget Officer (2005-2008).
              
