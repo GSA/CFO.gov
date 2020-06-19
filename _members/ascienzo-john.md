@@ -1,6 +1,6 @@
 ---
 bio-image: /assets/images/logos/trade_logo.png
-preview-image: /assets/images/logos/trade_logo.png
+preview-image: /assets/images/logos/trade_logo_preview.png
 bio-image-alt-text: JOHN ASCIENZO
 layout: bio
 permalink: /bio/mr-john-ascienzo/
