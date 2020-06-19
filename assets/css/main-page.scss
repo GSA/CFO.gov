@@ -363,6 +363,19 @@ color:#005ea2;
   border-radius:50%
 }
 .white-popup{position: relative;background: #FFF;padding: 20px;width: auto;max-width: 1200px;margin: 20px auto;}
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
 /* media queries*/
 @media (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item {
