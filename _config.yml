@@ -239,3 +239,14 @@ assets:
     baseurl: false
     destination: /assets
     url: https://www.cfo.gov
+
+defaults:
+  integrity:
+    {css,img,js}: false
+
+
+caching:
+  enabled: true
+  path: ".jekyll-cache/assets"
+  type: file
+
