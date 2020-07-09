@@ -4,7 +4,7 @@ bio-image-alt-text: KENT KUYUMJIAN
 layout: bio
 permalink: /bio/mr-kent-kuyumjian/
 name : Mr. Kent Kuyumjian
-department: USAID
+department: US Agency for International Development
 title: Deputy Chief Financial Officer
 special_title: 'yes'
 ---
