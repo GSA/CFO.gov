@@ -49,9 +49,11 @@ site, this is the place to do it.
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% asset favicons/favicon-144.png @path %}">
   <!-- CSS
     ================================================== -->
-  {% asset slick.css%}
-  {% asset slick-theme.css%}
-  {% asset magnific-popup.css%}
-  {% asset index.scss %}
-  {% asset main-page.scss %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/slick.css?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/slick-theme.css?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/magnific-popup.css?{{ site.time | date: '%s%N' }}">
+    {% asset index.scss %}
+    {% asset main-page.scss %}
+
+
 </head>

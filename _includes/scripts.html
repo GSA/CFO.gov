@@ -10,8 +10,8 @@
 {% asset uswds.min.js %}
 {% asset app.js %}
 
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/slick.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/magnific-popup.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/slick.js?{{ site.time | date: '%s%N' }}"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/magnific-popup.js?{{ site.time | date: '%s%N' }}"></script>
 
 <script type="text/javascript">
     jQuery(document).ready(function(){
