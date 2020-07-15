@@ -237,10 +237,7 @@ assets:
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss
     - node_modules/netlify-cms/dist
-  cdn:
-    baseurl: false
-    destination: /assets
-    url: https://www.cfo.gov
+
 
 
 
