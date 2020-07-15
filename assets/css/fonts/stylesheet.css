@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'public_sansmedium';
-    src: url('publicsans-medium-webfont.woff2') format('woff2'),
-         url('publicsans-medium-webfont.woff') format('woff');
+    src: url('/publicsans-medium-webfont.woff2') format('woff2'),
+         url('/publicsans-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -13,8 +13,8 @@
 
 @font-face {
     font-family: 'public_sanslight';
-    src: url('publicsans-light-webfont.woff2') format('woff2'),
-    url('publicsans-light-webfont.woff') format('woff');
+    src: url('/publicsans-light-webfont.woff2') format('woff2'),
+    url('/publicsans-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
