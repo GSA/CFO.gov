@@ -15,7 +15,7 @@ title: Deputy Assistant Secretary for Budget and Programs & Acting Chief Financi
              
    Prior to her assignments at the Department of Transportation, Lana served as the Chief Financial Officer for the United States Peace Corps for three separate Peace Corps Directors.  She was the senior financial management official overseeing all financial management services spanning 77 countries world-wide.
              
-   Lana began her Federal government career at the Office of Management and Budget, Executive Office of the President where she served as Budget Examiner for the United States Coast Guard, the Federal Trade Commission, and the National Transportation Safety Board programs.
+   Lana began her Federal Government career at the Office of Management and Budget, Executive Office of the President where she served as Budget Examiner for the United States Coast Guard, the Federal Trade Commission, and the National Transportation Safety Board programs.
              
    She received her Bachelor's Degree in Government and Foreign Affairs from the University of Virginia in 1977.  Lana lives in Arlington, Virginia with her husband Robert.  Lana and Robert are active dog foster parents with "A Forever Home Dog Rescue" and are devoted to their canine companions Riesling and Pearl.
 

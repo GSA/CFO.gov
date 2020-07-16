@@ -10,4 +10,4 @@ title: Acting Under Secretary of Defense (Comptroller)/Chief Financial Officer
 special_title: 'yes'
 ---
 
-Official bio coming soon.
+Biography information coming soon.
