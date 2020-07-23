@@ -35,7 +35,7 @@ filters: cxo-fellows
  
 <p>Recruiting and retaining top talent in the federal service is one of the CFO Council’s priorities. Understanding the importance in developing the next generation of federal Financial leaders, the Council developed the Finance Fellows Program. CFOs and the Deputy CFOs were asked to nominate high performing professionals from their agency or department who have demonstrated strong leadership potential and would benefit from educational and networking opportunities outside of their agency. The program provides an opportunity for the Fellows to grow professionally through a unique set of educational forums and events sponsored by the CFOC. Fellows meet with leaders in the federal financial community and learn about innovative government operations by attending “Inside Government” events. Fellows experience firsthand a unique component of the host agency’s operations and learn from senior officials how the Agency is managed and integrated within the government’s overall mission.</p>
 <p>The inaugural class includes 22 Fellows from 14 agencies who are invited to participate in the monthly events sponsored by the CFO Council.</p>
-<p><img src="{{ site.baseurl }}/wp-content/uploads/2016/02/13-14-Fellows.jpg" alt="13-14 Fellows" width="911" height="310" srcset="https://cfo.gov/wp-content/uploads/2016/02/13-14-Fellows.jpg 911w, https://cfo.gov/wp-content/uploads/2016/02/13-14-Fellows-300x102.jpg 300w" sizes="(max-width: 911px) 100vw, 911px"></p>
+<p><img src="{{ site.baseurl }}/wp-content/uploads/2016/02/13-14-Fellows.jpg" alt="13-14 Fellows" width="911" height="310" sizes="(max-width: 911px) 100vw, 911px"></p>
 <p>&nbsp;</p>
 <table  style="height: 845px;" border="0" width="653" cellspacing="5" cellpadding="5">
         <tr>
