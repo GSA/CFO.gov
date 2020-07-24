@@ -31,9 +31,9 @@ training: 'yes'
 <p><iframe title="Uniform Guidance: Promising Practices in Implementation: Risk Assessment (Panel 1)" src="https://www.youtube.com/embed/uBJMc5hNc1I?list=PLhAybMDfZ8sPMbnpE5PW_mc-kSz3qS-7z" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <p><strong>Resources:</strong><br />
 EDUC Entity Risk Report Example: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel1_EDUC-Entity-Risk-Report-Example.pdf">http://go.usa.gov/x34pk</a><br />
-<abbr title="Department of Homeland Security">DHS</abbr> Vulnerability Risk Assessment: <a href="http://go.usa.gov/x34dW">http://go.usa.gov/x34dW</a><br />
-<abbr title="Department of Homeland Security">DHS</abbr> Site Visit Checklists and Guidelines: <a href="http://go.usa.gov/x34dd">http://go.usa.gov/x34dd</a><br />
-<abbr title="Department of Homeland Security">DHS</abbr> <abbr title="Financial Assistance Policy & Oversight">FAPO</abbr> Risk Assessment Tool Chart: <a href="http://go.usa.gov/x34dF">http://go.usa.gov/x34dF</a></p>
+<abbr title="Department of Homeland Security">DHS</abbr> Vulnerability Risk Assessment: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel1_DHS-Vulnerabilitiy-Risk-Assessment-1.docm">http://go.usa.gov/x34dW</a><br />
+<abbr title="Department of Homeland Security">DHS</abbr> Site Visit Checklists and Guidelines: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel1_DHS-Site-Visit-Checklists-and-Guidelines-6-27-2016.docx">http://go.usa.gov/x34dd</a><br />
+<abbr title="Department of Homeland Security">DHS</abbr> <abbr title="Financial Assistance Policy & Oversight">FAPO</abbr> Risk Assessment Tool Chart: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel1_DHS-FAPO-Risk-Assessment-Tool-Chart-2-2016.docx">http://go.usa.gov/x34dF</a></p>
 <hr />
 <h3>Contract vs. Subaward Determination (Panel 2)</h3>
 <ul>
