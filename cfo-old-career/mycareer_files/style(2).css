@@ -1,0 +1,154 @@
+/*
+Theme Name:         CFOC Theme
+Theme URI:          https://cfo.gov
+Description:        Executive Council Theme
+Tags: CFO, Government
+Version:            1.0.0
+Author:             CSRA
+Author URI:         http://CSRA.com
+*/
+
+.wp-caption {
+}
+
+.wp-caption-text {
+}
+
+.gallery-caption {
+}
+
+.bypostauthor {
+}
+
+.alignright {
+}
+
+.alignleft {
+}
+
+.aligncenter {
+}
+a:hover{
+    text-decoration: underline;
+    color: #EE1C25;
+}
+.wpb_call_to_action_COFAR {
+    background-color: #2D318A;
+}
+
+span.texttop {
+  display: inline-block;
+  vertical-align: top;
+  line-height: normal;   
+  margin-left: 5px;
+   
+}
+
+.person-headshot {
+	float: left;
+	margin-right: 20px;
+}
+
+#slide-3-layer-1 {
+	font-family: "Segoe UI", Futura;
+}
+
+@media (max-width: 1199px) {
+	.header_outer .mobile-nav-toggle {
+		height: 20px;
+		top: 45px;
+	}
+}
+
+.h4, .wpb_text_column.wpb_content_element.h4 {
+	font-family: Montserrat;
+	text-transform: uppercase;
+	line-height: 1.33em;
+	color: #404040;
+	margin-top: 0;
+	font-size: 22px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.vc_separator .h4 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    padding: 0 .8em 0 0;
+    color: #404040;
+    line-height: 1em;
+    font-size: 100%;
+    margin: 0;
+    word-wrap: break-word;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+}
+
+.vc_toggle_title .h4 {
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+    color: #222;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+div.widgettitle {
+	margin-bottom: 14px;
+}
+
+.ourworkbox p {
+    font-family: Montserrat;
+    line-height: 1.33em;
+    color: #404040;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.h2 {
+	color: #404040;
+}
+
+.h2 a {
+	color: #352E87;
+}
+
+.h2, .h2 a {
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 1.33em;
+	font-weight: 500;
+	display: block;
+	font-family: Montserrat;
+	margin-bottom: 14px;
+}
+
+.wpb_wrapper>.h3 {
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.h3 {
+	font-family: Montserrat;
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 1.33em;
+	color: #404040;
+	margin-top:  0;
+}
+
+.h5 {
+    font-family: Montserrat;
+    font-size: 16px;
+    margin-bottom: 8px;
+    line-height: 1.33em;
+    color: #404040;
+    margin-top: 0;
+    text-transform: uppercase;
+}
