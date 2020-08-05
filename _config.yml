@@ -237,7 +237,12 @@ assets:
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss
     - node_modules/netlify-cms/dist
-
+  defaults:
+    js:  { integrity: false }
+    css: { integrity: false }
+    img: { integrity: false }
+  features:
+    integrity: false
 
 
 
