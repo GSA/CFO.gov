@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: knowledge-sharing-landing
 title: Grants Training
+subtitle: Grants Training
 permalink: /grants-training/
+type: financial-assistance
+filters: financial-assistance training-module
 ---
 
 <div class="usa-alert usa-alert--info" xmlns="http://www.w3.org/1999/html">
@@ -9,7 +12,6 @@ permalink: /grants-training/
         <h3 class="usa-alert__heading">PDF Version of the Grants Training Modules</h3>
         <p class="usa-alert__text">We recently upgraded the website platform for our website. As part of that transition, we identified technical issues with the original Grants Training Modules that have prevented us from restoring it in its interactive format. We're looking into mid-term solutions to redesign the modules and make them better.
             In the short term, below you will find the PDF version of the Grants Training Modules. Please note, there is no completion certificate with this PDF format. </p> <br>
-        <p class="usa-alert__text">Thank you for your understanding.</p>
     </div>
 </div>
 
