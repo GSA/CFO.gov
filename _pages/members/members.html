@@ -36,7 +36,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
 </div>
 
 
-{% assign my_variable = site.members | sort: "department" %}
+{% assign sorted_members = site.members | sort: "department" %}
 
 
 <!-- *****LOOP FOR MEMBERS *********-->
@@ -46,7 +46,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
             <h2 class="font-sans-sm">Members</h2>
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
 
-                {% for bio in my_variable %}
+                {% for bio in sorted_members %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <a style="color:black;text-decoration: none; display: block;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
                         <div class="left">
