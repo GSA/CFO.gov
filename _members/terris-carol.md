@@ -1,11 +1,10 @@
 ---
 bio-image: /assets/images/logos/EPA_logo.png
-bio-image-alt-text: HOWARD OSBORNE
+bio-image-alt-text: Ms. Carol Terris
 layout: bio
-permalink: /bio/mr-howard-osborne/
-name : Mr. Howard Osborne
+permalink: /bio/ms-carol-terris/
+name : Ms. Carol Terris
 department: Environmental Protection Agency
 title: Associate Chief Financial Officer
-published: false
 ---
 Biography information coming soon.
