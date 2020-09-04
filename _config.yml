@@ -156,6 +156,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  leadership:
+    output: true
   members:
     output: true
   controlleralerts:
