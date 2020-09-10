@@ -15,7 +15,7 @@ priority_icons:
    url: /policies-and-guidance/#priority_area=.financial-assistance&type=*
  - name: Grants Training Module
    logo: /assets/images/logos/Asset_11.svg
-   url: /coming-soon/
+   url: /grants-training/
  - name: OMB MAX
    logo: /assets/images/logos/Asset_10.svg
    link: https://community.max.gov/x/rgTvVg   
