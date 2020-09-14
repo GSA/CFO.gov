@@ -3,7 +3,7 @@ bio-image: /wp-content/uploads/2020/09/scott-cameron.jpg
 bio-image-alt-text: SCOTT CAMERON
 layout: bio
 permalink: /bio/ms-scott-cameron/
-name : MR. Scott Cameron
+name : Mr. Scott Cameron
 department: U.S. Department of the Interior
 title: Acting Chief Financial Officer, Acting Assistant Secretary for Policy, Management, and Budget 
 ---
