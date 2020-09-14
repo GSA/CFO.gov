@@ -1,5 +1,5 @@
 ---
-bio-image: /wp-content/uploads/2020/09/5b4b0f463f629422404a6823bcc618d5.png
+bio-image: /wp-content/uploads/2020/09/placeholder.png
 bio-image-alt-text: Melissa Atwood
 layout: bio
 permalink: /bio/ms-melissa-atwood/
