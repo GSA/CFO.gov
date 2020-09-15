@@ -4,7 +4,7 @@ bio-image-alt-text: DAVID EISNER
 layout: bio
 permalink: /bio/mr-david-eisner/
 name : Mr. David Eisner
-department: Department of Treasury
+department: Department of the Treasury
 title: Assistant Secretary for Management
 ---
 David F. Eisner was sworn in as Assistant Secretary of the Treasury for Management on April 30, 2018

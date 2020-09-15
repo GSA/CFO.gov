@@ -4,7 +4,7 @@ bio-image-alt-text: MAUREEN WYLIE
 layout: bio
 permalink: /bio/ms-maureen-wylie/
 name : Ms. Maureen Wylie
-department: Nuclear Regulatory Commission
+department: U.S. Nuclear Regulatory Commission
 title: Chief Financial Officer
 published: false
 ---
