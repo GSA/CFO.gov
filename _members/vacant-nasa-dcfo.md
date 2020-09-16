@@ -1,5 +1,5 @@
 ---
-bio-image: /wp-content/uploads/2020/09/placeholder.png
+bio-image: /wp-content/uploads/2020/09/NASA_seal.jpg
 bio-image-alt-text: vacant
 layout: bio
 permalink: /bio/vacant/
