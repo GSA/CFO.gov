@@ -5,3 +5,4 @@ node_modules
 .bundle
 .jekyll-cache/
 .idea
+.DS_Store
