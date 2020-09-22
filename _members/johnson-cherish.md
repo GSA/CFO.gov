@@ -4,7 +4,7 @@ bio-image-alt-text: CHERISH K. JOHNSON
 layout: bio
 permalink: /bio/ms-cherish-k-johnson/
 name : Ms. Cherish K. Johnson
-department: U.S. Nuclear Regulatory Commission
+department: Nuclear Regulatory Commission
 title: Chief Financial Officer
 special_title: 'yes'
 ---

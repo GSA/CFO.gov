@@ -4,7 +4,7 @@ bio-image-alt-text: JOHN KRAMER
 layout: bio
 permalink: /bio/mr-john-kramer/
 name : Mr. John Kramer
-department: U.S. Department of Transportation
+department: Department of Transportation
 title: Chief Financial Officer, Assistant Secretary for Budget and Programs
 ---
 

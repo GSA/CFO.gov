@@ -4,8 +4,8 @@ bio-image-alt-text: DENISE L. CARTER
 layout: bio
 permalink: /bio/ms-denise-l-carter/
 name : Ms. Denise L. Carter
-department: Office of Finance and Operations, U.S. Department of Education
-title: Acting Chief Financial Officer, Acting Assistant Secretary
+department: Office of Finance and Operations, Department of Education
+title: Chief Financial Officer (Acting), Acting Assistant Secretary
 special_title: 'yes'
 ---
 

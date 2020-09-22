@@ -4,6 +4,6 @@ bio-image-alt-text: GARY WOOD
 layout: bio
 permalink: /bio/ms-gray-wood/
 name : Mr. Gary Wood
-department: U.S. Department of Education
-title: Deputy Chief Financial Officer, Deputy Assistant Secretary, Office of Financial Management
+department: Office of Financial Management, Department of Education
+title: Deputy Chief Financial Officer, Deputy Assistant Secretary
 ---
