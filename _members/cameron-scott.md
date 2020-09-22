@@ -4,7 +4,7 @@ bio-image-alt-text: SCOTT CAMERON
 layout: bio
 permalink: /bio/ms-scott-cameron/
 name : Mr. Scott Cameron
-department: Department of the Interior
+department: Department of Interior
 title: Chief Financial Officer (Acting), Acting Assistant Secretary for Policy, Management, and Budget 
 ---
 Scott J. Cameron has 40 years of experience working inside and around the Federal Government. He is now the acting Assistant Secretary for Policy, Management and Budget.  Most recently, he has served as the Department of the Interior’s Principal Deputy Assistant Secretary for Policy, Management, and Budget. Prior to this position, he served as Acting Assistant Secretary for Water and Science.  
