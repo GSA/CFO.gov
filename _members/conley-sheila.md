@@ -5,7 +5,7 @@ layout: bio
 permalink: /bio/ms-sheila-conley/
 name : Ms. Sheila Conley
 department: Department of Health and Human Services
-title: Deputy Assistant Secretary, Finance and Deputy Chief Financial Officer
+title: Deputy Chief Financial Officer, Deputy Assistant Secretary for Financial Resources
 ---
    Ms. Conley joined the U.S. Department of Health and Human Services in 2006 as the Deputy Assistant Secretary for Finance and Deputy Chief Financial Officer. She is responsible for leading the Department's annual financial statement preparation and audit process; implementing a more rigorous internal control program under <abbr title="Office of Management and Budget">OMB</abbr>'s revised Circular A-123; overseeing the Department's financial management systems portfolio, reducing improper payments in some of the Federal Government's largest programs, and instilling program integrity throughout every HHS program.
               

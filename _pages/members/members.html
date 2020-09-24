@@ -5,13 +5,16 @@ permalink: /members/
 description: Learn more on the CFOC members.
 keyword: CFO Priority Areas, CFO Council, CFOC members, Members
 ---
-<!-- *****LOOP FOR MEMBERS PAGE *********-->
+
+
+<!-- *****LOOP FOR Leadership *********-->
 <div class="grid-container font-sans-sm">
     <section class="usa-graphic-list padding-top-0" >
         <div class="grid-container">
+            <h2 class="font-sans-sm">Leadership</h2>
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
 
-                {% for bio in site.members %}
+                {% for bio in site.leadership %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <a style="color:black;text-decoration: none; display: block;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
                         <div class="left">
@@ -23,6 +26,41 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                         </div>
                     </a>
                 </div>
+                {% endfor %}
+
+
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+{% assign group_members = site.members | group_by: "department" | sort_natural: "name" %}
+
+
+
+<!-- *****LOOP FOR MEMBERS *********-->
+<div class="grid-container font-sans-sm">
+    <section class="usa-graphic-list padding-top-0" >
+        <div class="grid-container">
+            <h2 class="font-sans-sm">Members</h2>
+            <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+                {% for group in group_members %}
+                {% assign sorted_members = group.items | sort: "title" %}
+                {% for bio in sorted_members %}
+                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                    <a style="color:black;text-decoration: none; display: block;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
+                        <div class="left">
+                            <img src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
+                        </div>
+                        <div class="right">
+                            <p><span class="name">{{ bio.name }}<br></span>
+                                <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
                 {% endfor %}
 
 
