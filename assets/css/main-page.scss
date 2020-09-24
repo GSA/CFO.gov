@@ -392,8 +392,9 @@ color:#005ea2;
 
 @media screen and (min-width: 640px){
   .jfmip-logo-size {
-    width: 148px;
-    height: 86px;
+    max-width: 150px;
+    height: auto;
+    width: 100%;
   }
 }
 
