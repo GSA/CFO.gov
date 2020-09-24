@@ -5,7 +5,7 @@ bio-image-alt-text: CAROLE BANKS
 layout: bio
 permalink: /bio/ms-carole-banks/
 name : Ms. Carole Banks
-department: Department of the Treasury
+department: Department of Treasury
 title: Deputy Chief Financial Officer
 
 ---

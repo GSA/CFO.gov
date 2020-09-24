@@ -4,7 +4,7 @@ bio-image-alt-text: Amy Edwards
 layout: bio
 permalink: /bio/ms-amy-edwards/
 name : Ms. Amy Edwards
-department: Department of the Treasury
+department: Department of Treasury
 title: Deputy Assistant Secretary, Office of the Fiscal Assistant Secretary
 published: true
 ---

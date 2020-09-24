@@ -8,7 +8,7 @@ permalink: /bio/ms-carol-terris/
 name : Ms. Carol Terris
 department: Environmental Protection Agency
 
-title: Acting Associate Chief Financial Officer
+title: Chief Financial Officer (Acting Associate)
 
 ---
 Biography information coming soon.

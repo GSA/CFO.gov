@@ -4,7 +4,7 @@ bio-image-alt-text: ANDREA BRANDON
 layout: bio
 permalink: /bio/ms-andrea-brandon/
 name : Ms. Andrea Brandon
-department: U.S. Department of the Interior
+department: Department of Interior
 title: Deputy Assistant Secretary for Budget, Finance, Grants and Acquisition
 special_title: 'yes'
 ---

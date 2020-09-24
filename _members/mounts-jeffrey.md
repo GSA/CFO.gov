@@ -5,7 +5,7 @@ layout: bio
 permalink: /bio/mr-jeffrey-c-mounts/
 name : Mr. Jeffrey C. Mounts
 department: Department of State
-title: Acting Comptroller
+title: Comptroller (Acting)
 ---
 
 Jeffrey C. Mounts is the Deputy, and currently Acting, Comptroller in the Office of the Comptroller/Global Financial Services (CGFS) at the U.S. Department of State. As Comptroller, Mr. Mounts carries out the delegated authorities and responsibilities of the Department's Chief Financial Officer (CFO) and also serves as the Department's Deputy Chief Financial Officer (DCFO). The Comptroller leads the CGFS Bureau in
