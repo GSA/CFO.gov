@@ -5,7 +5,7 @@ layout: bio
 permalink: /bio/ms-jennifer-moughalian/
 name : Ms. Jennifer Moughalian
 department: Department of Health and Human Services
-title: Acting Chief Financial Officer, Acting Assistant Secretary for Financial Resources
+title: Chief Financial Officer (Acting), Acting Assistant Secretary for Financial Resources
 ---
 
 Jen Moughalian, MBA, MPM, was appointed as the Acting Assistant Secretary for Financial Resources for the U.S. Department of Health and Human Services (HHS) on March 15, 2017.  In this role, she serves as a principal advisor to the Secretary and is responsible for the overall budget, financial management, acquisition policy and support, grants management, and small business programs of HHS’s roughly $1 trillion annual budget, as well as the Department’s performance management, and enterprise risk management programs. 

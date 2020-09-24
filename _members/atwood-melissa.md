@@ -5,5 +5,5 @@ layout: bio
 permalink: /bio/ms-melissa-atwood/
 name : Ms. Melissa Atwood
 department: Small Business Administration
-title: Acting Deputy Chief Financial Officer
+title: Deputy Chief Financial Officer (Acting)
 ---

@@ -4,7 +4,7 @@ bio-image-alt-text: DAVID LEBRYK
 layout: bio
 permalink: /bio/mr-david-lebryk/
 name : Mr. David Lebryk
-department: Department of the Treasury
+department: Department of Treasury
 title: Fiscal Assistant Secretary
 ---
 

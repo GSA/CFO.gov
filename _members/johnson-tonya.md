@@ -4,7 +4,7 @@ bio-image-alt-text: TONYA JOHNSON
 layout: bio
 permalink: /bio/ms-tonya-r-johnson/
 name : Ms. Tonya Johnson
-department: U.S. Department of the Interior
+department: Department of Interior
 title: Deputy Chief Financial Officer
 ---
 Ms. Tonya R. Johnson is currently the Deputy Chief Financial Officer (DCFO) and Director of the Office of Financial Management (PFM) for the Department of the Interior. As the DCFO and Director of PFM she serves as a primary advisor to the Chief Financial Officer and the Deputy Assistant Secretary (Budget, Finance, Grants & Acquisition).
