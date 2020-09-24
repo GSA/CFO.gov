@@ -1,0 +1,1176 @@
+/* IMPORT THE BASE STYLES */
+/* ANGULAR COMPATIBILITY STYLES */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_base\.scss}line{font-family:\000032}}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+/* ELEMENT BASE STYLES */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_base\.scss}line{font-family:\000038}}
+.ceres-element, .ceres-element * {
+  box-sizing: border-box !important;
+}
+
+/* IMPORT THE ELEMENT STATIC STYLES */
+/* BACKGROUNDS */
+/* Video Background */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_backgrounds\.scss}line{font-family:\000033}}
+.has-ceres-video-bg {
+  padding-top: 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_backgrounds\.scss}line{font-family:\000037}}
+.has-ceres-video-bg .ceres-background-video {
+  top: 0;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_backgrounds\.scss}line{font-family:\0000311}}
+.has-ceres-video-bg .ceres-background-video video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_backgrounds\.scss}line{font-family:\0000320}}
+.ceres-parallax-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Icon Spin */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000032}}
+.ceres-icon-spin {
+  -webkit-animation: ceres-icon-spin 2s infinite linear;
+  animation: ceres-icon-spin 2s infinite linear;
+}
+
+@-webkit-keyframes ceres-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes ceres-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000327}}
+.ceres-element, * {
+  /* Base Styles */
+  /* Matte Gradient Button */
+  /* Round Flat Button */
+  /* Square Flat Button */
+  /* Bordered Gradient Button */
+  /* 3D Block Button */
+  /* Button Icons */
+  /* Block button */
+  /* The button in the footer */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000329}}
+.ceres-element.ceres-advanced-button, *.ceres-advanced-button {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000331}}
+.ceres-element.ceres-advanced-button.ceres-block-button, *.ceres-advanced-button.ceres-block-button {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000346}}
+.ceres-element .btn .btn-hover-bg, * .btn .btn-hover-bg {
+  z-index: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000349}}
+.ceres-element .btn .btn-content, .ceres-element .btn i, * .btn .btn-content, * .btn i {
+  position: relative;
+  z-index: 2;
+  -webkit-transition: color 350ms ease-in;
+  -moz-transition: color 350ms ease-in;
+  transition: color 350ms ease-in;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000361}}
+.ceres-element .ceres-btn-matte-gradient, * .ceres-btn-matte-gradient {
+  border: 0;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  padding: 1px !important;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 6px;
+  /* Font color on hover and active */
+  /* Colors */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000373}}
+.ceres-element .ceres-btn-matte-gradient .btn-hover-bg, * .ceres-btn-matte-gradient .btn-hover-bg {
+  display: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000377}}
+.ceres-element .ceres-btn-matte-gradient .btn-content, * .ceres-btn-matte-gradient .btn-content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 400;
+  height: 37px;
+  line-height: 37px;
+  font-size: 15px;
+  padding: 0 34px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000394}}
+.ceres-element .ceres-btn-matte-gradient.btn-lg, * .ceres-btn-matte-gradient.btn-lg {
+  border-radius: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\0000397}}
+.ceres-element .ceres-btn-matte-gradient.btn-lg .btn-content, * .ceres-btn-matte-gradient.btn-lg .btn-content {
+  height: 47px;
+  line-height: 47px;
+  font-size: 18px;
+  padding: 0 20px;
+  border-radius: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003106}}
+.ceres-element .ceres-btn-matte-gradient.btn-sm, * .ceres-btn-matte-gradient.btn-sm {
+  border-radius: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003109}}
+.ceres-element .ceres-btn-matte-gradient.btn-sm .btn-content, * .ceres-btn-matte-gradient.btn-sm .btn-content {
+  height: 27px;
+  line-height: 27px;
+  font-size: 13px;
+  padding: 0 12px;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003118}}
+.ceres-element .ceres-btn-matte-gradient.btn-xs, * .ceres-btn-matte-gradient.btn-xs {
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003121}}
+.ceres-element .ceres-btn-matte-gradient.btn-xs .btn-content, * .ceres-btn-matte-gradient.btn-xs .btn-content {
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0 7px;
+  border-radius: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003131}}
+.ceres-element .ceres-btn-matte-gradient:hover, .ceres-element .ceres-btn-matte-gradient:active, .ceres-element .ceres-btn-matte-gradient:focus, * .ceres-btn-matte-gradient:hover, * .ceres-btn-matte-gradient:active, * .ceres-btn-matte-gradient:focus {
+  outline: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003138}}
+.ceres-element .ceres-btn-matte-gradient, .ceres-element .ceres-btn-matte-gradient:active, .ceres-element .ceres-btn-matte-gradient:hover, .ceres-element .ceres-btn-matte-gradient:focus, * .ceres-btn-matte-gradient, * .ceres-btn-matte-gradient:active, * .ceres-btn-matte-gradient:hover, * .ceres-btn-matte-gradient:focus {
+  background: #008cdd;
+  background: linear-gradient(#489dce, #1272ac);
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003143}}
+.ceres-element .ceres-btn-matte-gradient .btn-content, .ceres-element .ceres-btn-matte-gradient:active .btn-content, .ceres-element .ceres-btn-matte-gradient:hover .btn-content, .ceres-element .ceres-btn-matte-gradient:focus .btn-content, * .ceres-btn-matte-gradient .btn-content, * .ceres-btn-matte-gradient:active .btn-content, * .ceres-btn-matte-gradient:hover .btn-content, * .ceres-btn-matte-gradient:focus .btn-content {
+  background: linear-gradient(#5db6e8, #168eda 85%, #168eda 90%, #1d93dd);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003147}}
+.ceres-element .ceres-btn-matte-gradient:active, * .ceres-btn-matte-gradient:active {
+  background: #0f6fab;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003150}}
+.ceres-element .ceres-btn-matte-gradient:active .btn-content, * .ceres-btn-matte-gradient:active .btn-content {
+  background: #168eda;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003157}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-secondary, .ceres-element .ceres-btn-matte-gradient.ceres-button-secondary:active, .ceres-element .ceres-btn-matte-gradient.ceres-button-secondary:hover, * .ceres-btn-matte-gradient.ceres-button-secondary, * .ceres-btn-matte-gradient.ceres-button-secondary:active, * .ceres-btn-matte-gradient.ceres-button-secondary:hover {
+  box-shadow: none;
+  background: transparent;
+  color: #6f7c82;
+  border: 1px solid #d8dee3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003163}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-secondary .btn-content, .ceres-element .ceres-btn-matte-gradient.ceres-button-secondary:active .btn-content, .ceres-element .ceres-btn-matte-gradient.ceres-button-secondary:hover .btn-content, * .ceres-btn-matte-gradient.ceres-button-secondary .btn-content, * .ceres-btn-matte-gradient.ceres-button-secondary:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-secondary:hover .btn-content {
+  background: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003168}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-secondary:active, * .ceres-btn-matte-gradient.ceres-button-secondary:active {
+  background: rgba(216, 222, 227, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003174}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-navy, * .ceres-btn-matte-gradient.ceres-button-navy {
+  background: #001F3F;
+  background: linear-gradient(#001f56, #003b7c);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003178}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-navy .btn-content, * .ceres-btn-matte-gradient.ceres-button-navy .btn-content {
+  background: linear-gradient(#0047ae, #002059 85%, #002059 90%, #00338b);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003181}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-navy:active, * .ceres-btn-matte-gradient.ceres-button-navy:active {
+  background: #001F3F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003184}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-navy:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-navy:active .btn-content {
+  background: #002059;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003191}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-aqua, * .ceres-btn-matte-gradient.ceres-button-aqua {
+  background: #7FDBFF;
+  background: linear-gradient(#6cbad9, #6dbcdb);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003195}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-aqua .btn-content, * .ceres-btn-matte-gradient.ceres-button-aqua .btn-content {
+  background: linear-gradient(#7FDBFF, #6bbad8 85%, #6bbad8 90%, #6cbcda);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003198}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-aqua:active, * .ceres-btn-matte-gradient.ceres-button-aqua:active {
+  background: #71c3e3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003201}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-aqua:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-aqua:active .btn-content {
+  background: #7FDBFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003208}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-teal, * .ceres-btn-matte-gradient.ceres-button-teal {
+  background: #30aaaa;
+  background: linear-gradient(#39CCCC, #3ddbdb);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003212}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-teal .btn-content, * .ceres-btn-matte-gradient.ceres-button-teal .btn-content {
+  background: linear-gradient(#43f1f1, #32b4b4 85%, #32b4b4 90%, #38c8c8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003215}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-teal:active, * .ceres-btn-matte-gradient.ceres-button-teal:active {
+  background: #39CCCC;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003218}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-teal:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-teal:active .btn-content {
+  background: #39CCCC;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003225}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-olive, * .ceres-btn-matte-gradient.ceres-button-olive {
+  background: #3D9970;
+  background: linear-gradient(#4ec38f, #409f74);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003229}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-olive .btn-content, * .ceres-btn-matte-gradient.ceres-button-olive .btn-content {
+  background: linear-gradient(#58dda2, #3D9970 85%, #3D9970 90%, #45a476);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003232}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-olive:active, * .ceres-btn-matte-gradient.ceres-button-olive:active {
+  background: #3D9970;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003235}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-olive:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-olive:active .btn-content {
+  background: #3D9970;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003242}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-green, * .ceres-btn-matte-gradient.ceres-button-green {
+  background: #29b539;
+  background: linear-gradient(#2ece41, #2bbe3c);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003246}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-green .btn-content, * .ceres-btn-matte-gradient.ceres-button-green .btn-content {
+  background: linear-gradient(#35ed4a, #29b539 85%, #29b539 90%, #2ec841);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003249}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-green:active, * .ceres-btn-matte-gradient.ceres-button-green:active {
+  background: #2ECC40;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003252}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-green:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-green:active .btn-content {
+  background: #2ECC40;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003259}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-lime, * .ceres-btn-matte-gradient.ceres-button-lime {
+  background: #01d45d;
+  background: linear-gradient(#01cd5a, #01ba51);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003263}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-lime .btn-content, * .ceres-btn-matte-gradient.ceres-button-lime .btn-content {
+  background: linear-gradient(#01e464, #01c254 85%, #01c254 90%, #01d15b);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003266}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-lime:active, * .ceres-btn-matte-gradient.ceres-button-lime:active {
+  background: #01d45d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003269}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-lime:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-lime:active .btn-content {
+  background: #01d45d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003276}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-yellow, * .ceres-btn-matte-gradient.ceres-button-yellow {
+  background: #eccc00;
+  background: linear-gradient(#eccc00, #f1d000);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003280}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-yellow .btn-content, * .ceres-btn-matte-gradient.ceres-button-yellow .btn-content {
+  background: linear-gradient(#ffdc00, #eccc00 85%, #eccc00 90%, #f7d500);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003283}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-yellow:active, * .ceres-btn-matte-gradient.ceres-button-yellow:active {
+  background: #eccc00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003286}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-yellow:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-yellow:active .btn-content {
+  background: #eccc00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003293}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-orange, * .ceres-btn-matte-gradient.ceres-button-orange {
+  background: #ee7c19;
+  background: linear-gradient(#f7811a, #f6801a);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003297}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-orange .btn-content, * .ceres-btn-matte-gradient.ceres-button-orange .btn-content {
+  background: linear-gradient(#ff851b, #e67818 85%, #e67818 90%, #f87e1b);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003300}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-orange:active, * .ceres-btn-matte-gradient.ceres-button-orange:active {
+  background: #ee7c19;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003303}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-orange:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-orange:active .btn-content {
+  background: #ee7c19;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003310}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-red, * .ceres-btn-matte-gradient.ceres-button-red {
+  background: #e73b31;
+  background: linear-gradient(#e73b31, #e73b31);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003314}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-red .btn-content, * .ceres-btn-matte-gradient.ceres-button-red .btn-content {
+  background: linear-gradient(#FF4136, #e73b31 85%, #e73b31 90%, #FF4136);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003317}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-red:active, * .ceres-btn-matte-gradient.ceres-button-red:active {
+  background: #e73b31;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003320}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-red:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-red:active .btn-content {
+  background: #e73b31;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003327}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-maroon, * .ceres-btn-matte-gradient.ceres-button-maroon {
+  background: #85144B;
+  background: linear-gradient(#85144B, #85144B);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003331}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-maroon .btn-content, * .ceres-btn-matte-gradient.ceres-button-maroon .btn-content {
+  background: linear-gradient(#b91c68, #85144B 85%, #85144B 90%, #b91c68);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003334}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-maroon:active, * .ceres-btn-matte-gradient.ceres-button-maroon:active {
+  background: #85144B;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003337}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-maroon:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-maroon:active .btn-content {
+  background: #85144B;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003344}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-fuchsia, * .ceres-btn-matte-gradient.ceres-button-fuchsia {
+  background: #db10ad;
+  background: linear-gradient(#db10ad, #db10ad);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003348}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-fuchsia .btn-content, * .ceres-btn-matte-gradient.ceres-button-fuchsia .btn-content {
+  background: linear-gradient(#F012BE, #d10fa5 85%, #d10fa5 90%, #e812b8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003351}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-fuchsia:active, * .ceres-btn-matte-gradient.ceres-button-fuchsia:active {
+  background: #db10ad;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003354}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-fuchsia:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-fuchsia:active .btn-content {
+  background: #db10ad;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003361}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-purple, * .ceres-btn-matte-gradient.ceres-button-purple {
+  background: #9b0bb1;
+  background: linear-gradient(#9b0bb1, #9b0bb1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003365}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-purple .btn-content, * .ceres-btn-matte-gradient.ceres-button-purple .btn-content {
+  background: linear-gradient(#c20edc, #9b0bb1 85%, #9b0bb1 90%, #af0dc7);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003368}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-purple:active, * .ceres-btn-matte-gradient.ceres-button-purple:active {
+  background: #B10DC9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003371}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-purple:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-purple:active .btn-content {
+  background: #B10DC9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003378}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-black, * .ceres-btn-matte-gradient.ceres-button-black {
+  background: #111111;
+  background: linear-gradient(#111111, #111111);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003382}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-black .btn-content, * .ceres-btn-matte-gradient.ceres-button-black .btn-content {
+  background: linear-gradient(#747474, #111111 85%, #111111 90%, #606060);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003385}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-black:active, * .ceres-btn-matte-gradient.ceres-button-black:active {
+  background: #111111;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003388}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-black:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-black:active .btn-content {
+  background: #111111;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003395}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-silver, * .ceres-btn-matte-gradient.ceres-button-silver {
+  background: #BBBBBB;
+  background: #BBBBBB;
+  background: linear-gradient(#CCCCCC, #AAAAAA);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003401}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-silver .btn-content, * .ceres-btn-matte-gradient.ceres-button-silver .btn-content {
+  background: linear-gradient(#d8d8d8, #BBBBBB 85%, #BBBBBB 90%, #c6c6c6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003404}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-silver:active, * .ceres-btn-matte-gradient.ceres-button-silver:active {
+  background: #BBBBBB;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003407}}
+.ceres-element .ceres-btn-matte-gradient.ceres-button-silver:active .btn-content, * .ceres-btn-matte-gradient.ceres-button-silver:active .btn-content {
+  background: #BBBBBB;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003417}}
+.ceres-element .ceres-btn-round-flat, * .ceres-btn-round-flat {
+  font-family: Montserrat;
+  border: 0;
+  display: inline-block;
+  padding: 14px 27px 14px 29px;
+  color: #ffffff;
+  white-space: wrap;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  background: #222222;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-duration: .1s;
+  -webkit-transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  -moz-transition-property: color, background-color;
+  -moz-transition-duration: .1s;
+  -moz-transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  -ms-transition-property: color, background-color;
+  -ms-transition-duration: .1s;
+  -ms-transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  -o-transition-property: color, background-color;
+  -o-transition-duration: .1s;
+  -o-transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  transition-property: color, background-color;
+  transition-duration: .1s;
+  transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  font-size: 14px;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  /* Hover, Active and Focus states */
+  /* Click state */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003456}}
+.ceres-element .ceres-btn-round-flat.btn-lg, * .ceres-btn-round-flat.btn-lg {
+  padding: 20px 32px 19px 34px;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003460}}
+.ceres-element .ceres-btn-round-flat.btn-sm, * .ceres-btn-round-flat.btn-sm {
+  padding: 11px 24px 11px 25px;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003464}}
+.ceres-element .ceres-btn-round-flat.btn-xs, * .ceres-btn-round-flat.btn-xs {
+  padding: 7px 20px 6px 21px;
+  font-size: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003470}}
+.ceres-element .ceres-btn-round-flat:hover, .ceres-element .ceres-btn-round-flat:active, .ceres-element .ceres-btn-round-flat:focus, * .ceres-btn-round-flat:hover, * .ceres-btn-round-flat:active, * .ceres-btn-round-flat:focus {
+  outline: 0;
+  background: #222222;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003476}}
+.ceres-element .ceres-btn-round-flat:active, * .ceres-btn-round-flat:active {
+  background: #e5e5e5;
+  color: #222222;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003494}}
+.ceres-element .ceres-btn-square-flat, * .ceres-btn-square-flat {
+  font-family: Montserrat;
+  display: inline-block;
+  height: 40px;
+  min-width: 200px;
+  max-width: 100%;
+  padding: 0 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: always;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #2996cc;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  /* Hover, Active and Focus states */
+  /* Click state */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003520}}
+.ceres-element .ceres-btn-square-flat.btn-lg, * .ceres-btn-square-flat.btn-lg {
+  min-width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  padding: 0 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003527}}
+.ceres-element .ceres-btn-square-flat.btn-sm, * .ceres-btn-square-flat.btn-sm {
+  min-width: 150px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 11px;
+  padding: 0 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003534}}
+.ceres-element .ceres-btn-square-flat.btn-xs, * .ceres-btn-square-flat.btn-xs {
+  min-width: 100px;
+  height: 25px;
+  line-height: 22px;
+  font-size: 10px;
+  padding: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003543}}
+.ceres-element .ceres-btn-square-flat:hover, .ceres-element .ceres-btn-square-flat:active, .ceres-element .ceres-btn-square-flat:focus, * .ceres-btn-square-flat:hover, * .ceres-btn-square-flat:active, * .ceres-btn-square-flat:focus {
+  outline: 0;
+  background-color: #2996cc;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003550}}
+.ceres-element .ceres-btn-square-flat:active, * .ceres-btn-square-flat:active {
+  box-shadow: none;
+  background-color: #2586b7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003559}}
+.ceres-element .ceres-btn-bordered-gradient, * .ceres-btn-bordered-gradient {
+  display: inline-block;
+  margin-right: 5px;
+  font-family: 'PT Sans';
+  font-size: 14px;
+  padding: 8px 17px 8px;
+  color: #293F46;
+  font-weight: 600;
+  font-style: normal;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-image: linear-gradient(to top, rgba(227, 227, 227, 0.3) 29%, white 65%);
+  background-image: -o-linear-gradient(to top, rgba(227, 227, 227, 0.3) 29%, white 65%);
+  background-image: -moz-linear-gradient(to top, rgba(227, 227, 227, 0.3) 29%, white 65%);
+  background-image: -webkit-linear-gradient(to top, rgba(227, 227, 227, 0.3) 29%, white 65%);
+  background-image: -ms-linear-gradient(to top, rgba(227, 227, 227, 0.3) 29%, white 65%);
+  background-size: auto;
+  box-shadow: 0 0 0 3px rgba(41, 63, 70, 0.13);
+  border: 0;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  /* Hover, Active and Focus states */
+  /* Click state */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003587}}
+.ceres-element .ceres-btn-bordered-gradient.btn-lg, * .ceres-btn-bordered-gradient.btn-lg {
+  font-size: 17px;
+  padding: 12px 21px 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003591}}
+.ceres-element .ceres-btn-bordered-gradient.btn-sm, * .ceres-btn-bordered-gradient.btn-sm {
+  font-size: 12px;
+  padding: 6px 15px 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003595}}
+.ceres-element .ceres-btn-bordered-gradient.btn-xs, * .ceres-btn-bordered-gradient.btn-xs {
+  font-size: 11px;
+  padding: 4px 13px 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003601}}
+.ceres-element .ceres-btn-bordered-gradient:hover, .ceres-element .ceres-btn-bordered-gradient:active, .ceres-element .ceres-btn-bordered-gradient:focus, * .ceres-btn-bordered-gradient:hover, * .ceres-btn-bordered-gradient:active, * .ceres-btn-bordered-gradient:focus {
+  outline: 0;
+  background-color: #f0f0f0;
+  color: #293F46;
+  background-image: linear-gradient(to top, rgba(227, 227, 227, 0.3) 29%, white 65%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003608}}
+.ceres-element .ceres-btn-bordered-gradient:hover, * .ceres-btn-bordered-gradient:hover {
+  box-shadow: 0 0 0 3px rgba(41, 63, 70, 0.19);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003612}}
+.ceres-element .ceres-btn-bordered-gradient:active, * .ceres-btn-bordered-gradient:active {
+  background: white;
+  box-shadow: 0 0 0 3px rgba(41, 63, 70, 0.13);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003618}}
+.ceres-element .ceres-btn-bordered-gradient.navy-variant, * .ceres-btn-bordered-gradient.navy-variant {
+  color: #fff;
+  border: 2px solid #457582;
+  /* Hover, Active and Focus states */
+  /* Click state */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003623}}
+.ceres-element .ceres-btn-bordered-gradient.navy-variant, .ceres-element .ceres-btn-bordered-gradient.navy-variant:hover, .ceres-element .ceres-btn-bordered-gradient.navy-variant:active, .ceres-element .ceres-btn-bordered-gradient.navy-variant:focus, * .ceres-btn-bordered-gradient.navy-variant, * .ceres-btn-bordered-gradient.navy-variant:hover, * .ceres-btn-bordered-gradient.navy-variant:active, * .ceres-btn-bordered-gradient.navy-variant:focus {
+  outline: 0;
+  background: #385b66;
+  background-image: linear-gradient(to top, #293f46 0%, #385b66 100%);
+  background-image: -o-linear-gradient(to top, #293f46 0%, #385b66 100%);
+  background-image: -moz-linear-gradient(to top, #293f46 0%, #385b66 100%);
+  background-image: -webkit-linear-gradient(to top, #293f46 0%, #385b66 100%);
+  background-image: -ms-linear-gradient(to top, #293f46 0%, #385b66 100%);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box !important;
+  color: #fff;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003638}}
+.ceres-element .ceres-btn-bordered-gradient.navy-variant:active, * .ceres-btn-bordered-gradient.navy-variant:active {
+  background: #385b66;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003646}}
+.ceres-element .ceres-btn-3d-block, * .ceres-btn-3d-block {
+  display: inline-block;
+  padding: 10px 24px 11px;
+  margin-bottom: 0;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  font-family: Montserrat;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff !important;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.06);
+  background-color: #20c0de;
+  border: 0;
+  /* Hover, Active and Focus states */
+  /* Click state */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003665}}
+.ceres-element .ceres-btn-3d-block .btn-hover-bg, * .ceres-btn-3d-block .btn-hover-bg {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003670}}
+.ceres-element .ceres-btn-3d-block.btn-lg, * .ceres-btn-3d-block.btn-lg {
+  font-size: 18px;
+  padding: 14px 30px 16px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.06);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003675}}
+.ceres-element .ceres-btn-3d-block.btn-sm, * .ceres-btn-3d-block.btn-sm {
+  font-size: 14px;
+  padding: 8px 20px 9px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.06);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003680}}
+.ceres-element .ceres-btn-3d-block.btn-xs, * .ceres-btn-3d-block.btn-xs {
+  font-size: 12px;
+  padding: 6px 16px 7px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.06);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003687}}
+.ceres-element .ceres-btn-3d-block:hover, .ceres-element .ceres-btn-3d-block:active, .ceres-element .ceres-btn-3d-block:focus, * .ceres-btn-3d-block:hover, * .ceres-btn-3d-block:active, * .ceres-btn-3d-block:focus {
+  color: #fff !important;
+  background-color: #20c0de;
+  outline: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003696}}
+.ceres-element .ceres-btn-3d-block:active, * .ceres-btn-3d-block:active {
+  box-shadow: inset 0 1px 14px rgba(0, 0, 0, 0.1), 0 1px 20px rgba(0, 0, 0, 0.05);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003703}}
+.ceres-element .ceres-icon-left i, * .ceres-icon-left i {
+  margin-right: 0.55em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003707}}
+.ceres-element .ceres-icon-right i, * .ceres-icon-right i {
+  margin-left: 0.55em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003712}}
+.ceres-element .ceres-block-button, * .ceres-block-button {
+  display: block;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003722}}
+.ceres-element #footer-button-1, * #footer-button-1 {
+  background: #fed136;
+  color: #222;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003726}}
+.ceres-element #footer-button-1:hover, * #footer-button-1:hover {
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003733}}
+.ceres-element #round-flat .first-row, * #round-flat .first-row {
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003736}}
+.ceres-element #round-flat .first-row .btn, * #round-flat .first-row .btn {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003739}}
+.ceres-element #round-flat .first-row .btn .btn-hover-bg, * #round-flat .first-row .btn .btn-hover-bg {
+  background-color: #fed136;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003744}}
+.ceres-element #round-flat .first-row .btn:hover .btn-content, * #round-flat .first-row .btn:hover .btn-content {
+  color: #222;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003753}}
+.ceres-element #round-flat .second-row .btn, * #round-flat .second-row .btn {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003757}}
+.ceres-element #round-flat .second-row .btn:hover .btn-content, * #round-flat .second-row .btn:hover .btn-content {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003767}}
+.ceres-element #button-3d .btn, * #button-3d .btn {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  background-color: #d04a53;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003775}}
+.ceres-element #button-3d .second-row .btn, * #button-3d .second-row .btn {
+  border-radius: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003781}}
+.ceres-element #button-3d .third-row .btn, * #button-3d .third-row .btn {
+  border-radius: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003789}}
+.ceres-element #square-flat .btn, * #square-flat .btn {
+  background-color: #222;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003793}}
+.ceres-element #square-flat .btn .btn-hover-bg, * #square-flat .btn .btn-hover-bg {
+  background-color: #fed136;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003798}}
+.ceres-element #square-flat .btn:hover .btn-content, * #square-flat .btn:hover .btn-content {
+  color: #222;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003806}}
+.ceres-element #square-flat .fourth-row .btn, * #square-flat .fourth-row .btn {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003817}}
+.ceres-element #bordered-3d-gradient .btn, * #bordered-3d-gradient .btn {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003825}}
+.ceres-element #push-out, * #push-out {
+  background: #9d54bd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003828}}
+.ceres-element #push-out .btn, * #push-out .btn {
+  margin-bottom: 20px;
+  background-color: #823aa0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003833}}
+.ceres-element #push-out .btn:hover .btn-content, * #push-out .btn:hover .btn-content {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003839}}
+.ceres-element #push-out .btn-hover-bg, * #push-out .btn-hover-bg {
+  background-color: #222222;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003843}}
+.ceres-element #push-out i, * #push-out i {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003855}}
+.ceres-element .btn, * .btn {
+  overflow: hidden;
+  position: relative;
+  -webkit-transform: rotate(0.0deg);
+  /* Animations */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003860}}
+.ceres-element .btn .btn-hover-bg, * .btn .btn-hover-bg {
+  background: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003872}}
+.ceres-element .btn .btn-content, * .btn .btn-content {
+  position: relative;
+  z-index: 1;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003880}}
+.ceres-element .btn:hover .btn-hover-bg, * .btn:hover .btn-hover-bg {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003884}}
+.ceres-element .btn:hover .btn-content, * .btn:hover .btn-content {
+  color: #fed136;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003898}}
+.ceres-element .btn.ceres-btn-fill-from-top .btn-hover-bg, * .btn.ceres-btn-fill-from-top .btn-hover-bg {
+  bottom: 100%;
+  transition: all 0.3s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003904}}
+.ceres-element .btn.ceres-btn-fill-from-top:hover .btn-hover-bg, * .btn.ceres-btn-fill-from-top:hover .btn-hover-bg {
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003914}}
+.ceres-element .btn.ceres-btn-fill-from-bottom .btn-hover-bg, * .btn.ceres-btn-fill-from-bottom .btn-hover-bg {
+  top: 100%;
+  transition: all 0.3s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003920}}
+.ceres-element .btn.ceres-btn-fill-from-bottom:hover .btn-hover-bg, * .btn.ceres-btn-fill-from-bottom:hover .btn-hover-bg {
+  top: 0;
+  transition: all 0.3s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003930}}
+.ceres-element .btn.ceres-btn-fill-from-left .btn-hover-bg, * .btn.ceres-btn-fill-from-left .btn-hover-bg {
+  right: 100%;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003936}}
+.ceres-element .btn.ceres-btn-fill-from-left:hover .btn-hover-bg, * .btn.ceres-btn-fill-from-left:hover .btn-hover-bg {
+  right: 0;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003946}}
+.ceres-element .btn.ceres-btn-fill-from-right .btn-hover-bg, * .btn.ceres-btn-fill-from-right .btn-hover-bg {
+  left: 100%;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003952}}
+.ceres-element .btn.ceres-btn-fill-from-right:hover .btn-hover-bg, * .btn.ceres-btn-fill-from-right:hover .btn-hover-bg {
+  left: 0;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003962}}
+.ceres-element .btn.ceres-btn-fill-center-vertically .btn-hover-bg, * .btn.ceres-btn-fill-center-vertically .btn-hover-bg {
+  top: 50%;
+  bottom: 50%;
+  transition: all 0.3s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003969}}
+.ceres-element .btn.ceres-btn-fill-center-vertically:hover .btn-hover-bg, * .btn.ceres-btn-fill-center-vertically:hover .btn-hover-bg {
+  top: 0;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003980}}
+.ceres-element .btn.ceres-btn-fill-center-horizontally .btn-hover-bg, * .btn.ceres-btn-fill-center-horizontally .btn-hover-bg {
+  left: 50%;
+  right: 50%;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003987}}
+.ceres-element .btn.ceres-btn-fill-center-horizontally:hover .btn-hover-bg, * .btn.ceres-btn-fill-center-horizontally:hover .btn-hover-bg {
+  left: 0;
+  right: 0;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\00003997}}
+.ceres-element .btn.ceres-btn-fill-center-diagonally .btn-hover-bg, * .btn.ceres-btn-fill-center-diagonally .btn-hover-bg {
+  left: 50%;
+  right: 50%;
+  transition: all 0.4s ease;
+  top: -1000px;
+  bottom: -1000px;
+  -ms-transform: rotate(135deg);
+  /* IE 9 */
+  -webkit-transform: rotate(135deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(135deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031009}}
+.ceres-element .btn.ceres-btn-fill-center-diagonally:hover .btn-hover-bg, * .btn.ceres-btn-fill-center-diagonally:hover .btn-hover-bg {
+  left: 0;
+  right: 0;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031027}}
+.ceres-element .btn.ceres-btn-icon-push-to-top i, * .btn.ceres-btn-icon-push-to-top i {
+  opacity: 0;
+  width: 1em;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: -100%;
+  transition: all 0.4s ease;
+  transform: translateX(-50%) translateY(50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031037}}
+.ceres-element .btn.ceres-btn-icon-push-to-top .btn-content, * .btn.ceres-btn-icon-push-to-top .btn-content {
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031042}}
+.ceres-element .btn.ceres-btn-icon-push-to-top:hover i, * .btn.ceres-btn-icon-push-to-top:hover i {
+  opacity: 1;
+  bottom: 50%;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031047}}
+.ceres-element .btn.ceres-btn-icon-push-to-top:hover .btn-content, * .btn.ceres-btn-icon-push-to-top:hover .btn-content {
+  opacity: 0;
+  transform: translateY(-300px);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031055}}
+.ceres-element .btn.ceres-btn-icon-push-to-bottom i, * .btn.ceres-btn-icon-push-to-bottom i {
+  opacity: 0;
+  width: 1em;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: -100%;
+  transition: all 0.4s ease;
+  transform: translateX(-50%) translateY(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031065}}
+.ceres-element .btn.ceres-btn-icon-push-to-bottom .btn-content, * .btn.ceres-btn-icon-push-to-bottom .btn-content {
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031070}}
+.ceres-element .btn.ceres-btn-icon-push-to-bottom:hover i, * .btn.ceres-btn-icon-push-to-bottom:hover i {
+  opacity: 1;
+  top: 50%;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031075}}
+.ceres-element .btn.ceres-btn-icon-push-to-bottom:hover .btn-content, * .btn.ceres-btn-icon-push-to-bottom:hover .btn-content {
+  opacity: 0;
+  transform: translateY(300px);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031082}}
+.ceres-element .btn.ceres-btn-icon-push-to-left i, * .btn.ceres-btn-icon-push-to-left i {
+  opacity: 0;
+  width: 1em;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: -100%;
+  transition: all 0.4s ease;
+  transform: translateX(50%) translateY(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031092}}
+.ceres-element .btn.ceres-btn-icon-push-to-left .btn-content, * .btn.ceres-btn-icon-push-to-left .btn-content {
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031097}}
+.ceres-element .btn.ceres-btn-icon-push-to-left:hover i, * .btn.ceres-btn-icon-push-to-left:hover i {
+  opacity: 1;
+  right: 50%;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031102}}
+.ceres-element .btn.ceres-btn-icon-push-to-left:hover .btn-content, * .btn.ceres-btn-icon-push-to-left:hover .btn-content {
+  opacity: 0;
+  transform: translateX(-300px);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031109}}
+.ceres-element .btn.ceres-btn-icon-push-to-right i, * .btn.ceres-btn-icon-push-to-right i {
+  opacity: 0;
+  width: 1em;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  transition: all 0.4s ease;
+  transform: translateX(-50%) translateY(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031119}}
+.ceres-element .btn.ceres-btn-icon-push-to-right .btn-content, * .btn.ceres-btn-icon-push-to-right .btn-content {
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031124}}
+.ceres-element .btn.ceres-btn-icon-push-to-right:hover i, * .btn.ceres-btn-icon-push-to-right:hover i {
+  opacity: 1;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031129}}
+.ceres-element .btn.ceres-btn-icon-push-to-right:hover .btn-content, * .btn.ceres-btn-icon-push-to-right:hover .btn-content {
+  opacity: 0;
+  transform: translateX(300px);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031145}}
+.ceres-element .btn.ceres-btn-icon-from-left i, * .btn.ceres-btn-icon-from-left i {
+  position: absolute;
+  left: -50%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031155}}
+.ceres-element .btn.ceres-btn-icon-from-left:hover i, * .btn.ceres-btn-icon-from-left:hover i {
+  left: 15%;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031165}}
+.ceres-element .btn.ceres-btn-icon-from-right i, * .btn.ceres-btn-icon-from-right i {
+  position: absolute;
+  right: -50%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031175}}
+.ceres-element .btn.ceres-btn-icon-from-right:hover i, * .btn.ceres-btn-icon-from-right:hover i {
+  right: 15%;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031185}}
+.ceres-element .btn.ceres-btn-icon-to-left i, * .btn.ceres-btn-icon-to-left i {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031195}}
+.ceres-element .btn.ceres-btn-icon-to-left:hover i, * .btn.ceres-btn-icon-to-left:hover i {
+  left: 15%;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031204}}
+.ceres-element .btn.ceres-btn-icon-to-right i, * .btn.ceres-btn-icon-to-right i {
+  position: absolute;
+  right: 40%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031214}}
+.ceres-element .btn.ceres-btn-icon-to-right:hover i, * .btn.ceres-btn-icon-to-right:hover i {
+  right: 15%;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031229}}
+.ceres-element .ceres-btn-square-flat,
+* .ceres-btn-square-flat {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 41px;
+  padding-right: 41px;
+  min-width: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031237}}
+.ceres-element .ceres-btn-square-flat .btn-content,
+* .ceres-btn-square-flat .btn-content {
+  font-size: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031243}}
+.ceres-element .ceres-btn-square-flat.btn-lg,
+* .ceres-btn-square-flat.btn-lg {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 60px;
+  padding-right: 60px;
+  min-width: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031251}}
+.ceres-element .ceres-btn-square-flat.btn-lg .btn-content,
+* .ceres-btn-square-flat.btn-lg .btn-content {
+  font-size: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031256}}
+.ceres-element .ceres-btn-square-flat.btn-sm,
+* .ceres-btn-square-flat.btn-sm {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_button\.scss}line{font-family:\000031264}}
+.ceres-element .ceres-btn-square-flat.btn-sm .btn-content,
+* .ceres-btn-square-flat.btn-sm .btn-content {
+  font-size: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_iconlist\.scss}line{font-family:\000031}}
+.ceres-icon-list-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_iconlist\.scss}line{font-family:\000035}}
+.ceres-icon-list-item .list-icon-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_iconlist\.scss}line{font-family:\0000310}}
+.ceres-icon-list-item .list-icon-wrapper i {
+  font-size: 19px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_iconlist\.scss}line{font-family:\0000314}}
+.ceres-icon-list-item .list-icon-content {
+  padding-left: 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kironroy\/Code\/legalplus\/wp-content\/plugins\/ceres\/FrontendApp\/app\/styles\/_iconlist\.scss}line{font-family:\0000317}}
+.ceres-icon-list-item .list-icon-content h3 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  color: #222222;
+  font-size: 16px;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+}
+
