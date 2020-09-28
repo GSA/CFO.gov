@@ -116,6 +116,10 @@ secondary_navigation_cxo:
   - name: Contact Us
     url: "mailto:cxofellowship@gsa.gov"
 
+secondary_navigation_jfmip:
+  - name: Contact Us
+    url: "mailto:JFMIP@fiscal.treasury.gov"
+
 payment-accuracy-navigation:
   - name: About
     url: /about-payment-accuracy/
