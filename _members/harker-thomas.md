@@ -5,7 +5,7 @@ layout: bio
 permalink: /bio/mr-thomas-harker/
 name : Mr. Thomas Harker
 department: Department of Defense
-title: Performing the Duties of the Under Secretary of Defense (Comptroller)/Chief Financial Officer
+title: Chief Financial Officer, Performing the Duties of the USD (Comptroller)
 
 ---
 
