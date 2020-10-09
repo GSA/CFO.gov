@@ -95,9 +95,8 @@ primary_navigation:
     url: "/policies-and-guidance/"
   - name: Knowledge Sharing
     url: /knowledge-sharing/
-#    commented out JFMIP nav. But page is there based on PO's request.
-#  - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
-#    url: "/jfmip/"
+  - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
+    url: "/jfmip/"
   - name: <abbr title="Federal Real Property Council">FRPC</abbr>
     url: "/frpc/"
 
