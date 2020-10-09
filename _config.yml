@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/logos/logo-main-cfo.png
-jfmip-logo: /assets/images/logos/JFMIP-logo.png
+jfmip-logo: /assets/images/logos/jfmip-logo-plain.png
 
 
 # Twitter handle. Only the handle, not the URL.
@@ -115,6 +115,10 @@ secondary_navigation_frpc:
 secondary_navigation_cxo:
   - name: Contact Us
     url: "mailto:cxofellowship@gsa.gov"
+
+secondary_navigation_jfmip:
+  - name: Contact Us
+    url: "mailto:JFMIP@fiscal.treasury.gov"
 
 payment-accuracy-navigation:
   - name: About

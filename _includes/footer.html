@@ -23,13 +23,15 @@
                         <div class="usa-footer__contact-info grid-row grid-gap">
                             <div class="grid-col-auto">
                                 <p>
-                                {% if include.page_type == 'frpc' %}
+                                    {% if include.page_type == 'frpc' %}
                                     {{ site.footer.contact.frpc-email }}
-                                {% elsif include.page_type == 'cxo'  %}
+                                    {% elsif include.page_type == 'cxo' %}
                                     {{ site.footer.contact.cxo-email }}
-                                {% else %}
-                                {{ site.footer.contact.email }}
-                                {% endif %}
+                                    {% elsif include.page_type == 'jfmip' %}
+                                    {{ site.footer.contact.jfmip-email }}
+                                    {% else %}
+                                    {{ site.footer.contact.email }}
+                                    {% endif %}
                                 </p>
                             </div>
                         </div>
