@@ -47,28 +47,32 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
         <div class="grid-container">
             <h2 class="font-sans-sm">Members</h2>
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                    Agency
+                </div>
+                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                    Chief Financial Officer
+                </div>
+                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                    Deputy Chief Financial Officer
+                </div>
                 {% for group in group_members %}
                 {% assign sorted_members = group.items | sort: "title" %}
                 {% assign firstItem = sorted_members | first%}
                 {% assign lastItem = sorted_members.last %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <span style="color:black;text-decoration: none; display: block;" class="height-full">
-                        <div class="left">
+                        <div class="leftSeal">
                             <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
                         </div>
 
-                        <div class="right">
+                        <div class="rightSeal">
                             <p>
-                                <span class="name">{{firstItem.department}}
-
-                                </span>
+                                <span class="nameSeal">{{firstItem.department}}</span>
                             </p>
                         </div>
                     </span>
                 </div>
-
-
-
 
                 {% if firstItem.title contains "Deputy"  %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
@@ -94,7 +98,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                         </div>
                         <div class="right">
                             <p><span class="name">{{ bio.name }}<br></span>
-                                <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
+                                <span class="title">{{ bio.title }}, {{ bio.department }} {{ bio.sub-department }}</span></p>
                         </div>
                     </a>
                 </div>

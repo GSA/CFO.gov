@@ -7,6 +7,12 @@
   height: 100px;
 }
 
+.leftSeal{
+  width: 48%;
+  float:left;
+  height: 100px;
+}
+
 .left img.photo {
   width: 100%;
   object-fit: cover;
@@ -22,6 +28,13 @@
 .right {
   background-color:#f0f0f0;
   width:70%;
+  float: right;
+  height: 135px;
+}
+
+.rightSeal {
+  background-color:#f0f0f0;
+  width:50%;
   float: right;
   height: 135px;
 }
@@ -52,6 +65,11 @@
 
 .name {
   font-size: 14px;
+  font-weight: bold;
+}
+
+.nameSeal {
+  font-size: 20px;
   font-weight: bold;
 }
 
