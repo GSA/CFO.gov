@@ -54,13 +54,15 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <span style="color:black;text-decoration: none; display: block;" class="height-full">
                         <div class="left">
-                            <!-- <img src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait"> -->
+                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
                         </div>
-                      
+
                         <div class="right">
-                            <p>{{firstItem.department}}</p>
-                            {{sorted_members.count}}
-                            {{sorted_members.length}}
+                            <p>
+                                <span class="name">{{firstItem.department}}
+
+                                </span>
+                            </p>
                         </div>
                     </span>
                 </div>
@@ -72,11 +74,13 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <span style="color:black;text-decoration: none; display: block;" class="height-full">
                         <div class="left">
-                            <!-- <img src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait"> -->
+                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
                         </div>
-                 
+
                         <div class="right">
-                            <p>Vacant</p>
+                            <span class="name">
+                                <p>Vacant</p>
+                            </span>
                         </div>
                     </span>
                 </div>
@@ -86,7 +90,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                     <a style="color:black;text-decoration: none; display: block;" class="height-full"
                         href="{{ site.baseurl }}{{ bio.permalink }}">
                         <div class="left">
-                            <img src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
+                            <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                         </div>
                         <div class="right">
                             <p><span class="name">{{ bio.name }}<br></span>
@@ -99,15 +103,17 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
 
                 {% if firstItem.title contains "Deputy"  %}
 
-                {% else %}    
-                {% if firstItem == lastItem   %}           
+                {% else %}
+                {% if firstItem == lastItem   %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <span style="color:black;text-decoration: none; display: block;" class="height-full">
                         <div class="left">
-                            <!-- <img src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait"> -->
+                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
                         </div>
                         <div class="right">
-                            <p>Vacant Deputy</p>
+                            <span class="name">
+                                <p>Vacant</p>
+                            </span>
                         </div>
                     </span>
                 </div>
