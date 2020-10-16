@@ -47,14 +47,20 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
         <div class="grid-container">
             <h2 class="font-sans-sm">Members</h2>
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    Agency
+                <div class="tablet:grid-col-4 container boarderBottom" style="padding:10px;">
+                    <span class="headerMember">
+                        Agency
+                    </span>
                 </div>
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                <div class="tablet:grid-col-4 container boarderBottom" style="padding:10px;">
+                    <span class="headerMember">
                     Chief Financial Officer
+                    </span>
                 </div>
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                <div class="tablet:grid-col-4 container boarderBottom" style="padding:10px;">
+                    <span class="headerMember">
                     Deputy Chief Financial Officer
+                    </span>
                 </div>
                 {% for group in group_members %}
                 {% assign sorted_members = group.items | sort: "title" %}
