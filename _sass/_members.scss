@@ -32,16 +32,11 @@
   height: 135px;
 }
 
-.rightSeal {
-  background-color:#f0f0f0;
-  width:50%;
-  float: right;
-  height: 135px;
-}
+
 
 
 .headerMember{
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 
 }
@@ -49,6 +44,7 @@
 
 .boarderBottom{
     border-bottom: 1px solid black;
+    text-align: center;
 }
 
 .right p {
@@ -57,10 +53,25 @@
   font-size: 14px;
 }
 
+.rightSeal {
+  width:50%;
+  float: right;
+  height: 135px;
+  text-align: center;
+  
+}
+
 .rightSeal p {
   padding: 10px;
   margin-top: 0px;
   font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nameSeal {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .bio-photo {
@@ -86,10 +97,7 @@
   font-weight: bold;
 }
 
-.nameSeal {
-  font-size: 20px;
-  font-weight: bold;
-}
+
 
 .title {
   font-size: 13px;
