@@ -99,6 +99,24 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                 </div>
                 {% endif %}
                 {% for bio in sorted_members %}
+                {% if bio.name contains "Vacant"  %}
+                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                    <span style="color:black;text-decoration: none; display: block;" class="height-full">
+                        <div class="left">
+                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
+                        </div>
+
+                        <div class="right">
+                            <p>
+                                <span class="name">
+                                    Vacant<br>
+                                </span>
+                                <span class="title">Chief Financial Officer, {{ firstItem.department }}</span>
+                            </p>
+                        </div>
+                    </span>
+                </div>
+                {% else %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <a style="color:black;text-decoration: none; display: block;" class="height-full"
                         href="{{ site.baseurl }}{{ bio.permalink }}">
@@ -111,6 +129,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                         </div>
                     </a>
                 </div>
+                {% endif %}
                 {% endfor %}
 
 
