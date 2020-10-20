@@ -5,7 +5,7 @@ bio-image-alt-text: Ms. Carol Terris
 
 layout: bio
 permalink: /bio/ms-carol-terris/
-name : Ms. Carol Terris
+name : Vacant
 department: Environmental Protection Agency
 
 title: Chief Financial Officer (Acting Associate)
