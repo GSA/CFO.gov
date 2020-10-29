@@ -1,5 +1,5 @@
 ---
-bio-image: /assets/images/placeholder-person.jpg
+bio-image: /wp-content/uploads/2018/01/OMB_seal.png
 bio-image-alt-text: John Pasquantino
 layout: bio
 permalink: /bio/mr-john-pasquantino/
