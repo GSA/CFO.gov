@@ -6,7 +6,7 @@ layout: bio
 permalink: /bio/mr-david-bloom/
 name : Mr. David Bloom
 department: Environmental Protection Agency
-title: Deputy Chief Financial Officer (Acting)
+title: Deputy Chief Financial Officer
 ---
 David Bloom is the Deputy Chief Financial Officer at the EPA, having oversight of EPA's annual budget and performance plan, strategic planning efforts, implementation of the Government Performance and Results Act, and financial operations, policy, and financial information systems for the agency.
               
@@ -14,6 +14,6 @@ David began his federal career at the Office of Management and Budget in 1985. D
               
 David received a Bachelor's degree in Business Administration from the University of Florida and a Master's Degree in Business Administration from The George Washington University.
  
-
+ 
 
  
