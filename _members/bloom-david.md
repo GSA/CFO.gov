@@ -14,6 +14,6 @@ David began his federal career at the Office of Management and Budget in 1985. D
               
 David received a Bachelor's degree in Business Administration from the University of Florida and a Master's Degree in Business Administration from The George Washington University.
  
-
+ 
 
  
