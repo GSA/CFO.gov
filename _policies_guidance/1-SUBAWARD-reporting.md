@@ -5,7 +5,7 @@ author: CFO Council
 type: Controller Alert
 title: "Controller Alert: Subaward Reporting"
 subtitle: "Controller Alert: Subaward Reporting"
-doc-link: ../assets/files/Controller Alert-FSRS.pdf
+doc-link: ../assets/files/Final-Controller Alert-FSRS.pdf
 filters: controller-alerts
 ---
 
