@@ -8,9 +8,9 @@ sidenav: false
 ---
 <div class="grid-row grid-gap">
 {% for item in site.data.agencies %}
-    <div class="grid-col-4">
+    <div class="desktop:grid-col-4 margin-bottom-2">
     {% if item.name %}
-    <p class="font-sans-lg height-6">{{item.name}}</p>
+    <p class="font-sans-md text-bold height-4">{{item.name}}</p>
     {% endif %}
     {% if item.agency-data %}
     <p>view <a href="{{item.agency-data}}" title="{{item.abbr}} Supplemental Data Call 2020">agency level data</a></p>
