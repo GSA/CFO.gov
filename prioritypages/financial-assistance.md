@@ -16,9 +16,10 @@ priority_icons:
  - name: Grants Training Module
    logo: /assets/images/logos/Asset_11.svg
    url: /grants-training/
- - name: OMB MAX
+ - name: Join Community 
    logo: /assets/images/logos/Asset_10.svg
-   link: https://community.max.gov/x/rgTvVg   
+   link: "#openModal13"  
+   id: join-community
 description1: The Financial Assistance Priority Area focuses on maximizing the value of grant funding by applying a risk-based, data-driven framework that balances compliance requirements with demonstrating successful results for the American taxpayer.
 ---
 
