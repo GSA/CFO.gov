@@ -2,7 +2,7 @@
 layout: default
 permalink: /grants-stakeholder-sessions/
 title: Grants Stakeholder Sessions Landing Page 
-description: Welcome to the Grants Stakeholder Sessions Landing Page. On this page, you’ll find links to the Informational Session and Stakeholder Feedback Sessions. In addition, we will be posting the recording of the Informational Session and the Program Design Video here. 
+description: Welcome to the Grants Stakeholder Sessions Landing Page. On this page, you’ll find links related to the Informational Session and Stakeholder Feedback Sessions. In addition, we will be posting the recording of the Informational Session and the Program Design Video here. 
 ---
 
 {% comment %}
@@ -29,12 +29,14 @@ This is for the Grants stakeholder session, based off of the Latest template.
             <p>Informational Session Slides [link to come]</p>
             <p>Informational Session Recording [link to come]</p>
             
-            <h4>Grants Stakeholder Feedback Sessions:</h4>
+            <h4>Grants Stakeholder Feedback Sessions</h4>
             <p>Join us to share feedback, areas of success, and potential obstacles you face in moving toward a results-oriented grants culture!</p>
             
             <ol>
             <li><a href="https://www.eventbrite.com/e/federal-grants-performance-management-playbook-feedback-session-registration-127375586809">Register for Tuesday, January 12, 11:00AM-12:00PM</a> </li>
+            <br>
             <li><a href="https://www.eventbrite.com/e/researchscience-grants-performance-management-playbook-feedback-session-registration-127373516617">Register for Wednesday, January 13, 1:00PM-2:00PM (for research/science stakeholders only)</a> </li>
+            <br>
             <li><a href="https://www.eventbrite.com/e/federal-grants-performance-management-playbook-feedback-session-registration-127371937895">Register for Thursday, January 14, 2:00PM-3:00PM</a> </li>
             </ol>
              
