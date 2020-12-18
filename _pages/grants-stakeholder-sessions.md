@@ -1,8 +1,8 @@
 ---
 layout: default
-permalink: /grants-stakeholder-sessions/
-title: Grants Stakeholder Sessions Landing Page 
-description: Welcome to the Grants Stakeholder Sessions Landing Page. On this page, you’ll find links related to the Informational Session and Stakeholder Feedback Sessions. In addition, we will be posting the recording of the Informational Session and the Program Design Video here. 
+permalink: /grants-performance-playbook-sessions/
+title: Managing for Results: The Performance Management Playbook for Federal Awarding Agencies Information Sharing Platform
+description: Welcome to the information sharing platform for the Performance Management Playbook for Federal Awarding Agencies.. On this page, you’ll find links related to the Informational Session and Stakeholder Feedback Sessions. In addition, we will be posting the recording of the Informational Session and the Program Design Video here. 
 ---
 
 {% comment %}
@@ -25,12 +25,12 @@ This is for the Grants stakeholder session, based off of the Latest template.
     <div class="grid-container font-sans-sm padding-0">
         <div class="grid-row grid-gap">
             <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
-            <h4>Grants Informational Session: An Introduction to Developing a Results-Oriented Culture</h4>
+            <h4>Grants Performance Management Playbook Informational Session: An Introduction to Developing a Results-Oriented Culture</h4>
             <p>Informational Session Slides [link to come]</p>
             <p>Informational Session Recording [link to come]</p>
             
-            <h4>Grants Stakeholder Feedback Sessions</h4>
-            <p>Join us to share feedback, areas of success, and potential obstacles you face in moving toward a results-oriented grants culture!</p>
+            <h4>Grants Performance Management Playbook Feedback Session Registration</h4>
+            <p>Join us to share feedback, areas of success, and potential obstacles you face in moving toward a results-oriented grants culture! The feedback sessions will provide an opportunity for Federal employees to provide insights on the Playbook and about breaking barriers to achieve a results-oriented culture. What we learn from you will inform how we support you and your agency going forward, so your participation is critical!</p>
             
             <ol>
             <li><a href="https://www.eventbrite.com/e/federal-grants-performance-management-playbook-feedback-session-registration-127375586809">Register for Tuesday, January 12, 11:00AM-12:00PM</a> </li>
