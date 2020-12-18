@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /grants-performance-playbook-sessions/
-title: Managing for Results: The Performance Management Playbook for Federal Awarding Agencies Information Sharing Platform
-description: Welcome to the information sharing platform for the Performance Management Playbook for Federal Awarding Agencies.. On this page, you’ll find links related to the Informational Session and Stakeholder Feedback Sessions. In addition, we will be posting the recording of the Informational Session and the Program Design Video here. 
+title: Managing for Results - The Performance Management Playbook for Federal Awarding Agencies Information Sharing Platform
+description: Welcome to the information sharing platform for the Performance Management Playbook for Federal Awarding Agencies. On this page, you’ll find links related to the Informational Session and Stakeholder Feedback Sessions. In addition, we will be posting the recording of the Informational Session and the Program Design Video here. 
 ---
 
 {% comment %}
