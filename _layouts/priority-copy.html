@@ -38,7 +38,7 @@ title: Priority
                 {% if icon.url %}
                 <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
                     {% else %}
-                    <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;">
+                    <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;" {% if icon.id %} id="{{ icon.id }}" {% endif %}>
                         {% endif %}
                         <div class="circle-image picons bg-white">
                             <img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
@@ -79,3 +79,14 @@ title: Priority
 
 
 </section>
+<div id="openModal13" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <h2 style="margin-top:0px;">Join our Community! Results-Oriented Accountability for Grants Community of Practice</h2>
+        <ul>
+            <li>Federal members: to join, use your .gov or .mil email address to email <a href="mailto:grantsfed-subscribe-request@listserv.gsa.gov?subject=Federal Join: Results-Oriented Accountability for Grants Community of Practice">grantsfed-subscribe-request@listserv.gsa.gov.</a></li>
+            <li>Non-federal members: to join, email <a href="mailto:grantscommunity-subscribe-request@listserv.gsa.gov?subject=Non-Federal Join: Results-Oriented Accountability for Grants Community of Practice">grantscommunity-subscribe-request@listserv.gsa.gov</a></li>
+        </ul>
+
+    </div>
+</div>
