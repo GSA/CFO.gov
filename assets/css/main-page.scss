@@ -435,3 +435,128 @@ abbr{
     -moz-columns: 2;
   }
 }
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 50px;
+  /* Location of the box */
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Black w/ opacity */ }
+
+/*NEW MODAL for footer newsletter signup*/
+.modal-button {
+  background-color: #0071bc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 25px; }
+
+.modal-button:hover {
+  background-color: #112e51;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 25px; }
+
+.modal-button a {
+  color: white;
+  text-decoration: none; }
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 4;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto; }
+
+.modalDialog > div {
+  width: 50%;
+  position: relative;
+  margin: 4% auto;
+  padding: 40px;
+  border-radius: 10px;
+  background: #fff;
+  border: 5px solid #d6d7d9;
+  background-color: #ffffff;
+  color: #212121;
+  text-align: left;
+  min-width: 300px; }
+
+.close {
+  background: #aeb0b5;
+  color: #FFFFFF;
+  line-height: 34px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 33px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 20px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000; }
+
+.close:hover {
+  background: #aeb0b5; }
+
+/* OLDModal Content */
+.modal-content {
+  background-color: #0071bc;
+  color: #ffffff;
+  margin: auto;
+  padding: 40px;
+  border: 5px solid #ffffff;
+  width: 40%;
+  text-align: left;
+  min-width: 400px; }
+
+.modal-content h2 {
+  font-size: 2em; }
+
+/* The Close Button */
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
