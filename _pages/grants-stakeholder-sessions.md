@@ -28,16 +28,16 @@ This is for the Grants stakeholder session, based off of the Latest template.
             <h4>Grants Performance Management Playbook Informational Session: An Introduction to Developing a Results-Oriented Culture</h4>
             <p>Informational Session Slides [link to come]</p>
             <p>Informational Session Recording [link to come]</p>
-            
+                <p><a href="https://www.performance.gov/CAP/innovation-sessions/Managing%20for%20Results,%20Performance%20Management%20Playbook%20for%20Federal%20Awarding%20Agencies.pdf">Performance Management Playbook</a></p>
             <h4>Grants Performance Management Playbook Feedback Session Registration</h4>
             <p>Join us to share feedback, areas of success, and potential obstacles you face in moving toward a results-oriented grants culture! The feedback sessions will provide an opportunity for Federal employees to provide insights on the Playbook and about breaking barriers to achieve a results-oriented culture. What we learn from you will inform how we support you and your agency going forward, so your participation is critical!</p>
             
             <ol>
-            <li><a href="https://www.eventbrite.com/e/federal-grants-performance-management-playbook-feedback-session-registration-127375586809">Register for Tuesday, January 12, 11:00AM-12:00PM</a> </li>
+            <li><a href="https://www.eventbrite.com/e/federal-grants-performance-management-playbook-feedback-session-registration-127375586809">Register for Tuesday, January 12, 11:00AM-12:00PM</a> (waitlist available) </li>
             <br>
             <li><a href="https://www.eventbrite.com/e/researchscience-grants-performance-management-playbook-feedback-session-registration-127373516617">Register for Wednesday, January 13, 1:00PM-2:00PM (for research/science stakeholders only)</a> </li>
             <br>
-            <li><a href="https://www.eventbrite.com/e/federal-grants-performance-management-playbook-feedback-session-registration-127371937895">Register for Thursday, January 14, 2:00PM-3:00PM</a> </li>
+            <li><a href="https://www.eventbrite.com/e/federal-grants-performance-management-playbook-feedback-session-registration-127371937895">Register for Thursday, January 14, 2:00PM-3:00PM</a> (waitlist available)  </li>
             </ol>
              
 
