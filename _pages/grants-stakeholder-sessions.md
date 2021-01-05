@@ -26,9 +26,9 @@ This is for the Grants stakeholder session, based off of the Latest template.
         <div class="grid-row grid-gap">
             <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
             <h4>Grants Performance Management Playbook Informational Session: An Introduction to Developing a Results-Oriented Culture</h4>
-            <p>Informational Session Slides [link to come]</p>
+            <p><a href="../assets/files/Grants CAP Goal Info Session Deck_Clean_01042021_v2.pdf">Informational Session Slides</a></p>
             <p>Informational Session Recording [link to come]</p>
-                <p><a href="https://www.performance.gov/CAP/innovation-sessions/Managing%20for%20Results,%20Performance%20Management%20Playbook%20for%20Federal%20Awarding%20Agencies.pdf">Performance Management Playbook</a></p>
+            <p><a href="https://www.performance.gov/CAP/innovation-sessions/Managing%20for%20Results,%20Performance%20Management%20Playbook%20for%20Federal%20Awarding%20Agencies.pdf">Performance Management Playbook</a></p>
             <h4>Grants Performance Management Playbook Feedback Session Registration</h4>
             <p>Join us to share feedback, areas of success, and potential obstacles you face in moving toward a results-oriented grants culture! The feedback sessions will provide an opportunity for Federal employees to provide insights on the Playbook and about breaking barriers to achieve a results-oriented culture. What we learn from you will inform how we support you and your agency going forward, so your participation is critical!</p>
             
