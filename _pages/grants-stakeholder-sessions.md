@@ -27,9 +27,9 @@ This is for the Grants stakeholder session, based off of the Latest template.
             <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
             <h4>Grants Performance Management Playbook Informational Session: An Introduction to Developing a Results-Oriented Culture</h4>
             <p><a href="../assets/files/Grants CAP Goal Info Session Deck_Clean_01042021_v2.pdf">Informational Session Slides</a></p>
-                <p><a href="https://vimeo.com/497714452">Informational Session Recording</a></p>
+                <p><a href="https://vimeo.com/497714452/2344ed2b6b">Informational Session Recording</a></p>
             <p><a href="https://www.performance.gov/CAP/innovation-sessions/Managing%20for%20Results,%20Performance%20Management%20Playbook%20for%20Federal%20Awarding%20Agencies.pdf">Performance Management Playbook</a></p>
-            <p><a href="https://vimeo.com/497714452/2344ed2b6b">Program Design Video</a></p>
+            <p><a href="https://vimeo.com/490850178/a22ba21688">Program Design Video</a></p>
 
             <p><a href="https://www.cfo.gov/financial-assistance/resources/uniform-guidance.html">Title 2 of the Code of Federal Regulations</a></p> 
            
