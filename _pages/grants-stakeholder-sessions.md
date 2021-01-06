@@ -38,7 +38,7 @@ This is for the Grants stakeholder session, based off of the Latest template.
             <ol>
             <li><a href="https://www.eventbrite.com/e/federal-grants-performance-management-playbook-feedback-session-registration-127375586809">Register for Tuesday, January 12, 11:00AM-12:00PM</a> (waitlist available) </li>
             <br>
-            <li><a href="https://www.eventbrite.com/e/researchscience-grants-performance-management-playbook-feedback-session-registration-127373516617">Register for Wednesday, January 13, 1:00PM-2:00PM (for research/science stakeholders only--waitlist available)</a> </li>
+            <li><a href="https://www.eventbrite.com/e/researchscience-grants-performance-management-playbook-feedback-session-registration-127373516617">Register for Wednesday, January 13, 1:00PM-2:00PM</a> (for research/science stakeholders only--waitlist available) </li>
             <br>
             <li><a href="https://www.eventbrite.com/e/federal-grants-performance-management-playbook-feedback-session-registration-127371937895">Register for Thursday, January 14, 2:00PM-3:00PM</a> (waitlist available)  </li>
             </ol>
