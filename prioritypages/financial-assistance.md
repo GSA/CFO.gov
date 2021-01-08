@@ -9,7 +9,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC, Financial Assistance
 priority_icons: 
  - name: Initiatives
    logo: /assets/images/logos/Asset_12.svg
-   url: /coming-soon/
+   url: /fa-initiatives/
  - name: Guidance, Policies and Resources
    logo: /assets/images/logos/Asset_9.svg
    url: /financial-assistance/resources/
@@ -20,7 +20,7 @@ priority_icons:
    logo: /assets/images/logos/Asset_10.svg
    link: "#openModal13"  
    id: join-community
-description1: The Financial Assistance Priority Area focuses on maximizing the value of grant funding by applying a risk-based, data-driven framework that balances compliance requirements with demonstrating successful results for the American taxpayer.
+description1: This page includes financial assistance resources with a focus on grants management, including Result-Oriented Accountability for Grants.
 ---
 
 
