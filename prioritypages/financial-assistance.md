@@ -12,7 +12,7 @@ priority_icons:
    url: /fa-initiatives/
  - name: Guidance, Policies and Resources
    logo: /assets/images/logos/Asset_9.svg
-   url: /policies-and-guidance/#priority_area=.financial-assistance&type=*
+   url: /financial-assistance/resources/
  - name: Grants Training Module
    logo: /assets/images/logos/Asset_11.svg
    url: /grants-training/
