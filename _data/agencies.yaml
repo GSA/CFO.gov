@@ -78,6 +78,10 @@
   name: National Aeronautics and Space Administration
   agency-data: https://www.cfo.gov/wp-content-2/Supplemental-Data-Call-2020/NASA.pdf
 
+- abbr: NRC
+  name: Nuclear Regulatory Commission
+  agency-data: https://www.cfo.gov/wp-content-2/Supplemental-Data-Call-2020/NRC.pdf
+
 - abbr: NSF
   name: National Science Foundation
   agency-data: https://www.cfo.gov/wp-content-2/Supplemental-Data-Call-2020/NSF.pdf
