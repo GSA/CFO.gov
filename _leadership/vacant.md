@@ -5,5 +5,5 @@ layout: bio
 permalink: /bio/vacant_OPM/
 name : Vacant
 department: Office of Personnel Management and Chair of CFO Council
-title: 
+title: Acting Director
 ---
