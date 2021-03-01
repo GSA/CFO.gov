@@ -3,7 +3,7 @@ bio-image: /assets/uploads/soles.jpg
 bio-image-alt-text: Mr. Scott Soles
 layout: bio
 permalink: /bio/mr-scott-soles/
-name : Mr. Scott Soles
+name : Vacant
 department: Department of Agriculture
 title: Chief Financial Officer (Acting Principal)
 
