@@ -1,5 +1,5 @@
 ---
-bio-image: /assets/images/agency-seals/department-of-health-and-human-services.png
+bio-image: /wp-content/uploads/2021/02/hhs_seal.png
 bio-image-alt-text: NORRIS COCHRAN
 layout: bio
 permalink: /bio/mr-norris-cochran/
