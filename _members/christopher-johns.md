@@ -1,5 +1,5 @@
 ---
-bio-image: /assets/images/agency-seals/department-of-energy.png
+bio-image: /wp-content/uploads/2021/02/doe_logo.png
 bio-image-alt-text: CHRISTOPHER JOHNS
 layout: bio
 permalink: 

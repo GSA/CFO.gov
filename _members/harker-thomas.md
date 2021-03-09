@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2020/09/harker.jpg
 bio-image-alt-text: Mr. Thomas Harker
 layout: bio
 permalink: /bio/mr-thomas-harker/
-name : Mr. Thomas Harker
+name : Vacant
 department: Department of Defense
-title: Chief Financial Officer, Performing the Duties of the USD (Comptroller)
+title: Chief Financial Officer
 
 ---
 

@@ -3,7 +3,7 @@ bio-image: /wp-content/uploads/2019/09/Tom-Gilman-Portrait-200x300.jpg
 bio-image-alt-text: THOMAS GILMAN
 layout: bio
 permalink: /bio/mr-thomas-gilman/
-name : Mr. Thomas Gilman
+name : Vacant
 department: Department of Commerce
 title: Chief Financial Officer
 ---

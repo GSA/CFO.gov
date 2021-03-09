@@ -3,7 +3,7 @@ bio-image: /assets/images/edgar-bio-pic.png
 bio-image-alt-text: Troy Edgar
 layout: bio
 permalink: /bio/mr-troy-edgar/
-name : Mr. Troy Edgar
+name : Vacant
 department: Department of Homeland Security
 title: Chief Financial Officer
 special_title: 'yes'
