@@ -9,7 +9,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC, Payment Integrity, Getting Payme
 priority_icons: 
  - name: Initiatives
    logo: /assets/images/logos/Asset_12.svg
-   link: /payment-accuracy/payment-accuracy-resources/
+   link: https://www.paymentaccuracy.gov/payment-accuracy-resources/
  - name: Guidance, Policies and Resources
    logo: /assets/images/logos/Asset_9.svg
    url: /policies-and-guidance/#priority_area=.payment-integrity&type=*
