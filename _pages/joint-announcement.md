@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Joint Announcement from John Pasquantino, the Acting Controller of OMB and Michael Horowitz, the Chair of PRAC
+title: Joint Announcement from John Pasquantino, Acting OMB Controller and Michael Horowitz, PRAC Chair
 permalink: /joint-announcement/
 author: CFO Council 
 date: March 26, 2021
@@ -19,8 +19,8 @@ has_date: 'yes'
                         {% endif %}
                     </div>
                 </div>
-                <p>The American Rescue Plan (ARP) provides $1.9 trillion in pandemic response funding to deliver prosperity, security, and opportunity for the people in this country. As the President remarked on the implementation of the ARP, we must “prove to the American people that their government can deliver for them, and do it without waste or fraud.” The Office of Management and Budget (OMB) and the Pandemic Response Accountability Committee (PRAC) share a common goal: “fastidious oversight” of ARP funds on behalf of the American taxpayers.</p>
-                <p>To these ends, we are pleased to announce that OMB and the PRAC are engaging in extensive communication and coordination to strengthen oversight and to promote transparency of pandemic spending. As the first public steps in this ongoing effort, the Administration issued guidance in M-20-21 on March 19. OMB and the PRAC will leverage their combined expertise to ensure ARP relief arrives with “efficiency, speed, integrity, and accountability.” We have also issued the first in a series of alerts to agencies that bring awareness on key issues related to waste, fraud, and abuse located at <a href="{{site.baseurl}}/payment-integrity-alert-prac/">Joint OMB PRAC</a> and <a href="https://www.pandemicoversight.gov/">Pandemicoversight</a>.</p>
+                <p>The American Rescue Plan (ARP) provides an additional $1.9 trillion in pandemic response and relief funding. The Office of Management and Budget (OMB) and the Pandemic Response Accountability Committee (PRAC) share a common goal of aggressive oversight of ARP funds on behalf of the American taxpayers. </p>
+                <p>To that end, OMB and the PRAC have recently engaged in extensive coordination to strengthen oversight and promote transparency of pandemic spending. As the first public steps in this ongoing effort, the Administration issued guidance in M-20-21 on March 19. OMB and the PRAC have also issued today the first in a series of alerts to agencies to raise awareness on key issues related to waste, fraud, and abuse, which can be located at <a href="{{site.baseurl}}/payment-integrity-alert-prac/">Joint OMB PRAC</a> and <a href="https://www.pandemicoversight.gov/">Pandemicoversight</a>.</p>
             </div>
         </div>
     </div>
