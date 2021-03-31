@@ -25,16 +25,16 @@ This is for the Grants non-federal stakeholder session, based off of the Latest 
     <div class="grid-container font-sans-sm padding-0">
         <div class="grid-row grid-gap">
             <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
-            <h4>About the Feedback Sessions</h4>
+            <h3>About the Feedback Sessions</h3>
             <p>The Federal Grants Management Community is soliciting feedback from non-federal stakeholders to better understand challenges and successes in the financial assistance community. Join us to discuss recent OMB guidance and resources related to grants management, hear about barriers to implementing equity-oriented grants management, and learn about promising practices that could strengthen grants management.</p>
-                <h4>Register to Attend a Session</h4>
+                <h3>Register to Attend a Session</h3>
                 <p>Please register for <b>only one</b> of the following sessions: </p>
                 <ol>
                     <li>Register for [date] [link] </li>
                     <li>Register for [date] [link] </li>
                     <li>Register for [date] [link] </li>
                 </ol>
-                <h4>Resources </h4>
+                <h3>Resources </h3>
                 <p><b>Playbook:</b> </p>
                 <ul>
                     <li><a href="https://www.cfo.gov/wp-content/uploads/2021/Managing-for-Results-Performance-Management-Playbook-for-Federal-Awarding-Agencies.pdf">Managing for Results: The Performance Management Playbook for Federal Awarding Agencies</a> </li>
