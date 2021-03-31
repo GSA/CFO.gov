@@ -47,10 +47,10 @@ This is for the Grants non-federal stakeholder session, based off of the Latest 
                 </ul>
                    <p><b>Recent Guidance Highlights: </b> </p>
                 <ul>
-                    <li><a href="https://trumpadministration.archives.performance.gov/CAP/20200812-2-CFR-Revision-Redline_Final.pdf">2 CFR 200 (Revised August 2020) </li>
+                    <li><a href="https://trumpadministration.archives.performance.gov/CAP/20200812-2-CFR-Revision-Redline_Final.pdf">2 CFR 200 (Revised August 2020)</a> </li>
                         <ul>
                             <li><a href="https://www.federalregister.gov/documents/2020/08/13/2020-17468/guidance-for-grants-and-agreements">Federal Register Notice</a></li>
-                    </ul>
+                        </ul>
                     <li><a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M_21_20.pdf?utm_medium=email&SubscriberID=110708937&utm_source=GAQC21&Site=AICPA&LinkID=11549155&utm_campaign=GAQC_AlertMar21&cid=email:GAQC21:GAQC_AlertMar21:https%3A%2F%2Fwww.whitehouse.gov%2Fwp-content%2Fuploads%2F2021%2F03%2FM_21_20.pdf:AICPA&SendID=352824&utm_content=GAQC_Alert424">M-21-20: Promoting Public Trust in the Federal Government through Effective Implementation of the American Rescue Plan Act and Stewardship of the Taxpayer Resources</a> </li>
                 </ul>
            
