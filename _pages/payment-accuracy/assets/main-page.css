@@ -18386,10 +18386,7 @@ example:
   float: left;
   height: 100px; }
 
-.left img {
-  width: 100%;
-  object-fit: cover;
-  height: 135px; }
+
 
 .right {
   background-color: #f0f0f0;
