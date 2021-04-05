@@ -1,10 +1,12 @@
 ---
 layout: policies-guidance-landing
-title: New! Introducing the Data Quality Playbook
+title: Introducing the Data Quality Playbook
 subtitle: New! The Data Quality Playbook
 permalink: /policies-guidance/data-act/
 type: fdt
-filler: The Leveraging Data as a Strategic Asset Working Group developed and issued this Playbook in collaboration with federal agencies to assist with developing Data Quality Plans in support of the DATA Act implementation. This playbook is a result of extensive collaboration between agencies, OMB, and the Department of the Treasury.
+date: March 30, 2021
+has_date: 'yes'
+filler: The playbook format is designed to assist federal agencies in the development of Data Quality Plans in support of the DATA Act implementation.
 filters: fdt playbook
 ---
 
