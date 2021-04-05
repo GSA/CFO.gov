@@ -14,7 +14,7 @@ If you are interested in providing feedback on the <a href="https://fpi.omb.gov/
 We are particularly interested in feedback in the following areas:
 
 - Do the results of pilot match your expectations of what a meaningful program should be?
-- What are your thoughts on our methodology (the aggregation of program activities, program definition, - limiting scope to categories of interest etc.)?
+- What are your thoughts on our methodology (the aggregation of program activities, program definition, limiting scope to categories of interest etc.)?
 - Do the results indicate that scaling of this approach would yield an inventory that would be useful for decision-making?
 - What do you think the next steps should be?
 - General Feedback
