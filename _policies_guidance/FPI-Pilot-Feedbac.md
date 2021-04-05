@@ -7,7 +7,8 @@ permalink: /fpi-pilot-feedback/
 author: CFO Council 
 date: April 5, 2021
 has_date: 'yes'
-type: financial-assistance
+filters: fmt
+type: fmt
 ---
 If you are interested in providing feedback on the <a href="https://fpi.omb.gov/explore-the-pilot-data/">FPI Pilot results</a> and process during the evaluation window, please share your feedback to <a href="mailto: fpi@omb.eop.gov">fpi@omb.eop.gov</a> before <b style="color: red">Friday, April 16th, 2021</b>.
 
