@@ -26,19 +26,15 @@ This is for the Grants non-federal stakeholder session, based off of the Latest 
         <div class="grid-row grid-gap">
             <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
             <h3>About the Feedback Sessions</h3>
-            <p>The Federal Grants Management Community is soliciting feedback from non-federal stakeholders to better understand challenges and successes in the financial assistance community. Join us to discuss recent OMB guidance and resources related to grants management, hear about barriers to implementing equity-oriented grants management, and learn about promising practices that could strengthen grants management.</p>
+            <p>The Federal Grants Management Community is soliciting feedback from non-federal stakeholders to better understand challenges and successes in the financial assistance community. Join us to discuss recent OMB guidance and resources related to grants management. Plus, provide feedback to us on the barriers to implementing equity-oriented grants management and innovative ideas to improve grants management.</p>
                 <h3>Register to Attend a Session</h3>
                 <p>Please register for <b>only one</b> of the following sessions: </p>
                 <ol>
-                    <li>Register for [date] [link] </li>
-                    <li>Register for [date] [link] </li>
-                    <li>Register for [date] [link] </li>
+                    <li><a href="https://www.eventbrite.com/e/non-federal-grants-performance-management-playbook-feedback-session-1-registration-148781165471">Register for Session 1 on April 13, 9:30AM-11:00AM</a> </li>
+                    <li><a href="https://www.eventbrite.com/e/non-federal-grants-performance-management-playbook-feedback-session-2-registration-148927856227">Register for Session 2 on April 15, 10:30AM-12:00PM</a></li>
+                    <li><a href="https://www.eventbrite.com/e/non-federal-grants-performance-management-playbook-feedback-session-3-registration-148927990629">Register for Session 3 on April 15, 2:00PM-3:30PM</a> </li>
                 </ol>
                 <h3>Resources </h3>
-                <p><b>Playbook:</b> </p>
-                <ul>
-                    <li><a href="https://www.cfo.gov/wp-content/uploads/2021/Managing-for-Results-Performance-Management-Playbook-for-Federal-Awarding-Agencies.pdf">Managing for Results: The Performance Management Playbook for Federal Awarding Agencies</a> </li>
-                </ul>
                  <p><b>Executive Orders:</b> </p>
                 <ul>
                     <li><a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/25/executive-order-on-ensuring-the-future-is-made-in-all-of-america-by-all-of-americas-workers/">Ensuring the Future is Made in All of America by All of America’s Workers</a> </li>
