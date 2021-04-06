@@ -1,4 +1,4 @@
----
+<!-- ---
 bio-image: /wp-content/uploads/2020/09/jennifer-moughalian.jpeg
 bio-image-alt-text: JENNIFER MOUGHALIAN
 layout: bio
@@ -12,4 +12,4 @@ Jen Moughalian, MBA, MPM, was appointed as the Acting Assistant Secretary for Fi
 
 Ms. Moughalian is a health care leader with more than 20 years of government, health care consulting, and nonprofit sector experience. Prior to joining HHS, Ms. Moughalian held positions with Booz Allen Hamilton, Georgetown University McDonough School of Business, The Chartis Group, and The Advisory Board.  Her previous government tenure includes serving in the Health Division at the Office of Management and Budget from 2004 to 2007.
 
-Ms. Moughalian received a B.S. from the University of Richmond, a Master in Public Management (MPM), and a Master in Business Administration (MBA) from the University of Maryland.  Additionally, Ms. Moughalian holds a Certificate in Leadership Coaching from Georgetown University.  
+Ms. Moughalian received a B.S. from the University of Richmond, a Master in Public Management (MPM), and a Master in Business Administration (MBA) from the University of Maryland.  Additionally, Ms. Moughalian holds a Certificate in Leadership Coaching from Georgetown University.   -->
