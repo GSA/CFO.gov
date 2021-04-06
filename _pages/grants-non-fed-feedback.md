@@ -16,7 +16,6 @@ This is for the Grants non-federal stakeholder session, based off of the Latest 
         <div class="grid-col-10 grid-offset-1">
             <div class="priority-tag-line"><h1 class="margin-0">{{ page.title }}</h1></div><br>
             <div><h2 class="margin-0 font-sans-md">{{ page.description }}</h2></div>
-        </div>
     </div>
 
 </section>
@@ -51,8 +50,5 @@ This is for the Grants non-federal stakeholder session, based off of the Latest 
                 </ul>
            
          
-            </div>
-        </div>
-    </div>
-</div>
+
 
