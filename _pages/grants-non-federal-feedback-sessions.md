@@ -21,6 +21,7 @@ This is for the Grants non-federal stakeholder session, based off of the Latest 
             <div><h2 class="margin-0 font-sans-md">{{ page.description }}</h2></div>
   
   </div>
+  </div>
 </section>
 
 <div class="usa-layout-docs__main">
