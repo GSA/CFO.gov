@@ -38,6 +38,10 @@ This is for the Grants non-federal stakeholder session, based off of the Latest 
                     <li><a href="https://www.eventbrite.com/e/non-federal-grants-performance-management-playbook-feedback-session-3-registration-148927990629">Register for Session 3 on April 15, 2:00PM-3:30PM</a> </li>
                 </ol>
                 <h3>Resources </h3>
+                 <p><b>Playbook:</b> </p>
+                <ul>
+                    <li><a href="https://www.cfo.gov/wp-content/uploads/2021/Managing-for-Results-Performance-Management-Playbook-for-Federal-Awarding-Agencies.pdf">Managing for Results: The Performance Management Playbook for Federal Awarding Agencies</a> </li>
+                </ul>
                  <p><b>Executive Orders:</b> </p>
                 <ul>
                     <li><a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/25/executive-order-on-ensuring-the-future-is-made-in-all-of-america-by-all-of-americas-workers/">Ensuring the Future is Made in All of America by All of America’s Workers</a> </li>
