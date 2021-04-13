@@ -40,7 +40,7 @@ This is for the Grants non-federal stakeholder session, based off of the Latest 
                 <h3>Resources </h3>
                   <p><b>Grants Management Non-Federal Stakeholder Feedback Session Presentation:</b> </p>
                 <ul>
-                    <li><a href="../assets/files/Grants Non-Federal Stakeholder Session Slides.pdf">Click here to access the presentation </a> </li>
+                    <li><a href="../assets/files/Grants Non-Federal Stakeholder Session Slides_v2.pdf">Click here to access the presentation </a> </li>
                 </ul>
                  <p><b>Playbook:</b> </p>
                 <ul>
