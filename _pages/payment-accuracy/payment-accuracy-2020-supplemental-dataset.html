@@ -6,15 +6,41 @@ redirect_from:
 - /payment-accuracy-2020-supplemental-dataset/
 sidenav: false
 ---
-<div class="grid-row grid-gap">
-{% for item in site.data.agencies %}
-    <div class="desktop:grid-col-4 margin-bottom-2">
-    {% if item.name %}
-    <p class="font-sans-md text-bold height-4">{{item.name}}</p>
-    {% endif %}
-    {% if item.agency-data %}
-    <p>view <a href="{{item.agency-data}}" title="{{item.abbr}} Supplemental Data Call 2020">agency level data</a></p>
-    {% endif %}
-    </div>
-{% endfor %}
+<!--<div class="grid-row grid-gap">-->
+<!--{% for item in site.data.agencies %}-->
+<!--    <div class="desktop:grid-col-4 margin-bottom-2">-->
+<!--    {% if item.name %}-->
+<!--    <p class="font-sans-md text-bold height-4">{{item.name}}</p>-->
+<!--    {% endif %}-->
+<!--    {% if item.agency-data %}-->
+<!--    <p>view <a href="{{item.agency-data}}" title="{{item.abbr}} Supplemental Data Call 2020">agency level data</a></p>-->
+<!--    {% endif %}-->
+<!--    </div>-->
+<!--{% endfor %}-->
+<!--</div>-->
+
+<div class="grid-container font-sans-sm container__leadership padding-left-0 padding-right-0">
+    <section class="usa-graphic-list padding-top-0" >
+        <div class="grid-container padding-0">
+            <div class="usa-graphic-list__row grid-row grid-gap">
+                {% for item in site.data.agencies %}
+                <div class="desktop:grid-col-4 tablet:grid-col-6 container members-list padding-top-2 card__members">
+                    <div class="clearfix shadow-5 radius-lg bg-white padding-2" tabindex="0">
+                        <div class="left">
+                            <img class="card__image--seal" src="https://www.cfo.gov/assets/images/agency-seals/{{ item.agency_seal }}" alt="{{ item.agency_seal-alt-text }} agency seal">
+                        </div>
+                        <div class="right padding-left-1" style="background-color:white;">
+                            {% if item.name %}
+                                <p class="font-sans-md text-bold height-4">{{item.name}}</p>
+                                {% endif %}
+                                {% if item.agency-data %}
+                                <p>view <a href="{{item.agency-data}}" title="{{item.abbr}} Supplemental Data Call 2020">agency level data</a></p>
+                                {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
 </div>
