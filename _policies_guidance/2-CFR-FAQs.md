@@ -6,4 +6,4 @@ doc-link: /assets/files/2CRF-FrequentlyAskedQuestions_2021050321.pdf
 type: financial-assistance
 filters: financial-assistance best-practice-guidance
 ---
-<a href="{{ site.baseurl }/assets/files/2CRF-FrequentlyAskedQuestions_2021050321.pdf"></a>
+<a href="{{ site.baseurl }}/assets/files/2CRF-FrequentlyAskedQuestions_2021050321.pdf"></a>
