@@ -16,9 +16,18 @@ permalink: /rfi-application-phase/
           <p>Click on any of the listed items below to view the related documents. We’re happy to discuss further.</p>
        </div>
               <div class="grid-row">
-                <div class="tablet:grid-col">tablet:grid-col</div>
-                <div class="tablet:grid-col">tablet:grid-col</div>
-                <div class="tablet:grid-col">tablet:grid-col</div>
+                <div class="tablet:grid-col">
+                    <p>Day 1</p>
+                    <p>Step 1) Widely Publicize Vendor Application Process</p>
+                </div>
+                <div class="tablet:grid-col">
+                    <p>Day 1</p>
+                    <p>Step 1) Widely Publicize Vendor Application Process</p>
+                 </div>
+                <div class="tablet:grid-col">
+                  <p>Day 1</p>
+                   <p>Step 1) Widely Publicize Vendor Application Process</p>
+                  </div>
                </div>
 
 
