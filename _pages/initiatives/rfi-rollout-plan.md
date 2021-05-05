@@ -17,7 +17,7 @@ permalink: /rfi-application-phase/
        </div>
               <div class="grid-row">
                 <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="position: absolute; left: 0px; top: 0px;">
-                     <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover ">
+                     <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 members-hover " style="height: 350px;">
                     <p>Day 1</p>
                     <p style="weight:heavy;color:blue">Step 1) Widely Publicize Vendor Application Process</p>
                         <ul>
@@ -29,7 +29,7 @@ permalink: /rfi-application-phase/
                 </div>
                 </div>
               <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="position: absolute; left: 0px; top: 0px;">
-                <div class="tablet:grid-col border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full">
+                <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 members-hover " style="height: 350px;">
                     <p>Week 1 & 2</p>
                     <p>Step 2) Get Interviews with News Outlets</p>
                      <ul>
@@ -38,7 +38,7 @@ permalink: /rfi-application-phase/
                  </div>
               </div>
                 <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="position: absolute; left: 0px; top: 0px;">
-                <div class="tablet:grid-col border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full">
+               <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 members-hover " style="height: 350px;">
                   <p>Week 3 & 4</p>
                    <p>Step 3) Outreach to Top Vendors to Stimulate Interest</p>
                      <ul>
