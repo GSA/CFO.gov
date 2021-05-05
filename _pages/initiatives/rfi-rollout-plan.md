@@ -16,8 +16,7 @@ permalink: /rfi-application-phase/
           <p>Click on any of the listed items below to view the related documents. We’re happy to discuss further.</p>
        </div>
               <div class="grid-row">
-                <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="position: absolute; left: 0px; top: 0px;">
-                     <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 members-hover " style="height: 350px;">
+                 <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 members-hover " style="height: 350px;">
                     <p>Day 1</p>
                     <p style="weight:heavy;color:blue">Step 1) Widely Publicize Vendor Application Process</p>
                         <ul>
@@ -25,20 +24,16 @@ permalink: /rfi-application-phase/
                             <li>CFO.gov Content</li>
                             <li>Press Release</li>
                             <li>Social Media</li>
-                    </ul>
-                </div>
-                </div>
-              <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="position: absolute; left: 0px; top: 0px;">
-                <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 members-hover " style="height: 350px;">
+                   </ul>
+                   </div>
+                  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 members-hover " style="height: 350px;">
                     <p>Week 1 & 2</p>
                     <p>Step 2) Get Interviews with News Outlets</p>
-                     <ul>
-                            <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
+                       <ul>
+                         <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
                     </ul>
                  </div>
-              </div>
-                <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="position: absolute; left: 0px; top: 0px;">
-               <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 members-hover " style="height: 350px;">
+                <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 members-hover " style="height: 350px;">
                   <p>Week 3 & 4</p>
                    <p>Step 3) Outreach to Top Vendors to Stimulate Interest</p>
                      <ul>
@@ -47,7 +42,7 @@ permalink: /rfi-application-phase/
                     </ul>
                   </div>
                </div>
-          </div>
+      
         
         </div>
 </section>
