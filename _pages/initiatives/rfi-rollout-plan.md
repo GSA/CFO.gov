@@ -26,14 +26,14 @@ permalink: /rfi-application-phase/
                             <li>Social Media</li>
                     </ul>
                 </div>
-                <div class="tablet:grid-col">
+                <div class="tablet:grid-col border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full">
                     <p>Week 1 & 2</p>
                     <p>Step 2) Get Interviews with News Outlets</p>
                      <ul>
                             <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
                     </ul>
                  </div>
-                <div class="tablet:grid-col">
+                <div class="tablet:grid-col border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full">
                   <p>Week 3 & 4</p>
                    <p>Step 3) Outreach to Top Vendors to Stimulate Interest</p>
                      <ul>
