@@ -18,116 +18,31 @@ permalink: /rfi-application-phase/
               <div class="grid-row">
                 <div class="tablet:grid-col">
                     <p>Day 1</p>
-                    <p>Step 1) Widely Publicize Vendor Application Process</p>
+                    <p class="text-heavy underline-accent-warm-dark.text-underline">Step 1) Widely Publicize Vendor Application Process</p>
+                        <ul>
+                            <li>Publish RFI & Application Documents</li>
+                            <li>CFO.gov Content</li>
+                            <li>Press Release</li>
+                            <li>Social Media</li>
+                    </ul>
                 </div>
                 <div class="tablet:grid-col">
                     <p>Week 1 & 2</p>
                     <p>Step 2) Get Interviews with News Outlets</p>
+                     <ul>
+                            <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
+                    </ul>
                  </div>
                 <div class="tablet:grid-col">
                   <p>Week 3 & 4</p>
                    <p>Step 3) Outreach to Top Vendors to Stimulate Interest</p>
+                     <ul>
+                            <li>Create vendor awareness</li>
+                            <li>Include in communications</li>
+                    </ul>
                   </div>
                </div>
         
         </div>
 </section>
     
-<ul class="usa-card-group">
-<li class="tablet:grid-col-4 usa-card usa-card--header-first">
-    <div class="usa-card__container">
-      <header class="usa-card__header">
-        <h2 class="usa-card__heading">Media and header first</h2>
-      </header>
-      <div class="usa-card__media">
-        <div class="usa-card__img">
-          <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image">
-        </div>
-      </div>
-      <div class="usa-card__body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae.</p>
-      </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
-      </div>
-    </div>
-  </li>
-  <li class="tablet:grid-col-4 usa-card usa-card--header-first">
-    <div class="usa-card__container">
-      <header class="usa-card__header">
-        <h2 class="usa-card__heading">Media and header first</h2>
-      </header>
-      <div class="usa-card__media">
-        <div class="usa-card__img">
-          <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image">
-        </div>
-      </div>
-      <div class="usa-card__body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae.</p>
-      </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
-      </div>
-    </div>
-  </li>
-  <li class="tablet:grid-col-4 usa-card usa-card--header-first">
-    <div class="usa-card__container">
-      <header class="usa-card__header">
-        <h2 class="usa-card__heading">Media and header first</h2>
-      </header>
-      <div class="usa-card__media">
-        <div class="usa-card__img">
-          <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image">
-        </div>
-      </div>
-      <div class="usa-card__body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae.</p>
-      </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
-      </div>
-    </div>
-  </li>
-     <li class="tablet:grid-col-4 usa-card">
-    <div class="usa-card__container">
-      <header class="usa-card__header">
-        <h2 class="usa-card__heading">Card</h2>
-      </header>
-      <div class="usa-card__body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae. Excepturi nobis dolores molestias! Quas quisquam a officia eos.</p>
-      </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
-      </div>
-    </div>
-  </li> <li class="tablet:grid-col-4 usa-card">
-    <div class="usa-card__container">
-      <header class="usa-card__header">
-        <h2 class="usa-card__heading">Card</h2>
-      </header>
-      <div class="usa-card__body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae. Excepturi nobis dolores molestias! Quas quisquam a officia eos.</p>
-      </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
-      </div>
-    </div>
-  </li> <li class="tablet:grid-col-4 usa-card">
-    <div class="usa-card__container">
-      <header class="usa-card__header">
-        <h2 class="usa-card__heading">Card</h2>
-      </header>
-      <div class="usa-card__body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae. Excepturi nobis dolores molestias! Quas quisquam a officia eos.</p>
-      </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
-      </div>
-    </div>
-  </li>
-    
-    
-</ul>
-
-
-
