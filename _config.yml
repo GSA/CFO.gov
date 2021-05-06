@@ -81,6 +81,8 @@ primary_navigation:
   - name: Priority Areas
     url: /
     children:
+      - name: Workforce Modernization
+        url: "/workforce-modernization/"
       - name: Financial Assistance
         url: "/financial-assistance/"
       - name: Payment Integrity

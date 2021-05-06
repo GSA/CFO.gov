@@ -1,0 +1,118 @@
+---
+title: Data Analytics Training Pilot
+layout: wide
+permalink: /workforce-modernization/data-analytics-training-pilot/
+---
+
+<section class="grid-container clearfix margin-bottom-5 ">
+    <div>
+        <img alt="CXO Council Fellows: We've saved a seat for you" src="{{ site.baseurl }}/wp-content/uploads/2016/02/CXO-Fellows-Banner.png" style="min-height: 200px;">
+    </div>
+</section>
+
+
+<section class="grid-container grid-gap usa-graphic_list clearfix tabSection">
+<div id="tabs" class="grid-row clearfix">
+    <ul class="tablet:grid-col-3 shadow-5">
+        <li><a href="#tabs-1" role="tab" aria-controls="tabs-1" id="tab-btn-1" class="text-no-underline text-base-darker font-sans-md">The Latest</a></li>
+        <li><a href="#tabs-2" role="tab" aria-controls="tabs-2" id="tab-btn-2" class="text-no-underline text-base-darker font-sans-md">CXO Fellowship</a></li>
+        <li><a href="#tabs-3" role="tab" aria-controls="tabs-3" id="tab-btn-3" class="text-no-underline text-base-darker font-sans-md">How to Apply</a></li>
+        <li><a href="#tabs-4" role="tab" aria-controls="tabs-4" id="tab-btn-4" class="text-no-underline text-base-darker font-sans-md">Who Are the Fellows?</a></li>
+        <li><a href="#tabs-5" role="tab" aria-controls="tabs-5" id="tab-btn-5" class="text-no-underline text-base-darker font-sans-md">Our Mission</a></li>
+        <li><a href="#tabs-6" role="tab" aria-controls="tabs-6" id="tab-btn-6" class="text-no-underline text-base-darker font-sans-md">Alumni</a></li>
+
+    </ul>
+    <div id="tabs-1" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-1" class="tablet:grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
+        {% assign sorted = site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'CXO Fellows' | sort: 'date' | reverse %}
+        {% for item in sorted limit:3 %}
+        <div class="border-top border-gray-30 grid-container">
+            <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
+                <div class="tablet:grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
+                <div class="tablet:grid-col-10  font-sans-sm">
+                    <h3 class="margin-top-0">{{ item.title }}</h3>
+                    <p>{{ item.filler | truncate:500 }}</p>
+                    {% if item.permalink %}
+                    <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read More</a>
+                    {% elsif item.doc-link %}
+                    <a class="text-no-underline text-bold" href="{{ item.doc-link }}">Download the brochure</a>
+                    {% elsif item.external_url %}
+                    <a class="text-no-underline text-bold" href="{{ item.external_url }}">Read More</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div id="tabs-2" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-2" class="tablet:grid-col-9 padding-4">
+        <div class="wpb_text_column wpb_content_element ">
+            <div class="wpb_wrapper">
+                <h2> Program Overview </h2>
+            </div>
+            <div class="wpb_wrapper">
+                <p>The CXO Fellowship Program is a professional development program that engages the next generation of federal leaders in <b>acquisition/procurement, financial management/budget, human capital, information technology, and data</b>. Throughout the year-long program, CXO Fellows have the opportunity to grow professionally and build a diverse network of rising leaders from across the Federal Government. </p>
+                <p>CXO Fellows remain in their current positions at their home agency and come together <b>twice a month</b> as a cohort for <b>developmental sessions</b> in leadership, cross-functional and interagency collaboration, and career development. In these sessions, CXO Fellows <b>meet with leaders in the federal management community</b> and gain valuable insight into innovative initiatives and best practices.</p>
+                <p>There is <b>no cost</b> to participate in the program. <b>Download the <a href="{{site.baseurl}}/assets/files/CXO_Digital_Brochure_April_2021.pdf">CXO Fellowship Digital Brochure</a></b> to learn more. Plus, share the brochure with your supervisor, colleagues, or anyone who may be interested in the program!</p>
+
+                <img src="{{site.baseurl}}/assets/images/cxo-quote-susan.png" style="width:400px;" alt="Image with a quote saying, “I am grateful for the CXO Fellowship Program that provided me with the rare opportunity to network with colleagues across the Federal Government, interact and hear from leadership from various agencies, and participate in valueable workshops.">
+                <img src="{{site.baseurl}}/assets/images/cxo-quote-ganga.png" style="width:400px;" alt="Image with a quote saying, “As a new federal employee, participating in the CXO Fellowship Program provided me invaluable insights into all career development opportunities within the Federal Government. This program provided me a platfrom to connect with teammates from other federal agencies and learn about cross-agency training and volunteering opportunities.">
+
+            </div>
+
+            <p><b>Learn more</b></p>
+            <ul>
+              <li><a href="https://trumpadministration.archives.performance.gov/3-reasons-why-you-should-apply-to-CXO-fellowship-program/">3 Reasons Why YOU Should Apply to the CXO Fellowship Program</a></li>
+              <li><a href="https://trumpadministration.archives.performance.gov/advice-for-future-cxo-fellows/ ">Advice for Future Fellows: How to Get the Most Out of Your Fellowship Year</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="tabs-3" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-3" class="tablet:grid-col-9 padding-4 font-s">
+            <h2>How to Apply</h2>
+            <div class="video-responsive"><iframe src="https://player.vimeo.com/video/528821334" title="CXO Fellows How to Apply Video" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+            <h2>Application Period</h2>
+            <p>The application period for the FY2022 cohort will begin on May 1. Click <a href="{{site.baseurl}}/assets/files/CXO-FY-22-Application-Essay Questions.pdf">here</a> to access the essay questions to prepare for the application. </p>
+            <p>Starting May 1, click <a href="https://feedback.gsa.gov/jfe/form/SV_bOVKlgeRULZDvue">here</a> to apply to the program. The application period ends on June 11 at 5:00pm (EST). </p>
+    </div>
+
+    <div id="tabs-4" class="grid-col-9 padding-4">
+            <h2>Who Are the CXO Fellows?</h2>
+            <p>CXO Fellows are mid-level federal employees (GS09-GS13) who have demonstrated leadership potential. To be considered, applicants must meet the following requirements:</p>
+            <ul>
+              <li>Must be working within the acquisition/procurement, financial management/budget, human capital, information technology, or data functions.</li>
+              <li>Must be in the grades of GS09-GS13.</li>
+              <li>Must be approved by the applicant's agency supervisor.</li>
+            </ul>
+            <img src="{{site.baseurl}}/assets/images/cxo-quote-khalid.png" style="width:500px;" alt="Image with a quote saying, “The program is a great asset for those who want to pursue a career in leadership. As an engineer and an aspiring leader in Cybersecurity/IT, the CXO conferences and events provided me with a great deal of practical information about leadership in government and how to navigate a career path in IT leadership.">
+
+            <p>&nbsp;
+            </p>
+    </div>
+
+    <div id="tabs-5" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-5" class="tablet:grid-col-9 padding-4">
+
+            <h2>Our Mission</h2>
+            <p>1) Connect the rising leaders across government in the functions of acquisition/procurement, financial management/budget, human capital, information technology, and data.</p>
+            <p>2) Build relationships through cross-community collaboration and interactive discussions.</p>
+            <p>3) Invest in outstanding federal employees by broadening the scope of their knowledge and developing well-rounded leaders.
+            </p>
+
+            <img src="{{site.baseurl}}/assets/images/cxo-quote-ariel.png" style="width:400px;" alt="Image with a quote saying, “My Fellowship experience has provided an environment that encourages interagency collaboration and networking with current, former, and future government leaders. I've already begun to develop my leadership brand with authenticity and confidence.">
+            <img src="{{site.baseurl}}/assets/images/cxo-quote-pamela.png" style="width:400px;" alt="Image with a quote saying, “I am grateful for the CXO Program because I have been given an opportunity to meet federal employees who have a desire to use ther skills to make a difference in their federal agency.">
+    </div>
+
+
+
+    <div id="tabs-6" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-6" class="tablet:grid-col-9 padding-4">
+
+        <h2>Alumni</h2>
+        <p><a href="{{ site.baseurl }}/cxo-fellows/cxo-fellows-class-of-2015-2016/">CXO FELLOWS CLASS OF 2015-2016</a></p>
+        <p><a href="{{ site.baseurl }}/cxo-fellows/cxo-fellows-class-of-2016-2017/">CXO FELLOWS CLASS OF 2016-2017</a></p>
+        <p><a href="{{ site.baseurl }}/cxo-fellows/cxo-fellows-class-of-2017-2018/">CXO FELLOWS CLASS OF 2017-2018</a></p>
+        <p><a href="{{ site.baseurl }}/cxo-fellows/cxo-fellows-class-of-2018-2019/">CXO FELLOWS CLASS OF 2018-2019</a></p>
+        <p><a href="{{ site.baseurl }}/cxo-fellows/cxo-fellows-class-of-2019-2020/">CXO FELLOWS CLASS OF 2019-2020</a></p>
+
+        <p>&nbsp;
+        </p>
+    </div>
+
+</div>
+</section>

@@ -34,7 +34,7 @@ title: Priority
 
         {% for icon in page.priority_icons %}
         {% if page.number_of_icons == 4 %}
-        <div class="tablet:grid-col-3 text-center margin-y-10">
+        <div class="tablet:grid-col-3 text-center margin-y-10 padding-x-1">
             {% endif %}
             {% if page.number_of_icons == 3 %}
             <div class="grid-col-4 text-center margin-y-10">
@@ -81,6 +81,9 @@ title: Priority
     {% include priority_gpr_sidenav.html %}
     {% endif %}
 
+    {% if page.type == "workforce-modernization" %}
+    {% include priority_workforce_sidenav.html %}
+    {% endif %}
 
 </section>
 <div id="openModal13" class="modalDialog">
