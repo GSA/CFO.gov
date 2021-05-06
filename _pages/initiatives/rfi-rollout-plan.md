@@ -3,6 +3,21 @@ layout: default
 title: Application Phase of CFOC's Workforce Modernization Pilot
 permalink: /rfi-application-phase/
 ---
+<style>
+  .card-btn-ft {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid #DFE1E2;
+    background-color:#0050d8;
+    color:white;
+    float: left;
+    border-radius: 4px;
+    padding: 6px 12px;
+</style>
 
 <section class="usa-graphic-list">
     <div class="grid-container">
@@ -17,10 +32,10 @@ permalink: /rfi-application-phase/
        </div>
             <div class="grid-row">   
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
-            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full">
-               <div class="text-container height-card-lg">
-                    <p class="text-primary-dark">Day 1</p>
-                    <strong><p class="text-accent-warm-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:425px;">
+               <div class="text-container">
+                    <p class="card-btn-ft">Day 1</p>
+                    <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
                         <ul>
                             <li>Publish RFI & Application Documents</li>
                             <li>CFO.gov Content</li>
@@ -36,21 +51,22 @@ permalink: /rfi-application-phase/
             </div>
         </div>                  
            <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
-            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full ">
-               <div class="text-container height-card-lg">  
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 " style="height:425px;">
+               <div class="text-container">  
                     <p class="text-primary-dark">Week 1 & 2</p>
-                    <strong><p>Step 2) Get Interviews with News Outlets</p></strong>
+                    <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
                            <ul>
                              <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
+                             <li>Workforce leads participate in interviews</li>  
                          </ul>                             
                </div>
             </div>
         </div>  
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
-            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full ">
-               <div class="text-container height-card-lg">  
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:425px;">
+               <div class="text-container ">  
                     <p class="text-primary-dark">Week 3 & 4</p>
-                    <strong><p class="text-accent-warm-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
+                    <strong><p class="text-primary-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
                         <ul>
                             <li>Create Vendor Awareness</li>
                             <ul>
