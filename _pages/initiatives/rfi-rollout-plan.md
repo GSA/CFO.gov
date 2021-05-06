@@ -12,7 +12,7 @@ permalink: /rfi-application-phase/
     letter-spacing: 0.1em;
     text-transform: uppercase;
     border: 1px solid #DFE1E2;
-    background-color:#0050d8;
+    background-color:#005ea2;
     color:white;
     float: left;
     border-radius: 4px;
