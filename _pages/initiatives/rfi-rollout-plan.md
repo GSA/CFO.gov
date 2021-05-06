@@ -36,7 +36,7 @@ ul.rfi li:before {
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-        <h1 class="column-centered-heading margin-bottom-1">Application Phase of CFOC's Workforce Modernization Pilot</h1>
+        <h1 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach Strategy</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
             <p class="font-sans-sm margin-top-0">
              Yay! We’re ready to launch the application phase of the CFOC’s Workforce Modernization pilot.
@@ -52,7 +52,7 @@ ul.rfi li:before {
                <div class="text-container">
                     <p class="card-btn-ft">Day 1</p>
                          <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
-                        <ul class="rfi">
+                        <ul>
                             <li>Publish RFI & Application Documents</li>
                             <li>CFO.gov Content</li>
                             <li>Press Release</li>
