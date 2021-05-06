@@ -17,6 +17,13 @@ permalink: /rfi-application-phase/
     float: left;
     border-radius: 4px;
     padding: 6px 12px;
+  
+  .usa-card__header {
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  
 </style>
 
 <section class="usa-graphic-list">
@@ -34,7 +41,9 @@ permalink: /rfi-application-phase/
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container">
+                 <div class="usa-card_header">
                     <p class="card-btn-ft">Day 1</p>
+                 </div>
                     <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
                         <ul>
                             <li>Publish RFI & Application Documents</li>
