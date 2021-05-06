@@ -7,7 +7,7 @@ permalink: /rfi-application-phase/
   .card-btn-ft {
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 13px;
     text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -32,7 +32,7 @@ permalink: /rfi-application-phase/
        </div>
             <div class="grid-row">   
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
-            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:425px;">
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container">
                     <p class="card-btn-ft">Day 1</p>
                     <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
@@ -51,9 +51,9 @@ permalink: /rfi-application-phase/
             </div>
         </div>                  
            <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
-            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 " style="height:425px;">
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 " style="height:460px;">
                <div class="text-container">  
-                    <p class="text-primary-dark">Week 1 & 2</p>
+                    <p class="card-btn-ft">Week 1 & 2</p>
                     <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
                            <ul>
                              <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
@@ -63,9 +63,9 @@ permalink: /rfi-application-phase/
             </div>
         </div>  
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
-            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:425px;">
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container ">  
-                    <p class="text-primary-dark">Week 3 & 4</p>
+                     <p class="card-btn-ft">Week 3 & 4</p>
                     <strong><p class="text-primary-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
                         <ul>
                             <li>Create Vendor Awareness</li>
