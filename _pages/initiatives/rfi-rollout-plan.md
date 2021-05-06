@@ -42,9 +42,7 @@ permalink: /rfi-application-phase/
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container">
-                 <div class="rfi-button">
                     <p class="card-btn-ft">Day 1</p>
-                 </div>
                  <br />
                  <br />
                     <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
