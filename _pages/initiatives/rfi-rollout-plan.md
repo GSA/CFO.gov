@@ -15,8 +15,24 @@ permalink: /rfi-application-phase/
           <p>In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. Your help in reaching out to them would be most appreciated. Can you help amplify our press message/outreach or help us set up introductory meetings? Shown below is a high level representation of our outreach plan. We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government.</p>    
           <p>Click on any of the listed items below to view the related documents. We’re happy to discuss further.</p>
        </div>
-              <div class="grid-row">   
-                  <div class="tablet:grid-col border-top-05 border-accent-warm padding-2 shadow-5">
+            <div class="grid-row">   
+            <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover ">
+               <div class="text-container height-card-lg">
+                    <p class="bg-primay-dark text-base-lightest">Day 1</p>
+                    <p class="text-accent-warm-dark">Step 1) Widely Publicize Vendor Application Process</p>
+                        <ul>
+                            <li>Publish RFI & Application Documents</li>
+                            <li>CFO.gov Content</li>
+                            <li>Press Release</li>
+                            <li>Social Media</li>
+                          </ul>                             
+               </div>
+            </div>
+        </div>                  
+           <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover ">
+               <div class="text-container height-card-lg">  
                     <p class="bg-primay-dark text-base-lightest">Day 1</p>
                     <p class="text-accent-warm-dark">Step 1) Widely Publicize Vendor Application Process</p>
                         <ul>
@@ -25,8 +41,12 @@ permalink: /rfi-application-phase/
                             <li>Press Release</li>
                             <li>Social Media</li>
                           </ul> 
-                  </div>
-                  <div class="tablet:grid-col border-top-05 border-accent-warm padding-2 shadow-5">
+                        </div>
+            </div>
+        </div>  
+              <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover ">
+               <div class="text-container height-card-lg">  
                     <p>Week 1 & 2</p>
                     <p>Step 2) Get Interviews with News Outlets</p>
                            <ul>
@@ -40,7 +60,8 @@ permalink: /rfi-application-phase/
                             <li>Create vendor awareness</li>
                             <li>Include in communications</li>
                           </ul>      
-                  </div>
-        </div>
+               </div>
+            </div>
+        </div>  
 
     
