@@ -16,9 +16,9 @@ permalink: /rfi-application-phase/
           <p>Click on any of the listed items below to view the related documents. We’re happy to discuss further.</p>
        </div>
               <div class="grid-row">   
-                  <div class="tablet:grid-col">
+                  <div class="tablet:grid-col border-top-05 border-accent-warm padding-2 shadow-5 ">
                     <p>Day 1</p>
-                    <p style="background-color:blue">Step 1) Widely Publicize Vendor Application Process</p>
+                    <p class="text-accent-warm-dark">Step 1) Widely Publicize Vendor Application Process</p>
                         <ul>
                             <li>Publish RFI & Application Documents</li>
                             <li>CFO.gov Content</li>
