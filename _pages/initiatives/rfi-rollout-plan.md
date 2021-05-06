@@ -24,11 +24,11 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
     
- ul {
+ ul.rfi {
   list-style: none;
 }
 
-ul li:before {
+ul.rfi li:before {
   content: '✓';
 }
   
@@ -45,14 +45,14 @@ ul li:before {
           <p>In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. Your help in reaching out to               them would be most appreciated. Can you help amplify our press message/outreach or help us set up introductory meetings? Shown below is a high level representation             of our outreach plan. We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the                  Administration’s goals - and as a way to significantly increase both opportunity and performance across the government.</p>    
           <p>Click on any of the listed items below to view the related documents. We’re happy to discuss further.</p>
        </div>
+            <h2> Publicity & Outreach Steps</h2>
             <div class="grid-row">   
-              <h2> Publicity & Outreach Steps</h2>
-            <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
+              <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container">
                     <p class="card-btn-ft">Day 1</p>
                          <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
-                        <ul>
+                        <ul class="rfi">
                             <li>Publish RFI & Application Documents</li>
                             <li>CFO.gov Content</li>
                             <li>Press Release</li>
