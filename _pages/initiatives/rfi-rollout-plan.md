@@ -1,20 +1,19 @@
 ---
 layout: default
-title: Application Phase of CFOC's Workforce Modernization Pilot
-permalink: /rfi-application-phase/
+title: Workforce Modernization Publicity & Outreach Strategy
+permalink: /workforce-mod-publicity-outreach-strategy/
 ---
 <style>
   .card-btn-ft {
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     border: 1px solid #DFE1E2;
     background-color:#005ea2;
     color:white;
-    float: left;
     border-radius: 4px;
     padding: 6px 12px;
   }
@@ -39,13 +38,12 @@ permalink: /rfi-application-phase/
           <p>Click on any of the listed items below to view the related documents. We’re happy to discuss further.</p>
        </div>
             <div class="grid-row">   
+              <h2> Publicity & Outreach Steps</h2>
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container">
                     <p class="card-btn-ft">Day 1</p>
-                 <br />
-                 <br />
-                    <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
+                         <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
                         <ul>
                             <li>Publish RFI & Application Documents</li>
                             <li>CFO.gov Content</li>
@@ -64,8 +62,6 @@ permalink: /rfi-application-phase/
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 " style="height:460px;">
                <div class="text-container">  
                     <p class="card-btn-ft">Week 1 & 2</p>
-                       <br />
-                 <br />
                     <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
                            <ul>
                              <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
@@ -77,8 +73,7 @@ permalink: /rfi-application-phase/
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container ">  
-                     <p class="card-btn-ft">Week 3 & 4</p>      <br />
-                 <br />
+                     <p class="card-btn-ft">Week 3 & 4</p> 
                     <strong><p class="text-primary-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
                         <ul>
                             <li>Create Vendor Awareness</li>
