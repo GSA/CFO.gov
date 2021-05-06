@@ -18,7 +18,7 @@ priority_icons:
    url: /workforce-modernization/centralized-recruiting-pilot/
  - name: "NEW: Career Planning & Training Initiative - Application Guidance"
    logo: /assets/images/logos/Asset_10.svg
-   link: /workforce-modernization/application-guidance/  
+   url: /workforce-modernization/application-guidance/  
 description1: The Workforce Modernization Initiative
 ---
 
