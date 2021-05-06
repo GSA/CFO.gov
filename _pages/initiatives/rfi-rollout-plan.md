@@ -15,7 +15,8 @@ permalink: /rfi-application-phase/
           <p>In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. Your help in reaching out to them would be most appreciated. Can you help amplify our press message/outreach or help us set up introductory meetings? Shown below is a high level representation of our outreach plan. We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government.</p>    
           <p>Click on any of the listed items below to view the related documents. We’re happy to discuss further.</p>
        </div>
-              <div class="grid-row">    
+              <div class="grid-row">   
+                  <div class="tablet:grid-col">
                     <p>Day 1</p>
                     <p style="font-weight:heavy;backgrouund-color:blue;color:white;">Step 1) Widely Publicize Vendor Application Process</p>
                         <ul>
@@ -24,17 +25,22 @@ permalink: /rfi-application-phase/
                             <li>Press Release</li>
                             <li>Social Media</li>
                           </ul> 
+                  </div>
+                  <div class="tablet:grid-col">
                     <p>Week 1 & 2</p>
                     <p>Step 2) Get Interviews with News Outlets</p>
                            <ul>
                              <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
-                         </ul>               
+                         </ul>
+                  </div>
+                  <div class="tablet:grid-col">
                   <p>Week 3 & 4</p>
                    <p>Step 3) Outreach to Top Vendors to Stimulate Interest</p>
                            <ul>
                             <li>Create vendor awareness</li>
                             <li>Include in communications</li>
-                          </ul>        
+                          </ul>      
+                  </div>
         </div>
 </section>
     
