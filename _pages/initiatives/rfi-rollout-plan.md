@@ -16,8 +16,8 @@ permalink: /rfi-application-phase/
           <p>Click on any of the listed items below to view the related documents. We’re happy to discuss further.</p>
        </div>
               <div class="grid-row">   
-                  <div class="tablet:grid-col border-top-05 border-accent-warm padding-2 shadow-5 ">
-                    <p>Day 1</p>
+                  <div class="tablet:grid-col border-top-05 border-accent-warm padding-2 shadow-5">
+                    <p class="bg-primay-dark text-base-lightest">Day 1</p>
                     <p class="text-accent-warm-dark">Step 1) Widely Publicize Vendor Application Process</p>
                         <ul>
                             <li>Publish RFI & Application Documents</li>
@@ -26,14 +26,14 @@ permalink: /rfi-application-phase/
                             <li>Social Media</li>
                           </ul> 
                   </div>
-                  <div class="tablet:grid-col">
+                  <div class="tablet:grid-col border-top-05 border-accent-warm padding-2 shadow-5">
                     <p>Week 1 & 2</p>
                     <p>Step 2) Get Interviews with News Outlets</p>
                            <ul>
                              <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
                          </ul>
                   </div>
-                  <div class="tablet:grid-col">
+                 <div class="tablet:grid-col border-top-05 border-accent-warm padding-2 shadow-5 ">
                   <p>Week 3 & 4</p>
                    <p>Step 3) Outreach to Top Vendors to Stimulate Interest</p>
                            <ul>
