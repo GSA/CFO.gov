@@ -19,7 +19,7 @@ permalink: /rfi-application-phase/
     padding: 6px 12px;
   }
   
-  .usa-card__header {
+  .rfi-button {
     padding-bottom: 1.5rem;
     padding-top: 0.5rem;
     padding-left: 1.5rem;
@@ -42,9 +42,11 @@ permalink: /rfi-application-phase/
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container">
-                 <div class="usa-card_header">
+                 <div class="rfi-button">
                     <p class="card-btn-ft">Day 1</p>
                  </div>
+                 <br />
+                 <br />
                     <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
                         <ul>
                             <li>Publish RFI & Application Documents</li>
@@ -64,6 +66,8 @@ permalink: /rfi-application-phase/
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 " style="height:460px;">
                <div class="text-container">  
                     <p class="card-btn-ft">Week 1 & 2</p>
+                       <br />
+                 <br />
                     <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
                            <ul>
                              <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
@@ -75,7 +79,8 @@ permalink: /rfi-application-phase/
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container ">  
-                     <p class="card-btn-ft">Week 3 & 4</p>
+                     <p class="card-btn-ft">Week 3 & 4</p>      <br />
+                 <br />
                     <strong><p class="text-primary-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
                         <ul>
                             <li>Create Vendor Awareness</li>
