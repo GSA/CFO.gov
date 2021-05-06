@@ -23,6 +23,14 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     padding-top: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
+    
+ ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '✓';
+}
   
 </style>
 
