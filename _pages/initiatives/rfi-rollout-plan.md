@@ -17,12 +17,13 @@ permalink: /rfi-application-phase/
     float: left;
     border-radius: 4px;
     padding: 6px 12px;
+  }
   
   .usa-card__header {
     padding-bottom: 1.5rem;
     padding-top: 0.5rem;
     padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-right: 1.5rem; }
   
 </style>
 
