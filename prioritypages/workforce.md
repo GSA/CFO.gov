@@ -9,17 +9,16 @@ keyword: CFO Priority Areas, CFO Council, CFOC, Financial Assistance
 priority_icons: 
  - name: Workforce Modernization Strategy
    logo: /assets/images/logos/Asset_12.svg
-   url: /fa-initiatives/
+   url: /workforce-modernization/workforce-modernization-strategy/
  - name: Data Analytics Training Pilot
    logo: /assets/images/logos/Asset_9.svg
-   url: /financial-assistance/resources/
+   url: /workforce-modernization/data-analytics-training-pilot/
  - name: Centralized Recruiting Pilot
    logo: /assets/images/logos/Asset_11.svg
-   url: /grants-training/
+   url: /workforce-modernization/centralized-recruiting-pilot/
  - name: "NEW: Career Planning & Training Initiative - Application Guidance"
    logo: /assets/images/logos/Asset_10.svg
-   link: "#openModal13"  
-   id: join-community
+   link: /workforce-modernization/application-guidance/  
 description1: The Workforce Modernization Initiative
 ---
 
