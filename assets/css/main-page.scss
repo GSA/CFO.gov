@@ -370,6 +370,17 @@ color:#005ea2;
   width:100%;
   position:absolute;
 }
+
+ol.alpha {                           /** Workforce Mordernization **/
+  list-style-type: lower-alpha;
+}
+ol.roman {
+  list-style-type: upper-roman;
+}
+.pict-txt {
+  text-align: center;
+}
+
 /* media queries*/
 @media (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item {
