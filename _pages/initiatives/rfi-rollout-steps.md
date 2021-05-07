@@ -44,8 +44,16 @@ ul.rfi li:before {
             <h3 id="site">CFO.gov Site Update Content</h3>
             <p>text here </p>
          <hr>
+           <h3 id="site">Press Release</h3>
+            <p>A key part of our publicity and outreach strategy is news coverage of the Workforce Modernization Initiative and RFI process. In coordination with GSA's Office    of Strategic Communications (OSC), we will distribute a press release (linked below) to a targested press list of national and industry outlets. Timed to coincide with the launch of the RFI, GSA OSC will leverage their press releationships to help source articles and interviews to amplify the RFI opportunity to potential vendors across the country.  </p>
+          <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="####" tabindex="-1">See Press Release</a>
+         <hr>
+            <h3 id="site">Social Media</h3>
+            <p>Using a cross-agency, multi-platform approach, our social media strategy amplifies the RFI launch to members of the CFO community, news outlets, potential vendors, and interested public.  </p>
+          <h4>Performance.gov</h4>
+         <hr>
             <h3 id="press">GSA OSC Press Outreach and Interview Coordination</h3>
-            <p>text here </p>
+            <p>In addition to the press release described and linked above, we are coordinating with GSA OSC to build a press outreach strategy </p>
          <hr>
             <h3 id="interviews">Workforce Modernization Working Group Interviews</h3>
             <p>text here </p>
