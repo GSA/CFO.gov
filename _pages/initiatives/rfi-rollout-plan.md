@@ -25,7 +25,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     padding-right: 1.5rem; }
     
   
-ul.a {list-style-type: circle;}
+ ul.a {list-style-type: circle;}
  
  ul.rfi {
   list-style: none;
@@ -72,6 +72,7 @@ ul.rfi li:before {
                                 <li>Performance.gov</li>
                                 <li>GSA OSC</li>
                                 <li>CFOC (5 - 15 Agencies)</li>
+                               <li>Social Media Community of Practice</li>
                             </ul>
                           </ul>                             
                </div>
