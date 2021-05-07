@@ -24,6 +24,9 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
     
+  
+ul.a {list-style-type: circle;}
+ 
  ul.rfi {
   list-style: none;
   padding: 0;
@@ -65,7 +68,7 @@ ul.rfi li:before {
                             <li><a href="../workforce-mod-publicity-outreach-details#site/">CFO.gov Content</a></li>
                             <li>Press Release</li>
                             <li>Social Media</li>
-                             <ul>
+                             <ul class="a">
                                 <li>Performance.gov</li>
                                 <li>GSA OSC</li>
                                 <li>CFOC (5 - 15 Agencies)</li>
@@ -79,7 +82,7 @@ ul.rfi li:before {
                <div class="text-container">  
                     <p class="card-btn-ft">Week 1 & 2</p>
                     <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
-                           <ul>
+                           <ul class="rfi">
                              <li><a href="../workforce-mod-publicity-outreach-details#press/">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
                              <li><a href="../workforce-mod-publicity-outreach-details#interviews/">Workforce leads participate in interviews</a></li>  
                          </ul>                             
@@ -91,16 +94,16 @@ ul.rfi li:before {
                <div class="text-container ">  
                      <p class="card-btn-ft">Week 3 & 4</p> 
                     <strong><p class="text-primary-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
-                        <ul>
+                       <ul class="rfi">
                             <li><a href="../workforce-mod-publicity-outreach-details#vendor/">Create Vendor Awareness</a></li>
-                            <ul>
+                             <ul class="a">
                                 <li>Reach out directly to vendors (email and phone)</li>
                                 <li>Share information</li>
                                 <li>Offer 1-on-1 meetings</li>
                                 <li>"Sell" the benefits of the program</li>
                             </ul>
                             <li><a href="../workforce-mod-publicity-outreach-details#comms/">Include in Communications</a></li>
-                            <ul>
+                             <ul class="a">
                                 <li>Brochure</li>
                                 <li>Application links</li>
                                 <li>Media links</li>
