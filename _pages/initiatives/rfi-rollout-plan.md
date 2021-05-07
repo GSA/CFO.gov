@@ -26,10 +26,18 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     
  ul.rfi {
   list-style: none;
+  padding: 0;
+   margin: 0;
 }
+
+ul.rfi li {
+ padding-left: 16px; 
+  }
 
 ul.rfi li:before {
   content: '✓';
+  padding-right: 8px;
+  color: #005ea2;
 }
   
 </style>
@@ -53,8 +61,8 @@ ul.rfi li:before {
                     <p class="card-btn-ft">Day 1</p>
                          <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
                         <ul>
-                            <li>Publish RFI & Application Documents</li>
-                            <li>CFO.gov Content</li>
+                            <li><a href="../workforce-mod-publicity-outreach-details#publish/">Publish RFI & Application Documents</a></li>
+                            <li<a href="../workforce-mod-publicity-outreach-details#site/">>CFO.gov Content</a></li>
                             <li>Press Release</li>
                             <li>Social Media</li>
                              <ul>
@@ -72,8 +80,8 @@ ul.rfi li:before {
                     <p class="card-btn-ft">Week 1 & 2</p>
                     <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
                            <ul>
-                             <li>GSA OSC connect w/ Reporters & handle press inquiries</li>
-                             <li>Workforce leads participate in interviews</li>  
+                             <li><a href="../workforce-mod-publicity-outreach-details#press/">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
+                             <li><a href="../workforce-mod-publicity-outreach-details#interviews/">Workforce leads participate in interviews</a></li>  
                          </ul>                             
                </div>
             </div>
@@ -84,14 +92,14 @@ ul.rfi li:before {
                      <p class="card-btn-ft">Week 3 & 4</p> 
                     <strong><p class="text-primary-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
                         <ul>
-                            <li>Create Vendor Awareness</li>
+                            <li><a href="../workforce-mod-publicity-outreach-details#vendor/">Create Vendor Awareness</a></li>
                             <ul>
                                 <li>Reach out directly to vendors (email and phone)</li>
                                 <li>Share information</li>
                                 <li>Offer 1-on-1 meetings</li>
                                 <li>"Sell" the benefits of the program</li>
                             </ul>
-                            <li>Include in Communications</li>
+                            <li><a href="../workforce-mod-publicity-outreach-details#comms/">Include in Communications</a></li>
                             <ul>
                                 <li>Brochure</li>
                                 <li>Application links</li>
