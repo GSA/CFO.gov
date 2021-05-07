@@ -60,9 +60,9 @@ ul.rfi li:before {
                <div class="text-container">
                     <p class="card-btn-ft">Day 1</p>
                          <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
-                        <ul id="rfi">
+                        <ul class="rfi">
                             <li><a href="../workforce-mod-publicity-outreach-details#publish/">Publish RFI & Application Documents</a></li>
-                            <li<a href="../workforce-mod-publicity-outreach-details#site/">CFO.gov Content</a></li>
+                            <li><a href="../workforce-mod-publicity-outreach-details#site/">CFO.gov Content</a></li>
                             <li>Press Release</li>
                             <li>Social Media</li>
                              <ul>
