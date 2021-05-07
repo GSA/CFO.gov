@@ -38,21 +38,25 @@ ul.rfi li:before {
     <div class="grid-container">
         <h1 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach Details</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
-            <h3>Publish RFI & Application Documents</h3>
+            <h3 id="publish">Publish RFI & Application Documents</h3>
             <p>text here </p>
-            <h3>CFO.gov Site Update Content</h3>
+          <hr>
+            <h3 id="site">CFO.gov Site Update Content</h3>
             <p>text here </p>
-            <h3>GSA OSC Press Outreach and Interview Coordination/h3>
+         <hr>
+            <h3 id="press">>GSA OSC Press Outreach and Interview Coordination,/h3>
             <p>text here </p>
-            <h3>Workforce Modernization Working Group Interviews</h3>
+         <hr>
+            <h3 id="interviews">>Workforce Modernization Working Group Interviews</h3>
             <p>text here </p>
-            <h3>Create Vendor Awareness</h3>
+         <hr>
+            <h3 id="vendor">>Create Vendor Awareness</h3>
             <p>text here</p>
-            <h3>Communications Collateral</h3>
+         <hr>
+            <h3 id="comms">>Communications Collateral</h3>
             <p>text here</p>
           
-        </div>
-        </div>
+
             
             
             
