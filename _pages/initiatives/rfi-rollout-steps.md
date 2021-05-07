@@ -44,16 +44,16 @@ ul.rfi li:before {
             <h3 id="site">CFO.gov Site Update Content</h3>
             <p>text here </p>
          <hr>
-            <h3 id="press">>GSA OSC Press Outreach and Interview Coordination,/h3>
+            <h3 id="press">GSA OSC Press Outreach and Interview Coordination,/h3>
             <p>text here </p>
          <hr>
-            <h3 id="interviews">>Workforce Modernization Working Group Interviews</h3>
+            <h3 id="interviews">Workforce Modernization Working Group Interviews</h3>
             <p>text here </p>
          <hr>
-            <h3 id="vendor">>Create Vendor Awareness</h3>
+            <h3 id="vendor">Create Vendor Awareness</h3>
             <p>text here</p>
          <hr>
-            <h3 id="comms">>Communications Collateral</h3>
+            <h3 id="comms">Communications Collateral</h3>
             <p>text here</p>
           
 
