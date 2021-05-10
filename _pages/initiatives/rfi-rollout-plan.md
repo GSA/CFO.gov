@@ -84,7 +84,7 @@ ul.rfi-a li:before {
                             <li><a href="../workforce-mod-publicity-outreach-details#site/">CFO.gov Content</a></li>
                             <li>Press Release</li>
                             <li>Social Media</li>
-                             <ul class="a">
+                             <ul class="rfi-a">
                                 <li>Performance.gov</li>
                                 <li>GSA OSC</li>
                                 <li>CFOC (5 - 15 Agencies)</li>
