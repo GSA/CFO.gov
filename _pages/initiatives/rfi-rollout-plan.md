@@ -70,7 +70,8 @@ ul.rfi-a li:before {
  </p>
           <p>In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. <strong>Your help</strong> in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. 
 </p>    
-          <p>Click on any of the listed items below to view the related documents. We’re happy to discuss further. For more information about this initiative, please see our <a href="xxx">overview deck</a>.</p>
+          <p>Click on any of the listed items below for more information about the comms process. If you’re looking for general information about the program, that can be found <a href="xxx">here</a>.</p>
+
        </div>
             <h2> Publicity & Outreach Steps</h2>
             <div class="grid-row">   
