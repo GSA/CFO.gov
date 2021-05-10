@@ -52,8 +52,12 @@ permalink: /workforce-mod-publicity-outreach-details/
           <p>To coincide with the RFI launch, GSA's Office of Strategic Communications will release the following social media post to ther Twitter, Linkedin, and Facebook accounts, reaching news outlets, other federal agencies, and the interested public.</p>
            <p class="text-italic"> The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. Are you an online university or tech company education provider? More details: link TBD.</p>
           <h4>Request to CFO Council to amplify social media posts</h4>
-          <p>In order to maximize the reach of the RFI launch announcement, we ask that members of the CFO Council use their personal and agency social media accouuns to help amplify our planned content. The CFOC support team will send two emails to CFOC members 1) a prep email 1-week before the RFI launch to make members aware of the social media campaign and allow time to coordinate with their agency commms offices, public affairs, or other parties, and 2) an action email the day the RFI is launched and the social media posts are live to request that members like, retweet, or share the live posts.</p>
-          <p>Language for each email can be found below:</p>        
+          <p>In order to maximize the reach of the RFI launch announcement, we ask that members of the CFO Council use their personal and agency social media accouuns to help amplify our planned content. The CFOC support team will send two emails to CFOC members:
+            <ol>
+              <li> a prep email 1-week before the RFI launch to make members aware of the social media campaign and allow time to coordinate with their agency commms offices, public affairs, or other parties, and </li>
+              <li>  2) an action email the day the RFI is launched and the social media posts are live to request that members like, retweet, or share the live posts.</li>
+                </ol>
+          <p>Language for each email can be found below:
         <ul>
         <li><strong>Prep Email Langauge:</strong></li>
              <p class="text-italic">Good Afternoon CFOC Community,</p>
@@ -65,7 +69,6 @@ permalink: /workforce-mod-publicity-outreach-details/
                   <li class="text-italic">If you have personal social media accounts that you use for CFOC-related items, plan to like, retweet, share, or draft your own posts to help amplify the RFI realease.</li> 
 </ol>
 <p class="text-italic">Thank you very much for your support and help! </p>
-</li>
 
 <li>
 <p><strong>Action Email Langauge</strong></p>
@@ -81,7 +84,7 @@ permalink: /workforce-mod-publicity-outreach-details/
        <ul>
          <li class="text-italic">Twitter (link TBD when it's live)</li>
           <li class="text-italic">LinkedIn (link TBD when it's live)</li>
-         <liclass="text-italic"> Facebook (link TBD when it's live)</li>
+         <li class="text-italic"> Facebook (link TBD when it's live)</li>
        </ul>
 </ul>
 
