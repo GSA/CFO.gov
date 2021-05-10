@@ -49,16 +49,16 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                <div class="text-container">
                     <p class="card-btn-ft">Day 1</p>
                          <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
-                        <ul class="rfi">
+                        <ul>
                             <li><a href="../workforce-mod-publicity-outreach-details#publish/">Publish RFI & Application Documents</a></li>
                             <li><a href="../workforce-mod-publicity-outreach-details#site/">CFO.gov Content</a></li>
                             <li>Press Release</li>
                             <li>Social Media</li>
-                             <ul class="rfi-a">
-                                <li>Performance.gov</li>
-                                <li>GSA OSC</li>
-                                <li>CFOC (5 - 15 Agencies)</li>
-                               <li>Social Media Community of Practice</li>
+                             <ul>
+                                <li><a href="../workforce-mod-publicity-outreach-details#pgov/">Performance.gov</li>
+                                <li><a href="../workforce-mod-publicity-outreach-details#osc/">GSA OSC</li>
+                                <li><a href="../workforce-mod-publicity-outreach-details#agency/">CFOC (5 - 15 Agencies)</li>
+                               <li><a href="../workforce-mod-publicity-outreach-details#cap/">Social Media Community of Practice</li>
                             </ul>
                           </ul>                             
                </div>
