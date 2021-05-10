@@ -24,9 +24,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
     
-  
- ul.a {list-style-type: circle;}
- 
+
  ul.rfi {
   list-style: none;
   padding: 0;
@@ -39,6 +37,22 @@ ul.rfi li {
 
 ul.rfi li:before {
   content: '✓';
+  padding-right: 8px;
+  color: #005ea2;
+}
+
+ ul.rfi-a {
+  list-style: none;
+  padding: 0;
+   margin: 0;
+}
+
+ul.rfi-a li {
+ padding-left: 30px; 
+  }
+
+ul.rfi-a li:before {
+  content: '■';
   padding-right: 8px;
   color: #005ea2;
 }
