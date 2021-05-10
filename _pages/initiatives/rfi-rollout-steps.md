@@ -31,6 +31,13 @@ permalink: /workforce-mod-publicity-outreach-details/
 ul.rfi li:before {
   content: '✓';
 }
+
+ ul.rfi-none {
+  list-style: ;
+}
+
+
+}
   
 </style>
 
@@ -42,7 +49,7 @@ ul.rfi li:before {
             <p>On Launch day of the Application Process, we’ll aim to do a number of things simultaneously. The main step being publishing of the RFI (Application Process) on sam.gov and also on cfo.gov. The RFI describes the career planning and training tool initiative and includes details on how education vendors can apply. In order to draw attention to this effort, we’ll also take a number of other steps that are described in the paragraphs below.</p>
           <hr>
             <h3 id="site">CFO.gov Site Update Content</h3>
-            <p>Coincident with publishing the RFI we’ll also activate content on cfo.gov that describes the workforce modernization effort, the career planning tool, and the application process. Show in the document attached is a rough visualization of that content and how it will look. Note, the web content is currently in development and should be ready by May 13 to view as demonstration link.</p>
+            <p>Coincident with publishing the RFI we’ll also activate content on cfo.gov that describes the workforce modernization effort, the career planning tool, and the application process. Shown in the document below is a rough visualization of that content and how it will look. Note, the web content is currently in development and should be ready by May 13 to view as demonstration link.</p>
                <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="../assets/files/CFO.gov-Workforce-Modernization-Updates.pdf" tabindex="-1">View Planned Content Updates</a>
           <hr>
            <h3 id="site">Press Release</h3>
@@ -53,47 +60,46 @@ ul.rfi li:before {
             <p>Using a cross-agency, multi-platform approach, our social media strategy amplifies the RFI launch to members of the CFO community, news outlets, potential vendors, and interested public.  </p>
           <h4>Performance.gov</h4>
           <p>To coincide with the RFI launch, the Performance.gov Team will release the following social media post on their Twitter and LinkedIn accounts, reaching the federal performance management community and stakeholders.</p>            
-          <p> Are you an online university or tech company education provider? The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. More details: link TBD. <p>
+          <p class="text-italic">Tweet: Are you an online university or tech company education provider? The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. More details: link TBD. <p>
               <img style="float:right; width: 300px" src="../assets/images/CFO Social Media Toolkit.gif">
           <h4>GSA Office of Strategic Communications</h4>
           <p>To coincide with the RFI launch, GSA's Office of Strategic Communications will release the following social media post to ther Twitter, Linkedin, and Facebook accounts, reaching news outlets, other federal agencies, and the interested public.</p>
-           <p><i> The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. Are you an online university or tech company education provider? More details: link TBD.</i>
+           <p class="text-italic"> The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. Are you an online university or tech company education provider? More details: link TBD.</p>
           <h4>Request to CFO Council to amplify social media posts</h4>
           <p>In order to maximize the reach of the RFI launch announcement, we ask that members of the CFO Council use their personal and agency social media accouuns to help amplify our planned content. The CFOC support team will send two emails to CFOC members 1) a prep email 1-week before the RFI launch to make members aware of the social media campaign and allow time to coordinate with their agency commms offices, public affairs, or other parties, and 2) an action email the day the RFI is launched and the social media posts are live to request that members like, retweet, or share the live posts.</p>
           <p>Language for each email can be found below:</p>        
         <ul>
-        <li><strong>Prep Email Langauge</strong></li>
+        <li><strong>Prep Email Langauge:</strong></li>
              <p class="text-italic">Good Afternoon CFOC Community,</p>
-
-<p class="text-italic">Thank you very much for your support! As discussed in the April CFOC Meeting, the Workforce Modernization Working Group is very close to launching the FEDS Career Planning and Training Tool (updated briefing deck for context attached as a reminder) and we really need your help amplifying our outreach on social media. Making sure the outside-the-beltway providers (e.g., innovative online universities, tech companies) are aware, and interested, is absolutely critical to our success. If successful, this initiative has the potential to radically transform and accelerate workforce modernization and leveling up opportunity for everyone.
-</p>
-<p class="text-italic">The FEDS Career Planning and Training Tool and associated RFI with go live in the next two weeks. In preparation for the launch, we have two asks:
-  <ol>
-    <li>Contact your agency communications offices to ask them to like, retweet, or share posts from Performance.gov and GSA on their social media accouunt when they go live. There is often a review process for these request, so we ask that you start this process early to ensure timely social media amplification. </li>
-    <li>If you have personal social media accounts that you use for CFOC-related items, plan to like, retweet, share, or draft your own posts to help amplify the RFI realease.</li> 
+              <p class="text-italic">Thank you very much for your support! As discussed in the April CFOC Meeting, the Workforce Modernization Working Group is very close to launching the FEDS Career Planning and Training Tool (updated briefing deck for context attached as a reminder) and we really need your help amplifying our outreach on social media. Making sure the outside-the-beltway providers (e.g., innovative online universities, tech companies) are aware, and interested, is absolutely critical to our success. If successful, this initiative has the potential to radically transform and accelerate workforce modernization and leveling up opportunity for everyone.
+      </p>
+      <p class="text-italic">The FEDS Career Planning and Training Tool and associated RFI with go live in the next two weeks. In preparation for the launch, we have two asks:
+                <ol>
+                  <li class="text-italic">Contact your agency communications offices to ask them to like, retweet, or share posts from Performance.gov and GSA on their social media accouunt when they go live. There is often a review process for these request, so we ask that you start this process early to ensure timely social media amplification. </li>
+                  <li class="text-italic">If you have personal social media accounts that you use for CFOC-related items, plan to like, retweet, share, or draft your own posts to help amplify the RFI realease.</li> 
 </ol>
 <p class="text-italic">Thank you very much for your support and help! </p>
 </li>
+
 <li>
 <p><strong>Action Email Langauge</strong></p>
-<p><i>Good Afternoon CFOC Community, </>
-<p> The FEDS Career Planning and Training Tool and RFI are now live! As discussed in our prior email, please help us amplify the posts from Performance.gov and GSA OSC below through your agency and personal social media accounts: </p>
+  <p class="text-italic">Good Afternoon CFOC Community,</p>
+<p class="text-italic"> The FEDS Career Planning and Training Tool and RFI are now live! As discussed in our prior email, please help us amplify the posts from Performance.gov and GSA OSC below through your agency and personal social media accounts: </p>
    <ul>
-     <li>Performance.gov</li>
+     <li class="text-italic">Performance.gov</li>
        <ul>
-         <li>Twitter (link TBD when it's live)</li>
-         <li>LinkedIn (link TBD when it's live)</li>
+         <li class="text-italic">Twitter (link TBD when it's live)</li>
+         <li class="text-italic">LinkedIn (link TBD when it's live)</li>
        </ul>
-        <li>GSA OSC</li>
+        <li class="text-italic">GSA OSC</li>
        <ul>
-         <li>Twitter (link TBD when it's live)</li>
-          <li>LinkedIn (link TBD when it's live)</li>
-         <li>Facebook (link TBD when it's live)</li>
+         <li class="text-italic">Twitter (link TBD when it's live)</li>
+          <li class="text-italic">LinkedIn (link TBD when it's live)</li>
+         <liclass="text-italic"> Facebook (link TBD when it's live)</li>
        </ul>
 </ul>
 
-<p>Thank you for your support! Making sure the outside-the-beltway providers (e.g., innovative online universities, tech companies) are aware, and interested, is absolutely critical to our success.</p></li>
-</ul>
+<p class="text-italic">Thank you for your support! Making sure the outside-the-beltway providers (e.g., innovative online universities, tech companies) are aware, and interested, is absolutely critical to our success.</p>
          <hr>
             <h3 id="press">GSA OSC Press Outreach and Interview Coordination</h3>
             <p>In addition to the press release described and linked above, we are coordinating with GSA OSC to build a press outreach strategy to target national and industry news outlets for articles and interviews. GSA OSC will release the above press release the day the RFI is launched to the news outlets listed below:</p>
@@ -138,7 +144,12 @@ ul.rfi li:before {
 <p>Towards that end, we will <strong>directly reach-out</strong> to top-tier vendors. We’ll do this by <strong>networking, emails, and phone calls</strong>. In our email outreach, and in any 1-on-1 meetings, we’ll share the positive press references, the program brochure, links to the web pages, and other program collateral. Similar to prior steps, it is our hope that this will give heightened credibility to this effort and increase their willingness to apply.</p>
          <hr>
             <h3 id="comms">Communications Collateral</h3>
-            <p>To support the Feds Career Planning and Training Tool and RFI release, we the follow</p>
+            <p>To support the Feds Career Planning and Training Tool and RFI release, we also created the following brochure and associated application links. We will update this section with media covereage after the RFI launch.</p>
+            <ul>
+  <li>Brochure</li>
+  <li>Application Links</li>
+  <li>Media Links</li>
+</ul>
           
 
             
