@@ -52,13 +52,13 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                         <ul>
                             <li><a href="../workforce-mod-publicity-outreach-details#publish/">Publish RFI & Application Documents</a></li>
                             <li><a href="../workforce-mod-publicity-outreach-details#site/">CFO.gov Content</a></li>
-                            <li>Press Release</li>
+                            <li><a href="../workforce-mod-publicity-outreach-details#press/">Press Release</a></li>
                             <li>Social Media</li>
                              <ul>
-                                <li><a href="../workforce-mod-publicity-outreach-details#pgov/">Performance.gov</li>
-                                <li><a href="../workforce-mod-publicity-outreach-details#osc/">GSA OSC</li>
-                                <li><a href="../workforce-mod-publicity-outreach-details#agency/">CFOC (5 - 15 Agencies)</li>
-                               <li><a href="../workforce-mod-publicity-outreach-details#cap/">Social Media Community of Practice</li>
+                                <li><a href="../workforce-mod-publicity-outreach-details#pgov/">Performance.gov</a></li>
+                                <li><a href="../workforce-mod-publicity-outreach-details#osc/">GSA OSC</a></li>
+                                <li><a href="../workforce-mod-publicity-outreach-details#agency/">CFOC (5 - 15 Agencies)</a></li>
+                               <li><a href="../workforce-mod-publicity-outreach-details#cap/">Social Media Community of Practice</a></li>
                             </ul>
                           </ul>                             
                </div>
@@ -70,7 +70,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                     <p class="card-btn-ft">Week 1 & 2</p>
                     <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
                            <ul class="rfi">
-                             <li><a href="../workforce-mod-publicity-outreach-details#press/">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
+                             <li><a href="../workforce-mod-publicity-outreach-details#osc-press/">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
                              <li><a href="../workforce-mod-publicity-outreach-details#interviews/">Workforce leads participate in interviews</a></li>  
                          </ul>                             
                </div>
