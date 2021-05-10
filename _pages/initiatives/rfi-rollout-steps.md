@@ -52,32 +52,29 @@ ul.rfi li:before {
             <h3 id="site">Social Media</h3>
             <p>Using a cross-agency, multi-platform approach, our social media strategy amplifies the RFI launch to members of the CFO community, news outlets, potential vendors, and interested public.  </p>
           <h4>Performance.gov</h4>
-          <p>To coincide with the RFI launch, the Performance.gov Team will release the following social media post on their Twitter and LinkedIn accounts, reaching the federal performance management community and stakeholders.</p>
-             <div class="grid-container">
-              <div class="tablet:grid-col-8">
+          <p>To coincide with the RFI launch, the Performance.gov Team will release the following social media post on their Twitter and LinkedIn accounts, reaching the federal performance management community and stakeholders.</p>            
           <p> Are you an online university or tech company education provider? The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. More details: link TBD. <p>
-             </div>
-          <div class="tablet:grid-col-4 ">
-            <img style="float:right" src="../assets/images/CFO Social Media Toolkit.gif">
-             </div>
-            </div> 
+              <img style="float:right; width: 300px" src="../assets/images/CFO Social Media Toolkit.gif">
           <h4>GSA Office of Strategic Communications</h4>
           <p>To coincide with the RFI launch, GSA's Office of Strategic Communications will release the following social media post to ther Twitter, Linkedin, and Facebook accounts, reaching news outlets, other federal agencies, and the interested public.</p>
            <p><i> The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. Are you an online university or tech company education provider? More details: link TBD.</i>
           <h4>Request to CFO Council to amplify social media posts</h4>
-          <p>In order to maximize the reach of the RFI launch announcement, we ask that members of the CFO Council use their personal and agency social media accouuns to help amplify our planned content. The CFOC support team will send two emails to CFOC members 1) a prep email 1-week before the RFI launch to make members aware of the social media campaign and allow time to coordinate with their agency commms offices, public affairs, or other parties, and 2) an action email the day the RFI is launched and the social media posts are live to request that members like, retweet, or share the live posts. Language for each email can be found below:</p>
-        
-        <p><strong>Prep Email Langauge</strong></p>
-             <p><i>Good Afternoon CFOC Community</p>
+          <p>In order to maximize the reach of the RFI launch announcement, we ask that members of the CFO Council use their personal and agency social media accouuns to help amplify our planned content. The CFOC support team will send two emails to CFOC members 1) a prep email 1-week before the RFI launch to make members aware of the social media campaign and allow time to coordinate with their agency commms offices, public affairs, or other parties, and 2) an action email the day the RFI is launched and the social media posts are live to request that members like, retweet, or share the live posts.</p>
+          <p>Language for each email can be found below:</p>        
+        <ul>
+        <li><strong>Prep Email Langauge</strong></li>
+             <p class="text-italic">Good Afternoon CFOC Community,</p>
 
-<p>Thank you very much for your support! As discussed in the April CFOC Meeting, the Workforce Modernization Working Group is very close to launching the FEDS Career Planning and Training Tool (updated briefing deck for context attached as a reminder) and we really need your help amplifying our outreach on social media. Making sure the outside-the-beltway providers (e.g., innovative online universities, tech companies) are aware, and interested, is absolutely critical to our success. If successful, this initiative has the potential to radically transform and accelerate workforce modernization and leveling up opportunity for everyone.
+<p class="text-italic">Thank you very much for your support! As discussed in the April CFOC Meeting, the Workforce Modernization Working Group is very close to launching the FEDS Career Planning and Training Tool (updated briefing deck for context attached as a reminder) and we really need your help amplifying our outreach on social media. Making sure the outside-the-beltway providers (e.g., innovative online universities, tech companies) are aware, and interested, is absolutely critical to our success. If successful, this initiative has the potential to radically transform and accelerate workforce modernization and leveling up opportunity for everyone.
 </p>
-<p>The FEDS Career Planning and Training Tool and associated RFI with go live in the next two weeks. In preparation for the launch, we have two asks:
+<p class="text-italic">The FEDS Career Planning and Training Tool and associated RFI with go live in the next two weeks. In preparation for the launch, we have two asks:
   <ol>
     <li>Contact your agency communications offices to ask them to like, retweet, or share posts from Performance.gov and GSA on their social media accouunt when they go live. There is often a review process for these request, so we ask that you start this process early to ensure timely social media amplification. </li>
     <li>If you have personal social media accounts that you use for CFOC-related items, plan to like, retweet, share, or draft your own posts to help amplify the RFI realease.</li> 
 </ol>
-<p>Thank you very much for your support and help! </p>
+<p class="text-italic">Thank you very much for your support and help! </p>
+</li>
+<li>
 <p><strong>Action Email Langauge</strong></p>
 <p><i>Good Afternoon CFOC Community, </>
 <p> The FEDS Career Planning and Training Tool and RFI are now live! As discussed in our prior email, please help us amplify the posts from Performance.gov and GSA OSC below through your agency and personal social media accounts: </p>
@@ -95,7 +92,8 @@ ul.rfi li:before {
        </ul>
 </ul>
 
-<p>Thank you for your support! Making sure the outside-the-beltway providers (e.g., innovative online universities, tech companies) are aware, and interested, is absolutely critical to our success.</li></p>
+<p>Thank you for your support! Making sure the outside-the-beltway providers (e.g., innovative online universities, tech companies) are aware, and interested, is absolutely critical to our success.</p></li>
+</ul>
          <hr>
             <h3 id="press">GSA OSC Press Outreach and Interview Coordination</h3>
             <p>In addition to the press release described and linked above, we are coordinating with GSA OSC to build a press outreach strategy to target national and industry news outlets for articles and interviews. GSA OSC will release the above press release the day the RFI is launched to the news outlets listed below:</p>
