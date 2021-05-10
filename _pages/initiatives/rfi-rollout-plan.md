@@ -25,37 +25,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     padding-right: 1.5rem; }
     
 
- ul.rfi {
-  list-style: none;
-  padding: 0;
-   margin: 0;
-}
 
-ul.rfi li {
- padding-left: 16px; 
-  }
-
-ul.rfi li:before {
-  content: '✓';
-  padding-right: 8px;
-  color: #005ea2;
-}
-
- ul.rfi-a {
-  list-style: none;
-  padding: 0;
-   margin: 0;
-}
-
-ul.rfi-a li {
- padding-left: 30px; 
-  }
-
-ul.rfi-a li:before {
-  content: '■';
-  padding-right: 8px;
-  color: #005ea2;
-}
   
 </style>
 
@@ -71,7 +41,6 @@ ul.rfi-a li:before {
           <p>In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. <strong>Your help</strong> in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. 
 </p>    
           <p>Click on any of the listed items below for more information about the comms process. If you’re looking for general information about the program, that can be found <a href="xxx">here</a>.</p>
-
        </div>
             <h2> Publicity & Outreach Steps</h2>
             <div class="grid-row">   
