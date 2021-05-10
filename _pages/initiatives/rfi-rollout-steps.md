@@ -24,20 +24,6 @@ permalink: /workforce-mod-publicity-outreach-details/
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
     
- ul.rfi {
-  list-style: none;
-}
-
-ul.rfi li:before {
-  content: '✓';
-}
-
- ul.rfi-none {
-  list-style: ;
-}
-
-
-}
   
 </style>
 
