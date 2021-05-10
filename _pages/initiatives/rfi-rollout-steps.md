@@ -43,7 +43,7 @@ ul.rfi li:before {
           <hr>
             <h3 id="site">CFO.gov Site Update Content</h3>
             <p>Coincident with publishing the RFI we’ll also activate content on cfo.gov that describes the workforce modernization effort, the career planning tool, and the application process. Show in the document attached is a rough visualization of that content and how it will look. Note, the web content is currently in development and should be ready by May 13 to view as demonstration link.</p>
-               <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="####" tabindex="-1">View the Planned Content Updates</a>
+               <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="../assets/files/CFO.gov-Workforce-Modernization-Updates.pdf" tabindex="-1">View Planned Content Updates</a>
           <hr>
            <h3 id="site">Press Release</h3>
             <p>A key part of our publicity and outreach strategy is news coverage of the Workforce Modernization Initiative and RFI process. In coordination with GSA's Office    of Strategic Communications (OSC), we will distribute a press release (linked below) to a targested press list of national and industry outlets. Timed to coincide with the launch of the RFI, GSA OSC will leverage their press releationships to help source articles and interviews to amplify the RFI opportunity to potential vendors across the country.  </p>
