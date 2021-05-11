@@ -33,11 +33,11 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     <div class="grid-container">
         <h2 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach Strategy</h2>
         <div class="usa-graphic-list__row margin-bottom-1">
-            <p class="font-sans-sm margin-top-0">
+            <p class="margin-top-0" style="font-size:16px;">
             Thank you for your support. We’re now ready to launch the application phase of the CFOC’s Workforce Modernization pilot. This is an initiative that will hopefully begin to serve the needs of our 140k workforce (with an estimated aggregate $140M training spend). If successful, the approach is cheap, easily scalable to most other areas of the government, creates an agile private/public partnership, and establishes an innovative competitive training marketplace (relatively free of much of the procurement/contracting requirements which typically impede governmental agility). 
  </p>
-          <p>In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. <strong>Your help</strong> in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. 
-          <p>Click on any of the listed items below for more information about the comms process. If you’re looking for general information about the program, that can be found <a href="../assets/files/About-the-Career-Planning-and-Training-Tool-Initiative.pdf">here</a>.</p>
+          <p style="font-size:16px;">In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. <strong>Your help</strong> in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. 
+          <p style="font-size:16px;">Click on any of the listed items below for more information about the comms process. If you’re looking for general information about the program, that can be found <a href="../assets/files/About-the-Career-Planning-and-Training-Tool-Initiative.pdf">here</a>.</p>
                 <h2> Publicity & Outreach Steps</h2>
             <div class="grid-row">   
               <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
@@ -76,7 +76,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container ">  
                      <p class="text-primary-dark">Week 3 & 4</p> 
-                    <strong><p "card-btn-ft">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
+                    <strong><p class="card-btn-ft">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
                        <ul class="rfi">
                             <li><a href="../workforce-mod-publicity-outreach-vendor-awareness/">Create Vendor Awareness</a></li>
                              <ul class="a">
