@@ -93,9 +93,9 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                                 <li>Media links</li>
                             </ul>
                           </ul> 
-                        </div>
+              </div>
+              </div>
+              </div>
               <p>We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. </p>    
-            </div>
-        </div>  
 
     
