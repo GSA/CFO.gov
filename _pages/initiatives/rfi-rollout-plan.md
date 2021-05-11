@@ -38,14 +38,13 @@ permalink: /workforce-mod-publicity-outreach-strategy/
  </p>
           <p>In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. <strong>Your help</strong> in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. 
           <p>Click on any of the listed items below for more information about the comms process. If you’re looking for general information about the program, that can be found <a href="../assets/files/About-the-Career-Planning-and-Training-Tool-Initiative.pdf">here</a>.</p>
-       </div>
-            <h2> Publicity & Outreach Steps</h2>
+                <h2> Publicity & Outreach Steps</h2>
             <div class="grid-row">   
               <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container">
                     <p class="text-primary-dark">Day 1</p>
-                         <strong><p class="card-btn-ft">Step 1) Widely Publicize Vendor Application Process</p></strong>
+                         <strong><p class="card-btn-ft">Step 1) Publicize Vendor Application Process</p></strong>
                         <ul>
                             <li><a href="../workforce-mod-rfi-docs/">Publish RFI & Application Documents</a></li>
                             <li><a href="../workforce-mod-publicity-outreach-cfo-content/">CFO.gov Content</a></li>
@@ -77,7 +76,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container ">  
                      <p class="text-primary-dark">Week 3 & 4</p> 
-                    <strong><p class="text-primary-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
+                    <strong><p "card-btn-ft">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
                        <ul class="rfi">
                             <li><a href="../workforce-mod-publicity-outreach-vendor-awareness/">Create Vendor Awareness</a></li>
                              <ul class="a">
@@ -97,5 +96,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
               </div>
               </div>
               <p>We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. </p>    
+         <hr>   
+              <h3>Step 1) Publicize Vendor Application Process</h3>      
 
     
