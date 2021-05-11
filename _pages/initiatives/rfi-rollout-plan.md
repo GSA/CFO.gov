@@ -53,7 +53,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                             <li><a href="../workforce-mod-rfi-docs/">Publish RFI & Application Documents</a></li>
                             <li><a href="..//workforce-mod-publicity-outreach-cfo-content/">CFO.gov Content</a></li>
                             <li><a href="../workforce-mod-publicity-outreach-press-release/">Press Release</a></li>
-                          <li a href="../workforce-mod-publicity-outreach-steps/">Social Media</a></li>
+                          <li a href="../workforce-mod-publicity-outreach-social/">Social Media</a></li>
                              <ul>
                                 <li>Performance.gov</li>
                                 <li>GSA OSC</li>
