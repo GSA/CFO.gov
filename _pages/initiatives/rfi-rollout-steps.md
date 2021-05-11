@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Workforce Modernization Publicity & Outreach Details
+permalink: /workforce-mod-publicity-outreach-steps/
 ---
 <style>
   .card-btn-ft {
