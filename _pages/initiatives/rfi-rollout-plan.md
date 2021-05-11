@@ -50,15 +50,15 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                     <p class="card-btn-ft">Day 1</p>
                          <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
                         <ul>
-                            <li><a href="../workforce-mod-publicity-outreach-details#publish/">Publish RFI & Application Documents</a></li>
-                            <li><a href="../workforce-mod-publicity-outreach-details#site/">CFO.gov Content</a></li>
-                            <li><a href="../workforce-mod-publicity-outreach-details#press/">Press Release</a></li>
-                            <li>Social Media</li>
+                            <li><a href="../workforce-mod-rfi-docs/">Publish RFI & Application Documents</a></li>
+                            <li><a href="..//workforce-mod-publicity-outreach-cfo-content/">CFO.gov Content</a></li>
+                            <li><a href="../workforce-mod-publicity-outreach-press-release/">Press Release</a></li>
+                          <li a href="../workforce-mod-publicity-outreach-steps/">Social Media</a></li>
                              <ul>
-                                <li><a href="../workforce-mod-publicity-outreach-details#pgov/">Performance.gov</a></li>
-                                <li><a href="../workforce-mod-publicity-outreach-details#osc/">GSA OSC</a></li>
-                                <li><a href="../workforce-mod-publicity-outreach-details#agency/">CFOC (5 - 15 Agencies)</a></li>
-                               <li><a href="../workforce-mod-publicity-outreach-details#cap/">Social Media Community of Practice</a></li>
+                                <li>Performance.gov</li>
+                                <li>GSA OSC</li>
+                                <li>CFOC (5 - 15 Agencies)</li>
+                               <li>Social Media Community of Practice</li>
                             </ul>
                           </ul>                             
                </div>
@@ -70,8 +70,8 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                     <p class="card-btn-ft">Week 1 & 2</p>
                     <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
                            <ul class="rfi">
-                             <li><a href="../workforce-mod-publicity-outreach-details#osc-press/">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
-                             <li><a href="#test">Workforce leads participate in interviews</a></li>  
+                             <li><a href="../workforce-mod-publicity-outreach-osc/">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
+                             <li><a href="../workforce-mod-publicity-outreach-interviews/">Workforce leads participate in interviews</a></li>  
                          </ul>                             
                </div>
             </div>
@@ -82,14 +82,14 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                      <p class="card-btn-ft">Week 3 & 4</p> 
                     <strong><p class="text-primary-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
                        <ul class="rfi">
-                            <li><a href="../workforce-mod-publicity-outreach-details#vendor/">Create Vendor Awareness</a></li>
+                            <li><a href="../workforce-mod-publicity-outreach-vendor-awareness/">Create Vendor Awareness</a></li>
                              <ul class="a">
                                 <li>Reach out directly to vendors (email and phone)</li>
                                 <li>Share information</li>
                                 <li>Offer 1-on-1 meetings</li>
                                 <li>"Sell" the benefits of the program</li>
                             </ul>
-                            <li><a href="../workforce-mod-publicity-outreach-details.html/#comms/">Include in Communications</a></li>
+                            <li><a href="../workforce-mod-publicity-outreach-comms/">Communications Collateral</a></li>
                              <ul class="a">
                                 <li>Brochure</li>
                                 <li>Application links</li>
