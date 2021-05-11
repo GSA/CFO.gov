@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach - Social Media
+title:  Social Media
 permalink: /workforce-mod-publicity-outreach-social/
 ---
 <style>
@@ -29,7 +29,8 @@ permalink: /workforce-mod-publicity-outreach-social/
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-        <h1 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach: Social Media</h1>
+        <h4 class="column-centered-heading margin-bottom-1 TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h4>
+        <h1 class="column-centered-heading margin-bottom-1"> Social Media Strategy</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
              <h3 name="social">Social Media</h3>
             <p>Using a cross-agency, multi-platform approach, our social media strategy amplifies the RFI launch to members of the CFO community, news outlets, potential vendors, and interested public.  </p>
