@@ -29,8 +29,8 @@ permalink: /workforce-mod-publicity-outreach-social/
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-      <p><a href="..	/workforce-mod-publicity-outreach-strategy/">Back to Overview</a> </p>
-       <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h3>
+      <p><a href="..	/workforce-mod-publicity-outreach-strategy/">&#8592; Back to Overview</a> </p>
+       <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker margin-bottom-05">Workforce Modernization Publicity & Outreach</h3>
         <h1 class="column-centered-heading margin-bottom-1"> Social Media Strategy</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
             <p>Using a cross-agency, multi-platform approach, our social media strategy amplifies the RFI launch to members of the CFO community, news outlets, potential vendors, and interested public.  </p>
