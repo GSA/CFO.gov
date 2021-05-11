@@ -19,7 +19,7 @@ priority_icons:
  - name: "NEW: Application Guidance for Career Planning & Training Initiative"
    logo: /assets/images/logos/workforce/career_planning.svg
    url: /workforce-modernization/application-guidance/  
-description1: The Workforce Modernization Initiative
+description1: 
 ---
 
 
