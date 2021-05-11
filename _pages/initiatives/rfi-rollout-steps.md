@@ -162,7 +162,7 @@ permalink: /workforce-mod-publicity-outreach-details/
             <h3>Communications Collateral</h3>
             <p>To support the Feds Career Planning and Training Tool and RFI release, we also created the following brochure and associated application links. We will update this section with media covereage after the RFI launch.</p>
             <ul>
-  <li>Brochure</li>
+  <li><a href="../assets/files/CFO-RFI-Brochure_Finalv1.pdf">Brochure</a></li>
   <li>Application Links</li>
   <li>Media Links</li>
 </ul>
