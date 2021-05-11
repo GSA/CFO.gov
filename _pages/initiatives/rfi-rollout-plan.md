@@ -44,8 +44,8 @@ permalink: /workforce-mod-publicity-outreach-strategy/
               <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container">
-                    <p class="card-btn-ft">Day 1</p>
-                         <strong><p class="text-primary-dark">Step 1) Widely Publicize Vendor Application Process</p></strong>
+                    <p class="text-primary-dark">Day 1</p>
+                         <strong><p class="card-btn-ft">Step 1) Widely Publicize Vendor Application Process</p></strong>
                         <ul>
                             <li><a href="../workforce-mod-rfi-docs/">Publish RFI & Application Documents</a></li>
                             <li><a href="../workforce-mod-publicity-outreach-cfo-content/">CFO.gov Content</a></li>
@@ -64,8 +64,8 @@ permalink: /workforce-mod-publicity-outreach-strategy/
            <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 " style="height:460px;">
                <div class="text-container">  
-                    <p class="card-btn-ft">Week 1 & 2</p>
-                    <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
+                    <p class="text-primary-dark">Week 1 & 2</p>
+                    <strong><p class="card-btn-ft">Step 2) Get Interviews with News Outlets</p></strong>
                            <ul class="rfi">
                              <li><a href="../workforce-mod-publicity-outreach-osc/">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
                              <li><a href="../workforce-mod-publicity-outreach-interviews/">Workforce leads participate in interviews</a></li>  
@@ -76,7 +76,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container ">  
-                     <p class="card-btn-ft">Week 3 & 4</p> 
+                     <p class="text-primary-dark">Week 3 & 4</p> 
                     <strong><p class="text-primary-dark">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
                        <ul class="rfi">
                             <li><a href="../workforce-mod-publicity-outreach-vendor-awareness/">Create Vendor Awareness</a></li>
