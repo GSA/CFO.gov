@@ -40,7 +40,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
  </p>
           <p>In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. <strong>Your help</strong> in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. 
 </p>    
-          <p>Click on any of the listed items below for more information about the comms process. If you’re looking for general information about the program, that can be found <a href="xxx">here</a>.</p>
+          <p>Click on any of the listed items below for more information about the comms process. If you’re looking for general information about the program, that can be found <a href="../assets/files/About-the-Career-Planning-and-Training-Tool-Initiative.pdf">here</a>.</p>
        </div>
             <h2> Publicity & Outreach Steps</h2>
             <div class="grid-row">   
