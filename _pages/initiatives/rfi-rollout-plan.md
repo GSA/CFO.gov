@@ -90,8 +90,8 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                           </div>
               </div>
               <p>We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. </p>    
- <a name="publish"></a>
-<h2>Step 1) Publicize Vendor Application Process</h2>     <br> 
+   <a name="publish"></a><h2>Step 1) Publicize Vendor Application Process</h2>
+    
 <h3>RFI Application & Documents</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
               <p>On Launch day of the Application Process, we’ll aim to do a number of things simultaneously. The main step being publishing of the RFI (Application Process) on sam.gov and also on cfo.gov. The RFI describes the career planning and training tool initiative and includes details on how education vendors can apply. In order to draw attention to this effort, we’ll also take a number of other steps that are described in the paragraphs below.</p>
@@ -123,7 +123,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                 <li>GSA OSC Twitter, LinkedIn, and Facebook</li>
                 <li>Social Media Amplification Emails</li>
           </ul>
-                <p> View the full social media strategy <a href="../assets/files/CFO.gov-social-media-strategy.pdf">here</a>.</p>
+                <p><a href="../assets/CFO.gov-social-media-strategy.pdf"> View the full social media strategy here</a>.</p>
        
 <hr>
 <a name="step2"></a><h2>Step 2) Secure Interviews with News Outlets</h2>
@@ -131,7 +131,8 @@ permalink: /workforce-mod-publicity-outreach-strategy/
    <h3>GSA OSC Press Outreach and Interview Coordination</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
                       <p>In addition to the press release described and linked above, we are coordinating with GSA OSC to build a press outreach strategy to target national and industry news outlets for articles and interviews. GSA OSC will release the above press release the day the RFI is launched to the news outlets listed below:</p>
- <div class="tablet:grid-col-4">
+  <div class="grid-row">   
+ <div class="tablet:grid-col-6">
  <ul>
     <li>Dorobeck Insider</li>
     <li>FCW</li>
@@ -147,7 +148,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     <li>BisNow</li>
    </ul>
   </div>
-  <div class="tablet:grid-col-4">
+  <div class="tablet:grid-col-6">
    <ul>
     <li>CIO Magazine</li>
     <li>GCN</li>
