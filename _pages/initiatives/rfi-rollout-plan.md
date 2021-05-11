@@ -75,7 +75,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container ">  
                      <p class="text-primary-dark">Week 3 & 4</p> 
-                    <strong><p class="card-btn-ft">Step 3) Outreach to Top Vendors to Stimulate Interest</p></strong>
+                    <strong><p class="card-btn-ft">Step 3) Top Vendor Outreach</p></strong>
                        <ul class="rfi">
                             <li><a href="../workforce-mod-publicity-outreach-vendor-awareness/">Create Vendor Awareness</a></li>
                              <ul class="a">
