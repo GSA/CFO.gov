@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach: GSA OSC Strategy
+title: Workforce Modernization Publicity & Outreach - GSA OSC Strategy
 permalink: /workforce-mod-publicity-outreach-osc/
 ---
 <style>
