@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach: RFI Application & Documents
+title: Workforce Modernization Publicity & Outreach - RFI Application & Documents
 permalink: /workforce-mod-rfi-docs/
 ---
 <style>
