@@ -32,7 +32,6 @@ permalink: /workforce-mod-publicity-outreach-social/
         <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h4>
         <h1 class="column-centered-heading margin-bottom-1"> Social Media Strategy</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
-             <h3 name="social">Social Media</h3>
             <p>Using a cross-agency, multi-platform approach, our social media strategy amplifies the RFI launch to members of the CFO community, news outlets, potential vendors, and interested public.  </p>
           <h4 name="pgov">Performance.gov</h4>
           <p>To coincide with the RFI launch, the Performance.gov Team will release the following social media post on their Twitter and LinkedIn accounts, reaching the federal performance management community and stakeholders.</p>   
