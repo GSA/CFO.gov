@@ -107,6 +107,7 @@ permalink: /workforce-mod-publicity-outreach-details/
          <li class="text-italic"> Facebook (link TBD when it's live)</li>
        </ul>
         <p>Thank you for your supoprt! </p> 
+ </ul>
   
            <hr>
             <h3 name="osc-press">GSA OSC Press Outreach and Interview Coordination</h3>
