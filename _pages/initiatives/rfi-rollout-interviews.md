@@ -29,7 +29,7 @@ permalink: /workforce-mod-publicity-outreach-interviews/
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-           <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h4>
+           <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h3>
         <h1 class="column-centered-heading margin-bottom-1">Working Group Press Interviews</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
        
