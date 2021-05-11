@@ -122,7 +122,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                 <li>Performance.gov Twitter and LinkedIn</li>
                 <li>GSA OSC Twitter, LinkedIn, and Facebook</li>
                 <li>Social Media Amplification Emails</li>
-                </ul
+          </ul>
                 <p> View the full social media strategy <a href="../assets/files/CFO.gov-social-media-strategy.pdf">here</a>.</p>
        
 <hr>
