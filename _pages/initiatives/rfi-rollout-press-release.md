@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach - Press Release
+title: Press Release
 permalink: /workforce-mod-publicity-outreach-press-release/
 ---
 <style>
@@ -29,7 +29,8 @@ permalink: /workforce-mod-publicity-outreach-press-release/
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-        <h1 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach: Press Release</h1>
+           <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h4>
+        <h1 class="column-centered-heading margin-bottom-1">Press Release</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
                  <h3 id="press">Press Release</h3>
             <p>A key part of our publicity and outreach strategy is news coverage of the Workforce Modernization Initiative and RFI process. In coordination with GSA's Office    of Strategic Communications (OSC), we will distribute a press release (linked below) to a targeted press list of national and industry outlets. Timed to coincide with the launch of the RFI, GSA OSC will leverage their press releationships to help source articles and interviews to amplify the RFI opportunity to potential vendors across the country.  </p>
