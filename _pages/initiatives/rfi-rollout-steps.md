@@ -33,6 +33,11 @@ permalink: /workforce-mod-publicity-outreach-details/
         <div class="usa-graphic-list__row margin-bottom-1">
             <h3 id="publish">Publish RFI & Application Documents</h3>
             <p>On Launch day of the Application Process, we’ll aim to do a number of things simultaneously. The main step being publishing of the RFI (Application Process) on sam.gov and also on cfo.gov. The RFI describes the career planning and training tool initiative and includes details on how education vendors can apply. In order to draw attention to this effort, we’ll also take a number of other steps that are described in the paragraphs below.</p>
+          <p>Application documents include:</p>
+          <ul>
+            <li><a href="../assets/files/CFO-RFI-App-Package-Finalv1.pdf">RFI Application Guidance</a></li>
+            <li>Mapping Matrix</li>
+          </ul>
           <hr>
             <h3 id="site">CFO.gov Site Update Content</h3>
             <p>Coincident with publishing the RFI we’ll also activate content on cfo.gov that describes the workforce modernization effort, the career planning tool, and the application process. Shown in the document below is a rough visualization of that content and how it will look. Note, the web content is currently in development and should be ready by May 13 to view as demonstration link.</p>
