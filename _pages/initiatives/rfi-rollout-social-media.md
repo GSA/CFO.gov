@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach: Social Media
+title: Workforce Modernization Publicity & Outreach - Social Media
 permalink: /workforce-mod-publicity-outreach-social/
 ---
 <style>
