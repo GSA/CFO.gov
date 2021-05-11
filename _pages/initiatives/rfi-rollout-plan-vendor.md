@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach: Vendor Awareness
+title: Workforce Modernization Publicity & Outreach - Vendor Awareness
 permalink: /workforce-mod-publicity-outreach-vendor-awareness/
 ---
 <style>
