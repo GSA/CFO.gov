@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach: Interviews
+title: Workforce Modernization Publicity & Outreach - Interviews
 permalink: /workforce-mod-publicity-outreach-interviews/
 ---
 <style>
