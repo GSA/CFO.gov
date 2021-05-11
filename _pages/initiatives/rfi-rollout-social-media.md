@@ -31,15 +31,15 @@ permalink: /workforce-mod-publicity-outreach-social/
     <div class="grid-container">
       <p><a href="..	/workforce-mod-publicity-outreach-strategy/">&#8592; Back to Overview</a> </p>
        <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker margin-bottom-05">Workforce Modernization Publicity & Outreach</h3>
-        <h1 class="column-centered-heading margin-bottom-1"> Social Media Strategy</h1>
+        <h1 class="column-centered-heading margin-top-0 margin-bottom-1"> Social Media Strategy</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
             <p>Using a cross-agency, multi-platform approach, our social media strategy amplifies the RFI launch to members of the CFO community, news outlets, potential vendors, and interested public.  </p>
           <h4 name="pgov">Performance.gov</h4>
-                    <img style="float:right; width: 300px" src="../assets/images/CFO Social Media Toolkit.gif">
+                    <img style="float:right; width: 300px; margin: 7px" src="../assets/images/CFO Social Media Toolkit.gif">
           <p>To coincide with the RFI launch, the Performance.gov Team will release the following social media post on their Twitter and LinkedIn accounts, reaching the federal performance management community and stakeholders.</p>   
           <p class="text-italic">Tweet:🚨 Are you an online university or tech company education provider? 🚨 The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. More details 👉 link TBD. <p>
           <h4 name="osc">GSA Office of Strategic Communications</h4>
-                    <img style="float:right; width: 300px" src="../assets/osc-sm-pic.jpg">
+                    <img style="float:right; width: 300px; margin: 7px" src="../assets/osc-sm-pic.jpg">
           <p>To coincide with the RFI launch, GSA's Office of Strategic Communications will release the following social media post to their Twitter, Linkedin, and Facebook accounts, reaching news outlets, other federal agencies, and the interested public.</p>
 
            <p class="text-italic"> Tweet: The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. Are you an online university or tech company education provider? More details 👉 link TBD.</p>
