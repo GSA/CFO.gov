@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach: Press Release
+title: Workforce Modernization Publicity & Outreach - Press Release
 permalink: /workforce-mod-publicity-outreach-press-release/
 ---
 <style>
