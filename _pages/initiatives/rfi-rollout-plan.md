@@ -89,6 +89,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
               </div>
                           </div>
               </div>
+          </div>
               <p>We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. </p>    
    <a name="publish"></a><h2>Step 1) Publicize Vendor Application Process</h2>
     
@@ -165,7 +166,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     </ul>
   </div>
  <p>GSA OSC will track and monitor responses, following up with targeted contacts within one week of the RFI launch if we do not secure the coverage we are seeking. </p>
-  
+  </div>
   <hr>
        <a name="interviews"></a>
  <h3>Working Group Press Interviews</h3>
