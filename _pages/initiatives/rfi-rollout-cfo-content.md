@@ -29,7 +29,7 @@ permalink: /workforce-mod-publicity-outreach-cfo-content/
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-         <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h4>
+         <h3 class="TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h3>
         <h1 class="column-centered-heading margin-bottom-1">CFO.gov Content Updates</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
                    <p>Coincident with publishing the RFI we’ll also activate content on cfo.gov that describes the workforce modernization effort, the career planning tool, and the application process. Shown in the document below is a rough visualization of that content and how it will look. Note, the web content is currently in development and should be ready by May 13 to view as demonstration link.</p>
