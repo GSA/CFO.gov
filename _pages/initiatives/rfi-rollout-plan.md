@@ -90,8 +90,8 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                           </div>
               </div>
               <p>We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. </p>    
+ <a name="publish"></a>
 <h2>Step 1) Publicize Vendor Application Process</h2>      
-  <a name="publish"></a>
 <h3> RFI Application & Documents</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
               <p>On Launch day of the Application Process, we’ll aim to do a number of things simultaneously. The main step being publishing of the RFI (Application Process) on sam.gov and also on cfo.gov. The RFI describes the career planning and training tool initiative and includes details on how education vendors can apply. In order to draw attention to this effort, we’ll also take a number of other steps that are described in the paragraphs below.</p>
