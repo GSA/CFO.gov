@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach: Communications Collateral
+title: Workforce Modernization Publicity & Outreach - Communications Collateral
 permalink: /workforce-mod-publicity-outreach-comms/
 ---
 <style>
