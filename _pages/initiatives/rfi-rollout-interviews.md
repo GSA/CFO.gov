@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach - Interviews
+title: Working Group Interviews
 permalink: /workforce-mod-publicity-outreach-interviews/
 ---
 <style>
@@ -29,7 +29,8 @@ permalink: /workforce-mod-publicity-outreach-interviews/
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-        <h1 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach: Working Group Interviews</h1>
+           <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h4>
+        <h1 class="column-centered-heading margin-bottom-1">Working Group Press Interviews</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
        
             <p>One of the hoped for outcomes with the workforce modernization <i>press outreach effort</i> (described in the preceding step) is to <strong>obtain favorable press articles and/or interviews</strong>. </p>
