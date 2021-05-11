@@ -29,20 +29,21 @@ permalink: /workforce-mod-publicity-outreach-social/
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-        <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h3>
+      <p><a href="..	/workforce-mod-publicity-outreach-strategy/">Back to Overview</a> </p>
+       <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h3>
         <h1 class="column-centered-heading margin-bottom-1"> Social Media Strategy</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
             <p>Using a cross-agency, multi-platform approach, our social media strategy amplifies the RFI launch to members of the CFO community, news outlets, potential vendors, and interested public.  </p>
           <h4 name="pgov">Performance.gov</h4>
+                    <img style="float:right; width: 300px" src="../assets/images/CFO Social Media Toolkit.gif">
           <p>To coincide with the RFI launch, the Performance.gov Team will release the following social media post on their Twitter and LinkedIn accounts, reaching the federal performance management community and stakeholders.</p>   
-          <img style="float:right; width: 300px" src="../assets/images/CFO Social Media Toolkit.gif">
           <p class="text-italic">Tweet:🚨 Are you an online university or tech company education provider? 🚨 The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. More details 👉 link TBD. <p>
           <h4 name="osc">GSA Office of Strategic Communications</h4>
+                    <img style="float:right; width: 300px" src="../assets/osc-sm-pic.jpg">
           <p>To coincide with the RFI launch, GSA's Office of Strategic Communications will release the following social media post to their Twitter, Linkedin, and Facebook accounts, reaching news outlets, other federal agencies, and the interested public.</p>
-          <img style="float:right; width: 300px" src="../assets/images/osc-sm-pic.jpg">
+
            <p class="text-italic"> Tweet: The CFO Council is rolling out an innovative upskilling initiative for its 140,000-member workforce (a test case for the 2.1M workforce). We’re looking to pay for advanced learning content. Are you an online university or tech company education provider? More details 👉 link TBD.</p>
-         
-         <h4 name="agency">Request to CFO Council to amplify social media posts</h4>
+                  <h4 name="agency">Request to CFO Council to amplify social media posts</h4>
           <p>In order to maximize the reach of the RFI launch announcement, we ask that members of the CFO Council use their personal and agency social media accounts to help amplify our planned content. The CFOC support team will send two emails to CFOC members:
             <ol>
               <li> A "prep email" 1-week before the RFI launch to make members aware of the social media campaign and allow time to coordinate with their agency comms offices, public affairs, or other parties, and </li>
