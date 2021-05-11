@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach - Vendor Awareness
+title: Create Vendor Awareness
 permalink: /workforce-mod-publicity-outreach-vendor-awareness/
 ---
 <style>
@@ -29,7 +29,8 @@ permalink: /workforce-mod-publicity-outreach-vendor-awareness/
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-        <h1 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach: Vendor Awareness</h1>
+           <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h4>
+        <h1 class="column-centered-heading margin-bottom-1">Vendor Awareness</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
                      <h3>Outreach to Top Vendors to Stimulate Awareness</h3>
             <p>The main aim of the entire communication/publicity effort (i.e., the press release, press outreach, interviews, etc.) is to <strong>draw the attention of innovative education providers</strong> who might not typically be active in the government space. We want them to be aware of this initiative and become interested enough that they apply.</p>
