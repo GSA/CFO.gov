@@ -65,8 +65,8 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                  <center><p class="text-primary-dark">Week 1 & 2</p></center>
                     <strong><p class="card-btn-ft">Step 2) Secure Interviews with News Outlets</p></strong>
                            <ul class="rfi">
-                             <li><a href="#osc">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
-                             <li><a href="#interviews">Workforce leads participate in interviews</a></li>  
+                             <li><a href="#osc">GSA OSC Press Outreach and Interview Coordination</a></li>
+                             <li><a href="#interviews">Working Group Press Interviews</a></li>  
                          </ul>                             
                </div>
             </div>
@@ -92,7 +92,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
               <p>We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. </p>    
 <h2>Step 1) Publicize Vendor Application Process</h2>      
   <a name="publish"></a>
-<h3 class="column-centered-heading margin-top-0 margin-bottom-1"> RFI Application & Documents</h3>
+<h3> RFI Application & Documents</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
               <p>On Launch day of the Application Process, we’ll aim to do a number of things simultaneously. The main step being publishing of the RFI (Application Process) on sam.gov and also on cfo.gov. The RFI describes the career planning and training tool initiative and includes details on how education vendors can apply. In order to draw attention to this effort, we’ll also take a number of other steps that are described in the paragraphs below.</p>
           <p>Application documents include:</p>
@@ -103,19 +103,19 @@ permalink: /workforce-mod-publicity-outreach-strategy/
         
 <hr>
   <a name="content"></a>
-  <h3 class="column-centered-heading margin-top-0 margin-bottom-1">CFO.gov Content Updates</h3>
+  <h3>CFO.gov Content Updates</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
                    <p>Coincident with publishing the RFI we’ll also activate content on cfo.gov that describes the workforce modernization effort, the career planning tool, and the application process. Shown in the document below is a rough visualization of that content and how it will look. Note, the web content is currently in development and should be ready by May 13 to view as demonstration link.</p>
                <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="../assets/files/CFO.gov-Workforce-Modernization-Updates.pdf" tabindex="-1">View Planned Content Updates</a>
              <hr>
     <a name="press"></a>
-          <h3 class="column-centered-heading margin-top-0 margin-bottom-1">Press Release</h3>
+          <h3>Press Release</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
             <p>A key part of our publicity and outreach strategy is news coverage of the Workforce Modernization Initiative and RFI process. In coordination with GSA's Office    of Strategic Communications (OSC), we will distribute a press release (linked below) to a targeted press list of national and industry outlets. Timed to coincide with the launch of the RFI, GSA OSC will leverage their press releationships to help source articles and interviews to amplify the RFI opportunity to potential vendors across the country.  </p>
           <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="../assets/files/CFO-RFI-Press-Release.pdf" tabindex="-1">See Press Release</a>
   <hr>
             <a name="social"></a>
-<h3 class="column-centered-heading margin-top-0 margin-bottom-1"> Social Media Strategy</h2>
+<h3> Social Media Strategy</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
             <p>Using a cross-agency, multi-platform approach, our social media strategy amplifies the RFI launch to members of the CFO community, news outlets, potential vendors, and interested public.  </p>
           <h4 name="pgov">Performance.gov</h4>
@@ -188,7 +188,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
 <hr>
 <a name="step2"></a><h2>Step 2) Secure Interviews with News Outlets</h2>
   <a name="osc"></a>
-   <h3 class="column-centered-heading margin-top-0 margin-bottom-1">GSA OSC Press Outreach and Interview Coordination</h3>
+   <h3>GSA OSC Press Outreach and Interview Coordination</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
                       <p>In addition to the press release described and linked above, we are coordinating with GSA OSC to build a press outreach strategy to target national and industry news outlets for articles and interviews. GSA OSC will release the above press release the day the RFI is launched to the news outlets listed below:</p>
   <ul>
@@ -221,7 +221,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
   
   <hr>
        <a name="interviews"></a>
- <h3vclass="column-centered-heading margin-top-0 margin-bottom-1">Working Group Press Interviews</h3>
+ <h3>Working Group Press Interviews</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
        
             <p>One of the hoped for outcomes with the workforce modernization <i>press outreach effort</i> (described in the preceding step) is to <strong>obtain favorable press articles and/or interviews</strong>. </p>
