@@ -42,7 +42,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
               <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container">
-                    <p class="text-primary-dark">Day 1</p>
+                      <center> <p class="text-primary-dark">Day 1</p></center>
                          <strong><p class="card-btn-ft">Step 1) Publicize Vendor Application Process</p></strong>
                         <ul>
                             <li><a href="../workforce-mod-rfi-docs/">Publish RFI & Application Documents</a></li>
@@ -62,7 +62,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
            <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 " style="height:460px;">
                <div class="text-container">  
-                    <p class="text-primary-dark">Week 1 & 2</p>
+                 <center><p class="text-primary-dark">Week 1 & 2</p></center>
                     <strong><p class="card-btn-ft">Step 2) Secure Interviews with News Outlets</p></strong>
                            <ul class="rfi">
                              <li><a href="../workforce-mod-publicity-outreach-osc/">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
@@ -74,7 +74,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
             <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container ">  
-                     <p class="text-primary-dark">Week 3 & 4</p> 
+                        <center><p class="text-primary-dark">Week 3 & 4</p> </center>
                     <strong><p class="card-btn-ft">Step 3) Top Vendor Outreach</p></strong>
                        <ul class="rfi">
                             <li><a href="../workforce-mod-publicity-outreach-vendor-awareness/">Create Vendor Awareness</a></li>
