@@ -28,7 +28,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
 
   
 </style>
-
+<a name="test"></a>
 <section class="usa-graphic-list">
     <div class="grid-container">
         <h1 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach Strategy</h1>
@@ -71,7 +71,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                     <strong><p class="text-primary-dark">Step 2) Get Interviews with News Outlets</p></strong>
                            <ul class="rfi">
                              <li><a href="../workforce-mod-publicity-outreach-details#osc-press/">GSA OSC connect w/ Reporters & handle press inquiries</a></li>
-                             <li><a href="../workforce-mod-publicity-outreach-details#interviews/">Workforce leads participate in interviews</a></li>  
+                             <li><a href="#test">Workforce leads participate in interviews</a></li>  
                          </ul>                             
                </div>
             </div>
