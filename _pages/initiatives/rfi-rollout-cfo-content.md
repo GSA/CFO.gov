@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach: CFO.gov Content
+title: Workforce Modernization Publicity & Outreach - CFO.gov Content
 permalink: /workforce-mod-publicity-outreach-cfo-content/
 ---
 <style>
