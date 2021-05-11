@@ -30,10 +30,9 @@ permalink: /workforce-mod-publicity-outreach-osc/
 <section class="usa-graphic-list">
     <div class="grid-container">
            <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h4>
-        <h1 class="column-centered-heading margin-bottom-1">GSA OSC Strategy</h1>
+        <h1 class="column-centered-heading margin-bottom-1">GSA OSC Press Outreach and Interview Coordination</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
-                     <h3>GSA OSC Press Outreach and Interview Coordination</h3>
-            <p>In addition to the press release described and linked above, we are coordinating with GSA OSC to build a press outreach strategy to target national and industry news outlets for articles and interviews. GSA OSC will release the above press release the day the RFI is launched to the news outlets listed below:</p>
+                      <p>In addition to the press release described and linked above, we are coordinating with GSA OSC to build a press outreach strategy to target national and industry news outlets for articles and interviews. GSA OSC will release the above press release the day the RFI is launched to the news outlets listed below:</p>
   <ul>
     <li>Dorobeck Insider</li>
     <li>FCW</li>
