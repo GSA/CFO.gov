@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach - Communications Collateral
+title: Communications Collateral
 permalink: /workforce-mod-publicity-outreach-comms/
 ---
 <style>
@@ -29,7 +29,8 @@ permalink: /workforce-mod-publicity-outreach-comms/
 
 <section class="usa-graphic-list">
     <div class="grid-container">
-        <h1 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach: Communications Collateral</h1>
+           <h3 class="column-centered-heading TEXT-UPPERCASE text-accent-cool-darker">Workforce Modernization Publicity & Outreach</h4>
+        <h1 class="column-centered-heading margin-bottom-1">Communications Collateral</h1>
         <div class="usa-graphic-list__row margin-bottom-1">
                    <h3>Communications Collateral</h3>
             <p>To support the Feds Career Planning and Training Tool and RFI release, we also created the following brochure and associated application links. We will update this section with media covereage after the RFI launch.</p>
