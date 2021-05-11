@@ -108,9 +108,9 @@ permalink: /workforce-mod-publicity-outreach-details/
        </ul>
         <p>Thank you for your supoprt! </p> 
  </ul>
-  
-           <hr>
-            <h3 name="osc-press">GSA OSC Press Outreach and Interview Coordination</h3>
+             <hr>
+             <a name="osc-press"></a>
+            <h3>GSA OSC Press Outreach and Interview Coordination</h3>
             <p>In addition to the press release described and linked above, we are coordinating with GSA OSC to build a press outreach strategy to target national and industry news outlets for articles and interviews. GSA OSC will release the above press release the day the RFI is launched to the news outlets listed below:</p>
   <ul>
     <li>Dorobeck Insider</li>
@@ -147,12 +147,14 @@ permalink: /workforce-mod-publicity-outreach-details/
 
 <p>These same press/media links will also be included in the reach-out emails that we send to perspective vendors during the application phase. These emails will be intended to increase the odds of vendors becoming aware and interested in the initiative.</p>
          <hr>
-            <h3 id="vendor">Outreach to Top Vendors to Stimulate Awareness</h3>
+         <a name="vendor"></a>
+            <h3>Outreach to Top Vendors to Stimulate Awareness</h3>
             <p>The main aim of the entire communication/publicity effort (i.e., the press release, press outreach, interviews, etc.) is to <strong>draw the attention of innovative education providers</strong> who might not typically be active in the government space. We want them to be aware of this initiative and become interested enough that they apply.</p>
 
 <p>Towards that end, we will <strong>directly reach-out</strong> to top-tier vendors. We’ll do this by <strong>networking, emails, and phone calls</strong>. In our email outreach, and in any 1-on-1 meetings, we’ll share the positive press references, the program brochure, links to the web pages, and other program collateral. Similar to prior steps, it is our hope that this will give heightened credibility to this effort and increase their willingness to apply.</p>
          <hr>
-            <h3 id="comms">Communications Collateral</h3>
+         <a name="comms"></a>
+            <h3>Communications Collateral</h3>
             <p>To support the Feds Career Planning and Training Tool and RFI release, we also created the following brochure and associated application links. We will update this section with media covereage after the RFI launch.</p>
             <ul>
   <li>Brochure</li>
