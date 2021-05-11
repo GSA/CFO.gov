@@ -35,7 +35,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
             <p class="margin-top-0" style="font-size:15px;">
             Thank you for your support. We’re now ready to launch the application phase of the CFOC’s Workforce Modernization pilot. This is an initiative that will hopefully begin to serve the needs of our 140k workforce (with an estimated aggregate $140M training spend). If successful, the approach is cheap, easily scalable to most other areas of the government, creates an agile private/public partnership, and establishes an innovative competitive training marketplace (relatively free of much of the procurement/contracting requirements which typically impede governmental agility). 
  </p>
-          <p style="font-size:15px;">In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. <strong>Your help</strong> in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. 
+          <p style="font-size:15px;">In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. Your help in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. 
           <p style="font-size:15px;">Click on any of the listed items below for more information about the comms process. If you’re looking for general information about the program, that can be found <a href="../assets/files/About-the-Career-Planning-and-Training-Tool-Initiative.pdf">here</a>.</p>
                 <h2> Publicity & Outreach Steps</h2>
             <div class="grid-row">   
@@ -52,8 +52,8 @@ permalink: /workforce-mod-publicity-outreach-strategy/
                              <ul>
                                 <li>Performance.gov</li>
                                 <li>GSA OSC</li>
-                                <li>CFOC (5 - 15 Agencies)</li>
-                               <li>Social Media Community of Practice</li>
+                                <li>Email to CFOC</li>
+                               <li>Email to Social Media Community of Practice</li>
                             </ul>
                           </ul>                             
                </div>
@@ -91,8 +91,8 @@ permalink: /workforce-mod-publicity-outreach-strategy/
               </div>
               <p>We’re very open to other ideas you might have on drawing positive attention. We see this experimental initiative as very relevant to the Administration’s goals - and as a way to significantly increase both opportunity and performance across the government. </p>    
  <a name="publish"></a>
-<h2>Step 1) Publicize Vendor Application Process</h2>      
-<h3> RFI Application & Documents</h3>
+<h2>Step 1) Publicize Vendor Application Process</h2>     <br> 
+<h3>RFI Application & Documents</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
               <p>On Launch day of the Application Process, we’ll aim to do a number of things simultaneously. The main step being publishing of the RFI (Application Process) on sam.gov and also on cfo.gov. The RFI describes the career planning and training tool initiative and includes details on how education vendors can apply. In order to draw attention to this effort, we’ll also take a number of other steps that are described in the paragraphs below.</p>
           <p>Application documents include:</p>
