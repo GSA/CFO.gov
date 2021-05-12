@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workforce Modernization Publicity & Outreach Strategy
+title: Workforce Modernization Initiative - Publicity & Outreach Strategy
 permalink: /workforce-mod-publicity-outreach-strategy/
 ---
 <style>
@@ -30,13 +30,13 @@ permalink: /workforce-mod-publicity-outreach-strategy/
 </style>
 <section class="usa-graphic-list">
     <div class="grid-container">
-        <h2 class="column-centered-heading margin-bottom-1">Workforce Modernization Publicity & Outreach Strategy</h2>
+        <h2 class="column-centered-heading margin-bottom-1">Workforce Modernization Initiative - Publicity & Outreach Strategy</h2>
         <div class="usa-graphic-list__row margin-bottom-1">
             <p class="margin-top-0" style="font-size:15px;">
-            Thank you for your support. We’re now ready to launch the application phase of the CFOC’s Workforce Modernization pilot. This is an initiative that will hopefully begin to serve the needs of our 140k workforce (with an estimated aggregate $140M training spend). If successful, the approach is cheap, easily scalable to most other areas of the government, creates an agile private/public partnership, and establishes an innovative competitive training marketplace (relatively free of much of the procurement/contracting requirements which typically impede governmental agility). 
+            Thank you for your support. We’re now ready to launch the application phase of the CFOC’s Workforce Modernization pilot (the Career Planning and Training Tool). This is an initiative that will hopefully begin to serve the needs of our 140k workforce (with an estimated aggregate $140M training spend). If successful, the approach is cheap, easily scalable to most other areas of the government, creates an agile private/public partnership, and establishes an innovative competitive training marketplace (relatively free of much of the procurement/contracting requirements which typically impede governmental agility). 
  </p>
-          <p style="font-size:15px;">In order for this pilot to succeed we need the top tier professional education providers to take notice and consider participating. Your help in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. 
-          <p style="font-size:15px;">Click on any of the listed items below for more information about the comms process. If you’re looking for general information about the program, that can be found <a href="../assets/files/About-the-Career-Planning-and-Training-Tool-Initiative.pdf">here</a>.</p>
+          <p style="font-size:15px;">In order for this pilot effort to succeed we need the top tier professional education providers to take notice and consider participating. Your help in reaching out to them would be most appreciated. <strong>Can you help amplify our press message/outreach or help us set up introductory meetings?</strong> Shown below is a high level representation of our outreach plan. 
+          <p style="font-size:15px;">Click on any of the listed items below for more information about the comms process. If you’re looking for overview information about the program, that can be found <a href="../assets/files/About-the-Career-Planning-and-Training-Tool-Initiative.pdf">HERE</a>.</p>
                 <h2> Publicity & Outreach Steps</h2>
             <div class="grid-row">   
               <div class="tablet:grid-col-4  grid-spacing policy controller-alerts" style="left: 0px; top: 0px;">
@@ -75,7 +75,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5" style="height:460px;">
                <div class="text-container ">  
                         <center><p class="text-primary-dark">Week 3 & 4</p> </center>
-                    <strong><p class="card-btn-ft">Step 3) Top Vendor Outreach</p></strong>
+                    <strong><p class="card-btn-ft">Step 3) DIRECT OUTREACH TO TOP VENDORS</p></strong>
                        <ul class="rfi">
                             <li><a href="#vendor">Create Vendor Awareness</a></li>
                              <ul>
@@ -112,7 +112,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
     <a name="press"></a>
           <h3>Press Release</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
-            <p>A key part of our publicity and outreach strategy is news coverage of the Workforce Modernization Initiative and RFI process. In coordination with GSA's Office    of Strategic Communications (OSC), we will distribute a press release (linked below) to a targeted press list of national and industry outlets. Timed to coincide with the launch of the RFI, GSA OSC will leverage their press releationships to help source articles and interviews to amplify the RFI opportunity to potential vendors across the country.  </p>
+            <p>A key part of our publicity and outreach strategy is securing news coverage of this Workforce Modernization Initiative and the vendor application process (described in the RFI). In coordination with GSA's Office of Strategic Communications (OSC), we will publish a press release (linked below) that will also be sent to a targeted press list of national and industry outlets. Timed to coincide with the launch of the RFI (Application Process Announcement), GSA OSC will leverage their press relationships to help actively generate articles and interviews to amplify the opportunity to potential vendors across the country.   </p>
           <a href="../assets/files/CFO-RFI-Press-Release.pdf" tabindex="-1">See Press Release</a>
   <hr>
             <a name="social"></a>
@@ -131,38 +131,40 @@ permalink: /workforce-mod-publicity-outreach-strategy/
   <a name="osc"></a>
    <h3>GSA OSC Press Outreach and Interview Coordination</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
-                      <p>In addition to the press release described and linked above, we are coordinating with GSA OSC to build a press outreach strategy to target national and industry news outlets for articles and interviews. GSA OSC will release the above press release the day the RFI is launched to the news outlets listed below:</p>
+                      <p>After publicizing the press release (described and linked above), the GSA Communications Team will monitor the “buzz” generated. If we do not receive media attention and/or requests for interviews, GSA OSC will also follow-up directly with the specific news outlets listed below in a follow-on attempt to get positive articles published. These have been identified as most relevant outlets for our targeted vendor population.</p>
   <div class="grid-row">   
  <div class="tablet:grid-col-6">
  <ul>
+    <li>WallStreet Journal</li>
+    <li>Washington Post</li>
+    <li>Washington Business Journal</li>
+    <li>USNews</li>
+    <li>The Atlantic</li>
+    <li>FedScoop</li>
+    <li>GovExec</li>
     <li>Dorobeck Insider</li>
     <li>FCW</li>
     <li>Federal News Radio (WFED-AM)</li>
     <li>Federal News Radio </li>
-    <li>FedScoop</li>
-    <li>FedTech Magazine</li>
+     <li>FedTech Magazine</li>
     <li>GovLoop</li>
-    <li>GovExec</li>
-    <li>FedTimes</li>
-    <li>Government Executive</li>
-    <li>Government Matters on WJLA-TV</li>
-    <li>BisNow</li>
+
    </ul>
   </div>
   <div class="tablet:grid-col-6">
    <ul>
+     <li>FedTimes</li>
+    <li>Government Executive</li>
+    <li>Government Matters on WJLA-TV</li>
+    <li>BisNow</li>
     <li>CIO Magazine</li>
     <li>GCN</li>
-     <li>WallStreet Journal</li>
-     <li>Washington Business Journal</li>
-     <li>Washington Post</li>
-     <li>SC Media</li>
-     <li>Inside Higher Ed</li>
-     <li>The Atlantic</li>
-     <li>American Council on Higher Education</li>
+    <li>SC Media</li>
+    <li>Inside Higher Ed</li>
+    <li>American Council on Higher Education</li>
     <li>Education Next</li>
     <li>Stanford News</li>
-    <li>USNews</li>
+ 
     </ul>
   </div>
  <p>GSA OSC will track and monitor responses, following up with targeted contacts within one week of the RFI launch if we do not secure the coverage we are seeking. </p>
@@ -178,7 +180,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
 
 <p>These same press/media links will also be included in the reach-out emails that we send to perspective vendors during the application phase. These emails will be intended to increase the odds of vendors becoming aware and interested in the initiative.</p>
          <hr>
-<a name="step2"></a><h2>Step 3) Top Vendors Outreach Stimulate Interest</h2> 
+<a name="step2"></a><h2>Step 3) Direct Outreach to Top Vendors</h2> 
   <a name="vendor"></a>
 <h3 class="column-centered-heading margin-top-0 margin-bottom-1">Create Vendor Awareness</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
@@ -190,11 +192,11 @@ permalink: /workforce-mod-publicity-outreach-strategy/
   <a name="comms"></a>
         <h3 class="column-centered-heading margin-top-0 margin-bottom-1">Communications Collateral</h3>
         <div class="usa-graphic-list__row margin-bottom-1">
-                      <p>To support the Feds Career Planning and Training Tool and RFI release, we also created the following brochure and associated application links. We will update this section with media covereage after the RFI launch.</p>
+                      <p>In our direct outreach efforts (e.g., calls, emails, meetings), described in the preceding step, we’ll share other collateral material in order to add credibility to our efforts. This includes a brochure, links to the cfo.gov content, and links to positive articles/media generated. </p>
             <ul>
-  <li><a href="../assets/files/CFO-RFI-Brochure_Finalv1.pdf">Brochure</a></li>
-  <li>Application Links</li>
-  <li>Media Links</li>
+  <li><a href="../assets/files/CFO-RFI-Brochure_Finalv1.pdf">Initiative Brochure</a></li>
+  <li>CFO.gov Content (About the Initiative)</li>
+  <li>Positive Buzz Media Links</li>
 </ul>
          
 
