@@ -99,6 +99,7 @@ permalink: /workforce-mod-publicity-outreach-strategy/
           <p>Application documents include:</p>
           <ul>
             <li><a href="../assets/files/CFO-RFI-App-Package-Finalv1.pdf">RFI Application Guidance</a></li>
+            <li><a href="../assets/files/CFO-RFI.pdf">RFI Announcing the Application Process</a></li>
             <li>Mapping Matrix</li>
           </ul>
         
