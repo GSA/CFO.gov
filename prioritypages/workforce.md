@@ -1,6 +1,6 @@
 ---
 layout: priority-copy
-title: The Workforce Modernization Initiative
+title: Workforce Modernization
 permalink: /workforce-modernization/
 type: workforce-modernization
 number_of_icons: 4
@@ -19,7 +19,7 @@ priority_icons:
  - name: "NEW: Application Guidance for Career Planning & Training Initiative"
    logo: /assets/images/logos/workforce/career_planning.svg
    url: /workforce-modernization/application-guidance/  
-description1: 
+description1: Shaping the future of the 140K Financial Management Community  workforce
 ---
 
 
