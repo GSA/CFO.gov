@@ -8,7 +8,7 @@ description: Learn about Financial Assistance maximizing the value of grant fund
 keyword: CFO Priority Areas, CFO Council, CFOC, Financial Assistance
 priority_icons: 
  - name: Joint Statements
-   logo: /assets/images/logos/workforce/Wokforce_modernization_Strategy.svg
+   logo: /assets/images/logos/workforce/Hand_shake.svg
    url: /joint-announcement/
  - name: Public Guidance and Presentations
    logo: /assets/images/logos/workforce/Data_analytics_training_pilot.svg
