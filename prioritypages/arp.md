@@ -16,7 +16,7 @@ priority_icons:
  - name: Agency FAQs and Materials
    logo: /assets/images/logos/workforce/centrtalized_recruiting_pilot.svg
    url: /assets/files/M-21-20-FAQs.pdf
-description1: Shaping the future of the 140K Financial Management Community  workforce
+description1:
 ---
 
 
