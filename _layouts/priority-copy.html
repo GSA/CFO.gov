@@ -11,7 +11,7 @@ title: Priority
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.png"
                 alt="{{ page.type }}" />
         </div>
-        <div class="tablet:grid-col-8">
+        <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
             <div class="priority-tag-line">
                 <h1 class="margin-0 font-ui-2xl text-normal">{{ page.title }}</h1>
             </div>
@@ -34,10 +34,10 @@ title: Priority
 
         {% for icon in page.priority_icons %}
         {% if page.number_of_icons == 4 %}
-        <div class="tablet:grid-col-3 text-center margin-y-10">
+        <div class="tablet:grid-col-3 text-center margin-y-10 padding-x-1">
             {% endif %}
             {% if page.number_of_icons == 3 %}
-            <div class="grid-col-4 text-center margin-y-10">
+            <div class="tablet:grid-col-4 text-center margin-y-10">
                 {% endif %}
                 {% if icon.url %}
                 <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
@@ -81,16 +81,12 @@ title: Priority
     {% include priority_gpr_sidenav.html %}
     {% endif %}
 
+    {% if page.type == "workforce-modernization" %}
+    {% include priority_workforce_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "arp" %}
+    {% include priority_arp_sidenav.html %}
+    {% endif %}
 
 </section>
-<div id="openModal13" class="modalDialog">
-    <div>
-        <a href="#close" title="Close" class="close">X</a>
-        <h2 style="margin-top:0px;">Join our Community! Results-Oriented Accountability for Grants Community of Practice</h2>
-        <ul>
-            <li>Federal members: to join, use your .gov or .mil email address to email <a href="mailto:grantsfed-subscribe-request@listserv.gsa.gov?subject=Federal Join: Results-Oriented Accountability for Grants Community of Practice">grantsfed-subscribe-request@listserv.gsa.gov.</a></li>
-            <li>Non-federal members: to join, email <a href="mailto:grantscommunity-subscribe-request@listserv.gsa.gov?subject=Non-Federal Join: Results-Oriented Accountability for Grants Community of Practice">grantscommunity-subscribe-request@listserv.gsa.gov</a></li>
-        </ul>
-
-    </div>
-</div>

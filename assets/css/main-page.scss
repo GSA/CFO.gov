@@ -196,6 +196,23 @@ color:#005ea2;
   background-size: cover;
   padding:4em 0;
 }
+.workforce-modernization-page{
+  background-image: url('../assets/images/logos/workforce/people_banner.png');
+  background-color:  #19387b;
+  background-size: cover;
+  padding:4em 0;
+}
+.arp-page{
+  background-image: url('../assets/images/logos/workforce/president-signing.png');
+  background-color:  #19387b;
+  background-size: cover;
+  padding:5em 0;
+}
+.coming-soon {
+  background-color: #2c318a;
+  color: #ffffff;
+  width: 815px;
+}
 .about-the-council{
   background-image: linear-gradient(to top, rgba(0.4, 0.4, 0.4, 0.4), rgba(0.5, 0.5, 0.5, 0.5)), url('../wp-content/uploads/2016/02/IMG_2680.jpg');
   background-color:  #19387b;
@@ -370,6 +387,17 @@ color:#005ea2;
   width:100%;
   position:absolute;
 }
+
+ol.alpha {                           /** Workforce Mordernization **/
+  list-style-type: lower-alpha;
+}
+ol.roman {
+  list-style-type: upper-roman;
+}
+.pict-txt {
+  text-align: center;
+}
+
 /* media queries*/
 @media (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item {
@@ -560,3 +588,94 @@ abbr{
   color: #000;
   text-decoration: none;
   cursor: pointer; }
+.ui-tabs-panel li.ui-corner-left {
+  margin: 1em 0;
+}
+.usa-button-group {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  padding-left: 0; }
+@media all and (min-width: 30em) {
+  .usa-button-group {
+    flex-direction: row; } }
+
+.usa-button-group__item {
+  margin: 0.25rem; }
+@media all and (min-width: 30em) {
+  .usa-button-group__item:last-child {
+    margin-right: 0; } }
+.usa-button-group__item .usa-button {
+  margin-left: 0;
+  margin-right: 0; }
+
+.usa-button-group--segmented {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0; }
+@media all and (min-width: 30em) {
+  .usa-button-group--segmented {
+    justify-content: flex-start; } }
+.usa-button-group--segmented .usa-button {
+  position: relative;
+  width: calc(100% + 2px); }
+@media all and (min-width: 30em) {
+  .usa-button-group--segmented .usa-button {
+    width: auto; } }
+.usa-button-group--segmented .usa-button:hover, .usa-button-group--segmented .usa-button:active {
+  z-index: 2; }
+.usa-button-group--segmented .usa-button:focus {
+  z-index: 3; }
+.usa-button-group--segmented .usa-button-group__item {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%; }
+@media all and (min-width: 30em) {
+  .usa-button-group--segmented .usa-button-group__item {
+    width: auto; } }
+.usa-button-group--segmented .usa-button-group__item:first-child > .usa-button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -1px; }
+.usa-button-group--segmented .usa-button-group__item:last-child > .usa-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: 0;
+  margin-left: -2px;
+  width: calc(100% + 2px); }
+@media all and (min-width: 30em) {
+  .usa-button-group--segmented .usa-button-group__item:last-child > .usa-button {
+    margin-left: -1px;
+    width: auto; } }
+.usa-button-group--segmented .usa-button-group__item:not(:first-child):not(:last-child) > .usa-button {
+  border-radius: 0;
+  margin-right: -1px;
+  margin-left: -1px; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button::before {
+  border-right: 1px solid #1a4480;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 1px;
+  top: 0;
+  width: 1px;
+  z-index: 3; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--secondary::before {
+  border-right-color: #b50909; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--accent-cool::before {
+  border-right-color: #28a0cb; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--base::before {
+  border-right-color: #565c65; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--secondary:disabled::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--accent-cool:disabled::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--base:disabled::before {
+  border-right-color: #71767a; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button:active::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--outline::before {
+  display: none; }
