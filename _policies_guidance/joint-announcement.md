@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Joint Announcement from John Pasquantino, Acting OMB Controller and Michael Horowitz, PRAC Chair
+title: OMB/PRAC Joint Statement
 permalink: /joint-announcement/
 author: CFO Council 
 date: April 21, 2021
