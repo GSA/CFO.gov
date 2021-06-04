@@ -3,8 +3,8 @@ layout: policies-guidance-landing
 date: 
 author: CFO Council
 type: Seminar
-title: "Seminar 3- Phases of Assessments, Phase 2"
-subtitle: "Seminar 3- Phases of Assessments, Phase 2"
+title: "Seminar 3 - Phases of Assessments, Phase 2"
+subtitle: "Seminar 3 - Phases of Assessments, Phase 2"
 permalink: /seminar-3-assessments-phase-2/
 filters: payment-integrity
 ---
