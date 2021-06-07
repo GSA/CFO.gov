@@ -1,6 +1,5 @@
 ---
 layout: policies-guidance-landing
-date: 
 author: CFO Council
 type: Seminar
 title: "Seminar 4 - Causes of Improper Payments"
