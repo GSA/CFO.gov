@@ -3,7 +3,7 @@ bio-image: /wp-content/uploads/2018/01/gaspariniJ-photo.jpg
 bio-image-alt-text: JOANNE GASPARINI
 layout: bio
 permalink: /bio/ms-joanne-gasparini/
-name: Ms. Joanne Gasparini
+name: Vacant
 department: Social Security Administration
 sub-department: ", Office of Financial Policy & Operations"
 title: Deputy Chief Financial Officer, Associate Commissioner
