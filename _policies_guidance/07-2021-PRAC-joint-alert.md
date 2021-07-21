@@ -6,7 +6,7 @@ title: 'Payment Integrity Alert: The Use of Automation and Data Analytics From t
 subtitle: OMB/PRAC Alert on The Use of Automation and Data Analytics
 permalink: /automation-and-data-analytics/
 author: CFO Council 
-date: July 20, 2021
+date: July 21, 2021
 has_date: 'yes'
 ---
 
