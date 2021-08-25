@@ -3,9 +3,9 @@ bio-image: /wp-content/uploads/2021/02/stephen_shinn.jpg
 bio-image-alt-text: STEPHEN SHINN
 layout: bio
 permalink: /bio/mr-stephen-shinn/
-name : Stephen Shinn
+name : Mr. Stephen Shinn
 department: National Aeronautics and Space Administration
-title: Chief Financial Officer (Acting)
+title: Deputy Chief Financial Office
 ---
 
 Steve Shinn serves as the Acting Chief Financial Officer.  As Acting Chief Financial Officer, Shinn is responsible for managing Agency-wide activities related to financial operations and long-term strategies of resources toward the achievement of NASA’s strategic plan and overall mission.  Prior to this role, Shinn served as Deputy Chief Financial Officer for Center Operations where he was leading and integrating key transformation efforts for the OCFO enterprise and Agency.  Shinn previously served in the role of Chief Financial Officer for the National Aeronautics and Space Administration’s (NASA) Goddard Space Flight Center (GSFC). In that role, he ensuring the financial health of GSFC by leading and managing nearly 600 civil servant and contractor business personnel in the development, implementation, and administration of all Center budgeting ($5B annual budget), finance, accounting, business systems, financial audits/internal controls, and cost-estimating activities that enable the effective management, control, and reporting of the government’s assets.
