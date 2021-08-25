@@ -1,9 +1,9 @@
 ---
 bio-image: /wp-content/uploads/2020/09/NASA_seal.jpg
-bio-image-alt-text: Mr. Doug Comstock
+bio-image-alt-text: Ms. Margaret Vo Schaus
 layout: bio
 permalink: /bio/mr-doug-comstock/
-name : Mr. Doug Comstock
+name : Ms. Margaret Vo Schaus
 department: National Aeronautics and Space Administration
-title: Deputy Chief Financial Officer
+title: Chief Financial Officer
 ---
