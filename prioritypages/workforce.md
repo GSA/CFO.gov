@@ -1,6 +1,7 @@
 ---
 layout: priority-copy
 title: Workforce Modernization
+permalink: /workforce-modernization/
 type: workforce-modernization
 number_of_icons: 4
 description: Learn about Financial Assistance maximizing the value of grant funding.
