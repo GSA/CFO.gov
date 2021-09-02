@@ -81,8 +81,8 @@ primary_navigation:
   - name: Priority Areas
     url: /
     children:
-      #- name: Workforce Modernization
-      #  url: "/workforce-modernization/"
+      - name: Workforce Modernization
+        url: "/workforce-modernization/"
       - name: American Rescue Plan (ARP)
         url:  "/american-rescue-plan/"
       - name: Financial Assistance
