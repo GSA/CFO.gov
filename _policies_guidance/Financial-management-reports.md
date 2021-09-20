@@ -1,7 +1,7 @@
 ---
 layout: policies-guidance-landing
 title: Federal Financial Management Reports
-type: financial-assistance
+type: Reports
 filters: Reports
 permalink: /federal-financial-management-reports/
 ---
