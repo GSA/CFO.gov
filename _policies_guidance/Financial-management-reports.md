@@ -1,10 +1,10 @@
 ---
-layout: default
-permalink: /federal-financial-management-reports-old/
+layout: policies-guidance-landing
 title: Federal Financial Management Reports
-
+type: financial-assistance
+filters: Reports
+permalink: /federal-financial-management-reports/
 ---
-
 
 <section class="usa-graphic-list">
     <div class="grid-container">
@@ -20,15 +20,11 @@ title: Federal Financial Management Reports
         <p><span style="font-weight: 400;">For more information see:</span></p>
         <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="https://www.fiscal.treasury.gov/fsreports/rpt/finrep/finrep17/fr_resultsinbrief_2017.htm" tabindex="-1">2017 Financial Management Progress and Priorties</a>
         <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/federal-financial-management-reports/fy-2017-financial-federal-reports/fy-2017-financial-audit-results/" tabindex="-1">2017 Financial Audit Results</a>
-
         <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="https://www.fiscal.treasury.gov/fsreports/rpt/finrep/finrep16/mda/fr_mgmt_discussion.htm" tabindex="-1">2016 Financial Management Progress and Priorties</a>
         <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/federal-financial-management-reports/fy-2016-financial-federal-reports/fy-2016-financial-audit-results/" tabindex="-1">2016 Financial Audit Results</a>
-
         <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="https://www.fiscal.treasury.gov/fsreports/rpt/finrep/finrep15/mda/fr_mgmt_discussion.htm" tabindex="-1">2015 Financial Management Progress and Priorties</a>
         <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/federal-financial-management-reports/fy-2015-financial-federal-reports/fy-2015-financial-audit-results/" tabindex="-1">2015 Financial Audit Results</a>
-
         <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="https://www.fiscal.treasury.gov/fsreports/rpt/finrep/finrep14/mda/fr_mgmt_discussion_5.htm" tabindex="-1">2014 Financial Management Progress and Priorties</a>
         <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/federal-financial-management-reports/fy-2014-financial-federal-reports/fy-2014-financial-audit-results/" tabindex="-1">2014 Financial Audit Results</a>
-
     </div>
 </section>
