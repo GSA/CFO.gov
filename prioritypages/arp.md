@@ -3,7 +3,7 @@ layout: priority-copy
 title: American Rescue Plan (ARP)
 permalink: /american-rescue-plan/
 type: arp
-number_of_icons: 3
+number_of_icons: 4
 description: Learn about Financial Assistance maximizing the value of grant funding.
 keyword: CFO Priority Areas, CFO Council, CFOC, Financial Assistance
 priority_icons: 
@@ -16,6 +16,9 @@ priority_icons:
  - name: Agency FAQs and Materials
    logo: /assets/images/logos/workforce/centrtalized_recruiting_pilot.svg
    url: /assets/files/M-21-20-FAQs.pdf
+ - name: American Rescue Plan Assistance Listings
+   logo: /assets/images/logos/grants.svg
+   url: /assets/files/Approved_American_Rescue_Plan_Assistance_Listings_9.28.2021.pdf
 description1:
 ---
 
