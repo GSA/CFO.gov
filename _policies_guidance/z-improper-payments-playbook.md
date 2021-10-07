@@ -3,7 +3,7 @@ layout: knowledge-sharing-landing
 type: Payment Integrity
 filters: payment-integrity best-practice-guidance
 title: A Behavioral Insights Guide for Improving Payment Integrity
-subtitle: A guide helps readers explore how a behavioral insights approach can reduce improper payments.
+subtitle: A Behavioral Insights Guide for Improving Payment Integrity
 permalink: /knowledge-sharing/improper-payment-playbook/
 
 ---
@@ -21,3 +21,5 @@ This guide aims to help government employees assess whether a behavioral insight
 
 <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/assets/files/Behavioral Insights Guide for Improving Payment Integrity.pdf">Behavioral Insights Guide</a>   
 <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/assets/files/Behavioral Insights Guide for Improving Payment Integrity - Worksheets.pdf">Blank Worksheets</a>
+
+_As a guide to help agencies implement behavioral insights, this project does not have an Analysis Plan._
