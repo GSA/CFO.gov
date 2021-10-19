@@ -20,15 +20,15 @@ permalink: /federal-financial-management-reports/
 </ul>
 
 <section class="grid-row">
-<div class="tablet:grid-col-7 grid-col-12">
-<h3>Federal Financial Reports </h3>
-<span><a class="usa-button usa-button--outline padding-2 margin-bottom-2" tabindex="-1" href="https://fiscal.treasury.gov/reports-statements/financial-report/">2020 Financial Management Reports and Priorities</a></span>
+<div class="desktop:grid-col-7 grid-col-12">
+<p class="font-sans-lg"><strong>Federal Financial Reports</strong></p>
+<span><a class="usa-button usa-button--outline padding-2 margin-bottom-2" href="https://fiscal.treasury.gov/reports-statements/financial-report/">2020 Financial Management Reports and Priorities</a></span>
 
-<span><a class="usa-button usa-button--outline padding-2 margin-bottom-2" tabindex="-1" href="https://fiscal.treasury.gov/reports-statements/financial-report/previous-reports.html">1975 to 2019 Financial Management Reports and Priorities</a></span>
+<span><a class="usa-button usa-button--outline padding-2 margin-bottom-2" href="https://fiscal.treasury.gov/reports-statements/financial-report/previous-reports.html">1975 to 2019 Financial Management Reports and Priorities</a></span>
 </div>
-<div class="tablet:grid-col-5 grid-col-12">
-<h3>Audit Results</h3>
-<span><a class="usa-button usa-button--outline padding-2 margin-bottom-2" tabindex="-1" href="{{site.baseurl}}/assets/files/afr-status-reports.xslx">2014-2020 Financial Audit Results (XLSX)</a></span>
+<div class="desktop:grid-col-5 grid-col-12">
+<p class="font-sans-lg"><strong>Audit Results</strong></p>
+<span><a class="usa-button usa-button--outline padding-2 margin-bottom-2" href="{{site.baseurl}}/assets/files/afr-status-reports.xlsx">2014-2020 Financial Audit Results (XLSX)</a></span>
 
 </div>
 </section>
