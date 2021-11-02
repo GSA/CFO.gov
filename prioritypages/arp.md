@@ -18,7 +18,7 @@ priority_icons:
    url: /assets/files/M-21-20-FAQs.pdf
  - name: American Rescue Plan Assistance Listings
    logo: /assets/images/logos/grants.svg
-   url: /assets/files/Approved_American_Rescue_Plan_Assistance_Listings_9.28.2021.pdf
+   url: /assets/files/Revised-American-Rescue-Plan-Assistance-Listings_10-29-2021.pdf
 description1:
 ---
 
