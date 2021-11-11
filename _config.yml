@@ -129,7 +129,12 @@ payment-accuracy-navigation:
   - name: Program Scorecards
     url: /payment-accuracy-high-priority-programs/
   - name: The Numbers
-    url: /payment-accuracy-the-numbers/
+    url: /
+    children:
+      - name: Payments Accuracy Datasets
+        url: /payment-accuracy-the-numbers/
+      - name: Dataset Tableau Report
+        url: /payment-accuracy-tableau-report/
   - name: Resources
     url: /payment-accuracy-resources/
   - name: FAQ
