@@ -58,21 +58,8 @@ where we provide an easy way to manage your navigation system
                 {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
                 {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
                 <li class="usa-nav__primary-item">
-                    {% if nav_item.children.size > 0 %}
-                    <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="primary-nav-{{ forloop.index }}"><span
-                        class="header-menu-text">{{ nav_item.name | escape }}</span></button>
-                   
-                        <ul id="primary-nav-{{ forloop.index }}" class="usa-nav__submenu" hidden="">
-                          {% for child_item in nav_item.children %}  
-                             <li class="usa-nav__submenu-item"><a href="{{ child_item.url | prepend: site.baseurl}}">{{ child_item.name }}</a></li>
-                          {% endfor %}
-                        </ul>
-                   
-                    {% else %}
-                        <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+                    <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
                         href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
-                    {% endif %}
-                  
                 </li>
                 {% endfor %}
             </ul>
