@@ -1,0 +1,179 @@
+.career-advancement-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.career-facets-filter-heading {
+  color: #aaa;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.facets-panel {
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.inner-facet-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.career-facet-remove-button {
+  color: #333333;
+  padding: 1px 10px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  max-height: 30px;
+}
+
+.inner-facet-block button {
+  display: block;
+  padding: 7px 10px;
+  border-color: #333333;
+  color: #333333;
+  background-color: #ffffff;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.inner-facet-block button.active,
+.inner-facet-block button:hover {
+  display: block;
+  padding: 7px 10px;
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #333333;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.career-search-results-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.career-search-results-heading {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.career-search-results-inner-heading {
+  display: flex;
+}
+
+/* .career-search-results-heading {
+  flex: 2;
+}
+
+.career-search-results-filter-compare-button {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.career-search-results-filter-compare-button button {
+  display: block;
+  padding: 10px;
+  width: 150px;
+  border-color: #333333;
+  color: #333333;
+  background-color: #eee;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+} */
+
+#career-search-results-filter-remove-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding-left: 15px;
+}
+
+#career-search-results-filter-pagination {
+  min-width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.career-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+
+/*************** boxes ***************/
+
+.cfo-career-outer-box {
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background-color: #eee;
+  padding: 15px;
+}
+
+
+.cfo-courses-outer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#cfo-page-left, #cfo-page-right {
+  cursor: pointer;
+  padding: 7px 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/************* Search *********************/
+
+.search-container {
+  display: flex;
+  text-align: right;
+}
+
+#career-advancement-search-input {
+  max-width: 650px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333333;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#cfo-search-button {
+  padding: 10px;
+  border: 1px solid #333333;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: none;
+}
+
+.cfo-pagination-text {
+  padding: 0;
+  margin: 0;
+}
+
+.cfo-career-results-text-bold {
+  font-weight: bold;
+}

@@ -1,0 +1,189 @@
+---
+title: Career Planning
+description: Welcome to the Career Planning page.
+subtitle: Our Focus Areas
+layout: careers
+permalink: /career-planning-tool/
+description: Access best practices, training modules, career paths, videos, and more.
+keyword: CFO Priority Areas, CFO Council, Knowledge Sharing, Resources, Training, Videos, Career
+sidenav: false
+
+---
+<div id="blog" class="bg-primary-darker usa-content font-serif-lg padding-y-6">
+    <div class="grid-container">
+        <h1 class="text-normal text-white margin-0">Career Planning Tool</h1>
+        <span class="text-base-lighter display-block padding-top-1 text-light">
+            Research what you need to advance in your government career.
+        </span>
+    </div>
+</div>
+<div class="career-container">
+    <div class="usa-graphic-list__row grid-row grid-gap">
+        <div class="usa-media-block tablet:grid-col-12">
+            <div class="search-container">
+                <input type="text" id="career-advancement-search-input" placeholder="Search Career Paths..">
+                <button type="button" id="cfo-search-button"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="usa-graphic-list__row grid-row grid-gap">
+            <div class="usa-media-block tablet:grid-col-3 career-advancement-block">
+                <p class="career-facets-filter-heading"><i>Filter your results</i></p>
+                <div class="facets-panel">
+                    <h3>Job Series</h3>
+                    <div class="inner-facet-block">
+                        <button
+                            type="button"
+                            id="Series-0501"
+                            data-id="Series-0501"
+                            title="Series 0501"
+                            aria-label="Series 0501"
+                        >0501</button>
+                        <button
+                            type="button"
+                            id="Series-0510"
+                            data-id="Series-0510"
+                            title="Series 0510"
+                            aria-label="Series 0510"
+                        >0510</button> 
+                        <button
+                            type="button"
+                            id="Series-0511"
+                            data-id="Series-0511"
+                            title="Series 0511"
+                            aria-label="Series 0511"
+                        >0511</button> 
+                        <button
+                            type="button"
+                            id="Series-0560"
+                            data-id="Series-0560"
+                            title="Series 0560"
+                            aria-label="Series 0560"
+                        >0560</button> 
+                    </div>
+                    <h3>GS Level</h3>
+                    <div class="inner-facet-block">
+                        <button
+                            type="button"
+                            id="GS-0-3"
+                            data-id="GS-0-3"
+                            title="GS 0-3"
+                            aria-label="GS 0-3"
+                        >GS 0-3</button>
+                        <button
+                            type="button"
+                            id="GS-4-6"
+                            data-id="GS-4-6"
+                            title="GS 4-6"
+                            aria-label="GS 4-6"
+                        >GS 4-8</button>
+                        <button
+                            type="button"
+                            id="GS-7-9"
+                            data-id="GS-7-9"
+                            title="GS 7-9"
+                            aria-label="GS 7-9"
+                        >GS 7-9</button>
+                        <button
+                            type="button"
+                            id="GS-10-13"
+                            data-id="GS-10-13"
+                            title="GS 10-13"
+                            aria-label="GS 10-13"
+                        >GS 10-13</button> 
+                        <button
+                            type="button"
+                            id="GS-14-15"
+                            data-id="GS-14-15"
+                            title="GS 14-15"
+                            aria-label="GS 14-15"
+                        >GS 14-15</button> 
+                    </div>
+                    <h3>Competencies</h3>
+                    <div class="inner-facet-block">
+                        {% assign competency_array = "" | split: "," %}
+
+                        {% for item in site.cards %}
+                        {% if item.category == 'career' %}
+                            {% if competency_array contains item.competency %}
+
+                            {% else %}
+                                {% assign competency_array = competency_array | push: item.competency %}
+                            {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                        
+                        {% assign competency_array = competency_array | sort %}
+                        {% for competency in competency_array %}
+                            {% assign competency_id = competency | downcase | replace: ", ", "-" | replace: " ", "-" %}
+                            <button
+                                type="button"
+                                id="{{ competency_id }}"
+                                data-id="{{ competency_id }}"
+                                title="{{ competency }}"
+                                aria-label="{{ competency }}"
+                            >{{ competency }}</button>
+                        {% endfor %}
+                        
+                        <!-- <button type="button" id="comp_customer">Customer</button> 
+                        <button type="button" id="comp_flexility">Flexility</button> 
+                        <button type="button" id="comp_budget">Budget</button>-->
+                    </div>
+                </div>
+            </div>
+            <div id="career-advancement-results-container" class="desktop:grid-col-9 usa-prose padding-right-4">
+                <!-- HTML elements for search -->
+                <div class="career-search-results-header">
+                    <div class="career-search-results-heading">
+                        <p class="career-facets-filter-heading"><i>Pages</i></p>
+                        <div class="career-search-results-inner-heading">
+                            <div id="career-search-results-filter-pagination">
+                                {% assign post_count = site.cards | size %}
+
+                                {% assign post_pages = post_count | divided_by: 10 %}
+                                {% assign post_modulus = post_count | minus: post_pages | times: 10 %}
+                                {% if post_modulus > 0 %}
+                                    {% assign post_pages = post_pages | plus: 1 %}
+                                {% endif %}
+                                <button type="button" id="cfo-page-left" disabled>&#60;</button> <p class="cfo-pagination-text" id="cfo-pagination-page">1</p>/<p class="cfo-pagination-text" id="cfo-pagination-pages">{{ post_pages }}</p> <button type="button" id="cfo-page-right">&#62;</button> <p class="cfo-pagination-text" id="cfo-pagination-results">{{ post_count }}</p> Results
+                            </div>
+                            <div id="career-search-results-filter-remove-buttons"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="career-search-results-filter-compare-button">
+                        <button type="button" id="compare">Compare</button> 
+                    </div> -->
+                </div>
+                <div id="career-search-results">
+                    <!-- This loops through the paginated posts -->
+                    {% assign cards = site.cards | sort %}
+                    {% for card in cards limit:10 %}
+                    <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}">
+                        <div class="cfo-career-outer-box">
+                            <div class="cfo-career-text-container">
+                                <p><b>{{ card.job_series }}: {{ card.competency }}</b></p>
+                                <div class="career-card-level-heading">
+                                    <p>{{ card.level }}</p>
+                                </div>
+                                <div class="career-card-content">
+                                    {{ card.content }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pdfkit implementation for example only -->
+    <div class="usa-graphic-list__row grid-row grid-gap">
+        <div class="usa-media-block tablet:grid-col-12">
+            <div class="search-container">
+                <iframe src="" id="blog-pdf-test" width="600" height="775"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
