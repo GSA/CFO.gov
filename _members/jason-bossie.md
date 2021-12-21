@@ -1,14 +1,15 @@
 ---
-bio-image: /wp-content/uploads/2020/07/jason-bossie.png
-bio-image-alt-text: Jason R. Bossie
+bio-image: /wp-content/uploads/2021/photo_Kate Aaby.jpg
+bio-image-alt-text: Ms. Kate Aaby
 layout: bio
-permalink: /bio/mr-jason-bossie/
-name : Mr. Jason R. Bossie
+permalink: /bio/ms-kate-aabye/
+name : Ms. Kate Aaby
 department: Small Business Administration
-title: Chief Financial Officer (Acting)
+title: Chief Financial Officer, Associate Administrator for Performance, Planning and Chief Financial Officer
 ---
- Jason Bossie currently serves as the U.S. Small Business Administration’s Acting Associate Administrator for Performance, Planning, and Chief Financial Officer where he oversees Agency-wide performance management, program evaluation, budget, internal controls, financial analysis and reporting, regulatory analyses, financial systems, data analytics, accounting, and acquisition management functions. He has transformed SBA processes and implemented evidence-based systems to better inform Agency strategy, policy, and resource decisions impacting America’s more than 30 million small businesses.
 
-Jason received his appointment to the Senior Executive Service in 2019 to serve as the SBA’s Director of Program Performance, Analysis, and Evaluation. In that position, he served as the Agency’s first Chief Evaluation Officer and Program Management Improvement Officer and oversaw implementation of the Government Performance and Results Modernization Act, Program Management Improvement Accountability Act, and the Foundations for Evidence-based Policymaking Act. 
+Kate Aaby serves as the Associate Administrator for Performance, Planning and Chief Financial Officer (AAPP/CFO) for the Small Business Administration (SBA) where she is responsible for providing advice and guidance to Agency senior officials regarding financial management, strategic planning, performance management, program analysis and evaluation, and budget and internal control programs. 
 
-Prior to joining the SBA, Jason held positions designing and implementing planning, analyses, and performance management systems across other federal, state, and local government agencies, including the U.S. Environmental Protection Agency, the Commonwealth of Pennsylvania, and the Allegheny County Department of Human Services. He holds a Master of Science in public policy and management from Carnegie Mellon University and a Bachelor of Arts in political science and history from West Virginia University. He earned the rank of Eagle Scout in Boy Scouts of America and is a graduate of the Excellence in Government Fellows program sponsored by the Partnership for Public Service. 
+In her prior role, Kate served as Director for Guidehouse’s Public Sector Financial Services practice (previously known as PwC Public Sector) where she led large-scale Federal loan program implementations and business development efforts across the SBA and World Bank Group. She also established PwC’s first Project Management Office in Bangalore, India to support U.S.-based Advisory project management priorities. Prior to PwC, Kate served as a Program Examiner for the Office of Management and Budget (OMB), leading accounts for the Economics Affairs Branch of the International Affairs Division.
+
+Kate has a Masters of Public Administration (MPA) from New York University and a Bachelor of Arts from the University of Maryland in Political Science and Anthropology. Her certifications include Harvard Manage Mentor (HMM) Certification, Agile Certified Scrum Master (CSM), and Project Management Professional (PMP) Certification.
