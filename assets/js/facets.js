@@ -98,6 +98,7 @@ function createResults(noResults, item) { // creates a results div and contents
     const innerDiv2 = document.createElement("div");
     innerDiv2.setAttribute("class", "career-card-content");
     outerDiv3.append(innerDiv2);
+    //innerDiv2.innerHTML = card.content;
 
     const textArea3 = document.createElement("p");
     textArea3.setAttribute("class", "cfo-career-results-text-bold");
@@ -132,6 +133,11 @@ function createResults(noResults, item) { // creates a results div and contents
     let courses = item.relevant_courses == "nan" ? "No Courses yet." : item.relevant_courses;
     const text8 = document.createTextNode(courses);
     textArea8.appendChild(text8);
+    
+    const selectButtonWrapper = document.createElement('div');
+    outerDiv3.appendChild(selectButtonWrapper);
+    selectButtonWrapper.setAttribute("class", "select-button");
+    selectButtonWrapper.innerHTML = '<label><span>Select: </span><input type="checkbox" value="' + item.permalink + '"' + (window.isSelected(item.permalink)?' checked':'') + '></label>'
   }
   const resultsContainer = document.getElementById("career-search-results");
   resultsContainer.appendChild(outerDiv1);
@@ -219,6 +225,7 @@ function getSearch() {
     setTotalItems();
     $("#cfo-pagination-results").text(totalItems);
   });
+  unselectAll();
 }
 
 (function( $ ) {

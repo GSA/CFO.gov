@@ -7,6 +7,8 @@ permalink: /career-planning-tool/
 description: Access best practices, training modules, career paths, videos, and more.
 keyword: CFO Priority Areas, CFO Council, Knowledge Sharing, Resources, Training, Videos, Career
 sidenav: false
+attached:
+ - career-planning
 
 ---
 <div id="blog" class="bg-primary-darker usa-content font-serif-lg padding-y-6">
@@ -155,28 +157,36 @@ sidenav: false
                         <button type="button" id="compare">Compare</button> 
                     </div> -->
                 </div>
-                <div id="career-search-results">
-                    <!-- This loops through the paginated posts -->
-                    {% assign cards = site.cards | sort %}
-                    {% for card in cards limit:10 %}
-                    <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}">
-                        <div class="cfo-career-outer-box">
-                            <div class="cfo-career-text-container">
-                                <p><b>{{ card.job_series }}: {{ card.competency }}</b></p>
-                                <div class="career-card-level-heading">
-                                    <p>{{ card.level }}</p>
-                                </div>
-                                <div class="career-card-content">
-                                    {{ card.content }}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
+				<div id="career-download-buttons">
+					<button class="usa-button" data-op="select-all">Select All</button>
+					<button class="usa-button" data-op="download-selected">Download Selected</button>
+					<button class="usa-button" data-op="download-all">Download All</button>
+				</div>
+        <div id="career-search-results">
+          <!-- This loops through the paginated posts -->
+          {% assign cards = site.cards | sort %}
+          {% for card in cards limit:10 %}
+          <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
+            <div class="cfo-career-outer-box">
+              <div class="cfo-career-text-container">
+                <p><b>{{ card.job_series }}: {{ card.competency }}</b></p>
+                <div class="career-card-level-heading">
+                    <p>{{ card.level }}</p>
                 </div>
+                <div class="career-card-content">
+                    {{ card.content }}
+                </div>
+								<div class="select-button">
+								  <label><span>Select: </span><input type="checkbox" value="{{ card.permalink }}"></label>
+                </div>
+              </div>
             </div>
+            </div>
+          {% endfor %}
         </div>
+      </div>
     </div>
+  </div>
 
     <!-- Pdfkit implementation for example only -->
     <div class="usa-graphic-list__row grid-row grid-gap">
