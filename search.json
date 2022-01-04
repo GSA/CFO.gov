@@ -19,7 +19,7 @@ layout: none
       "behavioral_illustrations": "{{ card.behavioral_illustrations }}",
       "relevant_courses": "{{ card.relevant_courses }}",
       "filters": "{{ card.filters }}",
-      "content": "{{ content | replace: '"' '\"' | strip_newlines }}"
+      "content": "{{ card.content | strip_newlines | replace: '"', '\"' }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

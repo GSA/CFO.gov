@@ -84,7 +84,7 @@ function createResults(noResults, item) { // creates a results div and contents
     const textArea = document.createElement("p");
     textArea.setAttribute("class", "cfo-career-results-text-bold");
     outerDiv3.appendChild(textArea);
-    const text1 = document.createTextNode(item.title);
+    const text1 = document.createTextNode(item.job_series + ': ' + item.competency);
     textArea.appendChild(text1);
 
     const innerDiv1 = document.createElement("div");
@@ -98,42 +98,8 @@ function createResults(noResults, item) { // creates a results div and contents
     const innerDiv2 = document.createElement("div");
     innerDiv2.setAttribute("class", "career-card-content");
     outerDiv3.append(innerDiv2);
-    //innerDiv2.innerHTML = card.content;
+    innerDiv2.innerHTML = item.content;
 
-    const textArea3 = document.createElement("p");
-    textArea3.setAttribute("class", "cfo-career-results-text-bold");
-    innerDiv2.appendChild(textArea3);
-    const text3 = document.createTextNode("Proficiency Level Definition");
-    textArea3.appendChild(text3);
-
-    const textArea4 = document.createElement("p");
-    innerDiv2.appendChild(textArea4);
-    const text4 = document.createTextNode(item.proficiency_level_definition);
-    textArea4.appendChild(text4);
-
-    const textArea5 = document.createElement("p");
-    textArea5.setAttribute("class", "cfo-career-results-text-bold");
-    innerDiv2.appendChild(textArea5);
-    const text5 = document.createTextNode("Behavior Illustration");
-    textArea5.appendChild(text5);
-
-    const textArea6 = document.createElement("p");
-    innerDiv2.appendChild(textArea6);
-    const text6 = document.createTextNode(item.behavioral_illustrations);
-    textArea6.appendChild(text6);
-
-    const textArea7 = document.createElement("p");
-    textArea7.setAttribute("class", "cfo-career-results-text-bold");
-    innerDiv2.appendChild(textArea7);
-    const text7 = document.createTextNode("Relevant Courses");
-    textArea7.appendChild(text7);
-
-    const textArea8 = document.createElement("p");
-    innerDiv2.appendChild(textArea8);
-    let courses = item.relevant_courses == "nan" ? "No Courses yet." : item.relevant_courses;
-    const text8 = document.createTextNode(courses);
-    textArea8.appendChild(text8);
-    
     const selectButtonWrapper = document.createElement('div');
     outerDiv3.appendChild(selectButtonWrapper);
     selectButtonWrapper.setAttribute("class", "select-button");
@@ -145,7 +111,6 @@ function createResults(noResults, item) { // creates a results div and contents
 
 function createButtonText(text) { // creates the remove button text
   let part1 = text.split("-");
-  //console.log(JSON.stringify(part1));
   if(part1[0] == 'GS') return part1[0]+" "+part1[1]+"-"+part1[2]+" X";
   else {
     let removeButtonText = part1.join(" ") + " X";
