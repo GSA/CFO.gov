@@ -1,9 +1,11 @@
 
 let data = new Array(); // the array that holds the search terms and the filters
 let results = new Array(); // the array that holds the results from searching a filtering
+let fullSet = [];
 $.getJSON('/search.json', function(res) { // load all md pages
   res.forEach(item => {
     results.push(item);
+    fullSet.push(item);
   });
 });
 let searchKeys = [ // when searching the columns to search

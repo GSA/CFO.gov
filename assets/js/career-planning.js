@@ -48,9 +48,23 @@
         if (typeof selected[results[i].permalink] != 'undefined') {
           cards.push(results[i]);
         }
-        
       }
       generatePDF(cards);
+    });
+    
+    $('#career-advancement-search-input').autocomplete({
+      source: function (request, response) {
+        let outputs = fullSet.map(function (item) {
+          let value = item.title;
+          if (item.title.indexOf(request) != -1) {
+            return value;
+          }
+          return null;
+        });
+        outputs.filter(function (x) { return x });
+        console.log(outputs);
+        response(outputs);
+      }
     });
   });
   
