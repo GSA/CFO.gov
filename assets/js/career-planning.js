@@ -54,14 +54,15 @@
     
     $('#career-advancement-search-input').autocomplete({
       source: function (request, response) {
+        let normalized = request.term.toLowerCase()
         let outputs = fullSet.map(function (item) {
           let value = item.title;
-          if (item.title.indexOf(request) != -1) {
+          if (value.toLowerCase().indexOf(normalized) != -1) {
             return value;
           }
           return null;
         });
-        outputs.filter(function (x) { return x });
+        outputs = outputs.filter(function (x) { return !!x });
         console.log(outputs);
         response(outputs);
       }

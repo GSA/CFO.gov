@@ -2,7 +2,7 @@
 let data = new Array(); // the array that holds the search terms and the filters
 let results = new Array(); // the array that holds the results from searching a filtering
 let fullSet = [];
-$.getJSON('/search.json', function(res) { // load all md pages
+$.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // load all md pages
   res.forEach(item => {
     results.push(item);
     fullSet.push(item);
@@ -122,7 +122,7 @@ function createButtonText(text) { // creates the remove button text
 
 function getSearch() {
   results = [];
-  $.getJSON('/search.json', function(res) { // load all md pages
+  $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // load all md pages
     // take search and facet(data) selections and iterate through res looking for matches
     res.forEach(item => { // go over all loaded md pages
       data.forEach(obj => { // go over the search and facets selected
