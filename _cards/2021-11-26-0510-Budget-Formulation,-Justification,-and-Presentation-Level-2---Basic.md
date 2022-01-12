@@ -8,6 +8,8 @@ career_level: "Mid"
 permalink: /cards/0510-Budget-Formulation,-Justification,-and-Presentation-Level-2---Basic/
 functional_competency_designation: "Secondary"
 competency: "Budget Formulation, Justification, and Presentation"
+competency_group: "Budget"
+compentency_description: "Manage budget requirements by forecasting, developing and justifying budgets in compliance with statutory/regulatory guidance. "
 level: "GS 4-6"
 proficiency_level: Level 2 - Basic
 proficiency_level_definition: "Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes"
@@ -21,6 +23,4 @@ filters: Budget-Formulation,-Justification,-and-Presentation GS-4-6 series-0510
 <p><b>Behavior Illustration</b></p>
 <p>"? Interprets and evaluates budget execution for compliance with fiscal law and guidance"</p>
 <p><b>Relevant Courses</b></p>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 1</div><div class="cfo-courses-inner">UOP</div><div class="cfo-courses-inner"><a href="/cards/0510-Budget-Formulation,-Justification,-and-Presentation-Level-2---Basic/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 2</div><div class="cfo-courses-inner">Delta</div><div class="cfo-courses-inner"><a href="/cards/0510-Budget-Formulation,-Justification,-and-Presentation-Level-2---Basic/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 3</div><div class="cfo-courses-inner">LAVC</div><div class="cfo-courses-inner"><a href="/cards/0510-Budget-Formulation,-Justification,-and-Presentation-Level-2---Basic/">Read More..</a></div></div>
+<div class="cfo-courses-outer"><div class="cfo-courses-inner">No Courses Yet.</div></div>

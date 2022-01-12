@@ -8,6 +8,8 @@ career_level: "Mid"
 permalink: /cards/0511-Budget-Execution-Level-4---Advanced/
 functional_competency_designation: "Secondary"
 competency: "Budget Execution"
+competency_group: "Budget"
+compentency_description: "Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory/regulatory guidance."
 level: "GS 10-13"
 proficiency_level: Level 4 - Advanced
 proficiency_level_definition: "Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes"
@@ -21,6 +23,4 @@ filters: Budget-Execution GS-10-13 series-0511
 <p><b>Behavior Illustration</b></p>
 <p>"Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers"</p>
 <p><b>Relevant Courses</b></p>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 1</div><div class="cfo-courses-inner">UOP</div><div class="cfo-courses-inner"><a href="/cards/0511-Budget-Execution-Level-4---Advanced/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 2</div><div class="cfo-courses-inner">Delta</div><div class="cfo-courses-inner"><a href="/cards/0511-Budget-Execution-Level-4---Advanced/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 3</div><div class="cfo-courses-inner">LAVC</div><div class="cfo-courses-inner"><a href="/cards/0511-Budget-Execution-Level-4---Advanced/">Read More..</a></div></div>
+<div class="cfo-courses-outer"><div class="cfo-courses-inner">No Courses Yet.</div></div>

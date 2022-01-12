@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-cards = pd.read_csv("csv/new-cfo-csv.csv", sep=",", header=0)
+cards = pd.read_csv("csv/FEDS-Sample-Data-10-Jan-22-UTF-8.csv", sep=",", header=0)
 
 html_escape_table = {
     "&": "&amp;",
@@ -47,6 +47,8 @@ for row, item in cards.iterrows():
     competency = competency.replace("/", " ")
     competency = competency.replace(" - ", " ")
     md += 'competency: "' + competency.strip() + '"\n'
+    md += 'competency_group: "' + str(item.competency_group) + '"\n'
+    md += 'compentency_description: "' + item.compentency_description + '"\n'
     md += 'level: "' + career_level[item.proficiency_level] + '"\n'
     md += 'proficiency_level: ' + str(item.proficiency_level) + '\n'
     md += 'proficiency_level_definition: "' + item.proficiency_level_definition + '"\n'
@@ -68,15 +70,19 @@ for row, item in cards.iterrows():
         md += '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. Curabitur sed elit viverra, fermentum massa non, hendrerit ex. Vivamus eget mattis tortor, eu elementum sapien. Praesent elementum feugiat nisi venenatis vestibulum. Nulla pretium ipsum orci, ut feugiat arcu facilisis sit amet. Morbi bibendum est non nibh aliquam, non dictum massa elementum. Nullam vitae auctor erat. Mauris at arcu ut purus sodales porttitor ut sit amet ex. Donec viverra quam nisl, a congue arcu fermentum rhoncus.</p>\n'
 
     md += '<p><b>Relevant Courses</b></p>\n'
-    if len(str(item.relevant_courses)) > 3:
-        courses = item.relevant_courses.split("@")
+    courses = str(item.relevant_courses).split("@")
+    if len(courses) >= 1:
         for course in courses:
-            parts = course.split("&")
-            md += '<div class="cfo-courses-outer"><div class="cfo-courses-inner">"' + parts[0] + '"</div><div class="cfo-courses-inner">"' + parts[1] + '"</div><div class="cfo-courses-inner"><a href="' + parts[2] + '">Read More..</a></div></div>\n'
-    else:
-        md += '<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 1</div><div class="cfo-courses-inner">UOP</div><div class="cfo-courses-inner"><a href="/cards/' + html_filename + '/">Read More..</a></div></div>\n'
-        md += '<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 2</div><div class="cfo-courses-inner">Delta</div><div class="cfo-courses-inner"><a href="/cards/' + html_filename + '/">Read More..</a></div></div>\n'
-        md += '<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 3</div><div class="cfo-courses-inner">LAVC</div><div class="cfo-courses-inner"><a href="/cards/' + html_filename + '/">Read More..</a></div></div>\n'
+            if course != "nan":
+                print(course)
+                parts = course.split("&")
+                md += '<div class="cfo-courses-outer"><div class="cfo-courses-inner">' + parts[0] + '</div><div class="cfo-courses-inner"><a href="' + parts[1] + '">Read More..</a></div></div>\n'
+            else:
+                md += '<div class="cfo-courses-outer"><div class="cfo-courses-inner">No Courses Yet.</div></div>\n'
+    # else:
+    #     md += '<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 1</div><div class="cfo-courses-inner">UOP</div><div class="cfo-courses-inner"><a href="/cards/' + html_filename + '/">Read More..</a></div></div>\n'
+    #     md += '<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 2</div><div class="cfo-courses-inner">Delta</div><div class="cfo-courses-inner"><a href="/cards/' + html_filename + '/">Read More..</a></div></div>\n'
+    #     md += '<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 3</div><div class="cfo-courses-inner">LAVC</div><div class="cfo-courses-inner"><a href="/cards/' + html_filename + '/">Read More..</a></div></div>\n'
                 
     md_filename = os.path.basename(md_filename)
     #print(md)

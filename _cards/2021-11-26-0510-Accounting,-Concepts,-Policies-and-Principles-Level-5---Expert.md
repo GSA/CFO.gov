@@ -8,6 +8,8 @@ career_level: "Senior"
 permalink: /cards/0510-Accounting,-Concepts,-Policies-and-Principles-Level-5---Expert/
 functional_competency_designation: "Primary"
 competency: "Accounting, Concepts, Policies and Principles"
+competency_group: "Accounting"
+compentency_description: "Apply federal accounting standards, fiscal law, policies, regulations, principles, standards, internal controls and procedures to financial management activities."
 level: "GS 14-15"
 proficiency_level: Level 5 - Expert
 proficiency_level_definition: "? Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes"
@@ -21,6 +23,4 @@ filters: Accounting,-Concepts,-Policies-and-Principles GS-14-15 series-0510
 <p><b>Behavior Illustration</b></p>
 <p>"Applies basic knowledge of budget principles to complete budgeting transactions"</p>
 <p><b>Relevant Courses</b></p>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 1</div><div class="cfo-courses-inner">UOP</div><div class="cfo-courses-inner"><a href="/cards/0510-Accounting,-Concepts,-Policies-and-Principles-Level-5---Expert/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 2</div><div class="cfo-courses-inner">Delta</div><div class="cfo-courses-inner"><a href="/cards/0510-Accounting,-Concepts,-Policies-and-Principles-Level-5---Expert/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 3</div><div class="cfo-courses-inner">LAVC</div><div class="cfo-courses-inner"><a href="/cards/0510-Accounting,-Concepts,-Policies-and-Principles-Level-5---Expert/">Read More..</a></div></div>
+<div class="cfo-courses-outer"><div class="cfo-courses-inner">No Courses Yet.</div></div>

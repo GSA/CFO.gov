@@ -13,6 +13,8 @@ layout: none
       "permalink": "{{ card.permalink }}",
       "functional_competency_designation": "{{ card.functional_competency_designation }}",
       "competency": "{{ card.competency }}",
+      "competency_group": "{{ card.competency_group }}",
+      "compentency_description": "{{ card.compentency_description }}",
       "level": "{{ card.level }}",
       "proficiency_level": "{{ card.proficiency_level }}",
       "proficiency_level_definition": "{{ card.proficiency_level_definition }}",

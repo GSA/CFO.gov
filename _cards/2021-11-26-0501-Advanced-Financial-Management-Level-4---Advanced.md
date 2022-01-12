@@ -8,6 +8,8 @@ career_level: "Mid"
 permalink: /cards/0501-Advanced-Financial-Management-Level-4---Advanced/
 functional_competency_designation: "Secondary"
 competency: "Advanced Financial Management"
+competency_group: "Finance"
+compentency_description: "Develop, monitor, interpret, and report standardized processes/operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability."
 level: "GS 10-13"
 proficiency_level: Level 4 - Advanced
 proficiency_level_definition: "Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes"
@@ -21,6 +23,4 @@ filters: Advanced-Financial-Management GS-10-13 series-0501
 <p><b>Behavior Illustration</b></p>
 <p>"Coordinates budget inputs and gathers justifications"</p>
 <p><b>Relevant Courses</b></p>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 1</div><div class="cfo-courses-inner">UOP</div><div class="cfo-courses-inner"><a href="/cards/0501-Advanced-Financial-Management-Level-4---Advanced/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 2</div><div class="cfo-courses-inner">Delta</div><div class="cfo-courses-inner"><a href="/cards/0501-Advanced-Financial-Management-Level-4---Advanced/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 3</div><div class="cfo-courses-inner">LAVC</div><div class="cfo-courses-inner"><a href="/cards/0501-Advanced-Financial-Management-Level-4---Advanced/">Read More..</a></div></div>
+<div class="cfo-courses-outer"><div class="cfo-courses-inner">No Courses Yet.</div></div>

@@ -8,6 +8,8 @@ career_level: "Senior"
 permalink: /cards/0511-Audit-Planning-and-Management-Level-5---Expert/
 functional_competency_designation: "Primary"
 competency: "Audit Planning and Management"
+competency_group: "Audit"
+compentency_description: "Evaluates audit programs to ensure an appropriate risk-based audit approach, monitors audit progress and reviews working papers and audit reports to ensure audits are properly documented and accomplished in accordance with Generally Accepted Government Auditing Standards (GAGAS) and Generally Accepted Auditing Standards (GAAS)."
 level: "GS 14-15"
 proficiency_level: Level 5 - Expert
 proficiency_level_definition: "? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes"
@@ -21,6 +23,4 @@ filters: Audit-Planning-and-Management GS-14-15 series-0511
 <p><b>Behavior Illustration</b></p>
 <p>"Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability"</p>
 <p><b>Relevant Courses</b></p>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 1</div><div class="cfo-courses-inner">UOP</div><div class="cfo-courses-inner"><a href="/cards/0511-Audit-Planning-and-Management-Level-5---Expert/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 2</div><div class="cfo-courses-inner">Delta</div><div class="cfo-courses-inner"><a href="/cards/0511-Audit-Planning-and-Management-Level-5---Expert/">Read More..</a></div></div>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">Course 3</div><div class="cfo-courses-inner">LAVC</div><div class="cfo-courses-inner"><a href="/cards/0511-Audit-Planning-and-Management-Level-5---Expert/">Read More..</a></div></div>
+<div class="cfo-courses-outer"><div class="cfo-courses-inner">No Courses Yet.</div></div>
