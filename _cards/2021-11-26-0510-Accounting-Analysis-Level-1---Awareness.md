@@ -14,7 +14,7 @@ level: "GS 0-3"
 proficiency_level: Level 1 - Awareness
 proficiency_level_definition: "Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes"
 behavioral_illustrations: "Manages budgetary requirements within the organization, ensures alignment, and develops and recommends appropriate strategies"
-relevant_courses: "Test course&https://www.gsa.gov/ "
+relevant_courses: "Test course&&&https://www.gsa.gov/ "
 filters: Accounting-Analysis GS-0-3 series-0510
 ---
 

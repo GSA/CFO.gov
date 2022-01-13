@@ -14,7 +14,7 @@ level: "GS 0-3"
 proficiency_level: Level 1 - Awareness
 proficiency_level_definition: "Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes"
 behavioral_illustrations: "? Reviews standard data and reports to ensure their accuracy"
-relevant_courses: "Yet Another test course&https://www.gsa.gov/ "
+relevant_courses: "Yet Another test course&&&https://www.gsa.gov/ "
 filters: Accounting-Analysis GS-0-3 series-0511
 ---
 

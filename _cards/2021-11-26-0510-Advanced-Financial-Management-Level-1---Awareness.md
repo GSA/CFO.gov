@@ -14,7 +14,7 @@ level: "GS 0-3"
 proficiency_level: Level 1 - Awareness
 proficiency_level_definition: "Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes"
 behavioral_illustrations: "Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts ? Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs"
-relevant_courses: "Another test course&https://www.gsa.gov/ "
+relevant_courses: "Another test course&&&https://www.gsa.gov/ "
 filters: Advanced-Financial-Management GS-0-3 series-0510
 ---
 

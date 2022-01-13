@@ -14,7 +14,7 @@ level: "GS 0-3"
 proficiency_level: Level 1 - Awareness
 proficiency_level_definition: "Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes"
 behavioral_illustrations: "Develops and utilizes financial processes and resources to ensure effectiveness and accountability ? Performs finance functions with a high degree of effectiveness and efficiency"
-relevant_courses: "Another Course Name&https://www.gsa.gov/ "
+relevant_courses: "Another Course Name&&&https://www.gsa.gov/ "
 filters: Advanced-Financial-Management GS-0-3 series-0501
 ---
 
