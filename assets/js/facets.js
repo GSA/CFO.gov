@@ -140,7 +140,12 @@ function getSearch() {
                   }
                 }
               } else { // else split by space and search for individual word */
-                let words = obj.keys.split(" ");
+              
+                if (item[key].match(obj.keys) && !ifExistsResults(item.title)) {
+                  results.push(item);
+                }
+                
+                /* let words = obj.keys.split(" ");
                 words.forEach(word => { // go through each word
                   if(item[key].match(word)) { // if there is a match add the match to the results array
                     // add to results if not there already.
@@ -148,7 +153,7 @@ function getSearch() {
                       results.push(item);
                     }
                   }
-                });
+                }); */
               // } split the words in search phrase by space
               // console.log(key, item[key]);
             }
@@ -174,12 +179,10 @@ function getSearch() {
       $("#cfo-page-right").attr("disabled", "disabled");
       $("#cfo-page-left").attr("disabled", "disabled");
     } else {
-      count = 0;
-      for(i=0; i<results.length-1; i++) {
-        if(count <= 9) {
-          if(typeof(results[i]) != "undefined" && results[i] !== null) createResults(false, results[i]);
+      for (i=0; i < Math.min(results.length, 10); i++) {
+        if (typeof(results[i]) != "undefined" && results[i] !== null) {
+          createResults(false, results[i]);
         }
-        count++;
       }
       $("#cfo-page-left").attr("disabled", "disabled");
       $("#cfo-page-right").removeAttr("disabled");
