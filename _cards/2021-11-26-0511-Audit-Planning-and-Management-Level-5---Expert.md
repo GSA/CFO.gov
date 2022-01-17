@@ -2,7 +2,7 @@
 layout: career-planning-landing
 category: career
 title: 0511 Auditing GS 14-15 Audit Planning and Management
-series: 0511
+series: "0511"
 job_series: "0511 Auditing"
 career_level: "Senior"
 permalink: /cards/0511-Audit-Planning-and-Management-Level-5---Expert/
@@ -18,9 +18,23 @@ relevant_courses: "nan"
 filters: Audit-Planning-and-Management GS-14-15 series-0511
 ---
 
-<p><b>Proficiency Level Definition</b></p>
-<p>"? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes"</p>
+<div id="cfo-card-content-behavioral-illustrations" class="cfo-inner-card-content">
 <p><b>Behavior Illustration</b></p>
-<p>"Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability"</p>
+<p>Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability</p>
+</div>
+
+<div id="cfo-card-content-proficiency-level-definition" class="cfo-inner-card-content">
+
+<p><b>Proficiency Level Definition</b></p>
+<ul><li></li>
+<li>Applies the competency in considerably difficult situations</li>
+<li>Generally requires little or no guidance</li>
+<li>Demonstrates broad understanding of concepts and processes</li>
+</ul></div>
+
+<div id="cfo-card-content-relevant-courses" class="cfo-inner-card-content">
 <p><b>Relevant Courses</b></p>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">No Courses Yet.</div></div>
+<div class="cfo-courses-outer">
+<div class="cfo-courses-inner">No Courses Yet.</div>
+</div>
+</div>

@@ -2,7 +2,7 @@
 layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis GS 10-13 Accounting Analysis
-series: 0560
+series: "0560"
 job_series: "0560 Budget Analysis"
 career_level: "Mid"
 permalink: /cards/0560-Accounting-Analysis-Level-4---Advanced/
@@ -18,9 +18,23 @@ relevant_courses: "nan"
 filters: Accounting-Analysis GS-10-13 series-0560
 ---
 
-<p><b>Proficiency Level Definition</b></p>
-<p>"Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes"</p>
+<div id="cfo-card-content-behavioral-illustrations" class="cfo-inner-card-content">
 <p><b>Behavior Illustration</b></p>
-<p>"? Applies knowledge of policies and procedures to ensure adherence to budget and financial guidelines"</p>
+<p></p>
+<p>Applies knowledge of policies and procedures to ensure adherence to budget and financial guidelines</p>
+</div>
+
+<div id="cfo-card-content-proficiency-level-definition" class="cfo-inner-card-content">
+
+<p><b>Proficiency Level Definition</b></p>
+<ul><li>Applies the competency in somewhat difficult situations</li>
+<li>Requires frequent guidance</li>
+<li>Demonstrates familiarity with concepts and processes</li>
+</ul></div>
+
+<div id="cfo-card-content-relevant-courses" class="cfo-inner-card-content">
 <p><b>Relevant Courses</b></p>
-<div class="cfo-courses-outer"><div class="cfo-courses-inner">No Courses Yet.</div></div>
+<div class="cfo-courses-outer">
+<div class="cfo-courses-inner">No Courses Yet.</div>
+</div>
+</div>
