@@ -1,7 +1,4 @@
 
-// career-competency-select-all
-
-
 let data = new Array(); // the array that holds the search terms and the filters
 let results = new Array(); // the array that holds the results from searching a filtering
 let adding = false;
@@ -12,6 +9,7 @@ let competency_group = [];
 const startingSearchFilter = new Object();
 $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // load all md pages
   res.forEach(item => {
+    $('#career-advancement-search-input').val('');
     if($("#career-competency-select-all").is(":checked")) $("#career-competency-select-all").prop( "checked", false );
     if(!competency.includes(item.competency)) {
       competency.push(item.competency);
@@ -337,12 +335,14 @@ function createButtonText(text) { // creates the remove button text
 }
 
 function getSearch() {
-  // console.log("Removing: " + removing + " - Adding: " + adding);
+  //console.log("Removing: " + removing + " - Adding: " + adding);
   results = [];
+  console.log(JSON.stringify(data));
   $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // load all md pages
-    if(removing) {
+    /* if(removing) {
       if(ifFilters() == false) {
         res.forEach(item => {
+          console.log("Removing: " + item);
           results.push(item);
         });
       } else {
@@ -353,35 +353,45 @@ function getSearch() {
         });
       }
     }
-    if(adding) {
+    if(adding) { */
       res.forEach(item => { // go over all loaded md pages
         data.forEach(obj => { // go over the search and facets selected
           // console.log("Adding Obj: " + getFilterType(obj.id));
           if(getFilterType(obj.id) == 3) {
             let filters = item.filters.split(" ");
             // console.log("Item Ttile: " + item.title);
-            filters.forEach(filter => {
-              // console.log("Both: " + filter.toLowerCase() + " - " + obj.id.toLowerCase());
-              if(filter.toLowerCase() == obj.id.toLowerCase()) {
+            // console.log(filters[0]);
+            //filters.forEach(filter => {
+              //console.log("Both: " + filters[0].toLowerCase() + " - " + obj.id.toLowerCase());
+              if(filters[0].toLowerCase() == obj.id.toLowerCase()) {
+                console.log("Both: " + filters[0].toLowerCase() + " " + obj.id.toLowerCase());
+                console.log("If " + item.title + " Does Not Exists: " + !ifExistsResults(item.title));
                 if(!ifExistsResults(item.title)) {
                   results.push(item);
                 }
               }
-            });
+            //});
           }
-          /* let filters = item.filters.split(" ");
-          // console.log("Item Filters: " + item.filters);
-          filters.forEach(filter => {
-            // console.log("Both: " + filter.toLowerCase() + " - " + obj.id.toLowerCase());
-            if(filter.toLowerCase() == obj.id.toLowerCase()) {
-              if(!ifExistsResults(item.title)) {
-                results.push(item);
+
+          /* res.forEach(item => { // go over all loaded md pages
+            data.forEach(obj => { // go over the search and facets selected
+              if(getFilterType(obj.id) == 3) {
+                let filters = item.filters.split(" ");
+                console.log(filters[0]);
+                if(filters[0].toLowerCase() == obj.id.toLowerCase()) {
+                  if(!ifExistsResults(item.title)) {
+                    buildResults.push(item);
+                  }
+                }
               }
-            }
+            });
           }); */
+
         });
       });
-    }
+
+      // console.log(JSON.stringify(results));
+    // }
     
     // take search and facet(data) selections and iterate through res looking for matches
     /* res.forEach(item => { // go over all loaded md pages
@@ -429,7 +439,7 @@ function getSearch() {
     }); */
 
     $("#career-search-results").empty();
-    // console.log("#career-search-results: " + results.length);
+    console.log("#career-search-results: " + results.length);
     if(results.length === 0) {
       createResults(true);
       $("#cfo-page-right").attr("disabled", "disabled");

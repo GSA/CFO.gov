@@ -76,7 +76,7 @@
 .search-container {
   display: flex;
   text-align: right;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .career-search-results-heading {
@@ -119,7 +119,7 @@
   border-width: 2px;
   border-color: #dfe1e2;
   border-style: solid;
-  border-top-width: 4px;
+  border-top-width: 6px;
   border-top-color: #F39268;
   border-top-left-radius: 0rem !important;
   border-top-right-radius: 0rem !important;;

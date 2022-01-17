@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import re
 
 cards = pd.read_csv("csv/FEDS-Sample-Data-10-Jan-22-UTF-8.csv", sep=",", header=0)
 
@@ -24,18 +25,22 @@ def html_escape(text):
 def create_name(text):
     parts = text.split("/")
     parts2 = '-'.join(parts)
-    parts3 = parts2.split(" ")
-    return '-'.join(parts3)
+    parts3 = parts2.split(", ")
+    parts4 = '-'.join(parts3)
+    parts5 = parts4.split(" ")
+    parts6 = '-'.join(parts5)
+    return re.sub('[,]', '', parts6)
 
 for row, item in cards.iterrows():
     parts = item.job_series.split(" ")
 
-    html_filename = str(parts[0]) + "-" + create_name(item.competency) + "-" + create_name(item.proficiency_level)
+    # html_filename = create_name(item.job_series) + '-' + create_name(career_level[item.career_level]) + '-' + create_name(str(item.competency_group)) + '-' + create_name(item.competency)
+    html_filename = str(parts[0]) + "-" + create_name(item.competency_group) + "-" + create_name(item.competency) + "-" + create_name(item.proficiency_level)
     md_filename = "2021-11-26-" + html_filename + ".md"
     
     md = "---\nlayout: career-planning-landing\n"
     md += 'category: career\n'
-    md += 'title: ' + item.job_series + ' ' + career_level[item.career_level] + ' ' + item.competency + '\n'
+    md += 'title: ' + item.job_series + ' ' + career_level[item.career_level] + ' ' + str(item.competency_group) + ' ' + item.competency + '\n'
     md += 'series: "' + str(parts[0]) + '"\n'
     md += 'job_series: "' + item.job_series + '"\n'
     md += 'career_level: "' + item.career_level + '"\n'
@@ -52,7 +57,7 @@ for row, item in cards.iterrows():
     md += 'proficiency_level_definition: "' + item.proficiency_level_definition + '"\n'
     md += 'behavioral_illustrations: "' + item.behavioral_illustrations + '"\n'
     md += 'relevant_courses: "' + str(item.relevant_courses) + '"\n'
-    md += 'filters: ' + create_name(item.competency) + ' ' + create_name(career_level[item.career_level]) + ' ' + 'series-' + str(parts[0]) + '\n'  
+    md += 'filters: ' + create_name(str(item.competency_group.lower()) + "-" + item.competency.lower()) + ' ' + create_name(str(career_level[item.career_level]).lower()) + ' ' + 'series-' + str(parts[0]) + '\n'  
     md += "---\n"
 
     md += '\n<div id="cfo-card-content-behavioral-illustrations" class="cfo-inner-card-content">\n'
@@ -64,7 +69,7 @@ for row, item in cards.iterrows():
     md += '</div>\n'
 
     md += '\n<div id="cfo-card-content-proficiency-level-definition" class="cfo-inner-card-content">\n'
-    md += '\n<p><b>Proficiency Level Definition</b></p>\n'
+    md += '<p><b>Proficiency Level Definition</b></p>\n'
     if len(str(item.proficiency_level_definition)) > 3:
         proficiencyDefinition = item.proficiency_level_definition.split("?")
         md += '<ul>'

@@ -45,8 +45,8 @@ attached:
                             {% assign series_id = series | downcase | replace: ", ", "-" | replace: " ", "-" %}
                             <button
                                 type="button"
-                                id="Series-{{ series_id }}"
-                                data-id="Series-{{ series_id }}"
+                                id="series-{{ series_id }}"
+                                data-id="series-{{ series_id }}"
                                 title="Series-{{ series }}"
                                 aria-label="Series-{{ series }}"
                             >{{ series }}</button>
