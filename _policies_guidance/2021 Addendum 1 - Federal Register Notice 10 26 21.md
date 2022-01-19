@@ -5,7 +5,7 @@ type: Controller Alert
 title: "2021 Compliance Supplement Addendum 1 and 2"
 subtitle: "2021 Compliance Supplement Addendum 1 and 2"
 filters: financial-assistance guidance
-permalink: /2021-addendum-1/
+permalink: /2021-addendum-1and2/
 ---
 
 <p>Note to the 2021 Compliance Supplement Addendum 1 (Addendum 1)</p>
@@ -24,7 +24,7 @@ permalink: /2021-addendum-1/
 
 <p>The 2021 Addendum 2 serves as a complement to the 2021 Compliance Supplement published on August 13, 20211 (FR Doc. 2021-17363) and applies to fiscal year audits beginning after June 30, 2020.  It includes 7 programs:</p>
 
-<p><a href="{{site.baseurl}}/assets/files/addendum-2/Addendum 2 - FR Notice.docx"><span style="font-weight: 400;"></span>2021 Addendum 2 - Federal Register Notice</a></p>
+<p><a href="{{site.baseurl}}/assets/files/addendum-2/Addendum 2 - FR Notice.pdf"><span style="font-weight: 400;"></span>2021 Addendum 2 - Federal Register Notice</a></p>
 <p><a href="{{site.baseurl}}/assets/files/addendum-2/USDA 10.542 Pandemic EBT – Food Benefits ADD2.pdf"><span style="font-weight: 400;"></span>USDA 10.542 – Pandemic EBT – Food Benefits</a></p>
 <p><a href="{{site.baseurl}}/assets/files/addendum-2/USDA 10.649 – Pandemic EBT – Admin Costs ADD2.pdf"><span style="font-weight: 400;"></span>USDA 10.649 – Pandemic EBT – Admin Costs</a></p>
 <p><a href="{{site.baseurl}}/assets/files/addendum-2/HHS 93.575 – Child Care and Development Block Grant ADD2 .pdf"><span style="font-weight: 400;"></span>HHS 93.575 – Child Care and Development Block Grant</a></p>
