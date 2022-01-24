@@ -169,31 +169,21 @@ attached:
           <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
             <div class="cfo-career-outer-box">
               <div class="cfo-career-text-container">
-                <p><b>{{ card.job_series }}: {{ card.competency }}</b></p>
-                <div class="career-card-level-heading">
-                    <p>{{ card.level }}</p>
-                </div>
+                <p><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> 0{{ card.series }}</span></p>
+                <p><strong>ALL:</strong> {{ card.competency }}
+                <p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
                 <div class="career-card-content">
-                    {{ card.content }}
+                    {{ card.content | replace: '&lt;', '<' | replace: '&gt;', '>' }}
                 </div>
 								<div class="select-button">
-								  <label><span>Select: </span><input type="checkbox" value="{{ card.permalink }}"></label>
+								  <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
                 </div>
               </div>
             </div>
-            </div>
+          </div>
           {% endfor %}
         </div>
       </div>
     </div>
   </div>
-
-    <!-- Pdfkit implementation for example only -->
-    <div class="usa-graphic-list__row grid-row grid-gap">
-        <div class="usa-media-block tablet:grid-col-12">
-            <div class="search-container">
-                <iframe src="" id="blog-pdf-test" width="600" height="775"></iframe>
-            </div>
-        </div>
-    </div>
 </div>

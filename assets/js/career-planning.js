@@ -60,10 +60,27 @@
           if (value.toLowerCase().indexOf(normalized) != -1) {
             return value;
           }
+          else if (item.job_series.toLowerCase().indexOf(normalized) != -1) {
+            return value;
+          }
+          else if (item.competency.toLowerCase().indexOf(normalized) != -1) {
+            return value;
+          }
+          else if (item.competency_description.toLowerCase().indexOf(normalized) != -1) {
+            return value;
+          }
+          else if (item.proficiency_level_definition.toLowerCase().indexOf(normalized) != -1) {
+            return value;
+          }
+          else if (item.behavioral_illustrations.toLowerCase().indexOf(normalized) != -1) {
+            return value;
+          }
+          else if (item.relevant_courses.toLowerCase().indexOf(normalized) != -1) {
+            return value;
+          } 
           return null;
         });
         outputs = outputs.filter(function (x) { return !!x });
-        console.log(outputs);
         response(outputs);
       }
     });

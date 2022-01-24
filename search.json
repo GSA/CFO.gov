@@ -7,21 +7,21 @@ layout: none
     {
       "layout": "{{ card.layout }}",
       "title": "{{ card.title }}",
-      "series": "{{ card.series }}",
+      "series": "0{{ card.series }}",
       "job_series": "{{ card.job_series }}",
       "career_level": "{{ card.title | escape }}",
       "permalink": "{{ card.permalink }}",
       "functional_competency_designation": "{{ card.functional_competency_designation }}",
       "competency": "{{ card.competency }}",
       "competency_group": "{{ card.competency_group }}",
-      "compentency_description": "{{ card.compentency_description }}",
+      "competency_description": "{{ card.compentency_description }}",
       "level": "{{ card.level }}",
       "proficiency_level": "{{ card.proficiency_level }}",
       "proficiency_level_definition": "{{ card.proficiency_level_definition }}",
-      "behavioral_illustrations": "{{ card.behavioral_illustrations }}",
+      "behavioral_illustrations": "{{ card.behavior_illustrations }}",
       "relevant_courses": "{{ card.relevant_courses }}",
       "filters": "{{ card.filters }}",
-      "content": "{{ card.content | strip_newlines | replace: '"', '\"' }}"
+      "content": "{{ card.content | raw | strip_newlines | replace: '"', '\"' | replace: '&lt;', '<' | replace: '&gt;', '>' }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

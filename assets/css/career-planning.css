@@ -121,20 +121,6 @@
 
 /*************** boxes ***************/
 
-.cfo-career-outer-box {
-  width: 100%;
-  border: 1px solid #aaa;
-  border-radius: 20px;
-  background-color: #eee;
-  padding: 15px;
-}
-
-
-.cfo-courses-outer {
-  display: flex;
-  justify-content: space-between;
-}
-
 
 #cfo-page-left, #cfo-page-right {
   cursor: pointer;
@@ -176,4 +162,71 @@
 
 .cfo-career-results-text-bold {
   font-weight: bold;
+}
+
+/*** Cards ***/
+
+div[data-card-filter] {
+  position: relative;
+}
+
+
+.cfo-career-outer-box {
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 15px 25px;
+}
+
+.select-button {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.cfo-courses-outer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-card-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-card-content .card-content-column {
+  width: 30%;
+  border: 1px solid #b6b6b6;
+  border-top: 5px solid #f39268;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+.cfo-text-container p span {
+  margin-right: 12em;
+}
+
+.cfo-text-container p.competency-desc {
+  font-size: 1.25%;
+}
+
+.career-card-content .card-content-column dl {
+  color: #61666F;
+}
+
+.career-card-content .card-content-column dt {
+  font-weight: strong;
+  margin-bottom: 1em;
+}
+
+.career-card-content .card-content-column dd {
+  margin-inline-start: 2em;
+}
+
+.career-card-content .card-content-column.prof-level dd {
+  list-style-type: disc;
+  display: list-item;
 }

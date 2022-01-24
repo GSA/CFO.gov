@@ -9,20 +9,12 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
   });
 });
 let searchKeys = [ // when searching the columns to search
-  "layout",
-  "title",
-  "series",
   "job_series",
-  "career_level",
-  "permalink",
-  "functional_competency_designation",
   "competency",
-  "level",
-  "proficiency_level",
+  "competency_description",
   "proficiency_level_definition",
   "behavioral_illustrations",
   "relevant_courses",
-  "filters"
 ];
 let start = 0;
 let perPage = 10; // pagination items per page
@@ -83,19 +75,13 @@ function createResults(noResults, item) { // creates a results div and contents
     const text2 = document.createTextNode('Check if your spelling is correct, or try removing filters. Remove quotes around phrases to match each word individually: "blue drop" will match less than blue drop.');
     textArea2.appendChild(text2);
   } else {
-    const textArea = document.createElement("p");
-    textArea.setAttribute("class", "cfo-career-results-text-bold");
-    outerDiv3.appendChild(textArea);
-    const text1 = document.createTextNode(item.job_series + ': ' + item.competency);
-    textArea.appendChild(text1);
-
-    const innerDiv1 = document.createElement("div");
-    innerDiv1.setAttribute("class", "career-card-level-heading");
-    outerDiv3.append(innerDiv1);
-    const textArea2 = document.createElement("p");
-    innerDiv1.appendChild(textArea2);
-    const text2 = document.createTextNode(item.level);
-    textArea2.appendChild(text2);
+    let template = '<p><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> {{ card.series }}</span></p>'
+                + '<p><strong>ALL:</strong> {{ card.competency }}'
+                + '<p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>';
+    outerDiv3.innerHTML = template.replace('{{ card.level }}', item.level)
+      .replace('{{ card.series }}', item.series)
+      .replace('{{ card.competency }}', item.competency)
+      .replace('{{ card.competency_description }}', item.competency_description);
 
     const innerDiv2 = document.createElement("div");
     innerDiv2.setAttribute("class", "career-card-content");
@@ -105,7 +91,7 @@ function createResults(noResults, item) { // creates a results div and contents
     const selectButtonWrapper = document.createElement('div');
     outerDiv3.appendChild(selectButtonWrapper);
     selectButtonWrapper.setAttribute("class", "select-button");
-    selectButtonWrapper.innerHTML = '<label><span>Select: </span><input type="checkbox" value="' + item.permalink + '"' + (window.isSelected(item.permalink)?' checked':'') + '></label>'
+    selectButtonWrapper.innerHTML = '<label><input type="checkbox" value="' + item.permalink + '"' + (window.isSelected(item.permalink)?' checked':'') + '> <span>Select for Download</span></label>'
   }
   const resultsContainer = document.getElementById("career-search-results");
   resultsContainer.appendChild(outerDiv1);
