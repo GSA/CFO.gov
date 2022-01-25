@@ -15,7 +15,7 @@ behavior_illustrations: Examines the impact of complex accounting solutions to m
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 
-filters: Advanced-Financial Management GS-14-15 series-0510
+filters: Finance-Advanced-Financial-Management GS-14-15 series-0510
 ---
 
 <div class="card-content-column behavior">

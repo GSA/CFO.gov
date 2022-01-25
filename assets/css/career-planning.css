@@ -1,3 +1,7 @@
+#career-facet-remove-all-filters-button {
+  display: none;
+}
+
 .career-advancement-block {
   display: flex;
   flex-direction: column;
@@ -11,8 +15,8 @@
 
 .facets-panel {
   background-color: #eee;
-  border: 1px solid #eee;
-  border-radius: 10px;
+  border: 2px solid #999;
+  border-radius: 5px;
   padding: 30px;
 }
 
@@ -22,11 +26,23 @@
 }
 
 .career-facet-remove-button {
-  color: #333333;
-  padding: 1px 10px;
-  border: 1px solid #aaa;
-  border-radius: 20px;
-  background-color: #ffffff;
+  color: #000;
+  padding: 2px 10px;
+  border: 1px solid #F39268;
+  border-radius: 2px;
+  background-color: #F39268;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  max-height: 30px;
+}
+
+.cfo-pdf-select-buttons {
+  color: #005ea2;
+  padding: 2px 10px;
+  border: 2px solid #005ea2;
+  border-radius: 2px;
+  background-color: white;
   margin-right: 2px;
   margin-bottom: 2px;
   cursor: pointer;
@@ -36,6 +52,7 @@
 .inner-facet-block button {
   display: block;
   padding: 7px 10px;
+  border-radius: 5px;
   border-color: #333333;
   color: #333333;
   background-color: #ffffff;
@@ -48,27 +65,117 @@
 .inner-facet-block button:hover {
   display: block;
   padding: 7px 10px;
-  border-color: #333333;
+  border-radius: 5px;
+  border-color: #005ea2;
   color: #ffffff;
-  background-color: #333333;
+  background-color: #005ea2;
   font-weight: bold;
   margin-top: 5px;
 }
 
-.career-search-results-header {
+.search-container {
+  display: flex;
+  text-align: right;
+  margin-top: 25px;
+}
+
+.career-search-results-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#career-search-results-filter-remove-buttons {
+  max-width: 550px;
+  width: 100%;
+}
+
+#career-search-results-filter-remove-all-button {
+
+}
+
+#career-download-button {
+
+}
+
+.cfo-card-header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cfo-card-below-header-content p {
+  margin-top: 0;
+}
+
+.career-card-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cfo-inner-card-content {
+  border-width: 2px;
+  border-color: #dfe1e2;
+  border-style: solid;
+  border-top-width: 6px;
+  border-top-color: #F39268;
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;;
+  border-bottom-left-radius:.2rem !important;
+  border-bottom-right-radius:.2rem !important;
+  padding: 20px;
+  margin-top: 10px;
+  width: 33%;
+}
+
+.career-search-results-heading {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.career-search-results-heading {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
 .career-search-results-inner-heading {
   display: flex;
+}
+
+.career-competency-input-groups,
+.career-competency-and-competency-group-input-groups {
+  display: block;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 2px solid #333333;
+  color: #333333;
+  background-color: #ffffff;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.career-competency-level-1-input-group,
+.career-competency-level-2-input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-competency-level-1-input-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.career-competency-level-1-input-group h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.career-competency-input-groups-label {
+  font-weight: normal;
+}
+
+.career-competency-input-groups {
+  border: 2px solid #ffffff;
+  padding: 2px 10px;
 }
 
 /* .career-search-results-heading {
@@ -118,8 +225,25 @@
   padding: 15px;
 }
 
+#career-download-buttons {
+  margin-right: 20px;
+}
+
 
 /*************** boxes ***************/
+
+.cfo-career-outer-box {
+  width: 100%;
+  border: 2px solid #999;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+
+/* .cfo-courses-outer {
+  display: flex;
+  justify-content: space-between;
+} */
 
 
 #cfo-page-left, #cfo-page-right {
@@ -131,23 +255,21 @@
 
 /************* Search *********************/
 
-.search-container {
-  display: flex;
-  text-align: right;
-}
 
 #career-advancement-search-input {
   max-width: 650px;
   width: 100%;
   padding: 10px;
-  border: 1px solid #333333;
+  border: 2px solid #999;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
 #cfo-search-button {
   padding: 10px;
-  border: 1px solid #333333;
+  color: white;
+  background-color: #005ea2;
+  border: 1px solid #005ea2;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   border-top-right-radius: 5px;

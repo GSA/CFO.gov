@@ -15,7 +15,7 @@ behavior_illustrations: Interprets policies, assesses trends, reviews, coordinat
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 
-filters: Accounting,-Concepts, Policies and Principles GS-10-13 series-0510
+filters: Accounting-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0510
 ---
 
 <div class="card-content-column behavior">

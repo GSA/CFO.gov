@@ -15,7 +15,7 @@ behavior_illustrations: Prepares significant portions of audit reports, statemen
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
 
-filters: Accounting-Analysis GS-10-13 series-0511
+filters: Accounting-Accounting-Analysis GS-10-13 series-0511
 ---
 
 <div class="card-content-column behavior">

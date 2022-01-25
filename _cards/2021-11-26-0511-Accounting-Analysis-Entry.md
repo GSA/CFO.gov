@@ -16,7 +16,7 @@ proficiency_level_definition: Applies the competency in the simplest situations 
 relevant_courses: 
 - Yet Another test course,https://www.gsa.gov/ 
 
-filters: Accounting-Analysis GS-7-9 series-0511
+filters: Accounting-Accounting-Analysis GS-7-9 series-0511
 ---
 
 <div class="card-content-column behavior">

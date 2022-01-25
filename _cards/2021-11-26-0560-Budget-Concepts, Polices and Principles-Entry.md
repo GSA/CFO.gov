@@ -15,7 +15,7 @@ behavior_illustrations: Reviews standard data and reports to ensure their accura
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Concepts, Polices and Principles GS-7-9 series-0560
+filters: Budget-Budget-Concepts-Polices-and-Principles GS-7-9 series-0560
 ---
 
 <div class="card-content-column behavior">

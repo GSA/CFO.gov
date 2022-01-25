@@ -15,7 +15,7 @@ behavior_illustrations: Develops and utilizes audit processes to improve organiz
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Execution GS-10-13 series-0501
+filters: Budget-Budget-Execution GS-10-13 series-0501
 ---
 
 <div class="card-content-column behavior">

@@ -15,7 +15,7 @@ behavior_illustrations: Applies basic knowledge of budget principles to complete
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
 
-filters: Budget-Execution GS-14-15 series-0510
+filters: Budget-Budget-Execution GS-14-15 series-0510
 ---
 
 <div class="card-content-column behavior">

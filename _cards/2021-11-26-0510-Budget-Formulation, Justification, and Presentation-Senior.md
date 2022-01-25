@@ -15,7 +15,7 @@ behavior_illustrations: Oversees and manages all aspects of the financial proces
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Formulation, Justification, and Presentation GS-14-15 series-0510
+filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0510
 ---
 
 <div class="card-content-column behavior">

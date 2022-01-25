@@ -15,7 +15,7 @@ behavior_illustrations: Applies the competency in somewhat difficult situations 
 proficiency_level_definition: Applies knowledge of policies and procedures to ensure adherence to auditing and accounting guidelines ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 
-filters: Advanced-Financial Management GS-10-13 series-0501
+filters: Finance-Advanced-Financial-Management GS-10-13 series-0501
 ---
 
 <div class="card-content-column behavior">

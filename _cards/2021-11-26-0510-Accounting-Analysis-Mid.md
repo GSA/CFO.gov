@@ -15,7 +15,7 @@ behavior_illustrations: Applies the competency in the simplest situations ? Requ
 proficiency_level_definition: Uses typical audit procedures and practices that apply to most situations ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 
-filters: Accounting-Analysis GS-10-13 series-0510
+filters: Accounting-Accounting-Analysis GS-10-13 series-0510
 ---
 
 <div class="card-content-column behavior">

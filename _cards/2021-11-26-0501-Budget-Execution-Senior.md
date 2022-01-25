@@ -15,7 +15,7 @@ behavior_illustrations: Coordinates budget inputs and gathers justifications
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 
-filters: Budget-Execution GS-14-15 series-0501
+filters: Budget-Budget-Execution GS-14-15 series-0501
 ---
 
 <div class="card-content-column behavior">

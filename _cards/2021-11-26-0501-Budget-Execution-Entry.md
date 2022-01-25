@@ -15,7 +15,7 @@ behavior_illustrations: Develops and utilizes financial processes and resources 
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Execution GS-7-9 series-0501
+filters: Budget-Budget-Execution GS-7-9 series-0501
 ---
 
 <div class="card-content-column behavior">

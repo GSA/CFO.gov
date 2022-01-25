@@ -16,7 +16,7 @@ proficiency_level_definition: Applies the competency in exceptionally difficult 
 relevant_courses: 
 - Another test course,https://www.gsa.gov/ 
 
-filters: Advanced-Financial Management GS-7-9 series-0510
+filters: Finance-Advanced-Financial-Management GS-7-9 series-0510
 ---
 
 <div class="card-content-column behavior">

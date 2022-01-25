@@ -45,13 +45,12 @@ function buildCards () {
     })
     .on('end', function () {
       let count = 0;
-      console.log('writing begins');
       for (var k in cards) {
       
         const card = cards[k],
           permalink = '/cards/' + card.jobSeries + '-' + card.competency.replace(' ', '-') + '-' + card.careerLevel,
           filters = [
-            card.competency.replace(' ', '-'),
+            card.competencyGroup.replace(/ /g, '-') + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-'),
             'GS-' + card.gsLevel,
             'series-0' + card.jobSeries
           ].join(' ');

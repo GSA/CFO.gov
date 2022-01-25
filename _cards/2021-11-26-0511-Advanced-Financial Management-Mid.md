@@ -15,7 +15,7 @@ behavior_illustrations: Applies the competency in exceptionally difficult situat
 proficiency_level_definition: Interprets and advises others on auditing and accounting policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 
-filters: Advanced-Financial Management GS-10-13 series-0511
+filters: Finance-Advanced-Financial-Management GS-10-13 series-0511
 ---
 
 <div class="card-content-column behavior">

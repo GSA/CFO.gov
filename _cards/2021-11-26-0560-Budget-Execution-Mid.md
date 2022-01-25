@@ -15,7 +15,7 @@ behavior_illustrations: Summarizes information related to audit findings to iden
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Execution GS-10-13 series-0560
+filters: Budget-Budget-Execution GS-10-13 series-0560
 ---
 
 <div class="card-content-column behavior">

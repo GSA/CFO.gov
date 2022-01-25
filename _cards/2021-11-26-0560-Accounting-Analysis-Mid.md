@@ -15,7 +15,7 @@ behavior_illustrations: Drafts sections of audit reports, statements or other do
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 
-filters: Accounting-Analysis GS-10-13 series-0560
+filters: Accounting-Accounting-Analysis GS-10-13 series-0560
 ---
 
 <div class="card-content-column behavior">

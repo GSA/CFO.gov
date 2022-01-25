@@ -15,7 +15,7 @@ behavior_illustrations: Solves difficult challenges through accounting analysis 
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Formulation, Justification, and Presentation GS-14-15 series-0501
+filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0501
 ---
 
 <div class="card-content-column behavior">

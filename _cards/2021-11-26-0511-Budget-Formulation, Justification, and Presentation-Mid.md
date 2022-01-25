@@ -15,7 +15,7 @@ behavior_illustrations: Formulates budget, develops justifications and presents 
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Formulation, Justification, and Presentation GS-10-13 series-0511
+filters: Budget-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0511
 ---
 
 <div class="card-content-column behavior">

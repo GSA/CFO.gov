@@ -16,7 +16,7 @@ proficiency_level_definition: Applies the competency in exceptionally difficult 
 relevant_courses: 
 - Test course,https://www.gsa.gov/ 
 
-filters: Accounting-Analysis GS-7-9 series-0510
+filters: Accounting-Accounting-Analysis GS-7-9 series-0510
 ---
 
 <div class="card-content-column behavior">

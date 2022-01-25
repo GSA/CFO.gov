@@ -15,7 +15,7 @@ behavior_illustrations: Interprets and evaluates budget execution for compliance
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Formulation, Justification, and Presentation GS-10-13 series-0510
+filters: Budget-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0510
 ---
 
 <div class="card-content-column behavior">

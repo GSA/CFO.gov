@@ -15,7 +15,7 @@ behavior_illustrations: Implement execution plans and monitors and recommends ad
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Analyzes a variety of documents, records and processes to determine performance in accordance with appropriate procedures and regulations
 relevant_courses: 
 
-filters: Budget-Formulation, Justification, and Presentation GS-10-13 series-0501
+filters: Budget-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0501
 ---
 
 <div class="card-content-column behavior">

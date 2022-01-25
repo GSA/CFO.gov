@@ -15,7 +15,7 @@ behavior_illustrations: Implement execution plans and monitors and recommends ad
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 
-filters: Audit-Planning and Management GS-10-13 series-0511
+filters: Audit-Audit-Planning-and-Management GS-10-13 series-0511
 ---
 
 <div class="card-content-column behavior">

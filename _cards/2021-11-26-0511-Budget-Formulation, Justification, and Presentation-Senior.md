@@ -15,7 +15,7 @@ behavior_illustrations: Develops execution reports and monitors status of funds 
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Formulation, Justification, and Presentation GS-14-15 series-0511
+filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0511
 ---
 
 <div class="card-content-column behavior">

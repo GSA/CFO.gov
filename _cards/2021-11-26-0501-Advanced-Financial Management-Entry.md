@@ -16,7 +16,7 @@ proficiency_level_definition: Applies the competency in the simplest situations 
 relevant_courses: 
 - Another Course Name,https://www.gsa.gov/ 
 
-filters: Advanced-Financial Management GS-7-9 series-0501
+filters: Finance-Advanced-Financial-Management GS-7-9 series-0501
 ---
 
 <div class="card-content-column behavior">

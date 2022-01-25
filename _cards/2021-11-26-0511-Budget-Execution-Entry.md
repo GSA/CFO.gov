@@ -15,7 +15,7 @@ behavior_illustrations: Monitors current financial processes to ensure that spen
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Execution GS-7-9 series-0511
+filters: Budget-Budget-Execution GS-7-9 series-0511
 ---
 
 <div class="card-content-column behavior">

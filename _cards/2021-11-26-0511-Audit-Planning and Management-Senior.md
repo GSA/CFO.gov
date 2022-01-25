@@ -15,7 +15,7 @@ behavior_illustrations: Solves difficult challenges through accounting analysis 
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 
-filters: Audit-Planning and Management GS-14-15 series-0511
+filters: Audit-Audit-Planning-and-Management GS-14-15 series-0511
 ---
 
 <div class="card-content-column behavior">

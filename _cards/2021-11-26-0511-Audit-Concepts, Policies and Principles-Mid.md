@@ -15,7 +15,7 @@ behavior_illustrations: Applies the competency in considerably difficult situati
 proficiency_level_definition: Develops audit guidelines that conform to Generally Accepted Auditing Standards (GAAS) and Generally Accepted Government Auditing Standards (GAGAS) ? Makes recommendations for improvement or implementation of new policies ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 
-filters: Audit-Concepts, Policies and Principles GS-10-13 series-0511
+filters: Audit-Audit-Concepts-Policies-and-Principles GS-10-13 series-0511
 ---
 
 <div class="card-content-column behavior">

@@ -15,7 +15,7 @@ behavior_illustrations: Formulates budget, develops justifications and presents 
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 
-filters: Accounting-Analysis GS-10-13 series-0501
+filters: Accounting-Accounting-Analysis GS-10-13 series-0501
 ---
 
 <div class="card-content-column behavior">

@@ -15,7 +15,7 @@ behavior_illustrations: Manages budgetary requirements within the organization, 
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 
-filters: Accounting-Analysis GS-7-9 series-0560
+filters: Accounting-Accounting-Analysis GS-7-9 series-0560
 ---
 
 <div class="card-content-column behavior">

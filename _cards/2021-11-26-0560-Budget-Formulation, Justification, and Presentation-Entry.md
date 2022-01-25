@@ -15,7 +15,7 @@ behavior_illustrations: Applies general analytical and evaluation techniques to 
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 
-filters: Budget-Formulation, Justification, and Presentation GS-7-9 series-0560
+filters: Budget-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0560
 ---
 
 <div class="card-content-column behavior">
