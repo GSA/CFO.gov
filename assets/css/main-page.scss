@@ -679,3 +679,8 @@ abbr{
   border-right-color: #71767a; }
 .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button:active::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--outline::before {
   display: none; }
+.site-margin{
+  .grid-container-widescreen{
+    max-width:100%;
+  }
+}

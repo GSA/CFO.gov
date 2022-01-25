@@ -16,13 +16,10 @@ The home page uses wide.html layout, since it extends full width of page
 <body class="site-margin">
   {% include header.html %}
 
-  {% include career-menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
-
-  <main id="career-content">
+  <main id="grid-container-widescreen">
     {{ content }}
   </main>
 
-  {% include footer.html %}
 
   {% include scripts.html %}
 </body>
