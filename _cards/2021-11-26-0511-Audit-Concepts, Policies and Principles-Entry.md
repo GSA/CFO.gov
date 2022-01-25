@@ -18,17 +18,23 @@ relevant_courses:
 filters: Audit-Audit-Concepts-Policies-and-Principles GS-7-9 series-0511
 ---
 
-<div class="card-content-column behavior">
+<div class="desktop:grid-col-4 margin-y-205">
+  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Behavior Illustrations</h3>
-  <dl><dt>Audit Concepts, Policies and Principles ( Level 2 - Basic)</dt><dd>Manages budgetary requirements within the organization, ensures alignment, and develops and recommends appropriate strategies</dd><dt>Audit Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Monitors current financial processes to ensure that spending programs are affordable and sustainable over time</dd></dl>
+  <p class="text-base"><dt>Audit Concepts, Policies and Principles ( Level 2 - Basic)</dt><dd>Manages budgetary requirements within the organization, ensures alignment, and develops and recommends appropriate strategies</dd><dt>Audit Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Monitors current financial processes to ensure that spending programs are affordable and sustainable over time</dd></p>
+  </div>
 </div>
-<div class="card-content-column prof-level">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Proficiency Level Definition</h3>
-  <dl><dt>Audit Concepts, Policies and Principles ( Level 2 - Basic)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd><dt>Audit Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
+  <p class="text-base"><dt>Audit Concepts, Policies and Principles ( Level 2 - Basic)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd><dt>Audit Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></p>
+  </div>
 </div>
-<div class="card-content-column">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Course Listing</h3>
-  <ul>
+  <ul class="text-base">
   
   </ul>
+  </div>
 </div>

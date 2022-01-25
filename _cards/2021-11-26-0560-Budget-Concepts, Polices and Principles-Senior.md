@@ -18,17 +18,23 @@ relevant_courses:
 filters: Budget-Budget-Concepts-Polices-and-Principles GS-14-15 series-0560
 ---
 
-<div class="card-content-column behavior">
+<div class="desktop:grid-col-4 margin-y-205">
+  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Behavior Illustrations</h3>
-  <dl></dl>
+  <p class="text-base"></p>
+  </div>
 </div>
-<div class="card-content-column prof-level">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Proficiency Level Definition</h3>
-  <dl></dl>
+  <p class="text-base"></p>
+  </div>
 </div>
-<div class="card-content-column">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Course Listing</h3>
-  <ul>
+  <ul class="text-base">
   
   </ul>
+  </div>
 </div>

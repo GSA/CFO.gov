@@ -18,17 +18,23 @@ relevant_courses:
 filters: Budget-Budget-Concepts-Polices-and-Principles GS-7-9 series-0560
 ---
 
-<div class="card-content-column behavior">
+<div class="desktop:grid-col-4 margin-y-205">
+  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Behavior Illustrations</h3>
-  <dl><dt>Budget Concepts, Polices and Principles ( Level 2 - Basic)</dt><dd>Reviews standard data and reports to ensure their accuracy</dd><dt>Budget Concepts, Polices and Principles ( Level 3 - Intermediate)</dt><dd>Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives</dd></dl>
+  <p class="text-base"><dt>Budget Concepts, Polices and Principles ( Level 2 - Basic)</dt><dd>Reviews standard data and reports to ensure their accuracy</dd><dt>Budget Concepts, Polices and Principles ( Level 3 - Intermediate)</dt><dd>Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives</dd></p>
+  </div>
 </div>
-<div class="card-content-column prof-level">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Proficiency Level Definition</h3>
-  <dl><dt>Budget Concepts, Polices and Principles ( Level 2 - Basic)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Budget Concepts, Polices and Principles ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+  <p class="text-base"><dt>Budget Concepts, Polices and Principles ( Level 2 - Basic)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Budget Concepts, Polices and Principles ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></p>
+  </div>
 </div>
-<div class="card-content-column">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Course Listing</h3>
-  <ul>
+  <ul class="text-base">
   
   </ul>
+  </div>
 </div>

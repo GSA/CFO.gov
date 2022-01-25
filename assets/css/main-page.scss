@@ -680,7 +680,22 @@ abbr{
 .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button:active::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--outline::before {
   display: none; }
 .site-margin{
-  .grid-container-widescreen{
-    max-width:90%;
+  .grid-container-widescreen {
+    max-width: 90%;
+    dd {
+      margin-inline-start: 2em;
+      list-style-type: disc;
+      display: list-item;
+      color: #61666F;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    dl {
+      color: #61666F;
+    }
+    dt {
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
   }
 }

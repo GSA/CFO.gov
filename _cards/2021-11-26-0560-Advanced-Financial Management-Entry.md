@@ -18,17 +18,23 @@ relevant_courses:
 filters: Finance-Advanced-Financial-Management GS-7-9 series-0560
 ---
 
-<div class="card-content-column behavior">
+<div class="desktop:grid-col-4 margin-y-205">
+  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Behavior Illustrations</h3>
-  <dl><dt>Advanced Financial Management ( Level 2 - Basic)</dt><dd>Reviews standard data and reports to ensure their accuracy</dd><dt>Advanced Financial Management ( Level 3 - Intermediate)</dt><dd>Monitors current financial processes to ensure that spending programs are affordable and sustainable over time</dd></dl>
+  <p class="text-base"><dt>Advanced Financial Management ( Level 2 - Basic)</dt><dd>Reviews standard data and reports to ensure their accuracy</dd><dt>Advanced Financial Management ( Level 3 - Intermediate)</dt><dd>Monitors current financial processes to ensure that spending programs are affordable and sustainable over time</dd></p>
+  </div>
 </div>
-<div class="card-content-column prof-level">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Proficiency Level Definition</h3>
-  <dl><dt>Advanced Financial Management ( Level 2 - Basic)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Advanced Financial Management ( Level 3 - Intermediate)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
+  <p class="text-base"><dt>Advanced Financial Management ( Level 2 - Basic)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Advanced Financial Management ( Level 3 - Intermediate)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></p>
+  </div>
 </div>
-<div class="card-content-column">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Course Listing</h3>
-  <ul>
+  <ul class="text-base">
   
   </ul>
+  </div>
 </div>

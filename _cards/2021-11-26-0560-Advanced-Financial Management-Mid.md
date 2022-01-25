@@ -18,17 +18,23 @@ relevant_courses:
 filters: Finance-Advanced-Financial-Management GS-10-13 series-0560
 ---
 
-<div class="card-content-column behavior">
+<div class="desktop:grid-col-4 margin-y-205">
+  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Behavior Illustrations</h3>
-  <dl><dt>Advanced Financial Management ( Level 4 - Advanced)</dt><dd>Oversees and manages all aspects of the audit process on behalf of a Department to ensure integrity and accountability</dd><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Applies basic knowledge of budget principles to complete budgeting transactions</dd></dl>
+  <p class="text-base"><dt>Advanced Financial Management ( Level 4 - Advanced)</dt><dd>Oversees and manages all aspects of the audit process on behalf of a Department to ensure integrity and accountability</dd><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Applies basic knowledge of budget principles to complete budgeting transactions</dd></p>
+  </div>
 </div>
-<div class="card-content-column prof-level">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Proficiency Level Definition</h3>
-  <dl><dt>Advanced Financial Management ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd></dl>
+  <p class="text-base"><dt>Advanced Financial Management ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd></p>
+  </div>
 </div>
-<div class="card-content-column">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Course Listing</h3>
-  <ul>
+  <ul class="text-base">
   
   </ul>
+  </div>
 </div>

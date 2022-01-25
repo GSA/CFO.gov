@@ -18,17 +18,23 @@ relevant_courses:
 filters: Accounting-Accounting-Analysis GS-10-13 series-0560
 ---
 
-<div class="card-content-column behavior">
+<div class="desktop:grid-col-4 margin-y-205">
+  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Behavior Illustrations</h3>
-  <dl><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Drafts sections of audit reports, statements or other documentation to support audit findings</dd><dt>Accounting Analysis ( Level 5 - Expert)</dt><dd>Applies knowledge of policies and procedures to ensure adherence to budget and financial guidelines</dd></dl>
+  <p class="text-base"><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Drafts sections of audit reports, statements or other documentation to support audit findings</dd><dt>Accounting Analysis ( Level 5 - Expert)</dt><dd>Applies knowledge of policies and procedures to ensure adherence to budget and financial guidelines</dd></p>
+  </div>
 </div>
-<div class="card-content-column prof-level">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Proficiency Level Definition</h3>
-  <dl><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Accounting Analysis ( Level 5 - Expert)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
+  <p class="text-base"><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Accounting Analysis ( Level 5 - Expert)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></p>
+  </div>
 </div>
-<div class="card-content-column">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Course Listing</h3>
-  <ul>
+  <ul class="text-base">
   
   </ul>
+  </div>
 </div>

@@ -18,17 +18,23 @@ relevant_courses:
 filters: Budget-Budget-Execution GS-10-13 series-0560
 ---
 
-<div class="card-content-column behavior">
+<div class="desktop:grid-col-4 margin-y-205">
+  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Behavior Illustrations</h3>
-  <dl><dt>Budget Execution ( Level 4 - Advanced)</dt><dd>Summarizes information related to audit findings to identify condition, criteria, cause and effect to communicate potential concerns</dd><dt>Budget Execution ( Level 5 - Expert)</dt><dd>Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability</dd></dl>
+  <p class="text-base"><dt>Budget Execution ( Level 4 - Advanced)</dt><dd>Summarizes information related to audit findings to identify condition, criteria, cause and effect to communicate potential concerns</dd><dt>Budget Execution ( Level 5 - Expert)</dt><dd>Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability</dd></p>
+  </div>
 </div>
-<div class="card-content-column prof-level">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Proficiency Level Definition</h3>
-  <dl><dt>Budget Execution ( Level 4 - Advanced)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Budget Execution ( Level 5 - Expert)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
+  <p class="text-base"><dt>Budget Execution ( Level 4 - Advanced)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Budget Execution ( Level 5 - Expert)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></p>
+  </div>
 </div>
-<div class="card-content-column">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Course Listing</h3>
-  <ul>
+  <ul class="text-base">
   
   </ul>
+  </div>
 </div>

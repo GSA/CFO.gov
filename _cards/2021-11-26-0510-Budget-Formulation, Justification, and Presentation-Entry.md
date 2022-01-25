@@ -18,17 +18,23 @@ relevant_courses:
 filters: Budget-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0510
 ---
 
-<div class="card-content-column behavior">
+<div class="desktop:grid-col-4 margin-y-205">
+  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Behavior Illustrations</h3>
-  <dl><dt>Budget Formulation, Justification, and Presentation ( Level 2 - Basic)</dt><dd>Implement execution plans and monitors and recommends adjustments to ensure compliance with total obligation authority</dd></dl>
+  <p class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 2 - Basic)</dt><dd>Implement execution plans and monitors and recommends adjustments to ensure compliance with total obligation authority</dd></p>
+  </div>
 </div>
-<div class="card-content-column prof-level">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Proficiency Level Definition</h3>
-  <dl><dt>Budget Formulation, Justification, and Presentation ( Level 2 - Basic)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
+  <p class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 2 - Basic)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></p>
+  </div>
 </div>
-<div class="card-content-column">
+<div class="desktop:grid-col-4 margin-y-205">
+<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
   <h3>Course Listing</h3>
-  <ul>
+  <ul class="text-base">
   
   </ul>
+  </div>
 </div>
