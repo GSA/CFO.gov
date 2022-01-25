@@ -19,19 +19,19 @@ filters: Budget-Budget-Execution GS-10-13 series-0510
 ---
 
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Behavior Illustrations</h3>
-  <p class="text-base"><dt>Budget Execution ( Level 4 - Advanced)</dt><dd>Completes and reviews audit reports, statements or other documentation to ensure compliance with audit reporting standards</dd><dt>Budget Execution ( Level 5 - Expert)</dt><dd>Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials</dd></p>
+  <dl class="text-base"><dt>Budget Execution ( Level 4 - Advanced)</dt><dd>Completes and reviews audit reports, statements or other documentation to ensure compliance with audit reporting standards</dd><dt>Budget Execution ( Level 5 - Expert)</dt><dd>Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Proficiency Level Definition</h3>
-  <p class="text-base"><dt>Budget Execution ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Budget Execution ( Level 5 - Expert)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></p>
+  <dl class="text-base"><dt>Budget Execution ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Budget Execution ( Level 5 - Expert)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Course Listing</h3>
   <ul class="text-base">
   

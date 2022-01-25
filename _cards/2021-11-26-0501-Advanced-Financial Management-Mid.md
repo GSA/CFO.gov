@@ -19,19 +19,19 @@ filters: Finance-Advanced-Financial-Management GS-10-13 series-0501
 ---
 
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Behavior Illustrations</h3>
-  <p class="text-base"><dt>Advanced Financial Management ( Level 4 - Advanced)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Coordinates budget inputs and gathers justifications</dd></p>
+  <dl class="text-base"><dt>Advanced Financial Management ( Level 4 - Advanced)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Coordinates budget inputs and gathers justifications</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Proficiency Level Definition</h3>
-  <p class="text-base"><dt>Advanced Financial Management ( Level 4 - Advanced)</dt><dd>Applies knowledge of policies and procedures to ensure adherence to auditing and accounting guidelines</dd><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></p>
+  <dl class="text-base"><dt>Advanced Financial Management ( Level 4 - Advanced)</dt><dd>Applies knowledge of policies and procedures to ensure adherence to auditing and accounting guidelines</dd><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Course Listing</h3>
   <ul class="text-base">
   

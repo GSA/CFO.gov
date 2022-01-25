@@ -19,19 +19,19 @@ filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 serie
 ---
 
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Behavior Illustrations</h3>
-  <p class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers</dd></p>
+  <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Proficiency Level Definition</h3>
-  <p class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></p>
+  <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Course Listing</h3>
   <ul class="text-base">
   

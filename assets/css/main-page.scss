@@ -682,6 +682,11 @@ abbr{
 .site-margin{
   .grid-container-widescreen {
     max-width: 90%;
+    .cfo-career-text-container {
+      .border-top-05 {
+        border-top-color: #fa9441;
+      }
+    }
     dd {
       margin-inline-start: 2em;
       list-style-type: disc;

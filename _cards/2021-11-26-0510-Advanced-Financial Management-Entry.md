@@ -20,19 +20,19 @@ filters: Finance-Advanced-Financial-Management GS-7-9 series-0510
 ---
 
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Behavior Illustrations</h3>
-  <p class="text-base"><dt>Advanced Financial Management ( Level 2 - Basic)</dt><dd>Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts </dd><dd> Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs</dd><dt>Advanced Financial Management ( Level 3 - Intermediate)</dt><dd>Interprets and evaluates accounting information using a variety of analytical methods to provide recommendations</dd></p>
+  <dl class="text-base"><dt>Advanced Financial Management ( Level 2 - Basic)</dt><dd>Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts </dd><dd> Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs</dd><dt>Advanced Financial Management ( Level 3 - Intermediate)</dt><dd>Interprets and evaluates accounting information using a variety of analytical methods to provide recommendations</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Proficiency Level Definition</h3>
-  <p class="text-base"><dt>Advanced Financial Management ( Level 2 - Basic)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd><dt>Advanced Financial Management ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></p>
+  <dl class="text-base"><dt>Advanced Financial Management ( Level 2 - Basic)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd><dt>Advanced Financial Management ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
+<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Course Listing</h3>
   <ul class="text-base">
   <li>Another test course,https://www.gsa.gov/ </li>
