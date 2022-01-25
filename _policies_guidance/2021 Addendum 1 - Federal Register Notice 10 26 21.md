@@ -6,6 +6,7 @@ title: "2021 Compliance Supplement Addendum 1 and 2"
 subtitle: "2021 Compliance Supplement Addendum 1 and 2"
 filters: financial-assistance guidance
 permalink: /2021-addendum-1and2/
+redirect_from: /2021-addendum-1/
 ---
 
 <p>Note to the 2021 Compliance Supplement Addendum 1 (Addendum 1)</p>
