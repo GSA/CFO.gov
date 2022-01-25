@@ -12,7 +12,7 @@
 // default mode hide banner
 
 .logo-size {
-  width: 183px;
+  width: auto;
 }
 
 .jfmip-logo-size {
@@ -413,7 +413,7 @@ ol.roman {
 
 @media screen and (min-width: 640px) {
   .logo-size {
-    width: 214px;
+    width: auto;
     height: 72px;
   }
 }
@@ -447,7 +447,7 @@ ol.roman {
   }
 
   .cfo-logo-size{
-    width:  160px;
+    width:  auto;
     height: 50px;
   }
 }
