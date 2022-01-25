@@ -1,0 +1,53 @@
+
+body {
+	margin:15px 0 0 0 !important; padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+	text-align:center; /* Hack for IE5/Win */
+
+	background-image: url('../images/bg.gif');
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #043256;
+
+}
+
+
+
+td{
+
+font-size: 12px;
+}
+
+th{
+
+font-size: 12px;
+}
+
+
+
+p {	
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-bottom: 2px;
+	font-size: 12px;
+}
+
+
+h1 {
+	margin: -2px 0 15 0;
+
+	font-size: 14px;
+	margin-left: 12px;
+	margin-top: 10px;
+	text-align: left;
+	color: #00335B;
+}
+
+
+
+hr {
+	color: #ccc;
+	background-color: #ccc;
+	height: 1px;
+}
+
