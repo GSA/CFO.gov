@@ -169,44 +169,45 @@ attached:
             </div>
             <div id="career-advancement-results-container" class="desktop:grid-col-9 usa-prose padding-right-4">
                 <!-- HTML elements for search -->
-              <div class="career-search-results-header">
-                <div class="search-container">
-                  <input type="text" id="career-advancement-search-input" placeholder="Search Career Paths..">
-                  <button type="button" id="cfo-search-button"><i class="fa fa-search"></i></button>
+                <div class="career-search-results-header">
+                    <div class="search-container">
+                        <input type="text" id="career-advancement-search-input" placeholder="Search Career Paths..">
+                        <button type="button" id="cfo-search-button"><i class="fa fa-search"></i></button>
+                    </div>
+                    <div class="career-search-results-heading">
+                    <div id="career-search-results-filter-remove-buttons"></div>
+                        <div id="career-search-results-filter-remove-all-button">
+                                <a href="javascript:void(0)" id="career-facet-remove-all-filters-button">Clear All</a>
+                        </div>
+                        <span id="cfo-pagination-results">{{ site.cards | size }}</span>
+                        <div id="career-download-buttons">
+                                <button class="cfo-pdf-select-buttons" data-op="select-all">Select All</button>
+                                <button class="cfo-pdf-select-buttons" data-op="download-selected">Download Selected</button>
+                        </div>
+                    </div>
+                </div>	
+                <div id="career-search-results">
+                <!-- This loops through the paginated posts -->
+                {% assign cards = site.cards | sort %}
+                {% for card in cards limit:5 %}
+                    <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
+                        <div class="cfo-career-outer-box">
+                            <div class="cfo-career-text-container">
+                                <p><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> 0{{ card.series }}</span></p>
+                                <p><strong>ALL:</strong> {{ card.competency }}
+                                <p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
+                                <div class="grid-row grid-gap">
+                                    {{ card.content }}
+                                </div>
+                                <div class="select-button">
+                                    <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
                 </div>
-                <div class="career-search-results-heading">
-                  <div id="career-search-results-filter-remove-buttons"></div>
-                  <div id="career-search-results-filter-remove-all-button">
-                    <a href="javascript:void(0)" id="career-facet-remove-all-filters-button">Clear All</a>
-                  </div>
-                  <div id="career-download-buttons">
-                    <button class="cfo-pdf-select-buttons" data-op="select-all">Select All</button>
-                    <button class="cfo-pdf-select-buttons" data-op="download-selected">Download Selected</button>
-                  </div>
-                </div>
-              </div>	
-        <div id="career-search-results">
-          <!-- This loops through the paginated posts -->
-          {% assign cards = site.cards | sort %}
-          {% for card in cards limit:5 %}
-          <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
-            <div class="cfo-career-outer-box">
-              <div class="cfo-career-text-container">
-                <p><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> 0{{ card.series }}</span></p>
-                <p><strong>ALL:</strong> {{ card.competency }}
-                <p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
-                <div class="grid-row grid-gap">
-                    {{ card.content }}
-                </div>
-                  <div class="select-button">
-                      <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
-                </div>
-              </div>
             </div>
-          </div>
-          {% endfor %}
         </div>
-      </div>
     </div>
-  </div>
 </div>

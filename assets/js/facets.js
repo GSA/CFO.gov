@@ -6,7 +6,8 @@ let removing = false;
 let fullSet = [];
 let competency = [];
 let competency_group = [];
-const startingSearchFilter = {};
+let startingSearchFilter = [];
+let searchOrder = [];
 $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // load all md pages
   $('#career-advancement-search-input').val('');
   if ($("#career-competency-select-all").is(":checked")) {
@@ -26,7 +27,11 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
     $(this).prop('checked', false);                                    
   });
 
-  $("#career-competency-select-all").on('change', function() { 
+  $("#career-competency-select-all").on('change', function() {
+    if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency')) searchOrder.push('competency');
+    if(startingSearchFilter.length == 0) {
+      startingSearchFilter.push({keys: null, id: 'competency'});
+    }
     if(this.checked) {
       competency_group.forEach(item => {
         let eventGroupId = createId(item);
@@ -56,9 +61,13 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
       let eventId = createId(eventGroupId +" "+ item);
       $("#"+eventId).on('change', function() { 
           if(this.checked) {
+            if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency')) searchOrder.push('competency');
             if(!ifExists(eventId)) {
-              console.log(eventId);
+              //console.log(eventId);
               createRemoveButtons('checkbox', eventId, this);
+              console.log(JSON.stringify(data));
+              console.log(JSON.stringify(startingSearchFilter));
+              console.log(JSON.stringify(searchOrder));
             }
           } else {
             adding = false;
@@ -67,10 +76,14 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
             let group = $("#"+eventId).data('group');
             if($("#"+group).is(":checked")) $("#"+group).prop( "checked", false );
             if($("#career-competency-select-all").is(":checked")) $("#career-competency-select-all").prop( "checked", false );
-            data = $.grep(data, function(e){ 
+            data = $.grep(data, function(e) { 
               return e.id != eventId; 
             });
-            if(data.length == 0) $("#career-facet-remove-all-filters-button").css('display', 'none');
+            if(data.length == 0) {
+              searchOrder = [];
+              startingSearchFilter = [];
+              $("#career-facet-remove-all-filters-button").css('display', 'none');
+            }
             $("#"+eventId+"-button").remove();
             getSearch();
           }      
@@ -81,6 +94,10 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
     let eventId = createId(item);
     $("#"+eventId).on('change', function() { 
       if(this.checked) {
+        if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency')) searchOrder.push('competency');
+        if(startingSearchFilter.length == 0) {
+          startingSearchFilter.push({keys: null, id: 'competency'});
+        }
         $("input:checkbox").each(function() {
           if ($(this).data("group") == eventId) {      
               $(this).prop('checked', true).trigger('change');                  
@@ -98,13 +115,20 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
             data = $.grep(data, function(e){ 
               return e.id != eventCompetencyId; 
             });
-            if(data.length == 0) $("#career-facet-remove-all-filters-button").css('display', 'none'); 
+            if(data.length == 0) {
+              searchOrder = [];
+              startingSearchFilter = [];
+              $("#career-facet-remove-all-filters-button").css('display', 'none');
+            }
           }
         });
         data = $.grep(data, function(e){ 
           return e.id != eventId; 
         });
-        if(data.length == 0) $("#career-facet-remove-all-filters-button").css('display', 'none');
+        if(data.length == 0) {
+          startingSearchFilter = [];
+          $("#career-facet-remove-all-filters-button").css('display', 'none');
+        }
         $("#"+eventId+"-button").remove();
         getSearch();
       }       
@@ -127,7 +151,7 @@ let searchKeys = [ // when searching the columns to search
   "relevant_courses",
 ];
 let start = 0;
-let perPage = 5; // pagination items per page
+let perPage = 10; // pagination items per page
 let totalItems = 105; // total items in results array
 let totalPages = 11; // total pages in results array / pagination items per page
 let currentPage = 1; // pagination current page
@@ -140,16 +164,9 @@ let currentPage = 1; // pagination current page
 function getFilterType(id) {
   const series = new RegExp('series-*');
   const level = new RegExp('GS-*');
-  if (series.test(id)) {
-    return 1;
-  }
-  else if (level.test(id)) {
-    return 2;
-  }
-  else if (id == 'keys') {
-    return 0;
-  }
-  return 3;
+  if(series.test(id)) return 'series';
+  else if(level.test(id)) return 'level';
+  return 'competency';
 }
 
 function createClearButton() {
@@ -181,6 +198,8 @@ function createClearButton() {
       }
     })
     data = [];
+    searchOrder = [];
+    startingSearchFilter = [];
     $("#career-facet-remove-all-filters-button").css('display', 'none');
     getSearch();
     // console.log(JSON.stringify(data));
@@ -189,6 +208,14 @@ function createClearButton() {
 
 function ifFilters() {
   return data.length > 0;
+}
+
+function ifExistsSearchOrder(type) { // returns if a search or facet filter exists in the data array
+  let exists = false;
+  searchOrder.forEach(item => {
+    if(item == type) exists = true;
+  });
+  return exists;
 }
 
 function ifExists(id) { // returns if a search or facet filter exists in the data array
@@ -248,7 +275,7 @@ function createResults(noResults, item) { // creates a results div and contents
       .replace('{{ card.competency_description }}', item.competency_description);
 
     const innerDiv2 = document.createElement("div");
-    innerDiv2.setAttribute("class", "grid-row grid-gap");
+    innerDiv2.setAttribute("class", "career-card-content");
     outerDiv3.append(innerDiv2);
     innerDiv2.innerHTML = item.content;
 
@@ -275,13 +302,21 @@ function createRemoveButtons(inputType, eventTargetId, button) {
       keys: null
     });
   }
+
   adding = true;
   removing = false;
+  if(eventTargetId.match("GS")) {
+    if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('level')) searchOrder.push('level');
+  }
+  if(eventTargetId.match("series")) {
+    if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('series')) searchOrder.push('series');
+  }
   if(data.length == 1) {
     createClearButton();
     $("#career-facet-remove-all-filters-button").css('display', 'block');
-    startingSearchFilter.id = null;
-    startingSearchFilter.keys = eventTargetId;
+    if(startingSearchFilter.length == 0) {
+      startingSearchFilter.push({keys: null, id: eventTargetId});
+    }
   }
   if(inputType == "button") button.toggleClass("active");
   const removeButtonA = document.createElement("a");
@@ -308,7 +343,11 @@ function createRemoveButtons(inputType, eventTargetId, button) {
     data = $.grep(data, function(e){ 
       return e.id != eventTargetId; 
     });
-    if(data.length == 0) $("#career-facet-remove-all-filters-button").css('display', 'none');
+    if(data.length == 0) {
+      searchOrder = [];
+      startingSearchFilter = [];
+      $("#career-facet-remove-all-filters-button").css('display', 'none');
+    }
     $("#"+eventTargetId+"-button").remove();
     getSearch();
     // console.log(JSON.stringify(data));
@@ -324,58 +363,120 @@ function createButtonText(text) { // creates the remove button text
   }
 }
 
+function setSearchKeysFilters($keys) {
+  
+  // search by phrase instead of by the word.
+  // if first search all md files and build results
+    // get add ids of checkboxes and buttons
+    // use $(this).prop('checked', true).trigger('change'); to check checkboxes
+    // us $(this).prop('checked', true).trigger('change'); to set button so all other events possibly happen to.
+  // if second to fourth remove items without phrase.
+    // get add ids of checkboxes and buttons
+    // use $(this).prop('checked', false).trigger('change'); to uncheck checkboxes
+    // us $(this).prop('checked', false).trigger('change'); to set button so all other events possibly happen to.
+}
+
 function getSearch() {
   results = [];
   $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // load all md pages
     // take search and facet(data) selections and iterate through res looking for matches
-    res.forEach(item => { // go over all loaded md pages
-      data.forEach(obj => { // go over the search and facets selected
-        let filters = item.filters.split(" ");
-        let val = '';
-        let key = 'id';
-        switch (getFilterType(obj.id)) {
+    /* if(startingSearchFilter.length > 0) {
+      let cvalue = '';
+      if(startingSearchFilter[0].keys === null) {
+        console.log('Its a filter: ' + startingSearchFilter[0].id);
+      } else {
+        console.log('Its a Search: ' + startingSearchFilter[0].keys);
+      }
+    } */
+    
+
+    // create a count of the the items displayed and display it.
+    // count all search results for an item as a sanity check and make a spread sheet.
+    if(searchOrder.length > 0) {
+      searchOrder.forEach((searchItem, index) => {
+        console.log("Index :" + index);
+        switch(index) {
           case 0:
-            val = item.title;
-            key = 'keys';
+            if(searchItem == 'search') {
+
+            } else {
+              console.log("Starting Id: " + startingSearchFilter[0].id);
+              res.forEach(item => { // go over all loaded md pages
+                data.forEach(obj => { // go over the search and facets selected
+                  if(getFilterType(obj.id) == searchItem) {
+                    let filters = item.filters.split(" ");
+                    let val = '';
+                    switch (getFilterType(obj.id)) {
+                      case 'series': // Series
+                        val = filters[2];
+                      break;
+                      case 'level': // GS Level
+                        val = filters[1];
+                      break;
+                      case 'competency': // Group - Competency
+                        val = filters[0];
+                    }
+                    //console.log("Val: " + val);
+                    if (val.toLowerCase() == obj.id.toLowerCase()) {
+                      if( !ifExistsResults(item.title)) {
+                        results.push(item);
+                      }
+                    }
+                  }
+                });
+              });
+            }
           break;
-          case 1:
-            val = filters[2];
+          default:
+            if(searchItem == 'search') {
+
+            } else {
+              // two is the same filter 
+              results.forEach(item => {
+
+              });
+            }
           break;
-          case 2:
-            val = filters[1];
-          break;
-          case 3:
-            val = filters[0];
-        }
-        if (val.toLowerCase() == obj[key].toLowerCase()) {
-          if( !ifExistsResults(item.title)) {
-            results.push(item);
-          }
         }
       });
-    });
+    } else {
+      console.log("Results: " + results.length);
+    }
 
     $("#career-search-results").empty();
     if(results.length === 0) {
-      createResults(true);
+      console.log("Search Order Length: " + searchOrder.length);
+      if(searchOrder.length === 0) {
+        for (i=0; i < Math.min(fullSet.length, 10); i++) {
+          if (typeof(fullSet[i]) != "undefined" && fullSet[i] !== null) {
+            createResults(false, fullSet[i]);
+          }
+        }
+        $("#cfo-pagination-results").text(fullSet.length);
+      } else {
+        createResults(true);
+        setTotalItems();
+        $("#cfo-pagination-results").text(totalItems);
+      }
       $("#cfo-page-right").attr("disabled", "disabled");
       $("#cfo-page-left").attr("disabled", "disabled");
     } else {
-      for (i=0; i < Math.min(results.length, perPage); i++) {
+      for (i=0; i < Math.min(results.length, 10); i++) {
         if (typeof(results[i]) != "undefined" && results[i] !== null) {
           createResults(false, results[i]);
         }
       }
       $("#cfo-page-left").attr("disabled", "disabled");
       $("#cfo-page-right").removeAttr("disabled");
+
+      setTotalItems();
+      $("#cfo-pagination-results").text(totalItems);
     }
     
     setCurrentPage(1);
     $("#cfo-pagination-page").text(currentPage);
     setTotalPages();
     $("#cfo-pagination-pages").text(totalPages);
-    setTotalItems();
-    $("#cfo-pagination-results").text(totalItems);
   });
   unselectAll();
 }
@@ -392,6 +493,7 @@ function getSearch() {
           if(button[0].id == "cfo-page-right" || button[0].id == "cfo-page-left" || button[0].id == "cfo-search-button") {
             if(button[0].id == "cfo-search-button") {
               // console.log("Input Val: " + $("#career-advancement-search-input").val());
+              if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('search')) searchOrder.push('search');
               if(data.length) {
                 data.forEach(item => {
                   if(item.keys != undefined) {
@@ -410,11 +512,11 @@ function getSearch() {
                 });
                 createClearButton();
                 $("#career-facet-remove-all-filters-button").css('display', 'block');
-                startingSearchFilter.id = 'keys';
-                startingSearchFilter.keys = $("#career-advancement-search-input").val();
+              }
+              if(startingSearchFilter.length == 0) {
+                startingSearchFilter.push({keys: $("#career-advancement-search-input").val(), id: 'keys'});
               }
               getSearch();
-              //console.log(JSON.stringify(data));
               return false;
             } else if(button[0].id == "cfo-page-right") {
               if(currentPage < totalPages) {
@@ -423,10 +525,10 @@ function getSearch() {
                 $("#cfo-pagination-page").text(currentPage);
                 if(currentPage == 1) {
                   start = 0;
-                  end = perPage;
+                  end = 10;
                 } else {
-                  start = (currentPage - 1) * perPage;
-                  end = start + perPage;
+                  start = (currentPage - 1) * 10;
+                  end = start + 10;
                 }
                 //console.log(start + " - " + end);
                 for(i=start; i<end; i++) {
@@ -445,10 +547,10 @@ function getSearch() {
                 $("#cfo-pagination-page").text(currentPage);
                 if(currentPage == 1) {
                   start = 0;
-                  end = perPage;
+                  end = 10;
                 } else {
-                  start = (currentPage - 1) * perPage;
-                  end = start + perPage;
+                  start = (currentPage - 1) * 10;
+                  end = start + 10;
                 }
                 //console.log(start + " - " + end);
                 for(i=start; i<end; i++) {
@@ -465,6 +567,8 @@ function getSearch() {
             if(!ifExists(evt.target.id)) {
               createRemoveButtons('button', evt.target.id, button);
             }
+            console.log(JSON.stringify(data));
+            console.log(JSON.stringify(startingSearchFilter));
           }
         });
     });
