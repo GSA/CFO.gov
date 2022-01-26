@@ -1,7 +1,4 @@
 
-// Import the US Web Design System SASS.
-
-@import "uswds";
 @import "../../_sass/members";
 @import "../../_sass/knowledgesharing";
 
@@ -681,12 +678,6 @@ abbr{
   display: none; }
 .site-margin{
   .grid-container-widescreen {
-    max-width: 90%;
-    .cfo-career-text-container {
-      .border-top-05 {
-        border-top-color: #fa9441;
-      }
-    }
     dd {
       margin-inline-start: 2em;
       list-style-type: disc;

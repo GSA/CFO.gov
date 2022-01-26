@@ -327,9 +327,9 @@ function createRemoveButtons(inputType, eventTargetId, button) {
   if(inputType == "button") button.toggleClass("active");
   const removeButtonA = document.createElement("a");
   removeButtonA.setAttribute("id", eventTargetId+"-button");
-  removeButtonA.setAttribute("class", "career-facet-remove-button");
-  const removeButtonText = document.createTextNode(createButtonText(eventTargetId));
-  removeButtonA.appendChild(removeButtonText);
+  removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 text-no-uppercase");
+  const removeButtonText = createButtonText(eventTargetId);
+  removeButtonA.innerHTML = removeButtonText + "&nbsp;<i class='fa fa-times'></i>";
   const buttonContainer = document.getElementById("career-search-results-filter-remove-buttons");
   buttonContainer.appendChild(removeButtonA);
 
@@ -385,9 +385,9 @@ function adjustSearchOrder() {
 
 function createButtonText(text) { // creates the remove button text
   let part1 = text.split("-");
-  if(part1[0] == 'GS') return part1[0]+" "+part1[1]+"-"+part1[2]+" X";
+  if(part1[0] == 'GS') return part1[0]+" "+part1[1]+"-"+part1[2];
   else {
-    let removeButtonText = part1.join(" ") + " X";
+    let removeButtonText = part1.join(" ");
     return (' '+removeButtonText).replace(/ [\w]/g, a => a.toLocaleUpperCase()).trim();
   }
 }

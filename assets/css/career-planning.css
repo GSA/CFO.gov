@@ -25,41 +25,6 @@
   flex-direction: column;
 }
 
-.career-facet-remove-button {
-  color: #000;
-  padding: 2px 10px;
-  border: 1px solid #F39268;
-  border-radius: 2px;
-  background-color: #F39268;
-  margin-right: 2px;
-  margin-bottom: 2px;
-  cursor: pointer;
-  max-height: 30px;
-}
-
-.cfo-pdf-select-buttons {
-  color: #005ea2;
-  padding: 2px 10px;
-  border: 2px solid #005ea2;
-  border-radius: 2px;
-  background-color: white;
-  margin-right: 2px;
-  margin-bottom: 2px;
-  cursor: pointer;
-  max-height: 30px;
-  position: relative;
-}
-
-.cfo-pdf-select-buttons[disabled]:after {
-  position: absolute;
-  content: ' ';
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background-color: #00000033;
-}
-
 .inner-facet-block button {
   display: block;
   padding: 7px 10px;
@@ -97,11 +62,6 @@
   width: 100%;
 }
 
-#career-search-results-filter-remove-buttons {
-  max-width: 550px;
-  width: 100%;
-}
-
 .cfo-card-header-content {
   display: flex;
   justify-content: space-between;
@@ -133,10 +93,8 @@
   width: 33%;
 }
 
-.career-search-results-heading {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+input#career-advancement-search-input {
+  width: 23rem;
 }
 
 .career-search-results-inner-heading {
@@ -220,13 +178,6 @@
   margin-top: 5px;
 } */
 
-#career-search-results-filter-remove-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  padding-left: 15px;
-}
-
 #career-search-results-filter-pagination {
   min-width: 25%;
   display: flex;
@@ -272,28 +223,6 @@
 }
 
 /************* Search *********************/
-
-
-#career-advancement-search-input {
-  max-width: 650px;
-  width: 100%;
-  padding: 10px;
-  border: 2px solid #999;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-#cfo-search-button {
-  padding: 10px;
-  color: white;
-  background-color: #005ea2;
-  border: 1px solid #005ea2;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-left: none;
-}
 
 .cfo-pagination-text {
   padding: 0;

@@ -14,13 +14,11 @@ attached:
 ---
 <div id="blog" class="bg-primary-darker usa-content font-serif-lg padding-y-6">
     <div class="grid-container-widescreen">
-        <div class="grid-row grid-gap">
-            <div class="desktop:grid-col-2 bg-white"><a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logos/logo-main-cfo.png" alt="back to CFO.gov"> </a> </div>
-            <div class="desktop:grid-col-9">
-                <h1 class="text-normal text-white margin-0">Career Planning Tool</h1>
-                <span class="text-base-lighter display-block padding-top-1 text-light">
-                    Research what you need to advance in your government career.
-                </span>
+        <div class="grid-row grid-gap flex-row flex-align-center">
+            <div class="grid-col-12 desktop:grid-col-2 bg-white"><a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logos/logo-main-cfo.png" alt="back to CFO.gov"> </a> </div>
+            <div class="grid-col-12 desktop:grid-col-9">
+                <h1 class="text-normal text-white margin-bottom-1">Career Planning Tool</h1>
+                <p class="text-base-lighter padding-top-0 margin-top-0 text-light">Research what you need to advance in your government career.</p> 
             </div>
         </div>
     </div>
@@ -28,10 +26,10 @@ attached:
 <div class="grid-container-widescreen">
     <div class="grid-row">
         <div class="usa-graphic-list__row grid-row grid-gap">
-            <div class="usa-media-block tablet:grid-col-3 career-advancement-block">
-                <p class="career-facets-filter-heading"><i>Filter your results</i></p>
+            <div class="usa-media-block tablet:grid-col-4 desktop:grid-col-3 career-advancement-block">
+                <h3>Filter your results</h3>
                 <div class="facets-panel">
-                    <h3>Job Series</h3>
+                    <h3 class="margin-top-0">Job Series</h3>
                     <div class="inner-facet-block">
                         {% assign series_array = "" | split: "," %}
 
@@ -170,45 +168,48 @@ attached:
                     </div>
                 </div>
             </div>
-            <div id="career-advancement-results-container" class="desktop:grid-col-9 usa-prose padding-right-4">
+            <div id="career-advancement-results-container" class="tablet:grid-col-8 desktop:grid-col-9 usa-prose padding-right-4">
                 <!-- HTML elements for search -->
-                <div class="career-search-results-header">
-                    <div class="search-container">
-                        <input type="text" id="career-advancement-search-input" placeholder="Search Career Paths..">
-                        <button type="button" id="cfo-search-button"><i class="fa fa-search"></i></button>
+              <section class="career-search-results-header tablet:margin-top-7">
+                <div class="search-container flex-justify flex-wrap tablet:flex-no-wrap">
+                    <form class="usa-search" role="search">
+                        <label class="usa-sr-only" for="career-advancement-search-input"> Search </label>
+                        <div class="margin-bottom-2">
+                            <input type="text" id="career-advancement-search-input" placeholder="Search Career Paths.." class="usa-input margin-top-0" type="search" name="search">
+                            <button class="usa-button" type="submit" id="cfo-search-button" style="height:2.5rem;">
+                                <span class="usa-search__submit-text">Search</span>
+                            </button>
+                        </div>
+                    </form>
+                    <div id="career-download-buttons">
+                        <button class="usa-button usa-button--outline margin-bottom-1" data-op="select-all">Select All</button>
+                        <button class="usa-button usa-button--outline margin-bottom-1" data-op="download-selected">Download Selected</button>
                     </div>
-                    <div class="career-search-results-heading">
+                </div>
+
+                <section class="display-flex margin-y-3">
                     <div id="career-search-results-filter-remove-buttons"></div>
-                        <div id="career-search-results-filter-remove-all-button">
-                                <a href="javascript:void(0)" id="career-facet-remove-all-filters-button">Clear All</a>
-                        </div>
-                        <span id="cfo-pagination-results">{{ site.cards | size }}</span>
-                        <div id="career-download-buttons">
-                                <button class="cfo-pdf-select-buttons" data-op="select-all">Select All</button>
-                                <button class="cfo-pdf-select-buttons" data-op="download-selected" disabled>Download Selected</button>
-                        </div>
-                    </div>
-                </div>	
-                <div id="career-search-results">
-                <!-- This loops through the paginated posts -->
-                {% assign cards = site.cards | sort %}
-                {% for card in cards limit:5 %}
-                    <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
-                        <div class="cfo-career-outer-box">
-                            <div class="cfo-career-text-container">
-                                <p><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> 0{{ card.series }}</span></p>
-                                <p><strong>ALL:</strong> {{ card.competency }}
-                                <p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
-                                <div class="grid-row grid-gap">
-                                    {{ card.content }}
-                                </div>
-                                <div class="select-button">
-                                    <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
+                    <div id="career-search-results-filter-remove-all-button" class="margin-left-2">
+                        <a href="javascript:void(0)" id="career-facet-remove-all-filters-button">Clear All</a>
+                    </div>                
+                </section>
+
+              </section>	
+        <div id="career-search-results">
+          <!-- This loops through the paginated posts -->
+          {% assign cards = site.cards | sort %}
+          {% for card in cards limit:10 %}
+          <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
+            <div class="cfo-career-outer-box">
+              <div class="cfo-career-text-container">
+                <p><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> 0{{ card.series }}</span></p>
+                <p><strong>ALL:</strong> {{ card.competency }}
+                <p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
+                <div class="grid-row grid-gap">
+                    {{ card.content }}
+                </div>
+                  <div class="select-button">
+                      <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
                 </div>
             </div>
         </div>

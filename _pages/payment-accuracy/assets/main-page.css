@@ -2047,20 +2047,6 @@ img {
   font-size: 1.0647058824rem;
   line-height: 1.2679558011 ; }
 
-.usa-select, .usa-range, .usa-input,
-.usa-textarea {
-  border-width: 1px;
-  border-color: #565c65 ;
-  border-style: solid;
-  appearance: none;
-  border-radius: 0;
-  color: #1b1b1b;
-  display: block;
-  height: 2.5rem;
-  margin-top: 0.5rem;
-  max-width: 30rem;
-  padding: 0.5rem;
-  width: 100%; }
   .usa-input--success.usa-select, .usa-input--success.usa-range, .usa-input--success.usa-input,
   .usa-input--success.usa-textarea {
     border-width: 0.25rem;
