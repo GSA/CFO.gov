@@ -229,9 +229,9 @@ function ifExists(id) { // returns if a search or facet filter exists in the dat
   return exists;
 }
 
-function ifExistsResults(title) { // returns if an item exists in the results array
+function ifExistsResults(title, array) { // returns if an item exists in the results array
   let exists = false;
-  results.forEach(item => {
+  array.forEach(item => {
     if(item.title == title) exists = true;
   });
   return exists;
@@ -388,19 +388,19 @@ function getSearch() {
         switch(index) {
           case 0:
             if(searchItem == 'search') { // is the search always first No - if first add if second subtract
-              console.log(startingSearchFilter[0].keys);
+              //console.log(startingSearchFilter[0].keys);
               res.forEach(item => { // go over all loaded md pages
                 searchKeys.forEach(term => {
                   //console.log(item[term].toLowerCase() + " &&&& " + startingSearchFilter[0].keys.toLowerCase());
                   if(item[term].toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())) {
-                    if( !ifExistsResults(item.title)) {
+                    if(!ifExistsResults(item.title, results)) {
                       results.push(item);
                     }
                   }
                 });
               });
             } else {
-              console.log("Starting Id: " + startingSearchFilter[0].id);
+              //console.log("Starting Id: " + startingSearchFilter[0].id);
               res.forEach(item => { // go over all loaded md pages
                 data.forEach(obj => { // go over the search and facets selected
                   if(getFilterType(obj.id) == searchItem) {
@@ -418,7 +418,7 @@ function getSearch() {
                     }
                     //console.log("Val: " + val);
                     if (val.toLowerCase() == obj.id.toLowerCase()) {
-                      if( !ifExistsResults(item.title)) {
+                      if(!ifExistsResults(item.title, results)) {
                         results.push(item);
                       }
                     }
@@ -428,12 +428,67 @@ function getSearch() {
             }
           break;
           default:
+            let newResults = [];
             if(searchItem == 'search') {
-
+              // create a results array for the next search criteria
+              res.forEach(item => { // go over all loaded md pages
+                searchKeys.forEach(term => {
+                  //console.log(item[term].toLowerCase() + " &&&& " + startingSearchFilter[0].keys.toLowerCase());
+                  if(item[term].toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())) {
+                    if(!ifExistsResults(item.title, newResults)) {
+                      newResults.push(item);
+                    }
+                  }
+                });
+              });
+              console.log("New Results: " + newResults.length);
             } else {
-              // two is the same filter 
-              results.forEach(item => {
+              // create a results array for the next search criteria
+              res.forEach(item => { // go over all loaded md pages
+                data.forEach(obj => { // go over the search and facets selected
+                  if(getFilterType(obj.id) == searchItem) {
+                    let filters = item.filters.split(" ");
+                    let val = '';
+                    switch (getFilterType(obj.id)) {
+                      case 'series': // Series
+                        val = filters[2];
+                      break;
+                      case 'level': // GS Level
+                        val = filters[1];
+                      break;
+                      case 'competency': // Group - Competency
+                        val = filters[0];
+                    }
+                    //console.log("Val: " + val);
+                    if (val.toLowerCase() == obj.id.toLowerCase()) {
+                      if(!ifExistsResults(item.title, newResults)) {
+                        newResults.push(item);
+                      }
+                    }
+                  }
+                });
+              });
+              console.log("New Results: " + newResults.length);
 
+              // look for newfilters in prior results set and if they are there
+              // save the prior results in to a different array.
+              finishResults = [];
+              results.forEach(item => {
+                newResults.forEach(newItem => {
+                  if (item.title.toLowerCase() == newItem.title.toLowerCase()) {
+                    if(!ifExistsResults(item.title, finishResults)) {
+                      finishResults.push(item);
+                    }
+                  }
+                });
+              });
+
+              // populate results with finishResults
+              results = [];
+              finishResults.forEach(item => {
+                if(!ifExistsResults(item.title, results)) {
+                  results.push(item);
+                }
               });
             }
           break;
@@ -445,7 +500,7 @@ function getSearch() {
 
     $("#career-search-results").empty();
     if(results.length === 0) {
-      console.log("Search Order Length: " + searchOrder.length);
+      // console.log("Search Order Length: " + searchOrder.length);
       if(searchOrder.length === 0) {
         for (i=0; i < Math.min(fullSet.length, 10); i++) {
           if (typeof(fullSet[i]) != "undefined" && fullSet[i] !== null) {
@@ -463,7 +518,7 @@ function getSearch() {
     } else {
       for (i=0; i < Math.min(results.length, 10); i++) {
         if (typeof(results[i]) != "undefined" && results[i] !== null) {
-          console.log(JSON.stringify(results[i]));
+          // console.log(JSON.stringify(results[i]));
           createResults(false, results[i]);
         }
       }
