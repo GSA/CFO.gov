@@ -327,12 +327,12 @@ div[data-card-filter] {
   padding: 0 15px;
 }
 
-.cfo-text-container p span {
+.cfo-career-text-container p span {
   margin-right: 12em;
 }
 
-.cfo-text-container p.competency-desc {
-  font-size: 1.25%;
+.cfo-career-text-container p.competency-desc {
+  font-size: 125%;
 }
 
 .career-card-content .card-content-column dl {
@@ -340,8 +340,8 @@ div[data-card-filter] {
 }
 
 .career-card-content .card-content-column dt {
-  font-weight: strong;
-  margin-bottom: 1em;
+  font-weight: bold;
+  margin-top: 1em;
 }
 
 .career-card-content .card-content-column dd {
