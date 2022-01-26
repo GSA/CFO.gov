@@ -21,13 +21,13 @@ filters: Audit-Audit-Reporting GS-14-15 series-0511
 <div class="desktop:grid-col-4 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Behavior Illustrations</h3>
-  <dl class="text-base"></dl>
+  <dl class="text-base"><dt>Audit Reporting ( Level 5 - Expert)</dt><dd>Applies basic knowledge of budget principles to assist in planning</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
 <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Proficiency Level Definition</h3>
-  <dl class="text-base"></dl>
+  <dl class="text-base"><dt>Audit Reporting ( Level 5 - Expert)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">

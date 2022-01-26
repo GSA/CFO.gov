@@ -21,13 +21,13 @@ filters: Audit-Audit-Concepts-Policies-and-Principles GS-10-13 series-0511
 <div class="desktop:grid-col-4 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Behavior Illustrations</h3>
-  <dl class="text-base"><dt>Audit Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Audit Concepts, Policies and Principles ( Level 5 - Expert)</dt><dd>Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials</dd></dl>
+  <dl class="text-base"><dt>Audit Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Audit Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
 <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Proficiency Level Definition</h3>
-  <dl class="text-base"><dt>Audit Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Develops audit guidelines that conform to Generally Accepted Auditing Standards (GAAS) and Generally Accepted Government Auditing Standards (GAGAS) </dd><dd> Makes recommendations for improvement or implementation of new policies</dd><dt>Audit Concepts, Policies and Principles ( Level 5 - Expert)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+  <dl class="text-base"><dt>Audit Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Develops audit guidelines that conform to Generally Accepted Auditing Standards (GAAS) and Generally Accepted Government Auditing Standards (GAGAS) </dd><dd> Makes recommendations for improvement or implementation of new policies</dd><dt>Audit Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">

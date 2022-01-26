@@ -21,13 +21,13 @@ filters: Accounting-Accounting-Analysis GS-10-13 series-0560
 <div class="desktop:grid-col-4 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Behavior Illustrations</h3>
-  <dl class="text-base"><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Drafts sections of audit reports, statements or other documentation to support audit findings</dd><dt>Accounting Analysis ( Level 5 - Expert)</dt><dd>Applies knowledge of policies and procedures to ensure adherence to budget and financial guidelines</dd></dl>
+  <dl class="text-base"><dt>Accounting Analysis ( Level 3 - Intermediate)</dt><dd>Drafts sections of audit reports, statements or other documentation to support audit findings</dd><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Applies knowledge of policies and procedures to ensure adherence to budget and financial guidelines</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
 <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Proficiency Level Definition</h3>
-  <dl class="text-base"><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Accounting Analysis ( Level 5 - Expert)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
+  <dl class="text-base"><dt>Accounting Analysis ( Level 3 - Intermediate)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">

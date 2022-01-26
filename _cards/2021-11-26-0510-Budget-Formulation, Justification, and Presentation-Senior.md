@@ -21,13 +21,13 @@ filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 serie
 <div class="desktop:grid-col-4 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Behavior Illustrations</h3>
-  <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability</dd></dl>
+  <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 4 - Advanced)</dt><dd>Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability</dd><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Examines a variety of program plans and funding to determine performance in accordance with appropriate procedures, regulations and law</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
 <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Proficiency Level Definition</h3>
-  <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
+  <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">

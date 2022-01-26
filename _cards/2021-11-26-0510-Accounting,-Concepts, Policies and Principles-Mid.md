@@ -21,13 +21,13 @@ filters: Accounting-Accounting-Concepts-Policies-and-Principles GS-10-13 series-
 <div class="desktop:grid-col-4 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Behavior Illustrations</h3>
-  <dl class="text-base"><dt>Accounting, Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials</dd><dt>Accounting, Concepts, Policies and Principles ( Level 5 - Expert)</dt><dd>Interprets and evaluates budget execution for compliance with fiscal law and guidance</dd></dl>
+  <dl class="text-base"><dt>Accounting, Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials</dd><dt>Accounting, Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Interprets and evaluates budget execution for compliance with fiscal law and guidance</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
 <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
   <h3>Proficiency Level Definition</h3>
-  <dl class="text-base"><dt>Accounting, Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Accounting, Concepts, Policies and Principles ( Level 5 - Expert)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+  <dl class="text-base"><dt>Accounting, Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Accounting, Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">

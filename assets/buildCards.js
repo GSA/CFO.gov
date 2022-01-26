@@ -53,7 +53,8 @@ function buildCards () {
             card.competencyGroup.replace(/ /g, '-') + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-'),
             'GS-' + card.gsLevel,
             'series-0' + card.jobSeries
-          ].join(' ');
+          ].join(' '),
+          debugMode = (card.careerLevel == 'Senior' && card.jobSeries == '501' && card.competency == 'Accounting Analysis');
           
         let courses = "\r\n",
           behaviorMarkup = "",
@@ -68,19 +69,20 @@ function buildCards () {
           
           let levels = ['1', '2', '3', '4', '5'];
           for (i = 0, l = levels.length; i < l; i++) {
-            if (typeof card.behavior[i] != "undefined") {
-              behaviorMarkup += `<dt>${ card.competency } ( ${ levelToString(levels[i]) })</dt>`;
+            let key = levels[i];
+            if (typeof card.behavior[key] != "undefined") {
+              behaviorMarkup += `<dt>${ card.competency } ( ${ levelToString(key) })</dt>`;
               //behaviorMarkup += `<dd>${ card.behavior[i] }</dd>`;
-              let frags = card.behavior[i].split('?').filter(x => !!x.trim());
+              let frags = card.behavior[key].split('?').filter(x => !!x.trim());
               for (let j = 0, k = frags.length; j < k; j++) {
                 behaviorMarkup += `<dd>${ frags[j] }</dd>`;
               }
             }
             
-            if (typeof card.prof[i] != "undefined") {
-              profLevelMarkup += `<dt>${ card.competency } ( ${ levelToString(levels[i]) })</dt>`;
+            if (typeof card.prof[key] != "undefined") {
+              profLevelMarkup += `<dt>${ card.competency } ( ${ levelToString(key) })</dt>`;
               // profLevelMarkup += `<dd>${ card.prof[i] }</dd>`;
-              let frags = card.prof[i].split('?').filter(x => !!x.trim());
+              let frags = card.prof[key].split('?').filter(x => !!x.trim());
               for (let j = 0, k = frags.length; j < k; j++) {
                 profLevelMarkup += `<dd>${ frags[j] }</dd>`;
               }
@@ -89,7 +91,7 @@ function buildCards () {
           
           let courseUnique = [...new Set(card.courses)].filter(x => x || x.trim());
           for (i = 0, l = courseUnique.length; i < l; i++) {
-            courseMarkup += `<li>${ courseUnique[i] }</li>`;
+            courseMarkup += `<li>${ courseUnique[i].join('<br>') }</li>`;
           }
       
         let output = `---
