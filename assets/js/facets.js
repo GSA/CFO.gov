@@ -29,7 +29,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
   });
 
   $("#career-competency-select-all").on('change', function() {
-    if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency')) searchOrder.push('competency');
+    if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency', searchOrder)) searchOrder.push('competency');
     if(startingSearchFilter.length == 0) {
       startingSearchFilter.push({keys: null, id: 'competency'});
     }
@@ -62,13 +62,13 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
       let eventId = createId(eventGroupId +" "+ item);
       $("#"+eventId).on('change', function() { 
           if(this.checked) {
-            if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency')) searchOrder.push('competency');
+            if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency', searchOrder)) searchOrder.push('competency');
             if(!ifExists(eventId)) {
               //console.log(eventId);
               createRemoveButtons('checkbox', eventId, this);
-              console.log(JSON.stringify(data));
-              console.log(JSON.stringify(startingSearchFilter));
-              console.log(JSON.stringify(searchOrder));
+              // console.log(JSON.stringify(data));
+              // console.log(JSON.stringify(startingSearchFilter));
+              // console.log(JSON.stringify(searchOrder));
             }
           } else {
             adding = false;
@@ -80,6 +80,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
             data = $.grep(data, function(e) { 
               return e.id != eventId; 
             });
+            adjustSearchOrder();
             if(data.length == 0) {
               searchOrder = [];
               startingSearchFilter = [];
@@ -96,7 +97,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
     let eventId = createId(item);
     $("#"+eventId).on('change', function() { 
       if(this.checked) {
-        if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency')) searchOrder.push('competency');
+        if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency', searchOrder)) searchOrder.push('competency');
         if(startingSearchFilter.length == 0) {
           startingSearchFilter.push({keys: null, id: 'competency'});
         }
@@ -117,6 +118,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
             data = $.grep(data, function(e){ 
               return e.id != eventCompetencyId; 
             });
+            adjustSearchOrder();
             if(data.length == 0) {
               searchOrder = [];
               startingSearchFilter = [];
@@ -127,6 +129,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
         data = $.grep(data, function(e){ 
           return e.id != eventId; 
         });
+        adjustSearchOrder();
         if(data.length == 0) {
           startingSearchFilter = [];
           $("#career-facet-remove-all-filters-button").css('display', 'none');
@@ -213,9 +216,9 @@ function ifFilters() {
   return data.length > 0;
 }
 
-function ifExistsSearchOrder(type) { // returns if a search or facet filter exists in the data array
+function ifExistsSearchOrder(type, array) { // returns if a search or facet filter exists in the data array
   let exists = false;
-  searchOrder.forEach(item => {
+  array.forEach(item => {
     if(item == type) exists = true;
   });
   return exists;
@@ -309,10 +312,10 @@ function createRemoveButtons(inputType, eventTargetId, button) {
   adding = true;
   removing = false;
   if(eventTargetId.match("GS")) {
-    if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('level')) searchOrder.push('level');
+    if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('level', searchOrder)) searchOrder.push('level');
   }
   if(eventTargetId.match("series")) {
-    if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('series')) searchOrder.push('series');
+    if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('series', searchOrder)) searchOrder.push('series');
   }
   if(data.length == 1) {
     createClearButton();
@@ -346,6 +349,7 @@ function createRemoveButtons(inputType, eventTargetId, button) {
     data = $.grep(data, function(e){ 
       return e.id != eventTargetId; 
     });
+    adjustSearchOrder();
     if(data.length == 0) {
       searchOrder = [];
       startingSearchFilter = [];
@@ -355,6 +359,28 @@ function createRemoveButtons(inputType, eventTargetId, button) {
     getSearch();
     // console.log(JSON.stringify(data));
   });
+}
+
+function adjustSearchOrder() {
+  let newSearchOrder = [];
+  // console.log(JSON.stringify(data));
+  data.forEach(item => {
+    if(item.type == 'keys') {
+      if(!ifExistsSearchOrder('search', newSearchOrder)) {
+        newSearchOrder.push('search');
+      }
+    } else {
+      // console.log("Item Id: " + item.id + " &&& Type: " + getFilterType(item.id))
+      if(!ifExistsSearchOrder(getFilterType(item.id), newSearchOrder)) {
+        newSearchOrder.push(getFilterType(item.id));
+      }
+    }
+  });
+  searchOrder = [];
+  newSearchOrder.forEach(item => {
+    searchOrder.push(item);
+  });
+  // console.log("New Search Order: " + JSON.stringify(newSearchOrder) + " &&& Old Search Order: " + JSON.stringify(searchOrder));
 }
 
 function createButtonText(text) { // creates the remove button text
@@ -384,7 +410,7 @@ function getSearch() {
     // count all search results for an item as a sanity check and make a spread sheet.
     if(searchOrder.length > 0) {
       searchOrder.forEach((searchItem, index) => {
-        console.log("Index :" + index);
+        // console.log("Index :" + index);
         switch(index) {
           case 0:
             if(searchItem == 'search') { // is the search always first No - if first add if second subtract
@@ -432,16 +458,20 @@ function getSearch() {
             if(searchItem == 'search') {
               // create a results array for the next search criteria
               res.forEach(item => { // go over all loaded md pages
-                searchKeys.forEach(term => {
-                  //console.log(item[term].toLowerCase() + " &&&& " + startingSearchFilter[0].keys.toLowerCase());
-                  if(item[term].toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())) {
-                    if(!ifExistsResults(item.title, newResults)) {
-                      newResults.push(item);
+                searchKeys.forEach(term => { 
+                  data.forEach(obj => { // go over the search and facets selected
+                    if(obj.type == 'keys') {
+                      // console.log(item[term].toLowerCase() + " &&&& " + obj.keys.toLowerCase());
+                      if(item[term].toLowerCase().match(obj.keys.toLowerCase())) {
+                        if(!ifExistsResults(item.title, newResults)) {
+                          newResults.push(item);
+                        }
+                      }
                     }
-                  }
+                  });
                 });
               });
-              console.log("New Results: " + newResults.length);
+              // console.log("New Results: " + newResults.length);
             } else {
               // create a results array for the next search criteria
               res.forEach(item => { // go over all loaded md pages
@@ -468,34 +498,34 @@ function getSearch() {
                   }
                 });
               });
-              console.log("New Results: " + newResults.length);
+              // console.log("New Results: " + newResults.length);
+            }
 
-              // look for newfilters in prior results set and if they are there
-              // save the prior results in to a different array.
-              finishResults = [];
-              results.forEach(item => {
-                newResults.forEach(newItem => {
-                  if (item.title.toLowerCase() == newItem.title.toLowerCase()) {
-                    if(!ifExistsResults(item.title, finishResults)) {
-                      finishResults.push(item);
-                    }
+            // look for newfilters in prior results set and if they are there
+            // save the prior results in to a different array.
+            finishResults = [];
+            results.forEach(item => {
+              newResults.forEach(newItem => {
+                if (item.title.toLowerCase() == newItem.title.toLowerCase()) {
+                  if(!ifExistsResults(item.title, finishResults)) {
+                    finishResults.push(item);
                   }
-                });
-              });
-
-              // populate results with finishResults
-              results = [];
-              finishResults.forEach(item => {
-                if(!ifExistsResults(item.title, results)) {
-                  results.push(item);
                 }
               });
-            }
+            });
+
+            // populate results with finishResults
+            results = [];
+            finishResults.forEach(item => {
+              if(!ifExistsResults(item.title, results)) {
+                results.push(item);
+              }
+            });
           break;
         }
       });
     } else {
-      console.log("Results: " + results.length);
+      // console.log("Results: " + results.length);
     }
 
     $("#career-search-results").empty();
@@ -549,7 +579,7 @@ function getSearch() {
           if(button[0].id == "cfo-page-right" || button[0].id == "cfo-page-left" || button[0].id == "cfo-search-button") {
             if(button[0].id == "cfo-search-button") {
               // console.log("Input Val: " + $("#career-advancement-search-input").val());
-              if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('search')) searchOrder.push('search');
+              if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('search', searchOrder)) searchOrder.push('search');
               if(startingSearchFilter.length == 0) {
                 startingSearchFilter.push({keys: $("#career-advancement-search-input").val(), id: 'keys'});
               }
@@ -558,26 +588,31 @@ function getSearch() {
                 startingSearchFilter.push({keys: $("#career-advancement-search-input").val(), id: 'keys'});
               }
               if(data.length) {
+                let searchExists = false;
                 data.forEach(item => {
-                  if(item.keys != undefined) {
+                  if(item.id == 'keys') {
                     item.keys = $("#career-advancement-search-input").val();
-                  } else {
-                    data.push({
-                      id: 'keys',
-                      keys: $("#career-advancement-search-input").val()
-                    });
+                    searchExists = true;
                   }
                 });
+                if(!searchExists) {
+                  data.push({
+                    id: 'keys',
+                    type: 'keys',
+                    keys: $("#career-advancement-search-input").val()
+                  });
+                }
               } else {
                 data.push({
                   id: 'keys',
+                  type: 'keys',
                   keys: $("#career-advancement-search-input").val()
                 });
                 createClearButton();
                 $("#career-facet-remove-all-filters-button").css('display', 'block');
               }
               getSearch();
-              console.log(JSON.stringify(searchOrder));
+              //console.log(JSON.stringify(searchOrder));
               return false;
             } else if(button[0].id == "cfo-page-right") {
               if(currentPage < totalPages) {
@@ -628,9 +663,9 @@ function getSearch() {
             if(!ifExists(evt.target.id)) {
               createRemoveButtons('button', evt.target.id, button);
             }
-            console.log(JSON.stringify(data));
-            console.log(JSON.stringify(startingSearchFilter));
-            console.log(JSON.stringify(searchOrder));
+            // console.log(JSON.stringify(data));
+            // console.log(JSON.stringify(startingSearchFilter));
+            // console.log(JSON.stringify(searchOrder));
           }
         });
     });
