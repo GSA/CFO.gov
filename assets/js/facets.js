@@ -127,7 +127,7 @@ let searchKeys = [ // when searching the columns to search
   "relevant_courses",
 ];
 let start = 0;
-let perPage = 10; // pagination items per page
+let perPage = 5; // pagination items per page
 let totalItems = 105; // total items in results array
 let totalPages = 11; // total pages in results array / pagination items per page
 let currentPage = 1; // pagination current page
@@ -140,8 +140,15 @@ let currentPage = 1; // pagination current page
 function getFilterType(id) {
   const series = new RegExp('series-*');
   const level = new RegExp('GS-*');
-  if(series.test(id)) return 1;
-  else if(level.test(id)) return 2;
+  if (series.test(id)) {
+    return 1;
+  }
+  else if (level.test(id)) {
+    return 2;
+  }
+  else if (id == 'keys') {
+    return 0;
+  }
   return 3;
 }
 
@@ -241,7 +248,7 @@ function createResults(noResults, item) { // creates a results div and contents
       .replace('{{ card.competency_description }}', item.competency_description);
 
     const innerDiv2 = document.createElement("div");
-    innerDiv2.setAttribute("class", "career-card-content");
+    innerDiv2.setAttribute("class", "grid-row grid-gap");
     outerDiv3.append(innerDiv2);
     innerDiv2.innerHTML = item.content;
 
@@ -325,7 +332,12 @@ function getSearch() {
       data.forEach(obj => { // go over the search and facets selected
         let filters = item.filters.split(" ");
         let val = '';
+        let key = 'id';
         switch (getFilterType(obj.id)) {
+          case 0:
+            val = item.title;
+            key = 'keys';
+          break;
           case 1:
             val = filters[2];
           break;
@@ -335,7 +347,7 @@ function getSearch() {
           case 3:
             val = filters[0];
         }
-        if (val.toLowerCase() == obj.id.toLowerCase()) {
+        if (val.toLowerCase() == obj[key].toLowerCase()) {
           if( !ifExistsResults(item.title)) {
             results.push(item);
           }
@@ -349,7 +361,7 @@ function getSearch() {
       $("#cfo-page-right").attr("disabled", "disabled");
       $("#cfo-page-left").attr("disabled", "disabled");
     } else {
-      for (i=0; i < Math.min(results.length, 10); i++) {
+      for (i=0; i < Math.min(results.length, perPage); i++) {
         if (typeof(results[i]) != "undefined" && results[i] !== null) {
           createResults(false, results[i]);
         }
@@ -411,10 +423,10 @@ function getSearch() {
                 $("#cfo-pagination-page").text(currentPage);
                 if(currentPage == 1) {
                   start = 0;
-                  end = 10;
+                  end = perPage;
                 } else {
-                  start = (currentPage - 1) * 10;
-                  end = start + 10;
+                  start = (currentPage - 1) * perPage;
+                  end = start + perPage;
                 }
                 //console.log(start + " - " + end);
                 for(i=start; i<end; i++) {
@@ -433,10 +445,10 @@ function getSearch() {
                 $("#cfo-pagination-page").text(currentPage);
                 if(currentPage == 1) {
                   start = 0;
-                  end = 10;
+                  end = perPage;
                 } else {
-                  start = (currentPage - 1) * 10;
-                  end = start + 10;
+                  start = (currentPage - 1) * perPage;
+                  end = start + perPage;
                 }
                 //console.log(start + " - " + end);
                 for(i=start; i<end; i++) {
