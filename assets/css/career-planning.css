@@ -47,6 +47,17 @@
   margin-bottom: 2px;
   cursor: pointer;
   max-height: 30px;
+  position: relative;
+}
+
+.cfo-pdf-select-buttons[disabled]:after {
+  position: absolute;
+  content: ' ';
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background-color: #00000033;
 }
 
 .inner-facet-block button {
