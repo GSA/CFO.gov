@@ -1,7 +1,8 @@
 (function ($) {
   let selected = {},
     unselect = false,
-    buttonSelector = '.policy input[type="checkbox"]';;
+    buttonSelector = '.policy input[type="checkbox"]',
+    downloadButton;
   
   window.isSelected = function (val) {
     return (typeof selected[val] != 'undefined');
@@ -26,6 +27,8 @@
       else {
         delete selected[val];
       }
+      
+      downloadButton.prop('disabled', Object.keys(selected).length == 0);
     });
     
     $('button[data-op="select-all"]').click(function () {
@@ -40,9 +43,11 @@
         this.value = 'Unselect All';
         $('#career-search-results').find(buttonSelector).prop('checked', true);
       }
+      
+      downloadButton.prop('disabled', Object.keys(selected).length == 0);
     });
     
-    $('#career-download-buttons').find('[data-op="download-selected"]').click(function () {
+    downloadButton = $('#career-download-buttons').find('[data-op="download-selected"]').click(function () {
       let cards = [];
       for (let i = 0, l = results.length; i < l; i++) {
         if (typeof selected[results[i].permalink] != 'undefined') {
