@@ -76,11 +76,11 @@ attached:
                             {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
                             <button
                                 type="button"
-                                id="{{ level_id }}"
-                                data-id="{{ level_id }}"
-                                title="{{ level }}"
-                                aria-label="{{ level }}"
-                            >{{ level }}</button>
+                                id="GS-{{ level_id }}"
+                                data-id="GS-{{ level_id }}"
+                                title="GS-{{ level }}"
+                                aria-label="GS-{{ level }}"
+                            >GS {{ level }}</button>
                         {% endfor %}
                     </div>
                     <div class="career-competency-level-1-input-group">

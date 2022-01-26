@@ -13,6 +13,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
   if ($("#career-competency-select-all").is(":checked")) {
     $("#career-competency-select-all").prop( "checked", false );
   }
+
   res.forEach(item => {
     if (!competency.includes(item.competency)) {
       competency.push(item.competency);
@@ -90,6 +91,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
       });
     });
   });
+
   competency_group.forEach(item => {
     let eventId = createId(item);
     $("#"+eventId).on('change', function() { 
@@ -142,9 +144,10 @@ function createId(item) {
   return finalStr.toLowerCase();
 }
 
-let searchKeys = [ // when searching the columns to search
-  "job_series",
-  "competency",
+let searchKeys = [ // when searching the columns to search - Compentency Description, Proficiency Level Definition, Behavioral Illustrations, Relevant Courses
+  // "job_series",
+  // "competency",
+  "title",
   "competency_description",
   "proficiency_level_definition",
   "behavioral_illustrations",
@@ -363,19 +366,6 @@ function createButtonText(text) { // creates the remove button text
   }
 }
 
-function setSearchKeysFilters($keys) {
-  
-  // search by phrase instead of by the word.
-  // if first search all md files and build results
-    // get add ids of checkboxes and buttons
-    // use $(this).prop('checked', true).trigger('change'); to check checkboxes
-    // us $(this).prop('checked', true).trigger('change'); to set button so all other events possibly happen to.
-  // if second to fourth remove items without phrase.
-    // get add ids of checkboxes and buttons
-    // use $(this).prop('checked', false).trigger('change'); to uncheck checkboxes
-    // us $(this).prop('checked', false).trigger('change'); to set button so all other events possibly happen to.
-}
-
 function getSearch() {
   results = [];
   $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // load all md pages
@@ -397,8 +387,18 @@ function getSearch() {
         console.log("Index :" + index);
         switch(index) {
           case 0:
-            if(searchItem == 'search') {
-
+            if(searchItem == 'search') { // is the search always first No - if first add if second subtract
+              console.log(startingSearchFilter[0].keys);
+              res.forEach(item => { // go over all loaded md pages
+                searchKeys.forEach(term => {
+                  //console.log(item[term].toLowerCase() + " &&&& " + startingSearchFilter[0].keys.toLowerCase());
+                  if(item[term].toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())) {
+                    if( !ifExistsResults(item.title)) {
+                      results.push(item);
+                    }
+                  }
+                });
+              });
             } else {
               console.log("Starting Id: " + startingSearchFilter[0].id);
               res.forEach(item => { // go over all loaded md pages
@@ -463,6 +463,7 @@ function getSearch() {
     } else {
       for (i=0; i < Math.min(results.length, 10); i++) {
         if (typeof(results[i]) != "undefined" && results[i] !== null) {
+          console.log(JSON.stringify(results[i]));
           createResults(false, results[i]);
         }
       }
@@ -494,6 +495,13 @@ function getSearch() {
             if(button[0].id == "cfo-search-button") {
               // console.log("Input Val: " + $("#career-advancement-search-input").val());
               if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('search')) searchOrder.push('search');
+              if(startingSearchFilter.length == 0) {
+                startingSearchFilter.push({keys: $("#career-advancement-search-input").val(), id: 'keys'});
+              }
+              if(searchOrder.length == 1 && searchOrder[0] == 'search') { // reset the search if it is the first and is researched without selecting a filter.
+                startingSearchFilter = [];
+                startingSearchFilter.push({keys: $("#career-advancement-search-input").val(), id: 'keys'});
+              }
               if(data.length) {
                 data.forEach(item => {
                   if(item.keys != undefined) {
@@ -513,10 +521,8 @@ function getSearch() {
                 createClearButton();
                 $("#career-facet-remove-all-filters-button").css('display', 'block');
               }
-              if(startingSearchFilter.length == 0) {
-                startingSearchFilter.push({keys: $("#career-advancement-search-input").val(), id: 'keys'});
-              }
               getSearch();
+              console.log(JSON.stringify(searchOrder));
               return false;
             } else if(button[0].id == "cfo-page-right") {
               if(currentPage < totalPages) {
@@ -569,6 +575,7 @@ function getSearch() {
             }
             console.log(JSON.stringify(data));
             console.log(JSON.stringify(startingSearchFilter));
+            console.log(JSON.stringify(searchOrder));
           }
         });
     });
