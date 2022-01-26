@@ -659,13 +659,14 @@ function getSearch() {
               }
               return false;
             }
+          } else if(button[0].id.match('competency-group-button')) {
+            $(this).parent().parent().siblings().slideToggle();
+            if($(this).html() == '+') $("#"+button[0].id).html("-");
+            else $("#"+button[0].id).html("+");
           } else {
             if(!ifExists(evt.target.id)) {
               createRemoveButtons('button', evt.target.id, button);
             }
-            // console.log(JSON.stringify(data));
-            // console.log(JSON.stringify(startingSearchFilter));
-            // console.log(JSON.stringify(searchOrder));
           }
         });
     });
