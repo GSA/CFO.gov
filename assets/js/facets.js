@@ -281,7 +281,7 @@ function createResults(noResults, item) { // creates a results div and contents
       .replace('{{ card.competency_description }}', item.competency_description);
 
     const innerDiv2 = document.createElement("div");
-    innerDiv2.setAttribute("class", "career-card-content");
+    innerDiv2.setAttribute("class", "grid-row grid-gap");
     outerDiv3.append(innerDiv2);
     innerDiv2.innerHTML = item.content;
 
