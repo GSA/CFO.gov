@@ -14,7 +14,7 @@ layout: none
       "functional_competency_designation": "{{ card.functional_competency_designation }}",
       "competency": "{{ card.competency }}",
       "competency_group": "{{ card.competency_group }}",
-      "competency_description": "{{ card.compentency_description }}",
+      "competency_description": "{{ card.competency_description }}",
       "level": "{{ card.level }}",
       "proficiency_level": "{{ card.proficiency_level }}",
       "proficiency_level_definition": "{{ card.proficiency_level_definition }}",
