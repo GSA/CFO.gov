@@ -184,12 +184,15 @@ input#career-advancement-search-input {
 } */
 
 #career-search-results-filter-pagination {
-  min-width: 25%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   font-size: 20px;
   font-weight: bold;
+}
+
+#career-search-results-pagination-wrapper {
+  display: flex;
+  width: 13em;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .career-container {
