@@ -13,6 +13,7 @@
     unselect = false;
     this.value = 'Select All';
     $('#career-search-results').find(buttonSelector).prop('checked', false);
+    downloadButton.prop('aria-disabled', true).prop('disabled', true);
   }
 
   $(document).ready(function () {
@@ -28,7 +29,8 @@
         delete selected[val];
       }
       
-      downloadButton.prop('disabled', Object.keys(selected).length == 0);
+      let disable = Object.keys(selected).length == 0;
+      downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
     });
     
     $('button[data-op="select-all"]').click(function () {
@@ -44,7 +46,8 @@
         $('#career-search-results').find(buttonSelector).prop('checked', true);
       }
       
-      downloadButton.prop('disabled', Object.keys(selected).length == 0);
+      let disable = Object.keys(selected).length == 0;
+      downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
     });
     
     downloadButton = $('#career-download-buttons').find('[data-op="download-selected"]').click(function () {
