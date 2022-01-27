@@ -115,22 +115,22 @@ filters: ${ filters }
 
 <div class="desktop:grid-col-4 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
-  <h3>Behavior Illustrations</h3>
-  <dl class="text-base">${ behaviorMarkup }</dl>
+    <h3>Behavior Illustrations</h3>
+    <dl class="text-base">${ behaviorMarkup }</dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
-  <h3>Proficiency Level Definition</h3>
-  <dl class="text-base">${ profLevelMarkup }</dl>
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+    <h3>Proficiency Level Definition</h3>
+    <dl class="text-base">${ profLevelMarkup }</dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
-  <h3>Course Listing</h3>
-  <ul class="text-base">
-  ${ courseMarkup }
-  </ul>
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+    <h3>Course Listing</h3>
+    <ul class="text-base">
+     ${ courseMarkup }
+    </ul>
   </div>
 </div>`;
         let filename = `_cards/2021-11-26-0${ card.jobSeries }-${ card.competency.replace(' ', '-')}-${ card.careerLevel }.md`;

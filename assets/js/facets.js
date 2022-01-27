@@ -661,8 +661,7 @@ function getSearch() {
             }
           } else if(button[0].id.match('competency-group-button')) {
             $(this).parent().parent().siblings().slideToggle();
-            if($(this).html() == '+') $("#"+button[0].id).html("-");
-            else $("#"+button[0].id).html("+");
+            $(this).find('i').toggleClass('fa-plus fa-minus');
           } else {
             if(!ifExists(evt.target.id)) {
               createRemoveButtons('button', evt.target.id, button);

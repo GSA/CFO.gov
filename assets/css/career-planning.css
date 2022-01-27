@@ -116,7 +116,7 @@ input#career-advancement-search-input {
 
 .career-competency-level-1-input-group,
 .career-competency-level-2-input-group {
-  min-width: 300px;
+  min-width: 230px;
   display: flex;
   justify-content: space-between;
 }
@@ -150,8 +150,13 @@ input#career-advancement-search-input {
 }
 
 .career-competency-toggle-button {
-  border-radius: 15px !important;
-  padding: 0px 5px !important;
+  border: 0;
+  padding: 0 !important;
+  margin-top: 2px !important;
+}
+
+.career-input-group {
+  margin-top: 2px;
 }
 
 /* .career-search-results-heading {
