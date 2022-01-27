@@ -13,40 +13,17 @@
   margin-bottom: 0px;
 }
 
-.facets-panel {
-  background-color: #eee;
-  border: 2px solid #999;
-  border-radius: 5px;
-  padding: 30px;
+.facets-panel .usa-button:hover {
+  border-bottom: 2px solid #adadad;
 }
 
-.inner-facet-block {
-  display: flex;
-  flex-direction: column;
+.facets-panel .usa-button.active {
+  background-color: #1a4480;
+  color: white;
 }
 
-.inner-facet-block button {
-  display: block;
-  padding: 7px 10px;
-  border-radius: 5px;
-  border-color: #333333;
-  color: #333333;
-  background-color: #ffffff;
-  font-weight: bold;
-  margin-top: 5px;
+.facets-panel label {
   cursor: pointer;
-}
-
-.inner-facet-block button.active,
-.inner-facet-block button:hover {
-  display: block;
-  padding: 7px 10px;
-  border-radius: 5px;
-  border-color: #005ea2;
-  color: #ffffff;
-  background-color: #005ea2;
-  font-weight: bold;
-  margin-top: 5px;
 }
 
 .search-container {
@@ -101,22 +78,8 @@ input#career-advancement-search-input {
   display: flex;
 }
 
-.career-competency-input-groups,
-.career-competency-and-competency-group-input-groups {
-  display: block;
-  padding: 7px 10px;
-  border-radius: 5px;
-  border: 2px solid #333333;
-  color: #333333;
-  background-color: #ffffff;
-  font-weight: bold;
-  margin-top: 5px;
-  cursor: pointer;
-}
-
 .career-competency-level-1-input-group,
 .career-competency-level-2-input-group {
-  min-width: 230px;
   display: flex;
   justify-content: space-between;
 }
@@ -147,12 +110,6 @@ input#career-advancement-search-input {
 
 .career-competency-toggle-open b {
   margin-left: 5px;
-}
-
-.career-competency-toggle-button {
-  border: 0;
-  padding: 0 !important;
-  margin-top: 2px !important;
 }
 
 .career-input-group {

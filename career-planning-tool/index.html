@@ -27,10 +27,11 @@ attached:
     <div class="grid-row">
         <div class="usa-graphic-list__row grid-row grid-gap">
             <div class="usa-media-block tablet:grid-col-4 desktop:grid-col-3 career-advancement-block">
-                <h3>Filter your results</h3>
-                <div class="facets-panel">
-                    <h3 class="margin-top-0">Job Series</h3>
-                    <div class="inner-facet-block">
+                <h2>Filter your results</h2>
+                <div class="facets-panel bg-base-lightest padding-y-3 border-base-light border-1px radius-md border-2px padding-x-105">
+
+                  <h3 class="margin-top-0">Job Series</h3>
+                    <div class="display-flex flex-column">
                         {% assign series_array = "" | split: "," %}
 
                         {% for item in site.cards %}
@@ -52,11 +53,13 @@ attached:
                                 data-id="series-0{{ series_id }}"
                                 title="Series-0{{ series }}"
                                 aria-label="Series-0{{ series }}"
+                                class="usa-button padding-1 margin-bottom-2 text-bold text-black bg-white radius-lg border-2px border-gray-30"
                             >0{{ series }}</button>
                         {% endfor %} 
                     </div>
+
                     <h3>GS Level</h3>
-                    <div class="inner-facet-block">
+                    <div class="display-flex flex-column">
                         {% assign level_array = "" | split: "," %}
 
                         {% for item in site.cards %}
@@ -78,17 +81,19 @@ attached:
                                 data-id="GS-{{ level_id }}"
                                 title="GS-{{ level }}"
                                 aria-label="GS-{{ level }}"
+                                class="usa-button padding-1 margin-bottom-2 text-bold text-black border-2px bg-white radius-lg border-gray-30"
                             >GS {{ level }}</button>
                         {% endfor %}
                     </div>
+
                     <div class="career-competency-level-1-input-group">
                         <h3>Competencies</h3>
                         <div class="career-input-group">
-                            <input type="checkbox" id="career-competency-select-all"/>
-                            <label for="career-competency-select-all">Select All</label>
+                            <label class="text-underline text-accent-cool-darker" for="career-competency-select-all"><strong>Select All</strong></label>
+                            <input style="position: absolute; left: -9999px;" type="checkbox" id="career-competency-select-all"/>
                         </div>
                     </div>
-                    <div class="inner-facet-block">
+                    <div class="display-flex flex-column">
                         {% assign competency_group_array = "" | split: "," %}
 
                         {% for item in site.cards %}
@@ -122,21 +127,21 @@ attached:
 
                             {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
                             <div class="career-competency-and-competency-group-input-groups">
-                                <div class="career-competency-level-2-input-group">
+                                <div class="career-competency-level-2-input-group padding-1 margin-bottom-2 text-bold text-black bg-white radius-lg border-2px border-gray-30">
                                     <div class="career-competency-toggle-open">
-                                        <button type="button" id="competency-group-button-{{ competency_group }}" class="career-competency-toggle-button"><i class='fa fa-plus'></i></button>
-                                        <b>{{ competency_group }}</b>
+                                        <button type="button" id="competency-group-button-{{ competency_group }}"  class="usa-button usa-button--unstyled text-no-underline text-black  career-competency-toggle-button"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                                     </div>
                                     <div class="career-competency-level-3-input-group">
                                         <div class="career-input-group">
+                                          <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker"><strong>Select All</strong></label>
                                             <input
                                                 type="checkbox"
                                                 id="{{ competency_group_id | downcase}}"
                                                 data-id="{{ competency_group_id | downcase }}"
                                                 title="{{ competency_group }}"
                                                 aria-label="{{ competency_group }}"
+                                                style="position: absolute; left: -9999px;" 
                                             />
-                                            <label for="{{ competency_group_id }}" class="career-competency-input-groups-label">Select All</label>
                                         </div>
                                     </div>
                                 </div>
@@ -190,8 +195,8 @@ attached:
                     <section class="display-flex margin-y-3">
                         <div id="career-search-results-filter-remove-buttons"></div>
                         <div id="career-search-results-filter-remove-all-button" class="margin-left-2">
-                            <a href="javascript:void(0)" id="career-facet-remove-all-filters-button">Clear All</a>
-                        </div>                
+                            <a href="javascript:void(0)" class="text-accent-cool-darker" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
+                        </div>
                     </section>
 
                 </section>	

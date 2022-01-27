@@ -339,7 +339,7 @@ function createRemoveButtons(inputType, eventTargetId, button) {
   removeButtonA.setAttribute("id", eventTargetId+"-button");
   removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 text-no-uppercase");
   const removeButtonText = createButtonText(eventTargetId);
-  removeButtonA.innerHTML = removeButtonText + "&nbsp;<i class='fa fa-times'></i>";
+  removeButtonA.innerHTML = removeButtonText + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
   const buttonContainer = document.getElementById("career-search-results-filter-remove-buttons");
   buttonContainer.appendChild(removeButtonA);
 
