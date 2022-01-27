@@ -183,12 +183,12 @@ input#career-advancement-search-input {
   margin-top: 5px;
 } */
 
-#career-search-results-filter-pagination {
+.career-search-results-filter-pagination {
   font-size: 20px;
   font-weight: bold;
 }
 
-#career-search-results-pagination-wrapper {
+.career-search-results-pagination-wrapper {
   display: flex;
   width: 13em;
   justify-content: space-between;
@@ -223,7 +223,7 @@ input#career-advancement-search-input {
 } */
 
 
-#cfo-page-left, #cfo-page-right {
+.cfo-page-left, #cfo-page-right {
   cursor: pointer;
   padding: 7px 12px;
   font-weight: bold;
