@@ -20,21 +20,21 @@ filters: Accounting-Accounting-Concepts-Policies-and-Principles GS-7-9 series-05
 
 <div class="desktop:grid-col-4 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
-  <h3>Behavior Illustrations</h3>
-  <dl class="text-base"><dt>Accounting, Concepts, Policies and Principles ( Level 1 - Awareness)</dt><dd>Develops and utilizes financial processes and resources to ensure effectiveness and accountability </dd><dd> Performs finance functions with a high degree of effectiveness and efficiency</dd><dt>Accounting, Concepts, Policies and Principles ( Level 2 - Basic)</dt><dd>Examines a variety of accounts, documents, records, related reports and processes to determine performance in accordance with appropriate procedures and regulations</dd></dl>
+    <h3>Behavior Illustrations</h3>
+    <dl class="text-base"><dt>Accounting, Concepts, Policies and Principles ( Level 1 - Awareness)</dt><dd>Develops and utilizes financial processes and resources to ensure effectiveness and accountability </dd><dd> Performs finance functions with a high degree of effectiveness and efficiency</dd><dt>Accounting, Concepts, Policies and Principles ( Level 2 - Basic)</dt><dd>Examines a variety of accounts, documents, records, related reports and processes to determine performance in accordance with appropriate procedures and regulations</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
-  <h3>Proficiency Level Definition</h3>
-  <dl class="text-base"><dt>Accounting, Concepts, Policies and Principles ( Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Accounting, Concepts, Policies and Principles ( Level 2 - Basic)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+    <h3>Proficiency Level Definition</h3>
+    <dl class="text-base"><dt>Accounting, Concepts, Policies and Principles ( Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Accounting, Concepts, Policies and Principles ( Level 2 - Basic)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
-  <h3>Course Listing</h3>
-  <ul class="text-base">
-  
-  </ul>
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+    <h3>Course Listing</h3>
+    <ul class="text-base">
+     
+    </ul>
   </div>
 </div>

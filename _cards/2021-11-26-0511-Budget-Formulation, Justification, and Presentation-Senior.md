@@ -20,21 +20,21 @@ filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 serie
 
 <div class="desktop:grid-col-4 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
-  <h3>Behavior Illustrations</h3>
-  <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 4 - Advanced)</dt><dd>Develops execution reports and monitors status of funds to track organization’s budget, operations and processes</dd><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Develops budget and financial guidelines that conform to fiscal requirements </dd><dd> Makes recommendations regarding the budget process or financial operations</dd></dl>
+    <h3>Behavior Illustrations</h3>
+    <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 4 - Advanced)</dt><dd>Develops execution reports and monitors status of funds to track organization’s budget, operations and processes</dd><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Develops budget and financial guidelines that conform to fiscal requirements </dd><dd> Makes recommendations regarding the budget process or financial operations</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
-  <h3>Proficiency Level Definition</h3>
-  <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 4 - Advanced)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+    <h3>Proficiency Level Definition</h3>
+    <dl class="text-base"><dt>Budget Formulation, Justification, and Presentation ( Level 4 - Advanced)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Budget Formulation, Justification, and Presentation ( Level 5 - Expert)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-<div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
-  <h3>Course Listing</h3>
-  <ul class="text-base">
-  
-  </ul>
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+    <h3>Course Listing</h3>
+    <ul class="text-base">
+     
+    </ul>
   </div>
 </div>
