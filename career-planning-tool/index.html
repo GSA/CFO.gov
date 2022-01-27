@@ -198,7 +198,7 @@ attached:
                 <div id="career-search-results">
                     <!-- This loops through the paginated posts -->
                     {% assign cards = site.cards | sort %}
-                    {% for card in cards limit:10 %}
+                    {% for card in cards limit:5 %}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
                                 <div class="cfo-career-text-container">

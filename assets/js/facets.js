@@ -157,7 +157,7 @@ let searchKeys = [ // when searching the columns to search - Compentency Descrip
   "relevant_courses",
 ];
 let start = 0;
-let perPage = 10; // pagination items per page
+let perPage = 5 // pagination items per page
 let totalItems = 105; // total items in results array
 let totalPages = 11; // total pages in results array / pagination items per page
 let currentPage = 1; // pagination current page
@@ -532,7 +532,7 @@ function getSearch() {
     if(results.length === 0) {
       // console.log("Search Order Length: " + searchOrder.length);
       if(searchOrder.length === 0) {
-        for (i=0; i < Math.min(fullSet.length, 10); i++) {
+        for (i=0; i < Math.min(fullSet.length, perPage); i++) {
           if (typeof(fullSet[i]) != "undefined" && fullSet[i] !== null) {
             createResults(false, fullSet[i]);
           }
@@ -546,7 +546,7 @@ function getSearch() {
       $("#cfo-page-right").attr("disabled", "disabled");
       $("#cfo-page-left").attr("disabled", "disabled");
     } else {
-      for (i=0; i < Math.min(results.length, 10); i++) {
+      for (i=0; i < Math.min(results.length, perPage); i++) {
         if (typeof(results[i]) != "undefined" && results[i] !== null) {
           // console.log(JSON.stringify(results[i]));
           createResults(false, results[i]);
@@ -621,10 +621,10 @@ function getSearch() {
                 $("#cfo-pagination-page").text(currentPage);
                 if(currentPage == 1) {
                   start = 0;
-                  end = 10;
+                  end = perPage;
                 } else {
-                  start = (currentPage - 1) * 10;
-                  end = start + 10;
+                  start = (currentPage - 1) * perPage;
+                  end = start + perPage;
                 }
                 //console.log(start + " - " + end);
                 for(i=start; i<end; i++) {
@@ -643,10 +643,10 @@ function getSearch() {
                 $("#cfo-pagination-page").text(currentPage);
                 if(currentPage == 1) {
                   start = 0;
-                  end = 10;
+                  end = perPage;
                 } else {
-                  start = (currentPage - 1) * 10;
-                  end = start + 10;
+                  start = (currentPage - 1) * perPage;
+                  end = start + perPage;
                 }
                 //console.log(start + " - " + end);
                 for(i=start; i<end; i++) {
