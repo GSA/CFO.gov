@@ -132,19 +132,43 @@
       doc.fillColor('black');
       doc.font(bold).text(card.title);
       doc.moveDown(1);
-      doc.font(norm).text(card.level);
+      doc.font(bold).text('GS Level: ', {continued: true}).font(norm).text(card.level);
+      doc.moveDown(1);
+      doc.font(bold).text('Competency Description: ', {continued: true}).font(norm).text(card.competency_description);
+      doc.moveDown(1);
+      elem.innerHTML = card.content;
+      doc.font(bold).text('Behavior Illustrations');
+      $(elem).find('> div:first-child dl *').each(function () {
+        if (this.nodeName == 'DT') {
+          doc.moveDown(1);
+          doc.font(bold).text(this.innerText, { indent: 18 });
+        }
+        else if (this.nodeName == 'DD') {
+          doc.font(norm).text(this.innerText, { indent: 36 });
+        }
+      });
       doc.moveDown(1);
       doc.font(bold).text('Proficiency Level Definition');
-      doc.moveDown(1);
-      doc.font(norm).text(card.proficiency_level_definition);
-      doc.moveDown(1);
-      doc.font(bold).text('Behavior Illustration');
-      doc.moveDown(1);
-      doc.font(norm).text(card.behavioral_illustrations);
+      let items = [];
+      $(elem).find('> div:nth-child(2) dl *').each(function () {
+        if (this.nodeName == 'DT') {
+          if (items.length) {
+            doc.font(norm).list(items, { textIndent: 36, bulletRadius: 2 });
+            items.length = 0;
+          }
+          doc.moveDown(1);
+          doc.font(bold).text(this.innerText, { indent: 18 });
+        }
+        else if (this.nodeName == 'DD') {
+          items.push(this.innerText);
+        }
+      });
+      if (items.length) {
+        doc.font(norm).list(items, { textIndent: 36, bulletRadius: 2 });
+      }
       doc.moveDown(1);
       doc.font(bold).text('Relevant Courses');
       doc.moveDown(1);
-      elem.innerHTML = card.content;
       let courses = $(elem).find('.cfo-courses-outer');
       if (courses.length == 0) {
         doc.font(norm).text('No Courses yet.');
