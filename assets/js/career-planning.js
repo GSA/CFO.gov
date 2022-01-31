@@ -135,7 +135,7 @@
       doc.font(bold).text('GS Level: ', {continued: true}).font(norm).text(card.level);
       doc.moveDown(1);
       doc.font(bold).text('Competency Description: ', {continued: true}).font(norm).text(card.competency_description);
-      doc.moveDown(1);
+      doc.moveDown(2);
       elem.innerHTML = card.content;
       doc.font(bold).text('Behavior Illustrations');
       $(elem).find('> div:first-child dl *').each(function () {
@@ -147,7 +147,7 @@
           doc.font(norm).text(this.innerText, { indent: 36 });
         }
       });
-      doc.moveDown(1);
+      doc.moveDown(2);
       doc.font(bold).text('Proficiency Level Definition');
       let items = [];
       $(elem).find('> div:nth-child(2) dl *').each(function () {
@@ -166,34 +166,32 @@
       if (items.length) {
         doc.font(norm).list(items, { textIndent: 36, bulletRadius: 2 });
       }
-      doc.moveDown(1);
+      doc.moveDown(2);
       doc.font(bold).text('Relevant Courses');
       doc.moveDown(1);
-      let courses = $(elem).find('.cfo-courses-outer');
+      let courses = $(elem).find('> div:nth-child(3) ul li');
       if (courses.length == 0) {
         doc.font(norm).text('No Courses yet.');
       }
       else {
         courses.each(function () {
-          let col1 = this.children[0],
-              col2 = this.children[1],
-              col3 = this.children[2],
+          let textNodes = Array.from(this.childNodes).filter(function (x) { return x.nodeType == Node.TEXT_NODE }),
+              col1 = textNodes[0],
+              col2 = textNodes[1],
               y = doc.y;
               
-          doc.font(norm).fillColor('black').text(col1.innerText, {
+          doc.font(norm).fillColor('black').text(col1.wholeText, {
             align: 'left',
-          }).moveUp(1).text(col2.innerText, {
-            align: 'center',
-          }).moveUp(1).fillColor('blue').text(col3.innerText, {
+          }).moveUp(1).fillColor('blue').text(col2.wholeText, {
             align: 'right',
           });
           
-          let link_width = doc.widthOfString(col3.innerText),
+          let link_width = doc.widthOfString(col2.wholeText),
               height = doc.currentLineHeight(),
-              right_edge = doc.page.width - doc.page.margins.left - doc.page.margins.right + 6;
+              right_edge = doc.page.width - doc.page.margins.right - link_width;
           
           doc.underline(right_edge, y, link_width, height, {color: 'blue'})
-             .link(right_edge, y, link_width, height, $(col3).find('a').attr('href'));
+             .link(right_edge, y, link_width, height, col2.wholeText);
           
         });
       }
