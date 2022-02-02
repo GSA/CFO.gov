@@ -177,21 +177,21 @@
         courses.each(function () {
           let textNodes = Array.from(this.childNodes).filter(function (x) { return x.nodeType == Node.TEXT_NODE }),
               col1 = textNodes[0],
-              col2 = textNodes[1],
+              col2 = $(this).find('a')[0],
               y = doc.y;
               
           doc.font(norm).fillColor('black').text(col1.wholeText, {
             align: 'left',
-          }).moveUp(1).fillColor('blue').text(col2.wholeText, {
+          }).moveUp(1).fillColor('blue').text(col2.innerText, {
             align: 'right',
           });
           
-          let link_width = doc.widthOfString(col2.wholeText),
+          let link_width = doc.widthOfString(col2.innerText),
               height = doc.currentLineHeight(),
               right_edge = doc.page.width - doc.page.margins.right - link_width;
           
           doc.underline(right_edge, y, link_width, height, {color: 'blue'})
-             .link(right_edge, y, link_width, height, col2.wholeText);
+             .link(right_edge, y, link_width, height, col2.href);
           
         });
       }
