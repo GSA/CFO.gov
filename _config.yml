@@ -110,7 +110,7 @@ primary_navigation:
 secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
-  - name: Carear Planning Tool
+  - name: Career Planning Tool 
     url: /career-planning-tool/
 
 secondary_navigation_frpc:
