@@ -11,7 +11,7 @@
   window.unselectAll = function () {
     selected = {};
     unselect = false;
-    this.value = 'Select All';
+    $('button[data-op="select-all"]').text('Select All Cards');
     $('#career-search-results').find(buttonSelector).prop('checked', false);
     downloadButton.prop('aria-disabled', true).prop('disabled', true);
   }
@@ -42,7 +42,7 @@
           selected[results[i].permalink] = true;
         }
         unselect = true;
-        this.value = 'Unselect All';
+        this.innerText = 'Deselect All Cards';
         $('#career-search-results').find(buttonSelector).prop('checked', true);
       }
       
