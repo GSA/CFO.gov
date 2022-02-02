@@ -19,19 +19,19 @@ filters: Audit-Audit-Concepts-Policies-and-Principles GS-14-15 series-0511
 ---
 
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Behavior Illustrations</h3>
     <dl class="text-base"><dt>Audit Concepts, Policies and Principles ( Level 5 - Expert)</dt><dd>Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Proficiency Level Definition</h3>
     <dl class="text-base"><dt>Audit Concepts, Policies and Principles ( Level 5 - Expert)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Course Listing</h3>
     <ul class="text-base">
      

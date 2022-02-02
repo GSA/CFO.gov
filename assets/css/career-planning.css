@@ -264,3 +264,7 @@ div[data-card-filter] {
   list-style-type: disc;
   display: list-item;
 }
+
+.border-top-orange {
+  border-top-color: #f39268 !important;
+}

@@ -19,19 +19,19 @@ filters: Budget-Budget-Execution GS-7-9 series-0511
 ---
 
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Behavior Illustrations</h3>
     <dl class="text-base"><dt>Budget Execution ( Level 1 - Awareness)</dt><dd>Monitors current financial processes to ensure that spending programs are affordable and sustainable over time</dd><dt>Budget Execution ( Level 2 - Basic)</dt><dd>Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Proficiency Level Definition</h3>
     <dl class="text-base"><dt>Budget Execution ( Level 1 - Awareness)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Budget Execution ( Level 2 - Basic)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 radius-lg">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Course Listing</h3>
     <ul class="text-base">
      
