@@ -126,8 +126,8 @@ attached:
                             {% assign competency_array = competency_array | sort %}
 
                             {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
-                            <div class="career-competency-and-competency-group-input-groups">
-                                <div class="career-competency-level-2-input-group padding-1 margin-bottom-2 text-bold text-black bg-white radius-lg border-2px border-gray-30">
+                            <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
+                                <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30">
                                     <div class="career-competency-toggle-open">
                                         <button type="button" id="competency-group-button-{{ competency_group }}"  class="usa-button usa-button--unstyled text-no-underline text-black  career-competency-toggle-button"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                                     </div>
