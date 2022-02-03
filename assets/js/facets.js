@@ -371,6 +371,43 @@ function createRemoveButtons(inputType, eventTargetId, button) {
   });
 }
 
+function removeCriteria(inputType, id) {
+  $('#' + id + '-button').remove();
+  let elem = $('#' + id);
+  
+  if (inputType == 'button') {
+    elem.toggleClass('active');
+  }
+  else {
+    elem.prop('checked', false);
+    let group = $("#"+eventTargetId).data('group');
+    if ($("#"+group).is(":checked")) {
+      $("#"+group).prop( "checked", false );
+    }
+    if ($("#career-competency-select-all").is(":checked")) { 
+      $("#career-competency-select-all").prop( "checked", false );
+    }
+  }
+  
+  let target = -1;
+  for (let i = 0, l = data.length; i < l; i++) {
+    if (data[i].id == id) {
+      target = i;
+      break;
+    }
+  }
+  
+  data.splice(target, 1);
+  adjustSearchOrder();
+  if( data.length == 0) {
+    searchOrder = [];
+    startingSearchFilter = [];
+    $("#career-facet-remove-all-filters-button").css('display', 'none');
+  }
+  
+  getSearch();
+}
+
 function adjustSearchOrder() {
   let newSearchOrder = [];
   // console.log(JSON.stringify(data));
@@ -685,6 +722,9 @@ function getSearch() {
           } else {
             if(!ifExists(evt.target.id)) {
               createRemoveButtons('button', evt.target.id, button);
+            }
+            else {
+              removeCriteria('button', evt.target.id);
             }
           }
         });
