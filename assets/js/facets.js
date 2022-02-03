@@ -24,6 +24,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
     results.push(item);
     fullSet.push(item);
   });
+  
   $("input:checkbox").each(function() {    
     $(this).prop('checked', false);                                    
   });
@@ -139,6 +140,8 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
       }       
     });
   });
+  
+  setTotalPages();
 });
 
 function createId(item) {
