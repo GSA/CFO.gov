@@ -669,20 +669,18 @@ function getSearch() {
                 $("#career-search-results").empty();
                 setCurrentPage(currentPage += 1);
                 $(".cfo-pagination-page").text(currentPage);
+                let dataSet = (results.length && searchOrder.length) ? results : fullSet;
                 if(currentPage == 1) {
                   start = 0;
                   end = perPage;
                 } else {
                   start = (currentPage - 1) * perPage;
-                  end = start + perPage;
+                  end = Math.min(start + perPage, dataSet.length);
                 }
                 //console.log(start + " - " + end);
                 for(i=start; i<end; i++) {
-                  if(typeof(results[i]) != "undefined" && results[i] !== null) {
-                    createResults(false, results[i]);
-                  }
-                  else if (typeof fullSet[i] != "undefined" && fullSet[i] !== null) {
-                    createResults(false, fullSet[i]);
+                  if(typeof(dataSet[i]) != "undefined" && results[i] !== null) {
+                    createResults(false, dataSet[i]);
                   }
                 }
                 $(".cfo-page-left").removeAttr("disabled")
@@ -696,20 +694,18 @@ function getSearch() {
                 $("#career-search-results").empty();
                 setCurrentPage(currentPage -= 1);
                 $(".cfo-pagination-page").text(currentPage);
+                let dataSet = (results.length && searchOrder.length) ? results : fullSet;
                 if(currentPage == 1) {
                   start = 0;
                   end = perPage;
                 } else {
                   start = (currentPage - 1) * perPage;
-                  end = start + perPage;
+                  end = Math.min(start + perPage, dataSet.length);
                 }
                 //console.log(start + " - " + end);
                 for(i=start; i<end; i++) {
-                  if(typeof(results[i]) != "undefined" && results[i] !== null) {
-                    createResults(false, results[i]);
-                  }
-                  else if (typeof fullSet[i] != "undefined" && fullSet[i] !== null) {
-                    createResults(false, fullSet[i]);
+                  if(typeof(dataSet[i]) != "undefined" && results[i] !== null) {
+                    createResults(false, dataSet[i]);
                   }
                 }
                 $(".cfo-page-right").removeAttr("disabled");
