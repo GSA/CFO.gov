@@ -127,43 +127,44 @@ attached:
 
                             {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
                             <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
-                                <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30">
+                                <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30 flex-column">
                                     <div class="career-competency-toggle-open">
+                                        <div class="career-competency-toggle-open--inner">
                                         <button type="button" id="competency-group-button-{{ competency_group }}"  class="usa-button usa-button--unstyled text-no-underline text-black  career-competency-toggle-button"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
-                                    </div>
-                                    <div class="career-competency-level-3-input-group">
-                                        <div class="career-input-group">
-                                          <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker"><strong>Select All</strong></label>
-                                            <input
-                                                type="checkbox"
-                                                id="{{ competency_group_id | downcase}}"
-                                                data-id="{{ competency_group_id | downcase }}"
-                                                title="{{ competency_group }}"
-                                                aria-label="{{ competency_group }}"
-                                                style="position: absolute; left: -9999px;" 
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-
-                                {% for competency in competency_array %}
-                                    {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
-                                    <div class="career-competency-input-groups" style="display: none;">
-                                        <div class="career-competency-level-4-input-group">
+                                        <div class="career-competency-level-3-input-group">
                                             <div class="career-input-group">
+                                              <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker font-sans-3xs"><strong>Select All</strong></label>
                                                 <input
                                                     type="checkbox"
-                                                    id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
-                                                    data-group="{{ competency_group_id | downcase }}"
-                                                    data-id="{{ competency_id | downcase }}"
-                                                    title="{{ competency }}"
-                                                    aria-label="{{ competency }}"
+                                                    id="{{ competency_group_id | downcase}}"
+                                                    data-id="{{ competency_group_id | downcase }}"
+                                                    title="{{ competency_group }}"
+                                                    aria-label="{{ competency_group }}"
+                                                    style="position: absolute; left: -9999px;" 
                                                 />
-                                                <label for="{{ competency_group_id }}-{{ competency_id }}" class="career-competency-input-groups-label">{{ competency }}</label>
                                             </div>
                                         </div>
+                                        </div>
+                                        {% for competency in competency_array %}
+                                        {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
+                                        <div class="career-competency-input-groups" style="display: none;">
+                                            <div class="career-competency-level-4-input-group">
+                                                <div class="career-input-group">
+                                                    <input
+                                                        type="checkbox"
+                                                        id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
+                                                        data-group="{{ competency_group_id | downcase }}"
+                                                        data-id="{{ competency_id | downcase }}"
+                                                        title="{{ competency }}"
+                                                        aria-label="{{ competency }}"
+                                                    />
+                                                    <label for="{{ competency_group_id }}-{{ competency_id }}" class="career-competency-input-groups-label">{{ competency }}</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
                                     </div>
-                                {% endfor %}
+                                </div>
                             </div>
                         {% endfor %}
                         
@@ -181,8 +182,8 @@ attached:
                             <label class="usa-sr-only" for="career-advancement-search-input"> Search </label>
                             <div class="margin-bottom-2">
                                 <input type="text" id="career-advancement-search-input" placeholder="Search Career Paths.." class="usa-input margin-top-0" type="search" name="search">
-                                <button class="usa-button" type="button" id="cfo-search-button" style="height:2.5rem;">
-                                    <span class="usa-search__submit-text">Search</span>
+                                <button class="usa-button" type="button" id="cfo-search-button">
+                                    <span>Search</span>
                                 </button>
                             </div>
                         </form>
@@ -192,9 +193,9 @@ attached:
                         </div>
                     </div>
 
-                    <section class="display-flex margin-y-3">
-                        <div id="career-search-results-filter-remove-buttons"></div>
-                        <div id="career-search-results-filter-remove-all-button" class="margin-left-2">
+                    <section class="display-flex flex-column margin-top-1">
+                        <div id="career-search-results-filter-remove-buttons" class="display-flex flex-row flex-wrap"></div>
+                        <div id="career-search-results-filter-remove-all-button" class="margin-top-1">
                             <a href="javascript:void(0)" class="text-accent-cool-darker" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
                         </div>
                     </section>
@@ -219,14 +220,15 @@ attached:
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
                                 <div class="cfo-career-text-container">
-                                    <p><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> 0{{ card.series }}</span></p>
-                                    <p><strong>ALL:</strong> {{ card.competency }}
+                                    <div class="select-button">
+                                        <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
+                                    </div>
+                                    <p><strong>GS Level:</strong> {{ card.level }}</p>
+                                    <p><strong>Job Series:</strong> 0{{ card.series }}</p>
+                                    <p><strong>ALL:</strong> {{ card.competency }}</p>
                                     <p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
                                     <div class="grid-row grid-gap">
                                         {{ card.content }}
-                                    </div>
-                                    <div class="select-button">
-                                        <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
                                     </div>
                                 </div>
                             </div>

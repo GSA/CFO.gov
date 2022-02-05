@@ -299,7 +299,7 @@ function createResults(noResults, item) { // creates a results div and contents
     innerDiv2.innerHTML = item.content;
 
     const selectButtonWrapper = document.createElement('div');
-    outerDiv3.appendChild(selectButtonWrapper);
+    outerDiv3.prepend(selectButtonWrapper);
     selectButtonWrapper.setAttribute("class", "select-button");
     selectButtonWrapper.innerHTML = '<label><input type="checkbox" value="' + item.permalink + '"' + (window.isSelected(item.permalink)?' checked':'') + '> <span>Select for Download</span></label>'
   }
@@ -340,7 +340,9 @@ function createRemoveButtons(inputType, eventTargetId, button) {
   if(inputType == "button") button.toggleClass("active");
   const removeButtonA = document.createElement("a");
   removeButtonA.setAttribute("id", eventTargetId+"-button");
-  removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 text-no-uppercase");
+  removeButtonA.setAttribute("tabindex", 0);
+  removeButtonA.setAttribute("href", "javascript:void(0)");
+  removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
   const removeButtonText = createButtonText(eventTargetId);
   removeButtonA.innerHTML = removeButtonText + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
   const buttonContainer = document.getElementById("career-search-results-filter-remove-buttons");
@@ -716,7 +718,7 @@ function getSearch() {
               return false;
             }
           } else if(button[0].id.match('competency-group-button')) {
-            $(this).parent().parent().siblings().slideToggle();
+            $(this).parent().siblings().slideToggle();
             $(this).find('i').toggleClass('fa-plus fa-minus');
           } else {
             if(!ifExists(evt.target.id)) {

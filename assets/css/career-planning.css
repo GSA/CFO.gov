@@ -13,7 +13,11 @@
   margin-bottom: 0px;
 }
 
-.facets-panel .usa-button:hover {
+.facets-panel {
+  width: 100%;
+}
+
+.facets-panel .usa-button[id*="GS-"]:hover, .facets-panel .usa-button[id*="series-"]:hover {
   border-bottom: 2px solid #adadad;
 }
 
@@ -71,7 +75,16 @@
 }
 
 input#career-advancement-search-input {
-  width: 23rem;
+  width: 15rem;
+}
+
+#cfo-search-button {
+  height:2.5rem;
+  width: 30%;
+}
+
+@media screen and (min-width: 785px) {
+  input#career-advancement-search-input { width: 23rem; }
 }
 
 .career-search-results-inner-heading {
@@ -102,9 +115,14 @@ input#career-advancement-search-input {
   padding: 2px 10px;
 }
 
-.career-competency-toggle-open {
+.career-competency-toggle-open--inner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.usa-button--unstyled:hover, .usa-button--unstyled:active {
+  text-decoration: none !important;
 }
 
 .career-competency-toggle-open b {
@@ -213,11 +231,12 @@ div[data-card-filter] {
 }
 
 .select-button {
-  position: absolute;
-  top: 2em;
-  right: 2em;
+  position: relative;
   font-size: 0.9em;
   font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5em;
 }
 
 .cfo-courses-outer {
