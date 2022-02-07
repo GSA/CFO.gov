@@ -130,7 +130,7 @@ attached:
                                 <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30 flex-column">
                                     <div class="career-competency-toggle-open">
                                         <div class="career-competency-toggle-open--inner">
-                                        <button type="button" id="competency-group-button-{{ competency_group }}"  class="usa-button usa-button--unstyled text-no-underline text-black  career-competency-toggle-button"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
+                                        <button type="button" id="competency-group-button-{{ competency_group }}"  class="usa-button usa-button--unstyled text-no-underline text-black  career-competency-toggle-button"><i class='fa fa-plus' title="{{ competency_group }} Open"></i> <b>{{ competency_group }}</b></button>
                                         <div class="career-competency-level-3-input-group">
                                             <div class="career-input-group">
                                               <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker font-sans-3xs"><strong>Select All</strong></label>
@@ -158,7 +158,7 @@ attached:
                                                         title="{{ competency }}"
                                                         aria-label="{{ competency }}"
                                                     />
-                                                    <label for="{{ competency_group_id }}-{{ competency_id }}" class="career-competency-input-groups-label">{{ competency }}</label>
+                                                    <label for="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}" class="career-competency-input-groups-label">{{ competency }}</label>
                                                 </div>
                                             </div>
                                         </div>
