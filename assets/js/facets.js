@@ -285,7 +285,8 @@ function createResults(noResults, item) { // creates a results div and contents
     const text2 = document.createTextNode('Check if your spelling is correct, or try removing filters. Remove quotes around phrases to match each word individually: "blue drop" will match less than blue drop.');
     textArea2.appendChild(text2);
   } else {
-    let template = '<p><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> {{ card.series }}</span></p>'
+    let template = '<p><strong>GS Level:</strong> {{ card.level }}</p>'
+                + '<p><strong>Job Series:</strong> {{ card.series }}</p>'
                 + '<p><strong>ALL:</strong> {{ card.competency }}'
                 + '<p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>';
     outerDiv3.innerHTML = template.replace('{{ card.level }}', item.level)
