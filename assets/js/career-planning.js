@@ -141,33 +141,33 @@
       $(elem).find('> div:first-child dl *').each(function () {
         if (this.nodeName == 'DT') {
           doc.moveDown(1);
-          doc.font(bold).text(this.innerText, { indent: 18 });
+          doc.font(bold).text(this.innerText, doc.page.margins.left, null, { indent: 18 });
         }
         else if (this.nodeName == 'DD') {
-          doc.font(norm).text(this.innerText, { indent: 36 });
+          doc.font(norm).text(this.innerText, doc.page.margins.left + 36, null, { width: doc.page.width - doc.page.margins.left - doc.page.margins.right });
         }
       });
       doc.moveDown(2);
-      doc.font(bold).text('Proficiency Level Definition');
+      doc.font(bold).text('Proficiency Level Definition', doc.page.margins.left);
       let items = [];
       $(elem).find('> div:nth-child(2) dl *').each(function () {
         if (this.nodeName == 'DT') {
           if (items.length) {
-            doc.font(norm).list(items, { textIndent: 36, bulletRadius: 2 });
+            doc.font(norm).list(items, doc.page.margins.left + 30, null, { bulletRadius: 2 });
             items.length = 0;
           }
           doc.moveDown(1);
-          doc.font(bold).text(this.innerText, { indent: 18 });
+          doc.font(bold).text(this.innerText, doc.page.margins.left, null, { indent: 18 });
         }
         else if (this.nodeName == 'DD') {
-          items.push(this.innerText);
+          items.push(this.innerText.trim());
         }
       });
       if (items.length) {
-        doc.font(norm).list(items, { textIndent: 36, bulletRadius: 2 });
+        doc.font(norm).list(items, doc.page.margins.left + 30, null, { bulletRadius: 2 });
       }
       doc.moveDown(2);
-      doc.font(bold).text('Relevant Courses');
+      doc.font(bold).text('Relevant Courses', doc.page.margins.left);
       doc.moveDown(1);
       let courses = $(elem).find('> div:nth-child(3) ul li');
       if (courses.length == 0) {
