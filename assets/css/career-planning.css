@@ -36,6 +36,11 @@
   margin-top: 25px;
 }
 
+.career-search__label {
+  position: absolute;
+  top: -45px;
+}
+
 .career-search-results-heading {
   display: flex;
   justify-content: space-between;
@@ -237,6 +242,16 @@ div[data-card-filter] {
   display: flex;
   justify-content: flex-end;
   margin-top: 0.5em;
+}
+
+.facets-panel .usa-button:hover {
+  background-color: white !important;
+  color: initial;
+}
+
+.facets-panel .usa-button.active:hover {
+  background-color: #1a4480 !important;
+  color: white;
 }
 
 .cfo-courses-outer {
