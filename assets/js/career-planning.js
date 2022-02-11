@@ -52,9 +52,10 @@
     
     downloadButton = $('#career-download-buttons').find('[data-op="download-selected"]').click(function () {
       let cards = [];
-      for (let i = 0, l = results.length; i < l; i++) {
-        if (typeof selected[results[i].permalink] != 'undefined') {
-          cards.push(results[i]);
+      let cardSet = results.length ? results : fullSet;
+      for (let i = 0, l = cardSet.length; i < l; i++) {
+        if (typeof selected[cardSet[i].permalink] != 'undefined') {
+          cards.push(cardSet[i]);
         }
       }
       generatePDF(cards);
