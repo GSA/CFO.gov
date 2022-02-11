@@ -212,6 +212,14 @@ attached:
                   {% if post_modulus > 0 %}
                       {% assign post_pages = post_pages | plus: 1 %}
                   {% endif %}
+                  <div class="career-search-results-page-size-wrapper float-right">
+                    <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">Results per page: </label>
+                    <select id="per-page-top" class="usa-select width-8 display-inline-block" name="per_page">
+                      <option value="5" selected>5</option>
+                      <option value="10">10</option>
+                      <option value="20">20</option>
+                    </select>
+                  </div>
                   <div class="career-search-results-pagination-wrapper">
                     <button type="button" class="cfo-page-left" disabled>&#60;</button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62;</button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p> Results
                   </div>
@@ -239,13 +247,14 @@ attached:
                     {% endfor %}
                 </div>
                 <div class="career-search-results-filter-pagination">
-                  {% assign post_count = site.cards | size %}
-
-                  {% assign post_pages = post_count | divided_by: 5 %}
-                  {% assign post_modulus = post_count | minus: post_pages | times: 5 %}
-                  {% if post_modulus > 0 %}
-                      {% assign post_pages = post_pages | plus: 1 %}
-                  {% endif %}
+                  <div class="career-search-results-page-size-wrapper float-right">
+                    <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-bot">Results per page: </label>
+                    <select id="per-page-bot" class="usa-select width-8 display-inline-block" name="per_page">
+                      <option value="5" selected>5</option>
+                      <option value="10">10</option>
+                      <option value="20">20</option>
+                    </select>
+                  </div>
                   <div class="career-search-results-pagination-wrapper">
                     <button type="button" class="cfo-page-left" disabled>&#60;</button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62;</button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p> Results
                   </div>
