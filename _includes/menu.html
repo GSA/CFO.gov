@@ -49,7 +49,11 @@ where we provide an easy way to manage your navigation system
         <ul class="usa-nav__secondary-links">
           {% for nav_item in include.secondary_navigation %}
           <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url  }}">{{ nav_item.name | escape }}</a>
+            {% if nav_item.url contains ":" %}
+            <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
+            {% else %}
+            <a href="{{ nav_item.url | prepend: site.baseurl }}">{{ nav_item.name | escape }}</a>
+            {% endif %}
           </li>
           {% endfor %}
         </ul>

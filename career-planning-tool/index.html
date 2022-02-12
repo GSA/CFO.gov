@@ -1,0 +1,265 @@
+---
+title: Career Planning
+description: Welcome to the Career Planning page.
+subtitle: Our Focus Areas
+layout: careers
+permalink: /career-planning-tool/
+description: Access best practices, training modules, career paths, videos, and more.
+keyword: CFO Priority Areas, CFO Council, Knowledge Sharing, Resources, Training, Videos, Career
+sidenav: false
+attached:
+ - facets
+ - career-planning
+
+---
+<div id="blog" class="bg-primary-darker usa-content font-serif-lg padding-y-6">
+    <div class="grid-container-widescreen">
+        <div class="grid-row grid-gap flex-row flex-align-center">
+            <div class="grid-col-12 desktop:grid-col-2 bg-white"><a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logos/logo-main-cfo.png" alt="back to CFO.gov"> </a> </div>
+            <div class="grid-col-12 desktop:grid-col-9">
+                <h1 class="text-normal text-white margin-bottom-1">Career Planning Tool</h1>
+                <p class="text-base-lighter padding-top-0 margin-top-0 text-light">Research what you need to advance in your government career.</p> 
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-widescreen">
+    <a id="main-content"></a>
+    <div class="grid-row">
+        <div class="usa-graphic-list__row grid-row grid-gap">
+            <div class="usa-media-block tablet:grid-col-4 desktop:grid-col-3 career-advancement-block">
+                <h2>Filter your results</h2>
+                <div class="facets-panel bg-base-lightest padding-y-3 border-base-light border-1px radius-md border-2px padding-x-105">
+
+                  <h3 class="margin-top-0">Job Series</h3>
+                    <div class="display-flex flex-column">
+                        {% assign series_array = "" | split: "," %}
+
+                        {% for item in site.cards %}
+                            {% if item.category == 'career' %}
+                                {% if series_array contains item.series %}
+
+                                {% else %}
+                                    {% assign series_array = series_array | push: item.series %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                        
+                        {% assign series_array = series_array | sort %}
+                        {% for series in series_array %}
+                            {% assign series_id = series | downcase | replace: ", ", "-" | replace: " ", "-" %}
+                            <button
+                                type="button"
+                                id="series-0{{ series_id }}"
+                                data-id="series-0{{ series_id }}"
+                                title="Series-0{{ series }}"
+                                aria-label="Series-0{{ series }}"
+                                class="usa-button padding-1 margin-bottom-2 text-bold text-black bg-white radius-lg border-2px border-gray-30"
+                            >0{{ series }}</button>
+                        {% endfor %} 
+                    </div>
+
+                    <h3>GS Level</h3>
+                    <div class="display-flex flex-column">
+                        {% assign level_array = "" | split: "," %}
+
+                        {% for item in site.cards %}
+                            {% if item.category == 'career' %}
+                                {% if level_array contains item.level %}
+
+                                {% else %}
+                                    {% assign level_array = level_array | push: item.level %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                        
+                        {% assign level_array = level_array | numerical_sort %}
+                        {% for level in level_array %}
+                            {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
+                            <button
+                                type="button"
+                                id="GS-{{ level_id }}"
+                                data-id="GS-{{ level_id }}"
+                                title="GS Level - {{ level }}"
+                                aria-label="GS Level - {{ level }}"
+                                class="usa-button padding-1 margin-bottom-2 text-bold text-black border-2px bg-white radius-lg border-gray-30"
+                            >GS {{ level }}</button>
+                        {% endfor %}
+                    </div>
+
+                    <div class="career-competency-level-1-input-group">
+                        <h3>Competencies</h3>
+                        <div class="career-input-group">
+                            <label class="text-underline text-accent-cool-darker" for="career-competency-select-all"><strong>Select All</strong></label>
+                            <input style="position: absolute; left: -9999px;" type="checkbox" id="career-competency-select-all"/>
+                        </div>
+                    </div>
+                    <div class="display-flex flex-column">
+                        {% assign competency_group_array = "" | split: "," %}
+
+                        {% for item in site.cards %}
+                            {% if item.category == 'career' %}
+                                {% if competency_group_array contains item.competency_group %}
+
+                                {% else %}
+                                    {% assign competency_group_array = competency_group_array | push: item.competency_group %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                        
+                        {% assign competency_group_array = competency_group_array | sort %}
+                        {% for competency_group in competency_group_array %}
+                            <!-- iterate through site.cards again for each copetency_group and grap all distinct copetencies that go with it.-->
+                            {% assign competency_array = "" | split: "," %}
+
+                            {% for item in site.cards %}
+                                {% if item.category == 'career' %}
+                                    {% if competency_array contains item.competency %}
+
+                                    {% else %}
+                                        {% if item.competency_group == competency_group %}
+                                            {% assign competency_array = competency_array | push: item.competency %}
+                                        {% endif %}
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                            
+                            {% assign competency_array = competency_array | sort %}
+
+                            {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
+                            <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
+                                <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30 flex-column">
+                                    <div class="career-competency-toggle-open">
+                                        <div class="career-competency-toggle-open--inner">
+                                        <button type="button" id="competency-group-button-{{ competency_group }}"  class="usa-button usa-button--unstyled text-no-underline text-black  career-competency-toggle-button" title="{{ competency_group }} Open"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
+                                        <div class="career-competency-level-3-input-group">
+                                            <div class="career-input-group">
+                                              <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker font-sans-3xs"><strong>Select All</strong></label>
+                                                <input
+                                                    type="checkbox"
+                                                    id="{{ competency_group_id | downcase}}"
+                                                    data-id="{{ competency_group_id | downcase }}"
+                                                    title="{{ competency_group }}"
+                                                    aria-label="{{ competency_group }}"
+                                                    style="position: absolute; left: -9999px;" 
+                                                />
+                                            </div>
+                                        </div>
+                                        </div>
+                                        {% for competency in competency_array %}
+                                        {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
+                                        <div class="career-competency-input-groups" style="display: none;">
+                                            <div class="career-competency-level-4-input-group">
+                                                <div class="career-input-group margin-top-105">
+                                                    <input
+                                                        type="checkbox"
+                                                        id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
+                                                        data-group="{{ competency_group_id | downcase }}"
+                                                        data-id="{{ competency_id | downcase }}"
+                                                        title="{{ competency }}"
+                                                        aria-label="{{ competency }}"
+                                                    />
+                                                    <label for="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}" class="career-competency-input-groups-label">{{ competency }}</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                        
+                        <!-- <button type="button" id="comp_customer">Customer</button> 
+                        <button type="button" id="comp_flexility">Flexility</button> 
+                        <button type="button" id="comp_budget">Budget</button>-->
+                    </div>
+                </div>
+            </div>
+            <div id="career-advancement-results-container" class="tablet:grid-col-8 desktop:grid-col-9 usa-prose padding-right-4">
+                <!-- HTML elements for search -->
+                <section class="career-search-results-header margin-top-5 tablet:margin-top-10">
+                    <div class="search-container flex-justify flex-wrap tablet:flex-no-wrap">
+                        <form class="usa-search" role="search">
+                            <div class="margin-top-1 career-search__label text-bold">
+                                <label for="career-advancement-search-input">Search Career Paths: </label>
+                            </div>
+                            <div class="margin-bottom-2">
+                                <input type="text" id="career-advancement-search-input" class="usa-input margin-top-0" type="search" name="search">
+                                <button class="usa-button" type="submit" id="cfo-search-button" title="Search">
+                                    <span>Search</span>
+                                </button>
+                            </div>
+                        </form>
+                        <div id="career-download-buttons">
+                            <button class="usa-button usa-button--outline margin-bottom-1" data-op="select-all">Select All Cards</button>
+                            <button class="usa-button usa-button--outline margin-bottom-1" data-op="download-selected" disabled aria-disabled="true">Download Selected</button>
+                        </div>
+                    </div>
+
+                    <section class="display-flex flex-column margin-top-1">
+                        <div id="career-search-results-filter-remove-buttons" class="display-flex flex-row flex-wrap"></div>
+                        <div id="career-search-results-filter-remove-all-button" class="margin-top-1">
+                            <a href="javascript:void(0)" class="text-accent-cool-darker" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
+                        </div>
+                    </section>
+
+                </section>	
+                <div class="career-search-results-filter-pagination">
+                  {% assign post_count = site.cards | size %}
+
+                  {% assign post_pages = post_count | divided_by: 5 %}
+                  {% assign post_modulus = post_count | minus: post_pages | times: 5 %}
+                  {% if post_modulus > 0 %}
+                      {% assign post_pages = post_pages | plus: 1 %}
+                  {% endif %}
+                  <div class="career-search-results-page-size-wrapper float-right">
+                    <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">Results per page: </label>
+                    <select id="per-page-top" class="usa-select width-8 display-inline-block" name="per_page">
+                      <option value="5" selected>5</option>
+                      <option value="10">10</option>
+                      <option value="20">20</option>
+                    </select>
+                  </div>
+                  <div class="career-search-results-pagination-wrapper">
+                    <button type="button" class="cfo-page-left" disabled>&#60;</button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62;</button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p> Results
+                  </div>
+                </div>
+                <div id="career-search-results">
+                    <!-- This loops through the paginated posts -->
+                    {% assign cards = site.cards | sort %}
+                    {% for card in cards limit:5 %}
+                        <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
+                            <div class="cfo-career-outer-box">
+                                <div class="cfo-career-text-container">
+                                    <div class="select-button">
+                                        <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
+                                    </div>
+                                    <p><strong>GS Level:</strong> {{ card.level }}</p>
+                                    <p><strong>Job Series:</strong> 0{{ card.series }}</p>
+                                    <p><strong>ALL:</strong> {{ card.competency }}</p>
+                                    <p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
+                                    <div class="grid-row grid-gap">
+                                        {{ card.content }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="career-search-results-filter-pagination">
+                  <div class="career-search-results-page-size-wrapper float-right">
+                    <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-bot">Results per page: </label>
+                    <select id="per-page-bot" class="usa-select width-8 display-inline-block" name="per_page">
+                      <option value="5" selected>5</option>
+                      <option value="10">10</option>
+                      <option value="20">20</option>
+                    </select>
+                  </div>
+                  <div class="career-search-results-pagination-wrapper">
+                    <button type="button" class="cfo-page-left" disabled>&#60;</button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62;</button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p> Results
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
