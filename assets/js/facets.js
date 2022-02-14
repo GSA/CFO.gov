@@ -8,6 +8,7 @@ let competency = [];
 let competency_group = [];
 let startingSearchFilter = [];
 let searchOrder = [];
+
 $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // load all md pages
   $('#career-advancement-search-input').val('');
   if ($("#career-competency-select-all").is(":checked")) {
@@ -27,6 +28,14 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
   
   $("input:checkbox").each(function() {    
     $(this).prop('checked', false);                                    
+  });
+
+  $("#career-competency-select-all").on("focus", function() {
+    $('label[for="career-competency-select-all"]').addClass( "border-05 border-blue" );
+  });
+
+  $("#career-competency-select-all").on("blur", function() {
+    $('label[for="career-competency-select-all"]').removeClass( "border-05 border-blue" );
   });
 
   $("#career-competency-select-all").on('change', function() {
@@ -96,6 +105,15 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
 
   competency_group.forEach(item => {
     let eventId = createId(item);
+
+    $("#"+eventId).on("focus", function() {
+      $('label[for="' + eventId + '"]').addClass( "border-05 border-blue" );
+    });
+  
+    $("#"+eventId).on("blur", function() {
+      $('label[for="' + eventId + '"]').removeClass( "border-05 border-blue" );
+    });
+    
     $("#"+eventId).on('change', function() { 
       if(this.checked) {
         if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency', searchOrder)) searchOrder.push('competency');
