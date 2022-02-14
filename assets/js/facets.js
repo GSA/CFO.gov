@@ -31,11 +31,13 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
   });
 
   $("#career-competency-select-all").on("focus", function() {
-    $('label[for="career-competency-select-all"]').addClass( "border-05 border-blue" );
+    $('label[for="career-competency-select-all"]').addClass( "padding-05" );
+    $('label[for="career-competency-select-all"]').css( "outline", "0.25rem solid #2491ff" );
   });
 
   $("#career-competency-select-all").on("blur", function() {
-    $('label[for="career-competency-select-all"]').removeClass( "border-05 border-blue" );
+    $('label[for="career-competency-select-all"]').removeClass( "padding-05" );
+    $('label[for="career-competency-select-all"]').css( "outline", "none" );
   });
 
   $("#career-competency-select-all").on('change', function() {
@@ -107,13 +109,15 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
     let eventId = createId(item);
 
     $("#"+eventId).on("focus", function() {
-      $('label[for="' + eventId + '"]').addClass( "border-05 border-blue" );
+      $('label[for="' + eventId + '"]').addClass( "padding-05" );
+      $('label[for="' + eventId + '"]').css( "outline", "0.25rem solid #2491ff" );
     });
   
     $("#"+eventId).on("blur", function() {
-      $('label[for="' + eventId + '"]').removeClass( "border-05 border-blue" );
+      $('label[for="' + eventId + '"]').removeClass( "padding-05" );
+      $('label[for="' + eventId + '"]').css( "outline", "none" );
     });
-    
+
     $("#"+eventId).on('change', function() { 
       if(this.checked) {
         if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency', searchOrder)) searchOrder.push('competency');
