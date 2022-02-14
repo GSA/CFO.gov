@@ -66,7 +66,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
             if(startingSearchFilter.length < 4 && !ifExistsSearchOrder('competency', searchOrder)) searchOrder.push('competency');
             if(!ifExists(eventId)) {
               //console.log(eventId);
-              createRemoveButtons('checkbox', eventId, this);
+              createRemoveButtons('checkbox', eventId, this, eventGroupId, item);
               // console.log(JSON.stringify(data));
               // console.log(JSON.stringify(startingSearchFilter));
               // console.log(JSON.stringify(searchOrder));
@@ -308,7 +308,7 @@ function createResults(noResults, item) { // creates a results div and contents
   resultsContainer.appendChild(outerDiv1);
 }
 
-function createRemoveButtons(inputType, eventTargetId, button) {
+function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, competencyTitle) {
   if(inputType == "button") {
     data.push({
       id: eventTargetId,
@@ -344,7 +344,14 @@ function createRemoveButtons(inputType, eventTargetId, button) {
   removeButtonA.setAttribute("tabindex", 0);
   removeButtonA.setAttribute("href", "javascript:void(0)");
   removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
-  const removeButtonText = createButtonText(eventTargetId);
+  let removeButtonText = '';
+  if(inputType == "button") {
+    removeButtonText = createButtonText(eventTargetId);
+  } else {
+    let = competencyName = competencyGroup +" - "+ competencyTitle
+    removeButtonText = (' '+competencyName).replace(/ [\w]/g, a => a.toLocaleUpperCase()).trim();
+  }
+  
   removeButtonA.innerHTML = removeButtonText + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
   const buttonContainer = document.getElementById("career-search-results-filter-remove-buttons");
   buttonContainer.appendChild(removeButtonA);
