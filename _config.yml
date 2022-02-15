@@ -85,16 +85,6 @@ primary_navigation:
         url: "/workforce-modernization/"
       - name: American Rescue Plan (ARP)
         url:  "/american-rescue-plan/"
-      - name: Financial Assistance
-        url: "/financial-assistance/"
-      - name: Payment Integrity
-        url: "/payment-integrity/"
-      - name: Fiscal Management Transformation
-        url: "/fmt/"
-      - name: Financial Data Transformation
-        url: "/fdt/"
-      - name: Enterprise Risk Management
-        url: "/erm/"
   - name: Policies & Guidance
     url: "/policies-and-guidance/"
   - name: Knowledge Sharing
