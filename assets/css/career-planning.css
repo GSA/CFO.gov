@@ -202,7 +202,7 @@ input#career-advancement-search-input {
 } */
 
 
-.cfo-page-left, #cfo-page-right {
+.cfo-page-left, .cfo-page-right {
   cursor: pointer;
   padding: 7px 12px;
   font-weight: bold;
