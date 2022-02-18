@@ -53,7 +53,6 @@ attached:
                                 id="series-0{{ series_id }}"
                                 data-id="series-0{{ series_id }}"
                                 title="Series-0{{ series }}"
-                                aria-label="Series-0{{ series }}"
                                 class="usa-button padding-1 margin-bottom-2 text-bold text-black bg-white radius-lg border-2px border-gray-30"
                             >0{{ series }}</button>
                         {% endfor %} 
@@ -81,7 +80,6 @@ attached:
                                 id="GS-{{ level_id }}"
                                 data-id="GS-{{ level_id }}"
                                 title="GS Level - {{ level }}"
-                                aria-label="GS Level - {{ level }}"
                                 class="usa-button padding-1 margin-bottom-2 text-bold text-black border-2px bg-white radius-lg border-gray-30"
                             >GS {{ level }}</button>
                         {% endfor %}
@@ -140,7 +138,6 @@ attached:
                                                     id="{{ competency_group_id | downcase}}"
                                                     data-id="{{ competency_group_id | downcase }}"
                                                     title="{{ competency_group }}"
-                                                    aria-label="{{ competency_group }}"
                                                     style="position: absolute; left: -9999px;" 
                                                 />
                                             </div>
@@ -192,7 +189,7 @@ attached:
                         </form>
                         <div id="career-download-buttons">
                             <button class="usa-button usa-button--outline margin-bottom-1" data-op="select-all">Select All Cards</button>
-                            <button class="usa-button usa-button--outline margin-bottom-1" data-op="download-selected" disabled aria-disabled="true">Download Selected</button>
+                            <button class="usa-button usa-button--outline margin-bottom-1" data-op="download-selected" disabled>Download Selected</button>
                         </div>
                     </div>
 
