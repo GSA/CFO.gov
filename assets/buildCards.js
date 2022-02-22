@@ -4,10 +4,10 @@ const parse = require('csv-parse').parse;
 function buildCards () {
   let cards = {};
 
-  fs.createReadStream('assets/csv/FEDS-Sample-Data-10-Jan-22-UTF-8.csv')
+  fs.createReadStream('assets/csv/FEDS Competency Model Sample Data Bravo.csv')
     .pipe(parse({columns: true}))
     .on('data', function (row) {
-      const parts = row.job_series.split(' '),
+      const parts = row[Object.keys(row)[0]].split(' '),
         key = [
           parts[0],
           gsLevel(row.career_level),
@@ -20,7 +20,7 @@ function buildCards () {
         gsLevel: gsLevel(row.career_level),
         jobSeries: parts[0].slice(1),
         jobSeriesTitle: parts[1],
-        jobSeriesFull: row.job_series,
+        jobSeriesFull: row[Object.keys(row)[0]],
         competency: row.competency,
         competencyGroup: row.competency_group,
         competencyDesignation: row.functional_competency_designation,
@@ -30,12 +30,32 @@ function buildCards () {
         courses: []
       };
       
-      const courses = row.relevant_courses.split("@@@");
+      const courses = row.relevant_courses.split("~~~");
       for (let i = 0, l = courses.length; i < l; i++) {
-        let cparts = courses[i].split('&&&');
-        if (cparts[0]) {
-          cards[key].courses.push(cparts);
+        if (!courses[i]) {
+          continue;
         }
+        let cparts = courses[i].split('|||'),
+          strings = cparts[0].split('%%%'),
+          urls = cparts[1].trim().split(' '),
+          courseName = strings[0].trim(),
+          institutionName = strings[1].trim(),
+          courseObj = {
+            urls: []
+          };
+          
+        if (courseName) {
+          courseObj.courseName = courseName;
+        }
+        if (institutionName) {
+          courseObj.instName = institutionName;
+        }
+        for (let j = 0, k = urls.length; j < k; j++) {
+          if (urls[j]) {
+            courseObj.urls.push(urls[j]);
+          }
+        }
+        cards[key].courses.push(courseObj);
       }
       
       let s = row.behavioral_illustrations;
@@ -53,8 +73,7 @@ function buildCards () {
             card.competencyGroup.replace(/ /g, '-') + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-'),
             'GS-' + card.gsLevel,
             'series-0' + card.jobSeries
-          ].join(' '),
-          debugMode = (card.careerLevel == 'Senior' && card.jobSeries == '501' && card.competency == 'Accounting Analysis');
+          ].join(' ');
           
         let courses = "\r\n",
           behaviorMarkup = "",
@@ -89,9 +108,21 @@ function buildCards () {
             }
           }
           
-          let courseUnique = [...new Set(card.courses)].filter(x => x || x.trim());
+          let courseUnique = [...new Set(card.courses)];
           for (i = 0, l = courseUnique.length; i < l; i++) {
-            courseMarkup += `<li>${ courseUnique[i][0] }<br><a href="${ courseUnique[i][1] }">${ courseUnique[i][1] }</a></li>`;
+            courseMarkup += '<li>';
+            if (courseUnique[i].courseName) {
+              courseMarkup += courseUnique[i].courseName + '<br>';
+            }
+            if (courseUnique[i].instName) {
+              courseMarkup += courseUnique[i].instName + '<br>';
+            }
+            if (courseUnique[i].urls.length) {
+              for (j = 0, k = courseUnique[i].urls.length; j < k; j++) {
+                courseMarkup += `<a href="${ courseUnique[i].urls[j] }">${ courseUnique[i].urls[j] }</a><br>`;
+              }
+            }
+            courseMarkup += '</li>';
           }
       
         let output = `---
