@@ -14,6 +14,7 @@ level: "14-15"
 behavior_illustrations: Advises internal and external stakeholders and Congressional representatives on Department-wide financial processes/operations to ensure financial integrity
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
+- [object Object]
 
 filters: Accounting-Accounting-Analysis GS-14-15 series-0510
 ---
@@ -34,7 +35,7 @@ filters: Accounting-Accounting-Analysis GS-14-15 series-0510
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Course Listing</h3>
     <ul class="text-base">
-     
+     <li>21 Test course name<br>21 Test Institution name<br><a href="www.cfo.gov">www.cfo.gov</a><br><a href="www.fai.gov">www.fai.gov</a><br></li>
     </ul>
   </div>
 </div>

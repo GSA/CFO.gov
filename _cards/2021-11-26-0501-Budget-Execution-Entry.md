@@ -14,6 +14,10 @@ level: "7-9"
 behavior_illustrations: Develops and utilizes financial processes and resources to ensure effectiveness and accountability ? Performs finance functions with a high degree of effectiveness and efficiency ? Formulates budget, develops justifications and presents to stakeholders for feedback
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
+- [object Object]
+- [object Object]
+- [object Object]
+- [object Object]
 
 filters: Budget-Budget-Execution GS-7-9 series-0501
 ---
@@ -34,7 +38,7 @@ filters: Budget-Budget-Execution GS-7-9 series-0501
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Course Listing</h3>
     <ul class="text-base">
-     
+     <li>7 Test course name<br>7 Test Institution name<br><a href="www.cfo.gov">www.cfo.gov</a><br><a href="www.fai.gov">www.fai.gov</a><br></li><li>7 Second Course name<br>Second Institution<br><a href="www.cio.gov">www.cio.gov</a><br></li><li>8 Test course name<br>8 Test Institution name<br><a href="www.cfo.gov">www.cfo.gov</a><br><a href="www.fai.gov">www.fai.gov</a><br></li><li>8 Second Course name<br>Second Institution<br><a href="www.cio.gov">www.cio.gov</a><br></li>
     </ul>
   </div>
 </div>

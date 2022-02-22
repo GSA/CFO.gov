@@ -14,6 +14,10 @@ level: "10-13"
 behavior_illustrations: Develops and utilizes audit processes to improve organizational efficiency and effectiveness ? Interprets and evaluates budget execution for compliance with fiscal law and guidance
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
+- [object Object]
+- [object Object]
+- [object Object]
+- [object Object]
 
 filters: Budget-Budget-Execution GS-10-13 series-0501
 ---
@@ -34,7 +38,7 @@ filters: Budget-Budget-Execution GS-10-13 series-0501
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Course Listing</h3>
     <ul class="text-base">
-     
+     <li>9 Test course name<br>0 Test Institution name<br><a href="www.cfo.gov">www.cfo.gov</a><br><a href="www.fai.gov">www.fai.gov</a><br></li><li>9 Second Course name<br>Second Institution<br><a href="www.cio.gov">www.cio.gov</a><br></li><li>10 Test course name<br>10 Test Institution name<br><a href="www.cfo.gov">www.cfo.gov</a><br><a href="www.fai.gov">www.fai.gov</a><br></li><li>10 Second Course name<br>Second Institution<br><a href="www.cio.gov">www.cio.gov</a><br></li>
     </ul>
   </div>
 </div>

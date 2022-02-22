@@ -14,6 +14,10 @@ level: "14-15"
 behavior_illustrations: Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers ? Interprets and advises others on financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
+- [object Object]
+- [object Object]
+- [object Object]
+- [object Object]
 
 filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0501
 ---
@@ -34,7 +38,7 @@ filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 serie
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Course Listing</h3>
     <ul class="text-base">
-     
+     <li>15 Test course name<br>15 Test Institution name<br><a href="www.cfo.gov">www.cfo.gov</a><br><a href="www.fai.gov">www.fai.gov</a><br></li><li>15 Second Course name<br>Second Institution<br><a href="www.cio.gov">www.cio.gov</a><br></li><li>16 Test course name<br>16 Test Institution name<br><a href="www.cfo.gov">www.cfo.gov</a><br><a href="www.fai.gov">www.fai.gov</a><br></li><li>16 Second Course name<br>Second Institution<br><a href="www.cio.gov">www.cio.gov</a><br></li>
     </ul>
   </div>
 </div>
