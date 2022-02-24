@@ -172,6 +172,7 @@ input#career-advancement-search-input {
   width: 13em;
   justify-content: space-between;
   margin: 0 auto;
+  line-height: 2;
 }
 
 .career-container {
