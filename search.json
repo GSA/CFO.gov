@@ -19,7 +19,7 @@ layout: none
       "proficiency_level": "{{ card.proficiency_level }}",
       "proficiency_level_definition": "{{ card.proficiency_level_definition }}",
       "behavioral_illustrations": "{{ card.behavior_illustrations }}",
-      "relevant_courses": "{{ card.relevant_courses }}",
+      "relevant_courses": {{ card.relevant_courses | jsonify }},
       "filters": "{{ card.filters }}",
       "content": "{{ card.content | strip_newlines | replace: '"', '\"' }}"
     } {% unless forloop.last %},{% endunless %}
