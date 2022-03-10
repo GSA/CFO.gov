@@ -78,6 +78,7 @@ function buildCards () {
         let courses = "\r\n",
           behaviorMarkup = "",
           profLevelMarkup = "",
+          courseExport = "",
           courseMarkup = "";
           
           for (let i = 0, l = card.courses.length; i < l; i++) {
@@ -110,16 +111,21 @@ function buildCards () {
           
           let courseUnique = [...new Set(card.courses)];
           for (i = 0, l = courseUnique.length; i < l; i++) {
+            courseExport += '\n -';
             courseMarkup += '<li>';
             if (courseUnique[i].courseName) {
               courseMarkup += courseUnique[i].courseName + '<br>';
+              courseExport += ' ' + courseUnique[i].courseName;
             }
             if (courseUnique[i].instName) {
               courseMarkup += courseUnique[i].instName + '<br>';
+              courseExport += ', ' + courseUnique[i].instName;
             }
             if (courseUnique[i].urls.length) {
               for (j = 0, k = courseUnique[i].urls.length; j < k; j++) {
-                courseMarkup += `<a href="${ courseUnique[i].urls[j] }">${ courseUnique[i].urls[j] }</a><br>`;
+                const link = `<a href="${ courseUnique[i].urls[j] }">${ courseUnique[i].urls[j] }</a>`;
+                courseMarkup += link + `<br>`;
+                courseExport += ', ' + link;  
               }
             }
             courseMarkup += '</li>';
@@ -140,28 +146,20 @@ competency_description: ${ card.compDesc }
 level: "${ card.gsLevel }"
 behavior_illustrations: ${ Object.values(card.behavior).join(' ? ') }
 proficiency_level_definition: ${ Object.values(card.prof).join(' ? ') }
-relevant_courses: ${ courses }
+relevant_courses: ${ courseExport }
 filters: ${ filters }
 ---
 
-<div class="desktop:grid-col-4 margin-y-205">
+<div class="desktop:grid-col-6 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Behavior Illustrations</h3>
     <dl class="text-base">${ behaviorMarkup }</dl>
   </div>
 </div>
-<div class="desktop:grid-col-4 margin-y-205">
+<div class="desktop:grid-col-6 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Proficiency Level Definition</h3>
     <dl class="text-base">${ profLevelMarkup }</dl>
-  </div>
-</div>
-<div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
-    <h3>Course Listing</h3>
-    <ul class="text-base">
-     ${ courseMarkup }
-    </ul>
   </div>
 </div>`;
         let filename = `_cards/2021-11-26-0${ card.jobSeries }-${ card.competency.replace(' ', '-')}-${ card.careerLevel }.md`;
