@@ -294,7 +294,7 @@ function createResults(noResults, item) { // creates a results div and contents
   outerDiv2.setAttribute("class", "cfo-career-outer-box");
   outerDiv1.append(outerDiv2);
   const outerDiv3 = document.createElement("div");
-  outerDiv3.setAttribute("class", "cfo-career-text-container");
+  outerDiv3.setAttribute("class", "cfo-career-text-container position-relative");
   outerDiv2.append(outerDiv3);
   if(noResults) {
     const textArea = document.createElement("p");
@@ -307,10 +307,9 @@ function createResults(noResults, item) { // creates a results div and contents
     const text2 = document.createTextNode('Check if your spelling is correct, or try removing filters. Remove quotes around phrases to match each word individually: "blue drop" will match less than blue drop.');
     textArea2.appendChild(text2);
   } else {
-    let template = '<p><strong>GS Level:</strong> {{ card.level }}</p>'
-                + '<p><strong>Job Series:</strong> {{ card.series }}</p>'
-                + '<p><strong>ALL:</strong> {{ card.competency }}'
-                + '<p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>';
+    let template = '<p class="font-body-md margin-y-0"><strong>GS Level:</strong> <span>{{ card.level }}</span><strong>Job Series:</strong> <span>{{ card.series }}</span></p>'
+                + '<p class="font-body-md"><strong>ALL:</strong> {{ card.competency }}'
+                + '<p class="font-body-md"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>';
     outerDiv3.innerHTML = template.replace('{{ card.level }}', item.level)
       .replace('{{ card.series }}', item.series)
       .replace('{{ card.competency }}', item.competency)
@@ -320,6 +319,15 @@ function createResults(noResults, item) { // creates a results div and contents
     innerDiv2.setAttribute("class", "grid-row grid-gap");
     outerDiv3.append(innerDiv2);
     innerDiv2.innerHTML = item.content;
+    
+    const coursesDiv = document.createElement('div');
+    let courseMarkup = '<ul>';
+    for (let i = 0, l = item.relevant_courses.length; i < l; i++) {
+      courseMarkup += '<li>' + item.relevant_courses[i] + '</li>';
+    }
+    courseMarkup += '</ul>';
+    coursesDiv.innerHTML = '<h3>Course Listing</h3>'+courseMarkup;
+    outerDiv3.append(coursesDiv);
 
     const selectButtonWrapper = document.createElement('div');
     outerDiv3.prepend(selectButtonWrapper);
