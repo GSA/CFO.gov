@@ -10,7 +10,7 @@ has_date: 'yes'
 filters: cxo-fellows
 ---
 
-“We can’t become what we need to be by remaining what we are.” – **Oprah Winfrey**
+<p style="text-align:center;"><i>“We can’t become what we need to be by remaining what we are.”</i> – <b>Oprah Winfrey</b></p>
 
 It goes without saying that the country has changed during COVID, and with phrases like “the new normal” being tossed around, the evolution is only beginning. One thing is certain: strong leadership in every function of Government will be critical to assure that the nation can thrive even as we move into uncharted territory.
 
