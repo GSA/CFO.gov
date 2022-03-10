@@ -14,27 +14,18 @@ level: "7-9"
 behavior_illustrations: Level 1 Behaviors ? Level 2 Behaviors
 proficiency_level_definition: Level 1  Stuff ? Level 2 Stuff
 relevant_courses: 
-
 filters: Taxes-Baseball GS-7-9 series-0660
 ---
 
-<div class="desktop:grid-col-4 margin-y-205">
+<div class="desktop:grid-col-6 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Behavior Illustrations</h3>
     <dl class="text-base"><dt>Baseball ( Level 1 - Awareness)</dt><dd>Level 1 Behaviors</dd><dt>Baseball ( Level 2 - Basic)</dt><dd>Level 2 Behaviors</dd></dl>
   </div>
 </div>
-<div class="desktop:grid-col-4 margin-y-205">
+<div class="desktop:grid-col-6 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Proficiency Level Definition</h3>
     <dl class="text-base"><dt>Baseball ( Level 1 - Awareness)</dt><dd>Level 1  Stuff</dd><dt>Baseball ( Level 2 - Basic)</dt><dd>Level 2 Stuff</dd></dl>
-  </div>
-</div>
-<div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
-    <h3>Course Listing</h3>
-    <ul class="text-base">
-     
-    </ul>
   </div>
 </div>

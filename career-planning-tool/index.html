@@ -227,16 +227,23 @@ attached:
                     {% for card in cards limit:5 %}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
-                                <div class="cfo-career-text-container">
+                                <div class="cfo-career-text-container position-relative">
                                     <div class="select-button">
                                         <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
                                     </div>
-                                    <p><strong>GS Level:</strong> {{ card.level }}</p>
-                                    <p><strong>Job Series:</strong> 0{{ card.series }}</p>
-                                    <p><strong>ALL:</strong> {{ card.competency }}</p>
-                                    <p class="competency-desc"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
+                                    <p class="font-body-md margin-y-0"><strong>GS Level:</strong> <span>{{ card.level }}</span><strong>Job Series:</strong> <span>0{{ card.series }}</span></p>
+                                    <p class="font-body-md"><strong>ALL:</strong> <span>{{ card.competency }}</span></p>
+                                    <p class="font-body-md"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
                                     <div class="grid-row grid-gap">
                                         {{ card.content }}
+                                    </div>
+                                    <div>
+                                      <h3>Career Listing</h3>
+                                      <ul>
+                                        {% for course in card.relevant_courses %}
+                                          <li>{{ course }}</li>
+                                        {% endfor %}
+                                      <ul>
                                     </div>
                                 </div>
                             </div>

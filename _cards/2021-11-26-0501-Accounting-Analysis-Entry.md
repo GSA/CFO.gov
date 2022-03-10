@@ -14,31 +14,22 @@ level: "7-9"
 behavior_illustrations: Reviews standard data and reports to ensure their accuracy ? Uses typical accounting and financial procedures and practices that apply to most situations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
-- [object Object]
-- [object Object]
-- [object Object]
-- [object Object]
-
+ - 2 Test course name, 2 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
+ - 2 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>
+ - 3 Test course name, 3 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
+ - 3 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>
 filters: Accounting-Accounting-Analysis GS-7-9 series-0501
 ---
 
-<div class="desktop:grid-col-4 margin-y-205">
+<div class="desktop:grid-col-6 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Behavior Illustrations</h3>
     <dl class="text-base"><dt>Accounting Analysis ( Level 1 - Awareness)</dt><dd>Reviews standard data and reports to ensure their accuracy</dd><dt>Accounting Analysis ( Level 2 - Basic)</dt><dd>Uses typical accounting and financial procedures and practices that apply to most situations</dd></dl>
   </div>
 </div>
-<div class="desktop:grid-col-4 margin-y-205">
+<div class="desktop:grid-col-6 margin-y-205">
   <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
     <h3>Proficiency Level Definition</h3>
     <dl class="text-base"><dt>Accounting Analysis ( Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Accounting Analysis ( Level 2 - Basic)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd></dl>
-  </div>
-</div>
-<div class="desktop:grid-col-4 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
-    <h3>Course Listing</h3>
-    <ul class="text-base">
-     <li>2 Test course name<br>2 Test Institution name<br><a href="www.cfo.gov">www.cfo.gov</a><br><a href="www.fai.gov">www.fai.gov</a><br></li><li>2 Second Course name<br>Second Institution<br><a href="www.cio.gov">www.cio.gov</a><br></li><li>3 Test course name<br>3 Test Institution name<br><a href="www.cfo.gov">www.cfo.gov</a><br><a href="www.fai.gov">www.fai.gov</a><br></li><li>3 Second Course name<br>Second Institution<br><a href="www.cio.gov">www.cio.gov</a><br></li>
-    </ul>
   </div>
 </div>

@@ -242,12 +242,11 @@ div[data-card-filter] {
 }
 
 .select-button {
-  position: relative;
+  position: absolute;
   font-size: 0.9em;
   font-weight: bold;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 0.5em;
+  top: 5px;
+  right: 5px;
 }
 
 .facets-panel .usa-button:hover {
