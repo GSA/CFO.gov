@@ -125,6 +125,17 @@ payment-accuracy-navigation:
   - name: FAQ
     url: /payment-accuracy-FAQ/
 
+jfmip-navigation:
+  - name: JFMIP Home
+    url: /jfmip/
+  - name: Current Initiatives
+    url: /
+    children:
+      - name: Payment Integrity Tool
+        url: /workforce-modernization/
+      - name: Blockchain Tool
+        url:  /american-rescue-plan/
+
 footer:
   contact:
     name: Contact Us
