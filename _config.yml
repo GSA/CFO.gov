@@ -131,10 +131,8 @@ jfmip-navigation:
   - name: Current Initiatives
     url: /
     children:
-      - name: Payment Integrity Tool
-        url: /workforce-modernization/
-      - name: Blockchain Tool
-        url:  /american-rescue-plan/
+      - name: Improper Payments Initiative
+        url: /jfmip/improper-payments-initiative/
 
 footer:
   contact:
