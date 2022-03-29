@@ -7,18 +7,21 @@ keyword: CFO Council, JFMIP, CFOC, Joint Financial Management Improvement Progra
 description1: The Joint Financial Management and Improvement Program (JFMIP) Principals conduct a program for the continuous improvement of federal financial management and to act as a catalyst for the sharing and exchange of information to promote operational effectiveness and efficiency, professional development, and data-driven decision-making.
 ---
 
-<section class="usa-graphic_list usa-prose usa-hero margin-bottom-5 jfmip-page clearfix ">
-    <div class="grid-container">
-            <div class="grid-row grid-gap">
-                <div class="grid-col-12 tablet:grid-col-7">
-                    <h2 class="margin-0 font-ui-2xl">{{ page.title }}</h2>
-                    <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
-                </div>
-                <div class="grid-col-12 tablet:grid-col-4 tablet:grid-offset-1">
-                    <h3>Latest News</h3>
-                </div>
-            </div>
+<section class="usa-graphic_list usa-prose usa-hero margin-bottom-5 jfmip-page clearfix">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="desktop:grid-col-7 tablet:grid-col-6 bg-white opacity-90 radius-lg text-black padding-y-3 padding-x-4">
+        <h2 class="margin-0 font-ui-2xl">{{ page.title }}</h2>
+        <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
+      </div>
+      <div class="desktop:grid-col-4 tablet:grid-col-4 tablet:grid-offset-1 bg-white opacity-90 radius-lg text-black padding-y-3 padding-x-4">
+        <h2>Latest News</h2>
+        <div>
+          {% include jfmip_latest_news.html %}
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <div class="grid-container tabSection">
