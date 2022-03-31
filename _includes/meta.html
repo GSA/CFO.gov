@@ -56,7 +56,7 @@ site, this is the place to do it.
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/main-page.css?{{ site.time | date: '%s%N' }}">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/career-planning.css?{{ site.time | date: '%s%N' }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  {% if page.use_jqui %}<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">{% endif %}
   {% asset index.scss %}
   {% asset main-page.scss %}
 </head>
