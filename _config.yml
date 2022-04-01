@@ -126,8 +126,6 @@ payment-accuracy-navigation:
     url: /payment-accuracy-FAQ/
 
 jfmip-navigation:
-  - name: JFMIP Home
-    url: /jfmip/
   - name: Current Initiatives
     url: /
     children:
