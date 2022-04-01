@@ -131,7 +131,7 @@ jfmip-navigation:
   - name: Current Initiatives
     url: /
     children:
-      - name: Improper Payments Initiative
+      - name: Improper Payment Initiative
         url: /jfmip/improper-payments-initiative/
 
 footer:
