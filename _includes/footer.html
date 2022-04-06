@@ -19,14 +19,27 @@
                 </div>
                 <div class="usa-footer__contact-links mobile-lg:grid-col-3">
                     <div class="usa-footer-logo-heading mobile-lg:font-ui-md"><strong>Contact Us</strong></div>
+                    {% if include.page_type == 'cxo' %}
+                    <ul class="usa-list usa-list--unstyled">
+                        <li><a href="mailto:cxofellowship@gsa.gov">cxofellowship@gsa.gov</a></li>
+                        <li class="usa-footer__secondary-link margin-top-1">
+                            <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/cxo_fellows" target="_blank" title="(opens New Window)">
+                                <span>Twitter footer</span>
+                            </a>
+                            <a class="usa-social-link usa-social-link--linkedin-cfo" href="https://www.linkedin.com/company/thecxofellowship/" target="_blank" title="(opens New Window)">
+                                <span>LinkedIn footer</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    {% else %}
+
                     <address class="usa-footer__address">
                         <div class="usa-footer__contact-info grid-row grid-gap">
                             <div class="grid-col-auto">
                                 <p>
                                     {% if include.page_type == 'frpc' %}
                                     {{ site.footer.contact.frpc-email }}
-                                    {% elsif include.page_type == 'cxo' %}
-                                    {{ site.footer.contact.cxo-email }}
                                     {% elsif include.page_type == 'jfmip' %}
                                     {{ site.footer.contact.jfmip-email }}
                                     {% else %}
@@ -36,6 +49,7 @@
                             </div>
                         </div>
                     </address>
+                    {% endif %}
                 </div>
             </div>
         </div>

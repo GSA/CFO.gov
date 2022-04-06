@@ -679,3 +679,10 @@ abbr{
   border-right-color: #71767a; }
 .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button:active::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--outline::before {
   display: none; }
+
+  //CXO Page Linkedin Button
+  .usa-social-link--linkedin-cfo {
+    background-image: url(../assets/images/linkedin-transparent.png),
+      linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+  }
