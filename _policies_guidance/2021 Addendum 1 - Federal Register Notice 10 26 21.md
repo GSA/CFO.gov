@@ -2,8 +2,8 @@
 date: 2021-10-26
 layout: policies-guidance-landing 
 type: Controller Alert
-title: "2021 Compliance Supplement Addendum 1 and 2"
-subtitle: "2021 Compliance Supplement Addendum 1 and 2"
+title: "2021 Compliance Supplement Addenda 1 & 2 and Technical Update"
+subtitle: "2021 Compliance Supplement Addenda 1 & 2 and Technical Update"
 filters: financial-assistance guidance
 permalink: /2021-addendum-1and2-and-technical-update/
 redirect_from: /2021-addendum-1/
