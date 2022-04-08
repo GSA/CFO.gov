@@ -2,10 +2,10 @@
 date: 2021-10-26
 layout: policies-guidance-landing 
 type: Controller Alert
-title: "2021 Compliance Supplement Addendum 1 and 2"
-subtitle: "2021 Compliance Supplement Addendum 1 and 2"
+title: "2021 Compliance Supplement Addenda 1 & 2 and Technical Update"
+subtitle: "2021 Compliance Supplement Addenda 1 & 2 and Technical Update"
 filters: financial-assistance guidance
-permalink: /2021-addendum-1and2/
+permalink: /2021-addendum-1and2-and-technical-update/
 redirect_from: /2021-addendum-1/
 ---
 
@@ -33,5 +33,16 @@ redirect_from: /2021-addendum-1/
 <p><a href="{{site.baseurl}}/assets/files/addendum-2/HHS 93.558 - TANF ADD2.pdf"><span style="font-weight: 400;"></span>HHS 93.558 - TANF</a></p>
 <p><a href="{{site.baseurl}}/assets/files/addendum-2/HUD 14.871 – Section 8 Housing Choice Vouchers ADD2.pdf"><span style="font-weight: 400;"></span>HUD 14.871 – Section 8 Housing Choice Vouchers </a></p>
 <p><a href="{{site.baseurl}}/assets/files/addendum-2/DOT 20.315 – National Railroad Passenger Corporation Grants ADD2.pdf"><span style="font-weight: 400;"></span>DOT 20.315 – National Railroad Passenger Corporation Grants</a></p>
+
+<br>
+
+<p>Note to the 2021 Compliance Supplement – Technical Update</p>
+
+<p>The 2021 Compliance Supplement Technical Update document provides an update for two programs that were included with the 2021 Compliance Supplement (issued on August 13, 2021 – FR Doc. 2021-17363) and Addendum 1 (issued on December 3, 2021 - FR Doc. 2021-26238).   The two programs are: (1) the Department of Health and Human Services Assistance Listing 93.498 - Provider Relief Fund and (2) Treasury Assistance Listing 21.027 - Coronavirus State and Local Fiscal Recovery Funds.  It also provides an update to Part 8 Appendix VII to add the alternative compliance examination engagement in accordance with the Government Accountability Office’s Government Auditing Standards for eligible recipients of the SLFRF.</p>
+
+<p><a href="{{site.baseurl}}/assets/files/FR Notice 2021 Compliance Supplement Technical Update 04 08 22.pdf"><span style="font-weight: 400;"></span>2021 Technical Update – Federal Register Notice</a></p>
+<p><a href="{{site.baseurl}}/assets/files/93.498_HHS_2021 Technical Update - FINAL 04 04 22.pdf"><span style="font-weight: 400;"></span>HHS 93.498 – PRF – Technical Update</a></p>
+<p><a href="{{site.baseurl}}/assets/files/21.027 Treasury SLFRF Technical Update - Final  04 04 22.pdf"><span style="font-weight: 400;"></span>Treasury 21.027 -SLFRF – Technical Update</a></p>
+<p><a href="{{site.baseurl}}/assets/files/Part 8 Appendix VII Technical Update - Final 04 04 22.pdf"><span style="font-weight: 400;"></span>Supplement Part 8 Appendix VII – Technical Update</a></p>
 
 <p>This guidance is applicable only for audits with report dates subsequent to issuance of this guidance.</p>
