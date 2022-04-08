@@ -6,7 +6,9 @@ title: "2021 Compliance Supplement Addenda 1 & 2 and Technical Update"
 subtitle: "2021 Compliance Supplement Addenda 1 & 2 and Technical Update"
 filters: financial-assistance guidance
 permalink: /2021-addendum-1and2-and-technical-update/
-redirect_from: /2021-addendum-1/
+redirect_from: 
+- /2021-addendum-1/
+- /2021-addendum-1and2/
 ---
 
 <p>Note to the 2021 Compliance Supplement Addendum 1 (Addendum 1)</p>
