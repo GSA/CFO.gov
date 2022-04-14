@@ -25,7 +25,7 @@ redirect_from:
 
 <p>Note to the 2021 Compliance Supplement Addendum 2 (Addendum 2)</p>
 
-<p>The 2021 Addendum 2 serves as a complement to the 2021 Compliance Supplement published on August 13, 20211 (FR Doc. 2021-17363) and applies to fiscal year audits beginning after June 30, 2020.  It includes 7 programs:</p>
+<p>The 2021 Addendum 2 serves as a complement to the 2021 Compliance Supplement published on August 13, 2021 (FR Doc. 2021-17363) and applies to fiscal year audits beginning after June 30, 2020.  It includes 7 programs:</p>
 
 <p><a href="{{site.baseurl}}/assets/files/addendum-2/Addendum 2 - FR Notice.pdf"><span style="font-weight: 400;"></span>2021 Addendum 2 - Federal Register Notice</a></p>
 <p><a href="{{site.baseurl}}/assets/files/addendum-2/USDA 10.542 Pandemic EBT – Food Benefits ADD2.pdf"><span style="font-weight: 400;"></span>USDA 10.542 – Pandemic EBT – Food Benefits</a></p>
