@@ -322,10 +322,15 @@ function createResults(noResults, item) { // creates a results div and contents
     
     const coursesDiv = document.createElement('div');
     let courseMarkup = '<ul>';
-    for (let i = 0, l = item.relevant_courses.length; i < l; i++) {
-      courseMarkup += '<li>' + item.relevant_courses[i] + '</li>';
+    if (item.relevant_courses.length > 0) {
+      for (let i = 0, l = item.relevant_courses.length; i < l; i++) {
+        courseMarkup += '<li>' + item.relevant_courses[i] + '</li>';
+      }
+      courseMarkup += '</ul>';
     }
-    courseMarkup += '</ul>';
+    else {
+      courseMarkup = '<p>No courses</p>';
+    }
     coursesDiv.innerHTML = '<h3>Course Listing</h3>'+courseMarkup;
     outerDiv3.append(coursesDiv);
 

@@ -240,11 +240,15 @@ attached:
                                     </div>
                                     <div>
                                       <h3>Career Listing</h3>
+                                      {% if card.relevant_courses.size != 0 %}
                                       <ul>
                                         {% for course in card.relevant_courses %}
                                           <li>{{ course }}</li>
                                         {% endfor %}
                                       <ul>
+                                      {% else %}
+                                      <p>No courses</p>
+                                      {% endif %}
                                     </div>
                                 </div>
                             </div>
