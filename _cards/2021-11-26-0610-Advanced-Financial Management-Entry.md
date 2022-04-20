@@ -13,7 +13,7 @@ competency_description: Develop, monitor, interpret, and report standardized pro
 level: "7-9"
 behavior_illustrations: Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts ? Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs ? Interprets and evaluates accounting information using a variety of analytical methods to provide recommendations
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Finance-Advanced-Financial-Management GS-7-9 series-0610
 ---
 

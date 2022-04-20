@@ -123,7 +123,7 @@ function buildCards () {
             }
             if (courseUnique[i].urls.length) {
               for (j = 0, k = courseUnique[i].urls.length; j < k; j++) {
-                const link = `<a href="${ courseUnique[i].urls[j] }">${ courseUnique[i].urls[j] }</a>`;
+                const link = `<a href="https://${ courseUnique[i].urls[j] }">${ courseUnique[i].urls[j] }</a>`;
                 courseMarkup += link + `<br>`;
                 courseExport += ', ' + link;  
               }
@@ -146,7 +146,7 @@ competency_description: ${ card.compDesc }
 level: "${ card.gsLevel }"
 behavior_illustrations: ${ Object.values(card.behavior).join(' ? ') }
 proficiency_level_definition: ${ Object.values(card.prof).join(' ? ') }
-relevant_courses: ${ courseExport }
+relevant_courses: ${ courseExport || '[]' }
 filters: ${ filters }
 ---
 

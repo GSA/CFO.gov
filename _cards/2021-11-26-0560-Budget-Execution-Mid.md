@@ -13,7 +13,7 @@ competency_description: Manage budget requirements by allocating, monitoring and
 level: "10-13"
 behavior_illustrations: Summarizes information related to audit findings to identify condition, criteria, cause and effect to communicate potential concerns ? Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Execution GS-10-13 series-0560
 ---
 

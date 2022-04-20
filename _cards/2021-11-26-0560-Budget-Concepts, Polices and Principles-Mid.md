@@ -13,7 +13,7 @@ competency_description: Apply the Planning, Programming, Budgeting and Execution
 level: "10-13"
 behavior_illustrations: Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives ? Coordinates budget inputs and gathers justifications
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Concepts-Polices-and-Principles GS-10-13 series-0560
 ---
 

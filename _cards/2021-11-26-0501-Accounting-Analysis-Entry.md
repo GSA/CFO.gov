@@ -14,10 +14,10 @@ level: "7-9"
 behavior_illustrations: Reviews standard data and reports to ensure their accuracy ? Uses typical accounting and financial procedures and practices that apply to most situations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 2 Test course name, 2 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
- - 2 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>
- - 3 Test course name, 3 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
- - 3 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>
+ - 2 Test course name, 2 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
+ - 2 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
+ - 3 Test course name, 3 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
+ - 3 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
 filters: Accounting-Accounting-Analysis GS-7-9 series-0501
 ---
 

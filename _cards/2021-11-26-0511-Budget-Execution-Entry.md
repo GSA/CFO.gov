@@ -13,7 +13,7 @@ competency_description: Manage budget requirements by allocating, monitoring and
 level: "7-9"
 behavior_illustrations: Monitors current financial processes to ensure that spending programs are affordable and sustainable over time ? Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Execution GS-7-9 series-0511
 ---
 

@@ -13,7 +13,7 @@ competency_description: Develop, monitor, interpret, and report standardized pro
 level: "7-9"
 behavior_illustrations: Develops and utilizes financial processes and resources to ensure effectiveness and accountability ? Performs finance functions with a high degree of effectiveness and efficiency ? Applies knowledge of policies and procedures to ensure adherence to accounting and financial guidelines
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Finance-Advanced-Financial-Management GS-7-9 series-0601
 ---
 

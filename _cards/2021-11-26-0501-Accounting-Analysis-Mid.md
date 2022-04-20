@@ -14,10 +14,10 @@ level: "10-13"
 behavior_illustrations: Formulates budget, develops justifications and presents to stakeholders for feedback ? Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 4 Test course name, 4 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
- - 4 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>
- - 5 Test course name, 5 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
- - 5 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>
+ - 4 Test course name, 4 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
+ - 4 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
+ - 5 Test course name, 5 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
+ - 5 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
 filters: Accounting-Accounting-Analysis GS-10-13 series-0501
 ---
 

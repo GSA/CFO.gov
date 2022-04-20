@@ -13,7 +13,7 @@ competency_description: Apply the Federal Acquisition Regulation (FAR), Generall
 level: "10-13"
 behavior_illustrations: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials
 proficiency_level_definition: Develops audit guidelines that conform to Generally Accepted Auditing Standards (GAAS) and Generally Accepted Government Auditing Standards (GAGAS) ? Makes recommendations for improvement or implementation of new policies ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Audit-Audit-Concepts-Policies-and-Principles GS-10-13 series-0511
 ---
 

@@ -13,7 +13,7 @@ competency_description: Develop, monitor, interpret, and report standardized pro
 level: "14-15"
 behavior_illustrations: Level 5 Behaviors
 proficiency_level_definition: Level 5 Stuff
-relevant_courses: 
+relevant_courses: []
 filters: Taxes-Football GS-14-15 series-0660
 ---
 

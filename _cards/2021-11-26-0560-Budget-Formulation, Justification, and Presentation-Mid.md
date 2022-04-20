@@ -13,7 +13,7 @@ competency_description: Manage budget requirements by forecasting, developing an
 level: "10-13"
 behavior_illustrations: Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives ? Develops execution reports and monitors status of funds to track organization’s budget, operations and processes
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0560
 ---
 

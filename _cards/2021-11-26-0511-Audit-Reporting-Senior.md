@@ -13,7 +13,7 @@ competency_description: Analyzes, reconciles and prepares audit information to p
 level: "14-15"
 behavior_illustrations: Applies basic knowledge of budget principles to assist in planning
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Audit-Audit-Reporting GS-14-15 series-0511
 ---
 

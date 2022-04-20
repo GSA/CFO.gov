@@ -13,7 +13,7 @@ competency_description: Apply the Federal Acquisition Regulation (FAR), Generall
 level: "14-15"
 behavior_illustrations: Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Audit-Audit-Concepts-Policies-and-Principles GS-14-15 series-0511
 ---
 

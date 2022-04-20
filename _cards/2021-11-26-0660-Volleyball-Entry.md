@@ -13,7 +13,7 @@ competency_description: Develop, monitor, interpret, and report standardized pro
 level: "7-9"
 behavior_illustrations: Level 1 Behaviors ? Level 2 Behaviors
 proficiency_level_definition: Level 1  Stuff ? Level 2 Stuff
-relevant_courses: 
+relevant_courses: []
 filters: Taxes-Volleyball GS-7-9 series-0660
 ---
 

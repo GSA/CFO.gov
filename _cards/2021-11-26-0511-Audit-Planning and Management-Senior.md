@@ -13,7 +13,7 @@ competency_description: Evaluates audit programs to ensure an appropriate risk-b
 level: "14-15"
 behavior_illustrations: Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers ? Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Audit-Audit-Planning-and-Management GS-14-15 series-0511
 ---
 

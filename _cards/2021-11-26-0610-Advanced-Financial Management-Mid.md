@@ -13,7 +13,7 @@ competency_description: Develop, monitor, interpret, and report standardized pro
 level: "10-13"
 behavior_illustrations: Collaborates with senior leadership to address complex and/or controversial findings and recommendations identified in audit reports, statements or other documentation ? Coordinates budget inputs and gathers justifications
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Finance-Advanced-Financial-Management GS-10-13 series-0610
 ---
 

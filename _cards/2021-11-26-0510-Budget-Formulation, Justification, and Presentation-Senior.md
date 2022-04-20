@@ -13,7 +13,7 @@ competency_description: Manage budget requirements by forecasting, developing an
 level: "14-15"
 behavior_illustrations: Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability ? Examines a variety of program plans and funding to determine performance in accordance with appropriate procedures, regulations and law
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0510
 ---
 

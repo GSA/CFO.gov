@@ -13,7 +13,7 @@ competency_description: Analyzes, reconciles and prepares audit information to p
 level: "7-9"
 behavior_illustrations: Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts ? Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs ? Implement execution plans and monitors and recommends adjustments to ensure compliance with total obligation authority
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Audit-Audit-Reporting GS-7-9 series-0511
 ---
 

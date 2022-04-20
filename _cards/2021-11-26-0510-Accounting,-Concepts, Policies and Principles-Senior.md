@@ -13,7 +13,7 @@ competency_description: Apply federal accounting standards, fiscal law, policies
 level: "14-15"
 behavior_illustrations: Applies basic knowledge of budget principles to complete budgeting transactions
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Accounting-Accounting-Concepts-Policies-and-Principles GS-14-15 series-0510
 ---
 

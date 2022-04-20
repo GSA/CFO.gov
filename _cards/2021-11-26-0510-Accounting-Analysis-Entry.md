@@ -14,10 +14,10 @@ level: "7-9"
 behavior_illustrations: Manages budgetary requirements within the organization, ensures alignment, and develops and recommends appropriate strategies ? Applies general analytical and evaluation techniques to review accounting data in line with all accounting principles
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 17 Test course name, 17 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
- - 17 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>
- - 18 Test course name, 18 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
- - 18 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>, <a href="www.gsa.gov">www.gsa.gov</a>
+ - 17 Test course name, 17 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
+ - 17 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
+ - 18 Test course name, 18 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
+ - 18 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>, <a href="https://www.gsa.gov">www.gsa.gov</a>
 filters: Accounting-Accounting-Analysis GS-7-9 series-0510
 ---
 

@@ -13,7 +13,7 @@ competency_description: Analyze, evaluate and review accounting data and reports
 level: "7-9"
 behavior_illustrations: Manages budgetary requirements within the organization, ensures alignment, and develops and recommends appropriate strategies ? Develops accounting and financial guidelines that conform to fiscal requirements, and makes recommendations for improvement or implementation of new policies
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Accounting-Accounting-Analysis GS-7-9 series-0560
 ---
 

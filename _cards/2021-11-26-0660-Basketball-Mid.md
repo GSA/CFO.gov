@@ -13,7 +13,7 @@ competency_description: Develop, monitor, interpret, and report standardized pro
 level: "10-13"
 behavior_illustrations: Level 3 Behaviors ? Level 4 Behaviors
 proficiency_level_definition: Level 3 Stuff ? Level 4 Stuff
-relevant_courses: 
+relevant_courses: []
 filters: Taxes-Basketball GS-10-13 series-0660
 ---
 

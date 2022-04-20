@@ -13,7 +13,7 @@ competency_description: Manage budget requirements by forecasting, developing an
 level: "7-9"
 behavior_illustrations: Applies general analytical and evaluation techniques to review accounting data in line with all accounting principles
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0511
 ---
 

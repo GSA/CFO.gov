@@ -14,8 +14,8 @@ level: "7-9"
 behavior_illustrations: Applies general analytical and evaluation techniques to review accounting data in line with all accounting principles
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 12 Test course name, 12 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
- - 12 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>
+ - 12 Test course name, 12 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
+ - 12 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
 filters: Budget-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0501
 ---
 

@@ -13,7 +13,7 @@ competency_description: Manage budget requirements by forecasting, developing an
 level: "14-15"
 behavior_illustrations: Develops execution reports and monitors status of funds to track organization’s budget, operations and processes ? Develops budget and financial guidelines that conform to fiscal requirements ? Makes recommendations regarding the budget process or financial operations
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0511
 ---
 

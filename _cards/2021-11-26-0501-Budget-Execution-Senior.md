@@ -14,8 +14,8 @@ level: "14-15"
 behavior_illustrations: Coordinates budget inputs and gathers justifications
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 11 Test course name, 11 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
- - 11 Second Course name, Second Institution, <a href="www.cio.gov">www.cio.gov</a>
+ - 11 Test course name, 11 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
+ - 11 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
 filters: Budget-Budget-Execution GS-14-15 series-0501
 ---
 

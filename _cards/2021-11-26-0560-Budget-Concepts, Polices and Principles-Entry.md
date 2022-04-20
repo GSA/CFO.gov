@@ -13,7 +13,7 @@ competency_description: Apply the Planning, Programming, Budgeting and Execution
 level: "7-9"
 behavior_illustrations: Reviews standard data and reports to ensure their accuracy ? Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Concepts-Polices-and-Principles GS-7-9 series-0560
 ---
 

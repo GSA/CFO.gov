@@ -13,7 +13,7 @@ competency_description: Apply federal accounting standards, fiscal law, policies
 level: "10-13"
 behavior_illustrations: Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials ? Interprets and evaluates budget execution for compliance with fiscal law and guidance
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Accounting-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0510
 ---
 

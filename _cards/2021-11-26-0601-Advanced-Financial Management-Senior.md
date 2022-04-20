@@ -13,7 +13,7 @@ competency_description: Develop, monitor, interpret, and report standardized pro
 level: "14-15"
 behavior_illustrations: Examines the impact of complex accounting solutions to make controversial decisions, and negotiate with key stakeholders
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Finance-Advanced-Financial-Management GS-14-15 series-0601
 ---
 

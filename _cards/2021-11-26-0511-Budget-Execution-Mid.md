@@ -13,7 +13,7 @@ competency_description: Manage budget requirements by allocating, monitoring and
 level: "10-13"
 behavior_illustrations: Leads and directs strategic audit planning efforts at the Department level ? Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Execution GS-10-13 series-0511
 ---
 

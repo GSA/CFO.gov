@@ -14,8 +14,8 @@ level: "10-13"
 behavior_illustrations: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Develops execution reports and monitors status of funds to track organization’s budget, operations and processes
 proficiency_level_definition: Uses typical audit procedures and practices that apply to most situations ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 19 Test course name, 19 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
- - 20 Test course name, 20 Test Institution name, <a href="www.cfo.gov">www.cfo.gov</a>, <a href="www.fai.gov">www.fai.gov</a>
+ - 19 Test course name, 19 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
+ - 20 Test course name, 20 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
 filters: Accounting-Accounting-Analysis GS-10-13 series-0510
 ---
 

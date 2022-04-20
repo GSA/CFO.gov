@@ -13,7 +13,7 @@ competency_description: Apply federal accounting standards, fiscal law, policies
 level: "7-9"
 behavior_illustrations: Develops and utilizes financial processes and resources to ensure effectiveness and accountability ? Performs finance functions with a high degree of effectiveness and efficiency ? Examines a variety of accounts, documents, records, related reports and processes to determine performance in accordance with appropriate procedures and regulations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Accounting-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0510
 ---
 

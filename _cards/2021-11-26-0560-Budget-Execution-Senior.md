@@ -13,7 +13,7 @@ competency_description: Manage budget requirements by allocating, monitoring and
 level: "14-15"
 behavior_illustrations: Applies basic knowledge of budget principles to assist in planning
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Budget-Budget-Execution GS-14-15 series-0560
 ---
 

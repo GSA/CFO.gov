@@ -13,7 +13,7 @@ competency_description: Evaluates audit programs to ensure an appropriate risk-b
 level: "7-9"
 behavior_illustrations: Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts ? Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Audit-Audit-Planning-and-Management GS-7-9 series-0511
 ---
 

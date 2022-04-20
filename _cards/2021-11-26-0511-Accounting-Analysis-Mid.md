@@ -13,7 +13,7 @@ competency_description: Analyze, evaluate and review accounting data and reports
 level: "10-13"
 behavior_illustrations: Prepares significant portions of audit reports, statements or other documentation to meet audit reporting standards ? Utilizes budget and financial procedures and practices that apply to most situations, and drives performance by setting strategy and measuring performance
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
-relevant_courses: 
+relevant_courses: []
 filters: Accounting-Accounting-Analysis GS-10-13 series-0511
 ---
 
