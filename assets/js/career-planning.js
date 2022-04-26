@@ -177,31 +177,42 @@
       doc.moveDown(2);
       doc.font(bold).text('Relevant Courses', doc.page.margins.left);
       doc.moveDown(1);
-      let courses = $(elem).find('> div:nth-child(3) ul li');
-      if (courses.length == 0) {
+      
+      if (card.relevant_courses.length == 0) {
         doc.font(norm).text('No Courses yet.');
       }
       else {
-        courses.each(function () {
-          let textNodes = Array.from(this.childNodes).filter(function (x) { return x.nodeType == Node.TEXT_NODE }),
-              col1 = textNodes[0],
-              col2 = $(this).find('a')[0],
-              y = doc.y;
-              
-          doc.font(norm).fillColor('black').text(col1.wholeText, {
-            align: 'left',
-          }).moveUp(1).fillColor('blue').text(col2.innerText, {
-            align: 'right',
-          });
-          
-          let link_width = doc.widthOfString(col2.innerText),
-              height = doc.currentLineHeight(),
-              right_edge = doc.page.width - doc.page.margins.right - link_width;
-          
-          doc.underline(right_edge, y, link_width, height, {color: 'blue'})
-             .link(right_edge, y, link_width, height, col2.href);
-          
-        });
+        for (let j = 0, k = card.relevant_courses.length; j < k; j++) {
+          let elems = card.relevant_courses[j].split(', ');
+          doc.font(norm);
+          for (let i = 0, l = elems.length; i < l; i++) {
+            if (elems[i].indexOf('<a') == -1) {
+              doc.fillColor('black').text(elems[i], {
+                underline: false,
+                continued: true
+              });
+            }
+            else {
+              let res = elems[i].match(/<a href="([^"]*)">([^<]*)<\/a>/);
+              doc.fillColor('blue').text(res[2], {
+                underline: true,
+                link: res[1],
+                continued: true
+              });
+            }
+            if (i != l - 1) {
+              doc.fillColor('black').text(', ', {
+                underline: false,
+                continued: true
+              });
+            }
+            else {
+              doc.text(' ', {
+                underline: false
+              })
+            }
+          }
+        }
       }
     }
     
