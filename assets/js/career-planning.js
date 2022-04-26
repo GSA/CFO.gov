@@ -38,8 +38,9 @@
         unselectAll();
       }
       else {
-        for (let i = 0, l = results.length; i < l; i++) {
-          selected[results[i].permalink] = true;
+        let set = results.length ? results : fullSet;
+        for (let i = 0, l = set.length; i < l; i++) {
+          selected[set[i].permalink] = true;
         }
         unselect = true;
         this.innerText = 'Deselect All Cards';
