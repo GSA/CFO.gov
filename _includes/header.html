@@ -3,6 +3,9 @@ This appears at the top of the page letting the user know it's an official gover
 {% endcomment %}
 
 <div class="page-landing-page layout-demo ">
+  {% if page.secondary_skip %}
+  <a class="usa-skipnav" href="#secondary-skip">Skip to secondary navigation</a>
+  {% endif %}
   <a class="usa-skipnav" href="#main-content">Skip to main content</a>
   <div class="usa-banner">
     <div class="usa-accordion">
