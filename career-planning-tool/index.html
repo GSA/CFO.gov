@@ -241,9 +241,9 @@ attached:
                                     <div>
                                       <h3>Career Listing</h3>
                                       {% if card.relevant_courses.size != 0 %}
-                                      <ul>
+                                      <ul class="usa-list" role="list">
                                         {% for course in card.relevant_courses %}
-                                          <li>{{ course }}</li>
+                                          <li role="listitem">{{ course }}</li>
                                         {% endfor %}
                                       <ul>
                                       {% else %}
