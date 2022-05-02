@@ -5,7 +5,7 @@ subtitle: 3 Reasons You’re Not Applying for the CXO Fellows Program (And Why Y
 filler: The CXO Fellows Program application window is open. If you’re on the fence about applying, consider the many benefits of becoming a Fellow.
 permalink: /knowledge-sharing/3-reasons-not-applying/
 type: CXO Fellows
-date: April 19, 2022
+date: May 2, 2022
 has_date: 'yes'
 filters: cxo-fellows
 ---
