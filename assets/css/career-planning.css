@@ -22,7 +22,8 @@
   width: 100%;
 }
 
-.facets-panel .usa-button[id*="GS-"]:hover, .facets-panel .usa-button[id*="series-"]:hover {
+.facets-panel .usa-button[id*="GS-"]:hover,
+.facets-panel .usa-button[id*="series-"]:hover {
   border-bottom: 2px solid #adadad;
 }
 
@@ -76,9 +77,10 @@
   border-top-width: 6px;
   border-top-color: #F39268;
   border-top-left-radius: 0rem !important;
-  border-top-right-radius: 0rem !important;;
-  border-bottom-left-radius:.2rem !important;
-  border-bottom-right-radius:.2rem !important;
+  border-top-right-radius: 0rem !important;
+  ;
+  border-bottom-left-radius: .2rem !important;
+  border-bottom-right-radius: .2rem !important;
   padding: 20px;
   margin-top: 10px;
   width: 33%;
@@ -89,12 +91,14 @@ input#career-advancement-search-input {
 }
 
 #cfo-search-button {
-  height:2.5rem;
+  height: 2.5rem;
   width: 30%;
 }
 
 @media screen and (min-width: 785px) {
-  input#career-advancement-search-input { width: 23rem; }
+  input#career-advancement-search-input {
+    width: 23rem;
+  }
 }
 
 .career-search-results-inner-heading {
@@ -131,7 +135,8 @@ input#career-advancement-search-input {
   justify-content: space-between;
 }
 
-.usa-button--unstyled:hover, .usa-button--unstyled:active {
+.usa-button--unstyled:hover,
+.usa-button--unstyled:active {
   text-decoration: none !important;
 }
 
@@ -208,7 +213,8 @@ input#career-advancement-search-input {
 } */
 
 
-.cfo-page-left, .cfo-page-right {
+.cfo-page-left,
+.cfo-page-right {
   cursor: pointer;
   padding: 7px 12px;
   font-weight: bold;
@@ -277,9 +283,9 @@ div[data-card-filter] {
   padding: 0 15px;
 }
 
-.cfo-career-text-container p span {
+/* .cfo-career-text-container p span {
   margin-right: 12em;
-}
+} */
 
 .cfo-career-text-container p.competency-desc {
   font-size: 125%;
@@ -305,4 +311,23 @@ div[data-card-filter] {
 
 .border-top-orange {
   border-top-color: #f39268 !important;
+}
+
+.cfo-career-category-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.grid-spacing {
+  padding: 0 !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .cfo-career-category-container {
+    width: 75%;
+  }
 }

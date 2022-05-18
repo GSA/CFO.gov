@@ -20,7 +20,7 @@ attached:
             <div class="grid-col-12 desktop:grid-col-2 bg-white"><a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logos/logo-main-cfo.png" alt="back to CFO.gov"> </a> </div>
             <div class="grid-col-12 desktop:grid-col-9">
                 <h1 class="text-normal text-white margin-bottom-1">Career Planning Tool</h1>
-                <p class="text-base-lighter padding-top-0 margin-top-0 text-light">Research what you need to advance in your government career.</p> 
+                <p class="text-base-lighter padding-top-0 margin-top-0 text-light">Research what you need to advance in your government career.</p>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@ attached:
     <div class="grid-row">
         <div class="usa-graphic-list__row grid-row grid-gap">
             <div class="usa-media-block tablet:grid-col-4 desktop:grid-col-3 career-advancement-block">
-                <h2>Filter your results</h2> 
+                <h2>Filter your results</h2>
                 <div id="secondary-skip" class="facets-panel bg-base-lightest padding-y-3 border-base-light border-1px radius-md border-2px padding-x-105">
 
                   <h3 class="margin-top-0">Job Series</h3>
@@ -46,7 +46,7 @@ attached:
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
-                        
+
                         {% assign series_array = series_array | sort %}
                         {% for series in series_array %}
                             {% assign series_id = series | downcase | replace: ", ", "-" | replace: " ", "-" %}
@@ -57,7 +57,7 @@ attached:
                                 title="Series-0{{ series }}"
                                 class="usa-button padding-1 margin-bottom-2 text-bold text-black bg-white radius-lg border-2px border-gray-30"
                             >0{{ series }}</button>
-                        {% endfor %} 
+                        {% endfor %}
                     </div>
 
                     <h3>GS Level</h3>
@@ -73,7 +73,7 @@ attached:
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
-                        
+
                         {% assign level_array = level_array | numerical_sort %}
                         {% for level in level_array %}
                             {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
@@ -106,7 +106,7 @@ attached:
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
-                        
+
                         {% assign competency_group_array = competency_group_array | sort %}
                         {% for competency_group in competency_group_array %}
                             <!-- iterate through site.cards again for each copetency_group and grap all distinct copetencies that go with it.-->
@@ -123,7 +123,7 @@ attached:
                                     {% endif %}
                                 {% endif %}
                             {% endfor %}
-                            
+
                             {% assign competency_array = competency_array | sort %}
 
                             {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
@@ -140,7 +140,7 @@ attached:
                                                     id="{{ competency_group_id | downcase}}"
                                                     data-id="{{ competency_group_id | downcase }}"
                                                     title="{{ competency_group }}"
-                                                    style="position: absolute; left: -9999px;" 
+                                                    style="position: absolute; left: -9999px;"
                                                 />
                                             </div>
                                         </div>
@@ -167,9 +167,9 @@ attached:
                                 </div>
                             </div>
                         {% endfor %}
-                        
-                        <!-- <button type="button" id="comp_customer">Customer</button> 
-                        <button type="button" id="comp_flexility">Flexility</button> 
+
+                        <!-- <button type="button" id="comp_customer">Customer</button>
+                        <button type="button" id="comp_flexility">Flexility</button>
                         <button type="button" id="comp_budget">Budget</button>-->
                     </div>
                 </div>
@@ -202,7 +202,7 @@ attached:
                         </div>
                     </section>
 
-                </section>	
+                </section>
                 <div class="career-search-results-filter-pagination">
                   {% assign post_count = site.cards | size %}
 
@@ -233,8 +233,7 @@ attached:
                                     <div class="select-button">
                                         <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
                                     </div>
-                                    <p class="font-body-md margin-y-0"><strong>GS Level:</strong> <span>{{ card.level }}</span><strong>Job Series:</strong> <span>0{{ card.series }}</span></p>
-                                    <p class="font-body-md"><strong>ALL:</strong> <span>{{ card.competency }}</span></p>
+                                    <p class="cfo-career-category-container font-body-md margin-y-0"><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> 0{{ card.series }}</span><span><strong>Competency Type:</strong> {{ card.competency }}</span></p>
                                     <p class="font-body-md"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
                                     <div class="grid-row grid-gap">
                                         {{ card.content }}
