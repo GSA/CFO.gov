@@ -5,7 +5,7 @@ layout: bio
 permalink: /bio/mr-kevin-brown/
 name : Mr. Kevin Brown
 department: Department of Labor
-title: Deputy Chief Financial Officer for Fiscal Integrity
+title: Deputy Chief Financial Officer
 ---
 Kevin Brown has been the Deputy Chief Financial Officer (DCFO) at the Department of Labor (DOL)
 since August 2020.  Mr. Brown leads a staff of approximately 80 federal employees in addition to
