@@ -6,9 +6,9 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Budget-Execution-Entry
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Budget Execution
-competency_group: Budget
+competency_group: Secondary
 competency_description: Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory/regulatory guidance.
 level: "7-9"
 behavior_illustrations: Develops and utilizes financial processes and resources to ensure effectiveness and accountability ? Performs finance functions with a high degree of effectiveness and efficiency ? Formulates budget, develops justifications and presents to stakeholders for feedback
@@ -18,7 +18,7 @@ relevant_courses:
  - 7 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
  - 8 Test course name, 8 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
  - 8 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
-filters: Budget-Budget-Execution GS-7-9 series-0501
+filters: Secondary-Budget-Execution GS-7-9 series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

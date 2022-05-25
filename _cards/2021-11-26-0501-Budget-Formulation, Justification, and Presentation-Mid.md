@@ -6,9 +6,9 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Budget-Formulation, Justification, and Presentation-Mid
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Budget Formulation, Justification, and Presentation
-competency_group: Budget
+competency_group: Secondary
 competency_description: Manage budget requirements by forecasting, developing and justifying budgets in compliance with statutory/regulatory guidance. 
 level: "10-13"
 behavior_illustrations: Implement execution plans and monitors and recommends adjustments to ensure compliance with total obligation authority ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
@@ -18,7 +18,7 @@ relevant_courses:
  - 13 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
  - 14 Test course name, 14 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
  - 14 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
-filters: Budget-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0501
+filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

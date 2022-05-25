@@ -6,15 +6,15 @@ series: 510
 job_series: 0510 Accounting
 career_level: Senior
 permalink: /cards/510-Budget-Formulation, Justification, and Presentation-Senior
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Budget Formulation, Justification, and Presentation
-competency_group: Budget
+competency_group: Secondary
 competency_description: Manage budget requirements by forecasting, developing and justifying budgets in compliance with statutory/regulatory guidance. 
 level: "14-15"
 behavior_illustrations: Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability ? Examines a variety of program plans and funding to determine performance in accordance with appropriate procedures, regulations and law
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: []
-filters: Budget-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0510
+filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

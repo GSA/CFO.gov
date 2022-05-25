@@ -6,15 +6,15 @@ series: 511
 job_series: 0511 Auditing
 career_level: Senior
 permalink: /cards/511-Audit-Planning and Management-Senior
-functional_competency_designation: Primary
+functional_competency_designation: Fred - Ignore me
 competency: Audit Planning and Management
-competency_group: Audit
+competency_group: Alternate
 competency_description: Evaluates audit programs to ensure an appropriate risk-based audit approach, monitors audit progress and reviews working papers and audit reports to ensure audits are properly documented and accomplished in accordance with Generally Accepted Government Auditing Standards (GAGAS) and Generally Accepted Auditing Standards (GAAS).
 level: "14-15"
 behavior_illustrations: Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers ? Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: []
-filters: Audit-Audit-Planning-and-Management GS-14-15 series-0511
+filters: Alternate-Audit-Planning-and-Management GS-14-15 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

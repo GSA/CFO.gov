@@ -6,9 +6,9 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Accounting-Analysis-Mid
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Accounting Analysis
-competency_group: Accounting
+competency_group: Primary
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations
 level: "10-13"
 behavior_illustrations: Formulates budget, develops justifications and presents to stakeholders for feedback ? Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability
@@ -18,7 +18,7 @@ relevant_courses:
  - 4 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
  - 5 Test course name, 5 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
  - 5 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
-filters: Accounting-Accounting-Analysis GS-10-13 series-0501
+filters: Primary-Accounting-Analysis GS-10-13 series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

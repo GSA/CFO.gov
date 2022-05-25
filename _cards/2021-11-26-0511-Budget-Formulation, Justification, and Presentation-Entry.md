@@ -6,15 +6,15 @@ series: 511
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Budget-Formulation, Justification, and Presentation-Entry
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Budget Formulation, Justification, and Presentation
-competency_group: Budget
+competency_group: Secondary
 competency_description: Manage budget requirements by forecasting, developing and justifying budgets in compliance with statutory/regulatory guidance. 
 level: "7-9"
 behavior_illustrations: Applies general analytical and evaluation techniques to review accounting data in line with all accounting principles
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: []
-filters: Budget-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0511
+filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -6,15 +6,15 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Budget-Formulation, Justification, and Presentation-Mid
-functional_competency_designation: Primary
+functional_competency_designation: Fred - Ignore me
 competency: Budget Formulation, Justification, and Presentation
-competency_group: Budget
+competency_group: Secondary
 competency_description: Manage budget requirements by forecasting, developing and justifying budgets in compliance with statutory/regulatory guidance. 
 level: "10-13"
 behavior_illustrations: Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives ? Develops execution reports and monitors status of funds to track organization’s budget, operations and processes
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: []
-filters: Budget-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0560
+filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

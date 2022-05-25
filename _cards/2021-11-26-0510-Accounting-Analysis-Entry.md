@@ -6,9 +6,9 @@ series: 510
 job_series: 0510 Accounting
 career_level: Entry
 permalink: /cards/510-Accounting-Analysis-Entry
-functional_competency_designation: Primary
+functional_competency_designation: Fred - Ignore me
 competency: Accounting Analysis
-competency_group: Accounting
+competency_group: Primary
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations
 level: "7-9"
 behavior_illustrations: Manages budgetary requirements within the organization, ensures alignment, and develops and recommends appropriate strategies ? Applies general analytical and evaluation techniques to review accounting data in line with all accounting principles
@@ -18,7 +18,7 @@ relevant_courses:
  - 17 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>
  - 18 Test course name, 18 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
  - 18 Second Course name, Second Institution, <a href="https://www.cio.gov">www.cio.gov</a>, <a href="https://www.gsa.gov">www.gsa.gov</a>
-filters: Accounting-Accounting-Analysis GS-7-9 series-0510
+filters: Primary-Accounting-Analysis GS-7-9 series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

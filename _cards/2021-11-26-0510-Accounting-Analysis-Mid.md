@@ -6,9 +6,9 @@ series: 510
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Accounting-Analysis-Mid
-functional_competency_designation: Primary
+functional_competency_designation: Fred - Ignore me
 competency: Accounting Analysis
-competency_group: Accounting
+competency_group: Primary
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations
 level: "10-13"
 behavior_illustrations: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Develops execution reports and monitors status of funds to track organization’s budget, operations and processes
@@ -16,7 +16,7 @@ proficiency_level_definition: Uses typical audit procedures and practices that a
 relevant_courses: 
  - 19 Test course name, 19 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
  - 20 Test course name, 20 Test Institution name, <a href="https://www.cfo.gov">www.cfo.gov</a>, <a href="https://www.fai.gov">www.fai.gov</a>
-filters: Accounting-Accounting-Analysis GS-10-13 series-0510
+filters: Primary-Accounting-Analysis GS-10-13 series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

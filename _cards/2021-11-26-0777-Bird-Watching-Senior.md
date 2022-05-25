@@ -6,16 +6,16 @@ series: 777
 job_series: 0777 ZOMG Cat Stuff
 career_level: Senior
 permalink: /cards/777-Bird-Watching-Senior
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Bird Watching
-competency_group: Cats
-competency_description: Be a Cat
+competency_group: People Competencies
+competency_description: Simulate Cat
 level: "14-15"
 behavior_illustrations: Level 5 Behaviors
 proficiency_level_definition: Level 5 Stuff
 relevant_courses: 
  - 199 Cat Care, Cat School, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Cats-Bird-Watching GS-14-15 series-0777
+filters: People-Competencies-Bird-Watching GS-14-15 series-0777
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

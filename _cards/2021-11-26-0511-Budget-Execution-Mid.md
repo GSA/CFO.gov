@@ -6,15 +6,15 @@ series: 511
 job_series: 0511 Auditing
 career_level: Mid
 permalink: /cards/511-Budget-Execution-Mid
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Budget Execution
-competency_group: Budget
+competency_group: Secondary
 competency_description: Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory/regulatory guidance.
 level: "10-13"
 behavior_illustrations: Leads and directs strategic audit planning efforts at the Department level ? Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: []
-filters: Budget-Budget-Execution GS-10-13 series-0511
+filters: Secondary-Budget-Execution GS-10-13 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

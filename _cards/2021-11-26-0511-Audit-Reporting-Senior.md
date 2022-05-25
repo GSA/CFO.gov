@@ -6,15 +6,15 @@ series: 511
 job_series: 0511 Auditing
 career_level: Senior
 permalink: /cards/511-Audit-Reporting-Senior
-functional_competency_designation: Primary
+functional_competency_designation: Fred - Ignore me
 competency: Audit Reporting
-competency_group: Audit
+competency_group: Alternate
 competency_description: Analyzes, reconciles and prepares audit information to produce required audit reports, statements and other documentation in accordance with Generally Accepted Government Auditing Standards (GAGAS) or Generally Accepted Auditing Standards (GAAS).
 level: "14-15"
 behavior_illustrations: Applies basic knowledge of budget principles to assist in planning
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: []
-filters: Audit-Audit-Reporting GS-14-15 series-0511
+filters: Alternate-Audit-Reporting GS-14-15 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

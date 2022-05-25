@@ -6,15 +6,15 @@ series: 660
 job_series: 0660 Even More Making Things Up
 career_level: Mid
 permalink: /cards/660-Non-Tax-Things-Mid
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Non-Tax Things
-competency_group: Taxes
+competency_group: Project Competencies
 competency_description: Develop, monitor, interpret, and report standardized processes/operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability.
 level: "10-13"
 behavior_illustrations: Level 3 Behaviors ? Level 4 Behaviors
 proficiency_level_definition: Level 3 Stuff ? Level 4 Stuff
 relevant_courses: []
-filters: Taxes-Non-Tax-Things GS-10-13 series-0660
+filters: Project-Competencies-Non-Tax-Things GS-10-13 series-0660
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

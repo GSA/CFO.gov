@@ -6,15 +6,15 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Accounting-Analysis-Mid
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Accounting Analysis
-competency_group: Accounting
+competency_group: Primary
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations
 level: "10-13"
 behavior_illustrations: Drafts sections of audit reports, statements or other documentation to support audit findings ? Applies knowledge of policies and procedures to ensure adherence to budget and financial guidelines
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: []
-filters: Accounting-Accounting-Analysis GS-10-13 series-0560
+filters: Primary-Accounting-Analysis GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

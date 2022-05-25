@@ -4,7 +4,7 @@ const parse = require('csv-parse').parse;
 function buildCards () {
   let cards = {};
 
-  fs.createReadStream('assets/csv/FEDS Competency Model Sample Data Bravo.csv')
+  fs.createReadStream('assets/csv/FEDS_Competency_Model_Sample_Data_Charlie.csv')
     .pipe(parse({columns: true}))
     .on('data', function (row) {
       const parts = row[Object.keys(row)[0]].split(' '),
@@ -14,7 +14,7 @@ function buildCards () {
           row.competency
         ].join('-'),
         profLevel = row.proficiency_level.match(/Level (\d)/)[1];
-        
+
       cards[key] = cards[key] || {
         careerLevel: row.career_level,
         gsLevel: gsLevel(row.career_level),
@@ -29,7 +29,7 @@ function buildCards () {
         prof: {},
         courses: []
       };
-      
+
       const courses = row.relevant_courses.split("~~~");
       for (let i = 0, l = courses.length; i < l; i++) {
         if (!courses[i]) {
@@ -43,7 +43,7 @@ function buildCards () {
           courseObj = {
             urls: []
           };
-          
+
         if (courseName) {
           courseObj.courseName = courseName;
         }
@@ -57,7 +57,7 @@ function buildCards () {
         }
         cards[key].courses.push(courseObj);
       }
-      
+
       let s = row.behavioral_illustrations;
       cards[key].behavior[profLevel] = (s.length && s[0] == '?') ? s.slice(2) : s;
       s = row.proficiency_level_definition;
@@ -66,7 +66,7 @@ function buildCards () {
     .on('end', function () {
       let count = 0;
       for (var k in cards) {
-      
+
         const card = cards[k],
           permalink = '/cards/' + card.jobSeries + '-' + card.competency.replace(' ', '-') + '-' + card.careerLevel,
           filters = [
@@ -74,19 +74,19 @@ function buildCards () {
             'GS-' + card.gsLevel,
             'series-0' + card.jobSeries
           ].join(' ');
-          
+
         let courses = "\r\n",
           behaviorMarkup = "",
           profLevelMarkup = "",
           courseExport = "",
           courseMarkup = "";
-          
+
           for (let i = 0, l = card.courses.length; i < l; i++) {
             if (courses.length) {
               courses += '- ' + card.courses[i] + "\r\n";
             }
           }
-          
+
           let levels = ['1', '2', '3', '4', '5'];
           for (i = 0, l = levels.length; i < l; i++) {
             let key = levels[i];
@@ -98,7 +98,7 @@ function buildCards () {
                 behaviorMarkup += `<dd>${ frags[j] }</dd>`;
               }
             }
-            
+
             if (typeof card.prof[key] != "undefined") {
               profLevelMarkup += `<dt>${ card.competency } ( ${ levelToString(key) })</dt>`;
               // profLevelMarkup += `<dd>${ card.prof[i] }</dd>`;
@@ -108,7 +108,7 @@ function buildCards () {
               }
             }
           }
-          
+
           let courseUnique = [...new Set(card.courses)];
           for (i = 0, l = courseUnique.length; i < l; i++) {
             courseExport += '\n -';
@@ -125,12 +125,12 @@ function buildCards () {
               for (j = 0, k = courseUnique[i].urls.length; j < k; j++) {
                 const link = `<a href="https://${ courseUnique[i].urls[j] }">${ courseUnique[i].urls[j] }</a>`;
                 courseMarkup += link + `<br>`;
-                courseExport += ', ' + link;  
+                courseExport += ', ' + link;
               }
             }
             courseMarkup += '</li>';
           }
-      
+
         let output = `---
 layout: career-planning-landing
 category: career
@@ -176,7 +176,7 @@ function gsLevel(level) {
     "Mid": "10-13",
     "Senior": "14-15"
   };
-  
+
   return levels[level];
 }
 
@@ -188,7 +188,7 @@ function levelToString(level) {
     "4" : 'Level 4 - Advanced',
     "5" : 'Level 5 - Expert'
   }
-  
+
   return levels[level];
 }
 

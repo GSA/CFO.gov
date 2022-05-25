@@ -6,15 +6,15 @@ series: 601
 job_series: 0601 Making Things Up
 career_level: Senior
 permalink: /cards/601-Advanced-Financial Management-Senior
-functional_competency_designation: Secondary
+functional_competency_designation: Fred - Ignore me
 competency: Advanced Financial Management
-competency_group: Finance
+competency_group: Self Competencies
 competency_description: Develop, monitor, interpret, and report standardized processes/operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability.
 level: "14-15"
 behavior_illustrations: Examines the impact of complex accounting solutions to make controversial decisions, and negotiate with key stakeholders
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: []
-filters: Finance-Advanced-Financial-Management GS-14-15 series-0601
+filters: Self-Competencies-Advanced-Financial-Management GS-14-15 series-0601
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

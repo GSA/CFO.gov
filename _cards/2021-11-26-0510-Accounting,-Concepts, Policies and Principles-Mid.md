@@ -6,15 +6,15 @@ series: 510
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Accounting,-Concepts, Policies and Principles-Mid
-functional_competency_designation: Primary
+functional_competency_designation: Fred - Ignore me
 competency: Accounting, Concepts, Policies and Principles
-competency_group: Accounting
+competency_group: Primary
 competency_description: Apply federal accounting standards, fiscal law, policies, regulations, principles, standards, internal controls and procedures to financial management activities.
 level: "10-13"
 behavior_illustrations: Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials ? Interprets and evaluates budget execution for compliance with fiscal law and guidance
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: []
-filters: Accounting-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0510
+filters: Primary-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
