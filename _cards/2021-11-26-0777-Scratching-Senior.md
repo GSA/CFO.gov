@@ -8,14 +8,14 @@ career_level: Senior
 permalink: /cards/777-Scratching-Senior
 functional_competency_designation: Fred - Ignore me
 competency: Scratching
-competency_group: People Competencies
-competency_description: Simulate Cat
+competency_group: Aardvarks
+competency_description: Simulate Aardvarks
 level: "14-15"
 behavior_illustrations: Level 5 Behaviors
 proficiency_level_definition: Level 5 Stuff
 relevant_courses: 
  - 204 Cat Care, Cat School, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: People-Competencies-Scratching GS-14-15 series-0777
+filters: Aardvarks-Scratching GS-14-15 series-0777
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
