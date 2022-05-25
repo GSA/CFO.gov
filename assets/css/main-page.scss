@@ -790,6 +790,11 @@ abbr {
   border-right-color: #565c65;
 }
 
+/* .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--secondary:disabled::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--accent-cool:disabled::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--base:disabled::before {
+  border-right-color: #71767a; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button:active::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--outline::before {
+  display: none; } */
+
 .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--secondary:disabled::before,
 .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--accent-cool:disabled::before,
 .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--base:disabled::before {
@@ -823,3 +828,10 @@ abbr {
     }
   }
 }
+
+  //CXO Page Linkedin Button
+  /* .usa-social-link--linkedin-cfo {
+    background-image: url(../assets/images/linkedin-transparent.png),
+      linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+  } */

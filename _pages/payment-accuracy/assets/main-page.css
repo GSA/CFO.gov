@@ -4596,7 +4596,7 @@ img {
 .usa-footer--big .usa-footer__primary-content--collapsible.hidden .usa-list--unstyled {
   display: none; }
 .usa-footer--big .usa-footer__primary-content--collapsible.hidden .usa-footer__primary-link {
-  background-image: url("../img/arrow-right.svg"), linear-gradient(transparent, transparent);
+  background-image: url("../assets/img/arrow-right.svg"), linear-gradient(transparent, transparent);
   background-repeat: no-repeat;
   cursor: pointer; }
   @media all and (min-width: 30em) {
