@@ -232,7 +232,8 @@ attached:
                                     <div class="select-button">
                                         <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
                                     </div>
-                                    <p class="cfo-career-category-container font-body-md margin-y-0"><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> 0{{ card.series }}</span><span><strong>Competency Type:</strong> {{ card.competency }}</span></p>
+                                    <p class="cfo-career-category-container font-body-md margin-y-0"><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> 0{{ card.series }}</span></p>
+                                    <p class="cfo-career-category-container font-body-md margin-y-0"><span><strong>Competency:</strong> {{ card.competency }}</span><span><strong>Type:</strong> {{ card.competency_group }}</span></p>
                                     <p class="font-body-md"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>
                                     <div class="grid-row grid-gap">
                                         {{ card.content }}

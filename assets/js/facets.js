@@ -307,11 +307,13 @@ function createResults(noResults, item) { // creates a results div and contents
     const text2 = document.createTextNode('Check if your spelling is correct, or try removing filters. Remove quotes around phrases to match each word individually: "blue drop" will match less than blue drop.');
     textArea2.appendChild(text2);
   } else {
-    let template = '<p class="cfo-career-category-container font-body-md margin-y-0"><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> {{ card.series }}</span><span><strong>Competency Type:</strong> {{ card.competency }}</span></p>'
+    let template = '<p class="cfo-career-category-container font-body-md margin-y-0"><span><strong>GS Level:</strong> {{ card.level }}</span><span><strong>Job Series:</strong> {{ card.series }}</span></p>'
+                + '<p class="cfo-career-category-container font-body-md margin-y-0"><span><strong>Competency:</strong> {{ card.competency }}</span><span><strong>Type:</strong> {{ card.competency_group }}</span></p>'
                 + '<p class="font-body-md"><strong>Competency Definition:</strong> {{ card.competency_description }}</p>';
     outerDiv3.innerHTML = template.replace('{{ card.level }}', item.level)
       .replace('{{ card.series }}', item.series)
       .replace('{{ card.competency }}', item.competency)
+      .replace('{{ card.competency_group }}', item.competency_group)
       .replace('{{ card.competency_description }}', item.competency_description);
 
     const innerDiv2 = document.createElement("div");

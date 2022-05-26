@@ -317,7 +317,11 @@ div[data-card-filter] {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 50%;
+  width: 57%;
+}
+
+.cfo-career-category-container span {
+  width: 100%;
 }
 
 .grid-spacing {
@@ -329,5 +333,9 @@ div[data-card-filter] {
 @media only screen and (min-width: 1024px) {
   .cfo-career-category-container {
     width: 75%;
+  }
+
+  .cfo-career-category-container span {
+    width: fit-content;
   }
 }
