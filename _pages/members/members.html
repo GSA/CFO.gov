@@ -16,8 +16,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
 
                 {% for bio in site.leadership %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <a style="color:black;text-decoration: none; display: block;" class="height-full"
-                        href="{{ site.baseurl }}{{ bio.permalink }}">
+                    <div style="display: block;" class="height-full">
                         <div class="left">
                             <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                         </div>
@@ -25,7 +24,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                             <p><span class="name">{{ bio.name }}<br></span>
                                 <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 {% endfor %}
 
@@ -118,8 +117,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                 </div>
                 {% else %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <a style="color:black;text-decoration: none; display: block;" class="height-full"
-                        href="{{ site.baseurl }}{{ bio.permalink }}">
+                    <div style="display: block;" class="height-full">
                         <div class="left">
                             <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                         </div>
@@ -127,7 +125,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                             <p><span class="name">{{ bio.name }}<br></span>
                                 <span class="title">{{ bio.title }}, {{ bio.department }} {{ bio.sub-department }}</span></p>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 {% endif %}
                 {% endfor %}
