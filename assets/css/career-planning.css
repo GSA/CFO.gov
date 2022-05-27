@@ -315,12 +315,11 @@ div[data-card-filter] {
 
 .cfo-career-category-container {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   width: 57%;
 }
 
-.cfo-career-category-container span {
+.cfo-inner-competency-div {
   width: 100%;
 }
 
@@ -333,10 +332,10 @@ div[data-card-filter] {
 
 @media only screen and (min-width: 1024px) {
   .cfo-career-category-container {
-    width: 75%;
+    width: 95%;
   }
 
-  .cfo-career-category-container span {
-    width: fit-content;
+  .cfo-inner-competency-div {
+    width: 47%;
   }
 }
