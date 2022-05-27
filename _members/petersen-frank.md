@@ -1,8 +1,8 @@
 ---
-bio-image: /wp-content/uploads/2021/02/stephen_shinn.jpg
-bio-image-alt-text: STEPHEN SHINN
+bio-image: /wp-content/uploads/2020/09/NASA_seal.jpg
+bio-image-alt-text: NASA Seal
 layout: bio
-name : Mr. Stephen Shinn
+name : Mr. Frank E. Petersen
 department: National Aeronautics and Space Administration
 title: Deputy Chief Financial Office
 ---
