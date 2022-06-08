@@ -147,7 +147,7 @@ level: "${ card.gsLevel }"
 behavior_illustrations: ${ Object.values(card.behavior).join(' ? ') }
 proficiency_level_definition: ${ Object.values(card.prof).join(' ? ') }
 relevant_courses: ${ courseExport || '[]' }
-filters: ${ filters }
+filters: ${ filters } 
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
