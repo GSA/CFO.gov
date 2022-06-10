@@ -106,8 +106,8 @@ attached:
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
-
-                        {% for competency_group in competency_group_array %}
+                        {% assign cg_sorted = competency_group_array | sort %}
+                        {% for competency_group in cg_sorted %}
                             <!-- iterate through site.cards again for each copetency_group and grap all distinct copetencies that go with it.-->
                             {% assign competency_array = "" | split: "," %}
 
