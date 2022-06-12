@@ -25,6 +25,9 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // lo
     results.push(item);
     fullSet.push(item);
   });
+  
+  competency_group.sort();
+  competency.sort();
 
   $("input:checkbox").each(function() {
     $(this).prop('checked', false);
