@@ -1,0 +1,37 @@
+---
+layout: career-planning-landing
+category: career
+title: 0501 Financial Administration and Program Support Mid Accounting Concepts, Policies and Principles
+series: 501
+job_series: 0501 Financial Administration and Program Support
+career_level: Mid
+permalink: /cards/501-Accounting-Concepts, Policies and Principles-Mid
+functional_competency_designation: Accounting
+competency: Accounting Concepts, Policies and Principles
+competency_group: Alternate
+competency_description: Apply federal accounting standards, fiscal law, policies, regulations, principles, standards, internal controls and procedures to financial management activities
+level: "10-13"
+behavior_illustrations: Examines a variety of accounts, documents, records, related reports and processes to determine performance in accordance with appropriate procedures and regulations ? Develops accounting and financial guidelines that conform to fiscal requirements, and makes recommendations for improvement or implementation of new policies
+proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
+relevant_courses: 
+ - 220 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 221 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 222 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 223 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 224 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 225 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+filters: Alternate-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0501
+---
+
+<div class="desktop:grid-col-6 margin-y-205">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+    <h3>Behavior Illustrations</h3>
+    <dl class="text-base"><dt>Accounting Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Examines a variety of accounts, documents, records, related reports and processes to determine performance in accordance with appropriate procedures and regulations</dd><dt>Accounting Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Develops accounting and financial guidelines that conform to fiscal requirements, and makes recommendations for improvement or implementation of new policies</dd></dl>
+  </div>
+</div>
+<div class="desktop:grid-col-6 margin-y-205">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+    <h3>Proficiency Level Definition</h3>
+    <dl class="text-base"><dt>Accounting Concepts, Policies and Principles ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Accounting Concepts, Policies and Principles ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
+  </div>
+</div>

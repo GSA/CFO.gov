@@ -107,7 +107,22 @@ attached:
                             {% endif %}
                         {% endfor %}
 
-                        {% for competency_group in competency_group_array %}
+                        {% assign competency_sort_array = 'Primary,Secondary,Alternate,Self Competencies,Project Competencies,People Competencies,Future Skills' | split: ',' %}
+                        {% assign sorted_competency_group_array = "" | split: "," %}
+
+                        {% for comp in competency_sort_array %}
+                            {% for compet in competency_group_array %}
+                                {% if sorted_competency_group_array contains comp %}
+
+                                {% else %}
+                                    {% if competency_group_array contains comp %}
+                                        {% assign sorted_competency_group_array = sorted_competency_group_array | push: comp %}
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+
+                        {% for competency_group in sorted_competency_group_array %}
                             <!-- iterate through site.cards again for each copetency_group and grap all distinct copetencies that go with it.-->
                             {% assign competency_array = "" | split: "," %}
 
