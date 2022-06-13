@@ -123,7 +123,6 @@ attached:
                         {% endfor %}
 
                         {% for competency_group in sorted_competency_group_array %}
-                            <!-- iterate through site.cards again for each copetency_group and grap all distinct copetencies that go with it.-->
                             {% assign competency_array = "" | split: "," %}
 
                             {% for item in site.cards %}
