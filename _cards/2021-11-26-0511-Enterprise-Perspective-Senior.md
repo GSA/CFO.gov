@@ -1,0 +1,37 @@
+---
+layout: career-planning-landing
+category: career
+title: 0511 Auditing Senior Enterprise Perspective
+series: 511
+job_series: 0511 Auditing
+career_level: Senior
+permalink: /cards/511-Enterprise-Perspective-Senior
+functional_competency_designation: Leading People
+competency: Enterprise Perspective
+competency_group: Leadership Competencies
+competency_description: An ability to think broadly and connect the dots among various aspects of the enterprise 
+level: "14-15"
+behavior_illustrations: Understands the political, legal and administrative forces that influence the offices work, relationships with other Departments and Congress ? Recognizes the need for teamwork to meet the mission and fosters that ? Manages conflict across organizations ? Models behaviors that demonstrate sensitivity to sharing knowledge with others, including workforce development, and demonstrating good governance and leadership techniques
+proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
+relevant_courses: 
+ - 1594 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 1595 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 1596 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 1597 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 1598 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 1599 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+filters: Leadership-Competencies-Enterprise-Perspective GS-14-15 series-0511
+---
+
+<div class="desktop:grid-col-6 margin-y-205">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+    <h3>Behavior Illustrations</h3>
+    <dl class="text-base"><dt>Enterprise Perspective ( Level 4 - Advanced)</dt><dd>Understands the political, legal and administrative forces that influence the offices work, relationships with other Departments and Congress </dd><dd> Recognizes the need for teamwork to meet the mission and fosters that </dd><dd> Manages conflict across organizations</dd><dt>Enterprise Perspective ( Level 5 - Expert)</dt><dd>Models behaviors that demonstrate sensitivity to sharing knowledge with others, including workforce development, and demonstrating good governance and leadership techniques</dd></dl>
+  </div>
+</div>
+<div class="desktop:grid-col-6 margin-y-205">
+  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+    <h3>Proficiency Level Definition</h3>
+    <dl class="text-base"><dt>Enterprise Perspective ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Enterprise Perspective ( Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+  </div>
+</div>

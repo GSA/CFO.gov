@@ -55,7 +55,7 @@ attached:
                                 id="series-0{{ series_id }}"
                                 data-id="series-0{{ series_id }}"
                                 title="Series-0{{ series }}"
-                                class="usa-button padding-1 margin-bottom-2 text-bold text-black bg-white radius-lg border-2px border-gray-30"
+                                class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black bg-white radius-lg border-2px border-gray-30"
                             >0{{ series }}</button>
                         {% endfor %}
                     </div>
@@ -82,7 +82,7 @@ attached:
                                 id="GS-{{ level_id }}"
                                 data-id="GS-{{ level_id }}"
                                 title="GS Level - {{ level }}"
-                                class="usa-button padding-1 margin-bottom-2 text-bold text-black border-2px bg-white radius-lg border-gray-30"
+                                class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black border-2px bg-white radius-lg border-gray-30"
                             >GS {{ level }}</button>
                         {% endfor %}
                     </div>
@@ -122,6 +122,14 @@ attached:
                             {% endfor %}
                         {% endfor %}
 
+                        {% for compet in competency_group_array %}
+                            {% if sorted_competency_group_array contains compet %}
+
+                            {% else %}
+                                {% assign sorted_competency_group_array = sorted_competency_group_array | push: compet %}
+                            {% endif %}
+                        {% endfor %}
+
 
                         {% for competency_group in sorted_competency_group_array %}
                             {% assign competency_array = "" | split: "," %}
@@ -148,7 +156,7 @@ attached:
                                         <button type="button" id="competency-group-button-{{ competency_group }}"  class="usa-button usa-button--unstyled text-no-underline text-black  career-competency-toggle-button" title="{{ competency_group }} Open"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                                         <div class="career-competency-level-3-input-group">
                                             <div class="career-input-group">
-                                              <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker font-sans-3xs"><strong>Select All</strong></label>
+                                              <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker font-sans-3xs"><strong class="cpt-strong">Select All</strong></label>
                                                 <input
                                                     type="checkbox"
                                                     id="{{ competency_group_id | downcase}}"
