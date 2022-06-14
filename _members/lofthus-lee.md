@@ -1,8 +1,8 @@
 ---
 bio-image: /wp-content/uploads/2016/02/lofthus_lee.jpg
-bio-image-alt-text: LEE LOFTHUS
+bio-image-alt-text: Vacant
 layout: bio
-name : Mr. Lee Lofthus
+name : Vacant
 department: Department of Justice
 title: Chief Financial Officer
 ---
