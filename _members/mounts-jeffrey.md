@@ -1,8 +1,8 @@
 ---
-bio-image: /wp-content/uploads/2019/11/Jeffrey-C.-Mounts-Picture-scaled.jpg
-bio-image-alt-text: JEFFREY C. MOUNTS
+bio-image: 
+bio-image-alt-text: Vacant
 layout: bio
-name : Mr. Jeffrey C. Mounts
+name : Vacant
 department: Department of State
 title: Comptroller
 ---
