@@ -16,8 +16,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
 
                 {% for bio in site.leadership %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <a style="color:black;text-decoration: none; display: block;" class="height-full"
-                        href="{{ site.baseurl }}{{ bio.permalink }}">
+                    <div style="display: block;" class="height-full">
                         <div class="left">
                             <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                         </div>
@@ -25,7 +24,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                             <p><span class="name">{{ bio.name }}<br></span>
                                 <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 {% endfor %}
 
@@ -63,9 +62,15 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                     </span>
                 </div>
                 {% for group in group_members %}
-                {% assign sorted_members = group.items | sort: "title" %}
-                {% assign firstItem = sorted_members | first%}
-                {% assign lastItem = sorted_members.last %}
+                {% assign sortedTitle = group.items | first %}
+                {% if sortedTitle.title contains "Principal Deputy Assistant Secretary exercising"  %}
+                    {% assign sorted_members = group.items | sort: "title" | reverse %}
+                {% else %}
+                    {% assign sorted_members = group.items | sort: "title" %}
+                {% endif %}
+                
+                {% assign firstItem = sorted_members | first %}
+                {% assign lastItem = sorted_members.last %} 
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <span style="color:black;text-decoration: none; display: block;" class="height-full">
                         <div class="leftSeal">
@@ -80,24 +85,6 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                     </span>
                 </div>
 
-                {% if firstItem.title contains "Deputy"  %}
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <span style="color:black;text-decoration: none; display: block;" class="height-full">
-                        <div class="left">
-                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
-                        </div>
-
-                        <div class="right">
-                            <p>
-                                <span class="name">
-                                    Vacant<br>
-                                </span>
-                                <span class="title">Chief Financial Officer, {{ firstItem.department }}</span>
-                            </p>
-                        </div>
-                    </span>
-                </div>
-                {% endif %}
                 {% for bio in sorted_members %}
                 {% if bio.name contains "Vacant"  %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
@@ -116,10 +103,9 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                         </div>
                     </span>
                 </div>
-                {% else %}
+                {% elsif bio.bio-image %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <a style="color:black;text-decoration: none; display: block;" class="height-full"
-                        href="{{ site.baseurl }}{{ bio.permalink }}">
+                    <div style="display: block;" class="height-full">
                         <div class="left">
                             <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                         </div>
@@ -127,15 +113,28 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                             <p><span class="name">{{ bio.name }}<br></span>
                                 <span class="title">{{ bio.title }}, {{ bio.department }} {{ bio.sub-department }}</span></p>
                         </div>
-                    </a>
+                    </div>
+                </div>
+                {% else %}
+                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                    <span style="color:black;text-decoration: none; display: block;" class="height-full">
+                        <div class="left">
+                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
+                        </div>
+
+                        <div class="right">
+                            <p>
+                                <span class="name">
+                                    {{ bio.name }}<br>
+                                </span>
+                                <span class="title">{{ bio.title }}, {{ bio.department }} {{ bio.sub-department }}</span>
+                            </p>
+                        </div>
+                    </span>
                 </div>
                 {% endif %}
                 {% endfor %}
-
-
-                {% if firstItem.title contains "Deputy"  %}
-
-                {% else %}
+                
                 {% if firstItem == lastItem   %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <span style="color:black;text-decoration: none; display: block;" class="height-full">
@@ -152,7 +151,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                         </div>
                     </span>
                 </div>
-                {% endif %}
+                
                 {% endif %}
                 {% endfor %}
 
