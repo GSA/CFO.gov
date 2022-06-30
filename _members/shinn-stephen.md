@@ -1,6 +1,6 @@
 ---
 layout: bio
-name : Ms. Margaret Vo Schaus
+name : Mr. Stephen A. Shinn
 department: National Aeronautics and Space Administration
-title: Chief Financial Officer
+title: Deputy Chief Financial Officer
 ---
