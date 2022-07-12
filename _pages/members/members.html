@@ -15,6 +15,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
 
                 {% for bio in site.leadership %}
+                {% if bio.bio-image %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <div style="display: block;" class="height-full">
                         <div class="left">
@@ -26,6 +27,19 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                         </div>
                     </div>
                 </div>
+                {% else %}
+                <div class="tablet:grid-col-4 container" style="padding:10px;">
+                    <div style="display: block;" class="height-full">
+                        <div class="left">
+                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{bio.department | slugify}}.png" alt="{{ bio.department }} seal">
+                        </div>
+                        <div class="right">
+                            <p><span class="name">{{ bio.name }}<br></span>
+                                <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
                 {% endfor %}
 
 
