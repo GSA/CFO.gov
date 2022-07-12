@@ -79,7 +79,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                 {% assign sortedTitle = group.items | first %}
                 {% if sortedTitle.title contains "Principal Deputy Assistant Secretary exercising"  %}
                     {% assign sorted_members = group.items | sort: "title" | reverse %}
-                {% else if sortedTitle.title contains "Acting Deputy Chief Financial Officer" %}
+                {% elsif sortedTitle.title contains "Acting Deputy Chief Financial Officer" %}
                     {% assign sorted_members = group.items | sort: "title" | reverse %}
                 {% else %}
                     {% assign sorted_members = group.items | sort: "title" %}
