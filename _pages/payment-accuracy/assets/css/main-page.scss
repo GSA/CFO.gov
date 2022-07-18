@@ -100,7 +100,7 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 .ui-tabs-vertical .ui-tabs-nav li {
   clear: left;
   width: 100%;
-  padding: 0em 0 0em 2em;
+  padding: 0em 2em 0em 2em;
   margin: 1em 2em 1em 0.5em;
 }
 
@@ -187,7 +187,9 @@ color:#005ea2;
 .jfmip-page{
   background-image: url('../assets/images/jfmip.png');
   background-color:  #19387b;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   padding:3em 0;
 }
 .financial-assistance-page{
