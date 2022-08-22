@@ -92,6 +92,23 @@
         });
         outputs = outputs.filter(function (x) { return !!x });
         response(outputs);
+      },
+      select: function (event, ui) {
+        console.log(event);
+        let $elem = $(event.target),
+          value = $elem.val();
+        
+        data.push({
+          type: 'keys',
+          id: 'search',
+          value: ui.item.value,
+          exact: true
+        });
+        startingSearchFilter.push({keys: ui.item.value, id: 'keys'});
+        adjustSearchOrder();
+        getSearch();
+      },
+      change: function (event, ui) {
       }
     });
     

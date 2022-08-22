@@ -499,7 +499,6 @@ function createButtonText(text) { // creates the remove button text
 
 function getSearch() {
   results = [];
-  $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) { // load all md pages
     // take search and facet(data) selections and iterate through res looking for matches
     /* if(startingSearchFilter.length > 0) {
       let cvalue = '';
@@ -513,89 +512,70 @@ function getSearch() {
 
     // create a count of the the items displayed and display it.
     // count all search results for an item as a sanity check and make a spread sheet.
-    if(searchOrder.length > 0) {
-      searchOrder.forEach((searchItem, index) => {
-        // console.log("Index :" + index);
-        switch(index) {
-          case 0:
-            if(searchItem == 'search') { // is the search always first No - if first add if second subtract
-              //console.log(startingSearchFilter[0].keys);
-              res.forEach(item => { // go over all loaded md pages
-                searchKeys.forEach(term => {
-                  //console.log(item[term].toLowerCase() + " &&&& " + startingSearchFilter[0].keys.toLowerCase());
+  if(searchOrder.length > 0) {
+    searchOrder.forEach((searchItem, index) => {
+      // console.log("Index :" + index);
+      switch(index) {
+        case 0:
+          if(searchItem == 'search') { // is the search always first No - if first add if second subtract
+            //console.log(startingSearchFilter[0].keys);
+            fullSet.forEach(item => { // go over all loaded md pages
+              searchKeys.forEach(term => {
+                //console.log(item[term].toLowerCase() + " &&&& " + startingSearchFilter[0].keys.toLowerCase());
+                if (typeof item[term] == "string") {
                   if(item[term].toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())) {
+                    if (!ifExistsResults(item.title, results)) {
+                      results.push(item);
+                    }
+                  }
+                }
+                else if (Array.isArray(item[term])) {
+                  if (item[term].filter(i => i.toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())).length) {
+                    if (!ifExistsResults(item.title, results)) {
+                      results.push(item);
+                    }
+                  }
+                }
+              });
+            });
+          } else {
+            //console.log("Starting Id: " + startingSearchFilter[0].id);
+            fullSet.forEach(item => { // go over all loaded md pages
+              data.forEach(obj => { // go over the search and facets selected
+                if(getFilterType(obj.id) == searchItem) {
+                  let filters = item.filters.split(" ");
+                  let val = '';
+                  switch (getFilterType(obj.id)) {
+                    case 'series': // Series
+                      val = filters[2];
+                    break;
+                    case 'level': // GS Level
+                      val = filters[1];
+                    break;
+                    case 'competency': // Group - Competency
+                      val = filters[0];
+                  }
+                  //console.log("Val: " + val);
+                  if (val.toLowerCase() == obj.id.toLowerCase()) {
                     if(!ifExistsResults(item.title, results)) {
                       results.push(item);
                     }
                   }
-                });
+                }
               });
-            } else {
-              //console.log("Starting Id: " + startingSearchFilter[0].id);
-              res.forEach(item => { // go over all loaded md pages
+            });
+          }
+        break;
+        default:
+          let newResults = [];
+          if(searchItem == 'search') {
+            // create a results array for the next search criteria
+            fullSet.forEach(item => { // go over all loaded md pages
+              searchKeys.forEach(term => {
                 data.forEach(obj => { // go over the search and facets selected
-                  if(getFilterType(obj.id) == searchItem) {
-                    let filters = item.filters.split(" ");
-                    let val = '';
-                    switch (getFilterType(obj.id)) {
-                      case 'series': // Series
-                        val = filters[2];
-                      break;
-                      case 'level': // GS Level
-                        val = filters[1];
-                      break;
-                      case 'competency': // Group - Competency
-                        val = filters[0];
-                    }
-                    //console.log("Val: " + val);
-                    if (val.toLowerCase() == obj.id.toLowerCase()) {
-                      if(!ifExistsResults(item.title, results)) {
-                        results.push(item);
-                      }
-                    }
-                  }
-                });
-              });
-            }
-          break;
-          default:
-            let newResults = [];
-            if(searchItem == 'search') {
-              // create a results array for the next search criteria
-              res.forEach(item => { // go over all loaded md pages
-                searchKeys.forEach(term => {
-                  data.forEach(obj => { // go over the search and facets selected
-                    if(obj.type == 'keys') {
-                      // console.log(item[term].toLowerCase() + " &&&& " + obj.keys.toLowerCase());
-                      if(item[term].toLowerCase().match(obj.keys.toLowerCase())) {
-                        if(!ifExistsResults(item.title, newResults)) {
-                          newResults.push(item);
-                        }
-                      }
-                    }
-                  });
-                });
-              });
-              // console.log("New Results: " + newResults.length);
-            } else {
-              // create a results array for the next search criteria
-              res.forEach(item => { // go over all loaded md pages
-                data.forEach(obj => { // go over the search and facets selected
-                  if(getFilterType(obj.id) == searchItem) {
-                    let filters = item.filters.split(" ");
-                    let val = '';
-                    switch (getFilterType(obj.id)) {
-                      case 'series': // Series
-                        val = filters[2];
-                      break;
-                      case 'level': // GS Level
-                        val = filters[1];
-                      break;
-                      case 'competency': // Group - Competency
-                        val = filters[0];
-                    }
-                    //console.log("Val: " + val);
-                    if (val.toLowerCase() == obj.id.toLowerCase()) {
+                  if(obj.type == 'keys') {
+                    // console.log(item[term].toLowerCase() + " &&&& " + obj.keys.toLowerCase());
+                    if(item[term].toLowerCase().match(obj.keys.toLowerCase())) {
                       if(!ifExistsResults(item.title, newResults)) {
                         newResults.push(item);
                       }
@@ -603,36 +583,61 @@ function getSearch() {
                   }
                 });
               });
-              // console.log("New Results: " + newResults.length);
-            }
-
-            // look for newfilters in prior results set and if they are there
-            // save the prior results in to a different array.
-            finishResults = [];
-            results.forEach(item => {
-              newResults.forEach(newItem => {
-                if (item.title.toLowerCase() == newItem.title.toLowerCase()) {
-                  if(!ifExistsResults(item.title, finishResults)) {
-                    finishResults.push(item);
+            });
+            // console.log("New Results: " + newResults.length);
+          } else {
+            // create a results array for the next search criteria
+            fulSet.forEach(item => { // go over all loaded md pages
+              data.forEach(obj => { // go over the search and facets selected
+                if(getFilterType(obj.id) == searchItem) {
+                  let filters = item.filters.split(" ");
+                  let val = '';
+                  switch (getFilterType(obj.id)) {
+                    case 'series': // Series
+                      val = filters[2];
+                    break;
+                    case 'level': // GS Level
+                      val = filters[1];
+                    break;
+                    case 'competency': // Group - Competency
+                      val = filters[0];
+                  }
+                  //console.log("Val: " + val);
+                  if (val.toLowerCase() == obj.id.toLowerCase()) {
+                    if(!ifExistsResults(item.title, newResults)) {
+                      newResults.push(item);
+                    }
                   }
                 }
               });
             });
+            // console.log("New Results: " + newResults.length);
+          }
 
-            // populate results with finishResults
-            results = [];
-            finishResults.forEach(item => {
-              if(!ifExistsResults(item.title, results)) {
-                results.push(item);
+          // look for newfilters in prior results set and if they are there
+          // save the prior results in to a different array.
+          finishResults = [];
+          results.forEach(item => {
+            newResults.forEach(newItem => {
+              if (item.title.toLowerCase() == newItem.title.toLowerCase()) {
+                if(!ifExistsResults(item.title, finishResults)) {
+                  finishResults.push(item);
+                }
               }
             });
-          break;
-        }
-      });
-    } else {
-      // console.log("Results: " + results.length);
-    }
+          });
 
+          // populate results with finishResults
+          results = [];
+          finishResults.forEach(item => {
+            if(!ifExistsResults(item.title, results)) {
+              results.push(item);
+            }
+          });
+        break;
+      }
+    });
+    
     $("#career-search-results").empty();
     if(results.length === 0) {
       // console.log("Search Order Length: " + searchOrder.length);
@@ -668,7 +673,7 @@ function getSearch() {
     $(".cfo-pagination-page").text(currentPage);
     setTotalPages();
     $(".cfo-pagination-pages").text(totalPages);
-  });
+  }
   unselectAll();
 }
 
