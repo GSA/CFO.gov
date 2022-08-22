@@ -33,6 +33,10 @@
       downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
     });
     
+    $('#cfo-search-button').on('click', function () {
+      $('#career-advancement-search-input').autocomplete("close");
+    });
+    
     $('button[data-op="select-all"]').click(function () {
       if (unselect) {
         unselectAll();
