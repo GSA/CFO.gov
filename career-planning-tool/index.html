@@ -227,18 +227,18 @@ attached:
                 </section>
                 <div class="career-search-results-filter-pagination">
                   {% assign post_count = site.cards | size %}
-
-                  {% assign post_pages = post_count | divided_by: 5 %}
-                  {% assign post_modulus = post_count | minus: post_pages | times: 5 %}
+                  {% assign default_page_size = 10 %}
+                  {% assign post_pages = post_count | divided_by: default_page_size %}
+                  {% assign post_modulus = post_count | minus: post_pages | times: default_page_size %}
                   {% if post_modulus > 0 %}
                       {% assign post_pages = post_pages | plus: 1 %}
                   {% endif %}
                   <div class="career-search-results-page-size-wrapper float-right">
                     <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">Results per page: </label>
                     <select id="per-page-top" class="usa-select width-8 display-inline-block margin-top-0" name="per_page">
-                      <option value="5" selected>5</option>
-                      <option value="10">10</option>
-                      <option value="20">20</option>
+                      <option value="5"{% if default_page_size == 5 %}selected{% endif %}>5</option>
+                      <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
+                      <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
                     </select>
                   </div>
                   <div class="career-search-results-pagination-wrapper">
@@ -248,7 +248,7 @@ attached:
                 <div id="career-search-results">
                     <!-- This loops through the paginated posts -->
                     {% assign cards = site.cards | sort %}
-                    {% for card in cards limit:5 %}
+                    {% for card in cards limit:default_page_size %}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
                                 <div class="cfo-career-text-container position-relative">
@@ -287,10 +287,10 @@ attached:
                 <div class="career-search-results-filter-pagination margin-bottom-205">
                   <div class="career-search-results-page-size-wrapper float-right">
                     <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-bot">Results per page: </label>
-                    <select id="per-page-bot" class="usa-select width-8 display-inline-block margin-top-0" name="per_page">
-                      <option value="5" selected>5</option>
-                      <option value="10">10</option>
-                      <option value="20">20</option>
+                    <select id="per-page-bot" class="usa-select width-8 display-inline-block margin-top-0" name="per_page">top-0" name="per_page">
+                      <option value="5"{% if default_page_size == 5 %}selected{% endif %}>5</option>
+                      <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
+                      <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
                     </select>
                   </div>
                   <div class="career-search-results-pagination-wrapper">

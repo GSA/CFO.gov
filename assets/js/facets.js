@@ -185,7 +185,7 @@ let searchKeys = [ // when searching the columns to search - Compentency Descrip
   "relevant_courses",
 ];
 let start = 0;
-let perPage = 5 // pagination items per page
+let perPage = parseInt($('select[name="per_page"]').val()) || 10; // pagination items per page
 let totalItems = 105; // total items in results array
 let totalPages = 11; // total pages in results array / pagination items per page
 let currentPage = 1; // pagination current page
@@ -679,6 +679,7 @@ function getSearch() {
 
 (function( $ ) {
 
+  // triggered in _includes/scripts.html
   $.fn.createButtonEvents = function() {
     this.filter( "button" ).each(function() {
         var button = $( this );
