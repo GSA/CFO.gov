@@ -8,7 +8,7 @@
   "dependencies": {
     "netlify-cms": "^2.10.35",
     "react-redux": "^7.2.0",
-    "uswds": "^2.6.0",
+    "uswds": "~2.13.3",
     "jquery": "3.5.1"
   },
   "devDependencies": {
