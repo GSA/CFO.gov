@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: 200;
+    src: url('Gotham-Light.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Light Italic';
+    font-style: italic;
+    font-weight: bold;
+    src: url('Gotham-LightItalic.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Medium Italic';
+    font-style: italic;
+    font-weight: bold;
+    src: url('Gotham-MediumItalic.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('Gotham-Black.otf');
+}
+
+@font-face {
+    font-family: 'GothamCond Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('GothamCond-Black.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: url('Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: 'GothamCond Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: url('GothamCond-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Bold Italic';
+    font-style: italic;
+    font-weight: bold;
+    src: url('Gotham-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    font-style: normal;
+    font-weight: 400;
+    src: url('Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Book Italic';
+    font-style: italic;
+    font-weight: bold;
+    src: url('Gotham-BookItalic.otf');
+}

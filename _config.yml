@@ -69,37 +69,21 @@ dap_agency: GSA
 
 # Site Navigation
 primary_navigation:
-  - name: About
+  - name: Home
     url: /
-    children:
-      - name: The  CFO Council
-        url: /about-the-council/
-      - name: Members
-        url: /members/
-      - name: The Latest from Priority Areas
-        url: /the-latest/
-  - name: Priority Areas
-    url: /
-    children:
-      - name: Workforce Modernization
-        url: "/workforce-modernization/"
-      - name: American Rescue Plan (ARP)
-        url:  "/american-rescue-plan/"
-  - name: Policies & Guidance
-    url: "/policies-and-guidance/"
-  - name: Knowledge Sharing
-    url: /knowledge-sharing/
-  - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
-    url: "/jfmip/"
-  - name: <abbr title="Federal Real Property Council">FRPC</abbr>
-    url: "/frpc/"
-
-  - name: CXO Fellows
-    url: /cxo-fellows/
+  - name: About Us
+    url: /about
+  - name: Our Work
+    url: /work
+  - name: Resources
+    url: /resourses
+  - name: Learn
+    url: /learn
+  - name: Related Sites
+    url: /related
 
 secondary_navigation:
-  - name: Contact Us
-    url: "mailto:CFOC.support@gsa.gov"
+
 
 secondary_navigation_frpc:
   - name: Contact Us
@@ -250,6 +234,3 @@ assets:
     img: { integrity: false }
   features:
     integrity: false
-
-
-

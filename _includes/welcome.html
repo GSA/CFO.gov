@@ -1,37 +1,23 @@
-<div class="grid-container padding-0">{% include carousel_homepage_top.html height="30" unit="%" duration="3" %}</div>
+<div class="padding-0">{% include top_banner_homepage.html unit="%" duration="3" %}</div>
 
-<section class="usa-graphic_list usa-section usa-prose clearfix">
+<section class="usa-graphic_list usa-section usa-prose clearfix padding-top-0">
 
-    <div class="clearfix grid-container priority-icons">
+    <div class="clearfix grid-container">
         <div class="grid-row">
-            <h2 class="text-primary-darker">Priority Areas</h2>
+            <h3 class="text-primary-darker margin-9">The Chief Financial Ofcers Council is composed of the Chief Financial Ofcers designated by the 24 CFO Act agencies. The Council collaboratively to improve financial management in the U.S. Government.</h3>
         </div>
         <div class="grid-row grid-gap">
-            <div class="tablet:grid-col-3 text-center margin-y-1">
-                <a href="{{site.baseurl}}/workforce-modernization/" class="text-no-underline text-gray-70"
-                   style="display: inline-block;">
-                    <div class="circle-image picons bg-white"> <img class="picon"
-                                                                    src="{{site.baseurl}}/assets/images/logos/workforce/Workforce_Modernization.svg" alt="Workforce Modernization logo" />
-                    </div>
-                    <p class="font-heading-md">Workforce Modernization</p>
-                </a>
-            </div>
-            <div class="tablet:grid-col-3 text-center margin-y-1">
-                <a href="{{site.baseurl}}/american-rescue-plan/" class="text-no-underline text-gray-70"
-                   style="display: inline-block;">
-                    <div class="circle-image picons bg-white"> <img class="picon"
-                                                                    src="{{site.baseurl}}/assets/images/logos/workforce/ARP_Icon.svg" alt="American Rescue Plan (ARP) logo" />
-                    </div>
-                    <p class="font-heading-md">American Rescue Plan (ARP)</p>
-                </a>
-            </div>
+            <hr class="width-full" />
+        </div>
+        <div class="grid-row grid-gap">
+
         </div>
     </div>
 </section>
 
 <section class="usa-graphic_list clearfix ">
-    <div class="clearfix grid-container grey-back padding-top-2 padding-bottom-2">
-        <h2 class="text-base-darker margin-top-0">Members</h2>
-        {% include members_preview.html %}
+    <div class="clearfix grid-container">
+        <h2 class="text-base-darker margin-top-0">OUR WORK TOPICS</h2>
+        {% include topics_preview.html %}
     </div>
 </section>

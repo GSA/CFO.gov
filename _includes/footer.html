@@ -6,9 +6,57 @@
     <div class="usa-footer__secondary-section">
 
         {% if include.page_type != 'payment-accuracy' %}
-        <div class="grid-container">
+        <div class="grid-container-footer">
             <div class="grid-row grid-gap">
-                <div class="usa-footer__logo grid-row mobile-lg:grid-col-9 mobile-lg:grid-gap-2">
+                <div class="tablet:grid-col-3 padding-1">
+                    <a href="{{ site.baseurl }}" style="color:black;text-decoration: none; display: block;" class="height-full">
+                        <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" alt="General Services Administration logo">
+                        <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" alt="Seal of the Executive Office of the President of the United States">
+                    </a>
+                </div>
+                <div class="tablet:grid-col-2 padding-1">
+                    <ul class="usa-list usa-list--unstyled">
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="bold-footer-links text-gold"><strong>About the Site</strong></a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="bold-footer-links"><strong>Accessibility</strong></a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="bold-footer-links"><strong>FOIA</strong></a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="bold-footer-links"><strong>Privacy</strong></a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="bold-footer-links"><strong>FAQs</strong></a></li>
+                    </ul>
+                </div>
+                <div class="tablet:grid-col-3 padding-1">
+                    <div class="usa-footer-logo-heading mobile-lg:font-ui-md text-base-lightest padding-bottom-1"><strong>Contact Us</strong></div>
+                    <ul class="usa-list usa-list--unstyled padding-bottom-205">
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">cxofellowship@gsa.gov</a></li>
+                    </ul>
+                    <div class="usa-footer-logo-heading mobile-lg:font-ui-md text-base-lightest padding-bottom-1"><strong>Related Sites</strong></div>
+                    <ul class="usa-list usa-list--unstyled padding-bottom-205">
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">PaymentAccuracy.gov</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Grants.gov</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Sam.gov</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Performance.gov</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Data.gov</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">MadeInAmerica.gov</a></li>
+                    </ul>
+                </div>
+                <div class="tablet:grid-col-4 padding-1">
+                    <div class="usa-footer-logo-heading mobile-lg:font-ui-md text-base-lightest padding-bottom-1"><strong>Related Councils</strong></div>
+                    <ul class="usa-list usa-list--unstyled padding-bottom-205">
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Made In America Council (MIAC)</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Chief Human Capital Officers Council (CHCO)</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Chief Acquisition Officers Council (CAOC)</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Chief Data Officers Council (CDOC)</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Chief Information Officers Council (CIOC)</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Evaluation Officer Council (EOC)</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Federal Privacy Council (FPC)</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Performance Improvement Council (PIC)</a></li>
+                    </ul>
+                    <div class="usa-footer-logo-heading mobile-lg:font-ui-md text-base-lightest padding-bottom-1"><strong>Other Information and Services</strong></div>
+                    <ul class="usa-list usa-list--unstyled padding-bottom-205">
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">General Services Administration</a></li>
+                        <li><a href="mailto:cxofellowship@gsa.gov" class="footer-links">Office of Management and Budget</a></li>
+                    </ul>
+                </div>
+                <!--<div class="usa-footer__logo grid-row mobile-lg:grid-col-9 mobile-lg:grid-gap-2">
                     <div class="mobile-lg:grid-col-auto">
                         <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo2.png" alt="General Services Administration logo">
                         <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" alt="Seal of the Executive Office of the President of the United States">
@@ -16,8 +64,8 @@
                     <div class="mobile-lg:grid-col-8">
                         <p class="usa-footer-logo-heading mobile-lg:font-ui-md"><strong>General Services Administration &<br> Office of Management and Budget</strong></p>
                     </div>
-                </div>
-                <div class="usa-footer__contact-links mobile-lg:grid-col-3">
+                </div>-->
+                <!--<div class="usa-footer__contact-links mobile-lg:grid-col-3">
                     <div class="usa-footer-logo-heading mobile-lg:font-ui-md"><strong>Contact Us</strong></div>
                     {% if include.page_type == 'cxo' %}
                     <ul class="usa-list usa-list--unstyled">
@@ -50,7 +98,7 @@
                         </div>
                     </address>
                     {% endif %}
-                </div>
+                </div>-->
             </div>
         </div>
 
