@@ -35,9 +35,26 @@
   max-width: 74rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  font-family: 'Gotham Light';
 
-  .footer-links {
+  .text-gold {
+    color: #E5A000 !important;
+  }
+
+  a.footer-links,
+  a.bold-footer-links {
     font-size: 1rem;
+    text-decoration: none;
+  }
+
+  a.footer-links:hover,
+  a.bold-footer-links:hover {
+    font-size: 1rem;
+    text-decoration: underline;
+  }
+
+  .bold-footer-links {
+    font-family: 'Gotham Medium';
   }
 }
 
@@ -46,6 +63,35 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
+}
+
+.cfo-homepage-callout {
+  padding: 25px;
+  width: 320px;
+  height: 270px;
+  background: url(images/homepage/transparent-background.png) repeat;
+  margin: 25px auto 0 auto;
+
+  .cfo-homepage-callout-text {
+    margin-top: 0;
+    padding-bottom: 10px;
+    color: #2A4B45;
+    font-size: 18px;
+    font-family: 'Gotham Light';
+  }
+
+  .cfo-homepage-callout-read-more {
+    background-color: #E5A000;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 12px;
+    font-family: 'Gotham Medium';
+  }
+}
+
+.top-banner-homepage-heading {
+  color: #2A4B45;
+  font-family: 'Gotham Bold';
 }
 
 .cfo-homepage-background {
@@ -59,6 +105,7 @@
   background-size: 7.5em 7.5em;
   background-repeat: no-repeat;
   background-position: center center;
+  font-family: 'Gotham Light';
 }
 
 .work-topics:hover {
@@ -66,6 +113,12 @@
   background-size: 7.5em 7.5em;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+h2.work-topics-header {
+  color: #2A4B45;
+  font-size: 20px;
+  font-family: 'Gotham Medium';
 }
 
 .work-topics-text {
@@ -97,7 +150,7 @@
 }
 
 .work-topics {
-  color: #002D3F;
+  color: #2A4B45;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -173,6 +226,15 @@
     background: url(images/homepage/top_banner_tablet.jpg) no-repeat;
     background-size: 100% 100%;
   }
+
+  .cfo-homepage-callout {
+    width: 400px;
+    height: 240px;
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 820px) {
@@ -188,5 +250,14 @@
     height: 1024px;
     background: url(images/homepage/top_banner_full.jpg) no-repeat;
     background-size: 100% 100%;
+  }
+
+  .cfo-homepage-callout {
+    width: 400px;
+    height: 240px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 0;
+    margin-bottom: 0;
   }
 }
