@@ -41,15 +41,20 @@
     color: #E5A000 !important;
   }
 
+  .cfo-border-left {
+    padding-left: 1rem;
+    border-left: none;
+  }
+
   a.footer-links,
   a.bold-footer-links {
-    font-size: 1rem;
+    font-size: 14px;
     text-decoration: none;
   }
 
   a.footer-links:hover,
   a.bold-footer-links:hover {
-    font-size: 1rem;
+    font-size: 14px;
     text-decoration: underline;
   }
 
@@ -77,7 +82,8 @@
     padding-bottom: 10px;
     color: #2A4B45;
     font-size: 18px;
-    font-family: 'Gotham Light';
+    line-height: 1.25;
+    font-family: 'Merriweather', Georgia, serif;
   }
 
   .cfo-homepage-callout-read-more {
@@ -85,13 +91,15 @@
     color: #fff;
     text-decoration: none;
     padding: 7px 12px;
-    font-family: 'Gotham Medium';
+    font-size: 16px;
+    font-family: 'Merriweather', Georgia, serif;
   }
 }
 
 .top-banner-homepage-heading {
   color: #2A4B45;
-  font-family: 'Gotham Bold';
+  font-size: 20px;
+  font-family: 'Merriweather', Georgia, serif;
 }
 
 .cfo-homepage-background {
@@ -102,7 +110,7 @@
 
 .work-topics {
   background-image: url(images/homepage/financial-assistant.png);
-  background-size: 7.5em 7.5em;
+  background-size: 6.5em 6.5em;
   background-repeat: no-repeat;
   background-position: center center;
   font-family: 'Gotham Light';
@@ -110,19 +118,19 @@
 
 .work-topics:hover {
   background-image: url(images/homepage/financial-assistant-hover.png);
-  background-size: 7.5em 7.5em;
+  background-size: 6.5em 6.5em;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 h2.work-topics-header {
-  color: #2A4B45;
-  font-size: 20px;
-  font-family: 'Gotham Medium';
+  color: #4f9e99;
+  font-size: 18px;
+  font-family: 'Merriweather', Georgia, serif;
 }
 
 .work-topics-text {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -158,8 +166,7 @@ h2.work-topics-header {
 
 .usa-button.search-button {
   background-color: transparent;
-  background: transparent;
-  background: url('/assets/images/homepage/search.png') no-repeat center;
+  background: url(/assets/images/homepage/search.png) no-repeat center;
   background-size: 25px 25px;
   margin: auto auto;
   border-top: 1px solid #4f9e99;
@@ -169,8 +176,7 @@ h2.work-topics-header {
 
 .usa-button.search-button:hover {
   background-color: #4f9e99 !important;
-  background: #4f9e99 !important;
-  background: url('/assets/images/homepage/search-white.png') no-repeat center;
+  background: url(/assets/images/homepage/search-white.png) no-repeat center;
   background-size: 25px 25px;
   margin: auto auto;
   border-top: 1px solid #4f9e99;
@@ -231,7 +237,7 @@ h2.work-topics-header {
     width: 400px;
     height: 240px;
     margin-top: 45px;
-    margin-left: 45px;
+    margin-left: 155px;
     margin-right: 0;
     margin-bottom: 0;
   }
@@ -252,11 +258,16 @@ h2.work-topics-header {
     background-size: 100% 100%;
   }
 
+  .cfo-border-left {
+    padding-left: 2rem !important;
+    border-left: 1px solid #f0f0f0 !important;
+  }
+
   .cfo-homepage-callout {
-    width: 400px;
-    height: 240px;
+    width: 350px;
+    height: 250px;
     margin-top: 100px;
-    margin-left: 250px;
+    margin-left: 480px;
     margin-right: 0;
     margin-bottom: 0;
   }
