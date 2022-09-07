@@ -312,7 +312,7 @@ function createResults(noResults, item) { // creates a results div and contents
   } else {
     let template = '<div class="cfo-career-category-container font-body-md margin-y-0">'
           + '<div class="cfo-inner-competency-div"><span><strong>GS Level:</strong> {{ card.level }}</span></div>'
-          + '<div class="cfo-inner-competency-div"><span><strong>Job Series:</strong> 0{{ card.series }}</span></div>'
+          + '<div class="cfo-inner-competency-div"><span><strong>Job Series:</strong> {{ card.series }}</span></div>'
       + '</div>'
       + '<div class="cfo-career-category-container font-body-md margin-y-0">'
           + '<div class="cfo-inner-competency-div"><span><strong>Competency:</strong> {{ card.competency }}</span></div>'
