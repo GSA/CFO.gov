@@ -3,11 +3,11 @@
     unselect = false,
     buttonSelector = '.policy input[type="checkbox"]',
     downloadButton;
-  
+
   window.isSelected = function (val) {
     return (typeof selected[val] != 'undefined');
   }
-  
+
   window.unselectAll = function () {
     selected = {};
     unselect = false;
@@ -17,26 +17,26 @@
   }
 
   $(document).ready(function () {
-    
+
     $('#career-search-results').on('change', buttonSelector, {}, function () {
       let val = $(this).val(),
         checked = $(this).prop('checked');
-        
+
       if (checked) {
         selected[val] = true;
       }
       else {
         delete selected[val];
       }
-      
+
       let disable = Object.keys(selected).length == 0;
       downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
     });
-    
+
     $('#cfo-search-button').on('click', function () {
       $('#career-advancement-search-input').autocomplete("close");
     });
-    
+
     $('button[data-op="select-all"]').click(function () {
       if (unselect) {
         unselectAll();
@@ -50,11 +50,11 @@
         this.innerText = 'Deselect All Cards';
         $('#career-search-results').find(buttonSelector).prop('checked', true);
       }
-      
+
       let disable = Object.keys(selected).length == 0;
       downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
     });
-    
+
     downloadButton = $('#career-download-buttons').find('[data-op="download-selected"]').click(function () {
       let cards = [];
       let cardSet = results.length ? results : fullSet;
@@ -65,7 +65,7 @@
       }
       generatePDF(cards);
     });
-    
+
     $('#career-advancement-search-input').autocomplete({
       source: function (request, response) {
         let normalized = request.term.toLowerCase()
@@ -91,17 +91,17 @@
           }
           else if (item.relevant_courses.some((element) => element.toLowerCase().indexOf(normalized) != -1)) {
             return value;
-          } 
+          }
           return null;
         });
         outputs = outputs.filter(function (x) { return !!x });
         response(outputs);
       },
       select: function (event, ui) {
-        console.log(event);
+        // console.log(event);
         let $elem = $(event.target),
           value = $elem.val();
-        
+
         data.push({
           type: 'keys',
           id: 'search',
@@ -115,16 +115,16 @@
       change: function (event, ui) {
       }
     });
-    
+
     $('select[name="per_page"]').change(function (e) {
       perPage = $(this).val();
       getSearch();
       $('select[name="per_page"]').val(perPage);
     });
   });
-  
-  
-  
+
+
+
   function generatePDF(cards) {
     // pdfkit js
     // create a document and pipe to a blob
@@ -134,7 +134,7 @@
     var stream = doc.pipe(blobStream());
    // loadFont('SourceSansPro', 'woff', window.federalist.path.baseurl + '/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2');
    // loadFont('SourceSansPro-Bold', 'woff', window.federalist.path.baseurl + '/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2');
-    
+
     stream.on('finish', function () {
       const blob = stream.toBlob('application/pdf');
       const a = document.createElement('a');
@@ -146,12 +146,12 @@
       a.click();
       document.body.removeChild(a);
     });
-    
+
     let bold = 'Helvetica-Bold';
     let norm = 'Helvetica';
     let elem = document.createElement('div');
-    
-    
+
+
     for (let i = 0, l = cards.length; i < l; i++) {
       let card = cards[i];
       if (i != 0) {
@@ -198,7 +198,7 @@
       doc.moveDown(2);
       doc.font(bold).text('Relevant Courses', doc.page.margins.left);
       doc.moveDown(1);
-      
+
       if (card.relevant_courses.length == 0) {
         doc.font(norm).text('No Courses yet.');
       }
@@ -236,10 +236,10 @@
         }
       }
     }
-    
+
     doc.end();
   }
-  
+
   function loadFont(name, type, url, ff) {
     var callback=registerFont;
     var request = new XMLHttpRequest();
@@ -268,7 +268,7 @@
       var buf = responseText;
     }
     PDFDoc.registerFont(name,buf,ff);
-  };  
+  };
 
   function _base64ToArrayBuffer(base64) {
     var binary_string =  window.atob(base64);
