@@ -15,7 +15,7 @@ behavior_illustrations: Encourages staff to share skills and abilities within wo
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 226 Building Successful Teams, The University of Texas at San Antonio Center for Professional Excellence, <a href="https://secure.touchnet.net/C21612_ustores/web/product_detail.jsp?PRODUCTID=178">https://secure.touchnet.net/C21612_ustores/web/product_detail.jsp?PRODUCTID=178</a>
- - 227 222 - Leading Teams: Improving Productivity Through Teamwork, Learning Tree, <a href="https://www.learningtree.com/courses/222/team-leadership-training/">https://www.learningtree.com/courses/222/team-leadership-training/</a>
+ - 227 222 - Leading Teams, Improving Productivity Through Teamwork, Learning Tree, <a href="https://www.learningtree.com/courses/222/team-leadership-training/">https://www.learningtree.com/courses/222/team-leadership-training/</a>
 filters: Project-Competencies-Team-Building GS-10-13 series-0511
 ---
 
