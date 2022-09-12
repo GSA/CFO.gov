@@ -14,7 +14,7 @@ level: "10-13"
 behavior_illustrations: Instills a climate of trust by admitting own mistakes and taking responsibility for one's actions ? Discusses potential ethical problems and wrong- doing with employees and responds appropriately
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 170 Ways to Build a Winning Team: Trust, Freedom, and Play, Carahsoft, <a href="https://www.linkedin.com/learning/ways-to-build-a-winning-team-trust-freedom-and-play">https://www.linkedin.com/learning/ways-to-build-a-winning-team-trust-freedom-and-play</a>
+ - 170 Ways to Build a Winning Team - Trust, Freedom, and Play, Carahsoft, <a href="https://www.linkedin.com/learning/ways-to-build-a-winning-team-trust-freedom-and-play">https://www.linkedin.com/learning/ways-to-build-a-winning-team-trust-freedom-and-play</a>
 filters: Leadership-Competencies-Integrity--Honesty GS-10-13 series-0560
 ---
 

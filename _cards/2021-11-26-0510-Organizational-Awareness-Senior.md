@@ -15,7 +15,7 @@ behavior_illustrations: Gathers and summarizes information to predict stakeholde
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 193 Navigating Complexity in Your Organization, Carahsoft, <a href="https://www.linkedin.com/learning/navigating-complexity-in-your-organization">https://www.linkedin.com/learning/navigating-complexity-in-your-organization</a>
- - 194 1334: FPM 334 - Progressive Leadership in Program Management, Learning Tree, <a href="https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/">https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/</a>
+ - 194 1334 - FPM 334 - Progressive Leadership in Program Management, Learning Tree, <a href="https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/">https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/</a>
 filters: Project-Competencies-Organizational-Awareness GS-14-15 series-0510
 ---
 

@@ -15,7 +15,7 @@ behavior_illustrations: Meets with employees resistant to organizational change 
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 216 Leading Change (MGMT7201), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=MGMT7201">https://www.graduateschool.edu/solr-search/content?keys=MGMT7201</a>
- - 217 Preparing to Lead: Developing Mental Toughness in Yourself, Carahsoft, <a href="https://www.linkedin.com/learning/preparing-to-lead-developing-mental-toughness-in-yourself">https://www.linkedin.com/learning/preparing-to-lead-developing-mental-toughness-in-yourself</a>
+ - 217 Preparing to Lead - Developing Mental Toughness in Yourself, Carahsoft, <a href="https://www.linkedin.com/learning/preparing-to-lead-developing-mental-toughness-in-yourself">https://www.linkedin.com/learning/preparing-to-lead-developing-mental-toughness-in-yourself</a>
 filters: Self-Competencies-Resilience GS-10-13 series-0501
 ---
 

@@ -14,7 +14,7 @@ level: "10-13"
 behavior_illustrations: Examines a variety of accounts, documents, records, related reports and processes to determine performance in accordance with appropriate procedures and regulations
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 11 1313: FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 11 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
 filters: Secondary-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0560
 ---
 
