@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Responds promptly and accurately to public inquiries about agency policies ? Suggests gaining feedback from public regarding new policy ? Reviews unit's policies and procedures on a regular basis to ensure they are consistent with public needs ? Determines community needs by surveying citizens
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1879 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1880 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1881 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1882 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1883 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1884 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 210 A Guide to ERGs (Employee Resource Groups), Carahsoft, <a href="https://www.linkedin.com/learning/a-guide-to-ergs-employee-resource-groups">https://www.linkedin.com/learning/a-guide-to-ergs-employee-resource-groups</a>
+ - 211 Building Inclusive Work Communities, Carahsoft, <a href="https://www.linkedin.com/learning/building-inclusive-work-communities">https://www.linkedin.com/learning/building-inclusive-work-communities</a>
 filters: Self-Competencies-Public-Service-Motivation GS-7-9 series-0560
 ---
 

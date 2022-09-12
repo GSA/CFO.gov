@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Meets with team to adjust and coordinate schedules to accommodate all team members ? Adjusts staff assignments based on feedback and work load priorities
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 121 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 122 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 123 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 132 Change Management: Plan on a Page, Carahsoft, <a href="https://www.linkedin.com/learning/change-management-plan-on-a-page">https://www.linkedin.com/learning/change-management-plan-on-a-page</a>
 filters: Self-Competencies-Flexibility GS-7-9 series-0501
 ---
 

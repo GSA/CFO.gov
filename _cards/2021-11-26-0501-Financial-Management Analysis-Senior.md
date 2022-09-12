@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Examines the impact of complex financial management solutions to make controversial decisions, and negotiate with key stakeholders
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 472 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 473 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 474 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 116 Financial Analysis Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8</a>
 filters: Primary-Financial-Management-Analysis GS-14-15 series-0501
 ---
 

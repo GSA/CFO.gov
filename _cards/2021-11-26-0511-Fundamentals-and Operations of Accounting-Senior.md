@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Extracts, records and balances basic information from routine or recurring reports using standardized procedures
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1618 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1619 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1620 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 138 Introduction to Federal Accounting (ACCT7001), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7001">https://www.graduateschool.edu/solr-search/content?keys=ACCT7001</a>
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0511
 ---
 

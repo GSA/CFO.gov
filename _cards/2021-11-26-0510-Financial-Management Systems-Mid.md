@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Identifies system problems, extracts ad hoc reports, recommends enhancements, and initiates system change requests
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 874 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 875 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 876 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 121 Financial Modeling Foundations, Carahsoft, <a href="https://www.linkedin.com/learning/financial-modeling-foundations">https://www.linkedin.com/learning/financial-modeling-foundations</a>
 filters: Primary-Financial-Management-Systems GS-10-13 series-0510
 ---
 

@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Budget-Execution-Mid
-functional_competency_designation: Budget
+functional_competency_designation: Audit
 competency: Budget Execution
-competency_group: Primary
+competency_group: Alternate
 competency_description: Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory-regulatory guidance
 level: "10-13"
 behavior_illustrations: Implement execution plans and monitors and recommends adjustments to ensure compliance with total obligation authority
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1918 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1919 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1920 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Primary-Budget-Execution GS-10-13 series-0560
+ - 36 281: Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
+filters: Alternate-Budget-Execution GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Interprets and evaluates accounting information using a variety of analytical methods to provide recommendations ? Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 775 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 776 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 777 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 778 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 779 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 780 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 7 Business Analysis: Essential Tools and Techniques, Carahsoft, <a href="https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques">https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques</a>
+ - 8 Finance and Accounting for the Nonfinancial Professional, Columbia, <a href="Observer">Observer</a>, <a href="access">access</a>, <a href="to">to</a>, <a href="this">this</a>, <a href="program">program</a>, <a href="and">and</a>, <a href="our">our</a>, <a href="LMS">LMS</a>, <a href="will">will</a>, <a href="be">be</a>, <a href="provided">provided</a>, <a href="upon">upon</a>, <a href="request.">request.</a>, <a href="Please">Please</a>, <a href="see">see</a>, <a href="sample">sample</a>, <a href="screenshots">screenshots</a>, <a href="provided">provided</a>, <a href="in">in</a>, <a href="proposal">proposal</a>, <a href="on">on</a>, <a href="pages">pages</a>, <a href="15-17.">15-17.</a>
 filters: Primary-Accounting-Analysis GS-10-13 series-0510
 ---
 

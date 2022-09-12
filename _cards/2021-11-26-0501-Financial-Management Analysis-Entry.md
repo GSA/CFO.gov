@@ -14,15 +14,9 @@ level: "7-9"
 behavior_illustrations: Reviews standard data and reports to ensure their accuracy; and assess risk by instituting risk management programs across the organization ? Applies general analytical and evaluation techniques to review financial data ? Interprets and evaluates financial information using a variety of analytical methods to provide recommendations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 91 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 92 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 93 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 94 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 95 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 96 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 97 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 98 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 99 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 112 Complex Negotiation Tips, Carahsoft, <a href="https://www.linkedin.com/learning/complex-negotiation-tips">https://www.linkedin.com/learning/complex-negotiation-tips</a>
+ - 113 Managerial Finance Foundations, Carahsoft, <a href="https://www.linkedin.com/learning/managerial-finance-foundations">https://www.linkedin.com/learning/managerial-finance-foundations</a>
+ - 114 Financial Accounting Part 1, Carahsoft, <a href="https://www.linkedin.com/learning/financial-accounting-part-1">https://www.linkedin.com/learning/financial-accounting-part-1</a>
 filters: Primary-Financial-Management-Analysis GS-7-9 series-0501
 ---
 

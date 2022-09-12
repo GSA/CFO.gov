@@ -14,12 +14,8 @@ level: "14-15"
 behavior_illustrations: Recommends details and developmental assignments to staff based on career interests and work unit needs ? Recognizes staff potential and guides employees in developing skills by recommending appropriate training and sources of information ? Works with staff to develop individual development plans addressing employee needs and meeting organizational goals ? Designs and implements opportunities for career development in anticipation of agency restructuring, including mentoring staff and providing training ? Directs working group to design training programs focused on skills necessary for meeting strategic goals ? Designs, implements and communicates leadership development opportunities for staff at all levels in the organization
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 1588 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1589 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1590 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1591 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1592 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1593 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 95 A Toolkit for Giving and Receiving Better Feedback, Carahsoft, <a href="https://www.linkedin.com/learning/a-toolkit-for-giving-and-receiving-better-feedback">https://www.linkedin.com/learning/a-toolkit-for-giving-and-receiving-better-feedback</a>
+ - 96 Hiring and Developing Your Future Workforce, Carahsoft, <a href="https://www.linkedin.com/learning/hiring-and-developing-your-future-workforce">https://www.linkedin.com/learning/hiring-and-developing-your-future-workforce</a>
 filters: Leadership-Competencies-Developing-Others GS-14-15 series-0511
 ---
 

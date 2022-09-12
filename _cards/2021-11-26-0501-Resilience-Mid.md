@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Meets with employees resistant to organizational change to address concerns ? Maintains composure and direction in high-pressure situations ? Accepts negative feedback in a constructive manner and adjusts behavior accordingly ? Perseveres on project despite changing objectives, deliverables and deadlines ? Develops strategies using existing resources for achieving objectives following budget cuts
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 388 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 389 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 390 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 391 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 392 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 393 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 216 Leading Change (MGMT7201), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=MGMT7201">https://www.graduateschool.edu/solr-search/content?keys=MGMT7201</a>
+ - 217 Preparing to Lead: Developing Mental Toughness in Yourself, Carahsoft, <a href="https://www.linkedin.com/learning/preparing-to-lead-developing-mental-toughness-in-yourself">https://www.linkedin.com/learning/preparing-to-lead-developing-mental-toughness-in-yourself</a>
 filters: Self-Competencies-Resilience GS-10-13 series-0501
 ---
 

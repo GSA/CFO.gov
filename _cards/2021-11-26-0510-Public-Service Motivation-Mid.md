@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Partners with community leaders to develop neighborhood action plans ? Cultivates relationships with community stakeholders to validate usefulness of proposed products and services ? Identifies improved ways to manage public resources
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 946 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 947 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 948 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 213 Be an Inclusive Organization People Won't Leave, Carahsoft, <a href="https://www.linkedin.com/learning/be-an-inclusive-organization-people-won-t-leave">https://www.linkedin.com/learning/be-an-inclusive-organization-people-won-t-leave</a>
 filters: Self-Competencies-Public-Service-Motivation GS-10-13 series-0510
 ---
 

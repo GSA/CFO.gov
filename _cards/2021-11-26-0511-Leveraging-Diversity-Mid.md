@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Adheres to Equal Employment Opportunity (EEO) policies, goals, objectives, and philosophies of valuing diversity in performing everyday duties and responsibilities ? Builds teams leveraging diverse capabilities of staff
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1480 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1481 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1482 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 179 Advocating for Change in Your Organization, Carahsoft, <a href="https://www.linkedin.com/learning/advocating-for-change-in-your-organization">https://www.linkedin.com/learning/advocating-for-change-in-your-organization</a>
 filters: Leadership-Competencies-Leveraging-Diversity GS-10-13 series-0511
 ---
 

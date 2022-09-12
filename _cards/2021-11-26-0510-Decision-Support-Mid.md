@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Analyzes results of the financial, accounting and economic analysis to determine possible outcomes ? Develops and evaluates alternatives and interventions that are results of the analysis to provide valued recommendations
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 844 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 845 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 846 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 847 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 848 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 849 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 89 Data-Driven Decision-Making for Business Professionals, Carahsoft, <a href="https://www.linkedin.com/learning/data-driven-decision-making-for-business-professionals">https://www.linkedin.com/learning/data-driven-decision-making-for-business-professionals</a>
+ - 90 Crafting Questions to Make Better Decisions, Carahsoft, <a href="https://www.linkedin.com/learning/crafting-questions-to-make-better-decisions">https://www.linkedin.com/learning/crafting-questions-to-make-better-decisions</a>
 filters: Primary-Decision-Support GS-10-13 series-0510
 ---
 

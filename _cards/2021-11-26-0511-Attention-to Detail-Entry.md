@@ -14,15 +14,9 @@ level: "7-9"
 behavior_illustrations: Submits work assignments that comply with instructions- requirements ? Identifies, organizes and maintains important details so they are not lost or forgotten (e.g., checklists, schedule, calendar ? Verifies the accuracy of work products against established quality measures ? Uses established tools and techniques to identify errors and modifications ? Produces fully compliant work products ? Creates effective tools and techniques for ensuring details are not overlooked
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1150 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1151 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1152 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1153 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1154 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1155 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1156 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1157 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1158 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 18 Complete Confidence in Minutes: Weekly, Carahsoft, <a href="https://www.linkedin.com/learning/complete-confidence-in-minutes-weekly">https://www.linkedin.com/learning/complete-confidence-in-minutes-weekly</a>
+ - 19 10 Mistakes Leaders Should Avoid, Carahsoft, <a href="https://www.linkedin.com/learning/10-mistakes-leaders-should-avoid">https://www.linkedin.com/learning/10-mistakes-leaders-should-avoid</a>
+ - 20 Leading Yourself, Carahsoft, <a href="https://www.linkedin.com/learning/leading-yourself">https://www.linkedin.com/learning/leading-yourself</a>
 filters: Self-Competencies-Attention-to-Detail GS-7-9 series-0511
 ---
 

@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Develops processes and procedures to ensure production of high quality work products
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 1540 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1541 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1542 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 22 Administrative Skills Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688</a>
 filters: Self-Competencies-Attention-to-Detail GS-14-15 series-0511
 ---
 

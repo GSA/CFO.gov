@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Attends diversity programs to increase staff awareness ? Meets with staff to obtain input on diversity issues within workgroup
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 730 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 731 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 732 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 178 Adding Value through Diversity, Carahsoft, <a href="https://www.linkedin.com/learning/adding-value-through-diversity">https://www.linkedin.com/learning/adding-value-through-diversity</a>
 filters: Leadership-Competencies-Leveraging-Diversity GS-7-9 series-0510
 ---
 

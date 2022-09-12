@@ -14,12 +14,8 @@ level: "14-15"
 behavior_illustrations: Adjusts organizational priorities quickly as situations change ? Shifts agency goals and initiatives to align with administration and Congressional priorities ? Implements a successful action plan after a major organizational change ? Prioritizes, considers alternatives, and responds quickly and effectively to unexpected and rapidly changing conditions
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 484 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 485 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 486 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 487 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 488 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 489 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 135 Adapting Leadership to Behavioral Styles, Carahsoft, <a href="https://www.linkedin.com/learning/adapting-leadership-to-behavioral-styles">https://www.linkedin.com/learning/adapting-leadership-to-behavioral-styles</a>
+ - 136 485L: Sustainable Organizational Change Management, Learning Tree
 filters: Self-Competencies-Flexibility GS-14-15 series-0501
 ---
 

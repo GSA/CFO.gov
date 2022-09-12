@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Extracts, records and balances basic information from financial management systems
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1621 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1622 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1623 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 143 1313: FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
 filters: Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0511
 ---
 

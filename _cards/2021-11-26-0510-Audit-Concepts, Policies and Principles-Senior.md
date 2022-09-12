@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Interprets and advises others on auditing and accounting policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 982 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 983 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 984 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 25 Auditing Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b">https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b</a>
 filters: Alternate-Audit-Concepts-Policies-and-Principles GS-14-15 series-0510
 ---
 

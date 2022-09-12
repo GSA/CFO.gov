@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Decision-Support-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Budget
 competency: Decision Support
 competency_group: Primary
 competency_description: Knowledge of decision support theories, methods, and tools for identifying, synthesizing, representing, and evaluating the important aspects of a decision situation and prescribing the recommended course for decision makers and other stakeholders
@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Analyzes results of the financial, accounting and economic analysis to determine possible outcomes
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1939 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1940 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1941 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 89 Data-Driven Decision-Making for Business Professionals, Carahsoft, <a href="https://www.linkedin.com/learning/data-driven-decision-making-for-business-professionals">https://www.linkedin.com/learning/data-driven-decision-making-for-business-professionals</a>
 filters: Primary-Decision-Support GS-10-13 series-0560
 ---
 

@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Influencing-Negotiating-Mid
-functional_competency_designation: Leading Teams and Projects
+functional_competency_designation: Leading People
 competency: Influencing-Negotiating
-competency_group: Project Competencies
+competency_group: Leadership Competencies
 competency_description: Persuades others to accept recommendations, cooperate, or change their behavior; works with others towards an agreement; negotiates to find mutually acceptable solutions
 level: "10-13"
 behavior_illustrations: Gains cooperation from others
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1972 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1973 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1974 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Project-Competencies-Influencing-Negotiating GS-10-13 series-0560
+ - 161 Gender in Negotiation, Carahsoft, <a href="https://www.linkedin.com/learning/gender-in-negotiation">https://www.linkedin.com/learning/gender-in-negotiation</a>
+filters: Leadership-Competencies-Influencing-Negotiating GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

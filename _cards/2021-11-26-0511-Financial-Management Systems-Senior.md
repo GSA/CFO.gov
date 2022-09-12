@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Identifies functional processes, requirements or interfaces ? Analyzes and resolves problems and authorizes enhancements to support financial management functions
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1606 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1607 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1608 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 122 Algorithmic Trading and Finance Models with Python, R, and Stata Essential Training, Carahsoft, <a href="https://www.linkedin.com/learning/algorithmic-trading-and-finance-models-with-python-r-and-stata-essential-training">https://www.linkedin.com/learning/algorithmic-trading-and-finance-models-with-python-r-and-stata-essential-training</a>
 filters: Secondary-Financial-Management-Systems GS-14-15 series-0511
 ---
 

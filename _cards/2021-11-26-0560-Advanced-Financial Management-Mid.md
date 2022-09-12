@@ -6,21 +6,17 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Advanced-Financial Management-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Accounting
 competency: Advanced Financial Management
-competency_group: Secondary
+competency_group: Alternate
 competency_description: Develop, monitor, interpret, and report standardized processes-operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability
 level: "10-13"
 behavior_illustrations: Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives ? Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1903 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1904 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1905 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1906 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1907 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1908 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Secondary-Advanced-Financial-Management GS-10-13 series-0560
+ - 15 Financial Accounting Part 1, Carahsoft, <a href="https://www.linkedin.com/learning/financial-accounting-part-1">https://www.linkedin.com/learning/financial-accounting-part-1</a>
+ - 16 1720 - S4F10 - Business Processes in Financial Accounting Training in SAP S/4HANA, Learning Tree, <a href="https://www.learningtree.com/courses/1720/business-processes-in-financial-accounting-in-sap-s-4hana-s4f10/">https://www.learningtree.com/courses/1720/business-processes-in-financial-accounting-in-sap-s-4hana-s4f10/</a>
+filters: Alternate-Advanced-Financial-Management GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

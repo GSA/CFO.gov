@@ -14,15 +14,9 @@ level: "7-9"
 behavior_illustrations: Maintains confidentiality of sensitive information by establishing new policies and procedures for handling such information ? Delegates work to staff to ensure responsibilities are completed ? Meets weekly with team to monitor progress of work plans ? Outlines written policies and procedures to ensure consistent adherence by staff ? Investigates claims of employee violations and encourages staff to take responsibility for actions ? Outlines goals and assesses workgroup progress towards goal achievement ? Plans and researches safety issues and contacts agency to ensure safety standards are fully utilized ? Distributes workload among staff to ensure staff meet key deliverables ? Implements new guidelines and procedures mandated by Congress ? Accepts responsibility when missed deadlines affect major project outcome ? Develops and implements internal controls for pilot program to manage potential barriers to implementation
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 3 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 4 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 5 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 6 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 7 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 8 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 9 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 1 Delivering Results Effectively, Carahsoft, <a href="https://www.linkedin.com/learning/delivering-results-effectively">https://www.linkedin.com/learning/delivering-results-effectively</a>
+ - 2 290: Management Skills Training, Learning Tree, <a href="https://www.learningtree.com/courses/290/management-skills-training/">https://www.learningtree.com/courses/290/management-skills-training/</a>
+ - 3 Goal Setting for Business Impact, Carahsoft, <a href="https://www.linkedin.com/learning/goal-setting-for-business-impact">https://www.linkedin.com/learning/goal-setting-for-business-impact</a>
 filters: Self-Competencies-Accountability GS-7-9 series-0501
 ---
 

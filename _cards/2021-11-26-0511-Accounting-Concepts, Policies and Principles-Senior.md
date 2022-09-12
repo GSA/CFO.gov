@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Interprets and advises others on accounting and financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 1534 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1535 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1536 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 13 Accounting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688</a>
 filters: Primary-Accounting-Concepts-Policies-and-Principles GS-14-15 series-0511
 ---
 

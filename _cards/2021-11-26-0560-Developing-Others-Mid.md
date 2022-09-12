@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Developing-Others-Mid
-functional_competency_designation: Leading People
+functional_competency_designation: Payroll
 competency: Developing Others
-competency_group: Leadership Competencies
+competency_group: Alternate
 competency_description: Develops the ability of others to perform and contribute to the organization
 level: "10-13"
 behavior_illustrations: Encourages employees to participate in mentoring programs and other learning opportunities ? Pairs new staff with seasoned employees to facilitate understanding of the position and organization ? Provides orientation to new employees
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1942 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1943 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1944 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Leadership-Competencies-Developing-Others GS-10-13 series-0560
+ - 93 How to Develop your Career Plan, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-develop-your-career-plan">https://www.linkedin.com/learning/how-to-develop-your-career-plan</a>
+filters: Alternate-Developing-Others GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

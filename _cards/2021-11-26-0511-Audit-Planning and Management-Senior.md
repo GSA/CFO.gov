@@ -14,12 +14,8 @@ level: "14-15"
 behavior_illustrations: Oversees and manages all aspects of the audit process on behalf of a Department to ensure integrity and accountability ? Leads and directs strategic audit planning efforts at the Department level
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 1546 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1547 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1548 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1549 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1550 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1551 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 27 2040:  Certified Information System Auditor (CISA), Learning Tree, <a href="https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/">https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/</a>
+ - 28 Auditing Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b">https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b</a>
 filters: Primary-Audit-Planning-and-Management GS-14-15 series-0511
 ---
 

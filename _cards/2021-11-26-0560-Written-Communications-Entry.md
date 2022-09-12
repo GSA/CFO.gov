@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Writes basic communications (e.g., an email requesting straightforward information, proofreading before sending to others ? Uses appropriate grammar, punctuation, and spelling ? With guidance, applies the Department’s style and format guidelines to written products
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 1891 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1892 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1893 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 240 Business Writing Principles, Carahsoft, <a href="https://www.linkedin.com/learning/business-writing-principles">https://www.linkedin.com/learning/business-writing-principles</a>
 filters: Self-Competencies-Written-Communications GS-7-9 series-0560
 ---
 

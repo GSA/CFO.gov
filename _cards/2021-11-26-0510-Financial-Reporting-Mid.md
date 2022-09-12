@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Reviews and reconciles the financial statements and-or reports to ensure accuracy and completeness ? Summarizes information related to the financial statements and-or reports, and recommends improvement options
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 877 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 878 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 879 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 880 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 881 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 882 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 124 Federal Activity Costing, Analysis and Reporting (BUDG8010), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=BUDG8010">https://www.graduateschool.edu/solr-search/content?keys=BUDG8010</a>
+ - 125 Accounting Foundations: Internal Controls, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-internal-controls">https://www.linkedin.com/learning/accounting-foundations-internal-controls</a>
 filters: Primary-Financial-Reporting GS-10-13 series-0510
 ---
 

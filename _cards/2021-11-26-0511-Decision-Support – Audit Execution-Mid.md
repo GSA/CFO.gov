@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Evaluates the accuracy and completeness of audit evidence and analyses to determine whether enough appropriate evidence exists to address the audit objectives and support the findings and conclusions ? Solves difficult challenges through audit analyses to determine the proper courses of action and provides recommendations to decision-makers
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1411 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1412 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1413 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1414 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1415 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1416 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 84 Army Managers Internal Control Administrators Course (AUDT9015), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=AUDT9015">https://www.graduateschool.edu/solr-search/content?keys=AUDT9015</a>
+ - 85 Audit and Due Diligence: Priorities and Best Practices, Carahsoft, <a href="https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices">https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices</a>
 filters: Primary-Decision-Support-–-Audit-Execution GS-10-13 series-0511
 ---
 

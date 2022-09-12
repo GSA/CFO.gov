@@ -14,15 +14,9 @@ level: "7-9"
 behavior_illustrations: Interacts with co-workers in a tactful manner ? Responds to employee inquiries ? Shows employees empathy and respect ? Welcomes new employees into organization by explaining mission and agency goals ? Develops and maintains effective working relationships ? Makes self accessible to employees at all levels ? Corrects employee mistakes in a courteous manner ? Demonstrates courtesy, empathy and respect
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1276 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1277 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1278 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1279 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1280 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1281 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1282 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1283 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1284 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 172 Humble Leadership: The Power of Relationships, Openness, and Trust (getAbstract Summary), Carahsoft, <a href="https://www.linkedin.com/learning/humble-leadership-the-power-of-relationships-openness-and-trust-getabstract-summary">https://www.linkedin.com/learning/humble-leadership-the-power-of-relationships-openness-and-trust-getabstract-summary</a>
+ - 173 Learning to Be Approachable, Carahsoft, <a href="https://www.linkedin.com/learning/learning-to-be-approachable">https://www.linkedin.com/learning/learning-to-be-approachable</a>
+ - 174 Navigating Awkward Situations at Work, Carahsoft, <a href="https://www.linkedin.com/learning/navigating-awkward-situations-at-work">https://www.linkedin.com/learning/navigating-awkward-situations-at-work</a>
 filters: Self-Competencies-Interpersonal-Skills GS-7-9 series-0511
 ---
 

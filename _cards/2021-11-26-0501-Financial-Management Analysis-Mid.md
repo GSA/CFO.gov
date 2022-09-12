@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Solves difficult challenges through financial analysis to determine the proper course of action and provides advice to decision-makers
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 310 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 311 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 312 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 115 Accounting Foundations: Managerial Accounting, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-managerial-accounting">https://www.linkedin.com/learning/accounting-foundations-managerial-accounting</a>
 filters: Primary-Financial-Management-Analysis GS-10-13 series-0501
 ---
 

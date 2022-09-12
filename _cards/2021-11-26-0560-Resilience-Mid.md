@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Resilience-Mid
-functional_competency_designation: Foundational for Leading Self
+functional_competency_designation: Finance
 competency: Resilience
-competency_group: Self Competencies
+competency_group: Primary
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks 
 level: "10-13"
 behavior_illustrations: Meets with employees resistant to organizational change to address concerns ? Maintains composure and direction in high-pressure situations ? Accepts negative feedback in a constructive manner and adjusts behavior accordingly
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1999 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2000 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2001 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Self-Competencies-Resilience GS-10-13 series-0560
+ - 216 Leading Change (MGMT7201), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=MGMT7201">https://www.graduateschool.edu/solr-search/content?keys=MGMT7201</a>
+filters: Primary-Resilience GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

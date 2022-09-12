@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Applies basic knowledge of budget principles to assist in planning ? Coordinates budget inputs and gathers justifications
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1744 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1745 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1746 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1747 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1748 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1749 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 37 Budgeting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8</a>
+ - 38 1313: FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
 filters: Primary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0560
 ---
 

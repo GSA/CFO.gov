@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Drafts concise, straightforward summaries of information (e.g., portions of plans-reports ? Prepares routine written communications that are accurate, clear, concise and well-organized ? Answers routine or basic questions to internal and external customers appropriately (e.g., tone, detail and when responding in writing) ? Prepares reports, summaries, or makes recommendations independently ? Reviews and edits materials prepared by others for grammar, punctuation, spelling and conformance to style and format guidelines
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 961 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 962 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 963 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 964 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 965 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 966 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 241 Tips for Better Business Writing, Carahsoft, <a href="https://www.linkedin.com/learning/tips-for-better-business-writing">https://www.linkedin.com/learning/tips-for-better-business-writing</a>
+ - 242 Organizing an Outline, Carahsoft, <a href="https://www.linkedin.com/learning/organizing-an-outline">https://www.linkedin.com/learning/organizing-an-outline</a>
 filters: Self-Competencies-Written-Communications GS-10-13 series-0510
 ---
 

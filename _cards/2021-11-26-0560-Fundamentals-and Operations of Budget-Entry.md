@@ -14,18 +14,10 @@ level: "7-9"
 behavior_illustrations: Obtains and inputs basic data utilizing financial management systems ? Extracts, records and balances basic information from financial management systems ? Researches and organizes relevant budget information and systems using various standardized procedures ? Examines and reconciles complex transactions from budget information and systems using various standardized procedures
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1813 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1814 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1815 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1816 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1817 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1818 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1819 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1820 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1821 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1822 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1823 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1824 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 142 Federal Budgeting for Non-Budgeting Personnel (BUDG7000), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=BUDG7000">https://www.graduateschool.edu/solr-search/content?keys=BUDG7000</a>
+ - 143 1313: FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 144 1323:  FPM 233 - Applications in Business, Cost and Financial Management, Learning Tree, <a href="https://www.learningtree.com/courses/1323/fac-p-pm-certification-applications-in-business-cost-and-financial-management/">https://www.learningtree.com/courses/1323/fac-p-pm-certification-applications-in-business-cost-and-financial-management/</a>
+ - 145 Budget Justification and Presentation (BUDG7102), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=BUDG7102">https://www.graduateschool.edu/solr-search/content?keys=BUDG7102</a>
 filters: Secondary-Fundamentals-and-Operations-of-Budget GS-7-9 series-0560
 ---
 

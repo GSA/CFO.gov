@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Resolves complex pay and allowance cases involving substantial reconstruction of pay accounts and provides guidance and assists other technicians with techniques to correct and process inputs
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 538 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 539 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 540 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 199 Accounting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688</a>
 filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-14-15 series-0501
 ---
 

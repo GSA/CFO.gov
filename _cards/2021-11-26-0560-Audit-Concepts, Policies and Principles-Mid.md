@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Audit-Concepts, Policies and Principles-Mid
-functional_competency_designation: Audit
+functional_competency_designation: Finance
 competency: Audit Concepts, Policies and Principles
-competency_group: Alternate
+competency_group: Secondary
 competency_description: Apply the Federal Acquisition Regulation (FAR), Generally Accepted Government Auditing Standards (GAGAS), Generally Accepted Auditing Standards (GAAS), fiscal law, internal controls, policies, regulations, principles, standards and procedures governing audit activities 
 level: "10-13"
 behavior_illustrations: Analyzes a variety of documents, records and processes to determine performance in accordance with appropriate procedures and regulations
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1909 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1910 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1911 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Alternate-Audit-Concepts-Policies-and-Principles GS-10-13 series-0560
+ - 23 Basic Auditing Concepts, BMRA
+filters: Secondary-Audit-Concepts-Policies-and-Principles GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

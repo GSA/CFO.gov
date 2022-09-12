@@ -4,7 +4,7 @@ const parse = require('csv-parse').parse;
 function buildCards () {
   let cards = {};
 
-  fs.createReadStream('assets/csv/FEDS_Competency_Model_Sample_Data_Bravo_4.csv')
+  fs.createReadStream('assets/csv/FEDS Competency Model Sample Data Bravo -- Test Sample Vendor Data -PWD 09.01.2022 (1).csv')
     .pipe(parse({columns: true}))
     .on('data', function (row) {
       const parts = row[Object.keys(row)[0]].split(' '),
@@ -123,7 +123,7 @@ function buildCards () {
             }
             if (courseUnique[i].urls.length) {
               for (j = 0, k = courseUnique[i].urls.length; j < k; j++) {
-                const link = `<a href="https://${ courseUnique[i].urls[j] }">${ courseUnique[i].urls[j] }</a>`;
+                const link = `<a href="${ courseUnique[i].urls[j] }">${ courseUnique[i].urls[j] }</a>`;
                 courseMarkup += link + `<br>`;
                 courseExport += ', ' + link;
               }
