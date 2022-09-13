@@ -39,24 +39,24 @@ attached:
 
                         {% for item in site.cards %}
                             {% if item.category == 'career' %}
-                                {% if series_array contains item.series %}
+                                {% if series_array contains item.job_series %}
 
                                 {% else %}
-                                    {% assign series_array = series_array | push: item.series %}
+                                    {% assign series_array = series_array | push: item.job_series %}
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
 
                         {% assign series_array = series_array | sort %}
                         {% for series in series_array %}
-                            {% assign series_id = series | downcase | replace: ", ", "-" | replace: " ", "-" %}
+                            {% assign series_id = series | downcase | slice: 0, 4 |replace: ", ", "-" | replace: " ", "-" %}
                             <button
                                 type="button"
-                                id="series-0{{ series_id }}"
-                                data-id="series-0{{ series_id }}"
-                                title="Series-0{{ series }}"
+                                id="series-{{ series_id }}"
+                                data-id="series-{{ series_id }}"
+                                title="Series-{{ series }}"
                                 class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black bg-white radius-lg border-2px border-gray-30"
-                            >0{{ series }}</button>
+                            >{{ series }}</button>
                         {% endfor %}
                     </div>
 
@@ -257,7 +257,7 @@ attached:
                                     </div>
                                     <div class="cfo-career-category-container font-body-md margin-y-0">
                                         <div class="cfo-inner-competency-div"><span><strong>GS Level:</strong> {{ card.level }}</span></div>
-                                        <div class="cfo-inner-competency-div"><span><strong>Job Series:</strong> 0{{ card.series }}</span></div>
+                                        <div class="cfo-inner-competency-div"><span><strong>Job Series:</strong> {{ card.series }}</span></div>
                                     </div>
                                     <div class="cfo-career-category-container font-body-md margin-y-0">
                                         <div class="cfo-inner-competency-div"><span><strong>Competency:</strong> {{ card.competency }}</span></div>
@@ -272,7 +272,7 @@ attached:
                                       {% if card.relevant_courses.size != 0 %}
                                       <ul class="usa-list" role="list">
                                         {% for course in card.relevant_courses %}
-                                          <li role="listitem">{{ course }}</li>
+                                          <li role="listitem">{{ course | replace: '">', '" target="_blank" >'}}</li>
                                         {% endfor %}
                                       <ul>
                                       {% else %}
