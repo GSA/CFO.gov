@@ -381,7 +381,12 @@ function createResults(noResults, item) { // creates a results div and contents
     let courseMarkup = '<ul class="usa-list" role="list">';
     if (item.relevant_courses.length > 0) {
       for (let i = 0, l = item.relevant_courses.length; i < l; i++) {
-        courseMarkup += '<li role="listitem">' + item.relevant_courses[i] + '</li>';
+        // Inserting the attribute to open a link in a new tab on each link
+        let relevant_course = item.relevant_courses[i];
+        if(typeof(relevant_course) === 'string' && relevant_course.indexOf('">') >=0 ){
+          relevant_course = relevant_course.replace('>', ' target="_blank" >');
+        }
+        courseMarkup += '<li role="listitem">' + relevant_course + '</li>';
       }
       courseMarkup += '</ul>';
     }
