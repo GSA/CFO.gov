@@ -14,12 +14,8 @@ level: "14-15"
 behavior_illustrations: Recognizes and utilizes skills of staff with diverse backgrounds to benefit the organization, clients, and coworkers ? Addresses and corrects the use of inappropriate language or actions which deride diversity ? Builds a diverse staff with a variety of skills who function effectively to accomplish the mission of the organization ? Develops a creative initiative focused on recognizing the various dimensions of diversity to encourage inclusiveness in the workplace
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 517 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 518 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 519 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 520 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 521 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 522 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 180 Empowering BIPOC through Mentorship, Carahsoft, <a href="https://www.linkedin.com/learning/empowering-bipoc-through-mentorship">https://www.linkedin.com/learning/empowering-bipoc-through-mentorship</a>
+ - 181 Creating Psychological Safety for Diverse Teams, Carahsoft, <a href="https://www.linkedin.com/learning/creating-psychological-safety-for-diverse-teams">https://www.linkedin.com/learning/creating-psychological-safety-for-diverse-teams</a>
 filters: Leadership-Competencies-Leveraging-Diversity GS-14-15 series-0501
 ---
 

@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Examines non-routine financial management documentation to ensure accuracy and completeness of accounting transactions and accounts and identifies potential solutions for inaccurate or incomplete entries
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 892 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 893 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 894 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 140 National Accounts Statistics, Deloitte, <a href="National">National</a>, <a href="Accounts">Accounts</a>, <a href="Statistics">Statistics</a>
 filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-10-13 series-0510
 ---
 

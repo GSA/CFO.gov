@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Provides developmental feedback to staff on job performance ? Involves staff in developing project goals and timelines
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 1774 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1775 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1776 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 92 Asking for Feedback as an Employee, Carahsoft, <a href="https://www.linkedin.com/learning/asking-for-feedback-as-an-employee">https://www.linkedin.com/learning/asking-for-feedback-as-an-employee</a>
 filters: Leadership-Competencies-Developing-Others GS-7-9 series-0560
 ---
 

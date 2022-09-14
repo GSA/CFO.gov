@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Mission-and Culture-Mid
-functional_competency_designation: Leading Teams and Projects
+functional_competency_designation: Leading People
 competency: Mission and Culture
-competency_group: Project Competencies
+competency_group: Leadership Competencies
 competency_description: Knowledge of agency and-or office goals, priorties, purpose, and its underlying values; ability to contribute to agency and-or office success, improvements, and workforce development 
 level: "10-13"
 behavior_illustrations: Mentors new employees or junior staff ? Collaborates with customers to define products and services ? Participates in or leads analysis across the organization
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1981 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1982 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1983 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Project-Competencies-Mission-and-Culture GS-10-13 series-0560
+ - 184 Transformational Leadership, Carahsoft, <a href="https://www.linkedin.com/learning/transformational-leadership">https://www.linkedin.com/learning/transformational-leadership</a>
+filters: Leadership-Competencies-Mission-and-Culture GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

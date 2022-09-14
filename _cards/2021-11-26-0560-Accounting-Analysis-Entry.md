@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Reviews standard data and reports to ensure their accuracy ? Applies general analytical and evaluation techniques to review accounting data in line with all accounting principles
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1699 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1700 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1701 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1702 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1703 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1704 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 5 Accountability Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8</a>
+ - 6 281 - Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
 filters: Secondary-Accounting-Analysis GS-7-9 series-0560
 ---
 

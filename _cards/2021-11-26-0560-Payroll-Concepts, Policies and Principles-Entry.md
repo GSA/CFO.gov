@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Processes routine financial and accounting transactions to ensure pay integrity ? Processes standardized pay actions to establish or update accounts and correct discrepancies
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1867 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1868 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1869 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1870 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1871 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1872 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 196 Adaptive Leadership for VUCA Challenges, Carahsoft, <a href="https://www.linkedin.com/learning/adaptive-leadership-for-vuca-challenges">https://www.linkedin.com/learning/adaptive-leadership-for-vuca-challenges</a>
+ - 197 Principles of Payroll, BMRA
 filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-7-9 series-0560
 ---
 

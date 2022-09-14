@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Inspires commitment to achieve outcomes and build coalitions
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 1264 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1265 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1266 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 159 Complex Negotiation Tips, Carahsoft, <a href="https://www.linkedin.com/learning/complex-negotiation-tips">https://www.linkedin.com/learning/complex-negotiation-tips</a>
 filters: Project-Competencies-Influencing-Negotiating GS-7-9 series-0511
 ---
 

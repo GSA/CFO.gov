@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Designs and develops programs to address critical community requirements ? Elicits employees' commitment to serve the public good in responding to a disaster ? Ensures that projects and programs meet public needs and interests
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 547 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 548 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 549 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 214 Leader as Motivator Channel (SLDP), Skillsoft, <a href="https://www.skillsoft.com/channel/leader-as-motivator-3b0712bc-86b3-42b3-950b-65d0fc50cf6c">https://www.skillsoft.com/channel/leader-as-motivator-3b0712bc-86b3-42b3-950b-65d0fc50cf6c</a>
 filters: Self-Competencies-Public-Service-Motivation GS-14-15 series-0501
 ---
 

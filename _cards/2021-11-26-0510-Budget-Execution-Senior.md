@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Manages budgetary requirements within the organization, ensures alignment, and develops and recommends appropriate strategies
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 988 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 989 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 990 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 37 Budgeting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8</a>
 filters: Secondary-Budget-Execution GS-14-15 series-0510
 ---
 

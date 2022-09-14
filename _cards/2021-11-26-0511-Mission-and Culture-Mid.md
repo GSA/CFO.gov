@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Works successfully in team environments ? Represents the organization in varying capacities and situations ? Identifies opportunities for improvement ? Understands organizational dynamics ? Mentors new employees or junior staff ? Collaborates with customers to define products and services ? Participates in or leads analysis across the organization
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1483 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1484 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1485 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1486 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1487 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1488 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 183 Connecting Engagement and Inclusion to a Culture of Performance, Carahsoft, <a href="https://www.linkedin.com/learning/connecting-engagement-and-inclusion-to-a-culture-of-performance">https://www.linkedin.com/learning/connecting-engagement-and-inclusion-to-a-culture-of-performance</a>
+ - 184 Transformational Leadership, Carahsoft, <a href="https://www.linkedin.com/learning/transformational-leadership">https://www.linkedin.com/learning/transformational-leadership</a>
 filters: Project-Competencies-Mission-and-Culture GS-10-13 series-0511
 ---
 

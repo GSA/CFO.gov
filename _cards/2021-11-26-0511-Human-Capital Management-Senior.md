@@ -14,12 +14,8 @@ level: "14-15"
 behavior_illustrations: Reviews and updates position descriptions and performance plans ? Explains restructuring plan to staff and addresses concerns ? Recognizes employee contributions by rewarding employees publicly ? Develops rewards system to recognize the impact of employee contributions to the organization ? Identifies creative strategies to recruit employees with the required skills and qualifications, despite having limited resources ? Identifies mission critical occupations and associated competencies needed to perform organizational functions
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1630 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1631 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1632 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1633 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1634 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1635 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 156 Improving Employee Performance, Carahsoft, <a href="https://www.linkedin.com/learning/improving-employee-performance">https://www.linkedin.com/learning/improving-employee-performance</a>
+ - 157 Finding and Retaining High Potentials, Carahsoft, <a href="https://www.linkedin.com/learning/finding-and-retaining-high-potentials-9018297">https://www.linkedin.com/learning/finding-and-retaining-high-potentials-9018297</a>
 filters: Leadership-Competencies-Human-Capital-Management GS-14-15 series-0511
 ---
 

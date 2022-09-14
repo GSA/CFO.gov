@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Budget-Concepts, Policies and Principles-Senior
-functional_competency_designation: Budget
+functional_competency_designation: Leading Teams and Projects
 competency: Budget Concepts, Policies and Principles
-competency_group: Primary
+competency_group: Project Competencies
 competency_description: Apply fiscal law, policies, regulations, principles, standards and procedures to financial management activities
 level: "14-15"
 behavior_illustrations: Interprets and advises others on financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 2026 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2027 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2028 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Primary-Budget-Concepts-Policies-and-Principles GS-14-15 series-0560
+ - 34 1333 -  FPM 333 - Progressive Business, Cost and Financial Management, Learning Tree, <a href="https://www.learningtree.com/courses/1333/fac-p-pm-certification-earned-value-management-certification-training/">https://www.learningtree.com/courses/1333/fac-p-pm-certification-earned-value-management-certification-training/</a>
+filters: Project-Competencies-Budget-Concepts-Policies-and-Principles GS-14-15 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

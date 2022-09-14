@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Accounting-Analysis-Senior
-functional_competency_designation: Accounting
+functional_competency_designation: Finance
 competency: Accounting Analysis
-competency_group: Secondary
+competency_group: Alternate
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations 
 level: "14-15"
 behavior_illustrations: Examines the impact of complex accounting solutions to make controversial decisions, and negotiate with key stakeholders
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 2014 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2015 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2016 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Secondary-Accounting-Analysis GS-14-15 series-0560
+ - 9 Accounting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688</a>
+filters: Alternate-Accounting-Analysis GS-14-15 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

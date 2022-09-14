@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Interprets and evaluates budget execution for compliance with fiscal law and guidance ? Implement execution plans and monitors and recommends adjustments to ensure compliance with total obligation authority
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 808 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 809 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 810 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 811 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 812 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 813 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 36 281 - Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
+ - 36 281 - Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
 filters: Secondary-Budget-Execution GS-10-13 series-0510
 ---
 

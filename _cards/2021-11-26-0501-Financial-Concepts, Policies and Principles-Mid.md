@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Examines a variety of documents, records, and related reports, and processes, to determine performance in accordance with appropriate procedures and regulations ? Develops financial techniques and approaches that conform to fiscal requirements, and makes recommendations for improvement or implementation of new policies
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 304 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 305 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 306 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 307 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 308 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 309 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 109 Finance and Accounting Tips, Carahsoft, <a href="https://www.linkedin.com/learning/finance-and-accounting-tips">https://www.linkedin.com/learning/finance-and-accounting-tips</a>
+ - 110 Balanced Scorecard and Key Performance Indicators, Carahsoft, <a href="https://www.linkedin.com/learning/balanced-scorecard-and-key-performance-indicators">https://www.linkedin.com/learning/balanced-scorecard-and-key-performance-indicators</a>
 filters: Primary-Financial-Concepts-Policies-and-Principles GS-10-13 series-0501
 ---
 

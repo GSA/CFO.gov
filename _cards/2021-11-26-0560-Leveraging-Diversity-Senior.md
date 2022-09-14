@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Leveraging-Diversity-Senior
-functional_competency_designation: Leading People
+functional_competency_designation: Foundational for Leading Self
 competency: Leveraging Diversity
-competency_group: Leadership Competencies
+competency_group: Self Competencies
 competency_description: Fosters an inclusive workplace where diversity and individual differences are valued and leveraged to achieve the vision and mission of the organization 
 level: "14-15"
 behavior_illustrations: Builds a diverse staff with a variety of skills who function effectively to accomplish the mission of the organization ? Develops a creative initiative focused on recognizing the various dimensions of diversity to encourage inclusiveness in the workplace
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 2083 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2084 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2085 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Leadership-Competencies-Leveraging-Diversity GS-14-15 series-0560
+ - 181 Creating Psychological Safety for Diverse Teams, Carahsoft, <a href="https://www.linkedin.com/learning/creating-psychological-safety-for-diverse-teams">https://www.linkedin.com/learning/creating-psychological-safety-for-diverse-teams</a>
+filters: Self-Competencies-Leveraging-Diversity GS-14-15 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

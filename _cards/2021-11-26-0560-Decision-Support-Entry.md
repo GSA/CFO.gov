@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Applies knowledge of financial, accounting and economic analysis to assist with the decision making process ? Interprets the data of financial, accounting and economic analysis to prepare for decision making
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1768 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1769 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1770 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1771 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1772 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1773 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 87 Business Analysis for Busy Professionals, Carahsoft, <a href="https://www.linkedin.com/learning/business-analysis-for-busy-professionals">https://www.linkedin.com/learning/business-analysis-for-busy-professionals</a>
+ - 88 Decision Support Analytics (FINC8120), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=FINC8120">https://www.graduateschool.edu/solr-search/content?keys=FINC8120</a>
 filters: Primary-Decision-Support GS-7-9 series-0560
 ---
 

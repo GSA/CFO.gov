@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Uses typical financial procedures and practices that apply to most situations ? Applies knowledge of policies and procedures to ensure adherence to financial guidelines
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1777 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1778 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1779 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1780 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1781 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1782 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 107 Accounting Ethics, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-ethics">https://www.linkedin.com/learning/accounting-ethics</a>
+ - 108 Accounting for Managers, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-for-managers">https://www.linkedin.com/learning/accounting-for-managers</a>
 filters: Alternate-Financial-Concepts-Policies-and-Principles GS-7-9 series-0560
 ---
 

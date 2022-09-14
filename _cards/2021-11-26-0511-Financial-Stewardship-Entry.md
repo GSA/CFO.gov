@@ -14,15 +14,9 @@ level: "7-9"
 behavior_illustrations: Performs and documents transactions and monitors records in compliance with laws, regulations, and policies to meet organizational goals and objectives ? Applies knowledge of policies and procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives ? Allocates funds within approved guidelines ? Uses appropriate finance and accounting procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1237 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1238 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1239 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1240 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1241 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1242 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1243 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1244 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1245 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 127 Property Management for Custodial Officers (PROP7103), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=PROP7103">https://www.graduateschool.edu/solr-search/content?keys=PROP7103</a>
+ - 128 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 129 Advanced Appropriations Law (FINC9100), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=FINC9100">https://www.graduateschool.edu/solr-search/content?keys=FINC9100</a>
 filters: Primary-Financial-Stewardship GS-7-9 series-0511
 ---
 

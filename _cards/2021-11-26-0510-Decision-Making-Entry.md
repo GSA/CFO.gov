@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Develops meeting agenda and determines topics for group decision making ? Determines the appropriate individuals needed for a decision making process
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 634 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 635 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 636 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 77 Critical Thinking, Carahsoft, <a href="https://www.linkedin.com/learning/critical-thinking">https://www.linkedin.com/learning/critical-thinking</a>
 filters: Project-Competencies-Decision-Making GS-7-9 series-0510
 ---
 

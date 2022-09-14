@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Gathers a variety of standard reports and data from various systems to support the financial management operational areas
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1057 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1058 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1059 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 148 Understanding Business, Carahsoft, <a href="https://www.linkedin.com/learning/understanding-business">https://www.linkedin.com/learning/understanding-business</a>
 filters: Alternate-Fundamentals-and-Operations-of-Finance GS-14-15 series-0510
 ---
 

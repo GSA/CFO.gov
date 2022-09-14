@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Is open and professional when handling minor personal conflicts; seeks help in resolving issues and-or situations, as needed ? Resolves simple customer complaints opportunities by referring to established guidelines and standard operating procedures ? Notifies the supervisor of conflict; initiates established chain-of-command process to facilitate resolution ? Demonstrates respect and openness for differences of opinion by allowing others a chance to be heard and listening to what is being said ? Recognizes conflict between employees, customers, and other stakeholders ? Volunteers to assist in resolving the conflict ? Identifies and evaluates elements of conflict to build conflict resolution skills ? Reacts calmly to diffuse emotions of involved parties during heated discussions ? Facilitates communication among other employees and-or customers to generate areas of agreement around issues or conflicts ? Listens and considers all sides when resolving conflicts and confrontations among work units when there are overlapping areas of responsibility
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1393 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1394 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1395 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1396 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1397 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1398 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 49 Conflict Resolution For Beginners, Carahsoft, <a href="https://www.linkedin.com/learning/conflict-resolution-for-beginners">https://www.linkedin.com/learning/conflict-resolution-for-beginners</a>
+ - 50 Difficult Situations - Solutions for Managers, Carahsoft, <a href="https://www.linkedin.com/learning/difficult-situations-solutions-for-managers">https://www.linkedin.com/learning/difficult-situations-solutions-for-managers</a>
 filters: Leadership-Competencies-Conflict-Management GS-10-13 series-0511
 ---
 

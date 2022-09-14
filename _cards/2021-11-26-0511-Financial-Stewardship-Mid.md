@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Interprets, analyzes and advises others on financial policies, regulations and procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1444 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1445 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1446 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 130 Accounting Foundations - Internal Controls, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-internal-controls">https://www.linkedin.com/learning/accounting-foundations-internal-controls</a>
 filters: Primary-Financial-Stewardship GS-10-13 series-0511
 ---
 

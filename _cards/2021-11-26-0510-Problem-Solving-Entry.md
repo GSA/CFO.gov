@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Communicates agency goals and initiatives to staff in a clear and concise manner ? Communicates information regarding organizational changes to staff ? Updates supervisors on project status ? Actively listens to staff ideas and concerns regarding work-related issues ? Communicates effectively with staff by conducting regular meetings to discuss initiatives and current events ? Explains and clarifies policy to affected parties ? Provides status updates to management team during quarterly division meeting ? Presents complex information to stakeholders verbally
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 748 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 749 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 750 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 751 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 752 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 753 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 200 Critical Thinking and Problem Solving, Carahsoft, <a href="https://www.linkedin.com/learning/critical-thinking-and-problem-solving">https://www.linkedin.com/learning/critical-thinking-and-problem-solving</a>
+ - 201 A3 Problem Solving for Continuous Improvement, Carahsoft, <a href="https://www.linkedin.com/learning/a3-problem-solving-for-continuous-improvement">https://www.linkedin.com/learning/a3-problem-solving-for-continuous-improvement</a>
 filters: Self-Competencies-Problem-Solving GS-7-9 series-0510
 ---
 

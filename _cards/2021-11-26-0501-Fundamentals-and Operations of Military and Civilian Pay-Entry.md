@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Processes and corrects routine information using well-established, clear-cut procedures and-or knowledge of simple procedures
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 142 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 143 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 144 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 151 Finance Essentials Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8</a>
 filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-7-9 series-0501
 ---
 

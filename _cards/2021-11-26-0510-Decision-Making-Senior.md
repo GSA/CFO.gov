@@ -14,12 +14,8 @@ level: "14-15"
 behavior_illustrations: Changes course of action despite public support when new information indicates previous strategy would not succeed ? Makes timely decisions using available information regarding severe operating budget reductions including possible reductions in force (RIFs ? Uses limited information to solve a variety of complex problems during a crisis situation ? Solves highly-complex technical, administrative and policy issues involved in the implementation of new systems and programs by making timely decisions
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 1009 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1010 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1011 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1012 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1013 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1014 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 80 Change Management Tips for Leaders, Carahsoft, <a href="https://www.linkedin.com/learning/change-management-tips-for-leaders">https://www.linkedin.com/learning/change-management-tips-for-leaders</a>
+ - 81 Critical Thinking for Better Judgment and Decision-Making, Carahsoft, <a href="https://www.linkedin.com/learning/critical-thinking-for-better-judgment-and-decision-making">https://www.linkedin.com/learning/critical-thinking-for-better-judgment-and-decision-making</a>
 filters: Project-Competencies-Decision-Making GS-14-15 series-0510
 ---
 

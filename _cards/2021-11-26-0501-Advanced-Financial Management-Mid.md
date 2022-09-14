@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives ? Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 226 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 227 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 228 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 229 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 230 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 231 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 15 Financial Accounting Part 1, Carahsoft, <a href="https://www.linkedin.com/learning/financial-accounting-part-1">https://www.linkedin.com/learning/financial-accounting-part-1</a>
+ - 16 1720 - S4F10 - Business Processes in Financial Accounting Training in SAP S/4HANA, Learning Tree, <a href="https://www.learningtree.com/courses/1720/business-processes-in-financial-accounting-in-sap-s-4hana-s4f10/">https://www.learningtree.com/courses/1720/business-processes-in-financial-accounting-in-sap-s-4hana-s4f10/</a>
 filters: Secondary-Advanced-Financial-Management GS-10-13 series-0501
 ---
 

@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Revises and communicates to employees expectations and methods for achieving results in light of failed or delayed agency-level project ? Administers and provides oversight of a new complex procedure which delegates responsibility for compliance to various agencies or parties ? Accomplishes cultural change of accountability among staff by defining roles and responsibilities to ensure agency goals are met
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 967 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 968 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 969 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 5 Accountability Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8</a>
 filters: Self-Competencies-Accountability GS-14-15 series-0510
 ---
 

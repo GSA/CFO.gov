@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Manages and monitors all aspects of the financial process on behalf of a Department to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives ? Supports the achievement of the agency’s programs with reliable, relevant, and timely financial information and analysis, and effective and efficient internal controls
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 1609 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1610 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1611 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 131 Financial Analysis Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8</a>
 filters: Primary-Financial-Stewardship GS-14-15 series-0511
 ---
 

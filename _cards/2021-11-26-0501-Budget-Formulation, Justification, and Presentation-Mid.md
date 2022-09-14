@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Coordinates budget inputs and gathers justifications ? Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 253 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 254 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 255 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 256 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 257 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 258 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 38 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a> <a href="https://cgfm.learnupon.com/store">https://cgfm.learnupon.com/store</a>
 filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0501
 ---
 

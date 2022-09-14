@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Obtains basic data from routine or recurring reports using standardized procedures
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 124 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 125 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 126 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 137 Federal Accounting Standards (ACCT7102), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7102">https://www.graduateschool.edu/solr-search/content?keys=ACCT7102</a>
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-7-9 series-0501
 ---
 

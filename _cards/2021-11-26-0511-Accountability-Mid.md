@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Provides and promotes position information across divisions to educate staff on respective duties, performance expectations, and consequent impact on accomplishment of agency goals ? Holds staff accountable for new performance standards and expectations by taking action with employees not meeting standards
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1327 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1328 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1329 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 4 Holding Your Team Accountable, Carahsoft, <a href="https://www.linkedin.com/learning/holding-your-team-accountable">https://www.linkedin.com/learning/holding-your-team-accountable</a>
 filters: Self-Competencies-Accountability GS-10-13 series-0511
 ---
 

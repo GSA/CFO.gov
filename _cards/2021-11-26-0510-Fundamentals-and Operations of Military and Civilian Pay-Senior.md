@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Examines source documents to verify accuracy, completeness and mathematics of data prior to processing ? Advises Lead-supervisor of recurring, extraordinary or unusual situations-problems
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1060 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1061 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1062 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 152 Regulations for Federal Pay, BMRA
 filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-14-15 series-0510
 ---
 

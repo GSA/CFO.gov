@@ -14,18 +14,10 @@ level: "7-9"
 behavior_illustrations: Obtains basic data from routine or recurring reports using standardized procedures ? Extracts, records and balances basic information from routine or recurring reports using standardized procedures ? Researches, organizes and reconciles relevant information from accounts, systems and reports using various standardized procedures ? Examines non-routine financial management documentation to ensure accuracy and completeness of accounting transactions and accounts and identifies potential solutions for inaccurate or incomplete entries
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 685 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 686 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 687 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 688 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 689 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 690 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 691 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 692 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 693 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 694 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 695 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 696 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 137 Federal Accounting Standards (ACCT7102), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7102">https://www.graduateschool.edu/solr-search/content?keys=ACCT7102</a>
+ - 138 Introduction to Federal Accounting (ACCT7001), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7001">https://www.graduateschool.edu/solr-search/content?keys=ACCT7001</a>
+ - 139 Governmental Accounting, Financial Reporting and Budgeting, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a> <a href="https://cgfm.learnupon.com/store">https://cgfm.learnupon.com/store</a>
+ - 140 National Accounts Statistics, Deloitte, <a href="National">National</a>, <a href="Accounts">Accounts</a>, <a href="Statistics">Statistics</a>
 filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-7-9 series-0510
 ---
 

@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Prepares working papers to document audit evidence obtained through interviews, observations, and documentation ? Applies appropriate analytical and evaluation techniques to reach conclusions and develop recommendations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1207 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1208 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1209 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1210 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1211 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1212 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 82 Preparing for an Audit, Carahsoft, <a href="https://www.linkedin.com/learning/preparing-for-an-audit">https://www.linkedin.com/learning/preparing-for-an-audit</a>
+ - 83 Accounting Foundations - Understanding the GAAP (Generally Accepted Accounting Principles), Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-understanding-the-gaap-generally-accepted-accounting-principles">https://www.linkedin.com/learning/accounting-foundations-understanding-the-gaap-generally-accepted-accounting-principles</a>
 filters: Primary-Decision-Support-–-Audit-Execution GS-7-9 series-0511
 ---
 

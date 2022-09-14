@@ -14,12 +14,8 @@ level: "14-15"
 behavior_illustrations: Gathers and summarizes information to predict stakeholder views on a new policy ? Considers external policies and trends when reviewing correspondence, reports, and policy documents ? Considers the impact of a shift in programmatic direction to meet the needs of local and national customers ? Synthesizes complex information gathered from a variety of external sources and disseminates it to staff ? Interprets and considers the impact of global environment and defense landscape
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1660 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1661 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1662 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1663 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1664 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1665 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 193 Navigating Complexity in Your Organization, Carahsoft, <a href="https://www.linkedin.com/learning/navigating-complexity-in-your-organization">https://www.linkedin.com/learning/navigating-complexity-in-your-organization</a>
+ - 194 1334 - FPM 334 - Progressive Leadership in Program Management, Learning Tree, <a href="https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/">https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/</a>
 filters: Project-Competencies-Organizational-Awareness GS-14-15 series-0511
 ---
 

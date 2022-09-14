@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Communicates agency goals and initiatives to staff in a clear and concise manner ? Communicates information regarding organizational changes to staff ? Updates supervisors on project status ? Actively listens to staff ideas and concerns regarding work-related issues
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 736 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 737 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 738 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 187 Body Language for Authentic Leadership, Carahsoft, <a href="https://www.linkedin.com/learning/body-language-for-authentic-leadership">https://www.linkedin.com/learning/body-language-for-authentic-leadership</a>
 filters: Self-Competencies-Oral-Communications GS-7-9 series-0510
 ---
 

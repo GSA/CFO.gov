@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Uses staff feedback to streamline processes in order to meet deadlines ? Adjusts project plan based on input from staff and stakeholders ? Realigns resources to meet changing customer needs ? Takes feedback into consideration while implementing organizational change
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 886 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 887 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 888 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 889 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 890 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 891 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 133 Leading Change (MGMT7201), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=MGMT7201">https://www.graduateschool.edu/solr-search/content?keys=MGMT7201</a>
+ - 134 Building Change Capability for Managers, Carahsoft, <a href="https://www.linkedin.com/learning/building-change-capability-for-managers">https://www.linkedin.com/learning/building-change-capability-for-managers</a>
 filters: Self-Competencies-Flexibility GS-10-13 series-0510
 ---
 
