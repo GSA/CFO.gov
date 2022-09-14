@@ -161,24 +161,33 @@
       doc.fillColor('black');
       doc.font(bold).text(card.title);
       doc.moveDown(1);
-      doc.font(bold).text('GS Level: ', {continued: true}).font(norm).text(card.level);
+      let column_width = (doc.page.width - doc.page.margins.left - doc.page.margins.right) / 2;
+      doc.font(bold).text('GS Level: ', { continued: true }).font(norm).text(card.level, { width: column_width - doc.widthOfString('GS Level: '+card.level), continued: true });
+      doc.font(bold).text('Job Series: ', column_width - doc.widthOfString('GS Level: '+card.level), null, {continued: true}).font(norm).text(card.series, { width: column_width - doc.widthOfString('Job Series: ') });
+      doc.font(bold).text('Competency: ', { continued: true }).font(norm).text(card.competency);
+      doc.font(bold).text('Type: ', { continued: true }).font(norm).text(card.competency_group);
       doc.moveDown(1);
       doc.font(bold).text('Competency Description: ', {continued: true}).font(norm).text(card.competency_description);
       doc.moveDown(2);
       elem.innerHTML = card.content;
+      let items = [];
       doc.font(bold).text('Behavior Illustrations');
       $(elem).find('> div:first-child dl *').each(function () {
         if (this.nodeName == 'DT') {
+          if (items.length) {
+            doc.font(norm).list(items, doc.page.margins.left + 30, null, { bulletRadius: 2 });
+            items.length = 0;
+          }
           doc.moveDown(1);
           doc.font(bold).text(this.innerText, doc.page.margins.left, null, { indent: 18 });
         }
         else if (this.nodeName == 'DD') {
-          doc.font(norm).text(this.innerText, doc.page.margins.left + 36, null, { width: doc.page.width - doc.page.margins.left - doc.page.margins.right });
+          items.push(this.innerText.trim());
         }
       });
       doc.moveDown(2);
       doc.font(bold).text('Proficiency Level Definition', doc.page.margins.left);
-      let items = [];
+      items = [];
       $(elem).find('> div:nth-child(2) dl *').each(function () {
         if (this.nodeName == 'DT') {
           if (items.length) {
