@@ -2,7 +2,7 @@
 layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Entry Advanced Financial Management
-series: 501
+series: 530
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Advanced-Financial Management-Entry
@@ -20,7 +20,7 @@ relevant_courses:
  - 25 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
  - 26 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
  - 27 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Secondary-Advanced-Financial-Management GS-7-9 series-0501
+filters: Secondary-Advanced-Financial-Management GS-7-9 series-0530
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
