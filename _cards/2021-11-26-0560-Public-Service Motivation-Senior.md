@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Public-Service Motivation-Senior
-functional_competency_designation: Foundational for Leading Self
+functional_competency_designation: Budget
 competency: Public Service Motivation
-competency_group: Self Competencies
+competency_group: Primary
 competency_description: Shows a commitment to serve the public; ensures that actions meet public needs; aligns organizational objectives and practices with public interests
 level: "14-15"
 behavior_illustrations: Designs and develops programs to address critical community requirements ? Elicits employees' commitment to serve the public good in responding to a disaster ? Ensures that projects and programs meet public needs and interests
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 2104 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2105 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2106 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Self-Competencies-Public-Service-Motivation GS-14-15 series-0560
+ - 214 Leader as Motivator Channel (SLDP), Skillsoft, <a href="https://www.skillsoft.com/channel/leader-as-motivator-3b0712bc-86b3-42b3-950b-65d0fc50cf6c">https://www.skillsoft.com/channel/leader-as-motivator-3b0712bc-86b3-42b3-950b-65d0fc50cf6c</a>
+filters: Primary-Public-Service-Motivation GS-14-15 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

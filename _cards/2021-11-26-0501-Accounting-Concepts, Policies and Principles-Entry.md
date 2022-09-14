@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Uses typical accounting and financial procedures and practices that apply to most situations ? Applies knowledge of policies and procedures to ensure adherence to accounting and financial guidelines
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 16 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 17 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 18 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 19 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 20 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 21 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 10 MBA Essentials (with the Rotman School of Management, University of Toronto), Emeritus, <a href="https://assets-ee-b2b.s3.ap-southeast-1.amazonaws.com/Emeritus/rotman/B2B_Brochure_Rotman_MBAE.pdf">https://assets-ee-b2b.s3.ap-southeast-1.amazonaws.com/Emeritus/rotman/B2B_Brochure_Rotman_MBAE.pdf</a>
+ - 11 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
 filters: Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0501
 ---
 

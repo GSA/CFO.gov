@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Keeps up-to-date by attending key meetings hosted by other agencies or organizations ? Keeps abreast of developments of other parts of the organization
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 373 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 374 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 375 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 192 Organization Communication, Carahsoft, <a href="https://www.linkedin.com/learning/organization-communication">https://www.linkedin.com/learning/organization-communication</a>
 filters: Project-Competencies-Organizational-Awareness GS-10-13 series-0501
 ---
 

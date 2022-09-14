@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Human-Capital Management-Senior
-functional_competency_designation: Leading People
+functional_competency_designation: Leading Teams and Projects
 competency: Human Capital Management
-competency_group: Leadership Competencies
+competency_group: Project Competencies
 competency_description: Builds and manages workforce based on organizational goals, budget considerations, and staffing needs; ensures that employees are appropriately recruited, selected, appraised, and rewarded; takes action to address performance problems; manages a multi-sector workforce and a variety of work situations
 level: "14-15"
 behavior_illustrations: Develops rewards system to recognize the impact of employee contributions to the organization ? Identifies creative strategies to recruit employees with the required skills and qualifications, despite having limited resources ? Identifies mission critical occupations and associated competencies needed to perform organizational functions
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 2074 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2075 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2076 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Leadership-Competencies-Human-Capital-Management GS-14-15 series-0560
+ - 157 Finding and Retaining High Potentials, Carahsoft, <a href="https://www.linkedin.com/learning/finding-and-retaining-high-potentials-9018297">https://www.linkedin.com/learning/finding-and-retaining-high-potentials-9018297</a>
+filters: Project-Competencies-Human-Capital-Management GS-14-15 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

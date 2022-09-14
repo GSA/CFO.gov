@@ -14,12 +14,8 @@ level: "14-15"
 behavior_illustrations: Synthesizes information from internal and external sources to develop an action plan addressing program issues ? Addresses systemic barriers inhibiting the achievement of results by forming teams to conduct focus groups and develop solutions ? Improves organizational efficiency by developing, planning, and implementing a multi-tier solution to complex or unprecedented problems ? Develops and implements a remediation plan restoring stakeholder confidence in a critical agency program
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 541 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 542 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 543 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 544 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 545 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 546 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 203 Decision-Making in High-Stress Situations, Carahsoft, <a href="https://www.linkedin.com/learning/decision-making-in-high-stress-situations">https://www.linkedin.com/learning/decision-making-in-high-stress-situations</a>
+ - 204 Coaching Yourself and Your Team from Uncertainty to Action, Carahsoft, <a href="https://www.linkedin.com/learning/coaching-yourself-and-your-team-from-uncertainty-to-action">https://www.linkedin.com/learning/coaching-yourself-and-your-team-from-uncertainty-to-action</a>
 filters: Self-Competencies-Problem-Solving GS-14-15 series-0501
 ---
 

@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Resilience-Senior
-functional_competency_designation: Foundational for Leading Self
+functional_competency_designation: Budget
 competency: Resilience
-competency_group: Self Competencies
+competency_group: Primary
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks 
 level: "14-15"
 behavior_illustrations: Responds to setbacks by developing alternative approaches to determine the best course of action ? Maintains unit's effectiveness, quality and morale during organizational change ? Cultivates internal and external stakeholders to develop strategies for obtaining funding from alternate sources following budget cuts
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 2107 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2108 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2109 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Self-Competencies-Resilience GS-14-15 series-0560
+ - 218 Emotionally Intelligent Auditor - A Guide to Achieving Power With People (AUDT8911), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=AUDT8911">https://www.graduateschool.edu/solr-search/content?keys=AUDT8911</a>
+filters: Primary-Resilience GS-14-15 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

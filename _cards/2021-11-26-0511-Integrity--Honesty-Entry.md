@@ -14,15 +14,9 @@ level: "7-9"
 behavior_illustrations: Establishes open and honest communication with employees ? Addresses concerns with employee behavior in a confidential and respectful manner ? Provides staff with accurate information about the vision of the agency and outlines changes in an upfront manner ? Remains fair and objective when determining skill set needed for projects to select effective team members ? Communicates honestly with employees regarding potential changes affecting the organization to ensure staff are treated fairly ? Investigates issues and takes corrective action, as appropriate
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1267 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1268 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1269 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1270 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1271 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1272 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1273 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1274 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1275 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 167 Building a Trustworthy Reputation, Carahsoft, <a href="https://www.linkedin.com/learning/building-a-trustworthy-reputation">https://www.linkedin.com/learning/building-a-trustworthy-reputation</a>
+ - 168 Contracting Basics for Administrative Personnel (ACQI7502), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACQI7502">https://www.graduateschool.edu/solr-search/content?keys=ACQI7502</a>
+ - 169 Building Trust, Carahsoft, <a href="https://www.linkedin.com/learning/building-trust-6">https://www.linkedin.com/learning/building-trust-6</a>
 filters: Self-Competencies-Integrity--Honesty GS-7-9 series-0511
 ---
 

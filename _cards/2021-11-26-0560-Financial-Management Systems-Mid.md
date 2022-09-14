@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Financial-Management Systems-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Foundational for Leading Self
 competency: Financial Management Systems
-competency_group: Primary
+competency_group: Self Competencies
 competency_description: Knowledge of the standards, architecture, and specifications of automated financial systems, including source documents, system flows, system interfaces, and related internal controls
 level: "10-13"
 behavior_illustrations: Identifies system problems, extracts ad hoc reports, recommends enhancements, and initiates system change requests
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1957 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1958 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1959 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Primary-Financial-Management-Systems GS-10-13 series-0560
+ - 121 Financial Modeling Foundations, Carahsoft, <a href="https://www.linkedin.com/learning/financial-modeling-foundations">https://www.linkedin.com/learning/financial-modeling-foundations</a>
+filters: Self-Competencies-Financial-Management-Systems GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

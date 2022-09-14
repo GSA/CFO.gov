@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Monitors customers or clients satisfaction to ensure they are getting what they need in a timely manner ? Establishes and maintains relationships with customers ? Updates agency website to reflect changes to services ? Develops guides and user manuals for customers ? Ensures products and services comply with customer requirements ? Streamlines procedures based on customer feedback ? Solicits customer feedback and takes steps to prevent similar problems or issues from occurring with other customers
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1198 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1199 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1200 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1201 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1202 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1203 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 67 Building Rapport with Customers, Carahsoft, <a href="https://www.linkedin.com/learning/building-rapport-with-customers">https://www.linkedin.com/learning/building-rapport-with-customers</a>
+ - 68 Customer Service Mastery - Delight Every Customer, Carahsoft, <a href="https://www.linkedin.com/learning/customer-service-mastery-delight-every-customer">https://www.linkedin.com/learning/customer-service-mastery-delight-every-customer</a>
 filters: Self-Competencies-Customer-Service GS-7-9 series-0511
 ---
 

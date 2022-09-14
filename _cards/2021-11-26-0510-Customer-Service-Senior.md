@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Develops innovative customer service initiative which significantly improves quality and enhances customer satisfaction ? Implements organization-wide customer service initiative to raise employee skill levels to improve customer service ? Develops project plans, goals, and objectives to meet the needs of customers within and beyond the organization
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 1006 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1007 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1008 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 71 Customer Experience Leadership, Carahsoft, <a href="https://www.linkedin.com/learning/customer-experience-leadership">https://www.linkedin.com/learning/customer-experience-leadership</a>
 filters: Self-Competencies-Customer-Service GS-14-15 series-0510
 ---
 

@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Public-Service Motivation-Mid
-functional_competency_designation: Foundational for Leading Self
+functional_competency_designation: Finance
 competency: Public Service Motivation
-competency_group: Self Competencies
+competency_group: Primary
 competency_description: Shows a commitment to serve the public; ensures that actions meet public needs; aligns organizational objectives and practices with public interests
 level: "10-13"
 behavior_illustrations: Approves funding documentation in accordance with procedures to ensure public resources are utilized appropriately ? Improves processes used to monitor contractors and vendors for supplies, services, and-or equipment to ensure government funds are expended appropriately ? Encourages a commitment to public service
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1996 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1997 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1998 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Self-Competencies-Public-Service-Motivation GS-10-13 series-0560
+ - 212 Managing Project Stakeholders, Carahsoft, <a href="https://www.linkedin.com/learning/managing-project-stakeholders-2">https://www.linkedin.com/learning/managing-project-stakeholders-2</a>
+filters: Primary-Public-Service-Motivation GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

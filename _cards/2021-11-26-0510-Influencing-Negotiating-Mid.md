@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Collaborates with key stakeholders and creates a network of support for an initiative ? Gains cooperation from others
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 907 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 908 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 909 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 910 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 911 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 912 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 160 How to Prepare for Your Negotiations, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-prepare-for-your-negotiations">https://www.linkedin.com/learning/how-to-prepare-for-your-negotiations</a>
+ - 161 Gender in Negotiation, Carahsoft, <a href="https://www.linkedin.com/learning/gender-in-negotiation">https://www.linkedin.com/learning/gender-in-negotiation</a>
 filters: Project-Competencies-Influencing-Negotiating GS-10-13 series-0510
 ---
 

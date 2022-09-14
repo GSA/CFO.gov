@@ -14,15 +14,9 @@ level: "10-13"
 behavior_illustrations: Understands the mission and goals of the Department and immediate office ? Understands where the office fits into immediate organization chart of Unit and Office, relationships between branches, workflows of major processes, how the office impacts the mission ? Understands and engages the Departments’ and Offices’ customers and addresses their needs ? Recognizes relationships at state and local levels of government ? Manages conflict effectively within the office
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1423 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1424 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1425 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1426 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1427 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1428 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1429 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1430 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1431 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 97 Business Chemistry (Blinkist Summary), Carahsoft, <a href="https://www.linkedin.com/learning/business-chemistry-blinkist-summary">https://www.linkedin.com/learning/business-chemistry-blinkist-summary</a>
+ - 98 Become a Super-Collaborator, Carahsoft, <a href="https://www.linkedin.com/learning/become-a-super-collaborator">https://www.linkedin.com/learning/become-a-super-collaborator</a>
+ - 99 Building Business Relationships, Carahsoft, <a href="https://www.linkedin.com/learning/building-business-relationships-2">https://www.linkedin.com/learning/building-business-relationships-2</a>
 filters: Leadership-Competencies-Enterprise-Perspective GS-10-13 series-0511
 ---
 

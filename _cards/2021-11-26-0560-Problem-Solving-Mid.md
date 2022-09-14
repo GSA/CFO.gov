@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Problem-Solving-Mid
-functional_competency_designation: Foundational for Leading Self
+functional_competency_designation: Finance
 competency: Problem Solving
-competency_group: Self Competencies
+competency_group: Primary
 competency_description: Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations
 level: "10-13"
 behavior_illustrations: Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives ? Conveys information clearly and concisely to ensure staff or team members remain focused on agenda items ? Explains benefits to stakeholders to gain acceptance of programmatic change ? Presents information, analyses, and recommendations to officials and stakeholders ? Presents, promotes and clarifies ideas and issues to others
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1993 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1994 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1995 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Self-Competencies-Problem-Solving GS-10-13 series-0560
+ - 202 Business Analytics, Columbia, <a href="Observer">Observer</a>, <a href="access">access</a>, <a href="to">to</a>, <a href="this">this</a>, <a href="program">program</a>, <a href="and">and</a>, <a href="our">our</a>, <a href="LMS">LMS</a>, <a href="will">will</a>, <a href="be">be</a>, <a href="provided">provided</a>, <a href="upon">upon</a>, <a href="request.">request.</a>, <a href="Please">Please</a>, <a href="see">see</a>, <a href="sample">sample</a>, <a href="screenshots">screenshots</a>, <a href="provided">provided</a>, <a href="in">in</a>, <a href="proposal">proposal</a>, <a href="on">on</a>, <a href="pages">pages</a>, <a href="15-17.">15-17.</a>
+filters: Primary-Problem-Solving GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

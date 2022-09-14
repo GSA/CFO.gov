@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Works with team to implement operating procedures within agency ? Suggests utilizing team building exercises to improve office dynamics
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 205 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 206 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 207 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 225 Introduction to Management (MGMT7099), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=MGMT7099">https://www.graduateschool.edu/solr-search/content?keys=MGMT7099</a>
 filters: Project-Competencies-Team-Building GS-7-9 series-0501
 ---
 

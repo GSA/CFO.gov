@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Applies knowledge of financial management policies and procedures to process non-recurring transactions and uses interpersonal skills to respond to customer inquiries
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 496 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 497 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 498 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 151 Finance Essentials Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8</a>
 filters: Secondary-Fundamentals-and-Operations-of-Finance GS-14-15 series-0501
 ---
 

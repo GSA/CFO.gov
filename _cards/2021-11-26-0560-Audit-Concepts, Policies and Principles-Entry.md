@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Uses typical audit procedures and practices that apply to most situations ? Applies knowledge of policies and procedures to ensure adherence to auditing and accounting guidelines
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1726 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1727 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1728 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1729 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1730 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1731 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 22 Administrative Skills Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688</a>
+ - 23 Basic Auditing Concepts, BMRA
 filters: Alternate-Audit-Concepts-Policies-and-Principles GS-7-9 series-0560
 ---
 

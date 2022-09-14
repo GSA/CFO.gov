@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Financial-Concepts, Policies and Principles-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Leading People
 competency: Financial Concepts, Policies and Principles
-competency_group: Alternate
+competency_group: Leadership Competencies
 competency_description: Apply fiscal law, policies, regulations principles, standards, and procedures to financial management activities
 level: "10-13"
 behavior_illustrations: Examines a variety of documents, records, and related reports, and processes, to determine performance in accordance with appropriate procedures and regulations
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1951 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1952 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1953 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Alternate-Financial-Concepts-Policies-and-Principles GS-10-13 series-0560
+ - 109 Finance and Accounting Tips, Carahsoft, <a href="https://www.linkedin.com/learning/finance-and-accounting-tips">https://www.linkedin.com/learning/finance-and-accounting-tips</a>
+filters: Leadership-Competencies-Financial-Concepts-Policies-and-Principles GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

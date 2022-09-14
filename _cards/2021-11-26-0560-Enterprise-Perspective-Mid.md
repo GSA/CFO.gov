@@ -6,21 +6,17 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Enterprise-Perspective-Mid
-functional_competency_designation: Leading People
+functional_competency_designation: Payroll
 competency: Enterprise Perspective
-competency_group: Leadership Competencies
+competency_group: Alternate
 competency_description: An ability to think broadly and connect the dots among various aspects of the enterprise 
 level: "10-13"
 behavior_illustrations: Understands the mission and goals of the Department and immediate office ? Understands where the office fits into immediate organization chart of Unit and Office, relationships between branches, workflows of major processes, how the office impacts the mission
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1945 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1946 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1947 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1948 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1949 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1950 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Leadership-Competencies-Enterprise-Perspective GS-10-13 series-0560
+ - 97 Business Chemistry (Blinkist Summary), Carahsoft, <a href="https://www.linkedin.com/learning/business-chemistry-blinkist-summary">https://www.linkedin.com/learning/business-chemistry-blinkist-summary</a>
+ - 98 Become a Super-Collaborator, Carahsoft, <a href="https://www.linkedin.com/learning/become-a-super-collaborator">https://www.linkedin.com/learning/become-a-super-collaborator</a>
+filters: Alternate-Enterprise-Perspective GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

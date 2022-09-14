@@ -6,21 +6,17 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Oral-Communications-Mid
-functional_competency_designation: Foundational for Leading Self
+functional_competency_designation: Leading People
 competency: Oral Communications
-competency_group: Self Competencies
+competency_group: Leadership Competencies
 competency_description: Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately
 level: "10-13"
 behavior_illustrations: Communicates effectively with staff by conducting regular meetings to discuss initiatives and current events ? Explains and clarifies policy to affected parties ? Provides status updates to management team during quarterly division meeting ? Presents complex information to stakeholders verbally ? Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives ? Conveys information clearly and concisely to ensure staff or team members remain focused on agenda items ? Explains benefits to stakeholders to gain acceptance of programmatic change ? Presents information, analyses, and recommendations to officials and stakeholders ? Presents, promotes and clarifies ideas and issues to others
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives
 relevant_courses: 
- - 1984 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1985 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1986 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1987 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1988 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1989 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Self-Competencies-Oral-Communications GS-10-13 series-0560
+ - 188 How to Present and Stay on Point, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-present-and-stay-on-point-2019">https://www.linkedin.com/learning/how-to-present-and-stay-on-point-2019</a>
+ - 189 Building Business Relationships, Carahsoft, <a href="https://www.linkedin.com/learning/building-business-relationships-2">https://www.linkedin.com/learning/building-business-relationships-2</a>
+filters: Leadership-Competencies-Oral-Communications GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

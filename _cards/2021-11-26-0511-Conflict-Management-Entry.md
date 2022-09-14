@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Recognizes conflict and makes oneself available for conflict resolution ? Communicates with other employees or customers to generate potential areas of agreement; notifies the supervisor of disagreements ? Remains calm and objective during a conflict and through its resolution
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 1195 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1196 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1197 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 48 Communicating through Disagreement, Carahsoft, <a href="https://www.linkedin.com/learning/communicating-through-disagreement">https://www.linkedin.com/learning/communicating-through-disagreement</a>
 filters: Leadership-Competencies-Conflict-Management GS-7-9 series-0511
 ---
 

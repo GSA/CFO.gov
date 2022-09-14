@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Communicates effectively with staff by conducting regular meetings to discuss initiatives and current events ? Explains and clarifies policy to affected parties ? Provides status updates to management team during quarterly division meeting ? Presents complex information to stakeholders verbally ? Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives ? Conveys information clearly and concisely to ensure staff or team members remain focused on agenda items ? Explains benefits to stakeholders to gain acceptance of programmatic change ? Presents information, analyses, and recommendations to officials and stakeholders ? Presents, promotes and clarifies ideas and issues to others
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives
 relevant_courses: 
- - 367 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 368 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 369 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 370 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 371 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 372 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 188 How to Present and Stay on Point, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-present-and-stay-on-point-2019">https://www.linkedin.com/learning/how-to-present-and-stay-on-point-2019</a>
+ - 189 Building Business Relationships, Carahsoft, <a href="https://www.linkedin.com/learning/building-business-relationships-2">https://www.linkedin.com/learning/building-business-relationships-2</a>
 filters: Self-Competencies-Oral-Communications GS-10-13 series-0501
 ---
 

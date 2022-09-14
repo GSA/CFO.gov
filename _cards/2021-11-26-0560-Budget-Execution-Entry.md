@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Applies basic knowledge of budget principles to complete budgeting transactions ? Develops execution reports and monitors status of funds to track organization’s budget, operations and processes
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 1738 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1739 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1740 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1741 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1742 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1743 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 34 1333 -  FPM 333 - Progressive Business, Cost and Financial Management, Learning Tree, <a href="https://www.learningtree.com/courses/1333/fac-p-pm-certification-earned-value-management-certification-training/">https://www.learningtree.com/courses/1333/fac-p-pm-certification-earned-value-management-certification-training/</a>
+ - 35 Fundamentals of Budget Execution, BMRA
 filters: Primary-Budget-Execution GS-7-9 series-0560
 ---
 

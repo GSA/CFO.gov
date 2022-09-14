@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Reduces project deliverables following funding cut ? Continues presentation to customer despite technical difficulties with audio-visual system
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 763 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 764 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 765 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 215 Building Resilience, Carahsoft, <a href="https://www.linkedin.com/learning/building-resilience">https://www.linkedin.com/learning/building-resilience</a>
 filters: Self-Competencies-Resilience GS-7-9 series-0510
 ---
 

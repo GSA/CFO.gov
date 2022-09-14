@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Writes complex documents, using clear terminology and a concise format as appropriate for decision makers ? Tailors written communications to address the most critical issues in a compelling and diplomatic manner ? Writes clear, concise issue papers or policy documents on complex topics, such as establishing Department-wide guidance or guidelines
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 559 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 560 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 561 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 243 Ninja Writing - The Four Levels of Writing Mastery, Carahsoft, <a href="https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery">https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery</a>
 filters: Self-Competencies-Written-Communications GS-14-15 series-0501
 ---
 

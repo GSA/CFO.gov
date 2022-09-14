@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Examines a variety of accounts, documents, records, related reports and processes to determine performance in accordance with appropriate procedures and regulations ? Develops accounting and financial guidelines that conform to fiscal requirements, and makes recommendations for improvement or implementation of new policies
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1336 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1337 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1338 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1339 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1340 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1341 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 11 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 12 Accounting Foundations - Cost-Based Pricing Strategies, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-cost-based-pricing-strategies">https://www.linkedin.com/learning/accounting-foundations-cost-based-pricing-strategies</a>
 filters: Primary-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0511
 ---
 

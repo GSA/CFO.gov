@@ -14,12 +14,8 @@ level: "7-9"
 behavior_illustrations: Performs finance functions with a high degree of effectiveness and efficiency ? Monitors current financial processes to ensure that spending programs are affordable and sustainable over time
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 583 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 584 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 585 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 586 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 587 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 588 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 13 Accounting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688</a>
+ - 14 Applying Managerial Accounting, Carahsoft, <a href="https://www.linkedin.com/learning/applying-managerial-accounting">https://www.linkedin.com/learning/applying-managerial-accounting</a>
 filters: Secondary-Advanced-Financial-Management GS-7-9 series-0510
 ---
 

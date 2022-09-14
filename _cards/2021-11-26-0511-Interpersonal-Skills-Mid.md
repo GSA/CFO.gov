@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Treats individuals from all levels of the agency with courtesy and sensitivity ? Meets with staff and listens to their perspective on organizational policies and procedures ? Displays professionalism, tact, and empathy when working with groups
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1477 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1478 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1479 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 175 Leading through Relationships, Carahsoft, <a href="https://www.linkedin.com/learning/leading-through-relationships">https://www.linkedin.com/learning/leading-through-relationships</a>
 filters: Self-Competencies-Interpersonal-Skills GS-10-13 series-0511
 ---
 

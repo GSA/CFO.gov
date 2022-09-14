@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Understands the organizational vision, mission and core values and applies these to daily work ? Practices appropriate IT security, safety, and property management ? Understands who the customer is and their expectations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 1858 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1859 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1860 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 182 Diversity and Inclusion in a Global Enterprise, Carahsoft, <a href="https://www.linkedin.com/learning/diversity-and-inclusion-in-a-global-enterprise">https://www.linkedin.com/learning/diversity-and-inclusion-in-a-global-enterprise</a>
 filters: Project-Competencies-Mission-and-Culture GS-7-9 series-0560
 ---
 

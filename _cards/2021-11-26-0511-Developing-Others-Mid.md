@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Encourages employees to participate in mentoring programs and other learning opportunities ? Pairs new staff with seasoned employees to facilitate understanding of the position and organization ? Provides orientation to new employees ? Assesses staff and provides timely and consistent feedback regarding technical proficiency and effectiveness ? Provides constructive feedback, guidance and reinforcement to employees regarding job performance ? Works with staff to identify work goals and create individual development plans ? Evaluates training programs to ensure content meets staff needs
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1417 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1418 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1419 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1420 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1421 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1422 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 93 How to Develop your Career Plan, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-develop-your-career-plan">https://www.linkedin.com/learning/how-to-develop-your-career-plan</a>
+ - 94 Coaching and Developing Employees, Carahsoft, <a href="https://www.linkedin.com/learning/coaching-and-developing-employees-5">https://www.linkedin.com/learning/coaching-and-developing-employees-5</a>
 filters: Leadership-Competencies-Developing-Others GS-10-13 series-0511
 ---
 

@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Applies knowledge of commonly used financial management procedures and techniques to perform routine and repetitive administrative tasks
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 1459 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1460 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1461 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 147 Introduction to Financial Management (FINC7000), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=FINC7000">https://www.graduateschool.edu/solr-search/content?keys=FINC7000</a>
 filters: Alternate-Fundamentals-and-Operations-of-Finance GS-10-13 series-0511
 ---
 

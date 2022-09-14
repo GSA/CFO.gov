@@ -14,18 +14,10 @@ level: "7-9"
 behavior_illustrations: Applies knowledge of commonly used financial management procedures and techniques to perform routine and repetitive administrative tasks ? Gathers a variety of standard reports and data from various systems to support the financial management operational areas ? Initiates actions to locate, extract, adjust and compile financial data to support the financial management function ? Applies established procedures to determine and coordinate actions necessary to resolve non-recurring situations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 130 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 131 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 132 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 133 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 134 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 135 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 136 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 137 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 138 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 139 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 140 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 141 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 147 Introduction to Financial Management (FINC7000), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=FINC7000">https://www.graduateschool.edu/solr-search/content?keys=FINC7000</a>
+ - 148 Understanding Business, Carahsoft, <a href="https://www.linkedin.com/learning/understanding-business">https://www.linkedin.com/learning/understanding-business</a>
+ - 149 Department of Homeland Security PPBE System (BUDG8103), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=BUDG8103">https://www.graduateschool.edu/solr-search/content?keys=BUDG8103</a>
+ - 150 1242 - Technology Business Management (TBM) Fundamentals Certification for Federal Government, Learning Tree, <a href="https://www.learningtree.com/courses/1242/technology-business-management-tbm-fundamentals-for-the-federal-government/?utm_source=govpage">https://www.learningtree.com/courses/1242/technology-business-management-tbm-fundamentals-for-the-federal-government/?utm_source=govpage</a>
 filters: Secondary-Fundamentals-and-Operations-of-Finance GS-7-9 series-0501
 ---
 

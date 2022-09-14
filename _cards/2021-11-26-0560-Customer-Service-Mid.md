@@ -6,21 +6,17 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Customer-Service-Mid
-functional_competency_designation: Foundational for Leading Self
+functional_competency_designation: Budget
 competency: Customer Service
-competency_group: Self Competencies
+competency_group: Primary
 competency_description: Works with clients and customers (that is, any individuals who use or receive the services or products that your work unit produces, including the general public, individuals who work in the agency, other agencies, or organizations outside the Government) to assess their needs, provide information or assistance, resolve their problems, or satisfy their expectations; knows about available products and services; is committed to providing quality products and services 
 level: "10-13"
 behavior_illustrations: Designs and implements new or improved practices and strategies to improve customer service ? Develops customer satisfaction surveys, analyzes results, and makes necessary improvements ? Addresses customer service deficiencies by involving employees to identify solutions ? Anticipates growing customer needs and expectations to continuously improve product development and service delivery ? Creates work group consisting of stakeholders and neutral parties to develop solutions to customer service barriers ? Ensures products and services meet customer needs
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1930 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1931 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1932 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1933 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1934 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1935 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Self-Competencies-Customer-Service GS-10-13 series-0560
+ - 69 4975 - Essentials of Stakeholder Management, Learning Tree, <a href="https://www.learningtree.com/courses/4975/essentials-of-stakeholder-management-training/">https://www.learningtree.com/courses/4975/essentials-of-stakeholder-management-training/</a>
+ - 70 A Design Thinking Approach to Putting the Customer First, Carahsoft, <a href="https://www.linkedin.com/learning/a-design-thinking-approach-to-putting-the-customer-first">https://www.linkedin.com/learning/a-design-thinking-approach-to-putting-the-customer-first</a>
+filters: Primary-Customer-Service GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

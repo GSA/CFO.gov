@@ -14,9 +14,7 @@ level: "14-15"
 behavior_illustrations: Establishes new relationships with others in the work environment
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1069 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1070 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1071 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 162 Negotiating with Agility, Carahsoft, <a href="https://www.linkedin.com/learning/negotiating-with-agility">https://www.linkedin.com/learning/negotiating-with-agility</a>
 filters: Project-Competencies-Influencing-Negotiating GS-14-15 series-0510
 ---
 

@@ -8,16 +8,14 @@ career_level: Mid
 permalink: /cards/560-Accounting-Concepts, Policies and Principles-Mid
 functional_competency_designation: Accounting
 competency: Accounting Concepts, Policies and Principles
-competency_group: Alternate
+competency_group: Secondary
 competency_description: Apply federal accounting standards, fiscal law, policies, regulations, principles, standards, internal controls and procedures to financial management activities
 level: "10-13"
 behavior_illustrations: Examines a variety of accounts, documents, records, related reports and processes to determine performance in accordance with appropriate procedures and regulations
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 1900 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1901 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1902 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Alternate-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0560
+ - 11 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+filters: Secondary-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

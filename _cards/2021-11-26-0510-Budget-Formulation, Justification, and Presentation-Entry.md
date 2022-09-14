@@ -14,9 +14,7 @@ level: "7-9"
 behavior_illustrations: Applies basic knowledge of budget principles to assist in planning
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - 616 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 617 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 618 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 37 Budgeting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8</a>
 filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0510
 ---
 

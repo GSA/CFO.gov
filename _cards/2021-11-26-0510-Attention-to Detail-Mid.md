@@ -14,9 +14,7 @@ level: "10-13"
 behavior_illustrations: Provides guidance on how to create work products that are fully compliant with instructions-requirements ? Advises others on effective tools and techniques for ensuring details are not overlooked
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 793 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 794 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 795 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 21 Learn the Process of Effective Leadership, Carahsoft, <a href="https://www.linkedin.com/learning/learn-the-process-of-effective-leadership">https://www.linkedin.com/learning/learn-the-process-of-effective-leadership</a>
 filters: Self-Competencies-Attention-to-Detail GS-10-13 series-0510
 ---
 

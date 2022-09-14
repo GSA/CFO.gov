@@ -6,18 +6,16 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Written-Communications-Senior
-functional_competency_designation: Foundational for Leading Self
+functional_competency_designation: Payroll
 competency: Written Communications
-competency_group: Self Competencies
+competency_group: Alternate
 competency_description: Recognizes or uses correct English grammar, punctuation, and spelling; communicates information (for example, facts, ideas, or messages) in a succinct and organized manner; produces written information, which may include technical material, that is appropriate for the intended audience
 level: "14-15"
 behavior_illustrations: Writes complex documents, using clear terminology and a concise format as appropriate for decision makers ? Tailors written communications to address the most critical issues in a compelling and diplomatic manner ? Writes clear, concise issue papers or policy documents on complex topics, such as establishing Department-wide guidance or guidelines
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 2113 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2114 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 2115 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
-filters: Self-Competencies-Written-Communications GS-14-15 series-0560
+ - 243 Ninja Writing - The Four Levels of Writing Mastery, Carahsoft, <a href="https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery">https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery</a>
+filters: Alternate-Written-Communications GS-14-15 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

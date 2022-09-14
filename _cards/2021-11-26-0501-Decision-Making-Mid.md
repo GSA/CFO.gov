@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Makes sound and timely decisions for a project, team or work unit ? Seeks out best practices to make organizational decisions ? Decides to redesign current performance appraisal system to better meet organizational needs ? Makes the decision to solve controversial workplace issue by establishing an employee task force
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 277 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 278 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 279 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 280 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 281 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 282 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 78 Acting Decisively, Carahsoft, <a href="https://www.linkedin.com/learning/acting-decisively">https://www.linkedin.com/learning/acting-decisively</a>
+ - 79 Change Management Foundations, Carahsoft, <a href="https://www.linkedin.com/learning/change-management-foundations-10041380">https://www.linkedin.com/learning/change-management-foundations-10041380</a>
 filters: Project-Competencies-Decision-Making GS-10-13 series-0501
 ---
 

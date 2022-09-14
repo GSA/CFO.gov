@@ -14,12 +14,8 @@ level: "10-13"
 behavior_illustrations: Analyzes a variety of documents, records and processes to determine performance in accordance with appropriate procedures and regulations ? Develops audit guidelines that conform to Generally Accepted Auditing Standards (GAAS) and Generally Accepted Government Auditing Standards (GAGAS ? Makes recommendations for improvement or implementation of new policies
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 1351 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1352 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1353 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1354 First Course Name, First Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1355 Second Course Name, Second Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
- - 1356 Third Course Name, Third Course Institution, <a href="https://www.cfo.gov">www.cfo.gov</a>
+ - 23 Basic Auditing Concepts, BMRA
+ - 24 Audit and Due Diligence - Priorities and Best Practices, Carahsoft, <a href="https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices">https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices</a>
 filters: Primary-Audit-Concepts-Policies-and-Principles GS-10-13 series-0511
 ---
 
