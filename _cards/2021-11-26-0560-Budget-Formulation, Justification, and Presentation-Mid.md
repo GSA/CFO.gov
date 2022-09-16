@@ -9,12 +9,12 @@ permalink: /cards/560-Budget-Formulation, Justification, and Presentation-Mid
 functional_competency_designation: Audit
 competency: Budget Formulation, Justification, and Presentation
 competency_group: Alternate
-competency_description: Developing a budget and knowing how to properly allocate funds according to regulations is vital to solving constant resource challenges 
+competency_description: Developing a budget and knowing how to properly allocate funds according to regulations is vital to solving constant resource challenges
 level: "10-13"
 behavior_illustrations: Formulates budget, develops justifications and presents to stakeholders for feedback
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-relevant_courses: 
- - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a> <a href="https://cgfm.learnupon.com/store">https://cgfm.learnupon.com/store</a>
+relevant_courses:
+ - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a>
 filters: Alternate-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0560
 ---
 

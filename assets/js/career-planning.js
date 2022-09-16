@@ -89,7 +89,7 @@
           else if (item.behavioral_illustrations.toLowerCase().indexOf(normalized) != -1) {
             return value;
           }
-          else if (item.relevant_courses.some((element) => element.toLowerCase().indexOf(normalized) != -1)) {
+          else if (item.relevant_courses != null && item.relevant_courses.some((element) => element.toLowerCase().indexOf(normalized) != -1)) {
             return value;
           }
           return null;
