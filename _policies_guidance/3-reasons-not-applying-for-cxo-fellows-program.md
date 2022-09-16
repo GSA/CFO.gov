@@ -1,27 +1,33 @@
 ---
 layout: knowledge-sharing-landing
-title: 3 Reasons You’re Not Applying for the CXO Fellows Program (And Why You Should)
-subtitle: 3 Reasons You’re Not Applying for the CXO Fellows Program (And Why You Should)
-filler: The CXO Fellows Program application window is open. If you’re on the fence about applying, consider the many benefits of becoming a Fellow.
-permalink: /knowledge-sharing/3-reasons-not-applying/
+title: If at First You Weren’t Chosen, Apply, Apply Again!
+subtitle: If at First You Weren’t Chosen, Apply, Apply Again!
+filler: The CXO Fellows Program has announced this year’s Fellows. But wait, there must be some mistake! Why isn’t your name on the list?
+permalink: /knowledge-sharing/apply-again/
 type: CXO Fellows
-date: May 2, 2022
+date: September 15, 2022
 has_date: 'yes'
 filters: cxo-fellows
 ---
 
-[Applications](https://feedback.gsa.gov/jfe/form/SV_cPauckcObOZKwvQ) are now open for the CXO Fellows Program. You may have heard about all the professional development opportunities that are offered to our Fellows; it's even possible that you know someone who is a CXO Alumni. Still, you haven't gone to the CXO website to apply. Here are 3 reasons why you haven't clicked that "apply now" button -- and why you should.
+<div style="text-align: center;">"Only those who dare to fail greatly can ever achieve greatly." -- Robert F. Kennedy</div>
 
-1. **I Don't Have Time -** We get it. We're all busy. Our calendars are packed - there's not a second in your day that's not accounted for. And while that might be true, it's also true that most of us don't make time in that packed calendar for ourselves. Professional development builds confidence and makes you more successful in your work performance, so it's important to build time in your schedule for growth.   
-<br>The CXO Fellows Program was designed with busy government professionals like you in mind. Yes, there is a time commitment each month, however, the value of the short time commitment is immeasurable when you consider the tools and skills you'll gain as a rising leader. And speaking of leadership, here's another reason you haven't applied...
+The CXO Fellows Program has announced this year's Fellows. But wait, there must be some mistake! Why isn't your name on the list?
 
-2. **I'm Not A Leader -** You may not have the word "manager" in your job title, but consider this:<br><br>
-● When there's a question at your agency, you're the one people come to for the answer.<br>
-● During staff meetings, everyone seeks and values your opinion.<br>
-● Often, you're asked to head new projects.<br><br>
-When it comes down to it, you are a natural leader and the CXO Fellows Program was created for you! Our Fellows are rising leaders, the next generation of Federal Government management. We prepare Fellows for that challenge, exposing them to tools and methods that will assure success as they move upward in their careers.
+It's understandable to be disappointed. The CXO is a valuable program for professional growth, and there are many applicants every year. As much as we'd like to allow everyone who applies to join the program, we are limited to 100 Fellows each year. The selection process is a careful one, as Angela McPherson, CXO Fellows Program Director explained, "The final selections are made by the agency leadership. We try to have a diversified voice represented from each agency. So, we want to make sure that we have a person from each function under each agency. Because again, this is a cross functional collaboration, so we want to make sure that we're all learning how to speak the same language."
 
-3. **I'm** **Comfortable Where I Am -** We all grow comfortable in our environments. You know your agency like the back of your hand, the way things get done, and all the players. Still, yours is but one of many Federal agencies, and each agency has employees like you with similar jobs, and with different goals. Imagine how much you might have in common with those people and what could be accomplished by cross-collaboration!  
-<br>This is another function of the CXO Fellows Program, bringing together Fellows from different agencies to learn and grow together. And if the word "networking" is intimidating to you, don't worry! Effective interaction with strangers truly is a skill set, and it's one of many that we'll give you the tools to master.
+So, you've applied and weren't chosen. Now what? Does this mean that you can never apply again? Nothing could be further from the truth! We encourage those who are not picked to apply again. If you fulfill the basic requirements, there's no reason that you couldn't become part of the program in the future. If anything, your tenacity proves that you have what it takes to be a CXO Fellow.
 
-It's your time; don't let excuses keep you from moving your career forward. Apply to be a CXO Fellow here: [Application](https://feedback.gsa.gov/jfe/form/SV_cPauckcObOZKwvQ). Do it now, don't wait!
+As you no doubt know, the program is designed for rising leaders with a passion to learn and grow. You've already demonstrated that you have that passion by applying. As a person with leadership qualities, it's possible that you consider this a failure. Before you throw in the towel and insist that you'll never apply again, consider these "failures."
+
+Thomas Edison famously said, "I have not failed. I've just found 10,000 ways that don't work." As a child he was told by his teachers that he would never succeed in life because "his mind wandered."
+
+Oprah Winfrey, multimedia executive who has a net worth in the billions, was fired from her first TV news anchor job for being "too emotionally invested" in her reporting.
+
+Elvis Presley was turned down by early managers and bands because "he couldn't sing."
+
+Michael Jordan was cut from his high school basketball team!
+
+The world would've been a very different place if any of these icons had decided to give up at the first sign of "failure."
+
+Whatever the reason, this year was not your year to be a Fellow. Next year could well be your year, but there is a 100% chance that it won't happen if you don't try. Follow the CXO Fellows Program on [LinkedIn](https://www.linkedin.com/company/thecxofellowship/) for updates on our next application window, and apply, apply again!
