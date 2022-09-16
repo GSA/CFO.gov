@@ -167,7 +167,7 @@
       doc.font(bold).text('Competency: ', { continued: true }).font(norm).text(card.competency);
       doc.font(bold).text('Type: ', { continued: true }).font(norm).text(card.competency_group);
       doc.moveDown(1);
-      doc.font(bold).text('Competency Description: ', {continued: true}).font(norm).text(card.competency_description);
+      doc.font(bold).text('Description: ', {continued: true}).font(norm).text(card.competency_description);
       doc.moveDown(2);
       elem.innerHTML = card.content;
       let items = [];
@@ -205,7 +205,7 @@
         doc.font(norm).list(items, doc.page.margins.left + 30, null, { bulletRadius: 2 });
       }
       doc.moveDown(2);
-      doc.font(bold).text('Relevant Courses', doc.page.margins.left);
+      doc.font(bold).text('Career Listing', doc.page.margins.left);
       doc.moveDown(1);
 
       if (card.relevant_courses.length == 0) {
