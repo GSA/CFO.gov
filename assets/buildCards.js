@@ -11,7 +11,8 @@ function buildCards() {
                 key = [
                     parts[0],
                     gsLevel(row.career_level),
-                    row.competency
+                    row.competency,
+                    row.competency_group
                 ].join('-'),
                 profLevel = row.proficiency_level.match(/Level (\d)/)[1];
 
@@ -174,7 +175,7 @@ filters: ${filters}
     <dl class="text-base">${profLevelMarkup}</dl>
   </div>
 </div>`;
-                let filename = `_cards/2021-11-26-0${card.jobSeries}-${card.competency.replace(' ', '-')}-${card.careerLevel}.md`;
+                let filename = `_cards/2021-11-26-0${card.jobSeries}-${card.competencyGroup.replace(/ /g, '-')}-${card.competency.replace(/ /g, '-')}-${card.careerLevel}.md`;
                 fs.writeFileSync(filename, output);
                 count++;
             }

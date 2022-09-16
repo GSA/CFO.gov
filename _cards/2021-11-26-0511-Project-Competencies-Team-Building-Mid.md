@@ -1,11 +1,11 @@
 ---
 layout: career-planning-landing
 category: career
-title: 0510 Accounting Mid Team Building
-series: 510
-job_series: 0510 Accounting
+title: 0511 Auditing Mid Team Building
+series: 511
+job_series: 0511 Auditing
 career_level: Mid
-permalink: /cards/510-Team-Building-Mid
+permalink: /cards/511-Team-Building-Mid
 functional_competency_designation: Leading Teams and Projects
 competency: Team Building
 competency_group: Project Competencies
@@ -15,8 +15,8 @@ behavior_illustrations: Encourages staff to share skills and abilities within wo
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 226 Building Successful Teams, The University of Texas at San Antonio Center for Professional Excellence, <a href="https://secure.touchnet.net/C21612_ustores/web/product_detail.jsp?PRODUCTID=178">https://secure.touchnet.net/C21612_ustores/web/product_detail.jsp?PRODUCTID=178</a>
- - 227 222 - Leading Teams, Improving Productivity Through Teamwork, Learning Tree, <a href="https://www.learningtree.com/courses/222/team-leadership-training/">https://www.learningtree.com/courses/222/team-leadership-training/</a>
-filters: Project-Competencies-Team-Building GS-10-13 series-0510
+ - 227 222 - Leading Teams: Improving Productivity Through Teamwork, Learning Tree, <a href="https://www.learningtree.com/courses/222/team-leadership-training/">https://www.learningtree.com/courses/222/team-leadership-training/</a>
+filters: Project-Competencies-Team-Building GS-10-13 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
