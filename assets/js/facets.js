@@ -897,27 +897,6 @@ function enableDisableCompetencies(all) {
       }
     });
   }
-
-
-  /* $(".career-competency-toggle-open").children().each(function () {
-    if ($(this).prop("class") == "career-competency-input-groups") {
-      if ($(".career-competency-input-groups").children().css("display") === "none") {
-        $(this).css("display", "none");
-        competency_group.forEach(item => {
-          console.log("#competency-group-button-"+createId(item));
-          $("#competency-group-button-"+createId(item)).find('i').toggleClass('fa-plus fa-minus');
-        });
-      } else {
-        $(this).css("display", "block");
-      }
-    }
-  });
-
-  if ($(".career-competency-input-groups").forEach()) {
-    $(".career-competency-input-groups").css("display", "none");
-  } else {
-    $(".career-competency-input-groups").css("display", "block");
-  } */
 }
 
 (function( $ ) {
@@ -930,29 +909,29 @@ function enableDisableCompetencies(all) {
     this.filter( "button" ).each(function() {
         var button = $( this );
         // console.log("Button Id: " + button[0].id);
-        button.on('click', function(evt) {
+        button.on('click', function (evt) {
           evt.preventDefault();
           //console.log("Button Id: " + button[0].id);
-          if(button[0].classList.contains("cfo-page-right") || button[0].classList.contains("cfo-page-left") || button[0].id == "cfo-search-button") {
-            if(button[0].id == "cfo-search-button") {
+          if (button[0].classList.contains("cfo-page-right") || button[0].classList.contains("cfo-page-left") || button[0].id == "cfo-search-button") {
+            if (button[0].id == "cfo-search-button") {
               // console.log("Input Val: " + $("#career-advancement-search-input").val());
-              if(startingSearchFilter.length < 4 && !ifExistsInArray('search', searchOrder)) searchOrder.push('search');
-              if(startingSearchFilter.length == 0) {
-                startingSearchFilter.push({keys: $("#career-advancement-search-input").val(), id: 'keys'});
+              if (startingSearchFilter.length < 4 && !ifExistsInArray('search', searchOrder)) searchOrder.push('search');
+              if (startingSearchFilter.length == 0) {
+                startingSearchFilter.push({ keys: $("#career-advancement-search-input").val(), id: 'keys' });
               }
-              if(searchOrder.length == 1 && searchOrder[0] == 'search') { // reset the search if it is the first and is researched without selecting a filter.
+              if (searchOrder.length == 1 && searchOrder[0] == 'search') { // reset the search if it is the first and is researched without selecting a filter.
                 startingSearchFilter = [];
-                startingSearchFilter.push({keys: $("#career-advancement-search-input").val(), id: 'keys'});
+                startingSearchFilter.push({ keys: $("#career-advancement-search-input").val(), id: 'keys' });
               }
-              if(data.length) {
+              if (data.length) {
                 let searchExists = false;
                 data.forEach(item => {
-                  if(item.id == 'keys') {
+                  if (item.id == 'keys') {
                     item.keys = $("#career-advancement-search-input").val();
                     searchExists = true;
                   }
                 });
-                if(!searchExists) {
+                if (!searchExists) {
                   data.push({
                     id: 'keys',
                     type: 'keys',
@@ -971,13 +950,13 @@ function enableDisableCompetencies(all) {
               getSearch();
               //console.log(JSON.stringify(searchOrder));
               return false;
-            } else if(button[0].classList.contains("cfo-page-right")) {
-              if(currentPage < totalPages) {
+            } else if (button[0].classList.contains("cfo-page-right")) {
+              if (currentPage < totalPages) {
                 $("#career-search-results").empty();
                 setCurrentPage(currentPage += 1);
                 $(".cfo-pagination-page").text(currentPage);
                 let dataSet = (results.length && searchOrder.length) ? results : fullSet;
-                if(currentPage == 1) {
+                if (currentPage == 1) {
                   start = 0;
                   end = perPage;
                 } else {
@@ -985,24 +964,24 @@ function enableDisableCompetencies(all) {
                   end = Math.min(start + perPage, dataSet.length);
                 }
                 //console.log(start + " - " + end);
-                for(i=start; i<end; i++) {
-                  if(typeof(dataSet[i]) != "undefined" && results[i] !== null) {
+                for (i = start; i < end; i++) {
+                  if (typeof (dataSet[i]) != "undefined" && results[i] !== null) {
                     createResults(false, dataSet[i]);
                   }
                 }
                 $(".cfo-page-left").removeAttr("disabled")
-                if(currentPage == totalPages) $(".cfo-page-right").attr("disabled", "disabled");
+                if (currentPage == totalPages) $(".cfo-page-right").attr("disabled", "disabled");
               } else {
                 $(".cfo-page-right").attr("disabled", "disabled");
               }
               return false;
-            } else if(button[0].classList.contains("cfo-page-left")) {
-              if(currentPage > 1) {
+            } else if (button[0].classList.contains("cfo-page-left")) {
+              if (currentPage > 1) {
                 $("#career-search-results").empty();
                 setCurrentPage(currentPage -= 1);
                 $(".cfo-pagination-page").text(currentPage);
                 let dataSet = (results.length && searchOrder.length) ? results : fullSet;
-                if(currentPage == 1) {
+                if (currentPage == 1) {
                   start = 0;
                   end = perPage;
                 } else {
@@ -1010,34 +989,68 @@ function enableDisableCompetencies(all) {
                   end = Math.min(start + perPage, dataSet.length);
                 }
                 //console.log(start + " - " + end);
-                for(i=start; i<end; i++) {
-                  if(typeof(dataSet[i]) != "undefined" && results[i] !== null) {
+                for (i = start; i < end; i++) {
+                  if (typeof (dataSet[i]) != "undefined" && results[i] !== null) {
                     createResults(false, dataSet[i]);
                   }
                 }
                 $(".cfo-page-right").removeAttr("disabled");
-                if(currentPage == 1) $(".cfo-page-left").attr("disabled", "disabled");
+                if (currentPage == 1) $(".cfo-page-left").attr("disabled", "disabled");
               } else {
                 $(".cfo-page-left").attr("disabled", "disabled");
               }
               return false;
             }
-          } else if (button[0].id.match('competency-group-button')) {
-            $(this).parent().siblings().slideToggle();
-            $(this).parent().siblings().each(function () {
-              if ($(this).children().css("display") == "none") {
-                $(this).css("display", "none");
+          } else if (button[0].id.match('competency-group-button')) { // plus minus buttons + -
+            $(this).parent().siblings().slideToggle("slow", function () {
+              if ($(this).parent().find('i')[0].className == 'fa fa-minus') {
+                if ($(this).children().css("display") == "none") {
+                  $(this).css("display", "none");
+                }
               } else {
-                $(this).css("display", "block");
+                $(this).css("display", "none");
               }
             });
+            /* $(this).parent().siblings().each(function () {
+              $(this).css("display", "block");
+              if ($(this).children().css("display") == "none") {
+                $(this).css("display", "none");
+              }
+              if ($(this).children().css("display") == "block") {
+                $(this).css("display", "block");
+              }
+            }); */
             $(this).find('i').toggleClass('fa-plus fa-minus');
           } else {
             if (!ifExists(evt.target.id)) {
               createRemoveButtons('button', evt.target.id, button);
+              $(".career-competency-toggle-open").children().each(function () {
+                if ($(this).parent().find('i')[0].className == 'fa fa-minus') {
+                  if ($(this)[0].className != "career-competency-toggle-open--inner") {
+                    if ($(this)[0].children[0] != null && $(this)[0].children[0].style.display == "none") {
+                      $(this)[0].style.display = "none";
+                    }
+                    if ($(this)[0].children[0] != null && $(this)[0].children[0].style.display == "block") {
+                      $(this)[0].style.display = "block";
+                    }
+                  }
+                }
+              });
             }
             else {
               removeCriteria('button', evt.target.id);
+              $(".career-competency-toggle-open").children().each(function () {
+                if ($(this).parent().find('i')[0].className == 'fa fa-minus') {
+                  if ($(this)[0].className != "career-competency-toggle-open--inner") {
+                    if ($(this)[0].children[0] != null && $(this)[0].children[0].style.display == "none") {
+                      $(this)[0].style.display = "none";
+                    }
+                    if ($(this)[0].children[0] != null && $(this)[0].children[0].style.display == "block") {
+                      $(this)[0].style.display = "block";
+                    }
+                  }
+                }
+              });
             }
           }
         });
