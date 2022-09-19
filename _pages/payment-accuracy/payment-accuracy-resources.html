@@ -18,7 +18,7 @@ sidenav: false
 <div style="font-weight: 300; line-height: 1.618; font-size: 18px";>
     <h4 >Annual Improper Payments Datasets</h4>
     <ul>
-        {% if site.url == "https://www.paymentaccuracy.gov" %}
+        {% if {{site.baseurl}} == "https://www.paymentaccuracy.gov" %}
         <li>Accessible through <a href="{{ site.baseurl }}/payment-accuracy-the-numbers/">The Numbers</a></li>
         {% else %}
         <li>Accessible through <a href="{{ site.baseurl }}/payment-accuracy/payment-accuracy-the-numbers/">The Numbers</a></li>
