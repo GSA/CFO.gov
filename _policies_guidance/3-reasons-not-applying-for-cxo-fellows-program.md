@@ -5,7 +5,7 @@ subtitle: If at First You Weren’t Chosen, Apply, Apply Again!
 filler: The CXO Fellows Program has announced this year’s Fellows. But wait, there must be some mistake! Why isn’t your name on the list?
 permalink: /knowledge-sharing/apply-again/
 type: CXO Fellows
-date: September 15, 2022
+date: September 19, 2022
 has_date: 'yes'
 filters: cxo-fellows
 ---
