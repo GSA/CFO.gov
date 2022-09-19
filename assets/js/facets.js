@@ -898,6 +898,7 @@ function enableDisableCompetencies(all) {
     });
   }
 
+
   /* $(".career-competency-toggle-open").children().each(function () {
     if ($(this).prop("class") == "career-competency-input-groups") {
       if ($(".career-competency-input-groups").children().css("display") === "none") {
