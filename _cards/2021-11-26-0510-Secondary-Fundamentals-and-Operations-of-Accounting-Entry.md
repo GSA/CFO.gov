@@ -16,15 +16,7 @@ proficiency_level_definition: Applies the competency in the simplest situations 
 relevant_courses:
  - 137 Federal Accounting Standards (ACCT7102), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7102">https://www.graduateschool.edu/solr-search/content?keys=ACCT7102</a>
  - 138 Introduction to Federal Accounting (ACCT7001), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7001">https://www.graduateschool.edu/solr-search/content?keys=ACCT7001</a>
-<<<<<<< HEAD:_cards/2021-11-26-0510-Secondary-Fundamentals-and-Operations-of-Accounting-Entry.md
- - 139 Governmental Accounting, Financial Reporting and Budgeting, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx
-
-https://cgfm.learnupon.com/store">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx
-
-https://cgfm.learnupon.com/store</a>
-=======
  - 139 Governmental Accounting, Financial Reporting and Budgeting, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a>
->>>>>>> trigve/CASOGP-6644:_cards/2021-11-26-0510-Fundamentals-and Operations of Accounting-Entry.md
  - 140 National Accounts Statistics, Deloitte, <a href="National">National</a>, <a href="Accounts">Accounts</a>, <a href="Statistics">Statistics</a>
 filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-7-9 series-0510
 ---

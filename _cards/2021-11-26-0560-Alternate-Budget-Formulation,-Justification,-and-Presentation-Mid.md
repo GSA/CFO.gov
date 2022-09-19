@@ -13,17 +13,8 @@ competency_description: Developing a budget and knowing how to properly allocate
 level: "10-13"
 behavior_illustrations: Formulates budget, develops justifications and presents to stakeholders for feedback
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-<<<<<<< HEAD:_cards/2021-11-26-0560-Alternate-Budget-Formulation,-Justification,-and-Presentation-Mid.md
-relevant_courses: 
- - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx
-
-https://cgfm.learnupon.com/store">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx
-
-https://cgfm.learnupon.com/store</a>
-=======
 relevant_courses:
- - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a>
->>>>>>> trigve/CASOGP-6644:_cards/2021-11-26-0560-Budget-Formulation, Justification, and Presentation-Mid.md
+ - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a
 filters: Alternate-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0560
 ---
 
