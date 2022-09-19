@@ -423,6 +423,7 @@ function createResults(noResults, item) { // creates a results div and contents
  * @param {string} competencyTitle - The competency title (not used with buttons)
  */
 function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, competencyTitle) {
+  // console.log("createRemoveButtons :" + eventTargetId);
   if(inputType == "button") {
     data.push({
       id: eventTargetId,
@@ -472,7 +473,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
 
   getSearch();
 
-  $("#"+eventTargetId+"-button").on('click', function() {
+  $("#" + eventTargetId + "-button").on('click', function () {
     // console.log("Removing: "+eventTargetId+"-button");
     adding = false;
     removing = true;
@@ -494,7 +495,20 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     }
     $("#"+eventTargetId+"-button").remove();
     getSearch();
-    // console.log(JSON.stringify(data));
+
+    $(".career-competency-toggle-open").children().each(function () {
+      console.log($(this));
+      if ($(this).parent().find('i')[0].className == 'fa fa-minus') {
+        if ($(this)[0].className != "career-competency-toggle-open--inner") {
+          if ($(this)[0].children[0] != null && $(this)[0].children[0].style.display == "none") {
+            $(this)[0].style.display = "none";
+          }
+          if ($(this)[0].children[0] != null && $(this)[0].children[0].style.display == "block") {
+            $(this)[0].style.display = "block";
+          }
+        }
+      }
+    });
   });
 }
 
@@ -504,6 +518,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
  * @param {string} id - the id of the button or checkbox
  */
 function removeCriteria(inputType, id) {
+  // console.log("removeCriteria :" + id);
   $('#' + id + '-button').remove();
   let elem = $('#' + id);
 
@@ -1011,15 +1026,6 @@ function enableDisableCompetencies(all) {
                 $(this).css("display", "none");
               }
             });
-            /* $(this).parent().siblings().each(function () {
-              $(this).css("display", "block");
-              if ($(this).children().css("display") == "none") {
-                $(this).css("display", "none");
-              }
-              if ($(this).children().css("display") == "block") {
-                $(this).css("display", "block");
-              }
-            }); */
             $(this).find('i').toggleClass('fa-plus fa-minus');
           } else {
             if (!ifExists(evt.target.id)) {
@@ -1038,6 +1044,7 @@ function enableDisableCompetencies(all) {
               });
             }
             else {
+              // console.log("Last :" + evt.target.id);
               removeCriteria('button', evt.target.id);
               $(".career-competency-toggle-open").children().each(function () {
                 if ($(this).parent().find('i')[0].className == 'fa fa-minus') {
