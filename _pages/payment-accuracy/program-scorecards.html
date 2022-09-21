@@ -29,12 +29,13 @@ sidenav: false
     <p>High-priority programs are designated by the Office of Management and Budget (OMB) and agencies with high-priority programs have additional reporting requirements. Determination criteria and reporting requirements for high-priority programs are found in <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf">OMB Guidance Circular A-123, Appendix C</a></p>
     <p><span>Select a program from the list below to view program details:</span></p>
     <br>
-    <p>
+    <p> === {{site.url}} ===
         Program scorecards from the prior and current year are displayed below. To view program scorecards from earlier years please click
-        {% if site.baseurl == "https://cg-4ade7cd3-a036-4fb7-b1d5-bcef64cb3ddf.app.cloud.gov/preview/gsa/cfo.gov/ECASOGP-6669/payment-accuracy/" %}
+        {% if site.url contains "app.cloud.gov" %}
         <p>Heyy</p>
         <a href="{{site.baseurl}}/payment-accuracy-high-priority-programs-archive/">Here</a>.
         {% else %}
+        <p>else</p>
         <a href="{{site.baseurl}}/payment-accuracy/payment-accuracy-high-priority-programs-archive/">Here</a>.
         {% endif %}
     </p>
