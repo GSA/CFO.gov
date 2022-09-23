@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Financial-Management Systems-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Management Systems
 competency_group: Primary
 competency_description: Knowledge of the standards, architecture, and specifications of automated financial systems, including source documents, system flows, system interfaces, and related internal controls

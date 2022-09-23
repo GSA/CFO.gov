@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Fundamentals-and Operations of Military and Civilian Pay-Mid
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Military and Civilian Pay
 competency_group: Alternate
 competency_description: Research and analyze legislative and regulatory guidance related to entitlements to ensure proper payments

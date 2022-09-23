@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Resilience-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Resilience
 competency_group: Primary
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks 

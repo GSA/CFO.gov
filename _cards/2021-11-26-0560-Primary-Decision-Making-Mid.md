@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Decision-Making-Mid
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Decision Making
 competency_group: Primary
 competency_description: Makes sound, well-informed, and objective decisions; perceives the impact and implications of decisions; commits to action, even in uncertain situations, to accomplish organizational goals; causes change 

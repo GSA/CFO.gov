@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Senior
 permalink: /cards/501-Budget-Concepts, Policies and Principles-Senior
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Budget Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply fiscal law, policies, regulations, principles, standards and procedures to financial management activities

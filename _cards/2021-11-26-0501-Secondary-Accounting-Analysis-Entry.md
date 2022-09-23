@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Accounting-Analysis-Entry
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Accounting Analysis
 competency_group: Secondary
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations 

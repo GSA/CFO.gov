@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Decision-Support-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Decision Support
 competency_group: Primary
 competency_description: Knowledge of decision support theories, methods, and tools for identifying, synthesizing, representing, and evaluating the important aspects of a decision situation and prescribing the recommended course for decision makers and other stakeholders

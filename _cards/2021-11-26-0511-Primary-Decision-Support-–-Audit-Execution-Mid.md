@@ -6,7 +6,7 @@ series: 511
 job_series: 0511 Auditing
 career_level: Mid
 permalink: /cards/511-Decision-Support – Audit Execution-Mid
-functional_competency_designation: Audit
+functional_competency_designation: Job Specific Competencies
 competency: Decision Support – Audit Execution
 competency_group: Primary
 competency_description: Conducts audits in accordance with Generally Accepted Government Auditing Standards (GAGAS) or Generally Accepted Auditing Standards (GAAS) to provide value-added recommendations that enable better utilization of resources and improvement of mission effectiveness 

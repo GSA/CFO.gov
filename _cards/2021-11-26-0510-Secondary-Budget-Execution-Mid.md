@@ -6,7 +6,7 @@ series: 510
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Budget-Execution-Mid
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Budget Execution
 competency_group: Secondary
 competency_description: Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory-regulatory guidance

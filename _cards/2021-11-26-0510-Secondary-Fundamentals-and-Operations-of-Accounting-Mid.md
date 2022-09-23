@@ -6,7 +6,7 @@ series: 510
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Fundamentals-and Operations of Accounting-Mid
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Accounting
 competency_group: Secondary
 competency_description: Knowledge of traditional accounting practices including accrual, obligations, and costs methods

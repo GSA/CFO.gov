@@ -6,7 +6,7 @@ series: 510
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Fundamentals-and Operations of Budget-Mid
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Budget
 competency_group: Alternate
 competency_description: Knowledge of the principles and practices of budget administration and analysis; including preparing, justifying, reporting on, and executing the budget; and the relationships among program, budget, accounting, and reporting systems

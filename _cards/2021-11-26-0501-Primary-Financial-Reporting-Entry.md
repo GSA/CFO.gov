@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Financial-Reporting-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Reporting
 competency_group: Primary
 competency_description: Prepare, review and reconcile financial statements and financial reports to meet reporting requirements and to support management decisions

@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Budget-Execution-Entry
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Budget Execution
 competency_group: Primary
 competency_description: Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory-regulatory guidance

@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Financial-Management Analysis-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Management Analysis
 competency_group: Primary
 competency_description: Analyze, evaluate and review budget and program issues and financial data and reports using business tools and applications, cost and economic analysis, and performance metrics to provide recommendations 

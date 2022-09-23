@@ -6,7 +6,7 @@ series: 510
 job_series: 0510 Accounting
 career_level: Entry
 permalink: /cards/510-Financial-Reporting-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Reporting
 competency_group: Primary
 competency_description: Prepare, review and reconcile financial statements and financial reports to meet reporting requirements and to support management decisions
