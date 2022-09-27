@@ -22,6 +22,11 @@ site, this is the place to do it.
   <meta name="keyword" content="{{page.keyword}}">
   <meta property="og:description" content="{{page.description}}">
 
+  {% if page.filters == "cxo-fellows" or page.url contains "cxo-fellows" %}
+  <meta property='og:image' content='https://www.cfo.gov/assets/images/logos/CXOFellows.png'/>
+  <meta property='og:description' content="{{page.filler}}"/>
+  {% endif %}
+
  <!-- <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{{site.title}}" />
