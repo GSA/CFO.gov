@@ -185,6 +185,9 @@
           items.push(this.innerText.trim());
         }
       });
+      if (items.length) {
+        doc.font(norm).list(items, doc.page.margins.left + 30, null, { bulletRadius: 2 });
+      }
       doc.moveDown(2);
       doc.font(bold).text('Proficiency Level Definition', doc.page.margins.left);
       items = [];
