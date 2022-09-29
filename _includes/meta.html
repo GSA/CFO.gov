@@ -22,10 +22,10 @@ site, this is the place to do it.
   <meta name="keyword" content="{{page.keyword}}">
 
   {% if page.filters == "cxo-fellows" or page.url contains "cxo-fellows" %}
-  <meta property="og:image" content="{{site.baseurl}}/assets/images/logos/cxo-preview.png">
+  <meta name="image" property="og:image" content="https://www.cfo.gov/assets/images/logos/CXOFellows.png">
   <meta property="og:description" content="{{page.filler}}">
   {% else %}
-  <meta property="og:image" content="{{site.baseurl}}/assets/images/logos/cfo-preview.png">
+  <meta name="image" property="og:image" content="{{site.baseurl}}/assets/images/logos/cfo-preview.png">
   <meta property="og:description" content="{{page.description}}">
   {% endif %}
 
