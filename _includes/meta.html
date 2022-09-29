@@ -18,15 +18,15 @@ site, this is the place to do it.
     ================================================== -->
   <title>{{page.title}}</title>
   <meta property="og:title" content="{{page.title}}">
-  <meta name="description" content="{{page.description}}">
+  <!-- <meta name="description" content="{{page.description}}"> -->
   <meta name="keyword" content="{{page.keyword}}">
 
   {% if page.filters == "cxo-fellows" or page.url contains "cxo-fellows" %}
-  <meta property="og:image" content="{{site.baseurl}}/assets/images/logos/cxo-preview.png">
-  <meta property="og:description" content="{{page.filler}}">
+  <meta name="image" property="og:image" content="https://www.cfo.gov/assets/images/logos/cxo-preview-large.png">
+  <meta name="description" property="og:description" content="{{page.filler}}">
   {% else %}
-  <meta property="og:image" content="{{site.baseurl}}/assets/images/logos/cfo-preview.png">
-  <meta property="og:description" content="{{page.description}}">
+  <meta name="image" property="og:image" content="{{site.baseurl}}/assets/images/logos/cfo-preview.png">
+  <meta name="description" property="og:description" content="{{page.description}}">
   {% endif %}
 
   <meta property="og:type" content="article">
