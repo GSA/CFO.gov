@@ -100,7 +100,7 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 .ui-tabs-vertical .ui-tabs-nav li {
   clear: left;
   width: 100%;
-  padding: 0em 2em 0em 2em;
+  padding: 0em 0 0em 2em;
   margin: 1em 2em 1em 0.5em;
 }
 
@@ -159,7 +159,7 @@ color:#005ea2;
 }
 
 .fmt-page{
-  background-image: url('../assets/images/fmt-1.png');
+  background-image: url('../assets/images/fmt-collage.png');
   background-color:  #19387b;
   padding:4em 0;
 }
@@ -187,22 +187,31 @@ color:#005ea2;
 .jfmip-page{
   background-image: url('../assets/images/jfmip.png');
   background-color:  #19387b;
-  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   padding:3em 0;
 }
 .financial-assistance-page{
-  background-image: url('../assets/images/grants.png');
+  background-image: url('../assets/images/fa-crop-new.png');
   background-color:  #19387b;
   background-size: cover;
   padding:4em 0;
 }
-.financial-assistance-page{
-  background-image: url('../assets/images/grants.png');
+.workforce-modernization-page{
+  background-image: url('../assets/images/logos/workforce/people_banner.png');
   background-color:  #19387b;
   background-size: cover;
   padding:4em 0;
+}
+.arp-page{
+  background-image: url('../assets/images/logos/workforce/president-signing.png');
+  background-color:  #19387b;
+  background-size: cover;
+  padding:5em 0;
+}
+.coming-soon {
+  background-color: #2c318a;
+  color: #ffffff;
+  width: 815px;
 }
 .about-the-council{
   background-image: linear-gradient(to top, rgba(0.4, 0.4, 0.4, 0.4), rgba(0.5, 0.5, 0.5, 0.5)), url('../wp-content/uploads/2016/02/IMG_2680.jpg');
@@ -378,6 +387,17 @@ color:#005ea2;
   width:100%;
   position:absolute;
 }
+
+ol.alpha {                           /** Workforce Mordernization **/
+  list-style-type: lower-alpha;
+}
+ol.roman {
+  list-style-type: upper-roman;
+}
+.pict-txt {
+  text-align: center;
+}
+
 /* media queries*/
 @media (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item {
@@ -441,5 +461,419 @@ abbr{
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
+  }
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 50px;
+  /* Location of the box */
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Black w/ opacity */ }
+
+/*NEW MODAL for footer newsletter signup*/
+.modal-button {
+  background-color: #0071bc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 25px; }
+
+.modal-button:hover {
+  background-color: #112e51;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 25px; }
+
+.modal-button a {
+  color: white;
+  text-decoration: none; }
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 4;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto; }
+
+.modalDialog > div {
+  width: 50%;
+  position: relative;
+  margin: 4% auto;
+  padding: 40px;
+  border-radius: 10px;
+  background: #fff;
+  border: 5px solid #d6d7d9;
+  background-color: #ffffff;
+  color: #212121;
+  text-align: left;
+  min-width: 300px; }
+
+.close {
+  background: #aeb0b5;
+  color: #FFFFFF;
+  line-height: 34px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 33px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 20px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000; }
+
+.close:hover {
+  background: #aeb0b5; }
+
+/* OLDModal Content */
+.modal-content {
+  background-color: #0071bc;
+  color: #ffffff;
+  margin: auto;
+  padding: 40px;
+  border: 5px solid #ffffff;
+  width: 40%;
+  text-align: left;
+  min-width: 400px; }
+
+.modal-content h2 {
+  font-size: 2em; }
+
+/* The Close Button */
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+.ui-tabs-panel li.ui-corner-left {
+  margin: 1em 0;
+}
+.usa-button-group {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  padding-left: 0; }
+@media all and (min-width: 30em) {
+  .usa-button-group {
+    flex-direction: row; } }
+
+.usa-button-group__item {
+  margin: 0.25rem; }
+@media all and (min-width: 30em) {
+  .usa-button-group__item:last-child {
+    margin-right: 0; } }
+.usa-button-group__item .usa-button {
+  margin-left: 0;
+  margin-right: 0; }
+
+.usa-button-group--segmented {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0; }
+@media all and (min-width: 30em) {
+  .usa-button-group--segmented {
+    justify-content: flex-start; } }
+.usa-button-group--segmented .usa-button {
+  position: relative;
+  width: calc(100% + 2px); }
+@media all and (min-width: 30em) {
+  .usa-button-group--segmented .usa-button {
+    width: auto; } }
+.usa-button-group--segmented .usa-button:hover, .usa-button-group--segmented .usa-button:active {
+  z-index: 2; }
+.usa-button-group--segmented .usa-button:focus {
+  z-index: 3; }
+.usa-button-group--segmented .usa-button-group__item {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%; }
+@media all and (min-width: 30em) {
+  .usa-button-group--segmented .usa-button-group__item {
+    width: auto; } }
+.usa-button-group--segmented .usa-button-group__item:first-child > .usa-button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -1px; }
+.usa-button-group--segmented .usa-button-group__item:last-child > .usa-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: 0;
+  margin-left: -2px;
+  width: calc(100% + 2px); }
+@media all and (min-width: 30em) {
+  .usa-button-group--segmented .usa-button-group__item:last-child > .usa-button {
+    margin-left: -1px;
+    width: auto; } }
+.usa-button-group--segmented .usa-button-group__item:not(:first-child):not(:last-child) > .usa-button {
+  border-radius: 0;
+  margin-right: -1px;
+  margin-left: -1px; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button::before {
+  border-right: 1px solid #1a4480;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 1px;
+  top: 0;
+  width: 1px;
+  z-index: 3; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--secondary::before {
+  border-right-color: #b50909; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--accent-cool::before {
+  border-right-color: #28a0cb; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--base::before {
+  border-right-color: #565c65; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--secondary:disabled::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--accent-cool:disabled::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--base:disabled::before {
+  border-right-color: #71767a; }
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button:active::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--outline::before {
+  display: none; }
+
+  //CXO Page Linkedin Button
+  .usa-social-link--linkedin-cfo {
+    background-image: url(../assets/images/linkedin-transparent.png),
+      linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+  }
+
+  //Footer Identifier 
+  #ogp-identifier.usa-identifier {
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.3;
+    color: white;
+    background-color: #1b1b1b;
+    padding-bottom: 1rem;
+
+
+  .usa-identifier__container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 64rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 64rem
+  }
+
+  @media all and (min-width: 64em) {
+    .usa-identifier__container {
+        padding-left:2rem;
+        padding-right: 2rem
+    }
+  }
+
+  .usa-identifier__section {
+    padding-bottom: 1rem;
+    padding-top: 1rem
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__section--masthead .usa-identifier__container {
+        align-items:center;
+        display: flex
+    }
+  }
+
+  .usa-identifier__logos {
+    display: flex;
+    margin-right: 1rem
+  }
+
+  .usa-identifier__logo {
+    text-decoration: none;
+    height: 3rem;
+    display: block
+  }
+
+  .usa-identifier__logo+.usa-identifier__logo {
+    margin-left: 0.5rem
+  }
+
+  .usa-identifier__logo-img {
+    height: 100%;
+    width: auto
+  }
+
+  .usa-identifier__identity {
+    flex: 1 1 0%;
+    margin-top: 1rem
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__identity {
+        margin-top:0
+    }
+  }
+
+  .usa-identifier__identity-domain,.usa-identifier__identity-disclaimer {
+    margin: 0;
+    padding: 0
+  }
+
+  .usa-identifier__identity-domain {
+    color: #a9aeb1
+  }
+
+  .usa-identifier__identity-disclaimer {
+    font-weight: 700
+  }
+
+  .usa-identifier__identity-disclaimer a {
+    color: #dfe1e2
+  }
+
+  .usa-identifier__identity-disclaimer a:visited {
+    color: #dfe1e2
+  }
+
+  .usa-identifier__identity-disclaimer a:hover,.usa-identifier__identity-disclaimer a:active {
+    color: #f0f0f0
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__section--required-links {
+        padding-bottom:0.5rem;
+        padding-top: 0.5rem
+    }
+  }
+
+  @media all and (min-width: 64em) {
+    .usa-identifier__section--required-links {
+        font-size:1rem
+    }
+  }
+
+  .usa-identifier__required-links-list {
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__required-links-list {
+        -moz-column-count:2;
+        column-count: 2;
+        -moz-column-gap: 2rem;
+        column-gap: 2rem;
+        -moz-column-fill: balance;
+        column-fill: balance
+    }
+  }
+
+  @media all and (min-width: 64em) {
+    .usa-identifier__required-links-list {
+        -moz-column-count:4;
+        column-count: 4
+    }
+  }
+
+  .usa-identifier__required-links-item {
+    -moz-column-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 0.75rem
+  }
+
+  .usa-identifier__required-links-item:last-child {
+    margin-bottom: 0
+  }
+
+  @media all and (min-width: 64em) {
+    .usa-identifier__required-links-item {
+        margin-bottom:0.5rem
+    }
+  }
+
+  .usa-identifier__required-link {
+    color: #a9aeb1;
+    display: inline-block
+  }
+
+  .usa-identifier__required-link:visited {
+    color: #a9aeb1
+  }
+
+  .usa-identifier__required-link:hover,.usa-identifier__required-link:active {
+    color: #dfe1e2
+  }
+
+  .usa-identifier__section--usagov a {
+    color: #dfe1e2;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 0.5rem
+  }
+
+  .usa-identifier__section--usagov a:visited {
+    color: #dfe1e2
+  }
+
+  .usa-identifier__section--usagov a:hover,.usa-identifier__section--usagov a:active {
+    color: #f0f0f0
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__section--usagov a {
+        margin-top:0
+    }
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__usagov-description {
+        display:inline-flex
+    }
   }
 }
