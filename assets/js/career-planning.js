@@ -167,7 +167,7 @@
       doc.font(bold).text('Competency: ', { continued: true }).font(norm).text(card.competency);
       doc.font(bold).text('Type: ', { continued: true }).font(norm).text(card.competency_group);
       doc.moveDown(1);
-      doc.font(bold).text('Description: ', {continued: true}).font(norm).text(card.competency_description);
+      doc.font(bold).text('Definition: ', {continued: true}).font(norm).text(card.competency_description);
       doc.moveDown(2);
       elem.innerHTML = card.content;
       let items = [];
@@ -216,6 +216,7 @@
       }
       else {
         for (let j = 0, k = card.relevant_courses.length; j < k; j++) {
+          doc.fillColor('black').text('    \u2022 ', { underlione: false, continued: true})
           let elems = card.relevant_courses[j].split(', ');
           doc.font(norm);
           for (let i = 0, l = elems.length; i < l; i++) {
