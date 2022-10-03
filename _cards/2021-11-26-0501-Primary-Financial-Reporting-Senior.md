@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Senior Financial Reporting
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Senior
 permalink: /cards/501-Financial-Reporting-Senior
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Reporting
 competency_group: Primary
 competency_description: Prepare, review and reconcile financial statements and financial reports to meet reporting requirements and to support management decisions

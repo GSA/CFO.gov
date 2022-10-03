@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Entry Financial Management Systems
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Entry
 permalink: /cards/510-Financial-Management Systems-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Management Systems
 competency_group: Primary
 competency_description: Knowledge of the standards, architecture, and specifications of automated financial systems, including source documents, system flows, system interfaces, and related internal controls

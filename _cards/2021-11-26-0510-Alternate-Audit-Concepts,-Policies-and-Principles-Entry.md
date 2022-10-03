@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Entry Audit Concepts, Policies and Principles
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Entry
 permalink: /cards/510-Audit-Concepts, Policies and Principles-Entry
-functional_competency_designation: Audit
+functional_competency_designation: Job Specific Competencies
 competency: Audit Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply the Federal Acquisition Regulation (FAR), Generally Accepted Government Auditing Standards (GAGAS), Generally Accepted Auditing Standards (GAAS), fiscal law, internal controls, policies, regulations, principles, standards and procedures governing audit activities 

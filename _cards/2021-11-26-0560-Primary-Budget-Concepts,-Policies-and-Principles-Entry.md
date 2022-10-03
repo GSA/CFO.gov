@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Entry Budget Concepts, Policies and Principles
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Budget-Concepts, Policies and Principles-Entry
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Budget Concepts, Policies and Principles
 competency_group: Primary
 competency_description: Apply fiscal law, policies, regulations, principles, standards and procedures to financial management activities

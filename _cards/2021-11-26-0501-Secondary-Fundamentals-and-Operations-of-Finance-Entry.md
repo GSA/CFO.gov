@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Entry Fundamentals and Operations of Finance
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Fundamentals-and Operations of Finance-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Finance
 competency_group: Secondary
 competency_description: Knowledge of the basic principles, practices, and methods of financial management to include requisitions, apportionments, allotments, investments, fiscal management, activity reporting, and fiscal year guidelines

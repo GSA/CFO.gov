@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Entry Payroll Concepts, Policies and Principles
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Payroll-Concepts, Policies and Principles-Entry
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Payroll Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply military and civilian pay legislation, administrative and regulatory requirements, laws and policies governing military and civilian pay activities and processes

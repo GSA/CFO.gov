@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Entry Accounting Analysis
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Entry
 permalink: /cards/510-Accounting-Analysis-Entry
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Accounting Analysis
 competency_group: Primary
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations 

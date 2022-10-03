@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Mid Accounting Analysis
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Mid
 permalink: /cards/511-Accounting-Analysis-Mid
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Accounting Analysis
 competency_group: Secondary
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations 

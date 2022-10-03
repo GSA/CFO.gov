@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Mid Audit Concepts, Policies and Principles
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Audit-Concepts, Policies and Principles-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Audit Concepts, Policies and Principles
 competency_group: Secondary
 competency_description: Apply the Federal Acquisition Regulation (FAR), Generally Accepted Government Auditing Standards (GAGAS), Generally Accepted Auditing Standards (GAAS), fiscal law, internal controls, policies, regulations, principles, standards and procedures governing audit activities 

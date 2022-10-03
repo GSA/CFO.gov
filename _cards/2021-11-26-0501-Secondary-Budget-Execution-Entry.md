@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Entry Budget Execution
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Budget-Execution-Entry
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Budget Execution
 competency_group: Secondary
 competency_description: Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory-regulatory guidance

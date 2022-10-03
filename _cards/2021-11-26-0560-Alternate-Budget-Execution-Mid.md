@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Mid Budget Execution
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Budget-Execution-Mid
-functional_competency_designation: Audit
+functional_competency_designation: Job Specific Competencies
 competency: Budget Execution
 competency_group: Alternate
 competency_description: Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory-regulatory guidance

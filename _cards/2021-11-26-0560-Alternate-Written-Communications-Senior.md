@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Senior Written Communications
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Written-Communications-Senior
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Written Communications
 competency_group: Alternate
 competency_description: Recognizes or uses correct English grammar, punctuation, and spelling; communicates information (for example, facts, ideas, or messages) in a succinct and organized manner; produces written information, which may include technical material, that is appropriate for the intended audience

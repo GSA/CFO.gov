@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Senior Problem Solving
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Problem-Solving-Senior
-functional_competency_designation: Audit
+functional_competency_designation: Job Specific Competencies
 competency: Problem Solving
 competency_group: Alternate
 competency_description: Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations

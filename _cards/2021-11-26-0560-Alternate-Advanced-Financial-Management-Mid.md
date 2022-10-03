@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Mid Advanced Financial Management
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Advanced-Financial Management-Mid
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Advanced Financial Management
 competency_group: Alternate
 competency_description: Develop, monitor, interpret, and report standardized processes-operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability

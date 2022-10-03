@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Entry Accounting Analysis
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Accounting-Analysis-Entry
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Accounting Analysis
 competency_group: Secondary
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations 

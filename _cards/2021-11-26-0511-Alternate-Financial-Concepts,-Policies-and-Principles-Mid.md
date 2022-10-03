@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Mid Financial Concepts, Policies and Principles
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Mid
 permalink: /cards/511-Financial-Concepts, Policies and Principles-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply fiscal law, policies, regulations principles, standards, and procedures to financial management activities

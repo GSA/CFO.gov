@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Entry Commercial Pay Concepts, Policies and Principles
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Commercial-Pay Concepts, Policies and Principles-Entry
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Commercial Pay Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply commercial pay legislation, administrative and regulatory requirements, laws and policies governing commercial pay activities and processes

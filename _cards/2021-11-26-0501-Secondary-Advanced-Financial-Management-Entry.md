@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Entry Advanced Financial Management
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Advanced-Financial Management-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Advanced Financial Management
 competency_group: Secondary
 competency_description: Develop, monitor, interpret, and report standardized processes-operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability

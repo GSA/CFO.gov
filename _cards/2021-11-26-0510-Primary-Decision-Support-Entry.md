@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Entry Decision Support
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Entry
 permalink: /cards/510-Decision-Support-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Decision Support
 competency_group: Primary
 competency_description: Knowledge of decision support theories, methods, and tools for identifying, synthesizing, representing, and evaluating the important aspects of a decision situation and prescribing the recommended course for decision makers and other stakeholders
