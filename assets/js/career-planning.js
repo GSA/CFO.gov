@@ -159,11 +159,9 @@
       }
       doc.fontSize(12);
       doc.fillColor('black');
-      doc.font(bold).text(card.title);
-      doc.moveDown(1);
       let column_width = (doc.page.width - doc.page.margins.left - doc.page.margins.right) / 2;
-      doc.font(bold).text('GS Level: ', { continued: true }).font(norm).text(card.level, { width: column_width - doc.widthOfString('GS Level: '+card.level), continued: true });
-      doc.font(bold).text('Job Series: ', column_width - doc.widthOfString('GS Level: '+card.level), null, {continued: true}).font(norm).text(card.series, { width: column_width - doc.widthOfString('Job Series: ') });
+      doc.font(bold).text('Job Series: ', {continued: true}).font(norm).text(card.series + ' ' + card.title);
+      doc.font(bold).text('GS Level: ', { continued: true }).font(norm).text(card.level);
       doc.font(bold).text('Competency: ', { continued: true }).font(norm).text(card.competency);
       doc.font(bold).text('Type: ', { continued: true }).font(norm).text(card.competency_group);
       doc.moveDown(1);
