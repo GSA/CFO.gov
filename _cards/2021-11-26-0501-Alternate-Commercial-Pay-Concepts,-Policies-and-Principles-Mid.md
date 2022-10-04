@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Commercial-Pay Concepts, Policies and Principles-Mid
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Commercial Pay Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply commercial pay legislation, administrative and regulatory requirements, laws and policies governing commercial pay activities and processes

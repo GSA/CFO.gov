@@ -6,7 +6,7 @@ series: 511
 job_series: 0511 Auditing
 career_level: Senior
 permalink: /cards/511-Financial-Management Systems-Senior
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Management Systems
 competency_group: Secondary
 competency_description: Knowledge of the standards, architecture, and specifications of automated financial systems, including source documents, system flows, system interfaces, and related internal controls

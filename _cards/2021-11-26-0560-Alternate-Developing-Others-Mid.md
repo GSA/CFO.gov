@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Developing-Others-Mid
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Developing Others
 competency_group: Alternate
 competency_description: Develops the ability of others to perform and contribute to the organization

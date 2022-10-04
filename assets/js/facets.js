@@ -46,32 +46,28 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
     $('label[for="career-competency-select-all"]').css( "outline", "none" );
   });
 
-  $("#career-competency-select-all").on('change', function() {
+  $("#job-career-competency-select-all, #general-career-competency-select-all").on('change', function() {
     if(startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
     if(startingSearchFilter.length == 0) {
       startingSearchFilter.push({keys: null, id: 'competency'});
     }
-    if(this.checked) {
-      competency_group.forEach(item => {
-        let eventGroupId = createId(item);
-        $("#"+eventGroupId).prop('checked', true);
-        $("input:checkbox").each(function() {
-          if ($(this).data("group") == eventGroupId && !$(this).prop("disabled")) {
-            $(this).prop({'checked': true}).trigger('change');
-          }
-        });
-      });
-    } else {
-      competency_group.forEach(item => {
-        let eventGroupId = createId(item);
-        $("#"+eventGroupId).prop('checked', false);
-        $("input:checkbox").each(function() {
-          if ($(this).data("group") == eventGroupId && !$(this).prop("disabled")) {
-            $(this).prop({'checked': false}).trigger('change');
-          }
-        });
-      });
+    let major_group = '';
+    if (this.id.includes('job')) {
+      major_group = 'job-specific';
     }
+    else if (this.id.includes('general')) {
+      major_group = 'general';
+    }
+    let checked = this.checked;
+    $('[data-filter="competency"][data-major-group="'+major_group+'"]').each((index, elem) => {
+      let item = elem.title;
+      let eventGroupId = createId(item);
+      let $elem = $(elem);
+      $(elem).prop({checked: checked});
+      if (elem.hasAttribute('data-group')) {
+        $elem.trigger('change');
+      }
+    });
   });
 
   // create an array of everything of both disabled and active.
@@ -96,7 +92,9 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
               $("#" + eventId).prop("checked", false);
               let group = $("#" + eventId).data('group');
               if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
-              if ($("#career-competency-select-all").is(":checked")) $("#career-competency-select-all").prop("checked", false);
+              if ($("#career-competency-select-all").is(":checked")) {
+                $("#career-competency-select-all").prop("checked", false);
+              }
               data = $.grep(data, function (e) {
                 return e.id != eventId;
               });

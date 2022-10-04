@@ -6,7 +6,7 @@ series: 511
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Advanced-Financial Management-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Advanced Financial Management
 competency_group: Secondary
 competency_description: Develop, monitor, interpret, and report standardized processes-operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability

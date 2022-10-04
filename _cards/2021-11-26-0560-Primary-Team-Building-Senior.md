@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Team-Building-Senior
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Team Building
 competency_group: Primary
 competency_description: Inspires and fosters team commitment, spirit, pride, and trust; facilitates cooperation and motivates team members to accomplish group goals

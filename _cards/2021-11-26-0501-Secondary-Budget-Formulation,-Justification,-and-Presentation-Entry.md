@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Budget-Formulation, Justification, and Presentation-Entry
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Budget Formulation, Justification, and Presentation
 competency_group: Secondary
 competency_description: Developing a budget and knowing how to properly allocate funds according to regulations is vital to solving constant resource challenges 

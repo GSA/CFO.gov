@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Public-Service Motivation-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Public Service Motivation
 competency_group: Primary
 competency_description: Shows a commitment to serve the public; ensures that actions meet public needs; aligns organizational objectives and practices with public interests

@@ -6,7 +6,7 @@ series: 510
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Financial-Management Analysis-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Management Analysis
 competency_group: Secondary
 competency_description: Analyze, evaluate and review budget and program issues and financial data and reports using business tools and applications, cost and economic analysis, and performance metrics to provide recommendations 

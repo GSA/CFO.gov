@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Enterprise-Perspective-Senior
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Enterprise Perspective
 competency_group: Alternate
 competency_description: An ability to think broadly and connect the dots among various aspects of the enterprise 

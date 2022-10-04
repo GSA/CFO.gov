@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Financial-Concepts, Policies and Principles-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Concepts, Policies and Principles
 competency_group: Primary
 competency_description: Apply fiscal law, policies, regulations principles, standards, and procedures to financial management activities

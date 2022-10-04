@@ -6,7 +6,7 @@ series: 511
 job_series: 0511 Auditing
 career_level: Senior
 permalink: /cards/511-Payroll-Concepts, Policies and Principles-Senior
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Payroll Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply military and civilian pay legislation, administrative and regulatory requirements, laws and policies governing military and civilian pay activities and processes

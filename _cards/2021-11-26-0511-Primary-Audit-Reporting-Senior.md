@@ -6,7 +6,7 @@ series: 511
 job_series: 0511 Auditing
 career_level: Senior
 permalink: /cards/511-Audit-Reporting-Senior
-functional_competency_designation: Audit
+functional_competency_designation: Job Specific Competencies
 competency: Audit Reporting
 competency_group: Primary
 competency_description: Knowledge of the principles, practices, and techniques used to report audit findings (criteria, condition, cause, effect, and recommendation) 

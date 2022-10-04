@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Payroll-Concepts, Policies and Principles-Entry
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Payroll Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply military and civilian pay legislation, administrative and regulatory requirements, laws and policies governing military and civilian pay activities and processes

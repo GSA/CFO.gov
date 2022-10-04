@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Financial-Stewardship-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Stewardship
 competency_group: Primary
 competency_description: Manage, allocate and monitor financial resources in compliance with laws, regulations, and policies, with sufficient transparency and appropriate internal controls to ensure these resources are efficIently applied to meet organizational goals and objectives, while considering the Federal Government's fiduciary duty to the Nation
