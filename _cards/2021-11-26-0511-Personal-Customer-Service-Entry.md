@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Entry Customer Service
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Customer-Service-Entry

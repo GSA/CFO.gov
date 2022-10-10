@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Senior Fundamentals and Operations of Military and Civilian Pay
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Senior
 permalink: /cards/511-Fundamentals-and Operations of Military and Civilian Pay-Senior

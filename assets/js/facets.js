@@ -298,7 +298,7 @@ function ifExists(id) {
 function ifExistsResults(title, array) {
   let exists = false;
   array.forEach(item => {
-    if(item.title == title) exists = true;
+    if(item.permalink == title) exists = true;
   });
   return exists;
 }
@@ -610,7 +610,7 @@ function getSearch() {
                 //console.log(item[term].toLowerCase() + " &&&& " + startingSearchFilter[0].keys.toLowerCase());
                 if (typeof item[term] == "string") {
                   if(item[term].toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())) {
-                    if (!ifExistsResults(item.title, results)) {
+                    if (!ifExistsResults(item.permalink, results)) {
                       results.push(item);
                     }
                   }
@@ -621,14 +621,14 @@ function getSearch() {
                     if (typeof items == "string") {
                       // console.log(items.toLowerCase() + " - " + startingSearchFilter[0].keys.toLowerCase());
                       if (items.toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())) {
-                        if (!ifExistsResults(item.title, results)) {
+                        if (!ifExistsResults(item.permalink, results)) {
                           results.push(item);
                         }
                       }
                     } else {
                       Object.entries(items).forEach(([key, value]) => {
                         if (key.toLowerCase().match(startingSearchFilter[0].keys.toLowerCase()) || value.toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())) {
-                          if (!ifExistsResults(item.title, results)) {
+                          if (!ifExistsResults(item.permalink, results)) {
                             results.push(item);
                           }
                         }
@@ -662,7 +662,7 @@ function getSearch() {
 
                   // console.log("Val: " + val);
                   if (val.toLowerCase() == obj.id.toLowerCase()) {
-                    if (!ifExistsResults(item.title, results)) {
+                    if (!ifExistsResults(item.permalink, results)) {
                       results.push(item);
                     }
                   }
@@ -682,7 +682,7 @@ function getSearch() {
                   if(obj.type == 'keys') {
                     // console.log(item[term].toLowerCase() + " &&&& " + obj.keys.toLowerCase());
                     if(item[term].toLowerCase().match(obj.keys.toLowerCase())) {
-                      if(!ifExistsResults(item.title, newResults)) {
+                      if(!ifExistsResults(item.permalink, newResults)) {
                         newResults.push(item);
                       }
                     }
@@ -711,7 +711,7 @@ function getSearch() {
 
                   //console.log("Val: " + val);
                   if (val.toLowerCase() == obj.id.toLowerCase()) {
-                    if(!ifExistsResults(item.title, newResults)) {
+                    if(!ifExistsResults(item.permalink, newResults)) {
                       newResults.push(item);
                     }
                   }
@@ -726,8 +726,8 @@ function getSearch() {
           finishResults = [];
           results.forEach(item => {
             newResults.forEach(newItem => {
-              if (item.title.toLowerCase() == newItem.title.toLowerCase()) {
-                if(!ifExistsResults(item.title, finishResults)) {
+              if (item.permalink.toLowerCase() == newItem.permalink.toLowerCase()) {
+                if(!ifExistsResults(item.permalink, finishResults)) {
                   finishResults.push(item);
                 }
               }

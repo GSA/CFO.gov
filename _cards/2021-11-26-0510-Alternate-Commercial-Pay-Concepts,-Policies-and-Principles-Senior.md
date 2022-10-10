@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Senior Commercial Pay Concepts, Policies and Principles
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Senior
 permalink: /cards/510-Commercial-Pay Concepts, Policies and Principles-Senior

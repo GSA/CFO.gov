@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Mid Commercial Pay Concepts, Policies and Principles
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Commercial-Pay Concepts, Policies and Principles-Mid

@@ -20,7 +20,7 @@ function buildCards() {
                 careerLevel: row.career_level,
                 gsLevel: gsLevel(row.career_level),
                 jobSeries: parts[0].slice(1),
-                jobSeriesTitle: parts[1],
+                jobSeriesTitle: parts.slice(1).join(' '),
                 jobSeriesFull: row[Object.keys(row)[0]],
                 competency: row.competency,
                 competencyGroup: row.competency_group,
@@ -149,6 +149,7 @@ layout: career-planning-landing
 category: career
 title: ${card.jobSeriesFull} ${card.careerLevel} ${card.competency}
 series: ${card.jobSeries}
+job_series_title: ${card.jobSeriesTitle}
 job_series: ${card.jobSeriesFull}
 career_level: ${card.careerLevel}
 permalink: ${permalink}

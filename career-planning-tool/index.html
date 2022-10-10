@@ -112,6 +112,9 @@ attached:
                             {% endfor %}
                         {% endfor %}
                         
+                        {% comment %}
+                          Loops through the job specific competencies to print their filters on the page.
+                        {% endcomment %}
                         {% for competency_group in job_comps %}
                             {% assign competency_array = site.cards | where: 'category', 'career' | where: 'competency_group', competency_group | map: 'competency' | uniq | sort %}
 
@@ -131,7 +134,7 @@ attached:
                                                     data-major-group="job-specific"
                                                     data-id="{{ competency_group_id | downcase }}"
                                                     title="{{ competency_group }}"
-                                                    style="position: absolute; left: -9999px;"
+                                                    class="text-offscreen"
                                                 />
                                             </div>
                                         </div>
@@ -188,7 +191,7 @@ attached:
                                                     data-major-group="general"
                                                     data-id="{{ competency_group_id | downcase }}"
                                                     title="{{ competency_group }}"
-                                                    style="position: absolute; left: -9999px;"
+                                                    class="text-offscreen"
                                                 />
                                             </div>
                                         </div>

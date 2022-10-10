@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Senior Fundamentals and Operations of Budget
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Senior
 permalink: /cards/510-Fundamentals-and Operations of Budget-Senior
