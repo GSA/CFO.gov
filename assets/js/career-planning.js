@@ -117,7 +117,7 @@
     });
 
     $('select[name="per_page"]').change(function (e) {
-      perPage = $(this).val();
+      perPage = parseInt($(this).val());
       getSearch();
       $('select[name="per_page"]').val(perPage);
     });
