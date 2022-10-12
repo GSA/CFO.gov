@@ -5556,10 +5556,10 @@ input[type=search] {
       outline-offset: 0; }
   .usa-sidenav .usa-current {
     position: relative;
-    color: #565c65;
+    color: #005ea2;
     font-weight: bold; }
     .usa-sidenav .usa-current::after {
-      background-color: #565c65;
+      background-color: #005ea2;
       border-radius: 99rem;
       content: '';
       display: block;
