@@ -18,7 +18,7 @@ relevant_courses:
  - 147 Introduction to Financial Management (FINC7000), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=FINC7000">https://www.graduateschool.edu/solr-search/content?keys=FINC7000</a>
  - 148 Understanding Business, Carahsoft, <a href="https://www.linkedin.com/learning/understanding-business">https://www.linkedin.com/learning/understanding-business</a>
  - 149 Department of Homeland Security PPBE System (BUDG8103), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=BUDG8103">https://www.graduateschool.edu/solr-search/content?keys=BUDG8103</a>
- - 150 1242 - Technology Business Management (TBM) Fundamentals Certification for Federal Government, Learning Tree, <a href="https://www.learningtree.com/courses/1242/technology-business-management-tbm-fundamentals-for-the-federal-government/?utm_source=govpage">https://www.learningtree.com/courses/1242/technology-business-management-tbm-fundamentals-for-the-federal-government/?utm_source=govpage</a>
+ - 150 1242&#58; Technology Business Management (TBM) Fundamentals Certification for Federal Government, Learning Tree, <a href="https://www.learningtree.com/courses/1242/technology-business-management-tbm-fundamentals-for-the-federal-government/?utm_source=govpage">https://www.learningtree.com/courses/1242/technology-business-management-tbm-fundamentals-for-the-federal-government/?utm_source=govpage</a>
 filters: Secondary-Fundamentals-and-Operations-of-Finance GS-7-9 series-0501
 ---
 

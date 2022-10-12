@@ -15,8 +15,8 @@ level: "10-13"
 behavior_illustrations: Prepares significant portions of audit reports, statements or other documentation to meet audit reporting standards ? Completes and reviews audit reports, statements or other documentation to ensure compliance with audit reporting standards
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 29 2040 -  Certified Information System Auditor (CISA), Learning Tree, <a href="https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/">https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/</a>
- - 29 2040 -  Certified Information System Auditor (CISA), Learning Tree, <a href="https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/">https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/</a>
+ - 29 2040&#58;  Certified Information System Auditor (CISA), Learning Tree, <a href="https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/">https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/</a>
+ - 29 2040&#58;  Certified Information System Auditor (CISA), Learning Tree, <a href="https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/">https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/</a>
 filters: Primary-Audit-Reporting GS-10-13 series-0511
 ---
 
