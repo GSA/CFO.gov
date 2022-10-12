@@ -4,7 +4,7 @@ const parse = require('csv-parse').parse;
 function buildCards() {
     let cards = {};
 
-    fs.createReadStream('assets/csv/FEDS_Competency_Model_Sample_Data_Foxtrot_9-14-2022.csv')
+    fs.createReadStream('assets/csv/FEDS Competency Model Sample Data Golf.csv')
         .pipe(parse({ columns: true }))
         .on('data', function (row) {
             const parts = row[Object.keys(row)[0]].split(' '),

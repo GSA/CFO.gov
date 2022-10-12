@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Accounting-Concepts, Policies and Principles-Entry
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Accounting Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply federal accounting standards, fiscal law, policies, regulations, principles, standards, internal controls and procedures to financial management activities

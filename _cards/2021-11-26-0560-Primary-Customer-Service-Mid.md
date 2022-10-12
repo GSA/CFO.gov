@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Customer-Service-Mid
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Customer Service
 competency_group: Primary
 competency_description: Works with clients and customers (that is, any individuals who use or receive the services or products that your work unit produces, including the general public, individuals who work in the agency, other agencies, or organizations outside the Government) to assess their needs, provide information or assistance, resolve their problems, or satisfy their expectations; knows about available products and services; is committed to providing quality products and services 

@@ -6,7 +6,7 @@ series: 511
 job_series: 0511 Auditing
 career_level: Mid
 permalink: /cards/511-Commercial-Pay Concepts, Policies and Principles-Mid
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Commercial Pay Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply commercial pay legislation, administrative and regulatory requirements, laws and policies governing commercial pay activities and processes

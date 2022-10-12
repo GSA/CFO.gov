@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Fundamentals-and Operations of Budget-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Budget
 competency_group: Primary
 competency_description: Knowledge of the principles and practices of budget administration and analysis; including preparing, justifying, reporting on, and executing the budget; and the relationships among program, budget, accounting, and reporting systems

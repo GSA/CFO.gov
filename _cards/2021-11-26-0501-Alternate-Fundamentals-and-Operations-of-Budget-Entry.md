@@ -6,7 +6,7 @@ series: 501
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Fundamentals-and Operations of Budget-Entry
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Budget
 competency_group: Alternate
 competency_description: Knowledge of the principles and practices of budget administration and analysis; including preparing, justifying, reporting on, and executing the budget; and the relationships among program, budget, accounting, and reporting systems

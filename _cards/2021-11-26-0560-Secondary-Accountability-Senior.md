@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Accountability-Senior
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Accountability
 competency_group: Secondary
 competency_description: Holds self and others accountable for measurable high-quality, timely, and cost-effective results; determines objectives, sets priorities, and delegates work; accepts responsibility for mistakes; complies with established control systems and rules

@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Fundamentals-and Operations of Accounting-Entry
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Accounting
 competency_group: Alternate
 competency_description: Knowledge of traditional accounting practices including accrual, obligations, and costs methods

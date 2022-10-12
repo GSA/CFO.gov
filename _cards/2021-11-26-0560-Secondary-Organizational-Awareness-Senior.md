@@ -6,7 +6,7 @@ series: 560
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Organizational-Awareness-Senior
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Organizational Awareness
 competency_group: Secondary
 competency_description: Knows the organization’s mission and functions, and how its social, political, and technological systems work and operates effectively within them; this includes the programs, policies, procedures, rules, and regulations of the organization
