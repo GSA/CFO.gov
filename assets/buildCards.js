@@ -116,8 +116,8 @@ function buildCards() {
                     courseMarkup += '<li>';
                     if (courseUnique[i].courseName) {
                         if (courseUnique[i].courseName.includes(":")) {
-                            courseMarkup += courseUnique[i].courseName.replace(":", " -") + '<br>';
-                            courseExport += ' ' + courseUnique[i].courseName.replace(":", " -");
+                            courseMarkup += courseUnique[i].courseName.replace(/:/g, "&#58;") + '<br>';
+                            courseExport += ' ' + courseUnique[i].courseName.replace(/:/g, "&#58;");
                         }
                         else {
                             courseMarkup += courseUnique[i].courseName + '<br>';
@@ -126,8 +126,8 @@ function buildCards() {
                     }
                     if (courseUnique[i].instName) {
                         if (courseUnique[i].instName.includes(":")) {
-                            courseMarkup += courseUnique[i].instName.replace(":", " -") + '<br>';
-                            courseExport += ' ' + courseUnique[i].instName.replace(":", " -");
+                            courseMarkup += courseUnique[i].instName.replace(/:/g, "&#58;") + '<br>';
+                            courseExport += ' ' + courseUnique[i].instName.replace(/:/g, "&#58;");
                         }
                         else {
                             courseMarkup += courseUnique[i].instName + '<br>';
