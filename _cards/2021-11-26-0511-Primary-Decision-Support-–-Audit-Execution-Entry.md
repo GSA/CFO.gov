@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Entry Decision Support – Audit Execution
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Decision-Support – Audit Execution-Entry
@@ -15,7 +16,7 @@ behavior_illustrations: Prepares working papers to document audit evidence obtai
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 82 Preparing for an Audit, Carahsoft, <a href="https://www.linkedin.com/learning/preparing-for-an-audit">https://www.linkedin.com/learning/preparing-for-an-audit</a>
- - 83 Accounting Foundations - Understanding the GAAP (Generally Accepted Accounting Principles), Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-understanding-the-gaap-generally-accepted-accounting-principles">https://www.linkedin.com/learning/accounting-foundations-understanding-the-gaap-generally-accepted-accounting-principles</a>
+ - 83 Accounting Foundations&#58; Understanding the GAAP (Generally Accepted Accounting Principles), Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-understanding-the-gaap-generally-accepted-accounting-principles">https://www.linkedin.com/learning/accounting-foundations-understanding-the-gaap-generally-accepted-accounting-principles</a>
 filters: Primary-Decision-Support-–-Audit-Execution GS-7-9 series-0511
 ---
 

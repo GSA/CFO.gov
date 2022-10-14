@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Entry Mission and Culture
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Mission-and Culture-Entry

@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Mid Accounting Analysis
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Accounting-Analysis-Mid
@@ -14,7 +15,7 @@ level: "10-13"
 behavior_illustrations: Interprets and evaluates accounting information using a variety of analytical methods to provide recommendations
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 7 Business Analysis - Essential Tools and Techniques, Carahsoft, <a href="https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques">https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques</a>
+ - 7 Business Analysis&#58; Essential Tools and Techniques, Carahsoft, <a href="https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques">https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques</a>
 filters: Secondary-Accounting-Analysis GS-10-13 series-0560
 ---
 

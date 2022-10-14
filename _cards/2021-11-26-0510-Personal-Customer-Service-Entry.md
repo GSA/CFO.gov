@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Entry Customer Service
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Entry
 permalink: /cards/510-Customer-Service-Entry
@@ -15,7 +16,7 @@ behavior_illustrations: Monitors customers or clients satisfaction to ensure the
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 67 Building Rapport with Customers, Carahsoft, <a href="https://www.linkedin.com/learning/building-rapport-with-customers">https://www.linkedin.com/learning/building-rapport-with-customers</a>
- - 68 Customer Service Mastery - Delight Every Customer, Carahsoft, <a href="https://www.linkedin.com/learning/customer-service-mastery-delight-every-customer">https://www.linkedin.com/learning/customer-service-mastery-delight-every-customer</a>
+ - 68 Customer Service Mastery&#58; Delight Every Customer, Carahsoft, <a href="https://www.linkedin.com/learning/customer-service-mastery-delight-every-customer">https://www.linkedin.com/learning/customer-service-mastery-delight-every-customer</a>
 filters: Personal-Customer-Service GS-7-9 series-0510
 ---
 

@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Entry Interpersonal Skills
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Interpersonal-Skills-Entry
@@ -14,7 +15,7 @@ level: "7-9"
 behavior_illustrations: Interacts with co-workers in a tactful manner ? Responds to employee inquiries ? Shows employees empathy and respect ? Welcomes new employees into organization by explaining mission and agency goals ? Develops and maintains effective working relationships ? Makes self accessible to employees at all levels ? Corrects employee mistakes in a courteous manner ? Demonstrates courtesy, empathy and respect
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 172 Humble Leadership - The Power of Relationships, Openness, and Trust (getAbstract Summary), Carahsoft, <a href="https://www.linkedin.com/learning/humble-leadership-the-power-of-relationships-openness-and-trust-getabstract-summary">https://www.linkedin.com/learning/humble-leadership-the-power-of-relationships-openness-and-trust-getabstract-summary</a>
+ - 172 Humble Leadership&#58; The Power of Relationships, Openness, and Trust (getAbstract Summary), Carahsoft, <a href="https://www.linkedin.com/learning/humble-leadership-the-power-of-relationships-openness-and-trust-getabstract-summary">https://www.linkedin.com/learning/humble-leadership-the-power-of-relationships-openness-and-trust-getabstract-summary</a>
  - 173 Learning to Be Approachable, Carahsoft, <a href="https://www.linkedin.com/learning/learning-to-be-approachable">https://www.linkedin.com/learning/learning-to-be-approachable</a>
  - 174 Navigating Awkward Situations at Work, Carahsoft, <a href="https://www.linkedin.com/learning/navigating-awkward-situations-at-work">https://www.linkedin.com/learning/navigating-awkward-situations-at-work</a>
 filters: Personal-Interpersonal-Skills GS-7-9 series-0560

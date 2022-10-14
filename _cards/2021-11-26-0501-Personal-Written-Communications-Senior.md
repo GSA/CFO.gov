@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Senior Written Communications
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Senior
 permalink: /cards/501-Written-Communications-Senior
@@ -14,7 +15,7 @@ level: "14-15"
 behavior_illustrations: Writes complex documents, using clear terminology and a concise format as appropriate for decision makers ? Tailors written communications to address the most critical issues in a compelling and diplomatic manner ? Writes clear, concise issue papers or policy documents on complex topics, such as establishing Department-wide guidance or guidelines
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 243 Ninja Writing - The Four Levels of Writing Mastery, Carahsoft, <a href="https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery">https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery</a>
+ - 243 Ninja Writing&#58; The Four Levels of Writing Mastery, Carahsoft, <a href="https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery">https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery</a>
 filters: Personal-Written-Communications GS-14-15 series-0501
 ---
 

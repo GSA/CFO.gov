@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Senior Budget Formulation, Justification, and Presentation
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Senior
 permalink: /cards/510-Budget-Formulation, Justification, and Presentation-Senior
@@ -14,11 +15,7 @@ level: "14-15"
 behavior_illustrations: Formulates budget, develops justifications and presents to stakeholders for feedback ? Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts ? Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx
-
-https://cgfm.learnupon.com/store">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx
-
-https://cgfm.learnupon.com/store</a>
+ - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a>, <a href="https://cgfm.learnupon.com/store">https://cgfm.learnupon.com/store</a>
  - 40 Budgeting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8</a>
 filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0510
 ---

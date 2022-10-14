@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Mid Commercial Pay Concepts, Policies and Principles
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Mid
 permalink: /cards/511-Commercial-Pay Concepts, Policies and Principles-Mid
@@ -14,8 +15,8 @@ level: "10-13"
 behavior_illustrations: Completes a variety of transactions by applying knowledge of policies, procedures and regulations ? Researches transactions for validity using knowledge of the interrelationship between the appropriations and the various control and subsidiary accounts and the impacts of policies and laws on the various financial transactions
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 45 Executing on Innovation - A Process That Scales, Carahsoft, <a href="https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales">https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales</a>
- - 45 Executing on Innovation - A Process That Scales, Carahsoft, <a href="https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales">https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales</a>
+ - 45 Executing on Innovation&#58; A Process That Scales, Carahsoft, <a href="https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales">https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales</a>
+ - 45 Executing on Innovation&#58; A Process That Scales, Carahsoft, <a href="https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales">https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales</a>
 filters: Alternate-Commercial-Pay-Concepts-Policies-and-Principles GS-10-13 series-0511
 ---
 

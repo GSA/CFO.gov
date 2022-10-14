@@ -6,7 +6,7 @@ layout: none
   {% for card in site.cards %}
     {
       "layout": "{{ card.layout }}",
-      "title": "{{ card.title }}",
+      "title": "{{ card.job_series_title }}",
       "series": "0{{ card.series }}",
       "job_series": "{{ card.job_series }}",
       "career_level": "{{ card.title | escape }}",

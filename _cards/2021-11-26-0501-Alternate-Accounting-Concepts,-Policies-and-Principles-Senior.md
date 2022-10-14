@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Senior Accounting Concepts, Policies and Principles
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Senior
 permalink: /cards/501-Accounting-Concepts, Policies and Principles-Senior

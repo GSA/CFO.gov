@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Entry Budget Formulation, Justification, and Presentation
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Budget-Formulation, Justification, and Presentation-Entry
@@ -15,7 +16,7 @@ behavior_illustrations: Applies basic knowledge of budget principles to assist i
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 37 Budgeting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8</a>
- - 38 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 38 1313&#58; FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
 filters: Primary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0560
 ---
 

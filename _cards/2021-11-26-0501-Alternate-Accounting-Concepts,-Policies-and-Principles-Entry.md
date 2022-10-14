@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Entry Accounting Concepts, Policies and Principles
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Accounting-Concepts, Policies and Principles-Entry
@@ -15,7 +16,7 @@ behavior_illustrations: Uses typical accounting and financial procedures and pra
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 10 MBA Essentials (with the Rotman School of Management, University of Toronto), Emeritus, <a href="https://assets-ee-b2b.s3.ap-southeast-1.amazonaws.com/Emeritus/rotman/B2B_Brochure_Rotman_MBAE.pdf">https://assets-ee-b2b.s3.ap-southeast-1.amazonaws.com/Emeritus/rotman/B2B_Brochure_Rotman_MBAE.pdf</a>
- - 11 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 11 1313&#58; FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
 filters: Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0501
 ---
 

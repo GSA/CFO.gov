@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Mid Enterprise Perspective
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Enterprise-Perspective-Mid

@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Entry Accountability
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Accountability-Entry
@@ -15,7 +16,7 @@ behavior_illustrations: Maintains confidentiality of sensitive information by es
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 1 Delivering Results Effectively, Carahsoft, <a href="https://www.linkedin.com/learning/delivering-results-effectively">https://www.linkedin.com/learning/delivering-results-effectively</a>
- - 2 290 - Management Skills Training, Learning Tree, <a href="https://www.learningtree.com/courses/290/management-skills-training/">https://www.learningtree.com/courses/290/management-skills-training/</a>
+ - 2 290&#58; Management Skills Training, Learning Tree, <a href="https://www.learningtree.com/courses/290/management-skills-training/">https://www.learningtree.com/courses/290/management-skills-training/</a>
  - 3 Goal Setting for Business Impact, Carahsoft, <a href="https://www.linkedin.com/learning/goal-setting-for-business-impact">https://www.linkedin.com/learning/goal-setting-for-business-impact</a>
 filters: Personal-Accountability GS-7-9 series-0560
 ---

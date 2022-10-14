@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Mid Commercial Pay Concepts, Policies and Principles
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Commercial-Pay Concepts, Policies and Principles-Mid
@@ -14,7 +15,7 @@ level: "10-13"
 behavior_illustrations: Completes a variety of transactions by applying knowledge of policies, procedures and regulations
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 45 Executing on Innovation - A Process That Scales, Carahsoft, <a href="https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales">https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales</a>
+ - 45 Executing on Innovation&#58; A Process That Scales, Carahsoft, <a href="https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales">https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales</a>
 filters: Primary-Commercial-Pay-Concepts-Policies-and-Principles GS-10-13 series-0560
 ---
 

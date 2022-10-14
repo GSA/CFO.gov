@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Senior Fundamentals and Operations of Budget
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Senior
 permalink: /cards/510-Fundamentals-and Operations of Budget-Senior
@@ -14,7 +15,7 @@ level: "14-15"
 behavior_illustrations: Extracts, records and balances basic information from financial management systems
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 143 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 143 1313&#58; FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
 filters: Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0510
 ---
 

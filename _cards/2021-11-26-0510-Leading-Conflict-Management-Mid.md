@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Mid Conflict Management
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Conflict-Management-Mid
@@ -15,7 +16,7 @@ behavior_illustrations: Is open and professional when handling minor personal co
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 49 Conflict Resolution For Beginners, Carahsoft, <a href="https://www.linkedin.com/learning/conflict-resolution-for-beginners">https://www.linkedin.com/learning/conflict-resolution-for-beginners</a>
- - 50 Difficult Situations - Solutions for Managers, Carahsoft, <a href="https://www.linkedin.com/learning/difficult-situations-solutions-for-managers">https://www.linkedin.com/learning/difficult-situations-solutions-for-managers</a>
+ - 50 Difficult Situations&#58; Solutions for Managers, Carahsoft, <a href="https://www.linkedin.com/learning/difficult-situations-solutions-for-managers">https://www.linkedin.com/learning/difficult-situations-solutions-for-managers</a>
 filters: Leading-Conflict-Management GS-10-13 series-0510
 ---
 

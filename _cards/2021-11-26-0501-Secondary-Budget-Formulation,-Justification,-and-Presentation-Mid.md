@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Mid Budget Formulation, Justification, and Presentation
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Budget-Formulation, Justification, and Presentation-Mid
@@ -14,12 +15,8 @@ level: "10-13"
 behavior_illustrations: Coordinates budget inputs and gathers justifications ? Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 38 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
- - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx
-
-https://cgfm.learnupon.com/store">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx
-
-https://cgfm.learnupon.com/store</a>
+ - 38 1313&#58; FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 39 Governmental Environment, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a>, <a href="https://cgfm.learnupon.com/store">https://cgfm.learnupon.com/store</a>
 filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0501
 ---
 

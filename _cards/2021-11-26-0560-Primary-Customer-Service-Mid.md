@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Mid Customer Service
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Customer-Service-Mid
@@ -14,7 +15,7 @@ level: "10-13"
 behavior_illustrations: Designs and implements new or improved practices and strategies to improve customer service ? Develops customer satisfaction surveys, analyzes results, and makes necessary improvements ? Addresses customer service deficiencies by involving employees to identify solutions ? Anticipates growing customer needs and expectations to continuously improve product development and service delivery ? Creates work group consisting of stakeholders and neutral parties to develop solutions to customer service barriers ? Ensures products and services meet customer needs
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 69 4975 - Essentials of Stakeholder Management, Learning Tree, <a href="https://www.learningtree.com/courses/4975/essentials-of-stakeholder-management-training/">https://www.learningtree.com/courses/4975/essentials-of-stakeholder-management-training/</a>
+ - 69 4975&#58; Essentials of Stakeholder Management, Learning Tree, <a href="https://www.learningtree.com/courses/4975/essentials-of-stakeholder-management-training/">https://www.learningtree.com/courses/4975/essentials-of-stakeholder-management-training/</a>
  - 70 A Design Thinking Approach to Putting the Customer First, Carahsoft, <a href="https://www.linkedin.com/learning/a-design-thinking-approach-to-putting-the-customer-first">https://www.linkedin.com/learning/a-design-thinking-approach-to-putting-the-customer-first</a>
 filters: Primary-Customer-Service GS-10-13 series-0560
 ---

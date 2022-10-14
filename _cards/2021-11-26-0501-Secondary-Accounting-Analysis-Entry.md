@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Entry Accounting Analysis
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Accounting-Analysis-Entry
@@ -15,7 +16,7 @@ behavior_illustrations: Reviews standard data and reports to ensure their accura
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 5 Accountability Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8</a>
- - 6 281 - Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
+ - 6 281&#58; Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
 filters: Secondary-Accounting-Analysis GS-7-9 series-0501
 ---
 

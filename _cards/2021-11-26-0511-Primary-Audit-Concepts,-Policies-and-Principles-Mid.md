@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Mid Audit Concepts, Policies and Principles
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Mid
 permalink: /cards/511-Audit-Concepts, Policies and Principles-Mid
@@ -15,7 +16,7 @@ behavior_illustrations: Analyzes a variety of documents, records and processes t
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 23 Basic Auditing Concepts, BMRA
- - 24 Audit and Due Diligence - Priorities and Best Practices, Carahsoft, <a href="https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices">https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices</a>
+ - 24 Audit and Due Diligence&#58; Priorities and Best Practices, Carahsoft, <a href="https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices">https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices</a>
 filters: Primary-Audit-Concepts-Policies-and-Principles GS-10-13 series-0511
 ---
 

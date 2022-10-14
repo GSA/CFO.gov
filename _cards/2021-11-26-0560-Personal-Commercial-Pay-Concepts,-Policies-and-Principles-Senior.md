@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Senior Commercial Pay Concepts, Policies and Principles
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Commercial-Pay Concepts, Policies and Principles-Senior
@@ -14,7 +15,7 @@ level: "14-15"
 behavior_illustrations: Applies current financial policies and procedures ? Formulates guidance to others on handling new or changing work processes
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 45 Executing on Innovation - A Process That Scales, Carahsoft, <a href="https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales">https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales</a>
+ - 45 Executing on Innovation&#58; A Process That Scales, Carahsoft, <a href="https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales">https://www.linkedin.com/learning/executing-on-innovation-a-process-that-scales</a>
 filters: Personal-Commercial-Pay-Concepts-Policies-and-Principles GS-14-15 series-0560
 ---
 

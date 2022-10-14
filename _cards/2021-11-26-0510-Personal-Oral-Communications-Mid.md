@@ -3,6 +3,7 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Mid Oral Communications
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Oral-Communications-Mid
