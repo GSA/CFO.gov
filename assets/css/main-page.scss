@@ -882,3 +882,9 @@ abbr{
     word-spacing: 4px;
     line-height: 25px;
 }
+
+@media screen and (max-width: 640px) {
+    .margin-top-neg-1 {
+        margin-top: 1rem;
+    }
+}
