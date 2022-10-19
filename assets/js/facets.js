@@ -793,6 +793,7 @@ function getSearch() {
     setTotalPages();
     $(".cfo-pagination-pages").text(totalPages);
   } else {
+    $("#career-search-results").empty();
     for (i=0; i < Math.min(fullSet.length, perPage); i++) {
       if (typeof(fullSet[i]) != "undefined" && fullSet[i] !== null) {
         createResults(false, fullSet[i]);
@@ -974,6 +975,7 @@ function enableDisableCompetencies(all) {
                 setCurrentPage(currentPage += 1);
                 $(".cfo-pagination-page").text(currentPage);
                 let dataSet = (results.length && searchOrder.length) ? results : fullSet;
+                let start, end;
                 if(currentPage == 1) {
                   start = 0;
                   end = perPage;
@@ -981,6 +983,7 @@ function enableDisableCompetencies(all) {
                   start = (currentPage - 1) * perPage;
                   end = Math.min(start + perPage, dataSet.length);
                 }
+                $("#career-search-results").empty();
                 //console.log(start + " - " + end);
                 for(i=start; i<end; i++) {
                   if(typeof(dataSet[i]) != "undefined" && results[i] !== null) {
@@ -999,6 +1002,7 @@ function enableDisableCompetencies(all) {
                 setCurrentPage(currentPage -= 1);
                 $(".cfo-pagination-page").text(currentPage);
                 let dataSet = (results.length && searchOrder.length) ? results : fullSet;
+                let start, end;
                 if(currentPage == 1) {
                   start = 0;
                   end = perPage;
@@ -1007,6 +1011,7 @@ function enableDisableCompetencies(all) {
                   end = Math.min(start + perPage, dataSet.length);
                 }
                 //console.log(start + " - " + end);
+                $("#career-search-results").empty();
                 for(i=start; i<end; i++) {
                   if(typeof(dataSet[i]) != "undefined" && results[i] !== null) {
                     createResults(false, dataSet[i]);

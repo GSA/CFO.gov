@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: Considers the impact of a shift in programmatic direction to meet the needs of local and national customers ? Synthesizes complex information gathered from a variety of external sources and disseminates it to staff ? Interprets and considers the impact of global environment and defense landscape
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - 194 1334 - FPM 334 - Progressive Leadership in Program Management, Learning Tree, <a href="https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/">https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/</a>
+ - 194 1334&#58; FPM 334 - Progressive Leadership in Program Management, Learning Tree, <a href="https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/">https://www.learningtree.com/courses/1334/fac-p-pm-certification-program-management-classes-program-manager-courses/</a>
 filters: Secondary-Organizational-Awareness GS-14-15 series-0560
 ---
 
