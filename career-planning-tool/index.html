@@ -77,13 +77,14 @@ attached:
                         {% assign level_array = level_array | numerical_sort %}
                         {% for level in level_array %}
                             {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
+                            {% if level == '7-9' %}
                             <button
                                 type="button"
                                 id="GS-{{ level_id }}"
                                 data-id="GS-{{ level_id }}"
                                 title="GS Level - {{ level }}"
                                 class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black border-2px bg-white radius-lg border-gray-30"
-                            >GS {{ level }}</button>
+                            >Entry (GS 7,8,9)</button>
                         {% endfor %}
                     </div>
 
