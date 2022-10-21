@@ -46,7 +46,12 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
     $('label[for="career-competency-select-all"]').css( "outline", "none" );
   });
 
-  $("#job-career-competency-select-all, #general-career-competency-select-all").on('change', function() {
+    $("#job-career-competency-select-all, #general-career-competency-select-all").on('change', function () {
+        if ($('.job-career-competency-select').css('display') == 'none') {
+            $('.job-career-competency-select').html("<b>Select All</b>");
+        } else {
+            $('.job-career-competency-select').html("De-Select All");
+        }
     if(startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
     if(startingSearchFilter.length == 0) {
       startingSearchFilter.push({keys: null, id: 'competency'});
@@ -1047,14 +1052,3 @@ function enableDisableCompetencies(all) {
   };
 
 }(jQuery));
-
-jQuery(document).ready(function ($) {
-    jQuery('#job-career-competency-select-all').click(function (e) {
-        e.preventDefault();
-        if($('.job-career-competency-select').css('display') == 'none') {
-            $('.job-career-competency-select').html("<b>Select All</b>");
-        } else {
-            $('.job-career-competency-select').html("De-Select All");
-        }
-    });
-});
