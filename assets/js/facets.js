@@ -71,14 +71,14 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
      jQuery(document).ready(function ($) {
           jQuery('#job-career-competency-select-all').click(function (e) {
               e.preventDefault();
-              if ($('.select').css('display') == 'none') {
+              if ($('.job-career-competency-select').css('display') == 'none') {
                   $('#job-career-competency-select-all').html("De-Select All");
                   $('#job-career-competency-select-all').attr("aria-label", "De-Select All");
               } else {
                   $('#job-career-competency-select-all').html("Select All");
                   $('#job-career-competency-select-all').attr("aria-label", "Select All");
               }
-              jQuery(".select").slideToggle();
+              jQuery('.job-career-competency-select').slideToggle();
           });
       });
   });
