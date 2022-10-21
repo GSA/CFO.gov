@@ -727,7 +727,7 @@ function getSearch() {
 
       // console.log("searchItem: " + searchItem);
       if (searchItem == 'series' || searchItem == 'level') {
-        enableDisableCompetencies(false);
+       // enableDisableCompetencies(false);
       }
     });
   }
@@ -1000,6 +1000,7 @@ function enableDisableCompetencies(all) {
               //console.log(JSON.stringify(searchOrder));
               return false;
             } else if(button[0].classList.contains("cfo-page-right")) {
+              // Pager, moves to the next page
               if(currentPage < totalPages) {
                 $("#career-search-results").empty();
                 setCurrentPage(currentPage += 1);
@@ -1027,6 +1028,7 @@ function enableDisableCompetencies(all) {
               }
               return false;
             } else if(button[0].classList.contains("cfo-page-left")) {
+              // Pager, moves to the previous page
               if(currentPage > 1) {
                 $("#career-search-results").empty();
                 setCurrentPage(currentPage -= 1);
@@ -1055,6 +1057,7 @@ function enableDisableCompetencies(all) {
               return false;
             }
           } else if(button[0].id.match('competency-group-button')) {
+            // Toggles visibility of competency groups
             $(this).parents('.career-competency-toggle-open').find('.career-competency-container').slideToggle();
             $(this).find('i').toggleClass('fa-plus fa-minus');
           } else {
