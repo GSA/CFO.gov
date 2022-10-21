@@ -77,7 +77,7 @@ attached:
                         {% assign level_array = level_array | numerical_sort %}
                         {% for level in level_array %}
                             {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
-                            {% if level == '7-9' %}
+                            {% if level contains '7-9' %}
                             <button
                                 type="button"
                                 id="GS-{{ level_id }}"
