@@ -86,6 +86,24 @@ attached:
                                 class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black border-2px bg-white radius-lg border-gray-30"
                             >Entry (GS 7,8,9)</button>
                              {% endif %}
+                            {% if level contains '10-13' %}
+                            <button
+                                type="button"
+                                id="GS-{{ level_id }}"
+                                data-id="GS-{{ level_id }}"
+                                title="GS Level - {{ level }}"
+                                class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black border-2px bg-white radius-lg border-gray-30"
+                            >Mid-Level (GS 11, 12, 13)</button>
+                             {% endif %}
+                            {% if level contains '14-15' %}
+                            <button
+                                type="button"
+                                id="GS-{{ level_id }}"
+                                data-id="GS-{{ level_id }}"
+                                title="GS Level - {{ level }}"
+                                class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black border-2px bg-white radius-lg border-gray-30"
+                            >Senior (GS 14 & 15)</button>
+                             {% endif %}
                         {% endfor %}
                     </div>
 
