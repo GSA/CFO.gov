@@ -1048,15 +1048,14 @@ function enableDisableCompetencies(all) {
 
 }(jQuery));
 
-
 jQuery(document).ready(function ($) {
     jQuery('#job-career-competency-select-all').click(function (e) {
         e.preventDefault();
         var jobTextValue = $('#job-career-competency-select-all').text();
         if (jobTextValue == 'Select All') {
-            $('#job-career-competency-select-all').text("De-Select All");
+            $('.job-career-competency-select').text("De-Select All");
         } else {
-            $('#job-career-competency-select-all').text("Select All");
+            $('.job-career-competency-select').text("Select All");
         }
     });
 });
