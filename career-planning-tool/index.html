@@ -108,7 +108,7 @@ attached:
                     <div class="career-competency-level-1-input-group">
                         <h3 class="font-sans-xs">Job Specific Technical Competencies</h3>
                         <div class="career-input-group">
-                            <label class="text-underline text-accent-cool-darker display-inline-block text-no-wrap font-sans-2xs" for="job-career-competency-select-all"><strong>select/de-select all</strong></label>
+                            <label class="text-underline text-accent-cool-darker display-inline-block text-no-wrap font-sans-2xs select" for="job-career-competency-select-all"><strong>Select All</strong></label>
                             <input style="position: absolute; left: -9999px;" type="checkbox" id="job-career-competency-select-all"/>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ attached:
                                         <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" title="{{ competency_group }} Open"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                                         <div class="career-competency-level-3-input-group">
                                             <div class="career-input-group">
-                                              <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs"><strong class="cpt-strong">select/de-select all</strong></label>
+                                              <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs"><strong class="cpt-strong">Select All</strong></label>
                                                 <input
                                                     type="checkbox"
                                                     id="{{ competency_group_id | downcase}}"
