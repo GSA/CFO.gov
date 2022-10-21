@@ -1052,9 +1052,9 @@ jQuery(document).ready(function ($) {
     jQuery('#job-career-competency-select-all').click(function (e) {
         e.preventDefault();
         if($('.job-career-competency-select').css('display') == 'none') {
-            $('.job-career-competency-select').html("De-Select All");
+            $('.job-career-competency-select').html("<strong>Select All</strong>");
         } else {
-            $('.job-career-competency-select').html("Select All");
+            $('.job-career-competency-select').html("<strong>De-Select All</strong>");
         }
     });
 });
