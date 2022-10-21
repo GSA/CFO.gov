@@ -48,7 +48,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
 
     $("#job-career-competency-select-all, #general-career-competency-select-all").on('change', function () {
         if ($('.job-career-competency-select').css('display') == 'none') {
-            $('.job-career-competency-select').html("<b>Select All</b>");
+            $('.job-career-competency-select').html("Select All");
         } else {
             $('.job-career-competency-select').html("De-Select All");
         }
