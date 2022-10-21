@@ -112,7 +112,7 @@ attached:
                             <input style="position: absolute; left: -9999px;" type="checkbox" id="job-career-competency-select-all"/>
                         </div>
                     </div>
-                    <div class="display-flex flex-column job-career-competency-select">
+                    <div class="display-flex flex-column">
                         {% assign competency_group_array = site.cards | where: 'category', 'career' | map: 'competency_group' | uniq %}
                         {% assign job_comps = 'Primary,Secondary,Alternate' | split: "," %}
                         {% assign general_comps = site.cards | map: 'competency_group' | uniq %}
