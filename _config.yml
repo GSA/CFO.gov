@@ -96,6 +96,8 @@ primary_navigation:
 
   - name: CXO Fellows
     url: /cxo-fellows/
+  - name: Career Planning Training Tool
+    url: /career-planning-training-tool/
 
 secondary_navigation:
   - name: Contact Us

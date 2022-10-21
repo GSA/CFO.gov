@@ -148,6 +148,11 @@ input#career-advancement-search-input {
   margin-top: 2px;
 }
 
+.text-offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
 /* .career-search-results-heading {
   flex: 2;
 }

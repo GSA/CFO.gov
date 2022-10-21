@@ -3,11 +3,11 @@
     unselect = false,
     buttonSelector = '.policy input[type="checkbox"]',
     downloadButton;
-  
+
   window.isSelected = function (val) {
     return (typeof selected[val] != 'undefined');
   }
-  
+
   window.unselectAll = function () {
     selected = {};
     unselect = false;
@@ -17,26 +17,26 @@
   }
 
   $(document).ready(function () {
-    
+
     $('#career-search-results').on('change', buttonSelector, {}, function () {
       let val = $(this).val(),
         checked = $(this).prop('checked');
-        
+
       if (checked) {
         selected[val] = true;
       }
       else {
         delete selected[val];
       }
-      
+
       let disable = Object.keys(selected).length == 0;
       downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
     });
-    
+
     $('#cfo-search-button').on('click', function () {
       $('#career-advancement-search-input').autocomplete("close");
     });
-    
+
     $('button[data-op="select-all"]').click(function () {
       if (unselect) {
         unselectAll();
@@ -50,11 +50,11 @@
         this.innerText = 'Deselect All Cards';
         $('#career-search-results').find(buttonSelector).prop('checked', true);
       }
-      
+
       let disable = Object.keys(selected).length == 0;
       downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
     });
-    
+
     downloadButton = $('#career-download-buttons').find('[data-op="download-selected"]').click(function () {
       let cards = [];
       let cardSet = results.length ? results : fullSet;
@@ -65,7 +65,7 @@
       }
       generatePDF(cards);
     });
-    
+
     $('#career-advancement-search-input').autocomplete({
       source: function (request, response) {
         let normalized = request.term.toLowerCase()
@@ -89,19 +89,19 @@
           else if (item.behavioral_illustrations.toLowerCase().indexOf(normalized) != -1) {
             return value;
           }
-          else if (item.relevant_courses.some((element) => element.toLowerCase().indexOf(normalized) != -1)) {
+          else if (item.relevant_courses != null && item.relevant_courses.some((element) => element.toLowerCase().indexOf(normalized) != -1)) {
             return value;
-          } 
+          }
           return null;
         });
         outputs = outputs.filter(function (x) { return !!x });
         response(outputs);
       },
       select: function (event, ui) {
-        console.log(event);
+        // console.log(event);
         let $elem = $(event.target),
           value = $elem.val();
-        
+
         data.push({
           type: 'keys',
           id: 'search',
@@ -115,16 +115,16 @@
       change: function (event, ui) {
       }
     });
-    
+
     $('select[name="per_page"]').change(function (e) {
-      perPage = $(this).val();
+      perPage = parseInt($(this).val());
       getSearch();
       $('select[name="per_page"]').val(perPage);
     });
   });
-  
-  
-  
+
+
+
   function generatePDF(cards) {
     // pdfkit js
     // create a document and pipe to a blob
@@ -134,7 +134,7 @@
     var stream = doc.pipe(blobStream());
    // loadFont('SourceSansPro', 'woff', window.federalist.path.baseurl + '/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2');
    // loadFont('SourceSansPro-Bold', 'woff', window.federalist.path.baseurl + '/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2');
-    
+
     stream.on('finish', function () {
       const blob = stream.toBlob('application/pdf');
       const a = document.createElement('a');
@@ -146,12 +146,12 @@
       a.click();
       document.body.removeChild(a);
     });
-    
+
     let bold = 'Helvetica-Bold';
     let norm = 'Helvetica';
     let elem = document.createElement('div');
-    
-    
+
+
     for (let i = 0, l = cards.length; i < l; i++) {
       let card = cards[i];
       if (i != 0) {
@@ -159,26 +159,36 @@
       }
       doc.fontSize(12);
       doc.fillColor('black');
-      doc.font(bold).text(card.title);
+      let column_width = (doc.page.width - doc.page.margins.left - doc.page.margins.right) / 2;
+      doc.font(bold).text('Job Series: ', {continued: true}).font(norm).text(card.series + ' ' + card.title);
+      doc.font(bold).text('GS Level: ', { continued: true }).font(norm).text(card.level);
+      doc.font(bold).text('Competency: ', { continued: true }).font(norm).text(card.competency);
+      doc.font(bold).text('Type: ', { continued: true }).font(norm).text(card.competency_group);
       doc.moveDown(1);
-      doc.font(bold).text('GS Level: ', {continued: true}).font(norm).text(card.level);
-      doc.moveDown(1);
-      doc.font(bold).text('Competency Description: ', {continued: true}).font(norm).text(card.competency_description);
+      doc.font(bold).text('Definition: ', {continued: true}).font(norm).text(card.competency_description);
       doc.moveDown(2);
       elem.innerHTML = card.content;
+      let items = [];
       doc.font(bold).text('Behavior Illustrations');
       $(elem).find('> div:first-child dl *').each(function () {
         if (this.nodeName == 'DT') {
+          if (items.length) {
+            doc.font(norm).list(items, doc.page.margins.left + 30, null, { bulletRadius: 2 });
+            items.length = 0;
+          }
           doc.moveDown(1);
           doc.font(bold).text(this.innerText, doc.page.margins.left, null, { indent: 18 });
         }
         else if (this.nodeName == 'DD') {
-          doc.font(norm).text(this.innerText, doc.page.margins.left + 36, null, { width: doc.page.width - doc.page.margins.left - doc.page.margins.right });
+          items.push(this.innerText.trim());
         }
       });
+      if (items.length) {
+        doc.font(norm).list(items, doc.page.margins.left + 30, null, { bulletRadius: 2 });
+      }
       doc.moveDown(2);
       doc.font(bold).text('Proficiency Level Definition', doc.page.margins.left);
-      let items = [];
+      items = [];
       $(elem).find('> div:nth-child(2) dl *').each(function () {
         if (this.nodeName == 'DT') {
           if (items.length) {
@@ -196,14 +206,15 @@
         doc.font(norm).list(items, doc.page.margins.left + 30, null, { bulletRadius: 2 });
       }
       doc.moveDown(2);
-      doc.font(bold).text('Relevant Courses', doc.page.margins.left);
+      doc.font(bold).text('Career Listing', doc.page.margins.left);
       doc.moveDown(1);
-      
+
       if (card.relevant_courses.length == 0) {
         doc.font(norm).text('No Courses yet.');
       }
       else {
         for (let j = 0, k = card.relevant_courses.length; j < k; j++) {
+          doc.fillColor('black').text('    \u2022 ', { underlione: false, continued: true})
           let elems = card.relevant_courses[j].split(', ');
           doc.font(norm);
           for (let i = 0, l = elems.length; i < l; i++) {
@@ -236,10 +247,10 @@
         }
       }
     }
-    
+
     doc.end();
   }
-  
+
   function loadFont(name, type, url, ff) {
     var callback=registerFont;
     var request = new XMLHttpRequest();
@@ -268,7 +279,7 @@
       var buf = responseText;
     }
     PDFDoc.registerFont(name,buf,ff);
-  };  
+  };
 
   function _base64ToArrayBuffer(base64) {
     var binary_string =  window.atob(base64);
