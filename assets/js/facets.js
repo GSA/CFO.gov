@@ -1052,10 +1052,10 @@ function enableDisableCompetencies(all) {
 jQuery(document).ready(function ($) {
     jQuery('#job-career-competency-select-all').click(function (e) {
         e.preventDefault();
-        if ($('#job-career-competency-select-all').text() == 'Select All') {
-            $('#job-career-competency-select-all').text("De-Select All");
+        if ($('#job-career-competency-select-all').val().text() == 'Select All') {
+            $('#job-career-competency-select-all').val().text("De-Select All");
         } else {
-            $('#job-career-competency-select-all').text("Select All");
+            $('#job-career-competency-select-all').val().text("Select All");
         }
     });
 });
