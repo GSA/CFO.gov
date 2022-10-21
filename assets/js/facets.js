@@ -52,6 +52,11 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
         } else {
             $('.job-career-competency-select').html("<strong>Select All</strong>");
         }
+        if ($('.general-career-competency-select').text() == 'Select All') {
+            $('.general-career-competency-select').html("<strong>De-Select All</strong>");
+        } else {
+            $('.general-career-competency-select').html("<strong>Select All</strong>");
+        }
     if(startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
     if(startingSearchFilter.length == 0) {
       startingSearchFilter.push({keys: null, id: 'competency'});
