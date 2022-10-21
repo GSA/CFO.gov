@@ -1052,7 +1052,6 @@ function enableDisableCompetencies(all) {
 jQuery(document).ready(function ($) {
     jQuery('#job-career-competency-select-all').click(function (e) {
         e.preventDefault();
-        alert($('#job-career-competency-select-all').text())
         if ($('#job-career-competency-select-all').text() == 'Select All') {
             $('#job-career-competency-select-all').html("De-Select All");
         } else {
