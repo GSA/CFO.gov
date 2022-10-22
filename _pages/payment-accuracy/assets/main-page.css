@@ -18860,14 +18860,3 @@ abbr {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2; } }
-
-.job-career-competency-select
-{
-    display: none;
-}
-.job-career-competency-select-group {
-    display: none;
-}
-.general-career-competency-select {
-    display: none;
-}

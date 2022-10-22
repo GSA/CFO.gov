@@ -50,17 +50,17 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
         var id = this.id;
 
         if (id == 'job-career-competency-select-all') {
-            if ($('.job-career-competency-select').text() == 'Select All') {
-                $('.job-career-competency-select').html("<strong>De-Select All</strong>");
+            if ($('#job-career-competency-select').text() == 'Select All') {
+                $('#job-career-competency-select').html("<strong>De-Select All</strong>");
             } else {
-                $('.job-career-competency-select').html("<strong>Select All</strong>");
+                $('#job-career-competency-select').html("<strong>Select All</strong>");
             }
         }
         if (id == 'general-career-competency-select-all') {
-            if ($('.general-career-competency-select').text() == 'Select All') {
-                $('.general-career-competency-select').html("<strong>De-Select All</strong>");
+            if ($('#general-career-competency-select').text() == 'Select All') {
+                $('#general-career-competency-select').html("<strong>De-Select All</strong>");
             } else {
-                $('.general-career-competency-select').html("<strong>Select All</strong>");
+                $('#general-career-competency-select').html("<strong>Select All</strong>");
             }
         }
     if(startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
@@ -145,7 +145,6 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
         $("#" + eventId).on('change', function () {
           console.log("Select All Competency Group");
             var labelId = "#competency-group-label-" + eventId;
-          console.log(labelId);
           if ($(labelId).text() == 'Select All') {
               $(labelId).html("<strong>De-Select All</strong>");
           } else {
