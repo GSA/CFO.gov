@@ -144,6 +144,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
 
       $("#" + eventId).on('change', function () {
           var labelId = "#competency-group-label-" + item.toLower();
+          console.log(labelId);
           if ($(labelId).text() == 'Select All') {
               $(labelId).html("<strong>De-Select All</strong>");
           } else {
