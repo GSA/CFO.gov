@@ -143,7 +143,12 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
       });
 
       $("#" + eventId).on('change', function () {
-        console.log(item);
+          var labelId = "#competency-group-label-" + item.toLower();
+          if ($(labelId).text() == 'Select All') {
+              $(labelId).html("<strong>De-Select All</strong>");
+          } else {
+              $(labelId).html("<strong>Select All</strong>");
+          }
         if (this.checked) {
           if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
           if (startingSearchFilter.length == 0) {

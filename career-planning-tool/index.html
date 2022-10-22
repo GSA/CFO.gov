@@ -144,7 +144,7 @@ attached:
                                         <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" title="{{ competency_group }} Open"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                                         <div class="career-competency-level-3-input-group">
                                             <div class="career-input-group">
-                                              <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs job-career-competency-select-group"><strong class="cpt-strong">Select All</strong></label>
+                                              <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}"><strong class="cpt-strong">Select All</strong></label>
                                                 <input
                                                     type="checkbox"
                                                     id="{{ competency_group_id | downcase}}"
