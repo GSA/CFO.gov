@@ -88,7 +88,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
 
   // create an array of everything of both disabled and active.
     competency_group.forEach(groupItem => {
-      alert('Hi')
+        alert('Hi');
     let eventGroupId = createId(groupItem);
     if(eventGroupId != "") {
       competency.forEach(item => {
@@ -131,7 +131,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
   });
 
     competency_group.forEach(item => {
-        alert('Hello')
+        alert('Hello');
     let eventId = createId(item);
     if (eventId != "") {
       $("#" + eventId).on("focus", function () {
