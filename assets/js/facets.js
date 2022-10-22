@@ -50,17 +50,19 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
         var id = this.id;
 
         if (id == 'job-career-competency-select-all') {
-            if ($('#job-career-competency-select').text() == 'Select All') {
-                $('#job-career-competency-select').html("<strong>De-Select All</strong>");
+            var jobSelect = '#job-career-competency-select';
+            if ($(jobSelect).text() == 'Select All') {
+                $(jobSelect).html("<strong>De-Select All</strong>");
             } else {
-                $('#job-career-competency-select').html("<strong>Select All</strong>");
+                $(jobSelect).html("<strong>Select All</strong>");
             }
         }
         if (id == 'general-career-competency-select-all') {
-            if ($('#general-career-competency-select').text() == 'Select All') {
-                $('#general-career-competency-select').html("<strong>De-Select All</strong>");
+            var generalSelect = '#general-career-competency-select';
+            if ($(generalSelect).text() == 'Select All') {
+                $(generalSelect).html("<strong>De-Select All</strong>");
             } else {
-                $('#general-career-competency-select').html("<strong>Select All</strong>");
+                $(generalSelect).html("<strong>Select All</strong>");
             }
         }
     if(startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
