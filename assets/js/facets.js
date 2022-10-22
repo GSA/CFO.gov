@@ -83,16 +83,12 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
       if (elem.hasAttribute('data-group')) {
         $elem.trigger('change');
         }
-       if ($('.job-career-competency-select-group').text() == 'Select All') {
-            $('.job-career-competency-select-group').html("<strong>De-Select All</strong>");
-       } else {
-            $('.job-career-competency-select-group').html("<strong>Select All</strong>");
-       }
     });
   });
 
   // create an array of everything of both disabled and active.
-  competency_group.forEach(groupItem => {
+    competency_group.forEach(groupItem => {
+      alert('Hi')
     let eventGroupId = createId(groupItem);
     if(eventGroupId != "") {
       competency.forEach(item => {
@@ -134,7 +130,8 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
     }
   });
 
-  competency_group.forEach(item => {
+    competency_group.forEach(item => {
+        alert('Hello')
     let eventId = createId(item);
     if (eventId != "") {
       $("#" + eventId).on("focus", function () {
