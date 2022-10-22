@@ -88,7 +88,6 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
 
   // create an array of everything of both disabled and active.
     competency_group.forEach(groupItem => {
-        console.log('Hi');
     let eventGroupId = createId(groupItem);
     if(eventGroupId != "") {
       competency.forEach(item => {
@@ -131,7 +130,6 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
   });
 
     competency_group.forEach(item => {
-        console.log('Hello');
     let eventId = createId(item);
     if (eventId != "") {
       $("#" + eventId).on("focus", function () {
@@ -145,7 +143,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
       });
 
       $("#" + eventId).on('change', function () {
-        console.log("Select All Competency Group");
+        console.log(item);
         if (this.checked) {
           if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
           if (startingSearchFilter.length == 0) {
