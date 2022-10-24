@@ -46,7 +46,24 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
     $('label[for="career-competency-select-all"]').css( "outline", "none" );
   });
 
-  $("#job-career-competency-select-all, #general-career-competency-select-all").on('change', function() {
+    $("#job-career-competency-select-all, #general-career-competency-select-all").on('change', function () {
+        var id = this.id;
+        if (id == 'job-career-competency-select-all') {
+            var jobSelect = '#job-career-competency-select';
+            if ($(jobSelect).text() == 'Select All') {
+                $(jobSelect).html("<strong>De-Select All</strong>");
+            } else {
+                $(jobSelect).html("<strong>Select All</strong>");
+            }
+        }
+        if (id == 'general-career-competency-select-all') {
+            var generalSelect = '#general-career-competency-select';
+            if ($(generalSelect).text() == 'Select All') {
+                $(generalSelect).html("<strong>De-Select All</strong>");
+            } else {
+                $(generalSelect).html("<strong>Select All</strong>");
+            }
+        }
     if(startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
     if(startingSearchFilter.length == 0) {
       startingSearchFilter.push({keys: null, id: 'competency'});
@@ -127,7 +144,13 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
       });
 
       $("#" + eventId).on('change', function () {
-        console.log("Select All Competency Group");
+          console.log("Select All Competency Group");
+          var labelId = "#competency-group-label-" + eventId;
+          if ($(labelId).text() == 'Select All') {
+              $(labelId).html("<strong>De-Select All</strong>");
+          } else {
+              $(labelId).html("<strong>Select All</strong>");
+          }
         if (this.checked) {
           if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
           if (startingSearchFilter.length == 0) {
