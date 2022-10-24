@@ -78,7 +78,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 if (this.id.includes('job')) {
                     competency_group.forEach(item => {
                         let itemElement = document.getElementById(createId(item));
-                        itemElement.html("<strong>De-Select All</strong>");
+                        console.log(itemElement);
                     });
                 }
             } else {
