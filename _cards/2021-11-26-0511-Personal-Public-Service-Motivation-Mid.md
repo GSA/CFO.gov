@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Public Service Motivation
 competency_group: Personal
 competency_description: Shows a commitment to serve the public; ensures that actions meet public needs; aligns organizational objectives and practices with public interests
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Partners with community leaders to develop neighborhood action plans ? Cultivates relationships with community stakeholders to validate usefulness of proposed products and services ? Identifies improved ways to manage public resources
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 213 Be an Inclusive Organization People Won't Leave, Carahsoft, <a href="https://www.linkedin.com/learning/be-an-inclusive-organization-people-won-t-leave">https://www.linkedin.com/learning/be-an-inclusive-organization-people-won-t-leave</a>
-filters: Personal-Public-Service-Motivation GS-10-13 series-0511
+filters: Personal-Public-Service-Motivation GS-Mid series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

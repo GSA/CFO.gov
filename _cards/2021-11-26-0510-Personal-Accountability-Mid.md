@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Accountability
 competency_group: Personal
 competency_description: Holds self and others accountable for measurable high-quality, timely, and cost-effective results; determines objectives, sets priorities, and delegates work; accepts responsibility for mistakes; complies with established control systems and rules
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Provides and promotes position information across divisions to educate staff on respective duties, performance expectations, and consequent impact on accomplishment of agency goals ? Holds staff accountable for new performance standards and expectations by taking action with employees not meeting standards
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 4 Holding Your Team Accountable, Carahsoft, <a href="https://www.linkedin.com/learning/holding-your-team-accountable">https://www.linkedin.com/learning/holding-your-team-accountable</a>
-filters: Personal-Accountability GS-10-13 series-0510
+filters: Personal-Accountability GS-Mid series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

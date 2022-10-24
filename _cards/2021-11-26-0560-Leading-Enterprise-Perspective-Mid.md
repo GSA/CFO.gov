@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Enterprise Perspective
 competency_group: Leading
 competency_description: An ability to think broadly and connect the dots among various aspects of the enterprise 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Understands where the office fits into immediate organization chart of Unit and Office, relationships between branches, workflows of major processes, how the office impacts the mission
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 98 Become a Super-Collaborator, Carahsoft, <a href="https://www.linkedin.com/learning/become-a-super-collaborator">https://www.linkedin.com/learning/become-a-super-collaborator</a>
-filters: Leading-Enterprise-Perspective GS-10-13 series-0560
+filters: Leading-Enterprise-Perspective GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

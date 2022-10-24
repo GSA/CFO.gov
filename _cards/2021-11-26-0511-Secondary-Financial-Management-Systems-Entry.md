@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Management Systems
 competency_group: Secondary
 competency_description: Knowledge of the standards, architecture, and specifications of automated financial systems, including source documents, system flows, system interfaces, and related internal controls
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Uses basic information from financial management systems ? Inputs and extracts data and creates recurring reports to maintain financial integrity
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 120 Financial Analysis Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8</a>
  - 120 Financial Analysis Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8</a>
-filters: Secondary-Financial-Management-Systems GS-7-9 series-0511
+filters: Secondary-Financial-Management-Systems GS-Entry series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

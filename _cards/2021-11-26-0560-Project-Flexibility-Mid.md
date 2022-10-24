@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Flexibility
 competency_group: Project
 competency_description: Is open to change and new information; adapts behavior or work methods in response to new information, changing conditions, or unexpected obstacles; effectively deals with ambiguity
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Uses staff feedback to streamline processes in order to meet deadlines ? Adjusts project plan based on input from staff and stakeholders
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 133 Leading Change (MGMT7201), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=MGMT7201">https://www.graduateschool.edu/solr-search/content?keys=MGMT7201</a>
-filters: Project-Flexibility GS-10-13 series-0560
+filters: Project-Flexibility GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Influencing-Negotiating
 competency_group: Project
 competency_description: Persuades others to accept recommendations, cooperate, or change their behavior; works with others towards an agreement; negotiates to find mutually acceptable solutions
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Establishes new relationships with others in the work environment
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 162 Negotiating with Agility, Carahsoft, <a href="https://www.linkedin.com/learning/negotiating-with-agility">https://www.linkedin.com/learning/negotiating-with-agility</a>
-filters: Project-Influencing-Negotiating GS-14-15 series-0511
+filters: Project-Influencing-Negotiating GS-Senior series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

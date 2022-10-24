@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Decision Support – Audit Execution
 competency_group: Primary
 competency_description: Conducts audits in accordance with Generally Accepted Government Auditing Standards (GAGAS) or Generally Accepted Auditing Standards (GAAS) to provide value-added recommendations that enable better utilization of resources and improvement of mission effectiveness 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Evaluates the accuracy and completeness of audit evidence and analyses to determine whether enough appropriate evidence exists to address the audit objectives and support the findings and conclusions ? Solves difficult challenges through audit analyses to determine the proper courses of action and provides recommendations to decision-makers
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 84 Army Managers Internal Control Administrators Course (AUDT9015), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=AUDT9015">https://www.graduateschool.edu/solr-search/content?keys=AUDT9015</a>
  - 85 Audit and Due Diligence&#58; Priorities and Best Practices, Carahsoft, <a href="https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices">https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices</a>
-filters: Primary-Decision-Support-–-Audit-Execution GS-10-13 series-0511
+filters: Primary-Decision-Support-–-Audit-Execution GS-Mid series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

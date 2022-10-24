@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Accounting
 competency_group: Secondary
 competency_description: Knowledge of traditional accounting practices including accrual, obligations, and costs methods
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Examines non-routine financial management documentation to ensure accuracy and completeness of accounting transactions and accounts and identifies potential solutions for inaccurate or incomplete entries
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 140 National Accounts Statistics, Deloitte, <a href="National">National</a>, <a href="Accounts">Accounts</a>, <a href="Statistics">Statistics</a>
-filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-10-13 series-0510
+filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-Mid series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

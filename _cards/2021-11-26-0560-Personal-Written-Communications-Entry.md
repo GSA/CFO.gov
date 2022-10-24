@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Written Communications
 competency_group: Personal
 competency_description: Recognizes or uses correct English grammar, punctuation, and spelling; communicates information (for example, facts, ideas, or messages) in a succinct and organized manner; produces written information, which may include technical material, that is appropriate for the intended audience
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Writes basic communications (e.g., an email requesting straightforward information, proofreading before sending to others ? Uses appropriate grammar, punctuation, and spelling ? With guidance, applies the Department’s style and format guidelines to written products
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 240 Business Writing Principles, Carahsoft, <a href="https://www.linkedin.com/learning/business-writing-principles">https://www.linkedin.com/learning/business-writing-principles</a>
-filters: Personal-Written-Communications GS-7-9 series-0560
+filters: Personal-Written-Communications GS-Entry series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

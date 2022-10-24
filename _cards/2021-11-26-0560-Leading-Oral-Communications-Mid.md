@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Oral Communications
 competency_group: Leading
 competency_description: Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Communicates effectively with staff by conducting regular meetings to discuss initiatives and current events ? Explains and clarifies policy to affected parties ? Provides status updates to management team during quarterly division meeting ? Presents complex information to stakeholders verbally
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 188 How to Present and Stay on Point, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-present-and-stay-on-point-2019">https://www.linkedin.com/learning/how-to-present-and-stay-on-point-2019</a>
-filters: Leading-Oral-Communications GS-10-13 series-0560
+filters: Leading-Oral-Communications GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Accountability
 competency_group: Personal
 competency_description: Holds self and others accountable for measurable high-quality, timely, and cost-effective results; determines objectives, sets priorities, and delegates work; accepts responsibility for mistakes; complies with established control systems and rules
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Revises and communicates to employees expectations and methods for achieving results in light of failed or delayed agency-level project ? Administers and provides oversight of a new complex procedure which delegates responsibility for compliance to various agencies or parties ? Accomplishes cultural change of accountability among staff by defining roles and responsibilities to ensure agency goals are met
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 5 Accountability Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8</a>
-filters: Personal-Accountability GS-14-15 series-0501
+filters: Personal-Accountability GS-Senior series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

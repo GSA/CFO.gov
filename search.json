@@ -9,7 +9,7 @@ layout: none
       "title": "{{ card.job_series_title }}",
       "series": "0{{ card.series }}",
       "job_series": "{{ card.job_series }}",
-      "career_level": "{{ card.title | escape }}",
+      "career_level": "{{ card.career_level }}",
       "permalink": "{{ card.permalink }}",
       "functional_competency_designation": "{{ card.functional_competency_designation }}",
       "competency": "{{ card.competency }}",

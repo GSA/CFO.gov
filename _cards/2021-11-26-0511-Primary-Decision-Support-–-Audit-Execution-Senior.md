@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Decision Support – Audit Execution
 competency_group: Primary
 competency_description: Conducts audits in accordance with Generally Accepted Government Auditing Standards (GAGAS) or Generally Accepted Auditing Standards (GAAS) to provide value-added recommendations that enable better utilization of resources and improvement of mission effectiveness 
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Examines the impact of complex and-or controversial audit results and coordinates recommendations with key stakeholders
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 86 Auditing Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b">https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b</a>
-filters: Primary-Decision-Support-–-Audit-Execution GS-14-15 series-0511
+filters: Primary-Decision-Support-–-Audit-Execution GS-Senior series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

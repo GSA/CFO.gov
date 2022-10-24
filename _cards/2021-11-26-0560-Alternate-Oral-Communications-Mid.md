@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Oral Communications
 competency_group: Alternate
 competency_description: Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives ? Conveys information clearly and concisely to ensure staff or team members remain focused on agenda items ? Explains benefits to stakeholders to gain acceptance of programmatic change ? Presents information, analyses, and recommendations to officials and stakeholders ? Presents, promotes and clarifies ideas and issues to others
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives
 relevant_courses: 
  - 189 Building Business Relationships, Carahsoft, <a href="https://www.linkedin.com/learning/building-business-relationships-2">https://www.linkedin.com/learning/building-business-relationships-2</a>
-filters: Alternate-Oral-Communications GS-10-13 series-0560
+filters: Alternate-Oral-Communications GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

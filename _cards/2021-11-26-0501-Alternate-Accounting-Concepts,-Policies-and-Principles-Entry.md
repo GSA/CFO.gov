@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Accounting Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply federal accounting standards, fiscal law, policies, regulations, principles, standards, internal controls and procedures to financial management activities
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Uses typical accounting and financial procedures and practices that apply to most situations ? Applies knowledge of policies and procedures to ensure adherence to accounting and financial guidelines
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 10 MBA Essentials (with the Rotman School of Management, University of Toronto), Emeritus, <a href="https://assets-ee-b2b.s3.ap-southeast-1.amazonaws.com/Emeritus/rotman/B2B_Brochure_Rotman_MBAE.pdf">https://assets-ee-b2b.s3.ap-southeast-1.amazonaws.com/Emeritus/rotman/B2B_Brochure_Rotman_MBAE.pdf</a>
  - 11 1313&#58; FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
-filters: Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0501
+filters: Alternate-Accounting-Concepts-Policies-and-Principles GS-Entry series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

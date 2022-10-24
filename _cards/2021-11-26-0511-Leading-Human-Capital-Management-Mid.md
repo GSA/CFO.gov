@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Human Capital Management
 competency_group: Leading
 competency_description: Builds and manages workforce based on organizational goals, budget considerations, and staffing needs; ensures that employees are appropriately recruited, selected, appraised, and rewarded; takes action to address performance problems; manages a multi-sector workforce and a variety of work situations
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Recognizes and addresses deficiencies of human resources processes or tools ? Provides positive feedback to high-performing staff and rewards exceptional performance ? Considers impact of personnel decisions on current staff
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 155 How to Effectively Deliver Criticism, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-effectively-deliver-criticism">https://www.linkedin.com/learning/how-to-effectively-deliver-criticism</a>
-filters: Leading-Human-Capital-Management GS-10-13 series-0511
+filters: Leading-Human-Capital-Management GS-Mid series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -11,14 +11,14 @@ functional_competency_designation: General Career Competencies
 competency: Attention to Detail
 competency_group: Personal
 competency_description: Is thorough when performing work and conscientious about attending to detail
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Submits work assignments that comply with instructions- requirements ? Identifies, organizes and maintains important details so they are not lost or forgotten (e.g., checklists, schedule, calendar ? Verifies the accuracy of work products against established quality measures ? Uses established tools and techniques to identify errors and modifications ? Produces fully compliant work products ? Creates effective tools and techniques for ensuring details are not overlooked
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 18 Complete Confidence in Minutes&#58; Weekly, Carahsoft, <a href="https://www.linkedin.com/learning/complete-confidence-in-minutes-weekly">https://www.linkedin.com/learning/complete-confidence-in-minutes-weekly</a>
  - 19 10 Mistakes Leaders Should Avoid, Carahsoft, <a href="https://www.linkedin.com/learning/10-mistakes-leaders-should-avoid">https://www.linkedin.com/learning/10-mistakes-leaders-should-avoid</a>
  - 20 Leading Yourself, Carahsoft, <a href="https://www.linkedin.com/learning/leading-yourself">https://www.linkedin.com/learning/leading-yourself</a>
-filters: Personal-Attention-to-Detail GS-7-9 series-0501
+filters: Personal-Attention-to-Detail GS-Entry series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

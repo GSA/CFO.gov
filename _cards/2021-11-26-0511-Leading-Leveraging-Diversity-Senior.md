@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Leveraging Diversity
 competency_group: Leading
 competency_description: Fosters an inclusive workplace where diversity and individual differences are valued and leveraged to achieve the vision and mission of the organization 
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Recognizes and utilizes skills of staff with diverse backgrounds to benefit the organization, clients, and coworkers ? Addresses and corrects the use of inappropriate language or actions which deride diversity ? Builds a diverse staff with a variety of skills who function effectively to accomplish the mission of the organization ? Develops a creative initiative focused on recognizing the various dimensions of diversity to encourage inclusiveness in the workplace
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 180 Empowering BIPOC through Mentorship, Carahsoft, <a href="https://www.linkedin.com/learning/empowering-bipoc-through-mentorship">https://www.linkedin.com/learning/empowering-bipoc-through-mentorship</a>
  - 181 Creating Psychological Safety for Diverse Teams, Carahsoft, <a href="https://www.linkedin.com/learning/creating-psychological-safety-for-diverse-teams">https://www.linkedin.com/learning/creating-psychological-safety-for-diverse-teams</a>
-filters: Leading-Leveraging-Diversity GS-14-15 series-0511
+filters: Leading-Leveraging-Diversity GS-Senior series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

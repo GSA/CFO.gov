@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Advanced Financial Management
 competency_group: Secondary
 competency_description: Develop, monitor, interpret, and report standardized processes-operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Interprets and reports the results of the financial processes to ensure consistency with Component or major organization goals and strategic initiatives ? Oversees and manages all aspects of the financial process on behalf of a Department to ensure financial accountability
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 15 Financial Accounting Part 1, Carahsoft, <a href="https://www.linkedin.com/learning/financial-accounting-part-1">https://www.linkedin.com/learning/financial-accounting-part-1</a>
  - 16 1720 - S4F10 - Business Processes in Financial Accounting Training in SAP S/4HANA, Learning Tree, <a href="https://www.learningtree.com/courses/1720/business-processes-in-financial-accounting-in-sap-s-4hana-s4f10/">https://www.learningtree.com/courses/1720/business-processes-in-financial-accounting-in-sap-s-4hana-s4f10/</a>
-filters: Secondary-Advanced-Financial-Management GS-10-13 series-0511
+filters: Secondary-Advanced-Financial-Management GS-Mid series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -570,7 +570,7 @@ function adjustSearchOrder() {
  */
 function createButtonText(text) {
   let part1 = text.split("-");
-  if(part1[0] == 'GS') return part1[0]+" "+part1[1]+"-"+part1[2];
+  if(part1[0] == 'GS') return part1[0]+" "+$('#'+text).text();
   else {
     let removeButtonText = part1.join(" ");
     return (' '+removeButtonText).replace(/ [\w]/g, a => a.toLocaleUpperCase()).trim();
@@ -774,7 +774,7 @@ function handleFacets(results) {
     competencies = {};
   results.forEach(function (i) {
     series[i.series] = series[i.series] + 1 || 1;
-    level[i.level] = level[i.level] + 1 || 1;
+    level[i.career_level] = level[i.career_level] + 1 || 1;
     let comp_str = i.competency_group + '|' + i.competency.toLowerCase().replaceAll(' ', '-');
     competencies[comp_str] = competencies[comp_str] + 1 || 1;
   });
@@ -802,7 +802,7 @@ function handleFacets(results) {
   else {
     toHide = toHide.add($('[data-facet="level"]'));
     for (let k in level) {
-      let str = '[data-facet="level"][data-id="GS-'+k+'"]';
+      let str = '[data-facet="level"][data-id="GS-'+k.toLowerCase()+'"]';
       let elems = $(str);
       toShow = toShow.add(elems);
       toHide = toHide.not(elems);

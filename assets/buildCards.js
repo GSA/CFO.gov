@@ -72,7 +72,7 @@ function buildCards() {
                     permalink = '/cards/' + card.jobSeries + '-' + card.competency.replace(' ', '-') + '-' + card.careerLevel,
                     filters = [
                         card.competencyGroup.replace(/ /g, '-') + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-'),
-                        'GS-' + card.gsLevel,
+                        'GS-' + card.careerLevel,
                         'series-0' + card.jobSeries
                     ].join(' ');
 
@@ -157,7 +157,7 @@ functional_competency_designation: ${card.competencyDesignation}
 competency: ${card.competency}
 competency_group: ${card.competencyGroup}
 competency_description: ${card.compDesc}
-level: "${card.gsLevel}"
+level: "${gsLevelLong(card.careerLevel)}"
 behavior_illustrations: ${Object.values(card.behavior).join(' ? ')}
 proficiency_level_definition: ${Object.values(card.prof).join(' ? ')}
 relevant_courses: ${courseExport || '[]'}
@@ -184,11 +184,21 @@ filters: ${filters}
         });
 }
 
+function gsLevelLong(level) {
+    let levels = {
+      "Entry": "Entry&#58; (7-9)",
+      "Mid": "Mid&#58; (10-13)",
+      "Senior": "Senior&#58; (14-15)"
+    };
+
+    return levels[level];
+}
+
 function gsLevel(level) {
     let levels = {
-        "Entry": "7-9",
-        "Mid": "10-13",
-        "Senior": "14-15"
+      "Entry": "7-9",
+      "Mid": "10-13",
+      "Senior": "14-15"
     };
 
     return levels[level];

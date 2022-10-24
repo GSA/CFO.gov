@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Influencing-Negotiating
 competency_group: Leading
 competency_description: Persuades others to accept recommendations, cooperate, or change their behavior; works with others towards an agreement; negotiates to find mutually acceptable solutions
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Gains cooperation from others
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 161 Gender in Negotiation, Carahsoft, <a href="https://www.linkedin.com/learning/gender-in-negotiation">https://www.linkedin.com/learning/gender-in-negotiation</a>
-filters: Leading-Influencing-Negotiating GS-10-13 series-0560
+filters: Leading-Influencing-Negotiating GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

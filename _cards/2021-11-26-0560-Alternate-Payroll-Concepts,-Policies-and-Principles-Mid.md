@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Payroll Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply military and civilian pay legislation, administrative and regulatory requirements, laws and policies governing military and civilian pay activities and processes
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Applies knowledge of pay regulations to process resolution of complicated cases
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 198 Pay Setting for FWS Positions (PADM7001), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=PADM7001">https://www.graduateschool.edu/solr-search/content?keys=PADM7001</a>
-filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-10-13 series-0560
+filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

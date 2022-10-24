@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Decision Support
 competency_group: Primary
 competency_description: Knowledge of decision support theories, methods, and tools for identifying, synthesizing, representing, and evaluating the important aspects of a decision situation and prescribing the recommended course for decision makers and other stakeholders
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Formulates solutions based on the recommendations to improve mission effectiveness
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 91 Financial Analysis Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8</a>
-filters: Primary-Decision-Support GS-14-15 series-0510
+filters: Primary-Decision-Support GS-Senior series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

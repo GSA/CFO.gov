@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Audit Planning and Management
 competency_group: Primary
 competency_description: Evaluates audit programs to ensure an appropriate risk-based audit approach, monitors audit progress and reviews working papers and audit reports to ensure audits are properly documented and accomplished in accordance with Generally Accepted Government Auditing Standards (GAGAS) and Generally Accepted Auditing Standards (GAAS)
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Monitors current audit processes to ensure compliance with applicable auditing standards and regulations ? Interprets and reports the results of the audit processes to ensure consistency with Component or major organization goals and strategic initiatives
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 25 Auditing Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b">https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b</a>
  - 26 Managing Audits, BMRA
-filters: Primary-Audit-Planning-and-Management GS-10-13 series-0511
+filters: Primary-Audit-Planning-and-Management GS-Mid series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

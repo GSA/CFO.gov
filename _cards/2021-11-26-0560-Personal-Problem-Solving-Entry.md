@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Problem Solving
 competency_group: Personal
 competency_description: Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Communicates agency goals and initiatives to staff in a clear and concise manner ? Communicates information regarding organizational changes to staff ? Updates supervisors on project status ? Actively listens to staff ideas and concerns regarding work-related issues ? Communicates effectively with staff by conducting regular meetings to discuss initiatives and current events ? Explains and clarifies policy to affected parties ? Provides status updates to management team during quarterly division meeting ? Presents complex information to stakeholders verbally
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 200 Critical Thinking and Problem Solving, Carahsoft, <a href="https://www.linkedin.com/learning/critical-thinking-and-problem-solving">https://www.linkedin.com/learning/critical-thinking-and-problem-solving</a>
  - 201 A3 Problem Solving for Continuous Improvement, Carahsoft, <a href="https://www.linkedin.com/learning/a3-problem-solving-for-continuous-improvement">https://www.linkedin.com/learning/a3-problem-solving-for-continuous-improvement</a>
-filters: Personal-Problem-Solving GS-7-9 series-0560
+filters: Personal-Problem-Solving GS-Entry series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

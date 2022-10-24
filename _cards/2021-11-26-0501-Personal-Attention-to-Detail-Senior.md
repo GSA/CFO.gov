@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Attention to Detail
 competency_group: Personal
 competency_description: Is thorough when performing work and conscientious about attending to detail
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Develops processes and procedures to ensure production of high quality work products
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 22 Administrative Skills Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688</a>
-filters: Personal-Attention-to-Detail GS-14-15 series-0501
+filters: Personal-Attention-to-Detail GS-Senior series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

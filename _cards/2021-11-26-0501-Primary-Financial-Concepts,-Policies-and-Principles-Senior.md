@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Concepts, Policies and Principles
 competency_group: Primary
 competency_description: Apply fiscal law, policies, regulations principles, standards, and procedures to financial management activities
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Interprets and advises others on financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 111 Finance Essentials Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8</a>
-filters: Primary-Financial-Concepts-Policies-and-Principles GS-14-15 series-0501
+filters: Primary-Financial-Concepts-Policies-and-Principles GS-Senior series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

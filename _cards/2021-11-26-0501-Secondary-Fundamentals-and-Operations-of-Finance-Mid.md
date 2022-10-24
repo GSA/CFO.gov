@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Finance
 competency_group: Secondary
 competency_description: Knowledge of the basic principles, practices, and methods of financial management to include requisitions, apportionments, allotments, investments, fiscal management, activity reporting, and fiscal year guidelines
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Applies knowledge of financial management policies and procedures to process non-recurring transactions and uses interpersonal skills to respond to customer inquiries
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 151 Finance Essentials Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8</a>
-filters: Secondary-Fundamentals-and-Operations-of-Finance GS-10-13 series-0501
+filters: Secondary-Fundamentals-and-Operations-of-Finance GS-Mid series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Reporting
 competency_group: Primary
 competency_description: Prepare, review and reconcile financial statements and financial reports to meet reporting requirements and to support management decisions
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Obtains data from financial management systems to acquire a basic knowledge of the financial statements and-or reports, while improving operations by increasing productivity such as by advancing the skill sets and knowledge of finance personnel ? Prepares and-or queries financial statements and-or reports to meet the requirements as specified in the Treasury Financial Manual along with other Departmental Agency Regulations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 123 Financial Analysis Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8</a>
  - 123 Financial Analysis Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8</a>
-filters: Primary-Financial-Reporting GS-7-9 series-0510
+filters: Primary-Financial-Reporting GS-Entry series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Decision Making
 competency_group: Project
 competency_description: Makes sound, well-informed, and objective decisions; perceives the impact and implications of decisions; commits to action, even in uncertain situations, to accomplish organizational goals; causes change 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Makes sound and timely decisions for a project, team or work unit ? Seeks out best practices to make organizational decisions ? Decides to redesign current performance appraisal system to better meet organizational needs ? Makes the decision to solve controversial workplace issue by establishing an employee task force
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 78 Acting Decisively, Carahsoft, <a href="https://www.linkedin.com/learning/acting-decisively">https://www.linkedin.com/learning/acting-decisively</a>
  - 79 Change Management Foundations, Carahsoft, <a href="https://www.linkedin.com/learning/change-management-foundations-10041380">https://www.linkedin.com/learning/change-management-foundations-10041380</a>
-filters: Project-Decision-Making GS-10-13 series-0501
+filters: Project-Decision-Making GS-Mid series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

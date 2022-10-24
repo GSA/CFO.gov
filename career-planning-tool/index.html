@@ -66,25 +66,23 @@ attached:
 
                         {% for item in site.cards %}
                             {% if item.category == 'career' %}
-                                {% if level_array contains item.level %}
-
-                                {% else %}
-                                    {% assign level_array = level_array | push: item.level %}
-                                {% endif %}
+                                {% assign level = item.level | append: '|' | append: item.career_level %}
+                                {% assign level_array = level_array | push: level %}
                             {% endif %}
                         {% endfor %}
 
-                        {% assign level_array = level_array | numerical_sort %}
+                        {% assign level_array = level_array | uniq | numerical_sort %}
                         {% for level in level_array %}
-                            {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
+                            {% assign l = level | split: '|' %}
+                            {% assign level_id = l[1] | downcase | replace: ", ", "-" | replace: " ", "-" %}
                             <button
                                 type="button"
                                 id="GS-{{ level_id }}"
                                 data-id="GS-{{ level_id }}"
                                 data-facet="level"
-                                title="GS Level - {{ level }}"
+                                title="GS Level - {{ l[0] }}"
                                 class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black border-2px bg-white radius-lg border-gray-30"
-                            >GS {{ level }}</button>
+                            >{{ l[0] }}</button>
                         {% endfor %}
                     </div>
 
@@ -229,6 +227,7 @@ attached:
                 </div>
             </div>
             <div id="career-advancement-results-container" class="tablet:grid-col-8 desktop:grid-col-9 usa-prose padding-right-4">
+                <a id="main-content"></a>
                 <!-- HTML elements for search -->
                 <section class="career-search-results-header margin-top-5 tablet:margin-top-10">
                     <div class="search-container flex-justify flex-wrap tablet:flex-no-wrap">
@@ -257,7 +256,6 @@ attached:
                     </section>
 
                 </section>
-                <a id="main-content"></a>
                 <div class="career-search-results-filter-pagination">
                   {% assign post_count = site.cards | size %}
                   {% assign default_page_size = 10 %}

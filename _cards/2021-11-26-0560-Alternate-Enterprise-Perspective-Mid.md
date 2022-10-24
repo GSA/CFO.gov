@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Enterprise Perspective
 competency_group: Alternate
 competency_description: An ability to think broadly and connect the dots among various aspects of the enterprise 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Understands the mission and goals of the Department and immediate office
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 97 Business Chemistry (Blinkist Summary), Carahsoft, <a href="https://www.linkedin.com/learning/business-chemistry-blinkist-summary">https://www.linkedin.com/learning/business-chemistry-blinkist-summary</a>
-filters: Alternate-Enterprise-Perspective GS-10-13 series-0560
+filters: Alternate-Enterprise-Perspective GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

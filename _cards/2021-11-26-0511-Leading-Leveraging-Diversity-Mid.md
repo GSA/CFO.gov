@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Leveraging Diversity
 competency_group: Leading
 competency_description: Fosters an inclusive workplace where diversity and individual differences are valued and leveraged to achieve the vision and mission of the organization 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Adheres to Equal Employment Opportunity (EEO) policies, goals, objectives, and philosophies of valuing diversity in performing everyday duties and responsibilities ? Builds teams leveraging diverse capabilities of staff
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 179 Advocating for Change in Your Organization, Carahsoft, <a href="https://www.linkedin.com/learning/advocating-for-change-in-your-organization">https://www.linkedin.com/learning/advocating-for-change-in-your-organization</a>
-filters: Leading-Leveraging-Diversity GS-10-13 series-0511
+filters: Leading-Leveraging-Diversity GS-Mid series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

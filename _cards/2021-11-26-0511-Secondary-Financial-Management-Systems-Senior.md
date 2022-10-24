@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Management Systems
 competency_group: Secondary
 competency_description: Knowledge of the standards, architecture, and specifications of automated financial systems, including source documents, system flows, system interfaces, and related internal controls
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Identifies functional processes, requirements or interfaces ? Analyzes and resolves problems and authorizes enhancements to support financial management functions
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 122 Algorithmic Trading and Finance Models with Python, R, and Stata Essential Training, Carahsoft, <a href="https://www.linkedin.com/learning/algorithmic-trading-and-finance-models-with-python-r-and-stata-essential-training">https://www.linkedin.com/learning/algorithmic-trading-and-finance-models-with-python-r-and-stata-essential-training</a>
-filters: Secondary-Financial-Management-Systems GS-14-15 series-0511
+filters: Secondary-Financial-Management-Systems GS-Senior series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

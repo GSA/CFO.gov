@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Concepts, Policies and Principles
 competency_group: Primary
 competency_description: Apply fiscal law, policies, regulations principles, standards, and procedures to financial management activities
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Uses typical financial procedures and practices that apply to most situations ? Applies knowledge of policies and procedures to ensure adherence to financial guidelines
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 107 Accounting Ethics, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-ethics">https://www.linkedin.com/learning/accounting-ethics</a>
  - 108 Accounting for Managers, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-for-managers">https://www.linkedin.com/learning/accounting-for-managers</a>
-filters: Primary-Financial-Concepts-Policies-and-Principles GS-7-9 series-0501
+filters: Primary-Financial-Concepts-Policies-and-Principles GS-Entry series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

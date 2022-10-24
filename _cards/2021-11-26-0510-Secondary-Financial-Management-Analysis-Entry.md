@@ -11,14 +11,14 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Management Analysis
 competency_group: Secondary
 competency_description: Analyze, evaluate and review budget and program issues and financial data and reports using business tools and applications, cost and economic analysis, and performance metrics to provide recommendations 
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Reviews standard data and reports to ensure their accuracy; and assess risk by instituting risk management programs across the organization ? Applies general analytical and evaluation techniques to review financial data ? Interprets and evaluates financial information using a variety of analytical methods to provide recommendations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 112 Complex Negotiation Tips, Carahsoft, <a href="https://www.linkedin.com/learning/complex-negotiation-tips">https://www.linkedin.com/learning/complex-negotiation-tips</a>
  - 113 Managerial Finance Foundations, Carahsoft, <a href="https://www.linkedin.com/learning/managerial-finance-foundations">https://www.linkedin.com/learning/managerial-finance-foundations</a>
  - 114 Financial Accounting Part 1, Carahsoft, <a href="https://www.linkedin.com/learning/financial-accounting-part-1">https://www.linkedin.com/learning/financial-accounting-part-1</a>
-filters: Secondary-Financial-Management-Analysis GS-7-9 series-0510
+filters: Secondary-Financial-Management-Analysis GS-Entry series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

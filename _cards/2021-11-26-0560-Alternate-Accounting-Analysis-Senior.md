@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Accounting Analysis
 competency_group: Alternate
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations 
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Examines the impact of complex accounting solutions to make controversial decisions, and negotiate with key stakeholders
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 9 Accounting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688</a>
-filters: Alternate-Accounting-Analysis GS-14-15 series-0560
+filters: Alternate-Accounting-Analysis GS-Senior series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

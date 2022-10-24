@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Management Systems
 competency_group: Primary
 competency_description: Knowledge of the standards, architecture, and specifications of automated financial systems, including source documents, system flows, system interfaces, and related internal controls
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Identifies system problems, extracts ad hoc reports, recommends enhancements, and initiates system change requests
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 121 Financial Modeling Foundations, Carahsoft, <a href="https://www.linkedin.com/learning/financial-modeling-foundations">https://www.linkedin.com/learning/financial-modeling-foundations</a>
-filters: Primary-Financial-Management-Systems GS-10-13 series-0501
+filters: Primary-Financial-Management-Systems GS-Mid series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

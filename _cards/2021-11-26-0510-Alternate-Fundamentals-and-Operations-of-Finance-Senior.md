@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Finance
 competency_group: Alternate
 competency_description: Knowledge of the basic principles, practices, and methods of financial management to include requisitions, apportionments, allotments, investments, fiscal management, activity reporting, and fiscal year guidelines
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Gathers a variety of standard reports and data from various systems to support the financial management operational areas
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 148 Understanding Business, Carahsoft, <a href="https://www.linkedin.com/learning/understanding-business">https://www.linkedin.com/learning/understanding-business</a>
-filters: Alternate-Fundamentals-and-Operations-of-Finance GS-14-15 series-0510
+filters: Alternate-Fundamentals-and-Operations-of-Finance GS-Senior series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

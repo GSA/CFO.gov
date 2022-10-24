@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Team Building
 competency_group: Project
 competency_description: Inspires and fosters team commitment, spirit, pride, and trust; facilitates cooperation and motivates team members to accomplish group goals
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Works with team to implement operating procedures within agency ? Suggests utilizing team building exercises to improve office dynamics
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 225 Introduction to Management (MGMT7099), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=MGMT7099">https://www.graduateschool.edu/solr-search/content?keys=MGMT7099</a>
-filters: Project-Team-Building GS-7-9 series-0510
+filters: Project-Team-Building GS-Entry series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

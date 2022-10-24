@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Flexibility
 competency_group: Personal
 competency_description: Is open to change and new information; adapts behavior or work methods in response to new information, changing conditions, or unexpected obstacles; effectively deals with ambiguity
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Meets with team to adjust and coordinate schedules to accommodate all team members ? Adjusts staff assignments based on feedback and work load priorities
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 132 Change Management&#58; Plan on a Page, Carahsoft, <a href="https://www.linkedin.com/learning/change-management-plan-on-a-page">https://www.linkedin.com/learning/change-management-plan-on-a-page</a>
-filters: Personal-Flexibility GS-7-9 series-0501
+filters: Personal-Flexibility GS-Entry series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

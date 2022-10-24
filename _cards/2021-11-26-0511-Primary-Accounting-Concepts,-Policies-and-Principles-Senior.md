@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Accounting Concepts, Policies and Principles
 competency_group: Primary
 competency_description: Apply federal accounting standards, fiscal law, policies, regulations, principles, standards, internal controls and procedures to financial management activities
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Interprets and advises others on accounting and financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 13 Accounting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688</a>
-filters: Primary-Accounting-Concepts-Policies-and-Principles GS-14-15 series-0511
+filters: Primary-Accounting-Concepts-Policies-and-Principles GS-Senior series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

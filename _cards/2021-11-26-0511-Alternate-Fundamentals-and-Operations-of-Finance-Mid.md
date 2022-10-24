@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Finance
 competency_group: Alternate
 competency_description: Knowledge of the basic principles, practices, and methods of financial management to include requisitions, apportionments, allotments, investments, fiscal management, activity reporting, and fiscal year guidelines
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Applies knowledge of commonly used financial management procedures and techniques to perform routine and repetitive administrative tasks
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 147 Introduction to Financial Management (FINC7000), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=FINC7000">https://www.graduateschool.edu/solr-search/content?keys=FINC7000</a>
-filters: Alternate-Fundamentals-and-Operations-of-Finance GS-10-13 series-0511
+filters: Alternate-Fundamentals-and-Operations-of-Finance GS-Mid series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

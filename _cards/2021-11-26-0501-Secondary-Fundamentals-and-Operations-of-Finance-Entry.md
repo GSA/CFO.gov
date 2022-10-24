@@ -11,7 +11,7 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Finance
 competency_group: Secondary
 competency_description: Knowledge of the basic principles, practices, and methods of financial management to include requisitions, apportionments, allotments, investments, fiscal management, activity reporting, and fiscal year guidelines
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Applies knowledge of commonly used financial management procedures and techniques to perform routine and repetitive administrative tasks ? Gathers a variety of standard reports and data from various systems to support the financial management operational areas ? Initiates actions to locate, extract, adjust and compile financial data to support the financial management function ? Applies established procedures to determine and coordinate actions necessary to resolve non-recurring situations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
@@ -19,7 +19,7 @@ relevant_courses:
  - 148 Understanding Business, Carahsoft, <a href="https://www.linkedin.com/learning/understanding-business">https://www.linkedin.com/learning/understanding-business</a>
  - 149 Department of Homeland Security PPBE System (BUDG8103), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=BUDG8103">https://www.graduateschool.edu/solr-search/content?keys=BUDG8103</a>
  - 150 1242&#58; Technology Business Management (TBM) Fundamentals Certification for Federal Government, Learning Tree, <a href="https://www.learningtree.com/courses/1242/technology-business-management-tbm-fundamentals-for-the-federal-government/?utm_source=govpage">https://www.learningtree.com/courses/1242/technology-business-management-tbm-fundamentals-for-the-federal-government/?utm_source=govpage</a>
-filters: Secondary-Fundamentals-and-Operations-of-Finance GS-7-9 series-0501
+filters: Secondary-Fundamentals-and-Operations-of-Finance GS-Entry series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

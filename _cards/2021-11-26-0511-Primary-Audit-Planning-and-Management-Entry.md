@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Audit Planning and Management
 competency_group: Primary
 competency_description: Evaluates audit programs to ensure an appropriate risk-based audit approach, monitors audit progress and reviews working papers and audit reports to ensure audits are properly documented and accomplished in accordance with Generally Accepted Government Auditing Standards (GAGAS) and Generally Accepted Auditing Standards (GAAS)
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Develops and utilizes audit processes to improve organizational efficiency and effectiveness
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 25 Auditing Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b">https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b</a>
-filters: Primary-Audit-Planning-and-Management GS-7-9 series-0511
+filters: Primary-Audit-Planning-and-Management GS-Entry series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

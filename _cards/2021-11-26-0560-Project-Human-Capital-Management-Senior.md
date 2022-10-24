@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Human Capital Management
 competency_group: Project
 competency_description: Builds and manages workforce based on organizational goals, budget considerations, and staffing needs; ensures that employees are appropriately recruited, selected, appraised, and rewarded; takes action to address performance problems; manages a multi-sector workforce and a variety of work situations
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Develops rewards system to recognize the impact of employee contributions to the organization ? Identifies creative strategies to recruit employees with the required skills and qualifications, despite having limited resources ? Identifies mission critical occupations and associated competencies needed to perform organizational functions
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 157 Finding and Retaining High Potentials, Carahsoft, <a href="https://www.linkedin.com/learning/finding-and-retaining-high-potentials-9018297">https://www.linkedin.com/learning/finding-and-retaining-high-potentials-9018297</a>
-filters: Project-Human-Capital-Management GS-14-15 series-0560
+filters: Project-Human-Capital-Management GS-Senior series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

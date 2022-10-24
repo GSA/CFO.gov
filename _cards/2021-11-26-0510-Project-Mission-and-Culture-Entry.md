@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Mission and Culture
 competency_group: Project
 competency_description: Knowledge of agency and-or office goals, priorties, purpose, and its underlying values; ability to contribute to agency and-or office success, improvements, and workforce development 
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Understands the organizational vision, mission and core values and applies these to daily work ? Practices appropriate IT security, safety, and property management ? Understands who the customer is and their expectations
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 182 Diversity and Inclusion in a Global Enterprise, Carahsoft, <a href="https://www.linkedin.com/learning/diversity-and-inclusion-in-a-global-enterprise">https://www.linkedin.com/learning/diversity-and-inclusion-in-a-global-enterprise</a>
-filters: Project-Mission-and-Culture GS-7-9 series-0510
+filters: Project-Mission-and-Culture GS-Entry series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
