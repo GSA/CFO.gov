@@ -56,7 +56,6 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
                     let item = elem.title;
                     let eventGroupId = createId(item);
                     $(eventGroupId).html("<strong>De-Select All</strong>");
-                    console.log(eventGroupId);
                 });
             } else {
                 $(jobSelect).html("<strong>Select All</strong>");
