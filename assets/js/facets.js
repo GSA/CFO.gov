@@ -52,6 +52,12 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function(res) {
             var jobSelect = '#job-career-competency-select';
             if ($(jobSelect).text() == 'Select All') {
                 $(jobSelect).html("<strong>De-Select All</strong>");
+                $('[data-filter="competency"][data-major-group="job-specific"]').each((index, elem) => {
+                    let item = elem.title;
+                    let eventGroupId = createId(item);
+                    $(elem).html("<strong>De-Select All</strong>");;
+
+                });
             } else {
                 $(jobSelect).html("<strong>Select All</strong>");
             }
