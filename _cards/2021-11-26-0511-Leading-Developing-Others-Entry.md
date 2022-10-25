@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Developing Others
 competency_group: Leading
 competency_description: Develops the ability of others to perform and contribute to the organization
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Provides developmental feedback to staff on job performance ? Involves staff in developing project goals and timelines
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 92 Asking for Feedback as an Employee, Carahsoft, <a href="https://www.linkedin.com/learning/asking-for-feedback-as-an-employee">https://www.linkedin.com/learning/asking-for-feedback-as-an-employee</a>
-filters: Leading-Developing-Others GS-7-9 series-0511
+filters: Leading-Developing-Others GS-Entry series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

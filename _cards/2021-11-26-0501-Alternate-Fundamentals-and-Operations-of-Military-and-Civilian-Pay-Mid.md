@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Military and Civilian Pay
 competency_group: Alternate
 competency_description: Research and analyze legislative and regulatory guidance related to entitlements to ensure proper payments
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Processes and corrects routine information using well-established, clear-cut procedures and-or knowledge of simple procedures
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 151 Finance Essentials Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/finance-essentials-b17e6fc0-f91d-11e6-aad2-6b3c03be7fe8</a>
-filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-10-13 series-0501
+filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-Mid series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

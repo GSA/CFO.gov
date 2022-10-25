@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Financial Stewardship
 competency_group: Personal
 competency_description: Manage, allocate and monitor financial resources in compliance with laws, regulations, and policies, with sufficient transparency and appropriate internal controls to ensure these resources are efficIently applied to meet organizational goals and objectives, while considering the Federal Government's fiduciary duty to the Nation
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Manages and monitors all aspects of the financial process on behalf of a Department to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives ? Supports the achievement of the agency’s programs with reliable, relevant, and timely financial information and analysis, and effective and efficient internal controls
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 131 Financial Analysis Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8</a>
-filters: Personal-Financial-Stewardship GS-14-15 series-0560
+filters: Personal-Financial-Stewardship GS-Senior series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

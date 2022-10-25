@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Developing Others
 competency_group: Personal
 competency_description: Develops the ability of others to perform and contribute to the organization
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Recommends details and developmental assignments to staff based on career interests and work unit needs ? Recognizes staff potential and guides employees in developing skills by recommending appropriate training and sources of information ? Works with staff to develop individual development plans addressing employee needs and meeting organizational goals
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 95 A Toolkit for Giving and Receiving Better Feedback, Carahsoft, <a href="https://www.linkedin.com/learning/a-toolkit-for-giving-and-receiving-better-feedback">https://www.linkedin.com/learning/a-toolkit-for-giving-and-receiving-better-feedback</a>
-filters: Personal-Developing-Others GS-14-15 series-0560
+filters: Personal-Developing-Others GS-Senior series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

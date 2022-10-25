@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Military and Civilian Pay
 competency_group: Alternate
 competency_description: Research and analyze legislative and regulatory guidance related to entitlements to ensure proper payments
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Examines source documents to verify accuracy, completeness and mathematics of data prior to processing ? Advises Lead-supervisor of recurring, extraordinary or unusual situations-problems
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 152 Regulations for Federal Pay, BMRA
-filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-14-15 series-0511
+filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-Senior series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

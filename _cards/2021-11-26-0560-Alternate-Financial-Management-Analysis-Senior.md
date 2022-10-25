@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Management Analysis
 competency_group: Alternate
 competency_description: Analyze, evaluate and review budget and program issues and financial data and reports using business tools and applications, cost and economic analysis, and performance metrics to provide recommendations 
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Examines the impact of complex financial management solutions to make controversial decisions, and negotiate with key stakeholders
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 116 Financial Analysis Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8</a>
-filters: Alternate-Financial-Management-Analysis GS-14-15 series-0560
+filters: Alternate-Financial-Management-Analysis GS-Senior series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

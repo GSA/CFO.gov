@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Problem Solving
 competency_group: Personal
 competency_description: Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Synthesizes information from internal and external sources to develop an action plan addressing program issues ? Addresses systemic barriers inhibiting the achievement of results by forming teams to conduct focus groups and develop solutions ? Improves organizational efficiency by developing, planning, and implementing a multi-tier solution to complex or unprecedented problems ? Develops and implements a remediation plan restoring stakeholder confidence in a critical agency program
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 203 Decision-Making in High-Stress Situations, Carahsoft, <a href="https://www.linkedin.com/learning/decision-making-in-high-stress-situations">https://www.linkedin.com/learning/decision-making-in-high-stress-situations</a>
  - 204 Coaching Yourself and Your Team from Uncertainty to Action, Carahsoft, <a href="https://www.linkedin.com/learning/coaching-yourself-and-your-team-from-uncertainty-to-action">https://www.linkedin.com/learning/coaching-yourself-and-your-team-from-uncertainty-to-action</a>
-filters: Personal-Problem-Solving GS-14-15 series-0501
+filters: Personal-Problem-Solving GS-Senior series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

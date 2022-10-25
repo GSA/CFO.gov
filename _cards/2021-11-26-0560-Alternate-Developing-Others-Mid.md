@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Developing Others
 competency_group: Alternate
 competency_description: Develops the ability of others to perform and contribute to the organization
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Encourages employees to participate in mentoring programs and other learning opportunities ? Pairs new staff with seasoned employees to facilitate understanding of the position and organization ? Provides orientation to new employees
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 93 How to Develop your Career Plan, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-develop-your-career-plan">https://www.linkedin.com/learning/how-to-develop-your-career-plan</a>
-filters: Alternate-Developing-Others GS-10-13 series-0560
+filters: Alternate-Developing-Others GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

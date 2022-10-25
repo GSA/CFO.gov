@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Conflict Management
 competency_group: Primary
 competency_description: Manages and resolves conflicts, grievances, confrontations, or disagreements in a constructive manner to minimize negative (personal) impact
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Is open and professional when handling minor personal conflicts; seeks help in resolving issues and-or situations, as needed ? Resolves simple customer complaints opportunities by referring to established guidelines and standard operating procedures ? Notifies the supervisor of conflict; initiates established chain-of-command process to facilitate resolution ? Demonstrates respect and openness for differences of opinion by allowing others a chance to be heard and listening to what is being said
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 49 Conflict Resolution For Beginners, Carahsoft, <a href="https://www.linkedin.com/learning/conflict-resolution-for-beginners">https://www.linkedin.com/learning/conflict-resolution-for-beginners</a>
-filters: Primary-Conflict-Management GS-10-13 series-0560
+filters: Primary-Conflict-Management GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Customer Service
 competency_group: Personal
 competency_description: Works with clients and customers (that is, any individuals who use or receive the services or products that your work unit produces, including the general public, individuals who work in the agency, other agencies, or organizations outside the Government) to assess their needs, provide information or assistance, resolve their problems, or satisfy their expectations; knows about available products and services; is committed to providing quality products and services 
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Monitors customers or clients satisfaction to ensure they are getting what they need in a timely manner ? Establishes and maintains relationships with customers ? Updates agency website to reflect changes to services ? Develops guides and user manuals for customers ? Ensures products and services comply with customer requirements ? Streamlines procedures based on customer feedback ? Solicits customer feedback and takes steps to prevent similar problems or issues from occurring with other customers
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 67 Building Rapport with Customers, Carahsoft, <a href="https://www.linkedin.com/learning/building-rapport-with-customers">https://www.linkedin.com/learning/building-rapport-with-customers</a>
  - 68 Customer Service Mastery&#58; Delight Every Customer, Carahsoft, <a href="https://www.linkedin.com/learning/customer-service-mastery-delight-every-customer">https://www.linkedin.com/learning/customer-service-mastery-delight-every-customer</a>
-filters: Personal-Customer-Service GS-7-9 series-0511
+filters: Personal-Customer-Service GS-Entry series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

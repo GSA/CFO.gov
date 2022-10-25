@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Leveraging Diversity
 competency_group: Personal
 competency_description: Fosters an inclusive workplace where diversity and individual differences are valued and leveraged to achieve the vision and mission of the organization 
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Builds a diverse staff with a variety of skills who function effectively to accomplish the mission of the organization ? Develops a creative initiative focused on recognizing the various dimensions of diversity to encourage inclusiveness in the workplace
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 181 Creating Psychological Safety for Diverse Teams, Carahsoft, <a href="https://www.linkedin.com/learning/creating-psychological-safety-for-diverse-teams">https://www.linkedin.com/learning/creating-psychological-safety-for-diverse-teams</a>
-filters: Personal-Leveraging-Diversity GS-14-15 series-0560
+filters: Personal-Leveraging-Diversity GS-Senior series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

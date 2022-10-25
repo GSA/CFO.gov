@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Budget
 competency_group: Primary
 competency_description: Knowledge of the principles and practices of budget administration and analysis; including preparing, justifying, reporting on, and executing the budget; and the relationships among program, budget, accounting, and reporting systems
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Provides some analysis and makes recommendations, on exceptionally difficult information from reports, systems and accounts using various standardized procedures under strict time constraints
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 146 1333&#58;  FPM 333 - Progressive Business, Cost and Financial Management, Learning Tree, <a href="https://www.learningtree.com/courses/1333/fac-p-pm-certification-earned-value-management-certification-training/">https://www.learningtree.com/courses/1333/fac-p-pm-certification-earned-value-management-certification-training/</a>
-filters: Primary-Fundamentals-and-Operations-of-Budget GS-10-13 series-0560
+filters: Primary-Fundamentals-and-Operations-of-Budget GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

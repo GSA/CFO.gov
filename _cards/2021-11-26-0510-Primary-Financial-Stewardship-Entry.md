@@ -11,14 +11,14 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Stewardship
 competency_group: Primary
 competency_description: Manage, allocate and monitor financial resources in compliance with laws, regulations, and policies, with sufficient transparency and appropriate internal controls to ensure these resources are efficIently applied to meet organizational goals and objectives, while considering the Federal Government's fiduciary duty to the Nation
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Performs and documents transactions and monitors records in compliance with laws, regulations, and policies to meet organizational goals and objectives ? Applies knowledge of policies and procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives ? Allocates funds within approved guidelines ? Uses appropriate finance and accounting procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 127 Property Management for Custodial Officers (PROP7103), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=PROP7103">https://www.graduateschool.edu/solr-search/content?keys=PROP7103</a>
  - 128 1313&#58; FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
  - 129 Advanced Appropriations Law (FINC9100), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=FINC9100">https://www.graduateschool.edu/solr-search/content?keys=FINC9100</a>
-filters: Primary-Financial-Stewardship GS-7-9 series-0510
+filters: Primary-Financial-Stewardship GS-Entry series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

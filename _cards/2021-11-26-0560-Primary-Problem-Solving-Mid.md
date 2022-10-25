@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Problem Solving
 competency_group: Primary
 competency_description: Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives ? Conveys information clearly and concisely to ensure staff or team members remain focused on agenda items ? Explains benefits to stakeholders to gain acceptance of programmatic change ? Presents information, analyses, and recommendations to officials and stakeholders ? Presents, promotes and clarifies ideas and issues to others
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 202 Business Analytics, Columbia, <a href="Observer">Observer</a>, <a href="access">access</a>, <a href="to">to</a>, <a href="this">this</a>, <a href="program">program</a>, <a href="and">and</a>, <a href="our">our</a>, <a href="LMS">LMS</a>, <a href="will">will</a>, <a href="be">be</a>, <a href="provided">provided</a>, <a href="upon">upon</a>, <a href="request.">request.</a>, <a href="Please">Please</a>, <a href="see">see</a>, <a href="sample">sample</a>, <a href="screenshots">screenshots</a>, <a href="provided">provided</a>, <a href="in">in</a>, <a href="proposal">proposal</a>, <a href="on">on</a>, <a href="pages">pages</a>, <a href="15-17.">15-17.</a>
-filters: Primary-Problem-Solving GS-10-13 series-0560
+filters: Primary-Problem-Solving GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

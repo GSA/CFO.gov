@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Fundamentals and Operations of Accounting
 competency_group: Personal
 competency_description: Knowledge of traditional accounting practices including accrual, obligations, and costs methods
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Extracts, records and balances basic information from routine or recurring reports using standardized procedures
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 138 Introduction to Federal Accounting (ACCT7001), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7001">https://www.graduateschool.edu/solr-search/content?keys=ACCT7001</a>
-filters: Personal-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0560
+filters: Personal-Fundamentals-and-Operations-of-Accounting GS-Senior series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

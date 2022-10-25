@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Fundamentals and Operations of Accounting
 competency_group: Project
 competency_description: Knowledge of traditional accounting practices including accrual, obligations, and costs methods
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Obtains basic data from routine or recurring reports using standardized procedures
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 137 Federal Accounting Standards (ACCT7102), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7102">https://www.graduateschool.edu/solr-search/content?keys=ACCT7102</a>
-filters: Project-Fundamentals-and-Operations-of-Accounting GS-10-13 series-0560
+filters: Project-Fundamentals-and-Operations-of-Accounting GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

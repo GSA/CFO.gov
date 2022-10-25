@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Budget
 competency_group: Alternate
 competency_description: Knowledge of the principles and practices of budget administration and analysis; including preparing, justifying, reporting on, and executing the budget; and the relationships among program, budget, accounting, and reporting systems
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Obtains and inputs basic data utilizing financial management systems
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 142 Federal Budgeting for Non-Budgeting Personnel (BUDG7000), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=BUDG7000">https://www.graduateschool.edu/solr-search/content?keys=BUDG7000</a>
-filters: Alternate-Fundamentals-and-Operations-of-Budget GS-7-9 series-0511
+filters: Alternate-Fundamentals-and-Operations-of-Budget GS-Entry series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

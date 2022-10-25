@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Written Communications
 competency_group: Alternate
 competency_description: Recognizes or uses correct English grammar, punctuation, and spelling; communicates information (for example, facts, ideas, or messages) in a succinct and organized manner; produces written information, which may include technical material, that is appropriate for the intended audience
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Drafts concise, straightforward summaries of information (e.g., portions of plans-reports ? Prepares routine written communications that are accurate, clear, concise and well-organized ? Answers routine or basic questions to internal and external customers appropriately (e.g., tone, detail and when responding in writing)
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 241 Tips for Better Business Writing, Carahsoft, <a href="https://www.linkedin.com/learning/tips-for-better-business-writing">https://www.linkedin.com/learning/tips-for-better-business-writing</a>
-filters: Alternate-Written-Communications GS-10-13 series-0560
+filters: Alternate-Written-Communications GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

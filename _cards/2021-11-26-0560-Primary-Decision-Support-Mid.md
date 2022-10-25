@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Decision Support
 competency_group: Primary
 competency_description: Knowledge of decision support theories, methods, and tools for identifying, synthesizing, representing, and evaluating the important aspects of a decision situation and prescribing the recommended course for decision makers and other stakeholders
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Analyzes results of the financial, accounting and economic analysis to determine possible outcomes
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 89 Data-Driven Decision-Making for Business Professionals, Carahsoft, <a href="https://www.linkedin.com/learning/data-driven-decision-making-for-business-professionals">https://www.linkedin.com/learning/data-driven-decision-making-for-business-professionals</a>
-filters: Primary-Decision-Support GS-10-13 series-0560
+filters: Primary-Decision-Support GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

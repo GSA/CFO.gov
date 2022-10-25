@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Budget Execution
 competency_group: Secondary
 competency_description: Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory-regulatory guidance
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Manages budgetary requirements within the organization, ensures alignment, and develops and recommends appropriate strategies
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 37 Budgeting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8">https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8</a>
-filters: Secondary-Budget-Execution GS-14-15 series-0510
+filters: Secondary-Budget-Execution GS-Senior series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

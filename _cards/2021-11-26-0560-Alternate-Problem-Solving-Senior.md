@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Problem Solving
 competency_group: Alternate
 competency_description: Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Improves organizational efficiency by developing, planning, and implementing a multi-tier solution to complex or unprecedented problems ? Develops and implements a remediation plan restoring stakeholder confidence in a critical agency program
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 204 Coaching Yourself and Your Team from Uncertainty to Action, Carahsoft, <a href="https://www.linkedin.com/learning/coaching-yourself-and-your-team-from-uncertainty-to-action">https://www.linkedin.com/learning/coaching-yourself-and-your-team-from-uncertainty-to-action</a>
-filters: Alternate-Problem-Solving GS-14-15 series-0560
+filters: Alternate-Problem-Solving GS-Senior series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

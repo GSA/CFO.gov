@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Human Capital Management
 competency_group: Leading
 competency_description: Builds and manages workforce based on organizational goals, budget considerations, and staffing needs; ensures that employees are appropriately recruited, selected, appraised, and rewarded; takes action to address performance problems; manages a multi-sector workforce and a variety of work situations
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Makes personnel decisions based upon promotion criteria and position requirements ? Utilizes peer recognition process to recognize employees ? Meets with employees to set performance goals ? Hosts employee appreciation dinner for staff
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 154 Using Feedback to Drive Performance, Carahsoft, <a href="https://www.linkedin.com/learning/using-feedback-to-drive-performance">https://www.linkedin.com/learning/using-feedback-to-drive-performance</a>
-filters: Leading-Human-Capital-Management GS-7-9 series-0511
+filters: Leading-Human-Capital-Management GS-Entry series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

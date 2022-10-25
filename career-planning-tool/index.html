@@ -1,5 +1,5 @@
 ---
-title: Career Planning
+title: Career Planning Tool
 description: Welcome to the Career Planning page.
 subtitle: Our Focus Areas
 layout: careers
@@ -26,7 +26,6 @@ attached:
     </div>
 </div>
 <div class="grid-container-widescreen">
-    <a id="main-content"></a>
     <div class="grid-row">
         <div class="usa-graphic-list__row grid-row grid-gap">
             <div class="usa-media-block tablet:grid-col-4 desktop:grid-col-3 career-advancement-block">
@@ -54,7 +53,8 @@ attached:
                                 type="button"
                                 id="series-{{ series_id }}"
                                 data-id="series-{{ series_id }}"
-                                title="Series-{{ series }}"
+                                data-facet="series"
+                                title="Series-0{{ series }}"
                                 class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black bg-white radius-lg border-2px border-gray-30"
                             >{{ series }}</button>
                         {% endfor %}
@@ -66,24 +66,23 @@ attached:
 
                         {% for item in site.cards %}
                             {% if item.category == 'career' %}
-                                {% if level_array contains item.level %}
-
-                                {% else %}
-                                    {% assign level_array = level_array | push: item.level %}
-                                {% endif %}
+                                {% assign level = item.level | append: '|' | append: item.career_level %}
+                                {% assign level_array = level_array | push: level %}
                             {% endif %}
                         {% endfor %}
 
-                        {% assign level_array = level_array | numerical_sort %}
+                        {% assign level_array = level_array | uniq | numerical_sort %}
                         {% for level in level_array %}
-                            {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
+                            {% assign l = level | split: '|' %}
+                            {% assign level_id = l[1] | downcase | replace: ", ", "-" | replace: " ", "-" %}
                             <button
                                 type="button"
                                 id="GS-{{ level_id }}"
                                 data-id="GS-{{ level_id }}"
-                                title="GS Level - {{ level }}"
+                                data-facet="level"
+                                title="GS Level - {{ l[0] }}"
                                 class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black border-2px bg-white radius-lg border-gray-30"
-                            >GS {{ level }}</button>
+                            >{{ l[0] }}</button>
                         {% endfor %}
                     </div>
 
@@ -139,26 +138,28 @@ attached:
                                             </div>
                                         </div>
                                         </div>
-                                        {% for competency in competency_array %}
-                                        {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
-                                        <div class="career-competency-input-groups" style="display: none;">
-                                            <div class="career-competency-level-4-input-group">
-                                                <div class="career-input-group margin-top-105">
-                                                    <input
-                                                        type="checkbox"
-                                                        id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
-                                                        data-filter="competency"
-                                                        data-major-group="job-specific"
-                                                        data-group="{{ competency_group_id | downcase }}"
-                                                        data-id="{{ competency_id | downcase }}"
-                                                        title="{{ competency }}"
-                                                        aria-label="{{ competency }}"
-                                                    />
-                                                    <label for="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}" class="career-competency-input-groups-label">{{ competency }}</label>
-                                                </div>
-                                            </div>
+                                        <div class="career-competency-container" style="display: none;">
+                                          {% for competency in competency_array %}
+                                          {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
+                                          <div class="career-competency-input-groups" data-facet="competency" data-facet-comp-group="{{ competency_group_id }}" data-facet-id="{{ competency_id | downcase }}">
+                                              <div class="career-competency-level-4-input-group">
+                                                  <div class="career-input-group margin-top-105">
+                                                      <input
+                                                          type="checkbox"
+                                                          id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
+                                                          data-filter="competency"
+                                                          data-major-group="job-specific"
+                                                          data-group="{{ competency_group_id | downcase }}"
+                                                          data-id="{{ competency_id | downcase }}"
+                                                          title="{{ competency }}"
+                                                          aria-label="{{ competency }}"
+                                                      />
+                                                      <label for="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}" class="career-competency-input-groups-label">{{ competency }}</label>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          {% endfor %}
                                         </div>
-                                    {% endfor %}
                                     </div>
                                 </div>
                             </div>
@@ -172,59 +173,61 @@ attached:
                         </div>
                     </div>
                     <div class="display-flex flex-column">
-                        {% for competency_group in sorted_competency_group_array %}
-                            {% assign competency_array = site.cards | where: 'category', 'career' | where: 'competency_group', competency_group | map: 'competency' | uniq | sort %}
-
-                            {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
-                            <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
-                                <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30 flex-column">
-                                    <div class="career-competency-toggle-open">
-                                        <div class="career-competency-toggle-open--inner">
-                                        <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" title="{{ competency_group }} Open"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
-                                        <div class="career-competency-level-3-input-group">
-                                            <div class="career-input-group">
-                                              <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs"><strong class="cpt-strong">Select All</strong></label>
-                                                <input
-                                                    type="checkbox"
-                                                    id="{{ competency_group_id | downcase}}"
-                                                    data-filter="competency"
-                                                    data-major-group="general"
-                                                    data-id="{{ competency_group_id | downcase }}"
-                                                    title="{{ competency_group }}"
-                                                    class="text-offscreen"
-                                                />
-                                            </div>
-                                        </div>
-                                        </div>
-                                        {% for competency in competency_array %}
-                                        {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
-                                        <div class="career-competency-input-groups" style="display: none;">
-                                            <div class="career-competency-level-4-input-group">
-                                                <div class="career-input-group margin-top-105">
-                                                    <input
-                                                        type="checkbox"
-                                                        id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
-                                                        data-filter="competency"
-                                                        data-major-group="general"
-                                                        data-group="{{ competency_group_id | downcase }}"
-                                                        data-id="{{ competency_id | downcase }}"
-                                                        title="{{ competency }}"
-                                                        aria-label="{{ competency }}"
-                                                    />
-                                                    <label for="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}" class="career-competency-input-groups-label">{{ competency }}</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    {% endfor %}
+                  {% for competency_group in sorted_competency_group_array %}
+                      {% assign competency_array = site.cards | where: 'category', 'career' | where: 'competency_group', competency_group | map: 'competency' | uniq | sort %}
+                      {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
+                            <div class="career-competency-and-competency-group-input-groups margin-bottom-2" data-facet-competency-group="{{ competency_group }}">
+                              <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30 flex-column">
+                                <div class="career-competency-toggle-open">
+                                  <div class="career-competency-toggle-open--inner">
+                                    <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" title="{{ competency_group }} Open"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
+                                    <div class="career-competency-level-3-input-group">
+                                      <div class="career-input-group">
+                                        <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs"><strong class="cpt-strong">Select All</strong></label>
+                                          <input
+                                            type="checkbox"
+                                            id="{{ competency_group_id | downcase}}"
+                                            data-filter="competency"
+                                            data-major-group="general"
+                                            data-facet="competency-group"
+                                            data-id="{{ competency_group_id | downcase }}"
+                                            title="{{ competency_group }}"
+                                            class="text-offscreen"
+                                          />
+                                      </div>
                                     </div>
+                                  </div>
+                                  <div class="career-competency-container" style="display: none;">
+                                      {% for competency in competency_array %}
+                                      {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
+                                      <div class="career-competency-input-groups" data-facet="competency" data-facet-comp-group="{{ competency_group_id }}" data-facet-id="{{ competency_id | downcase }}">
+                                        <div class="career-competency-level-4-input-group">
+                                          <div class="career-input-group margin-top-105">
+                                            <input
+                                              type="checkbox"
+                                              id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
+                                              data-filter="competency"
+                                              data-major-group="general"
+                                              data-group="{{ competency_group_id | downcase }}"
+                                              data-id="{{ competency_id | downcase }}"
+                                              title="{{ competency }}"
+                                              aria-label="{{ competency }}"
+                                            />
+                                            <label for="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}" class="career-competency-input-groups-label">{{ competency }}</label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {% endfor %}
+                                  </div>
                                 </div>
+                              </div>
                             </div>
                         {% endfor %}
-
-                    </div>
+                      </div>
                 </div>
             </div>
             <div id="career-advancement-results-container" class="tablet:grid-col-8 desktop:grid-col-9 usa-prose padding-right-4">
+                <a id="main-content"></a>
                 <!-- HTML elements for search -->
                 <section class="career-search-results-header margin-top-5 tablet:margin-top-10">
                     <div class="search-container flex-justify flex-wrap tablet:flex-no-wrap">
@@ -253,7 +256,8 @@ attached:
                     </section>
 
                 </section>
-                <div class="career-search-results-filter-pagination">
+                <div class="career-search-results-secondary-header">
+                  <div class="career-search-results-filter-pagination">
                   {% assign post_count = site.cards | size %}
                   {% assign default_page_size = 10 %}
                   {% assign post_pages = post_count | divided_by: default_page_size %}
@@ -261,6 +265,10 @@ attached:
                   {% if post_modulus > 0 %}
                       {% assign post_pages = post_pages | plus: 1 %}
                   {% endif %}
+                    <div class="career-search-results-pagination-wrapper">
+                      <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }} Results</p>
+                    </div>
+                  </div>
                   <div class="career-search-results-page-size-wrapper float-right">
                     <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">Results per page: </label>
                     <select id="per-page-top" class="usa-select width-8 display-inline-block margin-top-0" name="per_page">
@@ -268,9 +276,6 @@ attached:
                       <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
                       <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
                     </select>
-                  </div>
-                  <div class="career-search-results-pagination-wrapper">
-                    <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }} Results</p>
                   </div>
                 </div>
                 <div id="career-search-results">

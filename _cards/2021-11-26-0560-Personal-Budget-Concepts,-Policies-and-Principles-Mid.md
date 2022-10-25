@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Budget Concepts, Policies and Principles
 competency_group: Personal
 competency_description: Apply fiscal law, policies, regulations, principles, standards and procedures to financial management activities
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Develops budget and financial guidelines that conform to fiscal requirements ? Makes recommendations regarding the budget process or financial operations
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 33 Excel&#58; Creating Business Budgets, Carahsoft, <a href="https://www.linkedin.com/learning/excel-creating-business-budgets">https://www.linkedin.com/learning/excel-creating-business-budgets</a>
-filters: Personal-Budget-Concepts-Policies-and-Principles GS-10-13 series-0560
+filters: Personal-Budget-Concepts-Policies-and-Principles GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

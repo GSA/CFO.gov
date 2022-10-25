@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Enterprise Perspective
 competency_group: Leading
 competency_description: An ability to think broadly and connect the dots among various aspects of the enterprise 
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Understands the political, legal and administrative forces that influence the offices work, relationships with other Departments and Congress ? Recognizes the need for teamwork to meet the mission and fosters that ? Manages conflict across organizations ? Models behaviors that demonstrate sensitivity to sharing knowledge with others, including workforce development, and demonstrating good governance and leadership techniques
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 100 Creating a Culture of Collaboration, Carahsoft, <a href="https://www.linkedin.com/learning/creating-a-culture-of-collaboration">https://www.linkedin.com/learning/creating-a-culture-of-collaboration</a>
  - 101 How to Resolve Conflicts, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-resolve-conflicts">https://www.linkedin.com/learning/how-to-resolve-conflicts</a>
-filters: Leading-Enterprise-Perspective GS-14-15 series-0510
+filters: Leading-Enterprise-Perspective GS-Senior series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

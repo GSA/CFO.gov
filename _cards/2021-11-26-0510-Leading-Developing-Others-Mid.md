@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Developing Others
 competency_group: Leading
 competency_description: Develops the ability of others to perform and contribute to the organization
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Encourages employees to participate in mentoring programs and other learning opportunities ? Pairs new staff with seasoned employees to facilitate understanding of the position and organization ? Provides orientation to new employees ? Assesses staff and provides timely and consistent feedback regarding technical proficiency and effectiveness ? Provides constructive feedback, guidance and reinforcement to employees regarding job performance ? Works with staff to identify work goals and create individual development plans ? Evaluates training programs to ensure content meets staff needs
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 93 How to Develop your Career Plan, Carahsoft, <a href="https://www.linkedin.com/learning/how-to-develop-your-career-plan">https://www.linkedin.com/learning/how-to-develop-your-career-plan</a>
  - 94 Coaching and Developing Employees, Carahsoft, <a href="https://www.linkedin.com/learning/coaching-and-developing-employees-5">https://www.linkedin.com/learning/coaching-and-developing-employees-5</a>
-filters: Leading-Developing-Others GS-10-13 series-0510
+filters: Leading-Developing-Others GS-Mid series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

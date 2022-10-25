@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Public Service Motivation
 competency_group: Primary
 competency_description: Shows a commitment to serve the public; ensures that actions meet public needs; aligns organizational objectives and practices with public interests
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Approves funding documentation in accordance with procedures to ensure public resources are utilized appropriately ? Improves processes used to monitor contractors and vendors for supplies, services, and-or equipment to ensure government funds are expended appropriately ? Encourages a commitment to public service
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 212 Managing Project Stakeholders, Carahsoft, <a href="https://www.linkedin.com/learning/managing-project-stakeholders-2">https://www.linkedin.com/learning/managing-project-stakeholders-2</a>
-filters: Primary-Public-Service-Motivation GS-10-13 series-0560
+filters: Primary-Public-Service-Motivation GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

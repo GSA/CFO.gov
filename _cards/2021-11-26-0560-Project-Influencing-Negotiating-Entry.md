@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Influencing-Negotiating
 competency_group: Project
 competency_description: Persuades others to accept recommendations, cooperate, or change their behavior; works with others towards an agreement; negotiates to find mutually acceptable solutions
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Inspires commitment to achieve outcomes and build coalitions
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 159 Complex Negotiation Tips, Carahsoft, <a href="https://www.linkedin.com/learning/complex-negotiation-tips">https://www.linkedin.com/learning/complex-negotiation-tips</a>
-filters: Project-Influencing-Negotiating GS-7-9 series-0560
+filters: Project-Influencing-Negotiating GS-Entry series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

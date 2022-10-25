@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Management Analysis
 competency_group: Secondary
 competency_description: Analyze, evaluate and review budget and program issues and financial data and reports using business tools and applications, cost and economic analysis, and performance metrics to provide recommendations 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Solves difficult challenges through financial analysis to determine the proper course of action and provides advice to decision-makers
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 115 Accounting Foundations&#58; Managerial Accounting, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-managerial-accounting">https://www.linkedin.com/learning/accounting-foundations-managerial-accounting</a>
-filters: Secondary-Financial-Management-Analysis GS-10-13 series-0511
+filters: Secondary-Financial-Management-Analysis GS-Mid series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

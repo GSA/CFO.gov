@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Accounting Analysis
 competency_group: Secondary
 competency_description: Analyze, evaluate and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Interprets and evaluates accounting information using a variety of analytical methods to provide recommendations
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 7 Business Analysis&#58; Essential Tools and Techniques, Carahsoft, <a href="https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques">https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques</a>
-filters: Secondary-Accounting-Analysis GS-10-13 series-0560
+filters: Secondary-Accounting-Analysis GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

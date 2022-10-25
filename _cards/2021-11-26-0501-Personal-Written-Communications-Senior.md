@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Written Communications
 competency_group: Personal
 competency_description: Recognizes or uses correct English grammar, punctuation, and spelling; communicates information (for example, facts, ideas, or messages) in a succinct and organized manner; produces written information, which may include technical material, that is appropriate for the intended audience
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Writes complex documents, using clear terminology and a concise format as appropriate for decision makers ? Tailors written communications to address the most critical issues in a compelling and diplomatic manner ? Writes clear, concise issue papers or policy documents on complex topics, such as establishing Department-wide guidance or guidelines
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 243 Ninja Writing&#58; The Four Levels of Writing Mastery, Carahsoft, <a href="https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery">https://www.linkedin.com/learning/ninja-writing-the-four-levels-of-writing-mastery</a>
-filters: Personal-Written-Communications GS-14-15 series-0501
+filters: Personal-Written-Communications GS-Senior series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

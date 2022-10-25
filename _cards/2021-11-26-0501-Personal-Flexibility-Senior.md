@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Flexibility
 competency_group: Personal
 competency_description: Is open to change and new information; adapts behavior or work methods in response to new information, changing conditions, or unexpected obstacles; effectively deals with ambiguity
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Adjusts organizational priorities quickly as situations change ? Shifts agency goals and initiatives to align with administration and Congressional priorities ? Implements a successful action plan after a major organizational change ? Prioritizes, considers alternatives, and responds quickly and effectively to unexpected and rapidly changing conditions
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 135 Adapting Leadership to Behavioral Styles, Carahsoft, <a href="https://www.linkedin.com/learning/adapting-leadership-to-behavioral-styles">https://www.linkedin.com/learning/adapting-leadership-to-behavioral-styles</a>
  - 136 485L&#58; Sustainable Organizational Change Management, Learning Tree
-filters: Personal-Flexibility GS-14-15 series-0501
+filters: Personal-Flexibility GS-Senior series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

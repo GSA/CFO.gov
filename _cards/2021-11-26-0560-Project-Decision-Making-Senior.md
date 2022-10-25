@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Decision Making
 competency_group: Project
 competency_description: Makes sound, well-informed, and objective decisions; perceives the impact and implications of decisions; commits to action, even in uncertain situations, to accomplish organizational goals; causes change 
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Changes course of action despite public support when new information indicates previous strategy would not succeed ? Makes timely decisions using available information regarding severe operating budget reductions including possible reductions in force (RIFs
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 80 Change Management Tips for Leaders, Carahsoft, <a href="https://www.linkedin.com/learning/change-management-tips-for-leaders">https://www.linkedin.com/learning/change-management-tips-for-leaders</a>
-filters: Project-Decision-Making GS-14-15 series-0560
+filters: Project-Decision-Making GS-Senior series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

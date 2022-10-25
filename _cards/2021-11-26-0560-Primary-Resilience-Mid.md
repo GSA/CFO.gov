@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Resilience
 competency_group: Primary
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Meets with employees resistant to organizational change to address concerns ? Maintains composure and direction in high-pressure situations ? Accepts negative feedback in a constructive manner and adjusts behavior accordingly
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 216 Leading Change (MGMT7201), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=MGMT7201">https://www.graduateschool.edu/solr-search/content?keys=MGMT7201</a>
-filters: Primary-Resilience GS-10-13 series-0560
+filters: Primary-Resilience GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

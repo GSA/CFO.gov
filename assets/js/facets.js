@@ -570,7 +570,7 @@ function adjustSearchOrder() {
  */
 function createButtonText(text) {
   let part1 = text.split("-");
-  if(part1[0] == 'GS') return part1[0]+" "+part1[1]+"-"+part1[2];
+  if(part1[0] == 'GS') return part1[0]+" "+$('#'+text).text();
   else {
     let removeButtonText = part1.join(" ");
     return (' '+removeButtonText).replace(/ [\w]/g, a => a.toLocaleUpperCase()).trim();
@@ -584,30 +584,16 @@ function createButtonText(text) {
 function getSearch() {
   results = [];
     // take search and facet(data) selections and iterate through res looking for matches
-    /* if(startingSearchFilter.length > 0) {
-      let cvalue = '';
-      if(startingSearchFilter[0].keys === null) {
-        console.log('Its a filter: ' + startingSearchFilter[0].id);
-      } else {
-        console.log('Its a Search: ' + startingSearchFilter[0].keys);
-      }
-    } */
-
 
     // create a count of the the items displayed and display it.
     // count all search results for an item as a sanity check and make a spread sheet.
-  // console.log("searchOrder: " + JSON.stringify(searchOrder));
-  if(searchOrder.length > 0) {
+  if (searchOrder.length > 0) {
     searchOrder.forEach((searchItem, index) => {
-      // console.log("Index: " + index);
       switch(index) {
         case 0:
-          // console.log("searchItem: " + searchItem);
-          if(searchItem == 'search') { // is the search always first No - if first add if second subtract
-            //console.log(startingSearchFilter[0].keys);
+          if (searchItem == 'search') { // is the search always first No - if first add if second subtract
             fullSet.forEach(item => { // go over all loaded md pages
               searchKeys.forEach(term => {
-                //console.log(item[term].toLowerCase() + " &&&& " + startingSearchFilter[0].keys.toLowerCase());
                 if (typeof item[term] == "string") {
                   if(item[term].toLowerCase().match(startingSearchFilter[0].keys.toLowerCase())) {
                     if (!ifExistsResults(item.permalink, results)) {
@@ -660,7 +646,6 @@ function getSearch() {
                       val = filters[0];
                   }
 
-                  // console.log("Val: " + val);
                   if (val.toLowerCase() == obj.id.toLowerCase()) {
                     if (!ifExistsResults(item.permalink, results)) {
                       results.push(item);
@@ -680,7 +665,6 @@ function getSearch() {
               searchKeys.forEach(term => {
                 data.forEach(obj => { // go over the search and facets selected
                   if(obj.type == 'keys') {
-                    // console.log(item[term].toLowerCase() + " &&&& " + obj.keys.toLowerCase());
                     if(item[term].toLowerCase().match(obj.keys.toLowerCase())) {
                       if(!ifExistsResults(item.permalink, newResults)) {
                         newResults.push(item);
@@ -690,7 +674,6 @@ function getSearch() {
                 });
               });
             });
-            // console.log("New Results: " + newResults.length);
           } else {
             // create a results array for the next search criteria
             fullSet.forEach(item => { // go over all loaded md pages
@@ -709,7 +692,6 @@ function getSearch() {
                       val = filters[0];
                   }
 
-                  //console.log("Val: " + val);
                   if (val.toLowerCase() == obj.id.toLowerCase()) {
                     if(!ifExistsResults(item.permalink, newResults)) {
                       newResults.push(item);
@@ -718,7 +700,6 @@ function getSearch() {
                 }
               });
             });
-            // console.log("New Results: " + newResults.length);
           }
 
           // look for newfilters in prior results set and if they are there
@@ -746,67 +727,116 @@ function getSearch() {
 
       // console.log("searchItem: " + searchItem);
       if (searchItem == 'series' || searchItem == 'level') {
-        enableDisableCompetencies(false);
+       // enableDisableCompetencies(false);
       }
     });
-
-    // console.log("Results Length: " + results.length);
-
-    $("#career-search-results").empty();
-
-    // console.log("noResults Competency Groups: " + noResultsCompGroups.length);
-    // console.log("noResults Competency: " + noResultsComps.length);
-    // console.log("Results Length: " + results.length);
-
-    if(results.length === 0) {
-      // console.log("Search Order Length: " + searchOrder.length);
-      if(searchOrder.length === 0) {
-        for (i=0; i < Math.min(fullSet.length, perPage); i++) {
-          if (typeof(fullSet[i]) != "undefined" && fullSet[i] !== null) {
-            createResults(false, fullSet[i]);
-          }
-        }
-        $(".cfo-pagination-results").text(fullSet.length);
-      } else {
-        createResults(true);
-        setTotalItems();
-        $(".cfo-pagination-results").text(totalItems);
-        $(".cfo-page-right").attr("disabled", "disabled");
-        $(".cfo-page-left").attr("disabled", "disabled");
-      }
-    } else {
-      for (i=0; i < Math.min(results.length, perPage); i++) {
-        if (typeof(results[i]) != "undefined" && results[i] !== null) {
-          // console.log(JSON.stringify(results[i]));
-          createResults(false, results[i]);
-        }
-      }
-      $(".cfo-page-left").attr("disabled", "disabled");
-      $(".cfo-page-right").removeAttr("disabled");
-
-      setTotalItems();
-      $(".cfo-pagination-results").text(totalItems);
-    }
-
-    setCurrentPage(1);
-    $(".cfo-pagination-page").text(currentPage);
-    setTotalPages();
-    $(".cfo-pagination-pages").text(totalPages);
-  } else {
-    $("#career-search-results").empty();
-    for (i=0; i < Math.min(fullSet.length, perPage); i++) {
-      if (typeof(fullSet[i]) != "undefined" && fullSet[i] !== null) {
+  }
+    
+  $("#career-search-results").empty();
+  if(results.length === 0) {
+    if(searchOrder.length === 0) {
+      for (i=0; i < Math.min(fullSet.length, perPage); i++) {
         createResults(false, fullSet[i]);
       }
+      $(".cfo-pagination-results").text(fullSet.length);
+      resetFacets();
+    } else {
+      createResults(true);
+      setTotalItems();
+      $(".cfo-pagination-results").text(totalItems);
+      $(".cfo-page-right").attr("disabled", "disabled");
+      $(".cfo-page-left").attr("disabled", "disabled");
     }
-    $(".cfo-pagination-results").text(fullSet.length);
-    setCurrentPage(1);
-    $(".cfo-pagination-page").text(currentPage);
-    setTotalPages();
-    $(".cfo-pagination-pages").text(totalPages);
-    enableDisableCompetencies(true);
+  } else {
+    for (i=0; i < Math.min(results.length, perPage); i++) {
+      if (typeof(results[i]) != "undefined" && results[i] !== null) {
+        // console.log(JSON.stringify(results[i]));
+        createResults(false, results[i]);
+      }
+    }
+    $(".cfo-page-left").attr("disabled", "disabled");
+    $(".cfo-page-right").removeAttr("disabled");
+
+    setTotalItems();
+    $(".cfo-pagination-results").text(totalItems);
+    handleFacets(results);
   }
-  unselectAll();
+
+  setCurrentPage(1);
+  $(".cfo-pagination-page").text(currentPage);
+  setTotalPages();
+  $(".cfo-pagination-pages").text(totalPages);
+}
+
+function handleFacets(results) {
+  let series = {},
+    level = {},
+    competencies = {};
+  results.forEach(function (i) {
+    series[i.series] = series[i.series] + 1 || 1;
+    level[i.career_level] = level[i.career_level] + 1 || 1;
+    let comp_str = i.competency_group + '|' + i.competency.toLowerCase().replaceAll(' ', '-');
+    competencies[comp_str] = competencies[comp_str] + 1 || 1;
+  });
+  
+  let toShow = $();
+  let toHide = $();
+  
+  // handle series (0510, etc)
+  if (searchOrder.includes('series')) {
+    toShow = toShow.add($('[data-facet="series"]'));
+  }
+  else {
+    toHide = toHide.add($('[data-facet="series"]'));
+    for (let k in series) {
+      let str = '[data-facet="series"][data-id="series-'+k+'"]';
+      toShow = toShow.add(str);
+      toHide = toHide.not(str);
+    }
+  }
+  
+  // handle GS level (7-9, etc.)
+  if (searchOrder.includes('level')) {
+    toShow = toShow.add($('[data-facet="level"]'));
+  }
+  else {
+    toHide = toHide.add($('[data-facet="level"]'));
+    for (let k in level) {
+      let str = '[data-facet="level"][data-id="GS-'+k.toLowerCase()+'"]';
+      let elems = $(str);
+      toShow = toShow.add(elems);
+      toHide = toHide.not(elems);
+    }
+  }
+  
+  // handle competencies
+  if (searchOrder.includes('competency')) {
+    toShow = toShow.add($('[data-facet="competency"]'));
+  }
+  else {
+    toHide = toHide.add($('[data-facet-competency-group]'));
+    toHide = toHide.add($('[data-facet="competency"]'));
+    for (let k in competencies) {
+      let group, comp;
+      // this is called 'destructuring assignment'
+      [ group, comp ] = k.split('|');
+      let str = '[data-facet="competency"][data-facet-comp-group="'+group+'"][data-facet-id="'+comp+'"]';
+      toShow = toShow.add(str);
+      toHide = toHide.not(str);
+      str = '[data-facet-competency-group="'+group+'"]';
+      toShow = toShow.add(str);
+      toHide = toHide.not(str);
+    }
+  }
+  
+  // cannot use .show() or .hide() because it does nothing if the element is already hidden, like collapsed
+  toShow.removeClass('display-none');
+  toHide.addClass('display-none');
+  
+}
+
+function resetFacets() {
+  $('[data-facet], [data-facet-competency-group]').removeClass('display-none');
 }
 
 /**
@@ -970,6 +1000,7 @@ function enableDisableCompetencies(all) {
               //console.log(JSON.stringify(searchOrder));
               return false;
             } else if(button[0].classList.contains("cfo-page-right")) {
+              // Pager, moves to the next page
               if(currentPage < totalPages) {
                 $("#career-search-results").empty();
                 setCurrentPage(currentPage += 1);
@@ -997,6 +1028,7 @@ function enableDisableCompetencies(all) {
               }
               return false;
             } else if(button[0].classList.contains("cfo-page-left")) {
+              // Pager, moves to the previous page
               if(currentPage > 1) {
                 $("#career-search-results").empty();
                 setCurrentPage(currentPage -= 1);
@@ -1024,15 +1056,9 @@ function enableDisableCompetencies(all) {
               }
               return false;
             }
-          } else if (button[0].id.match('competency-group-button')) {
-            $(this).parent().siblings().slideToggle();
-            $(this).parent().siblings().each(function () {
-              if ($(this).children().css("display") == "none") {
-                $(this).css("display", "none");
-              } else {
-                $(this).css("display", "block");
-              }
-            });
+          } else if(button[0].id.match('competency-group-button')) {
+            // Toggles visibility of competency groups
+            $(this).parents('.career-competency-toggle-open').find('.career-competency-container').slideToggle();
             $(this).find('i').toggleClass('fa-plus fa-minus');
           } else {
             if (!ifExists(evt.target.id)) {

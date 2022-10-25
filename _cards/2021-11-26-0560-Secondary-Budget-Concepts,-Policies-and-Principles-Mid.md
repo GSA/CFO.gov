@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Budget Concepts, Policies and Principles
 competency_group: Secondary
 competency_description: Apply fiscal law, policies, regulations, principles, standards and procedures to financial management activities
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Examines a variety of program plans and funding to determine performance in accordance with appropriate procedures, regulations and law
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 32 1323&#58;  FPM 233 - Applications in Business, Cost and Financial Management, Learning Tree, <a href="https://www.learningtree.com/courses/1323/fac-p-pm-certification-applications-in-business-cost-and-financial-management/">https://www.learningtree.com/courses/1323/fac-p-pm-certification-applications-in-business-cost-and-financial-management/</a>
-filters: Secondary-Budget-Concepts-Policies-and-Principles GS-10-13 series-0560
+filters: Secondary-Budget-Concepts-Policies-and-Principles GS-Mid series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

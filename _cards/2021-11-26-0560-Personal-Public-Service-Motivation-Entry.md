@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Public Service Motivation
 competency_group: Personal
 competency_description: Shows a commitment to serve the public; ensures that actions meet public needs; aligns organizational objectives and practices with public interests
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Responds promptly and accurately to public inquiries about agency policies ? Suggests gaining feedback from public regarding new policy ? Reviews unit's policies and procedures on a regular basis to ensure they are consistent with public needs ? Determines community needs by surveying citizens
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 210 A Guide to ERGs (Employee Resource Groups), Carahsoft, <a href="https://www.linkedin.com/learning/a-guide-to-ergs-employee-resource-groups">https://www.linkedin.com/learning/a-guide-to-ergs-employee-resource-groups</a>
  - 211 Building Inclusive Work Communities, Carahsoft, <a href="https://www.linkedin.com/learning/building-inclusive-work-communities">https://www.linkedin.com/learning/building-inclusive-work-communities</a>
-filters: Personal-Public-Service-Motivation GS-7-9 series-0560
+filters: Personal-Public-Service-Motivation GS-Entry series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

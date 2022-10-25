@@ -11,12 +11,12 @@ functional_competency_designation: General Career Competencies
 competency: Organizational Awareness
 competency_group: Project
 competency_description: Knows the organization’s mission and functions, and how its social, political, and technological systems work and operates effectively within them; this includes the programs, policies, procedures, rules, and regulations of the organization
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Keeps up-to-date by attending key meetings hosted by other agencies or organizations ? Keeps abreast of developments of other parts of the organization
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - 192 Organization Communication, Carahsoft, <a href="https://www.linkedin.com/learning/organization-communication">https://www.linkedin.com/learning/organization-communication</a>
-filters: Project-Organizational-Awareness GS-10-13 series-0511
+filters: Project-Organizational-Awareness GS-Mid series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

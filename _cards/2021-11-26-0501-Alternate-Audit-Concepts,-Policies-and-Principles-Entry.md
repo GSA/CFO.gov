@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Audit Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply the Federal Acquisition Regulation (FAR), Generally Accepted Government Auditing Standards (GAGAS), Generally Accepted Auditing Standards (GAAS), fiscal law, internal controls, policies, regulations, principles, standards and procedures governing audit activities 
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Uses typical audit procedures and practices that apply to most situations ? Applies knowledge of policies and procedures to ensure adherence to auditing and accounting guidelines
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 22 Administrative Skills Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688</a>
  - 23 Basic Auditing Concepts, BMRA
-filters: Alternate-Audit-Concepts-Policies-and-Principles GS-7-9 series-0501
+filters: Alternate-Audit-Concepts-Policies-and-Principles GS-Entry series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

@@ -11,13 +11,13 @@ functional_competency_designation: General Career Competencies
 competency: Resilience
 competency_group: Personal
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Meets with employees resistant to organizational change to address concerns ? Maintains composure and direction in high-pressure situations ? Accepts negative feedback in a constructive manner and adjusts behavior accordingly ? Perseveres on project despite changing objectives, deliverables and deadlines ? Develops strategies using existing resources for achieving objectives following budget cuts
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - 216 Leading Change (MGMT7201), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=MGMT7201">https://www.graduateschool.edu/solr-search/content?keys=MGMT7201</a>
  - 217 Preparing to Lead&#58; Developing Mental Toughness in Yourself, Carahsoft, <a href="https://www.linkedin.com/learning/preparing-to-lead-developing-mental-toughness-in-yourself">https://www.linkedin.com/learning/preparing-to-lead-developing-mental-toughness-in-yourself</a>
-filters: Personal-Resilience GS-10-13 series-0501
+filters: Personal-Resilience GS-Mid series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

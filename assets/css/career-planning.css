@@ -54,6 +54,12 @@
   width: 100%;
 }
 
+.career-search-results-secondary-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .cfo-card-header-content {
   display: flex;
   justify-content: space-between;
@@ -180,13 +186,13 @@ input#career-advancement-search-input {
 .career-search-results-filter-pagination {
   font-size: 20px;
   font-weight: bold;
+  margin-left: calc(50% - 6.5em);
 }
 
 .career-search-results-pagination-wrapper {
   display: flex;
   width: 13em;
   justify-content: space-between;
-  margin: 0 auto;
   line-height: 2;
 }
 

@@ -11,12 +11,12 @@ functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Accounting
 competency_group: Secondary
 competency_description: Knowledge of traditional accounting practices including accrual, obligations, and costs methods
-level: "14-15"
+level: "Senior&#58; (14-15)"
 behavior_illustrations: Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - 141 Accounting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688">https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688</a>
-filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0510
+filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-Senior series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

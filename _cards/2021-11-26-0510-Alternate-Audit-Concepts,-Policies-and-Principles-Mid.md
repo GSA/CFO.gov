@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Audit Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply the Federal Acquisition Regulation (FAR), Generally Accepted Government Auditing Standards (GAGAS), Generally Accepted Auditing Standards (GAAS), fiscal law, internal controls, policies, regulations, principles, standards and procedures governing audit activities 
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Analyzes a variety of documents, records and processes to determine performance in accordance with appropriate procedures and regulations ? Develops audit guidelines that conform to Generally Accepted Auditing Standards (GAAS) and Generally Accepted Government Auditing Standards (GAGAS ? Makes recommendations for improvement or implementation of new policies
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 23 Basic Auditing Concepts, BMRA
  - 24 Audit and Due Diligence&#58; Priorities and Best Practices, Carahsoft, <a href="https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices">https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices</a>
-filters: Alternate-Audit-Concepts-Policies-and-Principles GS-10-13 series-0510
+filters: Alternate-Audit-Concepts-Policies-and-Principles GS-Mid series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

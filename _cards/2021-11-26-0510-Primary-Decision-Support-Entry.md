@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Decision Support
 competency_group: Primary
 competency_description: Knowledge of decision support theories, methods, and tools for identifying, synthesizing, representing, and evaluating the important aspects of a decision situation and prescribing the recommended course for decision makers and other stakeholders
-level: "7-9"
+level: "Entry&#58; (7-9)"
 behavior_illustrations: Applies knowledge of financial, accounting and economic analysis to assist with the decision making process ? Interprets the data of financial, accounting and economic analysis to prepare for decision making
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 87 Business Analysis for Busy Professionals, Carahsoft, <a href="https://www.linkedin.com/learning/business-analysis-for-busy-professionals">https://www.linkedin.com/learning/business-analysis-for-busy-professionals</a>
  - 88 Decision Support Analytics (FINC8120), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=FINC8120">https://www.graduateschool.edu/solr-search/content?keys=FINC8120</a>
-filters: Primary-Decision-Support GS-7-9 series-0510
+filters: Primary-Decision-Support GS-Entry series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">

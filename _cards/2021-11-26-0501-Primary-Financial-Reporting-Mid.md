@@ -11,13 +11,13 @@ functional_competency_designation: Job Specific Competencies
 competency: Financial Reporting
 competency_group: Primary
 competency_description: Prepare, review and reconcile financial statements and financial reports to meet reporting requirements and to support management decisions
-level: "10-13"
+level: "Mid&#58; (10-13)"
 behavior_illustrations: Reviews and reconciles the financial statements and-or reports to ensure accuracy and completeness ? Summarizes information related to the financial statements and-or reports, and recommends improvement options
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 124 Federal Activity Costing, Analysis and Reporting (BUDG8010), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=BUDG8010">https://www.graduateschool.edu/solr-search/content?keys=BUDG8010</a>
  - 125 Accounting Foundations&#58; Internal Controls, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-internal-controls">https://www.linkedin.com/learning/accounting-foundations-internal-controls</a>
-filters: Primary-Financial-Reporting GS-10-13 series-0501
+filters: Primary-Financial-Reporting GS-Mid series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
