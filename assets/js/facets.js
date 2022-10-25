@@ -79,6 +79,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     let eventId = createId(item);
                     var labelId = "#competency-group-label-" + eventId;
                     $(labelId).html("<strong>De-Select All</strong>");
+                    console.log(eventId);
                 });
             } else {
                 $(jobSelect).html("<strong>Select All</strong>");
