@@ -77,7 +77,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 $(jobSelect).html("<strong>De-Select All</strong>");
                 $('[data-filter="competency"][data-major-group="' + 'job-specific'+ '"]').each((index, elem) => {
                     let $elem = $(elem);
-                    $elem.html("<strong>De-Select All</strong>");
+                  /*  $elem.html("<strong>De-Select All</strong>");*/
                 });
             } else {
                 $(jobSelect).html("<strong>Select All</strong>");
