@@ -141,7 +141,7 @@ attached:
                                         <div class="career-competency-container" style="display: none;">
                                           {% for competency in competency_array %}
                                           {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
-                                          <div class="career-competency-input-groups">
+                                          <div class="career-competency-input-groups" data-facet="competency" data-facet-comp-group="{{ competency_group_id }}" data-facet-id="{{ competency_id | downcase }}">
                                               <div class="career-competency-level-4-input-group">
                                                   <div class="career-input-group margin-top-105">
                                                       <input
@@ -200,7 +200,7 @@ attached:
                                   <div class="career-competency-container" style="display: none;">
                                       {% for competency in competency_array %}
                                       {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
-                                      <div class="career-competency-input-groups" data-facet="competency" data-facet-id="{{ competency_id | downcase }}">
+                                      <div class="career-competency-input-groups" data-facet="competency" data-facet-comp-group="{{ competency_group_id }}" data-facet-id="{{ competency_id | downcase }}">
                                         <div class="career-competency-level-4-input-group">
                                           <div class="career-input-group margin-top-105">
                                             <input

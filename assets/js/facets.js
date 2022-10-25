@@ -820,7 +820,7 @@ function handleFacets(results) {
       let group, comp;
       // this is called 'destructuring assignment'
       [ group, comp ] = k.split('|');
-      let str = '[data-facet="competency"][data-facet-id="'+comp+'"]';
+      let str = '[data-facet="competency"][data-facet-comp-group="'+group+'"][data-facet-id="'+comp+'"]';
       toShow = toShow.add(str);
       toHide = toHide.not(str);
       str = '[data-facet-competency-group="'+group+'"]';
