@@ -174,7 +174,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
                         var labelId = "#competency-group-label-" + itemElement;
                         console.log(labelId);
-                        if ($(labelId).text() == 'Select All') {
+                        if ($(labelId).text() == 'De-Select All') {
                             jobSpecificSelectedCount = jobSpecificSelectedCount + 1;
                             console.log(jobSpecificSelectedCount);
                         }
