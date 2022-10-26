@@ -108,13 +108,11 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         else if (this.id.includes('general')) {
             major_group = 'general';
         }
-        console.log(major_group);
         let checked = this.checked;
         $('[data-filter="competency"][data-major-group="' + major_group + '"]').each((index, elem) => {
             let item = elem.title;
             let eventGroupId = createId(item);
             let $elem = $(elem);
-            console.log(item);
             $(elem).prop({ checked: checked });
             if (elem.hasAttribute('data-group')) {
                 $elem.trigger('change');
@@ -184,36 +182,41 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 } else {
                     $(labelId).html("<strong>Select All</strong>");
                 }
-                let jobSpecificSelectedCount = 0;
-                competency_group.forEach(item => {
-                    let itemElement = createId(item);
-                    let itemElementEventId = document.getElementById(itemElement);
-                    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
-                        var labelId = "#competency-group-label-" + itemElement;
-                        if ($(labelId).text() == 'Select All') {
-                            jobSpecificSelectedCount = jobSpecificSelectedCount + 1;
-                        }
-                    }
-                });
-                if (jobSpecificSelectedCount === 3) {
-                    var jobSelect = '#job-career-competency-select';
-                    $(jobSelect).html("<strong>Select All</strong>");
-                }
-                let generalSpecificSelectedCount = 0;
-                competency_group.forEach(item => {
-                    let itemElement = createId(item);
-                    let itemElementEventId = document.getElementById(itemElement);
-                    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'general') {
-                        var labelId = "#competency-group-label-" + itemElement;
-                        if ($(labelId).text() == 'Select All') {
-                            generalSpecificSelectedCount = generalSpecificSelectedCount + 1;
-                        }
-                    }
-                });
-                if (generalSpecificSelectedCount === 4) {
-                    var generalSelect = '#general-career-competency-select';
-                    $(generalSelect).html("<strong>Select All</strong>");
-                }
+                // This is for All child De-Select All and main De-Select All
+                //let jobSpecificSelectedCount = 0;
+                //competency_group.forEach(item => {
+                //    let itemElement = createId(item);
+                //    let itemElementEventId = document.getElementById(itemElement);
+                //    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
+                //        var labelId = "#competency-group-label-" + itemElement;
+                //        if ($(labelId).text() == 'Select All') {
+                //            jobSpecificSelectedCount = jobSpecificSelectedCount + 1;
+                //        }
+                //    }                   
+                //});
+                //if (jobSpecificSelectedCount === 3) {
+                //    var jobSelect = '#job-career-competency-select';
+                //    $(jobSelect).html("<strong>Select All</strong>");
+                //    createClearButton();
+                //}
+
+                //let generalSpecificSelectedCount = 0;
+                //competency_group.forEach(item => {
+                //    let itemElement = createId(item);
+                //    let itemElementEventId = document.getElementById(itemElement);
+                //    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'general') {
+                //        var labelId = "#competency-group-label-" + itemElement;
+                //        if ($(labelId).text() == 'Select All') {
+                //            generalSpecificSelectedCount = generalSpecificSelectedCount + 1;
+                //        }
+                //    }
+                //});
+                //if (generalSpecificSelectedCount === 4) {
+                //    var generalSelect = '#general-career-competency-select';
+                //    $(generalSelect).html("<strong>Select All</strong>");
+                //    createClearButton();
+                //}
+                
                 if (this.checked) {
                     if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
                     if (startingSearchFilter.length == 0) {
@@ -1005,7 +1008,6 @@ function enableDisableCompetencies(all) {
 }
 
 (function ($) {
-
     /**
      * Iterates through all buttons and links and attaches n event to them
      * triggered in _includes/scripts.html
