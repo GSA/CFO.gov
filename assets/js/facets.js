@@ -168,13 +168,13 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     $(labelId).html("<strong>Select All</strong>");
                 }
                 let jobSpecificSelectedCount = 0;
-                competency_group.every(item => {
+                competency_group.forEach(item => {
                     let itemElement = createId(item);
                     let itemElementEventId = document.getElementById(itemElement);
                     if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
                         var labelId = "#competency-group-label-" + itemElement;
                         console.log(labelId);
-                        if ($(labelId).text() == 'De-Select All') {
+                        if ($(labelId).text() == 'Select All') {
                             jobSpecificSelectedCount = jobSpecificSelectedCount + 1;
                             console.log(jobSpecificSelectedCount);
                         }
