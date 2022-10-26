@@ -85,6 +85,14 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 });
             } else {
                 $(jobSelect).html("<strong>Select All</strong>");
+                competency_group.forEach(item => {
+                    let itemElement = createId(item);
+                    let eventId = document.getElementById(itemElement);
+                    if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
+                        var labelId = "#competency-group-label-" + itemElement;
+                        $(labelId).html("<strong>Select All</strong>");
+                    }
+                });
             }
         }
         if (id == 'general-career-competency-select-all') {
