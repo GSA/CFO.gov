@@ -140,7 +140,6 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
             });
         }
     });
-
     competency_group.forEach(item => {
         let eventId = createId(item);
         if (eventId != "") {
@@ -153,7 +152,6 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 $('label[for="' + eventId + '"]').removeClass("padding-05");
                 $('label[for="' + eventId + '"]').css("outline", "none");
             });
-
             $("#" + eventId).on('change', function () {
                 console.log("Select All Competency Group");
                 var labelId = "#competency-group-label-" + eventId;
@@ -161,6 +159,22 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     $(labelId).html("<strong>De-Select All</strong>");
                 } else {
                     $(labelId).html("<strong>Select All</strong>");
+                }
+                let isAllSelected = false;
+                competency_group.forEach(item => {
+                    let itemElement = createId(item);
+                    let itemElementEventId = document.getElementById(itemElement);
+                    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
+                        var labelId = "#competency-group-label-" + itemElement;
+                        isAllSelected = ($(labelId).text() == 'De-Select All');
+                        if (isAllSelected) {
+                            break;
+                        }
+                    }
+                });
+                if (!isAllSelected) {
+                    var jobSelect = '#job-career-competency-select';
+                    $(jobSelect).html("<strong>Select All</strong>");
                 }
                 if (this.checked) {
                     if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
