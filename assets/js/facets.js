@@ -58,7 +58,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         }
         else if (this.id.includes('general')) {
             major_group = 'general';
-        }      
+        }
         let checked = this.checked;
         $('[data-filter="competency"][data-major-group="' + major_group + '"]').each((index, elem) => {
             let item = elem.title;
@@ -80,7 +80,6 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     let eventId = document.getElementById(itemElement);
                     if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
                         var labelId = "#competency-group-label-" + itemElement;
-                        console.log(labelId);
                         $(labelId).html("<strong>De-Select All</strong>");
                     }
                 });
@@ -97,7 +96,6 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     let eventId = document.getElementById(itemElement);
                     if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
                         var labelId = "#competency-group-label-" + itemElement;
-                        console.log(labelId);
                         $(labelId).html("<strong>De-Select All</strong>");
                     }
                 });
@@ -109,7 +107,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
 
     // create an array of everything of both disabled and active.
     competency_group.forEach(groupItem => {
-        let eventGroupId = createId(groupItem);                      
+        let eventGroupId = createId(groupItem);
         if (eventGroupId != "") {
             competency.forEach(item => {
                 let eventId = createId(eventGroupId + " " + item);
@@ -175,8 +173,10 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     let itemElementEventId = document.getElementById(itemElement);
                     if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
                         var labelId = "#competency-group-label-" + itemElement;
+                        console.log(labelId);
                         if ($(labelId).text() == 'Select All') {
                             jobSpecificSelectedCount = jobSpecificSelectedCount + 1;
+                            console.log(jobSpecificSelectedCount);
                         }
                     }
                 });
