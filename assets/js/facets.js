@@ -79,7 +79,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     let eventId = createId(item);
                     console.log(eventId);
                     console.log($(eventId));
-                    console.log(($(eventId).attr('data-major-group')) && ($(eventId).attr('data-major-group') == 'job-specific'));
+                    console.log(($(eventId).attr('data-major-group') == 'job-specific'));
                     if ($(eventId).attr('data-major-group') && $(eventId).attr('data-major-group') == 'job-specific') {
                         var labelId = "#competency-group-label-" + eventId;
                         console.log(labelId);
