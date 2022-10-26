@@ -47,30 +47,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
     });
 
     $("#job-career-competency-select-all, #general-career-competency-select-all").on('change', function () {
-
-        if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
-        if (startingSearchFilter.length == 0) {
-            startingSearchFilter.push({ keys: null, id: 'competency' });
-        }
-        let major_group = '';
-        if (this.id.includes('job')) {
-            major_group = 'job-specific';
-        }
-        else if (this.id.includes('general')) {
-            major_group = 'general';
-        }
-        let checked = this.checked;
-        $('[data-filter="competency"][data-major-group="' + major_group + '"]').each((index, elem) => {
-            let item = elem.title;
-            let eventGroupId = createId(item);
-            let $elem = $(elem);
-            $(elem).prop({ checked: checked });
-            if (elem.hasAttribute('data-group')) {
-                $elem.trigger('change');
-            }
-        });
         var id = this.id;
-
         if (id == 'job-career-competency-select-all') {
             var jobSelect = '#job-career-competency-select';
             console.log($(jobSelect).text());
@@ -120,6 +97,27 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 });
             }
         }
+        if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
+        if (startingSearchFilter.length == 0) {
+            startingSearchFilter.push({ keys: null, id: 'competency' });
+        }
+        let major_group = '';
+        if (this.id.includes('job')) {
+            major_group = 'job-specific';
+        }
+        else if (this.id.includes('general')) {
+            major_group = 'general';
+        }
+        let checked = this.checked;
+        $('[data-filter="competency"][data-major-group="' + major_group + '"]').each((index, elem) => {
+            let item = elem.title;
+            let eventGroupId = createId(item);
+            let $elem = $(elem);
+            $(elem).prop({ checked: checked });
+            if (elem.hasAttribute('data-group')) {
+                $elem.trigger('change');
+            }
+        });   
     });
 
     // create an array of everything of both disabled and active.
