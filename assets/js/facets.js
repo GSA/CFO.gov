@@ -79,6 +79,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     let eventId = createId(item);
                     console.log(eventId);
                     console.log($(eventId));
+                    console.log($(eventId).attr('data-major-group'));
                     console.log(($(eventId).attr('data-major-group') == 'job-specific'));
                     if ($(eventId).attr('data-major-group') && $(eventId).attr('data-major-group') == 'job-specific') {
                         var labelId = "#competency-group-label-" + eventId;
@@ -102,7 +103,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
 
     // create an array of everything of both disabled and active.
     competency_group.forEach(groupItem => {
-        let eventGroupId = createId(groupItem);
+        let eventGroupId = createId(groupItem);                      
         if (eventGroupId != "") {
             competency.forEach(item => {
                 let eventId = createId(eventGroupId + " " + item);
