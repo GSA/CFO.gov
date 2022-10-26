@@ -108,11 +108,13 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         else if (this.id.includes('general')) {
             major_group = 'general';
         }
+        console.log(major_group);
         let checked = this.checked;
         $('[data-filter="competency"][data-major-group="' + major_group + '"]').each((index, elem) => {
             let item = elem.title;
             let eventGroupId = createId(item);
             let $elem = $(elem);
+            console.log(item);
             $(elem).prop({ checked: checked });
             if (elem.hasAttribute('data-group')) {
                 $elem.trigger('change');
