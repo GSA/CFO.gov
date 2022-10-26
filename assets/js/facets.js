@@ -176,9 +176,6 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 //    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
                 //        var labelId = "#competency-group-label-" + itemElement;
                 //        isAllSelected = ($(labelId).text() == 'De-Select All');
-                //        if (isAllSelected) {
-                //            break;
-                //        }
                 //    }
                 //});
                 //if (!isAllSelected) {
