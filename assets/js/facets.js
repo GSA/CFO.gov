@@ -169,19 +169,21 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 } else {
                     $(labelId).html("<strong>Select All</strong>");
                 }
-                //let isAllSelected = false;
-                //competency_group.forEach(item => {
-                //    let itemElement = createId(item);
-                //    let itemElementEventId = document.getElementById(itemElement);
-                //    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
-                //        var labelId = "#competency-group-label-" + itemElement;
-                //        isAllSelected = ($(labelId).text() == 'De-Select All');
-                //    }
-                //});
-                //if (!isAllSelected) {
-                //    var jobSelect = '#job-career-competency-select';
-                //    $(jobSelect).html("<strong>Select All</strong>");
-                //}
+                let jobSpecificSelectedCount = 0;
+                competency_group.every(item => {
+                    let itemElement = createId(item);
+                    let itemElementEventId = document.getElementById(itemElement);
+                    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
+                        var labelId = "#competency-group-label-" + itemElement;
+                        if ($(labelId).text() == 'Select All') {
+                            jobSpecificSelectedCount = jobSpecificSelectedCount + 1;
+                        }
+                    }
+                });
+                if (jobSpecificSelectedCount === 3) {
+                    var jobSelect = '#job-career-competency-select';
+                    $(jobSelect).html("<strong>Select All</strong>");
+                }
                 if (this.checked) {
                     if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
                     if (startingSearchFilter.length == 0) {
