@@ -194,8 +194,8 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     }
                 });
                 if (generalSpecificSelectedCount === 4) {
-                    var jobSelect = '#general-career-competency-select';
-                    $(jobSelect).html("<strong>Select All</strong>");
+                    var generalSelect = '#general-career-competency-select';
+                    $(generalSelect).html("<strong>Select All</strong>");
                 }
                 if (this.checked) {
                     if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
