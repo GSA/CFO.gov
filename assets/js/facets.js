@@ -92,6 +92,15 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
             var generalSelect = '#general-career-competency-select';
             if ($(generalSelect).text() == 'Select All') {
                 $(generalSelect).html("<strong>De-Select All</strong>");
+                competency_group.forEach(item => {
+                    let itemElement = createId(item);
+                    let eventId = document.getElementById(itemElement);
+                    if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
+                        var labelId = "#competency-group-label-" + itemElement;
+                        console.log(labelId);
+                        $(labelId).html("<strong>De-Select All</strong>");
+                    }
+                });
             } else {
                 $(generalSelect).html("<strong>Select All</strong>");
             }
@@ -160,22 +169,22 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 } else {
                     $(labelId).html("<strong>Select All</strong>");
                 }
-                let isAllSelected = false;
-                competency_group.forEach(item => {
-                    let itemElement = createId(item);
-                    let itemElementEventId = document.getElementById(itemElement);
-                    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
-                        var labelId = "#competency-group-label-" + itemElement;
-                        isAllSelected = ($(labelId).text() == 'De-Select All');
-                        if (isAllSelected) {
-                            break;
-                        }
-                    }
-                });
-                if (!isAllSelected) {
-                    var jobSelect = '#job-career-competency-select';
-                    $(jobSelect).html("<strong>Select All</strong>");
-                }
+                //let isAllSelected = false;
+                //competency_group.forEach(item => {
+                //    let itemElement = createId(item);
+                //    let itemElementEventId = document.getElementById(itemElement);
+                //    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
+                //        var labelId = "#competency-group-label-" + itemElement;
+                //        isAllSelected = ($(labelId).text() == 'De-Select All');
+                //        if (isAllSelected) {
+                //            break;
+                //        }
+                //    }
+                //});
+                //if (!isAllSelected) {
+                //    var jobSelect = '#job-career-competency-select';
+                //    $(jobSelect).html("<strong>Select All</strong>");
+                //}
                 if (this.checked) {
                     if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
                     if (startingSearchFilter.length == 0) {
