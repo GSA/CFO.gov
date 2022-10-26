@@ -173,14 +173,27 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     let itemElementEventId = document.getElementById(itemElement);
                     if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'job-specific') {
                         var labelId = "#competency-group-label-" + itemElement;
-                        console.log(labelId);
                         if ($(labelId).text() == 'Select All') {
                             jobSpecificSelectedCount = jobSpecificSelectedCount + 1;
-                            console.log(jobSpecificSelectedCount);
                         }
                     }
                 });
                 if (jobSpecificSelectedCount === 3) {
+                    var jobSelect = '#job-career-competency-select';
+                    $(jobSelect).html("<strong>Select All</strong>");
+                }
+                let generalSpecificSelectedCount = 0;
+                competency_group.forEach(item => {
+                    let itemElement = createId(item);
+                    let itemElementEventId = document.getElementById(itemElement);
+                    if (itemElementEventId.hasAttribute('data-major-group') && itemElementEventId.getAttribute('data-major-group') === 'general') {
+                        var labelId = "#competency-group-label-" + itemElement;
+                        if ($(labelId).text() == 'Select All') {
+                            generalSpecificSelectedCount = generalSpecificSelectedCount + 1;
+                        }
+                    }
+                });
+                if (generalSpecificSelectedCount === 3) {
                     var jobSelect = '#job-career-competency-select';
                     $(jobSelect).html("<strong>Select All</strong>");
                 }
