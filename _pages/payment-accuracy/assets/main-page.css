@@ -18860,3 +18860,9 @@ abbr {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2; } }
+
+@media all and (min-width: 64em) {
+    .usa-header--extended .width {
+        max-width: 10%;
+    }
+}
