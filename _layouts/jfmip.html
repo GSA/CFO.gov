@@ -1,0 +1,30 @@
+---
+layout: jfmip-default
+---
+<section class="usa-graphic_list usa-prose usa-hero margin-bottom-5 jfmip-page clearfix">
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col bg-white opacity-90 radius-lg text-black padding-y-3 padding-x-4">
+                <h2>Latest News</h2>
+                <div>
+                    {% include jfmip_latest_news.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="usa-graphic_list clearfix ">
+    <div class="clearfix grid-container padding-top-3 padding-bottom-2">
+        <div class="grid-row grid-gap">
+            <div class="tablet:grid-col-3">
+                {% include sidenav-jfmip-plans.html %}
+            </div>
+            <div class="tablet:grid-col-9 ">
+                {{ content }}
+            </div>
+        </div>
+
+
+    </div>
+</section>
