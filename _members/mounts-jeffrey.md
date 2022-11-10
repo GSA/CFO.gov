@@ -1,8 +1,6 @@
 ---
-bio-image: 
-bio-image-alt-text: Vacant
 layout: bio
-name : Vacant
+name : Mr. James Walsh
 department: Department of State
 title: Comptroller
 ---

@@ -1,0 +1,24 @@
+{% comment %}
+This appears at the top of the page letting the user know it's an official government website
+{% endcomment %}
+
+<nav aria-label="Secondary navigation,">
+    <ul class="usa-sidenav font-sans-md">
+        <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/jfmip/" class="{% if page.title == 'About' %} usa-current{% endif %}">About</a>
+        </li>
+        <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/jfmip/initiatives/" class="{% if page.title == 'Initiatives' %} usa-current{% endif %}">Initiatives</a>
+        </li>
+        <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/jfmip/events/" class="{% if page.title == 'Events' %} usa-current{% endif %}">Events</a>
+        </li>
+        <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/jfmip/archive/" class="{% if page.title == 'Archive' %} usa-current{% endif %}">Archive</a>
+        </li>
+        <li class="usa-sidenav__item">
+            <a href="{{site.baseurl}}/jfmip/jfmip-awards/" class="{% if page.title == 'JFMIP Awards' %} usa-current{% endif %}">JFMIP Awards</a>
+        </li>
+
+    </ul>
+</nav>
