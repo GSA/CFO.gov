@@ -31,10 +31,10 @@ attached:
     <div class="grid-row">
         <div class="usa-graphic-list__row grid-row grid-gap">
             <div class="usa-media-block tablet:grid-col-4 desktop:grid-col-3 career-advancement-block">
-                <h2>Filter your results</h2>
+                <h2 class="usa-tooltip" title="This beta version tool is here to help you access career development, and training recommendation information, that is relevant for your current, or potential future, positions in the Federal government. To tailor the information shown in the visible 'cards' (right), begin by making selections. If you select 'Job Series'  and 'GS Level' you will see everything that is relevant.">Filter your results</h2>
                 <div id="secondary-skip" class="facets-panel bg-base-lightest padding-y-3 border-base-light border-1px radius-md border-2px padding-x-105">
 
-                  <h3 class="margin-top-0">Job Series</h3>
+                  <h3 class="margin-top-0 usa-tooltip" title="This tool is geared towards the most common Federal Financial Management job series. To begin viewing applicable career/training information - first narrow down your focus by selecting the appropriate Federal job series you wish to review. What is a Federal job series? Go here to learn more.">Job Series</h3>
                     <div class="display-flex flex-column">
                         {% assign series_array = "" | split: "," %}
 
@@ -61,7 +61,7 @@ attached:
                         {% endfor %}
                     </div>
 
-                    <h3>GS Level</h3>
+                    <h3 class="usa-tooltip" title="As a second step in narrowing your focus, select the applicable GS range that you're interested in. The information on the visible cards (right) will shift to reflect the job series and GS levels you select. What is a GS Level? Go here to learn more.">GS Level</h3>
                     <div class="display-flex flex-column">
                         {% assign level_array = "" | split: "," %}
 
@@ -89,7 +89,7 @@ attached:
                     </div>
 
                     <div class="career-competency-level-1-input-group">
-                        <h3 class="font-sans-xs">Job Specific Technical Competencies</h3>
+                        <h3 class="font-sans-xs usa-tooltip" title="After selecting the Job Series and GS Level above, you  will see all the applicable cards to the right. You can further narrow your focus by selecting specific competency groups, sub-groups, or specific competencies. At a high-level, the 'Job Specific Competencies' are competencies that vary based on the Job Series you selected above. Learn more? Click Here">Job Specific Technical Competencies</h3>
                         <div class="career-input-group">
                             <label class="text-underline text-accent-cool-darker display-inline-block text-no-wrap font-sans-2xs" for="job-career-competency-select-all" id="job-career-competency-select"><strong>Select All</strong></label>
                             <input style="position: absolute; left: -9999px;" type="checkbox" id="job-career-competency-select-all"/>
@@ -166,7 +166,7 @@ attached:
                         {% endfor %}
                     </div>
                     <div class="career-competency-level-1-input-group">
-                        <h3 class="font-sans-xs">General Career Competencies</h3>
+                        <h3 class="font-sans-xs usa-tooltip" title="After selecting the Job Series and GS Level above, you  will see all the applicable cards to the right. You can further narrow your focus by selecting specific competency groups, sub-groups, or specific competencies. At a high-level, the 'General Career Competencies' that apply universally to all Financial Management Employees. Learn more? Click Here">General Career Competencies</h3>
                         <div class="career-input-group">
                             <label class="text-underline text-accent-cool-darker display-inline-block text-no-wrap font-sans-2xs" for="general-career-competency-select-all" id="general-career-competency-select"><strong>Select All</strong></label>
                             <input style="position: absolute; left: -9999px;" type="checkbox" id="general-career-competency-select-all"/>
@@ -241,8 +241,8 @@ attached:
                             </div>
                         </form>
                         <div id="career-download-buttons">
-                            <button class="usa-button usa-button--outline margin-bottom-1" data-op="select-all">Select All Cards</button>
-                            <button class="usa-button usa-button--outline margin-bottom-1" data-op="download-selected" disabled>Download Selected</button>
+                            <button class="usa-button usa-button--outline margin-bottom-1 usa-tooltip" data-op="select-all" title="If you wish to select all of the cards shown below for export in a downloadable report format, you can click this button. To unselect all cards, you can click a second time. Note - you can also individually select specific cards for download (within each displayed card)">Select All Cards</button>
+                            <button class="usa-button usa-button--outline margin-bottom-1 usa-tooltip" data-op="download-selected" disabled title="If you wish to export all of the selected cards for download as a report, select this button.">Download Selected</button>
                         </div>
                     </div>
 
