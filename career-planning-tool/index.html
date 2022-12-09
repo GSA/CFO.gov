@@ -274,9 +274,9 @@ attached:
                     <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }} Results</p>
                   </div>
                 </div>
-                <!--<div id="career-search-results">-->
+                <div id="career-search-results">
                     <!-- This loops through the paginated posts -->
-                    <!--{% assign cards = site.cards | sort %}
+                    {% assign cards = site.cards | sort %}
                     {% for card in cards limit:default_page_size %}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
@@ -312,7 +312,7 @@ attached:
                             </div>
                         </div>
                     {% endfor %}
-                </div>-->
+                </div>
                 <div class="career-search-results-filter-pagination margin-bottom-205">
                   <div class="career-search-results-page-size-wrapper float-right">
                     <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-bot">Results per page: </label>
