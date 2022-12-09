@@ -58,13 +58,13 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
 
     });
 
-    $("#career-search-results").empty();
-    //console.log(start + " - " + end);
-    for (i = start; i < results.length; i++) {
-        if (typeof (results[i]) != "undefined" && results[i] !== null) {
-            createResults(false, results[i]);
-        }
-    }
+    //$("#career-search-results").empty();
+    ////console.log(start + " - " + end);
+    //for (i = start; i < results.length; i++) {
+    //    if (typeof (results[i]) != "undefined" && results[i] !== null) {
+    //        createResults(false, results[i]);
+    //    }
+    //}
 
 
     $("input:checkbox").each(function () {
