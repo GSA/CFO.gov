@@ -277,7 +277,7 @@ attached:
                 <div id="career-search-results">
                     <!-- This loops through the paginated posts -->
                     {% assign cards = site.cards | sort %}
-                    {% assign levels = cards | group_by : "level" | sort %}
+                    {% assign levels = cards | group_by : "level" %}
                     {% for card in cards limit:default_page_size %}
                     {{levels}}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
