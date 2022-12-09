@@ -19,7 +19,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
     if ($("#career-competency-select-all").is(":checked")) {
         $("#career-competency-select-all").prop("checked", false);
     }
-    $("#career-search-results").empty();
+
     res.forEach(item => {
         if (!competency.includes(item.competency)) {
             competency.push(item.competency);
