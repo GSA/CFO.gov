@@ -116,7 +116,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
             if (elem.hasAttribute('data-group')) {
                 $elem.trigger('change');
             }
-        });   
+        });
     });
 
     // create an array of everything of both disabled and active.
@@ -215,7 +215,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 //    $(generalSelect).html("<strong>Select All</strong>");
                 //    createClearButton();
                 //}
-                
+
                 if (this.checked) {
                     if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
                     if (startingSearchFilter.length == 0) {
@@ -863,6 +863,17 @@ function getSearch() {
                 $(".cfo-page-left").attr("disabled", "disabled");
             }
         } else {
+            var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
+            var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
+            console.log(
+                results.sort((a, b) => {
+                    const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
+                    const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
+                    const alevel_index = -level_index.indexOf(a.level);
+                    const blevel_index = -level_index.indexOf(b.level);
+                    return alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
+
+                }));
             for (i = 0; i < Math.min(results.length, perPage); i++) {
                 if (typeof (results[i]) != "undefined" && results[i] !== null) {
                     // console.log(JSON.stringify(results[i]));
