@@ -55,6 +55,18 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
     });
 
+    for (i = 0; i < Math.min(fullSet.length, perPage); i++) {
+        if (typeof (fullSet[i]) != "undefined" && fullSet[i] !== null) {
+            createResults(false, fullSet[i]);
+        }
+    }
+
+    for (i = 0; i < Math.min(results.length, perPage); i++) {
+        if (typeof (results[i]) != "undefined" && results[i] !== null) {
+            createResults(false, results[i]);
+        }
+    }
+
     $("input:checkbox").each(function () {
         $(this).prop('checked', false);
     });
