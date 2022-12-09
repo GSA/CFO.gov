@@ -66,7 +66,6 @@ function buildCards() {
         })
         .on('end', function () {
             let count = 0;
-            console.log(cards);
             for (var k in cards) {
 
                 const card = cards[k],

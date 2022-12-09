@@ -1021,6 +1021,7 @@ function enableDisableCompetencies(all) {
 }
 
 (function ($) {
+    console.log('facets')
     /**
      * Iterates through all buttons and links and attaches n event to them
      * triggered in _includes/scripts.html

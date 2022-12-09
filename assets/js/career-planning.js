@@ -1,4 +1,5 @@
 (function ($) {
+    console.log('career-planning')
   let selected = {},
     unselect = false,
     buttonSelector = '.policy input[type="checkbox"]',
