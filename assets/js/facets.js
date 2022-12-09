@@ -17,29 +17,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
     if ($("#career-competency-select-all").is(":checked")) {
         $("#career-competency-select-all").prop("checked", false);
     }
-    var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
-    var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
-    var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
-    results.sort((a, b) => {
-        const aseries_index = -series_index.indexOf(a.series);
-        const bseries_index = -series_index.indexOf(b.series);
-        const alevel_index = -level_index.indexOf(a.level);
-        const blevel_index = -level_index.indexOf(b.level);
-        const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-        const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
-        return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
-
-    });
-    fullSet.sort((a, b) => {
-        const aseries_index = -series_index.indexOf(a.series);
-        const bseries_index = -series_index.indexOf(b.series);
-        const alevel_index = -level_index.indexOf(a.level);
-        const blevel_index = -level_index.indexOf(b.level);
-        const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-        const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
-        return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
-
-    });
+    
     res.forEach(item => {
         if (!competency.includes(item.competency)) {
             competency.push(item.competency);
@@ -49,6 +27,20 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         }
         results.push(item);
         fullSet.push(item);
+    });
+
+    var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
+    var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
+    var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
+    res.sort((a, b) => {
+        const aseries_index = -series_index.indexOf(a.series);
+        const bseries_index = -series_index.indexOf(b.series);
+        const alevel_index = -level_index.indexOf(a.level);
+        const blevel_index = -level_index.indexOf(b.level);
+        const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
+        const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
+        return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
+
     });
 
     competency_group.sort();
