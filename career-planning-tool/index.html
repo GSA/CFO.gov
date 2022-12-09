@@ -276,8 +276,10 @@ attached:
                 </div>
                 <div id="career-search-results">
                     <!-- This loops through the paginated posts -->
-                    {% assign cards = site.cards | group_by:"level" %}
+                    {% assign cards = site.cards | sort %}
+                    {% assign levels = cards | group_by : "level" | sort %}
                     {% for card in cards limit:default_page_size %}
+                    {{levels}}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
                                 <div class="cfo-career-text-container position-relative">
