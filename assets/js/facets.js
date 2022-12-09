@@ -863,15 +863,18 @@ function getSearch() {
                 $(".cfo-page-left").attr("disabled", "disabled");
             }
         } else {
+            var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
             var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
             var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
             console.log(
                 results.sort((a, b) => {
-                    const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-                    const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
+                    const aseries_index = -series_index.indexOf(a.series);
+                    const bseries_index = -series_index.indexOf(b.series);
                     const alevel_index = -level_index.indexOf(a.level);
                     const blevel_index = -level_index.indexOf(b.level);
-                    return alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
+                    const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
+                    const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
+                    return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
 
                 }));
             for (i = 0; i < Math.min(results.length, perPage); i++) {
