@@ -274,16 +274,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
 
     });
-    fullset.sort((a, b) => {
-        const aseries_index = -series_index.indexOf(a.series);
-        const bseries_index = -series_index.indexOf(b.series);
-        const alevel_index = -level_index.indexOf(a.level);
-        const blevel_index = -level_index.indexOf(b.level);
-        const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-        const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
-        return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
 
-    });
     setTotalPages();
 });
 
