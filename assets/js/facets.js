@@ -9,11 +9,12 @@ let competency_group = []; // array of competency_groups
 let startingSearchFilter = []; // hold the starting search filter object
 let searchOrder = []; // hold a list of objects representing the order of a search competency, level, series etc..
 
-$("#career-search-results").empty();
+
 /**
  * loads all md pages on init
  */
 $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
+    $("#career-search-results").empty();
     $('#career-advancement-search-input').val('');
     if ($("#career-competency-select-all").is(":checked")) {
         $("#career-competency-select-all").prop("checked", false);
