@@ -30,43 +30,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         results.push(item);
         fullSet.push(item);
     });
-
-    //competency_group.sort();
-    //competency.sort();
-
-    var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
-    var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
-    var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
-    fullSet.sort((a, b) => {
-        const aseries_index = -series_index.indexOf(a.series);
-        const bseries_index = -series_index.indexOf(b.series);
-        const alevel_index = -level_index.indexOf(a.level);
-        const blevel_index = -level_index.indexOf(b.level);
-        const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-        const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
-        return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
-
-    });
-    results.sort((a, b) => {
-        const aseries_index = -series_index.indexOf(a.series);
-        const bseries_index = -series_index.indexOf(b.series);
-        const alevel_index = -level_index.indexOf(a.level);
-        const blevel_index = -level_index.indexOf(b.level);
-        const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-        const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
-        return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
-
-    });
-
-    //$("#career-search-results").empty();
-    ////console.log(start + " - " + end);
-    //for (i = start; i < results.length; i++) {
-    //    if (typeof (results[i]) != "undefined" && results[i] !== null) {
-    //        createResults(false, results[i]);
-    //    }
-    //}
-
-
+   
     $("input:checkbox").each(function () {
         $(this).prop('checked', false);
     });
@@ -930,6 +894,19 @@ function getSearch() {
         $(".cfo-pagination-pages").text(totalPages);
     } else {
         $("#career-search-results").empty();
+        var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
+            var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
+            var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
+            fullSet.sort((a, b) => {
+                const aseries_index = -series_index.indexOf(a.series);
+                const bseries_index = -series_index.indexOf(b.series);
+                const alevel_index = -level_index.indexOf(a.level);
+                const blevel_index = -level_index.indexOf(b.level);
+                const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
+                const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
+                return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
+
+            });
         for (i = 0; i < Math.min(fullSet.length, perPage); i++) {
             if (typeof (fullSet[i]) != "undefined" && fullSet[i] !== null) {
                 createResults(false, fullSet[i]);
