@@ -276,7 +276,7 @@ attached:
                 </div>
                 <div id="career-search-results">
                     <!-- This loops through the paginated posts -->
-                    {% assign cards = site.cards | sort: 'series' | sort: 'level' | reverse %}
+                    {% assign cards = site.cards | sort: 'series' | sort: 'level' | reverse | where_exp: "cp", "cp.competency_group contains 'Primary'" %}
                     {% for card in cards limit:default_page_size %}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
