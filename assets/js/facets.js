@@ -862,19 +862,7 @@ function getSearch() {
                 $(".cfo-page-left").attr("disabled", "disabled");
             }
         } else {
-            var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
-            var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
-            var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
-            results.sort((a, b) => {
-                const aseries_index = -series_index.indexOf(a.series);
-                const bseries_index = -series_index.indexOf(b.series);
-                const alevel_index = -level_index.indexOf(a.level);
-                const blevel_index = -level_index.indexOf(b.level);
-                const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-                const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
-                return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
-
-            });
+            resultFullSetFilter(results);
             for (i = 0; i < Math.min(results.length, perPage); i++) {
                 if (typeof (results[i]) != "undefined" && results[i] !== null) {
                     // console.log(JSON.stringify(results[i]));
@@ -894,19 +882,7 @@ function getSearch() {
         $(".cfo-pagination-pages").text(totalPages);
     } else {
         $("#career-search-results").empty();
-        var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
-            var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
-            var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
-            fullSet.sort((a, b) => {
-                const aseries_index = -series_index.indexOf(a.series);
-                const bseries_index = -series_index.indexOf(b.series);
-                const alevel_index = -level_index.indexOf(a.level);
-                const blevel_index = -level_index.indexOf(b.level);
-                const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-                const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
-                return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
-
-            });
+        resultFullSetFilter(fullSet);
         for (i = 0; i < Math.min(fullSet.length, perPage); i++) {
             if (typeof (fullSet[i]) != "undefined" && fullSet[i] !== null) {
                 createResults(false, fullSet[i]);
@@ -1096,19 +1072,7 @@ function enableDisableCompetencies(all) {
                                 end = Math.min(start + perPage, dataSet.length);
                             }
                             $("#career-search-results").empty();
-                             var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
-                             var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
-                             var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
-                             dataSet.sort((a, b) => {
-                                    const aseries_index = -series_index.indexOf(a.series);
-                                    const bseries_index = -series_index.indexOf(b.series);
-                                    const alevel_index = -level_index.indexOf(a.level);
-                                    const blevel_index = -level_index.indexOf(b.level);
-                                    const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-                                    const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
-                                    return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
-
-                             });
+                            resultFullSetFilter(dataSet);
                             //console.log(start + " - " + end);
                             for (i = start; i < end; i++) {
                                 if (typeof (dataSet[i]) != "undefined" && results[i] !== null) {
@@ -1137,19 +1101,7 @@ function enableDisableCompetencies(all) {
                             }
                             //console.log(start + " - " + end);
                             $("#career-search-results").empty();
-                            var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
-                            var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
-                            var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
-                            dataSet.sort((a, b) => {
-                                const aseries_index = -series_index.indexOf(a.series);
-                                const bseries_index = -series_index.indexOf(b.series);
-                                const alevel_index = -level_index.indexOf(a.level);
-                                const blevel_index = -level_index.indexOf(b.level);
-                                const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
-                                const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
-                                return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
-
-                            });
+                            resultFullSetFilter(dataSet);
                             for (i = start; i < end; i++) {
                                 if (typeof (dataSet[i]) != "undefined" && results[i] !== null) {
                                     createResults(false, dataSet[i]);
@@ -1185,3 +1137,19 @@ function enableDisableCompetencies(all) {
     };
 
 }(jQuery));
+
+function resultFullSetFilter(resultFullSetFilter) {
+    var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
+    var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
+    var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
+    resultFullSetFilter.sort((a, b) => {
+        const aseries_index = -series_index.indexOf(a.series);
+        const bseries_index = -series_index.indexOf(b.series);
+        const alevel_index = -level_index.indexOf(a.level);
+        const blevel_index = -level_index.indexOf(b.level);
+        const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
+        const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
+        return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
+
+    });
+}
