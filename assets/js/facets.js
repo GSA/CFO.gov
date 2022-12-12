@@ -1138,6 +1138,10 @@ function enableDisableCompetencies(all) {
 
 }(jQuery));
 
+
+/**
+ * Filtering based on the leftspine
+ */
 function resultFullSetFilter(resultFullSetFilter) {
     var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
     var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
