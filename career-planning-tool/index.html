@@ -276,7 +276,10 @@ attached:
                 </div>
                 <div id="career-search-results">
                     <!-- This loops through the paginated posts -->
-                    {% assign cards = site.cards | sort: 'series' | where_exp: "level", "level.level contains '7-9'"  | where_exp: "cp", "cp.competency_group contains 'Primary'"   %}
+                    {% assign series = '501'%}
+                    {% assign job_comps = 'Primary,Secondary' | split: "," %}
+                    {% for competency_group in job_comps %}
+                    {% assign cards = site.cards | where: 'series', series | where_exp: "level", "level.level contains '7-9'"  | where: 'competency_group', competency_group %}
                     {% for card in cards limit:default_page_size %}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
@@ -311,7 +314,8 @@ attached:
                                 </div>
                             </div>
                         </div>
-                    {% endfor %}
+                    {% endfor %}   
+                                        {% endfor %}
                 </div>
                 <div class="career-search-results-filter-pagination margin-bottom-205">
                   <div class="career-search-results-page-size-wrapper float-right">
