@@ -279,8 +279,9 @@ attached:
                     {% assign series = '501'%}
                     {% assign level = '7-9'%}
                     {% assign job_comps = 'Primary,Secondary' | split: "," %}
+                    {% assign default_page_size = 10 %}
                     {% for competency_group in job_comps %}
-                    {% assign cards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', competency_group limit: 10 %}
+                    {% assign cards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', competency_group %}
                     {% for card in cards limit:default_page_size %}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
@@ -316,7 +317,7 @@ attached:
                             </div>
                         </div>
                     {% endfor %}   
-                                        {% endfor %}
+                    {% endfor %}
                 </div>
                 <div class="career-search-results-filter-pagination margin-bottom-205">
                   <div class="career-search-results-page-size-wrapper float-right">
