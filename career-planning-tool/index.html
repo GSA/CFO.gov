@@ -280,7 +280,7 @@ attached:
                     {% assign level = '7-9'%}
                     {% assign job_comps = 'Primary,Secondary' | split: "," %}
                     {% for competency_group in job_comps %}
-                    {% assign cards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', competency_group %}
+                    {% assign cards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', competency_group limit: 10 %}
                     {% for card in cards limit:default_page_size %}
                         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
                             <div class="cfo-career-outer-box">
