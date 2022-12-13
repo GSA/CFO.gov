@@ -1140,7 +1140,7 @@ function enableDisableCompetencies(all) {
 
 
 /**
- * Filtering based on the leftspine
+ * Filtering based on the leftspine with series,level,competency_group
  */
 function resultFullSetFilter(resultFullSetFilter) {
     var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
