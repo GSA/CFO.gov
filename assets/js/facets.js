@@ -9,10 +9,12 @@ let competency_group = []; // array of competency_groups
 let startingSearchFilter = []; // hold the starting search filter object
 let searchOrder = []; // hold a list of objects representing the order of a search competency, level, series etc..
 
+
 /**
  * loads all md pages on init
  */
 $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
+
     $('#career-advancement-search-input').val('');
     if ($("#career-competency-select-all").is(":checked")) {
         $("#career-competency-select-all").prop("checked", false);
@@ -28,10 +30,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         results.push(item);
         fullSet.push(item);
     });
-
-    competency_group.sort();
-    competency.sort();
-
+   
     $("input:checkbox").each(function () {
         $(this).prop('checked', false);
     });
@@ -116,7 +115,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
             if (elem.hasAttribute('data-group')) {
                 $elem.trigger('change');
             }
-        });   
+        });
     });
 
     // create an array of everything of both disabled and active.
@@ -215,7 +214,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 //    $(generalSelect).html("<strong>Select All</strong>");
                 //    createClearButton();
                 //}
-                
+
                 if (this.checked) {
                     if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
                     if (startingSearchFilter.length == 0) {
@@ -863,6 +862,7 @@ function getSearch() {
                 $(".cfo-page-left").attr("disabled", "disabled");
             }
         } else {
+            resultFullSetFilter(results);
             for (i = 0; i < Math.min(results.length, perPage); i++) {
                 if (typeof (results[i]) != "undefined" && results[i] !== null) {
                     // console.log(JSON.stringify(results[i]));
@@ -882,6 +882,7 @@ function getSearch() {
         $(".cfo-pagination-pages").text(totalPages);
     } else {
         $("#career-search-results").empty();
+        resultFullSetFilter(fullSet);
         for (i = 0; i < Math.min(fullSet.length, perPage); i++) {
             if (typeof (fullSet[i]) != "undefined" && fullSet[i] !== null) {
                 createResults(false, fullSet[i]);
@@ -1071,6 +1072,7 @@ function enableDisableCompetencies(all) {
                                 end = Math.min(start + perPage, dataSet.length);
                             }
                             $("#career-search-results").empty();
+                            resultFullSetFilter(dataSet);
                             //console.log(start + " - " + end);
                             for (i = start; i < end; i++) {
                                 if (typeof (dataSet[i]) != "undefined" && results[i] !== null) {
@@ -1099,6 +1101,7 @@ function enableDisableCompetencies(all) {
                             }
                             //console.log(start + " - " + end);
                             $("#career-search-results").empty();
+                            resultFullSetFilter(dataSet);
                             for (i = start; i < end; i++) {
                                 if (typeof (dataSet[i]) != "undefined" && results[i] !== null) {
                                     createResults(false, dataSet[i]);
@@ -1134,3 +1137,23 @@ function enableDisableCompetencies(all) {
     };
 
 }(jQuery));
+
+
+/**
+ * Filtering based on the leftspine with series,level,competency_group
+ */
+function resultFullSetFilter(resultFullSetFilter) {
+    var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
+    var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
+    var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
+    resultFullSetFilter.sort((a, b) => {
+        const aseries_index = -series_index.indexOf(a.series);
+        const bseries_index = -series_index.indexOf(b.series);
+        const alevel_index = -level_index.indexOf(a.level);
+        const blevel_index = -level_index.indexOf(b.level);
+        const acompetency_group_index = -competency_group_index.indexOf(a.competency_group);
+        const bcompetency_group_index = -competency_group_index.indexOf(b.competency_group);
+        return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
+
+    });
+}
