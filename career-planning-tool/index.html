@@ -284,41 +284,45 @@ attached:
                 </div>
                 <div id="career-search-results">
                     <!-- This loops through the paginated posts -->
-                    {% assign cards = site.cards | sort %}
+                    {% assign series = '501'%}
+                    {% assign level = '7-9'%}
+                    {% assign pcards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', 'Primary' %}
+                    {% assign scards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', 'Secondary' %}
+                    {% assign cards = pcards | concat: scards  %}
                     {% for card in cards limit:default_page_size %}
-                        <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
-                            <div class="cfo-career-outer-box">
-                                <div class="cfo-career-text-container position-relative">
-                                    <div class="select-button">
-                                        <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
-                                    </div>
-                                    <div class="cfo-career-category-container font-body-md margin-y-0">
-                                        <div class="cfo-inner-competency-div"><span><strong>GS Level:</strong> {{ card.level }}</span></div>
-                                        <div class="cfo-inner-competency-div"><span><strong>Job Series:</strong> 0{{ card.series }}</span></div>
-                                    </div>
-                                    <div class="cfo-career-category-container font-body-md margin-y-0">
-                                        <div class="cfo-inner-competency-div"><span><strong>Competency:</strong> {{ card.competency }}</span></div>
-                                        <div class="cfo-inner-competency-div"><span><strong>Type:</strong> {{ card.competency_group }}</span></div>
-                                    </div>
-                                    <p class="font-body-md"><strong>Definition:</strong> {{ card.competency_description }}</p>
-                                    <div class="grid-row grid-gap">
-                                        {{ card.content }}
-                                    </div>
-                                    <div>
-                                      <h3>Applicable Links to External Training Available for Purchase</h3>
-                                      {% if card.relevant_courses.size != 0 %}
-                                      <ul class="usa-list" role="list">
+                    <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
+                        <div class="cfo-career-outer-box">
+                            <div class="cfo-career-text-container position-relative">
+                                <div class="select-button">
+                                    <label><input type="checkbox" value="{{ card.permalink }}"> <span>Select for download</span></label>
+                                </div>
+                                <div class="cfo-career-category-container font-body-md margin-y-0">
+                                    <div class="cfo-inner-competency-div"><span><strong>GS Level:</strong> {{ card.level }}</span></div>
+                                    <div class="cfo-inner-competency-div"><span><strong>Job Series:</strong> 0{{ card.series }}</span></div>
+                                </div>
+                                <div class="cfo-career-category-container font-body-md margin-y-0">
+                                    <div class="cfo-inner-competency-div"><span><strong>Competency:</strong> {{ card.competency }}</span></div>
+                                    <div class="cfo-inner-competency-div"><span><strong>Type:</strong> {{ card.competency_group }}</span></div>
+                                </div>
+                                <p class="font-body-md"><strong>Definition:</strong> {{ card.competency_description }}</p>
+                                <div class="grid-row grid-gap">
+                                    {{ card.content }}
+                                </div>
+                                <div>
+                                    <h3>Career Listing</h3>
+                                    {% if card.relevant_courses.size != 0 %}
+                                    <ul class="usa-list" role="list">
                                         {% for course in card.relevant_courses %}
-                                          <li role="listitem">{{ course | replace: '">', '" target="_blank" >'}}</li>
+                                        <li role="listitem">{{ course | replace: '">', '" target="_blank" >'}}</li>
                                         {% endfor %}
-                                      <ul>
-                                      {% else %}
-                                      <p>No courses</p>
-                                      {% endif %}
-                                    </div>
+                                        <ul>
+                                            {% else %}
+                                            <p>No courses</p>
+                                            {% endif %}
                                 </div>
                             </div>
                         </div>
+                    </div>
                     {% endfor %}
                 </div>
                 <div class="career-search-results-filter-pagination margin-bottom-205">
