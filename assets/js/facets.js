@@ -151,6 +151,10 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                                 searchOrder = [];
                                 startingSearchFilter = [];
                                 $("#career-facet-remove-all-filters-button").css('display', 'none');
+                                $("#series").css('display', 'none');
+                                $("#gs").css('display', 'none');
+                                $("#job-competency").css('display', 'none');
+                                $("#general-competency").css('display', 'none');
                             }
                             $("#" + eventId + "-button").remove();
                             getSearch();
@@ -242,6 +246,10 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                                 searchOrder = [];
                                 startingSearchFilter = [];
                                 $("#career-facet-remove-all-filters-button").css('display', 'none');
+                                $("#series").css('display', 'none');
+                                $("#gs").css('display', 'none');
+                                $("#job-competency").css('display', 'none');
+                                $("#general-competency").css('display', 'none');
                             }
                         }
                     });
@@ -252,6 +260,10 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     if (data.length == 0) {
                         startingSearchFilter = [];
                         $("#career-facet-remove-all-filters-button").css('display', 'none');
+                        $("#series").css('display', 'none');
+                        $("#gs").css('display', 'none');
+                        $("#job-competency").css('display', 'none');
+                        $("#general-competency").css('display', 'none');
                     }
                     $("#" + eventId + "-button").remove();
                     getSearch();
@@ -341,6 +353,10 @@ function createClearButton() {
         searchOrder = [];
         startingSearchFilter = [];
         $("#career-facet-remove-all-filters-button").css('display', 'none');
+        $("#series").css('display', 'none');
+        $("#gs").css('display', 'none');
+        $("#job-competency").css('display', 'none');
+        $("#general-competency").css('display', 'none');
         getSearch();
     });
 }
@@ -542,7 +558,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     removeButtonA.setAttribute("id", eventTargetId + "-button");
     removeButtonA.setAttribute("tabindex", 0);
     removeButtonA.setAttribute("href", "javascript:void(0)");
-    removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
+    removeButtonA.setAttribute("class", "usa-tag bg-white text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
     let removeButtonText = '';
     if (inputType == "button") {
         removeButtonText = createButtonText(eventTargetId);
@@ -552,8 +568,27 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     }
 
     removeButtonA.innerHTML = removeButtonText + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
-    const buttonContainer = document.getElementById("career-search-results-filter-remove-buttons");
-    buttonContainer.appendChild(removeButtonA);
+
+    if (eventTargetId.match("series")) {
+        const buttonJobContainer = document.getElementById("career-search-results-filter-remove-buttons-series");
+        buttonJobContainer.appendChild(removeButtonA);
+        $("#series").css('display', 'block');
+    }
+    if (eventTargetId.match("GS")) {
+        const buttonGSContainer = document.getElementById("career-search-results-filter-remove-buttons-gs");
+        buttonGSContainer.appendChild(removeButtonA);
+        $("#gs").css('display', 'block');
+    }
+    if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
+        const buttonJobCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-job-competency");
+        buttonJobCompetencyContainer.appendChild(removeButtonA);
+        $("#job-competency").css('display', 'block');
+    }
+    if (eventTargetId.match("personal") || eventTargetId.match("project") || eventTargetId.match("leading") || eventTargetId.match("future Skills")) {
+        const buttonGeneralCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-general-competency");
+        buttonGeneralCompetencyContainer.appendChild(removeButtonA);
+        $("#general-competency").css('display', 'block');
+    }
 
     getSearch();
 
@@ -576,6 +611,10 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
             searchOrder = [];
             startingSearchFilter = [];
             $("#career-facet-remove-all-filters-button").css('display', 'none');
+            $("#series").css('display', 'none');
+            $("#gs").css('display', 'none');
+            $("#job-competency").css('display', 'none');
+            $("#general-competency").css('display', 'none');
         }
         $("#" + eventTargetId + "-button").remove();
         getSearch();
@@ -620,6 +659,10 @@ function removeCriteria(inputType, id) {
         searchOrder = [];
         startingSearchFilter = [];
         $("#career-facet-remove-all-filters-button").css('display', 'none');
+        $("#series").css('display', 'none');
+        $("#gs").css('display', 'none');
+        $("#job-competency").css('display', 'none');
+        $("#general-competency").css('display', 'none');
     }
 
     getSearch();
