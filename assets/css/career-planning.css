@@ -353,3 +353,10 @@ div[data-card-filter] {
 .border-blue {
     border: 2px solid #005ea2;
 }
+
+.usa-accordion--bordered .usa-accordion__content {
+    border-bottom: 0.25rem solid #ffbc78 !important;
+    border-left: 0.25rem solid #ffbc78 !important;
+    border-right: 0.25rem solid #ffbc78 !important;
+    padding-bottom: 1rem !important;
+}

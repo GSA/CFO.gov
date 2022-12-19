@@ -558,7 +558,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     removeButtonA.setAttribute("id", eventTargetId + "-button");
     removeButtonA.setAttribute("tabindex", 0);
     removeButtonA.setAttribute("href", "javascript:void(0)");
-    removeButtonA.setAttribute("class", "usa-tag bg-white text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
+    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
     let removeButtonText = '';
     if (inputType == "button") {
         removeButtonText = createButtonText(eventTargetId);
