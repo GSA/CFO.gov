@@ -139,6 +139,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                             removing = true;
                             $("#" + eventId).prop("checked", false);
                             let group = $("#" + eventId).data('group');
+                            addRemoveFilterButton(group, item, null, false);
                             if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
                             if ($("#career-competency-select-all").is(":checked")) {
                                 $("#career-competency-select-all").prop("checked", false);
@@ -182,6 +183,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 if ($(labelId).text() == 'Select All') {
                     $(labelId).html("<strong>De-Select All</strong>");
                 } else {
+                    addRemoveFilterButton(eventId, '', null, true);
                     $(labelId).html("<strong>Select All</strong>");
                 }
                 // This is for All child De-Select All and main De-Select All
@@ -511,6 +513,51 @@ function createResults(noResults, item) { // creates a results div and contents
     resultsContainer.appendChild(outerDiv1);
 }
 
+function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, removeAll) {
+    const buttonJobCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-job-competency");
+    if (!removeAll) {
+        //set items to local storage for popups
+        let competencyTitlePipeReplaced = competencyTitle.replace(',', '|');
+        let groupItem = localStorage.getItem(competencyGroup);
+        if (groupItem == null) {
+            localStorage.setItem(competencyGroup, JSON.stringify([competencyTitlePipeReplaced]));
+        }
+        else {
+            let groupItemValue = JSON.parse(groupItem);
+            if (!groupItemValue.includes(competencyTitlePipeReplaced)) {
+                groupItemValue.push(competencyTitlePipeReplaced);
+            }
+            else {
+                groupItemValue.splice(groupItemValue.indexOf(competencyTitlePipeReplaced), 1);
+            }
+            localStorage.setItem(competencyGroup, JSON.stringify(groupItemValue));
+        }
+    }
+    else {
+        localStorage.removeItem(competencyGroup);
+    }
+
+    //set item length and name
+    const itemLength = removeAll?0:JSON.parse(localStorage.getItem(competencyGroup)).length;
+    const itemName = competencyGroup + ' ' + itemLength.toString();
+
+    //handle button for duplicates
+    const subButton = $('[id="career-search-results-filter-remove-buttons-job-competency"]:contains("' + competencyGroup + '")');
+    if (subButton.length == 0 && removeButtonA!=null) {
+        removeButtonA.innerHTML = itemName;
+        buttonJobCompetencyContainer.appendChild(removeButtonA);
+    }
+
+    else {
+        let data = subButton[0].innerText.match(/\w* \d+/g);
+        data.forEach(function (item, index) {
+            if (subButton[0].innerText.includes(item) && item.includes(competencyGroup)) {
+                subButton[0].innerText = subButton[0].innerText.replace(item, itemName);
+            }
+        });
+    }
+}
+
 /**
  * Creates a single remove button.
  * Called in two places
@@ -579,15 +626,20 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
         buttonGSContainer.appendChild(removeButtonA);
         $("#gs").css('display', 'block');
     }
-    if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
-        const buttonJobCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-job-competency");
-        buttonJobCompetencyContainer.appendChild(removeButtonA);
-        $("#job-competency").css('display', 'block');
-    }
-    if (eventTargetId.match("personal") || eventTargetId.match("project") || eventTargetId.match("leading") || eventTargetId.match("future Skills")) {
-        const buttonGeneralCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-general-competency");
-        buttonGeneralCompetencyContainer.appendChild(removeButtonA);
-        $("#general-competency").css('display', 'block');
+    if (competencyGroup!=null) {
+        if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
+
+            addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
+
+            $("#job-competency").css('display', 'block');
+            $("#job-competencies").css('display', 'block');              
+        }
+        if (eventTargetId.match("personal") || eventTargetId.match("project") || eventTargetId.match("leading") || eventTargetId.match("future Skills")) {
+            const buttonGeneralCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-general-competency");
+            buttonGeneralCompetencyContainer.appendChild(removeButtonA);
+            $("#general-competency").css('display', 'block');
+        }
+
     }
 
     getSearch();
