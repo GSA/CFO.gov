@@ -539,20 +539,43 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     //set item length and name
     const itemLength = removeAll?0:JSON.parse(localStorage.getItem(competencyGroup)).length;
-    const itemName = competencyGroup + ' ' + itemLength.toString();
+    const itemName = ' ' + competencyGroup + ' ' + itemLength.toString();
 
     //handle button for duplicates
-    const subButton = $('[id="career-search-results-filter-remove-buttons-job-competency"]:contains("' + competencyGroup + '")');
-    if (subButton.length == 0 && removeButtonA!=null) {
+    const subButton = document.getElementById(competencyGroup + "-button");
+    //const subButton = $('[id="career-search-results-filter-remove-buttons-job-competency"]:contains("' + competencyGroup + '")');
+    if (subButton == null) {
+        const competencyGroupModalContainer = document.createElement("div");
+        removeButtonA.setAttribute("id", competencyGroup + "-button");
+        removeButtonA.setAttribute("href", "#"+competencyGroup + "-modal-button");
+        removeButtonA.setAttribute("aria-controls", competencyGroup + "-modal-button");
+        removeButtonA.setAttribute("role", "button");
+        removeButtonA.setAttribute("data-open-modal","");
         removeButtonA.innerHTML = itemName;
-        buttonJobCompetencyContainer.appendChild(removeButtonA);
+        competencyGroupModalContainer.appendChild(removeButtonA);
+        let competencyTemplate = '<div class="usa-modal" id="example-modal-1" aria-labelledby="modal-1-heading" aria-describedby="modal-1-description">'
+            + '<div class="usa-modal__content">'
+            + '<div class="usa-modal__main">'
+            + '<div class="usa-prose">'
+            + '<p id="modal-1-description">'
+            + '</p>'
+            + '</div>'
+            + '</div>'
+            + '<button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>'
+            + '<i class="fa fa-times"></i>'
+                + '  </button>'
+                + '</div>'
+            + '</div>';
+        competencyGroupModalContainer.innerHTML = competencyTemplate.replace('example-modal-1', competencyGroup + "-modal-button");      
+        buttonJobCompetencyContainer.appendChild(competencyGroupModalContainer);
     }
 
-    else {
-        let data = subButton[0].innerText.match(/\w* \d+/g);
+    else { 
+        let data = subButton.innerText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
-            if (subButton[0].innerText.includes(item) && item.includes(competencyGroup)) {
-                subButton[0].innerText = subButton[0].innerText.replace(item, itemName);
+            if (subButton.innerText.includes(item) && item.includes(competencyGroup)) {
+                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
+                subButton.innerText = subButton.innerText.replace(item, itemName);
             }
         });
     }
@@ -620,18 +643,22 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
         const buttonJobContainer = document.getElementById("career-search-results-filter-remove-buttons-series");
         buttonJobContainer.appendChild(removeButtonA);
         $("#series").css('display', 'block');
+        $("#series").attr('aria-expanded', 'false');
     }
     if (eventTargetId.match("GS")) {
         const buttonGSContainer = document.getElementById("career-search-results-filter-remove-buttons-gs");
         buttonGSContainer.appendChild(removeButtonA);
         $("#gs").css('display', 'block');
+        $("#gs").attr('aria-expanded', 'false');
     }
     if (competencyGroup!=null) {
         if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
-
+            removeButtonA.removeAttribute("class");
+            removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
             addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
 
             $("#job-competency").css('display', 'block');
+            $("#job-competency").attr('aria-expanded', 'false');
             $("#job-competencies").css('display', 'block');              
         }
         if (eventTargetId.match("personal") || eventTargetId.match("project") || eventTargetId.match("leading") || eventTargetId.match("future Skills")) {
@@ -639,7 +666,14 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
             buttonGeneralCompetencyContainer.appendChild(removeButtonA);
             $("#general-competency").css('display', 'block');
         }
-
+        $("#" + competencyGroup + "-button").on('click', function () {
+            //const buttonModal = document.getElementById("competency-group-modal");
+            let groupItem = localStorage.getItem(competencyGroup);
+            if (groupItem!=null) {
+                //$("#competency-group-modal").css('display', 'block');
+                $("#" + competencyGroup + "-modal-button").find("p").html(groupItem);
+            }
+        });
     }
 
     getSearch();
@@ -672,6 +706,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
         getSearch();
         // console.log(JSON.stringify(data));
     });
+   
 }
 
 /**
