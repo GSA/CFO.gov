@@ -546,14 +546,8 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     //const subButton = $('[id="career-search-results-filter-remove-buttons-job-competency"]:contains("' + competencyGroup + '")');
     if (subButton == null) {
         const competencyGroupModalContainer = document.createElement("div");
-        removeButtonA.setAttribute("id", competencyGroup + "-button");
-        removeButtonA.setAttribute("href", "#"+competencyGroup + "-modal-button");
-        removeButtonA.setAttribute("aria-controls", competencyGroup + "-modal-button");
-        removeButtonA.setAttribute("role", "button");
-        removeButtonA.setAttribute("data-open-modal","");
-        removeButtonA.innerHTML = itemName;
-        competencyGroupModalContainer.appendChild(removeButtonA);
-        let competencyTemplate = '<div class="usa-modal" id="example-modal-1" aria-labelledby="modal-1-heading" aria-describedby="modal-1-description">'
+        let competencyTemplate = '<a id=' + competencyGroup + "-button" + ' href = #' + competencyGroup + "-modal-button" + ' class="usa-button" aria-controls=' + competencyGroup + "-modal-button" +' data-open-modal>' + itemName + '</a>'
+            + '<div class="usa-modal" id=' + competencyGroup + "-modal-button" + ' aria-labelledby="modal-1-heading" aria-describedby="modal-1-description">'
             + '<div class="usa-modal__content">'
             + '<div class="usa-modal__main">'
             + '<div class="usa-prose">'
@@ -561,12 +555,9 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
             + '</p>'
             + '</div>'
             + '</div>'
-            + '<button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>'
-            + '<i class="fa fa-times"></i>'
-                + '  </button>'
-                + '</div>'
+            + '</div>'
             + '</div>';
-        competencyGroupModalContainer.innerHTML = competencyTemplate.replace('example-modal-1', competencyGroup + "-modal-button");      
+        competencyGroupModalContainer.innerHTML = competencyTemplate;
         buttonJobCompetencyContainer.appendChild(competencyGroupModalContainer);
     }
 
