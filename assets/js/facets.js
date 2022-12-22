@@ -545,21 +545,10 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     const subButton = document.getElementById(competencyGroup + "-button");
     //const subButton = $('[id="career-search-results-filter-remove-buttons-job-competency"]:contains("' + competencyGroup + '")');
     if (subButton == null) {
-        const competencyGroupModalContainer = document.createElement("div");
-        let competencyTemplate =
-            '<a id=' + competencyGroup + "-button" + ' href =#' + competencyGroup + "-modal-button" + ' class="usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline" aria-controls=' + competencyGroup + "-modal-button" + ' data-open-modal="">' + itemName + '</a>'
-            + '<div class="usa-modal is-visible" id=' + competencyGroup + "-modal-button" + ' aria-labelledby="modal-1-heading" aria-describedby="modal-1-description" data-opener=' + competencyGroup + "-modal-button" + '>'
-                + '<div class="usa-modal__content">'
-                    + '<div class="usa-modal__main">'
-                        + '<div class="usa-prose">'
-                            + '<p id="modal-1-description">'
-                            + '</p>'
-                        + '</div>'
-                    + '</div>'
-                + '</div>'
-            + '</div>';
-        competencyGroupModalContainer.innerHTML = competencyTemplate;
-        buttonJobCompetencyContainer.appendChild(competencyGroupModalContainer);
+        removeButtonA.setAttribute("id", competencyGroup + "-button");
+        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
+        removeButtonA.innerText = itemName;
+        buttonJobCompetencyContainer.appendChild(removeButtonA);
     }
 
     else { 
@@ -658,11 +647,12 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
             $("#career-search-results-filter-remove-buttons-general-competency").attr('aria-expanded', 'false'); 
         }
         $("#" + competencyGroup + "-button").on('click', function () {
-            //const buttonModal = document.getElementById("competency-group-modal");
             let groupItem = localStorage.getItem(competencyGroup);
             if (groupItem!=null) {
-                //$("#competency-group-modal").css('display', 'block');
-                $("#" + competencyGroup + "-modal-button").find("p").html(groupItem);
+                $("#dialog").html(groupItem);
+                $("#dialog").dialog({
+                    dialogClass: 'usa-modal-overlay usa-modal'
+                });
             }
         });
     }
