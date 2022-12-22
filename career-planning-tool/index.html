@@ -19,8 +19,16 @@ attached:
         <div class="grid-row grid-gap flex-row flex-align-center">
             <div class="desktop:grid-col-1 bg-white margin-left-205"><a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logos/logo-main-cfo.png" alt="back to CFO.gov"> </a> </div>
             <div class="desktop:grid-col-10">
-                <h4 class="text-normal text-white margin-bottom-1">Career Planning Tool</h4>
-                <p class="text-base-lighter padding-top-0 margin-top-0 text-light">Research what you need to advance in your government career.</p>
+                <div class="display-flex">
+                    <div class="desktop:grid-col-8">
+                        <h4 class="text-normal text-white margin-bottom-1">Career Planning & Training Tool (in BETA)</h4>
+                    </div>
+                    <div class="desktop:grid-col-4">
+                        <p class="text-normal text-white margin-bottom-1 font-serif-3xs">Click <a href="javascript:void(0)" class="text-accent-warm">here</a> for more information about this tool</p>
+                    </div>
+                </div>
+                <p class="text-base-lighter padding-top-0 margin-top-0 text-light">Discover the knowledge, skills, and training that can help advance your Federal career</p>
+            </div>
             </div>
         </div>
     </div>
@@ -34,7 +42,7 @@ attached:
                 <h2>Filter your results</h2>
                 <div id="secondary-skip" class="facets-panel bg-base-lightest padding-y-3 border-base-light border-1px radius-md border-2px padding-x-105">
 
-                  <h3 class="margin-top-0">Job Series</h3>
+                  <h3 class="margin-top-0">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></h3>
                     <div class="display-flex flex-column">
                         {% assign series_array = "" | split: "," %}
 
@@ -61,7 +69,7 @@ attached:
                         {% endfor %}
                     </div>
 
-                    <h3>GS Level</h3>
+                    <h3>GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level"></i></h3>
                     <div class="display-flex flex-column">
                         {% assign level_array = "" | split: "," %}
 
@@ -89,7 +97,7 @@ attached:
                     </div>
 
                     <div class="career-competency-level-1-input-group">
-                        <h3 class="font-sans-xs">Job Specific Technical Competencies</h3>
+                        <h3 class="font-sans-xs" >Job Specific Technical Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="You may further filter by selecting job-specific competencies (i.e., specialized knowledge is required for each job series)"></i></h3>
                         <div class="career-input-group">
                             <label class="text-underline text-accent-cool-darker display-inline-block text-no-wrap font-sans-2xs" for="job-career-competency-select-all" id="job-career-competency-select"><strong>Select All</strong></label>
                             <input style="position: absolute; left: -9999px;" type="checkbox" id="job-career-competency-select-all"/>
@@ -166,7 +174,7 @@ attached:
                         {% endfor %}
                     </div>
                     <div class="career-competency-level-1-input-group">
-                        <h3 class="font-sans-xs">General Career Competencies</h3>
+                        <h3 class="font-sans-xs">General Career <br />Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right"  title="General competencies are the same for all Federal employees."></i></h3>
                         <div class="career-input-group">
                             <label class="text-underline text-accent-cool-darker display-inline-block text-no-wrap font-sans-2xs" for="general-career-competency-select-all" id="general-career-competency-select"><strong>Select All</strong></label>
                             <input style="position: absolute; left: -9999px;" type="checkbox" id="general-career-competency-select-all"/>
@@ -241,8 +249,8 @@ attached:
                             </div>
                         </form>
                         <div id="career-download-buttons">
-                            <button class="usa-button usa-button--outline margin-bottom-1" data-op="select-all">Select All Cards</button>
-                            <button class="usa-button usa-button--outline margin-bottom-1" data-op="download-selected" disabled>Download Selected</button>
+                            <button class="usa-button usa-button--outline margin-bottom-1" data-position="left" data-op="select-all">Select All Cards</button>
+                            <button class="usa-button usa-button--outline margin-bottom-1 usa-tooltip" data-position="left" data-op="download-selected" disabled title="This feature will allow you to download a report of all selected information cards in either an MS Word or CSV file format.">Download Selected</button>
                         </div>
                     </div>
 
