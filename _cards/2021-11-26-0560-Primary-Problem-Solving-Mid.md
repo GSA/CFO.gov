@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Mid Problem Solving
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Problem-Solving-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Problem Solving
 competency_group: Primary
 competency_description: Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations

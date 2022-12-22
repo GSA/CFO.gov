@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Entry Fundamentals and Operations of Accounting
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Fundamentals-and Operations of Accounting-Entry
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Accounting
 competency_group: Alternate
 competency_description: Knowledge of traditional accounting practices including accrual, obligations, and costs methods

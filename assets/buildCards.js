@@ -4,7 +4,7 @@ const parse = require('csv-parse').parse;
 function buildCards() {
     let cards = {};
 
-    fs.createReadStream('assets/csv/FEDS_Competency_Model_Sample_Data_Foxtrot_9-14-2022.csv')
+    fs.createReadStream('assets/csv/FEDS Competency Model Sample Data Golf.csv')
         .pipe(parse({ columns: true }))
         .on('data', function (row) {
             const parts = row[Object.keys(row)[0]].split(' '),
@@ -20,7 +20,7 @@ function buildCards() {
                 careerLevel: row.career_level,
                 gsLevel: gsLevel(row.career_level),
                 jobSeries: parts[0].slice(1),
-                jobSeriesTitle: parts[1],
+                jobSeriesTitle: parts.slice(1).join(' '),
                 jobSeriesFull: row[Object.keys(row)[0]],
                 competency: row.competency,
                 competencyGroup: row.competency_group,
@@ -116,8 +116,8 @@ function buildCards() {
                     courseMarkup += '<li>';
                     if (courseUnique[i].courseName) {
                         if (courseUnique[i].courseName.includes(":")) {
-                            courseMarkup += courseUnique[i].courseName.replace(":", " -") + '<br>';
-                            courseExport += ' ' + courseUnique[i].courseName.replace(":", " -");
+                            courseMarkup += courseUnique[i].courseName.replace(/:/g, "&#58;") + '<br>';
+                            courseExport += ' ' + courseUnique[i].courseName.replace(/:/g, "&#58;");
                         }
                         else {
                             courseMarkup += courseUnique[i].courseName + '<br>';
@@ -126,8 +126,8 @@ function buildCards() {
                     }
                     if (courseUnique[i].instName) {
                         if (courseUnique[i].instName.includes(":")) {
-                            courseMarkup += courseUnique[i].instName.replace(":", " -") + '<br>';
-                            courseExport += ' ' + courseUnique[i].instName.replace(":", " -");
+                            courseMarkup += courseUnique[i].instName.replace(/:/g, "&#58;") + '<br>';
+                            courseExport += ' ' + courseUnique[i].instName.replace(/:/g, "&#58;");
                         }
                         else {
                             courseMarkup += courseUnique[i].instName + '<br>';
@@ -149,6 +149,7 @@ layout: career-planning-landing
 category: career
 title: ${card.jobSeriesFull} ${card.careerLevel} ${card.competency}
 series: ${card.jobSeries}
+job_series_title: ${card.jobSeriesTitle}
 job_series: ${card.jobSeriesFull}
 career_level: ${card.careerLevel}
 permalink: ${permalink}

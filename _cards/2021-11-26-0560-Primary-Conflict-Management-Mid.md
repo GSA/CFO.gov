@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Mid Conflict Management
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Conflict-Management-Mid
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Conflict Management
 competency_group: Primary
 competency_description: Manages and resolves conflicts, grievances, confrontations, or disagreements in a constructive manner to minimize negative (personal) impact

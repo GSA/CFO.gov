@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Entry Financial Management Systems
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Financial-Management Systems-Entry
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Management Systems
 competency_group: Secondary
 competency_description: Knowledge of the standards, architecture, and specifications of automated financial systems, including source documents, system flows, system interfaces, and related internal controls

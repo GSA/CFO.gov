@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Senior Audit Concepts, Policies and Principles
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Senior
 permalink: /cards/501-Audit-Concepts, Policies and Principles-Senior
-functional_competency_designation: Audit
+functional_competency_designation: Job Specific Competencies
 competency: Audit Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply the Federal Acquisition Regulation (FAR), Generally Accepted Government Auditing Standards (GAGAS), Generally Accepted Auditing Standards (GAAS), fiscal law, internal controls, policies, regulations, principles, standards and procedures governing audit activities 

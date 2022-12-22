@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Mid Budget Execution
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Budget-Execution-Mid
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Budget Execution
 competency_group: Secondary
 competency_description: Manage budget requirements by allocating, monitoring and analyzing budgets in compliance with statutory-regulatory guidance
@@ -14,8 +15,8 @@ level: "10-13"
 behavior_illustrations: Interprets and evaluates budget execution for compliance with fiscal law and guidance ? Implement execution plans and monitors and recommends adjustments to ensure compliance with total obligation authority
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 36 281 - Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
- - 36 281 - Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
+ - 36 281&#58; Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
+ - 36 281&#58; Finance and Accounting Training for Nonfinancial Managers, Learning Tree, <a href="https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/">https://www.learningtree.com/courses/281/finance-and-accounting-training-for-nonfinancial-managers/</a>
 filters: Secondary-Budget-Execution GS-10-13 series-0510
 ---
 

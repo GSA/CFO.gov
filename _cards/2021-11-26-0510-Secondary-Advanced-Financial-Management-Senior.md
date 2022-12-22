@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Senior Advanced Financial Management
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Senior
 permalink: /cards/510-Advanced-Financial Management-Senior
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Advanced Financial Management
 competency_group: Secondary
 competency_description: Develop, monitor, interpret, and report standardized processes-operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability

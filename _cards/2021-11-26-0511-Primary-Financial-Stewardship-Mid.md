@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Mid Financial Stewardship
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Mid
 permalink: /cards/511-Financial-Stewardship-Mid
-functional_competency_designation: Finance
+functional_competency_designation: Job Specific Competencies
 competency: Financial Stewardship
 competency_group: Primary
 competency_description: Manage, allocate and monitor financial resources in compliance with laws, regulations, and policies, with sufficient transparency and appropriate internal controls to ensure these resources are efficIently applied to meet organizational goals and objectives, while considering the Federal Government's fiduciary duty to the Nation
@@ -14,7 +15,7 @@ level: "10-13"
 behavior_illustrations: Interprets, analyzes and advises others on financial policies, regulations and procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - 130 Accounting Foundations - Internal Controls, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-internal-controls">https://www.linkedin.com/learning/accounting-foundations-internal-controls</a>
+ - 130 Accounting Foundations&#58; Internal Controls, Carahsoft, <a href="https://www.linkedin.com/learning/accounting-foundations-internal-controls">https://www.linkedin.com/learning/accounting-foundations-internal-controls</a>
 filters: Primary-Financial-Stewardship GS-10-13 series-0511
 ---
 

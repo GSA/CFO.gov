@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Entry Audit Reporting
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Audit-Reporting-Entry
-functional_competency_designation: Audit
+functional_competency_designation: Job Specific Competencies
 competency: Audit Reporting
 competency_group: Primary
 competency_description: Knowledge of the principles, practices, and techniques used to report audit findings (criteria, condition, cause, effect, and recommendation) 
@@ -15,7 +16,7 @@ behavior_illustrations: Summarizes information related to audit findings to iden
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
  - 28 Auditing Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b">https://www.skillsoft.com/channel/auditing-3e0535b0-2118-11e7-a974-1962c7e6a20b</a>
- - 29 2040 -  Certified Information System Auditor (CISA), Learning Tree, <a href="https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/">https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/</a>
+ - 29 2040&#58;  Certified Information System Auditor (CISA), Learning Tree, <a href="https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/">https://www.learningtree.com/courses/2040/cisa-certification-cisa-exam-prep/</a>
 filters: Primary-Audit-Reporting GS-7-9 series-0511
 ---
 

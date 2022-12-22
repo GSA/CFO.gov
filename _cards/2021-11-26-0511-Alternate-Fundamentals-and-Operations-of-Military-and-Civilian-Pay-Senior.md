@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Senior Fundamentals and Operations of Military and Civilian Pay
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Senior
 permalink: /cards/511-Fundamentals-and Operations of Military and Civilian Pay-Senior
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Military and Civilian Pay
 competency_group: Alternate
 competency_description: Research and analyze legislative and regulatory guidance related to entitlements to ensure proper payments

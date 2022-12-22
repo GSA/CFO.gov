@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Mid Decision Support – Audit Execution
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Mid
 permalink: /cards/511-Decision-Support – Audit Execution-Mid
-functional_competency_designation: Audit
+functional_competency_designation: Job Specific Competencies
 competency: Decision Support – Audit Execution
 competency_group: Primary
 competency_description: Conducts audits in accordance with Generally Accepted Government Auditing Standards (GAGAS) or Generally Accepted Auditing Standards (GAAS) to provide value-added recommendations that enable better utilization of resources and improvement of mission effectiveness 
@@ -15,7 +16,7 @@ behavior_illustrations: Evaluates the accuracy and completeness of audit evidenc
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - 84 Army Managers Internal Control Administrators Course (AUDT9015), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=AUDT9015">https://www.graduateschool.edu/solr-search/content?keys=AUDT9015</a>
- - 85 Audit and Due Diligence - Priorities and Best Practices, Carahsoft, <a href="https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices">https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices</a>
+ - 85 Audit and Due Diligence&#58; Priorities and Best Practices, Carahsoft, <a href="https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices">https://www.linkedin.com/learning/audit-and-due-diligence-priorities-and-best-practices</a>
 filters: Primary-Decision-Support-–-Audit-Execution GS-10-13 series-0511
 ---
 

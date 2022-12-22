@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Senior Accounting Concepts, Policies and Principles
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Senior
 permalink: /cards/511-Accounting-Concepts, Policies and Principles-Senior
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Accounting Concepts, Policies and Principles
 competency_group: Primary
 competency_description: Apply federal accounting standards, fiscal law, policies, regulations, principles, standards, internal controls and procedures to financial management activities

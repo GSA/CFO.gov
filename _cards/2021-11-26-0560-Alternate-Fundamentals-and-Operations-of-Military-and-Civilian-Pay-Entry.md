@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Entry Fundamentals and Operations of Military and Civilian Pay
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Fundamentals-and Operations of Military and Civilian Pay-Entry
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Military and Civilian Pay
 competency_group: Alternate
 competency_description: Research and analyze legislative and regulatory guidance related to entitlements to ensure proper payments

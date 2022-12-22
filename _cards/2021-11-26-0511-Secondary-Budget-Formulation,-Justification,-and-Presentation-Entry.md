@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0511 Auditing Entry Budget Formulation, Justification, and Presentation
 series: 511
+job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Budget-Formulation, Justification, and Presentation-Entry
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Budget Formulation, Justification, and Presentation
 competency_group: Secondary
 competency_description: Developing a budget and knowing how to properly allocate funds according to regulations is vital to solving constant resource challenges 

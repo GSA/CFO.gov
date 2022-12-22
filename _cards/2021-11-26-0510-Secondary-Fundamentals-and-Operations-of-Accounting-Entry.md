@@ -3,20 +3,21 @@ layout: career-planning-landing
 category: career
 title: 0510 Accounting Entry Fundamentals and Operations of Accounting
 series: 510
+job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Entry
 permalink: /cards/510-Fundamentals-and Operations of Accounting-Entry
-functional_competency_designation: Accounting
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Accounting
 competency_group: Secondary
 competency_description: Knowledge of traditional accounting practices including accrual, obligations, and costs methods
 level: "7-9"
 behavior_illustrations: Obtains basic data from routine or recurring reports using standardized procedures ? Extracts, records and balances basic information from routine or recurring reports using standardized procedures ? Researches, organizes and reconciles relevant information from accounts, systems and reports using various standardized procedures ? Examines non-routine financial management documentation to ensure accuracy and completeness of accounting transactions and accounts and identifies potential solutions for inaccurate or incomplete entries
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
-relevant_courses:
+relevant_courses: 
  - 137 Federal Accounting Standards (ACCT7102), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7102">https://www.graduateschool.edu/solr-search/content?keys=ACCT7102</a>
  - 138 Introduction to Federal Accounting (ACCT7001), Graduate School USA, <a href="https://www.graduateschool.edu/solr-search/content?keys=ACCT7001">https://www.graduateschool.edu/solr-search/content?keys=ACCT7001</a>
- - 139 Governmental Accounting, Financial Reporting and Budgeting, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a>
+ - 139 Governmental Accounting, Financial Reporting and Budgeting, AGA, <a href="https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx">https://www.agacgfm.org/CGFM-Certification/Candidates/Preparing-for-Exams/CGFM-Live-Virtual-Courses.aspx</a>, <a href="https://cgfm.learnupon.com/store">https://cgfm.learnupon.com/store</a>
  - 140 National Accounts Statistics, Deloitte, <a href="National">National</a>, <a href="Accounts">Accounts</a>, <a href="Statistics">Statistics</a>
 filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-7-9 series-0510
 ---

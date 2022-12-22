@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0501 Financial Administration and Program Support Senior Fundamentals and Operations of Budget
 series: 501
+job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Senior
 permalink: /cards/501-Fundamentals-and Operations of Budget-Senior
-functional_competency_designation: Budget
+functional_competency_designation: Job Specific Competencies
 competency: Fundamentals and Operations of Budget
 competency_group: Alternate
 competency_description: Knowledge of the principles and practices of budget administration and analysis; including preparing, justifying, reporting on, and executing the budget; and the relationships among program, budget, accounting, and reporting systems
@@ -14,7 +15,7 @@ level: "14-15"
 behavior_illustrations: Extracts, records and balances basic information from financial management systems
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - 143 1313 - FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
+ - 143 1313&#58; FPM 133 -  Fundamentals of Business, Cost and Financial Management, Learning Tree
 filters: Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0501
 ---
 

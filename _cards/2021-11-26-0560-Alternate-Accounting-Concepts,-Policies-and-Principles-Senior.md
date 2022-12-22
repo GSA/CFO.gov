@@ -3,10 +3,11 @@ layout: career-planning-landing
 category: career
 title: 0560 Budget Analysis Senior Accounting Concepts, Policies and Principles
 series: 560
+job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Accounting-Concepts, Policies and Principles-Senior
-functional_competency_designation: Payroll
+functional_competency_designation: Job Specific Competencies
 competency: Accounting Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply federal accounting standards, fiscal law, policies, regulations, principles, standards, internal controls and procedures to financial management activities
