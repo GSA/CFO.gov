@@ -624,8 +624,8 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
         const buttonJobContainer = document.getElementById("career-search-results-filter-remove-buttons-series");
         buttonJobContainer.appendChild(removeButtonA);
         $("#series").css('display', 'block');
-        $("#career-search-results-filter-remove-buttons-series").attr('aria-expanded', 'false');
-    }
+        $("#btnSeries").attr('aria-expanded', 'false');
+      /*  $("#career-search-results-filter-remove-buttons-series").style.visibility = 'hidden';*/
     if (eventTargetId.match("GS")) {
         const buttonGSContainer = document.getElementById("career-search-results-filter-remove-buttons-gs");
         buttonGSContainer.appendChild(removeButtonA);
