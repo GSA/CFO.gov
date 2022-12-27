@@ -625,7 +625,8 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
         buttonJobContainer.appendChild(removeButtonA);
         $("#series").css('display', 'block');
         $("#btnSeries").attr('aria-expanded', 'false');
-      /*  $("#career-search-results-filter-remove-buttons-series").style.visibility = 'hidden';*/
+        /*  $("#career-search-results-filter-remove-buttons-series").style.visibility = 'hidden';*/
+    }
     if (eventTargetId.match("GS")) {
         const buttonGSContainer = document.getElementById("career-search-results-filter-remove-buttons-gs");
         buttonGSContainer.appendChild(removeButtonA);
