@@ -514,7 +514,14 @@ function createResults(noResults, item) { // creates a results div and contents
 }
 
 function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, removeAll) {
-    const buttonJobCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-job-competency");
+    let buttonCompetencyContainer = null;
+    if (competencyGroup.match("primary") || competencyGroup.match("secondary") || competencyGroup.match("alternate")) {
+        buttonCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-job-competency");
+    }
+    else {
+        buttonCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-general-competency");
+    }
+    
     if (!removeAll) {
         //set items to local storage for popups
         let competencyTitlePipeReplaced = competencyTitle.replace(',', '|');
@@ -543,12 +550,12 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     //handle button for duplicates
     const subButton = document.getElementById(competencyGroup + "-button");
-    //const subButton = $('[id="career-search-results-filter-remove-buttons-job-competency"]:contains("' + competencyGroup + '")');
+    
     if (subButton == null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
         removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
         removeButtonA.innerText = itemName;
-        buttonJobCompetencyContainer.appendChild(removeButtonA);
+        buttonCompetencyContainer.appendChild(removeButtonA);
     }
 
     else { 
@@ -644,7 +651,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
             $("#btnJobCompetency").attr('aria-expanded', 'false');
             $("#career-search-results-filter-remove-buttons-job-competency").attr("hidden", true);             
         }
-        if (eventTargetId.match("personal") || eventTargetId.match("project") || eventTargetId.match("leading") || eventTargetId.match("future Skills")) {
+        if (eventTargetId.match("personal") || eventTargetId.match("project") || eventTargetId.match("leading") || eventTargetId.match("future-skills")) {
             addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
             $("#general-competency").css('display', 'block');
             $("#btnGeneralCompetency").attr('aria-expanded', 'false'); 
