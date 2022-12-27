@@ -355,8 +355,16 @@ div[data-card-filter] {
 }
 
 .usa-accordion--bordered .usa-accordion__content {
-    border-bottom: 0.25rem solid #ffbc78 !important;
-    border-left: 0.25rem solid #ffbc78 !important;
-    border-right: 0.25rem solid #ffbc78 !important;
+    border-bottom: 0.25rem solid #fa9441 !important;
+    border-left: 0.25rem solid #fa9441 !important;
+    border-right: 0.25rem solid #fa9441 !important;
     padding-bottom: 1rem !important;
+}
+
+.usa-accordion__button:hover {
+    background-color: #fa9441 !important;
+}
+
+.margin-top{
+    margin-top:0px !important;
 }

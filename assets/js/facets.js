@@ -625,27 +625,30 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
         buttonJobContainer.appendChild(removeButtonA);
         $("#series").css('display', 'block');
         $("#btnSeries").attr('aria-expanded', 'false');
-        /*  $("#career-search-results-filter-remove-buttons-series").style.visibility = 'hidden';*/
+        $("#career-search-results-filter-remove-buttons-series").attr("hidden", true);
     }
     if (eventTargetId.match("GS")) {
         const buttonGSContainer = document.getElementById("career-search-results-filter-remove-buttons-gs");
         buttonGSContainer.appendChild(removeButtonA);
         $("#gs").css('display', 'block');
-        $("#career-search-results-filter-remove-buttons-gs").attr('aria-expanded', 'false');
+        $("#btnGS").attr('aria-expanded', 'false');
+        $("#career-search-results-filter-remove-buttons-gs").attr("hidden", true);
     }
     if (competencyGroup != null) {
         removeButtonA.removeAttribute("class");
         removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
-        addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
+        
         if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
+            addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
             $("#job-competency").css('display', 'block');
-            $("#career-search-results-filter-remove-buttons-job-competency").attr('aria-expanded', 'false');             
+            $("#btnJobCompetency").attr('aria-expanded', 'false');
+            $("#career-search-results-filter-remove-buttons-job-competency").attr("hidden", true);             
         }
         if (eventTargetId.match("personal") || eventTargetId.match("project") || eventTargetId.match("leading") || eventTargetId.match("future Skills")) {
-            const buttonGeneralCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-general-competency");
-            buttonGeneralCompetencyContainer.appendChild(removeButtonA);
+            addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
             $("#general-competency").css('display', 'block');
-            $("#career-search-results-filter-remove-buttons-general-competency").attr('aria-expanded', 'false'); 
+            $("#btnGeneralCompetency").attr('aria-expanded', 'false'); 
+            $("#career-search-results-filter-remove-buttons-general-competency").attr("hidden", true); 
         }
         $("#" + competencyGroup + "-button").on('click', function () {
             let groupItem = localStorage.getItem(competencyGroup);
