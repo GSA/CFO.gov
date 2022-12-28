@@ -368,3 +368,9 @@ div[data-card-filter] {
 .margin-top{
     margin-top:0px !important;
 }
+
+.ui-widget-header{
+    border:none !important;
+    background-color:none !important;
+    background:none !important;
+}

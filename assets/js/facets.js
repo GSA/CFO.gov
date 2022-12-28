@@ -616,7 +616,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     removeButtonA.setAttribute("id", eventTargetId + "-button");
     removeButtonA.setAttribute("tabindex", 0);
     removeButtonA.setAttribute("href", "javascript:void(0)");
-    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
+    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black padding-05 margin-1 text-no-uppercase text-no-underline");
     let removeButtonText = '';
     if (inputType == "button") {
         removeButtonText = createButtonText(eventTargetId);
@@ -643,7 +643,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     }
     if (competencyGroup != null) {
         removeButtonA.removeAttribute("class");
-        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
+        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-no-uppercase text-no-underline");
         
         if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
             addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
@@ -658,11 +658,21 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
             $("#career-search-results-filter-remove-buttons-general-competency").attr("hidden", true); 
         }
         $("#" + competencyGroup + "-button").on('click', function () {
+            $("#dialog").html('');
             let groupItem = localStorage.getItem(competencyGroup);
-            if (groupItem!=null) {
-                $("#dialog").html(groupItem);
+            if (groupItem != null) {
+                groupItem.replace('[', '').replace(']', '').split(',').forEach(function (i) {
+                    const removeButtonA = document.createElement("a");
+                    removeButtonA.setAttribute("id", eventTargetId + "-button");
+                    removeButtonA.setAttribute("tabindex", 0);
+                    removeButtonA.setAttribute("href", "javascript:void(0)");
+                    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black padding-05 margin-1 text-no-uppercase text-no-underline");
+                    removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
+                    $("#dialog").append(removeButtonA);
+                });
                 $("#dialog").dialog({
-                    dialogClass: 'usa-modal-overlay usa-modal'
+                    width:500
+                    //dialogClass: 'usa-modal'
                 });
             }
         });
