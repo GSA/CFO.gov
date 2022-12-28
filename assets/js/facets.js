@@ -360,10 +360,8 @@ function createClearButton() {
         $("#job-competency").css('display', 'none');
         $("#general-competency").css('display', 'none');
         getSearch();
-
-        var jobSelectAll =  '#job-career-competency-select-all'
+    
         var jobSelect = '#job-career-competency-select';
-        $(jobSelectAll).html("<strong>Select All</strong>");
         $(jobSelect).html("<strong>Select All</strong>");
         competency_group.forEach(item => {
             let itemElement = createId(item);
@@ -374,9 +372,7 @@ function createClearButton() {
             }
         });
 
-        var generalSelectAll = '#job-career-competency-select-all'
         var generalSelect = '#general-career-competency-select';
-        $(generalSelectAll).html("<strong>Select All</strong>");
         $(generalSelect).html("<strong>Select All</strong>");
         competency_group.forEach(item => {
             let itemElement = createId(item);
@@ -692,7 +688,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
                     removeButtonA.setAttribute("id", eventTargetId + "-button");
                     removeButtonA.setAttribute("tabindex", 0);
                     removeButtonA.setAttribute("href", "javascript:void(0)");
-                    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black padding-05 margin-1 text-no-uppercase text-no-underline");
+                    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black text-no-uppercase text-no-underline");
                     removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
                     $("#dialog").append(removeButtonA);
                 });
