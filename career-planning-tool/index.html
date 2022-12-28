@@ -247,7 +247,7 @@ attached:
                     </div>
 
                     <section class="display-flex flex-row margin-top-1">
-                        <div  class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none padding-right-1 margin-top" aria-multiselectable="true" id="series">
+                        <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none padding-right-1 margin-top" aria-multiselectable="true" id="series">
                             <h6 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-warm text-black" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-series" id="btnSeries">Job Series</button></h6>
                             <div id="career-search-results-filter-remove-buttons-series" class="usa-accordion__content"></div>
                         </div>
@@ -255,27 +255,29 @@ attached:
                             <h6 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-warm text-black" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-gs" id="btnGS">GS Level</button></h6>
                             <div id="career-search-results-filter-remove-buttons-gs" class="usa-accordion__content"></div>
                         </div>
-                        <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none padding-right-1 margin-top" aria-multiselectable="true" id="job-competency">
-                            <h6 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-warm text-black" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-job-competency" id="btnJobCompetency">Job Specific Technical Competencies</button></h6>
-                            <div id="career-search-results-filter-remove-buttons-job-competency" class="usa-accordion__content"></div>
-                        </div>
-                        <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none margin-top" aria-multiselectable="true" id="general-competency">
-                            <h6 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-warm text-black" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-general-competency" id="btnGeneralCompetency">General Career Competencies</button></h6>
-                            <div id="career-search-results-filter-remove-buttons-general-competency" class="usa-accordion__content"></div>
-                        </div>
                     </section>
+                        <section class="display-flex flex-row margin-top-1">
+                            <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none padding-right-1 margin-top" aria-multiselectable="true" id="job-competency">
+                                <h6 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-warm text-black" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-job-competency" id="btnJobCompetency">Job Specific Technical Competencies</button></h6>
+                                <div id="career-search-results-filter-remove-buttons-job-competency" class="usa-accordion__content"></div>
+                            </div>
+                            <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none margin-top" aria-multiselectable="true" id="general-competency">
+                                <h6 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-warm text-black" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-general-competency" id="btnGeneralCompetency">General Career Competencies</button></h6>
+                                <div id="career-search-results-filter-remove-buttons-general-competency" class="usa-accordion__content"></div>
+                            </div>
+                        </section>
 
-                    <section class="margin-top-1">
-                        <div id="career-search-results-filter-remove-all-button" class="margin-top-1">
-                            <a href="javascript:void(0)" class="text-accent-cool-darker" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
-                        </div>
-                    </section>
+                        <section class="margin-top-1">
+                            <div id="career-search-results-filter-remove-all-button" class="margin-top-1">
+                                <a href="javascript:void(0)" class="text-accent-cool-darker" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
+                            </div>
+                        </section>
 
-                    <section>
-                        <div id="dialog" class="display-none">
-                        </div>
+                        <section>
+                            <div id="dialog" class="display-none">
+                            </div>
+                        </section>
                     </section>
-                </section>
                 <div class="career-search-results-filter-pagination">
                   {% assign post_count = site.cards | size %}
                   {% assign default_page_size = 10 %}

@@ -360,6 +360,32 @@ function createClearButton() {
         $("#job-competency").css('display', 'none');
         $("#general-competency").css('display', 'none');
         getSearch();
+
+        var jobSelectAll =  '#job-career-competency-select-all'
+        var jobSelect = '#job-career-competency-select';
+        $(jobSelectAll).html("<strong>Select All</strong>");
+        $(jobSelect).html("<strong>Select All</strong>");
+        competency_group.forEach(item => {
+            let itemElement = createId(item);
+            let eventId = document.getElementById(itemElement);
+            if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
+                var labelId = "#competency-group-label-" + itemElement;
+                $(labelId).html("<strong>Select All</strong>");
+            }
+        });
+
+        var generalSelectAll = '#job-career-competency-select-all'
+        var generalSelect = '#general-career-competency-select';
+        $(generalSelectAll).html("<strong>Select All</strong>");
+        $(generalSelect).html("<strong>Select All</strong>");
+        competency_group.forEach(item => {
+            let itemElement = createId(item);
+            let eventId = document.getElementById(itemElement);
+            if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
+                var labelId = "#competency-group-label-" + itemElement;
+                $(labelId).html("<strong>Select All</strong>");
+            }
+        });
     });
 }
 
@@ -553,7 +579,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     
     if (subButton == null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
-        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
+        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
         removeButtonA.innerText = itemName;
         buttonCompetencyContainer.appendChild(removeButtonA);
     }
@@ -562,7 +588,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
         let data = subButton.innerText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (subButton.innerText.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-right-2 margin-bottom-2 text-no-uppercase text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
                 subButton.innerText = subButton.innerText.replace(item, itemName);
             }
         });
