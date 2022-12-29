@@ -580,6 +580,9 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     if (subButton == null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
         removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
+        if (removeButtonA.getAttribute("onClick") == null) {
+            removeButtonA.setAttribute("onClick", "onSubButtonClick('" + competencyGroup +"');")
+        }
         removeButtonA.innerText = itemName;
         buttonCompetencyContainer.appendChild(removeButtonA);
     }
@@ -590,6 +593,121 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
             if (subButton.innerText.includes(item) && item.includes(competencyGroup)) {
                 subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
                 subButton.innerText = subButton.innerText.replace(item, itemName);
+            }
+        });
+    }
+}
+
+function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
+    let eventTargetId = id.replace('pop', 'primary').replace('-button', '').toLowerCase();
+    removeTagFilter("checkbox", null, eventTargetId);
+    let popupElement = document.getElementById(id);
+    if (popupElement != null) {
+        popupElement.remove();
+    }
+    //remove from local storage
+    let competencyTitlePipeReplaced = competencyTitle.replace(',', '|');
+    let groupItem = localStorage.getItem(competencyGroup);
+    if (groupItem != null) {
+        let groupItemValue = JSON.parse(groupItem);
+        groupItemValue.splice(groupItemValue.indexOf(competencyTitlePipeReplaced), 1);
+        localStorage.setItem(competencyGroup, JSON.stringify(groupItemValue));
+    }
+
+    //set item length and name
+    const itemLength = groupItem != null?JSON.parse(localStorage.getItem(competencyGroup)).length:0;
+    const itemName = ' ' + competencyGroup + ' ' + itemLength.toString();
+
+
+    const subButton = document.getElementById(competencyGroup + "-button");
+    if (subButton != null) {
+        let data = subButton.innerText.match(/\w* \d+/g);
+        data.forEach(function (item, index) {
+            if (subButton.innerText.includes(item) && item.includes(competencyGroup)) {
+                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
+                subButton.innerText = subButton.innerText.replace(item, itemName);
+            }
+        });
+    }
+}
+
+function removeTagFilter(inputType, id,  eventTargetId) {
+    // console.log("Removing: "+eventTargetId+"-button");
+    adding = false;
+    removing = true;
+    if (inputType == "button") $("#" + id).toggleClass("active");
+    else {
+        $("#" + eventTargetId).prop("checked", false);
+        let group = $("#" + eventTargetId).data('group');
+        if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
+        if ($("#career-competency-select-all").is(":checked")) $("#career-competency-select-all").prop("checked", false);
+    }
+    data = $.grep(data, function (e) {
+        return e.id != eventTargetId;
+    });
+    data.forEach(function (i) {
+        let givenId = eventTargetId + "-button";
+        if (i.id.indexOf(givenId) > -1) {
+            data = data.filter(x => x.id != givenId);
+        }
+    });
+
+    if (eventTargetId.match("series")) {
+        const seriesLength = data.filter(i => i.id.indexOf("series") > -1);
+        if (seriesLength == 0) {
+            $("#series").css('display', 'none');
+        }
+    }
+    if (eventTargetId.match("GS")) {
+        const gsLength = data.filter(i => i.id.indexOf("GS") > -1);
+        if (gsLength.length == 0) {
+            $("#gs").css('display', 'none');
+        }
+    }
+    adjustSearchOrder();
+    if (data.length == 0) {
+        searchOrder = [];
+        startingSearchFilter = [];
+        $("#career-facet-remove-all-filters-button").css('display', 'none');
+        $("#series").css('display', 'none');
+        $("#gs").css('display', 'none');
+        $("#job-competency").css('display', 'none');
+        $("#general-competency").css('display', 'none');
+    }
+    $("#" + eventTargetId + "-button").remove();
+    getSearch();
+    // console.log(JSON.stringify(data));
+}
+
+function onSubButtonClick(competencyGroup) {
+    $("#dialog").html('');
+    let groupItem = localStorage.getItem(competencyGroup);
+    if (groupItem != null) {
+        let groupItems = groupItem.replace('[', '').replace(']', '').split(',');
+        let groupItemsLength = groupItems.length;
+        groupItems.forEach(function (i) {
+            let givenId = "pop-" +
+               i.replace('|', '-')
+                .replace('"', '')
+                .replace('"', '')
+                .replace(',', '-')
+                .replace(' ', '-') + "-button";
+            const removeButtonA = document.createElement("a");
+            removeButtonA.setAttribute("id", givenId);
+            removeButtonA.setAttribute("tabindex", 0);
+            removeButtonA.setAttribute("href", "javascript:void(0)");
+            removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
+            removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
+            if (removeButtonA.getAttribute("onClick") == null) {
+                removeButtonA.setAttribute("onClick", "onPopupSubButtonClick('" + competencyGroup + "', '" + givenId + "', '" + i +"');")
+            }
+            document.getElementById("dialog").appendChild(removeButtonA);
+            groupItemsLength--;
+            if (groupItemsLength === 1) {
+                $("#dialog").dialog({
+                    width: 500
+                    //dialogClass: 'usa-modal'
+                });
             }
         });
     }
@@ -683,85 +801,18 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
             $("#btnGeneralCompetency").attr('aria-expanded', 'false');
             $("#career-search-results-filter-remove-buttons-general-competency").attr("hidden", true);
         }
-        document.getElementById(competencyGroup + "-button").getAttribute("onclick", "onSubButtonClick();")
-        if ($("#" + competencyGroup + "-button").onclick == undefined) {
-            $("#" + competencyGroup + "-button").on('click', function (e) {
-                e.preventDefault();
-                $("#dialog").html('');
-                let groupItem = localStorage.getItem(competencyGroup);
-                if (groupItem != null) {
-                    let groupItems = groupItem.replace('[', '').replace(']', '').split(',');
-                    let groupItemsLength = groupItems.length;
-                    groupItems.forEach(function (i) {
-                        let givenId = eventTargetId + "-button";
-                        const removeButtonA = document.createElement("a");
-                        removeButtonA.setAttribute("id", givenId);
-                        removeButtonA.setAttribute("tabindex", 0);
-                        removeButtonA.setAttribute("href", "javascript:void(0)");
-                        removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black text-no-uppercase text-no-underline");
-                        removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
-                        $("#dialog").append(removeButtonA);
-                        groupItemsLength--;
-                        if (groupItemsLength === 1) {
-                            $("#dialog").dialog({
-                                width: 500
-                                //dialogClass: 'usa-modal'
-                            });
-                        }
-                    });
-                }
-            });
-        }
+        //if ($("#" + competencyGroup + "-button").onclick == undefined) {
+        //    $("#" + competencyGroup + "-button").on('click', function (e) {
+        //        e.preventDefault();
+                
+        //    });
+        //}
     }
 
 getSearch();
 
-$("#" + eventTargetId + "-button").on('click', function () {
-    // console.log("Removing: "+eventTargetId+"-button");
-    adding = false;
-    removing = true;
-    if (inputType == "button") $("#" + button[0].id).toggleClass("active");
-    else {
-        $("#" + eventTargetId).prop("checked", false);
-        let group = $("#" + eventTargetId).data('group');
-        if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
-        if ($("#career-competency-select-all").is(":checked")) $("#career-competency-select-all").prop("checked", false);
-    }
-    data = $.grep(data, function (e) {
-        return e.id != eventTargetId;
-    });
-    data.forEach(function (i) {
-        let givenId = eventTargetId + "-button";
-        if (i.id.indexOf(givenId) > -1) {
-            data = data.filter(x => x.id != givenId);
-        }
-    });
-
-    if (eventTargetId.match("series")) {
-        const seriesLength = data.filter(i => i.id.indexOf("series") > -1);
-        if (seriesLength == 0) {
-            $("#series").css('display', 'none');
-        }
-    }
-    if (eventTargetId.match("GS")) {
-        const gsLength = data.filter(i => i.id.indexOf("GS") > -1);
-        if (gsLength.length == 0) {
-            $("#gs").css('display', 'none');
-        }
-    }
-    adjustSearchOrder();
-    if (data.length == 0) {
-        searchOrder = [];
-        startingSearchFilter = [];
-        $("#career-facet-remove-all-filters-button").css('display', 'none');
-        $("#series").css('display', 'none');
-        $("#gs").css('display', 'none');
-        $("#job-competency").css('display', 'none');
-        $("#general-competency").css('display', 'none');
-    }
-    $("#" + eventTargetId + "-button").remove();
-    getSearch();
-    // console.log(JSON.stringify(data));
+    $("#" + eventTargetId + "-button").on('click', function () {
+        removeTagFilter(inputType, button != null && button.length>0?button[0].id:null, eventTargetId);
 });
    
 }
