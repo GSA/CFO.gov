@@ -30,7 +30,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         results.push(item);
         fullSet.push(item);
     });
-   
+
     $("input:checkbox").each(function () {
         $(this).prop('checked', false);
     });
@@ -360,12 +360,13 @@ function createClearButton() {
         $("#job-competency").css('display', 'none');
         $("#general-competency").css('display', 'none');
         getSearch();
-    
+
         var jobSelect = '#job-career-competency-select';
         $(jobSelect).html("<strong>Select All</strong>");
         competency_group.forEach(item => {
             let itemElement = createId(item);
             let eventId = document.getElementById(itemElement);
+            let major_group = 'job-specific';
             if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
                 var labelId = "#competency-group-label-" + itemElement;
                 $(labelId).html("<strong>Select All</strong>");
@@ -377,6 +378,7 @@ function createClearButton() {
         competency_group.forEach(item => {
             let itemElement = createId(item);
             let eventId = document.getElementById(itemElement);
+            let major_group = 'general';
             if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
                 var labelId = "#competency-group-label-" + itemElement;
                 $(labelId).html("<strong>Select All</strong>");
@@ -543,7 +545,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     else {
         buttonCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-general-competency");
     }
-    
+
     if (!removeAll) {
         //set items to local storage for popups
         let competencyTitlePipeReplaced = competencyTitle.replace(',', '|');
@@ -557,7 +559,9 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
                 groupItemValue.push(competencyTitlePipeReplaced);
             }
             else {
-                groupItemValue.splice(groupItemValue.indexOf(competencyTitlePipeReplaced), 1);
+                if (removing) {
+                    groupItemValue.splice(groupItemValue.indexOf(competencyTitlePipeReplaced), 1);
+                }
             }
             localStorage.setItem(competencyGroup, JSON.stringify(groupItemValue));
         }
@@ -567,12 +571,12 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     }
 
     //set item length and name
-    const itemLength = removeAll?0:JSON.parse(localStorage.getItem(competencyGroup)).length;
+    const itemLength = removeAll ? 0 : JSON.parse(localStorage.getItem(competencyGroup)).length;
     const itemName = ' ' + competencyGroup + ' ' + itemLength.toString();
 
     //handle button for duplicates
     const subButton = document.getElementById(competencyGroup + "-button");
-    
+
     if (subButton == null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
         removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
@@ -580,7 +584,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
         buttonCompetencyContainer.appendChild(removeButtonA);
     }
 
-    else { 
+    else {
         let data = subButton.innerText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (subButton.innerText.includes(item) && item.includes(competencyGroup)) {
@@ -666,70 +670,99 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     if (competencyGroup != null) {
         removeButtonA.removeAttribute("class");
         removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-no-uppercase text-no-underline");
-        
+
         if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
             addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
             $("#job-competency").css('display', 'block');
             $("#btnJobCompetency").attr('aria-expanded', 'false');
-            $("#career-search-results-filter-remove-buttons-job-competency").attr("hidden", true);             
+            $("#career-search-results-filter-remove-buttons-job-competency").attr("hidden", true);
         }
         if (eventTargetId.match("personal") || eventTargetId.match("project") || eventTargetId.match("leading") || eventTargetId.match("future-skills")) {
             addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
             $("#general-competency").css('display', 'block');
-            $("#btnGeneralCompetency").attr('aria-expanded', 'false'); 
-            $("#career-search-results-filter-remove-buttons-general-competency").attr("hidden", true); 
+            $("#btnGeneralCompetency").attr('aria-expanded', 'false');
+            $("#career-search-results-filter-remove-buttons-general-competency").attr("hidden", true);
         }
-        $("#" + competencyGroup + "-button").on('click', function () {
-            $("#dialog").html('');
-            let groupItem = localStorage.getItem(competencyGroup);
-            if (groupItem != null) {
-                groupItem.replace('[', '').replace(']', '').split(',').forEach(function (i) {
-                    const removeButtonA = document.createElement("a");
-                    removeButtonA.setAttribute("id", eventTargetId + "-button");
-                    removeButtonA.setAttribute("tabindex", 0);
-                    removeButtonA.setAttribute("href", "javascript:void(0)");
-                    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black text-no-uppercase text-no-underline");
-                    removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
-                    $("#dialog").append(removeButtonA);
-                });
-                $("#dialog").dialog({
-                    width:500
-                    //dialogClass: 'usa-modal'
-                });
-            }
-        });
+        document.getElementById(competencyGroup + "-button").getAttribute("onclick", "onSubButtonClick();")
+        if ($("#" + competencyGroup + "-button").onclick == undefined) {
+            $("#" + competencyGroup + "-button").on('click', function (e) {
+                e.preventDefault();
+                $("#dialog").html('');
+                let groupItem = localStorage.getItem(competencyGroup);
+                if (groupItem != null) {
+                    let groupItems = groupItem.replace('[', '').replace(']', '').split(',');
+                    let groupItemsLength = groupItems.length;
+                    groupItems.forEach(function (i) {
+                        let givenId = eventTargetId + "-button";
+                        const removeButtonA = document.createElement("a");
+                        removeButtonA.setAttribute("id", givenId);
+                        removeButtonA.setAttribute("tabindex", 0);
+                        removeButtonA.setAttribute("href", "javascript:void(0)");
+                        removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black text-no-uppercase text-no-underline");
+                        removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
+                        $("#dialog").append(removeButtonA);
+                        groupItemsLength--;
+                        if (groupItemsLength === 1) {
+                            $("#dialog").dialog({
+                                width: 500
+                                //dialogClass: 'usa-modal'
+                            });
+                        }
+                    });
+                }
+            });
+        }
     }
 
-    getSearch();
+getSearch();
 
-    $("#" + eventTargetId + "-button").on('click', function () {
-        // console.log("Removing: "+eventTargetId+"-button");
-        adding = false;
-        removing = true;
-        if (inputType == "button") $("#" + button[0].id).toggleClass("active");
-        else {
-            $("#" + eventTargetId).prop("checked", false);
-            let group = $("#" + eventTargetId).data('group');
-            if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
-            if ($("#career-competency-select-all").is(":checked")) $("#career-competency-select-all").prop("checked", false);
-        }
-        data = $.grep(data, function (e) {
-            return e.id != eventTargetId;
-        });
-        adjustSearchOrder();
-        if (data.length == 0) {
-            searchOrder = [];
-            startingSearchFilter = [];
-            $("#career-facet-remove-all-filters-button").css('display', 'none');
-            $("#series").css('display', 'none');
-            $("#gs").css('display', 'none');
-            $("#job-competency").css('display', 'none');
-            $("#general-competency").css('display', 'none');
-        }
-        $("#" + eventTargetId + "-button").remove();
-        getSearch();
-        // console.log(JSON.stringify(data));
+$("#" + eventTargetId + "-button").on('click', function () {
+    // console.log("Removing: "+eventTargetId+"-button");
+    adding = false;
+    removing = true;
+    if (inputType == "button") $("#" + button[0].id).toggleClass("active");
+    else {
+        $("#" + eventTargetId).prop("checked", false);
+        let group = $("#" + eventTargetId).data('group');
+        if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
+        if ($("#career-competency-select-all").is(":checked")) $("#career-competency-select-all").prop("checked", false);
+    }
+    data = $.grep(data, function (e) {
+        return e.id != eventTargetId;
     });
+    data.forEach(function (i) {
+        let givenId = eventTargetId + "-button";
+        if (i.id.indexOf(givenId) > -1) {
+            data = data.filter(x => x.id != givenId);
+        }
+    });
+
+    if (eventTargetId.match("series")) {
+        const seriesLength = data.filter(i => i.id.indexOf("series") > -1);
+        if (seriesLength == 0) {
+            $("#series").css('display', 'none');
+        }
+    }
+    if (eventTargetId.match("GS")) {
+        const gsLength = data.filter(i => i.id.indexOf("GS") > -1);
+        if (gsLength.length == 0) {
+            $("#gs").css('display', 'none');
+        }
+    }
+    adjustSearchOrder();
+    if (data.length == 0) {
+        searchOrder = [];
+        startingSearchFilter = [];
+        $("#career-facet-remove-all-filters-button").css('display', 'none');
+        $("#series").css('display', 'none');
+        $("#gs").css('display', 'none');
+        $("#job-competency").css('display', 'none');
+        $("#general-competency").css('display', 'none');
+    }
+    $("#" + eventTargetId + "-button").remove();
+    getSearch();
+    // console.log(JSON.stringify(data));
+});
    
 }
 
