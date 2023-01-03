@@ -691,10 +691,16 @@ function onSubButtonClick(competencyGroup) {
         let groupItemsLength = groupItems.length;
         groupItems.forEach(function (i) {
             let givenId = "pop-" +
-               i.replace('|', '-')
+               i.replace('| ', '-')
                 .replace('"', '')
                 .replace('"', '')
                 .replace(',', '-')
+                .replace(' ', '-')
+                .replace(' ', '-')
+                .replace(' ', '-')
+                .replace(' ', '-')
+                .replace(' ', '-')
+                .replace(' ', '-')
                 .replace(' ', '-') + "-button";
             const removeButtonA = document.createElement("a");
             removeButtonA.setAttribute("id", givenId);
