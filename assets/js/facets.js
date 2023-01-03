@@ -361,28 +361,32 @@ function createClearButton() {
         $("#general-competency").css('display', 'none');
         getSearch();
 
-        var jobSelect = '#job-career-competency-select';
-        $(jobSelect).html("<strong>Select All</strong>");
-        competency_group.forEach(item => {
-            let itemElement = createId(item);
-            let eventId = document.getElementById(itemElement);
-            let major_group = 'job-specific';
-            if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
-                var labelId = "#competency-group-label-" + itemElement;
-                $(labelId).html("<strong>Select All</strong>");
-            }
-        });
+        //var jobSelect = '#job-career-competency-select';
+        //$(jobSelect).html("<strong>Select All</strong>");
+        //competency_group.forEach(item => {
+        //    let itemElement = createId(item);
+        //    let eventId = document.getElementById(itemElement);
+        //    let major_group = 'job-specific';
+        //    if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
+        //        var labelId = "#competency-group-label-" + itemElement;
+        //        $(labelId).html("<strong>Select All</strong>");
+        //    }
+        //});
 
-        var generalSelect = '#general-career-competency-select';
-        $(generalSelect).html("<strong>Select All</strong>");
-        competency_group.forEach(item => {
-            let itemElement = createId(item);
-            let eventId = document.getElementById(itemElement);
-            let major_group = 'general';
-            if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
-                var labelId = "#competency-group-label-" + itemElement;
-                $(labelId).html("<strong>Select All</strong>");
-            }
+        //var generalSelect = '#general-career-competency-select';
+        //$(generalSelect).html("<strong>Select All</strong>");
+        //competency_group.forEach(item => {
+        //    let itemElement = createId(item);
+        //    let eventId = document.getElementById(itemElement);
+        //    let major_group = 'general';
+        //    if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
+        //        var labelId = "#competency-group-label-" + itemElement;
+        //        $(labelId).html("<strong>Select All</strong>");
+        //    }
+        //});
+
+        $("#dialog").dialog({
+            dialogClass: "display-none"
         });
     });
 }
@@ -624,7 +628,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         let data = subButton.innerText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (subButton.innerText.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-05 text-no-uppercase text-no-underline");
                 subButton.innerText = subButton.innerText.replace(item, itemName);
             }
         });
@@ -696,17 +700,17 @@ function onSubButtonClick(competencyGroup) {
             removeButtonA.setAttribute("id", givenId);
             removeButtonA.setAttribute("tabindex", 0);
             removeButtonA.setAttribute("href", "javascript:void(0)");
-            removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
+            removeButtonA.setAttribute("class", "usa-tag bg-white text-black text-no-uppercase text-no-underline");
             removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
             if (removeButtonA.getAttribute("onClick") == null) {
                 removeButtonA.setAttribute("onClick", "onPopupSubButtonClick('" + competencyGroup + "', '" + givenId + "', '" + i +"');")
             }
             document.getElementById("dialog").appendChild(removeButtonA);
             groupItemsLength--;
-            if (groupItemsLength === 1) {
+            if (groupItemsLength === 0) {
                 $("#dialog").dialog({
-                    width: 500
-                    //dialogClass: 'usa-modal'
+                    width: 500,
+                    dialogClass: 'display-block'
                 });
             }
         });
