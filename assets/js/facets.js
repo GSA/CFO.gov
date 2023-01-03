@@ -603,7 +603,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 }
 
 function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
-    let eventTargetId = id.replace('pop', 'primary').replace('-button', '').toLowerCase();
+    let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '').toLowerCase();
     removeTagFilter("checkbox", null, eventTargetId);
     let popupElement = document.getElementById(id);
     if (popupElement != null) {
