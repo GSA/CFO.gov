@@ -687,7 +687,7 @@ function onSubButtonClick(competencyGroup) {
     $("#dialog").html('');
     let groupItem = localStorage.getItem(competencyGroup);
     if (groupItem != null) {
-        let groupItems = groupItem.replace('[', '').replace(']', '').split(',');
+        let groupItems = groupItem.replace('[', '').replace(']', '').replace(', ', ' ').split(',');
         let groupItemsLength = groupItems.length;
         groupItems.forEach(function (i) {
             let givenId = "pop-" +
