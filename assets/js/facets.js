@@ -593,7 +593,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     }
 
     else {
-        let replacedText = subButton.innerHTML.replace(spanStart, '').replace(spanEnd, '');
+        let replacedText = subButton.innerHTML.trim().replace(spanStart, '').replace(spanEnd, '');
         let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (replacedText.includes(item) && item.includes(competencyGroup)) {
@@ -605,6 +605,8 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 }
 
 function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
+    const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
+    const spanEnd = '</span>';
     let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '').toLowerCase();
     removeTagFilter("checkbox", null, eventTargetId);
     let popupElement = document.getElementById(id);
@@ -622,16 +624,17 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
 
     //set item length and name
     const itemLength = groupItem != null?JSON.parse(localStorage.getItem(competencyGroup)).length:0;
-    const itemName = ' ' + competencyGroup + ' ' + itemLength.toString();
+    const itemName = ' ' + competencyGroup + ' ' + spanStart + itemLength.toString() + spanEnd;
 
 
     const subButton = document.getElementById(competencyGroup + "-button");
     if (subButton != null) {
-        let data = subButton.innerHTML.match(/\w* \d+/g);
+        let replacedText = subButton.innerHTML.trim().replace(spanStart, '').replace(spanEnd, '');
+        let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
-            if (subButton.innerHTML.includes(item) && item.includes(competencyGroup)) {
+            if (replacedText.includes(item) && item.includes(competencyGroup)) {
                 subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-capitalize text-no-underline");
-                subButton.innerHTML = subButton.innerText.replace(item, itemName);
+                subButton.innerHTML = replacedText.replace(item, itemName);
             }
         });
     }
