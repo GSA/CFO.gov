@@ -385,9 +385,7 @@ function createClearButton() {
         //    }
         //});
 
-        $("#dialog").dialog({
-            dialogClass: "display-none"
-        });
+        $("#dialog").dialog("close");
     });
 }
 
@@ -628,7 +626,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         let data = subButton.innerText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (subButton.innerText.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-05 text-no-uppercase text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-no-uppercase text-no-underline");
                 subButton.innerText = subButton.innerText.replace(item, itemName);
             }
         });
@@ -671,57 +669,43 @@ function removeTagFilter(inputType, id,  eventTargetId) {
     if (eventTargetId.match("primary")) {
         const competencyPrimaryLength = data.filter(i => i.id.indexOf("primary") > -1);
         if (competencyPrimaryLength.length == 0) {
-            $("#dialog").dialog({
-                dialogClass: "display-none"
-            });
+            $("#dialog").dialog("close");
         }
     }
     if (eventTargetId.match("secondary")) {
         const competencySecondaryLength = data.filter(i => i.id.indexOf("secondary") > -1);
         if (competencySecondaryLength.length == 0) {
-            $("#dialog").dialog({
-                dialogClass: "display-none"
-            });
+            $("#dialog").dialog("close");
         }
     }
     if (eventTargetId.match("alternate")) {
         const competencyAlternateLength = data.filter(i => i.id.indexOf("alternate") > -1);
         if (competencyAlternateLength.length == 0) {
-            $("#dialog").dialog({
-                dialogClass: "display-none"
-            });
+            $("#dialog").dialog("close");
         }
     }
     if (eventTargetId.match("personal")) {
         const competencyPersonalLength = data.filter(i => i.id.indexOf("personal") > -1);
         if (competencyPersonalLength.length == 0) {
-            $("#dialog").dialog({
-                dialogClass: "display-none"
-            });
+            $("#dialog").dialog("close");
         }
     }
     if (eventTargetId.match("project")) {
         const competencyProjectLength = data.filter(i => i.id.indexOf("project") > -1);
         if (competencyProjectLength.length == 0) {
-            $("#dialog").dialog({
-                dialogClass: "display-none"
-            });
+            $("#dialog").dialog("close");
         }
     }
     if (eventTargetId.match("leading")) {
         const competencyLeadingLength = data.filter(i => i.id.indexOf("leading") > -1);
         if (competencyLeadingLength.length == 0) {
-            $("#dialog").dialog({
-                dialogClass: "display-none"
-            });
+            $("#dialog").dialog("close");
         }
     }
     if (eventTargetId.match("future-skills")) {
         const competencyFutureSkillsLength = data.filter(i => i.id.indexOf("future-skills") > -1);
         if (competencyFutureSkillsLength.length == 0) {
-            $("#dialog").dialog({
-                dialogClass: "display-none"
-            });
+            $("#dialog").dialog("close");
         }
     }
     adjustSearchOrder();
@@ -740,7 +724,7 @@ function removeTagFilter(inputType, id,  eventTargetId) {
 }
 
 function onSubButtonClick(competencyGroup) {
-    $("#dialog").html('');
+    $("#dtags").html('');
     let groupItem = localStorage.getItem(competencyGroup);
     if (groupItem != null) {
         let groupItems = groupItem.replace('[', '').replace(']', '').replace(', ', ' ').split(',');
@@ -762,19 +746,18 @@ function onSubButtonClick(competencyGroup) {
             removeButtonA.setAttribute("id", givenId);
             removeButtonA.setAttribute("tabindex", 0);
             removeButtonA.setAttribute("href", "javascript:void(0)");
-            removeButtonA.setAttribute("class", "usa-tag bg-white text-black text-no-uppercase text-no-underline");
+            removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white border-blue text-primary-vivid padding-05 margin-1 text-no-uppercase text-no-underline");
             removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
             if (removeButtonA.getAttribute("onClick") == null) {
                 removeButtonA.setAttribute("onClick", "onPopupSubButtonClick('" + competencyGroup + "', '" + givenId + "', '" + i +"');")
             }
-            document.getElementById("dialog").appendChild(removeButtonA);
+            document.getElementById("dtags").appendChild(removeButtonA);
             groupItemsLength--;
-            if (groupItemsLength === 0) {
-                $("#dialog").dialog({
-                    width: 500,
-                    dialogClass: 'display-block'
-                });
-            }
+            //if (groupItemsLength === 0) {
+            //}
+        });
+        $("#dialog").dialog({
+            width: 600
         });
     }
 }
@@ -826,7 +809,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     removeButtonA.setAttribute("id", eventTargetId + "-button");
     removeButtonA.setAttribute("tabindex", 0);
     removeButtonA.setAttribute("href", "javascript:void(0)");
-    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-black padding-05 margin-1 text-no-uppercase text-no-underline");
+    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-primary-vivid padding-05 margin-1 text-no-uppercase text-no-underline");
     let removeButtonText = '';
     if (inputType == "button") {
         removeButtonText = createButtonText(eventTargetId);
