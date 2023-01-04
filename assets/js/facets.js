@@ -923,6 +923,18 @@ function removeCriteria(inputType, id) {
     }
 
     getSearch();
+    if (id.match("series")) {
+        const seriesLength = data.filter(i => i.id.indexOf("series") > -1);
+        if (seriesLength == 0) {
+            $("#series").css('display', 'none');
+        }
+    }
+    if (id.match("GS")) {
+        const gsLength = data.filter(i => i.id.indexOf("GS") > -1);
+        if (gsLength.length == 0) {
+            $("#gs").css('display', 'none');
+        }
+    }
 }
 
 /**
