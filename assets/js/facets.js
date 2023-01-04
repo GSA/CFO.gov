@@ -572,7 +572,6 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     else {
         localStorage.removeItem(competencyGroup);
     }
-
     const spanStart = '<span style="border-radius:50%;background-color:white;">';
     const spanEnd = '</span>';
 
