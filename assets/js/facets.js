@@ -572,7 +572,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     else {
         localStorage.removeItem(competencyGroup);
     }
-    const spanStart = '<span style="border-radius:50%;background-color:white;">';
+    const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
     const spanEnd = '</span>';
 
     //set item length and name
@@ -584,7 +584,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     if (subButton == null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
-        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
+        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-capitalize text-no-underline");
         if (removeButtonA.getAttribute("onClick") == null) {
             removeButtonA.setAttribute("onClick", "onSubButtonClick('" + competencyGroup +"');")
         }
@@ -597,7 +597,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
         let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (replacedText.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-capitalize text-no-underline");
                 subButton.innerHTML = replacedText.replace(item, itemName);
             }
         });
@@ -630,7 +630,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         let data = subButton.innerHTML.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (subButton.innerHTML.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-no-uppercase text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-capitalize text-no-underline");
                 subButton.innerHTML = subButton.innerText.replace(item, itemName);
             }
         });
@@ -756,7 +756,7 @@ function onSubButtonClick(competencyGroup) {
             removeButtonA.setAttribute("id", givenId);
             removeButtonA.setAttribute("tabindex", 0);
             removeButtonA.setAttribute("href", "javascript:void(0)");
-            removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white border-blue text-primary-vivid padding-05 margin-1 text-no-uppercase text-no-underline");
+            removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
             removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
             if (removeButtonA.getAttribute("onClick") == null) {
                 removeButtonA.setAttribute("onClick", "onPopupSubButtonClick('" + competencyGroup + "', '" + givenId + "', '" + i +"');")
@@ -819,7 +819,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     removeButtonA.setAttribute("id", eventTargetId + "-button");
     removeButtonA.setAttribute("tabindex", 0);
     removeButtonA.setAttribute("href", "javascript:void(0)");
-    removeButtonA.setAttribute("class", "usa-tag bg-white border-blue text-primary-vivid padding-05 margin-1 text-no-uppercase text-no-underline");
+    removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white text-black border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
     let removeButtonText = '';
     if (inputType == "button") {
         removeButtonText = createButtonText(eventTargetId);

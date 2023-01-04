@@ -374,3 +374,7 @@ div[data-card-filter] {
     background-color:none !important;
     background:none !important;
 }
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
