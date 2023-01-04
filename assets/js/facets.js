@@ -563,6 +563,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
             else {
                 if (removing) {
                     groupItemValue.splice(groupItemValue.indexOf(competencyTitlePipeReplaced), 1);
+                    removeTagFilter('checkbox', null, competencyGroup + '-' + competencyTitle.replace(' ', '-'));
                 }
             }
             localStorage.setItem(competencyGroup, JSON.stringify(groupItemValue));
@@ -572,9 +573,12 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
         localStorage.removeItem(competencyGroup);
     }
 
+    const spanStart = '<span style="border-radius:50%;background-color:white;">';
+    const spanEnd = '</span>';
+
     //set item length and name
     const itemLength = removeAll ? 0 : JSON.parse(localStorage.getItem(competencyGroup)).length;
-    const itemName = ' ' + competencyGroup + ' ' + itemLength.toString();
+    const itemName = ' ' + competencyGroup + ' ' + spanStart + itemLength.toString() + spanEnd;
 
     //handle button for duplicates
     const subButton = document.getElementById(competencyGroup + "-button");
@@ -585,16 +589,17 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
         if (removeButtonA.getAttribute("onClick") == null) {
             removeButtonA.setAttribute("onClick", "onSubButtonClick('" + competencyGroup +"');")
         }
-        removeButtonA.innerText = itemName;
+        removeButtonA.innerHTML = itemName;
         buttonCompetencyContainer.appendChild(removeButtonA);
     }
 
     else {
-        let data = subButton.innerText.match(/\w* \d+/g);
+        let replacedText = subButton.innerHTML.replace(spanStart, '').replace(spanEnd, '');
+        let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
-            if (subButton.innerText.includes(item) && item.includes(competencyGroup)) {
+            if (replacedText.includes(item) && item.includes(competencyGroup)) {
                 subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-no-uppercase text-no-underline");
-                subButton.innerText = subButton.innerText.replace(item, itemName);
+                subButton.innerHTML = replacedText.replace(item, itemName);
             }
         });
     }
@@ -623,11 +628,11 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
 
     const subButton = document.getElementById(competencyGroup + "-button");
     if (subButton != null) {
-        let data = subButton.innerText.match(/\w* \d+/g);
+        let data = subButton.innerHTML.match(/\w* \d+/g);
         data.forEach(function (item, index) {
-            if (subButton.innerText.includes(item) && item.includes(competencyGroup)) {
+            if (subButton.innerHTML.includes(item) && item.includes(competencyGroup)) {
                 subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-no-uppercase text-no-underline");
-                subButton.innerText = subButton.innerText.replace(item, itemName);
+                subButton.innerHTML = subButton.innerText.replace(item, itemName);
             }
         });
     }
@@ -639,6 +644,12 @@ function removeTagFilter(inputType, id,  eventTargetId) {
     removing = true;
     if (inputType == "button") $("#" + id).toggleClass("active");
     else {
+        if (eventTargetId.indexOf("pop") < 0) {
+            let popElement = document.getElementById(eventTargetId.replace('primary', 'pop').replace('secondary', 'pop').replace('alternative', 'pop') + '-button');
+            if (popElement != null) {
+                popElement.remove();
+            }
+        }
         $("#" + eventTargetId).prop("checked", false);
         let group = $("#" + eventTargetId).data('group');
         if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
