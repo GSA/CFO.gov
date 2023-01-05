@@ -1,4 +1,14 @@
-
+/**
+ * Creates a adding and removinf button on the results.
+ * Called in two places
+ * 1) when any buttons on left spine is clicked
+ * 2) when any button on competency group is clicked
+ *
+ * @param {string} competencyGroup - The group id of the checkbox (not used with buttons)
+ * @param {string} competencyTitle - The competency title (not used with buttons)
+ * @param {object} removeButtonA - The appending text
+ * @param {bool} removeAll - The remove button
+ */
 function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, removeAll) {
     let buttonCompetencyContainer = null;
     if (competencyGroup.match("primary") || competencyGroup.match("secondary") || competencyGroup.match("alternate")) {
@@ -64,6 +74,15 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     }
 }
 
+/**
+ * Creates a sub button click.
+ * Called in one places
+ * 1) when a sub button on the competency group is clicked
+ *
+ * @param {string} id - The id of the object clicked
+ * @param {string} competencyGroup - The group id of the checkbox (not used with buttons)
+ * @param {string} competencyTitle - The competency title (not used with buttons)
+ */
 function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
     const spanEnd = '</span>';
@@ -100,6 +119,16 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     }
 }
 
+/**
+ * removes a single button.
+ * Called in two places
+ * 1) when a button is clicked
+ * 2) when a checkbox is checked
+ *
+ * @param {string} inputType - The type of input - button, checkbox
+ * @param {string} eventTargetId - The id of the object clicked
+ * @param {string} id - The id of the object clicked
+ */
 function removeTagFilter(inputType, id, eventTargetId) {
     // console.log("Removing: "+eventTargetId+"-button");
     adding = false;
@@ -196,6 +225,13 @@ function removeTagFilter(inputType, id, eventTargetId) {
     // console.log(JSON.stringify(data));
 }
 
+/**
+ * Creates a competency button.
+ * Called in one places
+ * 1) when a competencyGroup is clicked
+ *
+ * @param {string} competencyGroup - The group id of the checkbox (not used with buttons)
+ */
 function onSubButtonClick(competencyGroup) {
     $("#dtags").html('');
     let groupItem = localStorage.getItem(competencyGroup);
