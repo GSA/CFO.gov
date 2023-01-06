@@ -9,3 +9,4 @@ node_modules
 Gemfile.lock
 *.idea
 .idea/*
+.vs/*
