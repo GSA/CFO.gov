@@ -349,3 +349,32 @@ div[data-card-filter] {
     width: 47%;
   }
 }
+
+.border-blue {
+    border: 2px solid #005ea2;
+}
+
+.usa-accordion--bordered .usa-accordion__content {
+    border-bottom: 0.25rem solid #fa9441 !important;
+    border-left: 0.25rem solid #fa9441 !important;
+    border-right: 0.25rem solid #fa9441 !important;
+    padding-bottom: 1rem !important;
+}
+
+.usa-accordion__button:hover {
+    background-color: #fa9441 !important;
+}
+
+.margin-top{
+    margin-top:0px !important;
+}
+
+.ui-widget-header{
+    border:none !important;
+    background-color:none !important;
+    background:none !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
