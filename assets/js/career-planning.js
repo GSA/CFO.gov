@@ -2,7 +2,8 @@
   let selected = {},
     unselect = false,
     buttonSelector = '.policy input[type="checkbox"]',
-    downloadButton;
+    downloadButtonPDF,
+    downloadButtonCSV;
 
   window.isSelected = function (val) {
     return (typeof selected[val] != 'undefined');
@@ -13,7 +14,8 @@
     unselect = false;
     $('button[data-op="select-all"]').text('Select All Cards');
     $('#career-search-results').find(buttonSelector).prop('checked', false);
-    downloadButton.prop('aria-disabled', true).prop('disabled', true);
+    downloadButtonPDF.prop('aria-disabled', true).prop('disabled', true);
+    downloadButtonCSV.prop('aria-disabled', true).prop('disabled', true);
   }
 
   $(document).ready(function () {
@@ -30,7 +32,8 @@
       }
 
       let disable = Object.keys(selected).length == 0;
-      downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
+      downloadButtonPDF.prop('aria-disabled', disable).prop('disabled', disable);
+      downloadButtonCSV.prop('aria-disabled', disable).prop('disabled', disable);
     });
 
     $('#cfo-search-button').on('click', function () {
@@ -52,10 +55,11 @@
       }
 
       let disable = Object.keys(selected).length == 0;
-      downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
+      downloadButtonPDF.prop('aria-disabled', disable).prop('disabled', disable);
+      downloadButtonCSV.prop('aria-disabled', disable).prop('disabled', disable);
     });
 
-    downloadButton = $('#career-download-buttons').find('[data-op="download-selected"]').click(function () {
+    downloadButtonPDF = $('#career-download-buttons').find('[data-op="download-selected-pdf"]').click(function () {
       let cards = [];
       let cardSet = results.length ? results : fullSet;
       for (let i = 0, l = cardSet.length; i < l; i++) {
@@ -64,6 +68,17 @@
         }
       }
       generatePDF(cards);
+    });
+
+    downloadButtonCSV = $('#career-download-buttons').find('[data-op="download-selected-csv"]').click(function () {
+      let cards = [];
+      let cardSet = results.length ? results : fullSet;
+      for (let i = 0, l = cardSet.length; i < l; i++) {
+        if (typeof selected[cardSet[i].permalink] != 'undefined') {
+          cards.push(cardSet[i]);
+        }
+      }
+      generateCSV(cards);
     });
 
     $('#career-advancement-search-input').autocomplete({
@@ -249,6 +264,122 @@
     }
 
     doc.end();
+  }
+
+  function generateCSV(cards) {
+    csvrows = [];
+    let elem = document.createElement('div');
+    csvrows.push(['Job Series', 'GS Level', 'Competency', 'Type', 'Definition', 'Behavior Illustrations', 'Proficiency Level Definition', 'Career Listing' ]);
+    for (let i = 0, l = cards.length; i < l; i++) {
+      let card = cards[i];
+      /**/
+
+      elem.innerHTML = card.content;
+      var strBI = "";
+      let items = [];
+      $(elem).find('> div:first-child dl *').each(function () {
+        if (this.nodeName == 'DT') {
+          if (items.length) {
+            strBI = strBI + "\n";
+            strBI = strBI + items;
+            items.length = 0;
+          }
+          if (strBI.length > 1) {
+            strBI = strBI + "\n";
+          }
+          strBI = strBI + this.innerText;
+        }
+        else if (this.nodeName == 'DD') {
+          items.push(this.innerText.trim());
+        }
+      });
+      if (items.length) {
+        strBI = strBI + "\n";
+        strBI = strBI + items;
+      }
+
+      var strPLD = "";
+      items = [];
+      $(elem).find('> div:nth-child(2) dl *').each(function () {
+        if (this.nodeName == 'DT') {
+          if (items.length) {
+            strPLD = strPLD + "\n";
+            strPLD = strPLD + items;
+            items.length = 0;
+          }
+          if (strPLD.length > 1) {
+            strPLD = strPLD + "\n";
+          }
+          strPLD = strPLD + this.innerText;
+        }
+        else if (this.nodeName == 'DD') {
+          items.push(this.innerText.trim());
+        }
+      });
+      if (items.length) {
+        strPLD = strPLD + "\n";
+        strPLD = strPLD + items;
+      }
+
+      var strCL = "";
+      items = [];
+
+      if (card.relevant_courses.length == 0) {
+        strCL = 'No Courses yet.';
+      }
+      else {
+        for (let j = 0, k = card.relevant_courses.length; j < k; j++) {
+          let elems = card.relevant_courses[j].split(',');
+          for (let m = 0, n = elems.length; m < n; m++) {
+            if (elems[m].indexOf('<a') == -1) {
+              if (strCL.length > 1) {
+                strCL = strCL + "\n";
+              }
+              let CLtext = elems[m];
+              while (CLtext.indexOf("&") != -1) {
+                CLtext = CLtext.replace("&", " ")
+              }
+              while (CLtext.indexOf("#") != -1) {
+                CLtext = CLtext.replace("#", " ")
+              }
+              while (CLtext.indexOf(";") != -1) {
+                CLtext = CLtext.replace(";", " ")
+              }
+              strCL = strCL + CLtext;
+            }
+            else {
+              let res = elems[m].match(/<a href="([^"]*)">([^<]*)<\/a>/);
+              strCL = strCL + "  ( " + res[1]+ " )"
+            }
+            if (m != n - 1) {
+              strCL = strCL + ", ";
+            }
+            else {
+              strCL = strCL + " "
+            }
+          }
+        }
+      }
+      
+      csvrows.push(['"' + card.series + ' ' + card.title + '"', '"=""' + card.level + '"""', '"' + card.competency + '"', '"' + card.competency_group + '"', '"' + card.competency_description + '"', '"' + strBI + '"', '"' + strPLD + '"', '"' + strCL + '"']);
+      
+    }
+
+    let csvContent = "data:text/csv;charset=utf-8,";
+
+    csvrows.forEach(function (rowArray) {
+      let row = rowArray.join(",");
+      csvContent += row + "\r\n";
+    });
+
+    var encodedUri = encodeURI(csvContent);
+    var link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "CareerPlanningCards.csv");
+    document.body.appendChild(link); // Required for FF
+
+    link.click(); 
+
   }
 
   function loadFont(name, type, url, ff) {
