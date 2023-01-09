@@ -87,7 +87,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
     const spanEnd = '</span>';
     let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '').toLowerCase();
-    removeTagFilter("checkbox", null, eventTargetId);
+
     let popupElement = document.getElementById(id);
     if (popupElement != null) {
         popupElement.remove();
@@ -116,11 +116,13 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
                 subButton.innerHTML = replacedText.replace(item, itemName);
             }
         });
+        if (itemLength == 0) {
+            subButton.remove();
+            $("#dialog").dialog("close");
+        }
     }
-    if (itemLength == 0) {
-        subButton.remove();
-        $("#dialog").dialog("close");
-    }
+    removeTagFilter("checkbox", null, eventTargetId);
+
 }
 
 /**
@@ -176,42 +178,49 @@ function removeTagFilter(inputType, id, eventTargetId) {
         const competencyPrimaryLength = data.filter(i => i.id.indexOf("primary") > -1);
         if (competencyPrimaryLength.length == 0) {
             $("#dialog").dialog("close");
+            $("#job-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("secondary")) {
         const competencySecondaryLength = data.filter(i => i.id.indexOf("secondary") > -1);
         if (competencySecondaryLength.length == 0) {
             $("#dialog").dialog("close");
+            $("#job-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("alternate")) {
         const competencyAlternateLength = data.filter(i => i.id.indexOf("alternate") > -1);
         if (competencyAlternateLength.length == 0) {
             $("#dialog").dialog("close");
+            $("#job-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("personal")) {
         const competencyPersonalLength = data.filter(i => i.id.indexOf("personal") > -1);
         if (competencyPersonalLength.length == 0) {
             $("#dialog").dialog("close");
+            $("#general-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("project")) {
         const competencyProjectLength = data.filter(i => i.id.indexOf("project") > -1);
         if (competencyProjectLength.length == 0) {
             $("#dialog").dialog("close");
+            $("#general-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("leading")) {
         const competencyLeadingLength = data.filter(i => i.id.indexOf("leading") > -1);
         if (competencyLeadingLength.length == 0) {
             $("#dialog").dialog("close");
+            $("#general-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("future-skills")) {
         const competencyFutureSkillsLength = data.filter(i => i.id.indexOf("future-skills") > -1);
         if (competencyFutureSkillsLength.length == 0) {
             $("#dialog").dialog("close");
+            $("#general-competency").css('display', 'none');
         }
     }
     adjustSearchOrder();
