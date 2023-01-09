@@ -117,10 +117,6 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
             }
         });
     }
-    if (itemLength == 0) {
-        subButton.remove();
-        $("#dialog").dialog("close");
-    }
 }
 
 /**
