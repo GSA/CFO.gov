@@ -9,6 +9,7 @@
  * @param {object} removeButtonA - The appending text
  * @param {bool} removeAll - The remove button
  */
+let cfoStorage = new cfoStore();
 function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, removeAll) {
     let buttonCompetencyContainer = null;
     if (competencyGroup.match("primary") || competencyGroup.match("secondary") || competencyGroup.match("alternate")) {
@@ -21,9 +22,9 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     if (!removeAll) {
         //set items to local storage for popups
         let competencyTitlePipeReplaced = competencyTitle.replace(',', '|');
-        let groupItem = localStorage.getItem(competencyGroup);
+        let groupItem = cfoStorage.getItem(competencyGroup);
         if (groupItem == null) {
-            localStorage.setItem(competencyGroup, JSON.stringify([competencyTitlePipeReplaced]));
+            cfoStorage.setItem(competencyGroup, JSON.stringify([competencyTitlePipeReplaced]));
         }
         else {
             let groupItemValue = JSON.parse(groupItem);
@@ -36,17 +37,17 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
                     removeTagFilter('checkbox', null, competencyGroup + '-' + competencyTitle.replace(' ', '-'));
                 }
             }
-            localStorage.setItem(competencyGroup, JSON.stringify(groupItemValue));
+            cfoStorage.setItem(competencyGroup, JSON.stringify(groupItemValue));
         }
     }
     else {
-        localStorage.removeItem(competencyGroup);
+        cfoStorage.removeItem(competencyGroup);
     }
     const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
     const spanEnd = '</span>';
 
     //set item length and name
-    const itemLength = removeAll ? 0 : JSON.parse(localStorage.getItem(competencyGroup)).length;
+    const itemLength = removeAll ? 0 : JSON.parse(cfoStorage.getItem(competencyGroup)).length;
     const itemName = ' ' + competencyGroup + ' ' + spanStart + itemLength.toString() + spanEnd;
 
     //handle button for duplicates
@@ -87,22 +88,22 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
     const spanEnd = '</span>';
     let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '').toLowerCase();
-
+    removeTagFilter("checkbox", null, eventTargetId);
     let popupElement = document.getElementById(id);
     if (popupElement != null) {
         popupElement.remove();
     }
     //remove from local storage
     let competencyTitlePipeReplaced = competencyTitle.replace(',', '|');
-    let groupItem = localStorage.getItem(competencyGroup);
+    let groupItem = cfoStorage.getItem(competencyGroup);
     if (groupItem != null) {
         let groupItemValue = JSON.parse(groupItem);
         groupItemValue.splice(groupItemValue.indexOf(competencyTitlePipeReplaced), 1);
-        localStorage.setItem(competencyGroup, JSON.stringify(groupItemValue));
+        cfoStorage.setItem(competencyGroup, JSON.stringify(groupItemValue));
     }
 
     //set item length and name
-    const itemLength = groupItem != null ? JSON.parse(localStorage.getItem(competencyGroup)).length : 0;
+    const itemLength = groupItem != null ? JSON.parse(cfoStorage.getItem(competencyGroup)).length : 0;
     const itemName = ' ' + competencyGroup + ' ' + spanStart + itemLength.toString() + spanEnd;
 
 
@@ -121,7 +122,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
             $("#dialog").dialog("close");
         }
     }
-    removeTagFilter("checkbox", null, eventTargetId);
+
 
 }
 
@@ -174,54 +175,53 @@ function removeTagFilter(inputType, id, eventTargetId) {
             $("#gs").css('display', 'none');
         }
     }
+    const competencyPrimaryLength = data.filter(i => i.id.indexOf("primary") > -1);
+    const competencySecondaryLength = data.filter(i => i.id.indexOf("secondary") > -1);
+    const competencyAlternateLength = data.filter(i => i.id.indexOf("alternate") > -1);
     if (eventTargetId.match("primary")) {
-        const competencyPrimaryLength = data.filter(i => i.id.indexOf("primary") > -1);
         if (competencyPrimaryLength.length == 0) {
             $("#dialog").dialog("close");
-            $("#job-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("secondary")) {
-        const competencySecondaryLength = data.filter(i => i.id.indexOf("secondary") > -1);
         if (competencySecondaryLength.length == 0) {
             $("#dialog").dialog("close");
-            $("#job-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("alternate")) {
-        const competencyAlternateLength = data.filter(i => i.id.indexOf("alternate") > -1);
         if (competencyAlternateLength.length == 0) {
             $("#dialog").dialog("close");
-            $("#job-competency").css('display', 'none');
         }
     }
+    if ((competencyPrimaryLength.length == 0) && (competencySecondaryLength.length == 0) && (competencyAlternateLength.length == 0) ){
+        $("#job-competency").css('display', 'none');
+    }
+    const competencyPersonalLength = data.filter(i => i.id.indexOf("personal") > -1);
+    const competencyProjectLength = data.filter(i => i.id.indexOf("project") > -1);
+    const competencyLeadingLength = data.filter(i => i.id.indexOf("leading") > -1);
+    const competencyFutureSkillsLength = data.filter(i => i.id.indexOf("future-skills") > -1);
     if (eventTargetId.match("personal")) {
-        const competencyPersonalLength = data.filter(i => i.id.indexOf("personal") > -1);
         if (competencyPersonalLength.length == 0) {
             $("#dialog").dialog("close");
-            $("#general-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("project")) {
-        const competencyProjectLength = data.filter(i => i.id.indexOf("project") > -1);
         if (competencyProjectLength.length == 0) {
             $("#dialog").dialog("close");
-            $("#general-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("leading")) {
-        const competencyLeadingLength = data.filter(i => i.id.indexOf("leading") > -1);
         if (competencyLeadingLength.length == 0) {
             $("#dialog").dialog("close");
-            $("#general-competency").css('display', 'none');
         }
     }
     if (eventTargetId.match("future-skills")) {
-        const competencyFutureSkillsLength = data.filter(i => i.id.indexOf("future-skills") > -1);
         if (competencyFutureSkillsLength.length == 0) {
             $("#dialog").dialog("close");
-            $("#general-competency").css('display', 'none');
         }
+    }
+    if ((competencyPersonalLength.length == 0) && (competencyProjectLength.length == 0) && (competencyLeadingLength.length == 0) && (competencyFutureSkillsLength.length == 0)) {
+        $("#general-competency").css('display', 'none');
     }
     adjustSearchOrder();
     if (data.length == 0) {
@@ -247,7 +247,7 @@ function removeTagFilter(inputType, id, eventTargetId) {
  */
 function onSubButtonClick(competencyGroup) {
     $("#dtags").html('');
-    let groupItem = localStorage.getItem(competencyGroup);
+    let groupItem = cfoStorage.getItem(competencyGroup);
     if (groupItem != null) {
         let groupItems = groupItem.replace('[', '').replace(']', '').replace(', ', ' ').split(',');
         let groupItemsLength = groupItems.length;
