@@ -224,6 +224,14 @@ function onSubButtonClick(competencyGroup) {
     }
 }
 
+/**
+ * Rermoves a parent container.
+ * Called in two places
+ * 1) when removes a button
+ * 2) when unchecking
+ *
+ * @param {string} eventTargetId - The id of the object clicked
+ */
 function removeParentContainers(eventTargetId) {
     if (eventTargetId.match("series")) {
         const seriesLength = data.filter(i => i.id.indexOf("series") > -1);
