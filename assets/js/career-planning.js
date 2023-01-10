@@ -2,8 +2,8 @@
   let selected = {},
     unselect = false,
     buttonSelector = '.policy input[type="checkbox"]',
-    downloadButtonPDF,
-    downloadButtonCSV;
+    downloadButtonPDF, // Download PDF report button
+    downloadButtonCSV; // Download CSV report button
 
   window.isSelected = function (val) {
     return (typeof selected[val] != 'undefined');
@@ -59,6 +59,7 @@
       downloadButtonCSV.prop('aria-disabled', disable).prop('disabled', disable);
     });
 
+    // button click event handler for Download PDF report button
     downloadButtonPDF = $('#career-download-buttons').find('[data-op="download-selected-pdf"]').click(function () {
       let cards = [];
       let cardSet = results.length ? results : fullSet;
@@ -70,6 +71,7 @@
       generatePDF(cards);
     });
 
+    // button click event handler for Download CSV report button
     downloadButtonCSV = $('#career-download-buttons').find('[data-op="download-selected-csv"]').click(function () {
       let cards = [];
       let cardSet = results.length ? results : fullSet;
@@ -138,8 +140,7 @@
     });
   });
 
-
-
+  // function to generate CSV reoort for selected info cards
   function generatePDF(cards) {
     // pdfkit js
     // create a document and pipe to a blob
@@ -266,6 +267,7 @@
     doc.end();
   }
 
+  // function to generate CSV reoort for selected info cards
   function generateCSV(cards) {
     csvrows = [];
     let elem = document.createElement('div');
