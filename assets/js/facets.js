@@ -194,14 +194,10 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                   $(labelId).html("<strong>De-Select All</strong>");
                   checked = true;
                 } else {
-<<<<<<< Updated upstream
-                    addRemoveFilterButton(eventId, '', null, true);
-                    removeParentContainers(eventId);
-                    $(labelId).html("<strong>Select All</strong>");
-=======
+                  addRemoveFilterButton(eventId, '', null, true);
+                  removeParentContainers(eventId);
                   $(labelId).html("<strong>Select All</strong>");
                   checked = false;
->>>>>>> Stashed changes
                 }
                 // This is for All child De-Select All and main De-Select All
                 //let jobSpecificSelectedCount = 0;
@@ -1058,107 +1054,6 @@ function enableDisableCompetencies(all) {
       $('[data-filter="competency"][data-id="' + item.group + '"]').parents('.career-competency-level-3-input-group').show();
     });
   }
-  // fullCompetency = [];
-  // fullSet.forEach(item => {
-    // let set = item.competency_group + " " + item.competency;
-    // if (!ifExistsInArray(set, fullCompetency)) {
-      // fullCompetency.push(set);
-    // }
-  // });
-
-  // resultsComps = [];
-  // resultsCompGroups = [];
-  // if (all) {
-    // fullSet.forEach(item => {
-      // competency_group.forEach(obj => {
-        // if (item.competency_group == obj) {
-          // if (!ifExistsInArray(obj, resultsCompGroups)) {
-              // resultsCompGroups.push(obj);
-          // }
-        // }
-      // });
-
-      // let set = item.competency_group + " " + item.competency;
-      // fullCompetency.forEach(obj => {
-        // if (set == obj) {
-          // if (!ifExistsInArray(set, resultsComps)) {
-            // resultsComps.push(set);
-          // }
-        // }
-      // });
-    // });
-
-    // competency_group.forEach(item => {
-      // let itemElement = document.getElementById(createId(item));
-      // itemElement.disabled = false;
-    // });
-
-    // fullCompetency.forEach(item => {
-      // let itemElement = document.getElementById(createId(item));
-      // itemElement.disabled = false;
-      // itemElement.parentNode.parentNode.style.display = "block";
-    // });
-  // } else {
-    // results.forEach(item => {
-      // competency_group.forEach(obj => {
-        // if (item.competency_group == obj) {
-          // if (!ifExistsInArray(obj, resultsCompGroups)) {
-            // resultsCompGroups.push(obj);
-          // }
-        // }
-      // });
-
-      // let set = item.competency_group + " " + item.competency;
-      // fullCompetency.forEach(obj => {
-        // if (set == obj) {
-          // if (!ifExistsInArray(set, resultsComps)) {
-            // resultsComps.push(set);
-          // }
-        // }
-      // });
-    // });
-
-    // competency_group.forEach(item => {
-      // let itemElement = document.getElementById(createId(item));
-      // if (!ifExistsInArray(item, resultsCompGroups)) {
-        // itemElement.disabled = true;
-      // } else {
-        // itemElement.disabled = false;
-      // }
-    // });
-
-    // fullCompetency.forEach(item => {
-      // let itemElement = document.getElementById(createId(item));
-
-      // if (!ifExistsInArray(item, resultsComps)) {
-        // itemElement.disabled = true;
-        // itemElement.parentNode.parentNode.style.display = "none";
-      // } else {
-        // itemElement.disabled = false;
-        // itemElement.parentNode.parentNode.style.display = "block";
-      // }
-    // });
-  // }
-
-    /* $(".career-competency-toggle-open").children().each(function () {
-      if ($(this).prop("class") == "career-competency-input-groups") {
-        if ($(".career-competency-input-groups").children().css("display") === "none") {
-          $(this).css("display", "none");
-          competency_group.forEach(item => {
-            console.log("#competency-group-button-"+createId(item));
-            $("#competency-group-button-"+createId(item)).find('i').toggleClass('fa-plus fa-minus');
-          });
-        } else {
-          $(this).css("display", "block");
-        }
-      }
-    });
-  
-    if ($(".career-competency-input-groups").forEach()) {
-      $(".career-competency-input-groups").css("display", "none");
-    } else {
-      $(".career-competency-input-groups").css("display", "block");
-    } */
 }
 
 (function ($) {
