@@ -21,7 +21,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     if (!removeAll) {
         //set items to local storage for popups
-        let competencyTitlePipeReplaced = competencyTitle.replace(',', '|');
+        let competencyTitlePipeReplaced = competencyTitle.replaceAll(',', '|');
         let groupItem = cfoStorage.getItem(competencyGroup);
         if (groupItem == null) {
             cfoStorage.setItem(competencyGroup, JSON.stringify([competencyTitlePipeReplaced]));
@@ -90,14 +90,14 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
     const spanEnd = '</span>';
-    let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '').toLowerCase();
+    let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '');
     removeTagFilter("checkbox", null, eventTargetId);
     let popupElement = document.getElementById(id);
     if (popupElement != null) {
         popupElement.remove();
     }
     //remove from local storage
-    let competencyTitlePipeReplaced = competencyTitle.replace(',', '|').replace('"', '').replace('"', '');
+    let competencyTitlePipeReplaced = competencyTitle.replaceAll(',', '|').replaceAll('"', '');
     let groupItem = cfoStorage.getItem(competencyGroup);
     if (groupItem != null) {
         let groupItemValue = JSON.parse(groupItem);
@@ -151,6 +151,7 @@ function removeTagFilter(inputType, id, eventTargetId) {
                 popElement.remove();
             }
         }
+        eventTargetId = eventTargetId.toLowerCase();
         $("#" + eventTargetId).prop("checked", false);
         let group = $("#" + eventTargetId).data('group');
         if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
@@ -196,30 +197,23 @@ function onSubButtonClick(competencyGroup) {
         let groupItemsLength = groupItems.length;
         groupItems.forEach(function (i) {
             let givenId = "pop-" +
-                i.replace('| ', '-')
-                    .replace('"', '')
-                    .replace('"', '')
-                    .replace(',', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-') + "-button";
+                i.replaceAll('| ', '-')
+                .replaceAll('"', '')
+                .replaceAll(',', '-')
+                .replaceAll(' ', '-')
+                .toLowerCase()
+                + "-button";
             const removeButtonA = document.createElement("a");
             removeButtonA.setAttribute("id", givenId);
             removeButtonA.setAttribute("tabindex", 0);
             removeButtonA.setAttribute("href", "javascript:void(0)");
             removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
-            removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
+            removeButtonA.innerHTML = i.replaceAll('|', ',').replaceAll('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
             if (removeButtonA.getAttribute("onClick") == null) {
                 removeButtonA.setAttribute("onClick", "onPopupSubButtonClick('" + competencyGroup + "', '" + givenId + "', '" + i + "');")
             }
             document.getElementById("dtags").appendChild(removeButtonA);
             groupItemsLength--;
-            //if (groupItemsLength === 0) {
-            //}
         });
         $("#dialog").dialog({
             width: 600
