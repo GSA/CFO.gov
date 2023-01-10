@@ -47,17 +47,20 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
 
     $("#job-career-competency-select-all, #general-career-competency-select-all").on('change', function () {
         var id = this.id;
+        let comps = Array.from(getVisibleFacets());
         if (id == 'job-career-competency-select-all') {
             var jobSelect = '#job-career-competency-select';
             if ($(jobSelect).text() == 'Select All') {
                 $(jobSelect).html("<strong>De-Select All</strong>");
                 competency_group.forEach(item => {
+                  if (comps.some(x => x.group == item.toLowerCase() )) {
                     let itemElement = createId(item);
                     let eventId = document.getElementById(itemElement);
                     if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
                         var labelId = "#competency-group-label-" + itemElement;
                         $(labelId).html("<strong>De-Select All</strong>");
                     }
+                  }
                 });
             } else {
                 $(jobSelect).html("<strong>Select All</strong>");
@@ -76,12 +79,14 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
             if ($(generalSelect).text() == 'Select All') {
                 $(generalSelect).html("<strong>De-Select All</strong>");
                 competency_group.forEach(item => {
+                  if (comps.some((x) => { x.group == item.toLowerCase() })) {
                     let itemElement = createId(item);
                     let eventId = document.getElementById(itemElement);
                     if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
                         var labelId = "#competency-group-label-" + itemElement;
                         $(labelId).html("<strong>De-Select All</strong>");
                     }
+                  }
                 });
             } else {
                 $(generalSelect).html("<strong>Select All</strong>");
@@ -108,13 +113,17 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
         }
         let checked = this.checked;
         $('[data-filter="competency"][data-major-group="' + major_group + '"]').each((index, elem) => {
+          let $elem = $(elem),
+            comp = $elem.attr('aria-label'),
+            group = $elem.attr('data-group');  
+          if (comps.some(x => x.comp == comp && x.group.toLowerCase() == group)) {
             let item = elem.title;
             let eventGroupId = createId(item);
-            let $elem = $(elem);
             $(elem).prop({ checked: checked });
             if (elem.hasAttribute('data-group')) {
-                $elem.trigger('change');
+              $elem.trigger('change');
             }
+          }
         });
     });
 
@@ -179,13 +188,20 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
             });
             $("#" + eventId).on('change', function () {
                 console.log("Select All Competency Group");
-                var labelId = "#competency-group-label-" + eventId;
+                let labelId = "#competency-group-label-" + eventId,
+                    checked = false;
                 if ($(labelId).text() == 'Select All') {
-                    $(labelId).html("<strong>De-Select All</strong>");
+                  $(labelId).html("<strong>De-Select All</strong>");
+                  checked = true;
                 } else {
+<<<<<<< Updated upstream
                     addRemoveFilterButton(eventId, '', null, true);
                     removeParentContainers(eventId);
                     $(labelId).html("<strong>Select All</strong>");
+=======
+                  $(labelId).html("<strong>Select All</strong>");
+                  checked = false;
+>>>>>>> Stashed changes
                 }
                 // This is for All child De-Select All and main De-Select All
                 //let jobSpecificSelectedCount = 0;
@@ -222,16 +238,25 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                 //    createClearButton();
                 //}
 
-                if (this.checked) {
-                    if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) searchOrder.push('competency');
-                    if (startingSearchFilter.length == 0) {
-                        startingSearchFilter.push({ keys: null, id: 'competency' });
+                if (checked) {
+                  if (startingSearchFilter.length < 4 && !ifExistsInArray('competency', searchOrder)) {
+                    searchOrder.push('competency');
+                  }
+                  if (startingSearchFilter.length == 0) {
+                    startingSearchFilter.push({ keys: null, id: 'competency' });
+                  }
+                  
+                  let comps = getVisibleFacets();
+                  comps.forEach(x => {
+                    if (eventId == x.group) {
+                      $('input:checkbox[data-group="' + x.group + '"][aria-label="' + x.comp + '"]').prop({'checked': true}).trigger('change');
                     }
-                    $("input:checkbox").each(function () {
-                        if ($(this).data("group") == eventId && !$(this).prop("disabled")) {
-                            $(this).prop({ 'checked': true }).trigger('change');
-                        }
-                    });
+                  });
+                  /* $("input:checkbox").each(function () {
+                    if ($(this).data("group") == eventId && !$(this).prop("disabled")) {
+                      $(this).prop({ 'checked': true }).trigger('change');
+                    }
+                  }); */
                 } else {
                     adding = false;
                     removing = true;
@@ -975,93 +1000,145 @@ function getSearch() {
     unselectAll();
 }
 
+function getVisibleFacets() {
+  let filters = {
+      series: [],
+      level: []
+  };
+  // breakdown all relevant filters into just ones we're interested in for faceting purposes
+  searchOrder.forEach(s => {
+    switch (s) {
+      case 'series':
+        filters[s] = data.filter(x => x.id.match(/series-/)).map(x => x.id);
+        break;
+      case 'level':
+        filters[s] = data.filter(x => x.id.match(/GS-/)).map(x => x.id);
+        break;
+    }
+  });
+  
+  // filters cards to only those that match the selected, relevant filters
+  let items = fullSet.filter((item) => {
+    let series_check = (filters.series.length == 0 || filters.series.some((y) => {
+      return item.filters.includes(y);
+    })),
+      level_check = (filters.level.length == 0 || filters.level.some((y) => {
+      return item.filters.includes(y);
+    }));
+    
+    return series_check && level_check;
+  });
+  
+  return new Set(items.map((item) => { return { comp: item.competency, group: item.competency_group.toLowerCase().replace(' ', '-') }; }));
+}
+
 /**
  * Iterates through all checkboxes in results array and disable those that have no results.
  * If in all mode it iterates through the full set and enables all checkboxes.
  * @param {bool} all - if enable all checkboxes
  */
 function enableDisableCompetencies(all) {
-    fullCompetency = [];
-    fullSet.forEach(item => {
-        let set = item.competency_group + " " + item.competency;
-        if (!ifExistsInArray(set, fullCompetency)) {
-            fullCompetency.push(set);
-        }
+  if (all) {
+    $('[data-filter="competency"]').parents('.career-competency-level-4-input-group, .career-competency-level-3-input-group').show();
+  }
+  else {
+    // hide everything
+    $('[data-filter="competency"]').parents('.career-competency-level-4-input-group').hide();
+    
+    // and then selectively show what we want
+    let comps = getVisibleFacets();
+    comps.forEach((item) => {
+      $('[data-filter="competency"][data-group="' + item.group + '"][title="' + item.comp + '"]').parents('.career-competency-level-4-input-group').show();
     });
+    
+    // hide all competency groups
+    $('[data-filter="competency"]').parents('.career-competency-level-3-input-group').hide();
+    
+    comps.forEach((item) => {
+      $('[data-filter="competency"][data-id="' + item.group + '"]').parents('.career-competency-level-3-input-group').show();
+    });
+  }
+  // fullCompetency = [];
+  // fullSet.forEach(item => {
+    // let set = item.competency_group + " " + item.competency;
+    // if (!ifExistsInArray(set, fullCompetency)) {
+      // fullCompetency.push(set);
+    // }
+  // });
 
-    resultsComps = [];
-    resultsCompGroups = [];
-    if (all) {
-        fullSet.forEach(item => {
-            competency_group.forEach(obj => {
-                if (item.competency_group == obj) {
-                    if (!ifExistsInArray(obj, resultsCompGroups)) {
-                        resultsCompGroups.push(obj);
-                    }
-                }
-            });
+  // resultsComps = [];
+  // resultsCompGroups = [];
+  // if (all) {
+    // fullSet.forEach(item => {
+      // competency_group.forEach(obj => {
+        // if (item.competency_group == obj) {
+          // if (!ifExistsInArray(obj, resultsCompGroups)) {
+              // resultsCompGroups.push(obj);
+          // }
+        // }
+      // });
 
-            let set = item.competency_group + " " + item.competency;
-            fullCompetency.forEach(obj => {
-                if (set == obj) {
-                    if (!ifExistsInArray(set, resultsComps)) {
-                        resultsComps.push(set);
-                    }
-                }
-            });
-        });
+      // let set = item.competency_group + " " + item.competency;
+      // fullCompetency.forEach(obj => {
+        // if (set == obj) {
+          // if (!ifExistsInArray(set, resultsComps)) {
+            // resultsComps.push(set);
+          // }
+        // }
+      // });
+    // });
 
-        competency_group.forEach(item => {
-            let itemElement = document.getElementById(createId(item));
-            itemElement.disabled = false;
-        });
+    // competency_group.forEach(item => {
+      // let itemElement = document.getElementById(createId(item));
+      // itemElement.disabled = false;
+    // });
 
-        fullCompetency.forEach(item => {
-            let itemElement = document.getElementById(createId(item));
-            itemElement.disabled = false;
-            itemElement.parentNode.parentNode.style.display = "block";
-        });
-    } else {
-        results.forEach(item => {
-            competency_group.forEach(obj => {
-                if (item.competency_group == obj) {
-                    if (!ifExistsInArray(obj, resultsCompGroups)) {
-                        resultsCompGroups.push(obj);
-                    }
-                }
-            });
+    // fullCompetency.forEach(item => {
+      // let itemElement = document.getElementById(createId(item));
+      // itemElement.disabled = false;
+      // itemElement.parentNode.parentNode.style.display = "block";
+    // });
+  // } else {
+    // results.forEach(item => {
+      // competency_group.forEach(obj => {
+        // if (item.competency_group == obj) {
+          // if (!ifExistsInArray(obj, resultsCompGroups)) {
+            // resultsCompGroups.push(obj);
+          // }
+        // }
+      // });
 
-            let set = item.competency_group + " " + item.competency;
-            fullCompetency.forEach(obj => {
-                if (set == obj) {
-                    if (!ifExistsInArray(set, resultsComps)) {
-                        resultsComps.push(set);
-                    }
-                }
-            });
-        });
+      // let set = item.competency_group + " " + item.competency;
+      // fullCompetency.forEach(obj => {
+        // if (set == obj) {
+          // if (!ifExistsInArray(set, resultsComps)) {
+            // resultsComps.push(set);
+          // }
+        // }
+      // });
+    // });
 
-        competency_group.forEach(item => {
-            let itemElement = document.getElementById(createId(item));
-            if (!ifExistsInArray(item, resultsCompGroups)) {
-                itemElement.disabled = true;
-            } else {
-                itemElement.disabled = false;
-            }
-        });
+    // competency_group.forEach(item => {
+      // let itemElement = document.getElementById(createId(item));
+      // if (!ifExistsInArray(item, resultsCompGroups)) {
+        // itemElement.disabled = true;
+      // } else {
+        // itemElement.disabled = false;
+      // }
+    // });
 
-        fullCompetency.forEach(item => {
-            let itemElement = document.getElementById(createId(item));
+    // fullCompetency.forEach(item => {
+      // let itemElement = document.getElementById(createId(item));
 
-            if (!ifExistsInArray(item, resultsComps)) {
-                itemElement.disabled = true;
-                itemElement.parentNode.parentNode.style.display = "none";
-            } else {
-                itemElement.disabled = false;
-                itemElement.parentNode.parentNode.style.display = "block";
-            }
-        });
-    }
+      // if (!ifExistsInArray(item, resultsComps)) {
+        // itemElement.disabled = true;
+        // itemElement.parentNode.parentNode.style.display = "none";
+      // } else {
+        // itemElement.disabled = false;
+        // itemElement.parentNode.parentNode.style.display = "block";
+      // }
+    // });
+  // }
 
     /* $(".career-competency-toggle-open").children().each(function () {
       if ($(this).prop("class") == "career-competency-input-groups") {
@@ -1193,13 +1270,13 @@ function enableDisableCompetencies(all) {
                     }
                 } else if (button[0].id.match('competency-group-button')) {
                     $(this).parent().siblings().slideToggle();
-                    $(this).parent().siblings().each(function () {
-                        if ($(this).children().css("display") == "none") {
-                            $(this).css("display", "none");
-                        } else {
-                            $(this).css("display", "block");
-                        }
-                    });
+                    // $(this).parent().siblings().each(function () {
+                        // if ($(this).children().css("display") == "none") {
+                            // $(this).css("display", "none");
+                        // } else {
+                            // $(this).css("display", "block");
+                        // }
+                    // });
                     $(this).find('i').toggleClass('fa-plus fa-minus');
                 } else {
                     if (!ifExists(evt.target.id)) {
