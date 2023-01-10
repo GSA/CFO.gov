@@ -94,7 +94,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         popupElement.remove();
     }
     //remove from local storage
-    let competencyTitlePipeReplaced = competencyTitle.replace(',', '|');
+    let competencyTitlePipeReplaced = competencyTitle.replace(',', '|').replace('"','').replace('"','');
     let groupItem = cfoStorage.getItem(competencyGroup);
     if (groupItem != null) {
         let groupItemValue = JSON.parse(groupItem);
@@ -137,7 +137,6 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
  * @param {string} id - The id of the object clicked
  */
 function removeTagFilter(inputType, id, eventTargetId) {
-    // console.log("Removing: "+eventTargetId+"-button");
     adding = false;
     removing = true;
     if (inputType == "button") $("#" + id).toggleClass("active");
@@ -158,71 +157,12 @@ function removeTagFilter(inputType, id, eventTargetId) {
     });
     data.forEach(function (i) {
         let givenId = eventTargetId + "-button";
-        if (i.id.indexOf(givenId) > -1) {
-            data = data.filter(x => x.id != givenId);
+        if (givenId.toLowerCase().startsWith(i.id.toLowerCase())) {
+            data = data.filter(x => x.id != i.id);
         }
     });
-
-    if (eventTargetId.match("series")) {
-        const seriesLength = data.filter(i => i.id.indexOf("series") > -1);
-        if (seriesLength == 0) {
-            $("#series").css('display', 'none');
-        }
-    }
-    if (eventTargetId.match("GS")) {
-        const gsLength = data.filter(i => i.id.indexOf("GS") > -1);
-        if (gsLength.length == 0) {
-            $("#gs").css('display', 'none');
-        }
-    }
-    const competencyPrimaryLength = data.filter(i => i.id.indexOf("primary") > -1);
-    const competencySecondaryLength = data.filter(i => i.id.indexOf("secondary") > -1);
-    const competencyAlternateLength = data.filter(i => i.id.indexOf("alternate") > -1);
-    if (eventTargetId.match("primary")) {
-        if (competencyPrimaryLength.length == 0) {
-            $("#dialog").dialog("close");
-        }
-    }
-    if (eventTargetId.match("secondary")) {
-        if (competencySecondaryLength.length == 0) {
-            $("#dialog").dialog("close");
-        }
-    }
-    if (eventTargetId.match("alternate")) {
-        if (competencyAlternateLength.length == 0) {
-            $("#dialog").dialog("close");
-        }
-    }
-    if ((competencyPrimaryLength.length == 0) && (competencySecondaryLength.length == 0) && (competencyAlternateLength.length == 0) ){
-        $("#job-competency").css('display', 'none');
-    }
-    const competencyPersonalLength = data.filter(i => i.id.indexOf("personal") > -1);
-    const competencyProjectLength = data.filter(i => i.id.indexOf("project") > -1);
-    const competencyLeadingLength = data.filter(i => i.id.indexOf("leading") > -1);
-    const competencyFutureSkillsLength = data.filter(i => i.id.indexOf("future-skills") > -1);
-    if (eventTargetId.match("personal")) {
-        if (competencyPersonalLength.length == 0) {
-            $("#dialog").dialog("close");
-        }
-    }
-    if (eventTargetId.match("project")) {
-        if (competencyProjectLength.length == 0) {
-            $("#dialog").dialog("close");
-        }
-    }
-    if (eventTargetId.match("leading")) {
-        if (competencyLeadingLength.length == 0) {
-            $("#dialog").dialog("close");
-        }
-    }
-    if (eventTargetId.match("future-skills")) {
-        if (competencyFutureSkillsLength.length == 0) {
-            $("#dialog").dialog("close");
-        }
-    }
-    if ((competencyPersonalLength.length == 0) && (competencyProjectLength.length == 0) && (competencyLeadingLength.length == 0) && (competencyFutureSkillsLength.length == 0)) {
-        $("#general-competency").css('display', 'none');
-    }
+    removeParentContainers(eventTargetId);
+   
     adjustSearchOrder();
     if (data.length == 0) {
         searchOrder = [];
@@ -282,4 +222,85 @@ function onSubButtonClick(competencyGroup) {
             width: 600
         });
     }
+}
+
+/**
+ * Rermoves a parent container.
+ * Called in two places
+ * 1) when removes a button
+ * 2) when unchecking
+ *
+ * @param {string} eventTargetId - The id of the object clicked
+ */
+function removeParentContainers(eventTargetId) {
+    if (eventTargetId.match("series")) {
+        const seriesLength = data.filter(i => i.id.indexOf("series") > -1);
+        if (seriesLength == 0) {
+            $("#series").css('display', 'none');
+        }
+    }
+    if (eventTargetId.match("GS")) {
+        const gsLength = data.filter(i => i.id.indexOf("GS") > -1);
+        if (gsLength.length == 0) {
+            $("#gs").css('display', 'none');
+        }
+    }
+    const competencyPrimaryLength = data.filter(i => i.id.indexOf("primary") > -1);
+    const competencySecondaryLength = data.filter(i => i.id.indexOf("secondary") > -1);
+    const competencyAlternateLength = data.filter(i => i.id.indexOf("alternate") > -1);
+    if (eventTargetId.match("primary")) {
+        if (competencyPrimaryLength.length == 0) {
+            closeDialog();
+        }
+    }
+    if (eventTargetId.match("secondary")) {
+        if (competencySecondaryLength.length == 0) {
+            closeDialog();
+        }
+    }
+    if (eventTargetId.match("alternate")) {
+        if (competencyAlternateLength.length == 0) {
+            closeDialog();
+        }
+    }
+    if ((competencyPrimaryLength.length == 0) && (competencySecondaryLength.length == 0) && (competencyAlternateLength.length == 0)) {
+        $("#job-competency").css('display', 'none');
+    }
+    const competencyPersonalLength = data.filter(i => i.id.indexOf("personal") > -1);
+    const competencyProjectLength = data.filter(i => i.id.indexOf("project") > -1);
+    const competencyLeadingLength = data.filter(i => i.id.indexOf("leading") > -1);
+    const competencyFutureSkillsLength = data.filter(i => i.id.indexOf("future-skills") > -1);
+    if (eventTargetId.match("personal")) {
+        if (competencyPersonalLength.length == 0) {
+            closeDialog();
+        }
+    }
+    if (eventTargetId.match("project")) {
+        if (competencyProjectLength.length == 0) {
+            closeDialog();
+        }
+    }
+    if (eventTargetId.match("leading")) {
+        if (competencyLeadingLength.length == 0) {
+            closeDialog();
+        }
+    }
+    if (eventTargetId.match("future-skills")) {
+        if (competencyFutureSkillsLength.length == 0) {
+            closeDialog();
+        }
+    }
+    if ((competencyPersonalLength.length == 0) && (competencyProjectLength.length == 0) && (competencyLeadingLength.length == 0) && (competencyFutureSkillsLength.length == 0)) {
+        $("#general-competency").css('display', 'none');
+    }
+}
+
+function closeDialog() {
+    if (isDialogOpen()) {
+        $("#dialog").dialog("close");
+    }
+}
+
+function isDialogOpen() {
+    return $("#dialog").hasClass('ui-dialog-content');
 }

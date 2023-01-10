@@ -184,6 +184,7 @@ $.getJSON(window.federalist.path.baseurl + '/search.json', function (res) {
                     $(labelId).html("<strong>De-Select All</strong>");
                 } else {
                     addRemoveFilterButton(eventId, '', null, true);
+                    removeParentContainers(eventId);
                     $(labelId).html("<strong>Select All</strong>");
                 }
                 // This is for All child De-Select All and main De-Select All
