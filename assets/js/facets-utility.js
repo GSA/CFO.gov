@@ -137,25 +137,6 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
  * @param {string} id - The id of the object clicked
  */
 function removeTagFilter(inputType, id, eventTargetId) {
-    // console.log("Removing: "+eventTargetId+"-button");
-
-    ////Remove from cfo storage
-    //var eventTargetData = eventTargetId.split('-');
-    //var competencyGroup = eventTargetData[0];
-    //var groupItem = cfoStorage.getItem(competencyGroup.toLowerCase());
-    //if (groupItem != null) {
-    //    let competencyTitlePipeReplaced = '';
-    //    if (isDialogOpen()) {
-    //        competencyTitlePipeReplaced = $('#' + 'pop-' + eventTargetId + '-button').text().replace('&nbsp;', '').replace(',', '|');
-    //    }
-    //    else {
-    //        competencyTitlePipeReplaced = $('#' + eventTargetId).text().replace('&nbsp;', '').replace(',', '|');
-    //    }
-    //    let groupItemValue = JSON.parse(groupItem);
-    //    groupItemValue.splice(groupItemValue.indexOf(competencyTitlePipeReplaced), 1);
-    //    cfoStorage.setItem(competencyGroup.toLowerCase(), JSON.stringify(groupItemValue));
-    //}
-
     adding = false;
     removing = true;
     if (inputType == "button") $("#" + id).toggleClass("active");
