@@ -52,10 +52,10 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     //handle button for duplicates
     const subButton = document.getElementById(competencyGroup + "-button");
-    //if (itemLength == 0) {
-    //    subButton.remove();
-    //    closeDialog();
-    //}
+    if (itemLength == 0) {
+        subButton.remove();
+        closeDialog();
+    }
     if (subButton == null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
         removeButtonA.setAttribute("class", "usa-tag bg-accent-warm margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
