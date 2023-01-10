@@ -52,10 +52,13 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     //handle button for duplicates
     const subButton = document.getElementById(competencyGroup + "-button");
-
+    if (itemLength == 0) {
+        subButton.remove();
+        closeDialog();
+    }
     if (subButton == null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
-        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-capitalize text-no-underline");
+        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
         if (removeButtonA.getAttribute("onClick") == null) {
             removeButtonA.setAttribute("onClick", "onSubButtonClick('" + competencyGroup + "');")
         }
@@ -68,7 +71,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
         let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (replacedText.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-capitalize text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-accent-warm  margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
                 subButton.innerHTML = replacedText.replace(item, itemName);
             }
         });
@@ -94,7 +97,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         popupElement.remove();
     }
     //remove from local storage
-    let competencyTitlePipeReplaced = competencyTitle.replace(',', '|').replace('"','').replace('"','');
+    let competencyTitlePipeReplaced = competencyTitle.replace(',', '|').replace('"', '').replace('"', '');
     let groupItem = cfoStorage.getItem(competencyGroup);
     if (groupItem != null) {
         let groupItemValue = JSON.parse(groupItem);
@@ -108,21 +111,22 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
 
 
     const subButton = document.getElementById(competencyGroup + "-button");
+    
     if (subButton != null) {
         let replacedText = subButton.innerHTML.trim().replace(spanStart, '').replace(spanEnd, '');
         let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (replacedText.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-capitalize text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-accent-warm  margin-top float-left text-black padding-05 margin-1 text-capitalize text-no-underline");
                 subButton.innerHTML = replacedText.replace(item, itemName);
             }
         });
         if (itemLength == 0) {
-            subButton.remove();
-            $("#dialog").dialog("close");
+        subButton.remove();
+        closeDialog();
         }
     }
-
+    removeParentContainers(eventTargetId);
 
 }
 
@@ -142,7 +146,7 @@ function removeTagFilter(inputType, id, eventTargetId) {
     if (inputType == "button") $("#" + id).toggleClass("active");
     else {
         if (eventTargetId.indexOf("pop") < 0) {
-            let popElement = document.getElementById(eventTargetId.replace('primary', 'pop').replace('secondary', 'pop').replace('alternative', 'pop') + '-button');
+            let popElement = document.getElementById(eventTargetId.replace('primary', 'pop').replace('secondary', 'pop').replace('alternative', 'pop').replace('personal', 'pop').replace('project', 'pop').replace('leading', 'pop').replace('future-skills', 'pop') + '-button');
             if (popElement != null) {
                 popElement.remove();
             }
@@ -162,7 +166,7 @@ function removeTagFilter(inputType, id, eventTargetId) {
         }
     });
     removeParentContainers(eventTargetId);
-   
+
     adjustSearchOrder();
     if (data.length == 0) {
         searchOrder = [];
@@ -175,7 +179,6 @@ function removeTagFilter(inputType, id, eventTargetId) {
     }
     $("#" + eventTargetId + "-button").remove();
     getSearch();
-    // console.log(JSON.stringify(data));
 }
 
 /**
