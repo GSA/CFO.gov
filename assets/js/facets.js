@@ -635,7 +635,7 @@ function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, 
     }
     if (competencyGroup != null) {
         removeButtonA.removeAttribute("class");
-        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-no-uppercase text-no-underline");
+        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm margin-top float-left text-black padding-05 margin-1 text-no-uppercase text-no-underline");
 
         if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
             addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);

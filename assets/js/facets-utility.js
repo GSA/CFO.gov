@@ -21,7 +21,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     if (!removeAll) {
         //set items to local storage for popups
-        let competencyTitlePipeReplaced = competencyTitle.replace(',', '|');
+        let competencyTitlePipeReplaced = competencyTitle.replaceAll(',', '|');
         let groupItem = cfoStorage.getItem(competencyGroup);
         if (groupItem == null) {
             cfoStorage.setItem(competencyGroup, JSON.stringify([competencyTitlePipeReplaced]));
@@ -52,10 +52,13 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     //handle button for duplicates
     const subButton = document.getElementById(competencyGroup + "-button");
-
+    if (itemLength == 0) {
+        subButton.remove();
+        closeDialog();
+    }
     if (subButton == null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
-        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-capitalize text-no-underline");
+        removeButtonA.setAttribute("class", "usa-tag bg-accent-warm margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
         if (removeButtonA.getAttribute("onClick") == null) {
             removeButtonA.setAttribute("onClick", "onSubButtonClick('" + competencyGroup + "');")
         }
@@ -68,7 +71,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
         let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (replacedText.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-1 margin-1 text-capitalize text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-accent-warm  margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
                 subButton.innerHTML = replacedText.replace(item, itemName);
             }
         });
@@ -87,14 +90,14 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
     const spanEnd = '</span>';
-    let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '').toLowerCase();
+    let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '');
     removeTagFilter("checkbox", null, eventTargetId);
     let popupElement = document.getElementById(id);
     if (popupElement != null) {
         popupElement.remove();
     }
     //remove from local storage
-    let competencyTitlePipeReplaced = competencyTitle.replace(',', '|').replace('"','').replace('"','');
+    let competencyTitlePipeReplaced = competencyTitle.replaceAll(',', '|').replaceAll('"', '');
     let groupItem = cfoStorage.getItem(competencyGroup);
     if (groupItem != null) {
         let groupItemValue = JSON.parse(groupItem);
@@ -108,21 +111,22 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
 
 
     const subButton = document.getElementById(competencyGroup + "-button");
+    
     if (subButton != null) {
         let replacedText = subButton.innerHTML.trim().replace(spanStart, '').replace(spanEnd, '');
         let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (replacedText.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm text-black padding-05 margin-1 text-capitalize text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-accent-warm  margin-top float-left text-black padding-05 margin-1 text-capitalize text-no-underline");
                 subButton.innerHTML = replacedText.replace(item, itemName);
             }
         });
         if (itemLength == 0) {
-            subButton.remove();
-            $("#dialog").dialog("close");
+        subButton.remove();
+        closeDialog();
         }
     }
-
+    removeParentContainers(eventTargetId);
 
 }
 
@@ -142,11 +146,12 @@ function removeTagFilter(inputType, id, eventTargetId) {
     if (inputType == "button") $("#" + id).toggleClass("active");
     else {
         if (eventTargetId.indexOf("pop") < 0) {
-            let popElement = document.getElementById(eventTargetId.replace('primary', 'pop').replace('secondary', 'pop').replace('alternative', 'pop') + '-button');
+            let popElement = document.getElementById(eventTargetId.replace('primary', 'pop').replace('secondary', 'pop').replace('alternative', 'pop').replace('personal', 'pop').replace('project', 'pop').replace('leading', 'pop').replace('future-skills', 'pop') + '-button');
             if (popElement != null) {
                 popElement.remove();
             }
         }
+        eventTargetId = eventTargetId.toLowerCase();
         $("#" + eventTargetId).prop("checked", false);
         let group = $("#" + eventTargetId).data('group');
         if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
@@ -162,7 +167,7 @@ function removeTagFilter(inputType, id, eventTargetId) {
         }
     });
     removeParentContainers(eventTargetId);
-   
+
     adjustSearchOrder();
     if (data.length == 0) {
         searchOrder = [];
@@ -175,7 +180,6 @@ function removeTagFilter(inputType, id, eventTargetId) {
     }
     $("#" + eventTargetId + "-button").remove();
     getSearch();
-    // console.log(JSON.stringify(data));
 }
 
 /**
@@ -193,30 +197,23 @@ function onSubButtonClick(competencyGroup) {
         let groupItemsLength = groupItems.length;
         groupItems.forEach(function (i) {
             let givenId = "pop-" +
-                i.replace('| ', '-')
-                    .replace('"', '')
-                    .replace('"', '')
-                    .replace(',', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-')
-                    .replace(' ', '-') + "-button";
+                i.replaceAll('| ', '-')
+                .replaceAll('"', '')
+                .replaceAll(',', '-')
+                .replaceAll(' ', '-')
+                .toLowerCase()
+                + "-button";
             const removeButtonA = document.createElement("a");
             removeButtonA.setAttribute("id", givenId);
             removeButtonA.setAttribute("tabindex", 0);
             removeButtonA.setAttribute("href", "javascript:void(0)");
             removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
-            removeButtonA.innerHTML = i.replace('|', ',').replace('"', '').replace('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
+            removeButtonA.innerHTML = i.replaceAll('|', ',').replaceAll('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
             if (removeButtonA.getAttribute("onClick") == null) {
                 removeButtonA.setAttribute("onClick", "onPopupSubButtonClick('" + competencyGroup + "', '" + givenId + "', '" + i + "');")
             }
             document.getElementById("dtags").appendChild(removeButtonA);
             groupItemsLength--;
-            //if (groupItemsLength === 0) {
-            //}
         });
         $("#dialog").dialog({
             width: 600
