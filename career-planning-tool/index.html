@@ -21,7 +21,7 @@ attached:
             <div class="desktop:grid-col-10">
                 <div class="display-flex">
                     <div class="desktop:grid-col-8">
-                        <h4 class="text-normal text-white margin-bottom-1">Career Planning & Training Tool (in BETA)</h4>
+                        <h1 class="text-normal text-white margin-bottom-1">Career Planning & Training Tool (in BETA)</h1>
                     </div>
                 </div>
                 <p class="text-base-lighter padding-top-0 margin-top-0 text-light">Discover the knowledge, skills, and training that can help advance your Federal career</p>
@@ -128,7 +128,7 @@ attached:
                                 <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30 flex-column">
                                     <div class="career-competency-toggle-open">
                                         <div class="career-competency-toggle-open--inner">
-                                        <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" title="{{ competency_group }}"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
+                                        <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" title="{{ competency_group }}" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                                         <div class="career-competency-level-3-input-group">
                                             <div class="career-input-group">
                                               <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}"><strong class="cpt-strong">Select All</strong></label>
@@ -185,7 +185,7 @@ attached:
                                 <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30 flex-column">
                                     <div class="career-competency-toggle-open">
                                         <div class="career-competency-toggle-open--inner">
-                                        <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" title="{{ competency_group }}"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
+                                        <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" title="{{ competency_group }}"  aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                                         <div class="career-competency-level-3-input-group">
                                             <div class="career-input-group">
                                               <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}"><strong class="cpt-strong">Select All</strong></label>
@@ -266,16 +266,16 @@ attached:
                   {% if post_modulus > 0 %}
                       {% assign post_pages = post_pages | plus: 1 %}
                   {% endif %}
-                  <div class="career-search-results-page-size-wrapper float-right">
+                  <div class="career-search-results-pagination-wrapper">
+                    <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }} Results</p>
+                  </div>
+                  <div class="career-search-results-page-size-wrapper">
                     <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">Results per page: </label>
                     <select id="per-page-top" class="usa-select width-8 display-inline-block margin-top-0" name="per_page">
                       <option value="5"{% if default_page_size == 5 %}selected{% endif %}>5</option>
                       <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
                       <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
                     </select>
-                  </div>
-                  <div class="career-search-results-pagination-wrapper">
-                    <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }} Results</p>
                   </div>
                 </div>
                 <div id="career-search-results">
@@ -322,16 +322,16 @@ attached:
                     {% endfor %}
                 </div>
                 <div class="career-search-results-filter-pagination margin-bottom-205">
-                  <div class="career-search-results-page-size-wrapper float-right">
+                    <div class="career-search-results-pagination-wrapper">
+                        <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p> Results
+                    </div>
+                  <div class="career-search-results-page-size-wrapper">
                     <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-bot">Results per page: </label>
                     <select id="per-page-bot" class="usa-select width-8 display-inline-block margin-top-0" name="per_page">top-0" name="per_page">
                       <option value="5"{% if default_page_size == 5 %}selected{% endif %}>5</option>
                       <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
                       <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
                     </select>
-                  </div>
-                  <div class="career-search-results-pagination-wrapper">
-                    <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p> Results
                   </div>
                 </div>
             </div>

@@ -180,6 +180,7 @@ input#career-advancement-search-input {
 .career-search-results-filter-pagination {
   font-size: 20px;
   font-weight: bold;
+  display: flex;
 }
 
 .career-search-results-pagination-wrapper {
