@@ -1173,6 +1173,9 @@ function enableDisableCompetencies(all) {
                         // }
                     // });
                     $(this).find('i').toggleClass('fa-plus fa-minus');
+                    // Set aria label
+                    let ariaLabel = $(this).find('i').hasClass('fa-plus') ? ', collapsed' : ', expanded';
+                    $(this).attr('aria-label', $(this).text() + ariaLabel);
                 } else {
                     if (!ifExists(evt.target.id)) {
                         createRemoveButtons('button', evt.target.id, button);
