@@ -129,6 +129,13 @@ payment-accuracy-navigation:
   - name: FAQ
     url: /payment-accuracy-FAQ/
 
+jfmip-navigation:
+#  - name: Current Initiatives
+#    url: /
+#    children:
+#      - name: Improper Payment Initiative
+#        url: /jfmip/improper-payments-initiative/
+
 footer:
   contact:
     name: Contact Us
