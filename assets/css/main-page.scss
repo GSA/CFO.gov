@@ -836,11 +836,12 @@ abbr {
   }
 }
 
-#blog {
+.page-header-section {
   width: 100%;
 }
+
 @media screen and (min-width: 390px) {
-  #blog {
+  .page-header-section {
     width: 390px;
     padding-top: 25px;
     padding-right: 20px;
