@@ -840,7 +840,7 @@ abbr {
   width: 100%;
 }
 
-@media screen and (min-width: 390px) {
+@media all and (min-width: 0px) and (max-width: 390px) {
   .page-header-section {
     width: 390px;
     padding-top: 25px;
