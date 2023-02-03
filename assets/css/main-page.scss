@@ -836,9 +836,11 @@ abbr {
   }
 }
 
-@media all and (min-width: 390px) {
+@media screen and (min-width: 390px) {
   #blog {
-    width: 38rem;
+    width: 390px;
+    padding-top: 25px;
+    padding-right: 20px;
   }
 }
   //CXO Page Linkedin Button
