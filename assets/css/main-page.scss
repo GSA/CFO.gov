@@ -836,6 +836,11 @@ abbr {
   }
 }
 
+@media all and (min-width: 390px) {
+  #blog {
+    width: 38rem;
+  }
+}
   //CXO Page Linkedin Button
   /* .usa-social-link--linkedin-cfo {
     background-image: url(../assets/images/linkedin-transparent.png),
