@@ -6,7 +6,7 @@ series: 560
 job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Senior
-permalink: /cards/560-Organizational-Awareness-Senior
+permalink: /cards/560-Organizational-Awareness-Senior-0
 functional_competency_designation: Job Specific Competencies
 competency: Organizational Awareness
 competency_group: Secondary
