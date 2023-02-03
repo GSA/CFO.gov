@@ -45,7 +45,7 @@
         unselectAll();
       }
       else {
-        let set = results.length ? results : fullSet;
+        let set = facetGlobalVars.results.length ? facetGlobalVars.results : fullSet;
         for (let i = 0, l = set.length; i < l; i++) {
           selected[set[i].permalink] = true;
         }
@@ -62,7 +62,7 @@
     // button click event handler for Download PDF report button
     downloadButtonPDF = $('#career-download-buttons').find('[data-op="download-selected-pdf"]').click(function () {
       let cards = [];
-      let cardSet = results.length ? results : fullSet;
+      let cardSet = facetGlobalVars.results.length ? facetGlobalVars.results : facetGlobalVars.fullSet;
       for (let i = 0, l = cardSet.length; i < l; i++) {
         if (typeof selected[cardSet[i].permalink] != 'undefined') {
           cards.push(cardSet[i]);
@@ -74,7 +74,7 @@
     // button click event handler for Download CSV report button
     downloadButtonCSV = $('#career-download-buttons').find('[data-op="download-selected-csv"]').click(function () {
       let cards = [];
-      let cardSet = results.length ? results : fullSet;
+      let cardSet = facetGlobalVars.results.length ? facetGlobalVars.results : facetGlobalVars.fullSet;
       for (let i = 0, l = cardSet.length; i < l; i++) {
         if (typeof selected[cardSet[i].permalink] != 'undefined') {
           cards.push(cardSet[i]);
@@ -86,7 +86,7 @@
     $('#career-advancement-search-input').autocomplete({
       source: function (request, response) {
         let normalized = request.term.toLowerCase()
-        let outputs = fullSet.map(function (item) {
+        let outputs = facetGlobalVars.fullSet.map(function (item) {
           let value = item.title;
           if (value.toLowerCase().indexOf(normalized) != -1) {
             return value;
@@ -119,24 +119,24 @@
         let $elem = $(event.target),
           value = $elem.val();
 
-        data.push({
+        facetGlobalVars.data.push({
           type: 'keys',
           id: 'search',
           value: ui.item.value,
           exact: true
         });
-        startingSearchFilter.push({keys: ui.item.value, id: 'keys'});
-        adjustSearchOrder();
-        getSearch();
+        facetGlobalVars.startingSearchFilter.push({keys: ui.item.value, id: 'keys'});
+        $().adjustSearchOrder();
+        $().getSearch();
       },
       change: function (event, ui) {
       }
     });
 
     $('select[name="per_page"]').change(function (e) {
-      perPage = parseInt($(this).val());
-      getSearch();
-      $('select[name="per_page"]').val(perPage);
+      facetGlobalVars.perPage = parseInt($(this).val());
+      $().getSearch();
+      $('select[name="per_page"]').val(facetGlobalVars.perPage);
     });
   });
 
