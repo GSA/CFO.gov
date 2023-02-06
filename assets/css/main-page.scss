@@ -835,21 +835,3 @@ abbr {
     }
   }
 }
-
-.page-header-section {
-  width: 100%;
-}
-
-@media all and (min-width: 0px) and (max-width: 390px) {
-  .page-header-section {
-    width: 29.3rem;
-    padding-top: 25px;
-    padding-right: 20px;
-  }
-}
-  //CXO Page Linkedin Button
-  /* .usa-social-link--linkedin-cfo {
-    background-image: url(../assets/images/linkedin-transparent.png),
-      linear-gradient(transparent, transparent);
-    background-repeat: no-repeat;
-  } */

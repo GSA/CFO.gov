@@ -96,8 +96,8 @@ input#career-advancement-search-input {
 }
 
 @media screen and (min-width: 785px) {
-  input#career-advancement-search-input {
-    width: 23rem;
+  .usa-search button span {
+    display: block;
   }
 }
 
@@ -180,6 +180,7 @@ input#career-advancement-search-input {
 .career-search-results-filter-pagination {
   font-size: 20px;
   font-weight: bold;
+  display: flow-root;
 }
 
 .career-search-results-pagination-wrapper {
@@ -188,6 +189,7 @@ input#career-advancement-search-input {
   justify-content: space-between;
   margin: 0 auto;
   line-height: 2;
+  float: left;
 }
 
 .career-container {
@@ -198,7 +200,7 @@ input#career-advancement-search-input {
 }
 
 #career-download-buttons {
-  margin-right: 20px;
+  margin-right: -8px;
 }
 
 
@@ -347,5 +349,14 @@ div[data-card-filter] {
 
   .cfo-inner-competency-div {
     width: 47%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  input#career-advancement-search-input {
+    width: 25.25rem;
+  }
+  #career-download-buttons button {
+    width: 14.8rem;
   }
 }
