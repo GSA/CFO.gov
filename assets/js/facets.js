@@ -11,7 +11,7 @@ let facetGlobalVars = {
     competency_group: [], // array of competency_groups
     startingSearchFilter: [], // hold the starting search filter object
     searchOrder: [], // hold a list of objects representing the order of a search competency, level, series etc..
-    searchKeys: [ // when searching the columns to search - Compentency Description, Proficiency Level Definition, Behavioral Illustrations, Relevant Courses
+    searchKeys: [ // when searching the columns to search - Competency Description, Proficiency Level Definition, Behavioral Illustrations, Relevant Courses
         "title",
         "competency_description",
         "proficiency_level_definition",
@@ -70,17 +70,16 @@ let facetGlobalVars = {
             var id = this.id;
             let comps = Array.from(getVisibleFacets());
 
-            if (id == 'job-career-competency-select-all') {
+            if (id === 'job-career-competency-select-all') {
                 var jobSelect = '#job-career-competency-select';
-                if ($(jobSelect).text() == 'Select All') {
+                if ($(jobSelect).text() === 'Select All') {
                     $(jobSelect).html("<strong>De-Select All</strong>");
                     facetGlobalVars.competency_group.forEach(item => {
-                        if (comps.some(x => x.group == item.toLowerCase())) {
+                        if (comps.some(x => x.group === item.toLowerCase())) {
                             let itemElement = createId(item);
                             let eventId = document.getElementById(itemElement);
                             if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
-                                var labelId = "#competency-group-label-" + itemElement;
-                                $(labelId).attr('data-state', 'enabled').html("<strong>De-Select All</strong>");
+                                $().toggleSelectAll(itemElement, true);
                             }
                         }
                     });
@@ -90,23 +89,21 @@ let facetGlobalVars = {
                         let itemElement = createId(item);
                         let eventId = document.getElementById(itemElement);
                         if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
-                            var labelId = "#competency-group-label-" + itemElement;
-                            $(labelId).attr('data-state', 'disabled').html("<strong>Select All</strong>");
+                            $().toggleSelectAll(itemElement, false);
                         }
                     });
                 }
             }
-            if (id == 'general-career-competency-select-all') {
+            if (id === 'general-career-competency-select-all') {
                 var generalSelect = '#general-career-competency-select';
-                if ($(generalSelect).text() == 'Select All') {
+                if ($(generalSelect).text() === 'Select All') {
                     $(generalSelect).html("<strong>De-Select All</strong>");
                     facetGlobalVars.competency_group.forEach(item => {
-                        if (comps.some(x => x.group == createId(item))) {
+                        if (comps.some(x => x.group === createId(item))) {
                             let itemElement = createId(item);
                             let eventId = document.getElementById(itemElement);
                             if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
-                                var labelId = "#competency-group-label-" + itemElement;
-                                $(labelId).html("<strong>De-Select All</strong>");
+                                $().toggleSelectAll(itemElement, true);
                             }
                         }
                     });
@@ -116,14 +113,13 @@ let facetGlobalVars = {
                         let itemElement = createId(item);
                         let eventId = document.getElementById(itemElement);
                         if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
-                            var labelId = "#competency-group-label-" + itemElement;
-                            $(labelId).html("<strong>Select All</strong>");
+                            $().toggleSelectAll(itemElement, false);
                         }
                     });
                 }
             }
             if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('competency', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('competency');
-            if (facetGlobalVars.startingSearchFilter.length == 0) {
+            if (facetGlobalVars.startingSearchFilter.length === 0) {
                 facetGlobalVars.startingSearchFilter.push({keys: null, id: 'competency'});
             }
             let major_group = '';
@@ -137,9 +133,7 @@ let facetGlobalVars = {
                 let $elem = $(elem),
                     comp = $elem.attr('aria-label'),
                     group = $elem.attr('data-group');
-                if (comps.some(x => x.comp == comp && x.group.toLowerCase() == group)) {
-                    let item = elem.title;
-                    let eventGroupId = createId(item);
+                if (comps.some(x => x.comp === comp && x.group.toLowerCase() === group)) {
                     $(elem).prop({checked: checked});
                     if (elem.hasAttribute('data-group')) {
                         $elem.trigger('change');
@@ -151,10 +145,10 @@ let facetGlobalVars = {
         // create an array of everything of both disabled and active.
         facetGlobalVars.competency_group.forEach(groupItem => {
             let eventGroupId = createId(groupItem);
-            if (eventGroupId != "") {
+            if (eventGroupId !== "") {
                 facetGlobalVars.competency.forEach(item => {
                     let eventId = createId(eventGroupId + " " + item);
-                    if (eventId != "") {
+                    if (eventId !== "") {
                         $("#" + eventId).on('change', function () {
                             if (this.checked) {
                                 if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('competency', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('competency');
@@ -176,17 +170,12 @@ let facetGlobalVars = {
                                     $("#career-competency-select-all").prop("checked", false);
                                 }
                                 facetGlobalVars.data = $.grep(facetGlobalVars.data, function (e) {
-                                    return e.id != eventId;
+                                    return e.id !== eventId;
                                 });
                                 $().adjustSearchOrder();
-                                if (facetGlobalVars.data.length == 0) {
+                                if (facetGlobalVars.data.length === 0) {
                                     facetGlobalVars.searchOrder = [];
-                                    facetGlobalVars.startingSearchFilter = [];
-                                    $("#career-facet-remove-all-filters-button").css('display', 'none');
-                                    $("#series").css('display', 'none');
-                                    $("#gs").css('display', 'none');
-                                    $("#job-competency").css('display', 'none');
-                                    $("#general-competency").css('display', 'none');
+                                    resetFilterBlocks();
                                 }
                                 $("#" + eventId + "-button").remove();
                                 $().getSearch();
@@ -198,7 +187,7 @@ let facetGlobalVars = {
         });
         facetGlobalVars.competency_group.forEach(item => {
             let eventId = createId(item);
-            if (eventId != "") {
+            if (eventId !== "") {
                 $("#" + eventId).on("focus", function () {
                     $('label[for="' + eventId + '"]').addClass("padding-05");
                     $('label[for="' + eventId + '"]').css("outline", "0.25rem solid #2491ff");
@@ -210,14 +199,14 @@ let facetGlobalVars = {
                 });
                 $("#" + eventId).on('change', function () {
                     let labelId = "#competency-group-label-" + eventId,
-                        checked = false;
-                    if ($(labelId).text() == 'Select All') {
-                        $(labelId).attr('data-state', 'enabled').html("<strong>De-Select All</strong>");
+                        checked;
+                    if ($(labelId).text() === 'Select All') {
+                        $().toggleSelectAll(eventId, true);
                         checked = true;
                     } else {
                         addRemoveFilterButton(eventId, '', null, true);
                         removeParentContainers(eventId);
-                        $(labelId).attr('data-state', 'disabled').html("<strong>Select All</strong>");
+                        $().toggleSelectAll(eventId, false);
                         disableGlobalSelect(eventId);
                         checked = false;
                     }
@@ -226,13 +215,13 @@ let facetGlobalVars = {
                         if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('competency', facetGlobalVars.searchOrder)) {
                             facetGlobalVars.searchOrder.push('competency');
                         }
-                        if (facetGlobalVars.startingSearchFilter.length == 0) {
+                        if (facetGlobalVars.startingSearchFilter.length === 0) {
                             facetGlobalVars.startingSearchFilter.push({keys: null, id: 'competency'});
                         }
 
                         let comps = getVisibleFacets();
                         comps.forEach(x => {
-                            if (eventId == x.group) {
+                            if (eventId === x.group) {
                                 $('input:checkbox[data-group="' + x.group + '"][aria-label="' + x.comp + '"]').prop({'checked': true}).trigger('change');
                             }
                         });
@@ -242,35 +231,25 @@ let facetGlobalVars = {
                         $("#" + eventId).prop("checked", false);
                         facetGlobalVars.competency.forEach(competencyItem => {
                             let eventCompetencyId = createId(eventId + " " + competencyItem);
-                            if ($("#" + eventCompetencyId).data("group") == eventId) {
+                            if ($("#" + eventCompetencyId).data("group") === eventId) {
                                 $("#" + eventCompetencyId).prop('checked', false);
                                 $("#" + eventCompetencyId + "-button").remove();
                                 facetGlobalVars.data = $.grep(facetGlobalVars.data, function (e) {
-                                    return e.id != eventCompetencyId;
+                                    return e.id !== eventCompetencyId;
                                 });
                                 $().adjustSearchOrder();
-                                if (facetGlobalVars.data.length == 0) {
+                                if (facetGlobalVars.data.length === 0) {
                                     facetGlobalVars.searchOrder = [];
-                                    facetGlobalVars.startingSearchFilter = [];
-                                    $("#career-facet-remove-all-filters-button").css('display', 'none');
-                                    $("#series").css('display', 'none');
-                                    $("#gs").css('display', 'none');
-                                    $("#job-competency").css('display', 'none');
-                                    $("#general-competency").css('display', 'none');
+                                    resetFilterBlocks();
                                 }
                             }
                         });
                         $.grep(facetGlobalVars.data, function (e) {
-                            return e.id != eventId;
+                            return e.id !== eventId;
                         });
                         $().adjustSearchOrder();
-                        if (facetGlobalVars.data.length == 0) {
-                            facetGlobalVars.startingSearchFilter = [];
-                            $("#career-facet-remove-all-filters-button").css('display', 'none');
-                            $("#series").css('display', 'none');
-                            $("#gs").css('display', 'none');
-                            $("#job-competency").css('display', 'none');
-                            $("#general-competency").css('display', 'none');
+                        if (facetGlobalVars.data.length === 0) {
+                            resetFilterBlocks();
                         }
                         $("#" + eventId + "-button").remove();
                         $().getSearch();
@@ -329,7 +308,7 @@ let facetGlobalVars = {
                     $('#career-advancement-search-input').val('');
                     $('#career-advancement-search-input').removeAttr('value');
                 } else {
-                    if (item.type == 'checkbox') {
+                    if (item.type === 'checkbox') {
                         $("#" + item.id).prop("checked", false);
                         let group = $("#" + item.id).data('group');
                         if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
@@ -340,21 +319,12 @@ let facetGlobalVars = {
             })
             facetGlobalVars.data = [];
             facetGlobalVars.searchOrder = [];
-            facetGlobalVars.startingSearchFilter = [];
-            $("#career-facet-remove-all-filters-button").css('display', 'none');
-            $("#series").css('display', 'none');
-            $("#gs").css('display', 'none');
-            $("#job-competency").css('display', 'none');
-            $("#general-competency").css('display', 'none');
+            resetFilterBlocks();
             $().getSearch();
 
             $('.career-competency-level-3-input-group label[data-state="enabled"]').attr('data-state', 'disable').html('<strong>Select All</strong>');
             $("#dialog").dialog().dialog("close");
         });
-    }
-
-    function ifFilters() {
-        return facetGlobalVars.data.length > 0;
     }
 
     /**
@@ -366,7 +336,7 @@ let facetGlobalVars = {
     function ifExistsInArray(elm, array) {
         let exists = false;
         array.forEach(item => {
-            if (item == elm) exists = true;
+            if (item === elm) exists = true;
         });
         return exists;
     }
@@ -379,7 +349,7 @@ let facetGlobalVars = {
     function ifExists(id) {
         let exists = false;
         facetGlobalVars.data.forEach(item => {
-            if (item.id == id) exists = true;
+            if (item.id === id) exists = true;
         });
         return exists;
     }
@@ -393,7 +363,7 @@ let facetGlobalVars = {
     function ifExistsResults(title, array) {
         let exists = false;
         array.forEach(item => {
-            if (item.permalink == title) exists = true;
+            if (item.permalink === title) exists = true;
         });
         return exists;
     }
@@ -513,7 +483,7 @@ let facetGlobalVars = {
      * @param {string} competencyTitle - The competency title (not used with buttons)
      */
     function createRemoveButtons(inputType, eventTargetId, button, competencyGroup, competencyTitle) {
-        if (inputType == "button") {
+        if (inputType === "button") {
             facetGlobalVars.data.push({
                 id: eventTargetId,
                 type: 'button',
@@ -535,20 +505,20 @@ let facetGlobalVars = {
         if (eventTargetId.match("series")) {
             if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('series', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('series');
         }
-        if (facetGlobalVars.data.length == 1) {
+        if (facetGlobalVars.data.length === 1) {
             createClearButton();
             $("#career-facet-remove-all-filters-button").css('display', 'block');
-            if (facetGlobalVars.startingSearchFilter.length == 0) {
+            if (facetGlobalVars.startingSearchFilter.length === 0) {
                 facetGlobalVars.startingSearchFilter.push({keys: null, id: eventTargetId});
             }
         }
-        if (inputType == "button") button.toggleClass("active");
+        if (inputType === "button") button.toggleClass("active");
         const removeButtonA = document.createElement("a");
         removeButtonA.setAttribute("id", eventTargetId + "-button");
         removeButtonA.setAttribute("tabindex", 0);
         removeButtonA.setAttribute("href", "javascript:void(0)");
         removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white text-black border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
-        let removeButtonText = '';
+        let removeButtonText;
         if (inputType === "button") {
             removeButtonText = createButtonText(eventTargetId);
         } else {
@@ -611,7 +581,7 @@ let facetGlobalVars = {
         $('#' + id + '-button').remove();
         let elem = $('#' + id);
 
-        if (inputType == 'button') {
+        if (inputType === 'button') {
             elem.toggleClass('active');
         } else {
             elem.prop('checked', false);
@@ -626,7 +596,7 @@ let facetGlobalVars = {
 
         let target = -1;
         for (let i = 0, l = facetGlobalVars.data.length; i < l; i++) {
-            if (facetGlobalVars.data[i].id == id) {
+            if (facetGlobalVars.data[i].id === id) {
                 target = i;
                 break;
             }
@@ -634,26 +604,21 @@ let facetGlobalVars = {
 
         facetGlobalVars.data.splice(target, 1);
         $().adjustSearchOrder();
-        if (facetGlobalVars.data.length == 0) {
+        if (facetGlobalVars.data.length === 0) {
             facetGlobalVars.searchOrder = [];
-            facetGlobalVars.startingSearchFilter = [];
-            $("#career-facet-remove-all-filters-button").css('display', 'none');
-            $("#series").css('display', 'none');
-            $("#gs").css('display', 'none');
-            $("#job-competency").css('display', 'none');
-            $("#general-competency").css('display', 'none');
+            resetFilterBlocks();
         }
 
         $().getSearch();
         if (id.match("series")) {
             const seriesLength = facetGlobalVars.data.filter(i => i.id.indexOf("series") > -1);
-            if (seriesLength == 0) {
+            if (seriesLength === 0) {
                 $("#series").css('display', 'none');
             }
         }
         if (id.match("GS")) {
             const gsLength = facetGlobalVars.data.filter(i => i.id.indexOf("GS") > -1);
-            if (gsLength.length == 0) {
+            if (gsLength.length === 0) {
                 $("#gs").css('display', 'none');
             }
         }
@@ -665,16 +630,13 @@ let facetGlobalVars = {
          * adjusts the searchOrder array
          */
         adjustSearchOrder: function () {
-            // function adjustSearchOrder() {
             let newSearchOrder = [];
-            // console.log(JSON.stringify(data));
             facetGlobalVars.data.forEach(item => {
-                if (item.type == 'keys') {
+                if (item.type === 'keys') {
                     if (!ifExistsInArray('search', newSearchOrder)) {
                         newSearchOrder.push('search');
                     }
                 } else {
-                    // console.log("Item Id: " + item.id + " &&& Type: " + getFilterType(item.id))
                     if (!ifExistsInArray(getFilterType(item.id), newSearchOrder)) {
                         newSearchOrder.push(getFilterType(item.id));
                     }
@@ -684,7 +646,6 @@ let facetGlobalVars = {
             newSearchOrder.forEach(item => {
                 facetGlobalVars.searchOrder.push(item);
             });
-            // console.log("New Search Order: " + JSON.stringify(newSearchOrder) + " &&& Old Search Order: " + JSON.stringify(searchOrder));
         },
 
         /**
@@ -695,18 +656,13 @@ let facetGlobalVars = {
             facetGlobalVars.results = [];
             // create a count of the the items displayed and display it.
             // count all search results for an item as a sanity check and make a spread sheet.
-            // console.log("searchOrder: " + JSON.stringify(searchOrder));
             if (facetGlobalVars.searchOrder.length > 0) {
                 facetGlobalVars.searchOrder.forEach((searchItem, index) => {
-                    // console.log("Index: " + index);
                     switch (index) {
                         case 0:
-                            // console.log("searchItem: " + searchItem);
-                            if (searchItem == 'search') { // is the search always first No - if first add if second subtract
-                                //console.log(startingSearchFilter[0].keys);
+                            if (searchItem === 'search') { // is the search always first No - if first add if second subtract
                                 facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
                                     facetGlobalVars.searchKeys.forEach(term => {
-                                        //console.log(item[term].toLowerCase() + " &&&& " + startingSearchFilter[0].keys.toLowerCase());
                                         if (typeof item[term] == "string") {
                                             if (item[term].replaceAll('\\', '').toLowerCase().match(facetGlobalVars.startingSearchFilter[0].keys.replaceAll('\\', '').toLowerCase())) {
                                                 if (!ifExistsResults(item.permalink, facetGlobalVars.results)) {
@@ -715,9 +671,7 @@ let facetGlobalVars = {
                                             }
                                         } else if (Array.isArray(item[term])) {
                                             item[term].forEach(items => {
-                                                // console.log("Term: " + term);
                                                 if (typeof items == "string") {
-                                                    // console.log(items.toLowerCase() + " - " + startingSearchFilter[0].keys.toLowerCase());
                                                     if (items.replaceAll('\\', '').toLowerCase().match(facetGlobalVars.startingSearchFilter[0].keys.replaceAll('\\', '').toLowerCase())) {
                                                         if (!ifExistsResults(item.permalink, facetGlobalVars.results)) {
                                                             facetGlobalVars.results.push(item);
@@ -739,7 +693,7 @@ let facetGlobalVars = {
                             } else {
                                 facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
                                     facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
-                                        if (getFilterType(obj.id) == searchItem) {
+                                        if (getFilterType(obj.id) === searchItem) {
                                             let filters = item.filters.split(" ");
                                             let val = '';
                                             switch (getFilterType(obj.id)) {
@@ -753,7 +707,7 @@ let facetGlobalVars = {
                                                     val = filters[0];
                                             }
 
-                                            if (val.toLowerCase() == obj.id.toLowerCase()) {
+                                            if (val.toLowerCase() === obj.id.toLowerCase()) {
                                                 if (!ifExistsResults(item.permalink, facetGlobalVars.results)) {
                                                     facetGlobalVars.results.push(item);
                                                 }
@@ -764,15 +718,13 @@ let facetGlobalVars = {
                             }
                             break;
                         default:
-                            // console.log("default searchItem: " + searchItem);
                             let newResults = [];
-                            if (searchItem == 'search') {
+                            if (searchItem === 'search') {
                                 // create a results array for the next search criteria
                                 facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
                                     facetGlobalVars.searchKeys.forEach(term => {
                                         facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
-                                            if (obj.type == 'keys') {
-                                                // console.log(item[term].toLowerCase() + " &&&& " + obj.keys.toLowerCase());
+                                            if (obj.type === 'keys') {
                                                 let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
                                                 if ((typeof stringToMatch !== "undefined") && stringToMatch.replaceAll('\\', '').toLowerCase().match(obj.keys.toLowerCase())) {
                                                     if (!ifExistsResults(item.permalink, newResults)) {
@@ -783,12 +735,11 @@ let facetGlobalVars = {
                                         });
                                     });
                                 });
-                                // console.log("New Results: " + newResults.length);
                             } else {
                                 // create a results array for the next search criteria
                                 facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
                                     facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
-                                        if (getFilterType(obj.id) == searchItem) {
+                                        if (getFilterType(obj.id) === searchItem) {
                                             let filters = item.filters.split(" ");
                                             let val = '';
                                             switch (getFilterType(obj.id)) {
@@ -802,8 +753,7 @@ let facetGlobalVars = {
                                                     val = filters[0];
                                             }
 
-                                            //console.log("Val: " + val);
-                                            if (val.toLowerCase() == obj.id.toLowerCase()) {
+                                            if (val.toLowerCase() === obj.id.toLowerCase()) {
                                                 if (!ifExistsResults(item.permalink, newResults)) {
                                                     newResults.push(item);
                                                 }
@@ -811,7 +761,6 @@ let facetGlobalVars = {
                                         }
                                     });
                                 });
-                                // console.log("New Results: " + newResults.length);
                             }
 
                             // look for newfilters in prior results set and if they are there
@@ -819,7 +768,7 @@ let facetGlobalVars = {
                             let finishResults = [];
                             facetGlobalVars.results.forEach(item => {
                                 newResults.forEach(newItem => {
-                                    if (item.permalink.toLowerCase() == newItem.permalink.toLowerCase()) {
+                                    if (item.permalink.toLowerCase() === newItem.permalink.toLowerCase()) {
                                         if (!ifExistsResults(item.permalink, finishResults)) {
                                             finishResults.push(item);
                                         }
@@ -847,7 +796,6 @@ let facetGlobalVars = {
                 $("#career-search-results").empty();
 
                 if (facetGlobalVars.results.length === 0) {
-                    // console.log("Search Order Length: " + searchOrder.length);
                     if (facetGlobalVars.searchOrder.length === 0) {
                         for (i = 0; i < Math.min(facetGlobalVars.fullSet.length, facetGlobalVars.perPage); i++) {
                             if (typeof (facetGlobalVars.fullSet[i]) != "undefined" && facetGlobalVars.fullSet[i] !== null) {
@@ -866,7 +814,6 @@ let facetGlobalVars = {
                     resultFullSetFilter(facetGlobalVars.results);
                     for (i = 0; i < Math.min(facetGlobalVars.results.length, facetGlobalVars.perPage); i++) {
                         if (typeof (facetGlobalVars.results[i]) != "undefined" && facetGlobalVars.results[i] !== null) {
-                            // console.log(JSON.stringify(results[i]));
                             createResults(false, facetGlobalVars.results[i]);
                         }
                     }
@@ -897,6 +844,21 @@ let facetGlobalVars = {
                 enableDisableCompetencies(true);
             }
             unselectAll();
+        },
+
+
+        /**
+         * Toggle Select/De-Select all button.
+         * @param {string} competencyGroup competency group
+         * @param {boolean} status True for enable De-Select All button
+         */
+        toggleSelectAll: function (competencyGroup, status) {
+            let label = status ? '<strong>De-Select All</strong>' : '<strong>Select All</strong>';
+            let state = status ? 'enabled' : 'disabled';
+            $('#competency-group-label-' + competencyGroup).attr('data-state', state).html(label);
+            if (!status) {
+                disableGlobalSelect(competencyGroup);
+            }
         }
     });
 
@@ -907,7 +869,7 @@ let facetGlobalVars = {
      */
     function createButtonText(text) {
         let part1 = text.split("-");
-        if (part1[0] == 'GS') return part1[0] + " " + part1[1] + "-" + part1[2];
+        if (part1[0] === 'GS') return part1[0] + " " + part1[1] + "-" + part1[2];
         else {
             let removeButtonText = part1.join(" ");
             return (' ' + removeButtonText).replace(/ [\w]/g, a => a.toLocaleUpperCase()).trim();
@@ -933,10 +895,10 @@ let facetGlobalVars = {
 
         // filters cards to only those that match the selected, relevant filters
         let items = facetGlobalVars.fullSet.filter((item) => {
-            let series_check = (filters.series.length == 0 || filters.series.some((y) => {
+            let series_check = (filters.series.length === 0 || filters.series.some((y) => {
                     return item.filters.includes(y);
                 })),
-                level_check = (filters.level.length == 0 || filters.level.some((y) => {
+                level_check = (filters.level.length === 0 || filters.level.some((y) => {
                     return item.filters.includes(y);
                 }));
 
@@ -978,7 +940,6 @@ let facetGlobalVars = {
 
     /**
      * Remove hidden facets from the data array.
-     * @param {array} comp enabled facets
      */
     function cleanUpData() {
         // and then selectively show what we want
@@ -1026,22 +987,19 @@ let facetGlobalVars = {
      */
     $.fn.createButtonEvents = function () {
         this.filter("button").each(function () {
-            var button = $(this);
-            // console.log("Button Id: " + button[0].id);
+            const button = $(this);
             button.on('click', function (evt) {
                 evt.preventDefault();
-                //console.log("Button Id: " + button[0].id);
-                if (button[0].classList.contains("cfo-page-right") || button[0].classList.contains("cfo-page-left") || button[0].id == "cfo-search-button") {
-                    if (button[0].id == "cfo-search-button") {
-                        // console.log("Input Val: " + $("#career-advancement-search-input").val());
+                if (button[0].classList.contains("cfo-page-right") || button[0].classList.contains("cfo-page-left") || button[0].id === "cfo-search-button") {
+                    if (button[0].id === "cfo-search-button") {
                         if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('search', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('search');
-                        if (facetGlobalVars.startingSearchFilter.length == 0) {
+                        if (facetGlobalVars.startingSearchFilter.length === 0) {
                             facetGlobalVars.startingSearchFilter.push({
                                 keys: $("#career-advancement-search-input").val(),
                                 id: 'keys'
                             });
                         }
-                        if (facetGlobalVars.searchOrder.length == 1 && facetGlobalVars.searchOrder[0] == 'search') { // reset the search if it is the first and is researched without selecting a filter.
+                        if (facetGlobalVars.searchOrder.length === 1 && facetGlobalVars.searchOrder[0] === 'search') { // reset the search if it is the first and is researched without selecting a filter.
                             facetGlobalVars.startingSearchFilter = [];
                             facetGlobalVars.startingSearchFilter.push({
                                 keys: $("#career-advancement-search-input").val(),
@@ -1051,7 +1009,7 @@ let facetGlobalVars = {
                         if (facetGlobalVars.data.length) {
                             let searchExists = false;
                             facetGlobalVars.data.forEach(item => {
-                                if (item.id == 'keys') {
+                                if (item.id === 'keys') {
                                     item.keys = $("#career-advancement-search-input").val();
                                     searchExists = true;
                                 }
@@ -1073,7 +1031,6 @@ let facetGlobalVars = {
                         createClearButton();
                         $("#career-facet-remove-all-filters-button").css('display', 'block');
                         $().getSearch();
-                        //console.log(JSON.stringify(searchOrder));
                         return false;
                     } else if (button[0].classList.contains("cfo-page-right")) {
                         if (facetGlobalVars.currentPage < facetGlobalVars.totalPages) {
@@ -1082,7 +1039,7 @@ let facetGlobalVars = {
                             $(".cfo-pagination-page").text(facetGlobalVars.currentPage);
                             let dataSet = (facetGlobalVars.results.length && facetGlobalVars.searchOrder.length) ? facetGlobalVars.results : facetGlobalVars.fullSet;
                             let end;
-                            if (facetGlobalVars.currentPage == 1) {
+                            if (facetGlobalVars.currentPage === 1) {
                                 facetGlobalVars.start = 0;
                                 end = facetGlobalVars.perPage;
                             } else {
@@ -1091,14 +1048,13 @@ let facetGlobalVars = {
                             }
                             $("#career-search-results").empty();
                             resultFullSetFilter(dataSet);
-                            console.log(facetGlobalVars.start + " - " + end);
                             for (i = facetGlobalVars.start; i < end; i++) {
                                 if (typeof (dataSet[i]) != "undefined" && facetGlobalVars.results[i] !== null) {
                                     createResults(false, dataSet[i]);
                                 }
                             }
                             $(".cfo-page-left").removeAttr("disabled")
-                            if (facetGlobalVars.currentPage == facetGlobalVars.totalPages) $(".cfo-page-right").attr("disabled", "disabled");
+                            if (facetGlobalVars.currentPage === facetGlobalVars.totalPages) $(".cfo-page-right").attr("disabled", "disabled");
                         } else {
                             $(".cfo-page-right").attr("disabled", "disabled");
                         }
@@ -1110,23 +1066,22 @@ let facetGlobalVars = {
                             $(".cfo-pagination-page").text(facetGlobalVars.currentPage);
                             let dataSet = (facetGlobalVars.results.length && facetGlobalVars.searchOrder.length) ? facetGlobalVars.results : facetGlobalVars.fullSet;
                             let end;
-                            if (facetGlobalVars.currentPage == 1) {
+                            if (facetGlobalVars.currentPage === 1) {
                                 facetGlobalVars.start = 0;
                                 end = facetGlobalVars.perPage;
                             } else {
                                 facetGlobalVars.start = (facetGlobalVars.currentPage - 1) * facetGlobalVars.perPage;
                                 end = Math.min(facetGlobalVars.start + facetGlobalVars.perPage, dataSet.length);
                             }
-                            //console.log(start + " - " + end);
                             $("#career-search-results").empty();
                             resultFullSetFilter(dataSet);
-                            for (i = facetGlobalVars.start; i < end; i++) {
+                            for (let i = facetGlobalVars.start; i < end; i++) {
                                 if (typeof (dataSet[i]) != "undefined" && facetGlobalVars.results[i] !== null) {
                                     createResults(false, dataSet[i]);
                                 }
                             }
                             $(".cfo-page-right").removeAttr("disabled");
-                            if (facetGlobalVars.currentPage == 1) $(".cfo-page-left").attr("disabled", "disabled");
+                            if (facetGlobalVars.currentPage === 1) $(".cfo-page-left").attr("disabled", "disabled");
                         } else {
                             $(".cfo-page-left").attr("disabled", "disabled");
                         }
@@ -1167,6 +1122,18 @@ let facetGlobalVars = {
             return aseries_index - bseries_index || alevel_index - blevel_index || acompetency_group_index - bcompetency_group_index;
 
         });
+    }
+
+    /**
+     * Reset filter accordions and search filters.
+     */
+    function resetFilterBlocks() {
+        facetGlobalVars.startingSearchFilter = [];
+        $("#career-facet-remove-all-filters-button").css('display', 'none');
+        $("#series").css('display', 'none');
+        $("#gs").css('display', 'none');
+        $("#job-competency").css('display', 'none');
+        $("#general-competency").css('display', 'none');
     }
 
 }(jQuery));

@@ -56,7 +56,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
         subButton.remove();
         closeDialog();
     }
-    if (subButton == null) {
+    if (subButton == null && removeButtonA !== null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
         removeButtonA.setAttribute("class", "usa-tag bg-accent-warm margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
         removeButtonA.innerHTML = itemName;
@@ -97,13 +97,14 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
     const spanEnd = '</span>';
     let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '');
+    $().toggleSelectAll(competencyGroup, false);
     removeTagFilter("checkbox", null, eventTargetId);
     let popupElement = document.getElementById(id);
     if (popupElement != null) {
         popupElement.remove();
     }
     //remove from local storage
-    let competencyTitlePipeReplaced = competencyTitle.replaceAll(',', '|').replaceAll('"', '');
+    let competencyTitlePipeReplaced = competencyTitle.replaceAll(',', '|').replaceAll('"', '').trim();
     let groupItem = cfoStorage.getItem(competencyGroup);
     if (groupItem != null) {
         let groupItemValue = JSON.parse(groupItem);
