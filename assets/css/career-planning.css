@@ -352,11 +352,16 @@ div[data-card-filter] {
   }
 }
 
-@media screen and (min-width: 640px) and (max-width: 768px) {
+/* iPad Mini Portrait*/
+@media screen and (min-width: 641px) and (max-width: 768px) {
   input#career-advancement-search-input {
     width: 25.25rem;
   }
+
   #career-download-buttons button {
     width: 14.8rem;
+  }
+  #blog .desktop\:grid-col-10 {
+    margin-left: 10px;
   }
 }

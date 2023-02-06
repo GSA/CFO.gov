@@ -60,11 +60,7 @@
 }
 @media screen and (max-width: 640px) {
   input#career-advancement-search-input {
-    width: 22.5rem; 
-  }
-
-  .usa-search button span {
-    display: none;
+    width: 19.2rem; 
   }
 
   .usa-list li a {word-wrap: break-word; max-width:300px;}
@@ -83,4 +79,22 @@
     align-items: center;
   }
   
+  #blog .desktop\:grid-col-10 {
+    margin-left: 10px;
+  }
+}
+
+/* iPad Air Portrait */
+@media screen and (min-width: 769px) and (max-width: 820px) {
+  #blog .desktop\:grid-col-10 {
+    margin-left: 10px;
+  }
+
+  input#career-advancement-search-input {
+    width: 27.4rem;
+  }
+
+  #career-download-buttons button {
+    width: 15.89rem;
+  }
 }
