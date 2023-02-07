@@ -58,7 +58,7 @@
     max-width: 100%;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 390px) {
   input#career-advancement-search-input {
     width: 19.2rem; 
   }
@@ -68,15 +68,19 @@
   #career-search-results {
     width: 360px;
   }
-
+  
   .career-search-results-filter-pagination {
-    font-size: 13px;
+    margin-bottom: -8px;
   }
 
   .career-search-results-pagination-wrapper {
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     align-items: center;
+  }
+
+  .career-search-results-page-size-wrapper label {
+    display: none;
   }
   
   #blog .desktop\:grid-col-10 {
@@ -97,4 +101,29 @@
   #career-download-buttons button {
     width: 15.89rem;
   }
+}
+
+/* iPhone XR */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2){
+  #career-search-results {
+    width: 380px;
+  }
+
+  .career-search-results-page-size-wrapper label {
+    display: none;
+  }
+  #career-download-buttons {
+    width: 23.9rem;
+  }
+
+  input#career-advancement-search-input {
+    width: 20.6rem;
+  }
+
+  .usa-list li a {
+    word-wrap: break-word;
+    max-width: 350px; }
 }
