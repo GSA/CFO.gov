@@ -52,7 +52,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     //handle button for duplicates
     const subButton = document.getElementById(competencyGroup + "-button");
-    if (itemLength == 0) {
+    if (itemLength == 0 && subButton !== null) {
         subButton.remove();
         closeDialog();
     }
@@ -63,7 +63,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
         buttonCompetencyContainer.appendChild(removeButtonA);
     }
 
-    else {
+    else if (subButton !== null) {
         let replacedText = subButton.innerHTML.trim().replace(spanStart, '').replace(spanEnd, '');
         let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
@@ -133,8 +133,8 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         closeDialog();
         }
     }
-    removeParentContainers(eventTargetId);
-
+    // removeParentContainers(eventTargetId);
+    $().getSearch();
 }
 
 /**
@@ -186,7 +186,6 @@ function removeTagFilter(inputType, id, eventTargetId) {
         $("#general-competency").css('display', 'none');
     }
     $("#" + eventTargetId + "-button").remove();
-    $().getSearch();
 }
 
 /**

@@ -29,7 +29,7 @@ let facetGlobalVars = {
  * @file Facets code.
  * Wrap all code with jQuery function.
  */
-(function ($) {
+$(document).ready(function () {
 
     /**
      * loads all md pages on init
@@ -197,7 +197,7 @@ let facetGlobalVars = {
                     $('label[for="' + eventId + '"]').removeClass("padding-05");
                     $('label[for="' + eventId + '"]').css("outline", "none");
                 });
-                $("#" + eventId).on('change', function () {
+                $("#" + eventId).unbind('change').on('change', function () {
                     let labelId = "#competency-group-label-" + eventId,
                         checked;
                     if ($(labelId).text() === 'Select All') {
@@ -612,7 +612,7 @@ let facetGlobalVars = {
         $().getSearch();
         if (id.match("series")) {
             const seriesLength = facetGlobalVars.data.filter(i => i.id.indexOf("series") > -1);
-            if (seriesLength === 0) {
+            if (seriesLength.length === 0) {
                 $("#series").css('display', 'none');
             }
         }
@@ -653,6 +653,7 @@ let facetGlobalVars = {
          * Uses enableDisableCompetencies and the createResults
          */
         getSearch: function () {
+            // console.log(facetGlobalVars);
             facetGlobalVars.results = [];
             // create a count of the the items displayed and display it.
             // count all search results for an item as a sanity check and make a spread sheet.
@@ -663,31 +664,14 @@ let facetGlobalVars = {
                             if (searchItem === 'search') { // is the search always first No - if first add if second subtract
                                 facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
                                     facetGlobalVars.searchKeys.forEach(term => {
-                                        if (typeof item[term] == "string") {
-                                            if (item[term].replaceAll('\\', '').toLowerCase().match(facetGlobalVars.startingSearchFilter[0].keys.replaceAll('\\', '').toLowerCase())) {
+                                        // if (typeof item[term] == "string") {
+                                            let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
+                                            stringToMatch = stringToMatch.replace(/[^a-zA-Z0-9\s]/g, "");
+                                            if (stringToMatch.toLowerCase().match(facetGlobalVars.startingSearchFilter[0].keys.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase())) {
                                                 if (!ifExistsResults(item.permalink, facetGlobalVars.results)) {
                                                     facetGlobalVars.results.push(item);
                                                 }
                                             }
-                                        } else if (Array.isArray(item[term])) {
-                                            item[term].forEach(items => {
-                                                if (typeof items == "string") {
-                                                    if (items.replaceAll('\\', '').toLowerCase().match(facetGlobalVars.startingSearchFilter[0].keys.replaceAll('\\', '').toLowerCase())) {
-                                                        if (!ifExistsResults(item.permalink, facetGlobalVars.results)) {
-                                                            facetGlobalVars.results.push(item);
-                                                        }
-                                                    }
-                                                } else {
-                                                    Object.entries(items).forEach(([key, value]) => {
-                                                        if (key.toLowerCase().match(facetGlobalVars.startingSearchFilter[0].keys.toLowerCase()) || value.toLowerCase().match(facetGlobalVars.startingSearchFilter[0].keys.replaceAll('\\', '').toLowerCase())) {
-                                                            if (!ifExistsResults(item.permalink, facetGlobalVars.results)) {
-                                                                facetGlobalVars.results.push(item);
-                                                            }
-                                                        }
-                                                    });
-                                                }
-                                            });
-                                        }
                                     });
                                 });
                             } else {
@@ -724,9 +708,10 @@ let facetGlobalVars = {
                                 facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
                                     facetGlobalVars.searchKeys.forEach(term => {
                                         facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
-                                            if (obj.type === 'keys') {
+                                            if (obj.type === 'keys' && typeof item[term] !== "undefined") {
                                                 let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
-                                                if ((typeof stringToMatch !== "undefined") && stringToMatch.replaceAll('\\', '').toLowerCase().match(obj.keys.toLowerCase())) {
+                                                stringToMatch = stringToMatch.replace(/[^a-zA-Z0-9\s]/g, "");
+                                                if (stringToMatch.replaceAll('\\', '').toLowerCase().match(obj.keys.toLowerCase().replace(/[^a-zA-Z0-9\s]/g, ""))) {
                                                     if (!ifExistsResults(item.permalink, newResults)) {
                                                         newResults.push(item);
                                                     }
@@ -763,7 +748,7 @@ let facetGlobalVars = {
                                 });
                             }
 
-                            // look for newfilters in prior results set and if they are there
+                            // look for new filters in prior results set and if they are there
                             // save the prior results in to a different array.
                             let finishResults = [];
                             facetGlobalVars.results.forEach(item => {
@@ -786,13 +771,13 @@ let facetGlobalVars = {
                             break;
                     }
 
-                    enableDisableCompetencies(false);
-                    enableDisabledCompetencies(searchItem);
+
                     // if (searchItem == 'series' || searchItem == 'level') {
                     // }
 
                 });
-
+                enableDisableCompetencies(false);
+                enableDisabledCompetencies();
                 $("#career-search-results").empty();
 
                 if (facetGlobalVars.results.length === 0) {
@@ -946,7 +931,7 @@ let facetGlobalVars = {
         let comps = getVisibleFacets();
         // create values array from the facets array
         let enabledFacets = [];
-        let notIncluded = [];
+        let notIncluded;
         comps.forEach((item) => {
             enabledFacets.push(item.group + '-' + createId(item.comp));
         });
@@ -959,7 +944,7 @@ let facetGlobalVars = {
         });
         // Reset competencies on cfoStorage.
         if (notIncluded.length) {
-            notIncluded.forEach((item, index) => {
+            notIncluded.forEach((item) => {
                 $('#' + item.id + ':checked').prop('checked', false).change();
             });
         }
@@ -969,15 +954,18 @@ let facetGlobalVars = {
     /**
      * Enable all competencies is Select All is checked.
      */
-    function enableDisabledCompetencies(searchItem) {
+    function enableDisabledCompetencies() {
         // Check if we need to change label for select/de-select all
         $('.career-competency-level-3-input-group label[data-state="enabled"]').each(function () {
             let compGroup = $(this).next().prop('id');
-            $('input[data-filter="competency"][data-group="' + compGroup + '"]:not(:checked)').each(function () {
+            let lastCheckbox;
+            $('input[data-filter="competency"][data-group="' + compGroup + '"]:not(:checked)').each(function (index, item) {
                 if ($(this).closest('.career-competency-level-4-input-group').css('display') === 'block') {
-                    $(this).prop('checked', true).change();
+                    $(this).prop('checked', true);
                 }
+                lastCheckbox = this;
             });
+            $(this).change();
         });
     }
 
@@ -1054,10 +1042,13 @@ let facetGlobalVars = {
                                 }
                             }
                             $(".cfo-page-left").removeAttr("disabled")
-                            if (facetGlobalVars.currentPage === facetGlobalVars.totalPages) $(".cfo-page-right").attr("disabled", "disabled");
+                            if (facetGlobalVars.currentPage === facetGlobalVars.totalPages) {
+                                $(".cfo-page-right").attr("disabled", "disabled");
+                            }
                         } else {
                             $(".cfo-page-right").attr("disabled", "disabled");
                         }
+                        $("html, body").animate({ scrollTop: 0 }, "fast");
                         return false;
                     } else if (button[0].classList.contains("cfo-page-left")) {
                         if (facetGlobalVars.currentPage > 1) {
@@ -1085,6 +1076,7 @@ let facetGlobalVars = {
                         } else {
                             $(".cfo-page-left").attr("disabled", "disabled");
                         }
+                        $("html, body").animate({ scrollTop: 0 }, "fast");
                         return false;
                     }
                 } else if (button[0].id.match('competency-group-button')) {
@@ -1135,5 +1127,4 @@ let facetGlobalVars = {
         $("#job-competency").css('display', 'none');
         $("#general-competency").css('display', 'none');
     }
-
-}(jQuery));
+});
