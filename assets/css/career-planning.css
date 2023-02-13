@@ -199,7 +199,6 @@ input#career-advancement-search-input {
 }
 
 #career-download-buttons {
-  margin-right: 20px;
 }
 
 
@@ -378,4 +377,13 @@ div[data-card-filter] {
 
 .text-capitalize {
     text-transform: capitalize !important;
+}
+
+.competencies-button {
+  border-radius: 50%;
+  background-color: white;
+  padding: 2px;
+  min-width: 24px;
+  display: inline-block;
+  text-align: center;
 }

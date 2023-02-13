@@ -43,7 +43,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     else {
         cfoStorage.removeItem(competencyGroup);
     }
-    const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
+    const spanStart = '<span class="competencies-button">';
     const spanEnd = '</span>';
 
     //set item length and name
@@ -94,7 +94,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
  * @param {string} competencyTitle - The competency title (not used with buttons)
  */
 function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
-    const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
+    const spanStart = '<span class="competencies-button">';
     const spanEnd = '</span>';
     let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '');
     $().toggleSelectAll(competencyGroup, false);
@@ -177,8 +177,7 @@ function removeTagFilter(inputType, id, eventTargetId) {
 
     $().adjustSearchOrder();
     if (facetGlobalVars.data.length == 0) {
-        searchOrder = [];
-        startingSearchFilter = [];
+        facetGlobalVars.searchOrder = [];
         $("#career-facet-remove-all-filters-button").css('display', 'none');
         $("#series").css('display', 'none');
         $("#gs").css('display', 'none');

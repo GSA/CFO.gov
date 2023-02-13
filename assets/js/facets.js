@@ -9,7 +9,6 @@ let facetGlobalVars = {
     fullSet: [], // a full set of all competency_group and competencies
     competency: [], // array of competencies
     competency_group: [], // array of competency_groups
-    startingSearchFilter: [], // hold the starting search filter object
     searchOrder: [], // hold a list of objects representing the order of a search competency, level, series etc..
     searchKeys: [ // when searching the columns to search - Competency Description, Proficiency Level Definition, Behavioral Illustrations, Relevant Courses
         "title",
@@ -118,10 +117,7 @@ $(document).ready(function () {
                     });
                 }
             }
-            if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('competency', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('competency');
-            if (facetGlobalVars.startingSearchFilter.length === 0) {
-                facetGlobalVars.startingSearchFilter.push({keys: null, id: 'competency'});
-            }
+            if (!ifExistsInArray('competency', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('competency');
             let major_group = '';
             if (this.id.includes('job')) {
                 major_group = 'job-specific';
@@ -151,7 +147,7 @@ $(document).ready(function () {
                     if (eventId !== "") {
                         $("#" + eventId).on('change', function () {
                             if (this.checked) {
-                                if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('competency', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('competency');
+                                if (!ifExistsInArray('competency', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('competency');
                                 if (!ifExists(eventId)) {
                                     createRemoveButtons('checkbox', eventId, this, eventGroupId, item);
                                 }
@@ -212,11 +208,8 @@ $(document).ready(function () {
                     }
 
                     if (checked) {
-                        if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('competency', facetGlobalVars.searchOrder)) {
+                        if (!ifExistsInArray('competency', facetGlobalVars.searchOrder)) {
                             facetGlobalVars.searchOrder.push('competency');
-                        }
-                        if (facetGlobalVars.startingSearchFilter.length === 0) {
-                            facetGlobalVars.startingSearchFilter.push({keys: null, id: 'competency'});
                         }
 
                         let comps = getVisibleFacets();
@@ -269,6 +262,25 @@ $(document).ready(function () {
         let labelId = $('#' + eventGroupId).data('major-group') === 'job-specific'
             ? 'job-career-competency-select' : 'general-career-competency-select';
         $('#' + labelId).html('<strong>Select All</strong>').next('input').prop('checked', false);
+    }
+
+    /**
+     * Change group Select/De-Select all button.
+     * @param {string} eventGroupId - Group id.
+     */
+    function enableGlobalSelect(eventGroupId) {
+        let majorGroup = $('#' + eventGroupId).data('major-group');
+        let status = true;
+        $('input.text-offscreen[data-major-group="' + majorGroup + '"]').each(function() {
+            if ($(this).prev('label').data('state') !== 'enabled') {
+                status = false;
+            }
+        });
+        if (status) {
+            let labelId = $('#' + eventGroupId).data('major-group') === 'job-specific'
+                ? 'job-career-competency-select' : 'general-career-competency-select';
+            $('#' + labelId).html('<strong>De-Select All</strong>').next('input').prop('checked', true);
+        }
     }
 
     /**
@@ -500,17 +512,14 @@ $(document).ready(function () {
         facetGlobalVars.adding = true;
         facetGlobalVars.removing = false;
         if (eventTargetId.match("GS")) {
-            if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('level', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('level');
+            if (!ifExistsInArray('level', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('level');
         }
         if (eventTargetId.match("series")) {
-            if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('series', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('series');
+            if (!ifExistsInArray('series', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('series');
         }
         if (facetGlobalVars.data.length === 1) {
             createClearButton();
             $("#career-facet-remove-all-filters-button").css('display', 'block');
-            if (facetGlobalVars.startingSearchFilter.length === 0) {
-                facetGlobalVars.startingSearchFilter.push({keys: null, id: eventTargetId});
-            }
         }
         if (inputType === "button") button.toggleClass("active");
         const removeButtonA = document.createElement("a");
@@ -569,6 +578,7 @@ $(document).ready(function () {
 
         $("#" + eventTargetId + "-button").on('click', function () {
             removeTagFilter(inputType, button != null && button.length > 0 ? button[0].id : null, eventTargetId);
+            $().getSearch();
         });
     }
 
@@ -659,122 +669,76 @@ $(document).ready(function () {
             // count all search results for an item as a sanity check and make a spread sheet.
             if (facetGlobalVars.searchOrder.length > 0) {
                 facetGlobalVars.searchOrder.forEach((searchItem, index) => {
-                    switch (index) {
-                        case 0:
-                            if (searchItem === 'search') { // is the search always first No - if first add if second subtract
-                                facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
-                                    facetGlobalVars.searchKeys.forEach(term => {
-                                        // if (typeof item[term] == "string") {
-                                            let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
-                                            stringToMatch = stringToMatch.replace(/[^a-zA-Z0-9\s]/g, "");
-                                            if (stringToMatch.toLowerCase().match(facetGlobalVars.startingSearchFilter[0].keys.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase())) {
-                                                if (!ifExistsResults(item.permalink, facetGlobalVars.results)) {
-                                                    facetGlobalVars.results.push(item);
-                                                }
+                    let newResults = [];
+                    if (searchItem === 'search') {
+                        // create a results array for the next search criteria
+                        facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
+                            facetGlobalVars.searchKeys.forEach(term => {
+                                facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
+                                    if (obj.type === 'keys' && typeof item[term] !== "undefined") {
+                                        let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
+                                        stringToMatch = stringToMatch.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase();
+                                        if (stringToMatch.match(obj.keys.toLowerCase().replace(/[^a-zA-Z0-9\s]/g, ""))) {
+                                            if (!ifExistsResults(item.permalink, newResults)) {
+                                                newResults.push(item);
                                             }
-                                    });
-                                });
-                            } else {
-                                facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
-                                    facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
-                                        if (getFilterType(obj.id) === searchItem) {
-                                            let filters = item.filters.split(" ");
-                                            let val = '';
-                                            switch (getFilterType(obj.id)) {
-                                                case 'series': // Series
-                                                    val = filters[2];
-                                                    break;
-                                                case 'level': // GS Level
-                                                    val = filters[1];
-                                                    break;
-                                                case 'competency': // Group - Competency
-                                                    val = filters[0];
-                                            }
-
-                                            if (val.toLowerCase() === obj.id.toLowerCase()) {
-                                                if (!ifExistsResults(item.permalink, facetGlobalVars.results)) {
-                                                    facetGlobalVars.results.push(item);
-                                                }
-                                            }
-                                        }
-                                    });
-                                });
-                            }
-                            break;
-                        default:
-                            let newResults = [];
-                            if (searchItem === 'search') {
-                                // create a results array for the next search criteria
-                                facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
-                                    facetGlobalVars.searchKeys.forEach(term => {
-                                        facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
-                                            if (obj.type === 'keys' && typeof item[term] !== "undefined") {
-                                                let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
-                                                stringToMatch = stringToMatch.replace(/[^a-zA-Z0-9\s]/g, "");
-                                                if (stringToMatch.replaceAll('\\', '').toLowerCase().match(obj.keys.toLowerCase().replace(/[^a-zA-Z0-9\s]/g, ""))) {
-                                                    if (!ifExistsResults(item.permalink, newResults)) {
-                                                        newResults.push(item);
-                                                    }
-                                                }
-                                            }
-                                        });
-                                    });
-                                });
-                            } else {
-                                // create a results array for the next search criteria
-                                facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
-                                    facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
-                                        if (getFilterType(obj.id) === searchItem) {
-                                            let filters = item.filters.split(" ");
-                                            let val = '';
-                                            switch (getFilterType(obj.id)) {
-                                                case 'series': // Series
-                                                    val = filters[2];
-                                                    break;
-                                                case 'level': // GS Level
-                                                    val = filters[1];
-                                                    break;
-                                                case 'competency': // Group - Competency
-                                                    val = filters[0];
-                                            }
-
-                                            if (val.toLowerCase() === obj.id.toLowerCase()) {
-                                                if (!ifExistsResults(item.permalink, newResults)) {
-                                                    newResults.push(item);
-                                                }
-                                            }
-                                        }
-                                    });
-                                });
-                            }
-
-                            // look for new filters in prior results set and if they are there
-                            // save the prior results in to a different array.
-                            let finishResults = [];
-                            facetGlobalVars.results.forEach(item => {
-                                newResults.forEach(newItem => {
-                                    if (item.permalink.toLowerCase() === newItem.permalink.toLowerCase()) {
-                                        if (!ifExistsResults(item.permalink, finishResults)) {
-                                            finishResults.push(item);
                                         }
                                     }
                                 });
                             });
+                        });
+                    } else {
+                        // create a results array for the next search criteria
+                        facetGlobalVars.fullSet.forEach(item => { // go over all loaded md pages
+                            facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
+                                if (getFilterType(obj.id) === searchItem) {
+                                    let filters = item.filters.split(" ");
+                                    let val = '';
+                                    switch (getFilterType(obj.id)) {
+                                        case 'series': // Series
+                                            val = filters[2];
+                                            break;
+                                        case 'level': // GS Level
+                                            val = filters[1];
+                                            break;
+                                        case 'competency': // Group - Competency
+                                            val = filters[0];
+                                    }
 
-                            // populate results with finishResults
-                            facetGlobalVars.results = [];
-                            finishResults.forEach(item => {
-                                if (!ifExistsResults(item.title, facetGlobalVars.results)) {
-                                    facetGlobalVars.results.push(item);
+                                    if (val.toLowerCase() === obj.id.toLowerCase()) {
+                                        if (!ifExistsResults(item.permalink, newResults)) {
+                                            newResults.push(item);
+                                        }
+                                    }
                                 }
                             });
-                            break;
+                        });
                     }
 
+                    // look for new filters in prior results set and if they are there
+                    // save the prior results in to a different array.
+                    let finishResults = [];
+                    if (facetGlobalVars.results.length > 0) {
+                        facetGlobalVars.results.forEach(item => {
+                            newResults.forEach(newItem => {
+                                if (item.permalink.toLowerCase() === newItem.permalink.toLowerCase()) {
+                                    if (!ifExistsResults(item.permalink, finishResults)) {
+                                        finishResults.push(item);
+                                    }
+                                }
+                            });
+                        });
+                    } else {
+                        finishResults = newResults;
+                    }
 
-                    // if (searchItem == 'series' || searchItem == 'level') {
-                    // }
-
+                    // populate results with finishResults
+                    facetGlobalVars.results = [];
+                    finishResults.forEach(item => {
+                        if (!ifExistsResults(item.title, facetGlobalVars.results)) {
+                            facetGlobalVars.results.push(item);
+                        }
+                    });
                 });
                 enableDisableCompetencies(false);
                 enableDisabledCompetencies();
@@ -829,6 +793,11 @@ $(document).ready(function () {
                 enableDisableCompetencies(true);
             }
             unselectAll();
+
+            if (facetGlobalVars.results.length === 0 && facetGlobalVars.data.length === 0) {
+                facetGlobalVars.results = facetGlobalVars.fullSet;
+                $('#career-facet-remove-all-filters-button').hide();
+            }
         },
 
 
@@ -843,6 +812,9 @@ $(document).ready(function () {
             $('#competency-group-label-' + competencyGroup).attr('data-state', state).html(label);
             if (!status) {
                 disableGlobalSelect(competencyGroup);
+            } else {
+                // Check global Select All status and set if it needed.
+                enableGlobalSelect(competencyGroup);
             }
         }
     });
@@ -958,14 +930,11 @@ $(document).ready(function () {
         // Check if we need to change label for select/de-select all
         $('.career-competency-level-3-input-group label[data-state="enabled"]').each(function () {
             let compGroup = $(this).next().prop('id');
-            let lastCheckbox;
             $('input[data-filter="competency"][data-group="' + compGroup + '"]:not(:checked)').each(function (index, item) {
                 if ($(this).closest('.career-competency-level-4-input-group').css('display') === 'block') {
-                    $(this).prop('checked', true);
+                    $(this).prop('checked', true).change();
                 }
-                lastCheckbox = this;
             });
-            $(this).change();
         });
     }
 
@@ -980,41 +949,48 @@ $(document).ready(function () {
                 evt.preventDefault();
                 if (button[0].classList.contains("cfo-page-right") || button[0].classList.contains("cfo-page-left") || button[0].id === "cfo-search-button") {
                     if (button[0].id === "cfo-search-button") {
-                        if (facetGlobalVars.startingSearchFilter.length < 4 && !ifExistsInArray('search', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('search');
-                        if (facetGlobalVars.startingSearchFilter.length === 0) {
-                            facetGlobalVars.startingSearchFilter.push({
-                                keys: $("#career-advancement-search-input").val(),
-                                id: 'keys'
-                            });
-                        }
-                        if (facetGlobalVars.searchOrder.length === 1 && facetGlobalVars.searchOrder[0] === 'search') { // reset the search if it is the first and is researched without selecting a filter.
-                            facetGlobalVars.startingSearchFilter = [];
-                            facetGlobalVars.startingSearchFilter.push({
-                                keys: $("#career-advancement-search-input").val(),
-                                id: 'keys'
-                            });
-                        }
-                        if (facetGlobalVars.data.length) {
-                            let searchExists = false;
-                            facetGlobalVars.data.forEach(item => {
-                                if (item.id === 'keys') {
-                                    item.keys = $("#career-advancement-search-input").val();
-                                    searchExists = true;
+                        let searchKeyword = $("#career-advancement-search-input").val().trim();
+                        if (searchKeyword.length > 0) {
+                            if (!ifExistsInArray('search', facetGlobalVars.searchOrder)) facetGlobalVars.searchOrder.push('search');
+                            if (facetGlobalVars.data.length) {
+                                let searchExists = false;
+                                facetGlobalVars.data.forEach(item => {
+                                    if (item.id === 'keys') {
+                                        item.keys = searchKeyword;
+                                        searchExists = true;
+                                    }
+                                });
+                                if (!searchExists) {
+                                    facetGlobalVars.data.push({
+                                        id: 'keys',
+                                        type: 'keys',
+                                        keys: searchKeyword
+                                    });
                                 }
-                            });
-                            if (!searchExists) {
+                            } else {
                                 facetGlobalVars.data.push({
                                     id: 'keys',
                                     type: 'keys',
-                                    keys: $("#career-advancement-search-input").val()
+                                    keys: searchKeyword
                                 });
                             }
                         } else {
-                            facetGlobalVars.data.push({
-                                id: 'keys',
-                                type: 'keys',
-                                keys: $("#career-advancement-search-input").val()
-                            });
+                            if (facetGlobalVars.data.length) {
+                                let target = -1;
+                                for (let i = 0, l = facetGlobalVars.data.length; i < l; i++) {
+                                    if (facetGlobalVars.data[i].id === 'keys') {
+                                        target = i;
+                                        break;
+                                    }
+                                }
+                                if (target !== -1) {
+                                    facetGlobalVars.data.splice(target, 1);
+                                }
+                            }
+                            let index = facetGlobalVars.searchOrder.indexOf('search');
+                            if (index !== -1) {
+                                facetGlobalVars.searchOrder.splice(index, 1);
+                            }
                         }
                         createClearButton();
                         $("#career-facet-remove-all-filters-button").css('display', 'block');
@@ -1048,7 +1024,7 @@ $(document).ready(function () {
                         } else {
                             $(".cfo-page-right").attr("disabled", "disabled");
                         }
-                        $("html, body").animate({ scrollTop: 0 }, "fast");
+                        $("html, body").animate({scrollTop: 0}, "fast");
                         return false;
                     } else if (button[0].classList.contains("cfo-page-left")) {
                         if (facetGlobalVars.currentPage > 1) {
@@ -1076,7 +1052,7 @@ $(document).ready(function () {
                         } else {
                             $(".cfo-page-left").attr("disabled", "disabled");
                         }
-                        $("html, body").animate({ scrollTop: 0 }, "fast");
+                        $("html, body").animate({scrollTop: 0}, "fast");
                         return false;
                     }
                 } else if (button[0].id.match('competency-group-button')) {
@@ -1120,7 +1096,6 @@ $(document).ready(function () {
      * Reset filter accordions and search filters.
      */
     function resetFilterBlocks() {
-        facetGlobalVars.startingSearchFilter = [];
         $("#career-facet-remove-all-filters-button").css('display', 'none');
         $("#series").css('display', 'none');
         $("#gs").css('display', 'none');

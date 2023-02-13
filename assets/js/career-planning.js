@@ -87,7 +87,7 @@
       source: function (request, response) {
         let normalized = request.term.toLowerCase();
         let n = normalized.length + 40;
-        let outputs = facetGlobalVars.fullSet.map(function (item) {
+        let outputs = facetGlobalVars.results.map(function (item) {
           let value = item.title;
           // Search by title
           if (value.toLowerCase().indexOf(normalized) != -1) {
@@ -134,18 +134,7 @@
         let $elem = $(event.target);
         $elem.val(ui.item.value);
         $('#cfo-search-button').click();
-
-        //
-        // facetGlobalVars.data.push({
-        //   type: 'keys',
-        //   id: 'search',
-        //   value: ui.item.value,
-        //   exact: true
-        // });
-        // facetGlobalVars.startingSearchFilter.push({keys: ui.item.value, id: 'keys'});
-        // $().adjustSearchOrder();
-        // $().getSearch();
-      },
+        },
       change: function (event, ui) {
       }
     });
