@@ -43,7 +43,7 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
     else {
         cfoStorage.removeItem(competencyGroup);
     }
-    const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
+    const spanStart = '<span class="competencies-button">';
     const spanEnd = '</span>';
 
     //set item length and name
@@ -52,18 +52,18 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
 
     //handle button for duplicates
     const subButton = document.getElementById(competencyGroup + "-button");
-    if (itemLength == 0) {
+    if (itemLength == 0 && subButton !== null) {
         subButton.remove();
         closeDialog();
     }
-    if (subButton == null) {
+    if (subButton == null && removeButtonA !== null) {
         removeButtonA.setAttribute("id", competencyGroup + "-button");
         removeButtonA.setAttribute("class", "usa-tag bg-accent-warm margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
         removeButtonA.innerHTML = itemName;
         buttonCompetencyContainer.appendChild(removeButtonA);
     }
 
-    else {
+    else if (subButton !== null) {
         let replacedText = subButton.innerHTML.trim().replace(spanStart, '').replace(spanEnd, '');
         let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
@@ -94,16 +94,17 @@ function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, 
  * @param {string} competencyTitle - The competency title (not used with buttons)
  */
 function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
-    const spanStart = '<span style="border-radius:50%;background-color:white;padding:2px">';
+    const spanStart = '<span class="competencies-button">';
     const spanEnd = '</span>';
     let eventTargetId = id.replace('pop', competencyGroup).replace('-button', '');
+    $().toggleSelectAll(competencyGroup, false);
     removeTagFilter("checkbox", null, eventTargetId);
     let popupElement = document.getElementById(id);
     if (popupElement != null) {
         popupElement.remove();
     }
     //remove from local storage
-    let competencyTitlePipeReplaced = competencyTitle.replaceAll(',', '|').replaceAll('"', '');
+    let competencyTitlePipeReplaced = competencyTitle.replaceAll(',', '|').replaceAll('"', '').trim();
     let groupItem = cfoStorage.getItem(competencyGroup);
     if (groupItem != null) {
         let groupItemValue = JSON.parse(groupItem);
@@ -132,8 +133,8 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         closeDialog();
         }
     }
-    removeParentContainers(eventTargetId);
-
+    // removeParentContainers(eventTargetId);
+    $().getSearch();
 }
 
 /**
@@ -176,8 +177,7 @@ function removeTagFilter(inputType, id, eventTargetId) {
 
     $().adjustSearchOrder();
     if (facetGlobalVars.data.length == 0) {
-        searchOrder = [];
-        startingSearchFilter = [];
+        facetGlobalVars.searchOrder = [];
         $("#career-facet-remove-all-filters-button").css('display', 'none');
         $("#series").css('display', 'none');
         $("#gs").css('display', 'none');
@@ -185,7 +185,6 @@ function removeTagFilter(inputType, id, eventTargetId) {
         $("#general-competency").css('display', 'none');
     }
     $("#" + eventTargetId + "-button").remove();
-    $().getSearch();
 }
 
 /**

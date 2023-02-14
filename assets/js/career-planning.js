@@ -85,58 +85,69 @@
 
     $('#career-advancement-search-input').autocomplete({
       source: function (request, response) {
-        let normalized = request.term.toLowerCase()
-        let outputs = facetGlobalVars.fullSet.map(function (item) {
+        let normalized = request.term.toLowerCase();
+        let n = normalized.length + 40;
+        let outputs = facetGlobalVars.results.map(function (item) {
           let value = item.title;
+          // Search by title
           if (value.toLowerCase().indexOf(normalized) != -1) {
             return value;
           }
-          else if (item.job_series.toLowerCase().indexOf(normalized) != -1) {
-            return value;
-          }
-          else if (item.competency.toLowerCase().indexOf(normalized) != -1) {
-            return value;
-          }
+          // else if (item.job_series.toLowerCase().indexOf(normalized) != -1) {
+          //   return item.job_series;
+          // }
+          // else if (item.competency.toLowerCase().indexOf(normalized) != -1) {
+          //   return item.competency;
+          // }
+          // Search by Competency Description
           else if (item.competency_description.toLowerCase().indexOf(normalized) != -1) {
-            return value;
+            return item.competency_description;
           }
+          // Search by Proficiency Level Definition
           else if (item.proficiency_level_definition.toLowerCase().indexOf(normalized) != -1) {
-            return value;
+            return item.proficiency_level_definition;
           }
+          // Search by Behavioral Illustrations
           else if (item.behavioral_illustrations.toLowerCase().indexOf(normalized) != -1) {
-            return value;
+            return item.behavioral_illustrations;
           }
-          else if (item.relevant_courses != null && item.relevant_courses.some((element) => element.toLowerCase().indexOf(normalized) != -1)) {
-            return value;
+          // Search by Relevant Courses
+          else if (item.relevant_courses != null){
+            let currentIndex;
+            item.relevant_courses.forEach((course, index) => {
+              currentIndex = course.toLowerCase().indexOf(normalized) != -1 ? index : currentIndex;
+            });
+            if (currentIndex !== undefined) {
+              return item.relevant_courses[currentIndex];
+            }
           }
           return null;
         });
-        outputs = outputs.filter(function (x) { return !!x });
+        outputs = outputs.filter(function (x) { return !!x }).filter((item, index, self) => self.indexOf(item) === index);
+        outputs = outputs.map(str => {
+          str = str.substring(str.toLowerCase().indexOf(normalized)).split("?")[0];
+          return str.length > n ? str.substring(0, n) + "..." : str;
+        });
         response(outputs);
       },
       select: function (event, ui) {
-        // console.log(event);
-        let $elem = $(event.target),
-          value = $elem.val();
-
-        facetGlobalVars.data.push({
-          type: 'keys',
-          id: 'search',
-          value: ui.item.value,
-          exact: true
-        });
-        facetGlobalVars.startingSearchFilter.push({keys: ui.item.value, id: 'keys'});
-        $().adjustSearchOrder();
-        $().getSearch();
-      },
+        let $elem = $(event.target);
+        $elem.val(ui.item.value);
+        $('#cfo-search-button').click();
+        },
       change: function (event, ui) {
       }
     });
 
     $('select[name="per_page"]').change(function (e) {
       facetGlobalVars.perPage = parseInt($(this).val());
+      facetGlobalVars.start = 0;
       $().getSearch();
       $('select[name="per_page"]').val(facetGlobalVars.perPage);
+      if (facetGlobalVars.currentPage === 1 && facetGlobalVars.totalPages > 0) {
+        $(".cfo-page-left").attr("disabled", "disabled");
+        $(".cfo-page-right").removeAttr("disabled");
+      }
     });
   });
 
