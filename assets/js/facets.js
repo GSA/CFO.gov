@@ -158,7 +158,7 @@ $(document).ready(function () {
                             } else {
                                 let labelId = "#competency-group-label-" + eventGroupId;
                                 if ($("#" + eventId).closest('.career-competency-level-4-input-group').css('display') === 'block') {
-                                    $(labelId).attr('data-state', 'disabled').html("<strong>Select All</strong>");
+                                    $(labelId).attr('data-state', 'disabled').html("<strong>Select All</strong>").change();
                                     disableGlobalSelect(eventGroupId);
                                 }
                                 $("#" + eventId).prop("checked", false);
@@ -283,7 +283,7 @@ $(document).ready(function () {
         let majorGroup = $('#' + eventGroupId).data('major-group');
         let status = true;
         $('input.text-offscreen[data-major-group="' + majorGroup + '"]').each(function() {
-            if ($(this).prev('label').data('state') !== 'enabled') {
+            if ($(this).prev('label').attr('data-state') !== 'enabled') {
                 status = false;
             }
         });
@@ -337,7 +337,7 @@ $(document).ready(function () {
                 $().getSearch();
             }
 
-            $('.career-competency-level-3-input-group label[data-state="enabled"]').attr('data-state', 'disable').html('<strong>Select All</strong>');
+            $('.career-competency-level-3-input-group label[data-state="enabled"]').attr('data-state', 'disable').html('<strong>Select All</strong>').change();
             $("#dialog").dialog().dialog("close");
         });
     }
@@ -826,9 +826,11 @@ $(document).ready(function () {
          * @param {boolean} status True for enable De-Select All button
          */
         toggleSelectAll: function (competencyGroup, status) {
+            console.log(competencyGroup);
+            console.log(status);
             let label = status ? '<strong>De-Select All</strong>' : '<strong>Select All</strong>';
             let state = status ? 'enabled' : 'disabled';
-            $('#competency-group-label-' + competencyGroup).attr('data-state', state).html(label);
+            $('#competency-group-label-' + competencyGroup).attr('data-state', state).html(label).change();
             if (!status) {
                 disableGlobalSelect(competencyGroup);
             } else {
