@@ -134,7 +134,9 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         }
     }
     // removeParentContainers(eventTargetId);
-    $().getSearch();
+    if (!facetGlobalVars.inProgressCheckAll) {
+        $().getSearch();
+    }
 }
 
 /**
@@ -168,8 +170,8 @@ function removeTagFilter(inputType, id, eventTargetId) {
         return e.id != eventTargetId;
     });
     facetGlobalVars.data.forEach(function (i) {
-        let givenId = eventTargetId + "-button";
-        if (givenId.toLowerCase().startsWith(i.id.toLowerCase())) {
+        let givenId = $().createId(eventTargetId);
+        if (givenId === i.id) {
             facetGlobalVars.data = facetGlobalVars.data.filter(x => x.id != i.id);
         }
     });

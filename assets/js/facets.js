@@ -21,7 +21,8 @@ let facetGlobalVars = {
     perPage: parseInt($('select[name="per_page"]').val()) || 10,
     totalItems: 105, // total items in results array
     totalPages: 11, // total pages in results array / pagination items per page
-    currentPage: 1 // pagination current page
+    currentPage: 1, // pagination current page
+    inProgressCheckAll: false // is checking all process in progress?
 };
 
 /**
@@ -75,7 +76,7 @@ $(document).ready(function () {
                     $(jobSelect).html("<strong>De-Select All</strong>");
                     facetGlobalVars.competency_group.forEach(item => {
                         if (comps.some(x => x.group === item.toLowerCase())) {
-                            let itemElement = createId(item);
+                            let itemElement = $().createId(item);
                             let eventId = document.getElementById(itemElement);
                             if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
                                 $().toggleSelectAll(itemElement, true);
@@ -85,7 +86,7 @@ $(document).ready(function () {
                 } else {
                     $(jobSelect).html("<strong>Select All</strong>");
                     facetGlobalVars.competency_group.forEach(item => {
-                        let itemElement = createId(item);
+                        let itemElement = $().createId(item);
                         let eventId = document.getElementById(itemElement);
                         if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'job-specific') {
                             $().toggleSelectAll(itemElement, false);
@@ -98,8 +99,8 @@ $(document).ready(function () {
                 if ($(generalSelect).text() === 'Select All') {
                     $(generalSelect).html("<strong>De-Select All</strong>");
                     facetGlobalVars.competency_group.forEach(item => {
-                        if (comps.some(x => x.group === createId(item))) {
-                            let itemElement = createId(item);
+                        if (comps.some(x => x.group === $().createId(item))) {
+                            let itemElement = $().createId(item);
                             let eventId = document.getElementById(itemElement);
                             if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
                                 $().toggleSelectAll(itemElement, true);
@@ -109,7 +110,7 @@ $(document).ready(function () {
                 } else {
                     $(generalSelect).html("<strong>Select All</strong>");
                     facetGlobalVars.competency_group.forEach(item => {
-                        let itemElement = createId(item);
+                        let itemElement = $().createId(item);
                         let eventId = document.getElementById(itemElement);
                         if (eventId.hasAttribute('data-major-group') && eventId.getAttribute('data-major-group') === 'general') {
                             $().toggleSelectAll(itemElement, false);
@@ -125,6 +126,7 @@ $(document).ready(function () {
                 major_group = 'general';
             }
             let checked = this.checked;
+            facetGlobalVars.inProgressCheckAll = true;
             $('[data-filter="competency"][data-major-group="' + major_group + '"]').each((index, elem) => {
                 let $elem = $(elem),
                     comp = $elem.attr('aria-label'),
@@ -136,14 +138,16 @@ $(document).ready(function () {
                     }
                 }
             });
+            facetGlobalVars.inProgressCheckAll = false;
+            $().getSearch();
         });
 
         // create an array of everything of both disabled and active.
         facetGlobalVars.competency_group.forEach(groupItem => {
-            let eventGroupId = createId(groupItem);
+            let eventGroupId = $().createId(groupItem);
             if (eventGroupId !== "") {
                 facetGlobalVars.competency.forEach(item => {
-                    let eventId = createId(eventGroupId + " " + item);
+                    let eventId = $().createId(eventGroupId + " " + item);
                     if (eventId !== "") {
                         $("#" + eventId).on('change', function () {
                             if (this.checked) {
@@ -174,7 +178,9 @@ $(document).ready(function () {
                                     resetFilterBlocks();
                                 }
                                 $("#" + eventId + "-button").remove();
-                                $().getSearch();
+                                if (!facetGlobalVars.inProgressCheckAll) {
+                                    $().getSearch();
+                                }
                             }
                         });
                     }
@@ -182,7 +188,7 @@ $(document).ready(function () {
             }
         });
         facetGlobalVars.competency_group.forEach(item => {
-            let eventId = createId(item);
+            let eventId = $().createId(item);
             if (eventId !== "") {
                 $("#" + eventId).on("focus", function () {
                     $('label[for="' + eventId + '"]').addClass("padding-05");
@@ -213,17 +219,20 @@ $(document).ready(function () {
                         }
 
                         let comps = getVisibleFacets();
+                        facetGlobalVars.inProgressCheckAll = true;
                         comps.forEach(x => {
                             if (eventId === x.group) {
                                 $('input:checkbox[data-group="' + x.group + '"][aria-label="' + x.comp + '"]').prop({'checked': true}).trigger('change');
                             }
                         });
+                        facetGlobalVars.inProgressCheckAll = false;
+                        $().getSearch();
                     } else {
                         facetGlobalVars.adding = false;
                         facetGlobalVars.removing = true;
                         $("#" + eventId).prop("checked", false);
                         facetGlobalVars.competency.forEach(competencyItem => {
-                            let eventCompetencyId = createId(eventId + " " + competencyItem);
+                            let eventCompetencyId = $().createId(eventId + " " + competencyItem);
                             if ($("#" + eventCompetencyId).data("group") === eventId) {
                                 $("#" + eventCompetencyId).prop('checked', false);
                                 $("#" + eventCompetencyId + "-button").remove();
@@ -245,7 +254,9 @@ $(document).ready(function () {
                             resetFilterBlocks();
                         }
                         $("#" + eventId + "-button").remove();
-                        $().getSearch();
+                        if (!facetGlobalVars.inProgressCheckAll) {
+                            $().getSearch();
+                        }
                     }
                 });
             }
@@ -283,16 +294,6 @@ $(document).ready(function () {
         }
     }
 
-    /**
-     * creates an id from a space and/or comma delimited string
-     * @param {string} item - a string with spaces and/or commas
-     * @returns - a string delimited with dashes(-)
-     */
-    function createId(item) {
-        let newStr = item.replaceAll(', ', '-');
-        let finalStr = newStr.replaceAll(' ', '-');
-        return finalStr.toLowerCase();
-    }
 
     /**
      * returns the type of filter
@@ -332,7 +333,9 @@ $(document).ready(function () {
             facetGlobalVars.data = [];
             facetGlobalVars.searchOrder = [];
             resetFilterBlocks();
-            $().getSearch();
+            if (!facetGlobalVars.inProgressCheckAll) {
+                $().getSearch();
+            }
 
             $('.career-competency-level-3-input-group label[data-state="enabled"]').attr('data-state', 'disable').html('<strong>Select All</strong>');
             $("#dialog").dialog().dialog("close");
@@ -574,11 +577,15 @@ $(document).ready(function () {
             //}
         }
 
-        $().getSearch();
+        if (!facetGlobalVars.inProgressCheckAll) {
+            $().getSearch();
+        }
 
         $("#" + eventTargetId + "-button").on('click', function () {
             removeTagFilter(inputType, button != null && button.length > 0 ? button[0].id : null, eventTargetId);
-            $().getSearch();
+            if (!facetGlobalVars.inProgressCheckAll) {
+                $().getSearch();
+            }
         });
     }
 
@@ -619,7 +626,9 @@ $(document).ready(function () {
             resetFilterBlocks();
         }
 
-        $().getSearch();
+        if (!facetGlobalVars.inProgressCheckAll) {
+            $().getSearch();
+        }
         if (id.match("series")) {
             const seriesLength = facetGlobalVars.data.filter(i => i.id.indexOf("series") > -1);
             if (seriesLength.length === 0) {
@@ -741,7 +750,6 @@ $(document).ready(function () {
                     });
                 });
                 enableDisableCompetencies(false);
-                enableDisabledCompetencies();
                 $("#career-search-results").empty();
 
                 if (facetGlobalVars.results.length === 0) {
@@ -798,6 +806,17 @@ $(document).ready(function () {
                 facetGlobalVars.results = facetGlobalVars.fullSet;
                 $('#career-facet-remove-all-filters-button').hide();
             }
+        },
+
+        /**
+         * creates an id from a space and/or comma delimited string
+         * @param {string} item - a string with spaces and/or commas
+         * @returns - a string delimited with dashes(-)
+         */
+        createId: function (item) {
+            let newStr = item.replaceAll(', ', '-');
+            let finalStr = newStr.replaceAll(' ', '-');
+            return finalStr.toLowerCase();
         },
 
 
@@ -905,14 +924,14 @@ $(document).ready(function () {
         let enabledFacets = [];
         let notIncluded;
         comps.forEach((item) => {
-            enabledFacets.push(item.group + '-' + createId(item.comp));
+            enabledFacets.push(item.group + '-' + $().createId(item.comp));
         });
 
         notIncluded = facetGlobalVars.data.filter(function (dataItem) {
             return (dataItem.type === 'checkbox' && !enabledFacets.includes(dataItem.id));
         });
         facetGlobalVars.data = facetGlobalVars.data.filter(function (dataItem) {
-            return (dataItem.type !== 'checkbox' || (dataItem.type === 'checkbox' && enabledFacets.includes(dataItem.id)));
+            return (dataItem.type !== 'checkbox' || (dataItem.type === 'checkbox' && enabledFacets.indexOf(dataItem.id) !== -1));
         });
         // Reset competencies on cfoStorage.
         if (notIncluded.length) {
@@ -924,18 +943,20 @@ $(document).ready(function () {
     }
 
     /**
-     * Enable all competencies is Select All is checked.
+     * Enable all competencies if Select All is checked.
      */
     function enableDisabledCompetencies() {
+        facetGlobalVars.inProgressCheckAll = true;
         // Check if we need to change label for select/de-select all
         $('.career-competency-level-3-input-group label[data-state="enabled"]').each(function () {
             let compGroup = $(this).next().prop('id');
             $('input[data-filter="competency"][data-group="' + compGroup + '"]:not(:checked)').each(function (index, item) {
-                if ($(this).closest('.career-competency-level-4-input-group').css('display') === 'block') {
+                if ($(this).closest('.career-competency-level-4-input-group').css('display') !== 'none') {
                     $(this).prop('checked', true).change();
                 }
             });
         });
+        facetGlobalVars.inProgressCheckAll = false;
     }
 
     /**
@@ -994,7 +1015,9 @@ $(document).ready(function () {
                         }
                         createClearButton();
                         $("#career-facet-remove-all-filters-button").css('display', 'block');
-                        $().getSearch();
+                        if (!facetGlobalVars.inProgressCheckAll) {
+                            $().getSearch();
+                        }
                         return false;
                     } else if (button[0].classList.contains("cfo-page-right")) {
                         if (facetGlobalVars.currentPage < facetGlobalVars.totalPages) {
@@ -1062,6 +1085,9 @@ $(document).ready(function () {
                     let ariaLabel = $(this).find('i').hasClass('fa-plus') ? ', collapsed' : ', expanded';
                     $(this).attr('aria-label', $(this).text() + ariaLabel);
                 } else {
+                    if (button[0].id.match('series') || button[0].id.match('GS')) {
+                        enableDisabledCompetencies();
+                    }
                     if (!ifExists(evt.target.id)) {
                         createRemoveButtons('button', evt.target.id, button);
                     } else {

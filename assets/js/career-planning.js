@@ -142,7 +142,9 @@
     $('select[name="per_page"]').change(function (e) {
       facetGlobalVars.perPage = parseInt($(this).val());
       facetGlobalVars.start = 0;
-      $().getSearch();
+      if (!facetGlobalVars.inProgressCheckAll) {
+        $().getSearch();
+      }
       $('select[name="per_page"]').val(facetGlobalVars.perPage);
       if (facetGlobalVars.currentPage === 1 && facetGlobalVars.totalPages > 0) {
         $(".cfo-page-left").attr("disabled", "disabled");
