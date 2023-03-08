@@ -826,8 +826,6 @@ $(document).ready(function () {
          * @param {boolean} status True for enable De-Select All button
          */
         toggleSelectAll: function (competencyGroup, status) {
-            console.log(competencyGroup);
-            console.log(status);
             let label = status ? '<strong>De-Select All</strong>' : '<strong>Select All</strong>';
             let state = status ? 'enabled' : 'disabled';
             $('#competency-group-label-' + competencyGroup).attr('data-state', state).html(label).change();
@@ -1087,13 +1085,13 @@ $(document).ready(function () {
                     let ariaLabel = $(this).find('i').hasClass('fa-plus') ? ', collapsed' : ', expanded';
                     $(this).attr('aria-label', $(this).text() + ariaLabel);
                 } else {
-                    if (button[0].id.match('series') || button[0].id.match('GS')) {
-                        enableDisabledCompetencies();
-                    }
                     if (!ifExists(evt.target.id)) {
                         createRemoveButtons('button', evt.target.id, button);
                     } else {
                         removeCriteria('button', evt.target.id);
+                    }
+                    if (button[0].id.match('series') || button[0].id.match('GS')) {
+                        enableDisabledCompetencies();
                     }
                 }
             });
