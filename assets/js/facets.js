@@ -957,6 +957,7 @@ $(document).ready(function () {
             });
         });
         facetGlobalVars.inProgressCheckAll = false;
+        $().getSearch();
     }
 
     /**
