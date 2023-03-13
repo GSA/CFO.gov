@@ -198,7 +198,15 @@ input#career-advancement-search-input {
   padding: 15px;
 }
 
-#career-download-buttons {
+@media screen and (max-width: 770px) {
+ 
+  #career-download-buttons button{
+    width: 130px;
+  }
+
+  #career-download-buttons{
+    width: 100%;
+  }
 }
 
 
