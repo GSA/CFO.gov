@@ -207,6 +207,10 @@ input#career-advancement-search-input {
   #career-download-buttons{
     width: 100%;
   }
+
+  a{
+    overflow-wrap: break-word !important;
+  }
 }
 
 
