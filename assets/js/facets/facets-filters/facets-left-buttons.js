@@ -100,41 +100,6 @@
     }
 
     /**
-     * Create a clear all filters button
-     */
-    function createClearButton() {
-        $("#career-facet-remove-all-filters-button").on('click', function () {
-            facetGlobalVars.adding = false;
-            facetGlobalVars.removing = true;
-
-            facetGlobalVars.data.forEach(item => {
-                if (item.keys != null) {
-                    $('#career-advancement-search-input').val('');
-                    $('#career-advancement-search-input').removeAttr('value');
-                } else {
-                    if (item.type === 'checkbox') {
-                        $("#" + item.id).prop("checked", false);
-                        let group = $("#" + item.id).data('group');
-                        if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
-                        if ($("#career-competency-select-all").is(":checked")) $("#career-competency-select-all").prop("checked", false);
-                    } else $("#" + item.id).toggleClass('active');
-                    $("#" + item.id + "-button").remove();
-                }
-            })
-            facetGlobalVars.data = [];
-            facetGlobalVars.searchOrder = [];
-            resetFilterBlocks();
-            if (!facetGlobalVars.inProgressCheckAll) {
-                $().getSearch();
-            }
-
-            $('.career-competency-level-3-input-group label[data-state="enabled"]').attr('data-state', 'disable').html('<strong>Select All</strong>').change();
-            $("#dialog").dialog().dialog("close");
-        });
-    }
-
-
-    /**
      * Creates a single remove button.
      * Called in two places
      * 1) when a button is clicked
