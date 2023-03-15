@@ -237,3 +237,40 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     }
     $("#" + eventTargetId + "-button").remove();
 }
+
+/**
+     * Create a clear all filters button
+     */
+ function createClearButton() {
+    $("#career-facet-remove-all-filters-button").on('click', function () {
+        facetGlobalVars.adding = false;
+        facetGlobalVars.removing = true;
+
+        facetGlobalVars.data.forEach(item => {
+            if (item.keys != null) {
+                $('#career-advancement-search-input').val('');
+                $('#career-advancement-search-input').removeAttr('value');
+            } else {
+                if (item.type === 'checkbox') {
+                    $("#" + item.id).prop("checked", false);
+                    let group = $("#" + item.id).data('group');
+                    if ($("#" + group).is(":checked")) $("#" + group).prop("checked", false);
+                    if ($("#career-competency-select-all").is(":checked")) $("#career-competency-select-all").prop("checked", false);
+                } else $("#" + item.id).toggleClass('active');
+                $("#" + item.id + "-button").remove();
+            }
+        })
+        facetGlobalVars.data = [];
+        facetGlobalVars.searchOrder = [];
+        resetFilterBlocks();
+        if (!facetGlobalVars.inProgressCheckAll) {
+            $().getSearch();
+        }
+
+        //Changing the state of all the select all button from "de-select all" to "select all"
+        $('.career-competency-level-3-input-group label[data-state="enabled"]').attr('data-state', 'disable').html('<strong>Select All</strong>').change();
+        $('#job-career-competency-select, #general-career-competency-select').html('<strong>Select All</strong>').change();
+        general-career-competency-select
+        $("#dialog").dialog().dialog("close");
+    });
+}
