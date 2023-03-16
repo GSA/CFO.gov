@@ -9,7 +9,7 @@ services:
     build: .
     working_dir: /app
     ports:
-      - "4005:4000"
+      - "4001:4000"
     volumes:
       - .:/app:delegated
-    command: bundle exec jekyll serve --host 0.0.0.0
+    command: bundle exec jekyll serve --host 0.0.0.0 -I
