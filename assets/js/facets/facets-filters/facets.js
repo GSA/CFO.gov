@@ -67,16 +67,28 @@ $(document).ready(function () {
             $(this).prop('checked', false);
         });
 
-        // is this being used ?
-        $("#career-competency-select-all").on("focus", function () {
-            $('label[for="career-competency-select-all"]').addClass("padding-05");
-            $('label[for="career-competency-select-all"]').css("outline", "0.25rem solid #2491ff");
+        // For 508 when tabbing on select all for job specific
+        $("#job-career-competency-select-all").on("focus", function () {
+            $('label[for="job-career-competency-select-all"]').addClass("padding-05");
+            $('label[for="job-career-competency-select-all"]').css("outline", "0.25rem solid #2491ff");
         });
 
         // is this being used ?
-        $("#career-competency-select-all").on("blur", function () {
-            $('label[for="career-competency-select-all"]').removeClass("padding-05");
-            $('label[for="career-competency-select-all"]').css("outline", "none");
+        $("#job-career-competency-select-all").on("blur", function () {
+            $('label[for="job-career-competency-select-all"]').removeClass("padding-05");
+            $('label[for="job-career-competency-select-all"]').css("outline", "none");
+        });
+
+        // For 508 when tabbing on select all for  general career
+        $("#general-career-competency-select-all").on("focus", function () {
+            $('label[for="general-career-competency-select-all"]').addClass("padding-05");
+            $('label[for="general-career-competency-select-all"]').css("outline", "0.25rem solid #2491ff");
+        });
+
+        // is this being used ?
+        $("#general-career-competency-select-all").on("blur", function () {
+            $('label[for="general-career-competency-select-all"]').removeClass("padding-05");
+            $('label[for="general-career-competency-select-all"]').css("outline", "none");
         });
 
 

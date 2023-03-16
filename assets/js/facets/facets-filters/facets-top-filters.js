@@ -243,6 +243,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
      */
  function createClearButton() {
     $("#career-facet-remove-all-filters-button").on('click', function () {
+        location.reload();
         facetGlobalVars.adding = false;
         facetGlobalVars.removing = true;
 
@@ -270,7 +271,6 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         //Changing the state of all the select all button from "de-select all" to "select all"
         $('.career-competency-level-3-input-group label[data-state="enabled"]').attr('data-state', 'disable').html('<strong>Select All</strong>').change();
         $('#job-career-competency-select, #general-career-competency-select').html('<strong>Select All</strong>').change();
-        general-career-competency-select
         $("#dialog").dialog().dialog("close");
     });
 }
