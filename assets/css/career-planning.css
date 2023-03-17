@@ -198,18 +198,40 @@ input#career-advancement-search-input {
   padding: 15px;
 }
 
+.ogp-banner{
+  max-width: 87.5rem !important;
+}
+
 @media screen and (max-width: 770px) {
- 
-  #career-download-buttons button{
-    width: 130px;
-  }
 
   #career-download-buttons{
     width: 100%;
+    flex-direction: column;
   }
 
   a{
     overflow-wrap: break-word !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .career-search-results-pagination-wrapper{
+    margin: unset;
+  }
+
+  .career-search-results-page-size-wrapper{
+    margin-top: 12px;
+  }
+
+  .ogp-img {
+    width: 150px !important;
+  }
+
+  .maxw-tablet h1 {
+    font-size: 1.2rem !important;
+  }
+  .maxw-tablet p {
+    font-size: 0.8rem !important;
   }
 }
 
