@@ -202,12 +202,16 @@ input#career-advancement-search-input {
   max-width: 87.5rem !important;
 }
 
-@media screen and (max-width: 770px) {
+@media (max-width: 770px) {
 
   #career-download-buttons{
-    width: 100%;
     flex-direction: column;
-  }
+    width: 100% !important;    
+  };
+
+  #career-download-buttons button{
+    width: 100% !important;
+  };
 
   a{
     overflow-wrap: break-word !important;
