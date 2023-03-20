@@ -204,6 +204,10 @@ input#career-advancement-search-input {
 
 @media screen and (max-width: 770px) {
 
+  .ui-dialog{
+    width: 100% !important;
+  }
+
   #career-download-buttons{
     flex-direction: column;
     width: 100% !important;   
