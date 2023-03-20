@@ -243,6 +243,7 @@ input#career-advancement-search-input {
 
   .ogp-img {
     width: 150px !important;
+    margin-top: 7px !important;
   }
 
   .maxw-tablet h1 {
@@ -250,6 +251,10 @@ input#career-advancement-search-input {
   }
   .maxw-tablet p {
     font-size: 0.8rem !important;
+  }
+
+  .career-competency-toggle-button{
+    width: 50% !important;
   }
 }
 
