@@ -251,6 +251,10 @@ input#career-advancement-search-input {
   .maxw-tablet p {
     font-size: 0.8rem !important;
   }
+
+  .career-competency-toggle-button{
+    width: 50% !important;
+  }
 }
 
 
