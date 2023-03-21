@@ -202,21 +202,30 @@ input#career-advancement-search-input {
   max-width: 87.5rem !important;
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
+
+  .ui-dialog{
+    width: 100% !important;
+  }
 
   #career-download-buttons{
     flex-direction: column;
     width: 100% !important;   
   };
 
-  #career-download-button-1{
+  .career-download-button-1{
     width: 100% !important;
+    color: red !important;
   };
+
   #career-download-button-2{
     width: 100% !important;
+    color: red !important;
   };
+
   #career-download-button-3{
     width: 100% !important;
+    color: red !important;
   };
 
   a{
@@ -225,6 +234,9 @@ input#career-advancement-search-input {
 }
 
 @media screen and (max-width: 460px) {
+  a{
+    overflow-wrap: break-word !important;
+  }
   .career-search-results-pagination-wrapper{
     margin: unset;
   }
@@ -235,6 +247,7 @@ input#career-advancement-search-input {
 
   .ogp-img {
     width: 150px !important;
+    margin-top: 7px !important;
   }
 
   .maxw-tablet h1 {
@@ -242,6 +255,10 @@ input#career-advancement-search-input {
   }
   .maxw-tablet p {
     font-size: 0.8rem !important;
+  }
+
+  .career-competency-toggle-button{
+    width: 50% !important;
   }
 }
 
@@ -405,7 +422,7 @@ div[data-card-filter] {
     padding-bottom: 1rem !important;
 }
 
-.usa-accordion__button:hover {
+.bg-accent-warm.usa-accordion__button:hover {
     background-color: #fa9441 !important;
 }
 
