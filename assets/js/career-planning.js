@@ -91,7 +91,7 @@
           let value = item.title;
           // Search by title
           if (value.toLowerCase().indexOf(normalized) != -1) {
-            return value;
+            return stripHtmlTags(value);
           }
           // else if (item.job_series.toLowerCase().indexOf(normalized) != -1) {
           //   return item.job_series;
@@ -101,15 +101,15 @@
           // }
           // Search by Competency Description
           else if (item.competency_description.toLowerCase().indexOf(normalized) != -1) {
-            return item.competency_description;
+            return stripHtmlTags(item.competency_description);
           }
           // Search by Proficiency Level Definition
           else if (item.proficiency_level_definition.toLowerCase().indexOf(normalized) != -1) {
-            return item.proficiency_level_definition;
+            return stripHtmlTags(item.proficiency_level_definition);
           }
           // Search by Behavioral Illustrations
           else if (item.behavioral_illustrations.toLowerCase().indexOf(normalized) != -1) {
-            return item.behavioral_illustrations;
+            return stripHtmlTags(item.behavioral_illustrations);
           }
           // Search by Relevant Courses
           else if (item.relevant_courses != null){
@@ -118,7 +118,7 @@
               currentIndex = course.toLowerCase().indexOf(normalized) != -1 ? index : currentIndex;
             });
             if (currentIndex !== undefined) {
-              return item.relevant_courses[currentIndex];
+              return stripHtmlTags(item.relevant_courses[currentIndex]);
             }
           }
           return null;
@@ -127,8 +127,8 @@
         outputs = outputs.map(str => {
           str = str.substring(str.toLowerCase().indexOf(normalized))
               .split("?")[0]
-              .split("<")[0];
-          str = str.replace( /(<([^>]+)>)/ig, '').trim();
+              .split("|")[0];
+          str = str.replace(/[,\s]+$/g, '').trim();
           return str.length > n ? str.substring(0, n) + "..." : str;
         });
         // Filter by unique value.
@@ -441,4 +441,10 @@
     }
     return bytes;
   }
+
+  function stripHtmlTags(str) {
+    if (!str || typeof str !== "string") return str;
+    return str.replace(/<[^>]*>/g, "|");
+  }
+
 })(jQuery);
