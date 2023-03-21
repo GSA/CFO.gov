@@ -87,7 +87,7 @@
       source: function (request, response) {
         let normalized = request.term.toLowerCase();
         let n = normalized.length + 40;
-        let outputs = facetGlobalVars.results.map(function (item) {
+        let outputs = facetGlobalVars.fullSet.map(function (item) {
           let value = item.title;
           // Search by title
           if (value.toLowerCase().indexOf(normalized) != -1) {
@@ -125,9 +125,14 @@
         });
         outputs = outputs.filter(function (x) { return !!x }).filter((item, index, self) => self.indexOf(item) === index);
         outputs = outputs.map(str => {
-          str = str.substring(str.toLowerCase().indexOf(normalized)).split("?")[0];
+          str = str.substring(str.toLowerCase().indexOf(normalized))
+              .split("?")[0]
+              .split("<")[0];
+          str = str.replace( /(<([^>]+)>)/ig, '').trim();
           return str.length > n ? str.substring(0, n) + "..." : str;
         });
+        // Filter by unique value.
+        outputs = [...new Set(outputs)];
         response(outputs);
       },
       select: function (event, ui) {
