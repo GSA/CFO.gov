@@ -13,12 +13,12 @@ layout: default
                 <h1 class="font-alt-xl">{{ page.name | upcase }}</h1>
                 {% endif %}
                 {% if page.department %}
-                <h3 class="font-sans-lg margin-top-0 margin-bottom-105">
+                <h2 class="font-sans-lg margin-top-0 margin-bottom-105">
                     <p>{{ page.department | upcase }} {{ page.sub-department | upcase }}</p>
                     {% endif %}
 
                     {% if page.title %}
-                    {{ page.title | upcase }}</h3>
+                    {{ page.title | upcase }}</h2>
                 {% endif %}
                 <!--  Removing contact info for now since only one CIO member has it (Joe K)
                         {% if page.bio-email  %}
