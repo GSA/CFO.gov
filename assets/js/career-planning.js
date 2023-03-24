@@ -444,7 +444,7 @@
 
   function stripHtmlTags(str) {
     if (!str || typeof str !== "string") return str;
-    return str.replace(/<[^>]*>/g, "|");
+    return str.replace(/<[^>]*>/g, "|").replace(/&#58;/g, "");
   }
 
 })(jQuery);
