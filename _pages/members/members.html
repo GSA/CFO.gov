@@ -17,7 +17,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                 {% for bio in site.leadership %}
                 {% if bio.bio-image %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <div style="display: block;" class="height-full">
+                    <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black; text-decoration: none; display: block;" class="height-full">
                         <div class="left">
                             <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                         </div>
@@ -25,11 +25,11 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                             <p><span class="name">{{ bio.name }}<br></span>
                                 <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 {% else %}
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <div style="display: block;" class="height-full">
+                    <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black; text-decoration: none; display: block;" class="height-full">
                         <div class="left">
                             <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{bio.department | slugify}}.png" alt="{{ bio.department }} seal">
                         </div>
@@ -37,7 +37,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                             <p><span class="name">{{ bio.name }}<br></span>
                                 <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 {% endif %}
                 {% endfor %}
