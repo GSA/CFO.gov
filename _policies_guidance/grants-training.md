@@ -25,7 +25,10 @@ filters: financial-assistance training-module
 
 <h3>GRANTS TRAINING 101 MODULES</h3>
 
-<div>Grants Training 101 Modules are available on this page. The training is designed to provide Federal officials a basic knowledge training on grants and cooperative agreements.  The training is not designed to provide detailed administrative, accounting and audit requirements that are specific to programs based on their statutory provisions, agency regulations and guidance.  Thus, this training should be supplemented by materials that are specific to agency guidance and requirements.</div>
+<div>
+    <p>Grants Training 101 Modules are available on this page. <i>Here is the <a href="{{ site.baseurl }}/wp-content/uploads/2023/Introduction to Federal Financial Assistance.pdf">Introduction to Federal Financial Assistance</a> to help guide what you will learn.</i></p> 
+    <p>The training is designed to provide Federal officials a basic knowledge training on grants and cooperative agreements.  The training is not designed to provide detailed administrative, accounting and audit requirements that are specific to programs based on their statutory provisions, agency regulations and guidance.  Thus, this training should be supplemented by materials that are specific to agency guidance and requirements.</p>
+</div>
 
 <h3>MODULE 1 - LAWS, REGULATIONS AND GUIDANCE</h3>
 <div><p>This module presents the underlying laws, regulations, policies, practices, and guidance for grant or cooperative agreement programs, including their legal order of precedence and their relevance to different recipient types.  Lesson 1 presents the basics for Statutes, Regulations, and Guidance.  Lesson 2 discusses applicability of the governing regulations by recipient type.</p></div>
