@@ -115,7 +115,8 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     //set item length and name
     const itemLength = groupItem != null ? JSON.parse(cfoStorage.getItem(competencyGroup)).length : 0;
     const itemName = ' ' + competencyGroup + ' ' + spanStart + itemLength.toString() + spanEnd;
-
+    $(this).attr('aria-label', $(this).text() + ariaLabel);
+    $('<button type="button" data-role="none" role="button" tabindex="0" />').attr('aria-label', 'Slide: ' + (i + 1));
 
     const subButton = document.getElementById(competencyGroup + "-button");
     
@@ -165,6 +166,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
             removeButtonA.setAttribute("tabindex", 0);
             removeButtonA.setAttribute("href", "javascript:void(0)");
             removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
+            removeButtonA.setAttribute("aria-label", "Remove "+ i.replaceAll('|', ',').replaceAll('"', '') + " filter");
             removeButtonA.innerHTML = i.replaceAll('|', ',').replaceAll('"', '') + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
             // if (removeButtonA.getAttribute("onClick") == null) {
             //     removeButtonA.setAttribute("onClick", "onPopupSubButtonClick('" + competencyGroup + "', '" + givenId + "', '" + i + "', '" + JSON.stringify(data) + "');")

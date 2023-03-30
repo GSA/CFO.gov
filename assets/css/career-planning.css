@@ -205,7 +205,8 @@ input#career-advancement-search-input {
 @media screen and (max-width: 770px) {
 
   .ui-dialog{
-    width: 100% !important;
+    width: 90% !important;
+    margin-left: 20px;
   }
 
   #career-download-buttons{
@@ -234,6 +235,15 @@ input#career-advancement-search-input {
 }
 
 @media screen and (max-width: 460px) {
+  .search-container{
+    display: block;
+  }
+
+  form.usa-search{
+    display: block !important;
+    margin-right: -2rem !important;
+  }
+
   a{
     overflow-wrap: break-word !important;
   }
@@ -260,6 +270,18 @@ input#career-advancement-search-input {
   .career-competency-toggle-button{
     width: 50% !important;
   }
+
+  #series-gs-container{
+    flex-wrap: wrap;
+  }
+
+  #series{
+    margin-bottom: 0.5rem;
+  }
+
+   #gs, #job-competency, #series{
+    padding: 0px;
+   }
 }
 
 

@@ -150,7 +150,7 @@
         } else {
             removeButtonText = (' ' + competencyGroup + " - " + competencyTitle).replace(/ [\w]/g, a => a.toLocaleUpperCase()).trim();
         }
-
+        removeButtonA.setAttribute("aria-label", "Remove "+ removeButtonText + " filter");
         removeButtonA.innerHTML = removeButtonText + "&nbsp;&nbsp;<i class='fa fa-times'></i>";
 
         if (eventTargetId.match("series")) {
