@@ -153,6 +153,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     if (groupItem != null) {
         let groupItems = groupItem.replace('[', '').replace(']', '').replace(', ', ' ').split(',');
         let groupItemsLength = groupItems.length;
+        groupItems.sort();
         groupItems.forEach(function (i) {
             let givenId = "pop-" +
                 i.replaceAll('| ', '-')
