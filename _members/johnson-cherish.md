@@ -1,10 +1,10 @@
 ---
-bio-image: /wp-content/uploads/2020/02/Johnson-Cherish-CFO-NRC.jpg
-bio-image-alt-text: CHERISH K. JOHNSON
+bio-image: /wp-content/uploads/2022/corbett-james.jpg
+bio-image-alt-text: James Corbett
 layout: bio
-name : Ms. Cherish K. Johnson
+name : Mr. James Corbett
 department: Nuclear Regulatory Commission
-title: Chief Financial Officer
+title: Acting Chief Financial Officer
 special_title: 'yes'
 ---
 

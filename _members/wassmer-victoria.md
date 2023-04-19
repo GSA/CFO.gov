@@ -1,5 +1,5 @@
 ---
-bio-image: /wp-content/uploads/2021/02/transportation_logo.png
+bio-image: /wp-content/uploads/2023/victoria-wassmer.jpg
 bio-image-alt-text: VICTORIA WASSMER
 layout: bio
 name : Ms. Victoria Wassmer
