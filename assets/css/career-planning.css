@@ -283,13 +283,13 @@ input#career-advancement-search-input {
     margin-bottom: 0.5rem;
   }
 
-   #gs, #job-competency, #series, #general-competency{
+  #gs, #job-competency, #series, #general-competency{
     padding: 0px;
-   }
+  }
 
-    #job-competency{
+  #job-competency{
         margin-bottom: 8px;
-    }
+  }
 }
 
 
