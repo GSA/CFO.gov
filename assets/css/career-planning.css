@@ -275,13 +275,21 @@ input#career-advancement-search-input {
     flex-wrap: wrap;
   }
 
+  #competencies-container {
+        flex-wrap: wrap;
+  }
+
   #series{
     margin-bottom: 0.5rem;
   }
 
-   #gs, #job-competency, #series{
+  #gs, #job-competency, #series, #general-competency{
     padding: 0px;
-   }
+  }
+
+  #job-competency{
+        margin-bottom: 8px;
+  }
 }
 
 
