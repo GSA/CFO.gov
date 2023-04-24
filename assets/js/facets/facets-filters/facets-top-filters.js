@@ -115,8 +115,8 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     //set item length and name
     const itemLength = groupItem != null ? JSON.parse(cfoStorage.getItem(competencyGroup)).length : 0;
     const itemName = ' ' + competencyGroup + ' ' + spanStart + itemLength.toString() + spanEnd;
-    $(this).attr('aria-label', $(this).text() + ariaLabel);
-    $('<button type="button" data-role="none" role="button" tabindex="0" />').attr('aria-label', 'Slide: ' + (i + 1));
+    //$(this).attr('aria-label', $(this).text() + ariaLabel); 
+    //$('<button type="button" data-role="none" role="button" tabindex="0" />').attr('aria-label', 'Slide: ' + (i + 1));
 
     const subButton = document.getElementById(competencyGroup + "-button");
     
