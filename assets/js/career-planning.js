@@ -2,7 +2,8 @@
   let selected = {},
     unselect = false,
     buttonSelector = '.policy input[type="checkbox"]',
-    downloadButton;
+    downloadButtonPDF, // Download PDF report button
+    downloadButtonCSV; // Download CSV report button
 
   window.isSelected = function (val) {
     return (typeof selected[val] != 'undefined');
@@ -13,7 +14,8 @@
     unselect = false;
     $('button[data-op="select-all"]').text('Select All Cards');
     $('#career-search-results').find(buttonSelector).prop('checked', false);
-    downloadButton.prop('aria-disabled', true).prop('disabled', true);
+    downloadButtonPDF.prop('aria-disabled', true).prop('disabled', true);
+    downloadButtonCSV.prop('aria-disabled', true).prop('disabled', true);
   }
 
   $(document).ready(function () {
@@ -30,7 +32,8 @@
       }
 
       let disable = Object.keys(selected).length == 0;
-      downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
+      downloadButtonPDF.prop('aria-disabled', disable).prop('disabled', disable);
+      downloadButtonCSV.prop('aria-disabled', disable).prop('disabled', disable);
     });
 
     $('#cfo-search-button').on('click', function () {
@@ -42,7 +45,7 @@
         unselectAll();
       }
       else {
-        let set = results.length ? results : fullSet;
+        let set = facetGlobalVars.results.length ? facetGlobalVars.results : fullSet;
         for (let i = 0, l = set.length; i < l; i++) {
           selected[set[i].permalink] = true;
         }
@@ -52,12 +55,14 @@
       }
 
       let disable = Object.keys(selected).length == 0;
-      downloadButton.prop('aria-disabled', disable).prop('disabled', disable);
+      downloadButtonPDF.prop('aria-disabled', disable).prop('disabled', disable);
+      downloadButtonCSV.prop('aria-disabled', disable).prop('disabled', disable);
     });
 
-    downloadButton = $('#career-download-buttons').find('[data-op="download-selected"]').click(function () {
+    // button click event handler for Download PDF report button
+    downloadButtonPDF = $('#career-download-buttons').find('[data-op="download-selected-pdf"]').click(function () {
       let cards = [];
-      let cardSet = results.length ? results : fullSet;
+      let cardSet = facetGlobalVars.results.length ? facetGlobalVars.results : facetGlobalVars.fullSet;
       for (let i = 0, l = cardSet.length; i < l; i++) {
         if (typeof selected[cardSet[i].permalink] != 'undefined') {
           cards.push(cardSet[i]);
@@ -66,65 +71,94 @@
       generatePDF(cards);
     });
 
+    // button click event handler for Download CSV report button
+    downloadButtonCSV = $('#career-download-buttons').find('[data-op="download-selected-csv"]').click(function () {
+      let cards = [];
+      let cardSet = facetGlobalVars.results.length ? facetGlobalVars.results : facetGlobalVars.fullSet;
+      for (let i = 0, l = cardSet.length; i < l; i++) {
+        if (typeof selected[cardSet[i].permalink] != 'undefined') {
+          cards.push(cardSet[i]);
+        }
+      }
+      generateCSV(cards);
+    });
+
     $('#career-advancement-search-input').autocomplete({
       source: function (request, response) {
-        let normalized = request.term.toLowerCase()
-        let outputs = fullSet.map(function (item) {
+        let normalized = request.term.toLowerCase();
+        let n = normalized.length + 40;
+        let outputs = facetGlobalVars.fullSet.map(function (item) {
           let value = item.title;
+          // Search by title
           if (value.toLowerCase().indexOf(normalized) != -1) {
-            return value;
+            return stripHtmlTags(value);
           }
-          else if (item.job_series.toLowerCase().indexOf(normalized) != -1) {
-            return value;
-          }
-          else if (item.competency.toLowerCase().indexOf(normalized) != -1) {
-            return value;
-          }
+          // else if (item.job_series.toLowerCase().indexOf(normalized) != -1) {
+          //   return item.job_series;
+          // }
+          // else if (item.competency.toLowerCase().indexOf(normalized) != -1) {
+          //   return item.competency;
+          // }
+          // Search by Competency Description
           else if (item.competency_description.toLowerCase().indexOf(normalized) != -1) {
-            return value;
+            return stripHtmlTags(item.competency_description);
           }
+          // Search by Proficiency Level Definition
           else if (item.proficiency_level_definition.toLowerCase().indexOf(normalized) != -1) {
-            return value;
+            return stripHtmlTags(item.proficiency_level_definition);
           }
+          // Search by Behavioral Illustrations
           else if (item.behavioral_illustrations.toLowerCase().indexOf(normalized) != -1) {
-            return value;
+            return stripHtmlTags(item.behavioral_illustrations);
           }
-          else if (item.relevant_courses != null && item.relevant_courses.some((element) => element.toLowerCase().indexOf(normalized) != -1)) {
-            return value;
+          // Search by Relevant Courses
+          else if (item.relevant_courses != null){
+            let currentIndex;
+            item.relevant_courses.forEach((course, index) => {
+              currentIndex = course.toLowerCase().indexOf(normalized) != -1 ? index : currentIndex;
+            });
+            if (currentIndex !== undefined) {
+              return stripHtmlTags(item.relevant_courses[currentIndex]);
+            }
           }
           return null;
         });
-        outputs = outputs.filter(function (x) { return !!x });
+        outputs = outputs.filter(function (x) { return !!x }).filter((item, index, self) => self.indexOf(item) === index);
+        outputs = outputs.map(str => {
+          str = str.substring(str.toLowerCase().indexOf(normalized))
+              .split("?")[0]
+              .split("|")[0];
+          str = str.replace(/[,\s]+$/g, '').trim();
+          return str.length > n ? str.substring(0, n) + "..." : str;
+        });
+        // Filter by unique value.
+        outputs = [...new Set(outputs)];
         response(outputs);
       },
       select: function (event, ui) {
-        // console.log(event);
-        let $elem = $(event.target),
-          value = $elem.val();
-
-        data.push({
-          type: 'keys',
-          id: 'search',
-          value: ui.item.value,
-          exact: true
-        });
-        startingSearchFilter.push({keys: ui.item.value, id: 'keys'});
-        adjustSearchOrder();
-        getSearch();
-      },
+        let $elem = $(event.target);
+        $elem.val(ui.item.value);
+        $('#cfo-search-button').click();
+        },
       change: function (event, ui) {
       }
     });
 
     $('select[name="per_page"]').change(function (e) {
-      perPage = parseInt($(this).val());
-      getSearch();
-      $('select[name="per_page"]').val(perPage);
+      facetGlobalVars.perPage = parseInt($(this).val());
+      facetGlobalVars.start = 0;
+      if (!facetGlobalVars.inProgressCheckAll) {
+        $().getSearch();
+      }
+      $('select[name="per_page"]').val(facetGlobalVars.perPage);
+      if (facetGlobalVars.currentPage === 1 && facetGlobalVars.totalPages > 0) {
+        $(".cfo-page-left").attr("disabled", "disabled");
+        $(".cfo-page-right").removeAttr("disabled");
+      }
     });
   });
 
-
-
+  // function to generate CSV reoort for selected info cards
   function generatePDF(cards) {
     // pdfkit js
     // create a document and pipe to a blob
@@ -251,6 +285,123 @@
     doc.end();
   }
 
+  // function to generate CSV reoort for selected info cards
+  function generateCSV(cards) {
+    csvrows = [];
+    let elem = document.createElement('div');
+    csvrows.push(['Job Series', 'GS Level', 'Competency', 'Type', 'Definition', 'Behavior Illustrations', 'Proficiency Level Definition', 'Career Listing' ]);
+    for (let i = 0, l = cards.length; i < l; i++) {
+      let card = cards[i];
+      /**/
+
+      elem.innerHTML = card.content;
+      var strBI = "";
+      let items = [];
+      $(elem).find('> div:first-child dl *').each(function () {
+        if (this.nodeName == 'DT') {
+          if (items.length) {
+            strBI = strBI + "\n";
+            strBI = strBI + items;
+            items.length = 0;
+          }
+          if (strBI.length > 1) {
+            strBI = strBI + "\n";
+          }
+          strBI = strBI + this.innerText;
+        }
+        else if (this.nodeName == 'DD') {
+          items.push(this.innerText.trim());
+        }
+      });
+      if (items.length) {
+        strBI = strBI + "\n";
+        strBI = strBI + items;
+      }
+
+      var strPLD = "";
+      items = [];
+      $(elem).find('> div:nth-child(2) dl *').each(function () {
+        if (this.nodeName == 'DT') {
+          if (items.length) {
+            strPLD = strPLD + "\n";
+            strPLD = strPLD + items;
+            items.length = 0;
+          }
+          if (strPLD.length > 1) {
+            strPLD = strPLD + "\n";
+          }
+          strPLD = strPLD + this.innerText;
+        }
+        else if (this.nodeName == 'DD') {
+          items.push(this.innerText.trim());
+        }
+      });
+      if (items.length) {
+        strPLD = strPLD + "\n";
+        strPLD = strPLD + items;
+      }
+
+      var strCL = "";
+      items = [];
+
+      if (card.relevant_courses.length == 0) {
+        strCL = 'No Courses yet.';
+      }
+      else {
+        for (let j = 0, k = card.relevant_courses.length; j < k; j++) {
+          let elems = card.relevant_courses[j].split(',');
+          for (let m = 0, n = elems.length; m < n; m++) {
+            if (elems[m].indexOf('<a') == -1) {
+              if (strCL.length > 1) {
+                strCL = strCL + "\n";
+              }
+              let CLtext = elems[m];
+              while (CLtext.indexOf("&") != -1) {
+                CLtext = CLtext.replace("&", " ")
+              }
+              while (CLtext.indexOf("#") != -1) {
+                CLtext = CLtext.replace("#", " ")
+              }
+              while (CLtext.indexOf(";") != -1) {
+                CLtext = CLtext.replace(";", " ")
+              }
+              strCL = strCL + CLtext;
+            }
+            else {
+              let res = elems[m].match(/<a href="([^"]*)">([^<]*)<\/a>/);
+              strCL = strCL + "  ( " + res[1]+ " )"
+            }
+            if (m != n - 1) {
+              strCL = strCL + ", ";
+            }
+            else {
+              strCL = strCL + " "
+            }
+          }
+        }
+      }
+      
+      csvrows.push(['"' + card.series + ' ' + card.title + '"', '"=""' + card.level + '"""', '"' + card.competency + '"', '"' + card.competency_group + '"', '"' + card.competency_description + '"', '"' + strBI + '"', '"' + strPLD + '"', '"' + strCL + '"']);
+      
+    }
+
+    let csvContent = "data:text/csv;charset=utf-8,";
+
+    csvrows.forEach(function (rowArray) {
+      let row = rowArray.join(",");
+      csvContent += row + "\r\n";
+    });
+
+    var encodedUri = encodeURI(csvContent);
+    var link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "CareerPlanningCards.csv");
+    document.body.appendChild(link); // Required for FF
+
+    link.click(); 
+
+  }
+
   function loadFont(name, type, url, ff) {
     var callback=registerFont;
     var request = new XMLHttpRequest();
@@ -290,4 +441,10 @@
     }
     return bytes;
   }
+
+  function stripHtmlTags(str) {
+    if (!str || typeof str !== "string") return str;
+    return str.replace(/<[^>]*>/g, "|").replace(/&#58;/g, "");
+  }
+
 })(jQuery);

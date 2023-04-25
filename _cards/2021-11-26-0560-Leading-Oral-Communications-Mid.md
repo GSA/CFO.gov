@@ -6,7 +6,7 @@ series: 560
 job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
-permalink: /cards/560-Oral-Communications-Mid
+permalink: /cards/560-Oral-Communications-Mid-0
 functional_competency_designation: General Career Competencies
 competency: Oral Communications
 competency_group: Leading
