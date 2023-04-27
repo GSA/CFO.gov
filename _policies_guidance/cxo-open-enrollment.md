@@ -46,4 +46,4 @@ To apply, candidates must: 
 - Be a GS9 to GS13 or equivalent. 
 - Work in Acquisition, Data, Finance, Human Capital, and IT. 
 
-The application period for the FY 2024 CXO Fellows Program ends on June 9 at 5 p.m. (EST). For more information about the program and how to apply, click [here]({{ site.baseurl }}/cxo-fellows/). Your time is now!
+The application period for the FY 2024 CXO Fellows Program ends on June 9 at 5 p.m. (EST). For more information about the program and how to apply, click <a href="{{ site.baseurl }}/cxo-fellows/" aria-label="Link for more information about the program and how to apply">here</a>. Your time is now!
