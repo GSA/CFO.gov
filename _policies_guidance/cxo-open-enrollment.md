@@ -5,7 +5,7 @@ subtitle: Enrollment is Open for CXO Fellows Program
 filler: 
 permalink: /knowledge-sharing/enrollment-open-for-cxo-fellows-program/
 type: CXO Fellows
-date: April 26, 2023
+date: May 1, 2023
 has_date: 'yes'
 filters: cxo-fellows
 ---
