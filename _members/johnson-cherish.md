@@ -1,6 +1,6 @@
 ---
-bio-image: /wp-content/uploads/2022/corbett-james.jpg
-bio-image-alt-text: James Corbett
+bio-image: /wp-content/uploads/members/james-corbett.jpeg
+bio-image-alt-text: James Corbett headshot
 layout: bio
 name : Mr. James Corbett
 department: Nuclear Regulatory Commission
