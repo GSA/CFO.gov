@@ -21,6 +21,8 @@ This template is for a single knowledge sharing landing page.
                 {{ content }}
             </div>
         </div>
+        {% if page.back_to_link != "no" %}
         <p class="card-tag padding-bottom-3">&#10094; &nbsp; <a href="{{site.baseurl}}/knowledge-sharing/">Back to Knowledge Sharing</a></p>
+        {% endif %}
     </div>
 </div>
