@@ -18403,3 +18403,46 @@ example:
 
   .paginate-button {
     display: block; } }
+
+.scorecards {
+  font-weight: 300;
+  line-height: 1.618;
+  font-size: 18px;
+}
+
+.scorecards a {
+  color: #005ea2;
+  text-decoration: none;
+}
+
+.scorecards .scorecards-heading {
+  color: #205493;
+}
+
+.scorecards .scorecards-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scorecards .scorecards-table th {
+  text-align: left;
+}
+
+.scorecards .scorecards-table th, 
+.scorecards .scorecards-table td {
+  padding: 12px 8px;
+  vertical-align: middle;
+}
+
+.scorecards .scorecards-table .scorecards-table-header {
+  background-color: #205493;
+  color: white;
+}
+
+.scorecards .scorecards-table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.scorecards .scorecards-table td {
+  padding: 10px;
+}
