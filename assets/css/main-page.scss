@@ -898,3 +898,46 @@ abbr{
 .cxo-image {
   width:500px;
 }
+
+//PaymentAccuracy Scorecards
+.scorecards {
+  font-weight: 300;
+  line-height: 1.618;
+  font-size: 18px;
+
+  a {
+      color: #005ea2;
+      text-decoration: none;
+  }
+
+  .scorecards-heading {
+      color: #205493;
+  }
+
+  .scorecards-table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th {
+          text-align: left;
+      }
+      
+      th, td {
+          padding: 12px 8px;
+          vertical-align: middle;
+      }
+
+      .scorecards-table-header {
+          background-color: #205493; 
+          color: white;
+      }
+
+      tr {
+          border-bottom: 1px solid #ddd;
+      }
+
+      td {
+          padding: 10px;
+      }
+  }
+}
