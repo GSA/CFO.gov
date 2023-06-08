@@ -8,7 +8,7 @@
     </clipPath>
   </defs>
   <g id="Payment_Integrity" data-name="Payment Integrity" clip-path="url(#clip-Payment_Integrity)">
-    <rect width="170" height="170" fill="#fff"/>
+    <rect width="170" height="170" fill="none"/>
     <g id="Group_9" data-name="Group 9" transform="translate(47.129 40.78)">
       <g id="Group_8" data-name="Group 8" clip-path="url(#clip-path)">
         <path id="Path_32" data-name="Path 32" d="M73.091,67.613c-5.5,9.242-15.172,16.914-27.976,22.187a10.282,10.282,0,0,1-7.879,0C25,84.763,15.916,77.818,10.225,69.156,4.878,61.019,4.462,54.285,4.462,52.415V23.171a5.531,5.531,0,0,1,5.072-5.48c10.927-.869,21.66-5.36,28.013-11.722a5.12,5.12,0,0,1,7.255,0c6.353,6.362,17.086,10.853,28.013,11.722a5.531,5.531,0,0,1,5.072,5.48V52.415c0,1.674-.346,7.717-4.8,15.2" transform="translate(-3.304 -3.304)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
