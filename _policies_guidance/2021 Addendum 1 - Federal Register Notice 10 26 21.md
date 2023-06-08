@@ -5,7 +5,7 @@ type: Controller Alert
 title: Compliance Supplement
 subtitle: Compliance Supplement
 filters: financial-assistance guidance
-permalink: /2021-addendum-1and2-and-technical-update/
+permalink: /resources/compliance-supplement/
 redirect_from: 
 - /2021-addendum-1/
 - /2021-addendum-1and2/
