@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: Redefining Your Team – Leveraging Connections Made at CXO
 subtitle: Redefining Your Team – Leveraging Connections Made at CXO
 filler: The CXO Fellows Program enables rising leaders to grow and develop in their current position and prepare them for future endeavors. 

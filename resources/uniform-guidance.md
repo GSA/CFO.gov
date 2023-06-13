@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 title: UNIFORM GUIDANCE
 subtitle: Uniform Guidance
 permalink: /policies/uniform-guidance/

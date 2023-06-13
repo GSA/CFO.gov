@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: 2021 Compliance Supplement Vet Draft
 subtitle: 2021 Compliance Supplement Vet Draft
 filler: The 2021 Compliance Supplement Vet Draft is available for review and comments.

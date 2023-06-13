@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: CXO Fellows Program Applicant Checklist
 subtitle: CXO Fellows Program Applicant Checklist
 filler: The CXO Fellows Program offers an engaging opportunity for Federal Employees to develop leadership and career-building skills while networking and collaborating with like-minded individuals from other federal agencies.

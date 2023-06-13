@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: GRANTS RESOURCES
 subtitle: Grants Resources
 permalink: /knowledge-sharing/grants-resources/

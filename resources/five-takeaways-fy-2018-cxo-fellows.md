@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: FIVE TAKEAWAYS FROM THE FISCAL YEAR 2018 CXO FELLOWS
 subtitle: Five Takeaways from the Fiscal Year 2018 CXO Fellows
 filler: Last Friday, the CXO Fellows ended their year-long fellowship program with a commencement ceremony at the General Services Administration.

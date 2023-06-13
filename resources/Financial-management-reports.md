@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 title: Federal Financial Management Reports
 subtitle: Federal Financial Management Reports
 type: Reports

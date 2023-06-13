@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: CXO Fellowship program helps mid-level managers hone their skills
 subtitle: CXO Fellowship program helps mid-level managers hone their skills
 filler:  Get the inside scoop from CXO Fellowship Program director Angela McPherson (a program alum herself!) about the invaluable experience CXO Fellows from across government gain in the year-long program. 

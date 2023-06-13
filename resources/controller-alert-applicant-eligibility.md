@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 title: Controller Alert Applicant Eligibility for Financial Assistance and Types of Nonprofit Organizations
 subtitle: Controller Alert Applicant Eligibility for Financial Assistance and Types of Nonprofit Organizations
 type: financial-assistance

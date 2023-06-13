@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: 3 Reasons You’re Not Applying for the CXO Fellows Program (And Why You Should)
 subtitle: 3 Reasons You’re Not Applying for the CXO Fellows Program (And Why You Should)
 filler: The CXO Fellows Program application window is open. If you’re on the fence about applying, consider the many benefits of becoming a Fellow.

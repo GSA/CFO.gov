@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 author: CFO Council
 type: Seminar
 title: "Seminar 2 - Phases of Assessments, Phase 1"

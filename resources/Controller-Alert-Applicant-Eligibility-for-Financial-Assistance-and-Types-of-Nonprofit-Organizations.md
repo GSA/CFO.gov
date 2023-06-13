@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 title: Applicant Eligibility for Financial Assistance and Types of Nonprofit Organizations (e.g., Labor Organizations and Neighborhood Associations)
 subtitle: Applicant Eligibility for Financial Assistance and Types of Nonprofit Organizations...
 doc-link: ../wp-content/uploads/2021/11/ControllerAlertApplicantEligibilityForFinancialAssistanceAndTypesOfNonprofitOrganizations.pdf

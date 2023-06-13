@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: Automate & Digitize Your Business Processes - Digital End-to-End Efficiency (DEEE) Playbook 2021
 subtitle: Automate & Digitize Your Business Processes - Digital End-to-End Efficiency (DEEE) Playbook 2021
 filler:  Automate & Digitize Your Business Processes - Digital End-to-End Efficiency (DEEE) Playbook 2021

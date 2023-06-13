@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 date: 2013-02-19
 author: CFO Council
 title: "CONTROLLER ALERT&#58; Improving Collection of Delinquent Debt"

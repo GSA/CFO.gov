@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: EXPANDED LEADERSHIP PROGRAM LAUNCHES WITH WHITE HOUSE EVENT
 subtitle: Expanded Leadership Program Launches With White House Event 
 filler: On October 6, 2015, the 2015-2016 CXO Fellows Program successfully launched with an event at the Eisenhower Executive Office Building.

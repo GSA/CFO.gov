@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: July 2016&#58; Uniform Guidance&#58; Promising Practices in Implementation
 subtitle: Uniform Guidance Promising Practices in Implementation
 permalink: /knowledge-sharing/july-2016-uniform-guidance-promising-practices-in-implementation/

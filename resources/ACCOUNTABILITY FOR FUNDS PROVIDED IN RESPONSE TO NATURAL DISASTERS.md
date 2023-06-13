@@ -1,7 +1,7 @@
 ---
 date: 2022-05-17
 # author: Amy Bontrager
-layout: policies-guidance-landing
+layout: resources-landing
 type: Controller Alert
 title: "CONTROLLER ALERT&#58; Accountability for Funds Provided in Response to Natural Disasters"
 subtitle: "Accountability for Funds Provided in Response to Natural Disasters"

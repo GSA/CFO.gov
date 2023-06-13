@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: Enrollment is Open for CXO Fellows Program
 subtitle: Enrollment is Open for CXO Fellows Program
 filler: 

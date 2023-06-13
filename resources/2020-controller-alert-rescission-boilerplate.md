@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 title: Controller Alert &#58; Rescission of 12/2020 Controller Alert (Boilerplate Language for Federal Financial Assistance Notices  of Funding Opportunity and General Terms and Conditions)
 subtitle: Controller Alert &#58; Rescission of 12/2020 Controller Alert (Boilerplate Language for Federal Financial Assistance...
 doc-link: ../wp-content/uploads/2021/Controller_Alert_Rescinding Boilerplate Language_Clean.pdf

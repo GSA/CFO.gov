@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 type: Seminar
 title: "Seminar 1 - Payment Integrity 101"
 subtitle: "Seminar 1 - Payment Integrity 101"

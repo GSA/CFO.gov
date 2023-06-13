@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 type: financial-assistance
 title: Prohibition on Covered Telecommunications and Video Surveillance Services or Equipment
 subtitle: Prohibition on Covered Telecommunications and Video Surveillance Services or Equipment

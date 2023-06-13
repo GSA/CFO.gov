@@ -1,6 +1,6 @@
 ---
 date: 2021-11-30
-layout: policies-guidance-landing 
+layout: resources-landing
 author: CFO Council
 type: Controller Alert
 title: "Controller Alert: Agency Authority to Restrict Certain Types of Costs through Grant Terms and Conditions"

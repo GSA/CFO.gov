@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: Grant Training 101&#58; Uniform Guidance Administrative Requirements Now Available
 subtitle: Grant Training 101&#58; Uniform Guidance Administrative Requirements Now Available
 permalink: /knowledge-sharing/grant-training-101-uniform-guidance-administrative-requirements-now-available/

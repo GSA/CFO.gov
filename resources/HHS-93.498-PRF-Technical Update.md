@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 type: financial-assistance
 title: HHS 93.498 – PRF – Technical Update
 subtitle: HHS 93.498 – PRF – Technical Update

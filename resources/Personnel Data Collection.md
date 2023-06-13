@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 date: 2016-10-13
 author: CFO Council
 title: "CONTROLLER ALERT&#58; Personnel Data Collection"

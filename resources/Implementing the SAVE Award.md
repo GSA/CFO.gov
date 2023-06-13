@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 date: 2013-08-04
 author: CFO Council
 title: "CONTROLLER ALERT&#58; Implementing the SAVE Award"

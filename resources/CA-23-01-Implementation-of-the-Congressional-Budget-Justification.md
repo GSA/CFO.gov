@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 author: CFO Council
 type: Controller Alert
 title: "CONTROLLER ALERT&#58; CA-23-01 Implementation of the Congressional Budget Justification Transparency Act"

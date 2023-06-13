@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 date: 2015-12-04
 author: CFO Council
 type: Controller Alert

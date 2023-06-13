@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 type: Payment Integrity
 filters: payment-integrity best-practice-guidance
 title: A Behavioral Insights Guide for Improving Payment Integrity

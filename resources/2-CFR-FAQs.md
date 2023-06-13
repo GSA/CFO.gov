@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: 2 CFR Frequently Asked Questions
 subtitle: 2 CFR Frequently Asked Questions
 doc-link: ../assets/files/2CFR-FrequentlyAskedQuestions_2021050321.pdf

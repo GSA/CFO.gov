@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: CFOC Financial Management Career Roadmap
 subtitle: CFOC Financial Management Career Roadmap
 doc-link: ../wp-content/uploads/2022/CFOC FM Career Roadmap.pdf

@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: CFO Financial Assistance Management Career Roadmap
 subtitle: CFO Financial Assistance Management Career Roadmap
 doc-link: ../wp-content/uploads/2017/08/CFOC_FAM-Career-Roadmap-Report_Final.pdf

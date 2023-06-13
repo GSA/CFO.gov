@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: The Power of Cross-Agency Collaboration
 subtitle: The Power of Cross-Agency Collaboration
 filler: Among the many benefits of the CXO Fellows Program is the opportunity to meet and collaborate with Fellows in other agencies.

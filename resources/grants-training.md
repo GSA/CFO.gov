@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: Grants Training
 subtitle: Grants Training
 permalink: /grants-training/

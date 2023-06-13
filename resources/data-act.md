@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 title: Introducing the Data Quality Playbook
 subtitle: New! The Data Quality Playbook
 permalink: /policies-guidance/data-act/

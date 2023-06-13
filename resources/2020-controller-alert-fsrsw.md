@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 title: Ensuring We Approve All Subawards under Assistance Instruments and Hold Our Recipients Accountable for Reporting
 subtitle: Ensuring We Approve All Subawards under Assistance Instruments and Hold Our Recipients Accountable for Reporting
 doc-link: ../wp-content/uploads/2021/2020ControllerAlert-FSRSwExample.pdf

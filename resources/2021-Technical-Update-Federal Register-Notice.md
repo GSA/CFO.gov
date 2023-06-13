@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 type: financial-assistance
 title: 2021 Technical Update – Federal Register Notice
 subtitle: 2021 Technical Update – Federal Register Notice

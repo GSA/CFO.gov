@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing
+layout: resources-landing
 title: Controller Alert&#58; Award Description Data Quality for Financial Assistance Awards
 subtitle: Controller Alert&#58; Award Description Data Quality for Financial Assistance Awards
 doc-link: ../wp-content/uploads/2020/08/CONTROLLER_ALERT_AUGUST_2020_FA_Award_Des.pdf

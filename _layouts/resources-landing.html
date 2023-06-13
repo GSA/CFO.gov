@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% comment %}
-This template is for a single knowledge sharing landing page.
+This template is for a single policy landing page.
 {% endcomment %}
 
 <div class="usa-layout-docs__main desktop:grid-col-12">
@@ -14,13 +14,13 @@ This template is for a single knowledge sharing landing page.
                 <div class="text-base margin-bottom-2">
                     <div class="margin-top-neg-105">
                         {% if page.author %}
-                       Posted By <span class="text-bold">{{ page.author }}</span> on {{ page.date | date: '%B %d, %Y' }}
+                        Posted By <span class="text-bold">{{ page.author }}</span> on {{ page.date | date: '%B %d, %Y' }}
                         {% endif %}
                     </div>
                 </div>
                 {{ content }}
             </div>
         </div>
-        <p class="card-tag padding-bottom-3">&#10094; &nbsp; <a href="{{site.baseurl}}/knowledge-sharing/">Back to Knowledge Sharing</a></p>
+        <p class="card-tag padding-bottom-3">&#10094; &nbsp; <a href="{{site.baseurl}}/resources/">Back to Resources</a></p>
     </div>
 </div>

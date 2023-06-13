@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 type: financial-assistance
 title: Supplement Part 8 Appendix VII – Technical Update
 subtitle: Supplement Part 8 Appendix VII – Technical Update

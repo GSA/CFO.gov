@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 date: 2015-04-19
 author: CFO Council
 title: "CONTROLLER ALERT&#58; Management Fees or Profit under Federal Assistance Awards"

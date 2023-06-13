@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: ALUMNI SPOTLIGHT&#58; ANGELA MCPHERSON
 subtitle: Alumni Spotlight&#58; Angela Mcpherson
 filler: Angela McPherson is a member of the 2016-2017 CXO Fellows cohort. 

@@ -1,6 +1,6 @@
 ---
 date: 2021-10-26
-layout: policies-guidance-landing 
+layout: resources-landing
 type: Controller Alert
 title: "2021 Compliance Supplement Addenda 1 & 2 and Technical Update"
 subtitle: "2021 Compliance Supplement Addenda 1 & 2 and Technical Update"

@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: Uniform Guidance Frequently Asked Questions
 subtitle: Uniform Guidance Frequently Asked Questions
 doc-link: ../assets/files/2-CFR-Frequently-Asked Questions_2021050321-FINAL.docx.pdf

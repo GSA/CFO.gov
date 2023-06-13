@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: CXO FELLOWS POWER LUNCH&#58; TIM HORNE AND EMILY MURPHY, GSA
 subtitle: CXO Fellows Power Lunch&#58; Tim Horne And Emily Murphy, GSA
 filler:  As part of the CXO Fellows Power Lunch series, GSA Fellows met with Tim Horne, GSA Acting Administrator and Emily Murphy, Senior Advisor to the Administrator.

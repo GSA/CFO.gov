@@ -1,5 +1,5 @@
 ---
-layout: policies-guidance-landing 
+layout: resources-landing
 date: 2015-01-15
 author: CFO Council
 title: "CONTROLLER ALERT&#58; Travel and Conferences"
