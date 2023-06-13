@@ -55,11 +55,11 @@ jQuery(document).ready(function ($) {
         // Current hash value
         var hashFilter = getHashFilter();
         // Set filters to current values (important for first run)
-        filters["focus-area"] = hashFilter["focus-area"];
-        filters["sub-focus-area"] = hashFilter["sub-focus-area"];
+        filters["focus_area"] = hashFilter["focus_area"];
+        filters["sub_focus_area"] = hashFilter["sub_focus_area"];
         filters["type"] = hashFilter["type"];
         filters["source"] = hashFilter["source"];
-        filters["fiscal-year"] = hashFilter["fiscal-year"];
+        filters["fiscal_year"] = hashFilter["fiscal_year"];
         // filters["status"] = hashFilter["status"];
         // data-filter attribute of clicked button
         var currentFilter = $(this).attr("data-filter");
@@ -68,7 +68,7 @@ jQuery(document).ready(function ($) {
         // data-filter-group key for the current nav group
         var filterGroup = $navGroup.attr("data-filter-group");
         // If the current data-filter attribute matches the current filter,
-        if (currentFilter == hashFilter["focus-area"] || currentFilter == hashFilter["sub-focus-area"] || currentFilter == hashFilter["type"] || currentFilter == hashFilter["source"] || currentFilter == hashFilter["fiscal-year"]) {
+        if (currentFilter == hashFilter["focus_area"] || currentFilter == hashFilter["sub_focus_area"] || currentFilter == hashFilter["type"] || currentFilter == hashFilter["source"] || currentFilter == hashFilter["fiscal_year"]) {
             // Reset group filter as the user has unselected the button
             filters[filterGroup] = "*";
         } else {
@@ -76,7 +76,7 @@ jQuery(document).ready(function ($) {
             filters[filterGroup] = $(this).attr("data-filter");
         }
         // Create new hash
-        var newHash = "focus_area=" + encodeURIComponent(filters["focus_area"]) + "sub_focus_area=" + encodeURIComponent(filters["sub_focus_area"]) + "type=" + encodeURIComponent(filters["type"]) + "&source=" + encodeURIComponent(filters["source"]) + "&fiscal_year=" + encodeURIComponent(filters["fiscal_year"]);
+        var newHash = "focus_area=" + encodeURIComponent(filters["focus_area"]) + "&sub_focus_area=" + encodeURIComponent(filters["sub_focus_area"]) + "&type=" + encodeURIComponent(filters["type"]) + "&source=" + encodeURIComponent(filters["source"]) + "&fiscal_year=" + encodeURIComponent(filters["fiscal_year"]);
         // + "&status=" + encodeURIComponent( filters["status"] );
         // If sort value exists, add it to hash
         if (sortValue) {
