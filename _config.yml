@@ -85,10 +85,8 @@ primary_navigation:
         url: "/workforce-modernization/"
       - name: American Rescue Plan (ARP)
         url:  "/american-rescue-plan/"
-  - name: Policies & Guidance
-    url: "/policies-and-guidance/"
-  - name: Knowledge Sharing
-    url: /knowledge-sharing/
+  - name: Resources
+    url: "/resources/"
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
     url: "/jfmip/"
   - name: <abbr title="Federal Real Property Council">FRPC</abbr>

@@ -15,19 +15,23 @@
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/magnific-popup.js?{{ site.time | date: '%s%N' }}"></script>
 
 <script type="text/javascript">
-    jQuery(document).ready(function(){
+    jQuery(document).ready(function () {
         jQuery('.top').slick({
             lazyLoad: 'ondemand', // ondemand progressive anticipated
             infinite: true,
             autoplay: true,
             autoplaySpeed: 6000,
-            dots:true,
-            arrows:false
+            dots: true,
+            arrows: false
         });
         jQuery('.image-link').magnificPopup({
-            type:'inline',
+            type: 'inline',
             midClick: true
         });
     });
 
 </script>
+
+{% if page.permalink == "/resources/"%}
+<script type="module" src="{{site.baseurl}}/assets/js/resources.js"></script>
+{% endif %}

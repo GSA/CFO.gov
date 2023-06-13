@@ -1,0 +1,26 @@
+<!--***********buttons for resources page*********************************************-->
+<div class="usa-media-block tablet:grid-col-3 display-block">
+    <a class="usa-button usa-button--outline border-0 margin-bottom-2" href="{{ site.baseurl }}/resources/" id="btnReset">Reset Filter</a>
+    <div class="buttonsRow">
+        <nav id="filter" class="filters" aria-label="filter menu">
+            {% assign filters = site.data.resource-filter %}
+            {% for filterItem in filters %}
+            {% assign currentFilterItem = forloop.index %}
+            <h2 class="filter-title font-sans-sm">Filter by {{filterItem.name}}</h2>
+            <ul class="filter-list" data-filter-group="{{filterItem.code}}">
+                {% for each_filterItem in filterItem.children %}
+                {% assign filterTitle = "" %}
+                {% if currentFilterItem == 1 %}
+                {% assign filterTitle = each_filterItem.name %}
+                {% endif %}
+                <li><a aria-label="Filter by {{filterItem.name}}: {{each_filterItem.name}}" role="checkbox" href="javascript:void(0)" data-filter=".{{each_filterItem.name | downcase | replace: " ", "-"}}" data-position="right" title="{{filterTitle}}" tabindex="0">{{each_filterItem.name}}</a></li>
+                {% endfor %}
+            </ul>
+            {% if forloop.last == false %}
+            <br>
+            <div class="ogp-divider-line-grey_lt"></div>
+            {% endif %}
+            {% endfor %}
+        </nav>
+    </div>
+</div>

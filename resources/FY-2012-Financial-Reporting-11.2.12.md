@@ -5,6 +5,6 @@ author: CFO Council
 title: "CONTROLLER ALERT&#58; Financial Reporting Controller Alert"
 subtitle: "Financial Reporting Controller Alert"
 doc-link: ../assets/files/Controller-Alert-FY-2012-Financial-Reporting.pdf
-filters: controller-alerts
+filters: financial-reporting controller-alert
 type: Controller Alert
 ---
