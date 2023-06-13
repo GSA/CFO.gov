@@ -69,15 +69,15 @@ dap_agency: GSA
 
 # Site Navigation
 primary_navigation:
-  - name: About
+  - name: About Us
     url: /
     children:
       - name: The  CFO Council
         url: /about-the-council/
       - name: Members
         url: /members/
-      - name: The Latest from Priority Areas
-        url: /the-latest/
+      - name: The Support Team
+        url: /about-the-council/support/
   - name: Priority Areas
     url: /
     children:
