@@ -26,7 +26,7 @@ This template is for a single policy landing page.
         <div class="grid-row grid-gap">
             <div class="usa-layout-docs__main desktop:grid-col-12 font-sans-sm">
 
-                {% assign sorted = site.policies_guidance | where: 'has_date', 'yes'| sort: 'date' | reverse %}
+                {% assign sorted = site.resources | where: 'has_date', 'yes'| sort: 'date' | reverse %}
                 {% for post in sorted limit:30 %}
                     {% if post.coming_soon != 'yes' and post.type == 'financial-assistance' or post.type == 'erm' or post.type == 'fdt' or post.type == 'fmt' or post.type == 'payment-integrity' %}
 

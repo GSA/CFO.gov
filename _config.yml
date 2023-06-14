@@ -165,7 +165,7 @@ collections:
     output: true
   controlleralerts:
     output: true
-  policies_guidance:
+  resources:
     output: true
 
 permalink: pretty

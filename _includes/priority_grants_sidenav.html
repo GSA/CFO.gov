@@ -42,7 +42,7 @@
     </div>
 
     <div id="tabs-5" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-5" class="tablet:grid-col-9 padding-4">
-        {% assign sorted = (site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'financial-assistance' | sort: 'date') | reverse %}
+        {% assign sorted = (site.resources | where: 'has_date', 'yes' | where: 'type', 'financial-assistance' | sort: 'date') | reverse %}
         {% for item in sorted limit:4 %}
         <div class="border-top border-gray-30 grid-container">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
