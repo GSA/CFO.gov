@@ -77,7 +77,7 @@ primary_navigation:
       - name: Members
         url: /members/
       - name: The Support Team
-        url: /about-the-council/support/
+        url: /support/
   - name: Priority Areas
     url: /
     children:
