@@ -1,10 +1,9 @@
 ---
 layout: resources-landing
-type: Payment Integrity
 filters: payment-integrity best-practice-guidance
 title: 'Payment Integrity Alert: The Use of Automation and Data Analytics From the Office of Management and Budget (OMB) Office of Federal Financial Management and the Pandemic Response Accountability Committee (PRAC)'
 subtitle: OMB/PRAC Alert on The Use of Automation and Data Analytics
-permalink: /automation-and-data-analytics/
+permalink: https://www.pandemicoversight.gov/media/file/joint-payment-integrity-alert-use-automation-and-data-analytics-omb-and-prac
 author: CFO Council 
 date: July 21, 2021
 has_date: 'yes'

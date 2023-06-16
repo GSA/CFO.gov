@@ -1,10 +1,9 @@
 ---
 layout: resources-landing
-type: Payment Integrity
-filters: payment-integrity best-practice-guidance
+filters: major-legislation guidance omb 2021
 title: 'Payment Integrity Alert: Risk Factors and Suggested Mitigating Strategies from the Office of Management and Budget (OMB) Office of Federal Financial Management and the Pandemic Response Accountability Committee (PRAC)'
 subtitle: OMB/PRAC Alert on Pandemic Funding Risk Factors and Mitigation Strategies
-permalink: /payment-integrity-alert-prac/
+external_link: https://www.pandemicoversight.gov/media/file/omb-and-prac-payment-integrity-alert
 author: CFO Council 
 date: April 21, 2021
 has_date: 'yes'
