@@ -3,7 +3,7 @@ layout: resources-landing
 title: 2 C.F.R 200&#58; UNIFORM GUIDANCE
 subtitle: Reducing Improper Payments 
 filler: OMB together with Federal awarding agencies is issuing a joint interim final rule to implement the new guidance at 2 C.F.R. 200 titled Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards (Uniform Guidance).
-permalink: /resources/2-c-f-r-200-uniform-guidance/
+external_url: https://www.govinfo.gov/content/pkg/DCPD-200900942/pdf/DCPD-200900942.pdf
 type: financial-assistance
 date: December 01, 2014
 has_date: 'yes'
