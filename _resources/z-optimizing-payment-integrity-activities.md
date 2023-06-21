@@ -4,7 +4,7 @@ type: Payment Integrity
 filters: payment-integrity best-practice-guidance
 title: 'OPTIMIZING PAYMENT INTEGRITY ACTIVITIES: A Guide for Identifying a Program’s Tolerable Improper Payment Rate'
 subtitle: A Guide for Identifying a Program’s Tolerable Improper Payment Rate
-permalink: /knowledge-sharing/optimizing-payment-integrity-activities/
+permalink: /resources/optimizing-payment-integrity-activities/
 
 ---
 

@@ -5,6 +5,6 @@ author: CFO Council
 title: "CONTROLLER ALERT&#58; Travel and Conferences"
 subtitle: " Travel and Conferences"
 doc-link: ../assets/files/CONTROLLER-ALERT-Travel-and-Conferences.pdf
-filters: financial-reporting controller-alert omb 2013
+filters: controller-alert omb
 ---
 [ Travel and Conferences]({{site.baseurl}}/assets/files/CONTROLLER-ALERT-Travel-and-Conferences.pdf)
