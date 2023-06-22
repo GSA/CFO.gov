@@ -3,21 +3,22 @@
 <div class="usa-media-block tablet:grid-col-9">
     <p class="filter-count card-tag margin-top-0 text-gray-50 text-thin"></p>
     <div class="resources">
-        {% for item in site.resources %}
-        <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }}">
-            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover ">
-                {% if item.permalink %}
-                <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.permalink }}">
+        {% for resource in site.resources %}
+        {% assign className = resource.filters | split: ' ' | first %}
+        <div class="tablet:grid-col-4  grid-spacing policy {{ resource.filters }}">
+            <div class="border-top-05 {{className}}-border bg-white padding-2 shadow-5 height-full members-hover ">
+                {% if resource.permalink %}
+                <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ resource.permalink }}">
                     {% else %}
-                    <a class="no-style anchor-fill" href="{{ item.doc-link }}">
+                    <a class="no-style anchor-fill" href="{{ resource.doc-link }}">
                         {% endif %}
                         <div class="text-container height-card-lg">
                             <strong>
                                 <p>
-                                    {{ item.subtitle }}
+                                    {{ resource.subtitle }}
                                 </p>
                             </strong>
-                            {% assign filters = item.filters | split: ' ' %}
+                            {% assign filters = resource.filters | split: ' ' %}
                             {% for filter in filters %}
                             {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
                             {% if has_link == 'No' %}
