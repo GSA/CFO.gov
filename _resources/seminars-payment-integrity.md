@@ -1,6 +1,6 @@
 ---
 layout: resources-landing
-title: "CONTROLLER ALERT&#58; Seminars on Payment Integrity"
+title: "Seminars on Payment Integrity"
 subtitle: "Seminars on Payment Integrity"
 filters: payment-integrity training omb
 permalink: /resources/seminars-payment-integrity/
