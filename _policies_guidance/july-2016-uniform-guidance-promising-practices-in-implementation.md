@@ -1,8 +1,8 @@
 ---
 layout: knowledge-sharing-landing
-title: July 2016&#58; Uniform Guidance&#58; Promising Practices in Implementation
+title: 'Uniform Guidance: Promising Practices in Implementation'
 subtitle: Uniform Guidance Promising Practices in Implementation
-permalink: /knowledge-sharing/july-2016-uniform-guidance-promising-practices-in-implementation/
+permalink: /knowledge-sharing/uniform-guidance-promising-practices-in-implementation/
 type: financial-assistance
 filler: Opening Remarks Dave Mader, Controller, OMB Rhea Hubbard, Policy Analyst, OMB Gil Tran, Policy Analyst, OMB Promising Practices in Implementation; Risk Assessment (Panel 1) Andrea Brandon, Director, Financial Assistance Policy and Oversight, Department of Homeland Security and COFAR Co-Chair Phil Maestri, Director, Risk Management Service, U.S. Department of Education Moderator; Rhea Hubbard, Policy Analyst, OMB. Continued
 date: July 05, 2016
@@ -61,11 +61,6 @@ Resources:<br />
 <li>Moderator: Gil Tran, Policy Analyst, <abbr title="Office of Management and Budget">OMB</abbr></li>
 </ul>
 <p><iframe title="Uniform Guidance: Promising Practices in Implementation: Personnel Services (Panel 4)" src="https://www.youtube.com/embed/pA5n6oixAPI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
-<strong>Resources:</strong><br />
-REPORT: Labor Effort Reporting under the Federal Demonstration Project’s Pilot Payroll<br />
-Certification Program at George Mason University, Report No. 15-1-017 <a href="http://go.usa.gov/x3WyJ">http://go.usa.gov/x3WyJ</a></p>
-<p>REPORT: Labor Effort Reporting under the Federal Demonstration Partnership Pilot<br />
-Payroll Certification at Michigan Technological University <a href="http://go.usa.gov/x3WMd">http://go.usa.gov/x3WMd</a></p>
 <hr />
 <h3> Indirect Cost Rates (Panel 5)</h3>
 <ul>
