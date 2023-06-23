@@ -50,7 +50,7 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
                 {% for council_member in site.data.council_members %}
                 <div class="tablet:grid-col-4 container padding-105">
-                    <a href="{{ council_member.website_url }}" class="height-full display-block text-no-underline text-ink">
+                    <a href="{{ council_member.website_url }}" target="_blank" class="height-full display-block text-no-underline text-ink">
                         <div class="leftSeal">
                             <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{council_member.agency | slugify}}.png" alt="{{ council_member.agency }} seal">
                         </div>
