@@ -14,8 +14,8 @@
              {% endif %}
                 <div class="text-container height-card-lg">
                 <strong><p>{{ resource.subtitle }}</p></strong>
-                {% assign filters = resource.filters | split: ' ' limit: 2 %}
-                {% for filter in filters %}
+                {% assign filters = resource.filters | split: ' ' %}
+                {% for filter in filters  limit: 2 %}
                 {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
                 {% if has_link == 'No' %}
                 <p class="title-resources">{{ filter | upcase }}</p>
