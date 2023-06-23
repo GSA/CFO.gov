@@ -8,5 +8,4 @@ type: CXO Fellows
 date: April 27, 2021
 has_date: 'yes'
 author: 
-filters: cxo-fellows
 ---

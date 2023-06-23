@@ -3,12 +3,11 @@ layout: resources-landing
 title: CFOC FINANCE FELLOWS CLASS OF 2014-2015
 subtitle: CFOC Finance Fellows Class Of 2014-2015
 filler: Hicham Touti Department of Agriculture Daeshawn Branch Department of Commerce Filipina Hartwell Department of Commerce Kelli Walters Department of Commerce Helen Gu
-permalink: /knowledge-sharing/cfoc-finance-fellows-class-of-2014-2015/
+permalink: /resources/cfoc-finance-fellows-class-of-2014-2015/
 type: CXO Fellows
 date: November 01, 2014
 has_date: 'yes'
 author: CFO Council 
-filters: cxo-fellows
 ---
 
 <div style="line-height: 1.8em;margin-bottom: 80px; display: block;">

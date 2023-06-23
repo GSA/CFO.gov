@@ -1,6 +1,4 @@
 ---
-date: 2022-05-17
-author: CFO Council
 layout: resources-landing 
 title: "Improving the Quality of Federal Spending"
 subtitle: "Improving the Quality of Federal Spending"

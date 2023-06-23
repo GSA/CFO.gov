@@ -3,11 +3,10 @@ layout: resources-landing
 title: The Power of Cross-Agency Collaboration
 subtitle: The Power of Cross-Agency Collaboration
 filler: Among the many benefits of the CXO Fellows Program is the opportunity to meet and collaborate with Fellows in other agencies.
-permalink: /knowledge-sharing/cross-agency-collaboration/
+permalink: /resources/cross-agency-collaboration/
 type: CXO Fellows
 date: May 23, 2022
 has_date: 'yes'
-filters: cxo-fellows
 ---
 
 Among the many benefits of the CXO Fellows Program is the opportunity to meet and collaborate with Fellows in other agencies. This is a powerful way to break down the silos that we find ourselves stuck in at some of our agencies. While that&#39;s important, there are many more advantages that you can receive from cross-agency collaboration. Below learn more about some of the benefits you can gain by becoming a CXO Fellow.

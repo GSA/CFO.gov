@@ -4,9 +4,6 @@ filters: major-legislation guidance omb 2021
 title: "Payment Integrity Alert: Risk Factors and Suggested Mitigating Strategies from the Office of Management and Budget (OMB) Office of Federal Financial Management and the Pandemic Response Accountability Committee (PRAC)"
 subtitle: "Payment Integrity Alert: Risk Factors and Suggested Mitigating Strategies from the Office of Management and Budget (OMB) Office of Federal Financial Management and the Pandemic Response Accountability Committee (PRAC)"
 external_link: https://www.pandemicoversight.gov/media/file/omb-and-prac-payment-integrity-alert
-author: CFO Council 
-date: April 21, 2021
-has_date: 'yes'
 ---
 *Consistent with President Biden’s charge to, through the implementation of the American Rescue Plan (ARP), “prove to the American people that their government can deliver for them, and do it without waste or fraud,”<sup>1</sup>  and building on the White House ARP Implementation Team’s ongoing collaboration with the PRAC, this is the first in a series of communications that have been jointly prepared by OMB and the PRAC. These communications are intended to bring awareness on key issues where OMB and the PRAC believe further action may be warranted. This document does not constitute official guidance or require specific tasks for agencies beyond consideration of appropriate steps to address ongoing or future issues related to payment integrity.*
 

@@ -3,12 +3,11 @@ layout: resources-landing
 title: MULVANEY SHARES LEADERSHIP LESSONS WITH CXO FELLOWS
 subtitle: Mulvaney Shares Leadership Lessons With CXO Fellows
 filler:  Fifty fellows heard from top government leadership in a session with Mick Mulvaney, Director of the Office of Management and Budget, as part of the 2016-2017 CXO Fellows Program.
-permalink: /knowledge-sharing/mulvaney-shares-leadership-lessons-with-cxo-fellows/
+permalink: /resources/mulvaney-shares-leadership-lessons-with-cxo-fellows/
 type: CXO Fellows
 date: July 24, 2017
 has_date: 'yes'
 author: Amy Bontrager 
-filters: cxo-fellows
 ---
 
 <div style="line-height: 1.8em;margin-bottom: 80px; display: block" >

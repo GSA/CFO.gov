@@ -3,11 +3,10 @@ layout: resources-landing
 title: CXO Fellows Program Applicant Checklist
 subtitle: CXO Fellows Program Applicant Checklist
 filler: The CXO Fellows Program offers an engaging opportunity for Federal Employees to develop leadership and career-building skills while networking and collaborating with like-minded individuals from other federal agencies.
-permalink: /knowledge-sharing/applicant-checklist/
+permalink: /resources/applicant-checklist/
 type: CXO Fellows
 date: April 4, 2022
 has_date: 'yes'
-filters: cxo-fellows
 ---
 
 The CXO Fellows Program offers an engaging opportunity for Federal Employees to develop leadership and career-building skills while networking and collaborating with like-minded individuals from other federal agencies. The Fellows gather virtually at least twice a month, from October to September, for developmental sessions, where they meet with leaders from both the private sector and federal government, who share valuable insights based on their experiences. There is no cost to become a CXO Fellow, but there are some participation guidelines for those who are considering applying. The following checklist offers the basic requirements for consideration.

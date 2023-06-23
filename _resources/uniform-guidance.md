@@ -3,7 +3,6 @@ layout: resources-landing
 title: "Uniform Guidance"
 subtitle: "Uniform Guidance"
 permalink: /resources/uniform-guidance/
-filler: Uniform Guidance In December 2014, OMB together with Federal awarding agencies issued an interim final rule to implement the Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards (Uniform Guidance). This guidance and implementing regulations delivers on President Obama's second term management agenda and his first term directives under Executive Order 13520, the . Continued
 filters: federal-financial-assistance guidance
 ---
 

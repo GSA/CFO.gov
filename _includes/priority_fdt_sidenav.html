@@ -50,7 +50,7 @@
         </ul>
     </div>
     <div id="tabs-4" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-4" class="tablet:grid-col-9 padding-4">
-        {% assign sorted = (site.resources | where: 'has_date', 'yes' | where: 'type', 'fdt' | sort: 'date') | reverse %}
+        {% assign sorted = (site.other_resources | where: 'has_date', 'yes' | where: 'type', 'fdt' | sort: 'date') | reverse %}
         {% for item in sorted limit:3 %}
         <div class="border-top border-gray-30 grid-container">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">

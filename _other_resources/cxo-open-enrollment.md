@@ -3,11 +3,10 @@ layout: resources-landing
 title: Enrollment is Open for CXO Fellows Program
 subtitle: Enrollment is Open for CXO Fellows Program
 filler: 
-permalink: /knowledge-sharing/enrollment-open-for-cxo-fellows-program/
+permalink: /resources/enrollment-open-for-cxo-fellows-program/
 type: CXO Fellows
 date: May 1, 2023
 has_date: 'yes'
-filters: cxo-fellows
 ---
 
 <div class="cxo-quote">

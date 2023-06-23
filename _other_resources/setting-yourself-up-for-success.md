@@ -3,11 +3,10 @@ layout: resources-landing
 title: Setting Yourself Up for Success at CXO
 subtitle: Setting Yourself Up for Success at CXO
 filler: Congratulations! You’ve been accepted into the CXO Fellows Program. As a rising leader, you’re about to experience a wealth of professional growth experiences.
-permalink: /knowledge-sharing/setting-up-for-success/
+permalink: /resources/setting-up-for-success/
 type: CXO Fellows
 date: October 12, 2022
 has_date: 'yes'
-filters: cxo-fellows
 ---
 
 Congratulations! You've been accepted into the CXO Fellows Program. As a rising leader, you're about to experience a wealth of professional growth experiences. This is not a pool that you dip your toe into; this is an experience that you'll want to dive head first into and fully immerse yourself in all of the opportunities.

@@ -1,6 +1,5 @@
 ---
 layout: resources-landing
-author: CFO Council
 title: "CA-23-01 Implementation of the Congressional Budget Justification Transparency Act"
 subtitle: "CA-23-01 Implementation of the Congressional Budget Justification Transparency Act"
 doc-link: ../assets/files/CA-23-01 Implementation of the CBJTA.pdf

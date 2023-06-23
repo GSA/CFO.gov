@@ -3,11 +3,10 @@ layout: resources-landing
 title: It’s Time to Invest in Yourself
 subtitle: It’s Time to Invest in Yourself
 filler: As a GS9-13 employee, you’ve already demonstrated your commitment as a federal employee. You have a fair understanding of how the Government operates, and how to get the job done within your agency. The CXO Fellows Program was created for people like you.
-permalink: /knowledge-sharing/its-time-to-invest-in-yourself/
+permalink: /resources/its-time-to-invest-in-yourself/
 type: CXO Fellows
 date: March 9, 2022
 has_date: 'yes'
-filters: cxo-fellows
 ---
 
 <p style="text-align:center;"><i>“We can’t become what we need to be by remaining what we are.”</i> – <b>Oprah Winfrey</b></p>

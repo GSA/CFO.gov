@@ -1,7 +1,4 @@
 ---
-date: 2022-05-17
-author: CFO Council
-layout: resources-landing
 title: "Acknowledging Inconsistent records for a subset of public financial assistance"
 subtitle: "Acknowledging Inconsistent records for a subset of public financial assistance"
 filters: "Acknowledging Inconsistent records for a subset of public financial assistance"

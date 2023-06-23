@@ -8,5 +8,4 @@ type: CXO Fellows
 date: June 12, 2020
 has_date: 'yes'
 author: Amy Bontrager
-filters: cxo-fellows
 ---

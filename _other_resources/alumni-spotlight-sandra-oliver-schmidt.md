@@ -3,12 +3,11 @@ layout: resources-landing
 title: ALUMNI SPOTLIGHT&#58; SANDRA OLIVER SCHMIDT
 subtitle: Alumni Spotlight&#58; Sandra Oliver Schmidt
 filler:  We caught up with Sandra Oliver Schmidt in a recent event for the current cohort at the Federal Law Enforcement Training Center (FLETC). 
-permalink: /knowledge-sharing/alumni-spotlight-sandra-oliver-schmidt/
+permalink: /resources/alumni-spotlight-sandra-oliver-schmidt/
 type: CXO Fellows
 date: August 23, 2018
 has_date: 'yes'
 author: Annette Maldonado
-filters: cxo-fellows
 ---
 <div style="line-height: 1.8em;margin-bottom: 80px; display: block;">
                 

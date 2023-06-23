@@ -8,5 +8,4 @@ type: CXO Fellows
 date: June 4, 2020
 has_date: 'yes'
 author: The Performance.gov Team
-filters: cxo-fellows
 ---

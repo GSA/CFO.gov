@@ -7,7 +7,6 @@ type: financial-assistance
 filler: 
 date: March 20, 2017
 author: CFO Council 
-filters: financial-assistance best-practice-guidance
 ---
 
 
