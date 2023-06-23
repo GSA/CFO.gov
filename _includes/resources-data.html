@@ -6,11 +6,7 @@
         {% for resource in site.resources %}
         {% assign className = resource.filters | split: ' ' | first %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ resource.filters }}">
-            {% if resource.filters %}
              <div class="border-top-05 {{className}}-border bg-white padding-2 shadow-5 height-full members-hover">
-             {% else %}
-             <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover">
-             {% endif %}
              {% if resource.permalink %}
                 <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ resource.permalink }}">
              {% else %}
