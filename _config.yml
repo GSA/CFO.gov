@@ -167,6 +167,8 @@ collections:
     output: true
   resources:
     output: true
+  other_resources:
+    output: true
 
 permalink: pretty
 
