@@ -20,9 +20,11 @@
                 {% if has_link == 'No' %}
                 <p class="title-resources">{{ filter | upcase }}</p>
                 {% else %}
-                {% assign second_filter = filter | split: '-' | first %}
+                {% assign hyphen_filter = filter | split: '-' %}
                 <p class="title-resources">
-                {{ second_filter | upcase }}
+                    {% for second_filter in hyphen_filter limit: 2 %}
+                    {{ second_filter | upcase }}
+                    {% endfor %}
                 </p>
                 {% endif %}
                 {% endfor %}
