@@ -14,7 +14,7 @@
              {% endif %}
                 <div class="text-container height-card-lg">
                 <strong><p>{{ resource.subtitle }}</p></strong>
-                {% assign filters = resource.filters | split: ' ' %}
+                {% assign filters = resource.filters | split: ' ' limit: 2 %}
                 {% for filter in filters %}
                 {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
                 {% if has_link == 'No' %}
@@ -22,7 +22,7 @@
                 {% else %}
                 {% assign hyphen_filter = filter | split: '-' %}
                 <p class="title-resources">
-                    {% for second_filter in hyphen_filter limit: 2 %}
+                    {% for second_filter in hyphen_filter %}
                     {{ second_filter | upcase }}
                     {% endfor %}
                 </p>
