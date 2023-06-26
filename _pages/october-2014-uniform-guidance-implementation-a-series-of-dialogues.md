@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: October 2014&#58; Uniform Guidance Implementation&#58; A Series of Dialogues
 subtitle: Uniform Guidance Implementation a Series of Dialogues
 filler: Video content. 
