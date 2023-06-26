@@ -2,6 +2,6 @@
 layout: resources-landing
 title: "Key Practices to Reduce Improper Payments through Identify Verification: JFMIP Payment Integrity initiative"
 subtitle: "Key Practices to Reduce Improper Payments through Identify Verification: JFMIP Payment Integrity initiative"
-external_url: https://www.cfo.gov/jfmip/payment-integrity-initiative/
+external_link: https://www.cfo.gov/jfmip/payment-integrity-initiative/
 filters: payment-integrity website federal-agency
 ---
