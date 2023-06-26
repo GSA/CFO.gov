@@ -1,5 +1,5 @@
 ---
-layout: knowledge-sharing-landing
+layout: resources-landing
 title: 3 Reasons Why YOU Should Apply to the CXO Fellowship Program
 subtitle: 3 Reasons Why YOU Should Apply to the CXO Fellowship Program
 filler:  To find out what the CXO Fellowship program looks like and how it impacts participants on a daily basis, we took a peek behind the curtain and saw for ourselves just how transformative this program can be.
