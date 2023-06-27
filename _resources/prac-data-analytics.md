@@ -3,7 +3,7 @@ layout: resources-landing
 filters: major-legislation guidance omb 2021
 title: "OMB/PRAC Alert on The Use of Automation and Data Analytics"
 subtitle: "OMB/PRAC Alert on The Use of Automation and Data Analytics"
-permalink: https://www.pandemicoversight.gov/media/file/joint-payment-integrity-alert-use-automation-and-data-analytics-omb-and-prac
+external_link: https://www.pandemicoversight.gov/media/file/joint-payment-integrity-alert-use-automation-and-data-analytics-omb-and-prac
 ---
 
 *The intent of this joint alert is to raise awareness on areas where OMB and the PRAC believe there is opportunity to deploy strategies to mitigate payment integrity risks while promoting the equitable delivery of mission objectives, including managing privacy risks. This document does not constitute official guidance or require agencies to undertake specific tasks beyond consideration of appropriate steps to address ongoing or future issues related to payment integrity.*
