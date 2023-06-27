@@ -87,6 +87,8 @@ primary_navigation:
         url:  "/american-rescue-plan/"
       - name: Major Legislation
         url:  "/major-legislation/"
+      - name: Federal Financial Reporting
+        url:  "/federal-financial-reporting/"
   - name: Resources
     url: "/resources/"
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
