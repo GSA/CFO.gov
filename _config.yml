@@ -78,10 +78,10 @@ primary_navigation:
         url: /members/
       - name: The Support Team
         url: /support/
-  - name: Priority Areas
+  - name: Our Work
     url: /
     children:
-      - name: Workforce Modernization
+      - name: Financial Management Workforce
         url: "/workforce-modernization/"
       - name: American Rescue Plan (ARP)
         url:  "/american-rescue-plan/"
