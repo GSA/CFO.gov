@@ -69,16 +69,16 @@ dap_agency: GSA
 
 # Site Navigation
 primary_navigation:
-  - name: About
+  - name: About Us
     url: /
     children:
       - name: The  CFO Council
         url: /about-the-council/
       - name: Members
         url: /members/
-      - name: The Latest from Priority Areas
-        url: /the-latest/
-  - name: Our Work
+      - name: The Support Team
+        url: /support/
+  - name: Priority Areas
     url: /
     children:
       - name: Workforce Modernization
@@ -87,10 +87,8 @@ primary_navigation:
         url:  "/american-rescue-plan/"
       - name: Major Legislation
         url:  "/major-legislation/"
-  - name: Policies & Guidance
-    url: "/policies-and-guidance/"
-  - name: Knowledge Sharing
-    url: /knowledge-sharing/
+  - name: Resources
+    url: "/resources/"
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
     url: "/jfmip/"
   - name: <abbr title="Federal Real Property Council">FRPC</abbr>
@@ -169,7 +167,9 @@ collections:
     output: true
   controlleralerts:
     output: true
-  policies_guidance:
+  resources:
+    output: true
+  other_resources:
     output: true
 
 permalink: pretty

@@ -83,7 +83,7 @@ keyword: CFO Council, CFOC, CXO Fellows
     </div>
 
     <div id="tabs-5" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-1" class="tablet:grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
-        {% assign sorted = site.policies_guidance | where: 'has_date', 'yes' | where: 'type', 'CXO Fellows' | sort: 'date' | reverse %}
+        {% assign sorted = site.other_resources | where: 'has_date', 'yes' | where: 'type', 'CXO Fellows' | sort: 'date' | reverse %}
         {% for item in sorted %}
         <div class="border-top border-gray-30 grid-container">
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
@@ -95,8 +95,8 @@ keyword: CFO Council, CFOC, CXO Fellows
                     <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read More</a>
                     {% elsif item.doc-link %}
                     <a class="text-no-underline text-bold" href="{{ item.doc-link }}">Download the brochure</a>
-                    {% elsif item.external_url %}
-                    <a class="text-no-underline text-bold" href="{{ item.external_url }}">Read More</a>
+                    {% elsif item.external_link %}
+                    <a class="text-no-underline text-bold" href="{{ item.external_link }}">Read More</a>
                     {% endif %}
                 </div>
             </div>

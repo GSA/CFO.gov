@@ -4,6 +4,7 @@
 @import "uswds";
 @import "../../_sass/members";
 @import "../../_sass/knowledgesharing";
+@import "./resources.scss";
 
 // Add your SASS/CSS here
 //@import "../assets/css/slick.css";
@@ -314,6 +315,15 @@ color:#005ea2;
 .picon{
   height: 100px;
   padding: 25px;
+}
+.picon-svg{
+  height: 110px;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.f-weight-600{
+  font-weight: 600;
 }
 .divTable {
   display: table;
@@ -947,4 +957,8 @@ abbr{
           padding: 10px;
       }
   }
+}
+
+.controller-alert-button{
+    text-align:right;
 }
