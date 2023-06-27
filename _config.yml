@@ -85,6 +85,8 @@ primary_navigation:
         url: "/workforce-modernization/"
       - name: American Rescue Plan (ARP)
         url:  "/american-rescue-plan/"
+      - name: Major Legislation
+        url:  "/major-legislation/"
   - name: Resources
     url: "/resources/"
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
