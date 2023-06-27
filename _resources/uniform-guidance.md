@@ -1,7 +1,7 @@
 ---
 layout: resources-landing
-title: "Uniform Guidance"
-subtitle: "Uniform Guidance"
+title: "Uniform Guidance: 2 CFR 200"
+subtitle: "Uniform Guidance: 2 CFR 200"
 permalink: /resources/uniform-guidance/
 filters: federal-financial-assistance guidance
 ---

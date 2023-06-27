@@ -3,7 +3,7 @@ layout: resources-landing
 title: LEARNING LEADERSHIP AND SPACE FLIGHT&#58; CXO FELLOWS VISIT NASA GODDARD SPACE FLIGHT CENTER
 subtitle: Learning Leadership And Space Flight&#58; CXO Fellows Visit Nasa Goddard Space Flight Center
 filler:  On April 5th, CXO Fellows attended an in-depth tour and briefing at NASA Goddard Space Flight Center from senior NASA staff and scientists. 
-permalink: /knowledge-sharing/cxo-fellows-visit-nasa-goddard/
+permalink: /resources/cxo-fellows-visit-nasa-goddard/
 type: CXO Fellows
 date: May 17, 2016
 has_date: 'yes'
