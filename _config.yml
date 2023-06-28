@@ -78,17 +78,19 @@ primary_navigation:
         url: /members/
       - name: The Support Team
         url: /support/
-  - name: Priority Areas
+  - name: Our Work
     url: /
     children:
-      - name: Workforce Modernization
+      - name: Financial Management Workforce
         url: "/workforce-modernization/"
       - name: American Rescue Plan (ARP)
         url:  "/american-rescue-plan/"
-  - name: Policies & Guidance
-    url: "/policies-and-guidance/"
-  - name: Knowledge Sharing
-    url: /knowledge-sharing/
+      - name: Major Legislation
+        url:  "/major-legislation/"
+      - name: Federal Financial Reporting
+        url:  "/federal-financial-reporting/"
+  - name: Resources
+    url: "/resources/"
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
     url: "/jfmip/"
   - name: <abbr title="Federal Real Property Council">FRPC</abbr>
@@ -167,7 +169,9 @@ collections:
     output: true
   controlleralerts:
     output: true
-  policies_guidance:
+  resources:
+    output: true
+  other_resources:
     output: true
 
 permalink: pretty

@@ -5,19 +5,17 @@ permalink: /members/
 description: Learn more on the CFOC members.
 keyword: CFO Priority Areas, CFO Council, CFOC members, Members
 ---
-
-
 <!-- *****LOOP FOR Leadership *********-->
 <div class="grid-container font-sans-sm">
     <section class="usa-graphic-list padding-top-0">
         <div class="grid-container">
-            <h2 class="font-sans-lg">Leadership</h2>
+            <h1 class="font-sans-lg">Leadership</h1>
+            <p>The Deputy Director for Management of the Office of Management and Budget is the Chairperson of the Council.</p>
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-
                 {% for bio in site.leadership %}
                 {% if bio.bio-image %}
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black; text-decoration: none; display: block;" class="height-full">
+                <div class="tablet:grid-col-4 container padding-105">
+                    <a href="{{ site.baseurl }}{{ bio.permalink }}" class="height-full display-block text-no-underline text-ink">
                         <div class="left">
                             <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                         </div>
@@ -28,8 +26,8 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                     </a>
                 </div>
                 {% else %}
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black; text-decoration: none; display: block;" class="height-full">
+                <div class="tablet:grid-col-4 container padding-105">
+                    <a href="{{ site.baseurl }}{{ bio.permalink }}" class="height-full display-block text-no-underline text-ink">
                         <div class="left">
                             <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{bio.department | slugify}}.png" alt="{{ bio.department }} seal">
                         </div>
@@ -41,21 +39,44 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
                 </div>
                 {% endif %}
                 {% endfor %}
-
-
             </div>
+        </div>
+    </section>
+
+    <section class="usa-graphic-list padding-top-0">
+        <div class="grid-container">
+            <h1 class="font-sans-lg">CFO Council Members</h1>
+            <p>Our members are each of the agency Chief Financial Officers appointed under section 901 of title 31, United States Code, as amended by the <a href="https://www.congress.gov/101/statute/STATUTE-104/STATUTE-104-Pg2838.pdf" target="_blank">Chief Financial Officers Act of 1990</a>.</p>
+            <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+                {% for council_member in site.data.council_members %}
+                <div class="tablet:grid-col-4 container padding-105">
+                    <a href="{{ council_member.website_url }}" target="_blank" class="height-full display-block text-no-underline text-ink">
+                        <div class="leftSeal">
+                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{council_member.agency | slugify}}.png" alt="{{ council_member.agency }} seal">
+                        </div>
+                        <div class="rightSeal">
+                            <p>
+                                <span class="nameSeal">{{ council_member.agency }}</span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>  
         </div>
     </section>
 
 </div>
 
 
-{% assign group_members = site.members | group_by: "department" | sort_natural: "name" %}
 
+
+
+<!-- {% assign group_members = site.members | group_by: "department" | sort_natural: "name" %} -->
 
 
 <!-- *****LOOP FOR MEMBERS *********-->
-<div class="grid-container font-sans-sm">
+<!-- <div class="grid-container font-sans-sm">
     <section class="usa-graphic-list padding-top-0">
         <div class="grid-container">
             <h2 class="font-sans-lg">CFO Council Members</h2>
@@ -96,4 +117,4 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
         </div>
     </section>
 
-</div>
+</div> -->
