@@ -158,7 +158,7 @@ filters: federal-financial-assistance training omb
               </tr>
               <tr>
                 <td>October 24, 2019</td>
-                <td>Reducing Administrative Burden - A State’s Perspective</td>
+                <td>Reducing Administrative Burden - A State's Perspective</td>
                 <td><a href="{{ site.baseurl }}/wp-content/uploads/2021/10-24-reducing-administrative-burden-a-states-perspective.pdf">View the Presentation</a></td>
               </tr>
               <tr>
@@ -173,7 +173,7 @@ filters: federal-financial-assistance training omb
               </tr>
               <tr>
                 <td>June 27, 2019</td>
-                <td>What’s the GIST of Your Grant Programs?</td>
+                <td>What's the GIST of Your Grant Programs?</td>
                 <td><a href="{{ site.baseurl }}/wp-content/uploads/2021/6-27-the-opportunity-project.pdf">View the Presentation</a></td>
               </tr>
               <tr>
