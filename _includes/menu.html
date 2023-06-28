@@ -19,41 +19,49 @@ where we provide an easy way to manage your navigation system
   <nav role="navigation" class="usa-nav">
     <div class="usa-nav__inner">
       <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
-      <ul class="usa-nav__primary usa-accordion"  >
-        {% for nav_item in include.primary_navigation %}
-        {% unless nav_item.children %}
-        {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
-        {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-            href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name }}</span></a>
-        </li>
-        {% else %}
-        {% assign nav_id = 'primary-nav-' | append: forloop.index %}
-        <li class="usa-nav__primary-item">
-          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ nav_id }}"><span
-              class="header-menu-text">{{ nav_item.name | escape }}</span></button>
-          <ul id="{{ nav_id }}" class="usa-nav__submenu" hidden="">
-            {% for subnav_item in nav_item.children %}
-            <li class="usa-nav__submenu-item">
-              <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
-            </li>
-            {% endfor %}
-          </ul>
+      <div class="grid-row">
+          <div class="desktop:grid-col-10">
+              <ul class="usa-nav__primary usa-accordion">
+                  {% for nav_item in include.primary_navigation %}
+                  {% unless nav_item.children %}
+                  {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
+                  {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+                  <li class="usa-nav__primary-item">
+                      <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+                         href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name }}</span></a>
+                  </li>
+                  {% else %}
+                  {% assign nav_id = 'primary-nav-' | append: forloop.index %}
+                  <li class="usa-nav__primary-item">
+                      <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ nav_id }}">
+                          <span class="header-menu-text">{{ nav_item.name | escape }}</span>
+                      </button>
+                      <ul id="{{ nav_id }}" class="usa-nav__submenu" hidden="">
+                          {% for subnav_item in nav_item.children %}
+                          <li class="usa-nav__submenu-item">
+                              <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
+                          </li>
+                          {% endfor %}
+                      </ul>
 
-        </li>
-        {% endunless %}
-        {% endfor %}
-      </ul>
+                  </li>
+                  {% endunless %}
+                  {% endfor %}                 
+              </ul>
+          </div>
+          <div class="desktop:grid-col-2 controller-alert-button">
+              <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-1 width-full" href="{{site.baseurl}}/resources/#focus_area=*&sub_focus_area=*&type=.controller-alert&source=*&fiscal_year=*">Controller Alert</a>
+          </div>
+          </div>
       <div class="usa-nav__secondary secondary-nav-padding">
-        <ul class="usa-nav__secondary-links">
-          {% for nav_item in include.secondary_navigation %}
-          <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url  }}">{{ nav_item.name | escape }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-        {% include searchgov/form.html searchgov=site.searchgov %}
+          <ul class="usa-nav__secondary-links">
+              {% for nav_item in include.secondary_navigation %}
+              <li class="usa-nav__secondary-item">
+                  <a href="{{ nav_item.url  }}">{{ nav_item.name | escape }}</a>
+              </li>
+              {% endfor %}
+          </ul>
+          {% include searchgov/form.html searchgov=site.searchgov %}
       </div>
     </div>
   </nav>
