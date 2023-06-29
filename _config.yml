@@ -82,7 +82,7 @@ primary_navigation:
     url: /
     children:
       - name: Financial Management Workforce
-        url: "/workforce-modernization/"
+        url: "/financial-management-workforce/"
       - name: American Rescue Plan (ARP)
         url:  "/american-rescue-plan/"
       - name: Major Legislation
