@@ -6,6 +6,15 @@
         {% for resource in site.resources %}
         {% assign className = resource.filters | split: ' ' | first %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ resource.filters }}">
+            <!-- adds star icon on new resources for 30 days -->
+                            {% if resource.post-date %}
+                                {% assign days = 30 | times: 24 | times: 60 | times: 60 %}
+                                {% assign end_date = resource.post-date | date: '%s' | plus: days %}
+                                {% assign today_date = 'now' | date: '%s' | plus: 0 %}
+                                {% if today_date < end_date %}
+                                <img class="new-resource-icon" src="{{ site.baseurl }}/assets/images/star.svg" alt="an icon for newly posted resource">
+                                {% endif %}
+                            {% endif %}
              <div class="border-top-05 {{className}}-border bg-white padding-2 shadow-5 height-full members-hover">
              {% if resource.permalink %}
                 <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ resource.permalink }}">
