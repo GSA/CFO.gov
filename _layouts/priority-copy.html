@@ -5,7 +5,7 @@ title: Priority
 
 ---
 
-<section class="usa-hero grid-container {{ page.type }}-page">
+<section class="usa-hero grid-container {{ page.type }}-page {% unless page.priority_icons %} margin-bottom-8{% endunless %}">
     <div class="grid-row grid-gap">
         <div class="grid-col-12 tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.png"
@@ -28,6 +28,7 @@ title: Priority
 
 
 <!--All icons and text for each priority area are referenced in the respective md file under prioritypages folder-->
+{% if page.priority_icons %}
 <section class="usa-graphic_list usa-section usa-prose clearfix">
 
     <div class="grid-row clearfix grid-container priority-icons">
@@ -54,6 +55,7 @@ title: Priority
         </div>
 
 </section>
+{% endif %}
 
 
 <div class="grid-container grid-gap">{{ content }}</div>
@@ -87,6 +89,10 @@ title: Priority
 
     {% if page.type == "arp" %}
     {% include priority_arp_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "major-legislation" %}
+    {% include priority_ml_sidenav.html %}
     {% endif %}
 
 </section>
