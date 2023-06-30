@@ -1,6 +1,6 @@
 ---
 layout: bio
-name : Ms. Gregg Treml
+name : Mr. Gregg Treml
 department: Environmental Protection Agency
 title: Deputy Chief Financial Officer
 ---
