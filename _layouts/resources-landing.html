@@ -21,6 +21,8 @@ This template is for a single policy landing page.
                 {{ content }}
             </div>
         </div>
+        {% if page.back_to_button != "no" %}
         <p class="card-tag padding-bottom-3">&#10094; &nbsp; <a href="{{site.baseurl}}/resources/">Back to Resources</a></p>
+        {% endif %}
     </div>
 </div>

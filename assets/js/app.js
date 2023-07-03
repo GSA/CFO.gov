@@ -12,7 +12,3 @@ jQuery(document).ready(function ($) {
         $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
     })
 });
-
-$(window).on('hashchange', function(e){
-    location.reload();
-   });
