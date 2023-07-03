@@ -37,7 +37,7 @@ title: Priority
         {% if page.number_of_icons == 4 %}
         <div class="tablet:grid-col-3 text-center margin-y-10 padding-x-1">
             {% endif %}
-            {% if page.number_of_icons == 3 %}
+            {% if page.number_of_icons <= 3 %}
             <div class="tablet:grid-col-4 text-center margin-y-10">
                 {% endif %}
                 {% if icon.url %}
@@ -80,7 +80,7 @@ title: Priority
     {% endif %}
 
     {% if page.type == "payment-integrity" %}
-    {% include priority_gpr_sidenav.html %}
+    {% include priority_pi_sidenav.html %}
     {% endif %}
 
     {% if page.type == "workforce-modernization" %}
@@ -97,6 +97,10 @@ title: Priority
 
     {% if page.type == "ffr" %}
     {% include priority_ffr_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "ffa" %}
+    {% include priority_ffa_sidenav.html %}
     {% endif %}
 
 </section>
