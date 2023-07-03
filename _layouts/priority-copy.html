@@ -6,21 +6,14 @@ title: Priority
 ---
 
 <section class="usa-hero grid-container {{ page.type }}-page {% unless page.priority_icons %} margin-bottom-8{% endunless %}">
-    <div class="grid-row grid-gap">
+    <div class="grid-row grid-gap flex-align-center">
         <div class="grid-col-12 tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.png"
                 alt="{{ page.type }}" />
         </div>
         <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
             <div class="priority-tag-line">
-                <h1 class="margin-0 font-ui-2xl text-normal">{{ page.title }}</h1>
-            </div>
-            <div>
-                <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
-                {% if page.type == "financial-assistance" %}
-                <br>
-                <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/2021-compliance-supplement-vet-draft/">Read News Flash</a></div>
-                {% endif %}
+                <h1 class="margin-0 font-ui-xl text-normal">{{ page.title }}</h1>
             </div>
         </div>
     </div>
