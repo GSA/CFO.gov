@@ -13,3 +13,7 @@ jQuery(document).ready(function ($) {
     })
 
 });
+
+window.onhashchange = function() {
+    location.reload();
+}
