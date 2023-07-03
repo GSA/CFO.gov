@@ -1,7 +1,7 @@
 ---
 layout: priority-copy
 title: Financial Management Workforce
-permalink: /financial-management-workforce/
+permalink: /workforce-modernization/
 type: workforce-modernization
 number_of_icons:
 description: Learn about Financial Assistance maximizing the value of grant funding.
