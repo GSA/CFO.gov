@@ -12,3 +12,9 @@ jQuery(document).ready(function ($) {
         $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
     })
 });
+
+window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+        window.location.reload();
+    }
+});
