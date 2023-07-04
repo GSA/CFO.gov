@@ -13,17 +13,8 @@ jQuery(document).ready(function ($) {
     })
 });
 
-(function(history){
-    var pushState = history.pushState;
-    history.pushState = function(state) {
-        if (typeof(history.onpushstate) == "function") {
-            history.onpushstate({state: state});
-        }
-        // Call the original pushState method
-        return pushState.apply(history, arguments);
-    };
-})(window.history);
-
-window.onpopstate = history.onpushstate = function(event) {
-    location.reload();
-};
+window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+        window.location.reload();
+    }
+});
