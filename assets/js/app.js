@@ -13,6 +13,6 @@ jQuery(document).ready(function ($) {
     })
 });
 
-window.onbeforeunload = function () {
+window.onpopstate = function(event) {
     location.reload();
-  }
+};
