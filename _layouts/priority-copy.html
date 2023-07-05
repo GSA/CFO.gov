@@ -9,11 +9,21 @@ title: Priority
     <div class="grid-row grid-gap flex-align-center">
         <div class="grid-col-12 tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.png"
-                alt="{{ page.type }}" />
+                 alt="{{ page.type }}" />
         </div>
         <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
             <div class="priority-tag-line">
-                <h1 class="margin-0 font-ui-xl text-normal">{{ page.title }}</h1>
+                <h1 class="margin-0 font-ui-2xl text-normal">{{ page.title }}</h1>
+            </div>
+            <div>
+                <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
+                {% if page.type == "financial-assistance" %}
+                <br>
+                <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/2021-compliance-supplement-vet-draft/">Read News Flash</a>
+                {% endif %}
+                {% if page.type == "career-planning-training-tool"%}
+                <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/career-planning-tool">Click here to access</a>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -84,6 +94,7 @@ title: Priority
     {% include priority_arp_sidenav.html %}
     {% endif %}
 
+<<<<<<< HEAD
     {% if page.type == "major-legislation" %}
     {% include priority_ml_sidenav.html %}
     {% endif %}
@@ -94,6 +105,10 @@ title: Priority
 
     {% if page.type == "ffa" %}
     {% include priority_ffa_sidenav.html %}
+=======
+    {% if page.type == "career-planning-training-tool" %}
+    {% include career-planning-training-tool.html %}
+>>>>>>> aaa721fd6035f3e1d688a8cfc41d65edd506bca1
     {% endif %}
 
 </section>

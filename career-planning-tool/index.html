@@ -1,0 +1,33 @@
+---
+title: Career Planning
+description: Welcome to the Career Planning page.
+subtitle: Our Focus Areas
+layout: careers
+permalink: /career-planning-tool/
+description: Access best practices, training modules, career paths, videos, and more.
+keyword: CFO Priority Areas, CFO Council, Knowledge Sharing, Resources, Training, Videos, Career
+sidenav: false
+secondary_skip: true
+use_jqui: true
+attached:
+ - facets/facets-filters/facets
+ - facets/facets-filters/facets-left-buttons
+ - career-planning
+ - store
+ - facets/facets-utility
+ - facets/facets-filters/facets-top-filters
+ - facets/facets-result/facets-result
+ - facets/facets-search/facets-search
+
+---
+
+{% include  career-planning-tool/wfm-header.html %}
+<div class="grid-container-widescreen">
+    <a id="main-content"></a>
+    <div>
+        <div class="usa-graphic-list__row grid-row grid-gap ogp-grid">
+            {% include  career-planning-tool/wfm-filter.html %}
+            {% include  career-planning-tool/wfm-results.html %}
+        </div>
+    </div>
+</div>
