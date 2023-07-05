@@ -419,7 +419,7 @@ div[data-card-filter] {
   width: 100%;
 }
 
-.grid-spacing {
+#career-search-results .grid-spacing {
   padding: 0 !important;
   margin-top: 10px;
   margin-bottom: 10px;
