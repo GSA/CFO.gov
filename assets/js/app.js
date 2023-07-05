@@ -13,6 +13,11 @@ jQuery(document).ready(function ($) {
     })
 });
 
+document.getElementById('tab-link').addEventListener('click', function(event) {
+    event.preventDefault(); // This prevents the browser's default click action
+    window.location.href = this.href;
+});
+
 window.addEventListener('pageshow', function(event) {
     if (event.persisted) {
         window.location.reload();
