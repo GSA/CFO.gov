@@ -28,9 +28,3 @@ window.addEventListener('pageshow', function(event) {
         window.location.reload();
     }
 });
-
-// window.addEventListener('pageshow', function(event) {
-//     if (event.persisted) {
-//         window.location.reload();
-//     }
-// });
