@@ -17,7 +17,7 @@ keyword: Resources
         </div>
     </div>
 </section>
-<section class="usa-graphic-list margin-bottom-4">
+<section class="usa-graphic-list margin-bottom-4 margin-top-4">
     <div class="grid-container">
         <div class="usa-graphic-list__row grid-row grid-gap">
             {% include resources-filters.html %}
