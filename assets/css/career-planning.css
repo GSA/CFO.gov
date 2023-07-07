@@ -212,22 +212,22 @@ input#career-advancement-search-input {
   #career-download-buttons{
     flex-direction: column;
     width: 100% !important;   
-  };
+  }
 
   .career-download-button-1{
     width: 100% !important;
     color: red !important;
-  };
+  }
 
   #career-download-button-2{
     width: 100% !important;
     color: red !important;
-  };
+  }
 
   #career-download-button-3{
     width: 100% !important;
     color: red !important;
-  };
+  }
 
   a{
     overflow-wrap: break-word !important;
@@ -445,7 +445,7 @@ div[data-card-filter] {
     border: 2px solid #005ea2;
 }
 
-.usa-accordion--bordered .usa-accordion__content {
+#career-advancement-results-container .usa-accordion--bordered .usa-accordion__content {
     border-bottom: 0.25rem solid #fa9441 !important;
     border-left: 0.25rem solid #fa9441 !important;
     border-right: 0.25rem solid #fa9441 !important;
@@ -460,7 +460,7 @@ div[data-card-filter] {
     margin-top:0px !important;
 }
 
-.ui-widget-header{
+#career-advancement-results-container .ui-dialog .ui-widget-header{
     border:none !important;
     background-color:none !important;
     background:none !important;
