@@ -13,3 +13,19 @@ jQuery(document).ready(function ($) {
     })
 
 });
+
+window.addEventListener('pageshow', function(event) {
+    var pageUrl = window.location.href;
+    var baseUrl = '{{site.baseurl}}'; 
+    var targetUrls = [
+        baseUrl + '/federal-financial-assistance/',
+        baseUrl + '/federal-financial-reporting/',
+        baseUrl + '/financial-management-workforce/',
+        baseUrl + '/major-legislation/',
+        baseUrl + '/payment-integrity/'
+    ];
+
+    if (event.persisted && targetUrls.includes(pageUrl)) {
+        window.location.reload();
+    }
+});

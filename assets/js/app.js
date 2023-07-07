@@ -13,18 +13,19 @@ jQuery(document).ready(function ($) {
     })
 });
 
-var baseUrl = '{{site.baseurl}}';
-
 window.addEventListener('pageshow', function(event) {
-    var targetPages = [
+    var pageUrl = window.location.href;
+    var baseUrl = '{{site.baseurl}}'; 
+    var targetUrls = [
         baseUrl + '/federal-financial-assistance/',
-        baseUrl + '/federal-financial-reporting//',
-        baseUrl + '/workforce-modernization/',
+        baseUrl + '/federal-financial-reporting/',
+        baseUrl + '/financial-management-workforce/',
         baseUrl + '/major-legislation/',
-        baseUrl + '/payment-integrity/',
+        baseUrl + '/payment-integrity/'
     ];
 
-    if (event.persisted && targetPages.includes(window.location.href)) {
+    if (event.persisted && targetUrls.includes(pageUrl)) {
         window.location.reload();
     }
 });
+
