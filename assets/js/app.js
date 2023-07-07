@@ -14,18 +14,22 @@ jQuery(document).ready(function ($) {
 });
 
 window.addEventListener('pageshow', function(event) {
-    var pageUrl = window.location.href;
-    var baseUrl = '{{site.baseurl}}'; 
-    var targetUrls = [
-        baseUrl + '/federal-financial-assistance/',
-        baseUrl + '/federal-financial-reporting/',
-        baseUrl + '/financial-management-workforce/',
-        baseUrl + '/major-legislation/',
-        baseUrl + '/payment-integrity/'
+    var currentURL = window.location.href;
+    var urlsToCheck = [
+        '/federal-financial-assistance',
+        '/federal-financial-reporting',
+        '/financial-management-workforce',
+        '/major-legislation',
+        '/payment-integrity'
     ];
 
-    if (event.persisted && targetUrls.includes(pageUrl)) {
+    var shouldReload = urlsToCheck.some(function(url) {
+        return currentURL.includes(url);
+    });
+
+    if (event.persisted && shouldReload) {
         window.location.reload();
     }
 });
+
 
