@@ -5,175 +5,65 @@ permalink: /members/
 description: Learn more on the CFOC members.
 keyword: CFO Priority Areas, CFO Council, CFOC members, Members
 ---
-
-
 <!-- *****LOOP FOR Leadership *********-->
-<div class="grid-container font-sans-sm">
-    <section class="usa-graphic-list padding-top-0">
-        <div class="grid-container">
-            <h2 class="font-sans-lg">Leadership</h2>
-            <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
 
-                {% for bio in site.leadership %}
-                {% if bio.bio-image %}
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black; text-decoration: none; display: block;" class="height-full">
-                        <div class="left">
-                            <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
-                        </div>
-                        <div class="right">
-                            <p><span class="name">{{ bio.name }}<br></span>
-                                <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
-                        </div>
-                    </a>
-                </div>
-                {% else %}
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <a href="{{ site.baseurl }}{{ bio.permalink }}" style="color:black; text-decoration: none; display: block;" class="height-full">
-                        <div class="left">
-                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{bio.department | slugify}}.png" alt="{{ bio.department }} seal">
-                        </div>
-                        <div class="right">
-                            <p><span class="name">{{ bio.name }}<br></span>
-                                <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
-                        </div>
-                    </a>
-                </div>
-                {% endif %}
-                {% endfor %}
-
-
-            </div>
-        </div>
-    </section>
-
-</div>
-
-
-{% assign group_members = site.members | group_by: "department" | sort_natural: "name" %}
-
-
-
-<!-- *****LOOP FOR MEMBERS *********-->
-<div class="grid-container font-sans-sm">
-    <section class="usa-graphic-list padding-top-0">
-        <div class="grid-container">
-            <h2 class="font-sans-lg">CFO Council Members</h2>
-            <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-                <div class="tablet:grid-col-4 container boarderBottom" style="padding:10px;">
-                    <span class="headerMember">
-                        Agency
-                    </span>
-                </div>
-                <div class="tablet:grid-col-4 container boarderBottom" style="padding:10px;">
-                    <span class="headerMember">
-                        Chief Financial Officer
-                    </span>
-                </div>
-                <div class="tablet:grid-col-4 container boarderBottom" style="padding:10px;">
-                    <span class="headerMember">
-                        Deputy Chief Financial Officer
-                    </span>
-                </div>
-                {% for group in group_members %}
-                {% assign sortedTitle = group.items | first %}
-                {% if sortedTitle.title contains "Principal Deputy Assistant Secretary exercising"  %}
-                    {% assign sorted_members = group.items | sort: "title" | reverse %}
-                {% elsif sortedTitle.title contains "Acting Deputy Chief Financial Officer" %}
-                    {% assign sorted_members = group.items | sort: "title" | reverse %}
-                {% else %}
-                    {% assign sorted_members = group.items | sort: "title" %}
-                {% endif %}
-                
-                {% assign firstItem = sorted_members | first %}
-                {% assign lastItem = sorted_members.last %} 
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <span style="color:black;text-decoration: none; display: block;" class="height-full">
-                        <div class="leftSeal">
-                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
-                        </div>
-
-                        <div class="rightSeal">
-                            <p>
-                                <span class="nameSeal">{{firstItem.department}}</span>
-                            </p>
-                        </div>
-                    </span>
-                </div>
-
-                {% for bio in sorted_members %}
-                {% if bio.name contains "Vacant"  %}
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <span style="color:black;text-decoration: none; display: block;" class="height-full">
-                        <div class="left">
-                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
-                        </div>
-
-                        <div class="right">
-                            <p>
-                                <span class="name">
-                                    Vacant<br>
-                                </span>
-                                <span class="title">{{ bio.title }}, {{ firstItem.department }}</span>
-                            </p>
-                        </div>
-                    </span>
-                </div>
-                {% elsif bio.bio-image %}
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <div style="display: block;" class="height-full">
-                        <div class="left">
-                            <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
-                        </div>
-                        <div class="right">
-                            <p><span class="name">{{ bio.name }}<br></span>
-                                <span class="title">{{ bio.title }}, {{ bio.department }}{{ bio.sub-department }}</span></p>
-                        </div>
+<section class="usa-graphic-list">
+    <div class="grid-container">
+        <h1 class="font-sans-lg">Leadership</h1>
+        <p>The Deputy Director for Management of the Office of Management and Budget is the Chairperson of the Council.</p>
+        <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+            {% for bio in site.leadership %}
+            {% if bio.bio-image %}
+            <div class="tablet:grid-col-4 container padding-105">
+                <a href="{{ site.baseurl }}{{ bio.permalink }}" class="height-full display-block text-no-underline text-ink">
+                    <div class="left">
+                        <img class="photo" src="{{ site.baseurl }}{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                     </div>
-                </div>
-                {% else %}
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <span style="color:black;text-decoration: none; display: block;" class="height-full">
-                        <div class="left">
-                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
-                        </div>
-
-                        <div class="right">
-                            <p>
-                                <span class="name">
-                                    {{ bio.name }}<br>
-                                </span>
-                                <span class="title">{{ bio.title }}, {{ bio.department }}{{ bio.sub-department }}</span>
-                            </p>
-                        </div>
-                    </span>
-                </div>
-                {% endif %}
-                {% endfor %}
-                
-                {% if firstItem == lastItem   %}
-                <div class="tablet:grid-col-4 container" style="padding:10px;">
-                    <span style="color:black;text-decoration: none; display: block;" class="height-full">
-                        <div class="left">
-                            <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{firstItem.department | slugify}}.png" alt="{{ firstItem.department }} seal">
-                        </div>
-                        <div class="right">
-                            <p>
-                                <span class="name">
-                                    Vacant<br>
-                                </span>
-                                <span class="title">Deputy Chief Financial Officer, {{ firstItem.department }}</span>
-                            </p>
-                        </div>
-                    </span>
-                </div>
-                
-                {% endif %}
-                {% endfor %}
-
-
+                    <div class="right">
+                        <p><span class="name">{{ bio.name }}<br></span>
+                            <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
+                    </div>
+                </a>
             </div>
+            {% else %}
+            <div class="tablet:grid-col-4 container padding-105">
+                <a href="{{ site.baseurl }}{{ bio.permalink }}" class="height-full display-block text-no-underline text-ink">
+                    <div class="left">
+                        <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{bio.department | slugify}}.png" alt="{{ bio.department }} seal">
+                    </div>
+                    <div class="right">
+                        <p><span class="name">{{ bio.name }}<br></span>
+                            <span class="title">{{ bio.title }}, {{ bio.department }}</span></p>
+                    </div>
+                </a>
+            </div>
+            {% endif %}
+            {% endfor %}
         </div>
-    </section>
+    </div>
+</section>
 
-</div>
+<!-- *****LOOP FOR Agencies******-->
+<section class="usa-graphic-list">
+    <div class="grid-container">
+        <h1 class="font-sans-lg">CFO Council Members</h1>
+        <p>Our members are each of the agency Chief Financial Officers appointed under section 901 of title 31, United States Code, as amended by the <a href="https://www.congress.gov/101/statute/STATUTE-104/STATUTE-104-Pg2838.pdf" target="_blank">Chief Financial Officers Act of 1990</a>.</p>
+        <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+            {% for council_member in site.data.council_members %}
+            <div class="tablet:grid-col-4 container padding-105">
+                <a href="{{ council_member.website_url }}" target="_blank" class="height-full display-block text-no-underline text-ink">
+                    <div class="leftSeal">
+                        <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{council_member.agency | slugify}}.png" alt="{{ council_member.agency }} seal">
+                    </div>
+                    <div class="rightSeal">
+                        <p>
+                            <span class="nameSeal">{{ council_member.agency }}</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>  
+    </div>
+</section>
+

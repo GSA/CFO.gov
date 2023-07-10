@@ -5,22 +5,15 @@ title: Priority
 
 ---
 
-<section class="usa-hero grid-container {{ page.type }}-page">
-    <div class="grid-row grid-gap">
+<section class="usa-hero grid-container {{ page.type }}-page {% unless page.priority_icons %} margin-bottom-8{% endunless %}">
+    <div class="grid-row grid-gap flex-align-center">
         <div class="grid-col-12 tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.png"
                 alt="{{ page.type }}" />
         </div>
         <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
             <div class="priority-tag-line">
-                <h1 class="margin-0 font-ui-2xl text-normal">{{ page.title }}</h1>
-            </div>
-            <div>
-                <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
-                {% if page.type == "financial-assistance" %}
-                <br>
-                <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-red border-0 padding-2" href="{{site.baseurl}}/2021-compliance-supplement-vet-draft/">Read News Flash</a></div>
-                {% endif %}
+                <h1 class="margin-0 font-ui-xl text-normal">{{ page.title }}</h1>
             </div>
         </div>
     </div>
@@ -28,6 +21,7 @@ title: Priority
 
 
 <!--All icons and text for each priority area are referenced in the respective md file under prioritypages folder-->
+{% if page.priority_icons %}
 <section class="usa-graphic_list usa-section usa-prose clearfix">
 
     <div class="grid-row clearfix grid-container priority-icons">
@@ -36,7 +30,7 @@ title: Priority
         {% if page.number_of_icons == 4 %}
         <div class="tablet:grid-col-3 text-center margin-y-10 padding-x-1">
             {% endif %}
-            {% if page.number_of_icons == 3 %}
+            {% if page.number_of_icons <= 3 %}
             <div class="tablet:grid-col-4 text-center margin-y-10">
                 {% endif %}
                 {% if icon.url %}
@@ -54,6 +48,7 @@ title: Priority
         </div>
 
 </section>
+{% endif %}
 
 
 <div class="grid-container grid-gap">{{ content }}</div>
@@ -78,7 +73,7 @@ title: Priority
     {% endif %}
 
     {% if page.type == "payment-integrity" %}
-    {% include priority_gpr_sidenav.html %}
+    {% include priority_pi_sidenav.html %}
     {% endif %}
 
     {% if page.type == "workforce-modernization" %}
@@ -87,6 +82,18 @@ title: Priority
 
     {% if page.type == "arp" %}
     {% include priority_arp_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "major-legislation" %}
+    {% include priority_ml_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "ffr" %}
+    {% include priority_ffr_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "ffa" %}
+    {% include priority_ffa_sidenav.html %}
     {% endif %}
 
 </section>

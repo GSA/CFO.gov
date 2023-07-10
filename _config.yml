@@ -78,13 +78,19 @@ primary_navigation:
         url: /members/
       - name: The Support Team
         url: /support/
-  - name: Priority Areas
+  - name: Our Work
     url: /
     children:
-      - name: Workforce Modernization
+      - name: Federal Financial Assistance
+        url: "/federal-financial-assistance/"
+      - name: Federal Financial Reporting
+        url: "/federal-financial-reporting/"
+      - name: Financial Management Workforce
         url: "/workforce-modernization/"
-      - name: American Rescue Plan (ARP)
-        url:  "/american-rescue-plan/"
+      - name: Major Legislation
+        url:  "/major-legislation/"
+      - name: Payment Integrity
+        url: "/payment-integrity/"
   - name: Resources
     url: "/resources/"
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
