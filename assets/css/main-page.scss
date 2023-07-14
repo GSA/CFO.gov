@@ -51,10 +51,14 @@
 box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
-.priority-tag-line{
-  /*padding-top: .5em;*/
-
+@media screen and (max-width: 751px) {
+  .priority-tag-line{
+    h1 {
+      text-align: center;
+    }
+  }
 }
+
 
 .cxo{
   background-image: url('../wp-content/uploads/2016/02/CXO-Fellows-Banner.png');
@@ -229,6 +233,15 @@ color:#005ea2;
   background-color:  #19387b;
   background-size: cover;
   padding:5em 0;
+}
+
+@media screen and (max-width: 496px) {
+  .ffa-page,
+  .ffr-page,
+  .major-legislation-page,
+  .payment-integrity-page {
+    background-image: url('../assets/images/logos/workforce/president-signing-mobile-banner.png');
+  }
 }
 
 .coming-soon {
