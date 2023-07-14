@@ -15,6 +15,9 @@ title: Priority
             <div class="priority-tag-line">
                 <h1 class="margin-0 font-ui-xl text-normal">{{ page.title }}</h1>
             </div>
+            <div>
+                <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
+            </div>
         </div>
     </div>
 </section>
@@ -94,6 +97,10 @@ title: Priority
 
     {% if page.type == "ffa" %}
     {% include priority_ffa_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "symposium" %}
+    {% include priority_payment-integirty-fraud-symposium_sidenav.html %}
     {% endif %}
 
 </section>
