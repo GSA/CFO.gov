@@ -2,7 +2,7 @@
 layout: resources-landing
 title: 'Uniform Guidance: Promising Practices in Implementation'
 subtitle: Uniform Guidance Promising Practices in Implementation
-permalink: /federal-financial-assistanc/uniform-guidance-promising-practices-in-implementation/
+permalink: /federal-financial-assistance/uniform-guidance-promising-practices-in-implementation/
 date: July 05, 2016
 has_date: 'no'
 back_to_button: 'no'
