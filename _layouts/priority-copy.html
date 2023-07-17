@@ -5,11 +5,11 @@ title: Priority
 
 ---
 
-<section class="usa-hero grid-container {{ page.type }}-page {% unless page.priority_icons %} margin-bottom-8{% endunless %}">
+<section class="usa-hero grid-container {{ page.type }}-page {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
     <div class="grid-row grid-gap flex-align-center">
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.png"
-                alt="{{ page.type }}" />
+                 alt="{{ page.type }}" />
         </div>
         <div class="tablet:grid-col-8">
             <div class="priority-tag-line">
@@ -53,9 +53,11 @@ title: Priority
 </section>
 {% endif %}
 
+{% if page.type == "symposium" %}
+{% include priority_payment-integirty-fraud-symposium.html %}
+{% endif %}
 
 <div class="grid-container grid-gap">{{ content }}</div>
-
 
 <section class="grid-container grid-gap usa-graphic_list clearfix tabSection">
 
