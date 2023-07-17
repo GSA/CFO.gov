@@ -18,7 +18,7 @@ window.addEventListener('pageshow', function(event) {
     var urlsToCheck = [
         '/federal-financial-assistance',
         '/federal-financial-reporting',
-        '/financial-management-workforce',
+        '/workforce-modernization',
         '/major-legislation',
         '/payment-integrity'
     ];
