@@ -143,7 +143,7 @@
         removeButtonA.setAttribute("id", eventTargetId + "-button");
         removeButtonA.setAttribute("tabindex", 0);
         removeButtonA.setAttribute("href", "javascript:void(0)");
-        removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white text-black border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
+        removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white text-color border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
         let removeButtonText;
         if (inputType === "button") {
             removeButtonText = createButtonText(eventTargetId);
@@ -169,7 +169,7 @@
         }
         if (competencyGroup != null) {
             removeButtonA.removeAttribute("class");
-            removeButtonA.setAttribute("class", "usa-tag bg-accent-warm margin-top float-left text-black padding-05 margin-1 text-no-uppercase text-no-underline");
+            removeButtonA.setAttribute("class", "usa-tag bg-filter margin-top float-left text-color padding-05 margin-1 text-no-uppercase text-no-underline");
 
             if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
                 addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);

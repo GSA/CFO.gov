@@ -1,8 +1,8 @@
 <div class="usa-media-block tablet:grid-col-4 desktop:grid-col-3 career-advancement-block">
-    <h2>Filter your results</h2>
-    <div id="secondary-skip" class="facets-panel bg-base-lightest padding-y-3 border-base-light border-1px radius-md border-2px padding-x-105">
+    <h2 class="text-color">Filter your results</h2>
+    <div id="secondary-skip" class="facets-panel bg-filter padding-y-3 radius-md padding-x-105 text-color">
 
-        <h3 class="margin-top-0">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></h3>
+        <h3 class="margin-top-0 text-color">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></h3>
         <div class="display-flex flex-column">
             {% assign series_array = "" | split: "," %}
 
@@ -24,12 +24,12 @@
                     id="series-{{ series_id }}"
                     data-id="series-{{ series_id }}"
                     aria-label="Series-{{ series }}"
-                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black bg-white radius-lg border-2px border-gray-30"
+                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-filter radius-lg border-2px button-border"
                 >{{ series }}</button>
             {% endfor %}
         </div>
 
-        <h3>GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level"></i></h3>
+        <h3 class="text-color">GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level"></i></h3>
         <div class="display-flex flex-column">
             {% assign level_array = "" | split: "," %}
 
@@ -51,15 +51,15 @@
                     id="GS-{{ level_id }}"
                     data-id="GS-{{ level_id }}"
                     aria-label="GS Level - {{ level }}"
-                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-black border-2px bg-white radius-lg border-gray-30"
+                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-2px bg-filter radius-lg button-border"
                 >GS {{ level }}</button>
             {% endfor %}
         </div>
 
         <div class="career-competency-level-1-input-group">
-            <h3 class="font-sans-xs" >Job Specific Technical <br> Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="You may further filter by selecting job-specific competencies (i.e., specialized knowledge is required for each job series)"></i></h3>
+            <h3 class="font-sans-xs text-color" >Job Specific Technical <br> Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="You may further filter by selecting job-specific competencies (i.e., specialized knowledge is required for each job series)"></i></h3>
             <div class="career-input-group">
-                <label class="text-underline text-accent-cool-darker display-inline-block text-no-wrap font-sans-2xs" for="job-career-competency-select-all" id="job-career-competency-select"><strong>Select All</strong></label>
+                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-2px bg-filter radius-lg button-border" for="job-career-competency-select-all" id="job-career-competency-select"><strong>Select All</strong></label>
                 <input style="position: absolute; left: -9999px;" type="checkbox" id="job-career-competency-select-all"/>
             </div>
         </div>
@@ -89,10 +89,10 @@
 
                 {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
                 <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
-                    <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30 flex-column">
+                    <div class="career-competency-level-2-input-group padding-1 text-bold text-color bg-filter radius-lg border-2px button-border flex-column">
                         <div class="career-competency-toggle-open">
                             <div class="career-competency-toggle-open--inner">
-                            <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
+                            <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                             <div class="career-competency-level-3-input-group">
                                 <div class="career-input-group">
                                     <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}"><strong class="cpt-strong">Select All</strong></label>
@@ -134,9 +134,9 @@
             {% endfor %}
         </div>
         <div class="career-competency-level-1-input-group">
-            <h3 class="font-sans-xs">General Career <br />Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right"  title="General competencies are the same for all Federal employees."></i></h3>
+            <h3 class="font-sans-xs text-color">General Career <br />Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right"  title="General competencies are the same for all Federal employees."></i></h3>
             <div class="career-input-group">
-                <label class="text-underline text-accent-cool-darker display-inline-block text-no-wrap font-sans-2xs" for="general-career-competency-select-all" id="general-career-competency-select"><strong>Select All</strong></label>
+                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-2px bg-filter radius-lg button-border" for="general-career-competency-select-all" id="general-career-competency-select"><strong>Select All</strong></label>
                 <input style="position: absolute; left: -9999px;" type="checkbox" id="general-career-competency-select-all"/>
             </div>
         </div>
@@ -146,10 +146,10 @@
 
                 {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
                 <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
-                    <div class="career-competency-level-2-input-group padding-1 text-bold text-black bg-white radius-lg border-2px border-gray-30 flex-column">
+                    <div class="career-competency-level-2-input-group padding-1 text-bold text-color bg-filter radius-lg border-2px button-border flex-column">
                         <div class="career-competency-toggle-open">
                             <div class="career-competency-toggle-open--inner">
-                            <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-black career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
+                            <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                             <div class="career-competency-level-3-input-group">
                                 <div class="career-input-group">
                                     <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}"><strong class="cpt-strong">Select All</strong></label>

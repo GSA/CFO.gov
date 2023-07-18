@@ -25,12 +25,12 @@
         textArea2.appendChild(text2);
     } else {
         let template = '<div class="cfo-career-category-container font-body-md margin-y-0">'
-            + '<div class="cfo-inner-competency-div"><span><strong>GS Level:</strong> {{ card.level }}</span></div>'
-            + '<div class="cfo-inner-competency-div"><span><strong>Job Series:</strong> {{ card.series }}</span></div>'
+            + '<div class="cfo-inner-competency-div"><span><strong>GS LEVEL:</strong> {{ card.level }}</span></div>'
+            + '<div class="cfo-inner-competency-div"><span><strong>JOB SERIES:</strong> {{ card.series }}</span></div>'
             + '</div>'
             + '<div class="cfo-career-category-container font-body-md margin-y-0">'
-            + '<div class="cfo-inner-competency-div"><span><strong>Competency:</strong> {{ card.competency }}</span></div>'
-            + '<div class="cfo-inner-competency-div"><span><strong>Type:</strong> {{ card.competency_group }}</span></div>'
+            + '<div class="cfo-inner-competency-div"><span><strong>COMPETENCY:</strong> {{ card.competency }}</span></div>'
+            + '<div class="cfo-inner-competency-div"><span><strong>TYPE:</strong> {{ card.competency_group }}</span></div>'
             + '</div>'
             + '<p class="font-body-md"><strong>Definition:</strong> {{ card.competency_description }}</p>';
         outerDiv3.innerHTML = template.replace('{{ card.level }}', item.level)
@@ -65,7 +65,7 @@
         const selectButtonWrapper = document.createElement('div');
         outerDiv3.prepend(selectButtonWrapper);
         selectButtonWrapper.setAttribute("class", "select-button");
-        selectButtonWrapper.innerHTML = '<label><input type="checkbox" value="' + item.permalink + '"' + (window.isSelected(item.permalink) ? ' checked' : '') + '> <span>Select for Download</span></label>'
+        selectButtonWrapper.innerHTML = '<label><input type="checkbox" value="' + item.permalink + '"' + (window.isSelected(item.permalink) ? ' checked' : '') + '> <span>SELECT FOR DOWNLOAD</span></label>'
     }
     const resultsContainer = document.getElementById("career-search-results");
     resultsContainer.appendChild(outerDiv1);

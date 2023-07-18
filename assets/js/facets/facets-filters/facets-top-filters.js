@@ -58,7 +58,7 @@
      }
      if (subButton == null && removeButtonA !== null) {
          removeButtonA.setAttribute("id", competencyGroup + "-button");
-         removeButtonA.setAttribute("class", "usa-tag bg-accent-warm margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
+         removeButtonA.setAttribute("class", "usa-tag bg-filter margin-top float-left text-color padding-1 margin-1 text-capitalize text-no-underline");
          removeButtonA.innerHTML = itemName;
          buttonCompetencyContainer.appendChild(removeButtonA);
      }
@@ -68,7 +68,7 @@
          let data = replacedText.match(/\w* \d+/g);
          data.forEach(function (item, index) {
              if (replacedText.includes(item) && item.includes(competencyGroup)) {
-                 subButton.setAttribute("class", "usa-tag bg-accent-warm  margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
+                 subButton.setAttribute("class", "usa-tag bg-filter  margin-top float-left text-color padding-1 margin-1 text-capitalize text-no-underline");
                  subButton.innerHTML = replacedText.replace(item, itemName);
              }
          });
@@ -125,7 +125,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         let data = replacedText.match(/\w* \d+/g);
         data.forEach(function (item, index) {
             if (replacedText.includes(item) && item.includes(competencyGroup)) {
-                subButton.setAttribute("class", "usa-tag bg-accent-warm  margin-top float-left text-black padding-1 margin-1 text-capitalize text-no-underline");
+                subButton.setAttribute("class", "usa-tag bg-filter  margin-top float-left text-color padding-1 margin-1 text-capitalize text-no-underline");
                 subButton.innerHTML = replacedText.replace(item, itemName);
             }
         });

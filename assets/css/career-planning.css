@@ -28,8 +28,8 @@
 }
 
 .facets-panel .usa-button.active {
-  background-color: #1a4480;
-  color: white;
+  background-color: #1a4480 !important;
+  color: white !important;
 }
 
 .facets-panel label {
@@ -87,7 +87,7 @@
 }
 
 input#career-advancement-search-input {
-  width: 15rem;
+  width: 16rem;
 }
 
 #cfo-search-button {
@@ -97,7 +97,7 @@ input#career-advancement-search-input {
 
 @media screen and (min-width: 785px) {
   input#career-advancement-search-input {
-    width: 23rem;
+    width: 40rem;
   }
 }
 
@@ -352,8 +352,8 @@ div[data-card-filter] {
 }
 
 .facets-panel .usa-button:hover {
-  background-color: white !important;
-  color: initial;
+    background-color: #CBE0F5 !important;
+    color: initial;
 }
 
 .facets-panel .usa-button.active:hover {
@@ -446,9 +446,9 @@ div[data-card-filter] {
 }
 
 .usa-accordion--bordered .usa-accordion__content {
-    border-bottom: 0.25rem solid #fa9441 !important;
-    border-left: 0.25rem solid #fa9441 !important;
-    border-right: 0.25rem solid #fa9441 !important;
+    border-bottom: 0.25rem solid #CBE0F5 !important;
+    border-left: 0.25rem solid #CBE0F5 !important;
+    border-right: 0.25rem solid #CBE0F5 !important;
     padding-bottom: 1rem !important;
 }
 
@@ -477,4 +477,26 @@ div[data-card-filter] {
   min-width: 24px;
   display: inline-block;
   text-align: center;
+}
+
+.bg-filter {
+    background-color: #CBE0F5 !important;
+}
+
+.button-border {
+    border-color: #A1B8D1 !important;
+}
+
+.text-color {
+    color: #092644 !important;
+}
+
+.bg-search {
+    background-color: #003062 !important;
+    margin-left: 10px !important;
+    border-radius: 0.25rem !important;
+}
+
+.search-border {
+    border-color: #B4D8FD !important;
 }
