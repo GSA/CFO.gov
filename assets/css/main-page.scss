@@ -71,6 +71,15 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
   background-repeat:no-repeat;
   background-size: cover;
 }
+@media screen and (min-width: 672px) {
+  .priority-icons > div:nth-child(2),
+  .priority-icons > div:nth-child(3) {
+      padding-bottom: 1rem;
+  }
+}
+.priority-icons a {
+  width: 12.5rem;
+}
 /* Clearfix (clear floats) */
 .section_font {
 
