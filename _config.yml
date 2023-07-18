@@ -91,8 +91,6 @@ primary_navigation:
         url:  "/major-legislation/"
       - name: Payment Integrity
         url: "/payment-integrity/"
-      - name: Payment Integrity & Fraud Symposium
-        url: "/payment-integrity-fraud-symposium/"
   - name: Resources
     url: "/resources/"
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
