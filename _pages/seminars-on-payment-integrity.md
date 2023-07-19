@@ -12,43 +12,85 @@ back_to_button: 'no'
 
 <h2>Payment Integrity 101</h2>
 <h3>Seminar 1 - Payment Integrity 101</h3>
-<div><iframe title="Seminar 1 - Payment Integrity 101" src="https://player.vimeo.com/video/558227419" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
+<div class="video-container">
+    <iframe 
+        title="Seminar 1 - Payment Integrity 101" 
+        src="https://player.vimeo.com/video/558227419" 
+        frameborder="0" 
+        allowfullscreen="allowfullscreen">
+    </iframe>
+</div>
 <hr />
 
 <h2>Phases of Assessments, Phase 1</h2>
 <h3>Seminar 2 - Phases of Assessments, Phase 1</h3>
-<div><iframe title="Seminar 2 - Phases of Assessments, Phase 1" src="https://player.vimeo.com/video/559128215?title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
+<div class="video-container">
+    <iframe 
+        title="Seminar 2 - Phases of Assessments, Phase 1" 
+        src="https://player.vimeo.com/video/559128215?title=0&byline=0&portrait=0" 
+        frameborder="0" 
+        allowfullscreen="allowfullscreen">
+    </iframe>
+</div>
 <hr />
 
 <h2>Phases of Assessments, Phase 2</h2>
 <h3>Seminar 3 - Phases of Assessments, Phase 2</h3>
-<div><iframe title="Seminar 3 - Phases of Assessments, Phase 2" src="https://player.vimeo.com/video/559136426?title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
+<div class="video-container">
+    <iframe 
+        title="Seminar 3 - Phases of Assessments, Phase 2" 
+        src="https://player.vimeo.com/video/559136426?title=0&byline=0&portrait=0" 
+        frameborder="0" 
+        allowfullscreen="allowfullscreen">
+    </iframe>
+</div>
 <hr />
 
 <h2>Causes of Improper Payments</h2>
 <h3>Seminar 4 - Causes of Improper Payments</h3>
-<div><iframe title="Seminar 4 - Causes of Improper Payments" src="https://player.vimeo.com/video/559136682?title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
+<div class="video-container">
+    <iframe 
+        title="Seminar 4 - Causes of Improper Payments" 
+        src="https://player.vimeo.com/video/559136682?title=0&byline=0&portrait=0" 
+        frameborder="0" 
+        allowfullscreen="allowfullscreen">
+    </iframe>
+</div>
 <hr />
 
 <h2>Improper Payment Prevention</h2>
 <h3>Seminar 5 - Improper Payment Prevention</h3>
-<div><iframe title="Seminar 5 - Improper Payment Prevention" src="https://player.vimeo.com/video/566754276?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
+<div class="video-container">
+    <iframe 
+        title="Seminar 5 - Improper Payment Prevention" 
+        src="https://player.vimeo.com/video/566754276?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+        frameborder="0" 
+        allowfullscreen="allowfullscreen">
+    </iframe>
+</div>
 <hr />
 
 <h2>Payment Integrity Compliance</h2>
 <h3>Seminar 6 - Payment Integrity Compliance</h3>
-<div><iframe title="Seminar 6 - Payment Integrity Compliance" src="https://player.vimeo.com/video/570292150" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
+<div class="video-container">
+    <iframe 
+        title="Seminar 6 - Payment Integrity Compliance" 
+        src="https://player.vimeo.com/video/570292150" 
+        frameborder="0" 
+        allowfullscreen="allowfullscreen">
+    </iframe>
+</div>
 <hr />
 
 <h2>Improper Payment Reporting</h2>
 <h3>Seminar 7 - Improper Payment Reporting</h3>
-<div><iframe title="Seminar 7 - Improper Payment Reporting" src="https://player.vimeo.com/video/567537089?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
+<div class="video-container">
+    <iframe 
+        title="Seminar 7 - Improper Payment Reporting" 
+        src="https://player.vimeo.com/video/567537089?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+        frameborder="0" 
+        allowfullscreen="allowfullscreen">
+    </iframe>
+</div>
 
 
