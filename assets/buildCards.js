@@ -165,13 +165,13 @@ filters: ${filters}
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-205 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <h3>Behavior Illustrations</h3>
     <dl class="text-base">${behaviorMarkup}</dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-205 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <h3>Proficiency Level Definition</h3>
     <dl class="text-base">${profLevelMarkup}</dl>
   </div>

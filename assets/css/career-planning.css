@@ -346,7 +346,6 @@ div[data-card-filter] {
 .select-button {
   position: absolute;
   font-size: 0.9em;
-  font-weight: bold;
   top: 5px;
   right: 5px;
 }
@@ -499,4 +498,19 @@ div[data-card-filter] {
 
 .search-border {
     border-color: #B4D8FD !important;
+}
+
+.card-text-color {
+    color: #2680EB !important;
+}
+.card-content-color {
+    color: #003062 !important;
+}
+
+.card-display {
+    display:grid;
+}
+
+.border-top-blue {
+    border-top-color: #2680EB !important;
 }
