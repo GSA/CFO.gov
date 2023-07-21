@@ -87,7 +87,7 @@
 }
 
 input#career-advancement-search-input {
-  width: 16rem;
+  width: 230px;
 }
 
 #cfo-search-button {
@@ -97,7 +97,7 @@ input#career-advancement-search-input {
 
 @media screen and (min-width: 785px) {
   input#career-advancement-search-input {
-    width: 40rem;
+    width: 35rem;
   }
 }
 
@@ -185,7 +185,7 @@ input#career-advancement-search-input {
 
 .career-search-results-pagination-wrapper {
   display: flex;
-  width: 13em;
+  width: 20em;
   justify-content: space-between;
   margin: 0 auto;
   line-height: 2;
@@ -311,10 +311,12 @@ input#career-advancement-search-input {
 
 .cfo-page-left,
 .cfo-page-right {
-  cursor: pointer;
-  padding: 7px 12px;
-  font-weight: bold;
-  font-size: 20px;
+    cursor: pointer;
+    padding: 7px 12px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px !important;
+    background-color: white;
 }
 
 /************* Search *********************/
@@ -336,11 +338,10 @@ div[data-card-filter] {
 
 
 .cfo-career-outer-box {
-  width: 100%;
-  border: 1px solid #aaa;
-  border-radius: 20px;
-  background-color: #fff;
-  padding: 15px 25px;
+    width: 100%;
+    border: 1px solid #C7E2FD;
+    background-color: #fff;
+    padding: 15px 25px;
 }
 
 .select-button {
@@ -513,4 +514,9 @@ div[data-card-filter] {
 
 .border-top-blue {
     border-top-color: #2680EB !important;
+}
+
+.hr {
+    background-color: #CBE0F5;
+    height:10px;
 }

@@ -1,5 +1,5 @@
 
-<div id="career-advancement-results-container" class="tablet:grid-col-8 desktop:grid-col-9 usa-prose padding-right-4">
+<div id="career-advancement-results-container" class="tablet:grid-col-8 desktop:grid-col-8 usa-prose padding-right-4 padding-top-8">
         <section class="display-flex flex-row margin-top-1" id="series-gs-container">
             <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none padding-right-1 margin-top" aria-multiselectable="true" id="series">
                 <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-filter text-color" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-series" id="btnSeries">Job Series</button></h3>
@@ -22,7 +22,7 @@
             </section>
             <section class="margin-top-1">
                 <div id="career-search-results-filter-remove-all-button" class="margin-y-1">
-                    <a href="javascript:void(0)" class="text-accent-cool-darker" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
+                    <a href="javascript:void(0)" class="text-color" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
                 </div>
             </section>
             <section>
@@ -38,8 +38,8 @@
         {% if post_modulus > 0 %}
             {% assign post_pages = post_pages | plus: 1 %}
         {% endif %}
-        <div class="career-search-results-pagination-wrapper">
-        <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p> Results
+        <div class="career-search-results-pagination-wrapper card-content-color">
+            <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
         </div>
         <div class="career-search-results-page-size-wrapper">
         <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">RESULTS PER PAGE: </label>
@@ -64,15 +64,16 @@
                     <div class="select-button" style="color: #003062 !important">
                         <label><input type="checkbox" value="{{ card.permalink }}"> <span>SELECT FOR DOWNLOAD</span></label>
                     </div>
-                    <div class="cfo-career-category-container font-body-md margin-bottom-3">
-                        <div class="cfo-inner-competency-div"><span class="card-display card-text-color"><strong>GS LEVEL:</strong></span><span class="card-content-color"> {{ card.level }}</span></div>
-                        <div class="cfo-inner-competency-div"><span class="card-display card-text-color"><strong>TYPE:</strong></span><span class="card-content-color"> {{ card.competency_group }}</span></div>
+                    <div class="cfo-career-category-container font-body-md">
+                        <div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>GS LEVEL:</strong></span><span class="card-content-color"> GS{{ card.level }}</span></div>
+                        <div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>TYPE:</strong></span><span class="card-content-color"> {{ card.competency_group }}</span></div>
                     </div>
-                    <div class="cfo-career-category-container font-body-md margin-bottom-3">
-                        <div class="cfo-inner-competency-div"><span class="card-display card-text-color"><strong>JOB SERIES:</strong></span><span class="card-content-color"> 0{{ card.series }}</span></div>
-                        <div class="cfo-inner-competency-div"><span class="card-display card-text-color"><strong>COMPETENCY:</strong></span><span class="card-content-color"> {{ card.competency }}</span></div>
+                    <div class="cfo-career-category-container font-body-md">
+                        <div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>JOB SERIES:</strong></span><span class="card-content-color"> 0{{ card.series }}</span></div>
+                        <div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>COMPETENCY:</strong></span><span class="card-content-color"> {{ card.competency }}</span></div>
                     </div>
-                    <p class="font-body-md card-display card-text-color"><strong>DESCRIPTION:</strong><span class="card-content-color"> {{ card.competency_description }}</span></p>
+                    <p class="font-body-md card-display card-text-color margin-top-0"><strong>DESCRIPTION:</strong><span class="card-content-color"> {{ card.competency_description }}</span></p>
+                    <div class="hr"></div>
                     <div class="grid-row grid-gap">
                         {{ card.content }}
                     </div>
@@ -94,8 +95,8 @@
         {% endfor %}
     </div>
     <div class="career-search-results-filter-pagination flex-wrap margin-bottom-205">
-        <div class="career-search-results-pagination-wrapper">
-            <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p> Results
+        <div class="career-search-results-pagination-wrapper card-content-color">
+            <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
         </div>
         <div class="career-search-results-page-size-wrapper">
             <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-bot">RESULTS PER PAGE: </label>
