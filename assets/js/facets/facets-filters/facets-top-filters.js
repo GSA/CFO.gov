@@ -272,8 +272,8 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         }
 
         //Changing the state of all the select all button from "de-select all" to "select all"
-        $('.career-competency-level-3-input-group label[data-state="enabled"]').attr('data-state', 'disable').html('<strong>Select All</strong>').change();
-        $('#job-career-competency-select, #general-career-competency-select').html('<strong>Select All</strong>').change();
+        $('.career-competency-level-3-input-group label[data-state="enabled"]').attr('data-state', 'disable').html('<strong>SELECT ALL</strong>').change();
+        $('#job-career-competency-select, #general-career-competency-select').html('<strong>SELECT ALL</strong>').change();
         $("#dialog").dialog().dialog("close");
     });
 }

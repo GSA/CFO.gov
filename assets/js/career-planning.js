@@ -12,7 +12,7 @@
   window.unselectAll = function () {
     selected = {};
     unselect = false;
-    $('button[data-op="select-all"]').text('Select All Cards');
+    $('button[data-op="select-all"]').text('SELECT ALL CARDS');
     $('#career-search-results').find(buttonSelector).prop('checked', false);
     downloadButtonPDF.prop('aria-disabled', true).prop('disabled', true);
     downloadButtonCSV.prop('aria-disabled', true).prop('disabled', true);
@@ -50,7 +50,7 @@
           selected[set[i].permalink] = true;
         }
         unselect = true;
-        this.innerText = 'Deselect All Cards';
+        this.innerText = 'DESELECT ALL CARDS';
         $('#career-search-results').find(buttonSelector).prop('checked', true);
       }
 

@@ -112,7 +112,7 @@ $(document).ready(function () {
                             } else {
                                 let labelId = "#competency-group-label-" + eventGroupId;
                                 if ($("#" + eventId).closest('.career-competency-level-4-input-group').css('display') === 'block') {
-                                    $(labelId).attr('data-state', 'disabled').html("<strong>Select All</strong>").change();
+                                    $(labelId).attr('data-state', 'disabled').html("<strong>SELECT ALL</strong>").change();
                                     disableGlobalSelect(eventGroupId);
                                 }
                                 $("#" + eventId).prop("checked", false);
@@ -156,7 +156,7 @@ $(document).ready(function () {
                 $("#" + eventId).unbind('change').on('change', function () {
                     let labelId = "#competency-group-label-" + eventId,
                         checked;
-                    if ($(labelId).text() === 'Select All') {
+                    if ($(labelId).text() === 'SELECT ALL') {
                         $().toggleSelectAll(eventId, true);
                         checked = true;
                     } else {
