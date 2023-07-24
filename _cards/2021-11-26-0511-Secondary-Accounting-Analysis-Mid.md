@@ -21,14 +21,14 @@ filters: Secondary-Accounting-Analysis GS-10-13 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <dl class="text-base"><dt>Accounting Analysis ( Level 3 - Intermediate)</dt><dd>Interprets and evaluates accounting information using a variety of analytical methods to provide recommendations</dd><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers</dd></dl>
+    <dl class="text-base card-content-color"><dt>Accounting Analysis ( Level 3 - Intermediate)</dt><dd>Interprets and evaluates accounting information using a variety of analytical methods to provide recommendations</dd><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-    <dl class="text-base"><dt>Accounting Analysis ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Accounting Analysis ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Accounting Analysis ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

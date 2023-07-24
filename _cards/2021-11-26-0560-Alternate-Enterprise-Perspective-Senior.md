@@ -20,14 +20,14 @@ filters: Alternate-Enterprise-Perspective GS-14-15 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <dl class="text-base"><dt>Enterprise Perspective ( Level 5 - Expert)</dt><dd>Models behaviors that demonstrate sensitivity to sharing knowledge with others, including workforce development, and demonstrating good governance and leadership techniques</dd></dl>
+    <dl class="text-base card-content-color"><dt>Enterprise Perspective ( Level 5 - Expert)</dt><dd>Models behaviors that demonstrate sensitivity to sharing knowledge with others, including workforce development, and demonstrating good governance and leadership techniques</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-    <dl class="text-base"><dt>Enterprise Perspective ( Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Enterprise Perspective ( Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

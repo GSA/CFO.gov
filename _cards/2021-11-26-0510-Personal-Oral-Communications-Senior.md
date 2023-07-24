@@ -21,14 +21,14 @@ filters: Personal-Oral-Communications GS-14-15 series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <dl class="text-base"><dt>Oral Communications ( Level 4 - Advanced)</dt><dd>Conducts presentations and briefings for high-level agency officials </dd><dd> Presents, explains, and defends agency positions and proposals to staff and stakeholders </dd><dd> Persuades others by making clear and convincing oral presentations</dd><dt>Oral Communications ( Level 5 - Expert)</dt><dd>Presents complex information articulately when meeting with key executives or public officials regarding a high-visibility issue </dd><dd> Testifies before Congress on a catastrophe's or significant issue's impact on the agency's responsibilities and requirements </dd><dd> Communicates sensitive information of broad organizational impact on topics without precedence</dd></dl>
+    <dl class="text-base card-content-color"><dt>Oral Communications ( Level 4 - Advanced)</dt><dd>Conducts presentations and briefings for high-level agency officials </dd><dd> Presents, explains, and defends agency positions and proposals to staff and stakeholders </dd><dd> Persuades others by making clear and convincing oral presentations</dd><dt>Oral Communications ( Level 5 - Expert)</dt><dd>Presents complex information articulately when meeting with key executives or public officials regarding a high-visibility issue </dd><dd> Testifies before Congress on a catastrophe's or significant issue's impact on the agency's responsibilities and requirements </dd><dd> Communicates sensitive information of broad organizational impact on topics without precedence</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-    <dl class="text-base"><dt>Oral Communications ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Oral Communications ( Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Oral Communications ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Oral Communications ( Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

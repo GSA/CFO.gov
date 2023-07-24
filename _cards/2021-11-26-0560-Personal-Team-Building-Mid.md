@@ -21,14 +21,14 @@ filters: Personal-Team-Building GS-10-13 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <dl class="text-base"><dt>Team Building ( Level 2 - Basic)</dt><dd>Encourages staff to share skills and abilities within work group to facilitate completion of challenging tasks </dd><dd> Forms teams to identify and address agency concerns </dd><dd> Informs team members of issues requiring resolution and considers input</dd><dt>Team Building ( Level 3 - Intermediate)</dt><dd>Includes entire team in decision-making process when developing mission and goals for the division </dd><dd> Creates senior-level teams to design and implement requirements for new systems and procedures </dd><dd> Leads team from various organizational units to create new systems or processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Team Building ( Level 2 - Basic)</dt><dd>Encourages staff to share skills and abilities within work group to facilitate completion of challenging tasks </dd><dd> Forms teams to identify and address agency concerns </dd><dd> Informs team members of issues requiring resolution and considers input</dd><dt>Team Building ( Level 3 - Intermediate)</dt><dd>Includes entire team in decision-making process when developing mission and goals for the division </dd><dd> Creates senior-level teams to design and implement requirements for new systems and procedures </dd><dd> Leads team from various organizational units to create new systems or processes</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-    <dl class="text-base"><dt>Team Building ( Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Team Building ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Team Building ( Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Team Building ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

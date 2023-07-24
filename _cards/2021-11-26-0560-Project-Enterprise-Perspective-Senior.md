@@ -6,7 +6,7 @@ series: 560
 job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Senior
-permalink: /cards/560-Enterprise-Perspective-Senior-0
+permalink: /cards/560-Enterprise-Perspective-Senior
 functional_competency_designation: General Career Competencies
 competency: Enterprise Perspective
 competency_group: Project
@@ -20,14 +20,14 @@ filters: Project-Enterprise-Perspective GS-14-15 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <dl class="text-base"><dt>Enterprise Perspective ( Level 4 - Advanced)</dt><dd>Understands the political, legal and administrative forces that influence the offices work, relationships with other Departments and Congress </dd><dd> Recognizes the need for teamwork to meet the mission and fosters that </dd><dd> Manages conflict across organizations</dd></dl>
+    <dl class="text-base card-content-color"><dt>Enterprise Perspective ( Level 4 - Advanced)</dt><dd>Understands the political, legal and administrative forces that influence the offices work, relationships with other Departments and Congress </dd><dd> Recognizes the need for teamwork to meet the mission and fosters that </dd><dd> Manages conflict across organizations</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-    <dl class="text-base"><dt>Enterprise Perspective ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Enterprise Perspective ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>
