@@ -19,15 +19,17 @@ relevant_courses:
 filters: Personal-Accountability GS-14-15 series-0501
 ---
 
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
+    <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Accountability ( Level 5 - Expert)</dt><dd>Revises and communicates to employees expectations and methods for achieving results in light of failed or delayed agency-level project </dd><dd> Administers and provides oversight of a new complex procedure which delegates responsibility for compliance to various agencies or parties </dd><dd> Accomplishes cultural change of accountability among staff by defining roles and responsibilities to ensure agency goals are met</dd></dl>
   </div>
 </div>
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
+     <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Accountability ( Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

@@ -20,15 +20,17 @@ relevant_courses:
 filters: Personal-Customer-Service GS-10-13 series-0511
 ---
 
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
+    <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Customer Service ( Level 3 - Intermediate)</dt><dd>Designs and implements new or improved practices and strategies to improve customer service </dd><dd> Develops customer satisfaction surveys, analyzes results, and makes necessary improvements </dd><dd> Addresses customer service deficiencies by involving employees to identify solutions</dd><dt>Customer Service ( Level 4 - Advanced)</dt><dd>Anticipates growing customer needs and expectations to continuously improve product development and service delivery </dd><dd> Creates work group consisting of stakeholders and neutral parties to develop solutions to customer service barriers </dd><dd> Ensures products and services meet customer needs</dd></dl>
   </div>
 </div>
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
+     <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Customer Service ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Customer Service ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

@@ -19,15 +19,17 @@ relevant_courses:
 filters: Secondary-Advanced-Financial-Management GS-14-15 series-0511
 ---
 
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
+    <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Advises internal and external stakeholders and Congressional representatives on Department-wide financial processes-operations to ensure financial integrity</dd></dl>
   </div>
 </div>
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
+     <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Advanced Financial Management ( Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

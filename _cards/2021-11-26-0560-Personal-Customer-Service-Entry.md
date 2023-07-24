@@ -20,15 +20,17 @@ relevant_courses:
 filters: Personal-Customer-Service GS-7-9 series-0560
 ---
 
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
+    <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Customer Service ( Level 1 - Awareness)</dt><dd>Monitors customers or clients satisfaction to ensure they are getting what they need in a timely manner </dd><dd> Establishes and maintains relationships with customers </dd><dd> Updates agency website to reflect changes to services</dd><dt>Customer Service ( Level 2 - Basic)</dt><dd>Develops guides and user manuals for customers </dd><dd> Ensures products and services comply with customer requirements </dd><dd> Streamlines procedures based on customer feedback </dd><dd> Solicits customer feedback and takes steps to prevent similar problems or issues from occurring with other customers</dd></dl>
   </div>
 </div>
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
+     <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Customer Service ( Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Customer Service ( Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

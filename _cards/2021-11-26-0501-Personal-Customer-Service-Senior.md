@@ -19,15 +19,17 @@ relevant_courses:
 filters: Personal-Customer-Service GS-14-15 series-0501
 ---
 
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
+    <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Customer Service ( Level 5 - Expert)</dt><dd>Develops innovative customer service initiative which significantly improves quality and enhances customer satisfaction </dd><dd> Implements organization-wide customer service initiative to raise employee skill levels to improve customer service </dd><dd> Develops project plans, goals, and objectives to meet the needs of customers within and beyond the organization</dd></dl>
   </div>
 </div>
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-2 bg-white padding-2 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
+     <hr style="background-color: #2680EB !important;"/>
     <dl class="text-base card-content-color"><dt>Customer Service ( Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>
