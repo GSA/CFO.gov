@@ -54,10 +54,11 @@
     <div id="career-search-results">
         <!-- This loops through the paginated posts -->
         {% assign series = '501'%}
-        {% assign level = '7-9'%}
-        {% assign pcards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', 'Primary' %}
-        {% assign scards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', 'Secondary' %}
-        {% assign cards = pcards | concat: scards  %}
+        {% assign midlevel = '10-13'%}
+        {% assign seniorlevel = '14-15'%}
+        {% assign smidcards = site.cards | where: 'series', series | where: 'level', midlevel  | where: 'competency_group', 'Secondary' %}
+        {% assign sseniorcards = site.cards | where: 'series', series | where: 'level', seniorlevel  | where: 'competency_group', 'Secondary' %}
+        {% assign cards = smidcards | concat: sseniorcards  %}
         {% for card in cards limit:default_page_size %}
         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
             <div class="cfo-career-outer-box">

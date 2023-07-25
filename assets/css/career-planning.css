@@ -97,7 +97,7 @@ input#career-advancement-search-input {
 
 @media screen and (min-width: 785px) {
   input#career-advancement-search-input {
-    width: 35rem;
+    width: 30rem;
   }
 }
 
@@ -216,17 +216,14 @@ input#career-advancement-search-input {
 
   .career-download-button-1{
     width: 100% !important;
-    color: red !important;
   }
 
   #career-download-button-2{
     width: 100% !important;
-    color: red !important;
   }
 
   #career-download-button-3{
     width: 100% !important;
-    color: red !important;
   }
 
   a{
@@ -519,4 +516,18 @@ div[data-card-filter] {
 .hr {
     background-color: #CBE0F5;
     height:10px;
+}
+
+.wfm-header {
+    background-image: url(../images/career-planning-tool.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height:200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wfm-header {
+        background-image: none;
+    }
 }
