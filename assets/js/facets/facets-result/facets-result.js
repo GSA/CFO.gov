@@ -29,7 +29,7 @@
             + '<div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>TYPE:</strong></span><span class="card-content-color"> {{ card.competency_group }}</span></div>'
             + '</div>'
             + '<div class="cfo-career-category-container font-body-md">'
-            + '<div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>JOB SERIES:</strong></span><span class="card-content-color"> 0{{ card.series }}</span></div>'
+            + '<div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>JOB SERIES:</strong></span><span class="card-content-color"> {{ card.series }}</span></div>'
             + '<div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>COMPETENCY:</strong></span><span class="card-content-color"> {{ card.competency }}</span></div>'
             + '</div>'
             + '<p class="font-body-md card-display card-text-color margin-top-0"><strong>DESCRIPTION:</strong><span class="card-content-color"> {{ card.competency_description }}</span></p>';
