@@ -5,8 +5,8 @@
 
 <div class="usa-media-block tablet:grid-col-12">
     <p class="card-tag margin-top-0 text-gray-50 text-thin"> {{ include.text }} </p>
-    <div class="knowledge-sharing" >
-        {% assign sorted = (site.policies_guidance | where: include.filter, 'yes') %}
+    <div class="resources">
+        {% assign sorted = (site.resources | where: include.filter, 'yes') %}
         {% for grant in sorted %}
         {% assign filters = grant.filters | split: ' ' %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ grant.filters }}">

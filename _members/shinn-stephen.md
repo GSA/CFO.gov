@@ -1,19 +1,6 @@
 ---
-bio-image: /wp-content/uploads/2021/02/stephen_shinn.jpg
-bio-image-alt-text: STEPHEN SHINN
 layout: bio
-permalink: /bio/mr-stephen-shinn/
-name : Mr. Stephen Shinn
+name : Mr. Stephen A. Shinn
 department: National Aeronautics and Space Administration
-title: Deputy Chief Financial Office
+title: Deputy Chief Financial Officer
 ---
-
-Steve Shinn serves as the Acting Chief Financial Officer.  As Acting Chief Financial Officer, Shinn is responsible for managing Agency-wide activities related to financial operations and long-term strategies of resources toward the achievement of NASA’s strategic plan and overall mission.  Prior to this role, Shinn served as Deputy Chief Financial Officer for Center Operations where he was leading and integrating key transformation efforts for the OCFO enterprise and Agency.  Shinn previously served in the role of Chief Financial Officer for the National Aeronautics and Space Administration’s (NASA) Goddard Space Flight Center (GSFC). In that role, he ensuring the financial health of GSFC by leading and managing nearly 600 civil servant and contractor business personnel in the development, implementation, and administration of all Center budgeting ($5B annual budget), finance, accounting, business systems, financial audits/internal controls, and cost-estimating activities that enable the effective management, control, and reporting of the government’s assets.
-
-Before accepting the position in 2016, Steve served as Deputy Director for Planning and Business Management for the Flight Projects Directorate at GSFC, a position he held since May 2011. He managed all matters related to business, project planning and control, resources management, organizational staffing, workforce development, diversity and equal opportunity, and physical assets for the Center’s Flight Projects.
-
-Prior to beginning his career in the federal government, Steve worked in industry where he developed and managed integrated cost and schedule control systems for civilian and Department of Defense programs. He worked in the capacity of Group Supervisor for the Space Operations Management Group at The Johns Hopkins University Applied Physics Laboratory, managing individuals in financial management, parametric modeling, hardware production engineering, pricing, project control, cost engineering, earned value management, scheduling, and capital planning. His industry experience includes various management positions in pricing, cost management, estimating, financial management, operations management, software management, earned value management, and scheduling.
-
-He was awarded NASA’s Outstanding Leadership Medal in 2015 and 2019 and Robert H. Goddard’s Exceptional Achievement for Leadership Award in 2015 for his efforts in leading business change and organizational management. He was awarded NASA’s Cost Estimating Leadership Award and has received three team awards for Quality and Process Improvement for initiatives he championed for business change, risk analysis, and career path development. Since joining the Office of the Chief Financial Officer (OCFO) in 2016, the newly formed OCFO Diversity and Inclusion Team has been recognized with NASA’s Silver Achievement Medal in 2018 and Robert H. Goddard’s Exceptional Achievement for Diversity and Equal Employment Opportunity Team Award in 2019 for exceptional efforts and innovative approaches to promote diversity and inclusion in the workplace. He was the individual recipient of NASA’s Equal Employment Opportunity Medal in 2016 for his work promoting and modeling diversity and inclusion.
-
-Steve is an instructor in project planning and control at The Johns Hopkins University Whiting School of Engineering, a Project Management Institute-certified Project Management Professional – PMP, NASA’s OCFO Strategic Acquisition Team Lead, and NASA’s Program Planning and Control Lead. He earned his master's degree in Technical Management from the Johns Hopkins University Whiting School of Engineering and his bachelor's degree in Finance from the College of New Jersey.

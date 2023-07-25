@@ -26,6 +26,12 @@
   .tablet\:float-left {
     float: left;
   }
+
+  .tablet\:grid-col-3{
+    -webkit-box-flex:0;
+    -ms-flex:0 1 auto;
+    flex:0 1 auto;
+  }
 }
 
 @media screen and (min-width: 640px) {
