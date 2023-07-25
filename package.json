@@ -8,16 +8,16 @@
   },
   "dependencies": {
     "csv": "^6.0.5",
-    "jquery": "3.5.1",
-    "netlify-cms": "^2.10.35",
+    "netlify-cms": "^2.10.192",
     "react-redux": "^7.2.0",
-    "uswds": "^2.6.0"
+    "uswds": "2.6.0",
+    "jquery": "3.6.4"
   },
   "devDependencies": {
     "a11y": "^0.5.1",
     "minimist": "^1.2.5",
     "rimraf": "^3.0.2",
-    "jquery": "3.5.1"
+    "jquery": "3.6.4"
   },
   "resolutions": {
     "minimist": "^1.2.5"
