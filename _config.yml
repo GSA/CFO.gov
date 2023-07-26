@@ -92,7 +92,7 @@ primary_navigation:
       - name: Payment Integrity
         url: "/payment-integrity/"
       - name: Payment Integrity & Symposium Series
-        url: "/payment-integrity-symposium-series/"
+        url: "/payment-integrity-fraud-symposium/"
   - name: Resources
     url: "/resources/"
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>

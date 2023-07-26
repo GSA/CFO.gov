@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="170" viewBox="0 0 170 170" fill="none">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_101" data-name="Rectangle 101" width="72.52" height="78.97" fill="none" stroke="#e06e4f" stroke-width="4"/>
+    </clipPath>
+    <clipPath id="clip-Major_Legislation">
+      <rect width="170" height="170"/>
+    </clipPath>
+  </defs>
+  <g id="Major_Legislation" data-name="Major Legislation" clip-path="url(#clip-Major_Legislation)">
+    <rect width="170" height="170" />
+    <g id="Group_12" data-name="Group 12" transform="translate(48.74 45.516)">
+      <line id="Line_16" data-name="Line 16" x1="10.493" transform="translate(54.515 34.221)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_17" data-name="Line 17" x2="10.493" transform="translate(7.512 34.221)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_18" data-name="Line 18" x1="10.493" transform="translate(31.013 34.221)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <g id="Group_11" data-name="Group 11">
+        <g id="Group_10" data-name="Group 10" clip-path="url(#clip-path)">
+          <path id="Path_36" data-name="Path 36" d="M73.817,26.451H5.559A1.1,1.1,0,0,1,5,24.412L38.381,4.817a2.581,2.581,0,0,1,2.614,0L74.372,24.412A1.1,1.1,0,0,1,73.817,26.451Z" transform="translate(-3.428 -3.428)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <line id="Line_19" data-name="Line 19" x1="0.912" y2="27.763" transform="translate(31.318 39.087)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <line id="Line_20" data-name="Line 20" x1="0.912" y1="27.763" transform="translate(40.29 39.087)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <line id="Line_21" data-name="Line 21" x1="0.912" y2="27.763" transform="translate(7.816 39.087)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <line id="Line_22" data-name="Line 22" x1="0.912" y1="27.763" transform="translate(16.789 39.087)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <line id="Line_23" data-name="Line 23" x2="0.912" y2="27.763" transform="translate(63.792 39.087)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <line id="Line_24" data-name="Line 24" y1="27.763" x2="0.912" transform="translate(54.819 39.087)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <line id="Line_25" data-name="Line 25" x2="66.572" transform="translate(2.974 72.165)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <line id="Line_26" data-name="Line 26" x2="70.221" transform="translate(1.149 77.936)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <line id="Line_27" data-name="Line 27" x2="63.579" transform="translate(4.471 28.876)" fill="none" stroke="#e06e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
