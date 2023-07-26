@@ -91,7 +91,7 @@ primary_navigation:
         url:  "/major-legislation/"
       - name: Payment Integrity
         url: "/payment-integrity/"
-      - name: Payment Integrity & Symposium Series
+      - name: Symposium Series
         url: "/payment-integrity-fraud-symposium/"
   - name: Resources
     url: "/resources/"
