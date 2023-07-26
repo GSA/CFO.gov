@@ -182,6 +182,11 @@ color:#005ea2;
   background-color:  #19387b;
   padding:4em 0;
 }
+.symposium-page {
+    background-image: url('../assets/images/logos/workforce/symposium.png');
+    background-color: #19387b;
+    padding: 4em 0;
+}
 .fdt-page{
   background-image: url('../assets/images/fdt.png');
   background-color:  #19387b;
@@ -1009,4 +1014,27 @@ abbr{
   background: white;
   height: 10rem;
   width: 10rem;
-  border-radius: 50%; }
+  border-radius: 50%; 
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Aspect ratio 16:9 for responsive resizing */
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .video-container {
+    max-width: 60%; /* Or whatever percentage you desire */
+    padding-top: 31%; /* Reduce the height of the video */
+  }
+}

@@ -5,7 +5,7 @@ title: Priority
 
 ---
 
-<section class="usa-hero grid-container {{ page.type }}-page {% unless page.priority_icons %} margin-bottom-8{% endunless %}">
+<section class="usa-hero grid-container {{ page.type }}-page {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
     <div class="grid-row grid-gap flex-align-center">
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.svg"
@@ -14,6 +14,9 @@ title: Priority
         <div class="tablet:grid-col-8">
             <div class="priority-tag-line">
                 <h1 class="margin-0 font-ui-2xl text-normal">{{ page.title }}</h1>
+            </div>
+            <div>
+                <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
             </div>
         </div>
     </div>
@@ -50,9 +53,11 @@ title: Priority
 </section>
 {% endif %}
 
+{% if page.type == "symposium" %}
+{% include priority_payment-integirty-fraud-symposium.html %}
+{% endif %}
 
 <div class="grid-container grid-gap">{{ content }}</div>
-
 
 <section class="grid-container grid-gap usa-graphic_list clearfix tabSection">
 
@@ -94,6 +99,10 @@ title: Priority
 
     {% if page.type == "ffa" %}
     {% include priority_ffa_sidenav.html %}
+    {% endif %}
+
+    {% if page.type == "symposium" %}
+    {% include priority_payment-integirty-fraud-symposium_sidenav.html %}
     {% endif %}
 
 </section>
