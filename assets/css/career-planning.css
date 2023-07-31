@@ -258,10 +258,10 @@ input#career-advancement-search-input {
   }
 
   .maxw-tablet h1 {
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
   }
   .maxw-tablet p {
-    font-size: 0.8rem !important;
+    font-size: 1.5rem !important;
   }
 
   .career-competency-toggle-button{
@@ -492,6 +492,7 @@ div[data-card-filter] {
     background-color: #003062 !important;
     margin-left: 10px !important;
     border-radius: 0.25rem !important;
+    background-image: none !important;
 }
 
 .search-border {
