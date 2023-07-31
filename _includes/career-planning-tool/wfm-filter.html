@@ -16,7 +16,7 @@
                 {% endif %}
             {% endfor %}
 
-            {% assign series_array = series_array | sort | reverse %}
+            {% assign series_array = series_array | sort %}
             {% for series in series_array %}
                 {% assign series_id = series | downcase | slice: 0, 4 |replace: ", ", "-" | replace: " ", "-" %}
                 <button
