@@ -180,7 +180,7 @@ $.fn.extend({
      * @param {boolean} status True for enable De-Select All button
      */
     toggleSelectAll: function (competencyGroup, status) {
-        let label = status ? '<strong>De-Select All</strong>' : '<strong>Select All</strong>';
+        let label = status ? '<strong>DE-SELECT ALL</strong>' : '<strong>SELECT ALL</strong>';
         let state = status ? 'enabled' : 'disabled';
         $('#competency-group-label-' + competencyGroup).attr('data-state', state).html(label).change();
         if (!status) {

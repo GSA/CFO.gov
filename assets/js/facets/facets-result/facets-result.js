@@ -24,20 +24,24 @@
         const text2 = document.createTextNode('Check if your spelling is correct, or try removing filters. Remove quotes around phrases to match each word individually: "blue drop" will match less than blue drop.');
         textArea2.appendChild(text2);
     } else {
-        let template = '<div class="cfo-career-category-container font-body-md margin-y-0">'
-            + '<div class="cfo-inner-competency-div"><span><strong>GS Level:</strong> {{ card.level }}</span></div>'
-            + '<div class="cfo-inner-competency-div"><span><strong>Job Series:</strong> {{ card.series }}</span></div>'
+        let template = '<div class="cfo-career-category-container font-body-md">'
+            + '<div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>GS LEVEL:</strong></span><span class="card-content-color"> GS {{ card.level }}</span></div>'
+            + '<div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>TYPE:</strong></span><span class="card-content-color"> {{ card.competency_group }}</span></div>'
             + '</div>'
-            + '<div class="cfo-career-category-container font-body-md margin-y-0">'
-            + '<div class="cfo-inner-competency-div"><span><strong>Competency:</strong> {{ card.competency }}</span></div>'
-            + '<div class="cfo-inner-competency-div"><span><strong>Type:</strong> {{ card.competency_group }}</span></div>'
+            + '<div class="cfo-career-category-container font-body-md">'
+            + '<div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>JOB SERIES:</strong></span><span class="card-content-color"> {{ card.series }}</span></div>'
+            + '<div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>COMPETENCY:</strong></span><span class="card-content-color"> {{ card.competency }}</span></div>'
             + '</div>'
-            + '<p class="font-body-md"><strong>Definition:</strong> {{ card.competency_description }}</p>';
+            + '<p class="font-body-md card-display card-text-color margin-top-0"><strong>DESCRIPTION:</strong><span class="card-content-color"> {{ card.competency_description }}</span></p>';
         outerDiv3.innerHTML = template.replace('{{ card.level }}', item.level)
+            .replace('{{ card.competency_group }}', item.competency_group)
             .replace('{{ card.series }}', item.series)
             .replace('{{ card.competency }}', item.competency)
-            .replace('{{ card.competency_group }}', item.competency_group)
             .replace('{{ card.competency_description }}', item.competency_description);
+
+        const innerDivHr = document.createElement("div");
+        innerDivHr.setAttribute("class", "hr");
+        outerDiv3.append(innerDivHr);
 
         const innerDiv2 = document.createElement("div");
         innerDiv2.setAttribute("class", "grid-row grid-gap");
@@ -53,19 +57,20 @@
                 if (typeof (relevant_course) === 'string' && relevant_course.indexOf('">') >= 0) {
                     relevant_course = relevant_course.replace('>', ' target="_blank" >');
                 }
-                courseMarkup += '<li role="listitem">' + relevant_course + '</li>';
+                courseMarkup += '<li role="listitem" class="card-content-color">' + relevant_course + '</li>';
             }
             courseMarkup += '</ul>';
         } else {
             courseMarkup = '<p>No courses</p>';
         }
-        coursesDiv.innerHTML = '<h3>Career Listing</h3>' + courseMarkup;
+        coursesDiv.innerHTML = '<h3 class="card-text-color">COURSE LISTING:</h3>' + courseMarkup;
         outerDiv3.append(coursesDiv);
 
         const selectButtonWrapper = document.createElement('div');
         outerDiv3.prepend(selectButtonWrapper);
         selectButtonWrapper.setAttribute("class", "select-button");
-        selectButtonWrapper.innerHTML = '<label><input type="checkbox" value="' + item.permalink + '"' + (window.isSelected(item.permalink) ? ' checked' : '') + '> <span>Select for Download</span></label>'
+        selectButtonWrapper.setAttribute("style", "color: #003062 !important");
+        selectButtonWrapper.innerHTML = '<label><input type="checkbox" value="' + item.permalink + '"' + (window.isSelected(item.permalink) ? ' checked' : '') + '> <span>SELECT FOR DOWNLOAD</span></label>'
     }
     const resultsContainer = document.getElementById("career-search-results");
     resultsContainer.appendChild(outerDiv1);

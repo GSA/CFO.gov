@@ -89,7 +89,7 @@ function isDialogOpen() {
 function disableGlobalSelect(eventGroupId) {
     let labelId = $('#' + eventGroupId).data('major-group') === 'job-specific'
         ? 'job-career-competency-select' : 'general-career-competency-select';
-    $('#' + labelId).html('<strong>Select All</strong>').next('input').prop('checked', false);
+    $('#' + labelId).html('<strong>SELECT ALL</strong>').next('input').prop('checked', false);
 }
 
 /**
@@ -107,7 +107,7 @@ function disableGlobalSelect(eventGroupId) {
     if (status) {
         let labelId = $('#' + eventGroupId).data('major-group') === 'job-specific'
             ? 'job-career-competency-select' : 'general-career-competency-select';
-        $('#' + labelId).html('<strong>De-Select All</strong>').next('input').prop('checked', true);
+        $('#' + labelId).html('<strong>DE-SELECT ALL</strong>').next('input').prop('checked', true);
     }
 }
 

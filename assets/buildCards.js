@@ -4,7 +4,7 @@ const parse = require('csv-parse').parse;
 function buildCards() {
     let cards = {};
 
-    fs.createReadStream('assets/csv/FEDS Competency Model Sample Data Golf.csv')
+    fs.createReadStream('assets/csv/FCModelEcho_PWD-Emeritus.csv')
         .pipe(parse({ columns: true }))
         .on('data', function (row) {
             const parts = row[Object.keys(row)[0]].split(' '),
@@ -164,16 +164,18 @@ relevant_courses: ${courseExport || '[]'}
 filters: ${filters}
 ---
 
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <dl class="text-base">${behaviorMarkup}</dl>
+    <hr style="background-color: #2680EB !important;"/>
+    <dl class="text-base card-content-color">${behaviorMarkup}</dl>
   </div>
 </div>
-<div class="desktop:grid-col-6 margin-y-205">
-  <div class="border-top-05 bg-white padding-2 shadow-5 height-full members-hover border-1px border-gray-30 border-top-orange radius-lg">
+<div class="desktop:grid-col-6 margin-y-3">
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-    <dl class="text-base">${profLevelMarkup}</dl>
+     <hr style="background-color: #2680EB !important;"/>
+    <dl class="text-base card-content-color">${profLevelMarkup}</dl>
   </div>
 </div>`;
                 let filename = `_cards/2021-11-26-0${card.jobSeries}-${card.competencyGroup.replace(/ /g, '-')}-${card.competency.replace(/ /g, '-')}-${card.careerLevel}.md`;

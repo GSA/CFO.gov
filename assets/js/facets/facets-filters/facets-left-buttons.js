@@ -16,8 +16,9 @@
             if (id === 'job-career-competency-select-all') {
                 var jobSelect = '#job-career-competency-select';
                 // Toggle the text on the UI
-                if ($(jobSelect).text() === 'Select All') {
-                    $(jobSelect).html("<strong>De-Select All</strong>");
+                if ($(jobSelect).text() === 'SELECT ALL') {
+                    $(jobSelect).html("<strong>DE-SELECT ALL</strong>");
+                    $(jobSelect).toggleClass("active");
                     // competency_group already initialized from all item
                     /**
                      * UI: YES
@@ -35,7 +36,8 @@
                         }
                     });
                 } else {
-                    $(jobSelect).html("<strong>Select All</strong>");
+                    $(jobSelect).html("<strong>SELECT ALL</strong>");
+                    $(jobSelect).toggleClass("active");
                     facetGlobalVars.competency_group.forEach(item => {
                         let itemElement = $().createId(item);
                         let eventId = document.getElementById(itemElement);
@@ -47,8 +49,9 @@
             }
             if (id === 'general-career-competency-select-all') {
                 var generalSelect = '#general-career-competency-select';
-                if ($(generalSelect).text() === 'Select All') {
-                    $(generalSelect).html("<strong>De-Select All</strong>");
+                if ($(generalSelect).text() === 'SELECT ALL') {
+                    $(generalSelect).html("<strong>DE-SELECT ALL</strong>");
+                    $(generalSelect).toggleClass("active");
                     facetGlobalVars.competency_group.forEach(item => {
                         if (comps.some(x => x.group === $().createId(item))) {
                             let itemElement = $().createId(item);
@@ -59,7 +62,8 @@
                         }
                     });
                 } else {
-                    $(generalSelect).html("<strong>Select All</strong>");
+                    $(generalSelect).html("<strong>SELECT ALL</strong>");
+                    $(generalSelect).toggleClass("active");
                     facetGlobalVars.competency_group.forEach(item => {
                         let itemElement = $().createId(item);
                         let eventId = document.getElementById(itemElement);
@@ -143,7 +147,7 @@
         removeButtonA.setAttribute("id", eventTargetId + "-button");
         removeButtonA.setAttribute("tabindex", 0);
         removeButtonA.setAttribute("href", "javascript:void(0)");
-        removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white text-black border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
+        removeButtonA.setAttribute("class", "usa-tag margin-top float-left bg-white text-color border-blue padding-05 margin-1 text-no-uppercase text-no-underline");
         let removeButtonText;
         if (inputType === "button") {
             removeButtonText = createButtonText(eventTargetId);
@@ -169,7 +173,7 @@
         }
         if (competencyGroup != null) {
             removeButtonA.removeAttribute("class");
-            removeButtonA.setAttribute("class", "usa-tag bg-accent-warm margin-top float-left text-black padding-05 margin-1 text-no-uppercase text-no-underline");
+            removeButtonA.setAttribute("class", "usa-tag bg-filter margin-top float-left text-color padding-05 margin-1 text-no-uppercase text-no-underline");
 
             if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
                 addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
