@@ -52,11 +52,14 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
 @media screen and (max-width: 751px) {
-  .priority-tag-line{
-    h1 {
-      text-align: center;
+    .priority-tag-line {
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
     }
-  }
 }
 
 
