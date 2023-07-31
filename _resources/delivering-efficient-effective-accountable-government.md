@@ -3,5 +3,5 @@ layout: resources-landing
 title: "Delivering an Efficient, Effective, and Accountable Government "
 subtitle: "Delivering an Efficient, Effective, and Accountable Government " 
 external_link: https://www.govinfo.gov/content/pkg/CFR-2012-title3-vol1/pdf/CFR-2012-title3-vol1-eo13576.pdf
-filters: federal-financial-assistance uniform-guidance executive-order external
+filters: federal-financial-assistance uniform-guidance-2-cfr-200 executive-order external
 ---

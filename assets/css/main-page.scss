@@ -51,10 +51,17 @@
 box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
-.priority-tag-line{
-  /*padding-top: .5em;*/
-
+@media screen and (max-width: 751px) {
+    .priority-tag-line {
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+    }
 }
+
 
 .cxo{
   background-image: url('../wp-content/uploads/2016/02/CXO-Fellows-Banner.png');
@@ -66,6 +73,15 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
   background-image: url('../assets/images/priority-middle-image1.png');
   background-repeat:no-repeat;
   background-size: cover;
+}
+@media screen and (min-width: 672px) {
+  .priority-icons > div:nth-child(2),
+  .priority-icons > div:nth-child(3) {
+      padding-bottom: 1rem;
+  }
+}
+.priority-icons a {
+  width: 12.5rem;
 }
 /* Clearfix (clear floats) */
 .section_font {
@@ -169,6 +185,11 @@ color:#005ea2;
   background-color:  #19387b;
   padding:4em 0;
 }
+.symposium-page {
+    background-image: url('../assets/images/logos/workforce/symposium.png');
+    background-color: #19387b;
+    padding: 4em 0;
+}
 .fdt-page{
   background-image: url('../assets/images/fdt.png');
   background-color:  #19387b;
@@ -236,6 +257,18 @@ color:#005ea2;
   background-color:  #19387b;
   background-size: cover;
   padding:5em 0;
+}
+
+@media screen and (max-width: 496px) {
+  .ffa-page,
+  .ffr-page,
+  .major-legislation-page,
+  .payment-integrity-page {
+    background-image: url('../assets/images/logos/workforce/president-signing-mobile-banner.png');
+  }
+    .symposium-page {
+        background-image: url('../assets/images/logos/workforce/symposium-mobile-banner.png');
+    }
 }
 
 .coming-soon {
@@ -1019,4 +1052,38 @@ abbr{
 
 .controller-alert-button{
     text-align:right;
+}
+
+.usa-section {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.circle-card {
+  background: white;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%; 
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Aspect ratio 16:9 for responsive resizing */
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .video-container {
+    max-width: 60%; /* Or whatever percentage you desire */
+    padding-top: 31%; /* Reduce the height of the video */
+  }
 }

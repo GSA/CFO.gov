@@ -22,8 +22,10 @@
                 <a class="no-style anchor-fill" href="{{ resource.doc-link }}">
              {% elsif resource.external_link %}
                 <a class="no-style anchor-fill" href="{{ resource.external_link }}">
+             {% elsif resource.link %}
+                <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ resource.link }}">
              {% endif %}
-                <div class="text-container height-card-lg">
+                <div class="text-container height-card-lg padding-top-2">
                 <strong><p>{{ resource.subtitle }}</p></strong>
                 {% assign filters = resource.filters | split: ' ' %}
                 {% for filter in filters  limit: 2 %}
