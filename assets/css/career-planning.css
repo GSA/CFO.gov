@@ -95,9 +95,9 @@ input#career-advancement-search-input {
   width: 30%;
 }
 
-@media screen and (min-width: 785px) {
+@media screen and (min-width: 750px) {
   input#career-advancement-search-input {
-    width: 30rem;
+    width: 27rem;
   }
 }
 
@@ -202,8 +202,16 @@ input#career-advancement-search-input {
   max-width: 87.5rem !important;
 }
 
-@media screen and (max-width: 770px) {
-
+@media screen and (max-width: 640px) {
+   .search {
+        flex-direction: column;
+   }
+    .width {
+        width: 92% !important;
+    }
+    .bg-search {
+        margin-left: 0px;
+    }
   .ui-dialog{
     width: 90% !important;
     margin-left: 20px;
@@ -490,9 +498,9 @@ div[data-card-filter] {
 
 .bg-search {
     background-color: #003062 !important;
-    margin-left: 10px !important;
-    border-radius: 0.25rem !important;
+    margin-left: 10px;
     background-image: none !important;
+    border-radius: 0.25rem !important;
 }
 
 .search-border {
@@ -530,5 +538,7 @@ div[data-card-filter] {
 @media screen and (max-width: 1200px) {
     .wfm-header {
         background-image: none;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
     }
 }

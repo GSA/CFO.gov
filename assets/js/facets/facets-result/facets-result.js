@@ -63,7 +63,7 @@
         } else {
             courseMarkup = '<p>No courses</p>';
         }
-        coursesDiv.innerHTML = '<h3 class="card-text-color">CAREER LISTING:</h3>' + courseMarkup;
+        coursesDiv.innerHTML = '<h3 class="card-text-color">COURSE LISTING:</h3>' + courseMarkup;
         outerDiv3.append(coursesDiv);
 
         const selectButtonWrapper = document.createElement('div');
