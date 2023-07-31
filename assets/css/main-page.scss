@@ -1,7 +1,7 @@
 
 // Import the US Web Design System SASS.
 
-@import "uswds";
+//@import "uswds";
 @import "../../_sass/members";
 @import "../../_sass/knowledgesharing";
 @import "./resources.scss";
@@ -229,6 +229,13 @@ color:#005ea2;
   background-color:  #19387b;
   background-size: cover;
   padding:4em 0;
+}
+
+.career-planning-training-tool-page {
+  background-image: url('../assets/images/logos/career-planning-training-tool-people.png');
+  background-color: #19387b;
+  background-size: cover;
+  padding: 4em 0;
 }
 
 .ffr-page{
@@ -480,6 +487,9 @@ ol.roman {
   .logo-size {
     width: 214px;
     height: 72px;
+    .wfm-page & {
+      width: auto;
+    }
   }
 }
 
@@ -745,6 +755,39 @@ abbr{
 .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button:active::before, .usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--outline::before {
   display: none; }
 
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--secondary:disabled::before,
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--accent-cool:disabled::before,
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--base:disabled::before {
+  border-right-color: #71767a;
+}
+
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button:active::before,
+.usa-button-group--segmented .usa-button-group__item:not(:last-child) .usa-button--outline::before {
+  display: none;
+}
+
+.site-margin {
+  .grid-container-widescreen {
+    dd {
+      margin-inline-start: 2em;
+      list-style-type: disc;
+      display: list-item;
+      color: #003062;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    dl {
+      color: #003062;
+    }
+
+    dt {
+      font-weight: bold;
+      margin-bottom: 1em;
+      color: #003062;
+    }
+  }
+}
   //CXO Page Linkedin Button
   .usa-social-link--linkedin-cfo {
     background-image: url(../assets/images/linkedin-transparent.png),

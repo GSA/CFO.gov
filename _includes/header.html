@@ -3,11 +3,14 @@ This appears at the top of the page letting the user know it's an official gover
 {% endcomment %}
 
 <div class="page-landing-page layout-demo ">
-  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  {% if page.secondary_skip %}
+  <a class="usa-skipnav" href="#secondary-skip">Skip to secondary navigation</a>
+  {% endif %}
+  <a class="usa-skipnav" href="#career-advancement-search-input">Skip to main content</a>
   <div class="usa-banner">
     <div class="usa-accordion">
       <header class="usa-banner__header">
-        <div class="usa-banner__inner">
+        <div {% if page.url != '/career-planning-tool/' %} class="usa-banner__inner" {% endif %}  {% if page.url == '/career-planning-tool/'  %} class="usa-banner__inner ogp-banner" {% endif %} >
           <div class="grid-col-auto">
             {% asset us_flag_small.png class="usa-banner__header-flag" alt="U.S. flag" %}
           </div>

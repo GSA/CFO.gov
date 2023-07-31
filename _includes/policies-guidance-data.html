@@ -1,0 +1,43 @@
+<!--********Policies and Guidance items. Individual cards live in the in the _policies_guidance folder**************-->
+
+<div class="usa-media-block tablet:grid-col-9">
+    <p class="filter-count card-tag margin-top-0 text-gray-50 text-thin"></p>
+    <div class="knowledge-sharing">
+        {% for item in site.policies_guidance %}
+        {% if item.layout == "policies-guidance-landing" %}
+        <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }}">
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover ">
+                {% if item.permalink %}
+                <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.permalink }}">
+                    {% else %}
+                    <a class="no-style anchor-fill" href="{{ item.doc-link }}">
+                        {% endif %}
+                        <div class="text-container height-card-lg">
+                            <strong>
+                                <p>
+                                    {{ item.subtitle }}
+                                </p>
+                            </strong>
+                            {% assign filters = item.filters | split: ' ' %}
+                            {% for filter in filters %}
+                            {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
+                            {% if has_link == 'No' %}
+                            <p class="title-resources">
+                                {{ filter | upcase }}
+                            </p>
+                            {% else %}
+                            {% assign hyphen_filter = filter | split: '-' %}
+                            <p class="title-resources">
+                                {% for second_filter in hyphen_filter %}
+                                {{ second_filter | upcase }}
+                                {% endfor %}
+                            </p>
+                            {% endif %}
+                            {% endfor %}
+                        </div></a>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
