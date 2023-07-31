@@ -43,7 +43,7 @@
                 {% endif %}
             {% endfor %}
 
-            {% assign level_array = level_array | numerical_sort | reverse %}
+            {% assign level_array = level_array | sort %}
             {% for level in level_array %}
                 {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
                 <button
