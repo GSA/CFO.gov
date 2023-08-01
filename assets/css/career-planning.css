@@ -95,9 +95,9 @@ input#career-advancement-search-input {
   width: 30%;
 }
 
-@media screen and (min-width: 785px) {
+@media screen and (min-width: 750px) {
   input#career-advancement-search-input {
-    width: 35rem;
+    width: 27rem;
   }
 }
 
@@ -202,8 +202,16 @@ input#career-advancement-search-input {
   max-width: 87.5rem !important;
 }
 
-@media screen and (max-width: 770px) {
-
+@media screen and (max-width: 640px) {
+   .search {
+        flex-direction: column;
+   }
+    .width {
+        width: 92% !important;
+    }
+    .bg-search {
+        margin-left: 0px;
+    }
   .ui-dialog{
     width: 90% !important;
     margin-left: 20px;
@@ -216,17 +224,14 @@ input#career-advancement-search-input {
 
   .career-download-button-1{
     width: 100% !important;
-    color: red !important;
   }
 
   #career-download-button-2{
     width: 100% !important;
-    color: red !important;
   }
 
   #career-download-button-3{
     width: 100% !important;
-    color: red !important;
   }
 
   a{
@@ -261,10 +266,10 @@ input#career-advancement-search-input {
   }
 
   .maxw-tablet h1 {
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
   }
   .maxw-tablet p {
-    font-size: 0.8rem !important;
+    font-size: 1.5rem !important;
   }
 
   .career-competency-toggle-button{
@@ -460,7 +465,7 @@ div[data-card-filter] {
     margin-top:0px !important;
 }
 
-#career-advancement-results-container .ui-dialog .ui-widget-header{
+.ui-dialog .ui-widget-header{
     border:none !important;
     background-color:none !important;
     background:none !important;
@@ -493,12 +498,19 @@ div[data-card-filter] {
 
 .bg-search {
     background-color: #003062 !important;
-    margin-left: 10px !important;
+    margin-left: 10px;
+    background-image: none !important;
     border-radius: 0.25rem !important;
 }
 
 .search-border {
-    border-color: #B4D8FD !important;
+    border-color: #B4D8FD !important;  
+}
+
+@media only screen and (max-width: 640px) {
+    .search-border {
+        border-color: #003062 !important;
+    }
 }
 
 .card-text-color {
@@ -519,4 +531,24 @@ div[data-card-filter] {
 .hr {
     background-color: #CBE0F5;
     height:10px;
+}
+
+.wfm-header {
+    background-image: url(../images/career-planning-tool.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height:200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wfm-header {
+        background-image: none;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+.border-color {
+    border-color: #003062 !important;
 }

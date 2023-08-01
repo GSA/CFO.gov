@@ -1,6 +1,6 @@
-<div class="usa-media-block tablet:grid-col-4 desktop:grid-col-4 career-advancement-block">
+<div class="usa-media-block tablet:grid-col-4 desktop:grid-col-4 career-advancement-block" style="padding-right:inherit">
     <h2 class="text-color">FILTER YOUR RESULTS</h2>
-    <div id="secondary-skip" class="facets-panel bg-filter padding-y-3 radius-md padding-x-105 text-color">
+    <div id="secondary-skip" class="facets-panel bg-filter padding-y-3 radius-md padding-x-3 text-color">
 
         <h3 class="margin-top-0 text-color">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></h3>
         <div class="display-flex flex-column">
@@ -34,25 +34,25 @@
             {% assign level_array = "" | split: "," %}
 
             {% for item in site.cards %}
-                {% if item.category == 'career' %}
-                    {% if level_array contains item.level %}
+            {% if item.category == 'career' %}
+            {% if level_array contains item.level %}
 
-                    {% else %}
-                        {% assign level_array = level_array | push: item.level %}
-                    {% endif %}
-                {% endif %}
+            {% else %}
+            {% assign level_array = level_array | push: item.level %}
+            {% endif %}
+            {% endif %}
             {% endfor %}
 
-            {% assign level_array = level_array | numerical_sort %}
+            {% assign level_array = level_array | numerical_sort | reverse %}
             {% for level in level_array %}
-                {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
-                <button
-                    type="button"
+            {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
+            <button type="button"
                     id="GS-{{ level_id }}"
                     data-id="GS-{{ level_id }}"
                     aria-label="GS Level - {{ level }}"
-                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-2px bg-filter radius-lg button-border"
-                >GS {{ level }}</button>
+                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-2px bg-filter radius-lg button-border">
+                GS {{ level }}
+            </button>
             {% endfor %}
         </div>
 
