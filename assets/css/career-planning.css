@@ -465,16 +465,10 @@ div[data-card-filter] {
     margin-top:0px !important;
 }
 
-#career-advancement-results-container .ui-dialog .ui-widget-header{
+.ui-dialog .ui-widget-header{
     border:none !important;
     background-color:none !important;
     background:none !important;
-}
-
-.ui-widget-header {
-    border: none !important;
-    background-color: none !important;
-    background: none !important;
 }
 
 .text-capitalize {
