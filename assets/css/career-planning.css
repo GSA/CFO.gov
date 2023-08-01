@@ -471,6 +471,12 @@ div[data-card-filter] {
     background:none !important;
 }
 
+.ui-widget-header {
+    border: none !important;
+    background-color: none !important;
+    background: none !important;
+}
+
 .text-capitalize {
     text-transform: capitalize !important;
 }
