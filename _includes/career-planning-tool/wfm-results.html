@@ -44,7 +44,7 @@
         </div>
         <div class="career-search-results-page-size-wrapper card-content-color">
         <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">RESULTS PER PAGE: </label>
-        <select id="per-page-top" class="usa-select width-8 display-inline-block margin-top-0 card-content-color" name="per_page">
+        <select id="per-page-top" class="usa-select width-8 display-inline-block margin-top-0 card-content-color border-color" name="per_page">
             <option value="5"{% if default_page_size == 5 %}selected{% endif %}>5</option>
             <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
             <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
@@ -59,7 +59,7 @@
             <div class="cfo-career-outer-box padding-4">
                 <div class="cfo-career-text-container position-relative">
                     <div class="select-button" style="color: #003062 !important">
-                        <label><input type="checkbox" value="{{ card.permalink }}"> <span>SELECT FOR DOWNLOAD</span></label>
+                        <label><input type="checkbox" value="{{ card.permalink }}" class="border-color"> <span>SELECT FOR DOWNLOAD</span></label>
                     </div>
                     <div class="cfo-career-category-container font-body-md">
                         <div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>GS LEVEL:</strong></span><span class="card-content-color"> GS {{ card.level }}</span></div>

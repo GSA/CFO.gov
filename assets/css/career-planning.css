@@ -554,3 +554,7 @@ div[data-card-filter] {
         padding-bottom: 1.5rem;
     }
 }
+
+.border-color {
+    border-color: #003062 !important;
+}
