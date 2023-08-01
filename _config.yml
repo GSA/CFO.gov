@@ -102,14 +102,10 @@ primary_navigation:
 
   - name: CXO Fellows
     url: /cxo-fellows/
-  - name: Career Planning Training Tool
-    url: /career-planning-training-tool/
 
 secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
-  - name: Career Planning Tool 
-    url: /career-planning-tool/
 
 secondary_navigation_frpc:
   - name: Contact Us
@@ -181,8 +177,6 @@ collections:
     output: true
   other_resources:
     output: true
-  cards:
-    output: true
 
 permalink: pretty
 
@@ -206,7 +200,7 @@ pagination:
   # The default document collection to paginate if nothing is specified ('posts' is default)
   collection: "posts"
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 12
+  per_page: 3
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: "/page/:num/" # Pages are index.html inside this folder (default)
   #permalink: '/page/:num.html' # Pages are simple html files
