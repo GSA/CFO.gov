@@ -9,16 +9,16 @@ keyword:
 priority_icons: 
  - name: Compliance Supplement
    logo: /assets/images/logos/workforce/Hand_shake.svg
-   url: /federal-financial-assistance/compliance-supplement/
+   url: /resources/compliance-supplement/
  - name: Innovation Exchange Sessions
    logo: /assets/images/logos/workforce/Data_analytics_training_pilot.svg
    url: /resources/innovation-exchanges/
  - name: Uniform Guidance
    logo: /assets/images/logos/workforce/centrtalized_recruiting_pilot.svg
-   url: /federal-financial-assistance/uniform-guidance/
+   url: /resources/uniform-guidance/
  - name: 'Uniform Guidance: Promising Practices in Implementation'
    logo: /assets/images/logos/grants.svg
-   url: /federal-financial-assistance/uniform-guidance-promising-practices-in-implementation/
+   url: /resources/uniform-guidance-promising-practices-in-implementation/
 description1:
 ---
 

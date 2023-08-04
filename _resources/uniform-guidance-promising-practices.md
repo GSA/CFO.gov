@@ -2,11 +2,12 @@
 layout: resources-landing
 title: 'Uniform Guidance: Promising Practices in Implementation'
 subtitle: Uniform Guidance Promising Practices in Implementation
-permalink: /federal-financial-assistance/uniform-guidance-promising-practices-in-implementation/
+permalink: /resources/uniform-guidance-promising-practices-in-implementation/
 date: July 05, 2016
 author: CFO Council 
 has_date: 'yes'
 back_to_button: 'no'
+filters: federal-financial-assistance uniform-guidance-2-cfr-200 guidance 2016
 ---
 
 <h2>Opening Remarks</h2>
