@@ -2,6 +2,6 @@
 layout: resources-landing
 title: "Financial Report of the United States Government - Previous Reports"
 subtitle: "Financial Report of the United States Government - Previous Reports"
-filters: financial-reporting report omb
+filters: financial-reporting report omb 2021
 external_link: https://fiscal.treasury.gov/reports-statements/financial-report/previous-reports.html
 ---

@@ -6,7 +6,7 @@ permalink: /resources/seminars-payment-integrity/
 date: July 02, 2023
 has_date: 'no'
 back_to_button: 'no'
-filters: payment-integrity training omb
+filters: payment-integrity training omb 2021
 ---
 <h2>Purpose</h2>
 <p>An update to OMB Circular A-123 Appendix C Requirements for Payment Integrity Improvement was released on March 5, 2021 and was published on Whitehouse.gov as M-21-19. This series will explore the wide-reaching world of payment integrity in the federal government particularly for the CFO Act agencies. Over the course of several seminars, six topics will be covered to outline the foundational requirements of Appendix C to Circular A-123, to help agencies achieve compliance with the Payment Integrity Information Act, and to enable a preventative approach to Payment Integrity.</p>
