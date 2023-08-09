@@ -485,7 +485,7 @@ div[data-card-filter] {
 }
 
 .bg-filter {
-    background-color: #CBE0F5 !important;
+    background-color: #CBE0F559 !important;
 }
 
 .button-border {
@@ -529,7 +529,7 @@ div[data-card-filter] {
 }
 
 .hr {
-    background-color: #CBE0F5;
+    background-color: #CBE0F559;
     height:10px;
 }
 
@@ -551,4 +551,8 @@ div[data-card-filter] {
 
 .border-color {
     border-color: #003062 !important;
+}
+
+.bg-button{
+    background-color: #CBE0F500 !important;
 }
