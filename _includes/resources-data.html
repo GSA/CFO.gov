@@ -22,7 +22,7 @@
                     {% elsif resource.doc-link %}
                     <a class="no-style anchor-fill" href="{{ resource.doc-link }}">
                         {% elsif resource.external_link %}
-                        <a class="no-style anchor-fill" href="{{ resource.external_link }}">
+                        <a class="no-style anchor-fill" href="{{ resource.external_link }}" aria-label="{% if resource.aria-label %} {{resource.aria-label}} {% endif %}">
                             {% elsif resource.link %}
                             <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ resource.link }}">
                                 {% endif %}
