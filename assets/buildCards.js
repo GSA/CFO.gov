@@ -4,7 +4,7 @@ const parse = require('csv-parse').parse;
 function buildCards() {
     let cards = {};
 
-    fs.createReadStream('assets/csv/FCModelEcho_PWD-Emeritus.csv')
+    fs.createReadStream('assets/csv/Consolidated_CPTT_PWD_20230808.csv')
         .pipe(parse({ columns: true }))
         .on('data', function (row) {
             const parts = row[Object.keys(row)[0]].split(' '),
@@ -69,9 +69,9 @@ function buildCards() {
             for (var k in cards) {
 
                 const card = cards[k],
-                    permalink = '/cards/' + card.jobSeries + '-' + card.competency.replace(' ', '-') + '-' + card.careerLevel,
+                    permalink = '/cards/' + card.jobSeries + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-') + '-' + card.careerLevel,
                     filters = [
-                        card.competencyGroup.replace(/ /g, '-') + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-'),
+                        card.competencyGroup.replace(/ /g, '-') + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-'),
                         'GS-' + card.gsLevel,
                         'series-0' + card.jobSeries
                     ].join(' ');
@@ -158,7 +158,7 @@ competency: ${card.competency}
 competency_group: ${card.competencyGroup}
 competency_description: ${card.compDesc}
 level: "${card.gsLevel}"
-behavior_illustrations: ${Object.values(card.behavior).join(' ? ')}
+behavior_illustrations: "${Object.values(card.behavior).join(' ? ')}"
 proficiency_level_definition: ${Object.values(card.prof).join(' ? ')}
 relevant_courses: ${courseExport || '[]'}
 filters: ${filters}
@@ -178,7 +178,7 @@ filters: ${filters}
     <dl class="text-base card-content-color">${profLevelMarkup}</dl>
   </div>
 </div>`;
-                let filename = `_cards/2021-11-26-0${card.jobSeries}-${card.competencyGroup.replace(/ /g, '-')}-${card.competency.replace(/ /g, '-')}-${card.careerLevel}.md`;
+                let filename = `_cards/2021-11-26-0${card.jobSeries}-${card.competencyGroup.replace(/ /g, '-')}-${card.competency.replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-')}-${card.careerLevel}.md`;
                 fs.writeFileSync(filename, output);
                 count++;
             }

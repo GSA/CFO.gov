@@ -465,7 +465,7 @@ div[data-card-filter] {
     margin-top:0px !important;
 }
 
-#career-advancement-results-container .ui-dialog .ui-widget-header{
+.ui-dialog .ui-widget-header{
     border:none !important;
     background-color:none !important;
     background:none !important;
@@ -504,7 +504,13 @@ div[data-card-filter] {
 }
 
 .search-border {
-    border-color: #B4D8FD !important;
+    border-color: #B4D8FD !important;  
+}
+
+@media only screen and (max-width: 640px) {
+    .search-border {
+        border-color: #003062 !important;
+    }
 }
 
 .card-text-color {
@@ -541,4 +547,8 @@ div[data-card-filter] {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
+}
+
+.border-color {
+    border-color: #003062 !important;
 }
