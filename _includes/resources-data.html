@@ -3,8 +3,10 @@
 <div class="usa-media-block tablet:grid-col-9">
     <p class="filter-count card-tag margin-top-0 text-gray-50 text-thin"></p>
     <div class="resources">
-        {% assign resources = site.resources | sort: 'fiscal_year' | reverse %}
-        {% for resource in resources %}
+        {% assign resources_group = site.resources | sort: "fiscal_year" | reverse | group_by: "fiscal_year" %}
+        {% for resources in resources_group %}
+        {% assign sorted_resources = resources.items | sort: 'subtitle' %}
+        {% for resource in sorted_resources %}
         {% assign className = resource.filters | split: ' ' | first %}
         <div class="tablet:grid-col-4  grid-spacing policy {{ resource.filters }}">
             <!-- adds star icon on new resources for 30 days -->
@@ -46,6 +48,7 @@
                             </a>
             </div>
         </div>
+        {% endfor %}
         {% endfor %}
     </div>
 </div>
