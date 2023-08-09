@@ -4,6 +4,7 @@ title: "Compliance Supplement"
 subtitle: "Compliance Supplement"
 link: /resources/compliance-supplement/
 filters: federal-financial-assistance guidance 2021
+fiscal_year: 2021
 ---
 
 The Compliance Supplement assists auditors in performing required audits, as required by the Single Audit Act of 1996 and 2 CFR Part 200, Subpart F.  The Supplement is a document that identifies existing, important compliance requirements that the federal government expects to be considered as part of an audit required by the Single Audit Act.  The Supplement provides an up-to-date source of information for auditors to understand the federal program’s objectives, procedures, and compliance requirements most likely to cause improper payments, fraud, waste, abuse, or generate audit findings for which the federal awarding agency will take sanctions.

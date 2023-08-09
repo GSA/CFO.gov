@@ -3,7 +3,8 @@ layout: resources-landing
 title: "Uniform Guidance: 2 CFR 200"
 subtitle: "Uniform Guidance: 2 CFR 200"
 permalink: /resources/uniform-guidance/
-filters: federal-financial-assistance guidance
+filters: federal-financial-assistance guidance 2013
+fiscal_year: 2013
 ---
 
 2 CFR 200, also known as the "Uniform Guidance" consists of Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards. It was issued by The Office of Management and Budget's (OMB) on December 26, 2013 and was compiled from previously separate OMB circulars that addressed separately administrative requirements, audits, and cost principles for specific entities such as universities, non-profit organizations, and hospitals. The overarching goal of the Uniform Guidance is to improve program performance, reduce the administrative burden on award recipients and mitigate the risk of the inappropriate use of Federal funds. 2 CFR 200 is considered guidance and not regulation.
