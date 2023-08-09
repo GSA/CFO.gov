@@ -154,7 +154,7 @@ job_series: ${card.jobSeriesFull}
 career_level: ${card.careerLevel}
 permalink: ${permalink}
 functional_competency_designation: ${card.competencyDesignation}
-competency: ${card.competency}
+competency: ${card.competency.replace(/\//g, ' ')}
 competency_group: ${card.competencyGroup}
 competency_description: ${card.compDesc}
 level: "${card.gsLevel}"

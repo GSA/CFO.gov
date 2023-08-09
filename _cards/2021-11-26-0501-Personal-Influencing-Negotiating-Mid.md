@@ -8,7 +8,7 @@ job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Influencing-Negotiating-Mid
 functional_competency_designation: Job Specific Competencies
-competency: Influencing/Negotiating
+competency: Influencing Negotiating
 competency_group: Personal
 competency_description: Persuades others to accept recommendations, cooperate, or change their behavior; works with others towards an agreement; negotiates to find mutually acceptable solutions
 level: "10-13"

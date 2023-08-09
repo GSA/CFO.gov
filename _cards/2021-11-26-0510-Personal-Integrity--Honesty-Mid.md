@@ -8,7 +8,7 @@ job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Integrity--Honesty-Mid
 functional_competency_designation: Job Specific Competencies
-competency: Integrity/ Honesty
+competency: Integrity  Honesty
 competency_group: Personal
 competency_description: Contributes to maintaining the integrity of the organization; displays high standards of ethical conduct and understands the impact of violating these standards on an organization, self, and others; is trustworthy
 level: "10-13"

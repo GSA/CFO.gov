@@ -8,7 +8,7 @@ job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Integrity--Honesty-Entry
 functional_competency_designation: Job Specific Competencies
-competency: Integrity/ Honesty
+competency: Integrity  Honesty
 competency_group: Personal
 competency_description: Contributes to maintaining the integrity of the organization; displays high standards of ethical conduct and understands the impact of violating these standards on an organization, self, and others; is trustworthy
 level: "7-9"
