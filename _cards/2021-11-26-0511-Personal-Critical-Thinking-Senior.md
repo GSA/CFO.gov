@@ -10,12 +10,12 @@ permalink: /cards/511-Critical-Thinking-Senior
 functional_competency_designation: General Career Competencies
 competency: Critical Thinking
 competency_group: Personal
-competency_description: Uses imagination to develop new insights into situations and applies new solutions to problems; designs new methods where established methods and procedures are not suitable or are unavailable.                                           
+competency_description: Identifies rules, principles, or relationships that explain facts, data, or other information; analyzes information and makes correct inferences or draws accurate conclusions
 level: "14-15"
-behavior_illustrations: Analyzes and interprets extensive amounts of technically complex manuals and publications to recommend financial management approaches most suitable to current and future organizational needs ? Advises and provides strategic direction as part of an inter-agency committee established to research and analyze issues affecting the financial management community ?
+behavior_illustrations: "Analyzes and interprets extensive amounts of technically complex manuals and publications to recommend financial management approaches most suitable to current and future organizational needs ? Advises and provides strategic direction as part of an inter-agency committee established to research and analyze issues affecting the financial management community ?"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - 47 Technology and Innovation Acceleration Program (with MIT xPRO), Emeritus, <a href="https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
+ - Technology and Innovation Acceleration Program (with MIT xPRO), Emeritus, <a href="https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
 filters: Personal-Critical-Thinking GS-14-15 series-0511
 ---
 

@@ -6,16 +6,16 @@ series: 560
 job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Mid
-permalink: /cards/560-Robotic-Process Automation-Mid
+permalink: /cards/560-Robotic-Process-Automation-Mid
 functional_competency_designation: Job Specific Competencies
 competency: Robotic Process Automation
 competency_group: Secondary
-competency_description: Identifies rules, principles, or relationships that explain facts, data, or other information; analyzes information and makes correct inferences or draws accurate conclusions.
+competency_description: Knowledge of principles, procedures, and techniques associated with software that can be easily implemented to replace/perform basic, repetitive tasks (e.g., processing transactions, gathering and integrating data, responding to inquiries) across software applications.
 level: "10-13"
-behavior_illustrations: Uses RPA to simplify a wide range of processes ? Identifies, selects, and implements RPA to improve processes or functions ?
-proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
+behavior_illustrations: "Understands the basic steps required to implement RPA ?Contributes, with supervision and guidance from others, to a project involving RPA"
+proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - 46 Robotics Essentials (with MIT xPRO), Emeritus, <a href="https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
+ - Emerging Technologies - Robotic Process Automation, RPA, MC, <a href="https://www.managementconcepts.com/course/id/3800?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/3800?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Secondary-Robotic-Process-Automation GS-10-13 series-0560
 ---
 
@@ -23,13 +23,13 @@ filters: Secondary-Robotic-Process-Automation GS-10-13 series-0560
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Robotic Process Automation ( Level 3 - Intermediate)</dt><dd>Uses RPA to simplify a wide range of processes </dd><dd> Identifies, selects, and implements RPA to improve processes or functions </dd></dl>
+    <dl class="text-base card-content-color"><dt>Robotic Process Automation ( Level 2 - Basic)</dt><dd>Understands the basic steps required to implement RPA </dd><dd>Contributes, with supervision and guidance from others, to a project involving RPA</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Robotic Process Automation ( Level 3 - Intermediate)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Robotic Process Automation ( Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
   </div>
 </div>
