@@ -32,8 +32,8 @@ filters: Personal-Organizational-Awareness GS-14-15 series-0510
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Organizational Awareness ( Level 4 - Advanced)</dt><dd>Provides policy advice to officials which are consistent with local, national, and international policies and trends </dd><dd> Reflects industry best practices in the development of agency-wide policies and procedures </dd><dd> Researches political, cultural, and economic trends that may influence strategy, decisions, or problem solving
-</dd><dt>Organizational Awareness ( Level 5 - Expert)</dt><dd>Examines and utilizes best practices to build an organizational infrastructure </dd><dd>       Develops programs taking into account multiple, diverse views and needs of other agencies or external organizations </dd><dd> Evaluates and communicates external and environmental factors and situations that impact the organization
+    <dl class="text-base card-content-color"><dt>Organizational Awareness (Level 4 - Advanced)</dt><dd>Provides policy advice to officials which are consistent with local, national, and international policies and trends </dd><dd> Reflects industry best practices in the development of agency-wide policies and procedures </dd><dd> Researches political, cultural, and economic trends that may influence strategy, decisions, or problem solving
+</dd><dt>Organizational Awareness (Level 5 - Expert)</dt><dd>Examines and utilizes best practices to build an organizational infrastructure </dd><dd>       Develops programs taking into account multiple, diverse views and needs of other agencies or external organizations </dd><dd> Evaluates and communicates external and environmental factors and situations that impact the organization
 </dd></dl>
   </div>
 </div>
@@ -41,6 +41,6 @@ filters: Personal-Organizational-Awareness GS-14-15 series-0510
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Organizational Awareness ( Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Organizational Awareness ( Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Organizational Awareness (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Organizational Awareness (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

@@ -24,7 +24,7 @@ function removeParentContainers(eventTargetId) {
     }
     const competencyPrimaryLength = facetGlobalVars.data.filter(i => i.id.indexOf("primary") > -1);
     const competencySecondaryLength = facetGlobalVars.data.filter(i => i.id.indexOf("secondary") > -1);
-    const competencyAlternateLength = facetGlobalVars.data.filter(i => i.id.indexOf("alternate") > -1);
+    const competencyAlternativeLength = facetGlobalVars.data.filter(i => i.id.indexOf("alternative") > -1);
     if (eventTargetId.match("primary")) {
         if (competencyPrimaryLength.length == 0) {
             closeDialog();
@@ -35,12 +35,12 @@ function removeParentContainers(eventTargetId) {
             closeDialog();
         }
     }
-    if (eventTargetId.match("alternate")) {
-        if (competencyAlternateLength.length == 0) {
+    if (eventTargetId.match("alternative")) {
+        if (competencyAlternativeLength.length == 0) {
             closeDialog();
         }
     }
-    if ((competencyPrimaryLength.length == 0) && (competencySecondaryLength.length == 0) && (competencyAlternateLength.length == 0)) {
+    if ((competencyPrimaryLength.length == 0) && (competencySecondaryLength.length == 0) && (competencyAlternativeLength.length == 0)) {
         $("#job-competency").css('display', 'none');
     }
     const competencyPersonalLength = facetGlobalVars.data.filter(i => i.id.indexOf("personal") > -1);
@@ -200,7 +200,7 @@ function disableGlobalSelect(eventGroupId) {
   function resultFullSetFilter(resultFullSetFilter) {
     var series_index = ['0501', '0510', '0511', '0560'].slice(0).reverse();
     var level_index = ['7-9', '10-13', '14-15'].slice(0).reverse();
-    var competency_group_index = ['Primary', 'Secondary', 'Alternate', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
+    var competency_group_index = ['Primary', 'Secondary', 'Alternative', 'Personal', 'Project', 'Leading', 'Future Skills'].slice(0).reverse();
     resultFullSetFilter.sort((a, b) => {
         const aseries_index = -series_index.indexOf(a.series);
         const bseries_index = -series_index.indexOf(b.series);
