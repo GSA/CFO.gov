@@ -37,7 +37,6 @@
                     });
                 } else {
                     $(jobSelect).html("<strong>SELECT ALL</strong>");
-                    $(jobSelect).toggleClass("active");
                     facetGlobalVars.competency_group.forEach(item => {
                         let itemElement = $().createId(item);
                         let eventId = document.getElementById(itemElement);
@@ -63,7 +62,6 @@
                     });
                 } else {
                     $(generalSelect).html("<strong>SELECT ALL</strong>");
-                    $(generalSelect).toggleClass("active");
                     facetGlobalVars.competency_group.forEach(item => {
                         let itemElement = $().createId(item);
                         let eventId = document.getElementById(itemElement);

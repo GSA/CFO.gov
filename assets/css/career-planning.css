@@ -357,7 +357,7 @@ div[data-card-filter] {
 }
 
 .facets-panel .usa-button:hover {
-    background-color: #CBE0F5 !important;
+    background-color: #CBE0F500 !important;
     color: initial;
 }
 
