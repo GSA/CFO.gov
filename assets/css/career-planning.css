@@ -22,10 +22,12 @@
   width: 100%;
 }
 
-.facets-panel .usa-button[id*="GS-"]:hover,
-.facets-panel .usa-button[id*="series-"]:hover {
-  border-bottom: 2px solid #adadad;
-}
+    .facets-panel .usa-button[id*="GS-"]:hover,
+    .facets-panel .usa-button[id*="series-"]:hover,
+    .facets-panel .usa-button[id*="job-career-competency-select"]:hover,
+    .facets-panel .usa-button[id*="general-career-competency-select"]:hover {
+        border-bottom: 2px solid #adadad;
+    }
 
 .facets-panel .usa-button.active {
   background-color: #1a4480 !important;
