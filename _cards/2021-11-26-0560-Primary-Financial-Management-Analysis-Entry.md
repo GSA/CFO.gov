@@ -74,13 +74,13 @@ filters: Primary-Financial-Management-Analysis GS-7-9 series-0560
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Financial Management Analysis ( Level 1 - Awareness)</dt><dd>Develops and implements financial management goals and objectives of the strategic plan </dd><dd> Collaborates and coordinates with functional components, and reports performance to senior leadership</dd><dt>Financial Management Analysis ( Level 2 - Basic)</dt><dd>Applies general analytical and evaluation techniques to review financial data</dd></dl>
+    <dl class="text-base card-content-color"><dt>Financial Management Analysis (Level 1 - Awareness)</dt><dd>Develops and implements financial management goals and objectives of the strategic plan </dd><dd> Collaborates and coordinates with functional components, and reports performance to senior leadership</dd><dt>Financial Management Analysis (Level 2 - Basic)</dt><dd>Applies general analytical and evaluation techniques to review financial data</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Financial Management Analysis ( Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Financial Management Analysis ( Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
+    <dl class="text-base card-content-color"><dt>Financial Management Analysis (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Financial Management Analysis (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
   </div>
 </div>

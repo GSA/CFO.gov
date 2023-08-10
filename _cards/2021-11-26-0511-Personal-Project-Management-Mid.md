@@ -30,13 +30,13 @@ filters: Personal-Project-Management GS-10-13 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Project Management ( Level 3 - Intermediate)</dt><dd>Modifies the order of work performed to meet changing circumstances and deadlines </dd><dd> Acquires project resources and clarifies the roles and responsibilities of project team members </dd><dd> Manages, designs, implements, and monitors projects of moderate scope</dd></dl>
+    <dl class="text-base card-content-color"><dt>Project Management (Level 3 - Intermediate)</dt><dd>Modifies the order of work performed to meet changing circumstances and deadlines </dd><dd> Acquires project resources and clarifies the roles and responsibilities of project team members </dd><dd> Manages, designs, implements, and monitors projects of moderate scope</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Project Management ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Project Management (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

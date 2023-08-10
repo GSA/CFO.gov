@@ -175,7 +175,7 @@
             removeButtonA.removeAttribute("class");
             removeButtonA.setAttribute("class", "usa-tag bg-filter margin-top float-left text-color padding-05 margin-1 text-no-uppercase text-no-underline");
 
-            if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
+            if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternative")) {
                 addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
                 $("#job-competency").css('display', 'block');
                 $("#btnJobCompetency").attr('aria-expanded', 'false');

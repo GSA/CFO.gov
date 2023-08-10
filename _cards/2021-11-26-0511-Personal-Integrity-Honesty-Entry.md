@@ -1,21 +1,21 @@
 ---
 layout: career-planning-landing
 category: career
-title: 0510 Accounting Entry Integrity/ Honesty
-series: 510
-job_series_title: Accounting
-job_series: 0510 Accounting
+title: 0511 Auditing Entry Integrity/Honesty
+series: 511
+job_series_title: Auditing
+job_series: 0511 Auditing
 career_level: Entry
-permalink: /cards/510-Integrity--Honesty-Entry
+permalink: /cards/511-Integrity-Honesty-Entry
 functional_competency_designation: Job Specific Competencies
-competency: Integrity  Honesty
+competency: Integrity Honesty
 competency_group: Personal
 competency_description: Contributes to maintaining the integrity of the organization; displays high standards of ethical conduct and understands the impact of violating these standards on an organization, self, and others; is trustworthy
 level: "7-9"
 behavior_illustrations: "Establishes open and honest communication with employees ? Addresses concerns with employee behavior in a confidential and respectful manner ? Provides staff with accurate information about the vision of the agency and outlines changes in an upfront manner ? Remains fair and objective when determining skill set needed for projects to select effective team members ? Communicates honestly with employees regarding potential changes affecting the organization to ensure staff are treated fairly ? Investigates issues and takes corrective action, as appropriate"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Advanced COR Workshop (ACQI9008), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI9009">https://www.LearnAtGSUSA.com/ACQI9009</a>
+ - Advanced COR Workshop (ACQI9008), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI9010">https://www.LearnAtGSUSA.com/ACQI9010</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
@@ -25,32 +25,32 @@ relevant_courses:
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7503">https://www.LearnAtGSUSA.com/ACQI7503</a>
- - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7507">https://www.LearnAtGSUSA.com/ACQI7507</a>
- - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7504">https://www.LearnAtGSUSA.com/ACQI7504</a>
- - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7508">https://www.LearnAtGSUSA.com/ACQI7508</a>
- - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7223">https://www.LearnAtGSUSA.com/ACQI7223</a>
- - Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9031">https://www.LearnAtGSUSA.com/AUDT9031</a>
- - Federal Contracting&#58; Ethics Compliance and Enforcement (ACQI7023), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7024">https://www.LearnAtGSUSA.com/ACQI7024</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8004">https://www.LearnAtGSUSA.com/AUDT8004</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8008">https://www.LearnAtGSUSA.com/AUDT8008</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8012">https://www.LearnAtGSUSA.com/AUDT8012</a>
- - Shaping Smart Business Arrangements (ACQI7501), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7502">https://www.LearnAtGSUSA.com/ACQI7502</a>
- - Shaping Smart Business Arrangements (ACQI7501), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7506">https://www.LearnAtGSUSA.com/ACQI7506</a>
-filters: Personal-Integrity--Honesty GS-7-9 series-0510
+ - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7504">https://www.LearnAtGSUSA.com/ACQI7504</a>
+ - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7508">https://www.LearnAtGSUSA.com/ACQI7508</a>
+ - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7505">https://www.LearnAtGSUSA.com/ACQI7505</a>
+ - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7509">https://www.LearnAtGSUSA.com/ACQI7509</a>
+ - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7224">https://www.LearnAtGSUSA.com/ACQI7224</a>
+ - Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9032">https://www.LearnAtGSUSA.com/AUDT9032</a>
+ - Federal Contracting&#58; Ethics Compliance and Enforcement (ACQI7023), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7025">https://www.LearnAtGSUSA.com/ACQI7025</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8005">https://www.LearnAtGSUSA.com/AUDT8005</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8009">https://www.LearnAtGSUSA.com/AUDT8009</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8013">https://www.LearnAtGSUSA.com/AUDT8013</a>
+ - Shaping Smart Business Arrangements (ACQI7501), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7503">https://www.LearnAtGSUSA.com/ACQI7503</a>
+ - Shaping Smart Business Arrangements (ACQI7501), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7507">https://www.LearnAtGSUSA.com/ACQI7507</a>
+filters: Personal-Integrity-Honesty GS-7-9 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Integrity/ Honesty ( Level 1 - Awareness)</dt><dd>Establishes open and honest communication with employees </dd><dd> Addresses concerns with employee behavior in a confidential and respectful manner</dd><dt>Integrity/ Honesty ( Level 2 - Basic)</dt><dd>Provides staff with accurate information about the vision of the agency and outlines changes in an upfront manner </dd><dd> Remains fair and objective when determining skill set needed for projects to select effective team members</dd><dt>Integrity/ Honesty ( Level 3 - Intermediate)</dt><dd>Communicates honestly with employees regarding potential changes affecting the organization to ensure staff are treated fairly </dd><dd> Investigates issues and takes corrective action, as appropriate</dd></dl>
+    <dl class="text-base card-content-color"><dt>Integrity/Honesty (Level 1 - Awareness)</dt><dd>Establishes open and honest communication with employees </dd><dd> Addresses concerns with employee behavior in a confidential and respectful manner</dd><dt>Integrity/Honesty (Level 2 - Basic)</dt><dd>Provides staff with accurate information about the vision of the agency and outlines changes in an upfront manner </dd><dd> Remains fair and objective when determining skill set needed for projects to select effective team members</dd><dt>Integrity/Honesty (Level 3 - Intermediate)</dt><dd>Communicates honestly with employees regarding potential changes affecting the organization to ensure staff are treated fairly </dd><dd> Investigates issues and takes corrective action, as appropriate</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Integrity/ Honesty ( Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Integrity/ Honesty ( Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd><dt>Integrity/ Honesty ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Integrity/Honesty (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Integrity/Honesty (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd><dt>Integrity/Honesty (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

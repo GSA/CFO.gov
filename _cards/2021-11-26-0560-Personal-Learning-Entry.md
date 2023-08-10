@@ -29,13 +29,13 @@ filters: Personal-Learning GS-7-9 series-0560
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Learning ( Level 2 - Basic)</dt><dd>Attends professional conferences to maintain technical knowledge </dd><dd> Solicits periodic feedback to continually improve quality of own work </dd><dd> Visits other work site to gain understanding of staff functions and daily tasks </dd><dd> Develops knowledge and skills through on-the-job experience</dd><dt>Learning ( Level 3 - Intermediate)</dt><dd>Completes required training and applies key learnings </dd><dd> Recognizes areas needing improvement and takes training to increase skills </dd><dd> Attends training on the use of new tools and shares knowledge with co-workers </dd><dd> Seeks out and actively participates in learning and development activities</dd></dl>
+    <dl class="text-base card-content-color"><dt>Learning (Level 2 - Basic)</dt><dd>Attends professional conferences to maintain technical knowledge </dd><dd> Solicits periodic feedback to continually improve quality of own work </dd><dd> Visits other work site to gain understanding of staff functions and daily tasks </dd><dd> Develops knowledge and skills through on-the-job experience</dd><dt>Learning (Level 3 - Intermediate)</dt><dd>Completes required training and applies key learnings </dd><dd> Recognizes areas needing improvement and takes training to increase skills </dd><dd> Attends training on the use of new tools and shares knowledge with co-workers </dd><dd> Seeks out and actively participates in learning and development activities</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Learning ( Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd><dt>Learning ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Learning (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd><dt>Learning (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

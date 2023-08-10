@@ -12,7 +12,7 @@
  let cfoStorage = new cfoStore();
  function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, removeAll) {
      let buttonCompetencyContainer = null;
-     if (competencyGroup.match("primary") || competencyGroup.match("secondary") || competencyGroup.match("alternate")) {
+     if (competencyGroup.match("primary") || competencyGroup.match("secondary") || competencyGroup.match("alternative")) {
          buttonCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-job-competency");
      }
      else {

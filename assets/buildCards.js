@@ -92,7 +92,7 @@ function buildCards() {
                 for (i = 0, l = levels.length; i < l; i++) {
                     let key = levels[i];
                     if (typeof card.behavior[key] != "undefined") {
-                        behaviorMarkup += `<dt>${card.competency} ( ${levelToString(key)})</dt>`;
+                        behaviorMarkup += `<dt>${card.competency} (${levelToString(key)})</dt>`;
                         //behaviorMarkup += `<dd>${ card.behavior[i] }</dd>`;
                         let frags = card.behavior[key].split('?').filter(x => !!x.trim());
                         for (let j = 0, k = frags.length; j < k; j++) {
@@ -101,7 +101,7 @@ function buildCards() {
                     }
 
                     if (typeof card.prof[key] != "undefined") {
-                        profLevelMarkup += `<dt>${card.competency} ( ${levelToString(key)})</dt>`;
+                        profLevelMarkup += `<dt>${card.competency} (${levelToString(key)})</dt>`;
                         // profLevelMarkup += `<dd>${ card.prof[i] }</dd>`;
                         let frags = card.prof[key].split('?').filter(x => !!x.trim());
                         for (let j = 0, k = frags.length; j < k; j++) {
