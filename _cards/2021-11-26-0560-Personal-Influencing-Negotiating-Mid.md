@@ -8,7 +8,7 @@ job_series: 0560 Budget Analysis
 career_level: Mid
 permalink: /cards/560-Influencing-Negotiating-Mid
 functional_competency_designation: Job Specific Competencies
-competency: Influencing/Negotiating
+competency: Influencing Negotiating
 competency_group: Personal
 competency_description: Persuades others to accept recommendations, cooperate, or change their behavior; works with others towards an agreement; negotiates to find mutually acceptable solutions
 level: "10-13"
@@ -34,13 +34,13 @@ filters: Personal-Influencing-Negotiating GS-10-13 series-0560
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Influencing/Negotiating ( Level 3 - Intermediate)</dt><dd>Gains cooperation from others</dd></dl>
+    <dl class="text-base card-content-color"><dt>Influencing/Negotiating (Level 3 - Intermediate)</dt><dd>Gains cooperation from others</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #2680EB !important;"/>
-    <dl class="text-base card-content-color"><dt>Influencing/Negotiating ( Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Influencing/Negotiating (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

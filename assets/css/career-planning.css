@@ -22,10 +22,12 @@
   width: 100%;
 }
 
-.facets-panel .usa-button[id*="GS-"]:hover,
-.facets-panel .usa-button[id*="series-"]:hover {
-  border-bottom: 2px solid #adadad;
-}
+    .facets-panel .usa-button[id*="GS-"]:hover,
+    .facets-panel .usa-button[id*="series-"]:hover,
+    .facets-panel .usa-button[id*="job-career-competency-select"]:hover,
+    .facets-panel .usa-button[id*="general-career-competency-select"]:hover {
+        border-bottom: 2px solid #adadad;
+    }
 
 .facets-panel .usa-button.active {
   background-color: #1a4480 !important;
@@ -357,7 +359,7 @@ div[data-card-filter] {
 }
 
 .facets-panel .usa-button:hover {
-    background-color: #CBE0F5 !important;
+    background-color: #CBE0F500 !important;
     color: initial;
 }
 
@@ -485,7 +487,7 @@ div[data-card-filter] {
 }
 
 .bg-filter {
-    background-color: #CBE0F5 !important;
+    background-color: #CBE0F559 !important;
 }
 
 .button-border {
@@ -529,7 +531,7 @@ div[data-card-filter] {
 }
 
 .hr {
-    background-color: #CBE0F5;
+    background-color: #CBE0F559;
     height:10px;
 }
 
@@ -551,4 +553,8 @@ div[data-card-filter] {
 
 .border-color {
     border-color: #003062 !important;
+}
+
+.bg-button{
+    background-color: #CBE0F500 !important;
 }

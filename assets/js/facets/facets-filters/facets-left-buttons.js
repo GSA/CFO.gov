@@ -18,7 +18,7 @@
                 // Toggle the text on the UI
                 if ($(jobSelect).text() === 'SELECT ALL') {
                     $(jobSelect).html("<strong>DE-SELECT ALL</strong>");
-                    $(jobSelect).toggleClass("active");
+                    $(jobSelect).addClass("active");
                     // competency_group already initialized from all item
                     /**
                      * UI: YES
@@ -37,7 +37,7 @@
                     });
                 } else {
                     $(jobSelect).html("<strong>SELECT ALL</strong>");
-                    $(jobSelect).toggleClass("active");
+                    $(jobSelect).removeClass("active");
                     facetGlobalVars.competency_group.forEach(item => {
                         let itemElement = $().createId(item);
                         let eventId = document.getElementById(itemElement);
@@ -51,7 +51,7 @@
                 var generalSelect = '#general-career-competency-select';
                 if ($(generalSelect).text() === 'SELECT ALL') {
                     $(generalSelect).html("<strong>DE-SELECT ALL</strong>");
-                    $(generalSelect).toggleClass("active");
+                    $(generalSelect).addClass("active");
                     facetGlobalVars.competency_group.forEach(item => {
                         if (comps.some(x => x.group === $().createId(item))) {
                             let itemElement = $().createId(item);
@@ -63,7 +63,7 @@
                     });
                 } else {
                     $(generalSelect).html("<strong>SELECT ALL</strong>");
-                    $(generalSelect).toggleClass("active");
+                    $(generalSelect).removeClass("active");
                     facetGlobalVars.competency_group.forEach(item => {
                         let itemElement = $().createId(item);
                         let eventId = document.getElementById(itemElement);
@@ -175,7 +175,7 @@
             removeButtonA.removeAttribute("class");
             removeButtonA.setAttribute("class", "usa-tag bg-filter margin-top float-left text-color padding-05 margin-1 text-no-uppercase text-no-underline");
 
-            if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
+            if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternative")) {
                 addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
                 $("#job-competency").css('display', 'block');
                 $("#btnJobCompetency").attr('aria-expanded', 'false');
