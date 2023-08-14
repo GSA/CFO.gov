@@ -7,7 +7,7 @@ job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Public-Service-Motivation-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Public Service Motivation
 competency_group: Personal
 competency_description: Shows a commitment to serve the public; ensures that actions meet public needs; aligns organizational objectives and practices with public interests

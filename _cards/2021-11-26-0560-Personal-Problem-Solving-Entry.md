@@ -7,7 +7,7 @@ job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Problem-Solving-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Problem Solving
 competency_group: Personal
 competency_description: Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations
@@ -16,9 +16,9 @@ behavior_illustrations: "Proposes solution to improve customer satisfaction ? De
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
  - Clear Writing Through Critical Thinking (WRIT7100), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7103">https://www.LearnAtGSUSA.com/WRIT7103</a>
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8015">https://www.LearnAtGSUSA.com/AUDT8015</a>
- - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8105">https://www.LearnAtGSUSA.com/MGMT8105</a>
  - Interpersonal Communications (COMM7006), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7009">https://www.LearnAtGSUSA.com/COMM7009</a>
+ - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8105">https://www.LearnAtGSUSA.com/MGMT8105</a>
+ - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8015">https://www.LearnAtGSUSA.com/AUDT8015</a>
 filters: Personal-Problem-Solving GS-7-9 series-0560
 ---
 

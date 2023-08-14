@@ -16,8 +16,8 @@ behavior_illustrations: "Interprets and advises others on financial policies, re
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - Advanced Appropriations Law (FINC9100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9108">https://www.LearnAtGSUSA.com/FINC9108</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8823">https://www.LearnAtGSUSA.com/AUDT8823</a>
  - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8208">https://www.LearnAtGSUSA.com/FINC8208</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8823">https://www.LearnAtGSUSA.com/AUDT8823</a>
 filters: Primary-Financial-Concepts-Policies-and-Principles GS-14-15 series-0501
 ---
 

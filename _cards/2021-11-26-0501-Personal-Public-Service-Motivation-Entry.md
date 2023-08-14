@@ -7,7 +7,7 @@ job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Public-Service-Motivation-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Public Service Motivation
 competency_group: Personal
 competency_description: Shows a commitment to serve the public; ensures that actions meet public needs; aligns organizational objectives and practices with public interests

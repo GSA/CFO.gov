@@ -7,7 +7,7 @@ job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Senior
 permalink: /cards/501-Interpersonal-Skills-Senior
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Interpersonal Skills
 competency_group: Personal
 competency_description: Shows understanding, friendliness, courtesy, tact, empathy, concern, and politeness to others; develops and maintains effective relationships with others; may include effectively dealing with individuals who are difficult, hostile, or distressed; relates well to people from varied backgrounds and different situations; is sensitive to cultural diversity, race, gender, disabilities, and other individual differences
@@ -16,15 +16,15 @@ behavior_illustrations: "Treats individuals from all levels of the agency with c
 "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8222">https://www.LearnAtGSUSA.com/COMM8222</a>
- - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9039">https://www.LearnAtGSUSA.com/AUDT9039</a>
- - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9039">https://www.LearnAtGSUSA.com/AUDT9039</a>
- - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7012">https://www.LearnAtGSUSA.com/COMM7012</a>
  - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8919">https://www.LearnAtGSUSA.com/AUDT8919</a>
  - Emotionally Intelligent Leaders (LEAD8007), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD8019">https://www.LearnAtGSUSA.com/LEAD8019</a>
+ - Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8222">https://www.LearnAtGSUSA.com/COMM8222</a>
  - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7024">https://www.LearnAtGSUSA.com/AUDT7024</a>
- - Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9014">https://www.LearnAtGSUSA.com/AUDT9014</a>
+ - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9039">https://www.LearnAtGSUSA.com/AUDT9039</a>
  - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9024">https://www.LearnAtGSUSA.com/LEAD9024</a>
+ - Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9014">https://www.LearnAtGSUSA.com/AUDT9014</a>
+ - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7012">https://www.LearnAtGSUSA.com/COMM7012</a>
+ - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9039">https://www.LearnAtGSUSA.com/AUDT9039</a>
 filters: Personal-Interpersonal-Skills GS-14-15 series-0501
 ---
 

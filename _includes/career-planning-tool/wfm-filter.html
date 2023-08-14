@@ -43,7 +43,7 @@
             {% endif %}
             {% endfor %}
 
-            {% assign level_array = level_array | numerical_sort | reverse %}
+            {% assign level_array = level_array | numerical_sort %}
             {% for level in level_array %}
             {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
             <button type="button"
@@ -65,12 +65,12 @@
         </div>
         <div class="display-flex flex-column">
             {% assign competency_group_array = site.cards | where: 'category', 'career' | map: 'competency_group' | uniq %}
-            {% assign job_comps = 'Primary,Secondary,Alternative' | split: "," %}
+            {% assign job_comps = 'Primary,Secondary,Alternate' | split: "," %}
             {% assign general_comps = site.cards | map: 'competency_group' | uniq %}
             {% for comp in job_comps %}
             {% assign general_comps = general_comps | where_exp: "item", "item != comp" %}
             {% endfor %}
-            {% assign competency_sort_array = 'Personal,Project,Leading,Future Skills' | split: ',' %}
+            {% assign competency_sort_array = 'Personal,Leading,Projects' | split: ',' %}
             {% assign sorted_competency_group_array = "" | split: "," %}
 
             {% for comp in competency_sort_array %}

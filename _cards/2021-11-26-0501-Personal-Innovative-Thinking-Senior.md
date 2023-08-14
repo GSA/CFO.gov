@@ -7,7 +7,7 @@ job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Senior
 permalink: /cards/501-Innovative-Thinking-Senior
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Innovative Thinking
 competency_group: Personal
 competency_description: Uses imagination to develop new insights into situations and applies new solutions to problems; designs new methods where established methods and procedures are not suitable or are unavailable.
@@ -16,9 +16,9 @@ behavior_illustrations: "Reviews and proposes modifications to processes and ide
  ? Develops and conceptualizes new approaches for organizational execution of strategic initiatives ? Reviews, develops, and revises policies and procedures that have a significant impact on the organization ? ? Designs an innovative product that results in improved transactions, processing, or reporting or enhances customer experiences ?"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
+ - Design Thinking&#58; A Toolkit for Breakthrough Innovation (with Northwestern Kellogg), Emeritus, <a href="https://online.em.kellogg.northwestern.edu/design-thinking/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://online.em.kellogg.northwestern.edu/design-thinking/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8020">https://www.LearnAtGSUSA.com/AUDT8020</a>
  - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8110">https://www.LearnAtGSUSA.com/MGMT8110</a>
- - Design Thinking&#58; A Toolkit for Breakthrough Innovation (with Northwestern Kellogg), Emeritus, <a href="https://online.em.kellogg.northwestern.edu/design-thinking/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://online.em.kellogg.northwestern.edu/design-thinking/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
 filters: Personal-Innovative-Thinking GS-14-15 series-0501
 ---
 
