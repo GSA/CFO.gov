@@ -1,0 +1,107 @@
+
+<div id="career-advancement-results-container" class="tablet:grid-col-8 desktop:grid-col-8 usa-prose padding-right-4 padding-top-8">
+        <section class="display-flex flex-row margin-bottom-1" id="series-gs-container">
+            <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none padding-right-1 margin-top" aria-multiselectable="true" id="series">
+                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-filter text-color" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-series" id="btnSeries">Job Series</button></h3>
+                <div id="career-search-results-filter-remove-buttons-series" class="usa-accordion__content"></div>
+            </div>
+            <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none padding-right-1 margin-top" aria-multiselectable="true" id="gs">
+                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-filter text-color" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-gs" id="btnGS">GS Level</button></h3>
+                <div id="career-search-results-filter-remove-buttons-gs" class="usa-accordion__content"></div>
+            </div>
+        </section>
+            <section class="display-flex flex-row margin-bottom-1" id="competencies-container">
+                <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none padding-right-1 margin-top" aria-multiselectable="true" id="job-competency">
+                    <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-filter text-color" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-job-competency" id="btnJobCompetency">Job Specific Technical Competencies</button></h3>
+                    <div id="career-search-results-filter-remove-buttons-job-competency" class="usa-accordion__content"></div>
+                </div>
+                <div class="tablet:grid-col-3 usa-accordion usa-accordion--bordered display-none padding-right-1 margin-top" aria-multiselectable="true" id="general-competency">
+                    <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-filter text-color" aria-expanded="false" aria-controls="career-search-results-filter-remove-buttons-general-competency" id="btnGeneralCompetency">General Career Competencies</button></h3>
+                    <div id="career-search-results-filter-remove-buttons-general-competency" class="usa-accordion__content"></div>
+                </div>
+            </section>
+            <section class="margin-bottom-1">
+                <div id="career-search-results-filter-remove-all-button" class="margin-y-1">
+                    <a href="javascript:void(0)" class="text-color" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
+                </div>
+            </section>
+            <section>
+                <div id="dialog" class="display-none">
+                    <div id="dtags" class="usa-accordion__content"></div>
+                </div>
+            </section>
+    <div class="career-search-results-filter-pagination flex-wrap">
+        {% assign post_count = site.cards | size %}
+        {% assign default_page_size = 10 %}
+        {% assign post_pages = post_count | divided_by: default_page_size %}
+        {% assign full_pages = post_pages | times: default_page_size %}
+        {% assign post_modulus = post_count | minus: full_pages %}
+        {% if post_modulus > 0 %}
+            {% assign post_pages = post_pages | plus: 1 %}
+        {% endif %}
+        <div class="career-search-results-pagination-wrapper card-content-color">
+            <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
+        </div>
+        <div class="career-search-results-page-size-wrapper card-content-color">
+        <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">RESULTS PER PAGE: </label>
+        <select id="per-page-top" class="usa-select width-8 display-inline-block margin-top-0 card-content-color border-color" name="per_page">
+            <option value="5"{% if default_page_size == 5 %}selected{% endif %}>5</option>
+            <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
+            <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
+        </select>
+        </div>
+    </div>
+    <div id="career-search-results">
+        <!-- This loops through the paginated posts -->
+        {% assign newcards = site.cards | sort_natural: 'level' | sort_natural: 'series' %}
+        {% for card in newcards limit:default_page_size %}
+        <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
+            <div class="cfo-career-outer-box padding-4">
+                <div class="cfo-career-text-container position-relative">
+                    <div class="select-button" style="color: #003062 !important">
+                        <label><input type="checkbox" value="{{ card.permalink }}" class="border-color"> <span>SELECT FOR DOWNLOAD</span></label>
+                    </div>
+                    <div class="cfo-career-category-container font-body-md">
+                        <div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>GS LEVEL:</strong></span><span class="card-content-color"> GS {{ card.level }}</span></div>
+                        <div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>TYPE:</strong></span><span class="card-content-color"> {{ card.competency_group }}</span></div>
+                    </div>
+                    <div class="cfo-career-category-container font-body-md">
+                        <div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>JOB SERIES:</strong></span><span class="card-content-color"> 0{{ card.series }}</span></div>
+                        <div class="cfo-inner-competency-div margin-bottom-2"><span class="card-display card-text-color"><strong>COMPETENCY:</strong></span><span class="card-content-color"> {{ card.competency }}</span></div>
+                    </div>
+                    <p class="font-body-md card-display card-text-color margin-top-0"><strong>DESCRIPTION:</strong><span class="card-content-color"> {{ card.competency_description }}</span></p>
+                    <div class="hr"></div>
+                    <div class="grid-row grid-gap">
+                        {{ card.content }}
+                    </div>
+                    <div>
+                        <h3 class="card-text-color">COURSE LISTINGS FOR PURPOSE:</h3>
+                        {% if card.relevant_courses.size != 0 %}
+                        <ul class="usa-list" role="list">
+                            {% for course in card.relevant_courses %}
+                            <li role="listitem" class="card-content-color">{{ course | replace: '">', '" target="_blank" >'}}</li>
+                            {% endfor %}
+                            <ul>
+                                {% else %}
+                                <p>No courses</p>
+                                {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="career-search-results-filter-pagination flex-wrap margin-bottom-205">
+        <div class="career-search-results-pagination-wrapper card-content-color">
+            <button type="button" class="cfo-page-left" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="cfo-page-right">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
+        </div>
+        <div class="career-search-results-page-size-wrapper">
+            <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-bot">RESULTS PER PAGE: </label>
+        <select id="per-page-bot" class="usa-select width-8 display-inline-block margin-top-0" name="per_page">top-0" name="per_page">
+            <option value="5"{% if default_page_size == 5 %}selected{% endif %}>5</option>
+            <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
+            <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
+        </select>
+        </div>
+    </div>
+</div>

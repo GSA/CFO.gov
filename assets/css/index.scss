@@ -1,6 +1,5 @@
 // Import the US Web Design System SASS.
 
-@import "uswds";
 @import "fonts/stylesheet.css";
 
 // Add your SASS/CSS here
@@ -26,6 +25,12 @@
   .tablet\:float-left {
     float: left;
   }
+
+  //.tablet\:grid-col-3{
+  //  -webkit-box-flex:0;
+  //  -ms-flex:0 1 auto;
+  //  flex:0 1 auto;
+  //}
 }
 
 @media screen and (min-width: 640px) {
@@ -44,4 +49,19 @@
   .paginate-button {
     display: block;
   }
+}
+
+#career-advancement-search-input {
+  max-width: 75%;
+  @media screen and (max-width: 685px) {
+    max-width: 100%;
+  }
+}
+
+.font-size-16{
+    font-size: 16px;
+}
+
+.usa-tooltip:hover{
+    font-weight:normal;
 }
