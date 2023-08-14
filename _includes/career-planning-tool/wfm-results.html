@@ -53,8 +53,12 @@
     </div>
     <div id="career-search-results">
         <!-- This loops through the paginated posts -->
-        {% assign newcards = site.cards | sort_natural: 'level' | sort_natural: 'series' %}
-        {% for card in newcards limit:default_page_size %}
+        {% assign series = '501'%}
+        {% assign level = '7-9'%}
+        {% assign pcards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', 'Primary' %}
+        {% assign scards = site.cards | where: 'series', series | where: 'level', level  | where: 'competency_group', 'Secondary' %}
+        {% assign cards = pcards | concat: scards  %}
+        {% for card in cards limit:default_page_size %}
         <div class="tablet:grid-col-12 grid-spacing policy {{ card.filters }}" data-card-filters="{{ card.filters }}">
             <div class="cfo-career-outer-box padding-4">
                 <div class="cfo-career-text-container position-relative">
