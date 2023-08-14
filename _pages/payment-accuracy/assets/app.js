@@ -13,3 +13,22 @@ jQuery(document).ready(function ($) {
     })
 
 });
+
+window.addEventListener('pageshow', function(event) {
+    var currentURL = window.location.href;
+    var urlsToCheck = [
+        '/federal-financial-assistance',
+        '/federal-financial-reporting',
+        '/financial-management-workforce',
+        '/major-legislation',
+        '/payment-integrity'
+    ];
+
+    var shouldReload = urlsToCheck.some(function(url) {
+        return currentURL.includes(url);
+    });
+
+    if (event.persisted && shouldReload) {
+        window.location.reload();
+    }
+});

@@ -4,6 +4,7 @@
 @import "uswds";
 @import "../../_sass/members";
 @import "../../_sass/knowledgesharing";
+@import "./resources.scss";
 
 // Add your SASS/CSS here
 //@import "../assets/css/slick.css";
@@ -28,8 +29,7 @@
 }
 
 .header-menu-text {
-  font-size: initial;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 
@@ -50,10 +50,17 @@
 box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
-.priority-tag-line{
-  /*padding-top: .5em;*/
-
+@media screen and (max-width: 751px) {
+    .priority-tag-line {
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+    }
 }
+
 
 .cxo{
   background-image: url('../wp-content/uploads/2016/02/CXO-Fellows-Banner.png');
@@ -65,6 +72,15 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
   background-image: url('../assets/images/priority-middle-image1.png');
   background-repeat:no-repeat;
   background-size: cover;
+}
+@media screen and (min-width: 672px) {
+  .priority-icons > div:nth-child(2),
+  .priority-icons > div:nth-child(3) {
+      padding-bottom: 1rem;
+  }
+}
+.priority-icons a {
+  width: 12.5rem;
 }
 /* Clearfix (clear floats) */
 .section_font {
@@ -100,7 +116,7 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 .ui-tabs-vertical .ui-tabs-nav li {
   clear: left;
   width: 100%;
-  padding: 0em 0 0em 2em;
+  padding: 0em 2em;
   margin: 1em 2em 1em 0.5em;
 }
 
@@ -164,9 +180,14 @@ color:#005ea2;
   padding:4em 0;
 }
 .payment-integrity-page{
-  background-image: url('../assets/images/payment.png');
+  background-image: url('../assets/images/logos/workforce/president-signing.png');
   background-color:  #19387b;
   padding:4em 0;
+}
+.symposium-page {
+    background-image: url('../assets/images/logos/workforce/symposium.png');
+    background-color: #19387b;
+    padding: 4em 0;
 }
 .fdt-page{
   background-image: url('../assets/images/fdt.png');
@@ -202,12 +223,46 @@ color:#005ea2;
   background-size: cover;
   padding:4em 0;
 }
+.major-legislation-page{
+  background-image: url('../assets/images/logos/workforce/president-signing.png');
+  background-color:  #19387b;
+  background-size: cover;
+  padding:4em 0;
+}
+
+.ffr-page{
+  background-image: url('../assets/images/logos/workforce/president-signing.png');
+  background-color:  #19387b;
+  background-size: cover;
+  padding:4em 0;
+}
+
+.ffa-page{
+  background-image: url('../assets/images/logos/workforce/president-signing.png');
+  background-color:  #19387b;
+  background-size: cover;
+  padding:4em 0;
+}
+
 .arp-page{
   background-image: url('../assets/images/logos/workforce/president-signing.png');
   background-color:  #19387b;
   background-size: cover;
   padding:5em 0;
 }
+
+@media screen and (max-width: 496px) {
+  .ffa-page,
+  .ffr-page,
+  .major-legislation-page,
+  .payment-integrity-page {
+    background-image: url('../assets/images/logos/workforce/president-signing-mobile-banner.png');
+  }
+    .symposium-page {
+        background-image: url('../assets/images/logos/workforce/symposium-mobile-banner.png');
+    }
+}
+
 .coming-soon {
   background-color: #2c318a;
   color: #ffffff;
@@ -307,6 +362,15 @@ color:#005ea2;
 .picon{
   height: 100px;
   padding: 25px;
+}
+.picon-svg{
+  height: 110px;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.f-weight-600{
+  font-weight: 600;
 }
 .divTable {
   display: table;
@@ -940,4 +1004,50 @@ abbr{
           padding: 10px;
       }
   }
+}
+
+.controller-alert-button{
+    text-align:right;
+}
+
+.usa-section {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.circle-card {
+  background: white;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%; 
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Aspect ratio 16:9 for responsive resizing */
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .video-container {
+    max-width: 60%; /* Or whatever percentage you desire */
+    padding-top: 31%; /* Reduce the height of the video */
+  }
+}
+
+.welcome {
+    background: url("../assets/images/slider-image-new.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 45px 0;
+    color: #fff;
+    background-color:#000;
 }
