@@ -12,7 +12,7 @@
  let cfoStorage = new cfoStore();
  function addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, removeAll) {
      let buttonCompetencyContainer = null;
-     if (competencyGroup.match("primary") || competencyGroup.match("secondary") || competencyGroup.match("alternative")) {
+     if (competencyGroup.match("primary") || competencyGroup.match("secondary") || competencyGroup.match("alternate")) {
          buttonCompetencyContainer = document.getElementById("career-search-results-filter-remove-buttons-job-competency");
      }
      else {
@@ -207,7 +207,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
     if (inputType == "button") $("#" + id).toggleClass("active");
     else {
         if (eventTargetId.indexOf("pop") < 0) {
-            let popElement = document.getElementById(eventTargetId.replace('primary', 'pop').replace('secondary', 'pop').replace('alternative', 'pop').replace('personal', 'pop').replace('project', 'pop').replace('leading', 'pop').replace('future-skills', 'pop') + '-button');
+            let popElement = document.getElementById(eventTargetId.replace('primary', 'pop').replace('secondary', 'pop').replace('alternative', 'pop').replace('personal', 'pop').replace('project', 'pop').replace('leading', 'pop') + '-button');
             if (popElement != null) {
                 popElement.remove();
             }

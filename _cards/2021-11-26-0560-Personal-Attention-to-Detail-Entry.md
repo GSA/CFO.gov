@@ -7,7 +7,7 @@ job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Attention-to-Detail-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Attention to Detail
 competency_group: Personal
 competency_description: Is thorough when performing work and conscientious about attending to detail

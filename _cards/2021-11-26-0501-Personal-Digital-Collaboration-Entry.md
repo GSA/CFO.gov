@@ -7,7 +7,7 @@ job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Entry
 permalink: /cards/501-Digital-Collaboration-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Digital Collaboration
 competency_group: Personal
 competency_description: Uses digital tools and technologies for communication, knowledge-sharing, and collaborative processes; works with others to construct and create resources and knowledge, or provide services, in a digital environment.

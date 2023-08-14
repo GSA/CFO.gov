@@ -7,7 +7,7 @@ job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Learning-Mid
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Learning
 competency_group: Personal
 competency_description: Uses efficient learning techniques to acquire and apply new knowledge and skills; uses formal and informal training, feedback, or other opportunities for self-learning and development.
@@ -15,9 +15,9 @@ level: "10-13"
 behavior_illustrations: "Completes leadership development program including training, coaching, and mentoring opportunities and applies key learnings ? Arranges and completes rotational assignment meeting own developmental goals and aligning with organizational strategies ? Understands how learning and development activities impact organizational objectives ? Assists and coaches others in identifying learning and development opportunities ?"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
- - Executive Potential Program (EPPG8840), GSU, <a href="https://www.LearnAtGSUSA.com/EPPG8844">https://www.LearnAtGSUSA.com/EPPG8844</a>
  - Leading a Technology-Driven Firm (with Wharton Executive Education), Emeritus, <a href="https://online-execed.wharton.upenn.edu/leading-technology-driven-organization/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://online-execed.wharton.upenn.edu/leading-technology-driven-organization/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
+ - Executive Potential Program (EPPG8840), GSU, <a href="https://www.LearnAtGSUSA.com/EPPG8844">https://www.LearnAtGSUSA.com/EPPG8844</a>
+ - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
  - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
 filters: Personal-Learning GS-10-13 series-0501
 ---
