@@ -1,6 +1,7 @@
 
 // Import the US Web Design System SASS.
 
+@import "../../node_modules/uswds/dist/scss/uswds.scss";
 @import "../../_sass/members";
 @import "../../_sass/knowledgesharing";
 @import "./resources.scss";
@@ -1049,4 +1050,44 @@ abbr{
     padding: 45px 0;
     color: #fff;
     background-color:#000;
+}
+
+.usa-social-link {
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: rgba(0,0,0,0.1);
+  display: inline-block;
+
+  &--twitter {
+    background-image: url(../img/social-icons/twitter16.svg),linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+  }
+
+  span {
+    position: absolute;
+    left: -999em;
+  }
+
+}
+
+#career-advancement-search-input {
+  max-width: 75%;
+  @media screen and (max-width: 685px) {
+    max-width: 100%;
+  }
+}
+
+.font-size-16{
+  font-size: 16px;
+}
+
+.usa-tooltip:hover{
+  font-weight:normal;
+}
+
+.usa-media-block {
+  align-items: unset ;
+  display: block ;
 }

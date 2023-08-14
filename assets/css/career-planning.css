@@ -1,7 +1,7 @@
 /* override */
-.usa-banner__button::after {
-  background-image: url("../../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent) !important;
-}
+/*.usa-banner__button::after {*/
+/*  background-image: url("../../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent) !important;*/
+/*}*/
 
 #career-facet-remove-all-filters-button {
   display: none;

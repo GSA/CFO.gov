@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', "2.0"  
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
+  gem "autoprefixer-rails"
 gem "jekyll-assets", group: :jekyll_plugins
 
 end
