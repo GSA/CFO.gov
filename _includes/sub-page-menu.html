@@ -57,54 +57,58 @@ where we provide an easy way to manage your navigation system
             <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
 
             {% if include.page_type == 'payment-accuracy' %}
-            <ul class="usa-nav__primary usa-accordion" >
+            <ul class="usa-nav__primary usa-accordion">
                 {% for nav_item in include.primary_navigation %}
                 {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
                 {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
                 <li class="usa-nav__primary-item">
                     <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-                        href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+                       href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
                 </li>
                 {% endfor %}
             </ul>
             {% endif %}
 
             {% if include.page_type == 'jfmip' %}
-            <ul class="usa-nav__primary usa-accordion" >
+            <ul class="usa-nav__primary usa-accordion">
                 {% for nav_item in include.primary_navigation %}
                 {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
-                {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}                 
+                {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
                 {% if nav_item.children %}
-                    {% assign nav_id = 'jfmip-navigation-' | append: forloop.index %}
-                    <li class="usa-nav__primary-item">
+                {% assign nav_id = 'jfmip-navigation-' | append: forloop.index %}
+                <li class="usa-nav__primary-item">
                     <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ nav_id }}"><span class="header-menu-text">{{ nav_item.name | escape }}</span></button>
-                        <ul id="{{ nav_id }}" class="usa-nav__submenu" hidden="">
+                    <ul id="{{ nav_id }}" class="usa-nav__submenu" hidden="">
                         {% for subnav_item in nav_item.children %}
                         <li class="usa-nav__submenu-item">
                             <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
                         </li>
                         {% endfor %}
-                        </ul>
-                    </li>
+                    </ul>
+                </li>
                 {% else %}
-                    <li class="usa-nav__primary-item">
-                        <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-                            href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
-                    </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+                       href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+                </li>
                 {% endif %}
                 {% endfor %}
             </ul>
             {% endif %}
 
+            {% if include.page_type == 'frpc' %}
+            <div class="usa-nav__secondary" style="bottom:1rem !important">
+            {% else %}
             <div class="usa-nav__secondary secondary-nav-padding">
+            {% endif %}
                 <ul class="usa-nav__secondary-links">
-                    {% for nav_item in include.secondary_navigation %}
-                    <li class="usa-nav__secondary-item">
-                        <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
-                    </li>
-                    {% endfor %}
+                   {% for nav_item in include.secondary_navigation %}
+                   <li class="usa-nav__secondary-item">
+                       <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
+                   </li>
+                   {% endfor %}
                 </ul>
-                {% include searchgov/form.html searchgov=site.searchgov affiliate=site.searchgov.affiliate %}
+            {% include searchgov/form.html searchgov=site.searchgov affiliate=site.searchgov.affiliate %}
             </div>
         </div>
     </nav>
