@@ -1147,11 +1147,13 @@ abbr{
     .usa-header--extended .usa-current, .usa-header--extended [aria-expanded="true"], .usa-header--extended .usa-nav__link:hover {
         position: relative;
     }
-    .usa-nav__primary button[aria-expanded="false"] span::after {
-        background-color: none !important;
+    @supports ((-webkit-mask: url("")) or (mask: url(""))) {
+        .usa-nav__primary button[aria-expanded="false"] span::after {
+            background-color: unset;
+        }
     }
 }
 
 .ogp-banner {
-    max-width: 87.5rem !important;
+      max-width: 87.5rem !important;
 }
