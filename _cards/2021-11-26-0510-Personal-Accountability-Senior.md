@@ -15,9 +15,9 @@ level: "14-15"
 behavior_illustrations: "Revises and communicates to employees expectations and methods for achieving results in light of failed or delayed agency- level project ? Administers and provides oversight of a new complex procedure which delegates responsibility for compliance to various agencies or parties ? Accomplishes cultural change of accountability among staff by defining roles and responsibilities to ensure agency goals are met"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9019">https://www.LearnAtGSUSA.com/AUDT9019</a>
  - Advanced COR Workshop (ACQI9008), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI9009">https://www.LearnAtGSUSA.com/ACQI9009</a>
  - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8043">https://www.LearnAtGSUSA.com/AUDT8043</a>
+ - Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9019">https://www.LearnAtGSUSA.com/AUDT9019</a>
 filters: Personal-Accountability GS-14-15 series-0510
 ---
 

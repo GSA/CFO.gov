@@ -15,13 +15,13 @@ level: "10-13"
 behavior_illustrations: "Provides and promotes position information across divisions to educate staff on respective duties, performance expectations, and consequent impact on accomplishment of agency goals ? Holds staff accountable for new performance standards and expectations by taking action with employees not meeting standards"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8017">https://www.LearnAtGSUSA.com/AUDT8017</a>
+ - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8040">https://www.LearnAtGSUSA.com/AUDT8040</a>
+ - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8922">https://www.LearnAtGSUSA.com/AUDT8922</a>
  - Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9016">https://www.LearnAtGSUSA.com/AUDT9016</a>
+ - Unnamed GSU Course 1, GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9041">https://www.LearnAtGSUSA.com/AUDT9041</a>
  - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9119">https://www.LearnAtGSUSA.com/AUDT9119</a>
  - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9030">https://www.LearnAtGSUSA.com/LEAD9030</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8017">https://www.LearnAtGSUSA.com/AUDT8017</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8922">https://www.LearnAtGSUSA.com/AUDT8922</a>
- - Unnamed GSU Course 1, GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9041">https://www.LearnAtGSUSA.com/AUDT9041</a>
- - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8040">https://www.LearnAtGSUSA.com/AUDT8040</a>
 filters: Personal-Accountability GS-10-13 series-0511
 ---
 

@@ -17,29 +17,27 @@ proficiency_level_definition: Applies the competency in difficult situations ? R
 relevant_courses: 
  - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9005">https://www.LearnAtGSUSA.com/AUDT9005</a>
  - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9009">https://www.LearnAtGSUSA.com/AUDT9009</a>
+ - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9038">https://www.LearnAtGSUSA.com/AUDT9038</a>
+ - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9042">https://www.LearnAtGSUSA.com/AUDT9042</a>
  - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9112">https://www.LearnAtGSUSA.com/AUDT9112</a>
  - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9116">https://www.LearnAtGSUSA.com/AUDT9116</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9027">https://www.LearnAtGSUSA.com/LEAD9027</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9031">https://www.LearnAtGSUSA.com/LEAD9031</a>
- - Federal Performance Management (LABR7013), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7016">https://www.LearnAtGSUSA.com/LABR7016</a>
  - Leading People (EXEC9912), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9915">https://www.LearnAtGSUSA.com/EXEC9915</a>
  - Leading People (EXEC9912), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9919">https://www.LearnAtGSUSA.com/EXEC9919</a>
  - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
  - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
- - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9038">https://www.LearnAtGSUSA.com/AUDT9038</a>
- - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9042">https://www.LearnAtGSUSA.com/AUDT9042</a>
- - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9009">https://www.LearnAtGSUSA.com/MGMT9009</a>
- - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9013">https://www.LearnAtGSUSA.com/MGMT9013</a>
+ - Federal Performance Management (LABR7013), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7016">https://www.LearnAtGSUSA.com/LABR7016</a>
+ - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9027">https://www.LearnAtGSUSA.com/LEAD9027</a>
+ - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9031">https://www.LearnAtGSUSA.com/LEAD9031</a>
  - Mentoring Skills (MGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7009">https://www.LearnAtGSUSA.com/MGMT7009</a>
  - Mentoring Skills (MGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7013">https://www.LearnAtGSUSA.com/MGMT7013</a>
- - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8207">https://www.LearnAtGSUSA.com/TDEV8207</a>
- - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8211">https://www.LearnAtGSUSA.com/TDEV8211</a>
- - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7204">https://www.LearnAtGSUSA.com/MGMT7204</a>
- - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7208">https://www.LearnAtGSUSA.com/MGMT7208</a>
  - Leadership Essentials (MGMT7020), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7027">https://www.LearnAtGSUSA.com/MGMT7027</a>
  - Leadership Essentials (MGMT7020), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7031">https://www.LearnAtGSUSA.com/MGMT7031</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7204">https://www.LearnAtGSUSA.com/MGMT7204</a>
+ - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7208">https://www.LearnAtGSUSA.com/MGMT7208</a>
+ - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9009">https://www.LearnAtGSUSA.com/MGMT9009</a>
+ - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9013">https://www.LearnAtGSUSA.com/MGMT9013</a>
+ - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8207">https://www.LearnAtGSUSA.com/TDEV8207</a>
+ - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8211">https://www.LearnAtGSUSA.com/TDEV8211</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Leading-Developing-Others GS-10-13 series-0560

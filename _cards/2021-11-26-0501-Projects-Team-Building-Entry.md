@@ -15,12 +15,12 @@ level: "7-9"
 behavior_illustrations: "Works with team to implement operating procedures within agency ? Suggests utilizing team building exercises to improve office dynamics ? Encourages staff to share skills and abilities within work group to facilitate completion of challenging tasks ? Forms teams to identify and address agency concerns ? Informs team members of issues requiring resolution and considers input"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Jump Starting High Performance Teams&#58; The Fundamentals (TDEV7021), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV7021">https://www.LearnAtGSUSA.com/TDEV7021</a>
  - Introduction to Management (MGMT7099), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7099">https://www.LearnAtGSUSA.com/MGMT7099</a>
- - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7001">https://www.LearnAtGSUSA.com/SUPV7001</a>
- - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8200">https://www.LearnAtGSUSA.com/TDEV8200</a>
  - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8112">https://www.LearnAtGSUSA.com/MGMT8112</a>
  - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8116">https://www.LearnAtGSUSA.com/MGMT8116</a>
+ - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7001">https://www.LearnAtGSUSA.com/SUPV7001</a>
+ - Jump Starting High Performance Teams&#58; The Fundamentals (TDEV7021), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV7021">https://www.LearnAtGSUSA.com/TDEV7021</a>
+ - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8200">https://www.LearnAtGSUSA.com/TDEV8200</a>
  - Leadership Skills And Techniques, MC, <a href="https://www.managementconcepts.com/course/id/4001?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4001?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Leading And Managing High-Performing Project Teams, MC, <a href="https://www.managementconcepts.com/course/id/6183?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6183?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Team-Building GS-7-9 series-0501

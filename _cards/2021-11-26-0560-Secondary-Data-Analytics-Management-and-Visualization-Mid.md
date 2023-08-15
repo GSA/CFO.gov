@@ -16,26 +16,26 @@ behavior_illustrations: "Interprets and evaluates data using a variety of analyt
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - Digital Transformation&#58; Leading People, Data & Technology (with UC Berkeley Executive Education), Emeritus, <a href="https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
- - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8907">https://www.LearnAtGSUSA.com/FINC8907</a>
- - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8920">https://www.LearnAtGSUSA.com/AUDT8920</a>
  - Counterintelligence for Information Security and Protection (AUDT7200), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7207">https://www.LearnAtGSUSA.com/AUDT7207</a>
- - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8107">https://www.LearnAtGSUSA.com/AUDT8107</a>
- - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8131">https://www.LearnAtGSUSA.com/FINC8131</a>
- - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9153">https://www.LearnAtGSUSA.com/FINC9153</a>
- - Introduction to Management Analysis (PGMT7010), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7013">https://www.LearnAtGSUSA.com/PGMT7013</a>
- - Descriptive Statistics for Data Analysis (PGMT8200), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8203">https://www.LearnAtGSUSA.com/PGMT8203</a>
- - Tools for Management Analysis (PGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7009">https://www.LearnAtGSUSA.com/PGMT7009</a>
- - Designing an Analytical Study (PGMT8005), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8008">https://www.LearnAtGSUSA.com/PGMT8008</a>
- - Information Systems Auditing (AUDT8029), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8040">https://www.LearnAtGSUSA.com/AUDT8040</a>
- - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8054">https://www.LearnAtGSUSA.com/AUDT8054</a>
- - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8157">https://www.LearnAtGSUSA.com/BUDG8157</a>
  - Analysis Techniques for Auditors (AUDT7900), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7911">https://www.LearnAtGSUSA.com/AUDT7911</a>
  - Using Metrics to Assess Performance (AUDT8027), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8038">https://www.LearnAtGSUSA.com/AUDT8038</a>
+ - Information Systems Auditing (AUDT8029), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8040">https://www.LearnAtGSUSA.com/AUDT8040</a>
+ - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8054">https://www.LearnAtGSUSA.com/AUDT8054</a>
+ - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8107">https://www.LearnAtGSUSA.com/AUDT8107</a>
+ - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8920">https://www.LearnAtGSUSA.com/AUDT8920</a>
  - Data Analytics for Fraud Detection (AUDT8915), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8922">https://www.LearnAtGSUSA.com/AUDT8922</a>
- - Data Analysis For Financial Managers Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8157">https://www.LearnAtGSUSA.com/BUDG8157</a>
+ - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8131">https://www.LearnAtGSUSA.com/FINC8131</a>
+ - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8907">https://www.LearnAtGSUSA.com/FINC8907</a>
+ - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9153">https://www.LearnAtGSUSA.com/FINC9153</a>
+ - Tools for Management Analysis (PGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7009">https://www.LearnAtGSUSA.com/PGMT7009</a>
+ - Introduction to Management Analysis (PGMT7010), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7013">https://www.LearnAtGSUSA.com/PGMT7013</a>
+ - Designing an Analytical Study (PGMT8005), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8008">https://www.LearnAtGSUSA.com/PGMT8008</a>
+ - Descriptive Statistics for Data Analysis (PGMT8200), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8203">https://www.LearnAtGSUSA.com/PGMT8203</a>
+ - Introduction To Data Visualization, MC, <a href="https://www.managementconcepts.com/course/id/4606?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4606?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Data Analysis And Modeling Techniques, MC, <a href="https://www.managementconcepts.com/course/id/4615?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4615?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Evaluating And Presenting Analysis Results, MC, <a href="https://www.managementconcepts.com/course/id/4665?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4665?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Introduction To Data Visualization, MC, <a href="https://www.managementconcepts.com/course/id/4606?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4606?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Data Analysis For Financial Managers Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0560
 ---
 

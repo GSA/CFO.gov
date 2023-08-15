@@ -16,8 +16,8 @@ behavior_illustrations: "Monitors customers or clients satisfaction to ensure th
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - Customer Service Excellence (ADMB7003), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7006">https://www.LearnAtGSUSA.com/ADMB7006</a>
- - Customer Service Excellence (ADMB7003), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7010">https://www.LearnAtGSUSA.com/ADMB7010</a>
  - Customer Service Excellence (ADMB7004), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7007">https://www.LearnAtGSUSA.com/ADMB7007</a>
+ - Customer Service Excellence (ADMB7003), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7010">https://www.LearnAtGSUSA.com/ADMB7010</a>
  - Customer Service Excellence (ADMB7004), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7011">https://www.LearnAtGSUSA.com/ADMB7011</a>
  - Effective Communications with Customers (COMM8000), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8003">https://www.LearnAtGSUSA.com/COMM8003</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>

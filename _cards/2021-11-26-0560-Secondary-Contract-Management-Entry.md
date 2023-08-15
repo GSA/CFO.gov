@@ -15,20 +15,19 @@ level: "7-9"
 behavior_illustrations: "Understands the accounting string and budget for a given contract ? Works with appropriate authorities to verify contractual services were provided per posted transactions"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8804">https://www.LearnAtGSUSA.com/AUDT8804</a>
- - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7505">https://www.LearnAtGSUSA.com/ACQI7505</a>
- - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7506">https://www.LearnAtGSUSA.com/ACQI7506</a>
- - Basic Contract Administration (ACQI7500), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7503">https://www.LearnAtGSUSA.com/ACQI7503</a>
+ - Other Transaction Authority Basics (ACQI3010), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI3013">https://www.LearnAtGSUSA.com/ACQI3013</a>
  - COR Essentials (ACQI7028), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7031">https://www.LearnAtGSUSA.com/ACQI7031</a>
  - FAR Basics (ACQI7100), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7103">https://www.LearnAtGSUSA.com/ACQI7103</a>
- - Other Transaction Authority Basics (ACQI3010), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI3013">https://www.LearnAtGSUSA.com/ACQI3013</a>
- - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8522">https://www.LearnAtGSUSA.com/ACQI8522</a>
+ - Basic Contract Administration (ACQI7500), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7503">https://www.LearnAtGSUSA.com/ACQI7503</a>
+ - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7505">https://www.LearnAtGSUSA.com/ACQI7505</a>
+ - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7506">https://www.LearnAtGSUSA.com/ACQI7506</a>
  - Simplified Acquisition Procedures (ACQI7506), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7509">https://www.LearnAtGSUSA.com/ACQI7509</a>
+ - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8522">https://www.LearnAtGSUSA.com/ACQI8522</a>
  - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8804">https://www.LearnAtGSUSA.com/AUDT8804</a>
- - FPM 132 - Fundamentals Of Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 232 - Applications In Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6888?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6888?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Introduction To Federal Contracting, MC, <a href="https://www.managementconcepts.com/course/id/1048?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1048?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Appropriations Law For Contracting Professionals, MC, <a href="https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - FPM 132 - Fundamentals Of Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - FPM 232 - Applications In Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6888?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6888?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Secondary-Contract-Management GS-7-9 series-0560
 ---
 

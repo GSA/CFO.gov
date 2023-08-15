@@ -15,18 +15,18 @@ level: "10-13"
 behavior_illustrations: "Prepares reports, summaries, or makes recommendations independently ? Reviews and edits materials prepared by others for grammar, punctuation, spelling and conformance to style and format guidelines"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Clear Writing Through Critical Thinking (WRIT7100), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7102">https://www.LearnAtGSUSA.com/WRIT7102</a>
- - Executive Writing (WRIT9001), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT9003">https://www.LearnAtGSUSA.com/WRIT9003</a>
  - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8521">https://www.LearnAtGSUSA.com/ACQI8521</a>
+ - Developing and Presenting Audit Findings (AUDT7021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7031">https://www.LearnAtGSUSA.com/AUDT7031</a>
+ - Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8306">https://www.LearnAtGSUSA.com/AUDT8306</a>
+ - Written Communication for Auditors (AUDT8611), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8621">https://www.LearnAtGSUSA.com/AUDT8621</a>
+ - Reviewing Other Peoples Report Writing (AUDT9502), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9504">https://www.LearnAtGSUSA.com/AUDT9504</a>
+ - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7104">https://www.LearnAtGSUSA.com/BUDG7104</a>
+ - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8156">https://www.LearnAtGSUSA.com/BUDG8156</a>
  - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8126">https://www.LearnAtGSUSA.com/FINC8126</a>
  - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9152">https://www.LearnAtGSUSA.com/FINC9152</a>
- - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8156">https://www.LearnAtGSUSA.com/BUDG8156</a>
- - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7104">https://www.LearnAtGSUSA.com/BUDG7104</a>
- - Developing and Presenting Audit Findings (AUDT7021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7031">https://www.LearnAtGSUSA.com/AUDT7031</a>
- - Written Communication for Auditors (AUDT8611), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8621">https://www.LearnAtGSUSA.com/AUDT8621</a>
- - Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8306">https://www.LearnAtGSUSA.com/AUDT8306</a>
- - Reviewing Other Peoples Report Writing (AUDT9502), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9504">https://www.LearnAtGSUSA.com/AUDT9504</a>
+ - Clear Writing Through Critical Thinking (WRIT7100), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7102">https://www.LearnAtGSUSA.com/WRIT7102</a>
  - Writing for Results (WRIT7110), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7120">https://www.LearnAtGSUSA.com/WRIT7120</a>
+ - Executive Writing (WRIT9001), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT9003">https://www.LearnAtGSUSA.com/WRIT9003</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Written-Communications GS-10-13 series-0511
 ---

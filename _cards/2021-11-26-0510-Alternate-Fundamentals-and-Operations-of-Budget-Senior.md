@@ -15,18 +15,18 @@ level: "14-15"
 behavior_illustrations: "Researches and organizes relevant budget information and systems using various standardized procedures ? Examines and reconciles complex transactions from budget information and systems using various standardized procedures"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7105">https://www.LearnAtGSUSA.com/BUDG7105</a>
  - Budget Formulation (BUDG7101), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7102">https://www.LearnAtGSUSA.com/BUDG7102</a>
- - Budget Formulation (BUDG7101), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7106">https://www.LearnAtGSUSA.com/BUDG7106</a>
  - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7103">https://www.LearnAtGSUSA.com/BUDG7103</a>
+ - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7105">https://www.LearnAtGSUSA.com/BUDG7105</a>
+ - Budget Formulation (BUDG7101), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7106">https://www.LearnAtGSUSA.com/BUDG7106</a>
  - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7107">https://www.LearnAtGSUSA.com/BUDG7107</a>
+ - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8005">https://www.LearnAtGSUSA.com/BUDG8005</a>
+ - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8006">https://www.LearnAtGSUSA.com/BUDG8006</a>
+ - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8010">https://www.LearnAtGSUSA.com/BUDG8010</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8151">https://www.LearnAtGSUSA.com/BUDG8151</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8155">https://www.LearnAtGSUSA.com/BUDG8155</a>
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8181">https://www.LearnAtGSUSA.com/BUDG8181</a>
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8185">https://www.LearnAtGSUSA.com/BUDG8185</a>
- - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8005">https://www.LearnAtGSUSA.com/BUDG8005</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8006">https://www.LearnAtGSUSA.com/BUDG8006</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8010">https://www.LearnAtGSUSA.com/BUDG8010</a>
  - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7019">https://www.LearnAtGSUSA.com/FINC7019</a>
 filters: Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0510
 ---

@@ -15,10 +15,10 @@ level: "14-15"
 behavior_illustrations: "Describes and documents critical cross-functional business process flows ? Applies business process reengineering techniques and methods in analyzing process flow and accountability charts ? Recommends and advocates substantive process enhancements and assesses both internal and external implications ? Analyzes enterprise processes for major enhancements to customer satisfaction and cost reduction ? Applies business process reengineering (BPR) techniques to complex processes that cross the enterprise ? Approves and sponsors process improvement recommendations ? Identifies the value of process improvements and garners the support of stakeholders in implementation"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9928">https://www.LearnAtGSUSA.com/EXEC9928</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8018">https://www.LearnAtGSUSA.com/AUDT8018</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8919">https://www.LearnAtGSUSA.com/AUDT8919</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8923">https://www.LearnAtGSUSA.com/AUDT8923</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8018">https://www.LearnAtGSUSA.com/AUDT8018</a>
+ - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9928">https://www.LearnAtGSUSA.com/EXEC9928</a>
  - Internal Control&#58; Meeting Federal Requirements For Accountability, MC, <a href="https://www.managementconcepts.com/course/id/5112?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5112?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Business-Process-Improvement GS-14-15 series-0560
 ---

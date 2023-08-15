@@ -15,20 +15,20 @@ level: "10-13"
 behavior_illustrations: "Maps full business processes and designs operational process flows ? Facilitates group input and drafts proposals for process improvements ? Identifies resource implications of modifications to processes ? Implements process improvement recommendations"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9924">https://www.LearnAtGSUSA.com/EXEC9924</a>
- - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8032">https://www.LearnAtGSUSA.com/AUDT8032</a>
- - Microsoft Project&#58; Introduction (PROJ7015), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7026">https://www.LearnAtGSUSA.com/PROJ7026</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8915">https://www.LearnAtGSUSA.com/AUDT8915</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
- - Grants Performance Management and Monitoring (GRNT7035), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7038">https://www.LearnAtGSUSA.com/GRNT7038</a>
- - Effective Grants Manager (GRNT7025), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7028">https://www.LearnAtGSUSA.com/GRNT7028</a>
- - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7016">https://www.LearnAtGSUSA.com/PROP7016</a>
- - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7115">https://www.LearnAtGSUSA.com/PROP7115</a>
- - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7106">https://www.LearnAtGSUSA.com/PROP7106</a>
- - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7004">https://www.LearnAtGSUSA.com/PROP7004</a>
+ - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8032">https://www.LearnAtGSUSA.com/AUDT8032</a>
  - Intermediate Performance Auditing (AUDT8046), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8053">https://www.LearnAtGSUSA.com/AUDT8053</a>
- - Understanding Enterprise Risk Management, Internal Controls, And Fraud Prevention In The Federal Environment, MC, <a href="https://www.managementconcepts.com/course/id/5892?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5892?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8915">https://www.LearnAtGSUSA.com/AUDT8915</a>
+ - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9924">https://www.LearnAtGSUSA.com/EXEC9924</a>
+ - Effective Grants Manager (GRNT7025), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7028">https://www.LearnAtGSUSA.com/GRNT7028</a>
+ - Grants Performance Management and Monitoring (GRNT7035), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7038">https://www.LearnAtGSUSA.com/GRNT7038</a>
+ - Microsoft Project&#58; Introduction (PROJ7015), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7026">https://www.LearnAtGSUSA.com/PROJ7026</a>
+ - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7004">https://www.LearnAtGSUSA.com/PROP7004</a>
+ - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7016">https://www.LearnAtGSUSA.com/PROP7016</a>
+ - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7106">https://www.LearnAtGSUSA.com/PROP7106</a>
+ - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7115">https://www.LearnAtGSUSA.com/PROP7115</a>
  - Internal Control&#58; Meeting Federal Requirements For Accountability, MC, <a href="https://www.managementconcepts.com/course/id/5112?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5112?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Understanding Enterprise Risk Management, Internal Controls, And Fraud Prevention In The Federal Environment, MC, <a href="https://www.managementconcepts.com/course/id/5892?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5892?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Business-Process-Improvement GS-10-13 series-0560
 ---
 

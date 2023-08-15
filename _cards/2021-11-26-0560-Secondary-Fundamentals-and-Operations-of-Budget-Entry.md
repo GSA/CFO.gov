@@ -15,27 +15,27 @@ level: "7-9"
 behavior_illustrations: "Obtains and inputs basic data utilizing financial management systems ? Extracts, records and balances basic information from financial management systems ? Researches and organizes relevant budget information and systems using various standardized procedures"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7103">https://www.LearnAtGSUSA.com/BUDG7103</a>
- - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7107">https://www.LearnAtGSUSA.com/BUDG7107</a>
- - Budget Formulation (BUDG7101), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7104">https://www.LearnAtGSUSA.com/BUDG7104</a>
  - Federal Budgeting for Non-Budgeting Personnel (BUDG7000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7003">https://www.LearnAtGSUSA.com/BUDG7003</a>
- - Federal Budgeting for Non-Budgeting Personnel (BUDG7000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7007">https://www.LearnAtGSUSA.com/BUDG7007</a>
- - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8303">https://www.LearnAtGSUSA.com/FINC8303</a>
- - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8307">https://www.LearnAtGSUSA.com/FINC8307</a>
  - Introduction to Federal Budgeting (BUDG7001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7004">https://www.LearnAtGSUSA.com/BUDG7004</a>
+ - Federal Budgeting for Non-Budgeting Personnel (BUDG7000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7007">https://www.LearnAtGSUSA.com/BUDG7007</a>
  - Introduction to Federal Budgeting (BUDG7001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7008">https://www.LearnAtGSUSA.com/BUDG7008</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7003">https://www.LearnAtGSUSA.com/FINC7003</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7007">https://www.LearnAtGSUSA.com/FINC7007</a>
+ - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7103">https://www.LearnAtGSUSA.com/BUDG7103</a>
+ - Budget Formulation (BUDG7101), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7104">https://www.LearnAtGSUSA.com/BUDG7104</a>
  - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7105">https://www.LearnAtGSUSA.com/BUDG7105</a>
+ - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7107">https://www.LearnAtGSUSA.com/BUDG7107</a>
+ - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8003">https://www.LearnAtGSUSA.com/BUDG8003</a>
+ - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8004">https://www.LearnAtGSUSA.com/BUDG8004</a>
+ - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8007">https://www.LearnAtGSUSA.com/BUDG8007</a>
+ - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8008">https://www.LearnAtGSUSA.com/BUDG8008</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8153">https://www.LearnAtGSUSA.com/BUDG8153</a>
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8183">https://www.LearnAtGSUSA.com/BUDG8183</a>
- - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8003">https://www.LearnAtGSUSA.com/BUDG8003</a>
- - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8007">https://www.LearnAtGSUSA.com/BUDG8007</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8004">https://www.LearnAtGSUSA.com/BUDG8004</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8008">https://www.LearnAtGSUSA.com/BUDG8008</a>
+ - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7003">https://www.LearnAtGSUSA.com/FINC7003</a>
+ - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7007">https://www.LearnAtGSUSA.com/FINC7007</a>
  - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7013">https://www.LearnAtGSUSA.com/FINC7013</a>
  - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7017">https://www.LearnAtGSUSA.com/FINC7017</a>
  - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7021">https://www.LearnAtGSUSA.com/FINC7021</a>
+ - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8303">https://www.LearnAtGSUSA.com/FINC8303</a>
+ - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8307">https://www.LearnAtGSUSA.com/FINC8307</a>
 filters: Secondary-Fundamentals-and-Operations-of-Budget GS-7-9 series-0560
 ---
 

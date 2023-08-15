@@ -15,14 +15,14 @@ level: "10-13"
 behavior_illustrations: "Extracts, records and balances basic information from financial management systems"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7100">https://www.LearnAtGSUSA.com/BUDG7100</a>
  - Federal Budgeting for Non-Budgeting Personnel (BUDG7000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7004">https://www.LearnAtGSUSA.com/BUDG7004</a>
- - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8304">https://www.LearnAtGSUSA.com/FINC8304</a>
  - Introduction to Federal Budgeting (BUDG7001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7005">https://www.LearnAtGSUSA.com/BUDG7005</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7004">https://www.LearnAtGSUSA.com/FINC7004</a>
+ - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7100">https://www.LearnAtGSUSA.com/BUDG7100</a>
  - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8000">https://www.LearnAtGSUSA.com/BUDG8000</a>
  - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8001">https://www.LearnAtGSUSA.com/BUDG8001</a>
+ - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7004">https://www.LearnAtGSUSA.com/FINC7004</a>
  - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7014">https://www.LearnAtGSUSA.com/FINC7014</a>
+ - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8304">https://www.LearnAtGSUSA.com/FINC8304</a>
 filters: Alternate-Fundamentals-and-Operations-of-Budget GS-10-13 series-0501
 ---
 

@@ -15,16 +15,13 @@ level: "10-13"
 behavior_illustrations: "Recognizes and addresses deficiencies of human resources processes or tools ? Provides positive feedback to high-performing staff and rewards exceptional performance ? Considers impact of personnel decisions on current staff ? Reviews and updates position descriptions and performance plans ? Explains restructuring plan to staff and addresses concerns ? Recognizes employee contributions by rewarding employees publicly"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Federal Human Resources Management (PMGT7011), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7013">https://www.LearnAtGSUSA.com/PMGT7013</a>
- - Federal Human Resources Management (PERS1731) Self-Paced, GSU, <a href="https://www.LearnAtGSUSA.com/PERS1733">https://www.LearnAtGSUSA.com/PERS1733</a>
  - Position Classification for Supervisors and Administrative Staff (CLAS8102), GSU, <a href="https://www.LearnAtGSUSA.com/CLAS8104">https://www.LearnAtGSUSA.com/CLAS8104</a>
- - Federal Labor Relations (Basic) (LABR7020), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7022">https://www.LearnAtGSUSA.com/LABR7022</a>
- - Basic Labor Relations (LABR7051), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7053">https://www.LearnAtGSUSA.com/LABR7053</a>
  - Sexual Harassment Prevention for Employees (EEOP7030), GSU, <a href="https://www.LearnAtGSUSA.com/EEOP7032">https://www.LearnAtGSUSA.com/EEOP7032</a>
  - Sexual Harassment Prevention for Supervisors (EEOP7031), GSU, <a href="https://www.LearnAtGSUSA.com/EEOP7033">https://www.LearnAtGSUSA.com/EEOP7033</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Federal Labor Relations (Basic) (LABR7020), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7022">https://www.LearnAtGSUSA.com/LABR7022</a>
+ - Basic Labor Relations (LABR7051), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7053">https://www.LearnAtGSUSA.com/LABR7053</a>
+ - Federal Human Resources Management (PERS1731) Self-Paced, GSU, <a href="https://www.LearnAtGSUSA.com/PERS1733">https://www.LearnAtGSUSA.com/PERS1733</a>
+ - Federal Human Resources Management (PMGT7011), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7013">https://www.LearnAtGSUSA.com/PMGT7013</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Leading-Human-Capital-Management GS-10-13 series-0511

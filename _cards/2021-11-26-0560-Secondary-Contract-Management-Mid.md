@@ -15,18 +15,17 @@ level: "10-13"
 behavior_illustrations: "Provides historical contractual costs recorded in financial management system(s) ? Assists with financial analysis to track cost of contract estimate to completion ? Identifies or takes action to recommend deobligation of contractual residual open obligations"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8808">https://www.LearnAtGSUSA.com/AUDT8808</a>
- - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8526">https://www.LearnAtGSUSA.com/ACQI8526</a>
+ - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7033">https://www.LearnAtGSUSA.com/ACQI7033</a>
  - Simplified Acquisition Procedures (ACQI7506), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7513">https://www.LearnAtGSUSA.com/ACQI7513</a>
  - Virtual Contract Management (ACQI8030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8033">https://www.LearnAtGSUSA.com/ACQI8033</a>
+ - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8526">https://www.LearnAtGSUSA.com/ACQI8526</a>
  - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8808">https://www.LearnAtGSUSA.com/AUDT8808</a>
- - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7033">https://www.LearnAtGSUSA.com/ACQI7033</a>
- - FPM 132 - Fundamentals Of Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Contract Administration, MC, <a href="https://www.managementconcepts.com/course/id/1022?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1022?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Introduction To Federal Contracting, MC, <a href="https://www.managementconcepts.com/course/id/1048?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1048?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Appropriations Law For Contracting Professionals, MC, <a href="https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Fundamentals Of Overhead And Other Indirect Cost Rates, MC, <a href="https://www.managementconcepts.com/course/id/1052?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1052?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Developing The Independent Government Cost Estimate, MC, <a href="https://www.managementconcepts.com/course/id/1125?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1125?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Contract Administration, MC, <a href="https://www.managementconcepts.com/course/id/1022?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1022?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - FPM 132 - Fundamentals Of Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Secondary-Contract-Management GS-10-13 series-0560
 ---
 

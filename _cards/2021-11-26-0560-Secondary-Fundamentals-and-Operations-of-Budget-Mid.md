@@ -17,9 +17,9 @@ proficiency_level_definition: Applies the competency in considerably difficult s
 relevant_courses: 
  - Budget Formulation (BUDG7101), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7108">https://www.LearnAtGSUSA.com/BUDG7108</a>
  - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7109">https://www.LearnAtGSUSA.com/BUDG7109</a>
+ - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8012">https://www.LearnAtGSUSA.com/BUDG8012</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8157">https://www.LearnAtGSUSA.com/BUDG8157</a>
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8187">https://www.LearnAtGSUSA.com/BUDG8187</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8012">https://www.LearnAtGSUSA.com/BUDG8012</a>
 filters: Secondary-Fundamentals-and-Operations-of-Budget GS-10-13 series-0560
 ---
 

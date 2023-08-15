@@ -15,9 +15,9 @@ level: "14-15"
 behavior_illustrations: "Interprets and advises others on financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Advanced Appropriations Law (FINC9100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9110">https://www.LearnAtGSUSA.com/FINC9110</a>
- - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8210">https://www.LearnAtGSUSA.com/FINC8210</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8825">https://www.LearnAtGSUSA.com/AUDT8825</a>
+ - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8210">https://www.LearnAtGSUSA.com/FINC8210</a>
+ - Advanced Appropriations Law (FINC9100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9110">https://www.LearnAtGSUSA.com/FINC9110</a>
 filters: Alternate-Financial-Concepts-Policies-and-Principles GS-14-15 series-0511
 ---
 

@@ -15,10 +15,10 @@ level: "7-9"
 behavior_illustrations: "Reviews pay authorization documents, determines and processes entitlements, identifies and corrects rejected actions"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
+ - Pay Setting for FWS Positions (PADM7001), GSU, <a href="https://www.LearnAtGSUSA.com/PADM7002">https://www.LearnAtGSUSA.com/PADM7002</a>
+ - Pay Setting for GS Positions (PADM7002), GSU, <a href="https://www.LearnAtGSUSA.com/PADM7003">https://www.LearnAtGSUSA.com/PADM7003</a>
  - Pay Setting&#58; General Schedule (STAF9002), GSU, <a href="https://www.LearnAtGSUSA.com/STAF9003">https://www.LearnAtGSUSA.com/STAF9003</a>
  - Pay Setting&#58; Federal Wage System (STAF9004), GSU, <a href="https://www.LearnAtGSUSA.com/STAF9005">https://www.LearnAtGSUSA.com/STAF9005</a>
- - Pay Setting for GS Positions (PADM7002), GSU, <a href="https://www.LearnAtGSUSA.com/PADM7003">https://www.LearnAtGSUSA.com/PADM7003</a>
- - Pay Setting for FWS Positions (PADM7001), GSU, <a href="https://www.LearnAtGSUSA.com/PADM7002">https://www.LearnAtGSUSA.com/PADM7002</a>
 filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-7-9 series-0510
 ---
 

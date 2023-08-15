@@ -15,10 +15,10 @@ level: "7-9"
 behavior_illustrations: "Suggests changes to own work procedures within existing guidelines to improve efficiency or effectiveness ? Participates in discussions about improvements to team business processes ? Revises own work methods to improve personal effectiveness and efficiency ? Suggests improvements to a business process within the team"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8013">https://www.LearnAtGSUSA.com/AUDT8013</a>
- - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8103">https://www.LearnAtGSUSA.com/MGMT8103</a>
  - Problem solving (ADMB8129), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB8130">https://www.LearnAtGSUSA.com/ADMB8130</a>
  - Problem solving (ADMB8129), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB8134">https://www.LearnAtGSUSA.com/ADMB8134</a>
+ - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8013">https://www.LearnAtGSUSA.com/AUDT8013</a>
+ - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8103">https://www.LearnAtGSUSA.com/MGMT8103</a>
 filters: Personal-Innovative-Thinking GS-7-9 series-0510
 ---
 

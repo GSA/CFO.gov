@@ -17,8 +17,8 @@ behavior_illustrations: "Builds a diverse staff with a variety of skills who fun
 "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8023">https://www.LearnAtGSUSA.com/MGMT8023</a>
  - Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8022">https://www.LearnAtGSUSA.com/MGMT8022</a>
+ - Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8023">https://www.LearnAtGSUSA.com/MGMT8023</a>
  - Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8026">https://www.LearnAtGSUSA.com/MGMT8026</a>
 filters: Leading-Leveraging-Diversity GS-14-15 series-0560
 ---

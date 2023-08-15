@@ -15,8 +15,8 @@ level: "14-15"
 behavior_illustrations: "Promotes a climate of openness and honesty and does not penalize responsible dissent ? Does not acquiesce to inappropriate personal requests for favors, political pressure, or promise of gain ? Displays fortitude to support ethical actions that may negatively impact self or stakeholders"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9038">https://www.LearnAtGSUSA.com/AUDT9038</a>
  - Government Contract Law (ACQI8505), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8505">https://www.LearnAtGSUSA.com/ACQI8505</a>
+ - Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9038">https://www.LearnAtGSUSA.com/AUDT9038</a>
 filters: Personal-Integrity-Honesty GS-14-15 series-0501
 ---
 

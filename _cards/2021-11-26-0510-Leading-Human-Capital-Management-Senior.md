@@ -15,14 +15,14 @@ level: "14-15"
 behavior_illustrations: "Develops rewards system to recognize the impact of employee contributions to the organization ? Identifies creative strategies to recruit employees with the required skills and qualifications, despite having limited resources ? Identifies mission critical occupations and associated competencies needed to perform organizational functions ? Redesigns organizational structure to provide improved service to customers by considering organizational goals, timeframes for achieving goals, and staff responsibilities ? Creates new agency-wide human capital programs and activities to meet strategic objectives ? Leads task force to analyze agency-wide staffing needs and develops strategy to address recruitment needs ? Develops new agency-wide incentive program to retain employees with technical expertise"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Federal Human Resources Management for Supervisors and Managers (PMGT7102), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7103">https://www.LearnAtGSUSA.com/PMGT7103</a>
- - Federal Workforce Analysis and Planning (PMGT7013), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7014">https://www.LearnAtGSUSA.com/PMGT7014</a>
- - Strategic Human Capital Management (PMGT7015), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7016">https://www.LearnAtGSUSA.com/PMGT7016</a>
- - Using and Presenting HR Data for Organizational Decisions (STAF8016), GSU, <a href="https://www.LearnAtGSUSA.com/STAF8017">https://www.LearnAtGSUSA.com/STAF8017</a>
+ - Managing Employee Conduct and Performance (LABR7011), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7012">https://www.LearnAtGSUSA.com/LABR7012</a>
  - Federal Employee Relations (Basic) (LABR7110), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7111">https://www.LearnAtGSUSA.com/LABR7111</a>
  - Negotiating Federal Labor Agreements (LABR9001), GSU, <a href="https://www.LearnAtGSUSA.com/LABR9002">https://www.LearnAtGSUSA.com/LABR9002</a>
+ - Federal Workforce Analysis and Planning (PMGT7013), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7014">https://www.LearnAtGSUSA.com/PMGT7014</a>
+ - Strategic Human Capital Management (PMGT7015), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7016">https://www.LearnAtGSUSA.com/PMGT7016</a>
+ - Federal Human Resources Management for Supervisors and Managers (PMGT7102), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7103">https://www.LearnAtGSUSA.com/PMGT7103</a>
  - Family and Medical Leave Act for Supervisors and HR Practitioners (PMGT7510), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7511">https://www.LearnAtGSUSA.com/PMGT7511</a>
- - Managing Employee Conduct and Performance (LABR7011), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7012">https://www.LearnAtGSUSA.com/LABR7012</a>
+ - Using and Presenting HR Data for Organizational Decisions (STAF8016), GSU, <a href="https://www.LearnAtGSUSA.com/STAF8017">https://www.LearnAtGSUSA.com/STAF8017</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Leading-Human-Capital-Management GS-14-15 series-0510
 ---

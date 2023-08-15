@@ -1157,3 +1157,22 @@ abbr{
 .ogp-banner {
       max-width: 87.5rem !important;
 }
+
+.site-margin .grid-container-widescreen dd {
+    margin-inline-start: 2em;
+    list-style-type: disc;
+    display: list-item;
+    color: #003062;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+}
+
+.site-margin .grid-container-widescreen dl {
+    color: #003062
+}
+
+.site-margin .grid-container-widescreen dt {
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #003062
+}
