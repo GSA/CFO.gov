@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340" height="335" viewBox="0 0 340 335" fill="none">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_139" data-name="Rectangle 139" width="175.297" height="185.359" fill="none" stroke="#e16e4e" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-Federal_Financial_Reporting">
+      <rect width="340" height="335"/>
+    </clipPath>
+  </defs>
+  <g id="Federal_Financial_Reporting" data-name="Federal Financial Reporting" clip-path="url(#clip-Federal_Financial_Reporting)">
+    <rect width="340" height="335"/>
+    <g id="Group_67" data-name="Group 67" transform="translate(83.824 86.32)">
+      <line id="Line_34" data-name="Line 34" y1="21.466" transform="translate(63.449 65.157)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+      <line id="Line_35" data-name="Line 35" y2="39.028" transform="translate(25.081 106.609)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+      <line id="Line_36" data-name="Line 36" y1="13.035" transform="translate(44.265 87.178)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+      <line id="Line_37" data-name="Line 37" y1="12.419" transform="translate(82.632 71.131)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+      <line id="Line_38" data-name="Line 38" y2="14.392" transform="translate(101.816 73.806)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+      <line id="Line_39" data-name="Line 39" y2="41.737" transform="translate(120.999 62.734)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+      <line id="Line_40" data-name="Line 40" y2="99.075" transform="translate(140.183 46.561)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+      <line id="Line_41" data-name="Line 41" y2="101.667" transform="translate(159.367 43.97)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+      <g id="Group_56" data-name="Group 56">
+        <g id="Group_55" data-name="Group 55" clip-path="url(#clip-path)">
+          <path id="Path_54" data-name="Path 54" d="M180.157,4.462,129.506,55.129a11.83,11.83,0,0,1-16.707.025l-9.543-9.488a13.83,13.83,0,0,0-19.515.013L41.056,88.234" transform="translate(-20.791 -2.26)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+          <path id="Path_55" data-name="Path 55" d="M4.462,48.091v141.3H42.157" transform="translate(-2.26 -24.353)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+          <path id="Path_56" data-name="Path 56" d="M279.011,4.507h21.646V26.153" transform="translate(-141.291 -2.282)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+          <path id="Path_57" data-name="Path 57" d="M215.217,306.264l16.657,16.657a8.978,8.978,0,0,1,0,12.7h0a8.979,8.979,0,0,1-12.7,0L202.52,318.961" transform="translate(-102.556 -155.091)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+          <path id="Path_58" data-name="Path 58" d="M145.427,262a36.1,36.1,0,1,1,9.212-7.777" transform="translate(-46.034 -98.635)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+          <path id="Path_59" data-name="Path 59" d="M162.532,239.594a21.177,21.177,0,1,1-20.145-14.636" transform="translate(-61.383 -113.918)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+          <line id="Line_42" data-name="Line 42" x2="30.732" transform="translate(142.362 165.042)" fill="none" stroke="#e16e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.924"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
