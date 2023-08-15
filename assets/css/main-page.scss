@@ -1133,7 +1133,7 @@ abbr{
     background-repeat: no-repeat;
     background-size: 0.5rem;
     background-position: right 1rem top 53%;
-}
+    }
     .usa-nav__primary button[aria-expanded="true"] {
     background-image: url(../img/angle-arrow-up-white.svg),linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
@@ -1143,8 +1143,15 @@ abbr{
     background-color: #162e51;
     background-position: right 1rem top 53%;
     color: white;
-}
+    }
     .usa-header--extended .usa-current, .usa-header--extended [aria-expanded="true"], .usa-header--extended .usa-nav__link:hover {
         position: relative;
     }
+    .usa-nav__primary button[aria-expanded="false"] span::after {
+        background-color: none !important;
+    }
+}
+
+.ogp-banner {
+    max-width: 87.5rem !important;
 }
