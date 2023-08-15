@@ -7,7 +7,7 @@ job_series_title: Financial Administration and Program Support
 job_series: 0501 Financial Administration and Program Support
 career_level: Mid
 permalink: /cards/501-Critical-Thinking-Mid
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Critical Thinking
 competency_group: Personal
 competency_description: Identifies rules, principles, or relationships that explain facts, data, or other information; analyzes information and makes correct inferences or draws accurate conclusions

@@ -15,10 +15,10 @@ level: "14-15"
 behavior_illustrations: "Examines the impact of complex financial management solutions to make controversial decisions, and negotiate with key stakeholders"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
+ - Data Literacy for Executives, Data Society, <a href="Data">Data</a>, <a href="Literacy">Literacy</a>, <a href="for">for</a>, <a href="Executives">Executives</a>, <a href="%%%">%%%</a>, <a href="Data">Data</a>, <a href="Society">Society</a>, <a href="%%%">%%%</a>, <a href="Level">Level</a>, <a href="5-">5-</a>, <a href="Expert">Expert</a>
  - Auditing Performance Outcomes (AUDT9012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9021">https://www.LearnAtGSUSA.com/AUDT9021</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Data Literacy for Executives, Data Society, <a href="Data">Data</a>, <a href="Literacy">Literacy</a>, <a href="for">for</a>, <a href="Executives">Executives</a>, <a href="%%%">%%%</a>, <a href="Data">Data</a>, <a href="Society">Society</a>, <a href="%%%">%%%</a>, <a href="Level">Level</a>, <a href="5-">5-</a>, <a href="Expert">Expert</a>
 filters: Secondary-Financial-Management-Analysis GS-14-15 series-0510
 ---
 

@@ -7,7 +7,7 @@ job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Entry
 permalink: /cards/560-Innovative-Thinking-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Innovative Thinking
 competency_group: Personal
 competency_description: Uses imagination to develop new insights into situations and applies new solutions to problems; designs new methods where established methods and procedures are not suitable or are unavailable.

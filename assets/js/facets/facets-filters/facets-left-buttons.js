@@ -175,13 +175,13 @@
             removeButtonA.removeAttribute("class");
             removeButtonA.setAttribute("class", "usa-tag bg-filter margin-top float-left text-color padding-05 margin-1 text-no-uppercase text-no-underline");
 
-            if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternative")) {
+            if (eventTargetId.match("primary") || eventTargetId.match("secondary") || eventTargetId.match("alternate")) {
                 addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
                 $("#job-competency").css('display', 'block');
                 $("#btnJobCompetency").attr('aria-expanded', 'false');
                 $("#career-search-results-filter-remove-buttons-job-competency").attr("hidden", true);
             }
-            if (eventTargetId.match("personal") || eventTargetId.match("project") || eventTargetId.match("leading") || eventTargetId.match("future-skills")) {
+            if (eventTargetId.match("personal") || eventTargetId.match("leading") || eventTargetId.match("project")) {
                 addRemoveFilterButton(competencyGroup, competencyTitle, removeButtonA, false);
                 $("#general-competency").css('display', 'block');
                 $("#btnGeneralCompetency").attr('aria-expanded', 'false');

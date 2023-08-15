@@ -7,7 +7,7 @@ job_series_title: Budget Analysis
 job_series: 0560 Budget Analysis
 career_level: Senior
 permalink: /cards/560-Resilience-Senior
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Resilience
 competency_group: Personal
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks.

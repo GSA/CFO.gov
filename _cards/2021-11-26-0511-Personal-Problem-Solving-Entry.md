@@ -7,7 +7,7 @@ job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Problem-Solving-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Problem Solving
 competency_group: Personal
 competency_description: Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations
@@ -16,9 +16,9 @@ behavior_illustrations: "Proposes solution to improve customer satisfaction ? De
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
  - Clear Writing Through Critical Thinking (WRIT7100), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7102">https://www.LearnAtGSUSA.com/WRIT7102</a>
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
- - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8104">https://www.LearnAtGSUSA.com/MGMT8104</a>
  - Interpersonal Communications (COMM7006), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7008">https://www.LearnAtGSUSA.com/COMM7008</a>
+ - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8104">https://www.LearnAtGSUSA.com/MGMT8104</a>
+ - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
 filters: Personal-Problem-Solving GS-7-9 series-0511
 ---
 

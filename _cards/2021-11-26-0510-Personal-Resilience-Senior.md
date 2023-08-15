@@ -7,7 +7,7 @@ job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Senior
 permalink: /cards/510-Resilience-Senior
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Resilience
 competency_group: Personal
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks.

@@ -7,7 +7,7 @@ job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Entry
 permalink: /cards/510-Learning-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Learning
 competency_group: Personal
 competency_description: Uses efficient learning techniques to acquire and apply new knowledge and skills; uses formal and informal training, feedback, or other opportunities for self-learning and development.
@@ -15,8 +15,8 @@ level: "7-9"
 behavior_illustrations: "Attends professional conferences to maintain technical knowledge ? Solicits periodic feedback to continually improve quality of own work ? Visits other work site to gain understanding of staff functions and daily tasks ? Develops knowledge and skills through on-the-job experience"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Aspiring Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram">https://www.LearnAtGSUSA.com/AspiringLeaderProgram</a>
  - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
+ - Aspiring Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram">https://www.LearnAtGSUSA.com/AspiringLeaderProgram</a>
 filters: Personal-Learning GS-7-9 series-0510
 ---
 

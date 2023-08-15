@@ -7,7 +7,7 @@ job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Critical-Thinking-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Critical Thinking
 competency_group: Personal
 competency_description: Identifies rules, principles, or relationships that explain facts, data, or other information; analyzes information and makes correct inferences or draws accurate conclusions

@@ -7,7 +7,7 @@ job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Attention-to-Detail-Mid
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Attention to Detail
 competency_group: Personal
 competency_description: Is thorough when performing work and conscientious about attending to detail

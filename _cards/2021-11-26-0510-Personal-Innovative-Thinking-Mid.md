@@ -7,7 +7,7 @@ job_series_title: Accounting
 job_series: 0510 Accounting
 career_level: Mid
 permalink: /cards/510-Innovative-Thinking-Mid
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Innovative Thinking
 competency_group: Personal
 competency_description: Uses imagination to develop new insights into situations and applies new solutions to problems; designs new methods where established methods and procedures are not suitable or are unavailable.

@@ -15,8 +15,8 @@ level: "10-13"
 behavior_illustrations: "Applies established procedures to determine and coordinate actions necessary to resolve non-recurring situations"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8111">https://www.LearnAtGSUSA.com/BUDG8111</a>
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8111">https://www.LearnAtGSUSA.com/FINC8111</a>
+ - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8111">https://www.LearnAtGSUSA.com/BUDG8111</a>
 filters: Secondary-Fundamentals-and-Operations-of-Finance GS-10-13 series-0501
 ---
 

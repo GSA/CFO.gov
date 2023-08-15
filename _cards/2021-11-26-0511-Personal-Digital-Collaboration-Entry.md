@@ -7,7 +7,7 @@ job_series_title: Auditing
 job_series: 0511 Auditing
 career_level: Entry
 permalink: /cards/511-Digital-Collaboration-Entry
-functional_competency_designation: Job Specific Competencies
+functional_competency_designation: General Career Competencies
 competency: Digital Collaboration
 competency_group: Personal
 competency_description: Uses digital tools and technologies for communication, knowledge-sharing, and collaborative processes; works with others to construct and create resources and knowledge, or provide services, in a digital environment.
