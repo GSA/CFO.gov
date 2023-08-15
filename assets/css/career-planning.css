@@ -146,10 +146,6 @@ input#career-advancement-search-input {
   margin-left: 5px;
 }
 
-.career-input-group {
-  margin-top: 2px;
-}
-
 .text-offscreen {
   position: absolute;
   left: -9999px;
@@ -302,14 +298,6 @@ input#career-advancement-search-input {
 
 /*************** boxes ***************/
 
-.cfo-career-outer-box {
-  width: 100%;
-  border: 2px solid #999;
-  border-radius: 5px;
-  padding: 15px;
-}
-
-
 /* .cfo-courses-outer {
   display: flex;
   justify-content: space-between;
@@ -348,7 +336,6 @@ div[data-card-filter] {
     width: 100%;
     border: 1px solid #C7E2FD;
     background-color: #fff;
-    padding: 15px 25px;
 }
 
 .select-button {
