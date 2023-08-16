@@ -56,8 +56,14 @@ where we provide an easy way to manage your navigation system
       <div class="usa-nav__secondary secondary-nav-padding">
           <ul class="usa-nav__secondary-links">
               {% for nav_item in include.secondary_navigation %}
+              {% assign checkArray = nav_item.url | split: 'mailto:' %}
+              {% if checkArray[0] == blank %}
+                {% assign linkUrl = nav_item.url %}
+              {% else %}
+                {% assign linkUrl = nav_item.url | prepend: site.baseurl %}
+              {% endif %}
               <li class="usa-nav__secondary-item">
-                  <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
+                  <a href="{{ linkUrl }}">{{ nav_item.name | escape }}</a>
               </li>
               {% endfor %}
           </ul>
