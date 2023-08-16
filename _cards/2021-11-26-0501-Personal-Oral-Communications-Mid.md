@@ -29,14 +29,14 @@ filters: Personal-Oral-Communications GS-10-13 series-0501
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #2680EB !important;"/>
+    <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Oral Communications (Level 3 - Intermediate)</dt><dd>Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives </dd><dd> Conveys information clearly and concisely to ensure staff or team members remain focused on agenda items </dd><dd> Explains benefits to stakeholders to gain acceptance of programmatic change </dd><dd> Presents information, analyses, and recommendations to officials and stakeholders </dd><dd> Presents, promotes and clarifies ideas and issues to others</dd><dt>Oral Communications (Level 4 - Advanced)</dt><dd>Conducts presentations and briefings for high-level agency officials </dd><dd> Presents, explains, and defends agency positions and proposals to staff and stakeholders </dd><dd> Persuades others by making clear and convincing oral presentations</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b75e0 !important;"/>
+     <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Oral Communications (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Oral Communications (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

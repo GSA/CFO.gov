@@ -28,14 +28,14 @@ filters: Secondary-Data-Analytics-Management-and-Visualization GS-14-15 series-0
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #2680EB !important;"/>
+    <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Data Analytics, Management, and Visualization (Level 5 - Expert)</dt><dd>Examines impacts of complex data analysis and modeling solutions to make difficult decisions and engage with stakeholders </dd><dd> Translates and explains complex data in straightforward terms for stakeholder consumption </dd><dd> Trains, coaches, or champions the use of data visualization within an organization</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b75e0 !important;"/>
+     <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Data Analytics, Management, and Visualization (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

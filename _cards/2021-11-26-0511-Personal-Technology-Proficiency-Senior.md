@@ -33,14 +33,14 @@ filters: Personal-Technology-Proficiency GS-14-15 series-0511
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #2680EB !important;"/>
+    <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Technology Proficiency (Level 4 - Advanced)</dt><dd>Demonstrates an interest in continually learning new technologies </dd><dd> Applies advanced knowledge of technology to complete novel job tasks outside the typical expectations of the job </dd><dd> Selects or develops new technological tools or approaches to improve processes </dd><dd> Is actively sought out by others for expertise and knowledge of complex technology issues </dd><dt>Technology Proficiency (Level 5 - Expert)</dt><dd>Demonstrates an interest in continually learning new technologies </dd><dd> Applies advanced knowledge of technology to complete novel job tasks outside the typical expectations of the job </dd><dd> Selects or develops new technological tools or approaches to improve processes </dd><dd> Is actively sought out by others for expertise and knowledge of complex technology issues </dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b75e0 !important;"/>
+     <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Technology Proficiency (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Technology Proficiency (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

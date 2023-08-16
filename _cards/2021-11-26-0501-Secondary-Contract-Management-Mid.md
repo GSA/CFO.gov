@@ -37,14 +37,14 @@ filters: Secondary-Contract-Management GS-10-13 series-0501
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #2680EB !important;"/>
+    <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Contract Management (Level 3 - Intermediate)</dt><dd>Have a solid understanding of the concepts and principles, including the acquisition life-cycle, appropriations and fiscal law </dd><dd> Assists with financial analysis to evaluate cost and price proposals or renegotiation of cost/price of contracts as appropriate </dd><dt>Contract Management (Level 4 - Advanced)</dt><dd>Conducts financial management analysis to consult on the evaluation of contracts </dd><dd> Provides financial management guidance for complex funding streams to assist in monitoring a contracting project</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b75e0 !important;"/>
+     <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Contract Management (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Contract Management (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

@@ -22,14 +22,14 @@ filters: Leading-Leveraging-Diversity GS-7-9 series-0501
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #2680EB !important;"/>
+    <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Leveraging Diversity (Level 1 - Awareness)</dt><dd>Attends diversity programs to increase staff awareness </dd><dd> Meets with staff to obtain input on diversity issues within workgroup</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b75e0 !important;"/>
+     <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Leveraging Diversity (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd></dl>
   </div>
 </div>

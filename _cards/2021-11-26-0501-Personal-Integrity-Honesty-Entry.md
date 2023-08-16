@@ -37,14 +37,14 @@ filters: Personal-Integrity-Honesty GS-7-9 series-0501
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #2680EB !important;"/>
+    <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Integrity/Honesty (Level 1 - Awareness)</dt><dd>Establishes open and honest communication with employees </dd><dd> Addresses concerns with employee behavior in a confidential and respectful manner</dd><dt>Integrity/Honesty (Level 2 - Basic)</dt><dd>Provides staff with accurate information about the vision of the agency and outlines changes in an upfront manner </dd><dd> Remains fair and objective when determining skill set needed for projects to select effective team members</dd><dt>Integrity/Honesty (Level 3 - Intermediate)</dt><dd>Communicates honestly with employees regarding potential changes affecting the organization to ensure staff are treated fairly </dd><dd> Investigates issues and takes corrective action, as appropriate</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b75e0 !important;"/>
+     <hr style="background-color: #1b74e0 !important;"/>
     <dl class="text-base card-content-color"><dt>Integrity/Honesty (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Integrity/Honesty (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd><dt>Integrity/Honesty (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>
