@@ -8,7 +8,7 @@
     const outerDiv1 = document.createElement("div");
     outerDiv1.setAttribute("class", "tablet:grid-col-12 grid-spacing policy");
     const outerDiv2 = document.createElement("div");
-    outerDiv2.setAttribute("class", "cfo-career-outer-box");
+      outerDiv2.setAttribute("class", "cfo-career-outer-box padding-4");
     outerDiv1.append(outerDiv2);
     const outerDiv3 = document.createElement("div");
     outerDiv3.setAttribute("class", "cfo-career-text-container position-relative");
