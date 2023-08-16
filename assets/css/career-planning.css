@@ -200,15 +200,12 @@ input#career-advancement-search-input {
   max-width: 87.5rem !important;
 }
 
-@media screen and (max-width: 640px) {
+@media (max-width: 640px) {
    .search {
         flex-direction: column;
    }
     .width {
         width: 92% !important;
-    }
-    .bg-search {
-        margin-left: 0px;
     }
   .ui-dialog{
     width: 90% !important;
@@ -487,9 +484,9 @@ div[data-card-filter] {
 
 .bg-search {
     background-color: #003062 !important;
-    margin-left: 10px;
     background-image: none !important;
     border-radius: 0.25rem !important;
+    margin-left: 10px !important;
 }
 
 .search-border {
@@ -500,10 +497,13 @@ div[data-card-filter] {
     .search-border {
         border-color: #003062 !important;
     }
+    .bg-search {
+        margin-left: 0px !important;
+    }
 }
 
 .card-text-color {
-    color: #2680EB !important;
+    color: #1b75e0 !important;
 }
 .card-content-color {
     color: #003062 !important;
@@ -514,7 +514,7 @@ div[data-card-filter] {
 }
 
 .border-top-blue {
-    border-top-color: #2680EB !important;
+    border-top-color: #1b75e0 !important;
 }
 
 .hr {

@@ -2,7 +2,7 @@
     <h2 class="text-color">FILTER YOUR RESULTS</h2>
     <div id="secondary-skip" class="facets-panel bg-filter padding-y-3 radius-md padding-x-3 text-color">
 
-        <h3 class="margin-top-0 text-color">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></h3>
+        <h3 class="margin-top-0 text-color font-sans-xs">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></h3>
         <div class="display-flex flex-column">
             {% assign series_array = "" | split: "," %}
 
@@ -29,7 +29,7 @@
             {% endfor %}
         </div>
 
-        <h3 class="text-color">GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level"></i></h3>
+        <h3 class="text-color font-sans-xs">GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level"></i></h3>
         <div class="display-flex flex-column">
             {% assign level_array = "" | split: "," %}
 
