@@ -20,8 +20,13 @@ relevant_courses:
  - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7506">https://www.LearnAtGSUSA.com/ACQI7506</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8006">https://www.LearnAtGSUSA.com/AUDT8006</a>
  - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7225">https://www.LearnAtGSUSA.com/ACQI7225</a>
+ - Shaping Smart Business Arrangements (ACQI7501), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7508">https://www.LearnAtGSUSA.com/ACQI7508</a>
+ - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7509">https://www.LearnAtGSUSA.com/ACQI7509</a>
+ - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7510">https://www.LearnAtGSUSA.com/ACQI7510</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8010">https://www.LearnAtGSUSA.com/AUDT8010</a>
  - Federal Contracting&#58; Ethics Compliance and Enforcement (ACQI7023), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7026">https://www.LearnAtGSUSA.com/ACQI7026</a>
  - Advanced COR Workshop (ACQI9008), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI9011">https://www.LearnAtGSUSA.com/ACQI9011</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
  - Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9033">https://www.LearnAtGSUSA.com/AUDT9033</a>
 filters: Personal-Integrity-Honesty GS-7-9 series-0560
 ---

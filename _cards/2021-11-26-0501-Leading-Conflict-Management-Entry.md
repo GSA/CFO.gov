@@ -19,6 +19,7 @@ relevant_courses:
  - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8034">https://www.LearnAtGSUSA.com/AUDT8034</a>
  - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8911">https://www.LearnAtGSUSA.com/AUDT8911</a>
  - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7004">https://www.LearnAtGSUSA.com/COMM7004</a>
+ - Positive Approaches to Difficult People (COMM7009), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7013">https://www.LearnAtGSUSA.com/COMM7013</a>
 filters: Leading-Conflict-Management GS-7-9 series-0501
 ---
 

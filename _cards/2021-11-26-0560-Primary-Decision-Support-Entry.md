@@ -131,13 +131,23 @@ relevant_courses:
  - Logistic Regression in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR">https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR</a>
  - Simple Linear Regression in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/SimpleRegression">https://datasociety.meldr.ai/courses/DataScience/SimpleRegression</a>
  - Simple Linear Regression in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR">https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR</a>
+ - Conducting Perfromance Audits(AUDT7002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7009">https://www.LearnAtGSUSA.com/AUDT7009</a>
+ - Federal Appropriations Law for Auditors (AUDT7010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7017">https://www.LearnAtGSUSA.com/AUDT7017</a>
+ - Financial Management Bootcamp for Federal Auditors (AUDT7020), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7027">https://www.LearnAtGSUSA.com/AUDT7027</a>
  - Contract and Procurement Fraud (AUDT8036), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8007">https://www.LearnAtGSUSA.com/AUDT8007</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8010">https://www.LearnAtGSUSA.com/AUDT8010</a>
+ - Detection and Prevention of Fraud (AUDT8004), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8011">https://www.LearnAtGSUSA.com/AUDT8011</a>
  - Creative an Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8015">https://www.LearnAtGSUSA.com/AUDT8015</a>
+ - Information Technology for Auditors (AUDT8024), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8031">https://www.LearnAtGSUSA.com/AUDT8031</a>
+ - The Government Audit&#58; From Planning to Reporting (AUDT8032), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8039">https://www.LearnAtGSUSA.com/AUDT8039</a>
  - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8046">https://www.LearnAtGSUSA.com/AUDT8046</a>
  - Intermediate Performance Auditing (AUDT8046), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8049">https://www.LearnAtGSUSA.com/AUDT8049</a>
+ - Written Communication for Auditors (AUDT8611), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8618">https://www.LearnAtGSUSA.com/AUDT8618</a>
+ - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8808">https://www.LearnAtGSUSA.com/AUDT8808</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8814">https://www.LearnAtGSUSA.com/AUDT8814</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8915">https://www.LearnAtGSUSA.com/AUDT8915</a>
  - Data Analytics for Fraud Detection (AUDT8915), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8918">https://www.LearnAtGSUSA.com/AUDT8918</a>
+ - Army Managers Internal Control Administrators Course (AUDT9015), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9022">https://www.LearnAtGSUSA.com/AUDT9022</a>
  - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8105">https://www.LearnAtGSUSA.com/MGMT8105</a>
 filters: Primary-Decision-Support GS-7-9 series-0560
 ---

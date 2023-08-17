@@ -25,7 +25,14 @@ relevant_courses:
  - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9916">https://www.LearnAtGSUSA.com/EXEC9916</a>
  - Introduction to Grants Management (GRNT7015), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7018">https://www.LearnAtGSUSA.com/GRNT7018</a>
  - Microsoft Project&#58; Introduction (PROJ7015), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7018">https://www.LearnAtGSUSA.com/PROJ7018</a>
+ - Fundamentals of Project and Program Management (ACQI7110), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7117">https://www.LearnAtGSUSA.com/ACQI7117</a>
+ - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8526">https://www.LearnAtGSUSA.com/ACQI8526</a>
+ - Conducting Perfromance Audits(AUDT7002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7009">https://www.LearnAtGSUSA.com/AUDT7009</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8010">https://www.LearnAtGSUSA.com/AUDT8010</a>
+ - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8028">https://www.LearnAtGSUSA.com/AUDT8028</a>
  - Intermediate Performance Auditing (AUDT8046), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8049">https://www.LearnAtGSUSA.com/AUDT8049</a>
+ - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9920">https://www.LearnAtGSUSA.com/EXEC9920</a>
+ - Microsoft Project&#58; Introduction (PROJ7015), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7022">https://www.LearnAtGSUSA.com/PROJ7022</a>
 filters: Projects-Business-Process-Improvement GS-7-9 series-0560
 ---
 

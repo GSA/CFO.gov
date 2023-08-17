@@ -16,6 +16,7 @@ behavior_illustrations: "Suggests changes to own work procedures within existing
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
  - Problem solving (ADMB8129), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB8132">https://www.LearnAtGSUSA.com/ADMB8132</a>
+ - Problem solving (ADMB8129), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB8136">https://www.LearnAtGSUSA.com/ADMB8136</a>
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8015">https://www.LearnAtGSUSA.com/AUDT8015</a>
  - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8105">https://www.LearnAtGSUSA.com/MGMT8105</a>
 filters: Personal-Innovative-Thinking GS-7-9 series-0560

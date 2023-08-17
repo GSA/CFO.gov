@@ -21,6 +21,10 @@ relevant_courses:
  - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7008">https://www.LearnAtGSUSA.com/COMM7008</a>
  - Positive Approaches to Difficult People (COMM7009), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7017">https://www.LearnAtGSUSA.com/COMM7017</a>
  - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9020">https://www.LearnAtGSUSA.com/LEAD9020</a>
+ - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8042">https://www.LearnAtGSUSA.com/AUDT8042</a>
+ - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8919">https://www.LearnAtGSUSA.com/AUDT8919</a>
+ - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7012">https://www.LearnAtGSUSA.com/COMM7012</a>
+ - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9024">https://www.LearnAtGSUSA.com/LEAD9024</a>
 filters: Leading-Conflict-Management GS-10-13 series-0501
 ---
 

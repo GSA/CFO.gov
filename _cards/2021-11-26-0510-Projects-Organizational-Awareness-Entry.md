@@ -16,6 +16,7 @@ behavior_illustrations: "Keeps up-to-date by attending key meetings hosted by ot
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8004">https://www.LearnAtGSUSA.com/AUDT8004</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8008">https://www.LearnAtGSUSA.com/AUDT8008</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8812">https://www.LearnAtGSUSA.com/AUDT8812</a>
  - Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8001">https://www.LearnAtGSUSA.com/BUDG8001</a>
  - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8002">https://www.LearnAtGSUSA.com/BUDG8002</a>

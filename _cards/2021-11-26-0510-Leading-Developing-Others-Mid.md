@@ -26,7 +26,17 @@ relevant_courses:
  - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7202">https://www.LearnAtGSUSA.com/MGMT7202</a>
  - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9007">https://www.LearnAtGSUSA.com/MGMT9007</a>
  - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8205">https://www.LearnAtGSUSA.com/TDEV8205</a>
+ - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9007">https://www.LearnAtGSUSA.com/AUDT9007</a>
+ - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9040">https://www.LearnAtGSUSA.com/AUDT9040</a>
+ - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9114">https://www.LearnAtGSUSA.com/AUDT9114</a>
+ - Leading People (EXEC9912), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9917">https://www.LearnAtGSUSA.com/EXEC9917</a>
  - Federal Performance Management (LABR7013), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7014">https://www.LearnAtGSUSA.com/LABR7014</a>
+ - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9029">https://www.LearnAtGSUSA.com/LEAD9029</a>
+ - Mentoring Skills (MGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7011">https://www.LearnAtGSUSA.com/MGMT7011</a>
+ - Leadership Essentials (MGMT7020), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7029">https://www.LearnAtGSUSA.com/MGMT7029</a>
+ - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7206">https://www.LearnAtGSUSA.com/MGMT7206</a>
+ - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9011">https://www.LearnAtGSUSA.com/MGMT9011</a>
+ - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8209">https://www.LearnAtGSUSA.com/TDEV8209</a>
 filters: Leading-Developing-Others GS-10-13 series-0510
 ---
 

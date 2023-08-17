@@ -24,14 +24,34 @@ relevant_courses:
  - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7001">https://www.LearnAtGSUSA.com/PROP7001</a>
  - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7013">https://www.LearnAtGSUSA.com/PROP7013</a>
  - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7112">https://www.LearnAtGSUSA.com/PROP7112</a>
+ - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7226">https://www.LearnAtGSUSA.com/ACQI7226</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8007">https://www.LearnAtGSUSA.com/AUDT8007</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8811">https://www.LearnAtGSUSA.com/AUDT8811</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8912">https://www.LearnAtGSUSA.com/AUDT8912</a>
  - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9002">https://www.LearnAtGSUSA.com/AUDT9002</a>
  - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9109">https://www.LearnAtGSUSA.com/AUDT9109</a>
+ - Introduction to Grants Management (GRNT7015), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7019">https://www.LearnAtGSUSA.com/GRNT7019</a>
+ - Effective Grants Manager (GRNT7025), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7029">https://www.LearnAtGSUSA.com/GRNT7029</a>
+ - Grants Performance Management and Monitoring (GRNT7035), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7039">https://www.LearnAtGSUSA.com/GRNT7039</a>
  - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9020">https://www.LearnAtGSUSA.com/LEAD9020</a>
+ - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7005">https://www.LearnAtGSUSA.com/PROP7005</a>
+ - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7005">https://www.LearnAtGSUSA.com/PROP7005</a>
+ - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7017">https://www.LearnAtGSUSA.com/PROP7017</a>
+ - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7116">https://www.LearnAtGSUSA.com/PROP7116</a>
+ - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7230">https://www.LearnAtGSUSA.com/ACQI7230</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8011">https://www.LearnAtGSUSA.com/AUDT8011</a>
  - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8034">https://www.LearnAtGSUSA.com/AUDT8034</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8815">https://www.LearnAtGSUSA.com/AUDT8815</a>
+ - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8916">https://www.LearnAtGSUSA.com/AUDT8916</a>
+ - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9006">https://www.LearnAtGSUSA.com/AUDT9006</a>
  - Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9010">https://www.LearnAtGSUSA.com/AUDT9010</a>
  - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9035">https://www.LearnAtGSUSA.com/AUDT9035</a>
+ - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9113">https://www.LearnAtGSUSA.com/AUDT9113</a>
+ - Introduction to Grants Management (GRNT7015), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7023">https://www.LearnAtGSUSA.com/GRNT7023</a>
+ - Effective Grants Manager (GRNT7025), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7033">https://www.LearnAtGSUSA.com/GRNT7033</a>
+ - Grants Performance Management and Monitoring (GRNT7035), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7043">https://www.LearnAtGSUSA.com/GRNT7043</a>
+ - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9024">https://www.LearnAtGSUSA.com/LEAD9024</a>
+ - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7009">https://www.LearnAtGSUSA.com/PROP7009</a>
 filters: Personal-Accountability GS-7-9 series-0501
 ---
 

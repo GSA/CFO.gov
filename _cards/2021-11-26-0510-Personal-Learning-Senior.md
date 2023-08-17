@@ -20,6 +20,7 @@ relevant_courses:
  - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
  - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
  - Unlocking Your Leadership Signature (with MIT Management Executive Education), Emeritus, <a href="https://executive-ed.mit.edu/unlocking-your-leadership-signature/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.mit.edu/unlocking-your-leadership-signature/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
+ - Executive Potential Program (EPPG8840), GSU, <a href="https://www.LearnAtGSUSA.com/EPPG8849">https://www.LearnAtGSUSA.com/EPPG8849</a>
 filters: Personal-Learning GS-14-15 series-0510
 ---
 

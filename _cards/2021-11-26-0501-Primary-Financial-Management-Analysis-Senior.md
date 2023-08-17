@@ -36,6 +36,7 @@ relevant_courses:
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8111">https://www.LearnAtGSUSA.com/FINC8111</a>
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8908">https://www.LearnAtGSUSA.com/FINC8908</a>
  - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9154">https://www.LearnAtGSUSA.com/FINC9154</a>
+ - Auditing Performance Outcomes (AUDT9012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9020">https://www.LearnAtGSUSA.com/AUDT9020</a>
 filters: Primary-Financial-Management-Analysis GS-14-15 series-0501
 ---
 

@@ -17,6 +17,7 @@ proficiency_level_definition: Applies the competency in the simplest situations 
 relevant_courses: 
  - Course Coming Soon
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8013">https://www.LearnAtGSUSA.com/AUDT8013</a>
+ - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8017">https://www.LearnAtGSUSA.com/AUDT8017</a>
 filters: Personal-Critical-Thinking GS-7-9 series-0510
 ---
 

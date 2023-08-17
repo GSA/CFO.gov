@@ -26,16 +26,34 @@ relevant_courses:
  - Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8233">https://www.LearnAtGSUSA.com/FINC8233</a>
  - Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8234">https://www.LearnAtGSUSA.com/FINC8234</a>
  - Travel Regulations for Non-Defense Agencies, FTR (TDY and PCS) (FINC8232), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8235">https://www.LearnAtGSUSA.com/FINC8235</a>
+ - Financial Management Bootcamp for Federal Auditors (AUDT7020), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7027">https://www.LearnAtGSUSA.com/AUDT7027</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8010">https://www.LearnAtGSUSA.com/AUDT8010</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8814">https://www.LearnAtGSUSA.com/AUDT8814</a>
+ - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7007">https://www.LearnAtGSUSA.com/FINC7007</a>
+ - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7017">https://www.LearnAtGSUSA.com/FINC7017</a>
+ - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7107">https://www.LearnAtGSUSA.com/FINC7107</a>
+ - Travel Regulations for Non-Defense Agencies, FTR (PCS Only) (FINC7104), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7111">https://www.LearnAtGSUSA.com/FINC7111</a>
+ - Travel Regulations for Non-Defense Agencies, FTR (TDY Only) (FINC7213), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7220">https://www.LearnAtGSUSA.com/FINC7220</a>
+ - Travel Regulations for Defense Agencies, JTR (TDY Only) (FINC7215), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7222">https://www.LearnAtGSUSA.com/FINC7222</a>
+ - Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8237">https://www.LearnAtGSUSA.com/FINC8237</a>
+ - Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8238">https://www.LearnAtGSUSA.com/FINC8238</a>
+ - Travel Regulations for Non-Defense Agencies, FTR (TDY and PCS) (FINC8232), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8239">https://www.LearnAtGSUSA.com/FINC8239</a>
  - Defense Working Capital Funds (FINC9000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9003">https://www.LearnAtGSUSA.com/FINC9003</a>
  - Non-Defense Working Capital Funds (FINC9250), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9253">https://www.LearnAtGSUSA.com/FINC9253</a>
  - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7033">https://www.LearnAtGSUSA.com/ACQI7033</a>
+ - Financial Management Bootcamp for Federal Auditors (AUDT7020), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7031">https://www.LearnAtGSUSA.com/AUDT7031</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8818">https://www.LearnAtGSUSA.com/AUDT8818</a>
+ - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7021">https://www.LearnAtGSUSA.com/FINC7021</a>
+ - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7111">https://www.LearnAtGSUSA.com/FINC7111</a>
  - Antideficiency Act (FINC7207), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7210">https://www.LearnAtGSUSA.com/FINC7210</a>
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8106">https://www.LearnAtGSUSA.com/FINC8106</a>
  - Federal Appropriations Law Refresher and Update (FINC8147), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8150">https://www.LearnAtGSUSA.com/FINC8150</a>
  - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8203">https://www.LearnAtGSUSA.com/FINC8203</a>
+ - Defense Working Capital Funds (FINC9000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9007">https://www.LearnAtGSUSA.com/FINC9007</a>
  - Advanced Appropriations Law (FINC9100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9103">https://www.LearnAtGSUSA.com/FINC9103</a>
  - Appropriations Law for Reimbursements, Revolving Funds and User Fees (FINC9115), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9118">https://www.LearnAtGSUSA.com/FINC9118</a>
+ - Non-Defense Working Capital Funds (FINC9250), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9257">https://www.LearnAtGSUSA.com/FINC9257</a>
 filters: Alternate-Financial-Concepts-Policies-and-Principles GS-7-9 series-0560
 ---
 

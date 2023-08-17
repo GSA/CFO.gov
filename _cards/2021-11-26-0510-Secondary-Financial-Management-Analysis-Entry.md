@@ -46,8 +46,10 @@ relevant_courses:
  - Intermediate SQL, Data Society, <a href="https://datasociety.meldr.ai/courses/SQL/IntermediateSQL">https://datasociety.meldr.ai/courses/SQL/IntermediateSQL</a>
  - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8101">https://www.LearnAtGSUSA.com/AUDT8101</a>
  - Practical Statistical Sampling for Auditors (AUDT8112), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8113">https://www.LearnAtGSUSA.com/AUDT8113</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8816">https://www.LearnAtGSUSA.com/AUDT8816</a>
  - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8914">https://www.LearnAtGSUSA.com/AUDT8914</a>
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8104">https://www.LearnAtGSUSA.com/FINC8104</a>
+ - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8125">https://www.LearnAtGSUSA.com/FINC8125</a>
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8901">https://www.LearnAtGSUSA.com/FINC8901</a>
  - Data Literacy for Executives, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives</a>
  - Advanced Clustering in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering">https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering</a>
@@ -62,8 +64,15 @@ relevant_courses:
  - RShiny Apps, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/RShinyApps">https://datasociety.meldr.ai/courses/DataScience-R/RShinyApps</a>
  - Data Analysis in Excel, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/DataAnalysisInExcel">https://datasociety.meldr.ai/courses/DataSocietyExcel/DataAnalysisInExcel</a>
  - Intermediate and Advanced Tableau, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntermediateAndAdvancedTableau">https://datasociety.meldr.ai/courses/DataSocietyTableau/IntermediateAndAdvancedTableau</a>
+ - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8105">https://www.LearnAtGSUSA.com/AUDT8105</a>
+ - Practical Statistical Sampling for Auditors (AUDT8112), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8117">https://www.LearnAtGSUSA.com/AUDT8117</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8820">https://www.LearnAtGSUSA.com/AUDT8820</a>
+ - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8918">https://www.LearnAtGSUSA.com/AUDT8918</a>
  - Auditing Performance Outcomes (AUDT9012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9013">https://www.LearnAtGSUSA.com/AUDT9013</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8151">https://www.LearnAtGSUSA.com/BUDG8151</a>
+ - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8108">https://www.LearnAtGSUSA.com/FINC8108</a>
+ - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8129">https://www.LearnAtGSUSA.com/FINC8129</a>
+ - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8905">https://www.LearnAtGSUSA.com/FINC8905</a>
  - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9151">https://www.LearnAtGSUSA.com/FINC9151</a>
  - Data Collection Methods (PGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8012">https://www.LearnAtGSUSA.com/PGMT8012</a>
 filters: Secondary-Financial-Management-Analysis GS-7-9 series-0510

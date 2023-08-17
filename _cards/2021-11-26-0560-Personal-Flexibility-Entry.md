@@ -17,6 +17,7 @@ proficiency_level_definition: Applies the competency in the simplest situations 
 relevant_courses: 
  - Leadership Skills for Non-Supervisors (ADMB7006), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7009">https://www.LearnAtGSUSA.com/ADMB7009</a>
  - Managing Multiple Priorities (ADMB7007), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7010">https://www.LearnAtGSUSA.com/ADMB7010</a>
+ - Managing Multiple Priorities (ADMB7007), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7014">https://www.LearnAtGSUSA.com/ADMB7014</a>
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8015">https://www.LearnAtGSUSA.com/AUDT8015</a>
  - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7204">https://www.LearnAtGSUSA.com/MGMT7204</a>
 filters: Personal-Flexibility GS-7-9 series-0560

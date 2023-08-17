@@ -24,6 +24,8 @@ relevant_courses:
  - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8809">https://www.LearnAtGSUSA.com/AUDT8809</a>
  - Government Contract Law (ACQI8505), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8505">https://www.LearnAtGSUSA.com/ACQI8505</a>
  - Advanced COR Workshop (ACQI9008), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI9008">https://www.LearnAtGSUSA.com/ACQI9008</a>
+ - Contract and Procurement Fraud (AUDT8036), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8040">https://www.LearnAtGSUSA.com/AUDT8040</a>
+ - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8813">https://www.LearnAtGSUSA.com/AUDT8813</a>
 filters: Secondary-Contract-Management GS-10-13 series-0501
 ---
 
