@@ -21,7 +21,6 @@ relevant_courses:
  - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8000">https://www.LearnAtGSUSA.com/BUDG8000</a>
  - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8001">https://www.LearnAtGSUSA.com/BUDG8001</a>
  - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8103">https://www.LearnAtGSUSA.com/BUDG8103</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Leading-Enterprise-Perspective GS-7-9 series-0501
 ---
 

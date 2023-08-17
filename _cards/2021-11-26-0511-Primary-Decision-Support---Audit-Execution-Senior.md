@@ -17,7 +17,6 @@ proficiency_level_definition: Applies the competency in exceptionally difficult 
 relevant_courses: 
  - Creative an Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8026">https://www.LearnAtGSUSA.com/AUDT8026</a>
  - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8044">https://www.LearnAtGSUSA.com/AUDT8044</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Accountability Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8?cta=feds">https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8?cta=feds</a>
  - Accounting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688?cta=feds">https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688?cta=feds</a>
  - Adapting to Change Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/adapting-to-change-06720340-e71a-11e6-9835-f723b46a2688?cta=feds">https://www.skillsoft.com/channel/adapting-to-change-06720340-e71a-11e6-9835-f723b46a2688?cta=feds</a>

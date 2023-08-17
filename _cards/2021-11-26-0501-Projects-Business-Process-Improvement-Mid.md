@@ -27,8 +27,6 @@ relevant_courses:
  - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7013">https://www.LearnAtGSUSA.com/PROP7013</a>
  - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7103">https://www.LearnAtGSUSA.com/PROP7103</a>
  - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7112">https://www.LearnAtGSUSA.com/PROP7112</a>
- - Internal Control&#58; Meeting Federal Requirements For Accountability, MC, <a href="https://www.managementconcepts.com/course/id/5112?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5112?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Understanding Enterprise Risk Management, Internal Controls, And Fraud Prevention In The Federal Environment, MC, <a href="https://www.managementconcepts.com/course/id/5892?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5892?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Business-Process-Improvement GS-10-13 series-0501
 ---
 

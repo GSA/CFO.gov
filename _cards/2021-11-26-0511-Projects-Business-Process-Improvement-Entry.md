@@ -16,24 +16,23 @@ behavior_illustrations: "Identifies and documents processes within area of respo
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
  - Fundamentals of Project and Program Management (ACQI7110), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7112">https://www.LearnAtGSUSA.com/ACQI7112</a>
- - Fundamentals of Project and Program Management (ACQI7110), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7116">https://www.LearnAtGSUSA.com/ACQI7116</a>
  - Basic Contract Administration (ACQI7500), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7502">https://www.LearnAtGSUSA.com/ACQI7502</a>
  - Virtual Contract Management (ACQI8030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8032">https://www.LearnAtGSUSA.com/ACQI8032</a>
  - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8521">https://www.LearnAtGSUSA.com/ACQI8521</a>
- - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8525">https://www.LearnAtGSUSA.com/ACQI8525</a>
  - Conducting Perfromance Audits(AUDT7002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7004">https://www.LearnAtGSUSA.com/AUDT7004</a>
- - Conducting Perfromance Audits(AUDT7002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7008">https://www.LearnAtGSUSA.com/AUDT7008</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8005">https://www.LearnAtGSUSA.com/AUDT8005</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8009">https://www.LearnAtGSUSA.com/AUDT8009</a>
  - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8023">https://www.LearnAtGSUSA.com/AUDT8023</a>
- - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8027">https://www.LearnAtGSUSA.com/AUDT8027</a>
- - Intermediate Performance Auditing (AUDT8046), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8048">https://www.LearnAtGSUSA.com/AUDT8048</a>
  - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9915">https://www.LearnAtGSUSA.com/EXEC9915</a>
- - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9919">https://www.LearnAtGSUSA.com/EXEC9919</a>
  - Introduction to Grants Management (GRNT7015), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7017">https://www.LearnAtGSUSA.com/GRNT7017</a>
  - Microsoft Project&#58; Introduction (PROJ7015), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7017">https://www.LearnAtGSUSA.com/PROJ7017</a>
+ - Fundamentals of Project and Program Management (ACQI7110), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7116">https://www.LearnAtGSUSA.com/ACQI7116</a>
+ - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8525">https://www.LearnAtGSUSA.com/ACQI8525</a>
+ - Conducting Perfromance Audits(AUDT7002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7008">https://www.LearnAtGSUSA.com/AUDT7008</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8009">https://www.LearnAtGSUSA.com/AUDT8009</a>
+ - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8027">https://www.LearnAtGSUSA.com/AUDT8027</a>
+ - Intermediate Performance Auditing (AUDT8046), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8048">https://www.LearnAtGSUSA.com/AUDT8048</a>
+ - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9919">https://www.LearnAtGSUSA.com/EXEC9919</a>
  - Microsoft Project&#58; Introduction (PROJ7015), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7021">https://www.LearnAtGSUSA.com/PROJ7021</a>
- - Understanding Enterprise Risk Management, Internal Controls, And Fraud Prevention In The Federal Environment, MC, <a href="https://www.managementconcepts.com/course/id/5892?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5892?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Business-Process-Improvement GS-7-9 series-0511
 ---
 

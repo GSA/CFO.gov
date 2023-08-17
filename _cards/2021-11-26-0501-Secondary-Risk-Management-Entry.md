@@ -16,11 +16,11 @@ behavior_illustrations: "Understands the rationale behind the need for financial
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
  - Federal Appropriations Law for Auditors (AUDT7010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7010">https://www.LearnAtGSUSA.com/AUDT7010</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8003">https://www.LearnAtGSUSA.com/AUDT8003</a>
+ - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8021">https://www.LearnAtGSUSA.com/AUDT8021</a>
  - Federal Appropriations Law for Auditors (AUDT7010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7014">https://www.LearnAtGSUSA.com/AUDT7014</a>
  - Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7407">https://www.LearnAtGSUSA.com/AUDT7407</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8003">https://www.LearnAtGSUSA.com/AUDT8003</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8007">https://www.LearnAtGSUSA.com/AUDT8007</a>
- - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8021">https://www.LearnAtGSUSA.com/AUDT8021</a>
  - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8025">https://www.LearnAtGSUSA.com/AUDT8025</a>
  - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8034">https://www.LearnAtGSUSA.com/AUDT8034</a>
  - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8043">https://www.LearnAtGSUSA.com/AUDT8043</a>

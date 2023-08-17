@@ -39,8 +39,6 @@ relevant_courses:
  - Introduction to Power BI, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI">https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI</a>
  - Introduction to Tableau, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau">https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau</a>
  - RShiny Apps, Data Society, <a href="r.ai/courses/DataScience-R/RShinyApps">r.ai/courses/DataScience-R/RShinyApps</a>
- - Budget Analyst's Essential Guide to Formulation, Justification, and Execution, MC, <a href="https://www.managementconcepts.com/course/id/5321?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5321?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Primary-Accounting-Analysis GS-10-13 series-0510
 ---
 

@@ -18,22 +18,18 @@ behavior_illustrations: "Considers the impact of a shift in programmatic directi
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8018">https://www.LearnAtGSUSA.com/AUDT8018</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8818">https://www.LearnAtGSUSA.com/AUDT8818</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8822">https://www.LearnAtGSUSA.com/AUDT8822</a>
  - Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8007">https://www.LearnAtGSUSA.com/BUDG8007</a>
  - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8008">https://www.LearnAtGSUSA.com/BUDG8008</a>
+ - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8183">https://www.LearnAtGSUSA.com/BUDG8183</a>
+ - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9203">https://www.LearnAtGSUSA.com/MGMT9203</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8018">https://www.LearnAtGSUSA.com/AUDT8018</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8822">https://www.LearnAtGSUSA.com/AUDT8822</a>
  - Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8011">https://www.LearnAtGSUSA.com/BUDG8011</a>
  - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8012">https://www.LearnAtGSUSA.com/BUDG8012</a>
- - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8183">https://www.LearnAtGSUSA.com/BUDG8183</a>
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8187">https://www.LearnAtGSUSA.com/BUDG8187</a>
- - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9203">https://www.LearnAtGSUSA.com/MGMT9203</a>
  - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9207">https://www.LearnAtGSUSA.com/MGMT9207</a>
  - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9211">https://www.LearnAtGSUSA.com/MGMT9211</a>
- - Advanced Leadership Skills And Techniques, MC, <a href="https://www.managementconcepts.com/course/id/4002?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4002?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - From Tactical To Strategic Thinking, MC, <a href="https://www.managementconcepts.com/course/id/4062?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4062?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Mission-Driven Project Management&#58; From Strategy To Action, MC, <a href="https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Mission-Driven Project Management&#58; From Strategy To Action, MC, <a href="https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Organizational-Awareness GS-14-15 series-0560
 ---
 

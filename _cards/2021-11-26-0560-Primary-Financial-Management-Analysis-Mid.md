@@ -55,7 +55,6 @@ relevant_courses:
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8907">https://www.LearnAtGSUSA.com/FINC8907</a>
  - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9153">https://www.LearnAtGSUSA.com/FINC9153</a>
  - Data Collection Methods (PGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8014">https://www.LearnAtGSUSA.com/PGMT8014</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Primary-Financial-Management-Analysis GS-10-13 series-0560
 ---
 

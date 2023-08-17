@@ -36,7 +36,6 @@ relevant_courses:
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8112">https://www.LearnAtGSUSA.com/FINC8112</a>
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8909">https://www.LearnAtGSUSA.com/FINC8909</a>
  - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9155">https://www.LearnAtGSUSA.com/FINC9155</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Secondary-Financial-Management-Analysis GS-10-13 series-0510
 ---
 

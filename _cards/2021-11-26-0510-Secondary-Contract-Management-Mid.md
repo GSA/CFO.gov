@@ -20,12 +20,6 @@ relevant_courses:
  - Virtual Contract Management (ACQI8030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8031">https://www.LearnAtGSUSA.com/ACQI8031</a>
  - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8524">https://www.LearnAtGSUSA.com/ACQI8524</a>
  - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8806">https://www.LearnAtGSUSA.com/AUDT8806</a>
- - Contract Administration, MC, <a href="https://www.managementconcepts.com/course/id/1022?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1022?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Introduction To Federal Contracting, MC, <a href="https://www.managementconcepts.com/course/id/1048?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1048?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Appropriations Law For Contracting Professionals, MC, <a href="https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Fundamentals Of Overhead And Other Indirect Cost Rates, MC, <a href="https://www.managementconcepts.com/course/id/1052?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1052?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Developing The Independent Government Cost Estimate, MC, <a href="https://www.managementconcepts.com/course/id/1125?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1125?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 132 - Fundamentals Of Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Secondary-Contract-Management GS-10-13 series-0510
 ---
 

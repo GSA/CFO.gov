@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Approves funding documentation in accordance with procedures to ensure public resources are utilized appropriately ? Improves processes used to monitor contractors and vendors for supplies, services, and/or equipment to ensure government funds are expended appropriately ? Encourages a commitment to public service"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Course Coming Soon
 filters: Personal-Public-Service-Motivation GS-7-9 series-0501
 ---
 

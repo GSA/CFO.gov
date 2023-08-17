@@ -16,7 +16,6 @@ behavior_illustrations: "Manages a multimillion-dollar project that requires coo
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - Steering Complex Projects (with Cambridge Judge Business School), Emeritus, <a href="https://online.em.jbs.cam.ac.uk/steering-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://online.em.jbs.cam.ac.uk/steering-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
- - Program Management, MC, <a href="https://www.managementconcepts.com/course/id/6190?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6190?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Project-Management GS-14-15 series-0510
 ---
 

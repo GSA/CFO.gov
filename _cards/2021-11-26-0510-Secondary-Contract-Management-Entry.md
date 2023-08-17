@@ -24,10 +24,6 @@ relevant_courses:
  - Simplified Acquisition Procedures (ACQI7506), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7507">https://www.LearnAtGSUSA.com/ACQI7507</a>
  - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8520">https://www.LearnAtGSUSA.com/ACQI8520</a>
  - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8802">https://www.LearnAtGSUSA.com/AUDT8802</a>
- - Introduction To Federal Contracting, MC, <a href="https://www.managementconcepts.com/course/id/1048?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1048?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Appropriations Law For Contracting Professionals, MC, <a href="https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 132 - Fundamentals Of Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6878?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 232 - Applications In Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6888?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6888?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Secondary-Contract-Management GS-7-9 series-0510
 ---
 

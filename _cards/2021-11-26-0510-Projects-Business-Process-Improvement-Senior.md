@@ -17,9 +17,8 @@ proficiency_level_definition: Applies the competency in considerably difficult s
 relevant_courses: 
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8016">https://www.LearnAtGSUSA.com/AUDT8016</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8917">https://www.LearnAtGSUSA.com/AUDT8917</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8921">https://www.LearnAtGSUSA.com/AUDT8921</a>
  - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9926">https://www.LearnAtGSUSA.com/EXEC9926</a>
- - Internal Control&#58; Meeting Federal Requirements For Accountability, MC, <a href="https://www.managementconcepts.com/course/id/5112?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5112?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8921">https://www.LearnAtGSUSA.com/AUDT8921</a>
 filters: Projects-Business-Process-Improvement GS-14-15 series-0510
 ---
 

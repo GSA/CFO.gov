@@ -16,12 +16,10 @@ behavior_illustrations: "Develops and presents project plans to senior managemen
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - Leading Complex Projects (with UC Berkeley Executive Education), Emeritus, <a href="https://em-executive.berkeley.edu/leading-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://em-executive.berkeley.edu/leading-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
- - Steering Complex Projects (with Cambridge Judge Business School), Emeritus, <a href="https://online.em.jbs.cam.ac.uk/steering-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://online.em.jbs.cam.ac.uk/steering-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
  - Schedule, Cost & Resource Management (PROJ9200), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ9200">https://www.LearnAtGSUSA.com/PROJ9200</a>
  - Scope, Quality & Risk Management (PROJ9210), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ9210">https://www.LearnAtGSUSA.com/PROJ9210</a>
  - Stakeholder & Communications Management (PROJ9215), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ9215">https://www.LearnAtGSUSA.com/PROJ9215</a>
- - Program Management, MC, <a href="https://www.managementconcepts.com/course/id/6190?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6190?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Program Management, MC, <a href="https://www.managementconcepts.com/course/id/6190?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6190?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Steering Complex Projects (with Cambridge Judge Business School), Emeritus, <a href="https://online.em.jbs.cam.ac.uk/steering-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://online.em.jbs.cam.ac.uk/steering-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
 filters: Projects-Project-Management GS-14-15 series-0501
 ---
 

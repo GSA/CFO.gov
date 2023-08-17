@@ -15,10 +15,9 @@ level: "7-9"
 behavior_illustrations: "Inspires commitment to achieve outcomes and build coalitions ? Collaborates with key stakeholders and creates a network of support for an initiative"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
+ - Course Coming Soon
  - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8912">https://www.LearnAtGSUSA.com/AUDT8912</a>
  - Negotiating Techniques (MGMT9104 & 9105), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9105">https://www.LearnAtGSUSA.com/MGMT9105</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Influencing-Negotiating GS-7-9 series-0510
 ---
 

@@ -16,21 +16,20 @@ behavior_illustrations: "Writes basic communications (e.g., an email requesting 
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
  - Developing and Presenting Audit Findings (AUDT7021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7024">https://www.LearnAtGSUSA.com/AUDT7024</a>
- - Developing and Presenting Audit Findings (AUDT7021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7028">https://www.LearnAtGSUSA.com/AUDT7028</a>
- - Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8303">https://www.LearnAtGSUSA.com/AUDT8303</a>
  - Written Communication for Auditors (AUDT8611), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8614">https://www.LearnAtGSUSA.com/AUDT8614</a>
- - Written Communication for Auditors (AUDT8611), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8618">https://www.LearnAtGSUSA.com/AUDT8618</a>
- - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8153">https://www.LearnAtGSUSA.com/BUDG8153</a>
  - Proofreading (EDIT7001), GSU, <a href="https://www.LearnAtGSUSA.com/EDIT7004">https://www.LearnAtGSUSA.com/EDIT7004</a>
  - Editing for Impact (EDIT7100), GSU, <a href="https://www.LearnAtGSUSA.com/EDIT7103">https://www.LearnAtGSUSA.com/EDIT7103</a>
  - Grammar for Professionals (ENGL7005), GSU, <a href="https://www.LearnAtGSUSA.com/ENGL7008">https://www.LearnAtGSUSA.com/ENGL7008</a>
- - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8123">https://www.LearnAtGSUSA.com/FINC8123</a>
  - Effective Government Correspondence (WRIT7007), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7010">https://www.LearnAtGSUSA.com/WRIT7010</a>
  - Fundamentals of Writing (WRIT7010), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7013">https://www.LearnAtGSUSA.com/WRIT7013</a>
  - Government Email Writing (WRIT7041), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7044">https://www.LearnAtGSUSA.com/WRIT7044</a>
  - Writing for Results (WRIT7110), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7113">https://www.LearnAtGSUSA.com/WRIT7113</a>
+ - Developing and Presenting Audit Findings (AUDT7021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7028">https://www.LearnAtGSUSA.com/AUDT7028</a>
+ - Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8303">https://www.LearnAtGSUSA.com/AUDT8303</a>
+ - Written Communication for Auditors (AUDT8611), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8618">https://www.LearnAtGSUSA.com/AUDT8618</a>
+ - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8153">https://www.LearnAtGSUSA.com/BUDG8153</a>
+ - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8123">https://www.LearnAtGSUSA.com/FINC8123</a>
  - Writing for Results (WRIT7110), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7117">https://www.LearnAtGSUSA.com/WRIT7117</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Written-Communications GS-7-9 series-0560
 ---
 

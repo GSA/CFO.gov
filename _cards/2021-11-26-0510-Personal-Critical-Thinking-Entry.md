@@ -15,12 +15,9 @@ level: "7-9"
 behavior_illustrations: "Uses information in previously approved correspondence to respond to routine inquiries on financial management topics ? Selects and applies the most appropriate procedures or processes to routine activities in a work unit ? Understands and relates how basic policies and procedures apply to financial management work ? Reviews proposed changes to a policy to determine which steps are applicable to a current process or procedure within the office ? Determines and interprets guidelines that are relevant in an unusual situation and takes appropriate action "
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
+ - Course Coming Soon
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8013">https://www.LearnAtGSUSA.com/AUDT8013</a>
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8017">https://www.LearnAtGSUSA.com/AUDT8017</a>
- - Critical Thinking For Problem Solving, MC, <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Data Analysis For Financial Managers Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 331 - Progressive Concepts In Program Management, MC, <a href="https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 331 - Progressive Concepts In Program Management, MC, <a href="https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Critical-Thinking GS-7-9 series-0510
 ---
 

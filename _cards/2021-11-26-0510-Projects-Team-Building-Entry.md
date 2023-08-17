@@ -17,12 +17,10 @@ proficiency_level_definition: Applies the competency in the simplest situations 
 relevant_courses: 
  - Introduction to Management (MGMT7099), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7100">https://www.LearnAtGSUSA.com/MGMT7100</a>
  - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8113">https://www.LearnAtGSUSA.com/MGMT8113</a>
- - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8117">https://www.LearnAtGSUSA.com/MGMT8117</a>
  - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7002">https://www.LearnAtGSUSA.com/SUPV7002</a>
  - Jump Starting High Performance Teams&#58; The Fundamentals (TDEV7021), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV7022">https://www.LearnAtGSUSA.com/TDEV7022</a>
+ - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8117">https://www.LearnAtGSUSA.com/MGMT8117</a>
  - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8201">https://www.LearnAtGSUSA.com/TDEV8201</a>
- - Leadership Skills And Techniques, MC, <a href="https://www.managementconcepts.com/course/id/4001?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4001?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Leading And Managing High-Performing Project Teams, MC, <a href="https://www.managementconcepts.com/course/id/6183?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6183?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Team-Building GS-7-9 series-0510
 ---
 

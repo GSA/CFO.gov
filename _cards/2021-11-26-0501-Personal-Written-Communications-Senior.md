@@ -21,7 +21,6 @@ relevant_courses:
  - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9154">https://www.LearnAtGSUSA.com/FINC9154</a>
  - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8112">https://www.LearnAtGSUSA.com/MGMT8112</a>
  - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8116">https://www.LearnAtGSUSA.com/MGMT8116</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Written-Communications GS-14-15 series-0501
 ---
 

@@ -16,19 +16,17 @@ behavior_illustrations: "Understands and engages the Departments’ and Offices�
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8018">https://www.LearnAtGSUSA.com/AUDT8018</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8919">https://www.LearnAtGSUSA.com/AUDT8919</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8923">https://www.LearnAtGSUSA.com/AUDT8923</a>
  - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8007">https://www.LearnAtGSUSA.com/BUDG8007</a>
  - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8008">https://www.LearnAtGSUSA.com/BUDG8008</a>
+ - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8110">https://www.LearnAtGSUSA.com/BUDG8110</a>
+ - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8183">https://www.LearnAtGSUSA.com/BUDG8183</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8018">https://www.LearnAtGSUSA.com/AUDT8018</a>
+ - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8923">https://www.LearnAtGSUSA.com/AUDT8923</a>
  - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8011">https://www.LearnAtGSUSA.com/BUDG8011</a>
  - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8012">https://www.LearnAtGSUSA.com/BUDG8012</a>
- - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8110">https://www.LearnAtGSUSA.com/BUDG8110</a>
  - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8114">https://www.LearnAtGSUSA.com/BUDG8114</a>
- - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8183">https://www.LearnAtGSUSA.com/BUDG8183</a>
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8187">https://www.LearnAtGSUSA.com/BUDG8187</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Leading-Enterprise-Perspective GS-10-13 series-0560
 ---
 

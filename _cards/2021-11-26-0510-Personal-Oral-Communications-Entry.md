@@ -17,20 +17,18 @@ proficiency_level_definition: Applies the competency in the simplest situations 
 relevant_courses: 
  - Leadership Skills for Non-Supervisors (ADMB7006), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7007">https://www.LearnAtGSUSA.com/ADMB7007</a>
  - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7013">https://www.LearnAtGSUSA.com/AUDT7013</a>
- - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7017">https://www.LearnAtGSUSA.com/AUDT7017</a>
  - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8523">https://www.LearnAtGSUSA.com/AUDT8523</a>
- - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8527">https://www.LearnAtGSUSA.com/AUDT8527</a>
- - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8151">https://www.LearnAtGSUSA.com/BUDG8151</a>
  - Assertiveness Skills (COMM7001), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7002">https://www.LearnAtGSUSA.com/COMM7002</a>
  - Briefing Techniques (COMM7002), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7003">https://www.LearnAtGSUSA.com/COMM7003</a>
  - Interpersonal Communications (COMM7006), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7007">https://www.LearnAtGSUSA.com/COMM7007</a>
  - Speaking with Confidence (COMM7010), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7011">https://www.LearnAtGSUSA.com/COMM7011</a>
  - Increasing Personal Effectiveness (COMM7027), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7028">https://www.LearnAtGSUSA.com/COMM7028</a>
+ - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7002">https://www.LearnAtGSUSA.com/SUPV7002</a>
+ - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7017">https://www.LearnAtGSUSA.com/AUDT7017</a>
+ - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8527">https://www.LearnAtGSUSA.com/AUDT8527</a>
+ - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8151">https://www.LearnAtGSUSA.com/BUDG8151</a>
  - Increasing Personal Effectiveness (COMM7027), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7032">https://www.LearnAtGSUSA.com/COMM7032</a>
  - Effective Communications with Customers (COMM8000), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8001">https://www.LearnAtGSUSA.com/COMM8001</a>
- - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7002">https://www.LearnAtGSUSA.com/SUPV7002</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Oral-Communications GS-7-9 series-0510
 ---
 

@@ -20,9 +20,7 @@ relevant_courses:
  - Customer Service Excellence (ADMB7003), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7010">https://www.LearnAtGSUSA.com/ADMB7010</a>
  - Customer Service Excellence (ADMB7004), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7011">https://www.LearnAtGSUSA.com/ADMB7011</a>
  - Effective Communications with Customers (COMM8000), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8003">https://www.LearnAtGSUSA.com/COMM8003</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Course Coming Soon
 filters: Personal-Customer-Service GS-7-9 series-0560
 ---
 

@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Anticipates growing customer needs and expectations to continuously improve product development and service delivery ? Creates work group consisting of stakeholders and neutral parties to develop solutions to customer service barriers ? Ensures products and services meet customer needs"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Course Coming Soon
 filters: Personal-Customer-Service GS-10-13 series-0560
 ---
 

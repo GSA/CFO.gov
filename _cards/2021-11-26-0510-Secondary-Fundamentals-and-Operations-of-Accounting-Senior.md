@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Course Coming Soon
 filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0510
 ---
 

@@ -16,12 +16,11 @@ behavior_illustrations: "Attends professional conferences to maintain technical 
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - Aspiring Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram">https://www.LearnAtGSUSA.com/AspiringLeaderProgram</a>
+ - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
  - Aspiring Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram">https://www.LearnAtGSUSA.com/AspiringLeaderProgram</a>
  - Executive Potential Program (EPPG8840), GSU, <a href="https://www.LearnAtGSUSA.com/EPPG8843">https://www.LearnAtGSUSA.com/EPPG8843</a>
  - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
  - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
- - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
- - Critical Thinking For Problem Solving, MC, <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Learning GS-7-9 series-0560
 ---
 

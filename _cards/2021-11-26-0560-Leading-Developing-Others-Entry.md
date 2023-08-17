@@ -15,12 +15,11 @@ level: "7-9"
 behavior_illustrations: "Provides developmental feedback to staff on job performance ? Involves staff in developing project goals and timelines ? Encourages employees to participate in mentoring programs and other learning opportunities ? Pairs new staff with seasoned employees to facilitate understanding of the position and organization ? Provides orientation to new employees"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
+ - Course Coming Soon
  - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9023">https://www.LearnAtGSUSA.com/LEAD9023</a>
  - Leadership Essentials (MGMT7020), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7023">https://www.LearnAtGSUSA.com/MGMT7023</a>
  - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9005">https://www.LearnAtGSUSA.com/MGMT9005</a>
  - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8203">https://www.LearnAtGSUSA.com/TDEV8203</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Leading-Developing-Others GS-7-9 series-0560
 ---
 

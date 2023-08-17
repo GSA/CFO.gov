@@ -17,10 +17,8 @@ proficiency_level_definition: Applies the competency in difficult situations ? R
 relevant_courses: 
  - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7503">https://www.LearnAtGSUSA.com/ACQI7503</a>
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8017">https://www.LearnAtGSUSA.com/AUDT8017</a>
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8021">https://www.LearnAtGSUSA.com/AUDT8021</a>
  - Preparing to Lead in the 21st Century (MGMT9020), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9021">https://www.LearnAtGSUSA.com/MGMT9021</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8021">https://www.LearnAtGSUSA.com/AUDT8021</a>
 filters: Personal-Problem-Solving GS-10-13 series-0510
 ---
 

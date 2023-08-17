@@ -16,7 +16,6 @@ behavior_illustrations: "Evaluates proposed changes to existing financial polici
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8021">https://www.LearnAtGSUSA.com/AUDT8021</a>
- - FPM 331 - Progressive Concepts In Program Management, MC, <a href="https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Critical-Thinking GS-10-13 series-0510
 ---
 

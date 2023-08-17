@@ -24,7 +24,6 @@ relevant_courses:
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8185">https://www.LearnAtGSUSA.com/BUDG8185</a>
  - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9205">https://www.LearnAtGSUSA.com/MGMT9205</a>
  - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9209">https://www.LearnAtGSUSA.com/MGMT9209</a>
- - Mission-Driven Project Management&#58; From Strategy To Action, MC, <a href="https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Organizational-Awareness GS-14-15 series-0510
 ---
 

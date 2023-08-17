@@ -15,40 +15,38 @@ level: "7-9"
 behavior_illustrations: "Performs and documents transactions and monitors records in compliance with laws, regulations, and policies to meet organizational goals and objectives ? Applies knowledge of policies and procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives ? Allocates funds within approved guidelines ? Uses appropriate finance and accounting procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7031">https://www.LearnAtGSUSA.com/ACQI7031</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8004">https://www.LearnAtGSUSA.com/AUDT8004</a>
+ - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7001">https://www.LearnAtGSUSA.com/FINC7001</a>
+ - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7011">https://www.LearnAtGSUSA.com/FINC7011</a>
+ - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7101">https://www.LearnAtGSUSA.com/FINC7101</a>
+ - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7002">https://www.LearnAtGSUSA.com/PROP7002</a>
+ - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7104">https://www.LearnAtGSUSA.com/PROP7104</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8008">https://www.LearnAtGSUSA.com/AUDT8008</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8812">https://www.LearnAtGSUSA.com/AUDT8812</a>
+ - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7101">https://www.LearnAtGSUSA.com/BUDG7101</a>
+ - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8002">https://www.LearnAtGSUSA.com/BUDG8002</a>
+ - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7005">https://www.LearnAtGSUSA.com/FINC7005</a>
+ - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7015">https://www.LearnAtGSUSA.com/FINC7015</a>
+ - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7105">https://www.LearnAtGSUSA.com/FINC7105</a>
+ - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8201">https://www.LearnAtGSUSA.com/FINC8201</a>
+ - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7031">https://www.LearnAtGSUSA.com/ACQI7031</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8012">https://www.LearnAtGSUSA.com/AUDT8012</a>
  - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8035">https://www.LearnAtGSUSA.com/AUDT8035</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8812">https://www.LearnAtGSUSA.com/AUDT8812</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8816">https://www.LearnAtGSUSA.com/AUDT8816</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8913">https://www.LearnAtGSUSA.com/AUDT8913</a>
- - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7101">https://www.LearnAtGSUSA.com/BUDG7101</a>
  - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7105">https://www.LearnAtGSUSA.com/BUDG7105</a>
  - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8001">https://www.LearnAtGSUSA.com/BUDG8001</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8002">https://www.LearnAtGSUSA.com/BUDG8002</a>
  - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8006">https://www.LearnAtGSUSA.com/BUDG8006</a>
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8181">https://www.LearnAtGSUSA.com/BUDG8181</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7001">https://www.LearnAtGSUSA.com/FINC7001</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7005">https://www.LearnAtGSUSA.com/FINC7005</a>
- - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7011">https://www.LearnAtGSUSA.com/FINC7011</a>
- - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7015">https://www.LearnAtGSUSA.com/FINC7015</a>
  - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7019">https://www.LearnAtGSUSA.com/FINC7019</a>
- - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7101">https://www.LearnAtGSUSA.com/FINC7101</a>
- - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7105">https://www.LearnAtGSUSA.com/FINC7105</a>
  - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7109">https://www.LearnAtGSUSA.com/FINC7109</a>
  - Antideficiency Act (FINC7207), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7208">https://www.LearnAtGSUSA.com/FINC7208</a>
  - Federal Appropriations Law Refresher and Update (FINC8147), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8148">https://www.LearnAtGSUSA.com/FINC8148</a>
- - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8201">https://www.LearnAtGSUSA.com/FINC8201</a>
  - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8205">https://www.LearnAtGSUSA.com/FINC8205</a>
  - Advanced Appropriations Law (FINC9100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9101">https://www.LearnAtGSUSA.com/FINC9101</a>
  - Appropriations Law for Reimbursements, Revolving Funds and User Fees (FINC9115), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9116">https://www.LearnAtGSUSA.com/FINC9116</a>
- - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7002">https://www.LearnAtGSUSA.com/PROP7002</a>
  - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7014">https://www.LearnAtGSUSA.com/PROP7014</a>
- - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7104">https://www.LearnAtGSUSA.com/PROP7104</a>
  - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7113">https://www.LearnAtGSUSA.com/PROP7113</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Primary-Financial-Stewardship GS-7-9 series-0510
 ---
 

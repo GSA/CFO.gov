@@ -19,7 +19,6 @@ relevant_courses:
  - Decision Trees in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/DecisionTrees">https://datasociety.meldr.ai/courses/DataScience/DecisionTrees</a>
  - Logistic Regression in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/LogisticRegression">https://datasociety.meldr.ai/courses/DataScience/LogisticRegression</a>
  - Multiple Linear Regression in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/MultipleRegression">https://datasociety.meldr.ai/courses/DataScience/MultipleRegression</a>
- - Data Literacy for Executives, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives</a>
  - Advanced Clustering in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/AdvancedClusteringInR">https://datasociety.meldr.ai/courses/DataScience-R/AdvancedClusteringInR</a>
  - Decision Trees in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/DecisionTreesInR">https://datasociety.meldr.ai/courses/DataScience-R/DecisionTreesInR</a>
  - Logistic Regression in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR">https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR</a>
@@ -27,7 +26,7 @@ relevant_courses:
  - Introduction to Power BI, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI">https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI</a>
  - Intermediate and Advanced Tableau, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntermediateAndAdvancedTableau">https://datasociety.meldr.ai/courses/DataSocietyTableau/IntermediateAndAdvancedTableau</a>
  - Introduction to Tableau, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau">https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Data Literacy for Executives, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives</a>
 filters: Primary-Accounting-Analysis GS-14-15 series-0510
 ---
 

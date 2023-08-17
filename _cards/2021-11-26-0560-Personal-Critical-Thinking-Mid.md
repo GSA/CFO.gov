@@ -16,8 +16,6 @@ behavior_illustrations: "Reviews proposed changes to a policy to determine which
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8019">https://www.LearnAtGSUSA.com/AUDT8019</a>
- - Critical Thinking For Problem Solving, MC, <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Data Analysis For Financial Managers Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Critical-Thinking GS-10-13 series-0560
 ---
 

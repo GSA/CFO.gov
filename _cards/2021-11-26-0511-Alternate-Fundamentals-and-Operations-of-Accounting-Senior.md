@@ -17,9 +17,8 @@ proficiency_level_definition: Applies the competency in difficult situations ? R
 relevant_courses: 
  - Intermediate Federal Accounting (ACCT8003), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT8005">https://www.LearnAtGSUSA.com/ACCT8005</a>
  - Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8016">https://www.LearnAtGSUSA.com/BUDG8016</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Course Coming Soon
+ - Course Coming Soon
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0511
 ---
 

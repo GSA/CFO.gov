@@ -17,7 +17,6 @@ proficiency_level_definition: Applies the competency in considerably difficult s
 relevant_courses: 
  - Data Literacy for Managers, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers</a>
  - Data Literacy for Executives, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives</a>
- - Data Literacy for Executives, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives</a>
  - Advanced Clustering in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering">https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering</a>
  - Decision Trees in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/DecisionTrees">https://datasociety.meldr.ai/courses/DataScience/DecisionTrees</a>
  - Interactive Visualization with Bokeh, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/InteractiveVisualizationWithBokeh">https://datasociety.meldr.ai/courses/DataScience/InteractiveVisualizationWithBokeh</a>
@@ -34,12 +33,11 @@ relevant_courses:
  - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8108">https://www.LearnAtGSUSA.com/AUDT8108</a>
  - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8921">https://www.LearnAtGSUSA.com/AUDT8921</a>
  - Auditing Performance Outcomes (AUDT9012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9016">https://www.LearnAtGSUSA.com/AUDT9016</a>
- - Auditing Performance Outcomes (AUDT9012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9020">https://www.LearnAtGSUSA.com/AUDT9020</a>
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8111">https://www.LearnAtGSUSA.com/FINC8111</a>
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8908">https://www.LearnAtGSUSA.com/FINC8908</a>
  - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9154">https://www.LearnAtGSUSA.com/FINC9154</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Data Literacy for Executives, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives</a>
+ - Auditing Performance Outcomes (AUDT9012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9020">https://www.LearnAtGSUSA.com/AUDT9020</a>
 filters: Primary-Financial-Management-Analysis GS-14-15 series-0501
 ---
 

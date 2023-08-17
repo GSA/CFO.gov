@@ -23,7 +23,6 @@ relevant_courses:
  - Selecting and Planning Audits for Return on Investment (AUDT8914), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8920">https://www.LearnAtGSUSA.com/AUDT8920</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8922">https://www.LearnAtGSUSA.com/AUDT8922</a>
  - Managing the Audit Engagement (AUDT9102), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9108">https://www.LearnAtGSUSA.com/AUDT9108</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
  - Accountability Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8?cta=feds">https://www.skillsoft.com/channel/accountability-98459290-f913-11e6-aad2-6b3c03be7fe8?cta=feds</a>
  - Accounting Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688?cta=feds">https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688?cta=feds</a>
  - Adapting to Change Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/adapting-to-change-06720340-e71a-11e6-9835-f723b46a2688?cta=feds">https://www.skillsoft.com/channel/adapting-to-change-06720340-e71a-11e6-9835-f723b46a2688?cta=feds</a>

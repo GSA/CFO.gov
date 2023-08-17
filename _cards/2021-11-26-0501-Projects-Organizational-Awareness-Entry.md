@@ -16,8 +16,6 @@ behavior_illustrations: "Keeps up-to-date by attending key meetings hosted by ot
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8003">https://www.LearnAtGSUSA.com/AUDT8003</a>
- - Emotionally Intelligent Leadership, MC, <a href="https://www.managementconcepts.com/course/id/4004?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4004?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Mission-Driven Project Management&#58; From Strategy To Action, MC, <a href="https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Organizational-Awareness GS-7-9 series-0501
 ---
 

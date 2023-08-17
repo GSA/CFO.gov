@@ -15,9 +15,17 @@ level: "7-9"
 behavior_illustrations: "Develops and implements financial management goals and objectives of the strategic plan ? Collaborates and coordinates with functional components, and reports performance to senior leadership ? Applies general analytical and evaluation techniques to review financial data"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Data Literacy for Managers, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers</a>
  - Intermediate Python, Data Society, <a href="https://datasociety.meldr.ai/courses/Beginner/IntermediatePython">https://datasociety.meldr.ai/courses/Beginner/IntermediatePython</a>
  - Introduction to Python, Data Society, <a href="https://datasociety.meldr.ai/courses/Beginner/IntroToPython">https://datasociety.meldr.ai/courses/Beginner/IntroToPython</a>
+ - Fundamentals of Data Literacy, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy">https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy</a>
+ - Intermediate R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntermediateR">https://datasociety.meldr.ai/courses/DataScience-R/IntermediateR</a>
+ - Introduction to R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToR</a>
+ - Introduction to Excel, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel">https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel</a>
+ - Introduction to SQL, Data Society, <a href="https://datasociety.meldr.ai/courses/SQL/IntroToSQL">https://datasociety.meldr.ai/courses/SQL/IntroToSQL</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8814">https://www.LearnAtGSUSA.com/AUDT8814</a>
+ - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8123">https://www.LearnAtGSUSA.com/FINC8123</a>
+ - Cost-Benefit Analysis Workshop (PGMT8100), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8103">https://www.LearnAtGSUSA.com/PGMT8103</a>
+ - Data Literacy for Managers, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers</a>
  - Data Wrangling in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/DataWranglingInPython">https://datasociety.meldr.ai/courses/DataScience/DataWranglingInPython</a>
  - Intermediate Clustering in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/IntermediateClustering">https://datasociety.meldr.ai/courses/DataScience/IntermediateClustering</a>
  - Introduction to Classification in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/IntroToClassification">https://datasociety.meldr.ai/courses/DataScience/IntroToClassification</a>
@@ -27,34 +35,24 @@ relevant_courses:
  - Simple Linear Regression in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/SimpleRegression">https://datasociety.meldr.ai/courses/DataScience/SimpleRegression</a>
  - Data Visual Design and Storytelling, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling</a>
  - Fundamentals of Data Literacy, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy">https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy</a>
- - Fundamentals of Data Literacy, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy">https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy</a>
  - Data Wrangling in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR">https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR</a>
  - Intermediate Clustering in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntermediateClusteringInR">https://datasociety.meldr.ai/courses/DataScience-R/IntermediateClusteringInR</a>
- - Intermediate R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntermediateR">https://datasociety.meldr.ai/courses/DataScience-R/IntermediateR</a>
  - Introduction to Classification in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToClassificationInR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToClassificationInR</a>
  - Introduction to Clustering in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToClusteringInR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToClusteringInR</a>
- - Introduction to R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToR</a>
  - Introduction to Visualization in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToVisualizationInR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToVisualizationInR</a>
  - Logistic Regression in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR">https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR</a>
  - Simple Linear Regression in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR">https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR</a>
  - Introduction to Excel, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel">https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel</a>
- - Introduction to Excel, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel">https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel</a>
  - Introduction to Power BI, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI">https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI</a>
  - Introduction to Tableau, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau">https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau</a>
  - Intermediate SQL, Data Society, <a href="https://datasociety.meldr.ai/courses/SQL/IntermediateSQL">https://datasociety.meldr.ai/courses/SQL/IntermediateSQL</a>
- - Introduction to SQL, Data Society, <a href="https://datasociety.meldr.ai/courses/SQL/IntroToSQL">https://datasociety.meldr.ai/courses/SQL/IntroToSQL</a>
  - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8103">https://www.LearnAtGSUSA.com/AUDT8103</a>
  - Practical Statistical Sampling for Auditors (AUDT8112), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8115">https://www.LearnAtGSUSA.com/AUDT8115</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8814">https://www.LearnAtGSUSA.com/AUDT8814</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8818">https://www.LearnAtGSUSA.com/AUDT8818</a>
  - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8916">https://www.LearnAtGSUSA.com/AUDT8916</a>
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8106">https://www.LearnAtGSUSA.com/FINC8106</a>
- - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8123">https://www.LearnAtGSUSA.com/FINC8123</a>
  - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8127">https://www.LearnAtGSUSA.com/FINC8127</a>
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8903">https://www.LearnAtGSUSA.com/FINC8903</a>
- - Cost-Benefit Analysis Workshop (PGMT8100), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8103">https://www.LearnAtGSUSA.com/PGMT8103</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Primary-Financial-Management-Analysis GS-7-9 series-0560
 ---
 

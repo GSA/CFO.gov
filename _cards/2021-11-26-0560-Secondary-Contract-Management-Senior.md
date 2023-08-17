@@ -21,18 +21,13 @@ relevant_courses:
  - Shaping Smart Business Arrangements (ACQI7501), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7504">https://www.LearnAtGSUSA.com/ACQI7504</a>
  - COR Refresher (ACQI7513), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7516">https://www.LearnAtGSUSA.com/ACQI7516</a>
  - Virtual Contract Management (ACQI8030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8037">https://www.LearnAtGSUSA.com/ACQI8037</a>
+ - Contract and Procurement Fraud (AUDT8036), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8039">https://www.LearnAtGSUSA.com/AUDT8039</a>
+ - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8812">https://www.LearnAtGSUSA.com/AUDT8812</a>
  - Government Contract Law (ACQI8505), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8508">https://www.LearnAtGSUSA.com/ACQI8508</a>
  - Advanced COR Workshop (ACQI9008), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI9011">https://www.LearnAtGSUSA.com/ACQI9011</a>
- - Contract and Procurement Fraud (AUDT8036), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8039">https://www.LearnAtGSUSA.com/AUDT8039</a>
  - Contract and Procurement Fraud (AUDT8036), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8043">https://www.LearnAtGSUSA.com/AUDT8043</a>
- - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8812">https://www.LearnAtGSUSA.com/AUDT8812</a>
  - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8816">https://www.LearnAtGSUSA.com/AUDT8816</a>
- - Cost And Price Analysis, MC, <a href="https://www.managementconcepts.com/course/id/1030?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1030?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Appropriations Law For Contracting Professionals, MC, <a href="https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/1051?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 232 - Applications In Contracting, MC, <a href="https://www.managementconcepts.com/course/id/6888?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6888?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 332 - Progressive Contracting Strategies For Programs, MC, <a href="https://www.managementconcepts.com/course/id/6893?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6893?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 332 - Progressive Contracting Strategies For Programs, MC, <a href="https://www.managementconcepts.com/course/id/6893?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6893?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 332 - Progressive Contracting Strategies For Programs, MC, <a href="https://www.managementconcepts.com/course/id/6893?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6893?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
+ - Course Coming Soon
 filters: Secondary-Contract-Management GS-14-15 series-0560
 ---
 

@@ -17,12 +17,11 @@ proficiency_level_definition: Applies the competency in difficult situations ? R
 relevant_courses: 
  - Consulting Skills for Acquisition Professionals (ACQI8211), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8211">https://www.LearnAtGSUSA.com/ACQI8211</a>
  - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8530">https://www.LearnAtGSUSA.com/AUDT8530</a>
- - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8534">https://www.LearnAtGSUSA.com/AUDT8534</a>
  - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7102">https://www.LearnAtGSUSA.com/BUDG7102</a>
- - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7106">https://www.LearnAtGSUSA.com/BUDG7106</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8154">https://www.LearnAtGSUSA.com/BUDG8154</a>
+ - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8534">https://www.LearnAtGSUSA.com/AUDT8534</a>
+ - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7106">https://www.LearnAtGSUSA.com/BUDG7106</a>
  - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8112">https://www.LearnAtGSUSA.com/MGMT8112</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Oral-Communications GS-10-13 series-0501
 ---
 

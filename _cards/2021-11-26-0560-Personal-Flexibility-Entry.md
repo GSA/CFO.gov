@@ -20,7 +20,6 @@ relevant_courses:
  - Managing Multiple Priorities (ADMB7007), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7014">https://www.LearnAtGSUSA.com/ADMB7014</a>
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8015">https://www.LearnAtGSUSA.com/AUDT8015</a>
  - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7204">https://www.LearnAtGSUSA.com/MGMT7204</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Flexibility GS-7-9 series-0560
 ---
 

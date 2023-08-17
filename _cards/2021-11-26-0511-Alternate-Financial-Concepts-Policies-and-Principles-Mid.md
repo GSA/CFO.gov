@@ -23,7 +23,6 @@ relevant_courses:
  - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8206">https://www.LearnAtGSUSA.com/FINC8206</a>
  - Advanced Appropriations Law (FINC9100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9106">https://www.LearnAtGSUSA.com/FINC9106</a>
  - Appropriations Law for Reimbursements, Revolving Funds and User Fees (FINC9115), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9121">https://www.LearnAtGSUSA.com/FINC9121</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Alternate-Financial-Concepts-Policies-and-Principles GS-10-13 series-0511
 ---
 

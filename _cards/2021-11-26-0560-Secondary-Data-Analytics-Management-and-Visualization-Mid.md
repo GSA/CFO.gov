@@ -32,10 +32,6 @@ relevant_courses:
  - Introduction to Management Analysis (PGMT7010), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7013">https://www.LearnAtGSUSA.com/PGMT7013</a>
  - Designing an Analytical Study (PGMT8005), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8008">https://www.LearnAtGSUSA.com/PGMT8008</a>
  - Descriptive Statistics for Data Analysis (PGMT8200), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8203">https://www.LearnAtGSUSA.com/PGMT8203</a>
- - Introduction To Data Visualization, MC, <a href="https://www.managementconcepts.com/course/id/4606?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4606?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Data Analysis And Modeling Techniques, MC, <a href="https://www.managementconcepts.com/course/id/4615?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4615?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Evaluating And Presenting Analysis Results, MC, <a href="https://www.managementconcepts.com/course/id/4665?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4665?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Data Analysis For Financial Managers Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0560
 ---
 

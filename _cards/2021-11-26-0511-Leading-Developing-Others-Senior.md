@@ -17,7 +17,6 @@ proficiency_level_definition: Applies the competency in exceptionally difficult 
 relevant_courses: 
  - Mentoring Skills (MGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7016">https://www.LearnAtGSUSA.com/MGMT7016</a>
  - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7211">https://www.LearnAtGSUSA.com/MGMT7211</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Leading-Developing-Others GS-14-15 series-0511
 ---
 

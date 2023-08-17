@@ -19,7 +19,6 @@ relevant_courses:
  - Executive Potential Program (EPPG8840), GSU, <a href="https://www.LearnAtGSUSA.com/EPPG8841">https://www.LearnAtGSUSA.com/EPPG8841</a>
  - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
  - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
- - Critical Thinking For Problem Solving, MC, <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Learning GS-10-13 series-0510
 ---
 

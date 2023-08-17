@@ -27,7 +27,6 @@ relevant_courses:
  - Clear Writing Through Critical Thinking (WRIT7100), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7102">https://www.LearnAtGSUSA.com/WRIT7102</a>
  - Writing for Results (WRIT7110), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7120">https://www.LearnAtGSUSA.com/WRIT7120</a>
  - Executive Writing (WRIT9001), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT9003">https://www.LearnAtGSUSA.com/WRIT9003</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Written-Communications GS-10-13 series-0511
 ---
 

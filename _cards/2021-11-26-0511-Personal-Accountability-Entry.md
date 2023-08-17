@@ -16,45 +16,42 @@ behavior_illustrations: "Maintains confidentiality of sensitive information by e
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7224">https://www.LearnAtGSUSA.com/ACQI7224</a>
- - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7228">https://www.LearnAtGSUSA.com/ACQI7228</a>
- - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7232">https://www.LearnAtGSUSA.com/ACQI7232</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8005">https://www.LearnAtGSUSA.com/AUDT8005</a>
+ - Introduction to Grants Management (GRNT7015), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7017">https://www.LearnAtGSUSA.com/GRNT7017</a>
+ - Effective Grants Manager (GRNT7025), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7027">https://www.LearnAtGSUSA.com/GRNT7027</a>
+ - Grants Performance Management and Monitoring (GRNT7035), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7037">https://www.LearnAtGSUSA.com/GRNT7037</a>
+ - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7003">https://www.LearnAtGSUSA.com/PROP7003</a>
+ - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7003">https://www.LearnAtGSUSA.com/PROP7003</a>
+ - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7015">https://www.LearnAtGSUSA.com/PROP7015</a>
+ - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7114">https://www.LearnAtGSUSA.com/PROP7114</a>
+ - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7228">https://www.LearnAtGSUSA.com/ACQI7228</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8009">https://www.LearnAtGSUSA.com/AUDT8009</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8813">https://www.LearnAtGSUSA.com/AUDT8813</a>
+ - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8914">https://www.LearnAtGSUSA.com/AUDT8914</a>
+ - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9004">https://www.LearnAtGSUSA.com/AUDT9004</a>
+ - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9111">https://www.LearnAtGSUSA.com/AUDT9111</a>
+ - Introduction to Grants Management (GRNT7015), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7021">https://www.LearnAtGSUSA.com/GRNT7021</a>
+ - Effective Grants Manager (GRNT7025), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7031">https://www.LearnAtGSUSA.com/GRNT7031</a>
+ - Grants Performance Management and Monitoring (GRNT7035), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7041">https://www.LearnAtGSUSA.com/GRNT7041</a>
+ - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9022">https://www.LearnAtGSUSA.com/LEAD9022</a>
+ - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7007">https://www.LearnAtGSUSA.com/PROP7007</a>
+ - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7007">https://www.LearnAtGSUSA.com/PROP7007</a>
+ - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7019">https://www.LearnAtGSUSA.com/PROP7019</a>
+ - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7118">https://www.LearnAtGSUSA.com/PROP7118</a>
+ - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7232">https://www.LearnAtGSUSA.com/ACQI7232</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8013">https://www.LearnAtGSUSA.com/AUDT8013</a>
  - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8036">https://www.LearnAtGSUSA.com/AUDT8036</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8813">https://www.LearnAtGSUSA.com/AUDT8813</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8817">https://www.LearnAtGSUSA.com/AUDT8817</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8914">https://www.LearnAtGSUSA.com/AUDT8914</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8918">https://www.LearnAtGSUSA.com/AUDT8918</a>
- - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9004">https://www.LearnAtGSUSA.com/AUDT9004</a>
  - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9008">https://www.LearnAtGSUSA.com/AUDT9008</a>
  - Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9012">https://www.LearnAtGSUSA.com/AUDT9012</a>
  - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9037">https://www.LearnAtGSUSA.com/AUDT9037</a>
- - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9111">https://www.LearnAtGSUSA.com/AUDT9111</a>
  - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9115">https://www.LearnAtGSUSA.com/AUDT9115</a>
- - Introduction to Grants Management (GRNT7015), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7017">https://www.LearnAtGSUSA.com/GRNT7017</a>
- - Introduction to Grants Management (GRNT7015), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7021">https://www.LearnAtGSUSA.com/GRNT7021</a>
  - Introduction to Grants Management (GRNT7015), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7025">https://www.LearnAtGSUSA.com/GRNT7025</a>
- - Effective Grants Manager (GRNT7025), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7027">https://www.LearnAtGSUSA.com/GRNT7027</a>
- - Effective Grants Manager (GRNT7025), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7031">https://www.LearnAtGSUSA.com/GRNT7031</a>
  - Effective Grants Manager (GRNT7025), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7035">https://www.LearnAtGSUSA.com/GRNT7035</a>
- - Grants Performance Management and Monitoring (GRNT7035), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7037">https://www.LearnAtGSUSA.com/GRNT7037</a>
- - Grants Performance Management and Monitoring (GRNT7035), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7041">https://www.LearnAtGSUSA.com/GRNT7041</a>
  - Grants Performance Management and Monitoring (GRNT7035), GSU, <a href="https://www.LearnAtGSUSA.com/GRNT7045">https://www.LearnAtGSUSA.com/GRNT7045</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9022">https://www.LearnAtGSUSA.com/LEAD9022</a>
  - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9026">https://www.LearnAtGSUSA.com/LEAD9026</a>
- - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7003">https://www.LearnAtGSUSA.com/PROP7003</a>
- - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7003">https://www.LearnAtGSUSA.com/PROP7003</a>
- - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7007">https://www.LearnAtGSUSA.com/PROP7007</a>
- - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7007">https://www.LearnAtGSUSA.com/PROP7007</a>
  - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7011">https://www.LearnAtGSUSA.com/PROP7011</a>
- - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7015">https://www.LearnAtGSUSA.com/PROP7015</a>
- - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7019">https://www.LearnAtGSUSA.com/PROP7019</a>
- - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7114">https://www.LearnAtGSUSA.com/PROP7114</a>
- - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7118">https://www.LearnAtGSUSA.com/PROP7118</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Accountability GS-7-9 series-0511
 ---
 

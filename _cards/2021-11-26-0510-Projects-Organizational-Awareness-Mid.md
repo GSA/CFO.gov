@@ -21,9 +21,6 @@ relevant_courses:
  - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8006">https://www.LearnAtGSUSA.com/BUDG8006</a>
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8181">https://www.LearnAtGSUSA.com/BUDG8181</a>
  - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9201">https://www.LearnAtGSUSA.com/MGMT9201</a>
- - Advanced Leadership Skills And Techniques, MC, <a href="https://www.managementconcepts.com/course/id/4002?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4002?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - From Tactical To Strategic Thinking, MC, <a href="https://www.managementconcepts.com/course/id/4062?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/4062?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - Mission-Driven Project Management&#58; From Strategy To Action, MC, <a href="https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Projects-Organizational-Awareness GS-10-13 series-0510
 ---
 

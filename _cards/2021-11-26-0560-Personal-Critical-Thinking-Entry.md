@@ -15,9 +15,8 @@ level: "7-9"
 behavior_illustrations: "Uses information in previously approved correspondence to respond to routine inquiries on financial management topics ? Selects and applies the most appropriate procedures or processes to routine activities in a work unit ? Understands and relates how basic policies and procedures apply to financial management work"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
+ - Course Coming Soon
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8015">https://www.LearnAtGSUSA.com/AUDT8015</a>
- - FPM 331 - Progressive Concepts In Program Management, MC, <a href="https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
- - FPM 331 - Progressive Concepts In Program Management, MC, <a href="https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Personal-Critical-Thinking GS-7-9 series-0560
 ---
 

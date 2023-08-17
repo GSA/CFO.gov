@@ -21,7 +21,6 @@ relevant_courses:
  - Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8012">https://www.LearnAtGSUSA.com/BUDG8012</a>
  - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7006">https://www.LearnAtGSUSA.com/FINC7006</a>
  - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8306">https://www.LearnAtGSUSA.com/FINC8306</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-10-13 series-0511
 ---
 

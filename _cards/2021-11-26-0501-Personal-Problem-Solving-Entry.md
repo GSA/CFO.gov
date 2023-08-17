@@ -15,10 +15,10 @@ level: "7-9"
 behavior_illustrations: "Proposes solution to improve customer satisfaction ? Determines cause of workforce problem and recommends corrective action ? Addresses routine organizational problems by leading a team to brainstorm solutions ? Establishes guidelines to clarify complex and/or controversial processes"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8012">https://www.LearnAtGSUSA.com/AUDT8012</a>
  - Interpersonal Communications (COMM7006), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7006">https://www.LearnAtGSUSA.com/COMM7006</a>
- - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8102">https://www.LearnAtGSUSA.com/MGMT8102</a>
  - Clear Writing Through Critical Thinking (WRIT7100), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7100">https://www.LearnAtGSUSA.com/WRIT7100</a>
+ - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8012">https://www.LearnAtGSUSA.com/AUDT8012</a>
+ - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8102">https://www.LearnAtGSUSA.com/MGMT8102</a>
 filters: Personal-Problem-Solving GS-7-9 series-0501
 ---
 

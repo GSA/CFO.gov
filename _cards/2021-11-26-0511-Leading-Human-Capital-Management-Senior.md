@@ -16,14 +16,13 @@ behavior_illustrations: "Develops rewards system to recognize the impact of empl
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
  - Managing Employee Conduct and Performance (LABR7011), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7013">https://www.LearnAtGSUSA.com/LABR7013</a>
- - Federal Employee Relations (Basic) (LABR7110), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7112">https://www.LearnAtGSUSA.com/LABR7112</a>
  - Negotiating Federal Labor Agreements (LABR9001), GSU, <a href="https://www.LearnAtGSUSA.com/LABR9003">https://www.LearnAtGSUSA.com/LABR9003</a>
- - Federal Workforce Analysis and Planning (PMGT7013), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7015">https://www.LearnAtGSUSA.com/PMGT7015</a>
- - Strategic Human Capital Management (PMGT7015), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7017">https://www.LearnAtGSUSA.com/PMGT7017</a>
  - Federal Human Resources Management for Supervisors and Managers (PMGT7102), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7104">https://www.LearnAtGSUSA.com/PMGT7104</a>
  - Family and Medical Leave Act for Supervisors and HR Practitioners (PMGT7510), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7512">https://www.LearnAtGSUSA.com/PMGT7512</a>
+ - Federal Employee Relations (Basic) (LABR7110), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7112">https://www.LearnAtGSUSA.com/LABR7112</a>
+ - Federal Workforce Analysis and Planning (PMGT7013), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7015">https://www.LearnAtGSUSA.com/PMGT7015</a>
+ - Strategic Human Capital Management (PMGT7015), GSU, <a href="https://www.LearnAtGSUSA.com/PMGT7017">https://www.LearnAtGSUSA.com/PMGT7017</a>
  - Using and Presenting HR Data for Organizational Decisions (STAF8016), GSU, <a href="https://www.LearnAtGSUSA.com/STAF8018">https://www.LearnAtGSUSA.com/STAF8018</a>
- - Benefit-Cost Analysis Using Microsoft Excel, MC, <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM</a>
 filters: Leading-Human-Capital-Management GS-14-15 series-0511
 ---
 
