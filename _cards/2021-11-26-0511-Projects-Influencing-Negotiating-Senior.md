@@ -20,6 +20,7 @@ relevant_courses:
  - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9026">https://www.LearnAtGSUSA.com/LEAD9026</a>
  - Negotiating Techniques (MGMT9104 & 9105), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9114">https://www.LearnAtGSUSA.com/MGMT9114</a>
  - Consulting Skills for Acquisition Professionals (ACQI8211), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8213">https://www.LearnAtGSUSA.com/ACQI8213</a>
+ - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8044">https://www.LearnAtGSUSA.com/AUDT8044</a>
 filters: Projects-Influencing-Negotiating GS-14-15 series-0511
 ---
 

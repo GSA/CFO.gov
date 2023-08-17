@@ -46,8 +46,10 @@ relevant_courses:
  - Intermediate SQL, Data Society, <a href="https://datasociety.meldr.ai/courses/SQL/IntermediateSQL">https://datasociety.meldr.ai/courses/SQL/IntermediateSQL</a>
  - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8100">https://www.LearnAtGSUSA.com/AUDT8100</a>
  - Practical Statistical Sampling for Auditors (AUDT8112), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8112">https://www.LearnAtGSUSA.com/AUDT8112</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8815">https://www.LearnAtGSUSA.com/AUDT8815</a>
  - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8913">https://www.LearnAtGSUSA.com/AUDT8913</a>
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8103">https://www.LearnAtGSUSA.com/FINC8103</a>
+ - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8124">https://www.LearnAtGSUSA.com/FINC8124</a>
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8900">https://www.LearnAtGSUSA.com/FINC8900</a>
 filters: Primary-Financial-Management-Analysis GS-7-9 series-0501
 ---

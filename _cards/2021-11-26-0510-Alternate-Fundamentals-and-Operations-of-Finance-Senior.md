@@ -20,6 +20,8 @@ relevant_courses:
  - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8108">https://www.LearnAtGSUSA.com/BUDG8108</a>
  - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7019">https://www.LearnAtGSUSA.com/FINC7019</a>
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8108">https://www.LearnAtGSUSA.com/FINC8108</a>
+ - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8112">https://www.LearnAtGSUSA.com/BUDG8112</a>
+ - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8112">https://www.LearnAtGSUSA.com/FINC8112</a>
 filters: Alternate-Fundamentals-and-Operations-of-Finance GS-14-15 series-0510
 ---
 

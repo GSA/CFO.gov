@@ -19,6 +19,7 @@ proficiency_level_definition: Applies the competency in considerably difficult s
 relevant_courses: 
  - Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8021">https://www.LearnAtGSUSA.com/MGMT8021</a>
  - Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8022">https://www.LearnAtGSUSA.com/MGMT8022</a>
+ - Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8025">https://www.LearnAtGSUSA.com/MGMT8025</a>
 filters: Leading-Leveraging-Diversity GS-14-15 series-0511
 ---
 

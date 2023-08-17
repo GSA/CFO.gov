@@ -17,6 +17,8 @@ proficiency_level_definition: Applies the competency in the simplest situations 
 relevant_courses: 
  - Customer Service Excellence (ADMB7003), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7003">https://www.LearnAtGSUSA.com/ADMB7003</a>
  - Customer Service Excellence (ADMB7004), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7004">https://www.LearnAtGSUSA.com/ADMB7004</a>
+ - Customer Service Excellence (ADMB7003), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7007">https://www.LearnAtGSUSA.com/ADMB7007</a>
+ - Customer Service Excellence (ADMB7004), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7008">https://www.LearnAtGSUSA.com/ADMB7008</a>
  - Effective Communications with Customers (COMM8000), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8000">https://www.LearnAtGSUSA.com/COMM8000</a>
  - Course Coming Soon
 filters: Personal-Customer-Service GS-7-9 series-0501

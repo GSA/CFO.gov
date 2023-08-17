@@ -19,6 +19,8 @@ relevant_courses:
  - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8532">https://www.LearnAtGSUSA.com/AUDT8532</a>
  - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7104">https://www.LearnAtGSUSA.com/BUDG7104</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8156">https://www.LearnAtGSUSA.com/BUDG8156</a>
+ - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8536">https://www.LearnAtGSUSA.com/AUDT8536</a>
+ - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7108">https://www.LearnAtGSUSA.com/BUDG7108</a>
  - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8114">https://www.LearnAtGSUSA.com/MGMT8114</a>
 filters: Personal-Oral-Communications GS-10-13 series-0511
 ---

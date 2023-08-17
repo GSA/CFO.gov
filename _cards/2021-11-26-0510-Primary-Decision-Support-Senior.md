@@ -143,6 +143,8 @@ relevant_courses:
  - Virtual Collaboration Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds">https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds</a>
  - Working Effectively on a Team Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/working-effectively-on-a-team-9c912cb0-f918-11e6-aad2-6b3c03be7fe8?cta=feds">https://www.skillsoft.com/channel/working-effectively-on-a-team-9c912cb0-f918-11e6-aad2-6b3c03be7fe8?cta=feds</a>
  - Written Communication Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/written-communication-e25b4610-e719-11e6-9835-f723b46a2688?cta=feds">https://www.skillsoft.com/channel/written-communication-e25b4610-e719-11e6-9835-f723b46a2688?cta=feds</a>
+ - Creative an Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8025">https://www.LearnAtGSUSA.com/AUDT8025</a>
+ - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8043">https://www.LearnAtGSUSA.com/AUDT8043</a>
 filters: Primary-Decision-Support GS-14-15 series-0510
 ---
 

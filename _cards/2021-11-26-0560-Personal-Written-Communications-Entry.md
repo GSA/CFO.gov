@@ -24,9 +24,12 @@ relevant_courses:
  - Fundamentals of Writing (WRIT7010), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7013">https://www.LearnAtGSUSA.com/WRIT7013</a>
  - Government Email Writing (WRIT7041), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7044">https://www.LearnAtGSUSA.com/WRIT7044</a>
  - Writing for Results (WRIT7110), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7113">https://www.LearnAtGSUSA.com/WRIT7113</a>
+ - Developing and Presenting Audit Findings (AUDT7021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7028">https://www.LearnAtGSUSA.com/AUDT7028</a>
  - Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8303">https://www.LearnAtGSUSA.com/AUDT8303</a>
+ - Written Communication for Auditors (AUDT8611), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8618">https://www.LearnAtGSUSA.com/AUDT8618</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8153">https://www.LearnAtGSUSA.com/BUDG8153</a>
  - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8123">https://www.LearnAtGSUSA.com/FINC8123</a>
+ - Writing for Results (WRIT7110), GSU, <a href="https://www.LearnAtGSUSA.com/WRIT7117">https://www.LearnAtGSUSA.com/WRIT7117</a>
 filters: Personal-Written-Communications GS-7-9 series-0560
 ---
 

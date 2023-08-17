@@ -109,17 +109,44 @@ relevant_courses:
  - Virtual Collaboration Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds">https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds</a>
  - Working Effectively on a Team Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/working-effectively-on-a-team-9c912cb0-f918-11e6-aad2-6b3c03be7fe8?cta=feds">https://www.skillsoft.com/channel/working-effectively-on-a-team-9c912cb0-f918-11e6-aad2-6b3c03be7fe8?cta=feds</a>
  - Written Communication Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/written-communication-e25b4610-e719-11e6-9835-f723b46a2688?cta=feds">https://www.skillsoft.com/channel/written-communication-e25b4610-e719-11e6-9835-f723b46a2688?cta=feds</a>
+ - Conducting Perfromance Audits(AUDT7002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7008">https://www.LearnAtGSUSA.com/AUDT7008</a>
+ - Federal Appropriations Law for Auditors (AUDT7010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7016">https://www.LearnAtGSUSA.com/AUDT7016</a>
+ - Financial Management Bootcamp for Federal Auditors (AUDT7020), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7026">https://www.LearnAtGSUSA.com/AUDT7026</a>
  - Contract and Procurement Fraud (AUDT8036), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8006">https://www.LearnAtGSUSA.com/AUDT8006</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8009">https://www.LearnAtGSUSA.com/AUDT8009</a>
+ - Detection and Prevention of Fraud (AUDT8004), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8010">https://www.LearnAtGSUSA.com/AUDT8010</a>
  - Creative an Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
+ - Information Technology for Auditors (AUDT8024), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8030">https://www.LearnAtGSUSA.com/AUDT8030</a>
+ - The Government Audit&#58; From Planning to Reporting (AUDT8032), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8038">https://www.LearnAtGSUSA.com/AUDT8038</a>
  - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8045">https://www.LearnAtGSUSA.com/AUDT8045</a>
  - Intermediate Performance Auditing (AUDT8046), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8048">https://www.LearnAtGSUSA.com/AUDT8048</a>
+ - Written Communication for Auditors (AUDT8611), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8617">https://www.LearnAtGSUSA.com/AUDT8617</a>
+ - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8807">https://www.LearnAtGSUSA.com/AUDT8807</a>
  - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8813">https://www.LearnAtGSUSA.com/AUDT8813</a>
  - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8914">https://www.LearnAtGSUSA.com/AUDT8914</a>
  - Data Analytics for Fraud Detection (AUDT8915), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8917">https://www.LearnAtGSUSA.com/AUDT8917</a>
+ - Army Managers Internal Control Administrators Course (AUDT9015), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9021">https://www.LearnAtGSUSA.com/AUDT9021</a>
  - Decision Making and Problem Solving (MGMT8102), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8104">https://www.LearnAtGSUSA.com/MGMT8104</a>
+ - Conducting Perfromance Audits(AUDT7002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7012">https://www.LearnAtGSUSA.com/AUDT7012</a>
+ - Federal Appropriations Law for Auditors (AUDT7010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7020">https://www.LearnAtGSUSA.com/AUDT7020</a>
+ - Financial Management Bootcamp for Federal Auditors (AUDT7020), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7030">https://www.LearnAtGSUSA.com/AUDT7030</a>
+ - Contract and Procurement Fraud (AUDT8036), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8010">https://www.LearnAtGSUSA.com/AUDT8010</a>
+ - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8013">https://www.LearnAtGSUSA.com/AUDT8013</a>
+ - Detection and Prevention of Fraud (AUDT8004), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
+ - Creative an Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8018">https://www.LearnAtGSUSA.com/AUDT8018</a>
+ - Information Technology for Auditors (AUDT8024), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8034">https://www.LearnAtGSUSA.com/AUDT8034</a>
  - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8036">https://www.LearnAtGSUSA.com/AUDT8036</a>
+ - The Government Audit&#58; From Planning to Reporting (AUDT8032), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8042">https://www.LearnAtGSUSA.com/AUDT8042</a>
+ - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8049">https://www.LearnAtGSUSA.com/AUDT8049</a>
+ - Intermediate Performance Auditing (AUDT8046), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8052">https://www.LearnAtGSUSA.com/AUDT8052</a>
  - Writing Audit Reports by Objectives (AUDT8511), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8513">https://www.LearnAtGSUSA.com/AUDT8513</a>
+ - Written Communication for Auditors (AUDT8611), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8621">https://www.LearnAtGSUSA.com/AUDT8621</a>
+ - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8811">https://www.LearnAtGSUSA.com/AUDT8811</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8817">https://www.LearnAtGSUSA.com/AUDT8817</a>
  - Selecting and Planning Audits for Return on Investment (AUDT8914), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8916">https://www.LearnAtGSUSA.com/AUDT8916</a>
+ - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8918">https://www.LearnAtGSUSA.com/AUDT8918</a>
+ - Data Analytics for Fraud Detection (AUDT8915), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8921">https://www.LearnAtGSUSA.com/AUDT8921</a>
+ - Army Managers Internal Control Administrators Course (AUDT9015), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9025">https://www.LearnAtGSUSA.com/AUDT9025</a>
  - Managing the Audit Engagement (AUDT9102), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9104">https://www.LearnAtGSUSA.com/AUDT9104</a>
  - Building & Leading Teams Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/building-leading-teams-bbeb65e0-c400-11e7-bfa9-ef5e1a5e569f?cta=feds">https://www.skillsoft.com/channel/building-leading-teams-bbeb65e0-c400-11e7-bfa9-ef5e1a5e569f?cta=feds</a>
  - Cross-Cultural Leadership Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/cross-cultural-leadership-0020eef1-162c-438c-a3c7-cd5f0ccfa6ed?cta=feds">https://www.skillsoft.com/channel/cross-cultural-leadership-0020eef1-162c-438c-a3c7-cd5f0ccfa6ed?cta=feds</a>

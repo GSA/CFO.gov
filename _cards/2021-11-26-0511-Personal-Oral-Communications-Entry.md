@@ -24,7 +24,10 @@ relevant_courses:
  - Speaking with Confidence (COMM7010), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7012">https://www.LearnAtGSUSA.com/COMM7012</a>
  - Increasing Personal Effectiveness (COMM7027), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7029">https://www.LearnAtGSUSA.com/COMM7029</a>
  - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7003">https://www.LearnAtGSUSA.com/SUPV7003</a>
+ - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7018">https://www.LearnAtGSUSA.com/AUDT7018</a>
+ - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8528">https://www.LearnAtGSUSA.com/AUDT8528</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8152">https://www.LearnAtGSUSA.com/BUDG8152</a>
+ - Increasing Personal Effectiveness (COMM7027), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7033">https://www.LearnAtGSUSA.com/COMM7033</a>
  - Effective Communications with Customers (COMM8000), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8002">https://www.LearnAtGSUSA.com/COMM8002</a>
 filters: Personal-Oral-Communications GS-7-9 series-0511
 ---

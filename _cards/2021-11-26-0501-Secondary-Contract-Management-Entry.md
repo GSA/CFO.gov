@@ -25,7 +25,10 @@ relevant_courses:
  - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8519">https://www.LearnAtGSUSA.com/ACQI8519</a>
  - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8801">https://www.LearnAtGSUSA.com/AUDT8801</a>
  - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7030">https://www.LearnAtGSUSA.com/ACQI7030</a>
+ - Simplified Acquisition Procedures (ACQI7506), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7510">https://www.LearnAtGSUSA.com/ACQI7510</a>
  - Virtual Contract Management (ACQI8030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8030">https://www.LearnAtGSUSA.com/ACQI8030</a>
+ - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8523">https://www.LearnAtGSUSA.com/ACQI8523</a>
+ - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8805">https://www.LearnAtGSUSA.com/AUDT8805</a>
 filters: Secondary-Contract-Management GS-7-9 series-0501
 ---
 

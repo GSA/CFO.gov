@@ -20,6 +20,7 @@ relevant_courses:
  - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7108">https://www.LearnAtGSUSA.com/BUDG7108</a>
  - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9156">https://www.LearnAtGSUSA.com/FINC9156</a>
  - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8114">https://www.LearnAtGSUSA.com/MGMT8114</a>
+ - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8118">https://www.LearnAtGSUSA.com/MGMT8118</a>
 filters: Personal-Written-Communications GS-14-15 series-0511
 ---
 

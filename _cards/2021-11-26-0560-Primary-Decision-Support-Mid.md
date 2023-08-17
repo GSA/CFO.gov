@@ -175,6 +175,14 @@ relevant_courses:
  - Written Communication Channel, Skillsoft, <a href="https://www.skillsoft.com/channel/written-communication-e25b4610-e719-11e6-9835-f723b46a2688?cta=feds">https://www.skillsoft.com/channel/written-communication-e25b4610-e719-11e6-9835-f723b46a2688?cta=feds</a>
  - Data Literacy for Executives, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives</a>
  - Intermediate and Advanced Tableau, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntermediateAndAdvancedTableau">https://datasociety.meldr.ai/courses/DataSocietyTableau/IntermediateAndAdvancedTableau</a>
+ - Creative an Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8023">https://www.LearnAtGSUSA.com/AUDT8023</a>
+ - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8041">https://www.LearnAtGSUSA.com/AUDT8041</a>
+ - Intermediate Performance Auditing (AUDT8046), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8057">https://www.LearnAtGSUSA.com/AUDT8057</a>
+ - Writing Audit Reports by Objectives (AUDT8511), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8518">https://www.LearnAtGSUSA.com/AUDT8518</a>
+ - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8822">https://www.LearnAtGSUSA.com/AUDT8822</a>
+ - Selecting and Planning Audits for Return on Investment (AUDT8914), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8921">https://www.LearnAtGSUSA.com/AUDT8921</a>
+ - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8923">https://www.LearnAtGSUSA.com/AUDT8923</a>
+ - Managing the Audit Engagement (AUDT9102), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9109">https://www.LearnAtGSUSA.com/AUDT9109</a>
 filters: Primary-Decision-Support GS-10-13 series-0560
 ---
 

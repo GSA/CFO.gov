@@ -113,7 +113,7 @@ function buildCards() {
                 let courseUnique = card.courses.filter(
                     (object, index, self) =>
                       index ===
-                      self.findIndex((o) => o.courseName === object.courseName && o.instName === object.instName)
+                      self.findIndex((o) => o.courseName === object.courseName && o.instName === object.instName && o.urls[0] === object.urls[0])
                   );
 
                 for (i = 0, l = courseUnique.length; i < l; i++) {
