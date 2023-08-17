@@ -23,11 +23,6 @@ relevant_courses:
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8151">https://www.LearnAtGSUSA.com/BUDG8151</a>
  - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8181">https://www.LearnAtGSUSA.com/BUDG8181</a>
  - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7019">https://www.LearnAtGSUSA.com/FINC7019</a>
- - Budget Formulation (BUDG7101), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7106">https://www.LearnAtGSUSA.com/BUDG7106</a>
- - Budget Justification and Presentation (BUDG7102), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7107">https://www.LearnAtGSUSA.com/BUDG7107</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8010">https://www.LearnAtGSUSA.com/BUDG8010</a>
- - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8155">https://www.LearnAtGSUSA.com/BUDG8155</a>
- - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8185">https://www.LearnAtGSUSA.com/BUDG8185</a>
 filters: Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0510
 ---
 

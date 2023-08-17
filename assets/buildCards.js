@@ -110,7 +110,12 @@ function buildCards() {
                     }
                 }
 
-                let courseUnique = [...new Set(card.courses)];
+                let courseUnique = card.courses.filter(
+                    (object, index, self) =>
+                      index ===
+                      self.findIndex((o) => o.courseName === object.courseName && o.instName === object.instName)
+                  );
+
                 for (i = 0, l = courseUnique.length; i < l; i++) {
                     courseExport += '\n -';
                     courseMarkup += '<li>';

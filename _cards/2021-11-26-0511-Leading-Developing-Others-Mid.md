@@ -26,18 +26,7 @@ relevant_courses:
  - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7203">https://www.LearnAtGSUSA.com/MGMT7203</a>
  - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9008">https://www.LearnAtGSUSA.com/MGMT9008</a>
  - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8206">https://www.LearnAtGSUSA.com/TDEV8206</a>
- - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9008">https://www.LearnAtGSUSA.com/AUDT9008</a>
- - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9041">https://www.LearnAtGSUSA.com/AUDT9041</a>
- - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9115">https://www.LearnAtGSUSA.com/AUDT9115</a>
- - Leading People (EXEC9912), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9918">https://www.LearnAtGSUSA.com/EXEC9918</a>
- - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
  - Federal Performance Management (LABR7013), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7015">https://www.LearnAtGSUSA.com/LABR7015</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9030">https://www.LearnAtGSUSA.com/LEAD9030</a>
- - Mentoring Skills (MGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7012">https://www.LearnAtGSUSA.com/MGMT7012</a>
- - Leadership Essentials (MGMT7020), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7030">https://www.LearnAtGSUSA.com/MGMT7030</a>
- - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7207">https://www.LearnAtGSUSA.com/MGMT7207</a>
- - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9012">https://www.LearnAtGSUSA.com/MGMT9012</a>
- - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8210">https://www.LearnAtGSUSA.com/TDEV8210</a>
 filters: Leading-Developing-Others GS-10-13 series-0511
 ---
 

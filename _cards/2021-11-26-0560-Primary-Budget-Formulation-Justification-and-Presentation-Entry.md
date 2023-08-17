@@ -16,8 +16,6 @@ behavior_illustrations: "Applies basic knowledge of budget principles to assist 
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
  - Course Coming Soon
- - Course Coming Soon
- - Course Coming Soon
 filters: Primary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0560
 ---
 

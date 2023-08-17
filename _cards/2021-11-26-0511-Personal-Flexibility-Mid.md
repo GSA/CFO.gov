@@ -18,7 +18,6 @@ proficiency_level_definition: Applies the competency in difficult situations ? R
 relevant_courses: 
  - Managing Multiple Priorities (ADMB7007), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7017">https://www.LearnAtGSUSA.com/ADMB7017</a>
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8018">https://www.LearnAtGSUSA.com/AUDT8018</a>
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8022">https://www.LearnAtGSUSA.com/AUDT8022</a>
 filters: Personal-Flexibility GS-10-13 series-0511
 ---
 

@@ -19,7 +19,6 @@ relevant_courses:
  - Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7200">https://www.LearnAtGSUSA.com/AUDT7200</a>
  - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8003">https://www.LearnAtGSUSA.com/AUDT8003</a>
  - Information Systems Auditing (AUDT8029), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8029">https://www.LearnAtGSUSA.com/AUDT8029</a>
- - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8047">https://www.LearnAtGSUSA.com/AUDT8047</a>
 filters: Primary-Financial-Management-Systems GS-7-9 series-0501
 ---
 

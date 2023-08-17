@@ -18,7 +18,6 @@ relevant_courses:
  - Intermediate Federal Accounting (ACCT8003), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT8003">https://www.LearnAtGSUSA.com/ACCT8003</a>
  - Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8014">https://www.LearnAtGSUSA.com/BUDG8014</a>
  - Course Coming Soon
- - Course Coming Soon
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0501
 ---
 

@@ -36,8 +36,6 @@ relevant_courses:
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8114">https://www.LearnAtGSUSA.com/FINC8114</a>
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8911">https://www.LearnAtGSUSA.com/FINC8911</a>
  - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9157">https://www.LearnAtGSUSA.com/FINC9157</a>
- - Data Literacy for Executives, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives</a>
- - Auditing Performance Outcomes (AUDT9012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9023">https://www.LearnAtGSUSA.com/AUDT9023</a>
 filters: Primary-Financial-Management-Analysis GS-14-15 series-0560
 ---
 

@@ -18,8 +18,6 @@ relevant_courses:
  - Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8011">https://www.LearnAtGSUSA.com/MGMT8011</a>
  - Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8012">https://www.LearnAtGSUSA.com/MGMT8012</a>
  - EEO for Supervisors and Managers (EEOP8101), GSU, <a href="https://www.LearnAtGSUSA.com/EEOP8101">https://www.LearnAtGSUSA.com/EEOP8101</a>
- - Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8015">https://www.LearnAtGSUSA.com/MGMT8015</a>
- - Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8016">https://www.LearnAtGSUSA.com/MGMT8016</a>
 filters: Leading-Leveraging-Diversity GS-10-13 series-0501
 ---
 

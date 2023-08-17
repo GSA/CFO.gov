@@ -26,13 +26,8 @@ relevant_courses:
  - Emotionally Intelligent Leaders (LEAD8007), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD8007">https://www.LearnAtGSUSA.com/LEAD8007</a>
  - From Peer to Leader&#58; Successfully Navigating the Transition (MGMT7125), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7125">https://www.LearnAtGSUSA.com/MGMT7125</a>
  - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7001">https://www.LearnAtGSUSA.com/SUPV7001</a>
- - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7016">https://www.LearnAtGSUSA.com/AUDT7016</a>
  - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8911">https://www.LearnAtGSUSA.com/AUDT8911</a>
  - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7004">https://www.LearnAtGSUSA.com/COMM7004</a>
- - Positive Approaches to Difficult People (COMM7009), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7013">https://www.LearnAtGSUSA.com/COMM7013</a>
- - Building Effetive Organizatinal Relationships&#58; An Employee's RX (COMM7210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7214">https://www.LearnAtGSUSA.com/COMM7214</a>
- - Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8214">https://www.LearnAtGSUSA.com/COMM8214</a>
- - Emotionally Intelligent Leaders (LEAD8007), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD8011">https://www.LearnAtGSUSA.com/LEAD8011</a>
 filters: Personal-Interpersonal-Skills GS-7-9 series-0501
 ---
 

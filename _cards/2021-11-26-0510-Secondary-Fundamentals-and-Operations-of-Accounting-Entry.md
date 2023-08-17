@@ -20,14 +20,8 @@ relevant_courses:
  - Government Standard General Ledger (ACCT8100), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT8101">https://www.LearnAtGSUSA.com/ACCT8101</a>
  - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7001">https://www.LearnAtGSUSA.com/FINC7001</a>
  - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8301">https://www.LearnAtGSUSA.com/FINC8301</a>
- - Introduction to Federal Accounting (ACCT7001), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT7006">https://www.LearnAtGSUSA.com/ACCT7006</a>
- - Federal Accounting Standards (ACCT7102), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT7107">https://www.LearnAtGSUSA.com/ACCT7107</a>
- - Government Standard General Ledger (ACCT8100), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT8105">https://www.LearnAtGSUSA.com/ACCT8105</a>
  - Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8011">https://www.LearnAtGSUSA.com/BUDG8011</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7005">https://www.LearnAtGSUSA.com/FINC7005</a>
- - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8305">https://www.LearnAtGSUSA.com/FINC8305</a>
  - Intermediate Federal Accounting (ACCT8003), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT8004">https://www.LearnAtGSUSA.com/ACCT8004</a>
- - Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8015">https://www.LearnAtGSUSA.com/BUDG8015</a>
 filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-7-9 series-0510
 ---
 

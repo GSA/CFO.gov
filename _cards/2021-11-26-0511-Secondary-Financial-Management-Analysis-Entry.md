@@ -34,7 +34,6 @@ relevant_courses:
  - Logistic Regression in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/LogisticRegression">https://datasociety.meldr.ai/courses/DataScience/LogisticRegression</a>
  - Simple Linear Regression in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/SimpleRegression">https://datasociety.meldr.ai/courses/DataScience/SimpleRegression</a>
  - Data Visual Design and Storytelling, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling</a>
- - Fundamentals of Data Literacy, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy">https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy</a>
  - Data Wrangling in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR">https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR</a>
  - Intermediate Clustering in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntermediateClusteringInR">https://datasociety.meldr.ai/courses/DataScience-R/IntermediateClusteringInR</a>
  - Introduction to Classification in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToClassificationInR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToClassificationInR</a>
@@ -42,16 +41,13 @@ relevant_courses:
  - Introduction to Visualization in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToVisualizationInR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToVisualizationInR</a>
  - Logistic Regression in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR">https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR</a>
  - Simple Linear Regression in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR">https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR</a>
- - Introduction to Excel, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel">https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel</a>
  - Introduction to Power BI, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI">https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI</a>
  - Introduction to Tableau, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau">https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau</a>
  - Intermediate SQL, Data Society, <a href="https://datasociety.meldr.ai/courses/SQL/IntermediateSQL">https://datasociety.meldr.ai/courses/SQL/IntermediateSQL</a>
  - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8102">https://www.LearnAtGSUSA.com/AUDT8102</a>
  - Practical Statistical Sampling for Auditors (AUDT8112), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8114">https://www.LearnAtGSUSA.com/AUDT8114</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8817">https://www.LearnAtGSUSA.com/AUDT8817</a>
  - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8915">https://www.LearnAtGSUSA.com/AUDT8915</a>
  - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8105">https://www.LearnAtGSUSA.com/FINC8105</a>
- - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8126">https://www.LearnAtGSUSA.com/FINC8126</a>
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8902">https://www.LearnAtGSUSA.com/FINC8902</a>
 filters: Secondary-Financial-Management-Analysis GS-7-9 series-0511
 ---

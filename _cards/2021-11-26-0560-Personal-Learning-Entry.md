@@ -17,10 +17,8 @@ proficiency_level_definition: Applies the competency in somewhat difficult situa
 relevant_courses: 
  - Aspiring Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram">https://www.LearnAtGSUSA.com/AspiringLeaderProgram</a>
  - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
- - Aspiring Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram">https://www.LearnAtGSUSA.com/AspiringLeaderProgram</a>
  - Executive Potential Program (EPPG8840), GSU, <a href="https://www.LearnAtGSUSA.com/EPPG8843">https://www.LearnAtGSUSA.com/EPPG8843</a>
  - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
- - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
 filters: Personal-Learning GS-7-9 series-0560
 ---
 

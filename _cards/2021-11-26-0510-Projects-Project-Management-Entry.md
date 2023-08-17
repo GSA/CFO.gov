@@ -17,10 +17,8 @@ proficiency_level_definition: Applies the competency in the simplest situations 
 relevant_courses: 
  - Fundamentals of Project and Program Management (ACQI7110), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7111">https://www.LearnAtGSUSA.com/ACQI7111</a>
  - Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7016">https://www.LearnAtGSUSA.com/PROJ7016</a>
- - Fundamentals of Project and Program Management (ACQI7110), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7115">https://www.LearnAtGSUSA.com/ACQI7115</a>
  - Principles for Managing Projects (PGMT7012), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7013">https://www.LearnAtGSUSA.com/PGMT7013</a>
  - Introduction to Agile Project Management (PROJ7010), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7011">https://www.LearnAtGSUSA.com/PROJ7011</a>
- - Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7020">https://www.LearnAtGSUSA.com/PROJ7020</a>
 filters: Projects-Project-Management GS-7-9 series-0510
 ---
 

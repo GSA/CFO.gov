@@ -36,9 +36,6 @@ relevant_courses:
  - Data Strategy&#58; Leveraging Data as a Competitive Advantage (with UC Berkeley Executive Education), Emeritus, <a href="https://em-executive.berkeley.edu/digital-transformation/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://em-executive.berkeley.edu/digital-transformation/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
  - Applied Business Analytics&#58; Decision-Making with Data- (with MIT Sloan Executive Education), Emeritus, <a href="https://execed-online.imperial.ac.uk/business-analytics/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://execed-online.imperial.ac.uk/business-analytics/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
  - Imperial Business Analytics&#58; From Data to Decisions (with Imperial College Business School of Education), Emeritus, <a href="https://execonline.rotman.utoronto.ca/business-analytics/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://execonline.rotman.utoronto.ca/business-analytics/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
- - Using Metrics to Assess Performance (AUDT8027), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8039">https://www.LearnAtGSUSA.com/AUDT8039</a>
- - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8108">https://www.LearnAtGSUSA.com/AUDT8108</a>
- - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9154">https://www.LearnAtGSUSA.com/FINC9154</a>
  - Introduction to Program Evaluation (PGMT7003), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7003">https://www.LearnAtGSUSA.com/PGMT7003</a>
  - Data Analysis and Storytelling (PGMT8050), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8050">https://www.LearnAtGSUSA.com/PGMT8050</a>
  - Cost-Benefit Analysis Workshop (PGMT8100), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8100">https://www.LearnAtGSUSA.com/PGMT8100</a>

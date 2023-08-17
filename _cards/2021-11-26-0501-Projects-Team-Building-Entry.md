@@ -19,7 +19,6 @@ relevant_courses:
  - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8112">https://www.LearnAtGSUSA.com/MGMT8112</a>
  - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7001">https://www.LearnAtGSUSA.com/SUPV7001</a>
  - Jump Starting High Performance Teams&#58; The Fundamentals (TDEV7021), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV7021">https://www.LearnAtGSUSA.com/TDEV7021</a>
- - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8116">https://www.LearnAtGSUSA.com/MGMT8116</a>
  - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8200">https://www.LearnAtGSUSA.com/TDEV8200</a>
 filters: Projects-Team-Building GS-7-9 series-0501
 ---

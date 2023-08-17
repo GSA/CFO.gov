@@ -16,7 +16,6 @@ behavior_illustrations: "Examines a variety of program plans and funding to dete
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
  - Course Coming Soon
- - Course Coming Soon
 filters: Alternate-Budget-Concepts-Policies-and-Principles GS-10-13 series-0501
 ---
 

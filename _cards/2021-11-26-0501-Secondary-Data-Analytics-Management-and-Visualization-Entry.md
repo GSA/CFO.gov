@@ -21,15 +21,10 @@ relevant_courses:
  - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8043">https://www.LearnAtGSUSA.com/AUDT8043</a>
  - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8120">https://www.LearnAtGSUSA.com/FINC8120</a>
  - Counterintelligence for Information Security and Protection (AUDT7200), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7200">https://www.LearnAtGSUSA.com/AUDT7200</a>
- - Analysis Techniques for Auditors (AUDT7900), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7904">https://www.LearnAtGSUSA.com/AUDT7904</a>
- - Using Metrics to Assess Performance (AUDT8027), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8031">https://www.LearnAtGSUSA.com/AUDT8031</a>
- - Information Systems Auditing (AUDT8029), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8033">https://www.LearnAtGSUSA.com/AUDT8033</a>
- - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8047">https://www.LearnAtGSUSA.com/AUDT8047</a>
  - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8100">https://www.LearnAtGSUSA.com/AUDT8100</a>
  - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8913">https://www.LearnAtGSUSA.com/AUDT8913</a>
  - Data Analytics for Fraud Detection (AUDT8915), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8915">https://www.LearnAtGSUSA.com/AUDT8915</a>
  - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8150">https://www.LearnAtGSUSA.com/BUDG8150</a>
- - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8124">https://www.LearnAtGSUSA.com/FINC8124</a>
  - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8900">https://www.LearnAtGSUSA.com/FINC8900</a>
  - Data Collection Methods (PGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8011">https://www.LearnAtGSUSA.com/PGMT8011</a>
 filters: Secondary-Data-Analytics-Management-and-Visualization GS-7-9 series-0501

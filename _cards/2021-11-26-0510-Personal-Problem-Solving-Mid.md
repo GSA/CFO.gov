@@ -18,7 +18,6 @@ relevant_courses:
  - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7503">https://www.LearnAtGSUSA.com/ACQI7503</a>
  - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8017">https://www.LearnAtGSUSA.com/AUDT8017</a>
  - Preparing to Lead in the 21st Century (MGMT9020), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9021">https://www.LearnAtGSUSA.com/MGMT9021</a>
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8021">https://www.LearnAtGSUSA.com/AUDT8021</a>
 filters: Personal-Problem-Solving GS-10-13 series-0510
 ---
 
