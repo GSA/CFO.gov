@@ -81,14 +81,18 @@ primary_navigation:
   - name: Our Work
     url: /
     children:
+      - name: Federal Financial Assistance
+        url: "/federal-financial-assistance/"
+      - name: Federal Financial Reporting
+        url: "/federal-financial-reporting/"
       - name: Financial Management Workforce
         url: "/workforce-modernization/"
-      - name: American Rescue Plan (ARP)
-        url:  "/american-rescue-plan/"
       - name: Major Legislation
         url:  "/major-legislation/"
-      - name: Federal Financial Reporting
-        url:  "/federal-financial-reporting/"
+      - name: Payment Integrity
+        url: "/payment-integrity/"
+      - name: Payment Integrity & Fraud Symposium
+        url: "/payment-integrity-fraud-symposium/"
   - name: Resources
     url: "/resources/"
   - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>

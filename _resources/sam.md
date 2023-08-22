@@ -1,7 +1,8 @@
 ---
 layout: resources-landing
-title: "SAM.gov - the Official U.S. Government System for contract opportunities, assistance listings, contract data, entity information, wage determinations, entity reporting, and federal hierarchy"
-subtitle: "SAM.gov - the Official U.S. Government System for contract opportunities, assistance listings, contract data, entity information, wage determinations, entity reporting, and federal hierarchy"
-filters: federal-financial-assistance uniform-guidance website
+title: "SAM.gov Home"
+subtitle: "SAM.gov Home"
 external_link: https://sam.gov/content/home
+filters: federal-financial-assistance uniform-guidance-2-cfr-200 website
+fiscal_year:
 ---
