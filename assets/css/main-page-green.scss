@@ -33,7 +33,7 @@
 
 
 .search-button {
-  background-color: #d83933;
+    background-color: #4F9E99;
 }
 
 .usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
@@ -1044,9 +1044,26 @@ abbr{
 }
 
 .welcome {
-    background: url("../assets/images/slider-image-new.png") no-repeat;
+    background: url("../assets/images/DC-Hero-Image.png") no-repeat;
     background-size: 100% 100%;
     padding: 45px 0;
     color: #fff;
-    background-color:#000;
+    background-color: #000;
 }
+
+.search {
+    border-color: #4F9E99;
+}
+
+.bg-green {
+    background-color: #4F9E99;
+}
+
+.bg-yellow {
+    background-color: rgba(229, 160, 0,0.9);
+}
+
+/*.bg-yellow:hover, .bg-yellow.usa-button--hover {
+    background-color: #e5b000;
+}*/
+
