@@ -54,15 +54,13 @@ site, this is the place to do it.
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/slick.css?{{ site.time | date: '%s%N' }}">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/slick-theme.css?{{ site.time | date: '%s%N' }}">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/magnific-popup.css?{{ site.time | date: '%s%N' }}">
-
+  {% asset index.scss %}
   {% if page.url contains '/payment-accuracy/'
   or page.url contains '/jfmip/'
   or page.url contains '/frpc/'
   or page.url contains '/cxo-fellows/' %}
-    {% asset index.scss %}
     {% asset main-page.scss %}
   {% else %}
-    {% asset index-green.scss %}
     {% asset main-page-green.scss %}
   {% endif %}
 </head>
