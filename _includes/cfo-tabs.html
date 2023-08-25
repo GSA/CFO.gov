@@ -11,7 +11,7 @@ This template used by CFO Tabs feature. Include your data to render.
       <a href="#{{ tab.name }}"
          role="tab"
          aria-controls="{{ tab.name }}"
-         data-path="{{ tab.path }}"
+         data-path="{{site.baseurl}}{{ tab.path }}"
          id="tab-btn-{{ tab.name }}"
          class="text-no-underline text-base-darker font-sans-md"
       >{{ tab.title }}</a></li>
