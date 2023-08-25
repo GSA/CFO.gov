@@ -78,11 +78,11 @@ title: Priority
     {% endif %}
 
     {% if page.type == "payment-integrity" %}
-    {% include priority_pi_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.pi_tabs %}
     {% endif %}
 
     {% if page.type == "workforce-modernization" %}
-    {% include priority_workforce_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.workforce_modernization_tabs %}
     {% endif %}
 
     {% if page.type == "arp" %}
@@ -90,19 +90,19 @@ title: Priority
     {% endif %}
 
     {% if page.type == "major-legislation" %}
-    {% include priority_ml_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.ml_tabs %}
     {% endif %}
 
     {% if page.type == "ffr" %}
-    {% include priority_ffr_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.ffr_tabs %}
     {% endif %}
 
     {% if page.type == "ffa" %}
-    {% include priority_ffa_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.ffa_tabs %}
     {% endif %}
 
     {% if page.type == "symposium" %}
-    {% include priority_payment-integirty-fraud-symposium_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.pifss_tabs %}
     {% endif %}
 
 </section>
