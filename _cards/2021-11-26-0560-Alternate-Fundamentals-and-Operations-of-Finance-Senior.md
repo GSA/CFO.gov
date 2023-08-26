@@ -15,13 +15,13 @@ level: "14-15"
 behavior_illustrations: "Initiates actions to locate, extract, adjust and compile financial data to support the financial management function ? Applies established procedures to determine and coordinate actions necessary to resolve non-recurring situations"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7033">https://www.LearnAtGSUSA.com/ACQI7033</a>
- - FAR Basics (ACQI7100), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7111">https://www.LearnAtGSUSA.com/ACQI7111</a>
- - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8110">https://www.LearnAtGSUSA.com/BUDG8110</a>
- - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7021">https://www.LearnAtGSUSA.com/FINC7021</a>
- - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8110">https://www.LearnAtGSUSA.com/FINC8110</a>
- - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8114">https://www.LearnAtGSUSA.com/BUDG8114</a>
- - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8114">https://www.LearnAtGSUSA.com/FINC8114</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7033">Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7111">FAR Basics (ACQI7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8110">Department of Homeland Security PPBE System (BUDG8103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7021">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8110">Understanding Federal Financial Statements (FINC8103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8114">Department of Homeland Security PPBE System (BUDG8103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8114">Understanding Federal Financial Statements (FINC8103), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Finance GS-14-15 series-0560
 ---
 

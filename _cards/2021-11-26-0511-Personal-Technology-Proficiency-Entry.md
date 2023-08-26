@@ -15,10 +15,10 @@ level: "7-9"
 behavior_illustrations: "Uses required technology-related knowledge and skill to complete job tasks at an acceptable level ? Seeks out guidance from appropriate sources to complete tasks using commonly-used technology "
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Fundamentals of Software Engineering (with Carnegie Mellon University School of Computer Science), Emeritus, <a href="https://execonline.cs.cmu.edu/fundamentals-of-software-engineering/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://execonline.cs.cmu.edu/fundamentals-of-software-engineering/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
- - Artificial Intelligence (with Carnegie Mellon University School of Computer Science), Emeritus, <a href="https://execonline.cs.cmu.edu/introduction-artificial-intelligence/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://execonline.cs.cmu.edu/introduction-artificial-intelligence/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
- - Cybersecurity&#58; Identity and Access Management (with MIT xPRO), Emeritus, <a href="https://executive-ed.xpro.mit.edu/cybersecurity-identity-access-management/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.xpro.mit.edu/cybersecurity-identity-access-management/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
- - Python for Managers (Online) (with Columbia Business School Executive Education), Columbia, <a href="https://online1.gsb.columbia.edu/columbia/python-for-managers/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://online1.gsb.columbia.edu/columbia/python-for-managers/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
+- <a href="https://execonline.cs.cmu.edu/fundamentals-of-software-engineering/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Fundamentals of Software Engineering (with Carnegie Mellon University School of Computer Science), Emeritus</a>
+- <a href="https://execonline.cs.cmu.edu/introduction-artificial-intelligence/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Artificial Intelligence (with Carnegie Mellon University School of Computer Science), Emeritus</a>
+- <a href="https://executive-ed.xpro.mit.edu/cybersecurity-identity-access-management/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Cybersecurity&#58; Identity and Access Management (with MIT xPRO), Emeritus</a>
+- <a href="https://online1.gsb.columbia.edu/columbia/python-for-managers/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Python for Managers (Online) (with Columbia Business School Executive Education), Columbia</a>
 filters: Personal-Technology-Proficiency GS-7-9 series-0511
 ---
 

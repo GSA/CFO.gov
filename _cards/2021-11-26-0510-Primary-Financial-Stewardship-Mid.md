@@ -15,17 +15,17 @@ level: "10-13"
 behavior_illustrations: "Interprets, analyzes and advises others on financial policies, regulations and procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8016">https://www.LearnAtGSUSA.com/AUDT8016</a>
- - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8039">https://www.LearnAtGSUSA.com/AUDT8039</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8820">https://www.LearnAtGSUSA.com/AUDT8820</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8917">https://www.LearnAtGSUSA.com/AUDT8917</a>
- - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8005">https://www.LearnAtGSUSA.com/BUDG8005</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8010">https://www.LearnAtGSUSA.com/BUDG8010</a>
- - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8185">https://www.LearnAtGSUSA.com/BUDG8185</a>
- - Antideficiency Act (FINC7207), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7212">https://www.LearnAtGSUSA.com/FINC7212</a>
- - Federal Appropriations Law Refresher and Update (FINC8147), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8152">https://www.LearnAtGSUSA.com/FINC8152</a>
- - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8209">https://www.LearnAtGSUSA.com/FINC8209</a>
- - Advanced Appropriations Law (FINC9100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9105">https://www.LearnAtGSUSA.com/FINC9105</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8016">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8039">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8820">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8917">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8005">Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8010">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8185">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7212">Antideficiency Act (FINC7207), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8152">Federal Appropriations Law Refresher and Update (FINC8147), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8209">DoD Fiscal Law Principles (FINC8200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC9105">Advanced Appropriations Law (FINC9100), GSU</a>
 filters: Primary-Financial-Stewardship GS-10-13 series-0510
 ---
 

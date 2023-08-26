@@ -15,11 +15,11 @@ level: "10-13"
 behavior_illustrations: "Modifies the order of work performed to meet changing circumstances and deadlines ? Acquires project resources and clarifies the roles and responsibilities of project team members ? Manages, designs, implements, and monitors projects of moderate scope"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Professional Certificate in Technical Project Management (with MIT xPro), Emeritus, <a href="https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
- - Project Management Essentials (PGMT7007), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7007">https://www.LearnAtGSUSA.com/PGMT7007</a>
- - Project Leadership (PGMT8010), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8010">https://www.LearnAtGSUSA.com/PGMT8010</a>
- - Overview of Project Management (PROJ7020), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7020">https://www.LearnAtGSUSA.com/PROJ7020</a>
- - Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU, <a href="https://www.LearnAtGSUSA.com/PROJ7023">https://www.LearnAtGSUSA.com/PROJ7023</a>
+- <a href="https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Professional Certificate in Technical Project Management (with MIT xPro), Emeritus</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT7007">Project Management Essentials (PGMT7007), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT8010">Project Leadership (PGMT8010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROJ7020">Overview of Project Management (PROJ7020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROJ7023">Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU</a>
 filters: Projects-Project-Management GS-10-13 series-0501
 ---
 

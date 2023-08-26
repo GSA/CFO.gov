@@ -16,9 +16,9 @@ behavior_illustrations: "Identifies functional processes, requirements or interf
  ? Identifies emerging trends for use with automated financial management systems to improve operations, customer service and ensure system compliance"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8014">https://www.LearnAtGSUSA.com/AUDT8014</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8919">https://www.LearnAtGSUSA.com/AUDT8919</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8923">https://www.LearnAtGSUSA.com/AUDT8923</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8014">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8919">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8923">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
 filters: Primary-Financial-Management-Systems GS-14-15 series-0560
 ---
 

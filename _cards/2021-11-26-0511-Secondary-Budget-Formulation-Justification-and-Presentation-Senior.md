@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Formulates budget, develops justifications and presents to stakeholders for feedback"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- 
 filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0511
 ---
 

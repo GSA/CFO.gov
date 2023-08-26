@@ -15,24 +15,24 @@ level: "7-9"
 behavior_illustrations: "Interacts with co-workers in a tactful manner ? Responds to employee inquiries ? Shows employees empathy and respect ? Welcomes new employees into organization by explaining mission and agency goals ? Develops and maintains effective working relationships"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Leadership Skills for Non-Supervisors (ADMB7006), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7007">https://www.LearnAtGSUSA.com/ADMB7007</a>
- - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7013">https://www.LearnAtGSUSA.com/AUDT7013</a>
- - Assertiveness Skills (COMM7001), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7002">https://www.LearnAtGSUSA.com/COMM7002</a>
- - Briefing Techniques (COMM7002), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7003">https://www.LearnAtGSUSA.com/COMM7003</a>
- - Interpersonal Communications (COMM7006), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7007">https://www.LearnAtGSUSA.com/COMM7007</a>
- - Positive Approaches to Difficult People (COMM7009), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7010">https://www.LearnAtGSUSA.com/COMM7010</a>
- - Building Effetive Organizatinal Relationships&#58; An Employee's RX (COMM7210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7211">https://www.LearnAtGSUSA.com/COMM7211</a>
- - Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8211">https://www.LearnAtGSUSA.com/COMM8211</a>
- - Emotionally Intelligent Leaders (LEAD8007), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD8008">https://www.LearnAtGSUSA.com/LEAD8008</a>
- - From Peer to Leader&#58; Successfully Navigating the Transition (MGMT7125), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7126">https://www.LearnAtGSUSA.com/MGMT7126</a>
- - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7002">https://www.LearnAtGSUSA.com/SUPV7002</a>
- - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7017">https://www.LearnAtGSUSA.com/AUDT7017</a>
- - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8912">https://www.LearnAtGSUSA.com/AUDT8912</a>
- - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7005">https://www.LearnAtGSUSA.com/COMM7005</a>
- - Positive Approaches to Difficult People (COMM7009), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7014">https://www.LearnAtGSUSA.com/COMM7014</a>
- - Building Effetive Organizatinal Relationships&#58; An Employee's RX (COMM7210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7215">https://www.LearnAtGSUSA.com/COMM7215</a>
- - Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8215">https://www.LearnAtGSUSA.com/COMM8215</a>
- - Emotionally Intelligent Leaders (LEAD8007), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD8012">https://www.LearnAtGSUSA.com/LEAD8012</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7007">Leadership Skills for Non-Supervisors (ADMB7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7013">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7002">Assertiveness Skills (COMM7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7003">Briefing Techniques (COMM7002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7007">Interpersonal Communications (COMM7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7010">Positive Approaches to Difficult People (COMM7009), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7211">Building Effetive Organizatinal Relationships&#58; An Employee's RX (COMM7210), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM8211">Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD8008">Emotionally Intelligent Leaders (LEAD8007), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7126">From Peer to Leader&#58; Successfully Navigating the Transition (MGMT7125), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/SUPV7002">Introduction to Supervision (SUPV7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7017">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8912">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7005">Constructive Conflict Resolution (COMM7004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7014">Positive Approaches to Difficult People (COMM7009), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7215">Building Effetive Organizatinal Relationships&#58; An Employee's RX (COMM7210), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM8215">Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD8012">Emotionally Intelligent Leaders (LEAD8007), GSU</a>
 filters: Personal-Interpersonal-Skills GS-7-9 series-0510
 ---
 

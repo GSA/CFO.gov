@@ -15,10 +15,10 @@ level: "10-13"
 behavior_illustrations: "Gathers and summarizes information to predict stakeholder views on a new policy ? Considers external policies and trends when reviewing correspondence, reports, and policy documents"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8009">https://www.LearnAtGSUSA.com/AUDT8009</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8813">https://www.LearnAtGSUSA.com/AUDT8813</a>
- - Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8002">https://www.LearnAtGSUSA.com/BUDG8002</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8003">https://www.LearnAtGSUSA.com/BUDG8003</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8009">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8813">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8002">Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8003">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
 filters: Projects-Organizational-Awareness GS-10-13 series-0511
 ---
 

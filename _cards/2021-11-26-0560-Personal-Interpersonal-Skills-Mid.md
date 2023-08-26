@@ -15,16 +15,16 @@ level: "10-13"
 behavior_illustrations: "Makes self accessible to employees at all levels ? Corrects employee mistakes in a courteous manner ? Demonstrates courtesy, empathy and respect"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7023">https://www.LearnAtGSUSA.com/AUDT7023</a>
- - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8918">https://www.LearnAtGSUSA.com/AUDT8918</a>
- - Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9013">https://www.LearnAtGSUSA.com/AUDT9013</a>
- - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9038">https://www.LearnAtGSUSA.com/AUDT9038</a>
- - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7011">https://www.LearnAtGSUSA.com/COMM7011</a>
- - Positive Approaches to Difficult People (COMM7009), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7020">https://www.LearnAtGSUSA.com/COMM7020</a>
- - Building Effetive Organizatinal Relationships&#58; An Employee's RX (COMM7210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7221">https://www.LearnAtGSUSA.com/COMM7221</a>
- - Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8221">https://www.LearnAtGSUSA.com/COMM8221</a>
- - Emotionally Intelligent Leaders (LEAD8007), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD8018">https://www.LearnAtGSUSA.com/LEAD8018</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9023">https://www.LearnAtGSUSA.com/LEAD9023</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7023">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8918">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9013">Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9038">Coaching Audit Staff for High Perfromance (AUDT9035), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7011">Constructive Conflict Resolution (COMM7004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7020">Positive Approaches to Difficult People (COMM7009), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7221">Building Effetive Organizatinal Relationships&#58; An Employee's RX (COMM7210), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM8221">Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD8018">Emotionally Intelligent Leaders (LEAD8007), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9023">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
 filters: Personal-Interpersonal-Skills GS-10-13 series-0560
 ---
 

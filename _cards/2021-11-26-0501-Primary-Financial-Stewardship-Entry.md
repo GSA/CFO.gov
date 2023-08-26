@@ -15,38 +15,38 @@ level: "7-9"
 behavior_illustrations: "Performs and documents transactions and monitors records in compliance with laws, regulations, and policies to meet organizational goals and objectives ? Applies knowledge of policies and procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives ? Allocates funds within approved guidelines ? Uses appropriate finance and accounting procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8003">https://www.LearnAtGSUSA.com/AUDT8003</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7000">https://www.LearnAtGSUSA.com/FINC7000</a>
- - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7010">https://www.LearnAtGSUSA.com/FINC7010</a>
- - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7100">https://www.LearnAtGSUSA.com/FINC7100</a>
- - Warehousing, Operations and Disposal (PROP7001), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7001">https://www.LearnAtGSUSA.com/PROP7001</a>
- - Property Management for Custodial Officers (PROP7103), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7103">https://www.LearnAtGSUSA.com/PROP7103</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8007">https://www.LearnAtGSUSA.com/AUDT8007</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8811">https://www.LearnAtGSUSA.com/AUDT8811</a>
- - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7100">https://www.LearnAtGSUSA.com/BUDG7100</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8001">https://www.LearnAtGSUSA.com/BUDG8001</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7004">https://www.LearnAtGSUSA.com/FINC7004</a>
- - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7014">https://www.LearnAtGSUSA.com/FINC7014</a>
- - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7104">https://www.LearnAtGSUSA.com/FINC7104</a>
- - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8200">https://www.LearnAtGSUSA.com/FINC8200</a>
- - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7030">https://www.LearnAtGSUSA.com/ACQI7030</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8011">https://www.LearnAtGSUSA.com/AUDT8011</a>
- - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8034">https://www.LearnAtGSUSA.com/AUDT8034</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8815">https://www.LearnAtGSUSA.com/AUDT8815</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8912">https://www.LearnAtGSUSA.com/AUDT8912</a>
- - Budget Execution (BUDG7100), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG7104">https://www.LearnAtGSUSA.com/BUDG7104</a>
- - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8000">https://www.LearnAtGSUSA.com/BUDG8000</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8005">https://www.LearnAtGSUSA.com/BUDG8005</a>
- - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8180">https://www.LearnAtGSUSA.com/BUDG8180</a>
- - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7018">https://www.LearnAtGSUSA.com/FINC7018</a>
- - Federal Appropriations Law (FINC7100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7108">https://www.LearnAtGSUSA.com/FINC7108</a>
- - Antideficiency Act (FINC7207), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7207">https://www.LearnAtGSUSA.com/FINC7207</a>
- - Federal Appropriations Law Refresher and Update (FINC8147), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8147">https://www.LearnAtGSUSA.com/FINC8147</a>
- - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8204">https://www.LearnAtGSUSA.com/FINC8204</a>
- - Advanced Appropriations Law (FINC9100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9100">https://www.LearnAtGSUSA.com/FINC9100</a>
- - Appropriations Law for Reimbursements, Revolving Funds and User Fees (FINC9115), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9115">https://www.LearnAtGSUSA.com/FINC9115</a>
- - Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7013">https://www.LearnAtGSUSA.com/PROP7013</a>
- - Property Accountability&#58; The Life Cycle (PROP7112), GSU, <a href="https://www.LearnAtGSUSA.com/PROP7112">https://www.LearnAtGSUSA.com/PROP7112</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7000">Introduction to Financial Management (FINC7000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7010">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7100">Federal Appropriations Law (FINC7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROP7001">Warehousing, Operations and Disposal (PROP7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROP7103">Property Management for Custodial Officers (PROP7103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8007">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8811">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7100">Budget Execution (BUDG7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8001">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7004">Introduction to Financial Management (FINC7000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7014">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7104">Federal Appropriations Law (FINC7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8200">DoD Fiscal Law Principles (FINC8200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7030">Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8011">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8034">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8815">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7104">Budget Execution (BUDG7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8000">Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8005">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8180">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7018">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7108">Federal Appropriations Law (FINC7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7207">Antideficiency Act (FINC7207), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8147">Federal Appropriations Law Refresher and Update (FINC8147), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8204">DoD Fiscal Law Principles (FINC8200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC9100">Advanced Appropriations Law (FINC9100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC9115">Appropriations Law for Reimbursements, Revolving Funds and User Fees (FINC9115), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROP7013">Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROP7112">Property Accountability&#58; The Life Cycle (PROP7112), GSU</a>
 filters: Primary-Financial-Stewardship GS-7-9 series-0501
 ---
 

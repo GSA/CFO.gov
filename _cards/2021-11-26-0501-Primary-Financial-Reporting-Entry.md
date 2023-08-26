@@ -15,14 +15,14 @@ level: "7-9"
 behavior_illustrations: "Obtains data from financial management systems to acquire a basic knowledge of the financial statements and/or reports, while improving operations by increasing productivity such as by advancing the skill sets and knowledge of finance personnel ? Prepares and/or queries financial statements and/or reports to meet the requirements as specified in the Treasury Financial Manual along with other Departmental Agency Regulations ? Reviews and reconciles the financial statements and/or reports to ensure accuracy and completeness"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8003">https://www.LearnAtGSUSA.com/AUDT8003</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8007">https://www.LearnAtGSUSA.com/AUDT8007</a>
- - Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8010">https://www.LearnAtGSUSA.com/BUDG8010</a>
- - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8103">https://www.LearnAtGSUSA.com/FINC8103</a>
- - Intermediate Federal Accounting (ACCT8003), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT8003">https://www.LearnAtGSUSA.com/ACCT8003</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8011">https://www.LearnAtGSUSA.com/AUDT8011</a>
- - Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8014">https://www.LearnAtGSUSA.com/BUDG8014</a>
- - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8107">https://www.LearnAtGSUSA.com/FINC8107</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8007">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8010">Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8103">Understanding Federal Financial Statements (FINC8103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACCT8003">Intermediate Federal Accounting (ACCT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8011">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8014">Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8107">Understanding Federal Financial Statements (FINC8103), GSU</a>
 filters: Primary-Financial-Reporting GS-7-9 series-0501
 ---
 

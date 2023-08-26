@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Mentors new employees or junior staff ? Collaborates with customers to define products and services ? Participates in or leads analysis across the organization"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9023">https://www.LearnAtGSUSA.com/LEAD9023</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9023">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
 filters: Projects-Mission-and-Culture GS-10-13 series-0560
 ---
 

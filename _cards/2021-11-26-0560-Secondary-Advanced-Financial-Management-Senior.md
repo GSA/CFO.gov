@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Interprets and advises others on accounting and financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- 
 filters: Secondary-Advanced-Financial-Management GS-14-15 series-0560
 ---
 

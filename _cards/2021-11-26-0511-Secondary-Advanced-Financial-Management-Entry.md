@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Uses typical accounting and financial procedures and practices that apply to most situations ? Applies knowledge of policies and procedures to ensure adherence to accounting and financial guidelines ? Examines a variety of accounts, documents, records, related reports and processes to determine performance in accordance with appropriate procedures and regulations"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- 
 filters: Secondary-Advanced-Financial-Management GS-7-9 series-0511
 ---
 

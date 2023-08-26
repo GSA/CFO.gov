@@ -16,7 +16,7 @@ behavior_illustrations: "Presents complex information articulately when meeting 
 "
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8539">https://www.LearnAtGSUSA.com/AUDT8539</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8539">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
 filters: Personal-Oral-Communications GS-14-15 series-0510
 ---
 

@@ -15,15 +15,15 @@ level: "7-9"
 behavior_illustrations: "Applies knowledge of commonly used financial management procedures and techniques to perform routine and repetitive administrative tasks"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - FAR Basics (ACQI7100), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7101">https://www.LearnAtGSUSA.com/ACQI7101</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7001">https://www.LearnAtGSUSA.com/FINC7001</a>
- - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7011">https://www.LearnAtGSUSA.com/FINC7011</a>
- - Travel Regulations for Non-Defense Agencies, FTR (PCS Only) (FINC7104), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7105">https://www.LearnAtGSUSA.com/FINC7105</a>
- - Travel Regulations for Non-Defense Agencies, FTR (TDY Only) (FINC7213), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7214">https://www.LearnAtGSUSA.com/FINC7214</a>
- - Travel Regulations for Defense Agencies, JTR (TDY Only) (FINC7215), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7216">https://www.LearnAtGSUSA.com/FINC7216</a>
- - Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8231">https://www.LearnAtGSUSA.com/FINC8231</a>
- - Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8232">https://www.LearnAtGSUSA.com/FINC8232</a>
- - Travel Regulations for Non-Defense Agencies, FTR (TDY and PCS) (FINC8232), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8233">https://www.LearnAtGSUSA.com/FINC8233</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7101">FAR Basics (ACQI7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7001">Introduction to Financial Management (FINC7000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7011">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7105">Travel Regulations for Non-Defense Agencies, FTR (PCS Only) (FINC7104), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7214">Travel Regulations for Non-Defense Agencies, FTR (TDY Only) (FINC7213), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7216">Travel Regulations for Defense Agencies, JTR (TDY Only) (FINC7215), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8231">Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8232">Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8233">Travel Regulations for Non-Defense Agencies, FTR (TDY and PCS) (FINC8232), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Finance GS-7-9 series-0510
 ---
 

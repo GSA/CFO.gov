@@ -16,8 +16,8 @@ behavior_illustrations: "Responds to setbacks by developing alternative approach
 "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8920">https://www.LearnAtGSUSA.com/AUDT8920</a>
- - Executive Survival Skills (EXEC9911), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9916">https://www.LearnAtGSUSA.com/EXEC9916</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8920">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EXEC9916">Executive Survival Skills (EXEC9911), GSU</a>
 filters: Personal-Resilience GS-14-15 series-0510
 ---
 

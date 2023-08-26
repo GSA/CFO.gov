@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Makes personnel decisions based upon promotion criteria and position requirements ? Utilizes peer recognition process to recognize employees ? Meets with employees to set performance goals ? Hosts employee appreciation dinner for staff"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- 
 filters: Leading-Human-Capital-Management GS-7-9 series-0501
 ---
 

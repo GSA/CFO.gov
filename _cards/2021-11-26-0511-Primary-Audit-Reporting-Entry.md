@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Summarizes information related to audit findings to identify condition, criteria, cause and effect to communicate potential concerns ? Drafts sections of audit reports, statements or other documentation to support audit findings ? Completes and reviews audit reports, statements or other documentation to ensure compliance with audit reporting standards"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- 
 filters: Primary-Audit-Reporting GS-7-9 series-0511
 ---
 

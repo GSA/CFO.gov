@@ -15,11 +15,11 @@ level: "7-9"
 behavior_illustrations: "Uses basic information from financial management systems ? Inputs and extracts data and creates recurring reports to maintain financial integrity"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8044">https://www.LearnAtGSUSA.com/AUDT8044</a>
- - Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7201">https://www.LearnAtGSUSA.com/AUDT7201</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8004">https://www.LearnAtGSUSA.com/AUDT8004</a>
- - Information Systems Auditing (AUDT8029), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8030">https://www.LearnAtGSUSA.com/AUDT8030</a>
- - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8048">https://www.LearnAtGSUSA.com/AUDT8048</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8044">Assessing the Reliability of Computer Processed Data (AUDT8043), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7201">Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8004">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8030">Information Systems Auditing (AUDT8029), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8048">Assessing the Reliability of Computer Processed Data (AUDT8043), GSU</a>
 filters: Primary-Financial-Management-Systems GS-7-9 series-0510
 ---
 

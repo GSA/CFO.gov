@@ -16,14 +16,14 @@ behavior_illustrations: "Treats individuals from all levels of the agency with c
 "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7027">https://www.LearnAtGSUSA.com/AUDT7027</a>
- - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8922">https://www.LearnAtGSUSA.com/AUDT8922</a>
- - Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9017">https://www.LearnAtGSUSA.com/AUDT9017</a>
- - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9042">https://www.LearnAtGSUSA.com/AUDT9042</a>
- - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7015">https://www.LearnAtGSUSA.com/COMM7015</a>
- - Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8225">https://www.LearnAtGSUSA.com/COMM8225</a>
- - Emotionally Intelligent Leaders (LEAD8007), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD8022">https://www.LearnAtGSUSA.com/LEAD8022</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9027">https://www.LearnAtGSUSA.com/LEAD9027</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7027">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8922">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9017">Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9042">Coaching Audit Staff for High Perfromance (AUDT9035), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7015">Constructive Conflict Resolution (COMM7004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM8225">Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD8022">Emotionally Intelligent Leaders (LEAD8007), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9027">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
 filters: Personal-Interpersonal-Skills GS-14-15 series-0560
 ---
 

@@ -16,7 +16,7 @@ behavior_illustrations: "Develops action plans for improvement ? Supports and en
 "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9025">https://www.LearnAtGSUSA.com/LEAD9025</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9025">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
 filters: Projects-Mission-and-Culture GS-14-15 series-0510
 ---
 

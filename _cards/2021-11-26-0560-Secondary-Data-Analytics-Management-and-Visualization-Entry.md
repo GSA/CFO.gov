@@ -15,23 +15,23 @@ level: "7-9"
 behavior_illustrations: "Reviews data and identifies potential issues in reporting, standardization, or modeling ? Initiates discussion regarding observations in datasets ? Reviews and understands data visualizations ? Applies general analytical and evaluation techniques to review data in line with standardized data principles and procedures ? Performs analyses as directed by others and provides accurate results ? Uses basic data visualizations designed by colleagues"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Analysis Techniques for Auditors (AUDT7900), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7903">https://www.LearnAtGSUSA.com/AUDT7903</a>
- - Using Metrics to Assess Performance (AUDT8027), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8030">https://www.LearnAtGSUSA.com/AUDT8030</a>
- - Information Systems Auditing (AUDT8029), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8032">https://www.LearnAtGSUSA.com/AUDT8032</a>
- - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8046">https://www.LearnAtGSUSA.com/AUDT8046</a>
- - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8123">https://www.LearnAtGSUSA.com/FINC8123</a>
- - Counterintelligence for Information Security and Protection (AUDT7200), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7203">https://www.LearnAtGSUSA.com/AUDT7203</a>
- - Analysis Techniques for Auditors (AUDT7900), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7907">https://www.LearnAtGSUSA.com/AUDT7907</a>
- - Using Metrics to Assess Performance (AUDT8027), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8034">https://www.LearnAtGSUSA.com/AUDT8034</a>
- - Information Systems Auditing (AUDT8029), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8036">https://www.LearnAtGSUSA.com/AUDT8036</a>
- - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8050">https://www.LearnAtGSUSA.com/AUDT8050</a>
- - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8103">https://www.LearnAtGSUSA.com/AUDT8103</a>
- - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8916">https://www.LearnAtGSUSA.com/AUDT8916</a>
- - Data Analytics for Fraud Detection (AUDT8915), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8918">https://www.LearnAtGSUSA.com/AUDT8918</a>
- - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8153">https://www.LearnAtGSUSA.com/BUDG8153</a>
- - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8127">https://www.LearnAtGSUSA.com/FINC8127</a>
- - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8903">https://www.LearnAtGSUSA.com/FINC8903</a>
- - Data Collection Methods (PGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8014">https://www.LearnAtGSUSA.com/PGMT8014</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7903">Analysis Techniques for Auditors (AUDT7900), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8030">Using Metrics to Assess Performance (AUDT8027), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8032">Information Systems Auditing (AUDT8029), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8046">Assessing the Reliability of Computer Processed Data (AUDT8043), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8123">Decision Support Analytics (FINC8120), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7203">Counterintelligence for Information Security and Protection (AUDT7200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7907">Analysis Techniques for Auditors (AUDT7900), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8034">Using Metrics to Assess Performance (AUDT8027), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8036">Information Systems Auditing (AUDT8029), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8050">Assessing the Reliability of Computer Processed Data (AUDT8043), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8103">Auditing with Data Analytics (AUDT8100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8916">Data Analytics Tools and Techniques (AUDT8913), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8918">Data Analytics for Fraud Detection (AUDT8915), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8153">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8127">Decision Support Analytics (FINC8120), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8903">Data Analytic Tools for Financial Management (FINC8900), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT8014">Data Collection Methods (PGMT8011), GSU</a>
 filters: Secondary-Data-Analytics-Management-and-Visualization GS-7-9 series-0560
 ---
 

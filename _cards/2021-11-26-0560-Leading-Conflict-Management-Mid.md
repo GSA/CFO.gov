@@ -15,16 +15,16 @@ level: "10-13"
 behavior_illustrations: "Recognizes conflict between employees, customers, and other stakeholders ? Volunteers to assist in resolving the conflict ? Identifies and evaluates elements of conflict to build conflict resolution skills ? Reacts calmly to diffuse emotions of involved parties during heated discussions ? Facilitates communication among other employees and/or customers to generate areas of agreement around issues or conflicts ? Listens and considers all sides when resolving conflicts and confrontations among work units when there are overlapping areas of responsibility ? Demonstrates respect and openness for differences in opinions by allowing others to speak in turn and responding to what they’ve said with patience and understanding ? Makes oneself approachable or available for helping others resolve conflicts ? Seeks to resolve issues immediately and avoid escalation ? Applies a variety of mediation and resolution techniques to enable a group to come to a resolution and promote ownership of the solution"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Consulting Skills for Acquisition Professionals (ACQI8211), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8214">https://www.LearnAtGSUSA.com/ACQI8214</a>
- - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8041">https://www.LearnAtGSUSA.com/AUDT8041</a>
- - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8918">https://www.LearnAtGSUSA.com/AUDT8918</a>
- - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7011">https://www.LearnAtGSUSA.com/COMM7011</a>
- - Positive Approaches to Difficult People (COMM7009), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7020">https://www.LearnAtGSUSA.com/COMM7020</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9023">https://www.LearnAtGSUSA.com/LEAD9023</a>
- - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8045">https://www.LearnAtGSUSA.com/AUDT8045</a>
- - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8922">https://www.LearnAtGSUSA.com/AUDT8922</a>
- - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7015">https://www.LearnAtGSUSA.com/COMM7015</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9027">https://www.LearnAtGSUSA.com/LEAD9027</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8214">Consulting Skills for Acquisition Professionals (ACQI8211), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8041">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8918">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7011">Constructive Conflict Resolution (COMM7004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7020">Positive Approaches to Difficult People (COMM7009), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9023">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8045">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8922">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7015">Constructive Conflict Resolution (COMM7004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9027">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
 filters: Leading-Conflict-Management GS-10-13 series-0560
 ---
 

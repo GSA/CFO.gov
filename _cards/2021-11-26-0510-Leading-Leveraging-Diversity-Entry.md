@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Attends diversity programs to increase staff awareness ? Meets with staff to obtain input on diversity issues within workgroup"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- 
 filters: Leading-Leveraging-Diversity GS-7-9 series-0510
 ---
 

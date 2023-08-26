@@ -15,8 +15,8 @@ level: "10-13"
 behavior_illustrations: "Perseveres on project despite changing objectives, deliverables and deadlines ? Develops strategies using existing resources for achieving objectives following budget cuts"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8916">https://www.LearnAtGSUSA.com/AUDT8916</a>
- - Executive Survival Skills (EXEC9911), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9912">https://www.LearnAtGSUSA.com/EXEC9912</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8916">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EXEC9912">Executive Survival Skills (EXEC9911), GSU</a>
 filters: Personal-Resilience GS-10-13 series-0510
 ---
 

@@ -15,12 +15,12 @@ level: "7-9"
 behavior_illustrations: "Works with team to implement operating procedures within agency ? Suggests utilizing team building exercises to improve office dynamics ? Encourages staff to share skills and abilities within work group to facilitate completion of challenging tasks ? Forms teams to identify and address agency concerns ? Informs team members of issues requiring resolution and considers input"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Introduction to Management (MGMT7099), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7101">https://www.LearnAtGSUSA.com/MGMT7101</a>
- - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8114">https://www.LearnAtGSUSA.com/MGMT8114</a>
- - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7003">https://www.LearnAtGSUSA.com/SUPV7003</a>
- - Jump Starting High Performance Teams&#58; The Fundamentals (TDEV7021), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV7023">https://www.LearnAtGSUSA.com/TDEV7023</a>
- - Leadership Communication (MGMT8112), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8118">https://www.LearnAtGSUSA.com/MGMT8118</a>
- - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8202">https://www.LearnAtGSUSA.com/TDEV8202</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7101">Introduction to Management (MGMT7099), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8114">Leadership Communication (MGMT8112), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/SUPV7003">Introduction to Supervision (SUPV7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/TDEV7023">Jump Starting High Performance Teams&#58; The Fundamentals (TDEV7021), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8118">Leadership Communication (MGMT8112), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/TDEV8202">Leading Teams and Groups (TDEV8200), GSU</a>
 filters: Projects-Team-Building GS-7-9 series-0511
 ---
 

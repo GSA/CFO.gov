@@ -15,20 +15,20 @@ level: "7-9"
 behavior_illustrations: "Communicates agency goals and initiatives to staff in a clear and concise manner ? Communicates information regarding organizational changes to staff ? Updates supervisors on project status ? Actively listens to staff ideas and concerns regarding work-related issues ? Communicates effectively with staff by conducting regular meetings to discuss initiatives and current events ? Explains and clarifies policy to affected parties ? Provides status updates to management team during quarterly division meeting ? Presents complex information to stakeholders verbally"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Leadership Skills for Non-Supervisors (ADMB7006), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7008">https://www.LearnAtGSUSA.com/ADMB7008</a>
- - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7014">https://www.LearnAtGSUSA.com/AUDT7014</a>
- - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8524">https://www.LearnAtGSUSA.com/AUDT8524</a>
- - Assertiveness Skills (COMM7001), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7003">https://www.LearnAtGSUSA.com/COMM7003</a>
- - Briefing Techniques (COMM7002), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7004">https://www.LearnAtGSUSA.com/COMM7004</a>
- - Interpersonal Communications (COMM7006), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7008">https://www.LearnAtGSUSA.com/COMM7008</a>
- - Speaking with Confidence (COMM7010), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7012">https://www.LearnAtGSUSA.com/COMM7012</a>
- - Increasing Personal Effectiveness (COMM7027), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7029">https://www.LearnAtGSUSA.com/COMM7029</a>
- - Introduction to Supervision (SUPV7001), GSU, <a href="https://www.LearnAtGSUSA.com/SUPV7003">https://www.LearnAtGSUSA.com/SUPV7003</a>
- - Interviewing Techniques for Auditors (AUDT7012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7018">https://www.LearnAtGSUSA.com/AUDT7018</a>
- - Presentation and Briefing Skills for Auditors (AUDT8522), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8528">https://www.LearnAtGSUSA.com/AUDT8528</a>
- - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8152">https://www.LearnAtGSUSA.com/BUDG8152</a>
- - Increasing Personal Effectiveness (COMM7027), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7033">https://www.LearnAtGSUSA.com/COMM7033</a>
- - Effective Communications with Customers (COMM8000), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8002">https://www.LearnAtGSUSA.com/COMM8002</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7008">Leadership Skills for Non-Supervisors (ADMB7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7014">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8524">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7003">Assertiveness Skills (COMM7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7004">Briefing Techniques (COMM7002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7008">Interpersonal Communications (COMM7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7012">Speaking with Confidence (COMM7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7029">Increasing Personal Effectiveness (COMM7027), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/SUPV7003">Introduction to Supervision (SUPV7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7018">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8528">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8152">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7033">Increasing Personal Effectiveness (COMM7027), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM8002">Effective Communications with Customers (COMM8000), GSU</a>
 filters: Personal-Oral-Communications GS-7-9 series-0511
 ---
 

@@ -15,8 +15,8 @@ level: "14-15"
 behavior_illustrations: "Manages and monitors all aspects of the financial process on behalf of a Department to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives ? Supports the achievement of the agency’s programs with reliable, relevant, and timely financial information and analysis, and effective and efficient internal controls"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8044">https://www.LearnAtGSUSA.com/AUDT8044</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8922">https://www.LearnAtGSUSA.com/AUDT8922</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8044">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8922">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
 filters: Primary-Financial-Stewardship GS-14-15 series-0511
 ---
 

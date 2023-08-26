@@ -15,19 +15,19 @@ level: "7-9"
 behavior_illustrations: "Establishes open and honest communication with employees ? Addresses concerns with employee behavior in a confidential and respectful manner ? Provides staff with accurate information about the vision of the agency and outlines changes in an upfront manner ? Remains fair and objective when determining skill set needed for projects to select effective team members ? Communicates honestly with employees regarding potential changes affecting the organization to ensure staff are treated fairly ? Investigates issues and takes corrective action, as appropriate"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Shaping Smart Business Arrangements (ACQI7501), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7501">https://www.LearnAtGSUSA.com/ACQI7501</a>
- - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7502">https://www.LearnAtGSUSA.com/ACQI7502</a>
- - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7503">https://www.LearnAtGSUSA.com/ACQI7503</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8003">https://www.LearnAtGSUSA.com/AUDT8003</a>
- - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7222">https://www.LearnAtGSUSA.com/ACQI7222</a>
- - Shaping Smart Business Arrangements (ACQI7501), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7505">https://www.LearnAtGSUSA.com/ACQI7505</a>
- - Contracting Basics for Administrative Personnel (ACQI7502), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7506">https://www.LearnAtGSUSA.com/ACQI7506</a>
- - Contracting Basics for CORs (ACQI7503), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7507">https://www.LearnAtGSUSA.com/ACQI7507</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8007">https://www.LearnAtGSUSA.com/AUDT8007</a>
- - Federal Contracting&#58; Ethics Compliance and Enforcement (ACQI7023), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7023">https://www.LearnAtGSUSA.com/ACQI7023</a>
- - Advanced COR Workshop (ACQI9008), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI9008">https://www.LearnAtGSUSA.com/ACQI9008</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8011">https://www.LearnAtGSUSA.com/AUDT8011</a>
- - Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9030">https://www.LearnAtGSUSA.com/AUDT9030</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7501">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7502">Contracting Basics for Administrative Personnel (ACQI7502), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7503">Contracting Basics for CORs (ACQI7503), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7222">Contracting Officer's Representative Course (ACQI7222), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7505">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7506">Contracting Basics for Administrative Personnel (ACQI7502), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7507">Contracting Basics for CORs (ACQI7503), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8007">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7023">Federal Contracting&#58; Ethics Compliance and Enforcement (ACQI7023), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI9008">Advanced COR Workshop (ACQI9008), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8011">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9030">Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU</a>
 filters: Personal-Integrity-Honesty GS-7-9 series-0501
 ---
 

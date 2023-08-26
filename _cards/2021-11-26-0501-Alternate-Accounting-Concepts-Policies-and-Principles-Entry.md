@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Reviews standard data and reports to ensure their accuracy ? Applies general analytical and evaluation techniques to review accounting data in line with all accounting principles"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Course Coming Soon
+- 
 filters: Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0501
 ---
 

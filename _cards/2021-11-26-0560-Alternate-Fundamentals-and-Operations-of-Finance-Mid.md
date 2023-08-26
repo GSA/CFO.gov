@@ -15,17 +15,17 @@ level: "10-13"
 behavior_illustrations: "Gathers a variety of standard reports and data from various systems to support the financial management operational areas"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - FAR Basics (ACQI7100), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7107">https://www.LearnAtGSUSA.com/ACQI7107</a>
- - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8106">https://www.LearnAtGSUSA.com/BUDG8106</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7007">https://www.LearnAtGSUSA.com/FINC7007</a>
- - Financial Management Bootcamp for New Federal Managers (FINC7010), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7017">https://www.LearnAtGSUSA.com/FINC7017</a>
- - Travel Regulations for Non-Defense Agencies, FTR (PCS Only) (FINC7104), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7111">https://www.LearnAtGSUSA.com/FINC7111</a>
- - Travel Regulations for Non-Defense Agencies, FTR (TDY Only) (FINC7213), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7220">https://www.LearnAtGSUSA.com/FINC7220</a>
- - Travel Regulations for Defense Agencies, JTR (TDY Only) (FINC7215), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7222">https://www.LearnAtGSUSA.com/FINC7222</a>
- - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8106">https://www.LearnAtGSUSA.com/FINC8106</a>
- - Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8237">https://www.LearnAtGSUSA.com/FINC8237</a>
- - Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8238">https://www.LearnAtGSUSA.com/FINC8238</a>
- - Travel Regulations for Non-Defense Agencies, FTR (TDY and PCS) (FINC8232), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8239">https://www.LearnAtGSUSA.com/FINC8239</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7107">FAR Basics (ACQI7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8106">Department of Homeland Security PPBE System (BUDG8103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7007">Introduction to Financial Management (FINC7000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7017">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7111">Travel Regulations for Non-Defense Agencies, FTR (PCS Only) (FINC7104), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7220">Travel Regulations for Non-Defense Agencies, FTR (TDY Only) (FINC7213), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7222">Travel Regulations for Defense Agencies, JTR (TDY Only) (FINC7215), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8106">Understanding Federal Financial Statements (FINC8103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8237">Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8238">Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8239">Travel Regulations for Non-Defense Agencies, FTR (TDY and PCS) (FINC8232), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Finance GS-10-13 series-0560
 ---
 

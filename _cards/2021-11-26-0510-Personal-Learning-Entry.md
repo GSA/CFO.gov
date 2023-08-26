@@ -15,8 +15,8 @@ level: "7-9"
 behavior_illustrations: "Attends professional conferences to maintain technical knowledge ? Solicits periodic feedback to continually improve quality of own work ? Visits other work site to gain understanding of staff functions and daily tasks ? Develops knowledge and skills through on-the-job experience"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Aspiring Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram">https://www.LearnAtGSUSA.com/AspiringLeaderProgram</a>
- - New Leader Program, GSU, <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">https://www.LearnAtGSUSA.com/NewLeaderProgram</a>
+- <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram">Aspiring Leader Program, GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program, GSU</a>
 filters: Personal-Learning GS-7-9 series-0510
 ---
 

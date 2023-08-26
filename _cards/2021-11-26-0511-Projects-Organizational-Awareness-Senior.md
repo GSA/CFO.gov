@@ -17,19 +17,19 @@ behavior_illustrations: "Considers the impact of a shift in programmatic directi
 "
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8013">https://www.LearnAtGSUSA.com/AUDT8013</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8817">https://www.LearnAtGSUSA.com/AUDT8817</a>
- - Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8006">https://www.LearnAtGSUSA.com/BUDG8006</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8007">https://www.LearnAtGSUSA.com/BUDG8007</a>
- - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8182">https://www.LearnAtGSUSA.com/BUDG8182</a>
- - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9202">https://www.LearnAtGSUSA.com/MGMT9202</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8017">https://www.LearnAtGSUSA.com/AUDT8017</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8821">https://www.LearnAtGSUSA.com/AUDT8821</a>
- - Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8010">https://www.LearnAtGSUSA.com/BUDG8010</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8011">https://www.LearnAtGSUSA.com/BUDG8011</a>
- - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8186">https://www.LearnAtGSUSA.com/BUDG8186</a>
- - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9206">https://www.LearnAtGSUSA.com/MGMT9206</a>
- - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9210">https://www.LearnAtGSUSA.com/MGMT9210</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8013">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8817">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8006">Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8007">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8182">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT9202">Strategic Planning for Government Organizations (MGMT9200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8017">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8821">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8010">Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8011">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8186">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT9206">Strategic Planning for Government Organizations (MGMT9200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT9210">Strategic Planning for Government Organizations (MGMT9200), GSU</a>
 filters: Projects-Organizational-Awareness GS-14-15 series-0511
 ---
 

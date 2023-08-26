@@ -15,14 +15,14 @@ level: "10-13"
 behavior_illustrations: "Assists in identification and mitigation of financial risks and vulnerabilities for a specific financial management area ? Participates in the analysis, evaluation, development, coordination, and dissemination of financial risk management methods and tools"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Federal Appropriations Law for Auditors (AUDT7010), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7018">https://www.LearnAtGSUSA.com/AUDT7018</a>
- - Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7411">https://www.LearnAtGSUSA.com/AUDT7411</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8011">https://www.LearnAtGSUSA.com/AUDT8011</a>
- - Assessing Controls in Performance Audits (AUDT8021), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8029">https://www.LearnAtGSUSA.com/AUDT8029</a>
- - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8038">https://www.LearnAtGSUSA.com/AUDT8038</a>
- - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8047">https://www.LearnAtGSUSA.com/AUDT8047</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8815">https://www.LearnAtGSUSA.com/AUDT8815</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8912">https://www.LearnAtGSUSA.com/AUDT8912</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7018">Federal Appropriations Law for Auditors (AUDT7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7411">Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8011">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8029">Assessing Controls in Performance Audits (AUDT8021), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8038">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8047">Assessing the Reliability of Computer Processed Data (AUDT8043), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8815">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
 filters: Secondary-Risk-Management GS-10-13 series-0501
 ---
 

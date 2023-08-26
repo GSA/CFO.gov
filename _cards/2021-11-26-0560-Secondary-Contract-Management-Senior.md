@@ -16,18 +16,18 @@ behavior_illustrations: "Have a solid understanding of the concepts and principl
 complex contracting project ? Assists in developing or updating financial management guidance and policy regarding contract management"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7037">https://www.LearnAtGSUSA.com/ACQI7037</a>
- - Contracting Officer's Representative Course (ACQI7222), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7225">https://www.LearnAtGSUSA.com/ACQI7225</a>
- - Shaping Smart Business Arrangements (ACQI7501), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7504">https://www.LearnAtGSUSA.com/ACQI7504</a>
- - COR Refresher (ACQI7513), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7516">https://www.LearnAtGSUSA.com/ACQI7516</a>
- - Virtual Contract Management (ACQI8030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8037">https://www.LearnAtGSUSA.com/ACQI8037</a>
- - Contract and Procurement Fraud (AUDT8036), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8039">https://www.LearnAtGSUSA.com/AUDT8039</a>
- - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8812">https://www.LearnAtGSUSA.com/AUDT8812</a>
- - Government Contract Law (ACQI8505), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8508">https://www.LearnAtGSUSA.com/ACQI8508</a>
- - Advanced COR Workshop (ACQI9008), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI9011">https://www.LearnAtGSUSA.com/ACQI9011</a>
- - Contract and Procurement Fraud (AUDT8036), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8043">https://www.LearnAtGSUSA.com/AUDT8043</a>
- - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8816">https://www.LearnAtGSUSA.com/AUDT8816</a>
- - Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/ACQI7037">Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7225">Contracting Officer's Representative Course (ACQI7222), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7504">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7516">COR Refresher (ACQI7513), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8037">Virtual Contract Management (ACQI8030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8039">Contract and Procurement Fraud (AUDT8036), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8812">Contract Auditing (AUDT8801), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8508">Government Contract Law (ACQI8505), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI9011">Advanced COR Workshop (ACQI9008), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8043">Contract and Procurement Fraud (AUDT8036), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8816">Contract Auditing (AUDT8801), GSU</a>
+- 
 filters: Secondary-Contract-Management GS-14-15 series-0560
 ---
 

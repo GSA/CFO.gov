@@ -15,23 +15,23 @@ level: "10-13"
 behavior_illustrations: "Interprets and evaluates data using a variety of analytical and modeling methods to assess relationships and potential outcomes ? Draws accurate conclusions by choosing the appropriate data sources, metrics, and analyses ? Builds data visualizations to provide insights into data"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Digital Transformation&#58; Leading People, Data & Technology (with UC Berkeley Executive Education), Emeritus, <a href="https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
- - Counterintelligence for Information Security and Protection (AUDT7200), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7207">https://www.LearnAtGSUSA.com/AUDT7207</a>
- - Analysis Techniques for Auditors (AUDT7900), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT7911">https://www.LearnAtGSUSA.com/AUDT7911</a>
- - Using Metrics to Assess Performance (AUDT8027), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8038">https://www.LearnAtGSUSA.com/AUDT8038</a>
- - Information Systems Auditing (AUDT8029), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8040">https://www.LearnAtGSUSA.com/AUDT8040</a>
- - Assessing the Reliability of Computer Processed Data (AUDT8043), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8054">https://www.LearnAtGSUSA.com/AUDT8054</a>
- - Auditing with Data Analytics (AUDT8100), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8107">https://www.LearnAtGSUSA.com/AUDT8107</a>
- - Data Analytics Tools and Techniques (AUDT8913), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8920">https://www.LearnAtGSUSA.com/AUDT8920</a>
- - Data Analytics for Fraud Detection (AUDT8915), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8922">https://www.LearnAtGSUSA.com/AUDT8922</a>
- - Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8157">https://www.LearnAtGSUSA.com/BUDG8157</a>
- - Decision Support Analytics (FINC8120), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8131">https://www.LearnAtGSUSA.com/FINC8131</a>
- - Data Analytic Tools for Financial Management (FINC8900), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8907">https://www.LearnAtGSUSA.com/FINC8907</a>
- - Intermediate Decision Support Analytics (FINC9150), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9153">https://www.LearnAtGSUSA.com/FINC9153</a>
- - Tools for Management Analysis (PGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7009">https://www.LearnAtGSUSA.com/PGMT7009</a>
- - Introduction to Management Analysis (PGMT7010), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT7013">https://www.LearnAtGSUSA.com/PGMT7013</a>
- - Designing an Analytical Study (PGMT8005), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8008">https://www.LearnAtGSUSA.com/PGMT8008</a>
- - Descriptive Statistics for Data Analysis (PGMT8200), GSU, <a href="https://www.LearnAtGSUSA.com/PGMT8203">https://www.LearnAtGSUSA.com/PGMT8203</a>
+- <a href="https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Digital Transformation&#58; Leading People, Data & Technology (with UC Berkeley Executive Education), Emeritus</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7207">Counterintelligence for Information Security and Protection (AUDT7200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7911">Analysis Techniques for Auditors (AUDT7900), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8038">Using Metrics to Assess Performance (AUDT8027), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8040">Information Systems Auditing (AUDT8029), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8054">Assessing the Reliability of Computer Processed Data (AUDT8043), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8107">Auditing with Data Analytics (AUDT8100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8920">Data Analytics Tools and Techniques (AUDT8913), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8922">Data Analytics for Fraud Detection (AUDT8915), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8157">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8131">Decision Support Analytics (FINC8120), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8907">Data Analytic Tools for Financial Management (FINC8900), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC9153">Intermediate Decision Support Analytics (FINC9150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT7009">Tools for Management Analysis (PGMT7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT7013">Introduction to Management Analysis (PGMT7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT8008">Designing an Analytical Study (PGMT8005), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT8203">Descriptive Statistics for Data Analysis (PGMT8200), GSU</a>
 filters: Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0560
 ---
 

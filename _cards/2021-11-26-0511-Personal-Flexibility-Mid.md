@@ -16,9 +16,9 @@ behavior_illustrations: "Realigns resources to meet changing customer needs ? Ta
 "
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Managing Multiple Priorities (ADMB7007), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7017">https://www.LearnAtGSUSA.com/ADMB7017</a>
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8018">https://www.LearnAtGSUSA.com/AUDT8018</a>
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8022">https://www.LearnAtGSUSA.com/AUDT8022</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7017">Managing Multiple Priorities (ADMB7007), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8018">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8022">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
 filters: Personal-Flexibility GS-10-13 series-0511
 ---
 

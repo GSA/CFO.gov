@@ -15,25 +15,25 @@ level: "7-9"
 behavior_illustrations: "Reviews standard data and reports to ensure their accuracy ? Applies general analytical and evaluation techniques to review accounting data in line with all accounting principles"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Introduction to Excel, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel">https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel</a>
- - Introduction to SQL, Data Society, <a href="https://datasociety.meldr.ai/courses/SQL/IntroToSQL">https://datasociety.meldr.ai/courses/SQL/IntroToSQL</a>
- - Intermediate Python, Data Society, <a href="https://datasociety.meldr.ai/courses/Beginner/IntermediatePython">https://datasociety.meldr.ai/courses/Beginner/IntermediatePython</a>
- - Introduction to Python, Data Society, <a href="https://datasociety.meldr.ai/courses/Beginner/IntroToPython">https://datasociety.meldr.ai/courses/Beginner/IntroToPython</a>
- - Data Visual Design and Storytelling, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling">https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling</a>
- - Fundamentals of Data Literacy, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy">https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy</a>
- - Data Wrangling in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR">https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR</a>
- - Intermediate R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntermediateR">https://datasociety.meldr.ai/courses/DataScience-R/IntermediateR</a>
- - Introduction to R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToR</a>
- - Data Wrangling in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/DataWranglingInPython">https://datasociety.meldr.ai/courses/DataScience/DataWranglingInPython</a>
- - Data Analysis in Excel, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/DataAnalysisInExcel">https://datasociety.meldr.ai/courses/DataSocietyExcel/DataAnalysisInExcel</a>
- - Intermediate SQL, Data Society, <a href="https://datasociety.meldr.ai/courses/SQL/IntermediateSQL">https://datasociety.meldr.ai/courses/SQL/IntermediateSQL</a>
- - Simple Linear Regression in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/SimpleRegression">https://datasociety.meldr.ai/courses/DataScience/SimpleRegression</a>
- - Introduction to Clustering in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/IntroToClustering">https://datasociety.meldr.ai/courses/DataScience/IntroToClustering</a>
- - Introduction to Visualization in Python, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience/IntroToVisualizationInPython">https://datasociety.meldr.ai/courses/DataScience/IntroToVisualizationInPython</a>
- - Introduction to Clustering in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToClusteringInR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToClusteringInR</a>
- - Introduction to Visualization in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToVisualizationInR">https://datasociety.meldr.ai/courses/DataScience-R/IntroToVisualizationInR</a>
- - Simple Linear Regression in R, Data Society, <a href="https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR">https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR</a>
- - Data Literacy for Managers, Data Society, <a href="https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI">https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI</a>
+- <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/IntroToExcel">Introduction to Excel, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/SQL/IntroToSQL">Introduction to SQL, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/Beginner/IntermediatePython">Intermediate Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/Beginner/IntroToPython">Introduction to Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling">Data Visual Design and Storytelling, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy">Fundamentals of Data Literacy, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR">Data Wrangling in R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntermediateR">Intermediate R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToR">Introduction to R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience/DataWranglingInPython">Data Wrangling in Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/DataAnalysisInExcel">Data Analysis in Excel, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/SQL/IntermediateSQL">Intermediate SQL, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience/SimpleRegression">Simple Linear Regression in Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience/IntroToClustering">Introduction to Clustering in Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience/IntroToVisualizationInPython">Introduction to Visualization in Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToClusteringInR">Introduction to Clustering in R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToVisualizationInR">Introduction to Visualization in R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR">Simple Linear Regression in R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI">Data Literacy for Managers, Data Society</a>
 filters: Secondary-Accounting-Analysis GS-7-9 series-0511
 ---
 

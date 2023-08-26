@@ -15,11 +15,11 @@ level: "7-9"
 behavior_illustrations: "Recognizes conflict and makes oneself available for conflict resolution ? Communicates with other employees or customers to generate potential areas of agreement; notifies the supervisor of disagreements ? Remains calm and objective during a conflict and through its resolution ? Is open and professional when handling minor personal conflicts; seeks help in resolving issues and/or situations, as needed ? Resolves simple customer complaints opportunities by referring to established guidelines and standard operating procedures ? Notifies the supervisor of conflict; initiates established chain-of- command process to facilitate resolution ? Demonstrates respect and openness for differences of opinion by allowing others a chance to be heard and listening to what is being said"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Positive Approaches to Difficult People (COMM7009), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7012">https://www.LearnAtGSUSA.com/COMM7012</a>
- - Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8037">https://www.LearnAtGSUSA.com/AUDT8037</a>
- - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8914">https://www.LearnAtGSUSA.com/AUDT8914</a>
- - Constructive Conflict Resolution (COMM7004), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7007">https://www.LearnAtGSUSA.com/COMM7007</a>
- - Positive Approaches to Difficult People (COMM7009), GSU, <a href="https://www.LearnAtGSUSA.com/COMM7016">https://www.LearnAtGSUSA.com/COMM7016</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7012">Positive Approaches to Difficult People (COMM7009), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8037">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8914">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7007">Constructive Conflict Resolution (COMM7004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7016">Positive Approaches to Difficult People (COMM7009), GSU</a>
 filters: Leading-Conflict-Management GS-7-9 series-0560
 ---
 

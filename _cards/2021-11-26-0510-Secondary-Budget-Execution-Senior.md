@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Manages budgetary requirements within the organization, ensures alignment, and develops and recommends appropriate strategies"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- 
 filters: Secondary-Budget-Execution GS-14-15 series-0510
 ---
 

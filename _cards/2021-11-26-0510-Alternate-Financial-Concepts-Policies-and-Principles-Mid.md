@@ -15,14 +15,14 @@ level: "10-13"
 behavior_illustrations: "Develops financial techniques and approaches that conform to fiscal requirements, and makes recommendations for improvement or implementation of new policies"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8016">https://www.LearnAtGSUSA.com/AUDT8016</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8820">https://www.LearnAtGSUSA.com/AUDT8820</a>
- - Antideficiency Act (FINC7207), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7212">https://www.LearnAtGSUSA.com/FINC7212</a>
- - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8108">https://www.LearnAtGSUSA.com/FINC8108</a>
- - Federal Appropriations Law Refresher and Update (FINC8147), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8152">https://www.LearnAtGSUSA.com/FINC8152</a>
- - DoD Fiscal Law Principles (FINC8200), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8205">https://www.LearnAtGSUSA.com/FINC8205</a>
- - Advanced Appropriations Law (FINC9100), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9105">https://www.LearnAtGSUSA.com/FINC9105</a>
- - Appropriations Law for Reimbursements, Revolving Funds and User Fees (FINC9115), GSU, <a href="https://www.LearnAtGSUSA.com/FINC9120">https://www.LearnAtGSUSA.com/FINC9120</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8016">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8820">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7212">Antideficiency Act (FINC7207), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8108">Understanding Federal Financial Statements (FINC8103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8152">Federal Appropriations Law Refresher and Update (FINC8147), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8205">DoD Fiscal Law Principles (FINC8200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC9105">Advanced Appropriations Law (FINC9100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC9120">Appropriations Law for Reimbursements, Revolving Funds and User Fees (FINC9115), GSU</a>
 filters: Alternate-Financial-Concepts-Policies-and-Principles GS-10-13 series-0510
 ---
 

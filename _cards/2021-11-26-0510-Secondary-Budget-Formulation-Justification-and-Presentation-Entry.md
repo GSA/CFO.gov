@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Applies basic knowledge of budget principles to assist in planning ? Coordinates budget inputs and gathers justifications"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Course Coming Soon
+- 
 filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0510
 ---
 
