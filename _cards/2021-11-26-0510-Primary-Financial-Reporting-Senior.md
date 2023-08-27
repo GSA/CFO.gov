@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Briefs senior leadership on financial business operations based on financial statements and/or reports"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Primary-Financial-Reporting GS-14-15 series-0510
 ---
 

@@ -17,7 +17,7 @@ proficiency_level_definition: Applies the competency in difficult situations ? R
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/ACQI7503">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/MGMT8122">Leadership Communication (MGMT8112), GSU</a>
-- 
+- Course Coming Soon
 filters: Projects-Team-Building GS-10-13 series-0511
 ---
 

@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Provides guidance on how to create work products that are fully compliant with instructions/requirements ? Advises others on effective tools and techniques for ensuring details are not overlooked"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Personal-Attention-to-Detail GS-10-13 series-0510
 ---
 

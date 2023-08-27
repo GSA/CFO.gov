@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Collaborates with senior leadership to address complex and/or controversial findings and recommendations identified in audit reports, statements or other documentation"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Primary-Audit-Reporting GS-10-13 series-0511
 ---
 

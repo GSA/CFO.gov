@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Applies basic knowledge of budget principles to complete budgeting transactions ? Develops execution reports and monitors status of funds to track organization’s budget, operations, and processes"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Secondary-Budget-Execution GS-7-9 series-0501
 ---
 

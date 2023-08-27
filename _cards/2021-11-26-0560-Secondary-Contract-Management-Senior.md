@@ -27,7 +27,7 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/ACQI9011">Advanced COR Workshop (ACQI9008), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/AUDT8043">Contract and Procurement Fraud (AUDT8036), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/AUDT8816">Contract Auditing (AUDT8801), GSU</a>
-- 
+- Course Coming Soon
 filters: Secondary-Contract-Management GS-14-15 series-0560
 ---
 

@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Applies basic knowledge of budget principles to complete budgeting transactions ? Develops execution reports and monitors status of funds to track organization’s budget, operations, and processes ? Interprets and evaluates budget execution for compliance with fiscal law and guidance"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Primary-Budget-Execution GS-7-9 series-0560
 ---
 

@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Recognizes and addresses deficiencies of human resources processes or tools ? Provides positive feedback to high-performing staff and rewards exceptional performance ? Considers impact of personnel decisions on current staff ? Reviews and updates position descriptions and performance plans ? Explains restructuring plan to staff and addresses concerns ? Recognizes employee contributions by rewarding employees publicly"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 - <a href="https://www.LearnAtGSUSA.com/CLAS8104">Position Classification for Supervisors and Administrative Staff (CLAS8102), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/EEOP7032">Sexual Harassment Prevention for Employees (EEOP7030), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/EEOP7033">Sexual Harassment Prevention for Supervisors (EEOP7031), GSU</a>

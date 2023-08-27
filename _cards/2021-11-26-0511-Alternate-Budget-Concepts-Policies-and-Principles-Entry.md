@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Utilizes budget and financial procedures and practices that apply to most situations, and drives performance by setting strategy and measuring performance ? Applies knowledge of policies and procedures to ensure adherence to budget and financial guidelines ? Examines a variety of program plans and funding to determine performance in accordance with appropriate procedures, regulations and law"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Alternate-Budget-Concepts-Policies-and-Principles GS-7-9 series-0511
 ---
 

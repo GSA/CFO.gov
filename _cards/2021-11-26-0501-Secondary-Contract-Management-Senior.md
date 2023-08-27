@@ -16,7 +16,7 @@ behavior_illustrations: "Understands and contributes financial management guidan
 complex contracting project ? Assists in developing or updating financial management guidance and policy regarding contract management"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Secondary-Contract-Management GS-14-15 series-0501
 ---
 

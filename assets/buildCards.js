@@ -120,18 +120,18 @@ function buildCards() {
                 for (i = 0, l = courseUnique.length; i < l; i++) {
                     if (courseUnique[i].courseName) {
                         if (courseUnique[i].courseName.includes(":")) {
-                            courseNameList = courseUnique[i].courseName.replace(/:/g, "&#58;") + ', ';
+                            courseNameList = courseUnique[i].courseName.replace(/:/g, "&#58;");
                         }
                         else {
-                            courseNameList = courseUnique[i].courseName + ', ';
+                            courseNameList = courseUnique[i].courseName;
                         }
                     }
                     if (courseUnique[i].instName) {
                         if (courseUnique[i].instName.includes(":")) {
-                            courseNameList += courseUnique[i].instName.replace(/:/g, "&#58;");
+                            courseNameList += ', ' + courseUnique[i].instName.replace(/:/g, "&#58;");
                         }
                         else {
-                            courseNameList += courseUnique[i].instName;
+                            courseNameList += ', ' + courseUnique[i].instName;
                         }
                     }
                     courseExport += '\n- ';
@@ -142,6 +142,10 @@ function buildCards() {
                             courseMarkup += link;
                             courseExport += link;
                         }
+                    }
+                    else {
+                        courseMarkup += courseNameList;
+                        courseExport += courseNameList;
                     }
                     courseMarkup += '</li>';
                 }

@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Develops and utilizes audit processes to improve organizational efficiency and effectiveness ? Monitors current audit processes to ensure compliance with applicable auditing standards and regulations"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Primary-Audit-Planning-and-Management GS-7-9 series-0511
 ---
 

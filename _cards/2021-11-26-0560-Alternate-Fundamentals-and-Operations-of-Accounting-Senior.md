@@ -17,7 +17,7 @@ proficiency_level_definition: Applies the competency in difficult situations ? R
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/ACCT8006">Intermediate Federal Accounting (ACCT8003), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/BUDG8017">Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU</a>
-- 
+- Course Coming Soon
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0560
 ---
 

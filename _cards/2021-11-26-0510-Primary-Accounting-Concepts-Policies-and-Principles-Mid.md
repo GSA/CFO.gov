@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Interprets and evaluates accounting information using a variety of analytical methods to provide recommendations"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Primary-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0510
 ---
 

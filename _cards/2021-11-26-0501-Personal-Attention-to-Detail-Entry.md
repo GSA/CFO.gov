@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Submits work assignments that comply with instructions/ requirements ? Identifies, organizes and maintains important details so they are not lost or forgotten (e.g., checklists, schedule, calendar ? Verifies the accuracy of work products against established quality measures  ? Uses established tools and techniques to identify errors and modifications ? Produces fully compliant work products ? Creates effective tools and techniques for ensuring details are not overlooked"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Personal-Attention-to-Detail GS-7-9 series-0501
 ---
 

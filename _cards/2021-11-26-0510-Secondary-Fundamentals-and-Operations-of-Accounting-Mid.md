@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Examines non-routine financial management documentation to ensure accuracy and completeness of accounting transactions and accounts and identifies potential solutions for inaccurate or incomplete entries"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-10-13 series-0510
 ---
 

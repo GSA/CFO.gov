@@ -20,7 +20,7 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/ADMB7008">Customer Service Excellence (ADMB7003), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/ADMB7009">Customer Service Excellence (ADMB7004), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/COMM8001">Effective Communications with Customers (COMM8000), GSU</a>
-- 
+- Course Coming Soon
 filters: Personal-Customer-Service GS-7-9 series-0510
 ---
 

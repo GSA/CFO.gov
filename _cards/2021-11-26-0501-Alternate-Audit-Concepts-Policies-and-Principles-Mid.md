@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Analyzes a variety of documents, records and processes to determine performance in accordance with appropriate procedures and regulations"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Alternate-Audit-Concepts-Policies-and-Principles GS-10-13 series-0501
 ---
 

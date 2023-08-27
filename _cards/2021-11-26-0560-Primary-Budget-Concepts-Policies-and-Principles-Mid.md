@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Develops budget and financial guidelines that conform to fiscal requirements ? Makes recommendations regarding the budget process or financial operations"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Primary-Budget-Concepts-Policies-and-Principles GS-10-13 series-0560
 ---
 

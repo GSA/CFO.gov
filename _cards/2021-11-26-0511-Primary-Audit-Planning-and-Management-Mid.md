@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Interprets and reports the results of the audit processes to ensure consistency with Component or major organization goals and strategic initiatives"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- 
+- Course Coming Soon
 filters: Primary-Audit-Planning-and-Management GS-10-13 series-0511
 ---
 
