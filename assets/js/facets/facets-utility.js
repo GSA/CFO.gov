@@ -328,4 +328,17 @@ function setCurrentPage(page) {
             });
         }
 
+}
+
+function showMoreOrLess(target) {
+    if ($("#showMore-" + target).text() === 'Show More') {
+        $("#showMore-" + target).html("<strong>Show Less</strong>");
+        $("#divTopLink-" + target).hide();
+        $("#divLink-" + target).show();
     }
+    else {
+        $("#showMore-" + target).html("<strong>Show More</strong>");
+        $("#divTopLink-" + target).show();
+        $("#divLink-" + target).hide();
+    }
+};
