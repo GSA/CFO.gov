@@ -91,7 +91,7 @@
                         </div>
                         {% if card.relevant_courses.size > 3 %}
                         <div class="full-list display-none">
-                            <ul class="usa-list margin-top-0" role="list">
+                            <ul class="usa-list margin-top-05" role="list">
                                 {% for course in card.relevant_courses offset:3 %}
                                 <li role="listitem" class="card-content-color">{{ course | replace: '">', '" target="_blank" >'}}</li>
                                 {% endfor %}

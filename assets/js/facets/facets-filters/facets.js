@@ -217,6 +217,7 @@ $(document).ready(function () {
         });
 
         setTotalPages();
+        bindCoursesLink();
     });
 
     /**

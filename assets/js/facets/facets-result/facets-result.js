@@ -66,7 +66,7 @@
             coursesMarkup += '</ul></div>';
         }
         if (item.relevant_courses.length > 3) {
-            coursesMarkup += '<div class="full-list display-none"><ul class="usa-list" role="list">';
+            coursesMarkup += '<div class="full-list display-none"><ul class="usa-list margin-top-05" role="list">';
             for (let i = 3; i < item.relevant_courses.length; i++) {
                 // Inserting the attribute to open a link in a new tab on each link
                 let relevant_course = item.relevant_courses[i];
@@ -91,4 +91,5 @@
     }
     const resultsContainer = document.getElementById("career-search-results");
     resultsContainer.appendChild(outerDiv1);
-}
+     bindCoursesLink();
+ }
