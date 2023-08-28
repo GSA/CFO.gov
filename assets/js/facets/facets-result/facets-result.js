@@ -48,7 +48,39 @@
         outerDiv3.append(innerDiv2);
         innerDiv2.innerHTML = item.content;
 
+        let itemElement = $().createId(item.competency_group);
+        let eventId = document.getElementById(itemElement);
+        const coursesTopDiv = document.createElement('div');
+        coursesTopDiv.setAttribute("id", "divTopLink-" + eventId);
+        let courseTopMarkup = '<ul class="usa-list" role="list">';
+        if (item.relevant_courses.length > 0) {
+            if (item.relevant_courses.length > 3) {
+            for (let i = 0, l = 3; i < l; i++) {
+                // Inserting the attribute to open a link in a new tab on each link
+                let relevant_course = item.relevant_courses[i];
+                if (typeof (relevant_course) === 'string' && relevant_course.indexOf('">') >= 0) {
+                    relevant_course = relevant_course.replace('>', ' target="_blank" >');
+                }
+                courseTopMarkup += '<li role="listitem" class="card-content-color">' + relevant_course + '</li>';
+            }
+        } else {
+                for (let i = 0, l = item.relevant_courses.length; i < l; i++) {
+                    // Inserting the attribute to open a link in a new tab on each link
+                    let relevant_course = item.relevant_courses[i];
+                    if (typeof (relevant_course) === 'string' && relevant_course.indexOf('">') >= 0) {
+                        relevant_course = relevant_course.replace('>', ' target="_blank" >');
+                    }
+                    courseTopMarkup += '<li role="listitem" class="card-content-color">' + relevant_course + '</li>';
+                }
+        }
+            courseTopMarkup += '</ul>';
+        }
+        coursesTopDiv.innerHTML = '<h3 class="card-text-color">COURSE LISTINGS FOR PURPOSE:</h3>' + courseTopMarkup;
+        outerDiv3.append(coursesTopDiv);
+
         const coursesDiv = document.createElement('div');
+        coursesDiv.setAttribute("id", "divLink-" + eventId);
+        coursesDiv.setAttribute("class", "display-none");
         let courseMarkup = '<ul class="usa-list" role="list">';
         if (item.relevant_courses.length > 0) {
             for (let i = 0, l = item.relevant_courses.length; i < l; i++) {
@@ -60,11 +92,21 @@
                 courseMarkup += '<li role="listitem" class="card-content-color">' + relevant_course + '</li>';
             }
             courseMarkup += '</ul>';
-        } else {
-            courseMarkup = '<p>No courses</p>';
         }
         coursesDiv.innerHTML = '<h3 class="card-text-color">COURSE LISTINGS FOR PURPOSE:</h3>' + courseMarkup;
         outerDiv3.append(coursesDiv);
+
+        if (item.relevant_courses.length > 3) {
+            const showMoreTopDiv = document.createElement('div');
+            showMoreTopDiv.setAttribute("class", "text-center margin-top-3");
+            const showMoreDiv = document.createElement('div');
+            showMoreDiv.setAttribute("class", "usa-button usa-button--outline border-0 bg-white");
+            showMoreDiv.setAttribute("id", "showMore-" + eventId);
+            showMoreDiv.setAttribute("onclick", "showMoreOrLess(" + eventId + ")");
+            showMoreDiv.innerHTML = 'Show More';
+            showMoreTopDiv.appendChild(showMoreDiv);
+            outerDiv3.append(showMoreTopDiv);
+        }
 
         const selectButtonWrapper = document.createElement('div');
         outerDiv3.prepend(selectButtonWrapper);
