@@ -1060,10 +1060,13 @@ abbr{
 }
 
 .bg-yellow {
-    background-color: rgba(229, 160, 0,0.9);
+    background-color: #ab6600;
 }
 
-/*.bg-yellow:hover, .bg-yellow.usa-button--hover {
-    background-color: #e5b000;
-}*/
+.bg-green:hover, .bg-green.usa-button:hover {
+    background-color: #4F9E99;
+}
 
+.bg-yellow:hover, .bg-yellow.usa-button:hover {
+    background-color: #ab6600;
+}
