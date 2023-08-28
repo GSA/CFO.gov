@@ -342,3 +342,20 @@ function showMoreOrLess(target) {
         $("#divLink-" + target).hide();
     }
 };
+
+function bindCoursesLink() {
+    $(".show-more").on("click", function () {
+        var $this = $(this);
+        var $fullList = $this.closest(".course-list").find(".full-list");
+        var moreText = $this.data("more-text");
+        var lessText = $this.data("less-text");
+        $this.addClass('click-init');
+        $fullList.slideToggle();
+
+        if ($this.text() === moreText) {
+            $this.text(lessText);
+        } else {
+            $this.text(moreText);
+        }
+    });
+}

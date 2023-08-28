@@ -160,6 +160,7 @@ $.fn.extend({
             facetGlobalVars.results = facetGlobalVars.fullSet;
             $('#career-facet-remove-all-filters-button').hide();
         }
+        bindCoursesLink();
     },
 
     /**
