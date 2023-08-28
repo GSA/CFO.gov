@@ -18,6 +18,9 @@ Jekyll::Hooks.register :pages, :post_init do |page|
       # Update the permalink for the alias page
       alias_page.data['permalink'] = alias_path
 
+      # Add canonical for the alias page
+      alias_page.data['canonical'] = page.data['permalink']
+
       # Add the alias page to the site's pages collection
       site.pages << alias_page
     end
