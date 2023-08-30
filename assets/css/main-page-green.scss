@@ -1090,3 +1090,27 @@ abbr{
 .ul-li-margin {
     margin: 1em 0;
 }
+
+.usa-button--outline {
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #4F9E99;
+    color: #4F9E99;
+}
+
+.usa-button--outline:visited {
+    color: #4F9E99;
+}
+
+.usa-button--outline:hover, .usa-button--outline.usa-button--hover {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #4F9E99;
+    color: #1a4480;
+}
+
+.usa-button--outline:active, .usa-button--outline.usa-button--active {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #4F9E99;
+    color: #4F9E99;
+}
