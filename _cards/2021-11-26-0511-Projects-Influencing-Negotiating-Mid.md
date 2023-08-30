@@ -15,12 +15,12 @@ level: "10-13"
 behavior_illustrations: "Gains cooperation from others"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI7504">Contracting Basics for Administrative Personnel (ACQI7502), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7505">Contracting Basics for CORs (ACQI7503), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8036">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8917">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LEAD9022">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT9110">Negotiating Techniques (MGMT9104 & 9105), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7504" aria-label="Contracting Basics for Administrative Personnel (ACQI7502), GSU - https://www.LearnAtGSUSA.com/ACQI7504">Contracting Basics for Administrative Personnel (ACQI7502), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7505" aria-label="Contracting Basics for CORs (ACQI7503), GSU - https://www.LearnAtGSUSA.com/ACQI7505">Contracting Basics for CORs (ACQI7503), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8036" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU - https://www.LearnAtGSUSA.com/AUDT8036">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8917" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU - https://www.LearnAtGSUSA.com/AUDT8917">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9022" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU - https://www.LearnAtGSUSA.com/LEAD9022">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT9110" aria-label="Negotiating Techniques (MGMT9104 & 9105), GSU - https://www.LearnAtGSUSA.com/MGMT9110">Negotiating Techniques (MGMT9104 & 9105), GSU</a>
 filters: Projects-Influencing-Negotiating GS-10-13 series-0511
 ---
 

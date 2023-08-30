@@ -16,9 +16,9 @@ behavior_illustrations: "Reviews and proposes modifications to processes and ide
  ? Develops and conceptualizes new approaches for organizational execution of strategic initiatives ? Reviews, develops, and revises policies and procedures that have a significant impact on the organization ? ? Designs an innovative product that results in improved transactions, processing, or reporting or enhances customer experiences ?"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8023">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8113">Decision Making and Problem Solving (MGMT8102), GSU</a>
-- <a href="https://online.em.kellogg.northwestern.edu/design-thinking/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Design Thinking&#58; A Toolkit for Breakthrough Innovation (with Northwestern Kellogg), Emeritus</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8023" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8023">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8113" aria-label="Decision Making and Problem Solving (MGMT8102), GSU - https://www.LearnAtGSUSA.com/MGMT8113">Decision Making and Problem Solving (MGMT8102), GSU</a>
+- <a href="https://online.em.kellogg.northwestern.edu/design-thinking/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Design Thinking&#58; A Toolkit for Breakthrough Innovation (with Northwestern Kellogg), Emeritus - https://online.em.kellogg.northwestern.edu/design-thinking/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Design Thinking&#58; A Toolkit for Breakthrough Innovation (with Northwestern Kellogg), Emeritus</a>
 filters: Personal-Innovative-Thinking GS-14-15 series-0560
 ---
 

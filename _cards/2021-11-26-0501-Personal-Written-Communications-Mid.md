@@ -15,18 +15,18 @@ level: "10-13"
 behavior_illustrations: "Prepares reports, summaries, or makes recommendations independently ? Reviews and edits materials prepared by others for grammar, punctuation, spelling and conformance to style and format guidelines"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI8519">Performance Work Statements (ACQI8519), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT7029">Developing and Presenting Audit Findings (AUDT7021), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8304">Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8619">Written Communication for Auditors (AUDT8611), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT9502">Reviewing Other Peoples Report Writing (AUDT9502), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7102">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8154">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8124">Decision Support Analytics (FINC8120), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC9150">Intermediate Decision Support Analytics (FINC9150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT7100">Clear Writing Through Critical Thinking (WRIT7100), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT7118">Writing for Results (WRIT7110), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT9001">Executive Writing (WRIT9001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8519" aria-label="Performance Work Statements (ACQI8519), GSU - https://www.LearnAtGSUSA.com/ACQI8519">Performance Work Statements (ACQI8519), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7029" aria-label="Developing and Presenting Audit Findings (AUDT7021), GSU - https://www.LearnAtGSUSA.com/AUDT7029">Developing and Presenting Audit Findings (AUDT7021), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8304" aria-label="Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU - https://www.LearnAtGSUSA.com/AUDT8304">Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8619" aria-label="Written Communication for Auditors (AUDT8611), GSU - https://www.LearnAtGSUSA.com/AUDT8619">Written Communication for Auditors (AUDT8611), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9502" aria-label="Reviewing Other Peoples Report Writing (AUDT9502), GSU - https://www.LearnAtGSUSA.com/AUDT9502">Reviewing Other Peoples Report Writing (AUDT9502), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7102" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7102">Budget Justification and Presentation (BUDG7102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8154" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8154">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8124" aria-label="Decision Support Analytics (FINC8120), GSU - https://www.LearnAtGSUSA.com/FINC8124">Decision Support Analytics (FINC8120), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC9150" aria-label="Intermediate Decision Support Analytics (FINC9150), GSU - https://www.LearnAtGSUSA.com/FINC9150">Intermediate Decision Support Analytics (FINC9150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/WRIT7100" aria-label="Clear Writing Through Critical Thinking (WRIT7100), GSU - https://www.LearnAtGSUSA.com/WRIT7100">Clear Writing Through Critical Thinking (WRIT7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/WRIT7118" aria-label="Writing for Results (WRIT7110), GSU - https://www.LearnAtGSUSA.com/WRIT7118">Writing for Results (WRIT7110), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/WRIT9001" aria-label="Executive Writing (WRIT9001), GSU - https://www.LearnAtGSUSA.com/WRIT9001">Executive Writing (WRIT9001), GSU</a>
 filters: Personal-Written-Communications GS-10-13 series-0501
 ---
 

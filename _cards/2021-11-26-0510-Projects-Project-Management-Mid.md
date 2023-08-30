@@ -15,15 +15,15 @@ level: "10-13"
 behavior_illustrations: "Modifies the order of work performed to meet changing circumstances and deadlines ? Acquires project resources and clarifies the roles and responsibilities of project team members ? Manages, designs, implements, and monitors projects of moderate scope ? Develops and presents project plans to senior management, including project status, goals, and objectives ? Adjusts and maintains resource estimates based upon project updates ? Develops and presents project plans to senior management, including project status, goals, and objectives ? Adjusts and maintains resource estimates based upon project updates ? Manages, designs, implements, and monitors projects of significant scope that cross numerous functional areas ? Serves as a manager of multiple concurrent projects "
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Professional Certificate in Technical Project Management (with MIT xPro), Emeritus</a>
-- <a href="https://www.LearnAtGSUSA.com/PGMT7008">Project Management Essentials (PGMT7007), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PGMT8011">Project Leadership (PGMT8010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ7021">Overview of Project Management (PROJ7020), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ7024">Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU</a>
-- <a href="https://em-executive.berkeley.edu/leading-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Leading Complex Projects (with UC Berkeley Executive Education), Emeritus</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ9201">Schedule, Cost & Resource Management (PROJ9200), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ9211">Scope, Quality & Risk Management (PROJ9210), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ9216">Stakeholder & Communications Management (PROJ9215), GSU</a>
+- <a href="https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Professional Certificate in Technical Project Management (with MIT xPro), Emeritus - https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Professional Certificate in Technical Project Management (with MIT xPro), Emeritus</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT7008" aria-label="Project Management Essentials (PGMT7007), GSU - https://www.LearnAtGSUSA.com/PGMT7008">Project Management Essentials (PGMT7007), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT8011" aria-label="Project Leadership (PGMT8010), GSU - https://www.LearnAtGSUSA.com/PGMT8011">Project Leadership (PGMT8010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROJ7021" aria-label="Overview of Project Management (PROJ7020), GSU - https://www.LearnAtGSUSA.com/PROJ7021">Overview of Project Management (PROJ7020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROJ7024" aria-label="Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU - https://www.LearnAtGSUSA.com/PROJ7024">Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU</a>
+- <a href="https://em-executive.berkeley.edu/leading-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Leading Complex Projects (with UC Berkeley Executive Education), Emeritus - https://em-executive.berkeley.edu/leading-complex-projects/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Leading Complex Projects (with UC Berkeley Executive Education), Emeritus</a>
+- <a href="https://www.LearnAtGSUSA.com/PROJ9201" aria-label="Schedule, Cost & Resource Management (PROJ9200), GSU - https://www.LearnAtGSUSA.com/PROJ9201">Schedule, Cost & Resource Management (PROJ9200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROJ9211" aria-label="Scope, Quality & Risk Management (PROJ9210), GSU - https://www.LearnAtGSUSA.com/PROJ9211">Scope, Quality & Risk Management (PROJ9210), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROJ9216" aria-label="Stakeholder & Communications Management (PROJ9215), GSU - https://www.LearnAtGSUSA.com/PROJ9216">Stakeholder & Communications Management (PROJ9215), GSU</a>
 filters: Projects-Project-Management GS-10-13 series-0510
 ---
 

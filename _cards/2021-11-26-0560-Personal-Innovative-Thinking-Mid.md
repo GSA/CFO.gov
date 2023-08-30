@@ -16,8 +16,8 @@ behavior_illustrations: "Develops a new method for disseminating information to 
 "
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8019">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8109">Decision Making and Problem Solving (MGMT8102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8019" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8019">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8109" aria-label="Decision Making and Problem Solving (MGMT8102), GSU - https://www.LearnAtGSUSA.com/MGMT8109">Decision Making and Problem Solving (MGMT8102), GSU</a>
 filters: Personal-Innovative-Thinking GS-10-13 series-0560
 ---
 

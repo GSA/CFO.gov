@@ -16,10 +16,10 @@ behavior_illustrations: "Provides developmental feedback to staff on job perform
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT7020">Leadership Essentials (MGMT7020), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT9002">Coaching Skills for Today's Leaders (MGMT9002), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/TDEV8200">Leading Teams and Groups (TDEV8200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7020" aria-label="Leadership Essentials (MGMT7020), GSU - https://www.LearnAtGSUSA.com/MGMT7020">Leadership Essentials (MGMT7020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT9002" aria-label="Coaching Skills for Today's Leaders (MGMT9002), GSU - https://www.LearnAtGSUSA.com/MGMT9002">Coaching Skills for Today's Leaders (MGMT9002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/TDEV8200" aria-label="Leading Teams and Groups (TDEV8200), GSU - https://www.LearnAtGSUSA.com/TDEV8200">Leading Teams and Groups (TDEV8200), GSU</a>
 filters: Leading-Developing-Others GS-7-9 series-0501
 ---
 

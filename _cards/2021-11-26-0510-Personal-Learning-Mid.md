@@ -15,10 +15,10 @@ level: "10-13"
 behavior_illustrations: "Completes required training and applies key learnings ? Recognizes areas needing improvement and takes training to increase skills ? Attends training on the use of new tools and shares knowledge with co-workers ? Seeks out and actively participates in learning and development activities"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram">Aspiring Leader Program, GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EPPG8841">Executive Potential Program (EPPG8840), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program, GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program, GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram" aria-label="Aspiring Leader Program, GSU - https://www.LearnAtGSUSA.com/AspiringLeaderProgram">Aspiring Leader Program, GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EPPG8841" aria-label="Executive Potential Program (EPPG8840), GSU - https://www.LearnAtGSUSA.com/EPPG8841">Executive Potential Program (EPPG8840), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram" aria-label="Executive Leadership Program, GSU - https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program, GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram" aria-label="New Leader Program, GSU - https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program, GSU</a>
 filters: Personal-Learning GS-10-13 series-0510
 ---
 

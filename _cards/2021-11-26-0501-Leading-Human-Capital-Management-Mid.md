@@ -16,13 +16,13 @@ behavior_illustrations: "Recognizes and addresses deficiencies of human resource
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/CLAS8102">Position Classification for Supervisors and Administrative Staff (CLAS8102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EEOP7030">Sexual Harassment Prevention for Employees (EEOP7030), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EEOP7031">Sexual Harassment Prevention for Supervisors (EEOP7031), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LABR7020">Federal Labor Relations (Basic) (LABR7020), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LABR7051">Basic Labor Relations (LABR7051), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PERS1731">Federal Human Resources Management (PERS1731) Self-Paced, GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PMGT7011">Federal Human Resources Management (PMGT7011), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/CLAS8102" aria-label="Position Classification for Supervisors and Administrative Staff (CLAS8102), GSU - https://www.LearnAtGSUSA.com/CLAS8102">Position Classification for Supervisors and Administrative Staff (CLAS8102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EEOP7030" aria-label="Sexual Harassment Prevention for Employees (EEOP7030), GSU - https://www.LearnAtGSUSA.com/EEOP7030">Sexual Harassment Prevention for Employees (EEOP7030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EEOP7031" aria-label="Sexual Harassment Prevention for Supervisors (EEOP7031), GSU - https://www.LearnAtGSUSA.com/EEOP7031">Sexual Harassment Prevention for Supervisors (EEOP7031), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LABR7020" aria-label="Federal Labor Relations (Basic) (LABR7020), GSU - https://www.LearnAtGSUSA.com/LABR7020">Federal Labor Relations (Basic) (LABR7020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LABR7051" aria-label="Basic Labor Relations (LABR7051), GSU - https://www.LearnAtGSUSA.com/LABR7051">Basic Labor Relations (LABR7051), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PERS1731" aria-label="Federal Human Resources Management (PERS1731) Self-Paced, GSU - https://www.LearnAtGSUSA.com/PERS1731">Federal Human Resources Management (PERS1731) Self-Paced, GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PMGT7011" aria-label="Federal Human Resources Management (PMGT7011), GSU - https://www.LearnAtGSUSA.com/PMGT7011">Federal Human Resources Management (PMGT7011), GSU</a>
 filters: Leading-Human-Capital-Management GS-10-13 series-0501
 ---
 

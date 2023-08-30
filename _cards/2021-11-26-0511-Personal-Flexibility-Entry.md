@@ -15,11 +15,11 @@ level: "7-9"
 behavior_illustrations: "Meets with team to adjust and coordinate schedules to accommodate all team members ? Adjusts staff assignments based on feedback and work load priorities ? Uses staff feedback to streamline processes in order to meet deadlines ? Adjusts project plan based on input from staff and stakeholders"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ADMB7008">Leadership Skills for Non-Supervisors (ADMB7006), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ADMB7009">Managing Multiple Priorities (ADMB7007), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ADMB7013">Managing Multiple Priorities (ADMB7007), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8014">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT7203">Leading Change (MGMT7201), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7008" aria-label="Leadership Skills for Non-Supervisors (ADMB7006), GSU - https://www.LearnAtGSUSA.com/ADMB7008">Leadership Skills for Non-Supervisors (ADMB7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7009" aria-label="Managing Multiple Priorities (ADMB7007), GSU - https://www.LearnAtGSUSA.com/ADMB7009">Managing Multiple Priorities (ADMB7007), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7013" aria-label="Managing Multiple Priorities (ADMB7007), GSU - https://www.LearnAtGSUSA.com/ADMB7013">Managing Multiple Priorities (ADMB7007), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8014" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8014">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7203" aria-label="Leading Change (MGMT7201), GSU - https://www.LearnAtGSUSA.com/MGMT7203">Leading Change (MGMT7201), GSU</a>
 filters: Personal-Flexibility GS-7-9 series-0511
 ---
 

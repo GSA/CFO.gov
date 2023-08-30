@@ -16,7 +16,7 @@ behavior_illustrations: "Uses information in previously approved correspondence 
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/AUDT8015">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8015" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8015">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
 filters: Personal-Critical-Thinking GS-7-9 series-0560
 ---
 

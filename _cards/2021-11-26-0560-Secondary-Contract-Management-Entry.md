@@ -15,15 +15,15 @@ level: "7-9"
 behavior_illustrations: "Understands the accounting string and budget for a given contract ? Works with appropriate authorities to verify contractual services were provided per posted transactions"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI3013">Other Transaction Authority Basics (ACQI3010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7031">COR Essentials (ACQI7028), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7103">FAR Basics (ACQI7100), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7503">Basic Contract Administration (ACQI7500), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7505">Contracting Basics for Administrative Personnel (ACQI7502), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7506">Contracting Basics for CORs (ACQI7503), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7509">Simplified Acquisition Procedures (ACQI7506), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI8522">Performance Work Statements (ACQI8519), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8804">Contract Auditing (AUDT8801), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI3013" aria-label="Other Transaction Authority Basics (ACQI3010), GSU - https://www.LearnAtGSUSA.com/ACQI3013">Other Transaction Authority Basics (ACQI3010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7031" aria-label="COR Essentials (ACQI7028), GSU - https://www.LearnAtGSUSA.com/ACQI7031">COR Essentials (ACQI7028), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7103" aria-label="FAR Basics (ACQI7100), GSU - https://www.LearnAtGSUSA.com/ACQI7103">FAR Basics (ACQI7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7503" aria-label="Basic Contract Administration (ACQI7500), GSU - https://www.LearnAtGSUSA.com/ACQI7503">Basic Contract Administration (ACQI7500), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7505" aria-label="Contracting Basics for Administrative Personnel (ACQI7502), GSU - https://www.LearnAtGSUSA.com/ACQI7505">Contracting Basics for Administrative Personnel (ACQI7502), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7506" aria-label="Contracting Basics for CORs (ACQI7503), GSU - https://www.LearnAtGSUSA.com/ACQI7506">Contracting Basics for CORs (ACQI7503), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7509" aria-label="Simplified Acquisition Procedures (ACQI7506), GSU - https://www.LearnAtGSUSA.com/ACQI7509">Simplified Acquisition Procedures (ACQI7506), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8522" aria-label="Performance Work Statements (ACQI8519), GSU - https://www.LearnAtGSUSA.com/ACQI8522">Performance Work Statements (ACQI8519), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8804" aria-label="Contract Auditing (AUDT8801), GSU - https://www.LearnAtGSUSA.com/AUDT8804">Contract Auditing (AUDT8801), GSU</a>
 filters: Secondary-Contract-Management GS-7-9 series-0560
 ---
 

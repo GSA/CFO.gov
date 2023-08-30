@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Understands and uses advanced features of common tools used for securely collaborating in a virtual work environment ? Identifies and learns how to use new, emerging, or specialized collaboration tools securely in a virtual environment ? Considers accessiblity features when collaborating virtually"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI8035">Virtual Contract Management (ACQI8030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8035" aria-label="Virtual Contract Management (ACQI8030), GSU - https://www.LearnAtGSUSA.com/ACQI8035">Virtual Contract Management (ACQI8030), GSU</a>
 filters: Personal-Digital-Collaboration GS-10-13 series-0510
 ---
 

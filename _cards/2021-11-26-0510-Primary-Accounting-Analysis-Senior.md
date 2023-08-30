@@ -15,18 +15,18 @@ level: "14-15"
 behavior_illustrations: "Solves difficult challenges through accounting analysis to determine the proper course of action and provides advice to decision-makers ? Examines the impact of complex accounting solutions to make controversial decisions, and negotiate with key stakeholders?"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering">Advanced Clustering in Python, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataScience/DecisionTrees">Decision Trees in Python, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataScience/LogisticRegression">Logistic Regression in Python, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataScience/MultipleRegression">Multiple Linear Regression in Python, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataScience-R/AdvancedClusteringInR">Advanced Clustering in R, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataScience-R/DecisionTreesInR">Decision Trees in R, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR">Logistic Regression in R, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataScience-R/MultipleRegressionInR">Multiple Linear Regression in R, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI">Introduction to Power BI, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntermediateAndAdvancedTableau">Intermediate and Advanced Tableau, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau">Introduction to Tableau, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">Data Literacy for Executives, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering" aria-label="Advanced Clustering in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering">Advanced Clustering in Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience/DecisionTrees" aria-label="Decision Trees in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/DecisionTrees">Decision Trees in Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience/LogisticRegression" aria-label="Logistic Regression in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/LogisticRegression">Logistic Regression in Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience/MultipleRegression" aria-label="Multiple Linear Regression in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/MultipleRegression">Multiple Linear Regression in Python, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/AdvancedClusteringInR" aria-label="Advanced Clustering in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/AdvancedClusteringInR">Advanced Clustering in R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/DecisionTreesInR" aria-label="Decision Trees in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/DecisionTreesInR">Decision Trees in R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR" aria-label="Logistic Regression in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR">Logistic Regression in R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScience-R/MultipleRegressionInR" aria-label="Multiple Linear Regression in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/MultipleRegressionInR">Multiple Linear Regression in R, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI" aria-label="Introduction to Power BI, Data Society - https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI">Introduction to Power BI, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntermediateAndAdvancedTableau" aria-label="Intermediate and Advanced Tableau, Data Society - https://datasociety.meldr.ai/courses/DataSocietyTableau/IntermediateAndAdvancedTableau">Intermediate and Advanced Tableau, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau" aria-label="Introduction to Tableau, Data Society - https://datasociety.meldr.ai/courses/DataSocietyTableau/IntroductionToTableau">Introduction to Tableau, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives" aria-label="Data Literacy for Executives, Data Society - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">Data Literacy for Executives, Data Society</a>
 filters: Primary-Accounting-Analysis GS-14-15 series-0510
 ---
 

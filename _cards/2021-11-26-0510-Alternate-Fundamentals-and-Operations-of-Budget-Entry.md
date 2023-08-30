@@ -15,11 +15,11 @@ level: "7-9"
 behavior_illustrations: "Obtains and inputs basic data utilizing financial management systems"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/BUDG7001">Federal Budgeting for Non-Budgeting Personnel (BUDG7000), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7002">Introduction to Federal Budgeting (BUDG7001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC7001">Introduction to Financial Management (FINC7000), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC7011">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8301">Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7001" aria-label="Federal Budgeting for Non-Budgeting Personnel (BUDG7000), GSU - https://www.LearnAtGSUSA.com/BUDG7001">Federal Budgeting for Non-Budgeting Personnel (BUDG7000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7002" aria-label="Introduction to Federal Budgeting (BUDG7001), GSU - https://www.LearnAtGSUSA.com/BUDG7002">Introduction to Federal Budgeting (BUDG7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7001" aria-label="Introduction to Financial Management (FINC7000), GSU - https://www.LearnAtGSUSA.com/FINC7001">Introduction to Financial Management (FINC7000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7011" aria-label="Financial Management Bootcamp for New Federal Managers (FINC7010), GSU - https://www.LearnAtGSUSA.com/FINC7011">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8301" aria-label="Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU - https://www.LearnAtGSUSA.com/FINC8301">Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Budget GS-7-9 series-0510
 ---
 

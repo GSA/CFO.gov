@@ -138,7 +138,7 @@ function buildCards() {
                     courseMarkup += '<li>';
                     if (courseUnique[i].urls.length) {
                         for (j = 0, k = courseUnique[i].urls.length; j < k; j++) {
-                            const link = `<a href="${courseUnique[i].urls[j]}">${courseNameList}</a>`;
+                            const link = `<a href="${courseUnique[i].urls[j]}" aria-label="${courseNameList} - ${courseUnique[i].urls[j]}">${courseNameList}</a>`;
                             courseMarkup += link;
                             courseExport += link;
                         }

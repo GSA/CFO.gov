@@ -15,12 +15,12 @@ level: "14-15"
 behavior_illustrations: "Completes leadership development program including training, coaching, and mentoring opportunities and applies key learnings ? Arranges and completes rotational assignment meeting own developmental goals and aligning with organizational strategies ? Understands how learning and development activities impact organizational objectives ? Assists and coaches others in identifying learning and development opportunities ? ? Engages in systematic, self-directed training and development activities aligned with the strategic needs of the agency ? Applies what is learned in training to produce major positive impact for the agency ? Recommends newly learned methods that can be implemented by others"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://online-execed.wharton.upenn.edu/leading-technology-driven-organization/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Leading a Technology-Driven Firm (with Wharton Executive Education), Emeritus</a>
-- <a href="https://www.LearnAtGSUSA.com/EPPG8845">Executive Potential Program (EPPG8840), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program, GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program, GSU</a>
-- <a href="https://executive-ed.mit.edu/unlocking-your-leadership-signature/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Unlocking Your Leadership Signature (with MIT Management Executive Education), Emeritus</a>
-- <a href="https://www.LearnAtGSUSA.com/EPPG8849">Executive Potential Program (EPPG8840), GSU</a>
+- <a href="https://online-execed.wharton.upenn.edu/leading-technology-driven-organization/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Leading a Technology-Driven Firm (with Wharton Executive Education), Emeritus - https://online-execed.wharton.upenn.edu/leading-technology-driven-organization/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Leading a Technology-Driven Firm (with Wharton Executive Education), Emeritus</a>
+- <a href="https://www.LearnAtGSUSA.com/EPPG8845" aria-label="Executive Potential Program (EPPG8840), GSU - https://www.LearnAtGSUSA.com/EPPG8845">Executive Potential Program (EPPG8840), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram" aria-label="Executive Leadership Program, GSU - https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program, GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram" aria-label="New Leader Program, GSU - https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program, GSU</a>
+- <a href="https://executive-ed.mit.edu/unlocking-your-leadership-signature/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Unlocking Your Leadership Signature (with MIT Management Executive Education), Emeritus - https://executive-ed.mit.edu/unlocking-your-leadership-signature/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Unlocking Your Leadership Signature (with MIT Management Executive Education), Emeritus</a>
+- <a href="https://www.LearnAtGSUSA.com/EPPG8849" aria-label="Executive Potential Program (EPPG8840), GSU - https://www.LearnAtGSUSA.com/EPPG8849">Executive Potential Program (EPPG8840), GSU</a>
 filters: Personal-Learning GS-14-15 series-0510
 ---
 

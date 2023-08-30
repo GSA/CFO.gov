@@ -15,19 +15,19 @@ level: "14-15"
 behavior_illustrations: "Researches and organizes relevant budget information and systems using various standardized procedures ? Examines and reconciles complex transactions from budget information and systems using various standardized procedures"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/BUDG7103">Budget Formulation (BUDG7101), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7104">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7106">Budget Execution (BUDG7100), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8006">Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8007">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8152">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8182">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC7020">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7107">Budget Formulation (BUDG7101), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7108">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8011">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8156">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8186">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7103" aria-label="Budget Formulation (BUDG7101), GSU - https://www.LearnAtGSUSA.com/BUDG7103">Budget Formulation (BUDG7101), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7104" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7104">Budget Justification and Presentation (BUDG7102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7106" aria-label="Budget Execution (BUDG7100), GSU - https://www.LearnAtGSUSA.com/BUDG7106">Budget Execution (BUDG7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8006" aria-label="Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU - https://www.LearnAtGSUSA.com/BUDG8006">Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8007" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8007">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8152" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8152">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8182" aria-label="Planning, Budgeting and Performance Measurement (BUDG8180), GSU - https://www.LearnAtGSUSA.com/BUDG8182">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7020" aria-label="Financial Management Bootcamp for New Federal Managers (FINC7010), GSU - https://www.LearnAtGSUSA.com/FINC7020">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7107" aria-label="Budget Formulation (BUDG7101), GSU - https://www.LearnAtGSUSA.com/BUDG7107">Budget Formulation (BUDG7101), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7108" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7108">Budget Justification and Presentation (BUDG7102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8011" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8011">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8156" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8156">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8186" aria-label="Planning, Budgeting and Performance Measurement (BUDG8180), GSU - https://www.LearnAtGSUSA.com/BUDG8186">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0511
 ---
 

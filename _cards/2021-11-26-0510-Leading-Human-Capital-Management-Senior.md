@@ -15,14 +15,14 @@ level: "14-15"
 behavior_illustrations: "Develops rewards system to recognize the impact of employee contributions to the organization ? Identifies creative strategies to recruit employees with the required skills and qualifications, despite having limited resources ? Identifies mission critical occupations and associated competencies needed to perform organizational functions ? Redesigns organizational structure to provide improved service to customers by considering organizational goals, timeframes for achieving goals, and staff responsibilities ? Creates new agency-wide human capital programs and activities to meet strategic objectives ? Leads task force to analyze agency-wide staffing needs and develops strategy to address recruitment needs ? Develops new agency-wide incentive program to retain employees with technical expertise"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/LABR7012">Managing Employee Conduct and Performance (LABR7011), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LABR9002">Negotiating Federal Labor Agreements (LABR9001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PMGT7103">Federal Human Resources Management for Supervisors and Managers (PMGT7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PMGT7511">Family and Medical Leave Act for Supervisors and HR Practitioners (PMGT7510), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LABR7111">Federal Employee Relations (Basic) (LABR7110), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PMGT7014">Federal Workforce Analysis and Planning (PMGT7013), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PMGT7016">Strategic Human Capital Management (PMGT7015), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/STAF8017">Using and Presenting HR Data for Organizational Decisions (STAF8016), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LABR7012" aria-label="Managing Employee Conduct and Performance (LABR7011), GSU - https://www.LearnAtGSUSA.com/LABR7012">Managing Employee Conduct and Performance (LABR7011), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LABR9002" aria-label="Negotiating Federal Labor Agreements (LABR9001), GSU - https://www.LearnAtGSUSA.com/LABR9002">Negotiating Federal Labor Agreements (LABR9001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PMGT7103" aria-label="Federal Human Resources Management for Supervisors and Managers (PMGT7102), GSU - https://www.LearnAtGSUSA.com/PMGT7103">Federal Human Resources Management for Supervisors and Managers (PMGT7102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PMGT7511" aria-label="Family and Medical Leave Act for Supervisors and HR Practitioners (PMGT7510), GSU - https://www.LearnAtGSUSA.com/PMGT7511">Family and Medical Leave Act for Supervisors and HR Practitioners (PMGT7510), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LABR7111" aria-label="Federal Employee Relations (Basic) (LABR7110), GSU - https://www.LearnAtGSUSA.com/LABR7111">Federal Employee Relations (Basic) (LABR7110), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PMGT7014" aria-label="Federal Workforce Analysis and Planning (PMGT7013), GSU - https://www.LearnAtGSUSA.com/PMGT7014">Federal Workforce Analysis and Planning (PMGT7013), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PMGT7016" aria-label="Strategic Human Capital Management (PMGT7015), GSU - https://www.LearnAtGSUSA.com/PMGT7016">Strategic Human Capital Management (PMGT7015), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/STAF8017" aria-label="Using and Presenting HR Data for Organizational Decisions (STAF8016), GSU - https://www.LearnAtGSUSA.com/STAF8017">Using and Presenting HR Data for Organizational Decisions (STAF8016), GSU</a>
 filters: Leading-Human-Capital-Management GS-14-15 series-0510
 ---
 
