@@ -115,7 +115,7 @@ function buildCards() {
                     (object, index, self) =>
                         index ===
                         self.findIndex((o) => o.courseName === object.courseName && o.instName === object.instName && o.urls[0] === object.urls[0])
-                );
+                ).sort((a, b) => a.courseName > b.courseName ? 1 : -1);
 
                 for (i = 0, l = courseUnique.length; i < l; i++) {
                     if (courseUnique[i].courseName) {
@@ -136,7 +136,7 @@ function buildCards() {
                     }
                     courseExport += '\n- ';
                     courseMarkup += '<li>';
-                    if (courseUnique[i].urls.length) {
+                    if (courseUnique[i].urls.length) {        
                         for (j = 0, k = courseUnique[i].urls.length; j < k; j++) {
                             const link = `<a href="${courseUnique[i].urls[j]}" aria-label="${courseNameList} - ${courseUnique[i].urls[j]}">${courseNameList}</a>`;
                             courseMarkup += link;

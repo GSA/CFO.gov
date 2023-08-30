@@ -17,9 +17,9 @@ proficiency_level_definition: Applies the competency in considerably difficult s
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/BUDG7108" aria-label="Budget Formulation (BUDG7101), GSU - https://www.LearnAtGSUSA.com/BUDG7108">Budget Formulation (BUDG7101), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/BUDG7109" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7109">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8012" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8012">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/BUDG8157" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8157">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/BUDG8187" aria-label="Planning, Budgeting and Performance Measurement (BUDG8180), GSU - https://www.LearnAtGSUSA.com/BUDG8187">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8012" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8012">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
 filters: Secondary-Fundamentals-and-Operations-of-Budget GS-10-13 series-0560
 ---
 

@@ -15,10 +15,10 @@ level: "7-9"
 behavior_illustrations: "Proposes solution to improve customer satisfaction ? Determines cause of workforce problem and recommends corrective action ? Addresses routine organizational problems by leading a team to brainstorm solutions ? Establishes guidelines to clarify complex and/or controversial processes"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/COMM7006" aria-label="Interpersonal Communications (COMM7006), GSU - https://www.LearnAtGSUSA.com/COMM7006">Interpersonal Communications (COMM7006), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/WRIT7100" aria-label="Clear Writing Through Critical Thinking (WRIT7100), GSU - https://www.LearnAtGSUSA.com/WRIT7100">Clear Writing Through Critical Thinking (WRIT7100), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/MGMT8102" aria-label="Decision Making and Problem Solving (MGMT8102), GSU - https://www.LearnAtGSUSA.com/MGMT8102">Decision Making and Problem Solving (MGMT8102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7006" aria-label="Interpersonal Communications (COMM7006), GSU - https://www.LearnAtGSUSA.com/COMM7006">Interpersonal Communications (COMM7006), GSU</a>
 filters: Personal-Problem-Solving GS-7-9 series-0501
 ---
 

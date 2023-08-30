@@ -16,9 +16,9 @@ behavior_illustrations: "Attends professional conferences to maintain technical 
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram" aria-label="Aspiring Leader Program, GSU - https://www.LearnAtGSUSA.com/AspiringLeaderProgram">Aspiring Leader Program, GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram" aria-label="New Leader Program, GSU - https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program, GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EPPG8840" aria-label="Executive Potential Program (EPPG8840), GSU - https://www.LearnAtGSUSA.com/EPPG8840">Executive Potential Program (EPPG8840), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram" aria-label="Executive Leadership Program, GSU - https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program, GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EPPG8840" aria-label="Executive Potential Program (EPPG8840), GSU - https://www.LearnAtGSUSA.com/EPPG8840">Executive Potential Program (EPPG8840), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram" aria-label="New Leader Program, GSU - https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program, GSU</a>
 filters: Personal-Learning GS-7-9 series-0501
 ---
 

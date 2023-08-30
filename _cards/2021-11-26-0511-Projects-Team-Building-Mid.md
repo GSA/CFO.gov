@@ -15,9 +15,9 @@ level: "10-13"
 behavior_illustrations: "Includes entire team in decision-making process when developing mission and goals for the division ? Creates senior-level teams to design and implement requirements for new systems and procedures ? Leads team from various organizational units to create new systems or processes ? Promotes cohesiveness of a dysfunctional team by defining roles and responsibilities of each team member and establishing overall objectives ?Leads teams to implement Congressional programs and interact with legislative representatives ? Motivates agency-wide team by assigning work based on team member skill level and area of interest"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI7503" aria-label="Shaping Smart Business Arrangements (ACQI7501), GSU - https://www.LearnAtGSUSA.com/ACQI7503">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8122" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8122">Leadership Communication (MGMT8112), GSU</a>
 - Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/MGMT8122" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8122">Leadership Communication (MGMT8112), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7503" aria-label="Shaping Smart Business Arrangements (ACQI7501), GSU - https://www.LearnAtGSUSA.com/ACQI7503">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
 filters: Projects-Team-Building GS-10-13 series-0511
 ---
 

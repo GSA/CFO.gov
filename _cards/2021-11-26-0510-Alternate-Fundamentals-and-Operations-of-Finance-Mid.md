@@ -15,17 +15,17 @@ level: "10-13"
 behavior_illustrations: "Gathers a variety of standard reports and data from various systems to support the financial management operational areas"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI7105" aria-label="FAR Basics (ACQI7100), GSU - https://www.LearnAtGSUSA.com/ACQI7105">FAR Basics (ACQI7100), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/BUDG8104" aria-label="Department of Homeland Security PPBE System (BUDG8103), GSU - https://www.LearnAtGSUSA.com/BUDG8104">Department of Homeland Security PPBE System (BUDG8103), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC7005" aria-label="Introduction to Financial Management (FINC7000), GSU - https://www.LearnAtGSUSA.com/FINC7005">Introduction to Financial Management (FINC7000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7105" aria-label="FAR Basics (ACQI7100), GSU - https://www.LearnAtGSUSA.com/ACQI7105">FAR Basics (ACQI7100), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/FINC7015" aria-label="Financial Management Bootcamp for New Federal Managers (FINC7010), GSU - https://www.LearnAtGSUSA.com/FINC7015">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7005" aria-label="Introduction to Financial Management (FINC7000), GSU - https://www.LearnAtGSUSA.com/FINC7005">Introduction to Financial Management (FINC7000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8235" aria-label="Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU - https://www.LearnAtGSUSA.com/FINC8235">Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7220" aria-label="Travel Regulations for Defense Agencies, JTR (TDY Only) (FINC7215), GSU - https://www.LearnAtGSUSA.com/FINC7220">Travel Regulations for Defense Agencies, JTR (TDY Only) (FINC7215), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8236" aria-label="Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU - https://www.LearnAtGSUSA.com/FINC8236">Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/FINC7109" aria-label="Travel Regulations for Non-Defense Agencies, FTR (PCS Only) (FINC7104), GSU - https://www.LearnAtGSUSA.com/FINC7109">Travel Regulations for Non-Defense Agencies, FTR (PCS Only) (FINC7104), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/FINC7218" aria-label="Travel Regulations for Non-Defense Agencies, FTR (TDY Only) (FINC7213), GSU - https://www.LearnAtGSUSA.com/FINC7218">Travel Regulations for Non-Defense Agencies, FTR (TDY Only) (FINC7213), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC7220" aria-label="Travel Regulations for Defense Agencies, JTR (TDY Only) (FINC7215), GSU - https://www.LearnAtGSUSA.com/FINC7220">Travel Regulations for Defense Agencies, JTR (TDY Only) (FINC7215), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8104" aria-label="Understanding Federal Financial Statements (FINC8103), GSU - https://www.LearnAtGSUSA.com/FINC8104">Understanding Federal Financial Statements (FINC8103), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8235" aria-label="Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU - https://www.LearnAtGSUSA.com/FINC8235">Travel Regulations for Defense Agencies, JTR (PCS Only) (FINC8230), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8236" aria-label="Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU - https://www.LearnAtGSUSA.com/FINC8236">Travel Regulations for Defense Agencies, JTR (TDY and PCS) (FINC8231), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/FINC8237" aria-label="Travel Regulations for Non-Defense Agencies, FTR (TDY and PCS) (FINC8232), GSU - https://www.LearnAtGSUSA.com/FINC8237">Travel Regulations for Non-Defense Agencies, FTR (TDY and PCS) (FINC8232), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8104" aria-label="Understanding Federal Financial Statements (FINC8103), GSU - https://www.LearnAtGSUSA.com/FINC8104">Understanding Federal Financial Statements (FINC8103), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Finance GS-10-13 series-0510
 ---
 

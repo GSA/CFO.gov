@@ -17,8 +17,8 @@ proficiency_level_definition: Applies the competency in difficult situations ? R
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/PADM7003" aria-label="Pay Setting for FWS Positions (PADM7001), GSU - https://www.LearnAtGSUSA.com/PADM7003">Pay Setting for FWS Positions (PADM7001), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/PADM7004" aria-label="Pay Setting for GS Positions (PADM7002), GSU - https://www.LearnAtGSUSA.com/PADM7004">Pay Setting for GS Positions (PADM7002), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/STAF9004" aria-label="Pay Setting&#58; General Schedule (STAF9002), GSU - https://www.LearnAtGSUSA.com/STAF9004">Pay Setting&#58; General Schedule (STAF9002), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/STAF9006" aria-label="Pay Setting&#58; Federal Wage System (STAF9004), GSU - https://www.LearnAtGSUSA.com/STAF9006">Pay Setting&#58; Federal Wage System (STAF9004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/STAF9004" aria-label="Pay Setting&#58; General Schedule (STAF9002), GSU - https://www.LearnAtGSUSA.com/STAF9004">Pay Setting&#58; General Schedule (STAF9002), GSU</a>
 filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-7-9 series-0511
 ---
 

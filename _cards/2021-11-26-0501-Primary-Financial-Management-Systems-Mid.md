@@ -15,11 +15,11 @@ level: "10-13"
 behavior_illustrations: "Identifies system problems, extracts ad hoc reports, recommends enhancements, and initiates system change requests"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT7204" aria-label="Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU - https://www.LearnAtGSUSA.com/AUDT7204">Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8007" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8007">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8033" aria-label="Information Systems Auditing (AUDT8029), GSU - https://www.LearnAtGSUSA.com/AUDT8033">Information Systems Auditing (AUDT8029), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/AUDT8051" aria-label="Assessing the Reliability of Computer Processed Data (AUDT8043), GSU - https://www.LearnAtGSUSA.com/AUDT8051">Assessing the Reliability of Computer Processed Data (AUDT8043), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7204" aria-label="Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU - https://www.LearnAtGSUSA.com/AUDT7204">Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU - https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8033" aria-label="Information Systems Auditing (AUDT8029), GSU - https://www.LearnAtGSUSA.com/AUDT8033">Information Systems Auditing (AUDT8029), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8007" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8007">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
 filters: Primary-Financial-Management-Systems GS-10-13 series-0501
 ---
 

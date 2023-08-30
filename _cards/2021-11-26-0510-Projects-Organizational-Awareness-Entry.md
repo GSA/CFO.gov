@@ -15,11 +15,11 @@ level: "7-9"
 behavior_illustrations: "Keeps up-to-date by attending key meetings hosted by other agencies or organizations ? Keeps abreast of developments of other parts of the organization ? Gathers and summarizes information to predict stakeholder views on a new policy ? Considers external policies and trends when reviewing correspondence, reports, and policy documents"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8004" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8004">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8008" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8008">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/AUDT8812" aria-label="Assessing Financial Related Activities and Controls (AUDT8811), GSU - https://www.LearnAtGSUSA.com/AUDT8812">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8001" aria-label="Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU - https://www.LearnAtGSUSA.com/BUDG8001">Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8008" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8008">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8004" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8004">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/BUDG8002" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8002">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8001" aria-label="Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU - https://www.LearnAtGSUSA.com/BUDG8001">Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
 filters: Projects-Organizational-Awareness GS-7-9 series-0510
 ---
 

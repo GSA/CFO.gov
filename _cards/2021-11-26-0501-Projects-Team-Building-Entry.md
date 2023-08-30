@@ -16,10 +16,10 @@ behavior_illustrations: "Works with team to implement operating procedures withi
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/MGMT7099" aria-label="Introduction to Management (MGMT7099), GSU - https://www.LearnAtGSUSA.com/MGMT7099">Introduction to Management (MGMT7099), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8112" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8112">Leadership Communication (MGMT8112), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/SUPV7001" aria-label="Introduction to Supervision (SUPV7001), GSU - https://www.LearnAtGSUSA.com/SUPV7001">Introduction to Supervision (SUPV7001), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/TDEV7021" aria-label="Jump Starting High Performance Teams&#58; The Fundamentals (TDEV7021), GSU - https://www.LearnAtGSUSA.com/TDEV7021">Jump Starting High Performance Teams&#58; The Fundamentals (TDEV7021), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/MGMT8116" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8116">Leadership Communication (MGMT8112), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8112" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8112">Leadership Communication (MGMT8112), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/TDEV8200" aria-label="Leading Teams and Groups (TDEV8200), GSU - https://www.LearnAtGSUSA.com/TDEV8200">Leading Teams and Groups (TDEV8200), GSU</a>
 filters: Projects-Team-Building GS-7-9 series-0501
 ---

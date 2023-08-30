@@ -15,12 +15,12 @@ level: "7-9"
 behavior_illustrations: "Maintains records reflecting the status of work completed for simple projects ? Understands the basics of project management and the different schools of thought of how to implement a project successfully ? Assists project manager with day-to-day coordination and direction of team members ? Assists with implementing moderately sized projects as a contributing team-player ? Implements smaller projects from inception to implementation and sustainment"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI7110" aria-label="Fundamentals of Project and Program Management (ACQI7110), GSU - https://www.LearnAtGSUSA.com/ACQI7110">Fundamentals of Project and Program Management (ACQI7110), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ7015" aria-label="Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU - https://www.LearnAtGSUSA.com/PROJ7015">Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/ACQI7114" aria-label="Fundamentals of Project and Program Management (ACQI7110), GSU - https://www.LearnAtGSUSA.com/ACQI7114">Fundamentals of Project and Program Management (ACQI7110), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PGMT7012" aria-label="Principles for Managing Projects (PGMT7012), GSU - https://www.LearnAtGSUSA.com/PGMT7012">Principles for Managing Projects (PGMT7012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7110" aria-label="Fundamentals of Project and Program Management (ACQI7110), GSU - https://www.LearnAtGSUSA.com/ACQI7110">Fundamentals of Project and Program Management (ACQI7110), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/PROJ7010" aria-label="Introduction to Agile Project Management (PROJ7010), GSU - https://www.LearnAtGSUSA.com/PROJ7010">Introduction to Agile Project Management (PROJ7010), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/PROJ7019" aria-label="Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU - https://www.LearnAtGSUSA.com/PROJ7019">Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PROJ7015" aria-label="Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU - https://www.LearnAtGSUSA.com/PROJ7015">Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT7012" aria-label="Principles for Managing Projects (PGMT7012), GSU - https://www.LearnAtGSUSA.com/PGMT7012">Principles for Managing Projects (PGMT7012), GSU</a>
 filters: Projects-Project-Management GS-7-9 series-0501
 ---
 

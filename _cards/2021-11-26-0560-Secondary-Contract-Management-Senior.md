@@ -16,18 +16,18 @@ behavior_illustrations: "Have a solid understanding of the concepts and principl
 complex contracting project ? Assists in developing or updating financial management guidance and policy regarding contract management"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI7037" aria-label="Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU - https://www.LearnAtGSUSA.com/ACQI7037">Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7225" aria-label="Contracting Officer's Representative Course (ACQI7222), GSU - https://www.LearnAtGSUSA.com/ACQI7225">Contracting Officer's Representative Course (ACQI7222), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7504" aria-label="Shaping Smart Business Arrangements (ACQI7501), GSU - https://www.LearnAtGSUSA.com/ACQI7504">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7516" aria-label="COR Refresher (ACQI7513), GSU - https://www.LearnAtGSUSA.com/ACQI7516">COR Refresher (ACQI7513), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI8037" aria-label="Virtual Contract Management (ACQI8030), GSU - https://www.LearnAtGSUSA.com/ACQI8037">Virtual Contract Management (ACQI8030), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8039" aria-label="Contract and Procurement Fraud (AUDT8036), GSU - https://www.LearnAtGSUSA.com/AUDT8039">Contract and Procurement Fraud (AUDT8036), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8812" aria-label="Contract Auditing (AUDT8801), GSU - https://www.LearnAtGSUSA.com/AUDT8812">Contract Auditing (AUDT8801), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI8508" aria-label="Government Contract Law (ACQI8505), GSU - https://www.LearnAtGSUSA.com/ACQI8508">Government Contract Law (ACQI8505), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/ACQI9011" aria-label="Advanced COR Workshop (ACQI9008), GSU - https://www.LearnAtGSUSA.com/ACQI9011">Advanced COR Workshop (ACQI9008), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8043" aria-label="Contract and Procurement Fraud (AUDT8036), GSU - https://www.LearnAtGSUSA.com/AUDT8043">Contract and Procurement Fraud (AUDT8036), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7516" aria-label="COR Refresher (ACQI7513), GSU - https://www.LearnAtGSUSA.com/ACQI7516">COR Refresher (ACQI7513), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/AUDT8816" aria-label="Contract Auditing (AUDT8801), GSU - https://www.LearnAtGSUSA.com/AUDT8816">Contract Auditing (AUDT8801), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8812" aria-label="Contract Auditing (AUDT8801), GSU - https://www.LearnAtGSUSA.com/AUDT8812">Contract Auditing (AUDT8801), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8043" aria-label="Contract and Procurement Fraud (AUDT8036), GSU - https://www.LearnAtGSUSA.com/AUDT8043">Contract and Procurement Fraud (AUDT8036), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8039" aria-label="Contract and Procurement Fraud (AUDT8036), GSU - https://www.LearnAtGSUSA.com/AUDT8039">Contract and Procurement Fraud (AUDT8036), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7225" aria-label="Contracting Officer's Representative Course (ACQI7222), GSU - https://www.LearnAtGSUSA.com/ACQI7225">Contracting Officer's Representative Course (ACQI7222), GSU</a>
 - Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/ACQI7037" aria-label="Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU - https://www.LearnAtGSUSA.com/ACQI7037">Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8508" aria-label="Government Contract Law (ACQI8505), GSU - https://www.LearnAtGSUSA.com/ACQI8508">Government Contract Law (ACQI8505), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7504" aria-label="Shaping Smart Business Arrangements (ACQI7501), GSU - https://www.LearnAtGSUSA.com/ACQI7504">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8037" aria-label="Virtual Contract Management (ACQI8030), GSU - https://www.LearnAtGSUSA.com/ACQI8037">Virtual Contract Management (ACQI8030), GSU</a>
 filters: Secondary-Contract-Management GS-14-15 series-0560
 ---
 

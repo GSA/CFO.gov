@@ -15,9 +15,9 @@ level: "14-15"
 behavior_illustrations: "Researches, organizes and reconciles relevant information from accounts, systems and reports using various standardized procedures ? Examines non-routine financial management documentation to ensure accuracy and completeness of accounting transactions and accounts and identifies potential solutions for inaccurate or incomplete entries ? Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACCT8005" aria-label="Intermediate Federal Accounting (ACCT8003), GSU - https://www.LearnAtGSUSA.com/ACCT8005">Intermediate Federal Accounting (ACCT8003), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8016" aria-label="Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU - https://www.LearnAtGSUSA.com/BUDG8016">Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU</a>
 - Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/BUDG8016" aria-label="Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU - https://www.LearnAtGSUSA.com/BUDG8016">Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACCT8005" aria-label="Intermediate Federal Accounting (ACCT8003), GSU - https://www.LearnAtGSUSA.com/ACCT8005">Intermediate Federal Accounting (ACCT8003), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0511
 ---
 
