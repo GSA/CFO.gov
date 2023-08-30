@@ -512,6 +512,7 @@ ol.roman {
   .cfo-logo-size{
     width:  160px;
     height: 50px;
+    padding: 8px;
   }
 }
 
@@ -1069,4 +1070,10 @@ abbr{
 
 .bg-yellow:hover, .bg-yellow.usa-button:hover {
     background-color: #ab6600;
+}
+
+@media screen and (max-width: 700px) {
+    .usa-banner__header-text {
+    margin-top: -3px;
+}
 }
