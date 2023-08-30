@@ -267,9 +267,9 @@ color:#005ea2;
   color: #ffffff;
   width: 815px;
 }
-.about-the-council{
-  background-image: linear-gradient(to top, rgba(0.4, 0.4, 0.4, 0.4), rgba(0.5, 0.5, 0.5, 0.5)), url('../wp-content/uploads/2016/02/IMG_2680.jpg');
-  background-color:  #19387b;
+.about-the-council {
+    background-image: none;
+    background-color: #4F9E99;
 }
 .ui-tabs-active a {
   color: #2644d6;
@@ -1076,4 +1076,17 @@ abbr{
     .usa-banner__header-text {
     margin-top: -3px;
 }
+}
+
+.green-color {
+    color: #4F9E99;
+    font-weight: revert;
+}
+
+.dark-green-color {
+    color: #4f6a65;
+}
+
+.ul-li-margin {
+    margin: 1em 0;
 }
