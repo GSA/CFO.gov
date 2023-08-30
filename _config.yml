@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
-logo: /assets/images/logos/logo-main-cfo.png
+logo: /assets/images/logos/CFO-Logo-Color.svg
 jfmip-logo: /assets/images/logos/jfmip-logo-plain.png
 
 
@@ -106,6 +106,8 @@ primary_navigation:
 secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
+  - name: Career Planning Tool
+    url: /career-planning-tool/
 
 secondary_navigation_frpc:
   - name: Contact Us
