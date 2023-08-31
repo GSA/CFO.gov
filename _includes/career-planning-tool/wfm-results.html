@@ -78,17 +78,29 @@
                     <div class="grid-row grid-gap">
                         {{ card.content }}
                     </div>
-                    <div>
+                    <div class="course-list">
                         <h3 class="card-text-color">COURSE LISTINGS FOR PURPOSE:</h3>
-                        {% if card.relevant_courses.size != 0 %}
-                        <ul class="usa-list" role="list">
-                            {% for course in card.relevant_courses %}
-                            <li role="listitem" class="card-content-color">{{ course | replace: '">', '" target="_blank" >'}}</li>
-                            {% endfor %}
-                            <ul>
-                                {% else %}
-                                <p>No courses</p>
-                                {% endif %}
+                        <div class="short-list">
+                            {% if card.relevant_courses.size != 0 %}
+                            <ul class="usa-list" role="list">
+                                {% for course in card.relevant_courses limit:3 %}
+                                <li role="listitem" class="card-content-color">{{ course | replace: '">', '" target="_blank" >'}}</li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
+                        {% if card.relevant_courses.size > 3 %}
+                        <div class="full-list display-none">
+                            <ul class="usa-list margin-top-05" role="list">
+                                {% for course in card.relevant_courses offset:3 %}
+                                <li role="listitem" class="card-content-color">{{ course | replace: '">', '" target="_blank" >'}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="text-center margin-top-3">
+                            <button class="show-more usa-button usa-button--outline border-0 bg-white" data-more-text="Show More" data-less-text="Show Less">Show More</button>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>

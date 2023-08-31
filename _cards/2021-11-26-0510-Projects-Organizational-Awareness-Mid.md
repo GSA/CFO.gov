@@ -15,12 +15,12 @@ level: "10-13"
 behavior_illustrations: "Considers the impact of a shift in programmatic direction to meet the needs of local and national customers ? Synthesizes complex information gathered from a variety of external sources and disseminates it to staff ? Interprets and considers the impact of global environment and defense landscape"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8012">https://www.LearnAtGSUSA.com/AUDT8012</a>
- - Assessing Financial Related Activities and Controls (AUDT8811), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8816">https://www.LearnAtGSUSA.com/AUDT8816</a>
- - Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8005">https://www.LearnAtGSUSA.com/BUDG8005</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8006">https://www.LearnAtGSUSA.com/BUDG8006</a>
- - Planning, Budgeting and Performance Measurement (BUDG8180), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8181">https://www.LearnAtGSUSA.com/BUDG8181</a>
- - Strategic Planning for Government Organizations (MGMT9200), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9201">https://www.LearnAtGSUSA.com/MGMT9201</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8816" aria-label="Assessing Financial Related Activities and Controls (AUDT8811), GSU - https://www.LearnAtGSUSA.com/AUDT8816">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8012">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8181" aria-label="Planning, Budgeting and Performance Measurement (BUDG8180), GSU - https://www.LearnAtGSUSA.com/BUDG8181">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8006" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8006">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8005" aria-label="Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU - https://www.LearnAtGSUSA.com/BUDG8005">Planning,Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT9201" aria-label="Strategic Planning for Government Organizations (MGMT9200), GSU - https://www.LearnAtGSUSA.com/MGMT9201">Strategic Planning for Government Organizations (MGMT9200), GSU</a>
 filters: Projects-Organizational-Awareness GS-10-13 series-0510
 ---
 

@@ -15,12 +15,12 @@ level: "10-13"
 behavior_illustrations: "Extracts, records and balances basic information from financial management systems"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Introduction to Federal Accounting (ACCT7001), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT7008">https://www.LearnAtGSUSA.com/ACCT7008</a>
- - Federal Accounting Standards (ACCT7102), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT7109">https://www.LearnAtGSUSA.com/ACCT7109</a>
- - Government Standard General Ledger (ACCT8100), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT8107">https://www.LearnAtGSUSA.com/ACCT8107</a>
- - Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8013">https://www.LearnAtGSUSA.com/BUDG8013</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7007">https://www.LearnAtGSUSA.com/FINC7007</a>
- - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8307">https://www.LearnAtGSUSA.com/FINC8307</a>
+- <a href="https://www.LearnAtGSUSA.com/ACCT7109" aria-label="Federal Accounting Standards (ACCT7102), GSU - https://www.LearnAtGSUSA.com/ACCT7109">Federal Accounting Standards (ACCT7102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8013" aria-label="Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU - https://www.LearnAtGSUSA.com/BUDG8013">Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8307" aria-label="Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU - https://www.LearnAtGSUSA.com/FINC8307">Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACCT8107" aria-label="Government Standard General Ledger (ACCT8100), GSU - https://www.LearnAtGSUSA.com/ACCT8107">Government Standard General Ledger (ACCT8100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACCT7008" aria-label="Introduction to Federal Accounting (ACCT7001), GSU - https://www.LearnAtGSUSA.com/ACCT7008">Introduction to Federal Accounting (ACCT7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7007" aria-label="Introduction to Financial Management (FINC7000), GSU - https://www.LearnAtGSUSA.com/FINC7007">Introduction to Financial Management (FINC7000), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-10-13 series-0560
 ---
 

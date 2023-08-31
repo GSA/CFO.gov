@@ -15,10 +15,10 @@ level: "7-9"
 behavior_illustrations: "Reviews pay authorization documents, determines and processes entitlements, identifies and corrects rejected actions"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Pay Setting for FWS Positions (PADM7001), GSU, <a href="https://www.LearnAtGSUSA.com/PADM7003">https://www.LearnAtGSUSA.com/PADM7003</a>
- - Pay Setting for GS Positions (PADM7002), GSU, <a href="https://www.LearnAtGSUSA.com/PADM7004">https://www.LearnAtGSUSA.com/PADM7004</a>
- - Pay Setting&#58; General Schedule (STAF9002), GSU, <a href="https://www.LearnAtGSUSA.com/STAF9004">https://www.LearnAtGSUSA.com/STAF9004</a>
- - Pay Setting&#58; Federal Wage System (STAF9004), GSU, <a href="https://www.LearnAtGSUSA.com/STAF9006">https://www.LearnAtGSUSA.com/STAF9006</a>
+- <a href="https://www.LearnAtGSUSA.com/PADM7003" aria-label="Pay Setting for FWS Positions (PADM7001), GSU - https://www.LearnAtGSUSA.com/PADM7003">Pay Setting for FWS Positions (PADM7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PADM7004" aria-label="Pay Setting for GS Positions (PADM7002), GSU - https://www.LearnAtGSUSA.com/PADM7004">Pay Setting for GS Positions (PADM7002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/STAF9006" aria-label="Pay Setting&#58; Federal Wage System (STAF9004), GSU - https://www.LearnAtGSUSA.com/STAF9006">Pay Setting&#58; Federal Wage System (STAF9004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/STAF9004" aria-label="Pay Setting&#58; General Schedule (STAF9002), GSU - https://www.LearnAtGSUSA.com/STAF9004">Pay Setting&#58; General Schedule (STAF9002), GSU</a>
 filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-7-9 series-0511
 ---
 

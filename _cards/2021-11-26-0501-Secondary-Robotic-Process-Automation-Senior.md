@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Uses RPA to simplify a wide range of processes ? Identifies, selects, and implements RPA to improve processes or functions ?"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Robotics Essentials (with MIT xPRO), Emeritus, <a href="https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
+- <a href="https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Robotics Essentials (with MIT xPRO), Emeritus - https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Robotics Essentials (with MIT xPRO), Emeritus</a>
 filters: Secondary-Robotic-Process-Automation GS-14-15 series-0501
 ---
 

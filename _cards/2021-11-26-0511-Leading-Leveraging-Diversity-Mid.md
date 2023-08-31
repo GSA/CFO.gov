@@ -15,11 +15,11 @@ level: "10-13"
 behavior_illustrations: "Adheres to Equal Employment Opportunity (EEO) policies, goals, objectives, and philosophies of valuing diversity in performing everyday duties and responsibilities ? Builds teams leveraging diverse capabilities of staff ? Recognizes and utilizes skills of staff with diverse backgrounds to benefit the organization, clients, and coworkers ? Addresses and corrects the use of inappropriate language or actions which deride diversity"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8013">https://www.LearnAtGSUSA.com/MGMT8013</a>
- - Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8014">https://www.LearnAtGSUSA.com/MGMT8014</a>
- - EEO for Supervisors and Managers (EEOP8101), GSU, <a href="https://www.LearnAtGSUSA.com/EEOP8103">https://www.LearnAtGSUSA.com/EEOP8103</a>
- - Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8017">https://www.LearnAtGSUSA.com/MGMT8017</a>
- - Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT8018">https://www.LearnAtGSUSA.com/MGMT8018</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8017" aria-label="Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU - https://www.LearnAtGSUSA.com/MGMT8017">Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8013" aria-label="Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU - https://www.LearnAtGSUSA.com/MGMT8013">Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EEOP8103" aria-label="EEO for Supervisors and Managers (EEOP8101), GSU - https://www.LearnAtGSUSA.com/EEOP8103">EEO for Supervisors and Managers (EEOP8101), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8018" aria-label="Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU - https://www.LearnAtGSUSA.com/MGMT8018">Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8014" aria-label="Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU - https://www.LearnAtGSUSA.com/MGMT8014">Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU</a>
 filters: Leading-Leveraging-Diversity GS-10-13 series-0511
 ---
 

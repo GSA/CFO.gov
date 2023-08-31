@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Keeps up-to-date by attending key meetings hosted by other agencies or organizations ? Keeps abreast of developments of other parts of the organization"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8003">https://www.LearnAtGSUSA.com/AUDT8003</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
 filters: Projects-Organizational-Awareness GS-7-9 series-0501
 ---
 

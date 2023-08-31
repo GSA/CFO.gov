@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Interprets and evaluates budget execution for compliance with fiscal law and guidance ? Implement execution plans and monitors and recommends adjustments to ensure compliance with total obligation authority"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- Course Coming Soon
 filters: Secondary-Budget-Execution GS-10-13 series-0501
 ---
 

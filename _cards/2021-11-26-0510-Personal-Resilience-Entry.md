@@ -15,8 +15,8 @@ level: "7-9"
 behavior_illustrations: "Meets with employees resistant to organizational change to address concerns ? Maintains composure and direction in high-pressure situations ? Accepts negative feedback in a constructive manner and adjusts behavior accordingly"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8912">https://www.LearnAtGSUSA.com/AUDT8912</a>
- - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7202">https://www.LearnAtGSUSA.com/MGMT7202</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU - https://www.LearnAtGSUSA.com/AUDT8912">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7202" aria-label="Leading Change (MGMT7201), GSU - https://www.LearnAtGSUSA.com/MGMT7202">Leading Change (MGMT7201), GSU</a>
 filters: Personal-Resilience GS-7-9 series-0510
 ---
 

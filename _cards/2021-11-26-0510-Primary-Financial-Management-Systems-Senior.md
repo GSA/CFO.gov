@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Identifies emerging trends for use with automated financial management systems to improve operations, customer service and ensure system compliance"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8921">https://www.LearnAtGSUSA.com/AUDT8921</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8921" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU - https://www.LearnAtGSUSA.com/AUDT8921">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
 filters: Primary-Financial-Management-Systems GS-14-15 series-0510
 ---
 

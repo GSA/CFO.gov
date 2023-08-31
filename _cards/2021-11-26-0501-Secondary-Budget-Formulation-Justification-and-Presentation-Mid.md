@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials ? Formulates budget, develops justifications and presents to stakeholders for feedback"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- Course Coming Soon
 filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0501
 ---
 

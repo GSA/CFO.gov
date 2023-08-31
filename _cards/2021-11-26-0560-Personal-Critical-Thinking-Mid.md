@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Reviews proposed changes to a policy to determine which steps are applicable to a current process or procedure within the office ? Determines and interprets guidelines that are relevant in an unusual situation and takes appropriate action "
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Creative and Critical Thinking for Auditors (AUDT8012), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8019">https://www.LearnAtGSUSA.com/AUDT8019</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8019" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8019">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
 filters: Personal-Critical-Thinking GS-10-13 series-0560
 ---
 

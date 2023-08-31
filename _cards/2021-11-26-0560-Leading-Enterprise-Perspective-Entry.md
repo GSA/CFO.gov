@@ -15,12 +15,12 @@ level: "7-9"
 behavior_illustrations: "Understands the mission and goals of the Department and immediate office ? Understands where the office fits into immediate organization chart of Unit and Office, relationships between branches, workflows of major processes, how the office impacts the mission"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8006">https://www.LearnAtGSUSA.com/AUDT8006</a>
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8010">https://www.LearnAtGSUSA.com/AUDT8010</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8915">https://www.LearnAtGSUSA.com/AUDT8915</a>
- - Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8003">https://www.LearnAtGSUSA.com/BUDG8003</a>
- - Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8004">https://www.LearnAtGSUSA.com/BUDG8004</a>
- - Department of Homeland Security PPBE System (BUDG8103), GSU, <a href="https://www.LearnAtGSUSA.com/BUDG8106">https://www.LearnAtGSUSA.com/BUDG8106</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8106" aria-label="Department of Homeland Security PPBE System (BUDG8103), GSU - https://www.LearnAtGSUSA.com/BUDG8106">Department of Homeland Security PPBE System (BUDG8103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8915" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU - https://www.LearnAtGSUSA.com/AUDT8915">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8010" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8010">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8006" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8006">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8003" aria-label="Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU - https://www.LearnAtGSUSA.com/BUDG8003">Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8004" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8004">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
 filters: Leading-Enterprise-Perspective GS-7-9 series-0560
 ---
 

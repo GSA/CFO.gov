@@ -15,10 +15,10 @@ level: "14-15"
 behavior_illustrations: "Researches historical pay account or contact customer on certain transactions before making input into automated system and performs reviews for accuracy"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Pay Setting for FWS Positions (PADM7001), GSU, <a href="https://www.LearnAtGSUSA.com/PADM7003">https://www.LearnAtGSUSA.com/PADM7003</a>
- - Pay Setting for GS Positions (PADM7002), GSU, <a href="https://www.LearnAtGSUSA.com/PADM7004">https://www.LearnAtGSUSA.com/PADM7004</a>
- - Pay Setting&#58; General Schedule (STAF9002), GSU, <a href="https://www.LearnAtGSUSA.com/STAF9004">https://www.LearnAtGSUSA.com/STAF9004</a>
- - Pay Setting&#58; Federal Wage System (STAF9004), GSU, <a href="https://www.LearnAtGSUSA.com/STAF9006">https://www.LearnAtGSUSA.com/STAF9006</a>
+- <a href="https://www.LearnAtGSUSA.com/PADM7003" aria-label="Pay Setting for FWS Positions (PADM7001), GSU - https://www.LearnAtGSUSA.com/PADM7003">Pay Setting for FWS Positions (PADM7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PADM7004" aria-label="Pay Setting for GS Positions (PADM7002), GSU - https://www.LearnAtGSUSA.com/PADM7004">Pay Setting for GS Positions (PADM7002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/STAF9006" aria-label="Pay Setting&#58; Federal Wage System (STAF9004), GSU - https://www.LearnAtGSUSA.com/STAF9006">Pay Setting&#58; Federal Wage System (STAF9004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/STAF9004" aria-label="Pay Setting&#58; General Schedule (STAF9002), GSU - https://www.LearnAtGSUSA.com/STAF9004">Pay Setting&#58; General Schedule (STAF9002), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-14-15 series-0511
 ---
 

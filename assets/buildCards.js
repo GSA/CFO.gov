@@ -81,6 +81,7 @@ function buildCards() {
                     profLevelMarkup = "",
                     courseExport = "",
                     courseMarkup = "";
+                    courseNameList = "";
 
                 for (let i = 0, l = card.courses.length; i < l; i++) {
                     if (courses.length) {
@@ -112,39 +113,39 @@ function buildCards() {
 
                 let courseUnique = card.courses.filter(
                     (object, index, self) =>
-                      index ===
-                      self.findIndex((o) => o.courseName === object.courseName && o.instName === object.instName && o.urls[0] === object.urls[0])
-                  );
+                        index ===
+                        self.findIndex((o) => o.courseName === object.courseName && o.instName === object.instName && o.urls[0] === object.urls[0])
+                ).sort((a, b) => a.courseName > b.courseName ? 1 : -1);
 
                 for (i = 0, l = courseUnique.length; i < l; i++) {
-                    courseExport += '\n -';
-                    courseMarkup += '<li>';
                     if (courseUnique[i].courseName) {
                         if (courseUnique[i].courseName.includes(":")) {
-                            courseMarkup += courseUnique[i].courseName.replace(/:/g, "&#58;") + '<br>';
-                            courseExport += ' ' + courseUnique[i].courseName.replace(/:/g, "&#58;");
+                            courseNameList = courseUnique[i].courseName.replace(/:/g, "&#58;");
                         }
                         else {
-                            courseMarkup += courseUnique[i].courseName + '<br>';
-                            courseExport += ' ' + courseUnique[i].courseName;
+                            courseNameList = courseUnique[i].courseName;
                         }
                     }
                     if (courseUnique[i].instName) {
                         if (courseUnique[i].instName.includes(":")) {
-                            courseMarkup += courseUnique[i].instName.replace(/:/g, "&#58;") + '<br>';
-                            courseExport += ' ' + courseUnique[i].instName.replace(/:/g, "&#58;");
+                            courseNameList += ', ' + courseUnique[i].instName.replace(/:/g, "&#58;");
                         }
                         else {
-                            courseMarkup += courseUnique[i].instName + '<br>';
-                            courseExport += ', ' + courseUnique[i].instName;
+                            courseNameList += ', ' + courseUnique[i].instName;
                         }
                     }
-                    if (courseUnique[i].urls.length) {
+                    courseExport += '\n- ';
+                    courseMarkup += '<li>';
+                    if (courseUnique[i].urls.length) {        
                         for (j = 0, k = courseUnique[i].urls.length; j < k; j++) {
-                            const link = `<a href="${courseUnique[i].urls[j]}">${courseUnique[i].urls[j]}</a>`;
-                            courseMarkup += link + `<br>`;
-                            courseExport += ', ' + link;
+                            const link = `<a href="${courseUnique[i].urls[j]}" aria-label="${courseNameList} - ${courseUnique[i].urls[j]}">${courseNameList}</a>`;
+                            courseMarkup += link;
+                            courseExport += link;
                         }
+                    }
+                    else {
+                        courseMarkup += courseNameList;
+                        courseExport += courseNameList;
                     }
                     courseMarkup += '</li>';
                 }

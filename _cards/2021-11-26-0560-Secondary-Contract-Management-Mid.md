@@ -15,11 +15,11 @@ level: "10-13"
 behavior_illustrations: "Provides historical contractual costs recorded in financial management system(s) ? Assists with financial analysis to track cost of contract estimate to completion ? Identifies or takes action to recommend deobligation of contractual residual open obligations"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7033">https://www.LearnAtGSUSA.com/ACQI7033</a>
- - Simplified Acquisition Procedures (ACQI7506), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI7513">https://www.LearnAtGSUSA.com/ACQI7513</a>
- - Virtual Contract Management (ACQI8030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8033">https://www.LearnAtGSUSA.com/ACQI8033</a>
- - Performance Work Statements (ACQI8519), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8526">https://www.LearnAtGSUSA.com/ACQI8526</a>
- - Contract Auditing (AUDT8801), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8808">https://www.LearnAtGSUSA.com/AUDT8808</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8808" aria-label="Contract Auditing (AUDT8801), GSU - https://www.LearnAtGSUSA.com/AUDT8808">Contract Auditing (AUDT8801), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7033" aria-label="Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU - https://www.LearnAtGSUSA.com/ACQI7033">Federal Appropriations Law for Acquisition Professionals (ACQI7030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8526" aria-label="Performance Work Statements (ACQI8519), GSU - https://www.LearnAtGSUSA.com/ACQI8526">Performance Work Statements (ACQI8519), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7513" aria-label="Simplified Acquisition Procedures (ACQI7506), GSU - https://www.LearnAtGSUSA.com/ACQI7513">Simplified Acquisition Procedures (ACQI7506), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8033" aria-label="Virtual Contract Management (ACQI8030), GSU - https://www.LearnAtGSUSA.com/ACQI8033">Virtual Contract Management (ACQI8030), GSU</a>
 filters: Secondary-Contract-Management GS-10-13 series-0560
 ---
 

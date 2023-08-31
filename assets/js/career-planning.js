@@ -156,6 +156,8 @@
         $(".cfo-page-right").removeAttr("disabled");
       }
     });
+
+    bindCoursesLink();
   });
 
   // function to generate CSV reoort for selected info cards

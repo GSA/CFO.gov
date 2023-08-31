@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Summarizes information related to the financial statements and/or reports, and recommends improvement options"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Understanding Federal Financial Statements (FINC8103), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8111">https://www.LearnAtGSUSA.com/FINC8111</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8111" aria-label="Understanding Federal Financial Statements (FINC8103), GSU - https://www.LearnAtGSUSA.com/FINC8111">Understanding Federal Financial Statements (FINC8103), GSU</a>
 filters: Primary-Financial-Reporting GS-10-13 series-0501
 ---
 

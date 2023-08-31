@@ -15,28 +15,28 @@ level: "10-13"
 behavior_illustrations: "Assesses staff and provides timely and consistent feedback regarding technical proficiency and effectiveness ? Provides constructive feedback, guidance and reinforcement to employees regarding job performance ? Works with staff to identify work goals and create individual development plans ? Evaluates training programs to ensure content meets staff needs ? Recommends details and developmental assignments to staff based on career interests and work unit needs ? Recognizes staff potential and guides employees in developing skills by recommending appropriate training and sources of information ? Works with staff to develop individual development plans addressing employee needs and meeting organizational goals"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9004">https://www.LearnAtGSUSA.com/AUDT9004</a>
- - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9037">https://www.LearnAtGSUSA.com/AUDT9037</a>
- - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9111">https://www.LearnAtGSUSA.com/AUDT9111</a>
- - Leading People (EXEC9912), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9914">https://www.LearnAtGSUSA.com/EXEC9914</a>
- - Executive Leadership Program, GSU, <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9026">https://www.LearnAtGSUSA.com/LEAD9026</a>
- - Mentoring Skills (MGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7008">https://www.LearnAtGSUSA.com/MGMT7008</a>
- - Leadership Essentials (MGMT7020), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7026">https://www.LearnAtGSUSA.com/MGMT7026</a>
- - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7203">https://www.LearnAtGSUSA.com/MGMT7203</a>
- - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9008">https://www.LearnAtGSUSA.com/MGMT9008</a>
- - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8206">https://www.LearnAtGSUSA.com/TDEV8206</a>
- - Effective Audit Supervision (AUDT9002), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9008">https://www.LearnAtGSUSA.com/AUDT9008</a>
- - Coaching Audit Staff for High Perfromance (AUDT9035), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9041">https://www.LearnAtGSUSA.com/AUDT9041</a>
- - Skills for Leading and Managing Audit Projects (AUDT9109), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9115">https://www.LearnAtGSUSA.com/AUDT9115</a>
- - Leading People (EXEC9912), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9918">https://www.LearnAtGSUSA.com/EXEC9918</a>
- - Federal Performance Management (LABR7013), GSU, <a href="https://www.LearnAtGSUSA.com/LABR7015">https://www.LearnAtGSUSA.com/LABR7015</a>
- - Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU, <a href="https://www.LearnAtGSUSA.com/LEAD9030">https://www.LearnAtGSUSA.com/LEAD9030</a>
- - Mentoring Skills (MGMT7006), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7012">https://www.LearnAtGSUSA.com/MGMT7012</a>
- - Leadership Essentials (MGMT7020), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7030">https://www.LearnAtGSUSA.com/MGMT7030</a>
- - Leading Change (MGMT7201), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT7207">https://www.LearnAtGSUSA.com/MGMT7207</a>
- - Coaching Skills for Today's Leaders (MGMT9002), GSU, <a href="https://www.LearnAtGSUSA.com/MGMT9012">https://www.LearnAtGSUSA.com/MGMT9012</a>
- - Leading Teams and Groups (TDEV8200), GSU, <a href="https://www.LearnAtGSUSA.com/TDEV8210">https://www.LearnAtGSUSA.com/TDEV8210</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9041" aria-label="Coaching Audit Staff for High Perfromance (AUDT9035), GSU - https://www.LearnAtGSUSA.com/AUDT9041">Coaching Audit Staff for High Perfromance (AUDT9035), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9037" aria-label="Coaching Audit Staff for High Perfromance (AUDT9035), GSU - https://www.LearnAtGSUSA.com/AUDT9037">Coaching Audit Staff for High Perfromance (AUDT9035), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT9012" aria-label="Coaching Skills for Today's Leaders (MGMT9002), GSU - https://www.LearnAtGSUSA.com/MGMT9012">Coaching Skills for Today's Leaders (MGMT9002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT9008" aria-label="Coaching Skills for Today's Leaders (MGMT9002), GSU - https://www.LearnAtGSUSA.com/MGMT9008">Coaching Skills for Today's Leaders (MGMT9002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9008" aria-label="Effective Audit Supervision (AUDT9002), GSU - https://www.LearnAtGSUSA.com/AUDT9008">Effective Audit Supervision (AUDT9002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9004" aria-label="Effective Audit Supervision (AUDT9002), GSU - https://www.LearnAtGSUSA.com/AUDT9004">Effective Audit Supervision (AUDT9002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram" aria-label="Executive Leadership Program, GSU - https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program, GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LABR7015" aria-label="Federal Performance Management (LABR7013), GSU - https://www.LearnAtGSUSA.com/LABR7015">Federal Performance Management (LABR7013), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7030" aria-label="Leadership Essentials (MGMT7020), GSU - https://www.LearnAtGSUSA.com/MGMT7030">Leadership Essentials (MGMT7020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7026" aria-label="Leadership Essentials (MGMT7020), GSU - https://www.LearnAtGSUSA.com/MGMT7026">Leadership Essentials (MGMT7020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9030" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU - https://www.LearnAtGSUSA.com/LEAD9030">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9026" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU - https://www.LearnAtGSUSA.com/LEAD9026">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7207" aria-label="Leading Change (MGMT7201), GSU - https://www.LearnAtGSUSA.com/MGMT7207">Leading Change (MGMT7201), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7203" aria-label="Leading Change (MGMT7201), GSU - https://www.LearnAtGSUSA.com/MGMT7203">Leading Change (MGMT7201), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EXEC9918" aria-label="Leading People (EXEC9912), GSU - https://www.LearnAtGSUSA.com/EXEC9918">Leading People (EXEC9912), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EXEC9914" aria-label="Leading People (EXEC9912), GSU - https://www.LearnAtGSUSA.com/EXEC9914">Leading People (EXEC9912), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/TDEV8210" aria-label="Leading Teams and Groups (TDEV8200), GSU - https://www.LearnAtGSUSA.com/TDEV8210">Leading Teams and Groups (TDEV8200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/TDEV8206" aria-label="Leading Teams and Groups (TDEV8200), GSU - https://www.LearnAtGSUSA.com/TDEV8206">Leading Teams and Groups (TDEV8200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7012" aria-label="Mentoring Skills (MGMT7006), GSU - https://www.LearnAtGSUSA.com/MGMT7012">Mentoring Skills (MGMT7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7008" aria-label="Mentoring Skills (MGMT7006), GSU - https://www.LearnAtGSUSA.com/MGMT7008">Mentoring Skills (MGMT7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9115" aria-label="Skills for Leading and Managing Audit Projects (AUDT9109), GSU - https://www.LearnAtGSUSA.com/AUDT9115">Skills for Leading and Managing Audit Projects (AUDT9109), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9111" aria-label="Skills for Leading and Managing Audit Projects (AUDT9109), GSU - https://www.LearnAtGSUSA.com/AUDT9111">Skills for Leading and Managing Audit Projects (AUDT9109), GSU</a>
 filters: Leading-Developing-Others GS-10-13 series-0511
 ---
 

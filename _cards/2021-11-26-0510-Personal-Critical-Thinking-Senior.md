@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Analyzes and interprets extensive amounts of technically complex manuals and publications to recommend financial management approaches most suitable to current and future organizational needs ? Advises and provides strategic direction as part of an inter-agency committee established to research and analyze issues affecting the financial management community ?"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Technology and Innovation Acceleration Program (with MIT xPRO), Emeritus, <a href="https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b</a>
+- <a href="https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Technology and Innovation Acceleration Program (with MIT xPRO), Emeritus - https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Technology and Innovation Acceleration Program (with MIT xPRO), Emeritus</a>
 filters: Personal-Critical-Thinking GS-14-15 series-0510
 ---
 

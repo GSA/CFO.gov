@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: "Develops accounting and financial guidelines that conform to fiscal requirements, and makes recommendations for improvement or implementation of new policies"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- Course Coming Soon
 filters: Secondary-Advanced-Financial-Management GS-10-13 series-0510
 ---
 

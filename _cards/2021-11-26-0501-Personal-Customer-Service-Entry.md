@@ -15,12 +15,12 @@ level: "7-9"
 behavior_illustrations: "Monitors customers or clients satisfaction to ensure they are getting what they need in a timely manner ? Establishes and maintains relationships with customers ? Updates agency website to reflect changes to services ? Uses staff feedback to streamline processes in order to meet deadlines ? Adjusts project plan based on input from staff and stakeholders ? Designs and implements new or improved practices and strategies to improve customer service ? Develops customer satisfaction surveys, analyzes results, and makes necessary improvements ? Addresses customer service deficiencies by involving employees to identify solutions"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
- - Customer Service Excellence (ADMB7003), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7003">https://www.LearnAtGSUSA.com/ADMB7003</a>
- - Customer Service Excellence (ADMB7004), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7004">https://www.LearnAtGSUSA.com/ADMB7004</a>
- - Customer Service Excellence (ADMB7003), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7007">https://www.LearnAtGSUSA.com/ADMB7007</a>
- - Customer Service Excellence (ADMB7004), GSU, <a href="https://www.LearnAtGSUSA.com/ADMB7008">https://www.LearnAtGSUSA.com/ADMB7008</a>
- - Effective Communications with Customers (COMM8000), GSU, <a href="https://www.LearnAtGSUSA.com/COMM8000">https://www.LearnAtGSUSA.com/COMM8000</a>
- - Course Coming Soon
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/ADMB7007" aria-label="Customer Service Excellence (ADMB7003), GSU - https://www.LearnAtGSUSA.com/ADMB7007">Customer Service Excellence (ADMB7003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7003" aria-label="Customer Service Excellence (ADMB7003), GSU - https://www.LearnAtGSUSA.com/ADMB7003">Customer Service Excellence (ADMB7003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7008" aria-label="Customer Service Excellence (ADMB7004), GSU - https://www.LearnAtGSUSA.com/ADMB7008">Customer Service Excellence (ADMB7004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7004" aria-label="Customer Service Excellence (ADMB7004), GSU - https://www.LearnAtGSUSA.com/ADMB7004">Customer Service Excellence (ADMB7004), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM8000" aria-label="Effective Communications with Customers (COMM8000), GSU - https://www.LearnAtGSUSA.com/COMM8000">Effective Communications with Customers (COMM8000), GSU</a>
 filters: Personal-Customer-Service GS-7-9 series-0501
 ---
 

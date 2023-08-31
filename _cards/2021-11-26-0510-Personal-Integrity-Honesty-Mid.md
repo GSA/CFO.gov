@@ -15,8 +15,8 @@ level: "10-13"
 behavior_illustrations: "Instills a climate of trust by admitting own mistakes and taking responsibility for one's actions ? Discusses potential ethical problems and wrong- doing with employees and responds appropriately"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8016">https://www.LearnAtGSUSA.com/AUDT8016</a>
- - Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT9035">https://www.LearnAtGSUSA.com/AUDT9035</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9035" aria-label="Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU - https://www.LearnAtGSUSA.com/AUDT9035">Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8016" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8016">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
 filters: Personal-Integrity-Honesty GS-10-13 series-0510
 ---
 

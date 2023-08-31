@@ -15,11 +15,11 @@ level: "7-9"
 behavior_illustrations: "Applies knowledge of commonly used financial management procedures and techniques to perform routine and repetitive administrative tasks"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
- - Introduction to Federal Accounting (ACCT7001), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT7003">https://www.LearnAtGSUSA.com/ACCT7003</a>
- - Federal Accounting Standards (ACCT7102), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT7104">https://www.LearnAtGSUSA.com/ACCT7104</a>
- - Government Standard General Ledger (ACCT8100), GSU, <a href="https://www.LearnAtGSUSA.com/ACCT8102">https://www.LearnAtGSUSA.com/ACCT8102</a>
- - Introduction to Financial Management (FINC7000), GSU, <a href="https://www.LearnAtGSUSA.com/FINC7002">https://www.LearnAtGSUSA.com/FINC7002</a>
- - Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU, <a href="https://www.LearnAtGSUSA.com/FINC8302">https://www.LearnAtGSUSA.com/FINC8302</a>
+- <a href="https://www.LearnAtGSUSA.com/ACCT7104" aria-label="Federal Accounting Standards (ACCT7102), GSU - https://www.LearnAtGSUSA.com/ACCT7104">Federal Accounting Standards (ACCT7102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8302" aria-label="Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU - https://www.LearnAtGSUSA.com/FINC8302">Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACCT8102" aria-label="Government Standard General Ledger (ACCT8100), GSU - https://www.LearnAtGSUSA.com/ACCT8102">Government Standard General Ledger (ACCT8100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACCT7003" aria-label="Introduction to Federal Accounting (ACCT7001), GSU - https://www.LearnAtGSUSA.com/ACCT7003">Introduction to Federal Accounting (ACCT7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC7002" aria-label="Introduction to Financial Management (FINC7000), GSU - https://www.LearnAtGSUSA.com/FINC7002">Introduction to Financial Management (FINC7000), GSU</a>
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-7-9 series-0511
 ---
 

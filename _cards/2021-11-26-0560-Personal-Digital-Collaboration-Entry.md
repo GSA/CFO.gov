@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: "Understands the standard features of common tools useful for securely collaborating in a virtual work environment ? Completes tasks, initiatives, or actively participates in meetings using the standard virtual collaboration tools"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
 relevant_courses: 
- - Virtual Contract Management (ACQI8030), GSU, <a href="https://www.LearnAtGSUSA.com/ACQI8033">https://www.LearnAtGSUSA.com/ACQI8033</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8033" aria-label="Virtual Contract Management (ACQI8030), GSU - https://www.LearnAtGSUSA.com/ACQI8033">Virtual Contract Management (ACQI8030), GSU</a>
 filters: Personal-Digital-Collaboration GS-7-9 series-0560
 ---
 

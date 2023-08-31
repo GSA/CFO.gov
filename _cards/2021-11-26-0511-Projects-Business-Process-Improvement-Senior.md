@@ -15,10 +15,10 @@ level: "14-15"
 behavior_illustrations: "Describes and documents critical cross-functional business process flows ? Applies business process reengineering techniques and methods in analyzing process flow and accountability charts ? Recommends and advocates substantive process enhancements and assesses both internal and external implications ? Analyzes enterprise processes for major enhancements to customer satisfaction and cost reduction ? Applies business process reengineering (BPR) techniques to complex processes that cross the enterprise ? Approves and sponsors process improvement recommendations ? Identifies the value of process improvements and garners the support of stakeholders in implementation"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
- - Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8017">https://www.LearnAtGSUSA.com/AUDT8017</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8918">https://www.LearnAtGSUSA.com/AUDT8918</a>
- - Managing for Resullts (EXEC9913), GSU, <a href="https://www.LearnAtGSUSA.com/EXEC9927">https://www.LearnAtGSUSA.com/EXEC9927</a>
- - Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU, <a href="https://www.LearnAtGSUSA.com/AUDT8922">https://www.LearnAtGSUSA.com/AUDT8922</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8922" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU - https://www.LearnAtGSUSA.com/AUDT8922">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8918" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU - https://www.LearnAtGSUSA.com/AUDT8918">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8017" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8017">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EXEC9927" aria-label="Managing for Resullts (EXEC9913), GSU - https://www.LearnAtGSUSA.com/EXEC9927">Managing for Resullts (EXEC9913), GSU</a>
 filters: Projects-Business-Process-Improvement GS-14-15 series-0511
 ---
 

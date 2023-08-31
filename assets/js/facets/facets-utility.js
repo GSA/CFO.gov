@@ -328,4 +328,27 @@ function setCurrentPage(page) {
             });
         }
 
-    }
+}
+
+
+function bindCoursesLink() {
+    $(".course-list .show-more:not(.click-init)").each(function() {
+        $(this).addClass('click-init');
+        $(this).on("click", function () {
+            var $this = $(this);
+            var $fullList = $this.closest(".course-list").find(".full-list");
+            var $courseList = $this.closest(".course-list");
+            var moreText = $this.data("more-text");
+            var lessText = $this.data("less-text");
+            $this.addClass('click-init');
+            $fullList.slideToggle();
+
+            if ($this.text() === moreText) {
+                $this.text(lessText);
+            } else {
+                $('html, body').animate({ scrollTop: $courseList.offset().top }, 500);
+                $this.text(moreText);
+            }
+        });
+    });
+}

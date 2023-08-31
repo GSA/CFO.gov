@@ -16,7 +16,7 @@ behavior_illustrations: "Works successfully in team environments ? Represents th
 "
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
- - Course Coming Soon
+- Course Coming Soon
 filters: Projects-Mission-and-Culture GS-7-9 series-0560
 ---
 
