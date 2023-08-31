@@ -48,7 +48,6 @@
         outerDiv3.append(innerDiv2);
         innerDiv2.innerHTML = item.content;
 
-        let itemElement = $().createId(item.competency_group);
         const coursesDiv = document.createElement('div');
         coursesDiv.setAttribute("class", "course-list");
         let coursesMarkup = '';

@@ -330,18 +330,6 @@ function setCurrentPage(page) {
 
 }
 
-function showMoreOrLess(target) {
-    if ($("#showMore-" + target).text() === 'Show More') {
-        $("#showMore-" + target).html("<strong>Show Less</strong>");
-        $("#divTopLink-" + target).hide();
-        $("#divLink-" + target).show();
-    }
-    else {
-        $("#showMore-" + target).html("<strong>Show More</strong>");
-        $("#divTopLink-" + target).show();
-        $("#divLink-" + target).hide();
-    }
-};
 
 function bindCoursesLink() {
     $(".course-list .show-more:not(.click-init)").each(function() {
@@ -349,6 +337,7 @@ function bindCoursesLink() {
         $(this).on("click", function () {
             var $this = $(this);
             var $fullList = $this.closest(".course-list").find(".full-list");
+            var $courseList = $this.closest(".course-list");
             var moreText = $this.data("more-text");
             var lessText = $this.data("less-text");
             $this.addClass('click-init');
@@ -357,6 +346,7 @@ function bindCoursesLink() {
             if ($this.text() === moreText) {
                 $this.text(lessText);
             } else {
+                $('html, body').animate({ scrollTop: $courseList.offset().top }, 500);
                 $this.text(moreText);
             }
         });
