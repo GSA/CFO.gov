@@ -245,7 +245,7 @@ exclude:
   - node_modules
   - Gemfile
   - Gemfile.lock
-
+  - _pages/empty.md
 
 assets:
   digest: false
@@ -260,6 +260,3 @@ assets:
     img: { integrity: false }
   features:
     integrity: false
-
-
-

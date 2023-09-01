@@ -2,6 +2,10 @@
 You shouldn't have to edit this page very often. But if you want to modify some of the meta-data for the
 site, this is the place to do it.
 {% endcomment %}
+{% assign canonical = page.permalink %}
+{% if page.canonical %}
+  {% assign canonical = page.canonical %}
+{% endif %}
 
 <head>
   <!-- Basic Page Needs
@@ -30,8 +34,8 @@ site, this is the place to do it.
   {% endif %}
 
   <meta property="og:type" content="article">
-  <link rel="canonical" href="{{site.baseurl}}/">
-  <meta property="og:url" content="{{site.baseurl}}/">
+  <link rel="canonical" href="{{site.url}}{{site.baseurl}}{{canonical}}">
+  <meta property="og:url" content="{{site.url}}{{site.baseurl}}{{canonical}}">
   <!-- Favicons
     ================================================== -->
   <!-- 128x128 -->
