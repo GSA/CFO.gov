@@ -76,7 +76,7 @@
             }
             coursesMarkup += '</ul></div>';
             coursesMarkup += '<div class="text-center margin-top-3">\n' +
-                '<button class="show-more usa-button usa-button--outline border-0 bg-white" data-more-text="Show More" data-less-text="Show Less" aria-label="Show More card number '+ i +'">Show More</button>\n' +
+                '<button class="show-more usa-button usa-button--outline border-0 bg-white" data-more-text="Show More" data-less-text="Show Less" data-index="'+ i +'" aria-label="Show More card number '+ i +'">Show More</button>\n' +
                 '</div>';
         }
         coursesDiv.innerHTML = '<h3 class="card-text-color">COURSE LISTINGS FOR PURPOSE:</h3>' + coursesMarkup;
