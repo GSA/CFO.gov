@@ -340,14 +340,17 @@ function bindCoursesLink() {
             var $courseList = $this.closest(".course-list");
             var moreText = $this.data("more-text");
             var lessText = $this.data("less-text");
+            var index = $this.data("index");
             $this.addClass('click-init');
             $fullList.slideToggle();
 
             if ($this.text() === moreText) {
                 $this.text(lessText);
+                $this.attr("aria-label", lessText + " Card number " + index);
             } else {
                 $('html, body').animate({ scrollTop: $courseList.offset().top }, 500);
                 $this.text(moreText);
+                $this.attr("aria-label", moreText + " Card number " + index);
             }
         });
     });
