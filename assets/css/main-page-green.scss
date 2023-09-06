@@ -37,7 +37,7 @@
 }
 
 .usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
-  background-color: #d83933;
+    background-color: #ab6600;
 }
 .circle-image {
   border-radius: 50%;
@@ -129,8 +129,8 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
 .ui-state-hover, .ui-state-active {
-  border-right: 8px solid #5b6cc5;
-  background: #eef1ff;
+  border-right: 8px solid #4F9E99;
+  background: #4f9e991a;
   -webkit-border-top-left-radius: 50px;
   -webkit-border-bottom-left-radius: 50px;
   -moz-border-radius-topleft: 50px;
@@ -270,10 +270,11 @@ color:#005ea2;
 .about-the-council {
     background-image: none;
     background-color: #4F9E99;
+    padding: 4rem 0;
 }
 .ui-tabs-active a {
-  color: #2644d6;
-  font-weight: bold;
+    color: #3b7673;
+    font-weight: bold;
 }
 .paymentaccuracy{
   background-image: linear-gradient(to top, rgba(0.4, 0.4, 0.4, 0.4), rgba(0.5, 0.5, 0.5, 0.5)), url("../wp-content-2/uploads/2019/06/white-house-picture-payment-accuracy-no-overlay-1.jpg");
@@ -1084,7 +1085,7 @@ abbr{
 }
 
 .dark-green-color {
-    color: #4f6a65;
+    color: #346865;
 }
 
 .ul-li-margin {
@@ -1095,26 +1096,40 @@ abbr{
     -moz-osx-font-smoothing: auto;
     -webkit-font-smoothing: subpixel-antialiased;
     background-color: transparent;
-    box-shadow: inset 0 0 0 2px #33827d;
-    color: #33827d;
+    box-shadow: inset 0 0 0 2px #346865;
+    color: #346865;
 }
 
 .usa-button--outline:visited {
-    color: #33827d;
+    color: #346865;
 }
 
 .usa-button--outline:hover, .usa-button--outline.usa-button--hover {
     background-color: transparent;
-    box-shadow: inset 0 0 0 2px #33827d;
+    box-shadow: inset 0 0 0 2px #346865;
     color: #1a4480;
 }
 
 .usa-button--outline:active, .usa-button--outline.usa-button--active {
     background-color: transparent;
-    box-shadow: inset 0 0 0 2px #33827d;
-    color: #33827d;
+    box-shadow: inset 0 0 0 2px #346865;
+    color: #346865;
 }
 
 .usa-button--outline:hover {
-    color: #33827d;
+    color: #346865;
+}
+
+@media (min-width: 64em)
+{
+    .usa-nav__submenu {
+        background-color: #264741;
+    }
+    .usa-nav__primary button[aria-expanded="true"] {
+        background-color: #264741;
+    }
+}
+
+.usa-menu-btn {
+    background-color: #264741;
 }
