@@ -17,13 +17,13 @@
         <li>Facilitating Culture Change</li>
         <li>Building Lasting Partnerships</li>
     </ul>
-- name: resources
-  title: Resources
-  path: /workforce-modernization/resources/
-  content: |
-    <p>The CFO Council works collaboratively to improve financial management in the U.S. Government. Focusing on the needs of our workforce is one of the most significant ways that we can improve financial management across the government. Employees that are supported and empowered can enhance every aspect of our mission delivery.</p>
 - name: why-this-matters
   title: Why This Matters to the CFO Council
   path: /workforce-modernization/why-this-matters/
+  content: |
+    <p>The CFO Council works collaboratively to improve financial management in the U.S. Government. Focusing on the needs of our workforce is one of the most significant ways that we can improve financial management across the government. Employees that are supported and empowered can enhance every aspect of our mission delivery.</p>
+- name: resources
+  title: Resources
+  path: /workforce-modernization/resources/
   content: |
     <p>Click <a href="[site_baseurl]/resources/#focus_area=.financial-management-workforce&sub_focus_area=*&type=*&source=*&fiscal_year=*" target="_blank" aria-label="financial management workforce related resources">here</a> to access related resources.</p>
