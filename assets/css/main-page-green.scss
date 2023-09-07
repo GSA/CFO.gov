@@ -1133,3 +1133,9 @@ abbr{
 .usa-menu-btn {
     background-color: #264741;
 }
+
+.usa-table th, .usa-prose > table th, .usa-table td, .usa-prose > table td {
+    background-color: #4f9e991a;
+    color: #346865;
+    border-style: none;
+}
