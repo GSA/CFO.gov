@@ -13,4 +13,4 @@
   title: Resources
   path: /federal-financial-assistance/resources/
   content: |
-    <p>Click <a href="[site_baseurl]/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*" target="_blank" aria-label="federal financial assistance related resources">here</a> to access related resources.</p>
+    <p>Click <a href="[site_baseurl]/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*" aria-label="federal financial assistance related resources">here</a> to access related resources.</p>
