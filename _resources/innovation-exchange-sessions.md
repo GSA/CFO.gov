@@ -12,20 +12,20 @@ fiscal_year: 2022
             <caption class="green-color" style="font-size:20px">Innovation Exchange Sessions</caption>
             <thead>
               <tr>
-                <th scope="col" style="width: 18%;background-color:#4F9E99;color:white;font-size:20px">DATE</th>
-                <th scope="col" style="background-color:#4F9E99;color:white;font-size:20px">TITLE</th>
+                <th scope="col" style="width: 18%;background-color:#4F9E99;color:white;font-size:20px;border-right:1px solid white">DATE</th>
+                <th scope="col" style="background-color:#4F9E99;color:white;font-size:20px;border-right:1px solid white">TITLE</th>
                 <th scope="col" style="width: 22%;background-color:#4F9E99;color:white;font-size:20px">RECORDING</th>
               </tr>
             </thead>
             <tbody>
                 <tr>
-                  <td>May 19, 2022</td>
+                  <td>May 19, 2022</td> 
                   <td>Federal Demonstration Partnership Expanded Clearinghouse</td>
                   <td>
                     <a href="{{ site.baseurl }}/wp-content/uploads/2022/FDP EC OMB GIE slides - Final .pdf" title="Federal Demonstration Partnership Expanded Clearinghouse">View the Presentation</a>
                     <a href="https://vimeo.com/713468352/4083d4805c" title="Federal Demonstration Partnership Expanded Clearinghouse Recording">Watch the recording</a>
                   </td>
-                <tr>
+                </tr>
                 <tr>
                   <td>April 21, 2022</td>
                   <td>Transition of the Federal Audit Clearinghouse for Single Audit Submissions</td>
@@ -33,6 +33,7 @@ fiscal_year: 2022
                     <a href="{{ site.baseurl }}/wp-content/uploads/2022/20220421-April IEX FAC Slides.pdf" title="Transition of the Federal Audit Clearinghouse for Single Audit Submissions">View the Presentation</a>
                     <a href="https://vimeo.com/702983024/ec4e715952" title="Transition of the Federal Audit Clearinghouse for Single Audit Submissions Recording">Watch the recording</a>
                   </td>
+                </tr>
                 <tr>
                   <td>March 17, 2022</td>
                   <td>Fixed Amount Awards and Other Innovative Award Designs</td>
