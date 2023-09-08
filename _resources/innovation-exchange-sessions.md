@@ -176,3 +176,5 @@ fiscal_year: 2022
                    <td>Using Integrated Data to Support Practice</td>
                    <td><a href="{{ site.baseurl }}/wp-content/uploads/2021/5-23-using-integrated-data-to-support-practice.pdf" title="Using Integrated Data to Support Practice">View the Presentation</a></td>
                 </tr>
+            </tbody>
+      </table>

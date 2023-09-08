@@ -1139,3 +1139,8 @@ abbr{
     color: #346865;
     border-style: none;
 }
+
+.usa-table, .usa-prose > table {
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+}
