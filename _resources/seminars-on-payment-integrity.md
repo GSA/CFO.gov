@@ -1,5 +1,5 @@
 ---
-layout: resources-landing
+layout: resources-landing-banner
 title: 'Seminars on Payment Integrity'
 subtitle: Seminars on Payment Integrity
 permalink: /resources/seminars-payment-integrity/
