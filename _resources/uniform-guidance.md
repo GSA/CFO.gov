@@ -1,5 +1,5 @@
 ---
-layout: resources-landing-banner
+layout: resources-landing
 title: "Uniform Guidance: 2 CFR 200"
 subtitle: "Uniform Guidance: 2 CFR 200"
 permalink: /resources/uniform-guidance/
