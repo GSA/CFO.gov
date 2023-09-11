@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% comment %}
+This template is for a single policy landing page.
+{% endcomment %}
+
+<section class="usa-hero grid-container about-the-council margin-bottom-5">
+    <div class="grid-row grid-gap padding-top-6 padding-bottom-5">
+        <div class="grid-col-10 grid-offset-1">
+            <div class="priority-tag-line">
+                <h1 class="margin-0 font-ui-2xl">{{ page.title }}</h1>
+            </div>
+            <div>
+                <p class="margin-0 font-sans-md">{{ page.description }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="grid-container grid-gap">
+    <div class="text-base margin-bottom-2">
+        <div class="margin-top-neg-105">
+            {% if page.author %}
+            Posted By <span class="text-bold dark-green-color">{{ page.author }}</span> on {{ page.date | date: '%B %d, %Y' }}
+            {% endif %}
+        </div>
+    </div>
+    {{ content }}
+    {% if page.back_to_button != "no" %}
+    <p class="card-tag padding-bottom-3">&#10094; &nbsp; <a href="{{site.baseurl}}/resources/">Back to Resources</a></p>
+    {% endif %}
+</div>

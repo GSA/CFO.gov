@@ -1,5 +1,5 @@
 ---
-layout: resources-landing
+layout: resources-landing-banner
 title: 'Uniform Guidance: Promising Practices in Implementation'
 subtitle: Uniform Guidance Promising Practices in Implementation
 permalink: /resources/uniform-guidance-promising-practices-in-implementation/

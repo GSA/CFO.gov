@@ -1,5 +1,5 @@
 ---
-layout: resources-landing
+layout: resources-landing-banner
 title: "Innovation Exchange Sessions"
 subtitle: "Innovation Exchange Sessions"
 permalink: /resources/innovation-exchanges/
