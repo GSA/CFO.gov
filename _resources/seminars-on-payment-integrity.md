@@ -9,11 +9,11 @@ back_to_button: 'no'
 filters: payment-integrity training omb 2021
 fiscal_year: 2021
 ---
-<h2 class="green-color">Purpose</h2>
+<h2>Purpose</h2>
 <p>An update to OMB Circular A-123 Appendix C Requirements for Payment Integrity Improvement was released on March 5, 2021 and was published on Whitehouse.gov as M-21-19. This series will explore the wide-reaching world of payment integrity in the federal government particularly for the CFO Act agencies. Over the course of several seminars, six topics will be covered to outline the foundational requirements of Appendix C to Circular A-123, to help agencies achieve compliance with the Payment Integrity Information Act, and to enable a preventative approach to Payment Integrity.</p>
 
-<h2 class="green-color">Payment Integrity 101</h2>
-<h3 class="dark-green-color">Seminar 1 - Payment Integrity 101</h3>
+<h2>Payment Integrity 101</h2>
+<h3>Seminar 1 - Payment Integrity 101</h3>
 <p>Posted BY CFO Council on July 06, 2023</p>
 <div class="video-container">
     <iframe 
@@ -25,8 +25,8 @@ fiscal_year: 2021
 </div>
 <hr />
 
-<h2 class="green-color">Phases of Assessments, Phase 1</h2>
-<h3 class="dark-green-color">Seminar 2 - Phases of Assessments, Phase 1</h3>
+<h2>Phases of Assessments, Phase 1</h2>
+<h3>Seminar 2 - Phases of Assessments, Phase 1</h3>
 <p>Posted BY CFO Council on July 06, 2023</p>
 <div class="video-container">
     <iframe 
@@ -38,8 +38,8 @@ fiscal_year: 2021
 </div>
 <hr />
 
-<h2 class="green-color">Phases of Assessments, Phase 2</h2>
-<h3 class="dark-green-color">Seminar 3 - Phases of Assessments, Phase 2</h3>
+<h2>Phases of Assessments, Phase 2</h2>
+<h3>Seminar 3 - Phases of Assessments, Phase 2</h3>
 <p>Posted BY CFO Council on July 06, 2023</p>
 <div class="video-container">
     <iframe 
@@ -51,8 +51,8 @@ fiscal_year: 2021
 </div>
 <hr />
 
-<h2 class="green-color">Causes of Improper Payments</h2>
-<h3 class="dark-green-color">Seminar 4 - Causes of Improper Payments</h3>
+<h2>Causes of Improper Payments</h2>
+<h3>Seminar 4 - Causes of Improper Payments</h3>
 <p>Posted BY CFO Council on July 06, 2023</p>
 <div class="video-container">
     <iframe 
@@ -64,8 +64,8 @@ fiscal_year: 2021
 </div>
 <hr />
 
-<h2 class="green-color">Improper Payment Prevention</h2>
-<h3 class="dark-green-color">Seminar 5 - Improper Payment Prevention</h3>
+<h2>Improper Payment Prevention</h2>
+<h3>Seminar 5 - Improper Payment Prevention</h3>
 <p>Posted BY CFO Council on July 06, 2023</p>
 <div class="video-container">
     <iframe 
@@ -77,8 +77,8 @@ fiscal_year: 2021
 </div>
 <hr />
 
-<h2 class="green-color">Payment Integrity Compliance</h2>
-<h3 class="dark-green-color">Seminar 6 - Payment Integrity Compliance</h3>
+<h2>Payment Integrity Compliance</h2>
+<h3>Seminar 6 - Payment Integrity Compliance</h3>
 <p>Posted BY CFO Council on July 06, 2023</p>
 <div class="video-container">
     <iframe 
@@ -90,8 +90,8 @@ fiscal_year: 2021
 </div>
 <hr />
 
-<h2 class="green-color">Improper Payment Reporting</h2>
-<h3 class="dark-green-color">Seminar 7 - Improper Payment Reporting</h3>
+<h2>Improper Payment Reporting</h2>
+<h3>Seminar 7 - Improper Payment Reporting</h3>
 <p>Posted BY CFO Council on July 06, 2023</p>
 <div class="video-container">
     <iframe 
