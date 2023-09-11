@@ -1,5 +1,5 @@
 ---
-layout: resources-landing-banner
+layout: resources-landing
 title: "Compliance Supplement"
 subtitle: "Compliance Supplement"
 link: /resources/compliance-supplement/
