@@ -9,7 +9,7 @@ fiscal_year: 2022
    <p class="font-sans-sm margin-top-0">OMB hosts monthly sessions for the community to learn about exciting new ideas and approaches to grants management from fellow practitioners. Join the Grants Community of Practice to stay informed of future topics. Have an innovation you would like to share? Please email GrantsTeam@omb.eop.gov.</p>
    
    <table class="innovation-exchanges-table usa-table" aria-label="Innovation Exchange Sessions">
-            <caption class="green-color" style="font-size:20px">Innovation Exchange Sessions</caption>
+            <caption class="green-color">INNOVATION EXCHANGE SESSIONS</caption>
             <thead>
               <tr>
                 <th scope="col" style="width: 18%;background-color:#4F9E99;color:white;font-size:20px;border-right:1px solid white">DATE</th>
