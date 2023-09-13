@@ -96,7 +96,7 @@ fiscal_year: 2016
 </div>
 
 <p>
-    Resources:<br />
+    <strong>Resources:</strong><br />
     <abbr title="Association of Government Accountants">AGA</abbr> Contractor vs. Subrecipient Checklist: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel3_AGA-contractor-v-subrecipient_checklist100315.pdf">http://go.usa.gov/x34mJ</a>
 </p>
 

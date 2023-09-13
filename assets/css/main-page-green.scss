@@ -28,7 +28,7 @@
 }
 
 .header-menu-text {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 
@@ -268,8 +268,7 @@ color:#005ea2;
   width: 815px;
 }
 .about-the-council {
-    background-image: none;
-    background-color: #4F9E99;
+    background-image: url('../assets/images/Abstract-Green-Hero-Image.png');
     padding: 4rem 0;
 }
 .ui-tabs-active a {
@@ -292,8 +291,9 @@ color:#005ea2;
   background-repeat: no-repeat;
   background-position: 0px -140px;
 }
-.usa-nav__primary > .usa-nav__primary-item > a{
-  font-weight:normal;
+.usa-nav__primary > .usa-nav__primary-item > a {
+    font-weight: 600;
+    color: #71767a
 }
 .carousel__track {
   color: #ffffff;
@@ -758,7 +758,7 @@ abbr{
     font-size: 1.06rem;
     line-height: 1.3;
     color: white;
-    background-color: #1b1b1b;
+    background-color: #264741;
     padding-bottom: 1rem;
 
 
@@ -1132,4 +1132,54 @@ abbr{
 
 .usa-menu-btn {
     background-color: #264741;
+}
+
+.usa-table th, .usa-prose > table th, .usa-table td, .usa-prose > table td {
+    background-color: #4f9e991a;
+    color: #346865;
+    border-style: none;
+    position: relative;
+}
+
+.usa-table, .usa-prose > table {
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+}
+
+.usa-table td:nth-child(1)::before,
+.usa-table td:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 0;
+    width: 1px;
+    background-color: #4F9E99;
+}
+
+h2 {
+    color: #4F9E99;
+    font-weight: revert;
+}
+
+h3 {
+    color: #346865;
+}
+
+.usa-nav__secondary-links a {
+    font-weight:600;
+}
+
+.usa-nav__primary button {
+    color: #71767A;
+}
+
+@media (min-width: 64em) {
+    .usa-nav__secondary-links .usa-nav__secondary-item + .usa-nav__secondary-item::before {
+        color: #71767A;
+    }
+}
+
+.usa-footer__contact-links {
+    margin-top:0;
 }
