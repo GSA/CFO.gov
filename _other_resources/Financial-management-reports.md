@@ -1,5 +1,5 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: Federal Financial Management Reports
 subtitle: Federal Financial Management Reports
 type: Reports

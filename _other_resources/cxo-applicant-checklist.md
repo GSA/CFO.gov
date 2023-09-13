@@ -1,10 +1,10 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: CXO Fellows Program Applicant Checklist
 subtitle: CXO Fellows Program Applicant Checklist
 filler: The CXO Fellows Program offers an engaging opportunity for Federal Employees to develop leadership and career-building skills while networking and collaborating with like-minded individuals from other federal agencies.
-permalink: /resources/applicant-checklist/
-type: CXO Fellows
+permalink: /cxo-fellows/applicant-checklist/
+type: cxo
 date: April 4, 2022
 has_date: 'yes'
 ---

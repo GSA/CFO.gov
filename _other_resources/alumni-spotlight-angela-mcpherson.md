@@ -1,10 +1,10 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: ALUMNI SPOTLIGHT&#58; ANGELA MCPHERSON
 subtitle: Alumni Spotlight&#58; Angela Mcpherson
 filler: Angela McPherson is a member of the 2016-2017 CXO Fellows cohort. 
-permalink: /resources/alumni-spotlight-angela-mcpherson/
-type: CXO Fellows
+permalink: /cxo-fellows/alumni-spotlight-angela-mcpherson/
+type: cxo
 date: June 20, 2018
 has_date: 'yes'
 author: Annette Maldonado

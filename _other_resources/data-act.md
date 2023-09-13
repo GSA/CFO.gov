@@ -1,5 +1,5 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: "Data Quality Playbook"
 subtitle: "Data Quality Playbook"
 doc-link: ../assets/files/Data-Quality-Playbook-2018.pdf

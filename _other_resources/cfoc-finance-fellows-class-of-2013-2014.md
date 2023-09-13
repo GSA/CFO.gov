@@ -1,10 +1,10 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: CFOC FINANCE FELLOWS CLASS OF 2013-2014
 subtitle: CFOC Finance Fellows Class Of 2013-2014
 filler: Recruiting and retaining top talent in the Federal service is one of the CFO Council’s priorities. Understanding the importance in developing the next generation of Federal Financial leaders, the Council developed the Finance Fellows Program.
-permalink: /resources/cfoc-finance-fellows-class-of-2013-2014/
-type: CXO Fellows
+permalink: /cxo-fellows/cfoc-finance-fellows-class-of-2013-2014/
+type: cxo
 date: January 28, 2014
 has_date: 'yes'
 author: CFO Council 
