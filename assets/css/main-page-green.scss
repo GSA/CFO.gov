@@ -1173,3 +1173,13 @@ h3 {
 .usa-nav__primary button {
     color: #71767A;
 }
+
+@media (min-width: 64em) {
+    .usa-nav__secondary-links .usa-nav__secondary-item + .usa-nav__secondary-item::before {
+        color: #71767A;
+    }
+}
+
+.usa-footer__contact-links {
+    margin-top:0;
+}
