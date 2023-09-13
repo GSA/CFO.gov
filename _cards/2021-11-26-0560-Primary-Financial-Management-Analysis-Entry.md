@@ -12,21 +12,20 @@ competency: Financial Management Analysis
 competency_group: Primary
 competency_description: Analyze, evaluate and review budget and program issues and financial data and reports using business tools and applications, cost and economic analysis, and performance metrics to provide recommendations
 level: "7-9"
-behavior_illustrations: "Develops and implements financial management goals and objectives of the strategic plan ? Collaborates and coordinates with functional components, and reports performance to senior leadership ? Applies general analytical and evaluation techniques to review financial data"
-proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
+behavior_illustrations: "Reviews standard data and reports to ensure their accuracy; and assess risk by instituting risk management programs across the organization ? Applies general analytical and evaluation techniques to review financial data"
+proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8818" aria-label="Assessing Financial Related Activities and Controls (AUDT8811), GSU - https://www.LearnAtGSUSA.com/AUDT8818">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8814" aria-label="Assessing Financial Related Activities and Controls (AUDT8811), GSU - https://www.LearnAtGSUSA.com/AUDT8814">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8103" aria-label="Auditing with Data Analytics (AUDT8100), GSU - https://www.LearnAtGSUSA.com/AUDT8103">Auditing with Data Analytics (AUDT8100), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PGMT8103" aria-label="Cost-Benefit Analysis Workshop (PGMT8100), GSU - https://www.LearnAtGSUSA.com/PGMT8103">Cost-Benefit Analysis Workshop (PGMT8100), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8903" aria-label="Data Analytic Tools for Financial Management (FINC8900), GSU - https://www.LearnAtGSUSA.com/FINC8903">Data Analytic Tools for Financial Management (FINC8900), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8916" aria-label="Data Analytics Tools and Techniques (AUDT8913), GSU - https://www.LearnAtGSUSA.com/AUDT8916">Data Analytics Tools and Techniques (AUDT8913), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8811" aria-label="Assessing Financial Related Activities and Controls (AUDT8811), GSU - https://www.LearnAtGSUSA.com/AUDT8811">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8100" aria-label="Auditing with Data Analytics (AUDT8100), GSU - https://www.LearnAtGSUSA.com/AUDT8100">Auditing with Data Analytics (AUDT8100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PGMT8100" aria-label="Cost-Benefit Analysis Workshop (PGMT8100), GSU - https://www.LearnAtGSUSA.com/PGMT8100">Cost-Benefit Analysis Workshop (PGMT8100), GSU</a>
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/FINC8900" aria-label="Data Analytic Tools for Financial Management (FINC8900), GSU - https://www.LearnAtGSUSA.com/FINC8900">Data Analytic Tools for Financial Management (FINC8900), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8913" aria-label="Data Analytics Tools and Techniques (AUDT8913), GSU - https://www.LearnAtGSUSA.com/AUDT8913">Data Analytics Tools and Techniques (AUDT8913), GSU</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers" aria-label="Data Literacy for Managers, Data Society - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers">Data Literacy for Managers, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling" aria-label="Data Visual Design and Storytelling, Data Society - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling">Data Visual Design and Storytelling, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience/DataWranglingInPython" aria-label="Data Wrangling in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/DataWranglingInPython">Data Wrangling in Python, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR" aria-label="Data Wrangling in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR">Data Wrangling in R, Data Society</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8127" aria-label="Decision Support Analytics (FINC8120), GSU - https://www.LearnAtGSUSA.com/FINC8127">Decision Support Analytics (FINC8120), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8123" aria-label="Decision Support Analytics (FINC8120), GSU - https://www.LearnAtGSUSA.com/FINC8123">Decision Support Analytics (FINC8120), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8120" aria-label="Decision Support Analytics (FINC8120), GSU - https://www.LearnAtGSUSA.com/FINC8120">Decision Support Analytics (FINC8120), GSU</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy" aria-label="Fundamentals of Data Literacy, Data Society - https://datasociety.meldr.ai/courses/DataScienceLiteracy/FundamentalsOfDataLiteracy">Fundamentals of Data Literacy, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience/IntermediateClustering" aria-label="Intermediate Clustering in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/IntermediateClustering">Intermediate Clustering in Python, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntermediateClusteringInR" aria-label="Intermediate Clustering in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/IntermediateClusteringInR">Intermediate Clustering in R, Data Society</a>
@@ -47,10 +46,10 @@ relevant_courses:
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/IntroToVisualizationInR" aria-label="Introduction to Visualization in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/IntroToVisualizationInR">Introduction to Visualization in R, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience/LogisticRegression" aria-label="Logistic Regression in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/LogisticRegression">Logistic Regression in Python, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR" aria-label="Logistic Regression in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR">Logistic Regression in R, Data Society</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8115" aria-label="Practical Statistical Sampling for Auditors (AUDT8112), GSU - https://www.LearnAtGSUSA.com/AUDT8115">Practical Statistical Sampling for Auditors (AUDT8112), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8112" aria-label="Practical Statistical Sampling for Auditors (AUDT8112), GSU - https://www.LearnAtGSUSA.com/AUDT8112">Practical Statistical Sampling for Auditors (AUDT8112), GSU</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience/SimpleRegression" aria-label="Simple Linear Regression in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/SimpleRegression">Simple Linear Regression in Python, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR" aria-label="Simple Linear Regression in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/SimpleRegressionInR">Simple Linear Regression in R, Data Society</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8106" aria-label="Understanding Federal Financial Statements (FINC8103), GSU - https://www.LearnAtGSUSA.com/FINC8106">Understanding Federal Financial Statements (FINC8103), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8103" aria-label="Understanding Federal Financial Statements (FINC8103), GSU - https://www.LearnAtGSUSA.com/FINC8103">Understanding Federal Financial Statements (FINC8103), GSU</a>
 filters: Primary-Financial-Management-Analysis GS-7-9 series-0560
 ---
 
@@ -58,13 +57,13 @@ filters: Primary-Financial-Management-Analysis GS-7-9 series-0560
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Financial Management Analysis (Level 1 - Awareness)</dt><dd>Develops and implements financial management goals and objectives of the strategic plan </dd><dd> Collaborates and coordinates with functional components, and reports performance to senior leadership</dd><dt>Financial Management Analysis (Level 2 - Basic)</dt><dd>Applies general analytical and evaluation techniques to review financial data</dd></dl>
+    <dl class="text-base card-content-color"><dt>Financial Management Analysis (Level 1 - Awareness)</dt><dd>Reviews standard data and reports to ensure their accuracy; and assess risk by instituting risk management programs across the organization</dd><dt>Financial Management Analysis (Level 2 - Basic)</dt><dd>Applies general analytical and evaluation techniques to review financial data</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Financial Management Analysis (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Financial Management Analysis (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
+    <dl class="text-base card-content-color"><dt>Financial Management Analysis (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Financial Management Analysis (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

@@ -13,22 +13,20 @@ competency_group: Personal
 competency_description: Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately.
 level: "7-9"
 behavior_illustrations: "Communicates agency goals and initiatives to staff in a clear and concise manner ? Communicates information regarding organizational changes to staff ? Updates supervisors on project status ? Actively listens to staff ideas and concerns regarding work-related issues ? Communicates effectively with staff by conducting regular meetings to discuss initiatives and current events ? Explains and clarifies policy to affected parties ? Provides status updates to management team during quarterly division meeting ? Presents complex information to stakeholders verbally"
-proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
+proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/COMM7002" aria-label="Assertiveness Skills (COMM7001), GSU - https://www.LearnAtGSUSA.com/COMM7002">Assertiveness Skills (COMM7001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/COMM7003" aria-label="Briefing Techniques (COMM7002), GSU - https://www.LearnAtGSUSA.com/COMM7003">Briefing Techniques (COMM7002), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/COMM8001" aria-label="Effective Communications with Customers (COMM8000), GSU - https://www.LearnAtGSUSA.com/COMM8001">Effective Communications with Customers (COMM8000), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8151" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8151">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/COMM7032" aria-label="Increasing Personal Effectiveness (COMM7027), GSU - https://www.LearnAtGSUSA.com/COMM7032">Increasing Personal Effectiveness (COMM7027), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/COMM7028" aria-label="Increasing Personal Effectiveness (COMM7027), GSU - https://www.LearnAtGSUSA.com/COMM7028">Increasing Personal Effectiveness (COMM7027), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/COMM7007" aria-label="Interpersonal Communications (COMM7006), GSU - https://www.LearnAtGSUSA.com/COMM7007">Interpersonal Communications (COMM7006), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT7017" aria-label="Interviewing Techniques for Auditors (AUDT7012), GSU - https://www.LearnAtGSUSA.com/AUDT7017">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT7013" aria-label="Interviewing Techniques for Auditors (AUDT7012), GSU - https://www.LearnAtGSUSA.com/AUDT7013">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/SUPV7002" aria-label="Introduction to Supervision (SUPV7001), GSU - https://www.LearnAtGSUSA.com/SUPV7002">Introduction to Supervision (SUPV7001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ADMB7007" aria-label="Leadership Skills for Non-Supervisors (ADMB7006), GSU - https://www.LearnAtGSUSA.com/ADMB7007">Leadership Skills for Non-Supervisors (ADMB7006), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8527" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522), GSU - https://www.LearnAtGSUSA.com/AUDT8527">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8523" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522), GSU - https://www.LearnAtGSUSA.com/AUDT8523">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/COMM7011" aria-label="Speaking with Confidence (COMM7010), GSU - https://www.LearnAtGSUSA.com/COMM7011">Speaking with Confidence (COMM7010), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7001" aria-label="Assertiveness Skills (COMM7001), GSU - https://www.LearnAtGSUSA.com/COMM7001">Assertiveness Skills (COMM7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7002" aria-label="Briefing Techniques (COMM7002), GSU - https://www.LearnAtGSUSA.com/COMM7002">Briefing Techniques (COMM7002), GSU</a>
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/COMM8000" aria-label="Effective Communications with Customers (COMM8000), GSU - https://www.LearnAtGSUSA.com/COMM8000">Effective Communications with Customers (COMM8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8150" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8150">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7027" aria-label="Increasing Personal Effectiveness (COMM7027), GSU - https://www.LearnAtGSUSA.com/COMM7027">Increasing Personal Effectiveness (COMM7027), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7006" aria-label="Interpersonal Communications (COMM7006), GSU - https://www.LearnAtGSUSA.com/COMM7006">Interpersonal Communications (COMM7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT7012" aria-label="Interviewing Techniques for Auditors (AUDT7012), GSU - https://www.LearnAtGSUSA.com/AUDT7012">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/SUPV7001" aria-label="Introduction to Supervision (SUPV7001), GSU - https://www.LearnAtGSUSA.com/SUPV7001">Introduction to Supervision (SUPV7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7006" aria-label="Leadership Skills for Non-Supervisors (ADMB7006), GSU - https://www.LearnAtGSUSA.com/ADMB7006">Leadership Skills for Non-Supervisors (ADMB7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8522" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522), GSU - https://www.LearnAtGSUSA.com/AUDT8522">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM7010" aria-label="Speaking with Confidence (COMM7010), GSU - https://www.LearnAtGSUSA.com/COMM7010">Speaking with Confidence (COMM7010), GSU</a>
 filters: Personal-Oral-Communications GS-7-9 series-0510
 ---
 
@@ -43,6 +41,6 @@ filters: Personal-Oral-Communications GS-7-9 series-0510
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Oral Communications (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Oral Communications (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
+    <dl class="text-base card-content-color"><dt>Oral Communications (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Oral Communications (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

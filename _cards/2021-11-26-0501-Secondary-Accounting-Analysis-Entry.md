@@ -13,10 +13,11 @@ competency_group: Secondary
 competency_description: Analyze, evaluate, and review accounting data and reports using business tools and applications, and performance metrics to provide recommendations.
 level: "7-9"
 behavior_illustrations: "Reviews standard data and reports to ensure their accuracy ? Applies general analytical and evaluation techniques to review accounting data in line with all accounting principles"
-proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
+proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
+- Course Coming Soon
 - <a href="https://datasociety.meldr.ai/courses/DataSocietyExcel/DataAnalysisInExcel" aria-label="Data Analysis in Excel, Data Society - https://datasociety.meldr.ai/courses/DataSocietyExcel/DataAnalysisInExcel">Data Analysis in Excel, Data Society</a>
-- <a href="https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI" aria-label="Data Literacy for Managers, Data Society - https://datasociety.meldr.ai/courses/DataSocietyPowerBI/IntroductionToPowerBI">Data Literacy for Managers, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers" aria-label="Data Literacy for Managers, Data Society - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForManagers">Data Literacy for Managers, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling" aria-label="Data Visual Design and Storytelling, Data Society - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataVisualDesignAndStorytelling">Data Visual Design and Storytelling, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience/DataWranglingInPython" aria-label="Data Wrangling in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/DataWranglingInPython">Data Wrangling in Python, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR" aria-label="Data Wrangling in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/DataWranglingInR">Data Wrangling in R, Data Society</a>
@@ -48,6 +49,6 @@ filters: Secondary-Accounting-Analysis GS-7-9 series-0501
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Accounting Analysis (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Accounting Analysis (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
+    <dl class="text-base card-content-color"><dt>Accounting Analysis (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Accounting Analysis (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

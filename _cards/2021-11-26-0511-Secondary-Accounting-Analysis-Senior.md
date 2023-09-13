@@ -17,6 +17,7 @@ proficiency_level_definition: Applies the competency in considerably difficult s
 relevant_courses: 
 - <a href="https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering" aria-label="Advanced Clustering in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering">Advanced Clustering in Python, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/AdvancedClusteringInR" aria-label="Advanced Clustering in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/AdvancedClusteringInR">Advanced Clustering in R, Data Society</a>
+- Course Coming Soon
 - <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives" aria-label="Data Literacy for Executives, Data Society - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">Data Literacy for Executives, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience/DecisionTrees" aria-label="Decision Trees in Python, Data Society - https://datasociety.meldr.ai/courses/DataScience/DecisionTrees">Decision Trees in Python, Data Society</a>
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/DecisionTreesInR" aria-label="Decision Trees in R, Data Society - https://datasociety.meldr.ai/courses/DataScience-R/DecisionTreesInR">Decision Trees in R, Data Society</a>

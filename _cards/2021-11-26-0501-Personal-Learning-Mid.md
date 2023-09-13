@@ -16,7 +16,7 @@ behavior_illustrations: "Completes leadership development program including trai
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram" aria-label="Executive Leadership Program, GSU - https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program, GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EPPG8844" aria-label="Executive Potential Program (EPPG8840), GSU - https://www.LearnAtGSUSA.com/EPPG8844">Executive Potential Program (EPPG8840), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/EPPG8840" aria-label="Executive Potential Program (EPPG8840), GSU - https://www.LearnAtGSUSA.com/EPPG8840">Executive Potential Program (EPPG8840), GSU</a>
 - <a href="https://online-execed.wharton.upenn.edu/leading-technology-driven-organization/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Leading a Technology-Driven Firm (with Wharton Executive Education), Emeritus - https://online-execed.wharton.upenn.edu/leading-technology-driven-organization/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Leading a Technology-Driven Firm (with Wharton Executive Education), Emeritus</a>
 - <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram" aria-label="New Leader Program, GSU - https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program, GSU</a>
 filters: Personal-Learning GS-10-13 series-0501

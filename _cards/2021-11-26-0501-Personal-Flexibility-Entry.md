@@ -13,12 +13,12 @@ competency_group: Personal
 competency_description: Is open to change and new information; adapts behavior or work methods in response to new information, changing conditions, or unexpected obstacles; effectively deals with ambiguity.
 level: "7-9"
 behavior_illustrations: "Meets with team to adjust and coordinate schedules to accommodate all team members ? Adjusts staff assignments based on feedback and work load priorities ? Uses staff feedback to streamline processes in order to meet deadlines ? Adjusts project plan based on input from staff and stakeholders"
-proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
+proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
+- Course Coming Soon
 - <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/ADMB7006" aria-label="Leadership Skills for Non-Supervisors (ADMB7006), GSU - https://www.LearnAtGSUSA.com/ADMB7006">Leadership Skills for Non-Supervisors (ADMB7006), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/MGMT7201" aria-label="Leading Change (MGMT7201), GSU - https://www.LearnAtGSUSA.com/MGMT7201">Leading Change (MGMT7201), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ADMB7011" aria-label="Managing Multiple Priorities (ADMB7007), GSU - https://www.LearnAtGSUSA.com/ADMB7011">Managing Multiple Priorities (ADMB7007), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/ADMB7007" aria-label="Managing Multiple Priorities (ADMB7007), GSU - https://www.LearnAtGSUSA.com/ADMB7007">Managing Multiple Priorities (ADMB7007), GSU</a>
 filters: Personal-Flexibility GS-7-9 series-0501
 ---
@@ -34,6 +34,6 @@ filters: Personal-Flexibility GS-7-9 series-0501
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Flexibility (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Flexibility (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
+    <dl class="text-base card-content-color"><dt>Flexibility (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Flexibility (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

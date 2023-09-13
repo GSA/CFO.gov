@@ -13,7 +13,7 @@ competency_group: Leading
 competency_description: Develops the ability of others to perform and contribute to the organization by providing ongoing feedback and by providing opportunities to learn through formal and informal methods.
 level: "7-9"
 behavior_illustrations: "Provides developmental feedback to staff on job performance ? Involves staff in developing project goals and timelines ? Encourages employees to participate in mentoring programs and other learning opportunities ? Pairs new staff with seasoned employees to facilitate understanding of the position and organization ? Provides orientation to new employees"
-proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
+proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/MGMT9002" aria-label="Coaching Skills for Today's Leaders (MGMT9002), GSU - https://www.LearnAtGSUSA.com/MGMT9002">Coaching Skills for Today's Leaders (MGMT9002), GSU</a>
 - Course Coming Soon
@@ -34,6 +34,6 @@ filters: Leading-Developing-Others GS-7-9 series-0501
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Developing Others (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Developing Others (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
+    <dl class="text-base card-content-color"><dt>Developing Others (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Developing Others (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

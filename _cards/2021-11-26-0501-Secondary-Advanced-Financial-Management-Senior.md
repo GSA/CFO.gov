@@ -12,7 +12,7 @@ competency: Advanced Financial Management
 competency_group: Secondary
 competency_description: Develop, monitor, interpret, and report standardized processes/operations to ensure transparency and compliance with financial statutory, regulatory, and leadership guidance with the intent of promoting effectiveness and accountability.
 level: "14-15"
-behavior_illustrations: "Interprets and advises others on accounting and financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts"
+behavior_illustrations: "Advises internal and external stakeholders and Congressional representatives on Department-wide financial processes/operations to ensure financial integrity"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
@@ -23,7 +23,7 @@ filters: Secondary-Advanced-Financial-Management GS-14-15 series-0501
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Advanced Financial Management (Level 5 - Expert)</dt><dd>Interprets and advises others on accounting and financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts</dd></dl>
+    <dl class="text-base card-content-color"><dt>Advanced Financial Management (Level 5 - Expert)</dt><dd>Advises internal and external stakeholders and Congressional representatives on Department-wide financial processes/operations to ensure financial integrity</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">

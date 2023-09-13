@@ -12,7 +12,7 @@ competency: Audit Reporting
 competency_group: Primary
 competency_description: Knowledge of the principles, practices, and techniques used to report audit findings (criteria, condition, cause, effect, and recommendation).
 level: "10-13"
-behavior_illustrations: "Collaborates with senior leadership to address complex and/or controversial findings and recommendations identified in audit reports, statements or other documentation"
+behavior_illustrations: "Completes and reviews audit reports, statements or other documentation to ensure compliance with audit reporting standards"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
@@ -23,7 +23,7 @@ filters: Primary-Audit-Reporting GS-10-13 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Audit Reporting (Level 4 - Advanced)</dt><dd>Collaborates with senior leadership to address complex and/or controversial findings and recommendations identified in audit reports, statements or other documentation</dd></dl>
+    <dl class="text-base card-content-color"><dt>Audit Reporting (Level 4 - Advanced)</dt><dd>Completes and reviews audit reports, statements or other documentation to ensure compliance with audit reporting standards</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">

@@ -16,8 +16,9 @@ behavior_illustrations: "Revises and communicates to employees expectations and 
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/ACQI9008" aria-label="Advanced COR Workshop (ACQI9008), GSU - https://www.LearnAtGSUSA.com/ACQI9008">Advanced COR Workshop (ACQI9008), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8042" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU - https://www.LearnAtGSUSA.com/AUDT8042">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT9018" aria-label="Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU - https://www.LearnAtGSUSA.com/AUDT9018">Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU</a>
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/AUDT8034" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU - https://www.LearnAtGSUSA.com/AUDT8034">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9010" aria-label="Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU - https://www.LearnAtGSUSA.com/AUDT9010">Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU</a>
 filters: Personal-Accountability GS-14-15 series-0501
 ---
 

@@ -16,8 +16,8 @@ behavior_illustrations: "Includes entire team in decision-making process when de
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/MGMT8122" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8122">Leadership Communication (MGMT8112), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI7503" aria-label="Shaping Smart Business Arrangements (ACQI7501), GSU - https://www.LearnAtGSUSA.com/ACQI7503">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8112" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8112">Leadership Communication (MGMT8112), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7501" aria-label="Shaping Smart Business Arrangements (ACQI7501), GSU - https://www.LearnAtGSUSA.com/ACQI7501">Shaping Smart Business Arrangements (ACQI7501), GSU</a>
 filters: Projects-Team-Building GS-10-13 series-0511
 ---
 

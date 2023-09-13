@@ -15,6 +15,7 @@ level: "7-9"
 behavior_illustrations: "Obtains and inputs basic data utilizing financial management systems"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
+- Course Coming Soon
 - <a href="https://www.LearnAtGSUSA.com/BUDG7000" aria-label="Federal Budgeting for Non-Budgeting Personnel (BUDG7000), GSU - https://www.LearnAtGSUSA.com/BUDG7000">Federal Budgeting for Non-Budgeting Personnel (BUDG7000), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/FINC8300" aria-label="Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU - https://www.LearnAtGSUSA.com/FINC8300">Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU</a>
 - <a href="https://www.LearnAtGSUSA.com/FINC7010" aria-label="Financial Management Bootcamp for New Federal Managers (FINC7010), GSU - https://www.LearnAtGSUSA.com/FINC7010">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>

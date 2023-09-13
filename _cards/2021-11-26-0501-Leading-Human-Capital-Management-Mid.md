@@ -13,7 +13,7 @@ competency_group: Leading
 competency_description: Builds and manages workforce based on organizational goals, budget considerations, and staffing needs; ensures that employees are appropriately recruited, selected, appraised, and rewarded; takes action to address performance problems; manages a multi-sector workforce and a variety of work situations
 level: "10-13"
 behavior_illustrations: "Recognizes and addresses deficiencies of human resources processes or tools ? Provides positive feedback to high-performing staff and rewards exceptional performance ? Considers impact of personnel decisions on current staff ? Reviews and updates position descriptions and performance plans ? Explains restructuring plan to staff and addresses concerns ? Recognizes employee contributions by rewarding employees publicly"
-proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes  ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
+proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/LABR7051" aria-label="Basic Labor Relations (LABR7051), GSU - https://www.LearnAtGSUSA.com/LABR7051">Basic Labor Relations (LABR7051), GSU</a>
 - Course Coming Soon
@@ -37,6 +37,6 @@ filters: Leading-Human-Capital-Management GS-10-13 series-0501
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Human Capital Management (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd><dt>Human Capital Management (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Human Capital Management (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Human Capital Management (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

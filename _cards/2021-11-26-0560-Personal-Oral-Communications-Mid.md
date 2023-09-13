@@ -15,13 +15,12 @@ level: "10-13"
 behavior_illustrations: "Communicates with committee regarding necessary actions and suggested approaches to accomplish committee objectives ? Conveys information clearly and concisely to ensure staff or team members remain focused on agenda items ? Explains benefits to stakeholders to gain acceptance of programmatic change ? Presents information, analyses, and recommendations to officials and stakeholders ? Presents, promotes and clarifies ideas and issues to others ? Conducts presentations and briefings for high-level agency officials ? Presents, explains, and defends agency positions and proposals to staff and stakeholders ? Persuades others by making clear and convincing oral presentations"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/BUDG7109" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7109">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7105" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7105">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI8214" aria-label="Consulting Skills for Acquisition Professionals (ACQI8211), GSU - https://www.LearnAtGSUSA.com/ACQI8214">Consulting Skills for Acquisition Professionals (ACQI8211), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8157" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8157">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8115" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8115">Leadership Communication (MGMT8112), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8537" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522), GSU - https://www.LearnAtGSUSA.com/AUDT8537">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8533" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522), GSU - https://www.LearnAtGSUSA.com/AUDT8533">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7102" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7102">Budget Justification and Presentation (BUDG7102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8211" aria-label="Consulting Skills for Acquisition Professionals (ACQI8211), GSU - https://www.LearnAtGSUSA.com/ACQI8211">Consulting Skills for Acquisition Professionals (ACQI8211), GSU</a>
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/BUDG8150" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8150">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8112" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8112">Leadership Communication (MGMT8112), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8522" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522), GSU - https://www.LearnAtGSUSA.com/AUDT8522">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
 filters: Personal-Oral-Communications GS-10-13 series-0560
 ---
 
