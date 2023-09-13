@@ -28,7 +28,7 @@
 }
 
 .header-menu-text {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 
@@ -291,8 +291,9 @@ color:#005ea2;
   background-repeat: no-repeat;
   background-position: 0px -140px;
 }
-.usa-nav__primary > .usa-nav__primary-item > a{
-  font-weight:normal;
+.usa-nav__primary > .usa-nav__primary-item > a {
+    font-weight: 600;
+    color: #71767a
 }
 .carousel__track {
   color: #ffffff;
@@ -1163,4 +1164,12 @@ h2 {
 
 h3 {
     color: #346865;
+}
+
+.usa-nav__secondary-links a {
+    font-weight:600;
+}
+
+.usa-nav__primary button {
+    color: #71767A;
 }
