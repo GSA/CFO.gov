@@ -1,8 +1,8 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: GRANTS RESOURCES
 subtitle: Grants Resources
-permalink: /resources/grants-resources/
+permalink: /cxo-fellows/grants-resources/
 type: financial-assistance
 filler: Grants Resources What was the Council on Financial Assistance Reform?  OMB M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying, rescinded the COFAR. The group's policy priorities will now be considered part of the President's Management Agenda and in the CFO Council. A sub-group may be formed on an as-needed basis to address specific. Continued
 ---

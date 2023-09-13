@@ -246,6 +246,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - _pages/empty.md
+  - _unpublished
 
 assets:
   digest: false
