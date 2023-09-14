@@ -15,8 +15,9 @@ level: "14-15"
 behavior_illustrations: "Designs and implements opportunities for career development in anticipation of agency restructuring, including mentoring staff and providing training ? Directs working group to design training programs focused on skills necessary for meeting strategic goals ? Designs, implements and communicates leadership development opportunities for staff at all levels in the organization"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/MGMT7212" aria-label="Leading Change (MGMT7201), GSU - https://www.LearnAtGSUSA.com/MGMT7212">Leading Change (MGMT7201), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT7017" aria-label="Mentoring Skills (MGMT7006), GSU - https://www.LearnAtGSUSA.com/MGMT7017">Mentoring Skills (MGMT7006), GSU</a>
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/MGMT7201" aria-label="Leading Change (MGMT7201) - https://www.LearnAtGSUSA.com/MGMT7201">Leading Change (MGMT7201)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/MGMT7006" aria-label="Mentoring Skills (MGMT7006) - https://www.LearnAtGSUSA.com/MGMT7006">Mentoring Skills (MGMT7006)</a>, GSU
 filters: Leading-Developing-Others GS-14-15 series-0560
 ---
 

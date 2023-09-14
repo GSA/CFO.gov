@@ -13,9 +13,9 @@ competency_group: Personal
 competency_description: Uses digital tools and technologies for communication, knowledge-sharing, and collaborative processes; works with others to construct and create resources and knowledge, or provide services, in a digital environment.
 level: "7-9"
 behavior_illustrations: "Understands the standard features of common tools useful for securely collaborating in a virtual work environment ? Completes tasks, initiatives, or actively participates in meetings using the standard virtual collaboration tools"
-proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
+proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI8032" aria-label="Virtual Contract Management (ACQI8030), GSU - https://www.LearnAtGSUSA.com/ACQI8032">Virtual Contract Management (ACQI8030), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI8030" aria-label="Virtual Contract Management (ACQI8030) - https://www.LearnAtGSUSA.com/ACQI8030">Virtual Contract Management (ACQI8030)</a>, GSU
 filters: Personal-Digital-Collaboration GS-7-9 series-0511
 ---
 
@@ -30,6 +30,6 @@ filters: Personal-Digital-Collaboration GS-7-9 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Digital Collaboration (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
+    <dl class="text-base card-content-color"><dt>Digital Collaboration (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

@@ -12,18 +12,17 @@ competency: Interpersonal Skills
 competency_group: Personal
 competency_description: Shows understanding, friendliness, courtesy, tact, empathy, concern, and politeness to others; develops and maintains effective relationships with others; may include effectively dealing with individuals who are difficult, hostile, or distressed; relates well to people from varied backgrounds and different situations; is sensitive to cultural diversity, race, gender, disabilities, and other individual differences
 level: "14-15"
-behavior_illustrations: "Treats individuals from all levels of the agency with courtesy and sensitivity ? Meets with staff and listens to their perspective on organizational policies and procedures ? Displays professionalism, tact, and empathy when working with groups
-"
+behavior_illustrations: "Treats individuals from all levels of the agency with courtesy and sensitivity ? Meets with staff and listens to their perspective on organizational policies and procedures ? Displays professionalism, tact, and empathy when working with groups "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/COMM8222" aria-label="Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU - https://www.LearnAtGSUSA.com/COMM8222">Building Effetive Organizatinal Relationships&#58; A Supervisor's RX (COMM8210), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT9039" aria-label="Coaching Audit Staff for High Perfromance (AUDT9035), GSU - https://www.LearnAtGSUSA.com/AUDT9039">Coaching Audit Staff for High Perfromance (AUDT9035), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/COMM7012" aria-label="Constructive Conflict Resolution (COMM7004), GSU - https://www.LearnAtGSUSA.com/COMM7012">Constructive Conflict Resolution (COMM7004), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8919" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU - https://www.LearnAtGSUSA.com/AUDT8919">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LEAD8019" aria-label="Emotionally Intelligent Leaders (LEAD8007), GSU - https://www.LearnAtGSUSA.com/LEAD8019">Emotionally Intelligent Leaders (LEAD8007), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT7024" aria-label="Interviewing Techniques for Auditors (AUDT7012), GSU - https://www.LearnAtGSUSA.com/AUDT7024">Interviewing Techniques for Auditors (AUDT7012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT9014" aria-label="Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU - https://www.LearnAtGSUSA.com/AUDT9014">Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LEAD9024" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU - https://www.LearnAtGSUSA.com/LEAD9024">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/COMM8210" aria-label="Building Effective Organizational Relationships&#58; A Supervisor's RX (COMM8210) - https://www.LearnAtGSUSA.com/COMM8210">Building Effective Organizational Relationships&#58; A Supervisor's RX (COMM8210)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT9035" aria-label="Coaching Audit Staff for High Performance (AUDT9035) - https://www.LearnAtGSUSA.com/AUDT9035">Coaching Audit Staff for High Performance (AUDT9035)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/COMM7004" aria-label="Constructive Conflict Resolution (COMM7004) - https://www.LearnAtGSUSA.com/COMM7004">Constructive Conflict Resolution (COMM7004)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911) - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/LEAD8007" aria-label="Emotionally Intelligent Leaders (LEAD8007) - https://www.LearnAtGSUSA.com/LEAD8007">Emotionally Intelligent Leaders (LEAD8007)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT7012" aria-label="Interviewing Techniques for Auditors (AUDT7012) - https://www.LearnAtGSUSA.com/AUDT7012">Interviewing Techniques for Auditors (AUDT7012)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT9010" aria-label="Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010) - https://www.LearnAtGSUSA.com/AUDT9010">Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020) - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020)</a>, GSU
 filters: Personal-Interpersonal-Skills GS-14-15 series-0501
 ---
 

@@ -15,13 +15,14 @@ level: "10-13"
 behavior_illustrations: "Provides and promotes position information across divisions to educate staff on respective duties, performance expectations, and consequent impact on accomplishment of agency goals ? Holds staff accountable for new performance standards and expectations by taking action with employees not meeting standards"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT9039" aria-label="Coaching Audit Staff for High Perfromance (AUDT9035), GSU - https://www.LearnAtGSUSA.com/AUDT9039">Coaching Audit Staff for High Perfromance (AUDT9035), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8038" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU - https://www.LearnAtGSUSA.com/AUDT8038">Effective Audit Resolution, Follow-up and Implementation (AUDT8034), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8920" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU - https://www.LearnAtGSUSA.com/AUDT8920">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT9014" aria-label="Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU - https://www.LearnAtGSUSA.com/AUDT9014">Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LEAD9028" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU - https://www.LearnAtGSUSA.com/LEAD9028">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8015" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8015">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT9117" aria-label="Skills for Leading and Managing Audit Projects (AUDT9109), GSU - https://www.LearnAtGSUSA.com/AUDT9117">Skills for Leading and Managing Audit Projects (AUDT9109), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9035" aria-label="Coaching Audit Staff for High Performance (AUDT9035) - https://www.LearnAtGSUSA.com/AUDT9035">Coaching Audit Staff for High Performance (AUDT9035)</a>, GSU
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/AUDT8034" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034) - https://www.LearnAtGSUSA.com/AUDT8034">Effective Audit Resolution, Follow-up and Implementation (AUDT8034)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912) - https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT9010" aria-label="Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010) - https://www.LearnAtGSUSA.com/AUDT9010">Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020) - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003) - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT9109" aria-label="Skills for Leading and Managing Audit Projects (AUDT9109) - https://www.LearnAtGSUSA.com/AUDT9109">Skills for Leading and Managing Audit Projects (AUDT9109)</a>, GSU
 filters: Personal-Accountability GS-10-13 series-0501
 ---
 

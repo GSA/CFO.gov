@@ -15,10 +15,10 @@ level: "10-13"
 behavior_illustrations: "Reconciles conflicting and/or incomplete information to develop solutions ? Applies appropriate methodology to discover or identify policy issues and resource concerns ? Synthesizes information from internal and external sources to develop an action plan addressing program issues ? Addresses systemic barriers inhibiting the achievement of results by forming teams to conduct focus groups and develop solutions"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI7504" aria-label="Contracting Basics for Administrative Personnel (ACQI7502), GSU - https://www.LearnAtGSUSA.com/ACQI7504">Contracting Basics for Administrative Personnel (ACQI7502), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8022" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8022">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8018" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8018">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT9022" aria-label="Preparing to Lead in the 21st Century (MGMT9020), GSU - https://www.LearnAtGSUSA.com/MGMT9022">Preparing to Lead in the 21st Century (MGMT9020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7502" aria-label="Contracting Basics for Administrative Personnel (ACQI7502) - https://www.LearnAtGSUSA.com/ACQI7502">Contracting Basics for Administrative Personnel (ACQI7502)</a>, GSU
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/MGMT9020" aria-label="Preparing to Lead in the 21st Century (MGMT9020) - https://www.LearnAtGSUSA.com/MGMT9020">Preparing to Lead in the 21st Century (MGMT9020)</a>, GSU
 filters: Personal-Problem-Solving GS-10-13 series-0511
 ---
 

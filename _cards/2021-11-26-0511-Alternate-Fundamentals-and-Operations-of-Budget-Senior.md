@@ -12,22 +12,21 @@ competency: Fundamentals and Operations of Budget
 competency_group: Alternate
 competency_description: Knowledge of the principles and practices of budget administration and analysis; including preparing, justifying, reporting on, and executing the budget; and the relationships among program, budget, accounting, and reporting systems
 level: "14-15"
-behavior_illustrations: "Researches and organizes relevant budget information and systems using various standardized procedures ? Examines and reconciles complex transactions from budget information and systems using various standardized procedures"
-proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
+behavior_illustrations: "Extracts, records and balances basic information from financial management systems ? Researches and organizes relevant budget information and systems using various standardized procedures ? Examines and reconciles complex transactions from budget information and systems using various standardized procedures"
+proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/BUDG7106" aria-label="Budget Execution (BUDG7100), GSU - https://www.LearnAtGSUSA.com/BUDG7106">Budget Execution (BUDG7100), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7107" aria-label="Budget Formulation (BUDG7101), GSU - https://www.LearnAtGSUSA.com/BUDG7107">Budget Formulation (BUDG7101), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7103" aria-label="Budget Formulation (BUDG7101), GSU - https://www.LearnAtGSUSA.com/BUDG7103">Budget Formulation (BUDG7101), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7108" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7108">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG7104" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7104">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8156" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8156">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8152" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8152">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC7020" aria-label="Financial Management Bootcamp for New Federal Managers (FINC7010), GSU - https://www.LearnAtGSUSA.com/FINC7020">Financial Management Bootcamp for New Federal Managers (FINC7010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8186" aria-label="Planning, Budgeting and Performance Measurement (BUDG8180), GSU - https://www.LearnAtGSUSA.com/BUDG8186">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8182" aria-label="Planning, Budgeting and Performance Measurement (BUDG8180), GSU - https://www.LearnAtGSUSA.com/BUDG8182">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8006" aria-label="Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU - https://www.LearnAtGSUSA.com/BUDG8006">Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8011" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8011">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8007" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8007">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7100" aria-label="Budget Execution (BUDG7100) - https://www.LearnAtGSUSA.com/BUDG7100">Budget Execution (BUDG7100)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG7101" aria-label="Budget Formulation (BUDG7101) - https://www.LearnAtGSUSA.com/BUDG7101">Budget Formulation (BUDG7101)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG7102" aria-label="Budget Justification and Presentation (BUDG7102) - https://www.LearnAtGSUSA.com/BUDG7102">Budget Justification and Presentation (BUDG7102)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8150" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150) - https://www.LearnAtGSUSA.com/BUDG8150">Federal Budget Analysis Using Microsoft Excel (BUDG8150)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG7000" aria-label="Federal Budgeting for Non-Budgeting Personnel (BUDG7000) - https://www.LearnAtGSUSA.com/BUDG7000">Federal Budgeting for Non-Budgeting Personnel (BUDG7000)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/FINC8300" aria-label="Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300) - https://www.LearnAtGSUSA.com/FINC8300">Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/FINC7010" aria-label="Financial Management Bootcamp for New Federal Managers (FINC7010) - https://www.LearnAtGSUSA.com/FINC7010">Financial Management Bootcamp for New Federal Managers (FINC7010)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG7001" aria-label="Introduction to Federal Budgeting (BUDG7001) - https://www.LearnAtGSUSA.com/BUDG7001">Introduction to Federal Budgeting (BUDG7001)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/FINC7000" aria-label="Introduction to Financial Management (FINC7000) - https://www.LearnAtGSUSA.com/FINC7000">Introduction to Financial Management (FINC7000)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8180" aria-label="Planning, Budgeting and Performance Measurement (BUDG8180) - https://www.LearnAtGSUSA.com/BUDG8180">Planning, Budgeting and Performance Measurement (BUDG8180)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8000" aria-label="Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000) - https://www.LearnAtGSUSA.com/BUDG8000">Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8001" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001) - https://www.LearnAtGSUSA.com/BUDG8001">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001)</a>, GSU
 filters: Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0511
 ---
 
@@ -35,13 +34,13 @@ filters: Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Behavior Illustrations</h3>
     <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Budget (Level 3 - Intermediate)</dt><dd>Researches and organizes relevant budget information and systems using various standardized procedures</dd><dt>Fundamentals and Operations of Budget (Level 4 - Advanced)</dt><dd>Examines and reconciles complex transactions from budget information and systems using various standardized procedures</dd></dl>
+    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Budget (Level 2 - Basic)</dt><dd>Extracts, records and balances basic information from financial management systems</dd><dt>Fundamentals and Operations of Budget (Level 3 - Intermediate)</dt><dd>Researches and organizes relevant budget information and systems using various standardized procedures</dd><dt>Fundamentals and Operations of Budget (Level 4 - Advanced)</dt><dd>Examines and reconciles complex transactions from budget information and systems using various standardized procedures</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Budget (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Fundamentals and Operations of Budget (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Budget (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Fundamentals and Operations of Budget (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Fundamentals and Operations of Budget (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

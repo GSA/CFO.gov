@@ -15,10 +15,10 @@ level: "14-15"
 behavior_illustrations: "Researches historical pay account or contact customer on certain transactions before making input into automated system and performs reviews for accuracy"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/PADM7003" aria-label="Pay Setting for FWS Positions (PADM7001), GSU - https://www.LearnAtGSUSA.com/PADM7003">Pay Setting for FWS Positions (PADM7001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PADM7004" aria-label="Pay Setting for GS Positions (PADM7002), GSU - https://www.LearnAtGSUSA.com/PADM7004">Pay Setting for GS Positions (PADM7002), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/STAF9006" aria-label="Pay Setting&#58; Federal Wage System (STAF9004), GSU - https://www.LearnAtGSUSA.com/STAF9006">Pay Setting&#58; Federal Wage System (STAF9004), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/STAF9004" aria-label="Pay Setting&#58; General Schedule (STAF9002), GSU - https://www.LearnAtGSUSA.com/STAF9004">Pay Setting&#58; General Schedule (STAF9002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PADM7001" aria-label="Pay Setting for FWS Positions (PADM7001) - https://www.LearnAtGSUSA.com/PADM7001">Pay Setting for FWS Positions (PADM7001)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PADM7002" aria-label="Pay Setting for GS Positions (PADM7002) - https://www.LearnAtGSUSA.com/PADM7002">Pay Setting for GS Positions (PADM7002)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/STAF9004" aria-label="Pay Setting&#58; Federal Wage System (STAF9004) - https://www.LearnAtGSUSA.com/STAF9004">Pay Setting&#58; Federal Wage System (STAF9004)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/STAF9002" aria-label="Pay Setting&#58; General Schedule (STAF9002) - https://www.LearnAtGSUSA.com/STAF9002">Pay Setting&#58; General Schedule (STAF9002)</a>, GSU
 filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-14-15 series-0511
 ---
 

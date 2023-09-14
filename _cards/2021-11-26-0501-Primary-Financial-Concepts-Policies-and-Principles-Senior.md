@@ -15,9 +15,10 @@ level: "14-15"
 behavior_illustrations: "Interprets and advises others on financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/FINC9108" aria-label="Advanced Appropriations Law (FINC9100), GSU - https://www.LearnAtGSUSA.com/FINC9108">Advanced Appropriations Law (FINC9100), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8823" aria-label="Assessing Financial Related Activities and Controls (AUDT8811), GSU - https://www.LearnAtGSUSA.com/AUDT8823">Assessing Financial Related Activities and Controls (AUDT8811), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8208" aria-label="DoD Fiscal Law Principles (FINC8200), GSU - https://www.LearnAtGSUSA.com/FINC8208">DoD Fiscal Law Principles (FINC8200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC9100" aria-label="Advanced Appropriations Law (FINC9100) - https://www.LearnAtGSUSA.com/FINC9100">Advanced Appropriations Law (FINC9100)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8811" aria-label="Assessing Financial Related Activities and Controls (AUDT8811) - https://www.LearnAtGSUSA.com/AUDT8811">Assessing Financial Related Activities and Controls (AUDT8811)</a>, GSU
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/FINC8200" aria-label="DoD Fiscal Law Principles (FINC8200) - https://www.LearnAtGSUSA.com/FINC8200">DoD Fiscal Law Principles (FINC8200)</a>, GSU
 filters: Primary-Financial-Concepts-Policies-and-Principles GS-14-15 series-0501
 ---
 

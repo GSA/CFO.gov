@@ -12,14 +12,12 @@ competency: Leveraging Diversity
 competency_group: Leading
 competency_description: Fosters an inclusive workplace where diversity and individual differences are valued and leveraged to achieve the vision and mission of the organization.
 level: "14-15"
-behavior_illustrations: "Builds a diverse staff with a variety of skills who function effectively to accomplish the mission of the organization ? Develops a creative initiative focused on recognizing the various dimensions of diversity to encourage inclusiveness in the workplace
- ? Creates a diverse and inclusive environment after a major reorganization which brings together different cultures, ideas, and experiences ? Identifies creative approaches for targeted recruiting to develop a representative workforce that benefits from diverse strengths
-"
+behavior_illustrations: "Builds a diverse staff with a variety of skills who function effectively to accomplish the mission of the organization ? Develops a creative initiative focused on recognizing the various dimensions of diversity to encourage inclusiveness in the workplace  ? Creates a diverse and inclusive environment after a major reorganization which brings together different cultures, ideas, and experiences ? Identifies creative approaches for targeted recruiting to develop a representative workforce that benefits from diverse strengths "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/MGMT8023" aria-label="Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU - https://www.LearnAtGSUSA.com/MGMT8023">Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8019" aria-label="Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU - https://www.LearnAtGSUSA.com/MGMT8019">Creating A Culture of Diversity, Equity, Inclusion and Assessibility in Government (MGMT8011), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8020" aria-label="Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU - https://www.LearnAtGSUSA.com/MGMT8020">Your Role in Creating a Culture of Diversity, Equity, Inclusion and Assessability in Government (DEIA) (MGMT8012), GSU</a>
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/MGMT8011" aria-label="Creating A Culture of Diversity, Equity, Inclusion and Accessibility in Government (MGMT8011) - https://www.LearnAtGSUSA.com/MGMT8011">Creating A Culture of Diversity, Equity, Inclusion and Accessibility in Government (MGMT8011)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/MGMT8012" aria-label="Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012) - https://www.LearnAtGSUSA.com/MGMT8012">Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012)</a>, GSU
 filters: Leading-Leveraging-Diversity GS-14-15 series-0501
 ---
 

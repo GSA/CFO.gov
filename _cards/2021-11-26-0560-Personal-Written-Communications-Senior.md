@@ -15,12 +15,12 @@ level: "14-15"
 behavior_illustrations: "Writes complex documents, using clear terminology and a concise format as appropriate for decision makers ? Tailors written communications to address the most critical issues in a compelling and diplomatic manner ? Writes clear, concise issue papers or policy documents on complex topics, such as establishing Department-wide guidance or guidelines ? Prepares highly complex written communications for national distribution that have significant implications for the Agency or Department ? Communicates persuasively in writing to multiple stakeholders about programs, projects, and proposals"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/BUDG7109" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7109">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC9157" aria-label="Intermediate Decision Support Analytics (FINC9150), GSU - https://www.LearnAtGSUSA.com/FINC9157">Intermediate Decision Support Analytics (FINC9150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8119" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8119">Leadership Communication (MGMT8112), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8115" aria-label="Leadership Communication (MGMT8112), GSU - https://www.LearnAtGSUSA.com/MGMT8115">Leadership Communication (MGMT8112), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8311" aria-label="Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU - https://www.LearnAtGSUSA.com/AUDT8311">Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT9509" aria-label="Reviewing Other Peoples Report Writing (AUDT9502), GSU - https://www.LearnAtGSUSA.com/AUDT9509">Reviewing Other Peoples Report Writing (AUDT9502), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7102" aria-label="Budget Justification and Presentation (BUDG7102) - https://www.LearnAtGSUSA.com/BUDG7102">Budget Justification and Presentation (BUDG7102)</a>, GSU
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/FINC9150" aria-label="Intermediate Decision Support Analytics (FINC9150) - https://www.LearnAtGSUSA.com/FINC9150">Intermediate Decision Support Analytics (FINC9150)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/MGMT8112" aria-label="Leadership Communication (MGMT8112) - https://www.LearnAtGSUSA.com/MGMT8112">Leadership Communication (MGMT8112)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8300" aria-label="Preparing Effective IG Semiannual Reports to Congress (AUDT8300) - https://www.LearnAtGSUSA.com/AUDT8300">Preparing Effective IG Semiannual Reports to Congress (AUDT8300)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT9502" aria-label="Reviewing Other Peoples Report Writing (AUDT9502) - https://www.LearnAtGSUSA.com/AUDT9502">Reviewing Other Peoples Report Writing (AUDT9502)</a>, GSU
 filters: Personal-Written-Communications GS-14-15 series-0560
 ---
 

@@ -12,11 +12,10 @@ competency: Mission and Culture
 competency_group: Projects
 competency_description: Knowledge of agency and/or office goals, priorities, purpose, and its underlying values; ability to contribute to agency and/or office success, improvements, and workforce development.
 level: "14-15"
-behavior_illustrations: "Develops action plans for improvement ? Supports and encourages employee development and completion of related learning events ? Supports overall organizational management – employee appraisals, competency development and planning, conflict resolution, employee counseling, and workforce planning
-"
+behavior_illustrations: "Develops action plans for improvement ? Supports and encourages employee development and completion of related learning events ? Supports overall organizational management – employee appraisals, competency development and planning, conflict resolution, employee counseling, and workforce planning "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/LEAD9027" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU - https://www.LearnAtGSUSA.com/LEAD9027">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020) - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020)</a>, GSU
 filters: Projects-Mission-and-Culture GS-14-15 series-0560
 ---
 

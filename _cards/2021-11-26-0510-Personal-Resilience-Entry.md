@@ -13,10 +13,11 @@ competency_group: Personal
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks.
 level: "7-9"
 behavior_illustrations: "Meets with employees resistant to organizational change to address concerns ? Maintains composure and direction in high-pressure situations ? Accepts negative feedback in a constructive manner and adjusts behavior accordingly"
-proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes 
+proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU - https://www.LearnAtGSUSA.com/AUDT8912">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT7202" aria-label="Leading Change (MGMT7201), GSU - https://www.LearnAtGSUSA.com/MGMT7202">Leading Change (MGMT7201), GSU</a>
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911) - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/MGMT7201" aria-label="Leading Change (MGMT7201) - https://www.LearnAtGSUSA.com/MGMT7201">Leading Change (MGMT7201)</a>, GSU
 filters: Personal-Resilience GS-7-9 series-0510
 ---
 
@@ -31,6 +32,6 @@ filters: Personal-Resilience GS-7-9 series-0510
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
     <h3>Proficiency Level Definition</h3>
      <hr style="background-color: #1b74e0 !important;"/>
-    <dl class="text-base card-content-color"><dt>Resilience (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes </dd></dl>
+    <dl class="text-base card-content-color"><dt>Resilience (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

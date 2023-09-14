@@ -12,13 +12,12 @@ competency: Flexibility
 competency_group: Personal
 competency_description: Is open to change and new information; adapts behavior or work methods in response to new information, changing conditions, or unexpected obstacles; effectively deals with ambiguity.
 level: "10-13"
-behavior_illustrations: "Realigns resources to meet changing customer needs ? Takes feedback into consideration while implementing organizational change ? Adjusts organizational priorities quickly as situations change ? Shifts agency goals and initiatives to align with administration and Congressional priorities
-"
+behavior_illustrations: "Realigns resources to meet changing customer needs ? Takes feedback into consideration while implementing organizational change ? Adjusts organizational priorities quickly as situations change ? Shifts agency goals and initiatives to align with administration and Congressional priorities "
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8023" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8023">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8019" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8019">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ADMB7018" aria-label="Managing Multiple Priorities (ADMB7007), GSU - https://www.LearnAtGSUSA.com/ADMB7018">Managing Multiple Priorities (ADMB7007), GSU</a>
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/ADMB7007" aria-label="Managing Multiple Priorities (ADMB7007) - https://www.LearnAtGSUSA.com/ADMB7007">Managing Multiple Priorities (ADMB7007)</a>, GSU
 filters: Personal-Flexibility GS-10-13 series-0560
 ---
 

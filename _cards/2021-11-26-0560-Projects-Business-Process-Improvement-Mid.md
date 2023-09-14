@@ -15,18 +15,19 @@ level: "10-13"
 behavior_illustrations: "Maps full business processes and designs operational process flows ? Facilitates group input and drafts proposals for process improvements ? Identifies resource implications of modifications to processes ? Implements process improvement recommendations"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8032" aria-label="Assessing Controls in Performance Audits (AUDT8021), GSU - https://www.LearnAtGSUSA.com/AUDT8032">Assessing Controls in Performance Audits (AUDT8021), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/GRNT7028" aria-label="Effective Grants Manager (GRNT7025), GSU - https://www.LearnAtGSUSA.com/GRNT7028">Effective Grants Manager (GRNT7025), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8915" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU - https://www.LearnAtGSUSA.com/AUDT8915">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/GRNT7038" aria-label="Grants Performance Management and Monitoring (GRNT7035), GSU - https://www.LearnAtGSUSA.com/GRNT7038">Grants Performance Management and Monitoring (GRNT7035), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8053" aria-label="Intermediate Performance Auditing (AUDT8046), GSU - https://www.LearnAtGSUSA.com/AUDT8053">Intermediate Performance Auditing (AUDT8046), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8014" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8014">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EXEC9924" aria-label="Managing for Resullts (EXEC9913), GSU - https://www.LearnAtGSUSA.com/EXEC9924">Managing for Resullts (EXEC9913), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ7026" aria-label="Microsoft Project&#58; Introduction (PROJ7015), GSU - https://www.LearnAtGSUSA.com/PROJ7026">Microsoft Project&#58; Introduction (PROJ7015), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROP7016" aria-label="Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU - https://www.LearnAtGSUSA.com/PROP7016">Planning, Managing and Controlling a Personal Property Inventory (PROP7013), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROP7115" aria-label="Property Accountability&#58; The Life Cycle (PROP7112), GSU - https://www.LearnAtGSUSA.com/PROP7115">Property Accountability&#58; The Life Cycle (PROP7112), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROP7106" aria-label="Property Management for Custodial Officers (PROP7103), GSU - https://www.LearnAtGSUSA.com/PROP7106">Property Management for Custodial Officers (PROP7103), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROP7004" aria-label="Warehousing, Operations and Disposal (PROP7001), GSU - https://www.LearnAtGSUSA.com/PROP7004">Warehousing, Operations and Disposal (PROP7001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8021" aria-label="Assessing Controls in Performance Audits (AUDT8021) - https://www.LearnAtGSUSA.com/AUDT8021">Assessing Controls in Performance Audits (AUDT8021)</a>, GSU
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/GRNT7025" aria-label="Effective Grants Manager (GRNT7025) - https://www.LearnAtGSUSA.com/GRNT7025">Effective Grants Manager (GRNT7025)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912) - https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/GRNT7035" aria-label="Grants Performance Management and Monitoring (GRNT7035) - https://www.LearnAtGSUSA.com/GRNT7035">Grants Performance Management and Monitoring (GRNT7035)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8046" aria-label="Intermediate Performance Auditing (AUDT8046) - https://www.LearnAtGSUSA.com/AUDT8046">Intermediate Performance Auditing (AUDT8046)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003) - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/EXEC9913" aria-label="Managing for Results (EXEC9913) - https://www.LearnAtGSUSA.com/EXEC9913">Managing for Results (EXEC9913)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PROJ7015" aria-label="Microsoft Project&#58; Introduction (PROJ7015) - https://www.LearnAtGSUSA.com/PROJ7015">Microsoft Project&#58; Introduction (PROJ7015)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PROP7001" aria-label="Planning, Managing and Controlling a Personal Property Inventory (PROP7013) - https://www.LearnAtGSUSA.com/PROP7001">Planning, Managing and Controlling a Personal Property Inventory (PROP7013)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PROP7112" aria-label="Property Accountability&#58; The Life Cycle (PROP7112) - https://www.LearnAtGSUSA.com/PROP7112">Property Accountability&#58; The Life Cycle (PROP7112)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PROP7013" aria-label="Property Management for Custodial Officers (PROP7103) - https://www.LearnAtGSUSA.com/PROP7013">Property Management for Custodial Officers (PROP7103)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PROP7001" aria-label="Warehousing, Operations and Disposal (PROP7001) - https://www.LearnAtGSUSA.com/PROP7001">Warehousing, Operations and Disposal (PROP7001)</a>, GSU
 filters: Projects-Business-Process-Improvement GS-10-13 series-0560
 ---
 

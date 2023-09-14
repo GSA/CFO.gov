@@ -15,11 +15,12 @@ level: "10-13"
 behavior_illustrations: "Modifies the order of work performed to meet changing circumstances and deadlines ? Acquires project resources and clarifies the roles and responsibilities of project team members ? Manages, designs, implements, and monitors projects of moderate scope"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/PROJ7026" aria-label="Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU - https://www.LearnAtGSUSA.com/PROJ7026">Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ7023" aria-label="Overview of Project Management (PROJ7020), GSU - https://www.LearnAtGSUSA.com/PROJ7023">Overview of Project Management (PROJ7020), GSU</a>
-- <a href="https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Professional Certificate in Technical Project Management (with MIT xPro), Emeritus - https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Professional Certificate in Technical Project Management (with MIT xPro), Emeritus</a>
-- <a href="https://www.LearnAtGSUSA.com/PGMT8013" aria-label="Project Leadership (PGMT8010), GSU - https://www.LearnAtGSUSA.com/PGMT8013">Project Leadership (PGMT8010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PGMT7010" aria-label="Project Management Essentials (PGMT7007), GSU - https://www.LearnAtGSUSA.com/PGMT7010">Project Management Essentials (PGMT7007), GSU</a>
+- Course Coming Soon
+- <a href="https://www.LearnAtGSUSA.com/PROJ7015" aria-label="Microsoft Project&#58; Introduction 2016 (PROJ7015) - https://www.LearnAtGSUSA.com/PROJ7015">Microsoft Project&#58; Introduction 2016 (PROJ7015)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PROJ7020" aria-label="Overview of Project Management (PROJ7020) - https://www.LearnAtGSUSA.com/PROJ7020">Overview of Project Management (PROJ7020)</a>, GSU
+- <a href="https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Professional Certificate in Technical Project Management (with MIT xPro) - https://executive-ed.mit.edu/applied-business-analytics/index/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Professional Certificate in Technical Project Management (with MIT xPro)</a>, Emeritus
+- <a href="https://www.LearnAtGSUSA.com/PGMT8010" aria-label="Project Leadership (PGMT8010) - https://www.LearnAtGSUSA.com/PGMT8010">Project Leadership (PGMT8010)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PGMT7007" aria-label="Project Management Essentials (PGMT7007) - https://www.LearnAtGSUSA.com/PGMT7007">Project Management Essentials (PGMT7007)</a>, GSU
 filters: Projects-Project-Management GS-10-13 series-0560
 ---
 
