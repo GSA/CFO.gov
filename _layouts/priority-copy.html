@@ -25,7 +25,7 @@ title: Priority
 
 <!--All icons and text for each priority area are referenced in the respective md file under prioritypages folder-->
 {% if page.priority_icons %}
-<section class="usa-graphic_list usa-section usa-prose clearfix">
+<section class="usa-graphic-list usa-section usa-prose clearfix">
 
     <div class="grid-row clearfix grid-container priority-icons">
 
@@ -44,7 +44,7 @@ title: Priority
                             <div class="circle-image picons bg-white">
                                 <img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
                             </div>
-                            <p class="font-heading-md text-gray-70 text-no-underline">{{ icon.name }}</p>
+                            <p class="font-heading-md text-gray-70 text-no-underline f-weight-600">{{ icon.name }}</p>
                         </a>
                 </div>
                 {% endfor %}
@@ -59,7 +59,7 @@ title: Priority
 
 <div class="grid-container grid-gap">{{ content }}</div>
 
-<section class="grid-container grid-gap usa-graphic_list clearfix tabSection">
+<section class="grid-container grid-gap usa-graphic-list clearfix tabSection">
 
     {% if page.type == "fdt" %}
     {% include priority_fdt_sidenav.html %}

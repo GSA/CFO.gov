@@ -1182,3 +1182,13 @@ h3 {
 .usa-footer__contact-links {
     margin-top:0;
 }
+
+
+.filters a {
+    border: solid 1px #346865;
+    color: #346865;
+}
+
+.filters a:hover {
+    outline: 2px solid hsl(177, 33%, 31%);
+}
