@@ -67,4 +67,8 @@ site, this is the place to do it.
   {% else %}
     {% asset main-page-green.scss %}
   {% endif %}
+
+  {% if page.url contains '/search/' %}
+    {% asset search.js %}
+  {% endif %}
 </head>
