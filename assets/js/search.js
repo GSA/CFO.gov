@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var searchgovParams = document.getElementById("searchgov-params");
+  var currentURL = new URL(window.location.href);
   var urlParams = new URLSearchParams(window.location.search);
   var searchEndpoint = new URL(
     searchgovParams.dataset.endpoint + "/api/v2/search/i14y"
@@ -16,6 +17,15 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   var searchResults = document.getElementById("search-results");
   searchResults.setAttribute("start", offset + 1);
+
+  if (window.location.href.includes("/payment-accuracy/search/")) {
+    var formElement = document.getElementById("search_form");
+    formElement.action = window.location.pathname;
+  }
+
+  var inputElement = document.getElementById("extended-search-field-small");
+  inputElement.value = urlParams.get("query");
+  inputElement.focus();
 
   Object.keys(params).forEach((key) =>
     searchEndpoint.searchParams.append(key, params[key])
@@ -47,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ]["title"]
               .replace(/\uE000/g, '<span class="text-bold">')
               .replace(/\uE001/g, "</span>")}</a>
+            <div class="green-color"> ${posts.web.results[item]["url"]} </div>
             <div> ${posts.web.results[item]["snippet"]
               .replace(/\uE000/g, '<span class="text-bold">')
               .replace(/\uE001/g, "</span>")} </div>
@@ -78,8 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
   function update_pager() {
     var pager = document.getElementById("pager");
     var pagerLinks = "";
-    var currentURL = new URL(window.location.href);
-    var searchParams = currentURL.searchParams;
 
     pager.innerHTML = "";
     if (page > 1) {
@@ -98,7 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function getLinkToPage(pageNumber) {
-    var currentURL = new URL(window.location.href);
     var searchParams = currentURL.searchParams;
     if (searchParams.has("page")) {
       searchParams.set("page", pageNumber);
