@@ -15,11 +15,11 @@ level: "7-9"
 behavior_illustrations: "Provides developmental feedback to staff on job performance ? Involves staff in developing project goals and timelines ? Encourages employees to participate in mentoring programs and other learning opportunities ? Pairs new staff with seasoned employees to facilitate understanding of the position and organization ? Provides orientation to new employees"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/MGMT9002" aria-label="Coaching Skills for Today's Leaders (MGMT9002), GSU - https://www.LearnAtGSUSA.com/MGMT9002">Coaching Skills for Today's Leaders (MGMT9002), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT9002" aria-label="Coaching Skills for Today's Leaders (MGMT9002) - https://www.LearnAtGSUSA.com/MGMT9002">Coaching Skills for Today's Leaders (MGMT9002)</a>, GSU
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/MGMT7020" aria-label="Leadership Essentials (MGMT7020), GSU - https://www.LearnAtGSUSA.com/MGMT7020">Leadership Essentials (MGMT7020), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/TDEV8200" aria-label="Leading Teams and Groups (TDEV8200), GSU - https://www.LearnAtGSUSA.com/TDEV8200">Leading Teams and Groups (TDEV8200), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7020" aria-label="Leadership Essentials (MGMT7020) - https://www.LearnAtGSUSA.com/MGMT7020">Leadership Essentials (MGMT7020)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020) - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/TDEV8200" aria-label="Leading Teams and Groups (TDEV8200) - https://www.LearnAtGSUSA.com/TDEV8200">Leading Teams and Groups (TDEV8200)</a>, GSU
 filters: Leading-Developing-Others GS-7-9 series-0560
 ---
 

@@ -12,8 +12,7 @@ competency: Audit Concepts, Policies and Principles
 competency_group: Alternate
 competency_description: Apply the Federal Acquisition Regulation (FAR), Generally Accepted Government Auditing Standards (GAGAS), Generally Accepted Auditing Standards (GAAS), fiscal law, internal controls, policies, regulations, principles, standards and procedures governing audit activities
 level: "10-13"
-behavior_illustrations: "Develops audit guidelines that conform to Generally Accepted Auditing Standards (GAAS) and Generally Accepted Government Auditing Standards (GAGAS) ? Makes recommendations for improvement or implementation of new policies 
-"
+behavior_illustrations: "Develops audit guidelines that conform to Generally Accepted Auditing Standards (GAAS) and Generally Accepted Government Auditing Standards (GAGAS) ? Makes recommendations for improvement or implementation of new policies  "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon

@@ -82,6 +82,7 @@ function buildCards() {
                     courseExport = "",
                     courseMarkup = "";
                     courseNameList = "";
+                    institutionName = "";
 
                 for (let i = 0, l = card.courses.length; i < l; i++) {
                     if (courses.length) {
@@ -128,17 +129,17 @@ function buildCards() {
                     }
                     if (courseUnique[i].instName) {
                         if (courseUnique[i].instName.includes(":")) {
-                            courseNameList += ', ' + courseUnique[i].instName.replace(/:/g, "&#58;");
+                            institutionName = ', ' + courseUnique[i].instName.replace(/:/g, "&#58;");
                         }
                         else {
-                            courseNameList += ', ' + courseUnique[i].instName;
+                            institutionName = ', ' + courseUnique[i].instName;
                         }
                     }
                     courseExport += '\n- ';
                     courseMarkup += '<li>';
                     if (courseUnique[i].urls.length) {        
                         for (j = 0, k = courseUnique[i].urls.length; j < k; j++) {
-                            const link = `<a href="${courseUnique[i].urls[j]}" aria-label="${courseNameList} - ${courseUnique[i].urls[j]}">${courseNameList}</a>`;
+                            const link = `<a href="${courseUnique[i].urls[j]}" aria-label="${courseNameList} - ${courseUnique[i].urls[j]}">${courseNameList}</a>${institutionName}`;
                             courseMarkup += link;
                             courseExport += link;
                         }
@@ -164,7 +165,7 @@ competency: ${card.competency.replace(/\//g, ' ')}
 competency_group: ${card.competencyGroup}
 competency_description: ${card.compDesc}
 level: "${card.gsLevel}"
-behavior_illustrations: "${Object.values(card.behavior).join(' ? ')}"
+behavior_illustrations: "${Object.values(card.behavior).join(' ? ').replace(/(\r\n|\n|\r)/gm, ' ')}"
 proficiency_level_definition: ${Object.values(card.prof).join(' ? ')}
 relevant_courses: ${courseExport || '[]'}
 filters: ${filters}

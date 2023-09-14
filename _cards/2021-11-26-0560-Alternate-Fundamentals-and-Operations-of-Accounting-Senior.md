@@ -16,13 +16,13 @@ behavior_illustrations: "Extracts, records and balances basic information from r
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/ACCT7102" aria-label="Federal Accounting Standards (ACCT7102), GSU - https://www.LearnAtGSUSA.com/ACCT7102">Federal Accounting Standards (ACCT7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8010" aria-label="Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU - https://www.LearnAtGSUSA.com/BUDG8010">Federal Activity Costing, Analysis and Reporting (BUDG8010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC8300" aria-label="Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU - https://www.LearnAtGSUSA.com/FINC8300">Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACCT8100" aria-label="Government Standard General Ledger (ACCT8100), GSU - https://www.LearnAtGSUSA.com/ACCT8100">Government Standard General Ledger (ACCT8100), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACCT8003" aria-label="Intermediate Federal Accounting (ACCT8003), GSU - https://www.LearnAtGSUSA.com/ACCT8003">Intermediate Federal Accounting (ACCT8003), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACCT7001" aria-label="Introduction to Federal Accounting (ACCT7001), GSU - https://www.LearnAtGSUSA.com/ACCT7001">Introduction to Federal Accounting (ACCT7001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC7000" aria-label="Introduction to Financial Management (FINC7000), GSU - https://www.LearnAtGSUSA.com/FINC7000">Introduction to Financial Management (FINC7000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACCT7102" aria-label="Federal Accounting Standards (ACCT7102) - https://www.LearnAtGSUSA.com/ACCT7102">Federal Accounting Standards (ACCT7102)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8010" aria-label="Federal Activity Costing, Analysis and Reporting (BUDG8010) - https://www.LearnAtGSUSA.com/BUDG8010">Federal Activity Costing, Analysis and Reporting (BUDG8010)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/FINC8300" aria-label="Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300) - https://www.LearnAtGSUSA.com/FINC8300">Federal Budgeting, Execution and Accounting&#58; The Relationship (FINC8300)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/ACCT8100" aria-label="Government Standard General Ledger (ACCT8100) - https://www.LearnAtGSUSA.com/ACCT8100">Government Standard General Ledger (ACCT8100)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/ACCT8003" aria-label="Intermediate Federal Accounting (ACCT8003) - https://www.LearnAtGSUSA.com/ACCT8003">Intermediate Federal Accounting (ACCT8003)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/ACCT7001" aria-label="Introduction to Federal Accounting (ACCT7001) - https://www.LearnAtGSUSA.com/ACCT7001">Introduction to Federal Accounting (ACCT7001)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/FINC7000" aria-label="Introduction to Financial Management (FINC7000) - https://www.LearnAtGSUSA.com/FINC7000">Introduction to Financial Management (FINC7000)</a>, GSU
 filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0560
 ---
 

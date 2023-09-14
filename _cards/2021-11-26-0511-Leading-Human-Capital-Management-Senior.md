@@ -16,14 +16,14 @@ behavior_illustrations: "Develops rewards system to recognize the impact of empl
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/PMGT7510" aria-label="Family and Medical Leave Act for Supervisors and HR Practitioners (PMGT7510), GSU - https://www.LearnAtGSUSA.com/PMGT7510">Family and Medical Leave Act for Supervisors and HR Practitioners (PMGT7510), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LABR7110" aria-label="Federal Employee Relations (Basic) (LABR7110), GSU - https://www.LearnAtGSUSA.com/LABR7110">Federal Employee Relations (Basic) (LABR7110), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PMGT7102" aria-label="Federal Human Resources Management for Supervisors and Managers (PMGT7102), GSU - https://www.LearnAtGSUSA.com/PMGT7102">Federal Human Resources Management for Supervisors and Managers (PMGT7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PMGT7013" aria-label="Federal Workforce Analysis and Planning (PMGT7013), GSU - https://www.LearnAtGSUSA.com/PMGT7013">Federal Workforce Analysis and Planning (PMGT7013), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LABR7011" aria-label="Managing Employee Conduct and Performance (LABR7011), GSU - https://www.LearnAtGSUSA.com/LABR7011">Managing Employee Conduct and Performance (LABR7011), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/LABR9001" aria-label="Negotiating Federal Labor Agreements (LABR9001), GSU - https://www.LearnAtGSUSA.com/LABR9001">Negotiating Federal Labor Agreements (LABR9001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PMGT7015" aria-label="Strategic Human Capital Management (PMGT7015), GSU - https://www.LearnAtGSUSA.com/PMGT7015">Strategic Human Capital Management (PMGT7015), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/STAF8016" aria-label="Using and Presenting HR Data for Organizational Decisions (STAF8016), GSU - https://www.LearnAtGSUSA.com/STAF8016">Using and Presenting HR Data for Organizational Decisions (STAF8016), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/PMGT7510" aria-label="Family and Medical Leave Act for Supervisors and HR Practitioners (PMGT7510) - https://www.LearnAtGSUSA.com/PMGT7510">Family and Medical Leave Act for Supervisors and HR Practitioners (PMGT7510)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/LABR7110" aria-label="Federal Employee Relations (Basic) (LABR7110) - https://www.LearnAtGSUSA.com/LABR7110">Federal Employee Relations (Basic) (LABR7110)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PMGT7102" aria-label="Federal Human Resources Management for Supervisors and Managers (PMGT7102) - https://www.LearnAtGSUSA.com/PMGT7102">Federal Human Resources Management for Supervisors and Managers (PMGT7102)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PMGT7013" aria-label="Federal Workforce Analysis and Planning (PMGT7013) - https://www.LearnAtGSUSA.com/PMGT7013">Federal Workforce Analysis and Planning (PMGT7013)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/LABR7011" aria-label="Managing Employee Conduct and Performance (LABR7011) - https://www.LearnAtGSUSA.com/LABR7011">Managing Employee Conduct and Performance (LABR7011)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/LABR9001" aria-label="Negotiating Federal Labor Agreements (LABR9001) - https://www.LearnAtGSUSA.com/LABR9001">Negotiating Federal Labor Agreements (LABR9001)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PMGT7015" aria-label="Strategic Human Capital Management (PMGT7015) - https://www.LearnAtGSUSA.com/PMGT7015">Strategic Human Capital Management (PMGT7015)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/STAF8016" aria-label="Using and Presenting HR Data for Organizational Decisions (STAF8016) - https://www.LearnAtGSUSA.com/STAF8016">Using and Presenting HR Data for Organizational Decisions (STAF8016)</a>, GSU
 filters: Leading-Human-Capital-Management GS-14-15 series-0511
 ---
 

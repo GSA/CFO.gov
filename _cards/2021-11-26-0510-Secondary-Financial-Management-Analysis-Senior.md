@@ -15,9 +15,9 @@ level: "14-15"
 behavior_illustrations: "Examines the impact of complex financial management solutions to make controversial decisions, and negotiate with key stakeholders"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT9012" aria-label="Auditing Performance Outcomes (AUDT9012), GSU - https://www.LearnAtGSUSA.com/AUDT9012">Auditing Performance Outcomes (AUDT9012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9012" aria-label="Auditing Performance Outcomes (AUDT9012) - https://www.LearnAtGSUSA.com/AUDT9012">Auditing Performance Outcomes (AUDT9012)</a>, GSU
 - Course Coming Soon
-- <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives" aria-label="Data Literacy for Executives, Data Society - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">Data Literacy for Executives, Data Society</a>
+- <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives" aria-label="Data Literacy for Executives - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">Data Literacy for Executives</a>, Data Society
 filters: Secondary-Financial-Management-Analysis GS-14-15 series-0510
 ---
 

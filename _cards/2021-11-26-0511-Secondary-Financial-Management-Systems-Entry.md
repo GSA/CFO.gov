@@ -15,10 +15,10 @@ level: "7-9"
 behavior_illustrations: "Uses basic information from financial management systems ? Inputs and extracts data and creates recurring reports to maintain financial integrity"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8043" aria-label="Assessing the Reliability of Computer Processed Data (AUDT8043), GSU - https://www.LearnAtGSUSA.com/AUDT8043">Assessing the Reliability of Computer Processed Data (AUDT8043), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT7200" aria-label="Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU - https://www.LearnAtGSUSA.com/AUDT7200">Counterintelligence for Information Security Assessment and Protection (AUDT7200), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8029" aria-label="Information Systems Auditing (AUDT8029), GSU - https://www.LearnAtGSUSA.com/AUDT8029">Information Systems Auditing (AUDT8029), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8043" aria-label="Assessing the Reliability of Computer Processed Data (AUDT8043) - https://www.LearnAtGSUSA.com/AUDT8043">Assessing the Reliability of Computer Processed Data (AUDT8043)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT7200" aria-label="Counterintelligence for Information Security Assessment and Protection (AUDT7200) - https://www.LearnAtGSUSA.com/AUDT7200">Counterintelligence for Information Security Assessment and Protection (AUDT7200)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8029" aria-label="Information Systems Auditing (AUDT8029) - https://www.LearnAtGSUSA.com/AUDT8029">Information Systems Auditing (AUDT8029)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003) - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003)</a>, GSU
 filters: Secondary-Financial-Management-Systems GS-7-9 series-0511
 ---
 

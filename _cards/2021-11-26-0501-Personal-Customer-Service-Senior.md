@@ -12,9 +12,7 @@ competency: Customer Service
 competency_group: Personal
 competency_description: Works with clients and customers (that is, any individuals who use or receive the services or products that your work unit produces, including the general public, individuals who work in the agency, other agencies, or organizations outside the Government) to assess their needs, provide information or assistance, resolve their problems, or satisfy their expectations; knows about available products and services; is committed to providing quality products and services
 level: "14-15"
-behavior_illustrations: "Develops innovative customer service initiative which significantly improves quality and enhances customer satisfaction ?Implements organization-wide customer service initiative to raise employee skill levels to improve customer service ? Develops project plans, goals, and objectives to meet the needs of customers within and beyond the organization 
-
-"
+behavior_illustrations: "Develops innovative customer service initiative which significantly improves quality and enhances customer satisfaction ?Implements organization-wide customer service initiative to raise employee skill levels to improve customer service ? Develops project plans, goals, and objectives to meet the needs of customers within and beyond the organization   "
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon

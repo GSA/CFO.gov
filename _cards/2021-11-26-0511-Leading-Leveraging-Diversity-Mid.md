@@ -16,9 +16,9 @@ behavior_illustrations: "Adheres to Equal Employment Opportunity (EEO) policies,
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/MGMT8011" aria-label="Creating A Culture of Diversity, Equity, Inclusion and Accessibility in Government (MGMT8011), GSU - https://www.LearnAtGSUSA.com/MGMT8011">Creating A Culture of Diversity, Equity, Inclusion and Accessibility in Government (MGMT8011), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EEOP8101" aria-label="EEO for Supervisors and Managers (EEOP8101), GSU - https://www.LearnAtGSUSA.com/EEOP8101">EEO for Supervisors and Managers (EEOP8101), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8012" aria-label="Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012), GSU - https://www.LearnAtGSUSA.com/MGMT8012">Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT8011" aria-label="Creating A Culture of Diversity, Equity, Inclusion and Accessibility in Government (MGMT8011) - https://www.LearnAtGSUSA.com/MGMT8011">Creating A Culture of Diversity, Equity, Inclusion and Accessibility in Government (MGMT8011)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/EEOP8101" aria-label="EEO for Supervisors and Managers (EEOP8101) - https://www.LearnAtGSUSA.com/EEOP8101">EEO for Supervisors and Managers (EEOP8101)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/MGMT8012" aria-label="Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012) - https://www.LearnAtGSUSA.com/MGMT8012">Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012)</a>, GSU
 filters: Leading-Leveraging-Diversity GS-10-13 series-0511
 ---
 

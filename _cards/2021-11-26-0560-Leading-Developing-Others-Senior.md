@@ -16,8 +16,8 @@ behavior_illustrations: "Designs and implements opportunities for career develop
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/MGMT7201" aria-label="Leading Change (MGMT7201), GSU - https://www.LearnAtGSUSA.com/MGMT7201">Leading Change (MGMT7201), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT7006" aria-label="Mentoring Skills (MGMT7006), GSU - https://www.LearnAtGSUSA.com/MGMT7006">Mentoring Skills (MGMT7006), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/MGMT7201" aria-label="Leading Change (MGMT7201) - https://www.LearnAtGSUSA.com/MGMT7201">Leading Change (MGMT7201)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/MGMT7006" aria-label="Mentoring Skills (MGMT7006) - https://www.LearnAtGSUSA.com/MGMT7006">Mentoring Skills (MGMT7006)</a>, GSU
 filters: Leading-Developing-Others GS-14-15 series-0560
 ---
 

@@ -16,12 +16,12 @@ behavior_illustrations: "Understands and engages the Departments’ and Offices�
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/BUDG8103" aria-label="Department of Homeland Security PPBE System (BUDG8103), GSU - https://www.LearnAtGSUSA.com/BUDG8103">Department of Homeland Security PPBE System (BUDG8103), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU - https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8180" aria-label="Planning, Budgeting and Performance Measurement (BUDG8180), GSU - https://www.LearnAtGSUSA.com/BUDG8180">Planning, Budgeting and Performance Measurement (BUDG8180), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8000" aria-label="Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU - https://www.LearnAtGSUSA.com/BUDG8000">Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8001" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU - https://www.LearnAtGSUSA.com/BUDG8001">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG8103" aria-label="Department of Homeland Security PPBE System (BUDG8103) - https://www.LearnAtGSUSA.com/BUDG8103">Department of Homeland Security PPBE System (BUDG8103)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912) - https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003) - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8180" aria-label="Planning, Budgeting and Performance Measurement (BUDG8180) - https://www.LearnAtGSUSA.com/BUDG8180">Planning, Budgeting and Performance Measurement (BUDG8180)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8000" aria-label="Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000) - https://www.LearnAtGSUSA.com/BUDG8000">Planning, Programming, Budgeting and Execution (PPBE) (BUDG8000)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8001" aria-label="Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001) - https://www.LearnAtGSUSA.com/BUDG8001">Planning, Programming, Budgeting and Execution (PPBE), Army (BUDG8001)</a>, GSU
 filters: Leading-Enterprise-Perspective GS-10-13 series-0560
 ---
 

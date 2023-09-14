@@ -15,19 +15,19 @@ level: "10-13"
 behavior_illustrations: "Prepares reports, summaries, or makes recommendations independently ? Reviews and edits materials prepared by others for grammar, punctuation, spelling and conformance to style and format guidelines"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/BUDG7102" aria-label="Budget Justification and Presentation (BUDG7102), GSU - https://www.LearnAtGSUSA.com/BUDG7102">Budget Justification and Presentation (BUDG7102), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT7100" aria-label="Clear Writing Through Critical Thinking (WRIT7100), GSU - https://www.LearnAtGSUSA.com/WRIT7100">Clear Writing Through Critical Thinking (WRIT7100), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/BUDG7102" aria-label="Budget Justification and Presentation (BUDG7102) - https://www.LearnAtGSUSA.com/BUDG7102">Budget Justification and Presentation (BUDG7102)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/WRIT7100" aria-label="Clear Writing Through Critical Thinking (WRIT7100) - https://www.LearnAtGSUSA.com/WRIT7100">Clear Writing Through Critical Thinking (WRIT7100)</a>, GSU
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/FINC8120" aria-label="Decision Support Analytics (FINC8120), GSU - https://www.LearnAtGSUSA.com/FINC8120">Decision Support Analytics (FINC8120), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT7021" aria-label="Developing and Presenting Audit Findings (AUDT7021), GSU - https://www.LearnAtGSUSA.com/AUDT7021">Developing and Presenting Audit Findings (AUDT7021), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT9001" aria-label="Executive Writing (WRIT9001), GSU - https://www.LearnAtGSUSA.com/WRIT9001">Executive Writing (WRIT9001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8150" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8150">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/FINC9150" aria-label="Intermediate Decision Support Analytics (FINC9150), GSU - https://www.LearnAtGSUSA.com/FINC9150">Intermediate Decision Support Analytics (FINC9150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ACQI8519" aria-label="Performance Work Statements (ACQI8519), GSU - https://www.LearnAtGSUSA.com/ACQI8519">Performance Work Statements (ACQI8519), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8300" aria-label="Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU - https://www.LearnAtGSUSA.com/AUDT8300">Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT9502" aria-label="Reviewing Other Peoples Report Writing (AUDT9502), GSU - https://www.LearnAtGSUSA.com/AUDT9502">Reviewing Other Peoples Report Writing (AUDT9502), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT7110" aria-label="Writing for Results (WRIT7110), GSU - https://www.LearnAtGSUSA.com/WRIT7110">Writing for Results (WRIT7110), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8611" aria-label="Written Communication for Auditors (AUDT8611), GSU - https://www.LearnAtGSUSA.com/AUDT8611">Written Communication for Auditors (AUDT8611), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8120" aria-label="Decision Support Analytics (FINC8120) - https://www.LearnAtGSUSA.com/FINC8120">Decision Support Analytics (FINC8120)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT7021" aria-label="Developing and Presenting Audit Findings (AUDT7021) - https://www.LearnAtGSUSA.com/AUDT7021">Developing and Presenting Audit Findings (AUDT7021)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/WRIT9001" aria-label="Executive Writing (WRIT9001) - https://www.LearnAtGSUSA.com/WRIT9001">Executive Writing (WRIT9001)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8150" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150) - https://www.LearnAtGSUSA.com/BUDG8150">Federal Budget Analysis Using Microsoft Excel (BUDG8150)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/FINC9150" aria-label="Intermediate Decision Support Analytics (FINC9150) - https://www.LearnAtGSUSA.com/FINC9150">Intermediate Decision Support Analytics (FINC9150)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/ACQI8519" aria-label="Performance Work Statements (ACQI8519) - https://www.LearnAtGSUSA.com/ACQI8519">Performance Work Statements (ACQI8519)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8300" aria-label="Preparing Effective IG Semiannual Reports to Congress (AUDT8300) - https://www.LearnAtGSUSA.com/AUDT8300">Preparing Effective IG Semiannual Reports to Congress (AUDT8300)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT9502" aria-label="Reviewing Other Peoples Report Writing (AUDT9502) - https://www.LearnAtGSUSA.com/AUDT9502">Reviewing Other Peoples Report Writing (AUDT9502)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/WRIT7110" aria-label="Writing for Results (WRIT7110) - https://www.LearnAtGSUSA.com/WRIT7110">Writing for Results (WRIT7110)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8611" aria-label="Written Communication for Auditors (AUDT8611) - https://www.LearnAtGSUSA.com/AUDT8611">Written Communication for Auditors (AUDT8611)</a>, GSU
 filters: Personal-Written-Communications GS-10-13 series-0560
 ---
 

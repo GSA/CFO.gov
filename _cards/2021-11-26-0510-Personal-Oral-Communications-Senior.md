@@ -12,11 +12,10 @@ competency: Oral Communications
 competency_group: Personal
 competency_description: Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately.
 level: "14-15"
-behavior_illustrations: "Presents complex information articulately when meeting with key executives or public officials regarding a high-visibility issue ? Testifies before Congress on a catastrophe's or significant issue's impact on the agency's responsibilities and requirements ? Communicates sensitive information of broad organizational impact on topics without precedence ? Adjusts oral communication techniques based on situation and audience to articulate a message
-"
+behavior_illustrations: "Presents complex information articulately when meeting with key executives or public officials regarding a high-visibility issue ? Testifies before Congress on a catastrophe's or significant issue's impact on the agency's responsibilities and requirements ? Communicates sensitive information of broad organizational impact on topics without precedence ? Adjusts oral communication techniques based on situation and audience to articulate a message "
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8522" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522), GSU - https://www.LearnAtGSUSA.com/AUDT8522">Presentation and Briefing Skills for Auditors (AUDT8522), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8522" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522) - https://www.LearnAtGSUSA.com/AUDT8522">Presentation and Briefing Skills for Auditors (AUDT8522)</a>, GSU
 filters: Personal-Oral-Communications GS-14-15 series-0510
 ---
 

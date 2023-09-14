@@ -12,12 +12,11 @@ competency: Resilience
 competency_group: Personal
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks.
 level: "14-15"
-behavior_illustrations: "Responds to setbacks by developing alternative approaches to determine the best course of action ? Maintains unit's effectiveness, quality and morale during organizational change ? Cultivates internal and external stakeholders to develop strategies for obtaining funding from alternate sources following budget cuts
-"
+behavior_illustrations: "Responds to setbacks by developing alternative approaches to determine the best course of action ? Maintains unit's effectiveness, quality and morale during organizational change ? Cultivates internal and external stakeholders to develop strategies for obtaining funding from alternate sources following budget cuts "
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EXEC9911" aria-label="Executive Survival Skills (EXEC9911), GSU - https://www.LearnAtGSUSA.com/EXEC9911">Executive Survival Skills (EXEC9911), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911) - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/EXEC9911" aria-label="Executive Survival Skills (EXEC9911) - https://www.LearnAtGSUSA.com/EXEC9911">Executive Survival Skills (EXEC9911)</a>, GSU
 filters: Personal-Resilience GS-14-15 series-0560
 ---
 

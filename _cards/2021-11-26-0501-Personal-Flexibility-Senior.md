@@ -12,8 +12,7 @@ competency: Flexibility
 competency_group: Personal
 competency_description: Is open to change and new information; adapts behavior or work methods in response to new information, changing conditions, or unexpected obstacles; effectively deals with ambiguity.
 level: "14-15"
-behavior_illustrations: "Implements a successful action plan after a major organizational change ? Prioritizes, considers alternatives, and responds quickly and effectively to unexpected and rapidly changing conditions 
-"
+behavior_illustrations: "Implements a successful action plan after a major organizational change ? Prioritizes, considers alternatives, and responds quickly and effectively to unexpected and rapidly changing conditions  "
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon

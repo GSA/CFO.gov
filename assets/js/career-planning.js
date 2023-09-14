@@ -45,7 +45,7 @@
         unselectAll();
       }
       else {
-        let set = facetGlobalVars.results.length ? facetGlobalVars.results : fullSet;
+        let set = facetGlobalVars.results.length ? facetGlobalVars.results : facetGlobalVars.fullSet;
         for (let i = 0, l = set.length; i < l; i++) {
           selected[set[i].permalink] = true;
         }
@@ -244,6 +244,7 @@
       doc.moveDown(2);
       doc.font(bold).text('Career Listing', doc.page.margins.left);
       doc.moveDown(1);
+      const parser = new DOMParser();
 
       if (card.relevant_courses.length == 0) {
         doc.font(norm).text('No Courses yet.');
@@ -261,12 +262,17 @@
               });
             }
             else {
-              let res = elems[i].match(/<a href="([^"]*)">([^<]*)<\/a>/);
-              doc.fillColor('blue').text(res[2], {
-                underline: true,
-                link: res[1],
-                continued: true
-              });
+              const parseDoc = parser.parseFromString(elems[i], 'text/html');
+              const link = parseDoc.querySelector('a');
+              if (link) {
+                const url = link.getAttribute('href');
+                const anchorText = link.textContent;
+                doc.fillColor('blue').text(anchorText, {
+                  underline: true,
+                  link: url,
+                  continued: true
+                });
+              }
             }
             if (i != l - 1) {
               doc.fillColor('black').text(', ', {
@@ -289,6 +295,7 @@
 
   // function to generate CSV reoort for selected info cards
   function generateCSV(cards) {
+    const parser = new DOMParser();
     csvrows = [];
     let elem = document.createElement('div');
     csvrows.push(['Job Series', 'GS Level', 'Competency', 'Type', 'Definition', 'Behavior Illustrations', 'Proficiency Level Definition', 'Career Listing' ]);
@@ -370,8 +377,13 @@
               strCL = strCL + CLtext;
             }
             else {
-              let res = elems[m].match(/<a href="([^"]*)">([^<]*)<\/a>/);
-              strCL = strCL + "  ( " + res[1]+ " )"
+              const parseDoc = parser.parseFromString(elems[m], 'text/html');
+              const link = parseDoc.querySelector('a');
+              if (link) {
+                const url = link.getAttribute('href');
+                const anchorText = link.textContent;
+                strCL = strCL + "  ( " + anchorText + " )"
+              }
             }
             if (m != n - 1) {
               strCL = strCL + ", ";

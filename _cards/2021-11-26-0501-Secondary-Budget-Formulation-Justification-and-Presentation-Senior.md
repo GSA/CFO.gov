@@ -12,9 +12,7 @@ competency: Budget Formulation, Justification, and Presentation
 competency_group: Secondary
 competency_description: Developing a budget and knowing how to properly allocate funds according to regulations is vital to solving constant resource challenges.
 level: "14-15"
-behavior_illustrations: "Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts ? Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs 
-
-"
+behavior_illustrations: "Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts ? Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs   "
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon

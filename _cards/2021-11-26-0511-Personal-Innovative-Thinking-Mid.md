@@ -12,12 +12,11 @@ competency: Innovative Thinking
 competency_group: Personal
 competency_description: Uses imagination to develop new insights into situations and applies new solutions to problems; designs new methods where established methods and procedures are not suitable or are unavailable.
 level: "10-13"
-behavior_illustrations: "Develops a new method for disseminating information to staff ? Recommends changes to the delivery of a product or service that increases efficiency or effectiveness for office operations and services
-"
+behavior_illustrations: "Develops a new method for disseminating information to staff ? Recommends changes to the delivery of a product or service that increases efficiency or effectiveness for office operations and services "
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT8102" aria-label="Decision Making and Problem Solving (MGMT8102), GSU - https://www.LearnAtGSUSA.com/MGMT8102">Decision Making and Problem Solving (MGMT8102), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/MGMT8102" aria-label="Decision Making and Problem Solving (MGMT8102) - https://www.LearnAtGSUSA.com/MGMT8102">Decision Making and Problem Solving (MGMT8102)</a>, GSU
 filters: Personal-Innovative-Thinking GS-10-13 series-0511
 ---
 

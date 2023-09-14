@@ -16,9 +16,9 @@ behavior_illustrations: "Monitors customers or clients satisfaction to ensure th
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes ? Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/ADMB7003" aria-label="Customer Service Excellence (ADMB7003), GSU - https://www.LearnAtGSUSA.com/ADMB7003">Customer Service Excellence (ADMB7003), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ADMB7004" aria-label="Customer Service Excellence (ADMB7004), GSU - https://www.LearnAtGSUSA.com/ADMB7004">Customer Service Excellence (ADMB7004), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/COMM8000" aria-label="Effective Communications with Customers (COMM8000), GSU - https://www.LearnAtGSUSA.com/COMM8000">Effective Communications with Customers (COMM8000), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ADMB7003" aria-label="Customer Service Excellence (ADMB7003) - https://www.LearnAtGSUSA.com/ADMB7003">Customer Service Excellence (ADMB7003)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/ADMB7004" aria-label="Customer Service Excellence (ADMB7004) - https://www.LearnAtGSUSA.com/ADMB7004">Customer Service Excellence (ADMB7004)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/COMM8000" aria-label="Effective Communications with Customers (COMM8000) - https://www.LearnAtGSUSA.com/COMM8000">Effective Communications with Customers (COMM8000)</a>, GSU
 filters: Personal-Customer-Service GS-7-9 series-0501
 ---
 

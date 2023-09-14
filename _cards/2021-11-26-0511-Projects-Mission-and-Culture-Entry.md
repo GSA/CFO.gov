@@ -12,8 +12,7 @@ competency: Mission and Culture
 competency_group: Projects
 competency_description: Knowledge of agency and/or office goals, priorities, purpose, and its underlying values; ability to contribute to agency and/or office success, improvements, and workforce development.
 level: "7-9"
-behavior_illustrations: "Understands the organizational vision, mission and core values and applies these to daily work ? Practices appropriate IT security, safety, and property management ? Understands who the customer is and their expectations ? Works successfully in team environments ? Represents the organization in varying capacities and situations ? Identifies opportunities for improvement ? Understands organizational dynamics
-"
+behavior_illustrations: "Understands the organizational vision, mission and core values and applies these to daily work ? Practices appropriate IT security, safety, and property management ? Understands who the customer is and their expectations ? Works successfully in team environments ? Represents the organization in varying capacities and situations ? Identifies opportunities for improvement ? Understands organizational dynamics "
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 - Course Coming Soon

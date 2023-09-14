@@ -16,8 +16,8 @@ behavior_illustrations: "Instills a climate of trust by admitting own mistakes a
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/AUDT9030" aria-label="Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU - https://www.LearnAtGSUSA.com/AUDT9030">Ethical Decision Making for Auditors/Leaders (AUDT9030), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT9030" aria-label="Ethical Decision Making for Auditors/Leaders (AUDT9030) - https://www.LearnAtGSUSA.com/AUDT9030">Ethical Decision Making for Auditors/Leaders (AUDT9030)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003) - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003)</a>, GSU
 filters: Personal-Integrity-and-Honesty GS-10-13 series-0560
 ---
 

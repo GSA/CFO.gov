@@ -16,10 +16,10 @@ behavior_illustrations: "Maintains records reflecting the status of work complet
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/ACQI7110" aria-label="Fundamentals of Project and Program Management (ACQI7110), GSU - https://www.LearnAtGSUSA.com/ACQI7110">Fundamentals of Project and Program Management (ACQI7110), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ7010" aria-label="Introduction to Agile Project Management (PROJ7010), GSU - https://www.LearnAtGSUSA.com/PROJ7010">Introduction to Agile Project Management (PROJ7010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PROJ7015" aria-label="Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU - https://www.LearnAtGSUSA.com/PROJ7015">Microsoft Project&#58; Introduction 2016 (PROJ7015), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/PGMT7012" aria-label="Principles for Managing Projects (PGMT7012), GSU - https://www.LearnAtGSUSA.com/PGMT7012">Principles for Managing Projects (PGMT7012), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/ACQI7110" aria-label="Fundamentals of Project and Program Management (ACQI7110) - https://www.LearnAtGSUSA.com/ACQI7110">Fundamentals of Project and Program Management (ACQI7110)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PROJ7010" aria-label="Introduction to Agile Project Management (PROJ7010) - https://www.LearnAtGSUSA.com/PROJ7010">Introduction to Agile Project Management (PROJ7010)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PROJ7015" aria-label="Microsoft Project&#58; Introduction 2016 (PROJ7015) - https://www.LearnAtGSUSA.com/PROJ7015">Microsoft Project&#58; Introduction 2016 (PROJ7015)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/PGMT7012" aria-label="Principles for Managing Projects (PGMT7012) - https://www.LearnAtGSUSA.com/PGMT7012">Principles for Managing Projects (PGMT7012)</a>, GSU
 filters: Projects-Project-Management GS-7-9 series-0511
 ---
 

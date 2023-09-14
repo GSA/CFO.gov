@@ -16,18 +16,18 @@ behavior_illustrations: "Writes basic communications (e.g., an email requesting 
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/FINC8120" aria-label="Decision Support Analytics (FINC8120), GSU - https://www.LearnAtGSUSA.com/FINC8120">Decision Support Analytics (FINC8120), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT7021" aria-label="Developing and Presenting Audit Findings (AUDT7021), GSU - https://www.LearnAtGSUSA.com/AUDT7021">Developing and Presenting Audit Findings (AUDT7021), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EDIT7100" aria-label="Editing for Impact (EDIT7100), GSU - https://www.LearnAtGSUSA.com/EDIT7100">Editing for Impact (EDIT7100), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT7007" aria-label="Effective Government Correspondence (WRIT7007), GSU - https://www.LearnAtGSUSA.com/WRIT7007">Effective Government Correspondence (WRIT7007), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/BUDG8150" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU - https://www.LearnAtGSUSA.com/BUDG8150">Federal Budget Analysis Using Microsoft Excel (BUDG8150), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT7010" aria-label="Fundamentals of Writing (WRIT7010), GSU - https://www.LearnAtGSUSA.com/WRIT7010">Fundamentals of Writing (WRIT7010), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT7041" aria-label="Government Email Writing (WRIT7041), GSU - https://www.LearnAtGSUSA.com/WRIT7041">Government Email Writing (WRIT7041), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/ENGL7005" aria-label="Grammar for Professionals (ENGL7005), GSU - https://www.LearnAtGSUSA.com/ENGL7005">Grammar for Professionals (ENGL7005), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8300" aria-label="Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU - https://www.LearnAtGSUSA.com/AUDT8300">Preparing Effective IG Semiannual Reports to Congress (AUDT8300), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/EDIT7001" aria-label="Proofreading (EDIT7001), GSU - https://www.LearnAtGSUSA.com/EDIT7001">Proofreading (EDIT7001), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/WRIT7110" aria-label="Writing for Results (WRIT7110), GSU - https://www.LearnAtGSUSA.com/WRIT7110">Writing for Results (WRIT7110), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/AUDT8611" aria-label="Written Communication for Auditors (AUDT8611), GSU - https://www.LearnAtGSUSA.com/AUDT8611">Written Communication for Auditors (AUDT8611), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/FINC8120" aria-label="Decision Support Analytics (FINC8120) - https://www.LearnAtGSUSA.com/FINC8120">Decision Support Analytics (FINC8120)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT7021" aria-label="Developing and Presenting Audit Findings (AUDT7021) - https://www.LearnAtGSUSA.com/AUDT7021">Developing and Presenting Audit Findings (AUDT7021)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/EDIT7100" aria-label="Editing for Impact (EDIT7100) - https://www.LearnAtGSUSA.com/EDIT7100">Editing for Impact (EDIT7100)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/WRIT7007" aria-label="Effective Government Correspondence (WRIT7007) - https://www.LearnAtGSUSA.com/WRIT7007">Effective Government Correspondence (WRIT7007)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/BUDG8150" aria-label="Federal Budget Analysis Using Microsoft Excel (BUDG8150) - https://www.LearnAtGSUSA.com/BUDG8150">Federal Budget Analysis Using Microsoft Excel (BUDG8150)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/WRIT7010" aria-label="Fundamentals of Writing (WRIT7010) - https://www.LearnAtGSUSA.com/WRIT7010">Fundamentals of Writing (WRIT7010)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/WRIT7041" aria-label="Government Email Writing (WRIT7041) - https://www.LearnAtGSUSA.com/WRIT7041">Government Email Writing (WRIT7041)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/ENGL7005" aria-label="Grammar for Professionals (ENGL7005) - https://www.LearnAtGSUSA.com/ENGL7005">Grammar for Professionals (ENGL7005)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8300" aria-label="Preparing Effective IG Semiannual Reports to Congress (AUDT8300) - https://www.LearnAtGSUSA.com/AUDT8300">Preparing Effective IG Semiannual Reports to Congress (AUDT8300)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/EDIT7001" aria-label="Proofreading (EDIT7001) - https://www.LearnAtGSUSA.com/EDIT7001">Proofreading (EDIT7001)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/WRIT7110" aria-label="Writing for Results (WRIT7110) - https://www.LearnAtGSUSA.com/WRIT7110">Writing for Results (WRIT7110)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8611" aria-label="Written Communication for Auditors (AUDT8611) - https://www.LearnAtGSUSA.com/AUDT8611">Written Communication for Auditors (AUDT8611)</a>, GSU
 filters: Personal-Written-Communications GS-7-9 series-0501
 ---
 

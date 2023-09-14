@@ -12,8 +12,7 @@ competency: Contract Management
 competency_group: Secondary
 competency_description: Knowledge of the tools and techniques used to propose, plan, initiate, and manage contracts and other Federal funding instruments and the associated deliverables, deadlines, and contract terms and conditions.
 level: "14-15"
-behavior_illustrations: "Understands and contributes financial management guidance to the life-cycle management plan to assist in monitoring a
-complex contracting project ? Assists in developing or updating financial management guidance and policy regarding contract management"
+behavior_illustrations: "Understands and contributes financial management guidance to the life-cycle management plan to assist in monitoring a complex contracting project ? Assists in developing or updating financial management guidance and policy regarding contract management"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon

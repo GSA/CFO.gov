@@ -16,8 +16,8 @@ behavior_illustrations: "Evaluates proposed changes to existing financial polici
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012), GSU - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012), GSU</a>
-- <a href="https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Technology and Innovation Acceleration Program (with MIT xPRO), Emeritus - https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Technology and Innovation Acceleration Program (with MIT xPRO), Emeritus</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, GSU
+- <a href="https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Technology and Innovation Acceleration Program (with MIT xPRO) - https://executive-ed.xpro.mit.edu/technology-innovation-acceleration/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Technology and Innovation Acceleration Program (with MIT xPRO)</a>, Emeritus
 filters: Personal-Critical-Thinking GS-14-15 series-0560
 ---
 

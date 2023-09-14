@@ -16,8 +16,8 @@ behavior_illustrations: "Inspires commitment to achieve outcomes and build coali
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
 - Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911), GSU</a>
-- <a href="https://www.LearnAtGSUSA.com/MGMT9104" aria-label="Negotiating Techniques (MGMT9104 & 9105), GSU - https://www.LearnAtGSUSA.com/MGMT9104">Negotiating Techniques (MGMT9104 & 9105), GSU</a>
+- <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911) - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/MGMT9104" aria-label="Negotiating Techniques (MGMT9104 & 9105) - https://www.LearnAtGSUSA.com/MGMT9104">Negotiating Techniques (MGMT9104 & 9105)</a>, GSU
 filters: Projects-Influencing-and-Negotiating GS-7-9 series-0510
 ---
 
