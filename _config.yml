@@ -158,7 +158,11 @@ searchgov:
   endpoint: https://search.usa.gov # You should not change this.
   affiliate: cfoc # replace this with your search.gov account
   access_key: 7zdoD3jfIA3XVL-Oo90qp31mCdqWg5qbk_95HxXDGAk= # This is placeholder. Not private.
-  inline: false #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
+  # This renders the results within the page instead of sending to user to search.gov.
+  inline: true
+  # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
+  # If you do not want to present search suggestions, set this value to false.
+  suggestions: true
 
 ##########################################################################################
 # The values below here are more advanced and should only be
