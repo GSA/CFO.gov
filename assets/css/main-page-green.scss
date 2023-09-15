@@ -268,7 +268,7 @@ color:#005ea2;
   width: 815px;
 }
 .about-the-council {
-    background: url('../assets/images/Abstract-Green-Hero-Image.png');
+    background-image: url('../assets/images/Abstract-Green-Hero-Image.png');
     background-color: #000;
 }
 .ui-tabs-active a {
@@ -1194,3 +1194,22 @@ h3 {
     outline: 2px solid hsl(177, 33%, 31%);
 }
 
+a.checked {
+    color:white;
+}
+
+.filters li {
+    margin: 0 3px 3px 0;
+}
+
+#ogp-identifier.usa-identifier .usa-identifier__identity-domain {
+    color: white;
+}
+
+#ogp-identifier.usa-identifier .usa-identifier__required-link {
+    color: white;
+}
+
+#ogp-identifier.usa-identifier .usa-identifier__required-link:visited {
+    color: white;
+}
