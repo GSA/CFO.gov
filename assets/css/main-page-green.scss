@@ -1201,3 +1201,15 @@ a.checked {
 .filters li {
     margin: 0 3px 3px 0;
 }
+
+#ogp-identifier.usa-identifier .usa-identifier__identity-domain {
+    color: white;
+}
+
+#ogp-identifier.usa-identifier .usa-identifier__required-link {
+    color: white;
+}
+
+#ogp-identifier.usa-identifier .usa-identifier__required-link:visited {
+    color: white;
+}
