@@ -546,6 +546,6 @@ div[data-card-filter] {
     background-color: #CBE0F500 !important;
 }
 
-.li-width {
-    max-width: none !important;
+.usa-list li.li-width {
+    max-width: none;
 }
