@@ -242,7 +242,7 @@
         doc.font(norm).list(items, doc.page.margins.left + 30, null, { bulletRadius: 2 });
       }
       doc.moveDown(2);
-      doc.font(bold).text('Career Listing', doc.page.margins.left);
+      doc.font(bold).text('Course Listings for Purpose', doc.page.margins.left);
       doc.moveDown(1);
       const parser = new DOMParser();
 
@@ -298,7 +298,7 @@
     const parser = new DOMParser();
     csvrows = [];
     let elem = document.createElement('div');
-    csvrows.push(['Job Series', 'GS Level', 'Competency', 'Type', 'Definition', 'Behavior Illustrations', 'Proficiency Level Definition', 'Career Listing' ]);
+      csvrows.push(['Job Series', 'GS Level', 'Competency', 'Type', 'Definition', 'Behavior Illustrations', 'Proficiency Level Definition', 'Course Listings for Purpose' ]);
     for (let i = 0, l = cards.length; i < l; i++) {
       let card = cards[i];
       /**/
