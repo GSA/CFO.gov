@@ -252,7 +252,7 @@
       else {
         for (let j = 0, k = card.relevant_courses.length; j < k; j++) {
           doc.fillColor('black').text('    \u2022 ', { underlione: false, continued: true})
-          let elems = card.relevant_courses[j].split(', ');
+            let elems = card.relevant_courses[j].split('</a>, ');
           doc.font(norm);
           for (let i = 0, l = elems.length; i < l; i++) {
             if (elems[i].indexOf('<a') == -1) {
@@ -358,12 +358,9 @@
       }
       else {
         for (let j = 0, k = card.relevant_courses.length; j < k; j++) {
-          let elems = card.relevant_courses[j].split(',');
+            let elems = card.relevant_courses[j].split('</a>, ');
           for (let m = 0, n = elems.length; m < n; m++) {
             if (elems[m].indexOf('<a') == -1) {
-              if (strCL.length > 1) {
-                strCL = strCL + "\n";
-              }
               let CLtext = elems[m];
               while (CLtext.indexOf("&") != -1) {
                 CLtext = CLtext.replace("&", " ")
@@ -374,7 +371,7 @@
               while (CLtext.indexOf(";") != -1) {
                 CLtext = CLtext.replace(";", " ")
               }
-              strCL = strCL + CLtext;
+                strCL = strCL + CLtext + "\n";
             }
             else {
               const parseDoc = parser.parseFromString(elems[m], 'text/html');
@@ -382,14 +379,14 @@
               if (link) {
                 const url = link.getAttribute('href');
                 const anchorText = link.textContent;
-                strCL = strCL + "  ( " + anchorText + " )"
+                strCL = strCL + "(" + anchorText + ")"
               }
             }
             if (m != n - 1) {
               strCL = strCL + ", ";
             }
             else {
-              strCL = strCL + " "
+              strCL = strCL + ""
             }
           }
         }

@@ -84,7 +84,7 @@
                             {% if card.relevant_courses.size != 0 %}
                             <ul class="usa-list" role="list">
                                 {% for course in card.relevant_courses limit:3 %}
-                                <li role="listitem" class="card-content-color">{{ course | replace: '">', '" target="_blank" >'}}</li>
+                                <li role="listitem" class="card-content-color li-width">{{ course | replace: '">', '" target="_blank" >'}}</li>
                                 {% endfor %}
                             </ul>
                             {% endif %}
@@ -93,7 +93,7 @@
                         <div class="full-list display-none">
                             <ul class="usa-list margin-top-05" role="list">
                                 {% for course in card.relevant_courses offset:3 %}
-                                <li role="listitem" class="card-content-color">{{ course | replace: '">', '" target="_blank" >'}}</li>
+                                <li role="listitem" class="card-content-color li-width">{{ course | replace: '">', '" target="_blank" >'}}</li>
                                 {% endfor %}
                             </ul>
                         </div>
