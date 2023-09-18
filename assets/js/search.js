@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     for (item in posts.web.results) {
                         render_result(
                             `
-          <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
+          <li class="padding-bottom-3 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
             <a href="${posts.web.results[item]["url"]}">${posts.web.results[
                                 item
                                 ]["title"]
