@@ -545,3 +545,7 @@ div[data-card-filter] {
 .bg-button{
     background-color: #CBE0F500 !important;
 }
+
+.usa-list li.li-width {
+    max-width: none;
+}

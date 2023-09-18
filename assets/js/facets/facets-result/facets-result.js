@@ -60,7 +60,7 @@
                 if (typeof (relevant_course) === 'string' && relevant_course.indexOf('">') >= 0) {
                     relevant_course = relevant_course.replace('>', ' target="_blank" >');
                 }
-                coursesMarkup += '<li role="listitem" class="card-content-color">' + relevant_course + '</li>';
+                coursesMarkup += '<li role="listitem" class="card-content-color li-width">' + relevant_course + '</li>';
             }
             coursesMarkup += '</ul></div>';
         }
@@ -72,7 +72,7 @@
                 if (typeof (relevant_course) === 'string' && relevant_course.indexOf('">') >= 0) {
                     relevant_course = relevant_course.replace('>', ' target="_blank" >');
                 }
-                coursesMarkup += '<li role="listitem" class="card-content-color">' + relevant_course + '</li>';
+                coursesMarkup += '<li role="listitem" class="card-content-color li-width">' + relevant_course + '</li>';
             }
             coursesMarkup += '</ul></div>';
             coursesMarkup += '<div class="text-center margin-top-3">\n' +
