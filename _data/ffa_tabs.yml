@@ -1,0 +1,16 @@
+- name: overview
+  title: Overview
+  path: /federal-financial-assistance/overview/
+  content: |
+    <p>The federal government obligates over one trillion dollars in Federal financial assistance funds annually that support thousands of critical programs that support our nation’s infrastructure, health, education, security, and more.  Improving the quality of program results and transparently communicating to the American public how taxpayer funds are spent to achieve our shared goals continues to be an important goal of the administration. Recent OMB guidance has built on recent progress in the important areas of Program Planning, Design, and Execution; Managing Risk in Program Design; Public Reporting of Financial and Award Data Post-Award Data and Reporting.  Improved program design and implementation of Federal financial assistance is critical to achieving successful program and financial results for the American people.</p>
+- name: why-this-matters
+  title: Why This Matters to the CFO Council
+  path: /federal-financial-assistance/why-this-matters/
+  content: |
+    <p>In order to properly and consistently implement Federal financial assistance programs, the Federal Government must work together to ensure that U.S. taxpayer dollars are achieving results for the American people.  A coordinated approach ensures the most efficient and effective use of taxpayer dollars to deliver the best results, protect taxpayer dollars, and ensure public trust.  Effective implementation of programs and stewardship of funds by the executive departments and agencies is critical to achieving these goals.</p>
+    <p>Coordinated implementation of U.S. government Federal financial assistance, encompassing both financial and program management issues within and across agencies, depend on equitable, effective, transparent, and accountable management practices focused on delivering results for all.  The CFOS Council’s role in ensuring proper execution and oversight of Federal financial assistance, including through transparent and standard financial information, is critical to the success of U.S. government programs.</p>
+- name: resources
+  title: Resources
+  path: /federal-financial-assistance/resources/
+  content: |
+    <p>Click <a href="[site_baseurl]/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*" aria-label="federal financial assistance related resources">here</a> to access related resources.</p>

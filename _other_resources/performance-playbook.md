@@ -1,5 +1,5 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: Managing for Results, Performance Management Playbook for Federal Awarding Agencies
 subtitle: Managing for Results, Performance Management Playbook for Federal Awarding Agencies
 doc-link: ../wp-content/uploads/2021/Managing-for-Results-Performance-Management-Playbook-for-Federal-Awarding-Agencies.pdf

@@ -2,6 +2,10 @@
 You shouldn't have to edit this page very often. But if you want to modify some of the meta-data for the
 site, this is the place to do it.
 {% endcomment %}
+{% assign canonical = page.permalink %}
+{% if page.canonical %}
+  {% assign canonical = page.canonical %}
+{% endif %}
 
 <head>
   <!-- Basic Page Needs
@@ -22,41 +26,52 @@ site, this is the place to do it.
   <meta name="keyword" content="{{page.keyword}}">
 
   {% if page.filters == "cxo-fellows" or page.url contains "cxo-fellows" %}
-  <meta name="image" property="og:image" content="https://www.cfo.gov/assets/images/logos/cxo-preview-large.png">
+  <meta name="image" property="og:image" content="https://www.cfo.gov/assets/images/logos/cxo-preview-Small.png">
   <meta name="description" property="og:description" content="{{page.filler}}">
   {% else %}
-  <meta name="image" property="og:image" content="{{site.baseurl}}/assets/images/logos/cfo-preview.png">
+  <meta name="image" property="og:image" content="{{site.baseurl}}/assets/images/logos/CFO-Logo-Color.svg">
   <meta name="description" property="og:description" content="{{page.description}}">
   {% endif %}
 
   <meta property="og:type" content="article">
-  <link rel="canonical" href="{{site.baseurl}}/">
-  <meta property="og:url" content="{{site.baseurl}}/">
+  <link rel="canonical" href="{{site.url}}{{site.baseurl}}{{canonical}}">
+  <meta property="og:url" content="{{site.url}}{{site.baseurl}}{{canonical}}">
   <!-- Favicons
     ================================================== -->
   <!-- 128x128 -->
-  <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/assets/images/favicon_transparent.png">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon_transparent.png">
+  <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/assets/images/FAVICON-CFO-1.svg">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/FAVICON-CFO-1.svg">
   <!-- 192x192, as recommended for Android
     http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
     -->
-  <link rel="icon" type="image/png" sizes="192x192" href="{{ site.baseurl }}/assets/images/favicon_transparent.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ site.baseurl }}/assets/images/FAVICON-CFO-1.svg">
   <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-  <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/images/favicon_transparent.png">
+  <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/images/FAVICON-CFO-1.svg">
   <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/assets/images/favicon_transparent.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/assets/images/FAVICON-CFO-1.svg">
   <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/assets/images/favicon_transparent.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/assets/images/FAVICON-CFO-1.svg">
   <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/images/favicon_transparent.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/images/FAVICON-CFO-1.svg">
   <!-- CSS
     ================================================== -->
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/slick.css?{{ site.time | date: '%s%N' }}">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/slick-theme.css?{{ site.time | date: '%s%N' }}">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/magnific-popup.css?{{ site.time | date: '%s%N' }}">
   {% asset index.scss %}
-  {% asset main-page.scss %}
+  {% if page.url contains '/payment-accuracy/'
+  or page.url contains '/jfmip/'
+  or page.url contains '/frpc/'
+  or page.url contains '/cxo-fellows/' %}
+    {% asset main-page.scss %}
+  {% else %}
+    {% asset main-page-green.scss %}
+  {% endif %}
+
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/career-planning.css?{{ site.time | date: '%s%N' }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   {% if page.use_jqui %}<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">{% endif %}
+
+  {% asset search.js %}
+
 </head>

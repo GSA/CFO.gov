@@ -2,6 +2,10 @@
 layout: priority-copy
 title: American Rescue Plan (ARP)
 permalink: /american-rescue-plan/
+aliases:
+  - /american-rescue-plan/owerview/
+  - /american-rescue-plan/about/
+  - /american-rescue-plan/why-not/
 type: arp
 number_of_icons: 4
 description: Learn about Financial Assistance maximizing the value of grant funding.

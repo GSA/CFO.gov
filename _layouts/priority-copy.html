@@ -5,7 +5,7 @@ title: Priority
 
 ---
 
-<section class="usa-hero grid-container {{ page.type }}-page {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
+<section class="usa-hero grid-container about-the-council {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
     <div class="grid-row grid-gap flex-align-center">
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
             {% if page.type == "career-planning-training-tool" %}
@@ -30,30 +30,30 @@ title: Priority
 
 <!--All icons and text for each priority area are referenced in the respective md file under prioritypages folder-->
 {% if page.priority_icons %}
-<section class="usa-graphic_list usa-section usa-prose clearfix">
+<section class="usa-graphic-list usa-section usa-prose clearfix">
 
     <div class="grid-row clearfix grid-container priority-icons">
 
         {% for icon in page.priority_icons %}
         {% if page.number_of_icons == 4 %}
-        <div class="tablet:grid-col-3 text-center margin-y-10 padding-x-1">
-            {% endif %}
-            {% if page.number_of_icons <= 3 %}
-            <div class="tablet:grid-col-4 text-center margin-y-10">
+            <div class="tablet:grid-col-3 text-center margin-bottom-2 margin-top-3">
                 {% endif %}
-                {% if icon.url %}
-                <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
-                    {% else %}
-                    <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;" {% if icon.id %} id="{{ icon.id }}" {% endif %}>
-                        {% endif %}
-                        <div class="circle-image picons bg-white">
-                            <img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
-                        </div>
-                        <p class="font-heading-md text-gray-70 text-no-underline">{{ icon.name }}</p>
-                    </a>
+                {% if page.number_of_icons <= 3 %}
+                <div class="tablet:grid-col-4 text-center margin-bottom-2 margin-top-3">
+                    {% endif %}
+                    {% if icon.url %}
+                    <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
+                        {% else %}
+                        <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;" {% if icon.id %} id="{{ icon.id }}" {% endif %}>
+                            {% endif %}
+                            <div class="circle-image picons bg-white">
+                                <img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
+                            </div>
+                            <p class="font-heading-md text-gray-70 text-no-underline f-weight-600">{{ icon.name }}</p>
+                        </a>
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
-        </div>
 
 </section>
 {% endif %}
@@ -64,7 +64,7 @@ title: Priority
 
 <div class="grid-container grid-gap">{{ content }}</div>
 
-<section class="grid-container grid-gap usa-graphic_list clearfix tabSection">
+<section class="grid-container grid-gap usa-graphic-list clearfix tabSection">
 
     {% if page.type == "fdt" %}
     {% include priority_fdt_sidenav.html %}
@@ -83,11 +83,11 @@ title: Priority
     {% endif %}
 
     {% if page.type == "payment-integrity" %}
-    {% include priority_pi_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.pi_tabs %}
     {% endif %}
 
     {% if page.type == "workforce-modernization" %}
-    {% include priority_workforce_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.workforce_modernization_tabs %}
     {% endif %}
 
     {% if page.type == "arp" %}
@@ -95,19 +95,19 @@ title: Priority
     {% endif %}
 
     {% if page.type == "major-legislation" %}
-    {% include priority_ml_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.ml_tabs %}
     {% endif %}
 
     {% if page.type == "ffr" %}
-    {% include priority_ffr_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.ffr_tabs %}
     {% endif %}
 
     {% if page.type == "ffa" %}
-    {% include priority_ffa_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.ffa_tabs %}
     {% endif %}
 
     {% if page.type == "symposium" %}
-    {% include priority_payment-integirty-fraud-symposium_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.pifss_tabs %}
     {% endif %}
 
     {% if page.type == "career-planning-training-tool" %}

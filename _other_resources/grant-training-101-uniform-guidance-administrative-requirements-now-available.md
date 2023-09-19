@@ -1,8 +1,8 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: Grant Training 101&#58; Uniform Guidance Administrative Requirements Now Available
 subtitle: Grant Training 101&#58; Uniform Guidance Administrative Requirements Now Available
-permalink: /resources/grant-training-101-uniform-guidance-administrative-requirements-now-available/
+permalink: /cxo-fellows/grant-training-101-uniform-guidance-administrative-requirements-now-available/
 type: financial-assistance
 filler: 
 date: March 20, 2017

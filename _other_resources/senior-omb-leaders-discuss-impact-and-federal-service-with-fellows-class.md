@@ -1,10 +1,10 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: SENIOR OMB LEADERS DISCUSS IMPACT AND FEDERAL SERVICE WITH FELLOWS CLASS
 subtitle: Senior OMB Leaders Discuss Impact And Federal Service With Fellows Class
 filler:  Be bold, be nimble, and be creative — these were the directives the current class of CXO Fellows received at a mid-December briefing from senior leaders at the Office of Management and Budget. 
-permalink: /resources/senior-omb-leaders-discuss-impact-and-federal-service-with-fellows-class/
-type: CXO Fellows
+permalink: /cxo-fellows/senior-omb-leaders-discuss-impact-and-federal-service-with-fellows-class/
+type: cxo
 date: December 15, 2015
 has_date: 'yes'
 author: CFO Council 

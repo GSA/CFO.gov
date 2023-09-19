@@ -2,6 +2,11 @@
 title: About the FRPC
 layout: frpc-default
 permalink: /frpc/
+aliases:
+  - /frpc/about/
+  - /frpc/governance-structure/
+  - /frpc/initiatives/
+  - /frpc/strategy/
 description: Learn about FRPC and guidance on reporting their real property each year.
 keyword: CFO Council, FRPC, CFOC, Federal Real Property Council
 description1: The Federal Real Property Council (FRPC) is an interagency council established by Executive Order 13327, "Federal Real Property Asset Management," and later enacted into law by the Federal Property Management Reform Act (P.L. 114-318) to promote the efficient and economical use of America's real property assets and to assure management accountability for implementing federal real property reforms. The <abbr title="Federal Real Property Council">FRPC</abbr> provides guidance to agencies on reporting their real property each year.
@@ -17,6 +22,6 @@ description1: The Federal Real Property Council (FRPC) is an interagency council
     </div>
 </section>
 
-
-
-{% include frpc_sidenav.html %}
+<div class="grid-container tabSection">
+{% include cfo-tabs.html data = site.data.frpc_tabs %}
+</div>

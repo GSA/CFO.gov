@@ -1,10 +1,10 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: If at First You Weren’t Chosen, Apply, Apply Again!
 subtitle: If at First You Weren’t Chosen, Apply, Apply Again!
 filler: The CXO Fellows Program has announced this year’s Fellows. But wait, there must be some mistake! Why isn’t your name on the list?
-permalink: /resources/apply-again/
-type: CXO Fellows
+permalink: /cxo-fellows/apply-again/
+type: cxo
 date: September 22, 2022
 has_date: 'yes'
 ---

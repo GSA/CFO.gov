@@ -1,10 +1,10 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: Redefining Your Team – Leveraging Connections Made at CXO
 subtitle: Redefining Your Team – Leveraging Connections Made at CXO
 filler: The CXO Fellows Program enables rising leaders to grow and develop in their current position and prepare them for future endeavors. 
-permalink: /resources/leveraging-connections-made-at-cxo/
-type: CXO Fellows
+permalink: /cxo-fellows/leveraging-connections-made-at-cxo/
+type: cxo
 date: August 15, 2022
 has_date: 'yes'
 ---
@@ -33,4 +33,4 @@ LinkedIn is often called the "business social media platform" and for good reaso
 
 ***Through Outside Engagement***
 
-Using LinkedIn and other social media channels is important, however expanding that relationship with other Fellows into the "real world" can enable a new dynamic in your agency. We have touched on the [power of cross-collaboration]({{site.baseurl}}/resources/cross-agency-collaboration/) in an earlier blog, and it's important to nurture its potential, not just to break down agency silos, but for the benefit of the job we all share - the business of government.
+Using LinkedIn and other social media channels is important, however expanding that relationship with other Fellows into the "real world" can enable a new dynamic in your agency. We have touched on the [power of cross-collaboration]({{site.baseurl}}layout: cxo-layout-blogcross-agency-collaboration/) in an earlier blog, and it's important to nurture its potential, not just to break down agency silos, but for the benefit of the job we all share - the business of government.
