@@ -1214,10 +1214,12 @@ a.checked {
     color: white;
 }
 
-.search-icon{
-    transform:scale(1.5);
+@media screen and (min-width: 700px) {
+    .search-icon {
+        transform: scale(1.5);
+    }
 }
 
 .usa-search [type="submit"] {
-    background-image:none;
+   background-image: none;
 }
