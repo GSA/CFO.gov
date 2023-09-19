@@ -4,9 +4,9 @@
 
 {% if include.searchgov %}
   {% if include.searchgov.inline == true %}
-    <form id="search_form" class="usa-search usa-search--small" action="{{site.baseurl}}/search/" accept-charset="UTF-8" method="get">
+    <form id="search_form" class="usa-search" action="{{site.baseurl}}/search/" accept-charset="UTF-8" method="get">
   {% else %}
-    <form id="search_form" class="usa-search usa-search--small" action="{{include.searchgov.endpoint}}/search" accept-charset="UTF-8" method="get">
+    <form id="search_form" class="usa-search" action="{{include.searchgov.endpoint}}/search" accept-charset="UTF-8" method="get">
   {% endif %}
     
   
@@ -16,7 +16,9 @@
     <div role="search">
       <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
       <input class="usa-input usagov-search-autocomplete search" id="extended-search-field-small" type="search" name="query" autocomplete="off">
-      <button class="usa-button search-button bg-green" type="submit"><span class="usa-sr-only">Search</span></button>
+      <button class="usa-button search-button bg-green" type="submit">
+          <img src="../img/search.svg" class="width-205" alt="Search" />
+      </button>
     </div>
   </form>
 {% endif %}
