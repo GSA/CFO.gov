@@ -36,7 +36,7 @@
     background-color: #d83933;
 }
 
-.usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
+.usa-header--extended .usa-nav__primary-item > .usa-current::after, .usa-header--extended .usa-nav__primary-item > .usa-nav__link:hover::after {
     background-color: #ab6600;
 }
 .circle-image {
@@ -467,7 +467,6 @@ ol.roman {
   .usa-nav__primary > .usa-nav__primary-item {
     font-size: 0.931618rem;
     line-height: 0.939227;
-    padding-right: 1rem;
   }
 }
 
@@ -1212,12 +1211,6 @@ a.checked {
 
 #ogp-identifier.usa-identifier .usa-identifier__required-link:visited {
     color: white;
-}
-
-@media screen and (min-width: 700px) {
-    .search-icon {
-        transform: scale(1.5);
-    }
 }
 
 .usa-search [type="submit"] {
