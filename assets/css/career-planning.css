@@ -331,7 +331,7 @@ div[data-card-filter] {
 
 .cfo-career-outer-box {
     width: 100%;
-    border: 1px solid #C7E2FD;
+    border: 1px solid #4F9E99;
     background-color: #fff;
 }
 
@@ -433,13 +433,13 @@ div[data-card-filter] {
 }
 
 .border-blue {
-    border: 2px solid #005ea2;
+    border: 2px solid #4F9E99;
 }
 
 #career-advancement-results-container .usa-accordion--bordered .usa-accordion__content {
-    border-bottom: 0.25rem solid #CBE0F5 !important;
-    border-left: 0.25rem solid #CBE0F5 !important;
-    border-right: 0.25rem solid #CBE0F5 !important;
+    border-bottom: 0.25rem solid #4f9e991a !important;
+    border-left: 0.25rem solid #4f9e991a !important;
+    border-right: 0.25rem solid #4f9e991a !important;
     padding-bottom: 1rem !important;
 }
 
@@ -471,7 +471,7 @@ div[data-card-filter] {
 }
 
 .bg-filter {
-    background-color: #CBE0F559 !important;
+    background-color: #4f9e991a !important;
 }
 
 .button-border {
@@ -482,28 +482,29 @@ div[data-card-filter] {
     color: #092644 !important;
 }
 
+.label-color {
+    color: #4F9E99 !important;
+}
+
 .bg-search {
-    background-color: #003062 !important;
+    background-color: #ab6600 !important;
     background-image: none !important;
     border-radius: 0.25rem !important;
     margin-left: 10px !important;
 }
 
 .search-border {
-    border-color: #B4D8FD !important;  
+    border-color: #B4D8FD !important;
 }
 
 @media only screen and (max-width: 640px) {
-    .search-border {
-        border-color: #003062 !important;
-    }
     .bg-search {
         margin-left: 0px !important;
     }
 }
 
 .card-text-color {
-    color: #1b74e0 !important;
+    color: #346865 !important;
 }
 .card-content-color {
     color: #003062 !important;
@@ -514,7 +515,7 @@ div[data-card-filter] {
 }
 
 .border-top-blue {
-    border-top-color: #1b74e0 !important;
+    border-top-color: #ab6600 !important;
 }
 
 .hr {
@@ -539,7 +540,7 @@ div[data-card-filter] {
 }
 
 .border-color {
-    border-color: #003062 !important;
+    border-color: #4F9E99 !important;
 }
 
 .bg-button{
@@ -548,4 +549,8 @@ div[data-card-filter] {
 
 .usa-list li.li-width {
     max-width: none;
+}
+
+.ui-widget.ui-widget-content {
+    border:1px solid #4f9e99 !important;
 }
