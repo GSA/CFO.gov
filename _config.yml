@@ -243,6 +243,7 @@ exclude:
   - node_modules
   - Gemfile
   - Gemfile.lock
+  - _unpiblished
 
 
 assets:

@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: priority-copy
 title: Financial Assistance
 permalink: /financial-assistance/
@@ -32,5 +32,3 @@ description1: This page includes financial assistance resources with a focus on 
         </ul>
     </div>
 </div>
-
- -->
