@@ -176,7 +176,8 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
             groupItemsLength--;
         });
         $("#dialog").dialog({
-            width: 600
+            width: 600,
+            title: competencyGroup.charAt(0).toUpperCase() + competencyGroup.slice(1)
         });
         $('#dtags .usa-tag').each(function(){
             $(this).unbind('click').on('click', function(e){
