@@ -31,16 +31,16 @@ filters: Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
+    <hr style="border-color: #4F9E99 !important;"/>
     <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Budget (Level 2 - Basic)</dt><dd>Extracts, records and balances basic information from financial management systems</dd><dt>Fundamentals and Operations of Budget (Level 3 - Intermediate)</dt><dd>Researches and organizes relevant budget information and systems using various standardized procedures</dd><dt>Fundamentals and Operations of Budget (Level 4 - Advanced)</dt><dd>Examines and reconciles complex transactions from budget information and systems using various standardized procedures</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
+     <hr style="border-color: #4F9E99 !important;"/>
     <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Budget (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Fundamentals and Operations of Budget (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Fundamentals and Operations of Budget (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

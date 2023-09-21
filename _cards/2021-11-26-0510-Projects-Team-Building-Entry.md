@@ -25,16 +25,16 @@ filters: Projects-Team-Building GS-7-9 series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
+    <hr style="border-color: #4F9E99 !important;"/>
     <dl class="text-base card-content-color"><dt>Team Building (Level 1 - Awareness)</dt><dd>Works with team to implement operating procedures within agency </dd><dd> Suggests utilizing team building exercises to improve office dynamics</dd><dt>Team Building (Level 2 - Basic)</dt><dd>Encourages staff to share skills and abilities within work group to facilitate completion of challenging tasks </dd><dd> Forms teams to identify and address agency concerns </dd><dd> Informs team members of issues requiring resolution and considers input</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
+     <hr style="border-color: #4F9E99 !important;"/>
     <dl class="text-base card-content-color"><dt>Team Building (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Team Building (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

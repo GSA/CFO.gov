@@ -26,7 +26,7 @@
     .facets-panel .usa-button[id*="series-"]:hover,
     .facets-panel .usa-button[id*="job-career-competency-select"]:hover,
     .facets-panel .usa-button[id*="general-career-competency-select"]:hover {
-        border-bottom: 2px solid #adadad;
+        border-bottom: 1px solid #adadad;
     }
 
 .facets-panel .usa-button.active {
@@ -333,6 +333,7 @@ div[data-card-filter] {
     width: 100%;
     border: 1px solid #4F9E99;
     background-color: #fff;
+    border-radius: 0.25rem;
 }
 
 .select-button {
@@ -475,7 +476,7 @@ div[data-card-filter] {
 }
 
 .button-border {
-    border-color: #A1B8D1 !important;
+    border-color: #4F9E99 !important;
 }
 
 .text-color {
@@ -494,7 +495,7 @@ div[data-card-filter] {
 }
 
 .search-border {
-    border-color: #B4D8FD !important;
+    border-color: #4F9E99 !important;
 }
 
 @media only screen and (max-width: 640px) {
@@ -519,8 +520,8 @@ div[data-card-filter] {
 }
 
 .hr {
-    background-color: #CBE0F559;
-    height:10px;
+    background-color: #4f9e991a;
+    height: 10px;
 }
 
 .wfm-header {
@@ -537,10 +538,6 @@ div[data-card-filter] {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
-}
-
-.border-color {
-    border-color: #4F9E99 !important;
 }
 
 .bg-button{

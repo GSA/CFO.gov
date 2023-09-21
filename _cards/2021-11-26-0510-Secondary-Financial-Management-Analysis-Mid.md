@@ -41,16 +41,16 @@ filters: Secondary-Financial-Management-Analysis GS-10-13 series-0510
 ---
 
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
+    <hr style="border-color: #4F9E99 !important;"/>
     <dl class="text-base card-content-color"><dt>Financial Management Analysis (Level 4 - Advanced)</dt><dd>Solves difficult challenges through financial analysis to determine the proper course of action and provides advice to decision-makers</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
+     <hr style="border-color: #4F9E99 !important;"/>
     <dl class="text-base card-content-color"><dt>Financial Management Analysis (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>
