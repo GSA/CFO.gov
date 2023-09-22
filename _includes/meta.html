@@ -22,11 +22,12 @@ site, this is the place to do it.
     ================================================== -->
   {% if page.url contains "cxo-fellows" or page.url contains "payment-accuracy" or page.url contains "frpc" or page.url contains "jfmip" %}
   <title>{{page.title}}</title>
+  <meta property="og:title" content="{{page.title}}">
   {% else %}
   <title>CFO.gov | {{page.title}}</title>
+  <meta property="og:title" content="CFO.gov | {{page.title}}">
   {% endif %}
 
-  <meta property="og:title" content="CFO.gov | {{page.title}}">
   <!-- <meta name="description" content="{{page.description}}"> -->
   <meta name="keyword" content="{{page.keyword}}">
 
