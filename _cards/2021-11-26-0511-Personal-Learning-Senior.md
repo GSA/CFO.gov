@@ -24,16 +24,16 @@ filters: Personal-Learning GS-14-15 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Learning (Level 4 - Advanced)</dt><dd>Completes leadership development program including training, coaching, and mentoring opportunities and applies key learnings </dd><dd> Arranges and completes rotational assignment meeting own developmental goals and aligning with organizational strategies </dd><dd> Understands how learning and development activities impact organizational objectives </dd><dd> Assists and coaches others in identifying learning and development opportunities </dd><dt>Learning (Level 5 - Expert)</dt><dd>Engages in systematic, self-directed training and development activities aligned with the strategic needs of the agency </dd><dd> Applies what is learned in training to produce major positive impact for the agency </dd><dd> Recommends newly learned methods that can be implemented by others</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Learning (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Learning (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

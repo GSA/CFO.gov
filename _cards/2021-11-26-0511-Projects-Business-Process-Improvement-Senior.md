@@ -23,16 +23,16 @@ filters: Projects-Business-Process-Improvement GS-14-15 series-0511
 ---
 
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Business Process Improvement (Level 4 - Advanced)</dt><dd>Describes and documents critical cross-functional business process flows </dd><dd> Applies business process reengineering techniques and methods in analyzing process flow and accountability charts </dd><dd> Recommends and advocates substantive process enhancements and assesses both internal and external implications</dd><dt>Business Process Improvement (Level 5 - Expert)</dt><dd>Analyzes enterprise processes for major enhancements to customer satisfaction and cost reduction </dd><dd> Applies business process reengineering (BPR) techniques to complex processes that cross the enterprise </dd><dd> Approves and sponsors process improvement recommendations </dd><dd> Identifies the value of process improvements and garners the support of stakeholders in implementation</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Business Process Improvement (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Business Process Improvement (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

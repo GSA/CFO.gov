@@ -1,9 +1,9 @@
-<div class="usa-media-block tablet:grid-col-4 desktop:grid-col-4 career-advancement-block" style="padding-right:inherit">
-    <h2 class="text-color">FILTER YOUR RESULTS</h2>
-    <div id="secondary-skip" class="facets-panel bg-filter padding-y-3 radius-md padding-x-3 text-color">
+<div class="usa-media-block tablet:grid-col-4 desktop:grid-col-4 career-advancement-block margin-top-2" style="padding-right:inherit">
+    <label class="text-bold label-color" style="font-size:24px;">FILTER YOUR RESULTS</label>
+    <div id="secondary-skip" class="facets-panel bg-filter padding-y-3 radius-md padding-x-3 text-color margin-top-2">
 
-        <h3 class="margin-top-0 text-color font-sans-xs">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></h3>
-        <div class="display-flex flex-column">
+        <label class="margin-top-0 text-color font-sans-xs text-bold">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></label>
+        <div class="display-flex flex-column margin-top-2">
             {% assign series_array = "" | split: "," %}
 
             {% for item in site.cards %}
@@ -24,13 +24,13 @@
                     id="series-{{ series_id }}"
                     data-id="series-{{ series_id }}"
                     aria-label="Series-{{ series }}"
-                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-2px button-border"
+                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
                 >{{ series }}</button>
             {% endfor %}
         </div>
 
-        <h3 class="text-color font-sans-xs">GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level"></i></h3>
-        <div class="display-flex flex-column">
+        <label class="text-color font-sans-xs text-bold">GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level"></i></label>
+        <div class="display-flex flex-column margin-top-2">
             {% assign level_array = "" | split: "," %}
 
             {% for item in site.cards %}
@@ -50,16 +50,16 @@
                     id="GS-{{ level_id }}"
                     data-id="GS-{{ level_id }}"
                     aria-label="GS Level - {{ level }}"
-                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-2px bg-button radius-lg button-border">
+                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">
                 GS {{ level }}
             </button>
             {% endfor %}
         </div>
 
         <div class="career-competency-level-1-input-group">
-            <h3 class="font-sans-xs text-color" >Job Specific Technical <br> Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="You may further filter by selecting job-specific competencies (i.e., specialized knowledge is required for each job series)"></i></h3>
+            <label class="font-sans-xs text-color text-bold" >Job Specific Technical <br> Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="You may further filter by selecting job-specific competencies (i.e., specialized knowledge is required for each job series)"></i></label>
             <div class="career-input-group">
-                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-2px bg-button radius-lg button-border" for="job-career-competency-select-all" id="job-career-competency-select"><strong>SELECT ALL</strong></label>
+                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border" for="job-career-competency-select-all" id="job-career-competency-select"><strong>SELECT ALL</strong></label>
                 <input style="position: absolute; left: -9999px;" type="checkbox" id="job-career-competency-select-all"/>
             </div>
         </div>
@@ -89,7 +89,7 @@
 
             {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
             <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
-                <div class="career-competency-level-2-input-group padding-1 text-bold text-color bg-button radius-lg border-2px button-border flex-column">
+                <div class="career-competency-level-2-input-group padding-1 text-bold text-color bg-button radius-lg border-1px button-border flex-column">
                     <div class="career-competency-toggle-open">
                         <div class="career-competency-toggle-open--inner">
                             <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}" class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
@@ -130,9 +130,9 @@
             {% endfor %}
         </div>
         <div class="career-competency-level-1-input-group">
-            <h3 class="font-sans-xs text-color">General Career <br />Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right"  title="General competencies are the same for all Federal employees."></i></h3>
+            <label class="font-sans-xs text-color text-bold">General Career <br />Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right"  title="General competencies are the same for all Federal employees."></i></label>
             <div class="career-input-group">
-                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-2px bg-button radius-lg button-border" for="general-career-competency-select-all" id="general-career-competency-select"><strong>SELECT ALL</strong></label>
+                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border" for="general-career-competency-select-all" id="general-career-competency-select"><strong>SELECT ALL</strong></label>
                 <input style="position: absolute; left: -9999px;" type="checkbox" id="general-career-competency-select-all"/>
             </div>
         </div>
@@ -142,7 +142,7 @@
 
                 {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
                 <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
-                    <div class="career-competency-level-2-input-group padding-1 text-bold text-color bg-button radius-lg border-2px button-border flex-column">
+                    <div class="career-competency-level-2-input-group padding-1 text-bold text-color bg-button radius-lg border-1px button-border flex-column">
                         <div class="career-competency-toggle-open">
                             <div class="career-competency-toggle-open--inner">
                             <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>

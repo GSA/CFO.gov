@@ -20,17 +20,17 @@ filters: Projects-Team-Building GS-14-15 series-0501
 ---
 
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Team Building (Level 5 - Expert)</dt><dd>Leads a team to address controversial agency-wide legislative and regulatory policy issues </dd><dd> Inspires interagency team to accomplish long-term strategic goals
 </dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Team Building (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

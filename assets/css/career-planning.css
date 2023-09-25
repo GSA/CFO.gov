@@ -26,7 +26,7 @@
     .facets-panel .usa-button[id*="series-"]:hover,
     .facets-panel .usa-button[id*="job-career-competency-select"]:hover,
     .facets-panel .usa-button[id*="general-career-competency-select"]:hover {
-        border-bottom: 2px solid #adadad;
+        border-bottom: 1px solid #adadad;
     }
 
 .facets-panel .usa-button.active {
@@ -331,8 +331,9 @@ div[data-card-filter] {
 
 .cfo-career-outer-box {
     width: 100%;
-    border: 1px solid #C7E2FD;
+    border: 1px solid #4F9E99;
     background-color: #fff;
+    border-radius: 0.25rem;
 }
 
 .select-button {
@@ -433,13 +434,13 @@ div[data-card-filter] {
 }
 
 .border-blue {
-    border: 2px solid #005ea2;
+    border: 2px solid #4F9E99;
 }
 
 #career-advancement-results-container .usa-accordion--bordered .usa-accordion__content {
-    border-bottom: 0.25rem solid #CBE0F5 !important;
-    border-left: 0.25rem solid #CBE0F5 !important;
-    border-right: 0.25rem solid #CBE0F5 !important;
+    border-bottom: 0.25rem solid #4f9e991a !important;
+    border-left: 0.25rem solid #4f9e991a !important;
+    border-right: 0.25rem solid #4f9e991a !important;
     padding-bottom: 1rem !important;
 }
 
@@ -471,39 +472,40 @@ div[data-card-filter] {
 }
 
 .bg-filter {
-    background-color: #CBE0F559 !important;
+    background-color: #4f9e991a !important;
 }
 
 .button-border {
-    border-color: #A1B8D1 !important;
+    border-color: #4F9E99 !important;
 }
 
 .text-color {
     color: #092644 !important;
 }
 
+.label-color {
+    color: #4F9E99 !important;
+}
+
 .bg-search {
-    background-color: #003062 !important;
+    background-color: #ab6600 !important;
     background-image: none !important;
     border-radius: 0.25rem !important;
     margin-left: 10px !important;
 }
 
 .search-border {
-    border-color: #B4D8FD !important;  
+    border-color: #4F9E99 !important;
 }
 
 @media only screen and (max-width: 640px) {
-    .search-border {
-        border-color: #003062 !important;
-    }
     .bg-search {
         margin-left: 0px !important;
     }
 }
 
 .card-text-color {
-    color: #1b74e0 !important;
+    color: #346865 !important;
 }
 .card-content-color {
     color: #003062 !important;
@@ -514,12 +516,12 @@ div[data-card-filter] {
 }
 
 .border-top-blue {
-    border-top-color: #1b74e0 !important;
+    border-top-color: #ab6600 !important;
 }
 
 .hr {
-    background-color: #CBE0F559;
-    height:10px;
+    background-color: #4f9e991a;
+    height: 10px;
 }
 
 .wfm-header {
@@ -538,14 +540,22 @@ div[data-card-filter] {
     }
 }
 
-.border-color {
-    border-color: #003062 !important;
-}
-
 .bg-button{
     background-color: #CBE0F500 !important;
 }
 
 .usa-list li.li-width {
     max-width: none;
+}
+
+.ui-widget.ui-widget-content {
+    border:1px solid #4f9e99 !important;
+}
+
+.font-size-21{
+    font-size:21px;
+}
+
+.hr-green {
+    border-color: #4F9E99 !important;
 }

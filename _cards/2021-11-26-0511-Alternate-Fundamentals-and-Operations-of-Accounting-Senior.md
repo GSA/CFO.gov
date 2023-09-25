@@ -27,16 +27,16 @@ filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-051
 ---
 
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 2 - Basic)</dt><dd>Extracts, records and balances basic information from routine or recurring reports using standardized procedures</dd><dt>Fundamentals and Operations of Accounting (Level 3 - Intermediate)</dt><dd>Researches, organizes and reconciles relevant information from accounts, systems and reports using various standardized procedures</dd><dt>Fundamentals and Operations of Accounting (Level 4 - Advanced)</dt><dd>Examines non-routine financial management documentation to ensure accuracy and completeness of accounting transactions and accounts and identifies potential solutions for inaccurate or incomplete entries</dd><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Fundamentals and Operations of Accounting (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Fundamentals and Operations of Accounting (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

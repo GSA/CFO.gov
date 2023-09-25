@@ -36,16 +36,16 @@ filters: Personal-Interpersonal-Skills GS-7-9 series-0560
 ---
 
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Behavior Illustrations</h3>
-    <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Interpersonal Skills (Level 1 - Awareness)</dt><dd>Interacts with co-workers in a tactful manner </dd><dd> Responds to employee inquiries</dd><dt>Interpersonal Skills (Level 2 - Basic)</dt><dd>Shows employees empathy and respect </dd><dd> Welcomes new employees into organization by explaining mission and agency goals </dd><dd> Develops and maintains effective working relationships</dd><dt>Interpersonal Skills (Level 3 - Intermediate)</dt><dd>Makes self accessible to employees at all levels </dd><dd> Corrects employee mistakes in a courteous manner </dd><dd> Demonstrates courtesy, empathy and respect</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
-  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg card-text-color">
-    <h3>Proficiency Level Definition</h3>
-     <hr style="background-color: #1b74e0 !important;"/>
+  <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Interpersonal Skills (Level 1 - Awareness)</dt><dd>Applies the competency in the simplest situations </dd><dd> Requires close and extensive guidance </dd><dd> Demonstrates awareness of concepts and processes</dd><dt>Interpersonal Skills (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd><dt>Interpersonal Skills (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

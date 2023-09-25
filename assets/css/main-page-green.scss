@@ -1348,3 +1348,12 @@ a.checked {
   bottom: 2.75rem !important;
 }
 
+@supports (-webkit-mask: url("")) or (mask: url("")) {
+    .usa-nav__primary button[aria-expanded="false"] span::after {
+        background-color: #71767A;
+    }
+}
+
+.bg-primary-darker {
+    background-color: #4F9E99;
+}
