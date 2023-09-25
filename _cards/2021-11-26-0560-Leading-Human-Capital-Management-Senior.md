@@ -29,15 +29,15 @@ filters: Leading-Human-Capital-Management GS-14-15 series-0560
 
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
-    <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Human Capital Management (Level 4 - Advanced)</dt><dd>Develops rewards system to recognize the impact of employee contributions to the organization </dd><dd> Identifies creative strategies to recruit employees with the required skills and qualifications, despite having limited resources </dd><dd> Identifies mission critical occupations and associated competencies needed to perform organizational functions</dd><dt>Human Capital Management (Level 5 - Expert)</dt><dd>Redesigns organizational structure to provide improved service to customers by considering organizational goals, timeframes for achieving goals, and staff responsibilities </dd><dd> Creates new agency-wide human capital programs and activities to meet strategic objectives </dd><dd> Leads task force to analyze agency-wide staffing needs and develops strategy to address recruitment needs </dd><dd> Develops new agency-wide incentive program to retain employees with technical expertise</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
-     <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Human Capital Management (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Human Capital Management (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

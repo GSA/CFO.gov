@@ -33,15 +33,15 @@ filters: Leading-Developing-Others GS-10-13 series-0510
 
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
-    <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Developing Others (Level 3 - Intermediate)</dt><dd>Assesses staff and provides timely and consistent feedback regarding technical proficiency and effectiveness </dd><dd> Provides constructive feedback, guidance and reinforcement to employees regarding job performance </dd><dd> Works with staff to identify work goals and create individual development plans </dd><dd> Evaluates training programs to ensure content meets staff needs</dd><dt>Developing Others (Level 4 - Advanced)</dt><dd>Recommends details and developmental assignments to staff based on career interests and work unit needs </dd><dd> Recognizes staff potential and guides employees in developing skills by recommending appropriate training and sources of information </dd><dd> Works with staff to develop individual development plans addressing employee needs and meeting organizational goals</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
-     <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Developing Others (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Developing Others (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

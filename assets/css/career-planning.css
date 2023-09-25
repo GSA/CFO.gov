@@ -551,3 +551,11 @@ div[data-card-filter] {
 .ui-widget.ui-widget-content {
     border:1px solid #4f9e99 !important;
 }
+
+.font-size-21{
+    font-size:21px;
+}
+
+.hr-green {
+    border-color: #4F9E99 !important;
+}

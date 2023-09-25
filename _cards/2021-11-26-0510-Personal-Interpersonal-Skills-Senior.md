@@ -28,16 +28,16 @@ filters: Personal-Interpersonal-Skills GS-14-15 series-0510
 
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
-    <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Interpersonal Skills (Level 4 - Advanced)</dt><dd>Treats individuals from all levels of the agency with courtesy and sensitivity </dd><dd> Meets with staff and listens to their perspective on organizational policies and procedures </dd><dd> Displays professionalism, tact, and empathy when working with groups
 </dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
-     <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Interpersonal Skills (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

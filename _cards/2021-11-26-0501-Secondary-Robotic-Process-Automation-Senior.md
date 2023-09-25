@@ -22,16 +22,16 @@ filters: Secondary-Robotic-Process-Automation GS-14-15 series-0501
 
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
-    <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Robotic Process Automation (Level 3 - Intermediate)</dt><dd>Uses RPA to simplify a wide range of processes </dd><dd> Identifies, selects, and implements RPA to improve processes or functions </dd><dt>Robotic Process Automation (Level 4 - Advanced)</dt><dd>Reviews, provides quality assurance, and approves RPA implementations </dd><dd> Designs and implements RPA for complex processes or functions</dd><dt>Robotic Process Automation (Level 5 - Expert)</dt><dd>Designs and implements RPA solutions in novel and challenging circumstances </dd><dd> Trains, coaches, or champions the use of RPA within an organization </dd><dd> Oversees a team of individuals implementing RPA solutions 
 </dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
-     <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Robotic Process Automation (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Robotic Process Automation (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Robotic Process Automation (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

@@ -24,15 +24,15 @@ filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-1
 
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
-    <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Military and Civilian Pay (Level 3 - Intermediate)</dt><dd>Researches historical pay account or contact customer on certain transactions before making input into automated system and performs reviews for accuracy</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
-     <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Military and Civilian Pay (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

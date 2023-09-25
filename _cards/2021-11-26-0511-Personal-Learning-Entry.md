@@ -22,15 +22,15 @@ filters: Personal-Learning GS-7-9 series-0511
 
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
-    <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Learning (Level 2 - Basic)</dt><dd>Attends professional conferences to maintain technical knowledge </dd><dd> Solicits periodic feedback to continually improve quality of own work </dd><dd> Visits other work site to gain understanding of staff functions and daily tasks </dd><dd> Develops knowledge and skills through on-the-job experience</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
-     <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Learning (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd> Requires frequent guidance </dd><dd> Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

@@ -23,15 +23,15 @@ filters: Projects-Team-Building GS-10-13 series-0510
 
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
-    <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Team Building (Level 3 - Intermediate)</dt><dd>Includes entire team in decision-making process when developing mission and goals for the division </dd><dd> Creates senior-level teams to design and implement requirements for new systems and procedures </dd><dd> Leads team from various organizational units to create new systems or processes</dd><dt>Team Building (Level 4 - Advanced)</dt><dd>Promotes cohesiveness of a dysfunctional team by defining roles and responsibilities of each team member and establishing overall objectives </dd><dd>Leads teams to implement Congressional programs and interact with legislative representatives </dd><dd> Motivates agency-wide team by assigning work based on team member skill level and area of interest</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
-     <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Team Building (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Team Building (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

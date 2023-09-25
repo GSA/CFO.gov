@@ -30,15 +30,15 @@ filters: Secondary-Contract-Management GS-10-13 series-0501
 
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Behavior Illustrations</p>
-    <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
+    <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Contract Management (Level 3 - Intermediate)</dt><dd>Assists with financial analysis to evaluate cost and price proposals or renegotiation of cost/price of contracts as appropriate </dd><dd> Identifies appropriate funding line of accounting for use in response and recovery activities following an unplanned contingency </dd><dd> Performs periodic accounting reconciliation to ensure integrity of financial information or data</dd><dt>Contract Management (Level 4 - Advanced)</dt><dd>Conducts financial management analysis to consult on the evaluation of contracts </dd><dd> Provides financial management guidance for complex funding streams to assist in monitoring a contracting project</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
-    <p style="font-size:21px" class="text-bold label-color">Proficiency Level Definition</p>
-     <hr style="border-color: #4F9E99 !important;"/>
+    <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
+     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Contract Management (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd> Requires occasional guidance </dd><dd> Demonstrates understanding of concepts and processes</dd><dt>Contract Management (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>
