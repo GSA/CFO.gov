@@ -548,9 +548,9 @@ div[data-card-filter] {
     max-width: none;
 }
 
-.ui-widget.ui-widget-content {
+/*.ui-widget.ui-widget-content {
     border:1px solid #4f9e99 !important;
-}
+}*/
 
 .font-size-21{
     font-size:21px;
