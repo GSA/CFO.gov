@@ -33,7 +33,7 @@ title: Priority
     <div class="grid-row clearfix grid-container priority-icons">
 
         {% for icon in page.priority_icons %}
-        {% if page.number_of_icons > 4 %}
+        {% if page.number_of_icons >= 4 %}
         <div class="tablet:grid-col-4 text-center margin-bottom-2 margin-top-3">
             {% endif %}
             {% if page.number_of_icons <= 3 %}
