@@ -3,7 +3,7 @@ layout: priority-copy
 title: Federal Financial Assistance
 permalink: /federal-financial-assistance/
 type: ffa
-number_of_icons: 4
+number_of_icons: 5
 description: 
 keyword: 
 priority_icons: 
@@ -19,6 +19,9 @@ priority_icons:
  - name: 'Uniform Guidance: Promising Practices in Implementation'
    logo: /assets/images/logos/grants.svg
    url: /resources/uniform-guidance-promising-practices-in-implementation/
+ - name: 'Grants Training'
+   logo: /assets/images/logos/grants.svg
+   url: /resources/grants-training/
 description1:
 ---
 
