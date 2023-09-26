@@ -38,7 +38,7 @@
 }
 
 .usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
-  background-color: #d83933;
+  background-color: #d83933 !important;
 }
 .circle-image {
   border-radius: 50%;
@@ -100,7 +100,6 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
   background-repeat: no-repeat;
   background-color: #f9f9f9;
   background-position: bottom right;
-  background-size: 16%;
 }
 .ui-tabs-vertical .ui-tabs-nav {
   padding: 1.5em 0;
