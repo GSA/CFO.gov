@@ -19,9 +19,9 @@ priority_icons:
  - name: 'Uniform Guidance: Promising Practices in Implementation'
    logo: /assets/images/logos/grants.svg
    url: /resources/uniform-guidance-promising-practices-in-implementation/
- - name: 'Grants Training'
+ - name: Federal Financial Assistance Training
    logo: /assets/images/logos/grants.svg
-   url: /resources/grants-training/
+   url: /resources/federal-financial-assistance-training/
 description1:
 ---
 

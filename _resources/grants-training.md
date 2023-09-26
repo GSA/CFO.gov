@@ -1,9 +1,9 @@
 ---
 layout: resources-landing
-title: "Grants Training"
-subtitle: "Grants Training"
+title: "Federal Financial Assistance Training"
+subtitle: "Federal Financial Assistance Training"
 filters: federal-financial-assistance training omb
-permalink: /resources/grants-training/
+permalink: /resources/federal-financial-assistance-training/
 fiscal_year:
 ---
 
