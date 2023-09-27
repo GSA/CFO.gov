@@ -60,6 +60,7 @@
          removeButtonA.setAttribute("id", competencyGroup + "-button");
          removeButtonA.setAttribute("class", "usa-tag bg-filter margin-top float-left text-color padding-1 margin-1 text-capitalize text-no-underline");
          removeButtonA.innerHTML = itemName;
+         removeButtonA.setAttribute("aria-label", itemName);
          buttonCompetencyContainer.appendChild(removeButtonA);
      }
  
@@ -70,6 +71,7 @@
              if (replacedText.includes(item) && item.includes(competencyGroup)) {
                  subButton.setAttribute("class", "usa-tag bg-filter  margin-top float-left text-color padding-1 margin-1 text-capitalize text-no-underline");
                  subButton.innerHTML = replacedText.replace(item, itemName);
+                 subButton.setAttribute("aria-label", itemName);
              }
          });
      }
