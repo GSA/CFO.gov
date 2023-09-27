@@ -8,6 +8,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    autoprefixer-rails (10.4.13.0)
+      execjs (~> 2)
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
     em-websocket (0.5.1)
@@ -126,6 +128,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  autoprefixer-rails
   html-proofer (~> 3.10)
   jekyll (~> 3.8)
   jekyll-assets
@@ -134,6 +137,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
+  kramdown (= 1.17.0)
   sprockets (~> 3.7)
   tzinfo-data
 
