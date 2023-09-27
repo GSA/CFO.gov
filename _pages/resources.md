@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: Chief Financial Officers Council - Resources
 layout: default
 permalink: /resources/
 description: Resources
@@ -10,7 +10,7 @@ keyword: Resources
     <div class="grid-row grid-gap padding-top-6 padding-bottom-6">
         <div class="grid-col-10 grid-offset-1">
             <div class="priority-tag-line">
-                <h1 class="margin-0 font-ui-2xl">{{ page.title }}</h1>
+                <h1 class="margin-0 font-ui-2xl">Resources</h1>
             </div>
         </div>
     </div>

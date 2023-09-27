@@ -1,0 +1,561 @@
+/* override */
+/*.usa-banner__button::after {*/
+/*  background-image: url("../../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent) !important;*/
+/*}*/
+
+#career-facet-remove-all-filters-button {
+  display: none;
+}
+
+.career-advancement-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.career-facets-filter-heading {
+  color: #aaa;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.facets-panel {
+  width: 100%;
+}
+
+    .facets-panel .usa-button[id*="GS-"]:hover,
+    .facets-panel .usa-button[id*="series-"]:hover,
+    .facets-panel .usa-button[id*="job-career-competency-select"]:hover,
+    .facets-panel .usa-button[id*="general-career-competency-select"]:hover {
+        border-bottom: 1px solid #adadad;
+    }
+
+.facets-panel .usa-button.active {
+  background-color: #1a4480 !important;
+  color: white !important;
+}
+
+.facets-panel label {
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  text-align: right;
+  margin-top: 25px;
+}
+
+.career-search__label {
+  position: absolute;
+  top: -45px;
+}
+
+.career-search-results-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.cfo-card-header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cfo-card-below-header-content p {
+  margin-top: 0;
+}
+
+.career-card-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cfo-inner-card-content {
+  border-width: 2px;
+  border-color: #dfe1e2;
+  border-style: solid;
+  border-top-width: 6px;
+  border-top-color: #F39268;
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+  ;
+  border-bottom-left-radius: .2rem !important;
+  border-bottom-right-radius: .2rem !important;
+  padding: 20px;
+  margin-top: 10px;
+  width: 33%;
+}
+
+input#career-advancement-search-input {
+  width: 230px;
+}
+
+#cfo-search-button {
+  height: 2.5rem;
+  width: 30%;
+}
+
+@media screen and (min-width: 750px) {
+  input#career-advancement-search-input {
+    width: 27rem;
+  }
+}
+
+.career-search-results-inner-heading {
+  display: flex;
+}
+
+.career-competency-level-1-input-group,
+.career-competency-level-2-input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-competency-level-1-input-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.career-competency-level-1-input-group h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.career-competency-input-groups-label {
+  font-weight: normal;
+}
+
+.career-competency-input-groups {
+  padding: 0px 10px;
+}
+
+.career-competency-toggle-open--inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.usa-button--unstyled:hover,
+.usa-button--unstyled:active {
+  text-decoration: none !important;
+}
+
+.career-competency-toggle-open b {
+  margin-left: 5px;
+}
+
+.text-offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+/* .career-search-results-heading {
+  flex: 2;
+}
+
+.career-search-results-filter-compare-button {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.career-search-results-filter-compare-button button {
+  display: block;
+  padding: 10px;
+  width: 150px;
+  border-color: #333333;
+  color: #333333;
+  background-color: #eee;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+} */
+
+.career-search-results-filter-pagination {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+.career-search-results-pagination-wrapper {
+  display: flex;
+  width: 20em;
+  justify-content: space-between;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.career-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.ogp-banner{
+  max-width: 87.5rem !important;
+}
+
+@media (max-width: 640px) {
+   .search {
+        flex-direction: column;
+   }
+    .width {
+        width: 92% !important;
+    }
+  .ui-dialog{
+    width: 90% !important;
+    margin-left: 20px;
+  }
+
+  #career-download-buttons{
+    flex-direction: column;
+    width: 100% !important;   
+  }
+
+  .career-download-button-1{
+    width: 100% !important;
+  }
+
+  #career-download-button-2{
+    width: 100% !important;
+  }
+
+  #career-download-button-3{
+    width: 100% !important;
+  }
+
+  a{
+    overflow-wrap: break-word !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .search-container{
+    display: block;
+  }
+
+  form.usa-search{
+    display: block !important;
+    margin-right: -2rem !important;
+  }
+
+  a{
+    overflow-wrap: break-word !important;
+  }
+  .career-search-results-pagination-wrapper{
+    margin: unset;
+  }
+
+  .career-search-results-page-size-wrapper{
+    margin-top: 12px;
+  }
+
+  .ogp-img {
+    width: 150px !important;
+    margin-top: 7px !important;
+  }
+
+  .maxw-tablet h1 {
+    font-size: 2rem !important;
+  }
+  .maxw-tablet p {
+    font-size: 1.5rem !important;
+  }
+
+  .career-competency-toggle-button{
+    width: 50% !important;
+  }
+
+  #series-gs-container{
+    flex-wrap: wrap;
+  }
+
+  #competencies-container {
+        flex-wrap: wrap;
+  }
+
+  #series{
+    margin-bottom: 0.5rem;
+  }
+
+  #gs, #job-competency, #series, #general-competency{
+    padding: 0px;
+  }
+
+  #job-competency{
+        margin-bottom: 8px;
+  }
+}
+
+
+/*************** boxes ***************/
+
+/* .cfo-courses-outer {
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+.cfo-page-left,
+.cfo-page-right {
+    cursor: pointer;
+    padding: 7px 12px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px !important;
+    background-color: white;
+}
+
+/************* Search *********************/
+
+.cfo-pagination-text {
+  padding: 0;
+  margin: 0;
+}
+
+.cfo-career-results-text-bold {
+  font-weight: bold;
+}
+
+/*** Cards ***/
+
+div[data-card-filter] {
+  position: relative;
+}
+
+
+.cfo-career-outer-box {
+    width: 100%;
+    border: 1px solid #4F9E99;
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+
+.select-button {
+  position: absolute;
+  font-size: 0.9em;
+  top: 5px;
+  right: 5px;
+}
+
+.facets-panel .usa-button:hover {
+    background-color: #CBE0F500 !important;
+    color: initial;
+}
+
+.facets-panel .usa-button.active:hover {
+  background-color: #1a4480 !important;
+  color: white;
+}
+
+.cfo-courses-outer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-card-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-card-content .card-content-column {
+  width: 30%;
+  border: 1px solid #b6b6b6;
+  border-top: 5px solid #f39268;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+/* .cfo-career-text-container p span {
+  margin-right: 12em;
+} */
+
+.cfo-career-text-container p.competency-desc {
+  font-size: 125%;
+}
+
+.career-card-content .card-content-column dl {
+  color: #61666F;
+}
+
+.career-card-content .card-content-column dt {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.career-card-content .card-content-column dd {
+  margin-inline-start: 2em;
+}
+
+.career-card-content .card-content-column.prof-level dd {
+  list-style-type: disc;
+  display: list-item;
+}
+
+.border-top-orange {
+  border-top-color: #f39268 !important;
+}
+
+.cfo-career-category-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 57%;
+}
+
+.cfo-inner-competency-div {
+  width: 100%;
+}
+
+#career-search-results .grid-spacing {
+  padding: 0 !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cpt-strong {
+  min-width: 57px;
+  display: block;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .cfo-career-category-container {
+    width: 95%;
+  }
+
+  .cfo-inner-competency-div {
+    width: 47%;
+  }
+}
+
+.border-blue {
+    border: 2px solid #4F9E99;
+}
+
+#career-advancement-results-container .usa-accordion--bordered .usa-accordion__content {
+    border-bottom: 0.25rem solid #4f9e991a !important;
+    border-left: 0.25rem solid #4f9e991a !important;
+    border-right: 0.25rem solid #4f9e991a !important;
+    padding-bottom: 1rem !important;
+}
+
+.bg-accent-warm.usa-accordion__button:hover {
+    background-color: #fa9441 !important;
+}
+
+.margin-top{
+    margin-top:0px !important;
+}
+
+.ui-dialog .ui-widget-header{
+    border:none !important;
+    background-color:none !important;
+    background:none !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.competencies-button {
+  border-radius: 50%;
+  background-color: white;
+  padding: 2px;
+  min-width: 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+.bg-filter {
+    background-color: #4f9e991a !important;
+}
+
+.button-border {
+    border-color: #4F9E99 !important;
+}
+
+.text-color {
+    color: #092644 !important;
+}
+
+.label-color {
+    color: #4F9E99 !important;
+}
+
+.bg-search {
+    background-color: #ab6600 !important;
+    background-image: none !important;
+    border-radius: 0.25rem !important;
+    margin-left: 10px !important;
+}
+
+.search-border {
+    border-color: #4F9E99 !important;
+}
+
+@media only screen and (max-width: 640px) {
+    .bg-search {
+        margin-left: 0px !important;
+    }
+}
+
+.card-text-color {
+    color: #346865 !important;
+}
+.card-content-color {
+    color: #003062 !important;
+}
+
+.card-display {
+    display:grid;
+}
+
+.border-top-blue {
+    border-top-color: #ab6600 !important;
+}
+
+.hr {
+    background-color: #4f9e991a;
+    height: 10px;
+}
+
+.wfm-header {
+    background-image: url(../images/career-planning-tool.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height:200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wfm-header {
+        background-image: none;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+.bg-button{
+    background-color: #CBE0F500 !important;
+}
+
+.usa-list li.li-width {
+    max-width: none;
+}
+
+/*.ui-widget.ui-widget-content {
+    border:1px solid #4f9e99 !important;
+}*/
+
+.font-size-21{
+    font-size:21px;
+}
+
+.hr-green {
+    border-color: #4F9E99 !important;
+}
