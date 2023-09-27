@@ -1062,6 +1062,7 @@ abbr{
 
 .bg-yellow {
     background-color: #ffbe2e;
+    color: #225d5a;
 }
 
 .bg-green:hover, .bg-green.usa-button:hover {
@@ -1070,6 +1071,7 @@ abbr{
 
 .bg-yellow:hover, .bg-yellow.usa-button:hover {
     background-color: #ffbe2e;
+    color: #225d5a;
 }
 
 @media screen and (max-width: 700px) {
@@ -1362,6 +1364,10 @@ a.checked {
     background-size:auto;
 }
 
-.usa-button:visited,  .text-green {
+.usa-button:visited {
+    color: #225d5a;
+}
+
+.text-green {
     color: #225d5a;
 }

@@ -492,6 +492,7 @@ div[data-card-filter] {
     background-image: none !important;
     border-radius: 0.25rem !important;
     margin-left: 10px !important;
+    color: #225d5a !important;
 }
 
 .search-border {
