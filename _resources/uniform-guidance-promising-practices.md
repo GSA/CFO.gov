@@ -6,7 +6,7 @@ permalink: /resources/uniform-guidance-promising-practices-in-implementation/
 date: July 05, 2016
 author: CFO Council 
 has_date: 'yes'
-back_to_button: 'no'
+back_to_button: 'yes'
 filters: federal-financial-assistance uniform-guidance-2-cfr-200 guidance 2016
 fiscal_year: 2016
 ---

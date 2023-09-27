@@ -37,7 +37,7 @@
 }
 
 .usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
-    background-color: #ab6600;
+    background-color: #ffbe2e;
 }
 .circle-image {
   border-radius: 50%;
@@ -1062,7 +1062,8 @@ abbr{
 }
 
 .bg-yellow {
-    background-color: #ab6600;
+    background-color: #ffbe2e;
+    color: #225d5a;
 }
 
 .bg-green:hover, .bg-green.usa-button:hover {
@@ -1070,7 +1071,8 @@ abbr{
 }
 
 .bg-yellow:hover, .bg-yellow.usa-button:hover {
-    background-color: #ab6600;
+    background-color: #ffbe2e;
+    color: #225d5a;
 }
 
 @media screen and (max-width: 700px) {
@@ -1222,4 +1224,12 @@ a.checked {
 
 .usa-search [type="submit"] {
    background-image: none;
+}
+
+.usa-button:visited {
+    color: #225d5a;
+}
+
+.text-green {
+    color: #225d5a;
 }
