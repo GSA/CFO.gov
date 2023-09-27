@@ -1,5 +1,6 @@
 // Import the US Web Design System SASS.
 
+@import "uswds";
 @import "fonts/stylesheet.css";
 
 // Add your SASS/CSS here
@@ -24,12 +25,6 @@
   }
   .tablet\:float-left {
     float: left;
-  }
-
-  .tablet\:grid-col-3{
-    -webkit-box-flex:0;
-    -ms-flex:0 1 auto;
-    flex:0 1 auto;
   }
 }
 

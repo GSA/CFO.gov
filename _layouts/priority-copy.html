@@ -9,7 +9,7 @@ title: Priority
     <div class="grid-row grid-gap flex-align-center">
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.svg"
-                 alt="{{ page.type }}" />
+                alt="{{ page.type }}" />
         </div>
         <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
             <div class="priority-tag-line">
@@ -18,9 +18,6 @@ title: Priority
             <div class="priority-tag-line">
                 <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
             </div>
-            {% if page.type == "career-planning-training-tool" %}
-                <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button--secondary bg-yellow border-0 padding-2" href="{{site.baseurl}}/career-planning-tool/">Career Planning Tool</a>
-            {% endif %}
         </div>
     </div>
 </section>
@@ -106,10 +103,6 @@ title: Priority
 
     {% if page.type == "symposium" %}
     {% include cfo-tabs.html data = site.data.pifss_tabs %}
-    {% endif %}
-
-    {% if page.type == "career-planning-training-tool" %}
-    {% include career-planning-training-tool.html %}
     {% endif %}
 
 </section>

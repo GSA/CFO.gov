@@ -102,12 +102,12 @@ primary_navigation:
 
   - name: CXO Fellows
     url: /cxo-fellows/
-  - name: Career Planning Training Tool
-    url: /career-planning-training-tool/
 
 secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
+  - name: Career Planning Tool
+    url: /career-planning-tool/
 
 secondary_navigation_frpc:
   - name: Contact Us
@@ -183,8 +183,6 @@ collections:
     output: true
   other_resources:
     output: true
-  cards:
-    output: true
 
 permalink: pretty
 
@@ -255,7 +253,6 @@ exclude:
   - _unpublished
 
 assets:
-  source_maps: true
   digest: false
   sources:
     - node_modules/uswds/dist/img
@@ -268,5 +265,3 @@ assets:
     img: { integrity: false }
   features:
     integrity: false
-  plugins:
-    css: { autoprefixer: {}}
