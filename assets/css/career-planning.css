@@ -488,7 +488,7 @@ div[data-card-filter] {
 }
 
 .bg-search {
-    background-color: #ab6600 !important;
+    background-color: #ffbe2e !important;
     background-image: none !important;
     border-radius: 0.25rem !important;
     margin-left: 10px !important;
@@ -516,7 +516,7 @@ div[data-card-filter] {
 }
 
 .border-top-blue {
-    border-top-color: #ab6600 !important;
+    border-top-color: #ffbe2e !important;
 }
 
 .hr {

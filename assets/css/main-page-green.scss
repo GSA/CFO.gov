@@ -37,7 +37,7 @@
 }
 
 .usa-header--extended .usa-nav__primary-item > .usa-current::after, .usa-header--extended .usa-nav__primary-item > .usa-nav__link:hover::after {
-    background-color: #ab6600;
+    background-color: #ffbe2e;
 }
 .circle-image {
   border-radius: 50%;
@@ -1061,7 +1061,7 @@ abbr{
 }
 
 .bg-yellow {
-    background-color: #ab6600;
+    background-color: #ffbe2e;
 }
 
 .bg-green:hover, .bg-green.usa-button:hover {
@@ -1069,7 +1069,7 @@ abbr{
 }
 
 .bg-yellow:hover, .bg-yellow.usa-button:hover {
-    background-color: #ab6600;
+    background-color: #ffbe2e;
 }
 
 @media screen and (max-width: 700px) {
@@ -1360,4 +1360,8 @@ a.checked {
 
 .tabSection{
     background-size:auto;
+}
+
+.usa-button:visited,  .text-green {
+    color: #225d5a;
 }
