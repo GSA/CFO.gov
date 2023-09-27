@@ -89,7 +89,7 @@ keyword: CFO Council, CFOC, CXO Fellows
             <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
                 <div class="tablet:grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
                 <div class="tablet:grid-col-10  font-sans-sm">
-                    <h3 class="margin-top-0">{{ item.title }}</h3>
+                    <h2 class="margin-top-0" style="font-size: 20px;">{{ item.title }}</h2>
                     <!-- <p>{{ item.filler | truncate:500 }}</p> -->
                     {% if item.permalink %}
                     <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read More</a>

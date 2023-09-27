@@ -1,11 +1,11 @@
 ---
 layout: resources-landing
-title: CXO Fellows Program Utilize These Traits to Become a Great Leader
-subtitle: CXO Fellows Program Utilize These Traits to Become a Great Leader
+title: Utilize These Traits to Become a Great Leader
+subtitle: Utilize These Traits to Become a Great Leader
 filler: 
 permalink: /resources/utilize-these-traits-to-become-a-great-leader/
 type: CXO Fellows
-date: September 25, 2023
+date: September 27, 2023
 has_date: 'yes'
 ---
 
