@@ -11,6 +11,6 @@ fiscal_year: 2013
 
 While 2 CFR 200 is known as the Uniform Guidance, it is important to note that other OMB Guidance contained in Title 2 Subtitle A and applicable to federal financial assistance includes 2 CFR 25 Universal Identifier and System for Award Management; 2 CFR 170 Reporting Subaward and Executive Compensation Information; and 2 CFR 180 OMB Guidelines to Agencies on Governmentwide Debarment and Suspension. Similarly, agencies publish their own regulations adopting the Uniform Guidance, with some published exceptions, in Title 2 Subtitle B.
 
-<a class="padding-y-105 padding-x-4 margin-top-1 text-no-underline text-white margin-bottom-1 usa-button bg-blue border-0 padding-1" href="{{site.baseurl}}/resources/#focus_area=*&sub_focus_area=*&type=.guidance&source=*&fiscal_year=*" aria-label="Guidance related resources">Resources</a>
-
 OMB is currently proposing updates to the Uniform Guidance, which will be posted for public comment in <a href="https://www.federalregister.gov/">Federal Register</a>.  A redline version of the proposed changes can be viewed <a href="{{site.baseurl}}/assets/files/Uniform Guidance Revisions - Redline (2023).pdf">here</a>.
+
+<a class="padding-y-105 padding-x-4 margin-top-1 text-no-underline text-white margin-bottom-1 usa-button bg-blue border-0 padding-1" href="{{site.baseurl}}/resources/#focus_area=*&sub_focus_area=*&type=.guidance&source=*&fiscal_year=*" aria-label="Guidance related resources">Resources</a>
