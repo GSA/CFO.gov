@@ -184,7 +184,7 @@ collections:
   other_resources:
     output: true
   cards:
-    output: true
+    output: false
 
 permalink: pretty
 
