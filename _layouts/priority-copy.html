@@ -64,32 +64,12 @@ title: Priority
 
 <section class="grid-container grid-gap usa-graphic-list clearfix tabSection">
 
-    {% if page.type == "fdt" %}
-    {% include priority_fdt_sidenav.html %}
-    {% endif %}
-
-    {% if page.type == "fmt" %}
-    {% include priority_fmt_sidenav.html %}
-    {% endif %}
-
-    {% if page.type == "financial-assistance" %}
-    {% include priority_grants_sidenav.html %}
-    {% endif %}
-
-    {% if page.type == "erm" %}
-    {% include priority_erm_sidenav.html %}
-    {% endif %}
-
     {% if page.type == "payment-integrity" %}
     {% include cfo-tabs.html data = site.data.pi_tabs %}
     {% endif %}
 
     {% if page.type == "workforce-modernization" %}
     {% include cfo-tabs.html data = site.data.workforce_modernization_tabs %}
-    {% endif %}
-
-    {% if page.type == "arp" %}
-    {% include priority_arp_sidenav.html %}
     {% endif %}
 
     {% if page.type == "major-legislation" %}
