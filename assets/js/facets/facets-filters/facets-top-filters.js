@@ -129,6 +129,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
             if (replacedText.includes(item) && item.includes(competencyGroup)) {
                 subButton.setAttribute("class", "usa-tag bg-filter  margin-top float-left text-color padding-1 margin-1 text-capitalize text-no-underline");
                 subButton.innerHTML = replacedText.replace(item, itemName);
+                subButton.setAttribute("aria-label", itemName);
             }
         });
         if (itemLength == 0) {
@@ -179,7 +180,8 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         });
         $("#dialog").dialog({
             width: 600,
-            title: competencyGroup.charAt(0).toUpperCase() + competencyGroup.slice(1)
+            title: competencyGroup.charAt(0).toUpperCase() + competencyGroup.slice(1),
+            open: function (event, ui) { $('.ui-dialog').attr('aria-describedeby', competencyGroup); }
         });
         $('#dtags .usa-tag').each(function(){
             $(this).unbind('click').on('click', function(e){
