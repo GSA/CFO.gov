@@ -181,7 +181,7 @@ function onPopupSubButtonClick(competencyGroup, id, competencyTitle) {
         $("#dialog").dialog({
             width: 600,
             title: competencyGroup.charAt(0).toUpperCase() + competencyGroup.slice(1),
-            open: function (event, ui) { $('.ui-dialog').attr('aria-describedeby', competencyGroup); }
+            open: function (event, ui) { $('.ui-dialog').attr('aria-describedby', competencyGroup); }
         });
         $('#dtags .usa-tag').each(function(){
             $(this).unbind('click').on('click', function(e){
