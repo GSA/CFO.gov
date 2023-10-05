@@ -181,6 +181,8 @@ collections:
 permalink: pretty
 
 markdown: kramdown
+
+url: https://www.cfo.gov
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
