@@ -1,5 +1,5 @@
 - name: about
-  title: About the <abbr title="Federal Real Property Council">FRPC</abbr>
+  title: About <abbr title="Federal Real Property Council">FRPC</abbr>
   path: /frpc/about/
   content: |
     <h2>Goal Statement</h2>
