@@ -36,7 +36,7 @@
     background-color: #d83933;
 }
 
-.usa-header--extended .usa-nav__primary-item > .usa-current::after, .usa-header--extended .usa-nav__primary-item > .usa-nav__link:hover::after {
+.usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
     background-color: #ffbe2e;
 }
 .circle-image {
@@ -1374,4 +1374,12 @@ a.checked {
 
 .usa-button:disabled:hover {
     color: #c9c9c9;
+}
+
+.usa-button:visited {
+    color: #225d5a;
+}
+
+.text-green {
+    color: #225d5a;
 }
