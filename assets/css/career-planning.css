@@ -115,7 +115,6 @@ input#career-advancement-search-input {
 
 .career-competency-level-1-input-group {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .career-competency-level-1-input-group h3 {
@@ -559,4 +558,15 @@ div[data-card-filter] {
 
 .hr-green {
     border-color: #4F9E99 !important;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .career-competency-level-1-input-group {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .career-input-group .usa-button {
+        width: 100% !important;
+    }
 }
