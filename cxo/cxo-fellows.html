@@ -88,27 +88,27 @@ keyword: CFO Council, CFOC, CXO Fellows
                 <img src="{{site.baseurl}}/assets/images/cxo-quote-marcia.png" class="cxo-image" alt="Image with a quote saying, “I cannot say enough about the positive impact the CXO Fellows Program has made in my life. During the first 6 months of the CXO Fellows Program, I have built a network of diverse, creative, and forward-thinking colleagues across government who offer advice, encouragement, and sharing of experiences. I have had numerous opportunities to network with senior executives and other agency leaders, who have all been more than willing to spend time in one-on-one conversations offering insight and supportive advice about the leadership journey in federal service. I am so excited to be on this journey in service to our country.">
             </div>
 
-    <div id="tabs-5" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-1" class="tablet:grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
-        {% assign sorted = site.cxo_resources| concat: site.external_cxo_resources | where: 'has_date', 'yes' | where: 'type', 'cxo' | sort: 'date' | reverse %}
-        {% for item in sorted %}
-        <div class="border-top border-gray-30 grid-container">
-            <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
-                <div class="tablet:grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
-                <div class="tablet:grid-col-10  font-sans-sm">
-                    <h3 class="margin-top-0">{{ item.title }}</h3>
-                    <!-- <p>{{ item.filler | truncate:500 }}</p> -->
-                    {% if item.permalink %}
-                    <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read More</a>
-                    {% elsif item.doc-link %}
-                    <a class="text-no-underline text-bold" href="{{ item.doc-link }}">Download the brochure</a>
-                    {% elsif item.external_link %}
-                    <a class="text-no-underline text-bold" href="{{ item.external_link }}">Read More</a>
-                    {% endif %}
+            <div id="tabs-5" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-1" class="tablet:grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
+                {% assign sorted = site.cxo_resources| concat: site.external_cxo_resources | where: 'has_date', 'yes' | where: 'type', 'cxo' | sort: 'date' | reverse %}
+                {% for item in sorted %}
+                <div class="border-top border-gray-30 grid-container">
+                    <div class="grid-row grid-gap margin-top-2 margin-bottom-3">
+                        <div class="tablet:grid-col-2 text-center"><p class="pill radius-pill padding-top-1 padding-bottom-1 margin-top-0 margin-bottom-0">{{ item.date | date: "%m/%d/%Y" }}</p></div>
+                        <div class="tablet:grid-col-10  font-sans-sm">
+                            <h3 class="margin-top-0">{{ item.title }}</h3>
+                            <!-- <p>{{ item.filler | truncate:500 }}</p> -->
+                            {% if item.permalink %}
+                            <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read More</a>
+                            {% elsif item.doc-link %}
+                            <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.doc-link }}">Download the brochure</a>
+                            {% elsif item.external_link %}
+                            <a class="text-no-underline text-bold" href="{{ item.external_link }}">Read More</a>
+                            {% endif %}
+                        </div>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
-        </div>
-        {% endfor %}
-    </div>
 
 
         </div>
