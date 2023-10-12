@@ -98,11 +98,11 @@ keyword: CFO Council, CFOC, CXO Fellows
                         <h3 class="margin-top-0">{{ item.title }}</h3>
                         <!-- <p>{{ item.filler | truncate:500 }}</p> -->
                         {% if item.permalink %}
-                        <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}">Read More</a>
+                        <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.permalink }}" aria-label="Read more - {{item.title}} - {{ item.date | date: "%m/%d/%Y" }}">Read More</a>
                         {% elsif item.doc-link %}
-                        <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.doc-link }}">Download the brochure</a>
+                        <a class="text-no-underline text-bold" href="{{ site.baseurl }}{{ item.doc-link }}" aria-label="Download the brochure - {{item.title}}">Download the brochure</a>
                         {% elsif item.external_link %}
-                        <a class="text-no-underline text-bold" href="{{ item.external_link }}">Read More</a>
+                        <a class="text-no-underline text-bold" href="{{ item.external_link }}" aria-label="Read more - {{item.title}} - {{ item.date | date: "%m/%d/%Y" }}">Read More</a>
                         {% endif %}
                     </div>
                 </div>
