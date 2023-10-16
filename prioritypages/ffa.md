@@ -7,7 +7,7 @@ aliases:
   - /federal-financial-assistance/resources/
   - /federal-financial-assistance/why-this-matters/
 type: ffa
-number_of_icons: 4
+number_of_icons: 5
 description: 
 keyword: 
 priority_icons: 
@@ -23,6 +23,9 @@ priority_icons:
  - name: 'Uniform Guidance: Promising Practices in Implementation'
    logo: /assets/images/logos/grants.svg
    url: /resources/uniform-guidance-promising-practices-in-implementation/
+ - name: Federal Financial Assistance Training
+   logo: /assets/images/logos/grants.svg
+   url: /resources/federal-financial-assistance-training/
 description1:
 ---
 
