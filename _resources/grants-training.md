@@ -10,8 +10,7 @@ fiscal_year:
 <div class="usa-alert usa-alert--info" xmlns="http://www.w3.org/1999/html">
     <div class="usa-alert__body">
         <p class="usa-alert__heading text-bold">PDF Version of the Grants Training Modules</p>
-        <p class="usa-alert__text">We recently upgraded the website platform for our website. As part of that transition, we identified technical issues with the original Grants Training Modules that have prevented us from restoring it in its interactive format. We're looking into mid-term solutions to redesign the modules and make them better.
-            In the short term, below you will find the PDF version of the Grants Training Modules. Please note, there is no completion certificate with this PDF format. </p>
+        <p class="usa-alert__text"> During a transition to a new web platform, we identified technical issues with the original Grants Training Modules that have prevented us from restoring them to their interactive format. Below you will find the PDF version of the Grants Training Modules, as well as a new introductory training module. Please note, there is no completion certificate with this PDF format. </p>
     </div>
 </div>
 
