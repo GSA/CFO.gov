@@ -3,8 +3,8 @@ layout: resources-landing
 title: Utilize These Traits to Become a Great Leader
 subtitle: Utilize These Traits to Become a Great Leader
 filler: 
-permalink: /resources/utilize-these-traits-to-become-a-great-leader/
-type: CXO Fellows
+permalink: /cxo-fellows/utilize-these-traits-to-become-a-great-leader/
+type: cxo
 date: September 27, 2023
 has_date: 'yes'
 ---

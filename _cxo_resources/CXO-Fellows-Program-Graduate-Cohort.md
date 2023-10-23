@@ -3,8 +3,8 @@ layout: resources-landing
 title: Introducing the CXO Fellows Program Graduate Cohort of 2023
 subtitle: Introducing the CXO Fellows Program Graduate Cohort of 2023
 filler: 
-permalink: /resources/graduate-cohort-2023/
-type: CXO Fellows
+permalink: /cxo-fellows/graduate-cohort-2023/
+type: cxo
 date: October 10, 2023
 has_date: 'yes'
 ---
