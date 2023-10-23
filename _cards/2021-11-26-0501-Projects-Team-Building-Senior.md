@@ -15,7 +15,10 @@ level: "14-15"
 behavior_illustrations: "Leads a team to address controversial agency-wide legislative and regulatory policy issues ? Inspires interagency team to accomplish long-term strategic goals "
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409052" aria-label="PEBU 0408 Building and Managing Effective Teams - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409052">PEBU 0408 Building and Managing Effective Teams</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409054" aria-label="PEBU 0421 Building High Performance Teams - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409054">PEBU 0421 Building High Performance Teams</a>, GMU
+- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Leadership - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Leadership</a>, AGA
 filters: Projects-Team-Building GS-14-15 series-0501
 ---
 

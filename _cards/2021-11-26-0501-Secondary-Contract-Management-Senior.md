@@ -15,7 +15,8 @@ level: "14-15"
 behavior_illustrations: "Understands and contributes financial management guidance to the life-cycle management plan to assist in monitoring a complex contracting project ? Assists in developing or updating financial management guidance and policy regarding contract management"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.managementconcepts.com/course/id/6893?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="FPM 332 - Progressive Contracting Strategies For Programs - https://www.managementconcepts.com/course/id/6893?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">FPM 332 - Progressive Contracting Strategies For Programs</a>, MC
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409104" aria-label="PEBU 0521 Contract Execution and Administration III - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409104">PEBU 0521 Contract Execution and Administration III</a>, GMU
 filters: Secondary-Contract-Management GS-14-15 series-0501
 ---
 

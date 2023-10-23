@@ -39,9 +39,14 @@
 .usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
     background-color: #ffbe2e;
 }
+
+.usa-header--extended .usa-nav__primary-item > .usa-current::after, .usa-header--extended .usa-nav__primary-item > .usa-nav__link:hover::after {
+    background-color: #ffbe2e;
+}
+
 .circle-image {
-  border-radius: 50%;
-  width: 110px;
+    border-radius: 50%;
+    width: 110px;
 }
 .circle-image:hover {
 -webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);

@@ -37,7 +37,7 @@
 - abbr: DOI
   name: Department of the Interior
   agency-data: https://www.cfo.gov/wp-content-2/Supplemental-data-call-2021/DOI.pdf
-  agency_seal: department-of-interior.png
+  agency_seal: department-of-the-interior.png
   agency_seal-alt-text: Department of the Interior
 
 - abbr: DOJ
@@ -181,7 +181,7 @@
 - abbr: Treasury
   name: Department of the Treasury
   agency-data: https://www.cfo.gov/wp-content-2/Supplemental-data-call-2021/Treasury.pdf
-  agency_seal: department-of-treasury.png
+  agency_seal: department-of-the-treasury.png
   agency_seal-alt-text: Treasury
 
 - abbr: USAGM (BBG)
@@ -193,7 +193,7 @@
 - abbr: USAID
   name: United States Agency for International Development
   agency-data: https://www.cfo.gov/wp-content-2/Supplemental-data-call-2021/USAID.pdf
-  agency_seal: us-agency-for-international-development.png
+  agency_seal: u-s-agency-for-international-development.png
   agency_seal-alt-text: United States Agency for International Development
 
 - abbr: USEAC

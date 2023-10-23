@@ -15,7 +15,12 @@ level: "14-15"
 behavior_illustrations: "Leads and directs strategic audit planning efforts at the Department level"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx" aria-label="Governmental Financial Management and Control (live, virtual) - https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx">Governmental Financial Management and Control (live, virtual)</a>, AGA
+- <a href="https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1" aria-label="Governmental Financial Management and Control (online, self-paced) - https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1">Governmental Financial Management and Control (online, self-paced)</a>, AGA
+- <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=31" aria-label="Internal Control Standards for Auditors - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=31">Internal Control Standards for Auditors</a>, AGA
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409050" aria-label="PEBU 0461 Fundamentals of Government Auditing Standards and Practices - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409050">PEBU 0461 Fundamentals of Government Auditing Standards and Practices</a>, GMU
 filters: Primary-Audit-Planning-and-Management GS-14-15 series-0511
 ---
 

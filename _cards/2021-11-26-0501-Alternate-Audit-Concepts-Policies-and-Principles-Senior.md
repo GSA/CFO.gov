@@ -15,7 +15,10 @@ level: "14-15"
 behavior_illustrations: "Interprets and advises others on auditing and accounting policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=2" aria-label="Appropriations Law Principles - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=2">Appropriations Law Principles</a>, AGA
+- <a href="https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx" aria-label="Governmental Financial Management and Control (live, virtual) - https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx">Governmental Financial Management and Control (live, virtual)</a>, AGA
+- <a href="https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1" aria-label="Governmental Financial Management and Control (online, self-paced) - https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1">Governmental Financial Management and Control (online, self-paced)</a>, AGA
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409048" aria-label="PEBU 0461 Fundamentals of Government Auditing Standards and Practices - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409048">PEBU 0461 Fundamentals of Government Auditing Standards and Practices</a>, GMU
 filters: Alternate-Audit-Concepts-Policies-and-Principles GS-14-15 series-0501
 ---
 

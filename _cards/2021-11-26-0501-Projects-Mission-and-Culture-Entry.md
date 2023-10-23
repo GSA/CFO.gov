@@ -15,7 +15,11 @@ level: "7-9"
 behavior_illustrations: "Understands the organizational vision, mission and core values and applies these to daily work ? Practices appropriate IT security, safety, and property management ? Understands who the customer is and their expectations ? Works successfully in team environments ? Represents the organization in varying capacities and situations ? Identifies opportunities for improvement ? Understands organizational dynamics "
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://www.managementconcepts.com/course/id/1360?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="CON 360&#58; Contracting For Decision Makers - https://www.managementconcepts.com/course/id/1360?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">CON 360&#58; Contracting For Decision Makers</a>, MC
+- <a href="https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Mission-Driven Project Management&#58; From Strategy To Action - https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Mission-Driven Project Management&#58; From Strategy To Action</a>, MC
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Projects-Mission-and-Culture GS-7-9 series-0501
 ---
 

@@ -15,9 +15,13 @@ level: "10-13"
 behavior_illustrations: "Realigns resources to meet changing customer needs ? Takes feedback into consideration while implementing organizational change ? Adjusts organizational priorities quickly as situations change ? Shifts agency goals and initiatives to align with administration and Congressional priorities "
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes ? Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/ADMB7007" aria-label="Managing Multiple Priorities (ADMB7007) - https://www.LearnAtGSUSA.com/ADMB7007">Managing Multiple Priorities (ADMB7007)</a>, GSU
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.LearnAtGSUSA.com/ADMB7007" aria-label="Managing Multiple Priorities (ADMB7007) - https://www.LearnAtGSUSA.com/ADMB7007">Managing Multiple Priorities (ADMB7007)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417827" aria-label="PEBU 0403 Mastering Change - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417827">PEBU 0403 Mastering Change</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838" aria-label="PEBU 0742 Governance and Ethics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838">PEBU 0742 Governance and Ethics</a>, GMU
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Flexibility GS-10-13 series-0501
 ---
 

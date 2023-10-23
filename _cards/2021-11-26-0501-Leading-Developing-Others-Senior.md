@@ -15,9 +15,10 @@ level: "14-15"
 behavior_illustrations: "Designs and implements opportunities for career development in anticipation of agency restructuring, including mentoring staff and providing training ? Directs working group to design training programs focused on skills necessary for meeting strategic goals ? Designs, implements and communicates leadership development opportunities for staff at all levels in the organization"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/MGMT7201" aria-label="Leading Change (MGMT7201) - https://www.LearnAtGSUSA.com/MGMT7201">Leading Change (MGMT7201)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/MGMT7006" aria-label="Mentoring Skills (MGMT7006) - https://www.LearnAtGSUSA.com/MGMT7006">Mentoring Skills (MGMT7006)</a>, GSU
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://www.LearnAtGSUSA.com/MGMT7201" aria-label="Leading Change (MGMT7201) - https://www.LearnAtGSUSA.com/MGMT7201">Leading Change (MGMT7201)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.LearnAtGSUSA.com/MGMT7006" aria-label="Mentoring Skills (MGMT7006) - https://www.LearnAtGSUSA.com/MGMT7006">Mentoring Skills (MGMT7006)</a>, Graduate School USA (GSUSA)
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409058" aria-label="PEBU 0502 Chief Learning Officer Certificate - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409058">PEBU 0502 Chief Learning Officer Certificate</a>, GMU
 filters: Leading-Developing-Others GS-14-15 series-0501
 ---
 

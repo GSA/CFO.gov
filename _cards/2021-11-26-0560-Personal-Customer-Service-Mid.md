@@ -15,7 +15,9 @@ level: "10-13"
 behavior_illustrations: "Anticipates growing customer needs and expectations to continuously improve product development and service delivery ? Creates work group consisting of stakeholders and neutral parties to develop solutions to customer service barriers ? Ensures products and services meet customer needs"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409729" aria-label="PEBU 0401 Vision of the Customer - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409729">PEBU 0401 Vision of the Customer</a>, GMU
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Customer-Service GS-10-13 series-0560
 ---
 

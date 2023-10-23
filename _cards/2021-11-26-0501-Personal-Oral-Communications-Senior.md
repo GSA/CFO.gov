@@ -15,8 +15,9 @@ level: "14-15"
 behavior_illustrations: "Presents complex information articulately when meeting with key executives or public officials regarding a high-visibility issue ? Testifies before Congress on a catastrophe's or significant issue's impact on the agency's responsibilities and requirements ? Communicates sensitive information of broad organizational impact on topics without precedence ? Adjusts oral communication techniques based on situation and audience to articulate a message "
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/AUDT8522" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522) - https://www.LearnAtGSUSA.com/AUDT8522">Presentation and Briefing Skills for Auditors (AUDT8522)</a>, GSU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1552676&selectedProgramAreaId=1554098&selectedProgramStreamId=" aria-label="PELA 0606 Communication in Organizations - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1552676&selectedProgramAreaId=1554098&selectedProgramStreamId=">PELA 0606 Communication in Organizations</a>, GMU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8522" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522) - https://www.LearnAtGSUSA.com/AUDT8522">Presentation and Briefing Skills for Auditors (AUDT8522)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Oral-Communications GS-14-15 series-0501
 ---
 

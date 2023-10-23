@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Implements a successful action plan after a major organizational change ? Prioritizes, considers alternatives, and responds quickly and effectively to unexpected and rapidly changing conditions  "
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838" aria-label="PEBU 0742 Governance and Ethics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838">PEBU 0742 Governance and Ethics</a>, GMU
 filters: Personal-Flexibility GS-14-15 series-0501
 ---
 

@@ -15,7 +15,9 @@ level: "10-13"
 behavior_illustrations: "Understands the basic steps required to implement RPA ?Contributes, with supervision and guidance from others, to a project involving RPA"
 proficiency_level_definition: Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.managementconcepts.com/course/id/3800?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Emerging Technologies - Robotic Process Automation, RPA - https://www.managementconcepts.com/course/id/3800?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Emerging Technologies - Robotic Process Automation, RPA</a>, MC
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2408920" aria-label="PEBU 0361 Accounting Analytics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2408920">PEBU 0361 Accounting Analytics</a>, GMU
+- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Robotic Process Automation/ Artificial Intelligence - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Robotic Process Automation/ Artificial Intelligence</a>, AGA
 filters: Secondary-Robotic-Process-Automation GS-10-13 series-0501
 ---
 
