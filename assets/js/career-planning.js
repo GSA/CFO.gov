@@ -374,13 +374,13 @@
                 strCL = strCL + CLtext + "\n";
             }
             else {
-              const parseDoc = parser.parseFromString(elems[m], 'text/html');
-              const link = parseDoc.querySelector('a');
-              if (link) {
-                const url = link.getAttribute('href');
-                const anchorText = link.textContent;
-                strCL = strCL + "(" + anchorText + ")"
-              }
+                let regex = /<a\s+href="([^"]*)"[^>]*>([^<]*)/;
+                let res = elems[m].match(regex);
+                if (res) {
+                    let link = res[1];
+                    let text = res[2];
+                    strCL = strCL + text + " (" + link + ")";
+                }
             }
             if (m != n - 1) {
               strCL = strCL + ", ";
