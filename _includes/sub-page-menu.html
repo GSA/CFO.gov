@@ -57,13 +57,14 @@ where we provide an easy way to manage your navigation system
             <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
 
             {% if include.page_type == 'payment-accuracy' %}
-            <ul class="usa-nav__primary usa-accordion">
+            <ul class="usa-nav__primary usa-accordion" data-site-base-url="{{ site.baseurl }}">
                 {% for nav_item in include.primary_navigation %}
                 {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
                 {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+                {% capture siteurl %}{{ site.baseurl }}{% if site.baseurl contains '/preview/' %}/payment-accuracy{% endif %}{% endcapture%}
                 <li class="usa-nav__primary-item">
                     <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-                       href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+                        href="{{ nav_item.url | prepend: siteurl }}"><span>{{ nav_item.name | escape }}</span></a>
                 </li>
                 {% endfor %}
             </ul>
