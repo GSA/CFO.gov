@@ -15,8 +15,8 @@ level: "10-13"
 behavior_illustrations: "Evaluates proposed changes to existing financial policies to determine implications to the agency and plans implementation approach ? Identifies financial management issues or problems and conducts detailed research and analysis to propose and implement recommended solutions"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="FPM 331 - Progressive Concepts In Program Management - https://www.managementconcepts.com/course/id/6894?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">FPM 331 - Progressive Concepts In Program Management</a>, MC
 filters: Personal-Critical-Thinking GS-10-13 series-0510
 ---
 

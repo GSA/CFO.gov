@@ -15,7 +15,8 @@ level: "10-13"
 behavior_illustrations: "Formulates budget, develops justifications and presents to stakeholders for feedback"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409100" aria-label="PEBU 0465 Budget Execution and Management - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409100">PEBU 0465 Budget Execution and Management</a>, GMU
 filters: Primary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0560
 ---
 

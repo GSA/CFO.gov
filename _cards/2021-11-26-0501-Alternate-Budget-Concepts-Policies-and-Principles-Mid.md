@@ -15,7 +15,11 @@ level: "10-13"
 behavior_illustrations: "Develops budget and financial guidelines that conform to fiscal requirements ? Makes recommendations regarding the budget process or financial operations"
 proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx" aria-label="Governmental Accounting, Financial Reporting and Budgeting (live, virtual) - https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx">Governmental Accounting, Financial Reporting and Budgeting (live, virtual)</a>, AGA
+- <a href="https://cgfm.learnupon.com/store/3458-cgfm-course-2-governmental-accounting-financial-reporting-and-budgeting-sections-i-iii-bundle?is_bundle=1" aria-label="Governmental Accounting, Financial Reporting and Budgeting (online, self-paced) - https://cgfm.learnupon.com/store/3458-cgfm-course-2-governmental-accounting-financial-reporting-and-budgeting-sections-i-iii-bundle?is_bundle=1">Governmental Accounting, Financial Reporting and Budgeting (online, self-paced)</a>, AGA
+- <a href="https://aga.learnupon.com/store/1144137-key-legislation-and-regulations-course-1-1" aria-label="Key Legislation and Regulations (1.1) - https://aga.learnupon.com/store/1144137-key-legislation-and-regulations-course-1-1">Key Legislation and Regulations (1.1)</a>, AGA
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653" aria-label="PEBU 0520 Fundamentals of Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653">PEBU 0520 Fundamentals of Accounting</a>, GMU
 filters: Alternate-Budget-Concepts-Policies-and-Principles GS-10-13 series-0501
 ---
 

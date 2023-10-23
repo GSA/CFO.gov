@@ -15,7 +15,9 @@ level: "14-15"
 behavior_illustrations: "Models behaviors that demonstrate sensitivity to sharing knowledge with others, including workforce development, and demonstrating good governance and leadership techniques"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417750" aria-label="PEBU 0423 Linking Strategy to Execution - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417750">PEBU 0423 Linking Strategy to Execution</a>, GMU
 filters: Leading-Enterprise-Perspective GS-14-15 series-0501
 ---
 

@@ -15,9 +15,12 @@ level: "14-15"
 behavior_illustrations: "Interprets and advises others on financial policies, regulations and principles on new mandates and highly controversial issues having component and Agency-wide impacts"
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/FINC9100" aria-label="Advanced Appropriations Law (FINC9100) - https://www.LearnAtGSUSA.com/FINC9100">Advanced Appropriations Law (FINC9100)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/AUDT8811" aria-label="Assessing Financial Related Activities and Controls (AUDT8811) - https://www.LearnAtGSUSA.com/AUDT8811">Assessing Financial Related Activities and Controls (AUDT8811)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/FINC8200" aria-label="DoD Fiscal Law Principles (FINC8200) - https://www.LearnAtGSUSA.com/FINC8200">DoD Fiscal Law Principles (FINC8200)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/FINC9100" aria-label="Advanced Appropriations Law (FINC9100) - https://www.LearnAtGSUSA.com/FINC9100">Advanced Appropriations Law (FINC9100)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=2" aria-label="Appropriations Law Principles - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=2">Appropriations Law Principles</a>, AGA
+- <a href="https://www.LearnAtGSUSA.com/AUDT8811" aria-label="Assessing Financial Related Activities and Controls (AUDT8811) - https://www.LearnAtGSUSA.com/AUDT8811">Assessing Financial Related Activities and Controls (AUDT8811)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.LearnAtGSUSA.com/FINC8200" aria-label="DoD Fiscal Law Principles (FINC8200) - https://www.LearnAtGSUSA.com/FINC8200">DoD Fiscal Law Principles (FINC8200)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=31" aria-label="Internal Control Standards for Auditors - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=31">Internal Control Standards for Auditors</a>, AGA
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409651" aria-label="PEBU 0737 Fraud and the Law - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409651">PEBU 0737 Fraud and the Law</a>, GMU
 filters: Alternate-Financial-Concepts-Policies-and-Principles GS-14-15 series-0560
 ---
 

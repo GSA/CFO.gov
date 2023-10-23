@@ -15,7 +15,11 @@ level: "7-9"
 behavior_illustrations: "Understands what RPA is and how it might be applied ? Identifies processes to RPA champions where RPA may simplify, save time, or achieve better results"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes
 relevant_courses: 
-- Course Coming Soon
+- <a href="https://www.managementconcepts.com/course/id/3800?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Emerging Technologies - Robotic Process Automation, RPA - https://www.managementconcepts.com/course/id/3800?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Emerging Technologies - Robotic Process Automation, RPA</a>, MC
+- <a href="https://www.managementconcepts.com/course/id/3801?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Emerging Technologies&#58; Cutting-Edge Applications - https://www.managementconcepts.com/course/id/3801?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Emerging Technologies&#58; Cutting-Edge Applications</a>, MC
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2408919" aria-label="PEBU 0361 Accounting Analytics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2408919">PEBU 0361 Accounting Analytics</a>, GMU
+- <a href="https://www.agacgfm.org/Events/TTS/Home.aspx" aria-label="Technology and Transformation Summit (TTS) - https://www.agacgfm.org/Events/TTS/Home.aspx">Technology and Transformation Summit (TTS)</a>, AGA
+- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Robotic Process Automation/ Artificial Intelligence - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Robotic Process Automation/ Artificial Intelligence</a>, AGA
 filters: Secondary-Robotic-Process-Automation GS-7-9 series-0510
 ---
 

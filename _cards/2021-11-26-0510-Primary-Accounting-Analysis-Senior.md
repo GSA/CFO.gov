@@ -17,7 +17,7 @@ proficiency_level_definition: Applies the competency in considerably difficult s
 relevant_courses: 
 - <a href="https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering" aria-label="Advanced Clustering in Python - https://datasociety.meldr.ai/courses/DataScience/AdvancedClustering">Advanced Clustering in Python</a>, Data Society
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/AdvancedClusteringInR" aria-label="Advanced Clustering in R - https://datasociety.meldr.ai/courses/DataScience-R/AdvancedClusteringInR">Advanced Clustering in R</a>, Data Society
-- Course Coming Soon
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
 - <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives" aria-label="Data Literacy for Executives - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">Data Literacy for Executives</a>, Data Society
 - <a href="https://datasociety.meldr.ai/courses/DataScience/DecisionTrees" aria-label="Decision Trees in Python - https://datasociety.meldr.ai/courses/DataScience/DecisionTrees">Decision Trees in Python</a>, Data Society
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/DecisionTreesInR" aria-label="Decision Trees in R - https://datasociety.meldr.ai/courses/DataScience-R/DecisionTreesInR">Decision Trees in R</a>, Data Society
@@ -28,6 +28,12 @@ relevant_courses:
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR" aria-label="Logistic Regression in R - https://datasociety.meldr.ai/courses/DataScience-R/LogisticRegressionInR">Logistic Regression in R</a>, Data Society
 - <a href="https://datasociety.meldr.ai/courses/DataScience/MultipleRegression" aria-label="Multiple Linear Regression in Python - https://datasociety.meldr.ai/courses/DataScience/MultipleRegression">Multiple Linear Regression in Python</a>, Data Society
 - <a href="https://datasociety.meldr.ai/courses/DataScience-R/MultipleRegressionInR" aria-label="Multiple Linear Regression in R - https://datasociety.meldr.ai/courses/DataScience-R/MultipleRegressionInR">Multiple Linear Regression in R</a>, Data Society
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409666" aria-label="PEBU 0332 Intermediate Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409666">PEBU 0332 Intermediate Accounting</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409665" aria-label="PEBU 0332 Intermediate Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409665">PEBU 0332 Intermediate Accounting</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653" aria-label="PEBU 0520 Fundamentals of Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653">PEBU 0520 Fundamentals of Accounting</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409626" aria-label="PEBU 0531 Foundations of Financial Reporting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409626">PEBU 0531 Foundations of Financial Reporting</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409625" aria-label="PEBU 0531 Foundations of Financial Reporting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409625">PEBU 0531 Foundations of Financial Reporting</a>, GMU
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Primary-Accounting-Analysis GS-14-15 series-0510
 ---
 

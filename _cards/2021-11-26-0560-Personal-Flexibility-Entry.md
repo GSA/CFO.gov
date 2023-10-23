@@ -15,11 +15,14 @@ level: "7-9"
 behavior_illustrations: "Meets with team to adjust and coordinate schedules to accommodate all team members ? Adjusts staff assignments based on feedback and work load priorities ? Uses staff feedback to streamline processes in order to meet deadlines ? Adjusts project plan based on input from staff and stakeholders"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/ADMB7006" aria-label="Leadership Skills for Non-Supervisors (ADMB7006) - https://www.LearnAtGSUSA.com/ADMB7006">Leadership Skills for Non-Supervisors (ADMB7006)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/MGMT7201" aria-label="Leading Change (MGMT7201) - https://www.LearnAtGSUSA.com/MGMT7201">Leading Change (MGMT7201)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/ADMB7007" aria-label="Managing Multiple Priorities (ADMB7007) - https://www.LearnAtGSUSA.com/ADMB7007">Managing Multiple Priorities (ADMB7007)</a>, GSU
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.LearnAtGSUSA.com/ADMB7006" aria-label="Leadership Skills for Non-Supervisors (ADMB7006) - https://www.LearnAtGSUSA.com/ADMB7006">Leadership Skills for Non-Supervisors (ADMB7006)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.LearnAtGSUSA.com/MGMT7201" aria-label="Leading Change (MGMT7201) - https://www.LearnAtGSUSA.com/MGMT7201">Leading Change (MGMT7201)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.LearnAtGSUSA.com/ADMB7007" aria-label="Managing Multiple Priorities (ADMB7007) - https://www.LearnAtGSUSA.com/ADMB7007">Managing Multiple Priorities (ADMB7007)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417827" aria-label="PEBU 0403 Mastering Change - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417827">PEBU 0403 Mastering Change</a>, GMU
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Flexibility GS-7-9 series-0560
 ---
 

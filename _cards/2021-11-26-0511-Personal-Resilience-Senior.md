@@ -12,11 +12,15 @@ competency: Resilience
 competency_group: Personal
 competency_description: Deals effectively with pressure; remains optimistic and persistent, even under adversity; recovers quickly from setbacks.
 level: "14-15"
-behavior_illustrations: "Responds to setbacks by developing alternative approaches to determine the best course of action ? Maintains unit's effectiveness, quality and morale during organizational change ? Cultivates internal and external stakeholders to develop strategies for obtaining funding from alternate sources following budget cuts "
-proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
+behavior_illustrations: "Responds to setbacks by developing alternative approaches to determine the best course of action ? Maintains unit's effectiveness, quality and morale during organizational change ? Cultivates internal and external stakeholders to develop strategies for obtaining funding from alternate sources following budget cuts  ? Defends current policy to high-level officials by explaining legal ramifications of suggested changes and the potential impact of legal action on the organization ? Demonstrates persistence when providing rationale to staff during times of significant organizational change  "
+proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911) - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/EXEC9911" aria-label="Executive Survival Skills (EXEC9911) - https://www.LearnAtGSUSA.com/EXEC9911">Executive Survival Skills (EXEC9911)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911) - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.LearnAtGSUSA.com/EXEC9911" aria-label="Executive Survival Skills (EXEC9911) - https://www.LearnAtGSUSA.com/EXEC9911">Executive Survival Skills (EXEC9911)</a>, Graduate School USA (GSUSA)
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=25470&courseTitle=positive-leadership-certificate-program" aria-label="LCCS 0300 Positive Leadership Certificate - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=25470&courseTitle=positive-leadership-certificate-program">LCCS 0300 Positive Leadership Certificate</a>, GMU
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417742" aria-label="PEBU 0402 Leading Change - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417742">PEBU 0402 Leading Change</a>, GMU
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Resilience GS-14-15 series-0511
 ---
 
@@ -25,6 +29,7 @@ filters: Personal-Resilience GS-14-15 series-0511
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Resilience (Level 4 - Advanced)</dt><dd>Responds to setbacks by developing alternative approaches to determine the best course of action </dd><dd> Maintains unit's effectiveness, quality and morale during organizational change </dd><dd> Cultivates internal and external stakeholders to develop strategies for obtaining funding from alternate sources following budget cuts
+</dd><dt>Resilience (Level 5 - Expert)</dt><dd>Defends current policy to high-level officials by explaining legal ramifications of suggested changes and the potential impact of legal action on the organization </dd><dd> Demonstrates persistence when providing rationale to staff during times of significant organizational change 
 </dd></dl>
   </div>
 </div>
@@ -32,6 +37,6 @@ filters: Personal-Resilience GS-14-15 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Resilience (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Resilience (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Resilience (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

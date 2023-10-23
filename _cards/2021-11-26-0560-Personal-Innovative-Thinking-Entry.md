@@ -15,9 +15,12 @@ level: "7-9"
 behavior_illustrations: "Suggests changes to own work procedures within existing guidelines to improve efficiency or effectiveness ? Participates in discussions about improvements to team business processes ? Revises own work methods to improve personal effectiveness and efficiency ? Suggests improvements to a business process within the team"
 proficiency_level_definition: Applies the competency in the simplest situations ? Requires close and extensive guidance ? Demonstrates awareness of concepts and processes ? Applies the competency in somewhat difficult situations ? Requires frequent guidance ? Demonstrates familiarity with concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/MGMT8102" aria-label="Decision Making and Problem Solving (MGMT8102) - https://www.LearnAtGSUSA.com/MGMT8102">Decision Making and Problem Solving (MGMT8102)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/ADMB8129" aria-label="Problem solving (ADMB8129) - https://www.LearnAtGSUSA.com/ADMB8129">Problem solving (ADMB8129)</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.LearnAtGSUSA.com/MGMT8102" aria-label="Decision Making and Problem Solving (MGMT8102) - https://www.LearnAtGSUSA.com/MGMT8102">Decision Making and Problem Solving (MGMT8102)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://www.LearnAtGSUSA.com/ADMB8129" aria-label="Problem solving (ADMB8129) - https://www.LearnAtGSUSA.com/ADMB8129">Problem solving (ADMB8129)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
+- <a href="https://www.agacgfm.org/Events/TTS/Home.aspx" aria-label="Technology and Transformation Summit (TTS) - https://www.agacgfm.org/Events/TTS/Home.aspx">Technology and Transformation Summit (TTS)</a>, AGA
 filters: Personal-Innovative-Thinking GS-7-9 series-0560
 ---
 

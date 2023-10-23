@@ -15,11 +15,13 @@ level: "10-13"
 behavior_illustrations: "Completes required training and applies key learnings ? Recognizes areas needing improvement and takes training to increase skills ? Attends training on the use of new tools and shares knowledge with co-workers ? Seeks out and actively participates in learning and development activities"
 proficiency_level_definition: Applies the competency in difficult situations ? Requires occasional guidance ? Demonstrates understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram" aria-label="Aspiring Leader Program - https://www.LearnAtGSUSA.com/AspiringLeaderProgram">Aspiring Leader Program</a>, GSU
-- Course Coming Soon
-- <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram" aria-label="Executive Leadership Program - https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/EPPG8840" aria-label="Executive Potential Program (EPPG8840) - https://www.LearnAtGSUSA.com/EPPG8840">Executive Potential Program (EPPG8840)</a>, GSU
-- <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram" aria-label="New Leader Program - https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program</a>, GSU
+- <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram" aria-label="Aspiring Leader Program - https://www.LearnAtGSUSA.com/AspiringLeaderProgram">Aspiring Leader Program</a>, Graduate School USA (GSUSA)
+- <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Critical Thinking For Problem Solving - https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Critical Thinking For Problem Solving</a>, MC
+- <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram" aria-label="Executive Leadership Program - https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program</a>, Graduate School USA (GSUSA)
+- <a href="https://www.LearnAtGSUSA.com/EPPG8840" aria-label="Executive Potential Program (EPPG8840) - https://www.LearnAtGSUSA.com/EPPG8840">Executive Potential Program (EPPG8840)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram" aria-label="New Leader Program - https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Learning GS-10-13 series-0511
 ---
 
