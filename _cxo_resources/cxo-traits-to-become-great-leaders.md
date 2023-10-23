@@ -1,5 +1,5 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: Utilize These Traits to Become a Great Leader
 subtitle: Utilize These Traits to Become a Great Leader
 filler: 

@@ -1,5 +1,5 @@
 ---
-layout: resources-landing
+layout: cxo-layout-blog
 title: Introducing the CXO Fellows Program Graduate Cohort of 2023
 subtitle: Introducing the CXO Fellows Program Graduate Cohort of 2023
 filler: 
