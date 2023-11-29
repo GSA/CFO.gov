@@ -1,9 +1,9 @@
-
+---
+permalink: /payment-accuracy/assets/css/main-page.css
+---
 // Import the US Web Design System SASS.
-
-@import "uswds";
-@import "../../_sass/members";
-@import "../../_sass/knowledgesharing";
+@import "members.scss";
+@import "knowledgesharing.scss";
 
 // Add your SASS/CSS here
 //@import "../assets/css/slick.css";
