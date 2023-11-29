@@ -26,14 +26,14 @@ where we provide an easy way to manage your navigation system
             {% endif %}
 
             {% if include.page_type == 'jfmip' %}
-            <div class="margin-0 clearfix font-ui-xl ">
+            <h1 class="margin-0 clearfix font-ui-xl ">
                 <em class="usa-logo-text">
                     <a href="{{ site.baseurl }}/jfmip/" accesskey="1" title="Joint Financial Management Improvement Program" aria-label="Joint Financial Management Improvement Program">
                         <img class="logo-size  jfmip-logo-size" src="{{ site.jfmip-logo | prepend: site.baseurl }}"
                             alt="Joint Financial Management Improvement Program logo">
                     </a>
                 </em>
-            </div>
+            </h1>
             {% endif %}
 
             {% if include.page_type == 'payment-accuracy' %}
@@ -54,7 +54,7 @@ where we provide an easy way to manage your navigation system
     </div>
     <nav role="navigation" class="usa-nav">
         <div class="usa-nav__inner">
-            <button class="usa-nav__close"><img alt="close" src="{{ site.baseurl }}/assets/img/close.svg"></button>
+            <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
 
             {% if include.page_type == 'payment-accuracy' %}
             <ul class="usa-nav__primary usa-accordion" data-site-base-url="{{ site.baseurl }}">

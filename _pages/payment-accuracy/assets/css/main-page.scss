@@ -1,8 +1,9 @@
----
----
+
 // Import the US Web Design System SASS.
-@import "../_sass/members.scss";
-@import "../_sass/knowledgesharing.scss";
+
+@import "uswds";
+@import "../../_sass/members";
+@import "../../_sass/knowledgesharing";
 
 // Add your SASS/CSS here
 //@import "../assets/css/slick.css";
@@ -54,14 +55,14 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 
 }
 
-.cxo {
-    background-image: url('../images/CXO-Fellows-Banner.png');
-    background-color: #19387b;
-    min-height: 200px;
-}
+.cxo{
+  background-image: url('../wp-content/uploads/2016/02/CXO-Fellows-Banner.png');
+  background-color: #19387b;
+  min-height: 200px;
+  }
 .priority-icons {
   background-position: center;
-  background-image: url('../images/priority-middle-image1.png');
+  background-image: url('../assets/images/priority-middle-image1.png');
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -73,13 +74,13 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 .ui-tabs-vertical {
   margin: 0em -2em;
   padding: 0.5em 0 1.5em 0;
-  background-image: url('../images/yellow-back.png');
+  background-image: url('../assets/images/yellow-back.png');
   background-repeat: no-repeat;
   background-position: -200px -43px;
   background-color:transparent;
 }
 .tabSection{
-  background-image: url("../images/blue-back.png");
+  background-image: url("../assets/images/blue-back.png");
   background-repeat: no-repeat;
   background-color: #f9f9f9;
   background-position: bottom right;
@@ -153,43 +154,43 @@ color:#005ea2;
   background: linear-gradient(90deg, rgba(25,56,123,1) 0%, rgba(9,13,121,0.9164040616246498) 59%, rgba(2,0,36,1) 100%);
 }
 .priority{
-  background-image: url('../images/priority-top-image1.png');
+  background-image: url('../assets/images/priority-top-image1.png');
   background-color:  #19387b;
 }
 
 .fmt-page{
-  background-image: url('../images/fmt-1.png');
+  background-image: url('../assets/images/fmt-1.png');
   background-color:  #19387b;
   padding:4em 0;
 }
 .payment-integrity-page{
-  background-image: url('../images/logos/workforce/president-signing.png');
+  background-image: url('../assets/images/logos/workforce/president-signing.png');
   background-color:  #19387b;
   padding:4em 0;
 }
 .symposium-page {
-    background-image: url('../images/logos/workforce/symposium.png');
+    background-image: url('../assets/images/logos/workforce/symposium.png');
     background-color: #19387b;
     padding: 4em 0;
 }
 .fdt-page{
-  background-image: url('../images/fdt.png');
+  background-image: url('../assets/images/fdt.png');
   background-color:  #19387b;
   padding:4em 0;
 }
 .erm-page{
-  background-image: url('../images/erm.png');
+  background-image: url('../assets/images/erm.png');
   background-color:  #19387b;
   padding:4em 0;
 }
 .frpc-page{
-  background-image: url('../images/frpc.png');
+  background-image: url('../assets/images/frpc.png');
   background-color:  #19387b;
   background-size: cover;
   padding:3em 0;
 }
 .jfmip-page{
-  background-image: url('../images/jfmip.png');
+  background-image: url('../assets/images/jfmip.png');
   background-color:  #19387b;
   background-position: center;
   background-size: cover;
@@ -197,28 +198,28 @@ color:#005ea2;
   padding:3em 0;
 }
 .financial-assistance-page{
-  background-image: url('../images/grants.png');
+  background-image: url('../assets/images/grants.png');
   background-color:  #19387b;
   background-size: cover;
   padding:4em 0;
 }
 .financial-assistance-page{
-  background-image: url('../images/grants.png');
+  background-image: url('../assets/images/grants.png');
   background-color:  #19387b;
   background-size: cover;
   padding:4em 0;
 }
-.about-the-council {
-    background-image: linear-gradient(to top, rgba(0.4, 0.4, 0.4, 0.4), rgba(0.5, 0.5, 0.5, 0.5)), url('../images/about.jpg');
-    background-color: #19387b;
+.about-the-council{
+  background-image: linear-gradient(to top, rgba(0.4, 0.4, 0.4, 0.4), rgba(0.5, 0.5, 0.5, 0.5)), url('../wp-content/uploads/2016/02/IMG_2680.jpg');
+  background-color:  #19387b;
 }
 .ui-tabs-active a {
   color: #2644d6;
   font-weight: bold;
 }
-.paymentaccuracy {
-    background-image: linear-gradient(to top, rgba(0.4, 0.4, 0.4, 0.4), rgba(0.5, 0.5, 0.5, 0.5)), url("../images/white-house-picture-payment-accuracy-no-overlay-1.jpg");
-    background-color: #19387b;
+.paymentaccuracy{
+  background-image: linear-gradient(to top, rgba(0.4, 0.4, 0.4, 0.4), rgba(0.5, 0.5, 0.5, 0.5)), url("../wp-content-2/uploads/2019/06/white-house-picture-payment-accuracy-no-overlay-1.jpg");
+  background-color: #19387b;
 }
 
 .font-ui-paymentaccuracy{

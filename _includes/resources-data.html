@@ -1,7 +1,7 @@
 <!--********Resources folder**************-->
 
 <div class="usa-media-block tablet:grid-col-9">
-    <p class="filter-count margin-top-0 text-gray-50 text-thin"></p>
+    <p class="filter-count card-tag margin-top-0 text-gray-50 text-thin"></p>
     <div class="resources">
         {% assign resources_group = site.resources | sort: "fiscal_year" | reverse | group_by: "fiscal_year" %}
         {% for resources in resources_group %}
