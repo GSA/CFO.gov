@@ -9,3 +9,10 @@ node_modules
 Gemfile.lock
 *.idea
 .idea/*
+Gemfile.lock
+.DS_Store
+assets/img
+assets/fonts
+assets/js/uswds.js
+assets/js/uswds.min.js
+assets/js/uswds.min.js.map
