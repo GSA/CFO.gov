@@ -21,4 +21,5 @@ assets/js/uswds.min.js.map
 _pages/payment-accuracy/assets/fonts/
 !_pages/payment-accuracy/assets/fonts/.gitkeep
 _pages/payment-accuracy/assets/img/
+_pages/payment-accuracy/assets/js/uswds.*
 !_pages/payment-accuracy/assets/img/.gitkeep
