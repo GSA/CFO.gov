@@ -9,3 +9,17 @@ node_modules
 Gemfile.lock
 *.idea
 .idea/*
+Gemfile.lock
+.DS_Store
+assets/img
+assets/fonts
+assets/uswds/
+!assets/uswds/.gitkeep
+assets/js/uswds.js
+assets/js/uswds.min.js
+assets/js/uswds.min.js.map
+_pages/payment-accuracy/assets/fonts/
+!_pages/payment-accuracy/assets/fonts/.gitkeep
+_pages/payment-accuracy/assets/img/
+_pages/payment-accuracy/assets/js/uswds.*
+!_pages/payment-accuracy/assets/img/.gitkeep

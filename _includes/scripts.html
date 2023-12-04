@@ -10,8 +10,8 @@
 <script src="{{ site.baseurl }}/assets/js/blob-stream.js"></script>
 {% include searchgov/script.html affiliate=site.searchgov_affiliate %}
 
-{% asset uswds.min.js %}
-{% asset app.js %}
+<script src="{{ site.baseurl }}/assets/js/uswds.min.js?{{ site.time | date: '%s%N' }}"></script>
+<script src="{{ site.baseurl }}/assets/js/app.js?{{ site.time | date: '%s%N' }}"></script>
 <script type="text/javascript">
     window.federalist = {
       path: {
@@ -43,10 +43,10 @@
             midClick: true
         });
 
-        if(/career\-planning\-tool/.test(window.location.href)) {
-            jQuery( 'button[type="button"], button[type="submit"]' ).createButtonEvents();
+        if (/career\-planning\-tool/.test(window.location.href)) {
+            jQuery('button[type="button"], button[type="submit"]').createButtonEvents();
         }
     });
 
 </script>
-{% asset cfo-tabs.js %}
+<script src="{{ site.baseurl }}/assets/js/cfo-tabs.js?{{ site.time | date: '%s%N' }}"></script>

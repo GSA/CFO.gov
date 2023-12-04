@@ -1,5 +1,12 @@
+---
+---
 // Import the US Web Design System SASS.
+$theme-show-notifications: false;
+@import "scss/packages/required";
+@import "scss/packages/global";
 
+@import "scss/packages/uswds-components";
+@import "scss/packages/uswds-utilities";
 @import "fonts/stylesheet.css";
 
 // Add your SASS/CSS here
