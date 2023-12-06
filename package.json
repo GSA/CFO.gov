@@ -16,10 +16,10 @@
   "devDependencies": {
     "a11y": "^0.5.1",
     "jquery": "3.6.4",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.8",
     "rimraf": "^3.0.2"
   },
   "resolutions": {
-    "minimist": "1.2.5"
+    "minimist": "1.2.8"
   }
 }
