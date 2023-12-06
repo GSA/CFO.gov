@@ -407,6 +407,7 @@
     var link = document.createElement("a");
     link.setAttribute("href", encodedUri);
     link.setAttribute("download", "CareerPlanningCards.csv");
+    link.setAttribute("aria-label", "Download csv");
     document.body.appendChild(link); // Required for FF
 
     link.click(); 

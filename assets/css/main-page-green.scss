@@ -1487,7 +1487,3 @@ a.checked {
         -webkit-mask: url(../img/alerts/info.svg) no-repeat center/contain;
     }
 }
-
-.usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
-    background-color: #ffbe2e;
-}
