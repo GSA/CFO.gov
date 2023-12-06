@@ -1481,3 +1481,9 @@ a.checked {
         }
     }
 }
+
+@supports ((-webkit-mask: url("")) or (mask: url(""))) {
+    .usa-alert--info:before {
+        -webkit-mask: url(../img/usa-icons/info.svg) no-repeat center/contain;
+    }
+}
