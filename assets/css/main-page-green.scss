@@ -299,7 +299,7 @@ color:#005ea2;
 }
 .usa-nav__primary > .usa-nav__primary-item > a {
     font-weight: 600;
-    color: #71767a
+    color: #71767a !important;
 }
 .carousel__track {
   color: #ffffff;
@@ -1178,12 +1178,12 @@ h3 {
 }
 
 .usa-nav__primary button {
-    color: #71767A;
+    color: #71767A !important;
 }
 
 @media (min-width: 64em) {
     .usa-nav__secondary-links .usa-nav__secondary-item + .usa-nav__secondary-item::before {
-        color: #71767A;
+        color: #71767A !important;
     }
 }
 
@@ -1358,7 +1358,7 @@ a.checked {
 
 @supports (-webkit-mask: url("")) or (mask: url("")) {
     .usa-nav__primary button[aria-expanded="false"] span::after {
-        background-color: #71767A;
+        background-color: #71767A !important;
     }
 }
 
