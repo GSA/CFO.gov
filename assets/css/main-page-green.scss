@@ -1456,3 +1456,28 @@ a.checked {
         background-color: transparent !important;
     }
 }
+
+@media (min-width: 64em)
+{
+    @supports ((-webkit-mask: url("")) or (mask: url(""))) {
+        .usa-nav__primary button[aria-expanded="false"] span::after {
+            -webkit-mask: url(../img/usa-icons/expand_more.svg) no-repeat center/contain;
+        }
+
+        .usa-nav__primary button[aria-expanded="true"] span::after {
+            -webkit-mask: url(../img/usa-icons/expand_less.svg) no-repeat center/contain;
+        }
+    }
+}
+
+@media (max-width: 64em) {
+    @supports ((-webkit-mask: url("")) or (mask: url(""))) {
+        .usa-nav__primary button[aria-expanded="false"] span::after {
+            -webkit-mask: url(../img/usa-icons/add.svg) no-repeat center/contain;
+        }
+
+        .usa-nav__primary button[aria-expanded="true"] span::after {
+            -webkit-mask: url(../img/usa-icons/remove.svg) no-repeat center/contain;
+        }
+    }
+}
