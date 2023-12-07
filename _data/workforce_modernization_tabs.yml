@@ -1,0 +1,29 @@
+- name: purpose
+  title: Purpose
+  path: /workforce-modernization/purpose/
+  content: |
+    <p>We champion, implement and support strategically selected initiatives that greatly benefit upskilling, hiring, retention, and future leader development of the Federal financial management workforce.</p>
+- name: goals
+  title: Goals
+  path: /workforce-modernization/goals/
+  content: |
+    <p>Working with the Office of Management and Budget, Office of Personnel Management, and other Executive Councils, the CFO Workforce Modernization Executive Steering Committee has launched a 10-year initiative focusing on seven key areas in order to help the 140k members of the Federal financial workplace thrive in their current jobs and advance up the leadership ladder. The Workforce Modernization Strategy (link to Resource) focuses on seven important areas to be addressed in a phased approach over the next 10 years. These key areas are:</p>
+    <ul>
+        <li>Leveraging Data as Strategic Asset</li>
+        <li>Supporting the Current Workforce</li>
+        <li>Recruiting the Future Workforce</li>
+        <li>Adapting to Technology</li>
+        <li>Planning for Succession</li>
+        <li>Facilitating Culture Change</li>
+        <li>Building Lasting Partnerships</li>
+    </ul>
+- name: why-this-matters
+  title: Why This Matters to the CFO Council
+  path: /workforce-modernization/why-this-matters/
+  content: |
+    <p>The CFO Council works collaboratively to improve financial management in the U.S. Government. Focusing on the needs of our workforce is one of the most significant ways that we can improve financial management across the government. Employees that are supported and empowered can enhance every aspect of our mission delivery.</p>
+- name: resources
+  title: Resources
+  path: /workforce-modernization/resources/
+  content: |
+    <p>Click <a href="[site_baseurl]/resources/#focus_area=.financial-management-workforce&sub_focus_area=*&type=*&source=*&fiscal_year=*" aria-label="financial management workforce related resources">here</a> to access related resources.</p>

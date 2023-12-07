@@ -5,7 +5,7 @@ subtitle: Seminars on Payment Integrity
 permalink: /resources/seminars-payment-integrity/
 date: July 02, 2023
 has_date: 'no'
-back_to_button: 'no'
+back_to_button: 'yes'
 filters: payment-integrity training omb 2021
 fiscal_year: 2021
 ---
@@ -14,7 +14,7 @@ fiscal_year: 2021
 
 <h2>Payment Integrity 101</h2>
 <h3>Seminar 1 - Payment Integrity 101</h3>
-<p>Posted BY CFO Council on July 06, 2023</p>
+<p class="text-base margin-top-neg-05">Posted BY <span class="text-bold">CFO Council</span> on July 06, 2023</p>
 <div class="video-container">
     <iframe 
         title="Seminar 1 - Payment Integrity 101" 
@@ -27,7 +27,7 @@ fiscal_year: 2021
 
 <h2>Phases of Assessments, Phase 1</h2>
 <h3>Seminar 2 - Phases of Assessments, Phase 1</h3>
-<p>Posted BY CFO Council on July 06, 2023</p>
+<p class="text-base margin-top-neg-05">Posted BY <span class="text-bold">CFO Council</span> on July 06, 2023</p>
 <div class="video-container">
     <iframe 
         title="Seminar 2 - Phases of Assessments, Phase 1" 
@@ -40,7 +40,7 @@ fiscal_year: 2021
 
 <h2>Phases of Assessments, Phase 2</h2>
 <h3>Seminar 3 - Phases of Assessments, Phase 2</h3>
-<p>Posted BY CFO Council on July 06, 2023</p>
+<p class="text-base margin-top-neg-05">Posted BY <span class="text-bold">CFO Council</span> on July 06, 2023</p>
 <div class="video-container">
     <iframe 
         title="Seminar 3 - Phases of Assessments, Phase 2" 
@@ -53,7 +53,7 @@ fiscal_year: 2021
 
 <h2>Causes of Improper Payments</h2>
 <h3>Seminar 4 - Causes of Improper Payments</h3>
-<p>Posted BY CFO Council on July 06, 2023</p>
+<p class="text-base margin-top-neg-05">Posted BY <span class="text-bold">CFO Council</span> on July 06, 2023</p>
 <div class="video-container">
     <iframe 
         title="Seminar 4 - Causes of Improper Payments" 
@@ -66,7 +66,7 @@ fiscal_year: 2021
 
 <h2>Improper Payment Prevention</h2>
 <h3>Seminar 5 - Improper Payment Prevention</h3>
-<p>Posted BY CFO Council on July 06, 2023</p>
+<p class="text-base margin-top-neg-05">Posted BY <span class="text-bold">CFO Council</span> on July 06, 2023</p>
 <div class="video-container">
     <iframe 
         title="Seminar 5 - Improper Payment Prevention" 
@@ -79,7 +79,7 @@ fiscal_year: 2021
 
 <h2>Payment Integrity Compliance</h2>
 <h3>Seminar 6 - Payment Integrity Compliance</h3>
-<p>Posted BY CFO Council on July 06, 2023</p>
+<p class="text-base margin-top-neg-05">Posted BY <span class="text-bold">CFO Council</span> on July 06, 2023</p>
 <div class="video-container">
     <iframe 
         title="Seminar 6 - Payment Integrity Compliance" 
@@ -92,7 +92,7 @@ fiscal_year: 2021
 
 <h2>Improper Payment Reporting</h2>
 <h3>Seminar 7 - Improper Payment Reporting</h3>
-<p>Posted BY CFO Council on July 06, 2023</p>
+<p class="text-base margin-top-neg-05">Posted BY <span class="text-bold">CFO Council</span> on July 06, 2023</p>
 <div class="video-container">
     <iframe 
         title="Seminar 7 - Improper Payment Reporting" 

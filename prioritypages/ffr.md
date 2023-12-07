@@ -2,6 +2,9 @@
 layout: priority-copy
 title: Federal Financial Reporting
 permalink: /federal-financial-reporting/
+aliases:
+  - /federal-financial-reporting/overview/
+  - /federal-financial-reporting/why-this-matters/
 type: ffr
 number_of_icons: 3
 description: 

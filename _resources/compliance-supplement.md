@@ -2,7 +2,7 @@
 layout: resources-landing
 title: "Compliance Supplement"
 subtitle: "Compliance Supplement"
-link: /resources/compliance-supplement/
+permalink: /resources/compliance-supplement/
 filters: federal-financial-assistance guidance 2021
 fiscal_year: 2021
 ---

@@ -1,6 +1,6 @@
 <footer class="usa-footer">
     <div class="grid-container margin-top-2 margin-bottom-2">
-        <a href="#" class="usa-button usa-button--outline border-0">Return to top</a>
+        <a href="#" class="usa-button usa-button--outline border-0" id="return-top">Return to top</a>
     </div>
 
     <div class="usa-footer__secondary-section">
@@ -13,7 +13,7 @@
                         <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" alt="Seal of the Executive Office of the President of the United States">
                     </div>
                     <div class="mobile-lg:grid-col-8">
-                        <p class="usa-footer-logo-heading mobile-lg:font-ui-md"><strong>Office of Management and Budget</strong></p>
+                        <p class="usa-footer-logo-heading mobile-lg:font-ui-md margin-top-0"><strong>Office of Management and Budget</strong></p>
                     </div>
                 </div>
                 <div class="usa-footer__contact-links mobile-lg:grid-col-3">
@@ -36,7 +36,7 @@
                     <address class="usa-footer__address">
                         <div class="usa-footer__contact-info grid-row grid-gap">
                             <div class="grid-col-auto">
-                                <p>
+                                <p class="margin-top-0">
                                     {% if include.page_type == 'frpc' %}
                                     {{ site.footer.contact.frpc-email }}
                                     {% elsif include.page_type == 'jfmip' %}

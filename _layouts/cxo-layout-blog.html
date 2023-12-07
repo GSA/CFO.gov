@@ -1,0 +1,24 @@
+---
+layout: cxo-layout
+---
+
+{% comment %}
+This is used for just about every page. It provides the border around the content.
+The home page uses wide.html layout, since it extends full width of page
+{% endcomment %}
+
+<div class="grid-container">
+    <div class="grid-row grid-gap">
+        <div class="usa-layout-docs__main desktop:grid-col-12">
+            <h1 class="column-centered-heading">{{page.title}}</h1>
+            <div class="text-base margin-bottom-2">
+                <div class="margin-top-neg-105">
+                    {% if page.author %}
+                    Posted By <span class="text-bold">{{ page.author }}</span> on {{ page.date | date: '%B %d, %Y' }}
+                    {% endif %}
+                </div>
+            </div>
+            {{ content }}
+        </div>
+    </div>
+</div>

@@ -2,6 +2,10 @@
 layout: priority-copy
 title: Federal Financial Assistance
 permalink: /federal-financial-assistance/
+aliases:
+  - /federal-financial-assistance/overview/
+  - /federal-financial-assistance/resources/
+  - /federal-financial-assistance/why-this-matters/
 type: ffa
 number_of_icons: 5
 description: 

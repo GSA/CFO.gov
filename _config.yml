@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
-logo: /assets/images/logos/logo-main-cfo.png
+logo: /assets/images/logos/CFO-Logo-Color.svg
 jfmip-logo: /assets/images/logos/jfmip-logo-plain.png
 
 
@@ -102,6 +102,8 @@ primary_navigation:
 
   - name: CXO Fellows
     url: /cxo-fellows/
+  - name: Career Planning & Training Tool
+    url: /career-planning-training-tool/
 
 secondary_navigation:
   - name: Contact Us
@@ -156,7 +158,11 @@ searchgov:
   endpoint: https://search.usa.gov # You should not change this.
   affiliate: cfoc # replace this with your search.gov account
   access_key: 7zdoD3jfIA3XVL-Oo90qp31mCdqWg5qbk_95HxXDGAk= # This is placeholder. Not private.
-  inline: false #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
+  # This renders the results within the page instead of sending to user to search.gov.
+  inline: true
+  # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
+  # If you do not want to present search suggestions, set this value to false.
+  suggestions: true
 
 ##########################################################################################
 # The values below here are more advanced and should only be
@@ -175,8 +181,14 @@ collections:
     output: true
   resources:
     output: true
-  other_resources:
+  cxo_resources:
     output: true
+  cards:
+    output: false
+  external_resources:
+    output: false
+  external_cxo_resources:
+    output: false
 
 permalink: pretty
 
@@ -244,7 +256,8 @@ exclude:
   - node_modules
   - Gemfile
   - Gemfile.lock
-
+  - _pages/empty.md
+  - _unpublished
 
 autoprefixer:
   browsers:

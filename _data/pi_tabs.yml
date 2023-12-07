@@ -1,0 +1,20 @@
+- name: overview
+  title: Overview
+  path: /payment-integrity/overview/
+  content: |
+    <p>Payment integrity is the process of ensuring that a payment is proper. The <a href="https://www.congress.gov/116/plaws/publ117/PLAW-116publ117.pdf" target="_blank">Payment Integrity Information Act of 2019</a> and Appendix C to OMB Circular A-123, <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M-21-19.pdf" target="_blank">Requirements for Payment Integrity Improvement</a>, govern all payment integrity activity and reporting.</p>
+- name: payment-accuracy-gov
+  title: PaymentAccuracy.gov
+  path: /payment-integrity/payment-accuracy-gov/
+  content: |
+    <p>Click <a href="https://www.paymentaccuracy.gov" target="_blank" aria-label="paymentaccuracy.gov">here</a> to go to PaymentAccuracy.gov. This website provides information on how the government is addressing the issue of payment accuracy.</p>
+- name: why-this-matters
+  title: Why This Matters to the CFO Council
+  path: /payment-integrity/why-this-matters/
+  content: |
+    <p>Effective stewardship of taxpayer funds is a critical responsibility of the Federal Government and the Chief Financial Officer has the responsibility for all financial management operations and activities in their agency.  Improper payments not only impact financial stability, but they are also harmful to the integrity and reputation of the Federal Government and degrade the public’s trust.   By making payment integrity a top priority, the CFO Council improves the prevention of improper payments and protects taxpayer money.</p>
+- name: resources
+  title: Resources
+  path: /payment-integrity/resources/
+  content: |
+    <p>Click <a href="[site_baseurl]/resources/#focus_area=.payment-integrity&sub_focus_area=*&type=*&source=*&fiscal_year=*" aria-label="payment integrity related resources">here</a> to access related resources.</p>

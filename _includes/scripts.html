@@ -6,11 +6,24 @@
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="{{ site.baseurl }}/assets/js/isotope.pkgd.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/isotope.settings.js"></script>
+<script src="{{ site.baseurl }}/assets/js/pdfkit.js"></script>
+<script src="{{ site.baseurl }}/assets/js/blob-stream.js"></script>
 {% include searchgov/script.html affiliate=site.searchgov_affiliate %}
-
 
 <script src="{{ site.baseurl }}/assets/js/uswds.min.js?{{ site.time | date: '%s%N' }}"></script>
 <script src="{{ site.baseurl }}/assets/js/app.js?{{ site.time | date: '%s%N' }}"></script>
+<script type="text/javascript">
+    window.federalist = {
+      path: {
+        baseurl: '{{ site.baseurl }}'
+      }
+    };
+</script>
+{% if page.attached %}
+{% for file in page.attached %}
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ file }}.js"></script>
+{% endfor %}
+{% endif %}
 
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/slick.js?{{ site.time | date: '%s%N' }}"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/magnific-popup.js?{{ site.time | date: '%s%N' }}"></script>
@@ -29,6 +42,11 @@
             type: 'inline',
             midClick: true
         });
+
+        if (/career\-planning\-tool/.test(window.location.href)) {
+            jQuery('button[type="button"], button[type="submit"]').createButtonEvents();
+        }
     });
 
 </script>
+<script src="{{ site.baseurl }}/assets/js/cfo-tabs.js?{{ site.time | date: '%s%N' }}"></script>
