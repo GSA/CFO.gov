@@ -31,7 +31,11 @@ This appears at the top of the page letting the user know it's an official gover
                     </button>
                 </div>
             </header>
+                 {% if page.url =='/career-planning-tool/' %}
+            <div class="usa-banner__content usa-accordion__content ogp-banner" id="gov-banner">
+                {% else %}
             <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+                {% endif %}
                 <div class="grid-row grid-gap-lg">
                     <div class="usa-banner__guidance tablet:grid-col-6">
                         <img class="usa-banner__icon usa-media-block__img" alt="Dot gov" src="{{ site.baseurl }}/assets/img/icon-dot-gov.svg" />
