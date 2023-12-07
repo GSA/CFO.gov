@@ -32,4 +32,10 @@ window.addEventListener('pageshow', function(event) {
     }
 });
 
-
+$('#return-top').on('click', function (e) {
+    e.preventDefault();
+    $([document.documentElement, document.body]).animate({
+        scrollTop: 0
+    }, 200);
+    return false;
+});

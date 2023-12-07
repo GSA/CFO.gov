@@ -1,0 +1,23 @@
+- name: overview
+  title: Overview
+  path: /major-legislation/overview/
+  content: |
+    <p>The CFO Council plays a key role in ensuring effective and efficient implementation across the Federal government of new legislation.</p>
+- name: prac
+  title: American Rescue Plan and the Pandemic Response Accountability Committee (PRAC)
+  path: /major-legislation/prac/
+  content: |
+    <p>The American Rescue Plan (ARP) provides an additional $1.9 trillion in pandemic response and relief funding. Consistent with White House ARP implementation efforts, the Office of Management and Budget (OMB) and the Pandemic Response Accountability Committee (PRAC) share a common goal of fastidious oversight of ARP funds on behalf of the American taxpayers.</p>
+    <p>To that end, OMB and the PRAC have recently engaged in extensive coordination to strengthen oversight and promote transparency of pandemic spending. As the first public step in this ongoing effort, the Administration issued guidance in <a href="https://www.whitehouse.gov/wp-content/uploads/2021/03/M_21_20.pdf" target="_blank">Memorandum M-21-20</a> on March 19. OMB and the PRAC have also issued today the first in a series of alerts to agencies to raise awareness on key issues related to preventing waste, fraud, and abuse, which can be found at: <a href="https://www.pandemicoversight.gov/media/file/omb-and-prac-payment-integrity-alert" target="_blank">Payment Integrity Alert: Risk Factors and Suggested Mitigating Strategies from the Office of Management and Budget (OMB) Office of Federal Financial Management and the Pandemic Response Accountability Committee (PRAC)</a> and <a href="https://www.pandemicoversight.gov/" target="_blank">PandemicOversight.gov</a></p>
+- name: bil
+  title: Bipartisan Infrastructure Law
+  path: /major-legislation/bil/
+  content: |
+    <p>The Infrastructure Investment and Jobs Act (IIJA), also known as the Bipartisan Infrastructure Law (BIL), was signed into law by President Biden on November 15th, 2021. This law represents a once-in-a-generation investment in our nation’s infrastructure, competitiveness, and communities. The law provides over $1.2 trillion in critical funding allocated to over 350 distinct programs across more than a dozen federal departments and agencies. It is a historic opportunity to rebuild America’s roads, bridges and rails; expand access to clean drinking water; ensure that every American has access to high-speed internet; to tackle the climate crisis and advance environmental justice, while investing in communities – both urban and rural.</p>
+    <p>Effective implementation of the BIL by Federal agencies, as well as by State, local, Tribal and territorial governments, is critical to achieving its goals of the law. The CFO community plays a significant role in implementation, by managing and updating financial and grant managements processes, controls and systems and implementing strategies to mitigate risks to ensure that public dollars are invested efficiently, equitably and transparently.</p>
+    <p>In this regard, agency CFOs are expected to ensure that their agencies adhere to existing Government-wide reporting requirements as established by the Federal Funding Accountability and Transparency Act, as amended by the Digital Accountability and Transparency Act. For example, agencies must report monthly, including award outlays, to USAspending.gov for all funding.</p>
+- name: inflation-reduction-act
+  title: Inflation Reduction Act
+  path: /major-legislation/inflation-reduction-act/
+  content: |
+    <p>The Inflation Reduction Act was signed into law by President Biden on August 16, 2022. The IRA directs nearly $393.7 billion in federal funding - through a mix of tax incentives, grants, and loan guarantees - to clean energy, with the goal of substantially lowering the nation’s carbon emissions by the end of this decade. The funds will be delivered.</p>

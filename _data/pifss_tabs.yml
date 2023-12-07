@@ -1,0 +1,135 @@
+- name: about
+  title: About the Symposium Series
+  path: /payment-integrity-fraud-symposium/about/
+  content: |
+    <p>
+        The <b>Payment Integrity and Fraud Symposium Series</b> is a series of virtual and in-person events, launched in FY 2023, that is intended to galvanize the financial management community.
+    </p> 
+    <p>
+        The series includes featured speakers drawn from the highest levels of the Executive Branch and the Oversight Community. Their presentations include best practice solutions and demonstrations of the biggest advances in detecting and eliminating fraud and improper payments.
+    </p>
+    <p>
+        Lastly, this series serves as an idea launchpad for fascinating and productive breakout room discussions.
+    </p>
+- name: calendar
+  title: 2023 Calendar of Events
+  path: /payment-integrity-fraud-symposium/calendar/
+  content: |
+    <p>
+        Learn more about the events this year! 2023 is an exciting year for making improvements in Payment Integrity and Fraud Prevention. Click below to learn more.
+    </p>
+    <div class="usa-accordion usa-accordion--bordered">
+        <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a1">
+                February 22 CIO Council Innovation Committee Symposium
+            </button>
+        </h2>
+        <div id="b-a1" class="usa-accordion__content usa-prose">
+            <p class="word-line">
+                The Federal Chief Information Officers (CIO) Council Innovation Committee accelerates the adoption of new practices, processes, and technologies in the U.S. Government. This in-person/hybrid symposium session, sponsored by the Innovation Committee, included the following topics:
+            </p>
+            <ul>
+                <li><b>Welcome and Opening Remarks</b> by the Innovation Committee Chairs, and several other senior agency officials.</li>
+                <li><b>Fraud Motives, Means and Measures:</b> A panel discussion led by the FAA CIO, and supported by panelists from IRS, SSA, FAA, and NSF.</li>
+                <li><b>Combating Fraud, Mitigating Risk:</b> A panel discussion led by the CEO of Dots & Bridges with representatives from Gartner, TRM Labs, Carnegie Mellon University, and MITRE.</li>
+                <li><b>Leveraging Blockchain to help Reduce/Eliminate Improper Payment Fraud Risks:</b> A session presented by NSF, NARA, and MITRE.</li>
+                <li><b>Integrated Approach to Fraud Detection in Healthcare:</b> a Panel discussion led by the Deputy CIO of the Dept of Education, and supported by panelists from DEA, HHS, CMS, and DOI.</li>
+                <li><b>Agency Spotlights</b> with representation by GSA Login.gov, DHS, and HRSA.</li>
+            </ul>
+        </div>
+        <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a2">
+                April 25 CFOC Virtual Symposium
+            </button>
+        </h2>
+        <div id="b-a2" class="usa-accordion__content usa-prose">
+            <p class="word-line">This lunchtime virtual session covered several interesting and engaging topics, including:</p>
+            <ul>
+                <li>Delivering Payment Integrity to Prevent Fraud and Improper Payments</li>
+                <li>Fraud Risk Framework and Playbook</li>
+                <li>A Whole Government Oversight Response</li>
+            </ul>
+            <p class="word-line">A copy of the presentation slides can be found <a href="[site_baseurl]/assets/files/CFOC-4-25-23-Meeting-Slides.pdf">here</a>.</p>
+        </div>
+        <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a3">
+                June 22 CFOC Symposium
+            </button>
+        </h2>
+        <div id="b-a3" class="usa-accordion__content usa-prose">
+            <p class="word-line">
+                The virtual symposium held on June 22 from 11 to 1 PM discussed the following topics:
+            </p>
+            <ul>
+                <li>
+                    <b>Using GAO's Antifraud Resources and Reports to Understand and Combat Public Sector Fraud:</b> This presentation will provide an overview of GAO's innovative resources for combatting fraud and recent pandemic fraud reports.
+                </li>
+                <li>
+                    <b>Treasury's Payment Integrity Services for Oversight:</b> Hear how Agency Inspectors General and the broader oversight community can leverage Treasury's Payment Integrity Services including case studies.
+                </li>
+                <li>
+                    <b>Promoting Agency Program and Office of the Inspector General Collaboration:</b> Hear about SSA's National Anti-Fraud Committee's promising practices such as the annual summit and how it is an effective tool to enhance agency-IG cooperation consistent with OMB Memo M-22-04.
+                </li>
+            </ul>
+        </div>
+        <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a4">
+                September 14 CFOC Symposium (Upcoming &mdash; All Day at GSA)
+            </button>
+        </h2>
+        <div id="b-a4" class="usa-accordion__content usa-prose">
+            <p class="word-line">
+                We are very excited to formally invite Federal payment integrity, and fraud risk management, professionals to the next Symposium event which will be in hybrid format hosted at the GSA facility on Thursday September 14. For those attending in-person, registration will begin at 9:15 with sessions starting at 10:00 am and concluding at 3:30 pm (with a one-hour break for lunch).
+            </p>
+            <p>
+            At this event, come hear from senior government officials who will discuss substantive fraud and payment integrity breakthroughs happening across the government and participate in discussions to learn about:
+                    <ul>
+                        <li>Treasury's Account Verification Services and hear about how agencies have leveraged these services</li>
+                        <li>The five tenets of fraud and what to do with audits when they inevitably occur</li>
+                        <li>Best practices in reducing fraud.</li>
+                    </ul>
+            </p>
+            <p class="word-line">
+                Federal employees, or their relevant support contractors with government ID cards, may register for the event by clicking this link: <a href="https://www.eventbrite.com/e/cfoc-fraud-payment-integrity-symposium-tickets-706174546077?aff=oddtdtcreator" target="_blank">https://www.eventbrite.com/e/cfoc-fraud-payment-integrity-symposium-tickets-706174546077?aff=oddtdtcreator</a>
+            </p>
+            <p class="word-line">
+               Please click <a href="[site_baseurl]/assets/files/Revised-Fraud-Detection-Prevention-Symposium-2-Agenda.pdf">here</a> for an advanced agenda.
+            </p>
+        </div>
+            <h2 class="usa-accordion__heading">
+                <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a5">
+                    Emerging Experiences with AI and Fraud (Virtual CFOC Symposium Event Dec 6th 12-1 PM)
+                </button>
+            </h2>
+            <div id="b-a5" class="usa-accordion__content usa-prose">
+                <p class="word-line">Our next exciting event in the Symposium series will be on <u>December 6<sup>th</sup></u>, over lunch, virtually from <u>12:00-1:00 PM</u>. Advance <a href="https://gsa.zoomgov.com/webinar/register/WN_C0d7QxlCQ8W7f31Mv-1eWg" target="_blank">registration</a> is required to receive the invite and Zoom link.</p>
+
+                <p class="word-line">At this upcoming session we'll bring <strong>Artificial Intelligence</strong> to the center of our community's focus! During this session we'll hear about:</p>
+                <ul>
+                    <li><strong>Cross-Government Insights:</strong> Hear a powerful overview of the state of the Federal AI community and emerging fraud threat vectors.</li>
+                    <li><strong>Hands-on Expertise:</strong> As the in-depth part of this session, and part of our effort to bring best practices to the fore, hear from SSA about the types of AI fraud they're seeing and descriptions of the tools (some AI-based) they're using to fight fraud. They'll also demonstrate how easy it is for malicious actors to acquire and use AI tools to perpetrate fraud.</li>
+                    <li><strong>YOUR Experiences!:</strong> Through an interactive part of the session you will be asked to share what you and your agency are experiencing and doing to fight AI fraud.</li>
+                </ul>
+
+                <p class="word-line">Please help us get the word out to relevant Federal employees and support staff contractors. Note - only badged employees and contractor staff may attend. <a href="https://gsa.zoomgov.com/webinar/register/WN_C0d7QxlCQ8W7f31Mv-1eWg" target="_blank">Register HERE</a> to receive an invite, Zoom link, and other advance information.</p>
+
+                <p class="word-line">Got Questions or Ideas for Future Topics? Email <a href="mailto:CFOC.Support@gsa.gov">CFOC.Support@gsa.gov</a></p>
+            </div>
+    </div>
+- name: how-to
+  title: How to Submit a Topic, Question, or Best Practice for Consideration
+  path: /payment-integrity-fraud-symposium/how-to/
+  content: |
+    <p>
+        Do you have a topic that you think should be discussed? Have a question that you'd like addressed at an upcoming Symposium? Or have a best practice that should be featured?
+    </p>
+    <p>
+        If so &mdash; please submit your input for consideration by emailing <a href="mailto:CFOC.support@gsa.gov">CFOC.support@gsa.gov</a>. Include "Symposium Input" in the subject line.
+    </p>
+- name: how-to-stay-informed
+  title: How to Stay Informed
+  path: /payment-integrity-fraud-symposium/how-to-stay-informed/
+  content: |
+    <p>
+        Do you want to be kept in the loop regarding future events? Submit your contact information to <a href="mailto:CFOC.support@gsa.gov">CFOC.support@gsa.gov</a> (include "Symposium Information Distribution" in the subject line) and we'll include you on invites and email distribution. Note that some emails and invites may be limited to Federal employees or those with .gov email addresses.
+    </p>

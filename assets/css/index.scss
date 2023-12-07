@@ -32,6 +32,12 @@ $theme-show-notifications: false;
   .tablet\:float-left {
     float: left;
   }
+
+  .tablet\:grid-col-3{
+    -webkit-box-flex:0;
+    -ms-flex:0 1 auto;
+    flex:0 1 auto;
+  }
 }
 
 @media screen and (min-width: 640px) {
@@ -51,3 +57,27 @@ $theme-show-notifications: false;
     display: block;
   }
 }
+
+.text-green {
+  color: #006800;
+}
+
+.usa-social-link {
+    height: 3rem;
+    width: 3rem;
+    background-position: center center;
+    background-size: auto 1.5rem;
+    background-color: rgba(0,0,0,0.1);
+    display: inline-block;
+
+    &--twitter {
+        background-image: url(../img/social-icons/twitter16.svg),linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+    }
+
+    span {
+        position: absolute;
+        left: -999em;
+    }
+}
+

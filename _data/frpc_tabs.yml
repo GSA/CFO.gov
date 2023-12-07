@@ -1,0 +1,45 @@
+- name: about
+  title: About <abbr title="Federal Real Property Council">FRPC</abbr>
+  path: /frpc/about/
+  content: |
+    <h2>Goal Statement</h2>
+    <p>Optimize the federal real property portfolio to achieve agencies' missions, demonstrate stewardship, and manage costs through the implementation of capital and strategic planning, deployment of standard business processes and data standards, legislative reform, and the development and use of detailed budget and expenditure data.</p>
+    <h2>Challenges</h2>
+    <p>A lack of standard data definitions and business processes and limited financial transparency makes it difficult for government-wide initiatives to optimize the real property portfolio, to acquire necessary capital, and make timely decisions.  Current processes do not support the implementation of a consistent strategy across the whole of government.  Other challenges - the structure of the federal budget process, legislative requirements, and others - magnify the challenge.</p>
+    <h2>Opportunity</h2>
+    <p>Establish capital planning, embedded in a national strategy, to guide real property investment and implement government-wide strategies to optimize the portfolio. By fully identifying opportunities to reinvest in the portfolio through a standard government-wide planning process, the portfolio can be optimized to cost-efficiently support agencies' mission attainment. Leveraging the Federal Assets Sale and Transfer Act and Federal Property Management Reform Act can assist this effort.  Optimizing the federal real estate portfolio will allow for better delivery of federal program results.</p>
+- name: strategy
+  title: Strategy
+  path: /frpc/strategy/
+  content: |
+    <p>The Federal Real Property Council's strategic approach is featured below:</p>
+    <img alt="The Federal Real Property Council strategic approach features the following 3 strategies. These strategies build on one another. Strategy 1: Implement Capital and Strategic Planning: Develop a risk-based multi-year government-wide capital planning process to optimize the Real Property Portfolio, one that encompasses the full budget life-cycle, link capital plans to the agencies’ strategic planning processes. Update National Strategy and related policies to address key management opportunities and challenges to ensure a comprehensive approach to continue moving towards the goal of optimizing the portfolio. Strategy 3: Analyze Root Causes of Challenges & Pursue Legislative Changes: Determine root causes of existing real property management challenges as identified by auditors and others to lead FRPC efforts and create a plan for legislative reform that supports executive branch efforts to efficiently manage real property assets for improved mission-support, stewardship, and public service. Include all proposals in the President’s infrastructure and reform plans, including the Federal Revolving Fund."
+         src="[site_baseurl]/assets/images/frpc-strategy.png">
+    <a href="#strategy-popup" title="" class="image-link usa-button usa-button--secondary margin-top-5">Enlarge</a>
+    <div id="strategy-popup" class="white-popup mfp-hide">
+      <img alt="The Federal Real Property Council strategic approach features the following 3 strategies. These strategies build on one another. Strategy 1: Implement Capital and Strategic Planning: Develop a risk-based multi-year government-wide capital planning process to optimize the Real Property Portfolio, one that encompasses the full budget life-cycle, link capital plans to the agencies’ strategic planning processes. Update National Strategy and related policies to address key management opportunities and challenges to ensure a comprehensive approach to continue moving towards the goal of optimizing the portfolio. Strategy 3: Analyze Root Causes of Challenges & Pursue Legislative Changes: Determine root causes of existing real property management challenges as identified by auditors and others to lead FRPC efforts and create a plan for legislative reform that supports executive branch efforts to efficiently manage real property assets for improved mission-support, stewardship, and public service. Include all proposals in the President’s infrastructure and reform plans, including the Federal Revolving Fund."
+           src="[site_baseurl]/assets/images/frpc-strategy.png">
+    </div>
+- name: governance-structure
+  title: Governance Structure
+  path: /frpc/governance-structure/
+  content: |
+    <p>Below is the governance structure for the Federal Real Property Council:</p>
+    <img  alt="Hierarchy Row 1 (from top): Executive Steering Committee (Lead: OMB, HHS, DOL, Treasury) Hierarchy Row 2: Implement Capital and Strategic Planning National Strategy and Capital Planning Policy MOBILE NOW Act Group Standardize Business Processes & Data Capital Planning Systems Governance & Data Quality Using Financial Data to Drive Decisions CAP Goals #2 & #5 Analyze Root Causes of Challenges & Pursue Legislative Changes Legislative Reform FASTA Board"
+    src="[site_baseurl]/assets/images/frpc-governance-structure.png">
+    <a href="#org-popup" title="" class="image-link usa-button usa-button--secondary margin-top-5">Enlarge</a>
+    <div id="org-popup" class="white-popup mfp-hide">
+        <img  alt="Hierarchy Row 1 (from top): Executive Steering Committee (Lead: OMB, HHS, DOL, Treasury) Hierarchy Row 2: Implement Capital and Strategic Planning National Strategy and Capital Planning Policy MOBILE NOW Act Group Standardize Business Processes & Data Capital Planning Systems Governance & Data Quality Using Financial Data to Drive Decisions CAP Goals #2 & #5 Analyze Root Causes of Challenges & Pursue Legislative Changes Legislative Reform FASTA Board"
+              src="[site_baseurl]/assets/images/frpc-governance-structure.png">
+    </div>
+- name: initiatives
+  title: Initiatives
+  path: /frpc/initiatives/
+  content: |
+    <ul class="usa-list">
+        <li><b>Action 1:</b> National Strategy Addendum.  Develop an implementation plan for the National Strategy Addendum and initiate all required actions by the end of the calendar year 2020.</li>
+        <li><b>Action 2:</b> Capital Planning. Develop guidance to implement the capital planning policy (M-20-3) issued in November 2019.</li>
+        <li><b>Action 3:</b> Federal Integrated Business Framework Business Process and Data Standards. Standardize data elements and business processes to improve existing agency real property data systems and data quality to support management decision-making.</li>
+        <li><b>Action 4:</b> Federal Assets Sale Transfer Act Implementation.  Implement <abbr title="Federal Assets Sale Transfer Act">FASTA</abbr> as required by the statute.</li>
+        <li><b>Action 5:</b> Legislative Reform.  Include the expansion of GSA disposal authority in the budget and continue identifying opportunity for reform.</li>
+    </ul>

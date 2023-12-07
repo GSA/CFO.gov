@@ -14,11 +14,11 @@ where we provide an easy way to manage your navigation system
                 </a>
             </h1>
             {% endif %}
-            
+
             {% if include.page_type == 'frpc' %}
             <h1 class="margin-0 clearfix font-ui-xl ">
                 <a href="{{ site.baseurl }}/frpc/" accesskey="1" class="usa-logo-text" title="FRPC Page"
-                    aria-label="FRPC Page">
+                   aria-label="FRPC Page">
                     <em class="text-red"> <abbr title="Federal Real Property Council">FRPC</abbr></em>
                     <span class="font-body-md frpcSubText" style="display: block;">Federal Real Property Council</span>
                 </a>
@@ -30,7 +30,7 @@ where we provide an easy way to manage your navigation system
                 <em class="usa-logo-text">
                     <a href="{{ site.baseurl }}/jfmip/" accesskey="1" title="Joint Financial Management Improvement Program" aria-label="Joint Financial Management Improvement Program">
                         <img class="logo-size  jfmip-logo-size" src="{{ site.jfmip-logo | prepend: site.baseurl }}"
-                            alt="Joint Financial Management Improvement Program logo">
+                             alt="Joint Financial Management Improvement Program logo">
                     </a>
                 </em>
             </div>
@@ -40,7 +40,7 @@ where we provide an easy way to manage your navigation system
             <p class="margin-0 clearfix font-ui-xl text-bold">
                 <em class="usa-logo-text">
                     <a href="https://www.paymentaccuracy.gov" accesskey="1" title="Payment Accuracy Page"
-                        aria-label="Payment Accuracy Page">
+                       aria-label="Payment Accuracy Page">
                         PaymentAccuracy
                     </a>
                 </em>
@@ -71,42 +71,46 @@ where we provide an easy way to manage your navigation system
             {% endif %}
 
             {% if include.page_type == 'jfmip' %}
-            <ul class="usa-nav__primary usa-accordion" >
+            <ul class="usa-nav__primary usa-accordion">
                 {% for nav_item in include.primary_navigation %}
                 {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
-                {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}                 
+                {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
                 {% if nav_item.children %}
-                    {% assign nav_id = 'jfmip-navigation-' | append: forloop.index %}
-                    <li class="usa-nav__primary-item">
+                {% assign nav_id = 'jfmip-navigation-' | append: forloop.index %}
+                <li class="usa-nav__primary-item">
                     <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ nav_id }}"><span class="header-menu-text">{{ nav_item.name | escape }}</span></button>
-                        <ul id="{{ nav_id }}" class="usa-nav__submenu" hidden="">
+                    <ul id="{{ nav_id }}" class="usa-nav__submenu" hidden="">
                         {% for subnav_item in nav_item.children %}
                         <li class="usa-nav__submenu-item">
                             <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
                         </li>
                         {% endfor %}
-                        </ul>
-                    </li>
+                    </ul>
+                </li>
                 {% else %}
-                    <li class="usa-nav__primary-item">
-                        <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-                            href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
-                    </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+                       href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+                </li>
                 {% endif %}
                 {% endfor %}
             </ul>
             {% endif %}
 
-            <div class="usa-nav__secondary secondary-nav-padding">
-                <ul class="usa-nav__secondary-links">
-                    {% for nav_item in include.secondary_navigation %}
-                    <li class="usa-nav__secondary-item">
-                        <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-                {% include searchgov/form.html searchgov=site.searchgov affiliate=site.searchgov.affiliate %}
+            {% if include.page_type == 'frpc' %}
+            <div class="usa-nav__secondary" style="bottom: 2.75rem !important">
+                {% else %}
+                <div class="usa-nav__secondary secondary-nav-padding">
+                    {% endif %}
+                    <ul class="usa-nav__secondary-links">
+                        {% for nav_item in include.secondary_navigation %}
+                        <li class="usa-nav__secondary-item">
+                            <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% include searchgov/form.html searchgov=site.searchgov affiliate=site.searchgov.affiliate %}
+                </div>
             </div>
-        </div>
     </nav>
 </header>

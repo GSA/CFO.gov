@@ -5,11 +5,11 @@ title: Priority
 
 ---
 
-<section class="usa-hero grid-container {{ page.type }}-page {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
+<section class="usa-hero grid-container about-the-council {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
     <div class="grid-row grid-gap flex-align-center">
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.svg"
-                alt="{{ page.type }}" />
+                 alt="{{ page.type }}" />
         </div>
         <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
             <div class="priority-tag-line">
@@ -18,6 +18,9 @@ title: Priority
             <div class="priority-tag-line">
                 <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
             </div>
+            {% if page.type == "career-planning-training-tool" %}
+                <a class="margin-top-1 text-no-underline margin-bottom-1 text-green usa-button usa-button--secondary bg-yellow border-0 padding-2" href="{{site.baseurl}}/career-planning-tool/">Career Planning & Training Tool</a>
+            {% endif %}
         </div>
     </div>
 </section>
@@ -25,7 +28,7 @@ title: Priority
 
 <!--All icons and text for each priority area are referenced in the respective md file under prioritypages folder-->
 {% if page.priority_icons %}
-<section class="usa-graphic_list usa-section usa-prose clearfix">
+<section class="usa-graphic-list usa-section usa-prose clearfix">
 
     <div class="grid-row clearfix grid-container priority-icons">
 
@@ -59,50 +62,34 @@ title: Priority
 
 <div class="grid-container grid-gap">{{ content }}</div>
 
-<section class="grid-container grid-gap usa-graphic_list clearfix tabSection">
-
-    {% if page.type == "fdt" %}
-    {% include priority_fdt_sidenav.html %}
-    {% endif %}
-
-    {% if page.type == "fmt" %}
-    {% include priority_fmt_sidenav.html %}
-    {% endif %}
-
-    {% if page.type == "financial-assistance" %}
-    {% include priority_grants_sidenav.html %}
-    {% endif %}
-
-    {% if page.type == "erm" %}
-    {% include priority_erm_sidenav.html %}
-    {% endif %}
+<section class="grid-container grid-gap usa-graphic-list clearfix tabSection">
 
     {% if page.type == "payment-integrity" %}
-    {% include priority_pi_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.pi_tabs %}
     {% endif %}
 
     {% if page.type == "workforce-modernization" %}
-    {% include priority_workforce_sidenav.html %}
-    {% endif %}
-
-    {% if page.type == "arp" %}
-    {% include priority_arp_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.workforce_modernization_tabs %}
     {% endif %}
 
     {% if page.type == "major-legislation" %}
-    {% include priority_ml_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.ml_tabs %}
     {% endif %}
 
     {% if page.type == "ffr" %}
-    {% include priority_ffr_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.ffr_tabs %}
     {% endif %}
 
     {% if page.type == "ffa" %}
-    {% include priority_ffa_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.ffa_tabs %}
     {% endif %}
 
     {% if page.type == "symposium" %}
-    {% include priority_payment-integirty-fraud-symposium_sidenav.html %}
+    {% include cfo-tabs.html data = site.data.pifss_tabs %}
+    {% endif %}
+
+    {% if page.type == "career-planning-training-tool" %}
+    {% include cfo-tabs.html data = site.data.cfo_tabs %}
     {% endif %}
 
 </section>

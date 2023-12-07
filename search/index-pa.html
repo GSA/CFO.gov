@@ -1,0 +1,51 @@
+---
+permalink: /payment-accuracy/search/
+layout: payment-accuracy-layout
+title: Search Results
+---
+
+<div class="grid-container">
+  <div class="grid-row grid-gap">
+    <div class="grid-col-12">
+      <div class="priority-tag-line">
+        <h1 class="margin-bottom-05">{{ page.title }}</h1>
+      </div>
+    </div>
+  {% if site.searchgov %}
+  <div class="display-none"
+    id="searchgov-params"
+    data-endpoint="{{site.searchgov.endpoint}}"
+    data-affiliate="{{site.searchgov.affiliate}}",
+    data-access-key="{{site.searchgov.access_key}}",
+    ></div>
+    <div id="results-header" class="display-none">
+      <span id="results-count"></span> results for "<span id="search-keyword" class="text-bold"></span>"
+    </div>
+    <ol id="search-results" class="margin-left-2" class="display-none" start="1"></ol>
+    <div id="no-results" class="display-none">
+      <p>Sorry, no results were found for '<span id="search-params"></span>'. Try entering fewer or more general search terms.</p>
+      <p>If you're having trouble finding something, please email us at <a href="mailto:CFOC.support@gsa.gov">CFOC.support@gsa.gov</a> and let us know what you're looking for.<p>
+    </div>
+    <div id="pager" class="text-center margin-top-5"></div>
+
+    {% if site.searchgov.affiliate == "federalist-uswds-example" %}
+      <div class="usa-alert usa-alert--info">
+        <div class="usa-alert__body">
+          This is an example. You will need to configure your site with search.gov to see the correct search results. To do this:
+          <ol>
+            <li>Create an account with Search.gov at <a href="https://search.usa.gov/signup">https://search.usa.gov/signup</a></li>
+            <li>Go to the "Activate" section and get "API Access Key"</a></li>
+            <li>Open <code>_config.yml</code> and look for <code>searchgov</code> fields</li>
+            <li>Add your <code>affiliate</code> and <code>access_key</code></li>
+            <li>Your results will not show up immediately. Make sure you follow <a href="https://search.gov/manual/searchgov-for-federalist.html">instructions to index your site</a>.</li>
+          </ol>
+        </div>
+      </div>
+    {% endif %}
+  {% else %}
+    <script>
+      window.location = "/";
+    </script>
+  {% endif %}
+  </div>
+</div>

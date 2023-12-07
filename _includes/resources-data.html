@@ -3,7 +3,7 @@
 <div class="usa-media-block tablet:grid-col-9">
     <p class="filter-count margin-top-0 text-gray-50 text-thin"></p>
     <div class="resources">
-        {% assign resources_group = site.resources | sort: "fiscal_year" | reverse | group_by: "fiscal_year" %}
+        {% assign resources_group = site.resources| concat: site.external_resources  | sort: "fiscal_year" | reverse | group_by: "fiscal_year" %}
         {% for resources in resources_group %}
         {% assign sorted_resources = resources.items | sort: 'subtitle' %}
         {% for resource in sorted_resources %}
@@ -18,7 +18,7 @@
             <img class="new-resource-icon" src="{{ site.baseurl }}/assets/images/star.svg" alt="an icon for newly posted resource">
             {% endif %}
             {% endif %}
-            <div class="border-top-05 {{className}}-border bg-white padding-2 shadow-5 members-hover" style="height:330px">
+            <div class="border-top-1 {{className}}-border bg-white padding-2 shadow-5 members-hover" style="height:330px">
                 {% if resource.permalink %}
                 <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ resource.permalink }}">
                     {% elsif resource.doc-link %}

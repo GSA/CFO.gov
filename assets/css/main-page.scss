@@ -48,7 +48,7 @@
 }
 
 .usa-header--extended .usa-current::after, .usa-header--extended [aria-expanded=true]::after, .usa-header--extended .usa-nav__link:hover::after {
-  background-color: #d83933;
+  background-color: #d83933 !important;
 }
 .circle-image {
   border-radius: 50%;
@@ -110,7 +110,6 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
   background-repeat: no-repeat;
   background-color: #f9f9f9;
   background-position: bottom right;
-  background-size: 16%;
 }
 .ui-tabs-vertical .ui-tabs-nav {
   padding: 1.5em 0;
@@ -477,7 +476,6 @@ ol.roman {
   .usa-nav__primary > .usa-nav__primary-item {
     font-size: 0.931618rem;
     line-height: 0.939227;
-    padding-right: 1rem;
   }
 }
 
@@ -1060,4 +1058,90 @@ abbr{
     padding: 45px 0;
     color: #fff;
     background-color:#000;
+}
+
+.usa-social-link {
+    height: 3rem;
+    width: 3rem;
+    background-position: center center;
+    background-size: auto 1.5rem;
+    background-color: rgba(0,0,0,0.1);
+    display: inline-block;
+
+    &--twitter {
+        background-image: url(../img/social-icons/twitter16.svg),linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+    }
+
+    span {
+        position: absolute;
+        left: -999em;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .usa-banner__button[aria-expanded="true"]::after {
+        background-color: transparent !important;
+        background-image: url("../img/angle-arrow-up-primary.svg"), linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 0.5rem;
+        content: "";
+        display: inline-block;
+        width: 0.5rem;
+        margin-left: 4px;
+        transform: rotate(0deg) !important;
+    }
+
+    .usa-banner__button[aria-expanded="true"]:hover::after {
+        background-image: url("../img/angle-arrow-up-primary-hover.svg"), linear-gradient(transparent, transparent);
+        background-color: transparent !important;
+        transform: rotate(0deg) !important;
+    }
+
+    .usa-banner__button::after {
+        background-image: url("../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 0.5rem;
+        content: '';
+        display: inline-block;
+        width: 0.5rem;
+        margin-left: 4px;
+        background-color: transparent !important;
+    }
+
+    .usa-banner__button:hover::after {
+        background-image: url("../img/angle-arrow-down-primary-hover.svg"), linear-gradient(transparent, transparent);
+        background-color: transparent !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .usa-banner__button[aria-expanded="true"]::after {
+        border: 0;
+        background-image: url("../img/close-blue-60v-alt.svg"), linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 1rem;
+        content: '';
+        display: inline-block;
+        height: 3rem;
+        width: 3rem;
+        margin-left: 0;
+        background-color: transparent !important;
+    }
+
+    .usa-banner__header-action::after {
+        background-image: url("../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 0.5rem;
+        content: '';
+        display: inline-block;
+        height: 0.5rem;
+        width: 0.5rem;
+        margin-left: 2px;
+        background-color: transparent !important;
+    }
 }
