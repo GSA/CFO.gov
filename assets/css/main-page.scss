@@ -1011,6 +1011,15 @@ abbr{
       td {
           padding: 10px;
       }
+
+      th:nth-of-type(1),
+      td:nth-of-type(1) {
+        width: 30%;
+      }
+      th:nth-of-type(2),
+      td:nth-of-type(2) {
+        width: 70%;
+      }
   }
 }
 
