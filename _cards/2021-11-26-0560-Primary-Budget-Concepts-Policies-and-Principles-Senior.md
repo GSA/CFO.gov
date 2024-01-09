@@ -17,7 +17,7 @@ proficiency_level_definition: Applies the competency in exceptionally difficult 
 relevant_courses: 
 - <a href="https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx" aria-label="Governmental Accounting, Financial Reporting and Budgeting (live, virtual) - https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx">Governmental Accounting, Financial Reporting and Budgeting (live, virtual)</a>, AGA
 - <a href="https://cgfm.learnupon.com/store/3458-cgfm-course-2-governmental-accounting-financial-reporting-and-budgeting-sections-i-iii-bundle?is_bundle=1" aria-label="Governmental Accounting, Financial Reporting and Budgeting (online, self-paced) - https://cgfm.learnupon.com/store/3458-cgfm-course-2-governmental-accounting-financial-reporting-and-budgeting-sections-i-iii-bundle?is_bundle=1">Governmental Accounting, Financial Reporting and Budgeting (online, self-paced)</a>, AGA
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653" aria-label="PEBU 0520 Fundamentals of Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653">PEBU 0520 Fundamentals of Accounting</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653" aria-label="PEBU 0520 Fundamentals of Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653">PEBU 0520 Fundamentals of Accounting</a>, George Mason University
 filters: Primary-Budget-Concepts-Policies-and-Principles GS-14-15 series-0560
 ---
 
