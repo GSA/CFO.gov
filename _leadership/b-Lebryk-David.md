@@ -1,6 +1,6 @@
 ---
-bio-image: /wp-content/uploads/2016/02/davdlebryk.jpg
-bio-image-alt-text: DAVID LEBRYK
+bio-image: /assets/images/dot-bio.png
+bio-image-alt-text: Department of Treasury seal
 layout: bio
 permalink: /bio/mr-david-lebryk/
 name : Mr. David Lebryk

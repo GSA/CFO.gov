@@ -1,6 +1,6 @@
 ---
-bio-image: /assets/images/renata-miskell.jpg
-bio-image-alt-text: Ms. Renata Miskell
+bio-image: /assets/images/dot-bio.png
+bio-image-alt-text: Department of Treasury seal
 layout: bio
 permalink: /bio/ms-marisa-anthony/
 name : Ms. Renata Miskell
