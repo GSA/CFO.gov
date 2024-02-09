@@ -16,9 +16,9 @@ behavior_illustrations: "Examines the impact of complex financial management sol
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AUDT9012" aria-label="Auditing Performance Outcomes (AUDT9012) - https://www.LearnAtGSUSA.com/AUDT9012">Auditing Performance Outcomes (AUDT9012)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, Management Concepts
 - <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives" aria-label="Data Literacy for Executives - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">Data Literacy for Executives</a>, Data Society
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409044" aria-label="PEBU 0540 Analysis of Financial Decisions - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409044">PEBU 0540 Analysis of Financial Decisions</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409044" aria-label="PEBU 0540 Analysis of Financial Decisions - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409044">PEBU 0540 Analysis of Financial Decisions</a>, George Mason University
 filters: Secondary-Financial-Management-Analysis GS-14-15 series-0510
 ---
 
