@@ -16,9 +16,9 @@ behavior_illustrations: "Examines the impact of complex accounting solutions to 
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
 - <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives" aria-label="Data Literacy for Executives - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">Data Literacy for Executives</a>, Data Society
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409666" aria-label="PEBU 0332 Intermediate Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409666">PEBU 0332 Intermediate Accounting</a>, GMU
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653" aria-label="PEBU 0520 Fundamentals of Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653">PEBU 0520 Fundamentals of Accounting</a>, GMU
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409626" aria-label="PEBU 0531 Foundations of Financial Reporting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409626">PEBU 0531 Foundations of Financial Reporting</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409666" aria-label="PEBU 0332 Intermediate Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409666">PEBU 0332 Intermediate Accounting</a>, George Mason University
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653" aria-label="PEBU 0520 Fundamentals of Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653">PEBU 0520 Fundamentals of Accounting</a>, George Mason University
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409626" aria-label="PEBU 0531 Foundations of Financial Reporting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409626">PEBU 0531 Foundations of Financial Reporting</a>, George Mason University
 filters: Secondary-Accounting-Analysis GS-14-15 series-0501
 ---
 
