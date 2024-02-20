@@ -12,14 +12,12 @@ competency: Fundamentals and Operations of Accounting
 competency_group: Secondary
 competency_description: Knowledge of traditional accounting practices including accrual, obligations, and costs methods
 level: "14-15"
-behavior_illustrations: "Examines non-routine financial management documentation to ensure accuracy and completeness of accounting transactions and accounts and identifies potential solutions for inaccurate or incomplete entries ? Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions"
-proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
+behavior_illustrations: "Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions"
+proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, MC
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, Management Concepts
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=24" aria-label="FASAB Overview and Update - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=24">FASAB Overview and Update</a>, AGA
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417775" aria-label="PEBU 0311 Managerial and Cost Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417775">PEBU 0311 Managerial and Cost Accounting</a>, GMU
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653" aria-label="PEBU 0520 Fundamentals of Accounting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409653">PEBU 0520 Fundamentals of Accounting</a>, GMU
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409624" aria-label="PEBU 0531 Foundations of Financial Reporting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409624">PEBU 0531 Foundations of Financial Reporting</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409624" aria-label="PEBU 0531 Foundations of Financial Reporting - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409624">PEBU 0531 Foundations of Financial Reporting</a>, George Mason University
 filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0510
 ---
 
@@ -27,13 +25,13 @@ filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-14-15 series-051
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 4 - Advanced)</dt><dd>Examines non-routine financial management documentation to ensure accuracy and completeness of accounting transactions and accounts and identifies potential solutions for inaccurate or incomplete entries</dd><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions</dd></dl>
+    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

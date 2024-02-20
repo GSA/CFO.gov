@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: "Develops innovative customer service initiative which significantly improves quality and enhances customer satisfaction ?Implements organization-wide customer service initiative to raise employee skill levels to improve customer service ? Develops project plans, goals, and objectives to meet the needs of customers within and beyond the organization   "
 proficiency_level_definition: Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
 relevant_courses: 
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409729" aria-label="PEBU 0401 Vision of the Customer - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409729">PEBU 0401 Vision of the Customer</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409729" aria-label="PEBU 0401 Vision of the Customer - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409729">PEBU 0401 Vision of the Customer</a>, George Mason University
 filters: Personal-Customer-Service GS-14-15 series-0501
 ---
 

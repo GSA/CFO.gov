@@ -18,7 +18,7 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/ACQI9008" aria-label="Advanced COR Workshop (ACQI9008) - https://www.LearnAtGSUSA.com/ACQI9008">Advanced COR Workshop (ACQI9008)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT8034" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034) - https://www.LearnAtGSUSA.com/AUDT8034">Effective Audit Resolution, Follow-up and Implementation (AUDT8034)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT9010" aria-label="Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010) - https://www.LearnAtGSUSA.com/AUDT9010">Leadership, Motivation and Accountability for High Performance Audit Organizations (AUDT9010)</a>, Graduate School USA (GSUSA)
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838" aria-label="PEBU 0742 Governance and Ethics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838">PEBU 0742 Governance and Ethics</a>, GMU
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838" aria-label="PEBU 0742 Governance and Ethics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838">PEBU 0742 Governance and Ethics</a>, George Mason University
 filters: Personal-Accountability GS-14-15 series-0510
 ---
 
