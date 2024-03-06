@@ -6,11 +6,8 @@ node_modules
 .jekyll-cache/
 .idea
 .DS_Store
-Gemfile.lock
 *.idea
 .idea/*
-Gemfile.lock
-.DS_Store
 assets/img
 assets/fonts
 assets/uswds/
