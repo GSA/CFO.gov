@@ -12,8 +12,8 @@ competency: Interpersonal Skills
 competency_group: Personal
 competency_description: Shows understanding, friendliness, courtesy, tact, empathy, concern, and politeness to others; develops and maintains effective relationships with others; may include effectively dealing with individuals who are difficult, hostile, or distressed; relates well to people from varied backgrounds and different situations; is sensitive to cultural diversity, race, gender, disabilities, and other individual differences
 level: "14-15"
-behavior_illustrations: "Treats individuals from all levels of the agency with courtesy and sensitivity ? Meets with staff and listens to their perspective on organizational policies and procedures ? Displays professionalism, tact, and empathy when working with groups  ? Interacts with public interest groups with opposing viewpoints while conducting the organization's work ? Is consistently open and approachable when resolving highly sensitive and complex issues ? Maintains open and effective communication channels  "
-proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes ? Applies the competency in exceptionally difficult situations ? Serves as a key resource and advises others ? Demonstrates comprehensive, expert understanding of concepts and processes
+behavior_illustrations: "Treats individuals from all levels of the agency with courtesy and sensitivity ? Meets with staff and listens to their perspective on organizational policies and procedures ? Displays professionalism, tact, and empathy when working with groups "
+proficiency_level_definition: Applies the competency in considerably difficult situations ? Generally requires little or no guidance ? Demonstrates broad understanding of concepts and processes
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/COMM8210" aria-label="Building Effective Organizational Relationships&#58; A Supervisor's RX (COMM8210) - https://www.LearnAtGSUSA.com/COMM8210">Building Effective Organizational Relationships&#58; A Supervisor's RX (COMM8210)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT9035" aria-label="Coaching Audit Staff for High Performance (AUDT9035) - https://www.LearnAtGSUSA.com/AUDT9035">Coaching Audit Staff for High Performance (AUDT9035)</a>, Graduate School USA (GSUSA)
@@ -33,7 +33,6 @@ filters: Personal-Interpersonal-Skills GS-14-15 series-0511
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
     <dl class="text-base card-content-color"><dt>Interpersonal Skills (Level 4 - Advanced)</dt><dd>Treats individuals from all levels of the agency with courtesy and sensitivity </dd><dd> Meets with staff and listens to their perspective on organizational policies and procedures </dd><dd> Displays professionalism, tact, and empathy when working with groups
-</dd><dt>Interpersonal Skills (Level 5 - Expert)</dt><dd>Interacts with public interest groups with opposing viewpoints while conducting the organization's work </dd><dd> Is consistently open and approachable when resolving highly sensitive and complex issues </dd><dd> Maintains open and effective communication channels 
 </dd></dl>
   </div>
 </div>
@@ -41,6 +40,6 @@ filters: Personal-Interpersonal-Skills GS-14-15 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Interpersonal Skills (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd><dt>Interpersonal Skills (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd> Serves as a key resource and advises others </dd><dd> Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Interpersonal Skills (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd> Generally requires little or no guidance </dd><dd> Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>
