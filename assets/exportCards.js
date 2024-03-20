@@ -249,7 +249,7 @@ function buildCards() {
 
       // Define CSV writer
       const csvWriter = createObjectCsvWriter({
-        path: 'assets/CPPT/exported_cards.csv',
+        path: 'assets/CPTT/exported_cards.csv',
         header: Object.keys(exportCards[1]).map(key => ({id: key, title: key}))
       });
 
@@ -263,7 +263,7 @@ function buildCards() {
       if (competencyValues.length > 0) {
         const firstCompetency = competencyValues[0];
         const csvWriterCompDesc = createObjectCsvWriter({
-          path: 'assets/CPPT/competency_descriptions.csv',
+          path: 'assets/CPTT/competency_descriptions.csv',
           header: Object.keys(firstCompetency).map(key => ({id: key, title: key}))
         });
 
@@ -279,7 +279,7 @@ function buildCards() {
       if (coursesExportValues.length > 0) {
         const firstCourse = coursesExportValues[0];
         const csvWriterCompDesc = createObjectCsvWriter({
-          path: 'assets/CPPT/exported_courses.csv',
+          path: 'assets/CPTT/exported_courses.csv',
           header: Object.keys(firstCourse).map(key => ({id: key, title: key}))
         });
 

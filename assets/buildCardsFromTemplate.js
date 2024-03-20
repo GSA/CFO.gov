@@ -2,10 +2,10 @@ const fs = require('fs');
 const parse = require('csv-parse').parse;
 
 // Define the path to your CSV file
-const csvFilePath = 'assets/CPPT/courses.csv';
-const cardsFile = './CPPT/cards.json';
+const csvFilePath = 'assets/CPTT/courses.csv';
+const cardsFile = './CPTT/cards.json';
 const cards = require(cardsFile);
-const competencyDescriptions = require('./CPPT/competency_descriptions.json');
+const competencyDescriptions = require('./CPTT/competency_descriptions.json');
 
 function buildCards() {
 
@@ -26,6 +26,7 @@ function buildCards() {
     card.competencyGroup = card['TYPE:'];
     card.gsLevel = getGsLevel(card.careerLevel);
     card.permalink = '/cardsNew/' + card.jobSeries + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-') + '-' + card.careerLevel;
+    card.competencyDesignation = card['Functional Competency Designation'];
     card.filters = [
       card.competencyGroup.replace(/ /g, '-') + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-'),
       'GS-' + card.gsLevel,
@@ -33,7 +34,13 @@ function buildCards() {
     ].join(' ');
     card.compDesc = card['DESCRIPTION'] ?? '';
     card.behavior = [];
-    card.levels = card['APR'].split(', ').map(Number);
+    if (typeof card['APR'] === 'string') {
+      card.levels = card['APR'].trim().split(',').map(Number);
+    } else if (typeof card['APR'] === 'number') {
+      card.levels = [card['APR']];
+    } else {
+      console.error('Invalid type for card.APR');
+    }
     card.prof = [];
     card.relevant_courses = '';
     card.behaviorMarkup = '';
@@ -66,7 +73,6 @@ function buildCards() {
   fs.createReadStream(csvFilePath)
     .pipe(parse({ columns: true }))
     .on('data', function (row) {
-      console.log(row);
       addCourse(row);
 
     })
@@ -87,8 +93,8 @@ competency: ${card.competency.replace(/\//g, ' ')}
 competency_group: ${card.competencyGroup}
 competency_description: ${card.compDesc}
 level: "${card.gsLevel}"
-behavior_illustrations: "${Object.values(card.behavior).join(' ? ').replace(/(\r\n|\n|\r)/gm, ' ')}"
-proficiency_level_definition: "${Object.values(card.prof).join(' ? ').replace(/(\r\n|\n|\r)/gm, ' ')}"
+behavior_illustrations: "${Object.values(card.behavior).join(' ? ').replace(/(\r\n|\n|\r|\t)/gm, ' ')}"
+proficiency_level_definition: "${Object.values(card.prof).join(' ? ').replace(/(\r\n|\n|\r|\t)/gm, ' ')}"
 relevant_courses: ${card.relevant_courses || ''}
 filters: ${card.filters}
 ---
@@ -110,7 +116,6 @@ filters: ${card.filters}
         let filename = `_cards/0${card.jobSeries}-${card.competencyGroup.replace(/ /g, '-')}-${card.competency.replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-')}-${card.careerLevel}.md`;
         fs.writeFileSync(filename, output);
         count++;
-        if(card.relevant_courses.length) console.log(card);
       }
       console.log(`CSV Parsed into ${count} files.`);
 
@@ -196,7 +201,8 @@ function addCourse (course) {
     || (card.competency === course.competency_5 && isInclude(course.proficiency_levels_5, card.levels))
     || (card.competency === course.competency_6 && isInclude(course.proficiency_levels_6, card.levels))
     ) {
-      card.relevant_courses += `\n- <a href="${course.link}" aria-label="${course.course_title} - ${course.link}">${course.course_title}</a>, ${course.institution}`;
+      let courseNameList = course.course_title.replace(/:/g, "&#58;");
+      card.relevant_courses += `\n- <a href="${course.link}" aria-label="${courseNameList} - ${course.link}">${courseNameList}</a>, ${course.institution}`;
     }
   }
 }

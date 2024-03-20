@@ -128,6 +128,20 @@ site.
 ### Testing
     $ npm test
 
+### Build cards
+
+Export data to appropriate files in assets/CPTT directory:
+
+| Tab     | File name   |
+|---------|-------------|
+| Courses | courses.scv |
+| Competency Cards    | cards.json  |
+| Career Guidance    | competency_descriptions.json   |
+
+Run
+
+    $ node assets/buildCardsFromTemplate.js
+
 ## Technologies you should be familiarize yourself with
 
 - [Jekyll](https://jekyllrb.com/docs/) - The primary site engine that builds your code and content.
