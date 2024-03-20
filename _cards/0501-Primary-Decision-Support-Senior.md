@@ -134,6 +134,7 @@ relevant_courses:
 - <a href="https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds" aria-label="Virtual Collaboration Channel - https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds">Virtual Collaboration Channel</a>, Skillsoft
 - <a href="https://www.skillsoft.com/channel/working-effectively-on-a-team-9c912cb0-f918-11e6-aad2-6b3c03be7fe8?cta=feds" aria-label="Working Effectively on a Team Channel - https://www.skillsoft.com/channel/working-effectively-on-a-team-9c912cb0-f918-11e6-aad2-6b3c03be7fe8?cta=feds">Working Effectively on a Team Channel</a>, Skillsoft
 - <a href="https://www.skillsoft.com/channel/written-communication-e25b4610-e719-11e6-9835-f723b46a2688?cta=feds" aria-label="Written Communication Channel - https://www.skillsoft.com/channel/written-communication-e25b4610-e719-11e6-9835-f723b46a2688?cta=feds">Written Communication Channel</a>, Skillsoft
+- <a href="http://www.google.com" aria-label="Test Course - http://www.google.com">Test Course</a>, Skillsoft
 filters: Primary-Decision-Support GS-14-15 series-0501
 ---
 
