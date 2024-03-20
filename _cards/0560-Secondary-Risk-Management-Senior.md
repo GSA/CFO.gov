@@ -26,13 +26,13 @@ filters: Secondary-Risk-Management GS-14-15 series-0560
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Risk Management (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd>Generally requires little or no guidance </dd><dd>Demonstrates broad understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Risk Management (Level 4 - Advanced)</dt><dd>Contributes to the development and implementation of specific financial risk management policies and procedures </dd><dd>Identifies and analyzes financial risk, performs assessment, and develops mitigation procedures </dd><dd>Implements and integrates multiple financial risk management strategies, providing guidance to stakeholders</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Risk Management (Level 4 - Advanced)</dt><dd>Contributes to the development and implementation of specific financial risk management policies and procedures </dd><dd>Identifies and analyzes financial risk, performs assessment, and develops mitigation procedures </dd><dd>Implements and integrates multiple financial risk management strategies, providing guidance to stakeholders</dd></dl>
+    <dl class="text-base card-content-color"><dt>Risk Management (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd>Generally requires little or no guidance </dd><dd>Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

@@ -25,13 +25,13 @@ filters: Personal-Innovative-Thinking GS-10-13 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Innovative Thinking (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Innovative Thinking (Level 3 - Intermediate)</dt><dd>Develops a new method for disseminating information to staff </dd><dd>Recommends changes to the delivery of a product or service that increases efficiency or effectiveness for office operations and services</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Innovative Thinking (Level 3 - Intermediate)</dt><dd>Develops a new method for disseminating information to staff </dd><dd>Recommends changes to the delivery of a product or service that increases efficiency or effectiveness for office operations and services</dd></dl>
+    <dl class="text-base card-content-color"><dt>Innovative Thinking (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

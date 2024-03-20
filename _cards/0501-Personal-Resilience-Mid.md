@@ -28,13 +28,13 @@ filters: Personal-Resilience GS-10-13 series-0501
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Resilience (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd><dt>Resilience (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Resilience (Level 2 - Basic)</dt><dd>Meets with employees resistant to organizational change to address concerns </dd><dd>Maintains composure and direction in high-pressure situations </dd><dd>Accepts negative feedback in a constructive manner and adjusts behavior accordingly</dd><dt>Resilience (Level 3 - Intermediate)</dt><dd>Perseveres on project despite changing objectives, deliverables and deadlines </dd><dd>Develops strategies using existing resources for achieving objectives following budget cuts</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Resilience (Level 2 - Basic)</dt><dd>Meets with employees resistant to organizational change to address concerns </dd><dd>Maintains composure and direction in high-pressure situations </dd><dd>Accepts negative feedback in a constructive manner and adjusts behavior accordingly</dd><dt>Resilience (Level 3 - Intermediate)</dt><dd>Perseveres on project despite changing objectives, deliverables and deadlines </dd><dd>Develops strategies using existing resources for achieving objectives following budget cuts</dd></dl>
+    <dl class="text-base card-content-color"><dt>Resilience (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd><dt>Resilience (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

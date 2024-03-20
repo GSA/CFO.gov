@@ -28,13 +28,13 @@ filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-10-13 se
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Budget Formulation, Justification, and Presentation (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd><dt>Budget Formulation, Justification, and Presentation (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Budget Formulation, Justification, and Presentation (Level 2 - Basic)</dt><dd>Coordinates budget inputs and gathers justifications</dd><dt>Budget Formulation, Justification, and Presentation (Level 3 - Intermediate)</dt><dd>Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Budget Formulation, Justification, and Presentation (Level 2 - Basic)</dt><dd>Coordinates budget inputs and gathers justifications</dd><dt>Budget Formulation, Justification, and Presentation (Level 3 - Intermediate)</dt><dd>Interprets policies, assesses trends, reviews, coordinates and integrates the formulation and preparation of budget exhibits and justification materials</dd></dl>
+    <dl class="text-base card-content-color"><dt>Budget Formulation, Justification, and Presentation (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd><dt>Budget Formulation, Justification, and Presentation (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

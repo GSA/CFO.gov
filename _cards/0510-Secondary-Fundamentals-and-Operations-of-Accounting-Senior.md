@@ -24,13 +24,13 @@ filters: Secondary-Fundamentals-and-Operations-of-Accounting GS-14-15 series-051
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd>Serves as a key resource and advises others </dd><dd>Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Identifies checks and balances of transactions and procedures that ensure data integrity and regulatory compliance to include negotiability, validity, and accuracy in the processing, auditing and certifying of accounting transactions</dd></dl>
+    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd>Serves as a key resource and advises others </dd><dd>Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

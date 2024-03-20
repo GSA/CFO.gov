@@ -26,13 +26,13 @@ filters: Personal-Flexibility GS-10-13 series-0501
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Flexibility (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd><dt>Flexibility (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Flexibility (Level 2 - Basic)</dt><dd>Uses staff feedback to streamline processes in order to meet deadlines </dd><dd>Adjusts project plan based on input from staff and stakeholders</dd><dt>Flexibility (Level 3 - Intermediate)</dt><dd>Realigns resources to meet changing customer needs </dd><dd>Takes feedback into consideration while implementing organizational change</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Flexibility (Level 2 - Basic)</dt><dd>Uses staff feedback to streamline processes in order to meet deadlines </dd><dd>Adjusts project plan based on input from staff and stakeholders</dd><dt>Flexibility (Level 3 - Intermediate)</dt><dd>Realigns resources to meet changing customer needs </dd><dd>Takes feedback into consideration while implementing organizational change</dd></dl>
+    <dl class="text-base card-content-color"><dt>Flexibility (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd><dt>Flexibility (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

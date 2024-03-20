@@ -23,13 +23,13 @@ filters: Primary-Audit-Reporting GS-14-15 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Audit Reporting (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd>Serves as a key resource and advises others </dd><dd>Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Audit Reporting (Level 5 - Expert)</dt><dd>Collaborates with senior leadership to address complex and/or controversial findings and recommendations identified in audit reports, statements or other documentation</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Audit Reporting (Level 5 - Expert)</dt><dd>Collaborates with senior leadership to address complex and/or controversial findings and recommendations identified in audit reports, statements or other documentation</dd></dl>
+    <dl class="text-base card-content-color"><dt>Audit Reporting (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd>Serves as a key resource and advises others </dd><dd>Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

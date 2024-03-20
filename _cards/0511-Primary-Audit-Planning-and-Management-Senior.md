@@ -30,13 +30,13 @@ filters: Primary-Audit-Planning-and-Management GS-14-15 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Audit Planning and Management (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd>Generally requires little or no guidance </dd><dd>Demonstrates broad understanding of concepts and processes</dd><dt>Audit Planning and Management (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd>Serves as a key resource and advises others </dd><dd>Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Audit Planning and Management (Level 4 - Advanced)</dt><dd>Oversees and manages all aspects of the audit process on behalf of a Department to ensure integrity and accountability</dd><dt>Audit Planning and Management (Level 5 - Expert)</dt><dd>Leads and directs strategic audit planning efforts at the Department level</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Audit Planning and Management (Level 4 - Advanced)</dt><dd>Oversees and manages all aspects of the audit process on behalf of a Department to ensure integrity and accountability</dd><dt>Audit Planning and Management (Level 5 - Expert)</dt><dd>Leads and directs strategic audit planning efforts at the Department level</dd></dl>
+    <dl class="text-base card-content-color"><dt>Audit Planning and Management (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd>Generally requires little or no guidance </dd><dd>Demonstrates broad understanding of concepts and processes</dd><dt>Audit Planning and Management (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd>Serves as a key resource and advises others </dd><dd>Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

@@ -32,13 +32,13 @@ filters: Leading-Enterprise-Perspective GS-14-15 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Enterprise Perspective (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd>Generally requires little or no guidance </dd><dd>Demonstrates broad understanding of concepts and processes</dd><dt>Enterprise Perspective (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd>Serves as a key resource and advises others </dd><dd>Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Enterprise Perspective (Level 4 - Advanced)</dt><dd>Understands the political, legal and administrative forces that influence the offices work, relationships with other Departments and Congress </dd><dd>Recognizes the need for teamwork to meet the mission and fosters that </dd><dd>Manages conflict across organizations</dd><dt>Enterprise Perspective (Level 5 - Expert)</dt><dd>Models behaviors that demonstrate sensitivity to sharing knowledge with others, including workforce development, and demonstrating good governance and leadership techniques</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Enterprise Perspective (Level 4 - Advanced)</dt><dd>Understands the political, legal and administrative forces that influence the offices work, relationships with other Departments and Congress </dd><dd>Recognizes the need for teamwork to meet the mission and fosters that </dd><dd>Manages conflict across organizations</dd><dt>Enterprise Perspective (Level 5 - Expert)</dt><dd>Models behaviors that demonstrate sensitivity to sharing knowledge with others, including workforce development, and demonstrating good governance and leadership techniques</dd></dl>
+    <dl class="text-base card-content-color"><dt>Enterprise Perspective (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd>Generally requires little or no guidance </dd><dd>Demonstrates broad understanding of concepts and processes</dd><dt>Enterprise Perspective (Level 5 - Expert)</dt><dd>Applies the competency in exceptionally difficult situations </dd><dd>Serves as a key resource and advises others </dd><dd>Demonstrates comprehensive, expert understanding of concepts and processes</dd></dl>
   </div>
 </div>

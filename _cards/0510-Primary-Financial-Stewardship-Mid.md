@@ -36,13 +36,13 @@ filters: Primary-Financial-Stewardship GS-10-13 series-0510
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Financial Stewardship (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd>Generally requires little or no guidance </dd><dd>Demonstrates broad understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Financial Stewardship (Level 4 - Advanced)</dt><dd>Interprets, analyzes and advises others on financial policies, regulations and procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Financial Stewardship (Level 4 - Advanced)</dt><dd>Interprets, analyzes and advises others on financial policies, regulations and procedures to ensure compliance with laws, regulations, and policies, and efficient use of resources to meet organizational goals and objectives</dd></dl>
+    <dl class="text-base card-content-color"><dt>Financial Stewardship (Level 4 - Advanced)</dt><dd>Applies the competency in considerably difficult situations </dd><dd>Generally requires little or no guidance </dd><dd>Demonstrates broad understanding of concepts and processes</dd></dl>
   </div>
 </div>

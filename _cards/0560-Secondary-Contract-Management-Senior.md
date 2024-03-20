@@ -35,13 +35,13 @@ filters: Secondary-Contract-Management GS-14-15 series-0560
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Contract Management (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Contract Management (Level 3 - Intermediate)</dt><dd>Assists with financial analysis to evaluate cost and price proposals or renegotiation of cost/price of contracts as appropriate </dd><dd>Identifies appropriate funding line of accounting for use in response and recovery activities following an unplanned contingency </dd><dd>Performs periodic accounting reconciliation to ensure integrity of financial information or data</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Contract Management (Level 3 - Intermediate)</dt><dd>Assists with financial analysis to evaluate cost and price proposals or renegotiation of cost/price of contracts as appropriate </dd><dd>Identifies appropriate funding line of accounting for use in response and recovery activities following an unplanned contingency </dd><dd>Performs periodic accounting reconciliation to ensure integrity of financial information or data</dd></dl>
+    <dl class="text-base card-content-color"><dt>Contract Management (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

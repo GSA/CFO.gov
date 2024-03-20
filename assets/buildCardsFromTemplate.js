@@ -55,7 +55,7 @@ function buildCards() {
           card.prof[level] = prof;
           let frags = prof.split('\t').filter(x => !!x.trim());
           for (let j = 0, k = frags.length; j < k; j++) {
-            card.behaviorMarkup += `<dd>${frags[j].replace(/(\r\n|\n|\r)/gm, ' ')}</dd>`;
+            card.profLevelMarkup += `<dd>${frags[j].replace(/(\r\n|\n|\r)/gm, ' ')}</dd>`;
           }
         }
         let behavior = getBehavioralIllustration(card.competency, level);
@@ -63,7 +63,7 @@ function buildCards() {
           card.behavior[level] = behavior;
           let frags = behavior.split('\t').filter(x => !!x.trim());
           for (let j = 0, k = frags.length; j < k; j++) {
-            card.profLevelMarkup += `<dd>${frags[j].replace(/(\r\n|\n|\r)/gm, ' ')}</dd>`;
+            card.behaviorMarkup += `<dd>${frags[j].replace(/(\r\n|\n|\r)/gm, ' ')}</dd>`;
           }
         }
       }

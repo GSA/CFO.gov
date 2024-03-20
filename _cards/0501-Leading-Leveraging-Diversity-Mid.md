@@ -26,13 +26,13 @@ filters: Leading-Leveraging-Diversity GS-10-13 series-0501
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Leveraging Diversity (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Leveraging Diversity (Level 2 - Basic)</dt><dd>Adheres to Equal Employment Opportunity (EEO) policies, goals, objectives, and philosophies of valuing diversity in performing everyday duties and responsibilities </dd><dd>Builds teams leveraging diverse capabilities of staff</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Leveraging Diversity (Level 2 - Basic)</dt><dd>Adheres to Equal Employment Opportunity (EEO) policies, goals, objectives, and philosophies of valuing diversity in performing everyday duties and responsibilities </dd><dd>Builds teams leveraging diverse capabilities of staff</dd></dl>
+    <dl class="text-base card-content-color"><dt>Leveraging Diversity (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>

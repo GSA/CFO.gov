@@ -36,13 +36,13 @@ filters: Leading-Developing-Others GS-10-13 series-0511
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Developing Others (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd><dt>Developing Others (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Developing Others (Level 2 - Basic)</dt><dd>Encourages employees to participate in mentoring programs and other learning opportunities </dd><dd>Pairs new staff with seasoned employees to facilitate understanding of the position and organization </dd><dd>Provides orientation to new employees</dd><dt>Developing Others (Level 3 - Intermediate)</dt><dd>Assesses staff and provides timely and consistent feedback regarding technical proficiency and effectiveness </dd><dd>Provides constructive feedback, guidance and reinforcement to employees regarding job performance </dd><dd>Works with staff to identify work goals and create individual development plans </dd><dd>Evaluates training programs to ensure content meets staff needs</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Developing Others (Level 2 - Basic)</dt><dd>Encourages employees to participate in mentoring programs and other learning opportunities </dd><dd>Pairs new staff with seasoned employees to facilitate understanding of the position and organization </dd><dd>Provides orientation to new employees</dd><dt>Developing Others (Level 3 - Intermediate)</dt><dd>Assesses staff and provides timely and consistent feedback regarding technical proficiency and effectiveness </dd><dd>Provides constructive feedback, guidance and reinforcement to employees regarding job performance </dd><dd>Works with staff to identify work goals and create individual development plans </dd><dd>Evaluates training programs to ensure content meets staff needs</dd></dl>
+    <dl class="text-base card-content-color"><dt>Developing Others (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd><dt>Developing Others (Level 3 - Intermediate)</dt><dd>Applies the competency in difficult situations </dd><dd>Requires occasional guidance </dd><dd>Demonstrates understanding of concepts and processes</dd></dl>
   </div>
 </div>

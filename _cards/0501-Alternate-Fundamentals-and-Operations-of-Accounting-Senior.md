@@ -37,13 +37,13 @@ filters: Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-050
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Behavior Illustrations</p>
     <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd></dl>
+    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 2 - Basic)</dt><dd>Extracts, records and balances basic information from routine or recurring reports using standardized procedures</dd></dl>
   </div>
 </div>
 <div class="desktop:grid-col-6 margin-y-3">
   <div class="border-top-2 bg-white padding-3 shadow-5 height-full members-hover border-1px button-border border-top-blue radius-lg">
     <p class="text-bold label-color font-size-21">Proficiency Level Definition</p>
      <hr class="hr-green"/>
-    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 2 - Basic)</dt><dd>Extracts, records and balances basic information from routine or recurring reports using standardized procedures</dd></dl>
+    <dl class="text-base card-content-color"><dt>Fundamentals and Operations of Accounting (Level 2 - Basic)</dt><dd>Applies the competency in somewhat difficult situations </dd><dd>Requires frequent guidance </dd><dd>Demonstrates familiarity with concepts and processes</dd></dl>
   </div>
 </div>
