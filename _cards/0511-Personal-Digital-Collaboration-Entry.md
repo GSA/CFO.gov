@@ -15,9 +15,9 @@ level: "7-9"
 behavior_illustrations: " Understands the basic features of common tools useful for securely collaborating in a virtual work environment  Attends virtual meetings with team members ?  Understands the standard features of common tools useful for securely collaborating in a virtual work environment  Completes tasks, initiatives, or actively participates in meetings using the standard virtual collaboration tools"
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes ?  Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes"
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/ACQI8030" aria-label="Virtual Contract Management (ACQI8030) - https://www.LearnAtGSUSA.com/ACQI8030">Virtual Contract Management (ACQI8030)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx" aria-label="Governmental Environment (live, virtual) - https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx">Governmental Environment (live, virtual)</a>, AGA
 - <a href="https://cgfm.learnupon.com/store/2300-cgfm-course-1-governmental-environment-sections-i-vii-bundle?is_bundle=1" aria-label="Governmental Environment (online, self-paced) - https://cgfm.learnupon.com/store/2300-cgfm-course-1-governmental-environment-sections-i-vii-bundle?is_bundle=1">Governmental Environment (online, self-paced)</a>, AGA
+- <a href="https://www.LearnAtGSUSA.com/ACQI8030" aria-label="Virtual Contract Management (ACQI8030) - https://www.LearnAtGSUSA.com/ACQI8030">Virtual Contract Management (ACQI8030)</a>, Graduate School USA (GSUSA)
 filters: Personal-Digital-Collaboration GS-7-9 series-0511
 ---
 

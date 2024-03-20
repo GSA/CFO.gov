@@ -15,10 +15,10 @@ level: "14-15"
 behavior_illustrations: " Uses RPA to simplify a wide range of processes  Identifies, selects, and implements RPA to improve processes or functions ?"
 proficiency_level_definition: " Applies the competency in difficult situations  Requires occasional guidance  Demonstrates understanding of concepts and processes"
 relevant_courses: 
-- <a href="https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Robotics Essentials (with MIT xPRO) - https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Robotics Essentials (with MIT xPRO)</a>, Emeritus
-- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Robotic Process Automation/ Artificial Intelligence - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Robotic Process Automation/ Artificial Intelligence</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1738749&courseTitle=machine-learning" aria-label="LHL 0230 Machine Learning - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1738749&courseTitle=machine-learning">LHL 0230 Machine Learning</a>, George Mason University
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2408925" aria-label="PEBU 0361 Accounting Analytics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2408925">PEBU 0361 Accounting Analytics</a>, George Mason University
+- <a href="https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b" aria-label="Robotics Essentials (with MIT xPRO) - https://executive-ed.xpro.mit.edu/robotics-essentials/enterprise/?b2c_form=true&utm_campaign=gsa&utm_source=b2b">Robotics Essentials (with MIT xPRO)</a>, Emeritus
+- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Robotic Process Automation/ Artificial Intelligence - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Robotic Process Automation/ Artificial Intelligence</a>, AGA
 filters: Secondary-Robotic-Process-Automation GS-14-15 series-0510
 ---
 

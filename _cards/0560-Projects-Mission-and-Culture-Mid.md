@@ -15,8 +15,8 @@ level: "10-13"
 behavior_illustrations: " Works successfully in team environments  Represents the organization in varying capacities and situations  Identifies opportunities for improvement  Understands organizational dynamics ?  Mentors new employees or junior staff  Collaborates with customers to define products and services  Participates in or leads analysis across the organization"
 proficiency_level_definition: " Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes ?  Applies the competency in difficult situations  Requires occasional guidance  Demonstrates understanding of concepts and processes"
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020) - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.managementconcepts.com/course/id/1360?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="CON 360&#58; Contracting For Decision Makers - https://www.managementconcepts.com/course/id/1360?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">CON 360&#58; Contracting For Decision Makers</a>, Management Concepts
+- <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020) - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020)</a>, Graduate School USA (GSUSA)
 filters: Projects-Mission-and-Culture GS-10-13 series-0560
 ---
 

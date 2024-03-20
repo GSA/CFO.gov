@@ -17,9 +17,9 @@ proficiency_level_definition: " Applies the competency in considerably difficult
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AUDT8034" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034) - https://www.LearnAtGSUSA.com/AUDT8034">Effective Audit Resolution, Follow-up and Implementation (AUDT8034)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911) - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
 - <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020) - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/MGMT9104" aria-label="Negotiating Techniques (MGMT9104 & 9105) - https://www.LearnAtGSUSA.com/MGMT9104">Negotiating Techniques (MGMT9104 & 9105)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
 filters: Projects-Influencing-and-Negotiating GS-14-15 series-0560
 ---
 

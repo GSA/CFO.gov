@@ -15,8 +15,8 @@ level: "7-9"
 behavior_illustrations: " Summarizes information related to audit findings to identify condition, criteria, cause and effect to communicate potential concerns ?  Drafts sections of audit reports, statements or other documentation to support audit findings"
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes ?  Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes"
 relevant_courses: 
-- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=22" aria-label="Effective Writing Skills for Auditors - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=22">Effective Writing Skills for Auditors</a>, AGA
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=20" aria-label="Developing and Conducting Effective and Efficient Performance Audit Programs - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=20">Developing and Conducting Effective and Efficient Performance Audit Programs</a>, AGA
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=22" aria-label="Effective Writing Skills for Auditors - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=22">Effective Writing Skills for Auditors</a>, AGA
 filters: Primary-Audit-Reporting GS-7-9 series-0511
 ---
 

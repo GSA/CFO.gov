@@ -17,8 +17,8 @@ proficiency_level_definition: " Applies the competency in difficult situations  
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/ACQI7502" aria-label="Contracting Basics for Administrative Personnel (ACQI7502) - https://www.LearnAtGSUSA.com/ACQI7502">Contracting Basics for Administrative Personnel (ACQI7502)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.LearnAtGSUSA.com/MGMT9020" aria-label="Preparing to Lead in the 21st Century (MGMT9020) - https://www.LearnAtGSUSA.com/MGMT9020">Preparing to Lead in the 21st Century (MGMT9020)</a>, Graduate School USA (GSUSA)
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409678" aria-label="PEBU 0406 Problem Solving - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409678">PEBU 0406 Problem Solving</a>, George Mason University
+- <a href="https://www.LearnAtGSUSA.com/MGMT9020" aria-label="Preparing to Lead in the 21st Century (MGMT9020) - https://www.LearnAtGSUSA.com/MGMT9020">Preparing to Lead in the 21st Century (MGMT9020)</a>, Graduate School USA (GSUSA)
 filters: Personal-Problem-Solving GS-10-13 series-0511
 ---
 

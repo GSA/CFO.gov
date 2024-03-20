@@ -20,9 +20,9 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/AUDT7200" aria-label="Counterintelligence for Information Security Assessment and Protection (AUDT7200) - https://www.LearnAtGSUSA.com/AUDT7200">Counterintelligence for Information Security Assessment and Protection (AUDT7200)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT8034" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034) - https://www.LearnAtGSUSA.com/AUDT8034">Effective Audit Resolution, Follow-up and Implementation (AUDT8034)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT7010" aria-label="Federal Appropriations Law for Auditors (AUDT7010) - https://www.LearnAtGSUSA.com/AUDT7010">Federal Appropriations Law for Auditors (AUDT7010)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Risk Management - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Risk Management</a>, AGA
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417807" aria-label="PEBU 0425 Managing the Business Enterprise - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417807">PEBU 0425 Managing the Business Enterprise</a>, George Mason University
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409491" aria-label="PEBU 0424 Developing a Strategic Mindset - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409491">PEBU 0424 Developing a Strategic Mindset</a>, George Mason University
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417807" aria-label="PEBU 0425 Managing the Business Enterprise - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417807">PEBU 0425 Managing the Business Enterprise</a>, George Mason University
+- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Risk Management - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Risk Management</a>, AGA
 filters: Secondary-Risk-Management GS-10-13 series-0510
 ---
 

@@ -16,9 +16,9 @@ behavior_illustrations: " Contributes to the development and implementation of s
 proficiency_level_definition: " Applies the competency in considerably difficult situations  Generally requires little or no guidance  Demonstrates broad understanding of concepts and processes"
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AUDT8034" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034) - https://www.LearnAtGSUSA.com/AUDT8034">Effective Audit Resolution, Follow-up and Implementation (AUDT8034)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Risk Management - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Risk Management</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409491" aria-label="PEBU 0424 Developing a Strategic Mindset - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409491">PEBU 0424 Developing a Strategic Mindset</a>, George Mason University
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409668" aria-label="PEBU 0690 Fundamentals of Federal Risk Management - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409668">PEBU 0690 Fundamentals of Federal Risk Management</a>, George Mason University
+- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Risk Management - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Risk Management</a>, AGA
 filters: Secondary-Risk-Management GS-14-15 series-0560
 ---
 

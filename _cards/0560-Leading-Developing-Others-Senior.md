@@ -26,9 +26,9 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/EXEC9912" aria-label="Leading People (EXEC9912) - https://www.LearnAtGSUSA.com/EXEC9912">Leading People (EXEC9912)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/TDEV8200" aria-label="Leading Teams and Groups (TDEV8200) - https://www.LearnAtGSUSA.com/TDEV8200">Leading Teams and Groups (TDEV8200)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/MGMT7006" aria-label="Mentoring Skills (MGMT7006) - https://www.LearnAtGSUSA.com/MGMT7006">Mentoring Skills (MGMT7006)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.LearnAtGSUSA.com/AUDT9109" aria-label="Skills for Leading and Managing Audit Projects (AUDT9109) - https://www.LearnAtGSUSA.com/AUDT9109">Skills for Leading and Managing Audit Projects (AUDT9109)</a>, Graduate School USA (GSUSA)
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2089171&selectedProgramAreaId=18214&selectedProgramStreamId" aria-label="PELA 0440 Leading Thriving Organizations - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2089171&selectedProgramAreaId=18214&selectedProgramStreamId">PELA 0440 Leading Thriving Organizations</a>, George Mason University
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409058" aria-label="PEBU 0502 Chief Learning Officer Certificate - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409058">PEBU 0502 Chief Learning Officer Certificate</a>, George Mason University
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2089171&selectedProgramAreaId=18214&selectedProgramStreamId" aria-label="PELA 0440 Leading Thriving Organizations - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2089171&selectedProgramAreaId=18214&selectedProgramStreamId">PELA 0440 Leading Thriving Organizations</a>, George Mason University
+- <a href="https://www.LearnAtGSUSA.com/AUDT9109" aria-label="Skills for Leading and Managing Audit Projects (AUDT9109) - https://www.LearnAtGSUSA.com/AUDT9109">Skills for Leading and Managing Audit Projects (AUDT9109)</a>, Graduate School USA (GSUSA)
 filters: Leading-Developing-Others GS-14-15 series-0560
 ---
 

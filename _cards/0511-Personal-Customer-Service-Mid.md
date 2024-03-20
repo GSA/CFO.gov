@@ -15,8 +15,8 @@ level: "10-13"
 behavior_illustrations: " Designs and implements new or improved practices and strategies to improve customer service  Develops customer satisfaction surveys, analyzes results, and makes necessary improvements  Addresses customer service deficiencies by involving employees to identify solutions ?  Anticipates growing customer needs and expectations to continuously improve product development and service delivery  Creates work group consisting of stakeholders and neutral parties to develop solutions to customer service barriers  Ensures products and services meet customer needs"
 proficiency_level_definition: " Applies the competency in difficult situations  Requires occasional guidance  Demonstrates understanding of concepts and processes ?  Applies the competency in considerably difficult situations  Generally requires little or no guidance  Demonstrates broad understanding of concepts and processes"
 relevant_courses: 
-- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49" aria-label="Professional Polish in the Public Sector - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49">Professional Polish in the Public Sector</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409729" aria-label="PEBU 0401 Vision of the Customer - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409729">PEBU 0401 Vision of the Customer</a>, George Mason University
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49" aria-label="Professional Polish in the Public Sector - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49">Professional Polish in the Public Sector</a>, AGA
 filters: Personal-Customer-Service GS-10-13 series-0511
 ---
 

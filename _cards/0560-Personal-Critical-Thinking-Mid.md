@@ -16,10 +16,10 @@ behavior_illustrations: " Reviews proposed changes to a policy to determine whic
 proficiency_level_definition: " Applies the competency in difficult situations  Requires occasional guidance  Demonstrates understanding of concepts and processes"
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
-- <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
 - <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Critical Thinking For Problem Solving - https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Critical Thinking For Problem Solving</a>, Management Concepts
 - <a href="https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Data Analysis For Financial Managers Using Microsoft Excel - https://www.managementconcepts.com/course/id/5318?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Data Analysis For Financial Managers Using Microsoft Excel</a>, Management Concepts
+- <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 filters: Personal-Critical-Thinking GS-10-13 series-0560
 ---
 

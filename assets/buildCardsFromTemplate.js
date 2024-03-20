@@ -42,7 +42,7 @@ function buildCards() {
       console.error('Invalid type for card.APR');
     }
     card.prof = [];
-    card.relevant_courses = '';
+    card.courses_list = [];
     card.behaviorMarkup = '';
     card.profLevelMarkup = '';
     for (let level of card.levels) {
@@ -79,6 +79,7 @@ function buildCards() {
     .on('end', function () {
       let count = 0;
       for (var card of cards) {
+        let relevant_courses = getCoursesForCard(card);
         let output = `---
 layout: career-planning-landing
 category: career
@@ -95,7 +96,7 @@ competency_description: ${card.compDesc}
 level: "${card.gsLevel}"
 behavior_illustrations: "${Object.values(card.behavior).join(' ? ').replace(/(\r\n|\n|\r|\t)/gm, ' ')}"
 proficiency_level_definition: "${Object.values(card.prof).join(' ? ').replace(/(\r\n|\n|\r|\t)/gm, ' ')}"
-relevant_courses: ${card.relevant_courses || ''}
+relevant_courses: ${relevant_courses || ''}
 filters: ${card.filters}
 ---
 
@@ -202,9 +203,22 @@ function addCourse (course) {
     || (card.competency === course.competency_6 && isInclude(course.proficiency_levels_6, card.levels))
     ) {
       let courseNameList = course.course_title.replace(/:/g, "&#58;");
-      card.relevant_courses += `\n- <a href="${course.link}" aria-label="${courseNameList} - ${course.link}">${courseNameList}</a>, ${course.institution}`;
+      card.courses_list.push({
+        name: courseNameList,
+        link: course.link,
+        institution: course.institution
+      });
     }
   }
+}
+
+function getCoursesForCard (card) {
+  let relevant_courses = '';
+  card.courses_list = card.courses_list.sort((a, b) => a.name > b.name ? 1 : -1);
+  for (let course of card.courses_list) {
+    relevant_courses += `\n- <a href="${course.link}" aria-label="${course.name} - ${course.link}">${course.name}</a>, ${course.institution}`;
+  }
+  return relevant_courses;
 }
 
 function isInclude(competency_levels, levels) {

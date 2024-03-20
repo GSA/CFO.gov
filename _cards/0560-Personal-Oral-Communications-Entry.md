@@ -22,11 +22,11 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/AUDT7012" aria-label="Interviewing Techniques for Auditors (AUDT7012) - https://www.LearnAtGSUSA.com/AUDT7012">Interviewing Techniques for Auditors (AUDT7012)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/SUPV7001" aria-label="Introduction to Supervision (SUPV7001) - https://www.LearnAtGSUSA.com/SUPV7001">Introduction to Supervision (SUPV7001)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/ADMB7006" aria-label="Leadership Skills for Non-Supervisors (ADMB7006) - https://www.LearnAtGSUSA.com/ADMB7006">Leadership Skills for Non-Supervisors (ADMB7006)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.LearnAtGSUSA.com/AUDT8522" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522) - https://www.LearnAtGSUSA.com/AUDT8522">Presentation and Briefing Skills for Auditors (AUDT8522)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.LearnAtGSUSA.com/COMM7010" aria-label="Speaking with Confidence (COMM7010) - https://www.LearnAtGSUSA.com/COMM7010">Speaking with Confidence (COMM7010)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49" aria-label="Professional Polish in the Public Sector - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49">Professional Polish in the Public Sector</a>, AGA
-- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Communications - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Communications</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1552676&selectedProgramAreaId=1554098&selectedProgramStreamId=" aria-label="PELA 0606 Communication in Organizations - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1552676&selectedProgramAreaId=1554098&selectedProgramStreamId=">PELA 0606 Communication in Organizations</a>, George Mason University
+- <a href="https://www.LearnAtGSUSA.com/AUDT8522" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522) - https://www.LearnAtGSUSA.com/AUDT8522">Presentation and Briefing Skills for Auditors (AUDT8522)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49" aria-label="Professional Polish in the Public Sector - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49">Professional Polish in the Public Sector</a>, AGA
+- <a href="https://www.LearnAtGSUSA.com/COMM7010" aria-label="Speaking with Confidence (COMM7010) - https://www.LearnAtGSUSA.com/COMM7010">Speaking with Confidence (COMM7010)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Communications - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Communications</a>, AGA
 filters: Personal-Oral-Communications GS-7-9 series-0560
 ---
 

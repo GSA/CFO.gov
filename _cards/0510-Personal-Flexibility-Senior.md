@@ -16,8 +16,8 @@ behavior_illustrations: " Adjusts organizational priorities quickly as situation
 proficiency_level_definition: " Applies the competency in considerably difficult situations  Generally requires little or no guidance  Demonstrates broad understanding of concepts and processes ?  Applies the competency in exceptionally difficult situations  Serves as a key resource and advises others  Demonstrates comprehensive, expert understanding of concepts and processes"
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
-- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838" aria-label="PEBU 0742 Governance and Ethics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838">PEBU 0742 Governance and Ethics</a>, George Mason University
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417827" aria-label="PEBU 0403 Mastering Change - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417827">PEBU 0403 Mastering Change</a>, George Mason University
+- <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838" aria-label="PEBU 0742 Governance and Ethics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838">PEBU 0742 Governance and Ethics</a>, George Mason University
 filters: Personal-Flexibility GS-14-15 series-0510
 ---
 

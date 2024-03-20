@@ -16,10 +16,10 @@ behavior_illustrations: " Attends mandatory training to maintain technical knowl
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes ?  Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes ?  Applies the competency in difficult situations  Requires occasional guidance  Demonstrates understanding of concepts and processes"
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AspiringLeaderProgram" aria-label="Aspiring Leader Program - https://www.LearnAtGSUSA.com/AspiringLeaderProgram">Aspiring Leader Program</a>, Graduate School USA (GSUSA)
+- <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Critical Thinking For Problem Solving - https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Critical Thinking For Problem Solving</a>, Management Concepts
 - <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram" aria-label="Executive Leadership Program - https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/EPPG8840" aria-label="Executive Potential Program (EPPG8840) - https://www.LearnAtGSUSA.com/EPPG8840">Executive Potential Program (EPPG8840)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram" aria-label="New Leader Program - https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program</a>, Graduate School USA (GSUSA)
-- <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Critical Thinking For Problem Solving - https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Critical Thinking For Problem Solving</a>, Management Concepts
 filters: Personal-Learning GS-7-9 series-0510
 ---
 

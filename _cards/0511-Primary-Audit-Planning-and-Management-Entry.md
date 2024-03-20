@@ -15,11 +15,11 @@ level: "7-9"
 behavior_illustrations: " Develops and utilizes audit processes to improve organizational efficiency and effectiveness"
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes"
 relevant_courses: 
+- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, Management Concepts
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=20" aria-label="Developing and Conducting Effective and Efficient Performance Audit Programs - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=20">Developing and Conducting Effective and Efficient Performance Audit Programs</a>, AGA
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=22" aria-label="Effective Writing Skills for Auditors - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=22">Effective Writing Skills for Auditors</a>, AGA
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=33" aria-label="Management's Responsibility for Enterprise Risk Management and Internal Controls - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=33">Management's Responsibility for Enterprise Risk Management and Internal Controls</a>, AGA
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=41" aria-label="Working Papers and Audit Evidence - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=41">Working Papers and Audit Evidence</a>, AGA
-- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=22" aria-label="Effective Writing Skills for Auditors - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=22">Effective Writing Skills for Auditors</a>, AGA
-- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=20" aria-label="Developing and Conducting Effective and Efficient Performance Audit Programs - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=20">Developing and Conducting Effective and Efficient Performance Audit Programs</a>, AGA
-- <a href="https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Benefit-Cost Analysis Using Microsoft Excel - https://www.managementconcepts.com/course/id/5405?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Benefit-Cost Analysis Using Microsoft Excel</a>, Management Concepts
 filters: Primary-Audit-Planning-and-Management GS-7-9 series-0511
 ---
 

@@ -16,9 +16,9 @@ behavior_illustrations: " Adheres to Equal Employment Opportunity (EEO) policies
 proficiency_level_definition: " Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes"
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/MGMT8011" aria-label="Creating A Culture of Diversity, Equity, Inclusion and Accessibility in Government (MGMT8011) - https://www.LearnAtGSUSA.com/MGMT8011">Creating A Culture of Diversity, Equity, Inclusion and Accessibility in Government (MGMT8011)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.LearnAtGSUSA.com/MGMT8012" aria-label="Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012) - https://www.LearnAtGSUSA.com/MGMT8012">Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=48" aria-label="Diversity in the Workplace -- Learning How to Work Together - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=48">Diversity in the Workplace -- Learning How to Work Together</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409507" aria-label="PEBU 0412 Engaging and Succeeding in Negotiations for Women - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409507">PEBU 0412 Engaging and Succeeding in Negotiations for Women</a>, George Mason University
+- <a href="https://www.LearnAtGSUSA.com/MGMT8012" aria-label="Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012) - https://www.LearnAtGSUSA.com/MGMT8012">Your Role in Creating a Culture of Diversity, Equity, Inclusion and Accessibility in Government (DEIA) (MGMT8012)</a>, Graduate School USA (GSUSA)
 filters: Leading-Leveraging-Diversity GS-10-13 series-0510
 ---
 

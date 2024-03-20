@@ -15,12 +15,12 @@ level: "7-9"
 behavior_illustrations: " Obtains data from financial management systems to acquire a basic knowledge of the financial statements and/or reports, while improving operations by increasing productivity such as by advancing the skill sets and knowledge of finance personnel ?  Prepares and/or queries financial statements and/or reports to meet the requirements as specified in the Treasury Financial Manual along with other Departmental Agency Regulations"
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes ?  Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes"
 relevant_courses: 
-- <a href="https://www.LearnAtGSUSA.com/BUDG8010" aria-label="Federal Activity Costing, Analysis and Reporting (BUDG8010) - https://www.LearnAtGSUSA.com/BUDG8010">Federal Activity Costing, Analysis and Reporting (BUDG8010)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.LearnAtGSUSA.com/FINC8103" aria-label="Understanding Federal Financial Statements (FINC8103) - https://www.LearnAtGSUSA.com/FINC8103">Understanding Federal Financial Statements (FINC8103)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=24" aria-label="FASAB Overview and Update - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=24">FASAB Overview and Update</a>, AGA
 - <a href="https://aga.learnupon.com/store/2370356-changes-reporting-on-federal-land-course-3-1" aria-label="Changes&#58; Reporting on Federal Land (3.1) - https://aga.learnupon.com/store/2370356-changes-reporting-on-federal-land-course-3-1">Changes&#58; Reporting on Federal Land (3.1)</a>, AGA
+- <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=24" aria-label="FASAB Overview and Update - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=24">FASAB Overview and Update</a>, AGA
+- <a href="https://www.LearnAtGSUSA.com/BUDG8010" aria-label="Federal Activity Costing, Analysis and Reporting (BUDG8010) - https://www.LearnAtGSUSA.com/BUDG8010">Federal Activity Costing, Analysis and Reporting (BUDG8010)</a>, Graduate School USA (GSUSA)
 - <a href="https://aga.learnupon.com/store/1268096-introduction-to-the-reporting-model-course-1-3" aria-label="Introduction to the Reporting Model (1.3) - https://aga.learnupon.com/store/1268096-introduction-to-the-reporting-model-course-1-3">Introduction to the Reporting Model (1.3)</a>, AGA
 - <a href="https://aga.learnupon.com/store/2481187-the-gaap-hierarchy-course-2-1" aria-label="The GAAP Hierarchy (2.1) - https://aga.learnupon.com/store/2481187-the-gaap-hierarchy-course-2-1">The GAAP Hierarchy (2.1)</a>, AGA
+- <a href="https://www.LearnAtGSUSA.com/FINC8103" aria-label="Understanding Federal Financial Statements (FINC8103) - https://www.LearnAtGSUSA.com/FINC8103">Understanding Federal Financial Statements (FINC8103)</a>, Graduate School USA (GSUSA)
 filters: Primary-Financial-Reporting GS-7-9 series-0510
 ---
 
