@@ -16,9 +16,11 @@ behavior_illustrations: " Recognizes conflict and makes oneself available for co
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes"
 relevant_courses: 
 - <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
+- <a href="https://www.managementconcepts.com/course/id/4001?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Leadership Skills and Techniques - https://www.managementconcepts.com/course/id/4001?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Leadership Skills and Techniques</a>, Management Concepts
 - <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409060" aria-label="PEBU 0407 Conflict Management - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409060">PEBU 0407 Conflict Management</a>, George Mason University
 - <a href="https://www.LearnAtGSUSA.com/COMM7009" aria-label="Positive Approaches to Difficult People (COMM7009) - https://www.LearnAtGSUSA.com/COMM7009">Positive Approaches to Difficult People (COMM7009)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49" aria-label="Professional Polish in the Public Sector - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49">Professional Polish in the Public Sector</a>, AGA
 filters: Leading-Conflict-Management GS-7-9 series-0510
 ---

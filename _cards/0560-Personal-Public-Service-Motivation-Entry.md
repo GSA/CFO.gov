@@ -15,6 +15,7 @@ level: "7-9"
 behavior_illustrations: " Responds promptly and accurately to public inquiries about agency policies  Suggests gaining feedback from public regarding new policy ?  Reviews unit's policies and procedures on a regular basis to ensure they are consistent with public needs  Determines community needs by surveying citizens ?  Approves funding documentation in accordance with procedures to ensure public resources are utilized appropriately  Improves processes used to monitor contractors and vendors for supplies, services, and/or equipment to ensure government funds are expended appropriately  Encourages a commitment to public service"
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes ?  Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes ?  Applies the competency in difficult situations  Requires occasional guidance  Demonstrates understanding of concepts and processes"
 relevant_courses: 
+- <a href="https://www.managementconcepts.com/course/id/4380?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Fostering a Public Service Mindset - https://www.managementconcepts.com/course/id/4380?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Fostering a Public Service Mindset</a>, Management Concepts
 filters: Personal-Public-Service-Motivation GS-7-9 series-0560
 ---
 

@@ -15,6 +15,7 @@ level: "14-15"
 behavior_illustrations: " Oversees and ensures budget compliance, consolidates, defends, presents, provides guidance and resolves conflicts  Enhances stakeholder confidence by producing reliable budget, forecast, managerial, and financial reporting information or preventing fraud, waste, and abuse within the programs"
 proficiency_level_definition: " Applies the competency in exceptionally difficult situations  Serves as a key resource and advises others  Demonstrates comprehensive, expert understanding of concepts and processes"
 relevant_courses: 
+- <a href="https://www.managementconcepts.com/course/id/5750?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Contemporary Issues in Federal Financial Management (Defense) - https://www.managementconcepts.com/course/id/5750?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Contemporary Issues in Federal Financial Management (Defense)</a>, Management Concepts
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409100" aria-label="PEBU 0465 Budget Execution and Management - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409100">PEBU 0465 Budget Execution and Management</a>, George Mason University
 filters: Primary-Budget-Formulation-Justification-and-Presentation GS-14-15 series-0560
 ---

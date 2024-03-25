@@ -15,7 +15,10 @@ level: "10-13"
 behavior_illustrations: " Recognizes and addresses deficiencies of human resources processes or tools  Provides positive feedback to high-performing staff and rewards exceptional performance  Considers impact of personnel decisions on current staff"
 proficiency_level_definition: " Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes"
 relevant_courses: 
+- <a href="https://www.managementconcepts.com/course/id/4921?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Federal Talent Acquisition - https://www.managementconcepts.com/course/id/4921?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Federal Talent Acquisition</a>, Management Concepts
+- <a href="https://www.managementconcepts.com/course/id/4908?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="HR Boot Camp - https://www.managementconcepts.com/course/id/4908?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">HR Boot Camp</a>, Management Concepts
 - <a href="https://masoncpe.gmu.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=78345" aria-label="HRM 0100 Human Resource Management Certificate Course - SHRM Certification Preparation - https://masoncpe.gmu.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=78345">HRM 0100 Human Resource Management Certificate Course - SHRM Certification Preparation</a>, George Mason University
+- <a href="https://www.managementconcepts.com/course/id/1403?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Managing Contracting Organizations - https://www.managementconcepts.com/course/id/1403?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Managing Contracting Organizations</a>, Management Concepts
 filters: Leading-Human-Capital-Management GS-10-13 series-0501
 ---
 

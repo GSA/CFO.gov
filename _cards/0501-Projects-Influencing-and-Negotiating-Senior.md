@@ -19,6 +19,7 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/AUDT8911" aria-label="Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911) - https://www.LearnAtGSUSA.com/AUDT8911">Emotionally Intelligent Auditor&#58; The Power of Influence and Situational Awareness (AUDT8911)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
 - <a href="https://www.LearnAtGSUSA.com/LEAD9020" aria-label="Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020) - https://www.LearnAtGSUSA.com/LEAD9020">Leadership, Motivation and Accountability for High Performance Organizations (LEAD9020)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.managementconcepts.com/course/id/6162?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Managing Stakeholder Expectations and Relationships - https://www.managementconcepts.com/course/id/6162?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Managing Stakeholder Expectations and Relationships</a>, Management Concepts
 - <a href="https://www.LearnAtGSUSA.com/MGMT9104" aria-label="Negotiating Techniques (MGMT9104 & 9105) - https://www.LearnAtGSUSA.com/MGMT9104">Negotiating Techniques (MGMT9104 & 9105)</a>, Graduate School USA (GSUSA)
 filters: Projects-Influencing-and-Negotiating GS-14-15 series-0501
 ---

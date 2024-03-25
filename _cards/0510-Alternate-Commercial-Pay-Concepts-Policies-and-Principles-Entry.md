@@ -17,6 +17,7 @@ proficiency_level_definition: " Applies the competency in the simplest situation
 relevant_courses: 
 - <a href="https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx" aria-label="Governmental Financial Management and Control (live, virtual) - https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx">Governmental Financial Management and Control (live, virtual)</a>, AGA
 - <a href="https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1" aria-label="Governmental Financial Management and Control (online, self-paced) - https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1">Governmental Financial Management and Control (online, self-paced)</a>, AGA
+- <a href="https://www.managementconcepts.com/course/id/5036?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Improper Payments - https://www.managementconcepts.com/course/id/5036?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Improper Payments</a>, Management Concepts
 filters: Alternate-Commercial-Pay-Concepts-Policies-and-Principles GS-7-9 series-0510
 ---
 

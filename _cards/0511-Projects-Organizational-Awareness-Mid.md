@@ -16,7 +16,7 @@ behavior_illustrations: " Keeps up-to-date by attending key meetings hosted by o
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes"
 relevant_courses: 
 - <a href="https://www.managementconcepts.com/course/id/4004?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Emotionally Intelligent Leadership - https://www.managementconcepts.com/course/id/4004?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Emotionally Intelligent Leadership</a>, Management Concepts
-- <a href="https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Mission-Driven Project Management&#58; From Strategy To Action - https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Mission-Driven Project Management&#58; From Strategy To Action</a>, Management Concepts
+- <a href="https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Mission Driven Project Management&#58; From Strategy to Action - https://www.managementconcepts.com/course/id/6188?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Mission Driven Project Management&#58; From Strategy to Action</a>, Management Concepts
 filters: Projects-Organizational-Awareness GS-10-13 series-0511
 ---
 

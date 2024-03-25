@@ -16,6 +16,7 @@ behavior_illustrations: " Attends diversity programs to increase staff awareness
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes"
 relevant_courses: 
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=48" aria-label="Diversity in the Workplace -- Learning How to Work Together - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=48">Diversity in the Workplace -- Learning How to Work Together</a>, AGA
+- <a href="https://www.managementconcepts.com/course/id/4366?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Moving Beyond Generational Differences - https://www.managementconcepts.com/course/id/4366?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Moving Beyond Generational Differences</a>, Management Concepts
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409507" aria-label="PEBU 0412 Engaging and Succeeding in Negotiations for Women - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409507">PEBU 0412 Engaging and Succeeding in Negotiations for Women</a>, George Mason University
 filters: Leading-Leveraging-Diversity GS-7-9 series-0560
 ---

@@ -18,6 +18,8 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/ADMB7003" aria-label="Customer Service Excellence (ADMB7003) - https://www.LearnAtGSUSA.com/ADMB7003">Customer Service Excellence (ADMB7003)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/ADMB7004" aria-label="Customer Service Excellence (ADMB7004) - https://www.LearnAtGSUSA.com/ADMB7004">Customer Service Excellence (ADMB7004)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/COMM8000" aria-label="Effective Communications with Customers (COMM8000) - https://www.LearnAtGSUSA.com/COMM8000">Effective Communications with Customers (COMM8000)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.managementconcepts.com/course/id/6162?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Managing Stakeholder Expectations and Relationships - https://www.managementconcepts.com/course/id/6162?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Managing Stakeholder Expectations and Relationships</a>, Management Concepts
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49" aria-label="Professional Polish in the Public Sector - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=49">Professional Polish in the Public Sector</a>, AGA
 filters: Personal-Customer-Service GS-7-9 series-0510
 ---

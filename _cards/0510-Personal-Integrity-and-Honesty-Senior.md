@@ -20,6 +20,7 @@ relevant_courses:
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=23" aria-label="Ethics and Conduct Requirements for Accounting and Auditing Professionals - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=23">Ethics and Conduct Requirements for Accounting and Auditing Professionals</a>, AGA
 - <a href="https://www.LearnAtGSUSA.com/ACQI8505" aria-label="Government Contract Law (ACQI8505) - https://www.LearnAtGSUSA.com/ACQI8505">Government Contract Law (ACQI8505)</a>, Graduate School USA (GSUSA)
 - <a href="https://cgfm.learnupon.com/store/2300-cgfm-course-1-governmental-environment-sections-i-vii-bundle?is_bundle=1" aria-label="Governmental Environment (online, self-paced) - https://cgfm.learnupon.com/store/2300-cgfm-course-1-governmental-environment-sections-i-vii-bundle?is_bundle=1">Governmental Environment (online, self-paced)</a>, AGA
+- <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
 - <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Ethics - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Ethics</a>, AGA
 filters: Personal-Integrity-and-Honesty GS-14-15 series-0510
 ---

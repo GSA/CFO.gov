@@ -15,7 +15,10 @@ level: "7-9"
 behavior_illustrations: " Develops meeting agenda and determines topics for group decision making  Determines the appropriate individuals needed for a decision making process"
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes"
 relevant_courses: 
+- <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Critical Thinking for Problem Solving - https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Critical Thinking for Problem Solving</a>, Management Concepts
+- <a href="https://www.managementconcepts.com/course/id/4645?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Decision Making - https://www.managementconcepts.com/course/id/4645?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Decision Making</a>, Management Concepts
 - <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Projects-Decision-Making GS-7-9 series-0560
 ---
 

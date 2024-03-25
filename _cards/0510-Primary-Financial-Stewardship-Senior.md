@@ -19,6 +19,7 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912) - https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
 - <a href="https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=31" aria-label="Internal Control Standards for Auditors - https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=31">Internal Control Standards for Auditors</a>, AGA
+- <a href="https://www.managementconcepts.com/course/id/5142?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Internal Control for Managers - https://www.managementconcepts.com/course/id/5142?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Internal Control for Managers</a>, Management Concepts
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838" aria-label="PEBU 0742 Governance and Ethics - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417838">PEBU 0742 Governance and Ethics</a>, George Mason University
 filters: Primary-Financial-Stewardship GS-14-15 series-0510
 ---

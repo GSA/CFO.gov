@@ -8,7 +8,7 @@ function buildCards() {
   let competencies = {};
   let coursesExport = {};
 
-  fs.createReadStream('assets/csv/Consolidated_CPTT_PWD_20240111.csv')
+  fs.createReadStream('assets/csv/Consolidated_CPTT_PWD_20240319.csv')
     .pipe(parse({columns: true}))
     .on('data', function (row) {
       const parts = row[Object.keys(row)[0]].split(' '),
