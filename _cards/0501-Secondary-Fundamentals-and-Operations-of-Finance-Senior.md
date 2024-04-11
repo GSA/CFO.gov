@@ -15,6 +15,8 @@ level: "14-15"
 behavior_illustrations: " Applies knowledge of financial management policies and procedures to process non-recurring transactions and uses interpersonal skills to respond to customer inquiries"
 proficiency_level_definition: " Applies the competency in exceptionally difficult situations  Serves as a key resource and advises others  Demonstrates comprehensive, expert understanding of concepts and processes"
 relevant_courses: 
+- <a href="https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx" aria-label="Governmental Financial Management and Control (live, virtual) - https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx">Governmental Financial Management and Control (live, virtual)</a>, AGA
+- <a href="https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1" aria-label="Governmental Financial Management and Control (online, self-paced) - https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1">Governmental Financial Management and Control (online, self-paced)</a>, AGA
 filters: Secondary-Fundamentals-and-Operations-of-Finance GS-14-15 series-0501
 ---
 

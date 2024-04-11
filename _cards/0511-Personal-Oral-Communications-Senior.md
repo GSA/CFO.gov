@@ -19,6 +19,7 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/MGMT8112" aria-label="Leadership Communication (MGMT8112) - https://www.LearnAtGSUSA.com/MGMT8112">Leadership Communication (MGMT8112)</a>, Graduate School USA (GSUSA)
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1552676&selectedProgramAreaId=1554098&selectedProgramStreamId=" aria-label="PELA 0606 Communication in Organizations - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1552676&selectedProgramAreaId=1554098&selectedProgramStreamId=">PELA 0606 Communication in Organizations</a>, George Mason University
 - <a href="https://www.LearnAtGSUSA.com/AUDT8522" aria-label="Presentation and Briefing Skills for Auditors (AUDT8522) - https://www.LearnAtGSUSA.com/AUDT8522">Presentation and Briefing Skills for Auditors (AUDT8522)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Oral-Communications GS-14-15 series-0511
 ---
 

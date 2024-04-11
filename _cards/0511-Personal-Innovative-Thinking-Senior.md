@@ -17,6 +17,7 @@ proficiency_level_definition: " Applies the competency in considerably difficult
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/MGMT8102" aria-label="Decision Making and Problem Solving (MGMT8102) - https://www.LearnAtGSUSA.com/MGMT8102">Decision Making and Problem Solving (MGMT8102)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 filters: Personal-Innovative-Thinking GS-14-15 series-0511
 ---
 

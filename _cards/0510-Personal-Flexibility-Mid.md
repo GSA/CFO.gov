@@ -24,6 +24,7 @@ relevant_courses:
 - <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417827" aria-label="PEBU 0403 Mastering Change - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417827">PEBU 0403 Mastering Change</a>, George Mason University
 - <a href="https://www.managementconcepts.com/course/id/1059?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Procurement Innovation - FAR Flexibilities - https://www.managementconcepts.com/course/id/1059?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Procurement Innovation - FAR Flexibilities</a>, Management Concepts
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Flexibility GS-10-13 series-0510
 ---
 

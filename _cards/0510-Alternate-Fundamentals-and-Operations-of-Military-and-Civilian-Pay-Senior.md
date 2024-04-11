@@ -15,6 +15,7 @@ level: "14-15"
 behavior_illustrations: " Examines source documents to verify accuracy, completeness and mathematics of data prior to processing  Advises Lead/supervisor of recurring, extraordinary or unusual situations/problems"
 proficiency_level_definition: " Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes"
 relevant_courses: 
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-14-15 series-0510
 ---
 

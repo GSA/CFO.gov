@@ -21,6 +21,7 @@ relevant_courses:
 - <a href="https://www.managementconcepts.com/course/id/6162?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Managing Stakeholder Expectations and Relationships - https://www.managementconcepts.com/course/id/6162?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Managing Stakeholder Expectations and Relationships</a>, Management Concepts
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409509" aria-label="PEBU 0410 Engaging and Succeeding in Negotiations - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409509">PEBU 0410 Engaging and Succeeding in Negotiations</a>, George Mason University
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409507" aria-label="PEBU 0412 Engaging and Succeeding in Negotiations for Women - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409507">PEBU 0412 Engaging and Succeeding in Negotiations for Women</a>, George Mason University
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Projects-Influencing-and-Negotiating GS-7-9 series-0560
 ---
 

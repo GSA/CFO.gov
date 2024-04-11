@@ -16,7 +16,9 @@ behavior_illustrations: " Reduces project deliverables following funding cut  Co
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes"
 relevant_courses: 
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=25470&courseTitle=positive-leadership-certificate-program" aria-label="LCCS 0300 Positive Leadership Certificate - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=25470&courseTitle=positive-leadership-certificate-program">LCCS 0300 Positive Leadership Certificate</a>, George Mason University
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1552734&courseTitle=strengths-based-leadership&selectedProgramAreaId=18214&selectedProgramStreamId=93287" aria-label="PELA 0425 Strengths-Based Leadership - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=1552734&courseTitle=strengths-based-leadership&selectedProgramAreaId=18214&selectedProgramStreamId=93287">PELA 0425 Strengths-Based Leadership</a>, George Mason University
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Resilience GS-7-9 series-0501
 ---
 

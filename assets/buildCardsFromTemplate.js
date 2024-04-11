@@ -195,21 +195,20 @@ function getProfLevelDef(competency, level) {
 
 function addCourse (course) {
   for (let card of cards) {
-    if ( (card.competency === course.competency_1 && isInclude(course.proficiency_levels_1, card.levels))
-    || (card.competency === course.competency_2 && isInclude(course.proficiency_levels_2, card.levels))
-    || (card.competency === course.competency_3 && isInclude(course.proficiency_levels_3, card.levels))
-    || (card.competency === course.competency_4 && isInclude(course.proficiency_levels_4, card.levels))
-    || (card.competency === course.competency_5 && isInclude(course.proficiency_levels_5, card.levels))
-    || (card.competency === course.competency_6 && isInclude(course.proficiency_levels_6, card.levels))
-    ) {
-      let courseNameList = course.course_title.replace(/:/g, "&#58;");
-      card.courses_list.push({
-        name: courseNameList,
-        link: course.link,
-        institution: course.institution
-      });
+    for (let i = 1; i <= 10; i++) {
+      if (card[`competency`] === course[`competency_${i}`] && isInclude(course[`proficiency_levels_${i}`], card.levels)) {
+        let courseNameList = course.course_title.replace(/:/g, "&#58;");
+        card.courses_list.push({
+          name: courseNameList,
+          link: course.link,
+          institution: course.institution
+        });
+        // Break out of the loop if a match is found
+        break;
+      }
     }
   }
+
 }
 
 function getCoursesForCard (card) {

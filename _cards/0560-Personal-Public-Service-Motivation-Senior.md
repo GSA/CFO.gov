@@ -15,6 +15,8 @@ level: "14-15"
 behavior_illustrations: " Designs and develops programs to address critical community requirements  Elicits employees' commitment to serve the public good in responding to a disaster  Ensures that projects and programs meet public needs and interests"
 proficiency_level_definition: " Applies the competency in exceptionally difficult situations  Serves as a key resource and advises others  Demonstrates comprehensive, expert understanding of concepts and processes"
 relevant_courses: 
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Public-Service-Motivation GS-14-15 series-0560
 ---
 

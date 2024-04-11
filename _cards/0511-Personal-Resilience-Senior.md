@@ -19,7 +19,9 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/EXEC9911" aria-label="Executive Survival Skills (EXEC9911) - https://www.LearnAtGSUSA.com/EXEC9911">Executive Survival Skills (EXEC9911)</a>, Graduate School USA (GSUSA)
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=25470&courseTitle=positive-leadership-certificate-program" aria-label="LCCS 0300 Positive Leadership Certificate - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=25470&courseTitle=positive-leadership-certificate-program">LCCS 0300 Positive Leadership Certificate</a>, George Mason University
 - <a href="https://www.managementconcepts.com/course/id/6183?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Leading and Managing High-Performing Project Teams - https://www.managementconcepts.com/course/id/6183?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Leading and Managing High-Performing Project Teams</a>, Management Concepts
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417742" aria-label="PEBU 0402 Leading Change - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417742">PEBU 0402 Leading Change</a>, George Mason University
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Resilience GS-14-15 series-0511
 ---
 

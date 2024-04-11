@@ -87,35 +87,23 @@ function buildCards() {
         }
         cards[key].courses.push(courseObj);
 
-        coursesExport[course_key] = coursesExport[course_key] || {
+        let courseFields = {
           'course_title': courseName,
-          'institution' : institutionName,
-          'link' : urls[0],
-          'course_type' : '',
-          'course_duration' : '',
-          'competency_1' : '',
-          'proficiency_levels_1' : '',
-          'competency_2' : '',
-          'proficiency_levels_2' : '',
-          'competency_3' : '',
-          'proficiency_levels_3' : '',
-          'competency_4' : '',
-          'proficiency_levels_4' : '',
-          'competency_5' : '',
-          'proficiency_levels_5' : '',
-          'competency_6' : '',
-          'proficiency_levels_6' : '',
-          'competency_7' : '',
-          'proficiency_levels_7' : '',
-          'competency_8' : '',
-          'proficiency_levels_8' : '',
-          'competency_9' : '',
-          'proficiency_levels_9' : '',
-          'competency_10' : '',
-          'proficiency_levels_10' : ''
+          'institution': institutionName,
+          'link': urls[0],
+          'course_type': '',
+          'course_duration': ''
         };
 
-        const maxCompetencies = 10;
+        for (let i = 1; i <= 50; i++) {
+          courseFields[`competency_${i}`] = '';
+          courseFields[`proficiency_levels_${i}`] = '';
+        }
+
+        coursesExport[course_key] = coursesExport[course_key] || courseFields;
+
+
+        const maxCompetencies = 50;
         for (let i = 1; i <= maxCompetencies; i++) {
           const competencyKey = `competency_${i}`;
           const proficiencyKey = `proficiency_levels_${i}`;

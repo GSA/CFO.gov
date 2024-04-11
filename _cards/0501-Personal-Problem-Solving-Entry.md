@@ -19,7 +19,9 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/MGMT8102" aria-label="Decision Making and Problem Solving (MGMT8102) - https://www.LearnAtGSUSA.com/MGMT8102">Decision Making and Problem Solving (MGMT8102)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/COMM7006" aria-label="Interpersonal Communications (COMM7006) - https://www.LearnAtGSUSA.com/COMM7006">Interpersonal Communications (COMM7006)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409678" aria-label="PEBU 0406 Problem Solving - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409678">PEBU 0406 Problem Solving</a>, George Mason University
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Problem-Solving GS-7-9 series-0501
 ---
 

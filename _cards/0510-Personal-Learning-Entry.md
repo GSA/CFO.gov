@@ -19,7 +19,9 @@ relevant_courses:
 - <a href="https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="Critical Thinking for Problem Solving - https://www.managementconcepts.com/course/id/4060?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">Critical Thinking for Problem Solving</a>, Management Concepts
 - <a href="https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram" aria-label="Executive Leadership Program - https://www.LearnAtGSUSA.com/ExecutiveLeadershipProgram">Executive Leadership Program</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/EPPG8840" aria-label="Executive Potential Program (EPPG8840) - https://www.LearnAtGSUSA.com/EPPG8840">Executive Potential Program (EPPG8840)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 - <a href="https://www.LearnAtGSUSA.com/NewLeaderProgram" aria-label="New Leader Program - https://www.LearnAtGSUSA.com/NewLeaderProgram">New Leader Program</a>, Graduate School USA (GSUSA)
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Learning GS-7-9 series-0510
 ---
 

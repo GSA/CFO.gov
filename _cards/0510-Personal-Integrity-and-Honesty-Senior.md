@@ -21,6 +21,8 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/ACQI8505" aria-label="Government Contract Law (ACQI8505) - https://www.LearnAtGSUSA.com/ACQI8505">Government Contract Law (ACQI8505)</a>, Graduate School USA (GSUSA)
 - <a href="https://cgfm.learnupon.com/store/2300-cgfm-course-1-governmental-environment-sections-i-vii-bundle?is_bundle=1" aria-label="Governmental Environment (online, self-paced) - https://cgfm.learnupon.com/store/2300-cgfm-course-1-governmental-environment-sections-i-vii-bundle?is_bundle=1">Governmental Environment (online, self-paced)</a>, AGA
 - <a href="https://www.agacgfm.org/Events/Fraud/Home.aspx" aria-label="Internal Control & Fraud Prevention Training - https://www.agacgfm.org/Events/Fraud/Home.aspx">Internal Control & Fraud Prevention Training</a>, AGA
+- <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 - <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Ethics - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Ethics</a>, AGA
 filters: Personal-Integrity-and-Honesty GS-14-15 series-0510
 ---

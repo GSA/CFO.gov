@@ -27,6 +27,7 @@ relevant_courses:
 - <a href="https://aga.learnupon.com/store/1246248-introduction-to-the-federal-budget-course-1-2" aria-label="Introduction to the Federal Budget (1.2) - https://aga.learnupon.com/store/1246248-introduction-to-the-federal-budget-course-1-2">Introduction to the Federal Budget (1.2)</a>, AGA
 - <a href="https://aga.learnupon.com/store/1144137-key-legislation-and-regulations-course-1-1" aria-label="Key Legislation and Regulations (1.1) - https://aga.learnupon.com/store/1144137-key-legislation-and-regulations-course-1-1">Key Legislation and Regulations (1.1)</a>, AGA
 - <a href="https://www.managementconcepts.com/course/id/5123?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM" aria-label="PPBE Workshop&#58; Defense Planning, Programming, Budgeting, and Execution - https://www.managementconcepts.com/course/id/5123?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM">PPBE Workshop&#58; Defense Planning, Programming, Budgeting, and Execution</a>, Management Concepts
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Secondary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0511
 ---
 

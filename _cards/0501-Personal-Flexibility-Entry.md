@@ -18,6 +18,7 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/ADMB7006" aria-label="Leadership Skills for Non-Supervisors (ADMB7006) - https://www.LearnAtGSUSA.com/ADMB7006">Leadership Skills for Non-Supervisors (ADMB7006)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/ADMB7007" aria-label="Managing Multiple Priorities (ADMB7007) - https://www.LearnAtGSUSA.com/ADMB7007">Managing Multiple Priorities (ADMB7007)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Flexibility GS-7-9 series-0501
 ---
 

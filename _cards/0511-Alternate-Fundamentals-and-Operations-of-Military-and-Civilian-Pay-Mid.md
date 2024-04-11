@@ -15,6 +15,7 @@ level: "10-13"
 behavior_illustrations: " Processes and corrects routine information using well-established, clear-cut procedures and/or knowledge of simple procedures"
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes"
 relevant_courses: 
+- <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Alternate-Fundamentals-and-Operations-of-Military-and-Civilian-Pay GS-10-13 series-0511
 ---
 
