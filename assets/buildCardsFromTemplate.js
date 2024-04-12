@@ -215,7 +215,15 @@ function getCoursesForCard (card) {
   let relevant_courses = '';
   card.courses_list = card.courses_list.sort((a, b) => a.name > b.name ? 1 : -1);
   for (let course of card.courses_list) {
-    relevant_courses += `\n- <a href="${course.link}" aria-label="${course.name} - ${course.link}">${course.name}</a>, ${course.institution}`;
+    if(course.link !== '') {
+      relevant_courses += `\n- <a href="${course.link}" aria-label="${course.name} - ${course.link}">${course.name}</a>, ${course.institution}`;
+    }
+    else {
+      relevant_courses += `\n- ${course.name}`;
+      if(course.institution !== '') {
+        relevant_courses += `, ${course.institution}`;
+      }
+    }
   }
   return relevant_courses;
 }
