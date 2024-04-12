@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: " Displays proficiency in a wide range of virtual collaboration tools, platforms, and apps  Leads initiatives, projects, and complex tasks while using digital collaboration tools  Searches out new tools for secure use that can improve virtual workplace productivity  Facilitates virtual engagements using a variety of collaboration tools"
 proficiency_level_definition: " Applies the competency in considerably difficult situations  Generally requires little or no guidance  Demonstrates broad understanding of concepts and processes"
 relevant_courses: 
-- <a href="" aria-label="New Course Coming Soon! - ">New Course Coming Soon!</a>, 
+- New Course Coming Soon!
 filters: Personal-Digital-Collaboration GS-14-15 series-0510
 ---
 

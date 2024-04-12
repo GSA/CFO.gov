@@ -15,7 +15,7 @@ level: "7-9"
 behavior_illustrations: " Processes routine financial and accounting transactions to ensure pay integrity ?  Processes standardized pay actions to establish or update accounts and correct discrepancies"
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes ?  Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes"
 relevant_courses: 
-- <a href="" aria-label="New Course Coming Soon! - ">New Course Coming Soon!</a>, 
+- New Course Coming Soon!
 filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-7-9 series-0560
 ---
 

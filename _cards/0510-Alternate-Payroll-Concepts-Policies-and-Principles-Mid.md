@@ -15,7 +15,7 @@ level: "10-13"
 behavior_illustrations: " Reviews pay authorization documents, determines and processes entitlements, identifies and corrects rejected actions ?  Applies knowledge of pay regulations to process resolution of complicated cases"
 proficiency_level_definition: " Applies the competency in difficult situations  Requires occasional guidance  Demonstrates understanding of concepts and processes ?  Applies the competency in considerably difficult situations  Generally requires little or no guidance  Demonstrates broad understanding of concepts and processes"
 relevant_courses: 
-- <a href="" aria-label="New Course Coming Soon! - ">New Course Coming Soon!</a>, 
+- New Course Coming Soon!
 - <a href="https://www.LearnAtGSUSA.com/PADM7001" aria-label="Pay Setting for FWS Positions (PADM7001) - https://www.LearnAtGSUSA.com/PADM7001">Pay Setting for FWS Positions (PADM7001)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/PADM7002" aria-label="Pay Setting for GS Positions (PADM7002) - https://www.LearnAtGSUSA.com/PADM7002">Pay Setting for GS Positions (PADM7002)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/STAF9004" aria-label="Pay Setting&#58; Federal Wage System (STAF9004) - https://www.LearnAtGSUSA.com/STAF9004">Pay Setting&#58; Federal Wage System (STAF9004)</a>, Graduate School USA (GSUSA)

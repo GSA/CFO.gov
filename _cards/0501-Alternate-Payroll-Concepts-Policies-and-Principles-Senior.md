@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: " Resolves complex pay and allowance cases involving substantial reconstruction of pay accounts and provides guidance and assists other technicians with techniques to correct and process inputs"
 proficiency_level_definition: " Applies the competency in exceptionally difficult situations  Serves as a key resource and advises others  Demonstrates comprehensive, expert understanding of concepts and processes"
 relevant_courses: 
-- <a href="" aria-label="New Course Coming Soon! - ">New Course Coming Soon!</a>, 
+- New Course Coming Soon!
 filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-14-15 series-0501
 ---
 
