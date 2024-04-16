@@ -10,7 +10,6 @@
     "csv": "^6.0.5",
     "csv-writer": "^1.6.0",
     "jquery": "3.6.4",
-    "netlify-cms": "^2.10.192",
     "react-redux": "^7.2.9",
     "uswds": "^2.14.0"
   },
