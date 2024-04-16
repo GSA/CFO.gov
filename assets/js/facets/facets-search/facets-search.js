@@ -40,10 +40,12 @@ $.fn.extend({
                             facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
                                 if (obj.type === 'keys' && typeof item[term] !== "undefined") {
                                     let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
-                                    stringToMatch = stringToMatch.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase();
-                                    if (stringToMatch.match(obj.keys.toLowerCase().replace(/[^a-zA-Z0-9\s]/g, ""))) {
-                                        if (!ifExistsResults(item.permalink, newResults)) {
-                                            newResults.push(item);
+                                    if (stringToMatch !== null) {
+                                        stringToMatch = stringToMatch.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase();
+                                        if (stringToMatch.match(obj.keys.toLowerCase().replace(/[^a-zA-Z0-9\s]/g, ""))) {
+                                            if (!ifExistsResults(item.permalink, newResults)) {
+                                                newResults.push(item);
+                                            }
                                         }
                                     }
                                 }
