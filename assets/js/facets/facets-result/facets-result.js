@@ -51,7 +51,7 @@
         const coursesDiv = document.createElement('div');
         coursesDiv.setAttribute("class", "course-list");
         let coursesMarkup = '';
-        if (item.relevant_courses.length > 0) {
+      if (item.relevant_courses && Array.isArray(item.relevant_courses) && item.relevant_courses.length > 0) {
             coursesMarkup += '<div class="short-list"><ul class="usa-list" role="list">';
             let shortCount = (item.relevant_courses.length > 3) ? 3 : item.relevant_courses.length;
             for (let i = 0; i < shortCount; i++) {
@@ -64,7 +64,7 @@
             }
             coursesMarkup += '</ul></div>';
         }
-        if (item.relevant_courses.length > 3) {
+      if (item.relevant_courses && Array.isArray(item.relevant_courses) && item.relevant_courses.length > 3) {
             coursesMarkup += '<div class="full-list display-none"><ul class="usa-list margin-top-05" role="list">';
             for (let i = 3; i < item.relevant_courses.length; i++) {
                 // Inserting the attribute to open a link in a new tab on each link
