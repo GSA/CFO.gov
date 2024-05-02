@@ -81,8 +81,8 @@ primary_navigation:
   - name: Our Work
     url: /
     children:
-      - name: Federal Financial Assistance
-        url: "/federal-financial-assistance/"
+      - name: COFFA
+        url: "/coffa/"
       - name: Federal Financial Reporting
         url: "/federal-financial-reporting/"
       - name: Financial Management Workforce
@@ -105,6 +105,7 @@ primary_navigation:
   - name: Career Planning & Training Tool
     url: /career-planning-training-tool/
 
+
 secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
@@ -121,6 +122,10 @@ secondary_navigation_jfmip:
   - name: Contact Us
     url: "mailto:JFMIP@fiscal.treasury.gov"
 
+secondary_navigation_coffa:
+  - name: Contact Us
+    url: "mailto:coffa.support@gsa.gov"
+
 payment-accuracy-navigation:
   - name: About
     url: /about-payment-accuracy/
@@ -132,6 +137,11 @@ payment-accuracy-navigation:
     url: /payment-accuracy-resources/
   - name: FAQ
     url: /payment-accuracy-FAQ/
+
+primary_navigation_coffa:
+  - name: About
+    url: /coffa/about-payment-accuracy/
+
 
 jfmip-navigation:
 #  - name: Current Initiatives
@@ -148,6 +158,7 @@ footer:
     frpc-email: Realpropertypolicy@gsa.gov
     cxo-email: cxofellowship@gsa.gov
     jfmip-email: JFMIP@fiscal.treasury.gov
+    coffa-email: coffa.support@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #
