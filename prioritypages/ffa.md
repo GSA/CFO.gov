@@ -11,9 +11,6 @@ number_of_icons: 5
 description: 
 keyword: 
 priority_icons: 
- - name: Compliance Supplement
-   logo: /assets/images/logos/workforce/Hand_shake.svg
-   url: /resources/compliance-supplement/
  - name: Innovation Exchange Sessions
    logo: /assets/images/logos/workforce/Data_analytics_training_pilot.svg
    url: /resources/innovation-exchanges/
