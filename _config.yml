@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/logos/CFO-Logo-Color.svg
 jfmip-logo: /assets/images/logos/jfmip-logo-plain.png
+coffa-logo: /assets/images/logos/COFFA-Color-L.png
 
 
 # Twitter handle. Only the handle, not the URL.
@@ -139,9 +140,24 @@ payment-accuracy-navigation:
     url: /payment-accuracy-FAQ/
 
 primary_navigation_coffa:
-  - name: About
-    url: /coffa/about-payment-accuracy/
-
+  - name: About Us
+    url: /coffa/
+    children:
+      - name: The COFFA Council
+        url: "/coffa/coffa-council"
+      - name: Members
+        url: "/coffa/members/"
+      - name: The Support Team
+        url: "/coffa/support-team"
+  - name: Major Initiatives
+    url: "/coffa/"
+    children:
+      - name: Uniform Guidance
+        url: "/coffa/uniform-guidance"
+      - name: training
+        url: "/coffa/training/"
+  - name: Resources
+    url: "/coffa/resources"
 
 jfmip-navigation:
 #  - name: Current Initiatives
