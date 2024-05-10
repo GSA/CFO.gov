@@ -78,7 +78,7 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
   }
 .priority-icons {
   background-position: center;
-  background-image: url('../images/priority-middle-image1.png');
+  background-image: url('../images/icons-background.jpg');
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -370,8 +370,20 @@ color:#005ea2;
   margin: 0 auto;
 }
 .picon{
-  height: 100px;
+  height: 110px;
+  width: 110px;
   padding: 25px;
+}
+
+.picon-svg-homepage {
+  height: 110px;
+  width: 110px;
+  padding: 0px;
+  vertical-align: middle;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px -1px 11px 4px rgba(143, 140, 140, 0.47);
+  -moz-box-shadow: 1px -1px 11px 4px rgba(143, 140, 140, 0.47);
+  box-shadow: 1px -1px 11px 4px rgba(143, 140, 140, 0.47);
 }
 .picon-svg{
   height: 110px;
@@ -1060,7 +1072,8 @@ abbr{
     background-size: 100% 100%;
     padding: 45px 0;
     color: #fff;
-    background-color: #000;
+    background-color: #000000;
+    height: 300px;
 }
 
 .search {
@@ -1138,12 +1151,12 @@ abbr{
         background-color: #0A3369;
     }
     .usa-nav__primary button[aria-expanded="true"] {
-        background-color: #264741;
+        background-color: #0A3369;
     }
 }
 
 .usa-menu-btn {
-    background-color: #264741;
+    background-color: #0A3369;
 }
 
 .usa-table th, .usa-prose > table th, .usa-table td, .usa-prose > table td {
