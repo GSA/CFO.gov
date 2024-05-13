@@ -145,11 +145,11 @@ primary_navigation_coffa:
     url: /coffa/
     children:
       - name: The COFFA Council
-        url: "/coffa/coffa-council"
+        url: "/coffa/about-the-coffa-council"
       - name: Members
         url: "/coffa/members/"
       - name: The Support Team
-        url: "/coffa/support-team"
+        url: "/coffa/support/"
   - name: Major Initiatives
     url: "/coffa/"
     children:
@@ -202,6 +202,8 @@ collections:
     output: true
     permalink: /:path/
   leadership:
+    output: true
+  leadership-coffa:
     output: true
   members:
     output: true
