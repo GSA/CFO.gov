@@ -1,7 +1,7 @@
 ---
 ---
 // Import the US Web Design System SASS.
-@import "../_sass/members.scss";
+@import "../_sass/members-coffa.scss";
 @import "../_sass/knowledgesharing.scss";
 @import "../_sass/homepage.scss";
 @import "../_sass/resources.scss";
@@ -426,6 +426,10 @@ color:#005ea2;
   border-right: .5px solid black;
 }
 
+.border-bottom-green {
+  border-bottom: 1px solid #42A36B;
+}
+
 
 .divTableHeading {
   background-color: #EEE;
@@ -834,11 +838,6 @@ abbr{
   .usa-identifier__logo-img {
     height: 100%;
     width: auto
-  }
-
-  .leadership-seal {
-    width: 100%;
-    vertical-align: middle;
   }
 
   .usa-identifier__identity {
