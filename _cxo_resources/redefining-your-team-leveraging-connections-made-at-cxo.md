@@ -33,4 +33,4 @@ LinkedIn is often called the "business social media platform" and for good reaso
 
 ***Through Outside Engagement***
 
-Using LinkedIn and other social media channels is important, however expanding that relationship with other Fellows into the "real world" can enable a new dynamic in your agency. We have touched on the [power of cross-collaboration]({{site.baseurl}}layout: cxo-layout-blogcross-agency-collaboration/) in an earlier blog, and it's important to nurture its potential, not just to break down agency silos, but for the benefit of the job we all share - the business of government.
+Using LinkedIn and other social media channels is important, however expanding that relationship with other Fellows into the "real world" can enable a new dynamic in your agency. We have touched on the [power of cross-collaboration]({{site.baseurl}}/cxo-fellows/cross-agency-collaboration/) in an earlier blog, and it's important to nurture its potential, not just to break down agency silos, but for the benefit of the job we all share - the business of government.
