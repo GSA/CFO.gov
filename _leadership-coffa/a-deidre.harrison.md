@@ -1,5 +1,5 @@
 ---
-bio-image: /wp-content/uploads/2018/01/OMB-seal.png
+bio-image: /wp-content/uploads/2018/01/OMB-seal-cropped.png
 bio-image-alt-text: Deidre Harrison
 layout: bio
 permalink: /bio/ms-deidre-harrison/coffa

@@ -1,5 +1,5 @@
 ---
-bio-image: /_pages/coffa/assets/images/hhs-seal-blue-2022.png
+bio-image: /wp-content/uploads/2024/hhs-seal-blue-2022.png
 bio-image-alt-text: Dale Bell
 layout: bio
 permalink: /bio/mr-dale-bell/
