@@ -1,11 +1,12 @@
 ---
-bio-image: /wp-content/uploads/2021/02/hhs_seal.png
+bio-image: /_pages/coffa/assets/images/hhs-seal-blue-2022.png
 bio-image-alt-text: Dale Bell
 layout: bio
 permalink: /bio/mr-dale-bell/
 name : Mr. Dale Bell
 department: Health and Human Services
 title: Deputy Assistant Secretary for Grants
+source: coffa
 ---
 
 <p>Dale Bell is a seasoned executive with over 26 years of experience in strategy, facilitation, and collaboration. He is a leader and subject matter expert in financial assistance management, enterprise performance management, strategic planning, project management, and business operations improvement. Since 2010, Mr. Bell has served in the federal government Senior Executive Service and has been advising the public sector since 1996.
