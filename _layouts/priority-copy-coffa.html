@@ -1,0 +1,101 @@
+---
+
+layout: coffa-default
+title: Priority
+
+---
+
+<section class="usa-hero grid-container about-the-council {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
+    <div class="grid-row grid-gap flex-align-center">
+        <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
+            <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.svg"
+                 alt="{{ page.type }}" />
+        </div>
+        <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
+            <div class="priority-tag-line">
+                <h1 class="margin-0 font-ui-2xl text-normal">{{ page.title }}</h1>
+            </div>
+            <div class="priority-tag-line">
+                <p class="margin-0 font-sans-md">{{ page.description1 }}</p>
+            </div>
+            {% if page.type == "career-planning-training-tool" %}
+                <a class="margin-top-1 text-no-underline margin-bottom-1 text-green usa-button usa-button--secondary bg-yellow border-0 padding-2" href="{{site.baseurl}}/career-planning-tool/" aria-label="Career Planning & Training Tool button">Career Planning & Training Tool</a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+
+<!--All icons and text for each priority area are referenced in the respective md file under prioritypages folder-->
+{% if page.priority_icons %}
+<section class="usa-graphic-list usa-section usa-prose clearfix">
+
+    <div class="grid-row clearfix grid-container priority-icons">
+
+        {% for icon in page.priority_icons %}
+        {% if page.number_of_icons >= 4 %}
+        <div class="tablet:grid-col-4 text-center margin-bottom-2 margin-top-3">
+            {% endif %}
+            {% if page.number_of_icons <= 3 %}
+            <div class="tablet:grid-col-4 text-center margin-y-10">
+                {% endif %}
+                {% if icon.url %}
+                <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
+                    {% else %}
+                    <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;" {% if icon.id %} id="{{ icon.id }}" {% endif %}>
+                        {% endif %}
+                        <div class="circle-image picons bg-white">
+                            <img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
+                        </div>
+                        <p class="font-heading-md text-gray-70 text-no-underline">{{ icon.name }}</p>
+                    </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% if page.type == "symposium" %}
+{% include priority_payment-integirty-fraud-symposium.html %}
+{% endif %}
+
+<div class="grid-container grid-gap">{{ content }}</div>
+
+<section class="grid-container grid-gap usa-graphic-list clearfix tabSection">
+
+    {% if page.type == "payment-integrity" %}
+    {% include cfo-tabs.html data = site.data.pi_tabs %}
+    {% endif %}
+
+    {% if page.type == "workforce-modernization" %}
+    {% include cfo-tabs.html data = site.data.workforce_modernization_tabs %}
+    {% endif %}
+
+    {% if page.type == "major-legislation" %}
+    {% include cfo-tabs.html data = site.data.ml_tabs %}
+    {% endif %}
+
+    {% if page.type == "ffr" %}
+    {% include cfo-tabs.html data = site.data.ffr_tabs %}
+    {% endif %}
+
+    {% if page.type == "ffa" %}
+    {% include cfo-tabs.html data = site.data.ffa_tabs %}
+    {% endif %}
+
+    {% if page.type == "symposium" %}
+    {% include cfo-tabs.html data = site.data.pifss_tabs %}
+    {% endif %}
+
+    {% if page.type == "career-planning-training-tool" %}
+    {% include cfo-tabs.html data = site.data.cfo_tabs %}
+    {% endif %}
+
+    {% if page.type == "coffa-training" %}
+    {% include cfo-tabs.html data = site.data.coffa_training_tabs %}
+    {% endif %}
+
+
+
+</section>
