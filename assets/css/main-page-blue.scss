@@ -1,7 +1,6 @@
 ---
 ---
 // Import the US Web Design System SASS.
-@import "../_sass/members.scss";
 @import "../_sass/knowledgesharing.scss";
 @import "../_sass/homepage.scss";
 @import "../_sass/resources.scss";
@@ -14,6 +13,11 @@
 
 .logo-size {
   width: 183px;
+  float: left;
+}
+
+.homepage-carousel-text{
+  width: 33%;
 }
 
 .jfmip-logo-size {
@@ -27,10 +31,6 @@
 .frpc-logo-size {
   width: 183px;
 }
-
-.coffa-logo-size {
-    width: 400px;
-  }
 
 .header-menu-text {
   font-weight: 600;
@@ -52,6 +52,10 @@
 .circle-image {
     border-radius: 50%;
     width: 110px;
+}
+
+.li-with-space {
+  margin: 0 0 3px 0;
 }
 .circle-image:hover {
 -webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
@@ -139,7 +143,7 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
 .ui-state-hover, .ui-state-active {
-  border-right: 8px solid #42A36B;
+  border-right: 8px solid #1c7d45;
   background: #4f9e991a;
   -webkit-border-top-left-radius: 50px;
   -webkit-border-bottom-left-radius: 50px;
@@ -278,7 +282,7 @@ color:#005ea2;
   width: 815px;
 }
 .about-the-council {
-    background-image: url('../images/Abstract-Green-Hero-Image.png');
+    background-image: url('../images/hero-blue.png');
     background-color: #000;
 }
 .ui-tabs-active a {
@@ -422,6 +426,10 @@ color:#005ea2;
   border-right: .5px solid black;
 }
 
+.border-bottom-green {
+  border-bottom: 1px solid #1c7d45;
+}
+
 
 .divTableHeading {
   background-color: #EEE;
@@ -498,8 +506,7 @@ ol.roman {
 
 @media screen and (min-width: 640px) {
   .logo-size {
-    width: 214px;
-    height: 72px;
+    width: 300px;
   }
 }
 
@@ -509,13 +516,6 @@ ol.roman {
     height: 86px;
   }
 }
-
-@media screen and (min-width: 640px){
-    .coffa-logo-size {
-      width: 350px;
-      height: 148px;
-    }
-  }
 
 @media screen and (min-width: 640px){
   .frpc-logo-size {
@@ -536,6 +536,16 @@ ol.roman {
   }
   .frpcSubText{
     font-size: .75rem;
+  }
+
+  .coffa-logo-size{
+    width:  160px;
+    height: 60px;
+    float: left;
+  }
+
+  .carousel-text{
+    width: 80%;
   }
 }
 
@@ -1073,29 +1083,29 @@ abbr{
     padding: 45px 0;
     color: #fff;
     background-color: #000000;
-    height: 300px;
+    height: 350px;
 }
 
 .search {
-    border-color: #42A36B;
+    border-color: #1c7d45;
 }
 
 .bg-green {
-    background-color: #42A36B;
+    background-color: #1c7d45;
 }
 
 .bg-emerald {
-    background-color: #42A36B;
+    background-color: #1c7d45;
     color: #f0f0f0;
 }
 
 .bg-green:hover, .bg-green.usa-button:hover {
-    background-color: #42A36B;
+    background-color: #1c7d45;
 }
 
 .bg-yellow:hover, .bg-yellow.usa-button:hover {
     background-color: #ffbe2e;
-    color: #225d5a;
+    color: #f0f0f0;
 }
 
 @media screen and (max-width: 700px) {
@@ -1105,7 +1115,7 @@ abbr{
 }
 
 .green-color {
-    color: #42A36B;
+    color: #1c7d45;
     font-weight: revert;
 }
 
@@ -1179,16 +1189,17 @@ abbr{
     bottom: 5px;
     right: 0;
     width: 1px;
-    background-color: #42A36B;
+    background-color: #1c7d45;
 }
 
 h2 {
-    color: #42A36B;
+    color: #0A3369;
     font-weight: revert;
 }
 
-h3 {
-    color: #346865;
+.highlight {
+   color: #1c7d45;
+   font-weight: bold
 }
 
 .usa-nav__secondary-links a {
@@ -1381,7 +1392,7 @@ a.checked {
 }
 
 .bg-primary-darker {
-    background-color: #42A36B;
+    background-color: #1c7d45;
 }
 
 .tabSection{
@@ -1393,15 +1404,19 @@ a.checked {
 }
 
 .text-green {
-    color: #225d5a;
+    color: #f0f0f0;
 }
 
 .usa-button:disabled:hover {
     color: #c9c9c9;
 }
 
+.usa-button:visited {
+    color: #f0f0f0;
+}
+
 .text-green {
-    color: #225d5a;
+    color: #f0f0f0;
 }
 
 @media screen and (min-width: 640px) {
