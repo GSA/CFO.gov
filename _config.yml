@@ -158,7 +158,7 @@ primary_navigation_coffa:
       - name: training
         url: "/coffa/training/"
   - name: Resources
-    url: "/coffa/resources"
+    url: "/coffa/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*"
 
 jfmip-navigation:
 #  - name: Current Initiatives
