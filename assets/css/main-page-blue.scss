@@ -699,6 +699,12 @@ abbr{
   margin-left: -0.25rem;
   margin-right: -0.25rem;
   padding-left: 0; }
+
+  .usa-button-coffa-training {
+    padding: .25rem 1.25rem;
+    border-radius: 25px;
+
+  }
 @media all and (min-width: 30em) {
   .usa-button-group {
     flex-direction: row; } }
@@ -1196,6 +1202,10 @@ abbr{
 h2 {
     color: #0A3369;
     font-weight: revert;
+}
+
+h3 {
+  color: #0A3369;
 }
 
 .highlight {

@@ -7,11 +7,11 @@ permalink: coffa/resources/federal-financial-assistance-training/
 fiscal_year:
 ---
 
-<section class="usa-hero grid-container about-the-council margin-bottom-5">
+<section class="usa-hero grid-container about-the-council">
     <div class="grid-row grid-gap flex-align-center">
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/training.svg"
-                 alt="Resources Logo" />
+                 alt="Training Logo" />
         </div>
         <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
             <div class="priority-tag-line">
@@ -22,7 +22,7 @@ fiscal_year:
 </section>
 <div class="usa-alert usa-alert--info" xmlns="http://www.w3.org/1999/html">
     <div class="usa-alert__body">
-        <p class="text-bold">PDF Version of the Grants Training Modules</p>
+        <p class="usa-alert__heading text-bold">PDF Version of the Grants Training Modules</p>
         <p class="usa-alert__text">During a transition to a new web platform, we identified technical issues with the original Grants Training Modules that have prevented us from restoring them to their interactive format. Below you will find the PDF version of the Grants Training Modules, as well as a new introductory training module. Please note, there is no completion certificate with this PDF format.</p>
     </div>
 </div>
@@ -47,8 +47,7 @@ fiscal_year:
 
 <div><p><i>Please note: There is no audio used in Module 1.</i></p></div>
 
-
-<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button bg-emerald border-0 padding-2" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-1.pdf"aria-label="Module 1 (Lessons 1 and 2)">Module 1 (Lessons 1 and 2)</a>
+<div><a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-1.pdf" aria-label="Module 1 (Lessons 1 and 2)">Module 1 (Lessons 1 and 2)</a></div>
 
 
 <h3>MODULE 2 - FINANCIAL ASSISTANCE MECHANISMS</h3>
@@ -56,21 +55,21 @@ fiscal_year:
 
 <div><p><i>Please note: There is no audio used in Module 2.</i></p></div>
 
-<div><p><a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-2.pdf" aria-label="Module 2 (Lessons 1 and 2)">Module 2 (Lessons 1 and 2)</a></p></div>
+<div><a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-2.pdf" aria-label="Module 2 (Lessons 1 and 2)">Module 2 (Lessons 1 and 2)</a></div>
 
 <h3>MODULE 3 - UNIFORM GUIDANCE ADMINISTRATIVE REQUIREMENTS</h3>
 <div><p>This module provides an introduction to the general provisions, pre- and post-award administrative requirements outlined in Subparts A through D of the Uniform Guidance (2 CFR 200) for Federal awarding agencies and award recipients. The module includes examples of how Federal awarding agencies apply these requirements into their day-to-day grants management practices and what is required by the award recipient during the period of performance.</p></div>
 
-<div><p><a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Lesson-1.pdf" aria-label="Module 3 Lesson 1">Lesson 1 </a> &nbsp; | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Lesson-2.pdf" aria-label="Module 3 Lesson 2">  Lesson 2  </a>&nbsp; | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Lesson-3.pdf" aria-label="Module 3 Lesson 3"> Lesson 3 </a>&nbsp; | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Lesson-4.pdf" aria-label="Module 3 Lesson 4"> Lesson 4 </a> | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Resources.pdf" aria-label="Module 3 Resources"> Resources </a> | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Transcript.pdf" aria-label="Module 3 Transcript"> Transcript </a></p></div>
+<div><a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Lesson-1.pdf" aria-label="Module 3 Lesson 1">Lesson 1 </a> &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Lesson-2.pdf" aria-label="Module 3 Lesson 2">  Lesson 2  </a>  &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Lesson-3.pdf" aria-label="Module 3 Lesson 3"> Lesson 3 </a> &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Lesson-4.pdf" aria-label="Module 3 Lesson 4"> Lesson 4 </a>  &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Resources.pdf" aria-label="Module 3 Resources"> Resources </a>  &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-3-Transcript.pdf" aria-label="Module 3 Transcript"> Transcript </a></div>
 
 <h3>MODULE 4 - COST PRINCIPLES</h3>
 <div><p>This module provides an introduction to the cost principles that apply to award recipients outlined in the Uniform Guidance 2 CFR 200. This module will outline the general principles governing cost, indirect costs, costs that require prior approval, other highlighted costs, and examples of how agencies apply the costs principles as they are administering grant and cooperative agreements.</p></div>
 
-<div><p><a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-1.pdf" aria-label="Module 4 Lesson 1"> Lesson 1</a> &nbsp; | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-2.pdf" aria-label="Module 4 Lesson 2"> Lesson 2 </a>&nbsp; | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-3.pdf" aria-label="Module 4 Lesson 3"> Lesson 3 </a>&nbsp; | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-4.pdf" aria-label="Module 4 Lesson 4"> Lesson 4 </a> &nbsp;| &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-5.pdf" aria-label="Module 4 Lesson 5"> Lesson 5 </a> | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Resources.pdf" aria-label="Module 4 Resources"> Resources </a>| &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Transcript.pdf" aria-label="Module 4 Transcript"> Transcript </a></p></div>
+<div><a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-1.pdf" aria-label="Module 4 Lesson 1"> Lesson 1</a> &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-2.pdf" aria-label="Module 4 Lesson 2"> Lesson 2 </a>  &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-3.pdf" aria-label="Module 4 Lesson 3"> Lesson 3 </a> &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-4.pdf" aria-label="Module 4 Lesson 4"> Lesson 4 </a> &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Lesson-5.pdf" aria-label="Module 4 Lesson 5"> Lesson 5 </a>  &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Resources.pdf" aria-label="Module 4 Resources"> Resources </a> &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-4-Transcript.pdf" aria-label="Module 4 Transcript"> Transcript </a></p></div>
 
 <h3>MODULE 5 - RISK MANAGEMENT AND SINGLE AUDIT</h3>
 <div><p>This module provides common techniques to manage risk to strengthen compliance with the Uniform Guidance 2 CFR 200 and an introduction to the single audit requirements, including recipient and Federal awarding agency requirements.</p></div>
 
-<div><p><a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Lesson-1.pdf" aria-label="Module 5 Lesson 1"> Lesson 1 </a> &nbsp; | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Lesson-2.pdf" aria-label="Module 5 Lesson 2"> Lesson 2 </a>&nbsp; | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Lesson-3.pdf" aria-label="Module 5 Lesson 3"> Lesson 3 </a> | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Resources.pdf" aria-label="Module 5 Resources"> Resources </a> | &nbsp;<a href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Transcript.pdf" aria-label="Module 5 Transcript"> Transcript </a></p></div>
+<div><a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Lesson-1.pdf" aria-label="Module 5 Lesson 1"> Lesson 1 </a>  &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Lesson-2.pdf" aria-label="Module 5 Lesson 2"> Lesson 2 </a>  &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Lesson-3.pdf" aria-label="Module 5 Lesson 3"> Lesson 3 </a>  &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Resources.pdf" aria-label="Module 5 Resources"> Resources </a>  &nbsp;<a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button usa-button-coffa-training bg-emerald border-0" href="{{ site.baseurl }}/wp-content/uploads/2020/09/Module-5-Transcript.pdf" aria-label="Module 5 Transcript"> Transcript </a></p></div>
 </div>
   
