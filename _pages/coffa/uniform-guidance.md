@@ -1,31 +1,17 @@
 ---
 layout: priority-copy-coffa
-title: Training
-permalink: /coffa/training
+title: "Uniform Guidance: Title 2 of the Code of Federal Regulations"
+permalink: /coffa/uniform-guidance
 aliases:
-  - /coffa/training/overview/
-  - /coffa/training/resources/
-  - /coffa/training/why-this-matters/
-type: coffa-training
-number_of_icons: 5
+  - /coffa/uniform-guidance/overview/
+  - /coffa/uniform-guidance/revisions-and-resources/
+  - /coffa/uniform-guidance/2024
+  - /coffa/uniform-guidance/2020
+  - /coffa/uniform-guidance/2013
+type: coffa-uniform-guidance
+number_of_icons:
 description: 
-keyword: 
-priority_icons: 
- - name: Compliance Supplement
-   logo: /assets/images/logos/workforce/Hand_shake.svg
-   url: /resources/compliance-supplement/
- - name: Innovation Exchange Sessions
-   logo: /assets/images/logos/workforce/Data_analytics_training_pilot.svg
-   url: /resources/innovation-exchanges/
- - name: Uniform Guidance
-   logo: /assets/images/logos/workforce/centrtalized_recruiting_pilot.svg
-   url: /resources/uniform-guidance/
- - name: 'Uniform Guidance: Promising Practices in Implementation'
-   logo: /assets/images/logos/grants.svg
-   url: /resources/uniform-guidance-promising-practices-in-implementation/
- - name: Federal Financial Assistance Training
-   logo: /assets/images/logos/finanical-training.svg
-   url: /resources/federal-financial-assistance-training/
+keyword: CFO Priority Areas, CFO Council, CFOC, Financial Assistance
 description1:
 ---
 
