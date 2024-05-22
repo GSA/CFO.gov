@@ -24,9 +24,8 @@ keyword: Resources
     <div class="grid-container">
         <h2 class="margin-bottom-0">WELCOME TO THE RESOURCE LIBRARY</h2>
         <div class="usa-graphic-list__row grid-row grid-gap margin-0">
-            <p class="padding-top-1 margin-0">This is a high-level look at policies, priorities, training, playbooks, and more, in federal financial
-            management. This is a living catalog that is consistently updated as policies, priorities, and resources evolve. Use the filters on the le to browse. It is not exhaustive of all applicable financial policies, priorities, or resources. Hover over the resource type for a brief definition of the
-                resource type.</p>
+            <p class="padding-top-1 margin-0">This is a high-level look at policies, priorities, training, and more, in Federal financial
+            assistance. This is a living catalog that is updated as policies, priorities, and resources evolve. Use the filters on the left to browse. It is not exhaustive of all applicable financial assistance policies, priorities, or resources. Hover over the resource type for a brief definition of the resource type.</p>
             <br>
         </div>
         <h2 class="margin-bottom-0">Related Resources</h2>
