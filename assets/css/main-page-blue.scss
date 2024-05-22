@@ -308,7 +308,7 @@ color:#005ea2;
 }
 .usa-nav__primary > .usa-nav__primary-item > a {
     font-weight: 600;
-    color: #71767a !important;
+    color: #0A3369 !important;
 }
 .carousel__track {
   color: #ffffff;
@@ -1208,12 +1208,12 @@ h2 {
 }
 
 .usa-nav__primary button {
-    color: #71767A;
+    color: #0A3369;
 }
 
 @media (min-width: 64em) {
     .usa-nav__secondary-links .usa-nav__secondary-item + .usa-nav__secondary-item::before {
-        color: #71767A !important;
+        color: #0A3369 !important;
     }
 }
 
@@ -1388,7 +1388,7 @@ a.checked {
 
 @supports (-webkit-mask: url("")) or (mask: url("")) {
     .usa-nav__primary button[aria-expanded="false"] span::after {
-        background-color: #71767A !important;
+        background-color: #0A3369 !important;
     }
 }
 
@@ -1450,6 +1450,10 @@ a.checked {
         width: 0.5rem;
         margin-left: 4px;
         background-color: transparent !important;
+    }
+
+    .usa-accordion__button {
+      color: #0A3369;
     }
 
     .usa-banner__button:hover::after {
