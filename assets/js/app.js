@@ -20,7 +20,8 @@ window.addEventListener('pageshow', function(event) {
         '/federal-financial-reporting',
         '/workforce-modernization',
         '/major-legislation',
-        '/payment-integrity'
+        '/payment-integrity',
+        '/coffa/uniform-guidance-coffa'
     ];
 
     var shouldReload = urlsToCheck.some(function(url) {
