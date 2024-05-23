@@ -1,7 +1,7 @@
 ---
 layout: priority-copy-coffa
 title: "Uniform Guidance: Title 2 of the Code of Federal Regulations"
-permalink: /coffa/uniform-guidance
+permalink: /coffa/uniform-guidance-coffa/
 aliases:
   - /coffa/uniform-guidance/overview/
   - /coffa/uniform-guidance/revisions-and-resources/
