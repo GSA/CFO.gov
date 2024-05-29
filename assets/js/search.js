@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
         var formElement = document.getElementById("search_form");
         formElement.action = pathParts[0] + '/payment-accuracy/search/';
     }
-    var pathPartsCoffa = window.location.pathname.split("/coffa/");
-    if(pathPartsCoffa.length === 2) {
+    var pathPartsffa = window.location.pathname.split("/coffa/");
+    if(pathPartsffa.length === 2) {
         var formElement = document.getElementById("search_form");
-        formElement.action = pathPartsCoffa[0] + '/coffa/search/';
+        formElement.action = pathPartsffa[0] + '/coffa/search/';
     }
     if (searchResults !== null) {
         var searchgovParams = document.getElementById("searchgov-params");
