@@ -46,7 +46,136 @@
         if (/career\-planning\-tool/.test(window.location.href)) {
             jQuery('button[type="button"], button[type="submit"]').createButtonEvents();
         }
+        if (/training\-resources/.test(window.location.href)) {
+            jQuery('button[type="button"], button[type="submit"]').createButtonEvents();
+        }
     });
 
 </script>
 <script src="{{ site.baseurl }}/assets/js/cfo-tabs.js?{{ site.time | date: '%s%N' }}"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/5.0.0/js/dataTables.fixedColumns.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/5.0.0/js/fixedColumns.dataTables.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/select/2.0.2/js/dataTables.select.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/3.0.2/js/dataTables.buttons.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.dataTables.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.print.min.js"></script>
+
+{% assign jsonData = site.data.coursesJ %}
+<script>
+$(document).ready(function() {
+    // Initialize DataTable
+    var table = $('#myTable').DataTable({
+        "columnDefs": [
+            {
+                "orderable": false,
+                "render": DataTable.render.select(),
+                "targets": 6
+            }
+        ],
+        "ordering": false
+    });
+
+    var data = {{ jsonData | jsonify }};
+
+    // Populate the table
+    data.forEach(function(item) {
+        var row = [];
+        for (var key in item) {
+            if (key === 'jobs_series') {
+              row.push("");
+            }
+            if (key === 'link' || key === 'price_band' || key === 'gs_level' || key === 'course_description' || key === 'additional_course_information') {
+                // row.push('<a href="' + item[key] + '">' + item[key] + '</a>');
+            } else {
+                row.push(item[key]);
+            }
+        }
+        table.row.add(row);
+    });
+
+    // Draw the table
+    table.draw();
+    // Add toggle filter buttons for specified columns
+    var columnsToFilter = [1, 3, 5]; // Indexes of columns to apply filters on
+    columnsToFilter.forEach(function(columnIndex) {
+        var filterValues = [];
+        table.column(columnIndex).data().unique().sort().each(function (value, index) {
+            filterValues.push(value);
+        });
+        var filterHtml = '<div class="btn-group" role="group">';
+        filterHtml += '<button class="filterBtn" data-filter="all">All</button>';
+        filterValues.forEach(function(value) {
+            filterHtml += '<button class="filterBtn" data-column-num="' + columnIndex + '" data-filter="' + value + '">' + value + '</button>';
+        });
+        filterHtml += '</div>';
+        // $('#myTable thead th').eq(columnIndex).append(filterHtml);
+    });
+
+    // Object to store active filters for each column
+    var activeFilters = {};
+
+    // Apply toggle functionality to filter buttons
+    $('.filterBtn').on('click', function () {
+        var $btn = $(this);
+        // var columnIndex = $btn.closest('th').index();
+        // var columnIndex = 1;
+        var columnIndex =  $btn.data('column-num');
+        var filterValue = $btn.data('filter');
+
+        if (!activeFilters[columnIndex]) {
+            activeFilters[columnIndex] = new Set();
+
+        }
+
+        // Toggle active class
+        if ($btn.hasClass('active')) {
+            $btn.removeClass('active');
+
+            activeFilters[columnIndex].delete(filterValue);
+        } else {
+            if (filterValue === 'all') {
+                // If 'All' is selected, clear all other filters
+                $btn.siblings().removeClass('active');
+                activeFilters[columnIndex].clear();
+            } else {
+                $btn.siblings('[data-filter="all"]').removeClass('active');
+            }
+            $btn.addClass('active');
+            activeFilters[columnIndex].add(filterValue);
+        }
+
+        if (activeFilters[columnIndex].has('all')) {
+            activeFilters[columnIndex].clear();
+            activeFilters[columnIndex].add('all');
+        }
+
+        table.draw();
+    });
+
+    $.fn.dataTable.ext.search.push(
+        function(settings, data, dataIndex) {
+            console.log('Filtering data:', data);
+            for (var columnIndex in activeFilters) {
+                var filterValues = Array.from(activeFilters[columnIndex]);
+                console.log('Filter Values for column', columnIndex, ':', filterValues);
+                if (filterValues.length > 0 && !filterValues.includes('all')) {
+                    var columnData = data[columnIndex];
+                    console.log('Column Data:', columnData);
+                    if (!filterValues.includes(columnData)) {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+    );
+
+
+});
+</script>
