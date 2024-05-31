@@ -160,7 +160,7 @@ fiscal_year: 2016
     <strong>Resources:</strong><br />
     <abbr title="Cooperative Audit Resolution and Oversight Initiative">CAROI</abbr> Playbook: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_CAR_OI_Playbook.pdf" aria-label="CAROI Playbook">http://go.usa.gov/x34cB</a> <br />
     <abbr title="Association of Government Accountants">AGA</abbr> <abbr title="Cooperative Audit Resolution and Oversight Initiative">CAROI</abbr> Guide: <a href="{{site.baseurl}}/wp-content/uploads/2016/06/Panel6_AGA-CAROI-Guide-05-2010.pdf" aria-label="AGA CAROI Guide">http://go.usa.gov/x34cB</a><br />
-    <abbr title="Association of Government Accountants">AGA</abbr> Tools: <a href="http://www.agacgfm.org/tools">http://www.agacgfm.org/tools</a>
+    <abbr title="Association of Government Accountants">AGA</abbr> Tools: <a href="https://www.agacgfm.org/tools">https://www.agacgfm.org/tools</a>
 </p>
 
 <hr />
