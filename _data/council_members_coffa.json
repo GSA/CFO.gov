@@ -20,6 +20,18 @@
         "website_url": "https://www.energy.gov/management/financial-assistance"
     },
     {
+        "agency": "Department of Health and Human Services",
+        "website_url": "https://www.hhs.gov/grants-contracts/grants/index.html"
+    },
+    {
+        "agency": "Department of Homeland Security",
+        "website_url": "https://www.dhs.gov/dhs-financial-assistance"
+    },
+    {
+        "agency": "Department of Housing and Urban Development",
+        "website_url": "https://www.hud.gov/"
+    },
+    {
         "agency": "Department of the Interior",
         "website_url": "https://www.doi.gov/pfm/cfo"
     },
@@ -84,19 +96,8 @@
         "website_url": "https://www.sac.gov/index.html"
     },
     {
-        "agency": "Department of Health and Human Services",
-        "website_url": "https://www.hhs.gov/grants-contracts/grants/index.html"
-    },
-    {
-        "agency": "Department of Housing and Urban Development",
-        "website_url": "https://www.hud.gov/"
-    },
-    {
         "agency": "Social Security Administration",
         "website_url": "https://www.ssa.gov/oag/grants/"
-    },
-    {
-        "agency": "Department of Homeland Security",
-        "website_url": "https://www.dhs.gov/dhs-financial-assistance"
     }
+   
 ]
