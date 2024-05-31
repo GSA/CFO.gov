@@ -62,7 +62,9 @@ keyword: CFO Priority Areas, CFO Council, CFOC members, Members
         <h2>CFO Council Members</h2>
         <p>Our members are each of the agency Chief Financial Officers appointed under section 901 of title 31, United States Code, as amended by the <a href="https://www.congress.gov/101/statute/STATUTE-104/STATUTE-104-Pg2838.pdf" target="_blank">Chief Financial Officers Act of 1990</a>.</p>
         <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-            {% for council_member in site.data.council_members | sort: 'agency' %}
+
+            {% assign sorted_council_members = site.data.council_members | sort: "agency" %}
+            {% for council_member in sorted_council_members %}
             <div class="tablet:grid-col-4 container padding-105">
                 <a href="{{ council_member.website_url }}" target="_blank" class="height-full display-block text-no-underline text-ink">
                     <div class="leftSeal">
