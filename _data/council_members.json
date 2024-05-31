@@ -98,5 +98,9 @@
     {
         "agency": "Small Agency Council Representative",
         "website_url": "https://www.sac.gov/"
+    },
+    {
+        "agency": "Social Security Administration",
+        "website_url": "https://www.ssa.gov/"
     }
 ]
