@@ -17,6 +17,12 @@
     max-width: 90% !important;
 }
 
+@media screen and (max-width: 639px) {
+    .leftSeal img.seal{
+      max-width: 77% !important;
+  }
+}
+
 .left img.photo {
   width: 100%;
   object-fit: cover;
