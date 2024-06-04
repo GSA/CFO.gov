@@ -2,7 +2,7 @@
 bio-image: /wp-content/uploads/2018/01/OMB-seal-cropped.png
 bio-image-alt-text: Deidre Harrison
 layout: bio
-permalink: /bio/deidre-harrison
+permalink: /bio/deidre-harrison/
 name : Ms. Deidre Harrison
 department: Office of Management and Budget
 title: Deputy Controller Performing the Delegated Duties of the Controller
