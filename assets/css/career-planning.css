@@ -39,7 +39,7 @@
 }
 
 .search-container {
-  display: flex;
+  display: grid;
   text-align: right;
   margin-top: 25px;
 }
@@ -47,6 +47,25 @@
 .career-search__label {
   position: absolute;
   top: -45px;
+}
+
+.training-course__label {
+  position: relative;
+  top: -16px;
+}
+
+.training-course-button {
+  position: relative;
+  top: -6px;
+}
+
+.export-content-text {
+  position: relative;
+  top: -2px;
+}
+
+.float-right {
+  float:right;
 }
 
 .career-search-results-heading {
