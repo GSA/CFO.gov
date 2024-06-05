@@ -68,6 +68,10 @@
   float:right;
 }
 
+.center-button {
+  justify-content: space-evenly;
+}
+
 .career-search-results-heading {
   display: flex;
   justify-content: space-between;
