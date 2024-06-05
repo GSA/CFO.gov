@@ -1,0 +1,69 @@
+<div id="career-advancement-results-container" class="tablet:grid-col-7 desktop:grid-col-8 padding-right-4 padding-top-8">
+  <section class="margin-bottom-1">
+    <div id="career-search-results-filter-remove-all-button" class="margin-y-1">
+      <a href="javascript:void(0)" class="text-color" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
+    </div>
+  </section>
+  <section>
+    <div id="dialog" class="display-none">
+      <div id="dtags" class="usa-accordion__content"></div>
+    </div>
+  </section>
+
+  <div class="career-search-results-filter-pagination flex-wrap">
+      {% assign post_count = site.cards | size %}
+      {% assign default_page_size = 10 %}
+      {% assign post_pages = post_count | divided_by: default_page_size %}
+      {% assign full_pages = post_pages | times: default_page_size %}
+      {% assign post_modulus = post_count | minus: full_pages %}
+      {% if post_modulus > 0 %}
+          {% assign post_pages = post_pages | plus: 1 %}
+      {% endif %}
+      <div class="career-search-results-pagination-wrapper card-content-color">
+          <button type="button" class="cfo-page-left" aria-label="left pagination top" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="cfo-page-right" aria-label="right pagination top">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
+      </div>
+      <div class="career-search-results-page-size-wrapper card-content-color margin">
+      <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">RESULTS PER PAGE: </label>
+      <select id="per-page-top" class="usa-select width-8 display-inline-block margin-top-0 card-content-color button-border radius-md" name="per_page">
+          <option value="5"{% if default_page_size == 5 %}selected{% endif %}>5</option>
+          <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
+          <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
+      </select>
+      </div>
+  </div>
+
+  <table id="myTable" class="display">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Course Title</th>
+            <th>Training Providers</th>
+            <th>Duration</th>
+            <th>Credit Type</th>
+            <th>Price</th>
+            <th>Learning Modality</th>
+            <th>Job Series</th>
+            <th>GS Level</th>
+            <th>Type</th>
+            <th>Select for Download</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Data will be populated dynamically -->
+    </tbody>
+</table>
+
+  <div class="career-search-results-filter-pagination flex-wrap margin-bottom-205">
+    <div class="career-search-results-pagination-wrapper card-content-color">
+      <button type="button" class="cfo-page-left" aria-label="left pagination bottom" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="cfo-page-right" aria-label="right pagination bottom">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
+    </div>
+    <div class="career-search-results-page-size-wrapper card-content-color margin">
+      <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-bot">RESULTS PER PAGE: </label>
+      <select id="per-page-bot" class="usa-select width-8 display-inline-block margin-top-0 card-content-color button-border radius-md" name="per_page">
+        <option value="5"{% if default_page_size == 5 %}selected{% endif %}>5</option>
+        <option value="10"{% if default_page_size == 10 %}selected{% endif %}>10</option>
+        <option value="20"{% if default_page_size == 20 %}selected{% endif %}>20</option>
+      </select>
+    </div>
+  </div>
+</div>
