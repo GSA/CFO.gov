@@ -24,7 +24,9 @@
                     id="series-{{ series_id }}"
                     data-id="series-{{ series_id }}"
                     aria-label="Series-{{ series }}"
-                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
+                    data-filter="{{ series }}"
+                    data-column-num="7"
+                    class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
                 >{{ series }}</button>
             {% endfor %}
         </div>
@@ -46,13 +48,15 @@
             {% assign level_array = level_array | numerical_sort %}
             {% for level in level_array %}
             {% assign level_id = level | downcase | replace: ", ", "-" | replace: " ", "-" %}
-            <button type="button"
-                    id="GS-{{ level_id }}"
-                    data-id="GS-{{ level_id }}"
-                    aria-label="GS Level - {{ level }}"
-                    class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">
-                GS {{ level }}
-            </button>
+            <button
+                type="button"
+                id="GS-{{ level_id }}"
+                data-id="GS-{{ level_id }}"
+                aria-label="GS Level - {{ level }}"
+                data-filter="GS {{ level }}"
+                data-column-num="8"
+                class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
+            >GS {{ level }}</button>
             {% endfor %}
         </div>
 
@@ -197,10 +201,10 @@
           <label class="font-sans-xs text-color text-bold margin-bottom-105">Price Band<span class="usa-tooltip"><i class="fa fa-info-circle margin-left-1 font-size-16 usa-tooltip__trigger" data-position="right" title="" aria-describedby="tooltip-689498" tabindex="0"></i><span class="usa-tooltip__body" id="tooltip-689498" role="tooltip" aria-hidden="true">General competencies are the same for all Federal employees.</span></span></label>
         </div>
         <div class="display-flex flex-column margin-top-2">
-          <button type="button" id="GS-7-9" data-id="GS-7-9" aria-label="GS Level - 7-9" class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$0 - $500</button>
-          <button type="button" id="GS-10-13" data-id="GS-10-13" aria-label="GS Level - 10-13" class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$500 - $1,000</button>
-          <button type="button" id="GS-14-15" data-id="GS-14-15" aria-label="GS Level - 14-15" class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$1,000 - $2,000</button>
-          <button type="button" id="GS-14-15" data-id="GS-14-15" aria-label="GS Level - 14-15" class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$2,000 - $10,000</button>
+          <button type="button" aria-label="Price Band 0" data-min="0" data-max="500" data-column-num="5" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$0 - $500</button>
+          <button type="button" aria-label="Price Band 500" data-min="500" data-max="1000" data-column-num="5" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$500 - $1,000</button>
+          <button type="button" aria-label="Price Band 1000" data-min="1000" data-max="2000" data-column-num="5" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$1,000 - $2,000</button>
+          <button type="button" aria-label="Price Band 2000" data-min="2000" data-max="10000" data-column-num="5" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$2,000 - $10,000</button>
         </div>
 
         <label class="margin-top-0 text-color font-sans-xs text-bold">Training Providers<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></label>
@@ -221,7 +225,7 @@
                 <button
                     type="button"
                     data-filter="{{ series }}"
-                    data-column-num="1"
+                    data-column-num="2"
                     class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
                 >{{ series }}</button>
             {% endfor %}
@@ -245,7 +249,7 @@
                 <button
                     type="button"
                     data-filter="{{ series }}"
-                    data-column-num="3"
+                    data-column-num="4"
                     class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
                 >{{ series }}</button>
             {% endfor %}
@@ -269,7 +273,7 @@
                 <button
                     type="button"
                     data-filter="{{ series }}"
-                    data-column-num="5"
+                    data-column-num="6"
                     class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
                 >{{ series }}</button>
             {% endfor %}
