@@ -94,9 +94,11 @@ $(document).ready(function() {
             },
             { "visible": false, "targets": [7,8,9]}
         ],
-        "createdRow": function(row, data, dataIndex) {
-            // Add the data-filter attribute to the first column (name)
-            $('td', row).eq(6).attr('data-filter', data.filterValue);
+        "createdRow": (row, data, index) => {
+            console.log("dfa");
+            console.log(data.filterValue);
+            console.log(data);
+            row.querySelector(':nth-child(7)').setAttribute("data-filter", data[6]);
         },
         // "searching": false,
         "ordering": false // Disable sorting for all columns
@@ -222,23 +224,32 @@ $(document).ready(function() {
                 var filterValues = Array.from(activeFilters[columnIndex]);
                 console.log('Filter Values for column', columnIndex, ':', filterValues);
                 if (filterValues.length > 0 && !filterValues.includes('all')) {
-                  var columnData = data[columnIndex];
-                  console.log('Column Data:', columnData);
-                  if (!filterValues.includes(columnData)) {
-                      return false;
-                  }
-
+                  // var columnData = 0;
                   // if (columnIndex == 6) {
-                  //   columnData = parseFloat(columnData.replace(/\$|,/g, ''));
-                  //   var otR = columnData >= min && columnData < max;
-                  //   if (!otR) {
-                  //     return false;
-                  //   }
+                  //   columnData = $(table.row(columnIndex).node()).find('td').attr('data-filter');
+                  //   console.log(table.row(columnIndex).node());
+                  //   console.log(table.row(columnIndex).node());
+                  //   console.log(columnData);
                   // } else {
-                  //   if (!filterValues.includes(columnData)) {
-                  //       return false;
-                  //   }
+                  //   columnData = data[columnIndex];
                   // }
+                  // console.log('Column Data:', columnData);
+                  // if (!filterValues.includes(columnData)) {
+                  //     return false;
+                  // }
+
+                  var columnData = data[columnIndex];
+                  if (columnIndex == 6) {
+                    columnData = parseFloat(columnData.replace(/\$|,/g, ''));
+                    var otR = columnData >= min && columnData < max;
+                    if (!otR) {
+                      return false;
+                    }
+                  } else {
+                    if (!filterValues.includes(columnData)) {
+                        return false;
+                    }
+                  }
                 }
             }
             return true;
