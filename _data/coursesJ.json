@@ -2,7 +2,7 @@
   {
     "course_title": "National Leadership Training (NLT) - multi-competency training",
     "institution": "AGA",
-    "course_duration": "40h",
+    "course_duration": "16 Hours",
     "learning_modality": "In-person",
     "course_type": "Certification",
     "price": 750,
@@ -18,7 +18,7 @@
   {
     "course_title": "Introduction to SQL",
     "institution": "Data Society",
-    "course_duration": "16h",
+    "course_duration": "1 Semester",
     "learning_modality": "Virtual",
     "course_type": "CPE",
     "price": 750,
@@ -34,7 +34,7 @@
   {
     "course_title": "PEBU 0312 Developing Decision Making I",
     "institution": "Management Concepts",
-    "course_duration": "16h",
+    "course_duration": "1 Semester",
     "learning_modality": "Virtual",
     "course_type": "Certification",
     "price": 750,
@@ -50,7 +50,7 @@
   {
     "course_title": "Accounting Channel",
     "institution": "Skillsoft",
-    "course_duration": "8h",
+    "course_duration": "2 Weeks",
     "learning_modality": "Synchronous",
     "course_type": "CPU",
     "price": 750,
@@ -66,7 +66,7 @@
   {
     "course_title": "Warehousing, Operations and Disposal (PROP7001)",
     "institution": "Graduate School USA (GSUSA)",
-    "course_duration": "8h",
+    "course_duration": "2 Weeks",
     "learning_modality": "Hybrid",
     "course_type": "Degree",
     "price": 4300,
@@ -82,7 +82,7 @@
   {
     "course_title": "Governmental Accounting, Financial Reporting and Budgeting (online, self-paced)",
     "institution": "AGA",
-    "course_duration": "8h",
+    "course_duration": "2 Weeks",
     "learning_modality": "Hybrid",
     "course_type": "CPU",
     "price": 4300,
@@ -98,7 +98,7 @@
   {
     "course_title": "PEBU 0404 Developing Your Professional Self",
     "institution": "George Mason University",
-    "course_duration": "40h",
+    "course_duration": "16 Hours",
     "learning_modality": "Virtual",
     "course_type": "Degree",
     "price": 4300,
@@ -114,7 +114,7 @@
   {
     "course_title": "Property Accountability: The Life Cycle (PROP7112)",
     "institution": "Graduate School USA (GSUSA)",
-    "course_duration": "20h",
+    "course_duration": "3 Months",
     "learning_modality": "Asynchronous",
     "course_type": "Degree",
     "price": 130,
@@ -130,7 +130,7 @@
   {
     "course_title": "Property Management for Custodial Officers (PROP7103)",
     "institution": "Emeritus",
-    "course_duration": "20h",
+    "course_duration": "3 Months",
     "learning_modality": "Synchronous",
     "course_type": "CPE",
     "price": 130,
@@ -146,7 +146,7 @@
   {
     "course_title": "Governmental Accounting, Financial Reporting and Budgeting (live, virtual)",
     "institution": "AGA",
-    "course_duration": "20h",
+    "course_duration": "3 Months",
     "learning_modality": "Hybrid",
     "course_type": "CPU",
     "price": 1700,
@@ -162,7 +162,7 @@
   {
     "course_title": "Introduction to R",
     "institution": "Data Society",
-    "course_duration": "16h",
+    "course_duration": "1 Semester",
     "learning_modality": "Asynchronous",
     "course_type": "Certification",
     "price": 130,
@@ -178,7 +178,7 @@
   {
     "course_title": "Accountability Channel",
     "institution": "Skillsoft",
-    "course_duration": "40h",
+    "course_duration": "16 Hours",
     "learning_modality": "In-person",
     "course_type": "CPE",
     "price": 1700,
