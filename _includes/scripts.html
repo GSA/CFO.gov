@@ -224,20 +224,6 @@ $(document).ready(function() {
                 var filterValues = Array.from(activeFilters[columnIndex]);
                 console.log('Filter Values for column', columnIndex, ':', filterValues);
                 if (filterValues.length > 0 && !filterValues.includes('all')) {
-                  // var columnData = 0;
-                  // if (columnIndex == 6) {
-                  //   columnData = $(table.row(columnIndex).node()).find('td').attr('data-filter');
-                  //   console.log(table.row(columnIndex).node());
-                  //   console.log(table.row(columnIndex).node());
-                  //   console.log(columnData);
-                  // } else {
-                  //   columnData = data[columnIndex];
-                  // }
-                  // console.log('Column Data:', columnData);
-                  // if (!filterValues.includes(columnData)) {
-                  //     return false;
-                  // }
-
                   var columnData = data[columnIndex];
                   if (columnIndex == 6) {
                     columnData = parseFloat(columnData.replace(/\$|,/g, ''));
