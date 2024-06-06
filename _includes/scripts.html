@@ -87,13 +87,17 @@ $(document).ready(function() {
               "targets": 0
             },
             {
-                "targets": 5,
+                "targets": 6,
                 "render": function (data, type, row, meta) {
                     return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });
                 }
             },
             { "visible": false, "targets": [7,8,9]}
         ],
+        "createdRow": function(row, data, dataIndex) {
+            // Add the data-filter attribute to the first column (name)
+            $('td', row).eq(6).attr('data-filter', data.filterValue);
+        },
         // "searching": false,
         "ordering": false // Disable sorting for all columns
     });
@@ -140,10 +144,20 @@ $(document).ready(function() {
         // Toggle active class
         if ($btn.hasClass('active')) {
             $btn.removeClass('active');
-            activeFilters[columnIndex].delete(filterValue);
+            if (columnIndex == 6) {
+              console.log("add:", activeFilters);
+              activeFilters[columnIndex].delete(min);
+            } else {
+              activeFilters[columnIndex].delete(filterValue);
+            }
         } else {
             $btn.addClass('active');
-            activeFilters[columnIndex].add(filterValue);
+            if (columnIndex == 6) {
+              console.log("add:", activeFilters);
+              activeFilters[columnIndex].add(min);
+            } else {
+              activeFilters[columnIndex].add(filterValue);
+            }
         }
 
         if (activeFilters[columnIndex].has('all')) {
@@ -210,17 +224,21 @@ $(document).ready(function() {
                 if (filterValues.length > 0 && !filterValues.includes('all')) {
                   var columnData = data[columnIndex];
                   console.log('Column Data:', columnData);
-                  if (columnIndex == 5) {
-                    columnData = parseFloat(columnData.replace(/\$|,/g, ''));
-                    var otR = columnData >= min && columnData < max;
-                    if (!otR) {
+                  if (!filterValues.includes(columnData)) {
                       return false;
-                    }
-                  } else {
-                    if (!filterValues.includes(columnData)) {
-                        return false;
-                    }
                   }
+
+                  // if (columnIndex == 6) {
+                  //   columnData = parseFloat(columnData.replace(/\$|,/g, ''));
+                  //   var otR = columnData >= min && columnData < max;
+                  //   if (!otR) {
+                  //     return false;
+                  //   }
+                  // } else {
+                  //   if (!filterValues.includes(columnData)) {
+                  //       return false;
+                  //   }
+                  // }
                 }
             }
             return true;

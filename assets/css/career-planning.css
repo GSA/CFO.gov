@@ -213,7 +213,7 @@ input#career-advancement-search-input {
 
   #career-download-buttons{
     flex-direction: column;
-    width: 100% !important;   
+    width: 100% !important;
   }
 
   .career-download-button-1{
@@ -301,7 +301,9 @@ input#career-advancement-search-input {
 
 
 .cfo-page-left,
-.cfo-page-right {
+.cfo-page-right,
+.cptt-page-left,
+.cptt-page-right {
     cursor: pointer;
     padding: 7px 12px;
     font-weight: bold;
