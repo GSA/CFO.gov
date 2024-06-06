@@ -3,7 +3,8 @@
     unselect = false,
     buttonSelector = '.policy input[type="checkbox"]',
     downloadButtonPDF, // Download PDF report button
-    downloadButtonCSV; // Download CSV report button
+    downloadButtonCSV, // Download CSV report button
+    navigateToTR;
 
   window.isSelected = function (val) {
     return (typeof selected[val] != 'undefined');
@@ -70,6 +71,12 @@
       }
       generatePDF(cards);
     });
+
+    navigateToTR = $('#center-button').click(function () {
+      console.log('click works')
+    })
+
+
 
     // button click event handler for Download CSV report button
     downloadButtonCSV = $('#career-download-buttons').find('[data-op="download-selected-csv"]').click(function () {

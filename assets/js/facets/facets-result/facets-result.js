@@ -79,7 +79,7 @@
                 '<button class="show-more usa-button usa-button--outline border-0 bg-white" data-more-text="Show More" data-less-text="Show Less" data-index="'+ i +'" aria-label="Show More card number '+ i +'">Show More</button>\n' +
                 '</div>';
         }
-        coursesDiv.innerHTML = '<p class="font-body-md card-display card-text-color"><strong>VENDOR COURSE LISTINGS:</strong></p>' + coursesMarkup;
+        coursesDiv.innerHTML = '<div class="grid-row center-button"> <button class="usa-button usa-button--outline margin-bottom-1 button-border">VIEW APPLICABLE TRAINING COURSES</button></div>';
         outerDiv3.append(coursesDiv);
 
         const selectButtonWrapper = document.createElement('div');
