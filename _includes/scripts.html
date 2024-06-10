@@ -87,14 +87,23 @@ $(document).ready(function() {
               "targets": 0
             },
             {
-                "targets": 5,
+                "targets": 6,
                 "render": function (data, type, row, meta) {
                     return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });
                 }
             },
             { "visible": false, "targets": [7,8,9]}
         ],
+        "createdRow": (row, data, index) => {
+            console.log("dfa");
+            console.log(data.filterValue);
+            console.log(data);
+            row.querySelector(':nth-child(7)').setAttribute("data-filter", data[6]);
+        },
         // "searching": false,
+        "paging":   false,
+        "ordering": false,
+        "info":     false,
         "ordering": false // Disable sorting for all columns
     });
 
@@ -154,10 +163,20 @@ $(document).ready(function() {
         // Toggle active class
         if ($btn.hasClass('active')) {
             $btn.removeClass('active');
-            activeFilters[columnIndex].delete(filterValue);
+            if (columnIndex == 6) {
+              console.log("add:", activeFilters);
+              activeFilters[columnIndex].delete(min);
+            } else {
+              activeFilters[columnIndex].delete(filterValue);
+            }
         } else {
             $btn.addClass('active');
-            activeFilters[columnIndex].add(filterValue);
+            if (columnIndex == 6) {
+              console.log("add:", activeFilters);
+              activeFilters[columnIndex].add(min);
+            } else {
+              activeFilters[columnIndex].add(filterValue);
+            }
         }
 
         if (activeFilters[columnIndex].has('all')) {
@@ -223,8 +242,7 @@ $(document).ready(function() {
                 console.log('Filter Values for column', columnIndex, ':', filterValues);
                 if (filterValues.length > 0 && !filterValues.includes('all')) {
                   var columnData = data[columnIndex];
-                  console.log('Column Data:', columnData);
-                  if (columnIndex == 5) {
+                  if (columnIndex == 6) {
                     columnData = parseFloat(columnData.replace(/\$|,/g, ''));
                     var otR = columnData >= min && columnData < max;
                     if (!otR) {
