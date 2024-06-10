@@ -99,9 +99,23 @@ $(document).ready(function() {
     });
 
     var data = {{ jsonData | jsonify }};
+   
+    var series = location.hash.match(/series=([^&]+)/i);
+        var level = location.hash.match(/level=([^&]+)/i);
+        var competency = location.hash.match(/competency=([^&]+)/i);
+
+        // Set up a hashFilter array
+        var hashFilter = {};
+        // Populate array with matches and sorts using ternary logic
+        hashFilter["series"] = series ? series[1] : "*";
+        hashFilter["level"] = level? level[1] : "*";
+        hashFilter["competency"] = competency ? competency[1] : "*";
+
+    console.log('hashFilter ', hashFilter);
 
     // Populate the table
     data.forEach(function(item) {
+        console.log('item ', item)
       var row = [];
       var accordionContent = '';
       row.push('accordion');
@@ -226,6 +240,8 @@ $(document).ready(function() {
             return true;
         }
     );
+
+
 
 
 });

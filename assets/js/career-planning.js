@@ -3,8 +3,7 @@
     unselect = false,
     buttonSelector = '.policy input[type="checkbox"]',
     downloadButtonPDF, // Download PDF report button
-    downloadButtonCSV, // Download CSV report button
-    navigateToTR;
+    downloadButtonCSV; // Download CSV report button
 
   window.isSelected = function (val) {
     return (typeof selected[val] != 'undefined');
@@ -72,9 +71,17 @@
       generatePDF(cards);
     });
 
-    navigateToTR = $('#center-button').click(function () {
-      console.log('click works')
-    })
+    $(document).on("click", '.view-applicable-courses', function(){
+      let val = $(this).val()
+      console.log('click works');
+      console.log(facetGlobalVars.data, ' data');
+      console.log('card.series ', val);
+      let filters = val.split(' ');
+      console.log('filters', filters);
+      let href = "/training-resources/#series=" + filters[2] + "&level=" + filters[1] + "&competency=" + filters[0];
+      window.location.href=href; 
+
+      });
 
 
 
