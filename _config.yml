@@ -144,8 +144,8 @@ primary_navigation_coffa:
   - name: About Us
     url: /coffa/
     children:
-      - name: The COFFA Council
-        url: "/coffa/about-the-coffa-council/"
+      - name: The COFFA
+        url: "/coffa/about-the-coffa/"
       - name: Members
         url: "/coffa/members/"
       - name: The Support Team
@@ -175,7 +175,7 @@ footer:
     frpc-email: Realpropertypolicy@gsa.gov
     cxo-email: cxofellowship@gsa.gov
     jfmip-email: JFMIP@fiscal.treasury.gov
-    coffa-email: coffa.support@gsa.gov
+    coffa-email: COFFA.support@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #

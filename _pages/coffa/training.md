@@ -28,14 +28,13 @@ fiscal_year:
 </div>
 
 <div class="grid-container font-sans-sm">
-<h2>GRANTS TRAINING</h2>
+<h2>Grants Training</h2>
 
-<div><p>AS A PART OF THE COFFA COUNCIL'S MISSION TO FOSTER MORE EFFICIENT AND EFFECTIVE FEDERAL GRANTS MANAGEMENT SYSTEM, THE COUNCIL COORDINATES TRAINING ON KEY ISSUES RELATED TO THAT MISSION.</p>
-</div>
+<div><p> Training is integral to establishing desired norms, behaviors and expectations. Creating a platform to share learning opportunities advances the COFFA ability to increase effectiveness and transparency of federal financial assistance programs. </p></div>
 
 <div><p><i><b>Please Note:</b> To properly view all Grants 101 Training Modules, please use either Google Chrome or Microsoft Internet Explorer. Please also make sure that Flash is enabled for your selected browser. All training modules will open in new tabs. </i></p></div>
 
-<h3>Grants Training 101 Modules</h3>
+<h3>Grants Training 101: 5 Modules</h3>
 
 <div>
     <p>Grants Training 101 Modules are available on this page. <i>Here is the <a href="{{ site.baseurl }}/wp-content/uploads/2023/Introduction to Federal Financial Assistance.pdf" aria-label="Intoduction to Federal Financial Assistance">Introduction to Federal Financial Assistance</a> to help guide what you will learn.</i></p> 
