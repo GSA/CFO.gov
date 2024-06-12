@@ -3,7 +3,7 @@
     <div id="secondary-skip" class="facets-panel bg-filter padding-y-3 radius-md padding-x-3 text-color margin-top-2">
 
         <label class="margin-top-0 text-color font-sans-xs text-bold">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></label>
-        <div class="display-flex flex-column margin-top-2" data-filter-group="job_series">
+        <div class="display-flex flex-column margin-top-2 tr-filter-list">
             {% assign series_array = "" | split: "," %}
 
             {% for item in site.cards %}
@@ -32,7 +32,7 @@
         </div>
 
         <label class="text-color font-sans-xs text-bold">GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level"></i></label>
-        <div class="display-flex flex-column margin-top-2">
+        <div class="display-flex flex-column margin-top-2 tr-filter-list">
             {% assign level_array = "" | split: "," %}
 
             {% for item in site.cards %}

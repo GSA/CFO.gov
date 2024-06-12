@@ -79,7 +79,7 @@
       let filters = val.split(' ');
       console.log('filters', filters);
       let href = "/training-resources/#series=" + filters[2] + "&level=" + filters[1] + "&competency=" + filters[0];
-      window.location.href=href; 
+      //window.location.href=href; 
 
       });
 

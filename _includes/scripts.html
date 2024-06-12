@@ -109,22 +109,8 @@ $(document).ready(function() {
 
     var data = {{ jsonData | jsonify }};
    
-        var series = location.hash.match(/series=([^&]+)/i);
-        var level = location.hash.match(/level=([^&]+)/i);
-        var competency = location.hash.match(/competency=([^&]+)/i);
-
-        // Set up a hashFilter array
-        var hashFilter = {};
-        // Populate array with matches and sorts using ternary logic
-        hashFilter["series"] = series ? series[1] : "*";
-        hashFilter["level"] = level? level[1] : "*";
-        hashFilter["competency"] = competency ? competency[1] : "*";
-
-    console.log('hashFilter ', hashFilter);
-
     // Populate the table
     data.forEach(function(item) {
-        console.log('item ', item)
       var row = [];
       var accordionContent = '';
       row.push('accordion');
@@ -142,6 +128,7 @@ $(document).ready(function() {
 
     // Draw the table
     table.draw();
+    console.log('not the right one');
 
     // Object to store active filters for each column
     var activeFilters = {};
@@ -186,6 +173,7 @@ $(document).ready(function() {
 
         // Apply the filters
         table.draw();
+        console.log('not this one either');
     });
 
     function format(d) {
@@ -237,6 +225,7 @@ $(document).ready(function() {
         function(settings, data, dataIndex) {
             // Handle specific column filters
             console.log('Filtering data:', data);
+            console.log('activeFilters ', activeFilters);
             for (var columnIndex in activeFilters) {
                 var filterValues = Array.from(activeFilters[columnIndex]);
                 console.log('Filter Values for column', columnIndex, ':', filterValues);
@@ -259,7 +248,59 @@ $(document).ready(function() {
         }
     );
 
+    function onHashChange() {
 
+        var indexMap = {};
+        var activeFilters = {};
+
+        indexMap["level"] = "8";
+        indexMap["series"] = "7";
+        // Current hash value
+        var hashFilter = getHashFilter();
+        // Concatenate priority_area and type for Isotope filtering
+        // + hashFilter["status"];
+
+        if (hashFilter) {
+            // Repaint Isotope container with current filters and sorts
+            for (var key in hashFilter) {
+            var columnIndex = indexMap[key];
+            activeFilters[columnIndex] = new Set();
+            console.log('columnIndex, ', columnIndex);
+            console.log('key ', key);
+            activeFilters[columnIndex].add(hashFilter[key]);
+            // Toggle checked status of sort button
+            // Toggle checked status of filter buttons
+            $(".tr-filter-list").find("[data-filter='" + hashFilter["series"] + "'],[data-filter='" + hashFilter["level"] + "']").addClass("active").attr("aria-checked", "true");
+            }
+            table.draw();
+            console.log('correct table.draw')
+        }
+    } // onHahschange
+
+    function getHashFilter() {
+        var series = location.hash.match(/series=([^&]+)/i);
+        var levelRaw = location.hash.match(/level=([^&]+)/i);
+        var competencyRaw = location.hash.match(/competency=([^&]+)/i);
+
+        var level = levelRaw[1].replace('%20', ' ');
+
+        // Set up a hashFilter array
+        var hashFilter = {};
+        // Populate array with matches and sorts using ternary logic
+        hashFilter["series"] = series ? series[1] : "*";
+        hashFilter["level"] = level? level : "*";
+        //hashFilter["competency"] = competency ? competency[1] : "*";
+
+        console.log('hashFilter ', hashFilter);
+
+
+        return hashFilter;
+    } // getHashFilter
+
+    // When the hash changes, run onHashchange
+
+    // When the page loads for the first time, run onHashChange
+    onHashChange();
 
 
 });

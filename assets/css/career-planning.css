@@ -38,8 +38,14 @@
   cursor: pointer;
 }
 
-.search-container {
+.search-container-cptt {
   display: grid;
+  text-align: right;
+  margin-top: 25px;
+}
+
+.search-container {
+  display: flex;
   text-align: right;
   margin-top: 25px;
 }
