@@ -251,8 +251,7 @@ $(document).ready(function() {
     function onHashChange() {
 
         var indexMap = {};
-        var activeFilters = {};
-
+    
         indexMap["level"] = "8";
         indexMap["series"] = "7";
         // Current hash value
@@ -268,6 +267,7 @@ $(document).ready(function() {
             console.log('columnIndex, ', columnIndex);
             console.log('key ', key);
             activeFilters[columnIndex].add(hashFilter[key]);
+            console.log('active filters line 271 ', activeFilters)
             // Toggle checked status of sort button
             // Toggle checked status of filter buttons
             $(".tr-filter-list").find("[data-filter='" + hashFilter["series"] + "'],[data-filter='" + hashFilter["level"] + "']").addClass("active").attr("aria-checked", "true");
