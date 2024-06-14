@@ -173,7 +173,7 @@ $(document).ready(function() {
 
         // Apply the filters
         table.draw();
-        console.log('not this one either');
+        window.history.replaceState({}, "", "/training-resources");
     });
 
     function format(d) {
@@ -254,6 +254,7 @@ $(document).ready(function() {
     
         indexMap["level"] = "8";
         indexMap["series"] = "7";
+
         // Current hash value
         var hashFilter = getHashFilter();
         // Concatenate priority_area and type for Isotope filtering
@@ -283,11 +284,16 @@ $(document).ready(function() {
         var competencyRaw = location.hash.match(/competency=([^&]+)/i);
 
         var level = levelRaw[1].replace('%20', ' ');
+        seriesMap = {};
+        seriesMap["0501"] = "0501 Financial Administration and Program Support";
+        seriesMap["0560"] = "0560 Budget Analysis";
+        seriesMap["0511"] = "0511 Auditing";
+        seriesMap["0510"] = "0510 Accounting";
 
         // Set up a hashFilter array
         var hashFilter = {};
         // Populate array with matches and sorts using ternary logic
-        hashFilter["series"] = series ? series[1] : "*";
+        hashFilter["series"] = series ? seriesMap[series[1]] : "*";
         hashFilter["level"] = level? level : "*";
         //hashFilter["competency"] = competency ? competency[1] : "*";
 
