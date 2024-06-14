@@ -1,0 +1,54 @@
+---
+title: Training Resources
+description: Welcome to the Career Planning page.
+subtitle: Our Focus Areas
+layout: careers
+permalink: /training-resources/
+description: Access best practices, training modules, career paths, videos, and more.
+keyword: CFO Priority Areas, CFO Council, Knowledge Sharing, Resources, Training, Videos, Career
+sidenav: false
+secondary_skip: true
+use_jqui: true
+attached:
+ - facets/facets-filters/facets
+ - facets/facets-filters/facets-left-buttons
+ - career-planning
+ - store
+ - facets/facets-utility
+ - facets/facets-filters/facets-top-filters
+ - facets/facets-result/facets-result
+ - facets/facets-search/facets-search
+
+---
+
+{% include  training-resources/header.html %}
+<div class="grid-container-widescreen">
+    <a id="main-content"></a>
+    <div>
+        <!-- HTML elements for search -->
+        <section class="career-search-results-header margin-top-7 tablet:margin-top-10">
+            <div class="search-container flex-justify flex-wrap tablet:flex-no-wrap">
+                <form class="usa-search margin-right-2" role="search">
+                    <div class="margin-top-0 career-search__label text-bold label-color" style="font-size:24px;">
+                        <label for="career-advancement-search-input">SEARCH CAREER PATHS </label>
+                    </div>
+                    <div class="tablet:display-block display-flex flex-justify search margin-bottom-1">
+                        <input type="text" id="career-advancement-search-input" class="usa-input margin-top-0 search-border radius-md margin-bottom-1 width" type="search" name="search">
+                        <button class="usa-button bg-search margin-bottom-1 width text-green" type="submit" id="cfo-search-button" title="Search">
+                            <span>SEARCH</span>
+                        </button>
+                    </div>
+                </form>
+                <div id="career-download-buttons" class="tablet:display-block display-flex flex-justify">
+                    <button id="career-download-button-1" class="career-download-button-1 usa-button usa-button--outline margin-bottom-1 button-border" data-position="top" data-op="select-all">SELECT ALL CARDS</button>
+                    <button id="career-download-button-2" class="usa-button usa-button--outline margin-bottom-1 usa-tooltip button-border" data-position="top" data-op="download-selected-pdf" disabled title="This feature will allow you to download a report of all selected information cards in PDF file format.">DOWNLOAD PDF</button>
+                    <button id="career-download-button-3" class="usa-button usa-button--outline margin-bottom-1 usa-tooltip button-border" data-position="top" data-op="download-selected-csv" disabled title="This feature will allow you to download a report of all selected information cards in CSV file format.">DOWNLOAD CSV</button>
+                </div>
+            </div>
+        </section>
+        <div class="usa-graphic-list__row grid-row grid-gap ogp-grid">
+            {% include  training-resources/filter.html %}
+            {% include  training-resources/results.html %}
+        </div>
+    </div>
+</div>

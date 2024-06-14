@@ -38,6 +38,12 @@
   cursor: pointer;
 }
 
+.search-container-cptt {
+  display: grid;
+  text-align: right;
+  margin-top: 25px;
+}
+
 .search-container {
   display: flex;
   text-align: right;
@@ -47,6 +53,29 @@
 .career-search__label {
   position: absolute;
   top: -45px;
+}
+
+.training-course__label {
+  position: relative;
+  top: -16px;
+}
+
+.training-course-button {
+  position: relative;
+  top: -6px;
+}
+
+.export-content-text {
+  position: relative;
+  top: -2px;
+}
+
+.float-right {
+  float:right;
+}
+
+.center-button {
+  justify-content: space-evenly;
 }
 
 .career-search-results-heading {
@@ -213,7 +242,7 @@ input#career-advancement-search-input {
 
   #career-download-buttons{
     flex-direction: column;
-    width: 100% !important;   
+    width: 100% !important;
   }
 
   .career-download-button-1{
