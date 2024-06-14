@@ -1,0 +1,18 @@
+.dataTables_filter {
+    display: none;
+}
+.dataTables_paginate {
+    display: none;
+}
+
+.dt-search {
+    display: none;
+}
+.dt-length {
+    display: none;
+}
+
+.filterBtn.active {
+    background-color: #007bff;
+    color: white;
+}

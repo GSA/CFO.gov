@@ -71,6 +71,20 @@
       generatePDF(cards);
     });
 
+    $(document).on("click", '.view-applicable-courses', function(){
+      let val = $(this).val()
+      console.log('click works');
+      console.log(facetGlobalVars.data, ' data');
+      console.log('card.series ', val);
+      let filters = val.split(' ');
+      console.log('filters', filters);
+      let href = "/training-resources/#series=" + filters[2] + "&level=" + filters[1] + "&competency=" + filters[0];
+      //window.location.href=href; 
+
+      });
+
+
+
     // button click event handler for Download CSV report button
     downloadButtonCSV = $('#career-download-buttons').find('[data-op="download-selected-csv"]').click(function () {
       let cards = [];

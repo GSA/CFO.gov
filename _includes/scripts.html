@@ -46,7 +46,263 @@
         if (/career\-planning\-tool/.test(window.location.href)) {
             jQuery('button[type="button"], button[type="submit"]').createButtonEvents();
         }
+        if (/training\-resources/.test(window.location.href)) {
+            jQuery('button[type="button"], button[type="submit"]').createButtonEvents();
+        }
     });
 
 </script>
 <script src="{{ site.baseurl }}/assets/js/cfo-tabs.js?{{ site.time | date: '%s%N' }}"></script>
+{% if page.url == '/training-resources/' %}
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/5.0.0/js/dataTables.fixedColumns.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/5.0.0/js/fixedColumns.dataTables.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/select/2.0.2/js/dataTables.select.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/3.0.2/js/dataTables.buttons.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.dataTables.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.print.min.js"></script>
+
+{% assign jsonData = site.data.coursesJ %}
+<!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/facets/facets-filters/training-filters.js"></script> -->
+<script>
+$(document).ready(function() {
+    // Initialize DataTable
+    var table = $('#myTable').DataTable({
+        "columnDefs": [
+            {
+                "orderable": false,
+                "render": DataTable.render.select(),
+                "targets": 10
+            },
+            {
+              "orderable": false,
+              'className': 'dt-control',
+              'data': null,
+              'defaultContent': '',
+              "targets": 0
+            },
+            {
+                "targets": 6,
+                "render": function (data, type, row, meta) {
+                    return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });
+                }
+            },
+            { "visible": false, "targets": [7,8,9]}
+        ],
+        "createdRow": (row, data, index) => {
+            console.log("dfa");
+            console.log(data.filterValue);
+            console.log(data);
+            row.querySelector(':nth-child(7)').setAttribute("data-filter", data[6]);
+        },
+        // "searching": false,
+        "paging":   false,
+        "ordering": false,
+        "info":     false,
+        "ordering": false // Disable sorting for all columns
+    });
+
+    var data = {{ jsonData | jsonify }};
+   
+    // Populate the table
+    data.forEach(function(item) {
+      var row = [];
+      var accordionContent = '';
+      row.push('accordion');
+
+      for (var key in item) {
+          if (key === 'course_title') {
+              row.push('<a href="' + item['link'] + '" target="_blank" rel="noopener noreferrer">' + item[key] + '</a>');
+          } else {
+              row.push(item[key]);
+          }
+      }
+
+      table.row.add(row);
+    });
+
+    // Draw the table
+    table.draw();
+    console.log('not the right one');
+
+    // Object to store active filters for each column
+    var activeFilters = {};
+    var min = 0;
+    var max = 0;
+
+    // Apply toggle functionality to filter buttons
+    $('.filterBtn').on('click', function () {
+        var $btn = $(this);
+        var columnIndex =  $btn.data('column-num');
+        var filterValue = $btn.data('filter');
+        min = $btn.data('min');
+        max = $btn.data('max');
+
+        if (!activeFilters[columnIndex]) {
+            activeFilters[columnIndex] = new Set();
+        }
+
+        // Toggle active class
+        if ($btn.hasClass('active')) {
+            $btn.removeClass('active');
+            if (columnIndex == 6) {
+              console.log("add:", activeFilters);
+              activeFilters[columnIndex].delete(min);
+            } else {
+              activeFilters[columnIndex].delete(filterValue);
+            }
+        } else {
+            $btn.addClass('active');
+            if (columnIndex == 6) {
+              console.log("add:", activeFilters);
+              activeFilters[columnIndex].add(min);
+            } else {
+              activeFilters[columnIndex].add(filterValue);
+            }
+        }
+
+        if (activeFilters[columnIndex].has('all')) {
+            activeFilters[columnIndex].clear();
+            activeFilters[columnIndex].add('all');
+        }
+
+        // Apply the filters
+        table.draw();
+        console.log('not this one either');
+    });
+
+    function format(d) {
+    console.log(d);
+        return (
+            '<div class="grid-container">' +
+              '<div class="grid-row">' +
+                  '<div class="tablet:grid-col">' +
+                  '<dl>' +
+                  '<dt>Course Description</dt>' +
+                  "<p>" + d[13] + "</p>" +
+                  '</dl>' +
+                  '</div>' +
+                  '<div class="tablet:grid-col">' +
+                  '<dl>' +
+                  '<dt>Additional Course Information</dt>' +
+                  "<p>" + d[14] + "</p>" +
+                  '</dl>' +
+                  '</div>' +
+              '</div>' +
+            '</div>'
+            //
+            // '<dl>' +
+            // '<dt>Course Description</dt>' +
+            // "<dd>" + d[13] + "</dd>" +
+            // // "<dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</dd>" +
+            // '<dt>Additional Course Information</dt>' +
+            // "<dd>" + d[14] + "</dd>" +
+            // // '<dd>Knowledge of decision support theories, methods, and tools for identifying, synthesizing, representing, and evaluating the important aspects of a decision situation and prescribing the recommended course for decision makers and other stakeholders</dd>' +
+            // '</dl>'
+        );
+    }
+
+    table.on('click', 'td.dt-control', function (e) {
+        let tr = e.target.closest('tr');
+        let row = table.row(tr);
+
+        if (row.child.isShown()) {
+            row.child.hide();
+        }
+        else {
+            row.child(format(row.data())).show();
+        }
+    });
+
+
+    // Custom filtering function
+    $.fn.dataTable.ext.search.push(
+        function(settings, data, dataIndex) {
+            // Handle specific column filters
+            console.log('Filtering data:', data);
+            console.log('activeFilters ', activeFilters);
+            for (var columnIndex in activeFilters) {
+                var filterValues = Array.from(activeFilters[columnIndex]);
+                console.log('Filter Values for column', columnIndex, ':', filterValues);
+                if (filterValues.length > 0 && !filterValues.includes('all')) {
+                  var columnData = data[columnIndex];
+                  if (columnIndex == 6) {
+                    columnData = parseFloat(columnData.replace(/\$|,/g, ''));
+                    var otR = columnData >= min && columnData < max;
+                    if (!otR) {
+                      return false;
+                    }
+                  } else {
+                    if (!filterValues.includes(columnData)) {
+                        return false;
+                    }
+                  }
+                }
+            }
+            return true;
+        }
+    );
+
+    function onHashChange() {
+
+        var indexMap = {};
+    
+        indexMap["level"] = "8";
+        indexMap["series"] = "7";
+        // Current hash value
+        var hashFilter = getHashFilter();
+        // Concatenate priority_area and type for Isotope filtering
+        // + hashFilter["status"];
+
+        if (hashFilter) {
+            // Repaint Isotope container with current filters and sorts
+            for (var key in hashFilter) {
+            var columnIndex = indexMap[key];
+            activeFilters[columnIndex] = new Set();
+            console.log('columnIndex, ', columnIndex);
+            console.log('key ', key);
+            activeFilters[columnIndex].add(hashFilter[key]);
+            console.log('active filters line 271 ', activeFilters)
+            // Toggle checked status of sort button
+            // Toggle checked status of filter buttons
+            $(".tr-filter-list").find("[data-filter='" + hashFilter["series"] + "'],[data-filter='" + hashFilter["level"] + "']").addClass("active").attr("aria-checked", "true");
+            }
+            table.draw();
+            console.log('correct table.draw')
+        }
+    } // onHahschange
+
+    function getHashFilter() {
+        var series = location.hash.match(/series=([^&]+)/i);
+        var levelRaw = location.hash.match(/level=([^&]+)/i);
+        var competencyRaw = location.hash.match(/competency=([^&]+)/i);
+
+        var level = levelRaw[1].replace('%20', ' ');
+
+        // Set up a hashFilter array
+        var hashFilter = {};
+        // Populate array with matches and sorts using ternary logic
+        hashFilter["series"] = series ? series[1] : "*";
+        hashFilter["level"] = level? level : "*";
+        //hashFilter["competency"] = competency ? competency[1] : "*";
+
+        console.log('hashFilter ', hashFilter);
+
+
+        return hashFilter;
+    } // getHashFilter
+
+    // When the hash changes, run onHashchange
+
+    // When the page loads for the first time, run onHashChange
+    onHashChange();
+
+
+});
+</script>
+{% endif %}
