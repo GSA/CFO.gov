@@ -1,5 +1,8 @@
 <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>var $j = $.noConflict(true);</script>
 
 <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
 <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script>
@@ -54,7 +57,6 @@
 </script>
 <script src="{{ site.baseurl }}/assets/js/cfo-tabs.js?{{ site.time | date: '%s%N' }}"></script>
 {% if page.url == '/training-resources/' %}
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/5.0.0/js/dataTables.fixedColumns.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/5.0.0/js/fixedColumns.dataTables.js"></script>
@@ -71,6 +73,8 @@
 <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/facets/facets-filters/training-filters.js"></script> -->
 <script>
 $(document).ready(function() {
+  console.log($().jquery); // This prints v1.4.2
+   console.log($j().jquery)
     // Initialize DataTable
     var table = $('#myTable').DataTable({
         "columnDefs": [
@@ -95,9 +99,6 @@ $(document).ready(function() {
             { "visible": false, "targets": [7,8,9]}
         ],
         "createdRow": (row, data, index) => {
-            console.log("dfa");
-            console.log(data.filterValue);
-            console.log(data);
             row.querySelector(':nth-child(7)').setAttribute("data-filter", data[6]);
         },
         // "searching": false,
@@ -128,7 +129,6 @@ $(document).ready(function() {
 
     // Draw the table
     table.draw();
-    console.log('not the right one');
 
     // Object to store active filters for each column
     var activeFilters = {};
@@ -173,11 +173,10 @@ $(document).ready(function() {
 
         // Apply the filters
         table.draw();
-        window.history.replaceState({}, "", "/training-resources");
+        window.history.replaceState({}, "", "/training-resources/");
     });
 
     function format(d) {
-    console.log(d);
         return (
             '<div class="grid-container">' +
               '<div class="grid-row">' +
@@ -224,8 +223,6 @@ $(document).ready(function() {
     $.fn.dataTable.ext.search.push(
         function(settings, data, dataIndex) {
             // Handle specific column filters
-            console.log('Filtering data:', data);
-            console.log('activeFilters ', activeFilters);
             for (var columnIndex in activeFilters) {
                 var filterValues = Array.from(activeFilters[columnIndex]);
                 console.log('Filter Values for column', columnIndex, ':', filterValues);
@@ -248,6 +245,131 @@ $(document).ready(function() {
         }
     );
 
+     $('#career-advancement-search-input-training-resources').autocomplete({
+      source: function (request, response) {
+        let normalized = request.term.toLowerCase();
+        let n = normalized.length + 40;
+        console.log('item ', data[0]);
+        let outputs = data.map(function (item) {
+          let value = item.course_title;
+          // Search by title
+          if (value.toLowerCase().indexOf(normalized) != -1) {
+            return stripHtmlTags(value);
+          }
+          else if (item.institution.toLowerCase().indexOf(normalized) != -1) {
+            return stripHtmlTags(item.institution);
+          }
+          // Search by Proficiency Level Definition
+          else if (item.course_duration.toLowerCase().indexOf(normalized) != -1) {
+            return stripHtmlTags(item.course_duration);
+          }
+          // Search by Behavioral Illustrations
+          else if (item.learning_modality.toLowerCase().indexOf(normalized) != -1) {
+            return stripHtmlTags(item.learning_modality);
+          }
+          else if (item.course_type.toLowerCase().indexOf(normalized) != -1) {
+            return stripHtmlTags(item.course_type);
+          }
+          else if (item.price.toString().indexOf(normalized) != -1) {
+            return stripHtmlTags(item.price);
+          }
+          return null;
+        });
+        outputs = outputs.filter(function (x) { return !!x }).filter((item, index, self) => self.indexOf(item) === index);
+        outputs = outputs.map(str => {
+          str = str.substring(str.toLowerCase().indexOf(normalized))
+              .split("?")[0]
+              .split("|")[0];
+          str = str.replace(/[,\s]+$/g, '').trim();
+          return str.length > n ? str.substring(0, n) + "..." : str;
+        });
+        // Filter by unique value.
+        outputs = [...new Set(outputs)];
+        response(outputs);
+      },
+      select: function (event, ui) {
+        console.log('here');
+        let $elem = $(event.target);
+        console.log('elem ', $elem);
+        $elem.val(ui.item.value);
+        $('#cfo-search-button-tr').click();
+        },
+      change: function (event, ui) {
+      }
+    });
+
+    function stripHtmlTags(str) {
+    if (!str || typeof str !== "string") return str;
+    return str.replace(/<[^>]*>/g, "|").replace(/&#58;/g, "");
+  }
+
+  $j('#cfo-search-button-tr').on('click', function () {
+    console.log('here!');
+    let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim();
+    table.search(searchKeyword).draw();
+  })
+                     
+
+    // function getSearch () {
+    //     // console.log(facetGlobalVars);
+    //     var results = [];
+    //     let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim();
+    //     var searchKeys = ["course_title", "institution", "course_duration", "learning_modality", "course_type", "price"]
+        
+    //     // create a count of the the items displayed and display it.
+    //     // count all search results for an item as a sanity check and make a spread sheet.
+    //             let newResults = [];
+    //                 // create a results array for the next search criteria
+    //                 data.forEach(item => { 
+    //                     searchKeys.forEach(term => {
+    //                         facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
+    //                               let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
+    //                               if (stringToMatch !== null) {
+    //                                   stringToMatch = stringToMatch.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase();
+    //                                   if (stringToMatch.match(searchKeyword.toLowerCase().replace(/[^a-zA-Z0-9\s]/g, ""))) {
+    //                                       if (!ifExistsResults(item.permalink, newResults)) {
+    //                                           newResults.push(item);
+    //                                       }
+    //                                   }
+    //                               }
+                              
+    //                         });
+    //                     });
+    //                 });
+    //             // look for new filters in prior results set and if they are there
+    //             // save the prior results in to a different array.
+    //             let finishResults = [];
+    //             if (results.length > 0) {
+    //                 results.forEach(item => {
+    //                     newResults.forEach(newItem => {
+    //                         if (item.permalink.toLowerCase() === newItem.permalink.toLowerCase()) {
+    //                             if (!ifExistsResults(item.permalink, finishResults)) {
+    //                                 finishResults.push(item);
+    //                             }
+    //                         }
+    //                     });
+    //                 });
+    //             } else {
+    //                 finishResults = newResults;
+    //             }
+
+    //             // populate results with finishResults
+    //             results = [];
+    //             finishResults.forEach(item => {
+    //                 if (!ifExistsResults(item.title, results)) {
+    //                     results.push(item);
+    //                 }
+    //             });
+    //         enableDisableCompetencies(false);
+    //         $("#career-search-results").empty();
+
+    //     // if (facetGlobalVars.results.length === 0 && facetGlobalVars.data.length === 0) {
+    //     //     facetGlobalVars.results = facetGlobalVars.fullSet;
+    //     //     $('#career-facet-remove-all-filters-button').hide();
+    //     //     createClearButton();
+    //     // }
+    // }
+
     function onHashChange() {
 
         var indexMap = {};
@@ -265,16 +387,12 @@ $(document).ready(function() {
             for (var key in hashFilter) {
             var columnIndex = indexMap[key];
             activeFilters[columnIndex] = new Set();
-            console.log('columnIndex, ', columnIndex);
-            console.log('key ', key);
             activeFilters[columnIndex].add(hashFilter[key]);
-            console.log('active filters line 271 ', activeFilters)
             // Toggle checked status of sort button
             // Toggle checked status of filter buttons
             $(".tr-filter-list").find("[data-filter='" + hashFilter["series"] + "'],[data-filter='" + hashFilter["level"] + "']").addClass("active").attr("aria-checked", "true");
             }
             table.draw();
-            console.log('correct table.draw')
         }
     } // onHahschange
 
@@ -296,8 +414,6 @@ $(document).ready(function() {
         hashFilter["series"] = series ? seriesMap[series[1]] : "*";
         hashFilter["level"] = level? level : "*";
         //hashFilter["competency"] = competency ? competency[1] : "*";
-
-        console.log('hashFilter ', hashFilter);
 
 
         return hashFilter;

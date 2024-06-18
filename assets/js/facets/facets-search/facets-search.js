@@ -26,6 +26,11 @@ $.fn.extend({
      * Uses enableDisableCompetencies and the createResults
      */
     getSearch: function () {
+        var url = window.location.href.split('/training-resources/');
+        console.log('url facet search ', url);
+        if(url.length > 1) {
+            return;
+        }
         // console.log(facetGlobalVars);
         facetGlobalVars.results = [];
         // create a count of the the items displayed and display it.

@@ -121,13 +121,28 @@ input#career-advancement-search-input {
   width: 230px;
 }
 
+input#career-advancement-search-input-training-resources {
+  width: 230px;
+}
+
 #cfo-search-button {
+  height: 2.5rem;
+  width: 30%;
+}
+
+#cfo-search-button-tr {
   height: 2.5rem;
   width: 30%;
 }
 
 @media screen and (min-width: 750px) {
   input#career-advancement-search-input {
+    width: 27rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  input#career-advancement-search-input-training-resources {
     width: 27rem;
   }
 }

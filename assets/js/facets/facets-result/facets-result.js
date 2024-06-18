@@ -79,7 +79,8 @@
                 '<button class="show-more usa-button usa-button--outline border-0 bg-white" data-more-text="Show More" data-less-text="Show Less" data-index="'+ i +'" aria-label="Show More card number '+ i +'">Show More</button>\n' +
                 '</div>';
         }
-        coursesDiv.innerHTML = '<div class="grid-row center-button"> <a href="/training-resources/#series=' + item.series + '&level=GS ' + item.level +'&competency='+item.competency +'" class="usa-button usa-button--outline margin-bottom-1 button-border view-applicable-courses">VIEW APPLICABLE TRAINING COURSES</a></div>';
+        var urlBase = window.location.href.split('/career-planning-tool/');
+        coursesDiv.innerHTML = '<div class="grid-row center-button"> <a href= "'+ urlBase[0] + '/training-resources/#series=' + item.series + '&level=GS ' + item.level +'&competency='+item.competency +'" class="usa-button usa-button--outline margin-bottom-1 button-border view-applicable-courses">VIEW APPLICABLE TRAINING COURSES</a></div>';
         outerDiv3.append(coursesDiv);
 
         const selectButtonWrapper = document.createElement('div');
@@ -89,6 +90,11 @@
         selectButtonWrapper.innerHTML = '<label><input type="checkbox" value="' + item.permalink + '"' + (window.isSelected(item.permalink) ? ' checked' : '') + '> <span>SELECT FOR DOWNLOAD</span></label>'
     }
     const resultsContainer = document.getElementById("career-search-results");
+    var url = window.location.href.split('/training-resources/');
+        console.log('url facet left ', url);
+        if(url.length > 1) {
+            return;
+    }
     resultsContainer.appendChild(outerDiv1);
      bindCoursesLink();
  }
