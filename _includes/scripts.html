@@ -303,11 +303,12 @@ $(document).ready(function() {
     return str.replace(/<[^>]*>/g, "|").replace(/&#58;/g, "");
   }
 
-  $j('#cfo-search-button-tr').on('click', function () {
+  $('#cfo-search-button-tr').on('click', function () {
     console.log('here!');
     let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim();
     console.log('searchKeyword', searchKeyword);
-    table.search(searchKeyword).draw();
+    searchKeyword.split('...');
+    table.search(searchKeyword[0]).draw();
   })
                      
 
