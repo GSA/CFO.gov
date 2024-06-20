@@ -306,6 +306,7 @@ $(document).ready(function() {
   $j('#cfo-search-button-tr').on('click', function () {
     console.log('here!');
     let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim();
+    console.log('searchKeyword', searchKeyword);
     table.search(searchKeyword).draw();
   })
                      
