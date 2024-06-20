@@ -38,6 +38,12 @@
   cursor: pointer;
 }
 
+.search-container-cptt {
+  display: grid;
+  text-align: right;
+  margin-top: 25px;
+}
+
 .search-container {
   display: flex;
   text-align: right;
@@ -47,6 +53,29 @@
 .career-search__label {
   position: absolute;
   top: -45px;
+}
+
+.training-course__label {
+  position: relative;
+  top: -16px;
+}
+
+.training-course-button {
+  position: relative;
+  top: -6px;
+}
+
+.export-content-text {
+  position: relative;
+  top: -2px;
+}
+
+.float-right {
+  float:right;
+}
+
+.center-button {
+  justify-content: space-evenly;
 }
 
 .career-search-results-heading {
@@ -92,13 +121,28 @@ input#career-advancement-search-input {
   width: 230px;
 }
 
+input#career-advancement-search-input-training-resources {
+  width: 230px;
+}
+
 #cfo-search-button {
+  height: 2.5rem;
+  width: 30%;
+}
+
+#cfo-search-button-tr {
   height: 2.5rem;
   width: 30%;
 }
 
 @media screen and (min-width: 750px) {
   input#career-advancement-search-input {
+    width: 27rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  input#career-advancement-search-input-training-resources {
     width: 27rem;
   }
 }

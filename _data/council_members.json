@@ -85,7 +85,7 @@
     },
     {
         "agency": "Office of Personnel Management",
-        "website_url": "https://www.opm.gov/about-us/our-people-organization/support-functions/chief-financial-officer/"
+        "website_url": "https://www.opm.gov/"
     },
     {
         "agency": "Small Business Administration",
@@ -98,5 +98,9 @@
     {
         "agency": "Small Agency Council Representative",
         "website_url": "https://www.sac.gov/"
+    },
+    {
+        "agency": "Social Security Administration",
+        "website_url": "https://www.ssa.gov/"
     }
 ]

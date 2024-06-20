@@ -67,11 +67,11 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
 
-.cxo{
-  background-image: url('../wp-content/uploads/2016/02/CXO-Fellows-Banner.png');
-  background-color: #19387b;
-  min-height: 200px;
-  }
+// .cxo{
+//   background-image: url('../wp-content/uploads/2016/02/CXO-Fellows-Banner.png');
+//   background-color: #19387b;
+//   min-height: 200px;
+//   }
 .priority-icons {
   background-position: center;
   background-image: url('../images/priority-middle-image1.png');
@@ -1249,6 +1249,13 @@ a.checked {
 }
 
 #career-advancement-search-input {
+  max-width: 75%;
+  @media screen and (max-width: 685px) {
+    max-width: 100%;
+  }
+}
+
+#career-advancement-search-input-training-resources {
   max-width: 75%;
   @media screen and (max-width: 685px) {
     max-width: 100%;
