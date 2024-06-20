@@ -115,7 +115,7 @@ $(document).ready(function() {
     });
 
     var data = {{ jsonData | jsonify }};
-   
+
     // Populate the table
     data.forEach(function(item) {
       var row = [];
@@ -180,33 +180,33 @@ $(document).ready(function() {
         window.history.replaceState({}, "", "/training-resources/");
     });
 
-    var createButtonEvents = function ($buttons) {
-      $buttons.filter("button").each(function () {
-        const button = $(this);
-        button.on('click', function (evt) {
-          evt.preventDefault();
-          if (button[0].id.match('competency-group-button')) {
-            $(this).parent().siblings().slideToggle();
-            $(this).find('i').toggleClass('fa-plus fa-minus');
-            // Set aria label
-            let ariaLabel = $(this).find('i').hasClass('fa-plus') ? ', collapsed' : ', expanded';
-            $(this).attr('aria-label', $(this).text() + ariaLabel);
-          } else {
-            if (!ifExists(evt.target.id)) {
-              console.log("if not");
-            } else {
-              // removeCriteria('button', evt.target.id);
-              console.log("remove crit");
-            }
-            if (button[0].id.match('series') || button[0].id.match('GS')) {
-              // enableDisabledCompetencies();
-              console.log("enable compet");
-            }
-          }
-        });
-      });
-    };
-    createButtonEvents($('button'));
+    // var createButtonEvents = function ($buttons) {
+    //   $buttons.filter("button").each(function () {
+    //     const button = $(this);
+    //     button.on('click', function (evt) {
+    //       evt.preventDefault();
+    //       if (button[0].id.match('competency-group-button')) {
+    //         $(this).parent().siblings().slideToggle();
+    //         $(this).find('i').toggleClass('fa-plus fa-minus');
+    //         // Set aria label
+    //         let ariaLabel = $(this).find('i').hasClass('fa-plus') ? ', collapsed' : ', expanded';
+    //         $(this).attr('aria-label', $(this).text() + ariaLabel);
+    //       } else {
+    //         if (!ifExists(evt.target.id)) {
+    //           console.log("if not");
+    //         } else {
+    //           // removeCriteria('button', evt.target.id);
+    //           console.log("remove crit");
+    //         }
+    //         if (button[0].id.match('series') || button[0].id.match('GS')) {
+    //           // enableDisabledCompetencies();
+    //           console.log("enable compet");
+    //         }
+    //       }
+    //     });
+    //   });
+    // };
+    // createButtonEvents($('button'));
 
     // Event handler for checkboxes
     $('input[type="checkbox"]').on('change', function() {
@@ -376,19 +376,19 @@ $(document).ready(function() {
     console.log('searchKeyword', searchKeyword);
     table.search(searchKeyword).draw();
   })
-                     
+
 
     // function getSearch () {
     //     // console.log(facetGlobalVars);
     //     var results = [];
     //     let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim();
     //     var searchKeys = ["course_title", "institution", "course_duration", "learning_modality", "course_type", "price"]
-        
+
     //     // create a count of the the items displayed and display it.
     //     // count all search results for an item as a sanity check and make a spread sheet.
     //             let newResults = [];
     //                 // create a results array for the next search criteria
-    //                 data.forEach(item => { 
+    //                 data.forEach(item => {
     //                     searchKeys.forEach(term => {
     //                         facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
     //                               let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
@@ -400,7 +400,7 @@ $(document).ready(function() {
     //                                       }
     //                                   }
     //                               }
-                              
+
     //                         });
     //                     });
     //                 });
@@ -441,7 +441,7 @@ $(document).ready(function() {
     function onHashChange() {
 
         var indexMap = {};
-    
+
         indexMap["level"] = "8";
         indexMap["series"] = "7";
 
