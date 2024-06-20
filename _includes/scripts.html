@@ -93,7 +93,13 @@ $(document).ready(function() {
                     return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });
                 }
             },
-            { "visible": false, "targets": [7,8,9]}
+            {
+                "targets": 11,
+                "render": function (data, type, row, meta) {
+                    return data.toLowerCase().replace(/[\s,]+/g, '-');
+                }
+            },
+            { "visible": false, "targets": [7,8,9,11]}
         ],
         "createdRow": (row, data, index) => {
             row.querySelector(':nth-child(7)').setAttribute("data-filter", data[priceColumn]);
@@ -169,6 +175,54 @@ $(document).ready(function() {
         table.draw();
     });
 
+    var createButtonEvents = function ($buttons) {
+      $buttons.filter("button").each(function () {
+        const button = $(this);
+        button.on('click', function (evt) {
+          evt.preventDefault();
+          if (button[0].id.match('competency-group-button')) {
+            $(this).parent().siblings().slideToggle();
+            $(this).find('i').toggleClass('fa-plus fa-minus');
+            // Set aria label
+            let ariaLabel = $(this).find('i').hasClass('fa-plus') ? ', collapsed' : ', expanded';
+            $(this).attr('aria-label', $(this).text() + ariaLabel);
+          } else {
+            if (!ifExists(evt.target.id)) {
+              console.log("if not");
+            } else {
+              // removeCriteria('button', evt.target.id);
+              console.log("remove crit");
+            }
+            if (button[0].id.match('series') || button[0].id.match('GS')) {
+              // enableDisabledCompetencies();
+              console.log("enable compet");
+            }
+          }
+        });
+      });
+    };
+    createButtonEvents($('button'));
+
+    // Event handler for checkboxes
+    $('input[type="checkbox"]').on('change', function() {
+        var $checkbox = $(this);
+        var filterValue = $checkbox.data('id');
+        var competencyType = $checkbox.data('group');
+
+        if (!activeFilters['competency']) {
+            activeFilters['competency'] = new Set();
+        }
+
+        if ($checkbox.is(':checked')) {
+            activeFilters['competency'].add(filterValue);
+        } else {
+            activeFilters['competency'].delete(filterValue);
+        }
+
+        // Apply the filters
+        table.draw();
+    });
+
     function format(d) {
         return (
             '<div class="grid-container">' +
@@ -231,7 +285,18 @@ $(document).ready(function() {
                         return false;
                     }
                   //filtering for all other columns
-                  } else {
+                } else if (columnIndex == 'competency') {
+                  // Additional checkbox filtering logic
+                  var competencyValues = Array.from(activeFilters['competency']);
+                  if (competencyValues.length > 0) {
+                      var found = competencyValues.some(value => {
+                          return data.some(columnData => columnData.includes(value));
+                      });
+                      if (!found) {
+                          return false;
+                      }
+                  }
+                } else {
                     if (!filterValues.includes(columnData)) {
                         return false;
                     }
