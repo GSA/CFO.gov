@@ -97,7 +97,7 @@
                     <div class="career-competency-toggle-open">
                         <div class="career-competency-toggle-open--inner">
                             <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}" class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
-                            <div class="career-competency-level-3-input-group">
+                            <div class="career-competency-level-3-input-group {{ competency_group_id | downcase }}">
                                 <div class="career-input-group">
                                     <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}"><strong class="cpt-strong">SELECT ALL</strong></label>
                                     <input type="checkbox"
@@ -112,7 +112,7 @@
                         </div>
                         {% for competency in competency_array %}
                         {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
-                        <div class="career-competency-input-groups" style="display: none;">
+                        <div class="career-competency-input-groups {{ competency_group_id | downcase }}" style="display: none;">
                             <div class="career-competency-level-4-input-group">
                                 <div class="career-input-group margin-top-105">
                                     <input type="checkbox"
@@ -150,7 +150,7 @@
                         <div class="career-competency-toggle-open">
                             <div class="career-competency-toggle-open--inner">
                             <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
-                            <div class="career-competency-level-3-input-group">
+                            <div class="career-competency-level-3-input-group {{ competency_group_id | downcase }}">
                                 <div class="career-input-group">
                                     <label for="{{ competency_group_id | downcase }}" class="career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}"><strong class="cpt-strong">SELECT ALL</strong></label>
                                     <input
@@ -167,7 +167,7 @@
                             </div>
                             {% for competency in competency_array %}
                             {% assign competency_id = competency | replace: ", ", "-" | replace: " ", "-" %}
-                            <div class="career-competency-input-groups" style="display: none;">
+                            <div class="career-competency-input-groups {{ competency_group_id | downcase }}" style="display: none;">
                                 <div class="career-competency-level-4-input-group">
                                     <div class="career-input-group margin-top-105">
                                         <input
