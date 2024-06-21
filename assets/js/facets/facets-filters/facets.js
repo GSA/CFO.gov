@@ -64,7 +64,10 @@ $(document).ready(function () {
 
         // On init, unchecking all checkboxes
         $("input:checkbox").each(function () {
-            $(this).prop('checked', false);
+            console.log('split ', window.location.href.split('/training-resources/'));
+            if(window.location.href.split('/training-resources/').length < 2) {
+                $(this).prop('checked', false);
+            }  
         });
 
         // For 508 when tabbing on select all for job specific

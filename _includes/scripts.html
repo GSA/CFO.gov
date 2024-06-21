@@ -1,8 +1,8 @@
 <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script>var $j = $.noConflict(true);</script>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
+<!-- <script>var $j = $.noConflict(true);</script> -->
 
 <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
 <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script>
@@ -73,8 +73,6 @@
 <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/facets/facets-filters/training-filters.js"></script> -->
 <script>
 $(document).ready(function() {
-  console.log($().jquery); // This prints v1.4.2
-   console.log($j().jquery)
     // Initialize DataTable
     var priceColumn = 6;
     var table = $('#myTable').DataTable({
@@ -220,10 +218,11 @@ $(document).ready(function() {
 
         if ($checkbox.is(':checked')) {
             activeFilters['competency'].add(filterValue);
+            console.log('filter value 223 ', filterValue);
         } else {
             activeFilters['competency'].delete(filterValue);
         }
-
+        console.log('activeFilters ', activeFilters);
         // Apply the filters
         table.draw();
     });
@@ -370,7 +369,7 @@ $(document).ready(function() {
     return str.replace(/<[^>]*>/g, "|").replace(/&#58;/g, "");
   }
 
-  $j('#cfo-search-button-tr').on('click', function () {
+  $('#cfo-search-button-tr').on('click', function () {
     console.log('here!');
     let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim();
     console.log('searchKeyword', searchKeyword);
@@ -453,12 +452,29 @@ $(document).ready(function() {
         if (hashFilter) {
             // Repaint Isotope container with current filters and sorts
             for (var key in hashFilter) {
-            var columnIndex = indexMap[key];
-            activeFilters[columnIndex] = new Set();
-            activeFilters[columnIndex].add(hashFilter[key]);
-            // Toggle checked status of sort button
-            // Toggle checked status of filter buttons
-            $(".tr-filter-list").find("[data-filter='" + hashFilter["series"] + "'],[data-filter='" + hashFilter["level"] + "']").addClass("active").attr("aria-checked", "true");
+              if(key != "competency" && key != "competencygroup") {
+                var columnIndex = indexMap[key];
+                activeFilters[columnIndex] = new Set();
+                activeFilters[columnIndex].add(hashFilter[key]);
+                // Toggle checked status of sort button
+                // Toggle checked status of filter buttons
+                $(".tr-filter-list").find("[data-filter='" + hashFilter["series"] + "'],[data-filter='" + hashFilter["level"] + "']").addClass("active").attr("aria-checked", "true");
+              } else if (key == "competency") {
+                var comp= hashFilter[key];
+                var compGroup = hashFilter["competencygroup"];
+                activeFilters['competency'] = new Set();
+                activeFilters['competency'].add(hashFilter[key]);
+                let $groupElem = $('#competency-group-button-' + compGroup.toLowerCase());
+                $groupElem.attr('aria-label', ' ' + compGroup + ', expanded');
+                let $parentElem = $('.' + compGroup.toLowerCase());
+                $('.' + compGroup.toLowerCase()).find(".career-competency-input-groups").show();
+                var $elemToCheck = $('#'+compGroup.toLowerCase() + '-' + hashFilter[key]);
+                $elemToCheck.prop('checked', true);
+                $('.' + compGroup.toLowerCase()).find('.fa').removeClass('fa-plus');
+                $('.' + compGroup.toLowerCase()).find('.fa').addClass('fa-minus');
+                console.log('find fa? ', $('.' + compGroup.toLowerCase()).find('.fa'));
+
+              }
             }
             table.draw();
         }
@@ -468,8 +484,10 @@ $(document).ready(function() {
         var series = location.hash.match(/series=([^&]+)/i);
         var levelRaw = location.hash.match(/level=([^&]+)/i);
         var competencyRaw = location.hash.match(/competency=([^&]+)/i);
+        var competencyGroup = location.hash.match(/competencygroup=([^&]+)/i);
 
-        var level = levelRaw[1].replace('%20', ' ');
+        var level = levelRaw[1].replaceAll('%20', ' ');
+        var competency = competencyRaw[1].toLowerCase().replaceAll('%20', '-').replaceAll(',', '');
         seriesMap = {};
         seriesMap["0501"] = "0501 Financial Administration and Program Support";
         seriesMap["0560"] = "0560 Budget Analysis";
@@ -481,7 +499,8 @@ $(document).ready(function() {
         // Populate array with matches and sorts using ternary logic
         hashFilter["series"] = series ? seriesMap[series[1]] : "*";
         hashFilter["level"] = level? level : "*";
-        //hashFilter["competency"] = competency ? competency[1] : "*";
+        hashFilter["competency"] = competency ? competency : "*";
+        hashFilter["competencygroup"] = competencyGroup ? competencyGroup[1] : "*";
 
 
         return hashFilter;
