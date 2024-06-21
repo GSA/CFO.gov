@@ -1,0 +1,151 @@
+<footer class="usa-footer">
+    {% if include.page_type == 'coffa' %}
+      <div class="grid-container margin-top-2 margin-bottom-2">
+        <a href="#" class="text-white usa-button bg-emerald border-0" id="return-top">Return to top</a>
+      </div>
+    {% else %}
+      <div class="grid-container margin-top-2 margin-bottom-2">
+          <a href="#" class="usa-button usa-button--outline border-0" id="return-top">Return to top</a>
+      </div>
+    {% endif %}
+
+    <div class="usa-footer__secondary-section">
+
+        {% if include.page_type != 'payment-accuracy' %}
+        <div class="grid-container">
+            <div class="grid-row grid-gap">
+                <div class="usa-footer__logo grid-row mobile-lg:grid-col-9 mobile-lg:grid-gap-2">
+                    <div class="mobile-lg:grid-col-auto">
+                        <img class="usa-footer__logo-img" src="{{ site.baseurl }}/assets/images/logos/footer-logo1.png" alt="Seal of the Executive Office of the President of the United States">
+                    </div>
+                    <div class="mobile-lg:grid-col-8">
+                        <p class="usa-footer-logo-heading mobile-lg:font-ui-md margin-top-0"><strong>Office of Management and Budget</strong></p>
+                    </div>
+                </div>
+                <div class="usa-footer__contact-links mobile-lg:grid-col-3">
+                    <div class="usa-footer-logo-heading mobile-lg:font-ui-md"><strong>Contact Us</strong></div>
+                    {% if include.page_type == 'cxo' %}
+                    <ul class="usa-list usa-list--unstyled">
+                        <li><a href="mailto:cxofellowship@gsa.gov">cxofellowship@gsa.gov</a></li>
+                        <li class="usa-footer__secondary-link margin-top-1">
+                            <a class="usa-social-link usa-social-link--linkedin-cfo" href="https://www.linkedin.com/company/thecxofellowship/" target="_blank" title="(opens New Window)">
+                                <span>LinkedIn footer</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    {% else %}
+
+                    <address class="usa-footer__address">
+                        <div class="usa-footer__contact-info grid-row grid-gap">
+                            <div class="grid-col-auto">
+                                <p class="margin-top-0"><b>
+                                    {% if include.page_type == 'frpc' %}
+                                    {{ site.footer.contact.frpc-email }}
+                                    {% elsif include.page_type == 'jfmip' %}
+                                    {{ site.footer.contact.jfmip-email }}
+                                    {% elsif include.page_type == 'coffa' %}
+                                    {{ site.footer.contact.coffa-email }}
+                                    {% else %}
+                                    {{ site.footer.contact.email }}
+                                    {% endif %}
+                                </b></p>
+                            </div>
+                        </div>
+                    </address>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        {% else %}
+
+        <div class="footer-section-bottom bg-base-lighter">
+            <div class="grid-container">
+                <div class="usa-graphic-list__row grid-row grid-gap padding-3 ">
+
+                    <div class="col-md-4">
+                        <div id="text-3" class="widget widget_text">
+                            <div class="textwidget"><p><a href="https://www.usaspending.gov/#/about/accessibility">Accessibility</a> | <a href="https://www.usaspending.gov/#/about/privacy" aria-label="USASpending.gov privacy policy statement"> Privacy Policy</a></p>
+                            </div>
+                        </div>
+                        <div id="text-4" class="widget widget_text">
+                            <div class="textwidget">
+                                <p><a href="http://www.performance.gov">Performance.gov</a> | <a href="https://www.whitehouse.gov/">Whitehouse.gov</a> | <a href="https://www.usa.gov/">USA.gov</a> | <a href="https://www.usaspending.gov/#/">USAspending.gov</a> | <a href="https://fiscal.treasury.gov/DNP/">Fiscal.Treasury.gov&nbsp;</a></p>
+                            </div>
+                        </div>
+                        <div id="text-6" class="widget widget_text">
+                            <div class="textwidget">
+                                <p><a href="https://www.gao.gov/about/what-gao-does/fraudnet/">Report Fraud, Waste and Abuse</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+    </div>
+
+</footer>
+
+<div id="ogp-identifier" class="usa-identifier">
+    <section
+      class="usa-identifier__section usa-identifier__section--masthead"
+      aria-label="Agency identifier,"
+    >
+      <div class="usa-identifier__container">
+        <div class="usa-identifier__identity" aria-label="Agency description">
+        {% if include.page_type != 'payment-accuracy' %}
+          <p class="usa-identifier__identity-domain">CFO.gov</p>
+        {% else %}
+          <p class="usa-identifier__identity-domain">PaymentAccuracy.gov</p>
+        {% endif %}
+          <p class="usa-identifier__identity-disclaimer">
+            An official website of the Federal Government</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <nav
+      class="usa-identifier__section usa-identifier__section--required-links"
+      aria-label="Important links,,"
+    >
+      <div class="usa-identifier__container">
+        <ul class="usa-identifier__required-links-list">
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.whitehouse.gov/omb/" class="usa-identifier__required-link usa-link">About OMB</a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link usa-link">Accessibility support</a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link">FOIA requests</a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" class="usa-identifier__required-link usa-link">No FEAR Act data</a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link">Office of the Inspector General</a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/reference/reports/budget-performance" class="usa-identifier__required-link usa-link">Performance reports</a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link" aria-label="GSA Privacy Policy Statement">Privacy policy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section
+      class="usa-identifier__section usa-identifier__section--usagov"
+      aria-label="U.S. government information and services,,"
+    >
+      <div class="usa-identifier__container">
+        <div class="usa-identifier__usagov-description">
+          Looking for U.S. government information and services?
+        </div>
+        <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
+      </div>
+    </section>
+  </div>

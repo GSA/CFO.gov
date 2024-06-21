@@ -40,7 +40,11 @@ layout: default
     </div>
 
     <br>
+    {% if page.source == 'coffa' %}
+    <p>&#10094; &nbsp; <a href="{{site.baseurl}}/coffa/members/">Back to Members</a> </p>
+    {% else %}
     <p>&#10094; &nbsp; <a href="{{site.baseurl}}/members/">Back to Members</a> </p>
+    {% endif %}
 </section>
 
 </div>
