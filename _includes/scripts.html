@@ -75,61 +75,59 @@
 $(document).ready(function() {
     // Initialize DataTable
     var priceColumn = 6;
+    const data = {{ jsonData | jsonify }};
+
     var table = $('#myTable').DataTable({
-        "columnDefs": [
-            {
-                "orderable": false,
-                "render": DataTable.render.select(),
-                "targets": 10
-            },
-            {
-              "orderable": false,
-              'className': 'dt-control',
-              'data': null,
-              'defaultContent': '',
-              "targets": 0
-            },
-            {
-                "targets": priceColumn,
-                "render": function (data, type, row, meta) {
-                    return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });
-                }
-            },
-            {
-                "targets": 11,
-                "render": function (data, type, row, meta) {
-                    return data.toLowerCase().replace(/[\s,]+/g, '-');
-                }
-            },
-            { "visible": false, "targets": [7,8,9,11]}
+        data: data,
+        "columns": [
+          {
+              "className": 'dt-control', "orderable": false, "data": null, "defaultContent": ''
+          },
+          { data: 'course_title', render: function(data, type, row) { return '<a href="' + (row.link || '#') + '" target="_blank" rel="noopener noreferrer">' + (data || '') + '</a>'; } },
+          { data: 'training_providers', defaultContent: '' },
+          { data: 'course_duration_num', render: function(data, type, row) {return '' + data.toString() + ' ' + row.course_duration_attribute + '';}, defaultContent: '' },
+          { data: 'learning_modality', defaultContent: '' },
+          { data: 'course_credit_type', render: function(data) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '' },
+          { data: 'price', render: function (data, type, row, meta) { return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });}},
+          {
+              "orderable": false, "render": DataTable.render.select(), "defaultContent": ''
+          },
+          { data: 'competency', render: function (data, type, row, meta) { return data.toLowerCase().replace(/[\s,]+/g, '-'); }, defaultContent: '', visible: false},
+          { data: 'job_series', defaultContent: '', visible: false},
+          { data: 'gs_level', defaultContent: '', visible: false},
         ],
-        "createdRow": (row, data, index) => {
-            row.querySelector(':nth-child(7)').setAttribute("data-filter", data[priceColumn]);
+        createdRow: (row, data, index) => {
+            row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);
+        },
+        "select": {
+            style: 'os',
+            selector: 'td:first-child',
+            headerCheckbox: false
         },
         // "searching": false,
-        "paging":   false,
+        "paging":   true,
         "info":     false,
         "ordering": false // Disable sorting for all columns
     });
 
-    var data = {{ jsonData | jsonify }};
-
-    // Populate the table
-    data.forEach(function(item) {
-      var row = [];
-      var accordionContent = '';
-      row.push('accordion');
-
-      for (var key in item) {
-          if (key === 'course_title') {
-              row.push('<a href="' + item['link'] + '" target="_blank" rel="noopener noreferrer">' + item[key] + '</a>');
-          } else {
-              row.push(item[key]);
-          }
-      }
-
-      table.row.add(row);
-    });
+    // var data = {{ jsonData | jsonify }};
+    //
+    // // Populate the table
+    // data.forEach(function(item) {
+    //   var row = [];
+    //   var accordionContent = '';
+    //   row.push('accordion');
+    //
+    //   for (var key in item) {
+    //       if (key === 'course_title') {
+    //           row.push('<a href="' + item['link'] + '" target="_blank" rel="noopener noreferrer">' + item[key] + '</a>');
+    //       } else {
+    //           row.push(item[key]);
+    //       }
+    //   }
+    //
+    //   table.row.add(row);
+    // });
 
     // Draw the table
     table.draw();
@@ -144,6 +142,8 @@ $(document).ready(function() {
         var $btn = $(this);
         var columnIndex =  $btn.data('column-num');
         var filterValue = $btn.data('filter');
+        console.log(columnIndex);
+        console.log(filterValue);
         minBtn = $btn.data('min');
         maxBtn = $btn.data('max');
 
@@ -207,7 +207,7 @@ $(document).ready(function() {
     // createButtonEvents($('button'));
 
     // Event handler for checkboxes
-    $('input[type="checkbox"]').on('change', function() {
+    $('input[type="checkbox"]:not(.dt-select-checkbox)').on('change', function() {
         var $checkbox = $(this);
         var filterValue = $checkbox.data('id');
         var competencyType = $checkbox.data('group');
@@ -234,13 +234,15 @@ $(document).ready(function() {
                   '<div class="tablet:grid-col">' +
                   '<dl>' +
                   '<dt>Course Description</dt>' +
-                  "<p>" + d[13] + "</p>" +
+                  "<p></p>" + //placeholder for empty data
+                  // "<p>" + d['course_description'] + "</p>" +
                   '</dl>' +
                   '</div>' +
                   '<div class="tablet:grid-col">' +
                   '<dl>' +
                   '<dt>Additional Course Information</dt>' +
-                  "<p>" + d[14] + "</p>" +
+                  "<p></p>" + //placeholder for empty data
+                  // "<p>" + d['additional_course_information'] + "</p>" +
                   '</dl>' +
                   '</div>' +
               '</div>' +
@@ -260,6 +262,18 @@ $(document).ready(function() {
         }
     });
 
+    $('#career-download-button-1').on('click', function() {
+        var $button = $(this);
+        var operation = $button.data('op');
+
+        if (operation === 'select-all') {
+            table.rows().select();
+            $button.data('op', 'deselect-all').text('DESELECT ALL CARDS');
+        } else {
+            table.rows().deselect();
+            $button.data('op', 'select-all').text('SELECT ALL CARDS');
+        }
+    });
 
     // Custom filtering function
     $.fn.dataTable.ext.search.push(
