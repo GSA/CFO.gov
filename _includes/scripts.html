@@ -455,8 +455,8 @@ $(document).ready(function() {
 
         var indexMap = {};
 
-        indexMap["level"] = "8";
-        indexMap["series"] = "7";
+        indexMap["level"] = "10";
+        indexMap["series"] = "9";
 
         // Current hash value
         var hashFilter = getHashFilter();
@@ -478,6 +478,7 @@ $(document).ready(function() {
                 var compGroup = hashFilter["competencygroup"];
                 activeFilters['competency'] = new Set();
                 activeFilters['competency'].add(hashFilter[key]);
+                console.log('active filters ', activeFilters);
                 let $groupElem = $('#competency-group-button-' + compGroup.toLowerCase());
                 $groupElem.attr('aria-label', ' ' + compGroup + ', expanded');
                 let $parentElem = $('.' + compGroup.toLowerCase());

@@ -64,7 +64,6 @@ $(document).ready(function () {
 
         // On init, unchecking all checkboxes
         $("input:checkbox").each(function () {
-            console.log('split ', window.location.href.split('/training-resources/'));
             if(window.location.href.split('/training-resources/').length < 2) {
                 $(this).prop('checked', false);
             }  
