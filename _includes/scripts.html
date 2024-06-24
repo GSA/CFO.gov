@@ -336,7 +336,7 @@ $(document).ready(function() {
           if (value.toLowerCase().indexOf(normalized) != -1) {
             return stripHtmlTags(value);
           }
-          else if (item.institution.toLowerCase().indexOf(normalized) != -1) {
+          else if (item.training_providers.toLowerCase().indexOf(normalized) != -1) {
             return stripHtmlTags(item.institution);
           }
           // Search by Proficiency Level Definition
