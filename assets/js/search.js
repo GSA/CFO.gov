@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
         var formElement = document.getElementById("search_form");
         formElement.action = pathParts[0] + '/payment-accuracy/search/';
     }
+    var pathPartsffa = window.location.pathname.split("/coffa/");
+    if(pathPartsffa.length === 2) {
+        var formElement = document.getElementById("search_form");
+        formElement.action = pathPartsffa[0] + '/coffa/search/';
+    }
     if (searchResults !== null) {
         var searchgovParams = document.getElementById("searchgov-params");
         var currentURL = new URL(window.location.href);

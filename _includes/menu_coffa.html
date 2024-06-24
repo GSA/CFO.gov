@@ -1,0 +1,67 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
+where we provide an easy way to manage your navigation system
+{% endcomment %}
+
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    <div id="logo" class="usa-logo">
+
+        <a href="{{ site.baseurl }}/coffa" accesskey="1" title="Council on Federal Financial Assistance" aria-label="Council on Federal Financial Assistance">
+          <img class="logo-size coffa-logo-size" src="{{ site.coffa-logo | prepend: site.baseurl }}" alt="United States COFFA logo">
+        </a>
+
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav role="navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+        <button class="usa-nav__close"><img alt="close" src="{{ site.baseurl }}/assets/img/close.svg"></button>
+      <div class="grid-row">
+          <div class="desktop:grid-col-10">
+              <ul class="usa-nav__primary usa-accordion">
+                  {% for nav_item in include.primary_navigation %}
+                  {% unless nav_item.children %}
+                  {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
+                  {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+                  
+                  <li class="usa-nav__primary-item">
+                      <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+                         href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name }}</span></a>
+                  </li>
+                  {% else %}
+                  {% assign nav_id = 'primary-nav-' | append: forloop.index %}
+                  <li class="usa-nav__primary-item">
+                      <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ nav_id }}">
+                          <span class="header-menu-text">{{ nav_item.name | escape }}</span>
+                      </button>
+                      <ul id="{{ nav_id }}" class="usa-nav__submenu" hidden="">
+                          {% for subnav_item in nav_item.children %}
+                          <li class="usa-nav__submenu-item">
+                              <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
+                          </li>
+                          {% endfor %}
+                      </ul>
+
+                  </li>
+                  {% endunless %}
+                  {% endfor %}                 
+              </ul>
+          </div>
+          <div class="desktop:grid-col-2 controller-alert-button">
+              <a class="margin-top-1 text-no-underline text-white margin-bottom-1 usa-button bg-emerald border-0 padding-1 width-full" href="{{site.baseurl}}/coffa/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*">Controller Alerts</a>
+          </div>
+          </div>
+      <div class="usa-nav__secondary secondary-nav-padding">
+          <ul class="usa-nav__secondary-links">
+              {% for nav_item in include.secondary_navigation %}
+              <li class="usa-nav__secondary-item">
+                  <a href="{{ nav_item.url  }}">{{ nav_item.name | escape }}</a>
+              </li>
+              {% endfor %}
+          </ul>
+          {% include searchgov/form.html searchgov=site.searchgov %}
+      </div>
+    </div>
+  </nav>
+</header>

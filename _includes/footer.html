@@ -1,7 +1,13 @@
 <footer class="usa-footer">
-    <div class="grid-container margin-top-2 margin-bottom-2">
-        <a href="#" class="usa-button usa-button--outline border-0" id="return-top">Return to top</a>
-    </div>
+    {% if include.page_type == 'coffa' %}
+      <div class="grid-container margin-top-2 margin-bottom-2">
+        <a href="#" class="text-white usa-button bg-emerald border-0" id="return-top">Return to top</a>
+      </div>
+    {% else %}
+      <div class="grid-container margin-top-2 margin-bottom-2">
+          <a href="#" class="usa-button usa-button--outline border-0" id="return-top">Return to top</a>
+      </div>
+    {% endif %}
 
     <div class="usa-footer__secondary-section">
 
@@ -38,6 +44,8 @@
                                     {{ site.footer.contact.frpc-email }}
                                     {% elsif include.page_type == 'jfmip' %}
                                     {{ site.footer.contact.jfmip-email }}
+                                    {% elsif include.page_type == 'coffa' %}
+                                    {{ site.footer.contact.coffa-email }}
                                     {% else %}
                                     {{ site.footer.contact.email }}
                                     {% endif %}

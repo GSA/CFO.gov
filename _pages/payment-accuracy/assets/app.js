@@ -21,7 +21,8 @@ window.addEventListener('pageshow', function(event) {
         '/federal-financial-reporting',
         '/financial-management-workforce',
         '/major-legislation',
-        '/payment-integrity'
+        '/payment-integrity',
+        '/coffa/uniform-guidance-coffa'
     ];
 
     var shouldReload = urlsToCheck.some(function(url) {
