@@ -76,6 +76,9 @@ $(document).ready(function() {
     // Initialize DataTable
     var priceColumn = 6;
     const data = {{ jsonData | jsonify }};
+    data.forEach(function(item){
+      item.course_duration = item.course_duration_num + " " + item.course_duration_attribute;
+    })
 
     var table = $('#myTable').DataTable({
         data: data,
@@ -92,9 +95,9 @@ $(document).ready(function() {
           {
               "orderable": false, "render": DataTable.render.select(), "defaultContent": ''
           },
-          { data: 'competency', render: function (data, type, row, meta) { return data.toLowerCase().replace(/[\s,]+/g, '-'); }, defaultContent: '', visible: false},
-          { data: 'job_series', defaultContent: '', visible: false},
-          { data: 'gs_level', defaultContent: '', visible: false},
+          { data: 'competency', render: function (data, type, row, meta) { return data.toLowerCase().replace(/[\s,]+/g, '-'); }, defaultContent: '', visible: false, searchable: false},
+          { data: 'job_series', defaultContent: '', visible: false, searchable: false},
+          { data: 'gs_level', defaultContent: '', visible: false, searchable: false},
         ],
         createdRow: (row, data, index) => {
             row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);
@@ -329,26 +332,27 @@ $(document).ready(function() {
       source: function (request, response) {
         let normalized = request.term.toLowerCase();
         let n = normalized.length + 40;
-        console.log('item ', data[0]);
+        
         let outputs = data.map(function (item) {
+          let duration = stripHtmlTags(item.course_duration_num + item.course_duration_attribute);
           let value = item.course_title;
           // Search by title
           if (value.toLowerCase().indexOf(normalized) != -1) {
             return stripHtmlTags(value);
           }
           else if (item.training_providers.toLowerCase().indexOf(normalized) != -1) {
-            return stripHtmlTags(item.institution);
+            return stripHtmlTags(item.training_providers);
           }
           // Search by Proficiency Level Definition
-          else if (item.course_duration.toLowerCase().indexOf(normalized) != -1) {
-            return stripHtmlTags(item.course_duration);
+          else if (duration.toLowerCase().indexOf(normalized) != -1) {
+            return duration;
           }
           // Search by Behavioral Illustrations
           else if (item.learning_modality.toLowerCase().indexOf(normalized) != -1) {
             return stripHtmlTags(item.learning_modality);
           }
-          else if (item.course_type.toLowerCase().indexOf(normalized) != -1) {
-            return stripHtmlTags(item.course_type);
+          else if (item.course_credit_type.toLowerCase().indexOf(normalized) != -1) {
+            return stripHtmlTags(item.course_credit_type);
           }
           else if (item.price.toString().indexOf(normalized) != -1) {
             return stripHtmlTags(item.price);
@@ -385,7 +389,8 @@ $(document).ready(function() {
 
   $('#cfo-search-button-tr').on('click', function () {
     console.log('here!');
-    let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim();
+    let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim().split('...')[0];
+
     console.log('searchKeyword', searchKeyword);
     table.search(searchKeyword).draw();
   })
