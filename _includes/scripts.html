@@ -70,11 +70,12 @@
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.print.min.js"></script>
 
 {% assign jsonData = site.data.coursesJ %}
+{% assign columns = site.data.columns %}
 <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/facets/facets-filters/training-filters.js"></script> -->
 <script>
 $(document).ready(function() {
     // Initialize DataTable
-    var priceColumn = 6;
+    var priceColumn = {{ columns.price }};
     const data = {{ jsonData | jsonify }};
 
     var table = $('#myTable').DataTable({
@@ -455,8 +456,8 @@ $(document).ready(function() {
 
         var indexMap = {};
 
-        indexMap["level"] = "10";
-        indexMap["series"] = "9";
+        indexMap["level"] = {{ columns.gs_level }};
+        indexMap["series"] = {{ columns.job_series }};
 
         // Current hash value
         var hashFilter = getHashFilter();
