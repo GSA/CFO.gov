@@ -76,9 +76,6 @@ $(document).ready(function() {
     // Initialize DataTable
     var priceColumn = 6;
     const data = {{ jsonData | jsonify }};
-    data.forEach(function(item){
-      item.course_duration = item.course_duration_num + " " + item.course_duration_attribute;
-    })
 
     var table = $('#myTable').DataTable({
         data: data,
@@ -95,9 +92,9 @@ $(document).ready(function() {
           {
               "orderable": false, "render": DataTable.render.select(), "defaultContent": ''
           },
-          { data: 'competency', render: function (data, type, row, meta) { return data.toLowerCase().replace(/[\s,]+/g, '-'); }, defaultContent: '', visible: false, searchable: false},
-          { data: 'job_series', defaultContent: '', visible: false, searchable: false},
-          { data: 'gs_level', defaultContent: '', visible: false, searchable: false},
+          { data: 'competency', render: function (data, type, row, meta) { return data.toLowerCase().replace(/[\s,]+/g, '-'); }, defaultContent: '', visible: false},
+          { data: 'job_series', defaultContent: '', visible: false},
+          { data: 'gs_level', defaultContent: '', visible: false},
         ],
         createdRow: (row, data, index) => {
             row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);
