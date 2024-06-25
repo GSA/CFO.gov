@@ -79,8 +79,28 @@ $(document).ready(function() {
     const data = {{ jsonData | jsonify }};
 
     var table = $('#myTable').DataTable({
-        data: data,
-        "columns": [
+        data: data,dom: 'Bfrtip',
+        buttons: [
+            {
+                extend: 'csvHtml5',
+                exportOptions: {
+                    modifier: {
+                        selected: true
+                    },
+                    columns: ':gt(0):lt(6)',
+                }
+            },
+            {
+                extend: 'pdfHtml5',
+                exportOptions: {
+                    modifier: {
+                        selected: true
+                    },
+                    columns: ':gt(0):lt(6)',
+                }
+            }
+        ],
+        columns: [
           {
               "className": 'dt-control', "orderable": false, "data": null, "defaultContent": ''
           },
@@ -100,15 +120,15 @@ $(document).ready(function() {
         createdRow: (row, data, index) => {
             row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);
         },
-        "select": {
-            style: 'os',
-            selector: 'td:first-child',
+        select: {
+            style: 'multi',
+            selector: 'td:nth-child(8)',
             headerCheckbox: false
         },
         // "searching": false,
-        "paging":   true,
-        "info":     false,
-        "ordering": false // Disable sorting for all columns
+        paging:   true,
+        info:     false,
+        ordering: false // Disable sorting for all columns
     });
 
     // var data = {{ jsonData | jsonify }};
@@ -330,7 +350,7 @@ $(document).ready(function() {
       source: function (request, response) {
         let normalized = request.term.toLowerCase();
         let n = normalized.length + 40;
-        
+
         let outputs = data.map(function (item) {
           let duration = stripHtmlTags(item.course_duration_num + item.course_duration_attribute);
           let value = item.course_title;
