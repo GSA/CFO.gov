@@ -96,7 +96,7 @@
             {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
             <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
                 <div class="career-competency-level-2-input-group padding-1 text-bold text-color bg-button radius-lg border-1px button-border flex-column">
-                    <div class="career-competency-toggle-open">
+                    <div class="career-competency-toggle-open {{ competency_group_id | downcase }}">
                         <div class="career-competency-toggle-open--inner">
                             <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}" class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                             <div class="career-competency-level-3-input-group">
@@ -149,7 +149,7 @@
                 {% assign competency_group_id = competency_group | replace: ", ", "-" | replace: " ", "-" %}
                 <div class="career-competency-and-competency-group-input-groups margin-bottom-2">
                     <div class="career-competency-level-2-input-group padding-1 text-bold text-color bg-button radius-lg border-1px button-border flex-column">
-                        <div class="career-competency-toggle-open">
+                        <div class="career-competency-toggle-open {{ competency_group_id | downcase }}">
                             <div class="career-competency-toggle-open--inner">
                             <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                             <div class="career-competency-level-3-input-group">

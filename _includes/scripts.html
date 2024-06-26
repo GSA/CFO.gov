@@ -84,9 +84,9 @@ $(document).ready(function() {
           {
               "className": 'dt-control', "orderable": false, "data": null, "defaultContent": ''
           },
-          { data: 'course_title', render: function(data, type, row) { return '<a href="' + (row.link || '#') + '" target="_blank" rel="noopener noreferrer">' + (data || '') + '</a>'; } },
-          { data: 'training_providers', defaultContent: '' },
-          { data: 'course_duration_num', render: function(data, type, row) {return '' + data.toString() + ' ' + row.course_duration_attribute + '';}, defaultContent: '' },
+          { data: 'course_title', render: function(data, type, row) { return '<a href="' + (row.link || '#') + '" target="_blank" rel="noopener noreferrer">' + (data || '') + '</a>'; }, "className": "testFind" },
+          { data: 'training_providers', defaultContent: '', "className": "testFind" },
+          { data: 'course_duration_num', render: function(data, type, row) {return '' + data.toString() + ' ' + row.course_duration_attribute + '';}, defaultContent: '', "className": "testFind"  },
           { data: 'learning_modality', defaultContent: '' },
           { data: 'course_credit_type', render: function(data) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '' },
           { data: 'price', render: function (data, type, row, meta) { return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });}},
@@ -137,6 +137,7 @@ $(document).ready(function() {
     var activeFilters = {};
     var minBtn = 0;
     var maxBtn = 0;
+    //var searchKeyword = '';
 
     // Apply toggle functionality to filter buttons
     $('.filterBtn').on('click', function () {
@@ -219,11 +220,9 @@ $(document).ready(function() {
 
         if ($checkbox.is(':checked')) {
             activeFilters['competency'].add(filterValue);
-            console.log('filter value 223 ', filterValue);
         } else {
             activeFilters['competency'].delete(filterValue);
         }
-        console.log('activeFilters ', activeFilters);
         // Apply the filters
         table.draw();
     });
@@ -326,6 +325,21 @@ $(document).ready(function() {
         }
     );
 
+    // $.fn.dataTable.ext.search.push(
+    //     function(settings, data, dataIndex) {
+          
+    //       data.forEach(item => {
+    //         console.log('item ', item);
+    //         if(item.toLowerCase().indexOf(searchKeyword.toLowerCase() != -1)) {
+    //           console.log('item before match is true ', item);
+    //           match = true;
+    //         }
+    //       })
+    //       return match;
+    //   });
+
+   
+
      $('#career-advancement-search-input-training-resources').autocomplete({
       source: function (request, response) {
         let normalized = request.term.toLowerCase();
@@ -370,9 +384,7 @@ $(document).ready(function() {
         response(outputs);
       },
       select: function (event, ui) {
-        console.log('here');
         let $elem = $(event.target);
-        console.log('elem ', $elem);
         $elem.val(ui.item.value);
         $('#cfo-search-button-tr').click();
         },
@@ -386,11 +398,19 @@ $(document).ready(function() {
   }
 
   $('#cfo-search-button-tr').on('click', function () {
-    console.log('here!');
-    let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim().split('...')[0];
+    searchKeyword = $("#career-advancement-search-input-training-resources").val().trim().split('...')[0];
 
-    console.log('searchKeyword', searchKeyword);
     table.search(searchKeyword).draw();
+    //table.draw();
+
+    // table.columns().every(function () {
+    //   var column = this;
+    //   console.log('column? ', column);
+    //     column.search(searchKeyword).draw();
+    // });
+
+    //.columns(':visible').search(value)
+    //table.columns(".testFind").search(searchKeyword).draw();
   })
 
 
@@ -481,7 +501,6 @@ $(document).ready(function() {
                 var compGroup = hashFilter["competencygroup"];
                 activeFilters['competency'] = new Set();
                 activeFilters['competency'].add(hashFilter[key]);
-                console.log('active filters ', activeFilters);
                 let $groupElem = $('#competency-group-button-' + compGroup.toLowerCase());
                 $groupElem.attr('aria-label', ' ' + compGroup + ', expanded');
                 let $parentElem = $('.' + compGroup.toLowerCase());
@@ -490,7 +509,6 @@ $(document).ready(function() {
                 $elemToCheck.prop('checked', true);
                 $('.' + compGroup.toLowerCase()).find('.fa').removeClass('fa-plus');
                 $('.' + compGroup.toLowerCase()).find('.fa').addClass('fa-minus');
-                console.log('find fa? ', $('.' + compGroup.toLowerCase()).find('.fa'));
 
               }
             }

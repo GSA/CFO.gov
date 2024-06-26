@@ -194,6 +194,11 @@ input#career-advancement-search-input-training-resources {
   left: -9999px;
 }
 
+.return-button {
+  padding-left: 1.8em;
+  padding-top: 1em;
+}
+
 /* .career-search-results-heading {
   flex: 2;
 }
