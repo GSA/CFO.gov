@@ -79,8 +79,50 @@ $(document).ready(function() {
     const data = {{ jsonData | jsonify }};
 
     var table = $('#myTable').DataTable({
-        data: data,
-        "columns": [
+        data: data,dom: 'Bfrtip',
+        buttons: [
+            {
+                extend: 'csvHtml5',
+                exportOptions: {
+                    modifier: {
+                        selected: true
+                    },
+                    columns: ':gt(0):lt(6)',
+                },
+                customize: function(csv) {
+                    var csvData = [];
+                    csv.split('\n').forEach(function(row, index) {
+                        var rowData = row.split(',');
+                        if (index === 0) {
+                            rowData.push('Course Description', 'Additional Course Information'); // Add headers
+                        } else if (index <= data.length) {
+                            rowData.push(data[index - 1].course_description, data[index - 1].additional_course_information); // Add data
+                        }
+                        csvData.push(rowData.join(','));
+                    });
+                    return csvData.join('\n');
+                }
+            },
+            {
+                extend: 'pdfHtml5',
+                exportOptions: {
+                    modifier: {
+                        selected: true
+                    },
+                    columns: ':gt(0):lt(6)',
+                },
+                customize: function(doc) {
+                    var body = doc.content[1].table.body;
+                    body[0].push('Course Description', 'Additional Course Information'); // Add headers
+                    data.forEach(function(rowData, index) {
+                        if (index < body.length - 1) {
+                            body[index + 1].push(rowData.course_description, rowData.additional_course_information); // Add data
+                        }
+                    });
+                }
+            }
+        ],
+        columns: [
           {
               "className": 'dt-control', "orderable": false, "data": null, "defaultContent": ''
           },
@@ -100,15 +142,15 @@ $(document).ready(function() {
         createdRow: (row, data, index) => {
             row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);
         },
-        "select": {
-            style: 'os',
-            selector: 'td:first-child',
+        select: {
+            style: 'multi',
+            selector: 'td:nth-child(8)',
             headerCheckbox: false
         },
         // "searching": false,
-        "paging":   true,
-        "info":     false,
-        "ordering": false // Disable sorting for all columns
+        paging:   true,
+        info:     false,
+        ordering: false // Disable sorting for all columns
     });
 
     // var data = {{ jsonData | jsonify }};
@@ -262,17 +304,36 @@ $(document).ready(function() {
         }
     });
 
-    $('#career-download-button-1').on('click', function() {
+    $('#training-download-button-1').on('click', function() {
         var $button = $(this);
         var operation = $button.data('op');
 
         if (operation === 'select-all') {
             table.rows().select();
             $button.data('op', 'deselect-all').text('DESELECT ALL COURSES');
+            var selectedRows = table.rows({ selected: true }).count();
+            $('#training-download-button-2').prop('aria-disabled', selectedRows === 0).prop('disabled', false);
+            $('#training-download-button-3').prop('aria-disabled', selectedRows === 0).prop('disabled', false);
         } else {
             table.rows().deselect();
             $button.data('op', 'select-all').text('SELECT ALL COURSES');
+            $('#training-download-button-2').prop('aria-disabled', true).prop('disabled', true);
+            $('#training-download-button-3').prop('aria-disabled', true).prop('disabled', true);
         }
+    });
+
+    table.on('select deselect', function() {
+        var selectedRows = table.rows({ selected: true }).count();
+        $('#training-download-button-2').prop('aria-disabled', selectedRows === 0).prop('disabled', selectedRows === 0);
+        $('#training-download-button-3').prop('aria-disabled', selectedRows === 0).prop('disabled', selectedRows === 0);
+    });
+
+    $('#training-download-button-2').on('click', function() {
+        table.button('.buttons-pdf').trigger();
+    });
+
+    $('#training-download-button-3').on('click', function() {
+        table.button('.buttons-csv').trigger();
     });
 
     // Custom filtering function
@@ -344,7 +405,7 @@ $(document).ready(function() {
       source: function (request, response) {
         let normalized = request.term.toLowerCase();
         let n = normalized.length + 40;
-        
+
         let outputs = data.map(function (item) {
           let duration = stripHtmlTags(item.course_duration_num + item.course_duration_attribute);
           let value = item.course_title;

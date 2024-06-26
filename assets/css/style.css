@@ -16,3 +16,23 @@
     background-color: #007bff;
     color: white;
 }
+.dt-buttons {
+    display: none;
+}
+/*
+#training-download-buttons{
+  flex-direction: column;
+  width: 100% !important;
+}
+
+.training-download-button-1{
+  width: 100% !important;
+}
+
+#training-download-button-2{
+  width: 100% !important;
+}
+
+#training-download-button-3{
+  width: 100% !important;
+} */
