@@ -19,6 +19,14 @@
 .dt-buttons {
     display: none;
 }
+.training-page-left, .training-page-right {
+  cursor: pointer;
+  padding: 7px 12px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0px !important;
+  background-color: white;
+}
 /*
 #training-download-buttons{
   flex-direction: column;

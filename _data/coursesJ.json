@@ -10,8 +10,8 @@
     "additional_course_information": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
     "course_duration_num": 6,
     "course_duration_attribute": "Months",
-    "job_series": "0510 Accounting",
-    "gs_level": "GS 7-9",
+    "job_series": ["0501 Financial Administration and Program Support", "0510 Accounting"],
+    "gs_level": ["GS 14-15"],
     "competency": "Accountability"
   },
   {
@@ -25,8 +25,8 @@
     "additional_course_information": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
     "course_duration_num": 12,
     "course_duration_attribute": "Months",
-    "job_series": "0560 Budget Analysis",
-    "gs_level": "GS 14-15",
+    "job_series": ["0560 Budget Analysis"],
+    "gs_level": ["GS 14-15"],
     "competency": "Attention to Detail"
   },
   {
