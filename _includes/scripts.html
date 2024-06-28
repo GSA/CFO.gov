@@ -71,6 +71,13 @@
 
 {% assign jsonData = site.data.coursesJ %}
 {% assign columns = site.data.columns %}
+{% assign primaryComp = site.cards | where: 'competency_group', 'Primary' | map: 'competency' | uniq | sort %}
+{% assign secondary = site.cards | where: 'competency_group', 'Secondary' | map: 'competency' | uniq | sort %}
+{% assign alternateComp = site.cards | where: 'competency_group', 'Alternate' | map: 'competency' | uniq | sort %}
+{% assign personal = site.cards | where: 'competency_group', 'Personal' | map: 'competency' | uniq | sort %}
+{% assign leading = site.cards | where: 'competency_group', 'Leading' | map: 'competency' | uniq | sort %}
+{% assign projects = site.cards | where: 'competency_group', 'Projects' | map: 'competency' | uniq | sort %}
+
 <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/facets/facets-filters/training-filters.js"></script> -->
 <script>
 $(document).ready(function() {
@@ -80,6 +87,12 @@ $(document).ready(function() {
 
     // JSON data to populate the table
     const data = {{ jsonData | jsonify }};
+    const primaryComps = {{ primaryComp | jsonify }};
+    const secondaryComps = {{ secondary | jsonify }};
+    const alternateComps = {{ alternateComp | jsonify }};
+    const personalComps = {{ personal | jsonify }};
+    const leadingComps = {{ leading | jsonify }};
+    const projectsComps = {{ projects | jsonify }};
 
     // Initialize DataTable with custom configs
     var table = $('#myTable').DataTable({
@@ -471,66 +484,56 @@ $(document).ready(function() {
     //table.columns(".testFind").search(searchKeyword).draw();
   })
 
+  $('.deselect-all-button').on('click', function () {
+    var $btn = $(this);
+    if($btn.data('state') == 'enabled') {
+      var compGroup = this.id.split('competency-group-label-')[1];
+      switch (compGroup) {
+        case 'primary':
+        primaryComps.forEach(comp => {
+          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-');
+          activeFilters['competency'].delete(comp)
+        });
+        break
+        case 'secondary':
+        secondaryComps.forEach(comp => {
+          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
+          activeFilters['competency'].delete(comp)
+        });
+        break
+        case 'alternate':
+        alternateComps.forEach(comp => {
+          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
+          console.log('comp ', comp);
+          console.log('activeFilters ', activeFilters);
+          activeFilters['competency'].delete(comp)
+        });
+        break
+        case 'personal':
+        personalComps.forEach(comp => {
+          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
+          activeFilters['competency'].delete(comp)
+        });
+        break
+        case 'leading':
+        leadingComps.forEach(comp => {
+          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
+          activeFilters['competency'].delete(comp)
+        });
+        break
+        case 'projects':
+        projectsComps.forEach(comp => {
+          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
+          activeFilters['competency'].delete(comp)
+        });
+        break
+      }
+      console.log('filters ', activeFilters)
+      table.draw();
+    }
+  })
 
-    // function getSearch () {
-    //     // console.log(facetGlobalVars);
-    //     var results = [];
-    //     let searchKeyword = $("#career-advancement-search-input-training-resources").val().trim();
-    //     var searchKeys = ["course_title", "institution", "course_duration", "learning_modality", "course_type", "price"]
 
-    //     // create a count of the the items displayed and display it.
-    //     // count all search results for an item as a sanity check and make a spread sheet.
-    //             let newResults = [];
-    //                 // create a results array for the next search criteria
-    //                 data.forEach(item => {
-    //                     searchKeys.forEach(term => {
-    //                         facetGlobalVars.data.forEach(obj => { // go over the search and facets selected
-    //                               let stringToMatch = Array.isArray(item[term]) ? item[term].join(' ') : item[term];
-    //                               if (stringToMatch !== null) {
-    //                                   stringToMatch = stringToMatch.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase();
-    //                                   if (stringToMatch.match(searchKeyword.toLowerCase().replace(/[^a-zA-Z0-9\s]/g, ""))) {
-    //                                       if (!ifExistsResults(item.permalink, newResults)) {
-    //                                           newResults.push(item);
-    //                                       }
-    //                                   }
-    //                               }
-
-    //                         });
-    //                     });
-    //                 });
-    //             // look for new filters in prior results set and if they are there
-    //             // save the prior results in to a different array.
-    //             let finishResults = [];
-    //             if (results.length > 0) {
-    //                 results.forEach(item => {
-    //                     newResults.forEach(newItem => {
-    //                         if (item.permalink.toLowerCase() === newItem.permalink.toLowerCase()) {
-    //                             if (!ifExistsResults(item.permalink, finishResults)) {
-    //                                 finishResults.push(item);
-    //                             }
-    //                         }
-    //                     });
-    //                 });
-    //             } else {
-    //                 finishResults = newResults;
-    //             }
-
-    //             // populate results with finishResults
-    //             results = [];
-    //             finishResults.forEach(item => {
-    //                 if (!ifExistsResults(item.title, results)) {
-    //                     results.push(item);
-    //                 }
-    //             });
-    //         enableDisableCompetencies(false);
-    //         $("#career-search-results").empty();
-
-    //     // if (facetGlobalVars.results.length === 0 && facetGlobalVars.data.length === 0) {
-    //     //     facetGlobalVars.results = facetGlobalVars.fullSet;
-    //     //     $('#career-facet-remove-all-filters-button').hide();
-    //     //     createClearButton();
-    //     // }
-    // }
 
     function onHashChange() {
 

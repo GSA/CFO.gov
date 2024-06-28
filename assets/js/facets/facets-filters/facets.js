@@ -167,6 +167,11 @@ $(document).ready(function () {
                         $().toggleSelectAll(eventId, false);
                         disableGlobalSelect(eventId);
                         checked = false;
+                        // var url = window.location.href.split('/training-resources/');
+                        // if(url.length > 1) {
+                        //     enableDisableCompetencies(true);
+                        // }
+                        
                     }
 
                     if (checked) {
