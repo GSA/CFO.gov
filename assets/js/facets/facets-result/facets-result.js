@@ -91,7 +91,6 @@
     }
     const resultsContainer = document.getElementById("career-search-results");
     var url = window.location.href.split('/training-resources/');
-        console.log('url facet left ', url);
         if(url.length > 1) {
             return;
     }
