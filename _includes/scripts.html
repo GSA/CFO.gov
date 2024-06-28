@@ -74,14 +74,17 @@
 <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/facets/facets-filters/training-filters.js"></script> -->
 <script>
 $(document).ready(function() {
-    // Initialize DataTable
     var priceColumn = {{ columns.price }};
     var gsLevelColumn = {{ columns.gs_level }};
     var jobSeriesColumn = {{ columns.job_series }};
+
+    // JSON data to populate the table
     const data = {{ jsonData | jsonify }};
 
+    // Initialize DataTable with custom configs
     var table = $('#myTable').DataTable({
-        data: data,dom: 'Bfrtip',
+        data: data,
+        dom: 'Bfrtip',
         buttons: [
             {
                 extend: 'csvHtml5',
@@ -125,54 +128,28 @@ $(document).ready(function() {
             }
         ],
         columns: [
-          {
-              "className": 'dt-control', "orderable": false, "data": null, "defaultContent": ''
-          },
+          { data: null, "className": 'dt-control', "orderable": false, "defaultContent": ''}, //accordion columnn
           { data: 'course_title', render: function(data, type, row) { return '<a href="' + (row.link || '#') + '" target="_blank" rel="noopener noreferrer">' + (data || '') + '</a>'; }, "className": "testFind" },
           { data: 'training_providers', defaultContent: '', "className": "testFind" },
           { data: 'course_duration_num', render: function(data, type, row) {return '' + data.toString() + ' ' + row.course_duration_attribute + '';}, defaultContent: '', "className": "testFind"  },
           { data: 'learning_modality', defaultContent: '' },
           { data: 'course_credit_type', render: function(data) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '' },
           { data: 'price', render: function (data, type, row, meta) { return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });}},
-          {
-              "orderable": false, "render": DataTable.render.select(), "defaultContent": ''
-          },
+          { "orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
           { data: 'competency', render: function (data, type, row, meta) { return data.toLowerCase().replace(/[\s,]+/g, '-'); }, defaultContent: '', visible: false},
           { data: 'job_series', render: function (data, type, row, meta) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '', visible: false},
           { data: 'gs_level', render: function (data, type, row, meta) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '', visible: false}
         ],
-        createdRow: (row, data, index) => {
-            row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);
-        },
+        createdRow: (row, data, index) => { row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);},
         select: {
             style: 'multi',
             selector: 'td:nth-child(8)',
             headerCheckbox: false
         },
-        // "searching": false,
         paging:   true,
         info:     false,
         ordering: false // Disable sorting for all columns
     });
-
-    // var data = {{ jsonData | jsonify }};
-    //
-    // // Populate the table
-    // data.forEach(function(item) {
-    //   var row = [];
-    //   var accordionContent = '';
-    //   row.push('accordion');
-    //
-    //   for (var key in item) {
-    //       if (key === 'course_title') {
-    //           row.push('<a href="' + item['link'] + '" target="_blank" rel="noopener noreferrer">' + item[key] + '</a>');
-    //       } else {
-    //           row.push(item[key]);
-    //       }
-    //   }
-    //
-    //   table.row.add(row);
-    // });
 
     // Draw the table
     table.draw();
@@ -269,6 +246,7 @@ $(document).ready(function() {
         table.draw();
     });
 
+    // Function to format accordion row
     function format(d) {
         return (
             '<div class="grid-container">' +
@@ -304,6 +282,7 @@ $(document).ready(function() {
         }
     });
 
+    // Event handler for "Select All" / "Deselect All" button
     $('#training-download-button-1').on('click', function() {
         var $button = $(this);
         var operation = $button.data('op');
@@ -322,16 +301,19 @@ $(document).ready(function() {
         }
     });
 
+    // Event handler for row selection/deselection
     table.on('select deselect', function() {
         var selectedRows = table.rows({ selected: true }).count();
         $('#training-download-button-2').prop('aria-disabled', selectedRows === 0).prop('disabled', selectedRows === 0);
         $('#training-download-button-3').prop('aria-disabled', selectedRows === 0).prop('disabled', selectedRows === 0);
     });
 
+    // Event handler for PDF download button
     $('#training-download-button-2').on('click', function() {
         table.button('.buttons-pdf').trigger();
     });
 
+    // Event handler for CSV download button
     $('#training-download-button-3').on('click', function() {
         table.button('.buttons-csv').trigger();
     });
