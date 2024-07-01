@@ -97,7 +97,7 @@ $(document).ready(function() {
     // Initialize DataTable with custom configs
     var table = $('#myTable').DataTable({
         data: data,
-        dom: 'Bfrtip',
+        dom: 'Bfrt',
         buttons: [
             {
                 extend: 'csvHtml5',
@@ -160,9 +160,38 @@ $(document).ready(function() {
             headerCheckbox: false
         },
         paging:   true,
-        info:     false,
         ordering: false // Disable sorting for all columns
     });
+
+    //update pagination on every draw
+    table.on('draw.dt', function() {
+      $('.cfo-pagination-page').text(table.page.info().page + 1);
+      $('.cfo-pagination-pages').text(table.page.info().pages);
+      $('.cfo-pagination-results').text(table.page.info().recordsTotal);
+      updateButtonState();
+    });
+
+    function updateButtonState() {
+      var info = table.page.info();
+      $('.training-page-left').prop('disabled', info.page === 0);
+      $('.training-page-right').prop('disabled', info.page === (info.pages - 1));
+    }
+
+    $('.training-page-left').click(function() {
+      table.page('previous').draw('page');
+      updateButtonState();
+    });
+
+    $('.training-page-right').click(function() {
+      table.page('next').draw('page');
+      updateButtonState();
+    });
+
+    $('#per-page-top').change(function() {
+      var length = $(this).val();
+      table.page.len(length).draw();
+      updateButtonState();
+    })
 
     // Draw the table
     table.draw();
