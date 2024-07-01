@@ -110,13 +110,15 @@ $(document).ready(function() {
                 customize: function(csv) {
                     var csvData = [];
                     csv.split('\n').forEach(function(row, index) {
-                        var rowData = row.split(',');
-                        if (index === 0) {
-                            rowData.push('Course Description', 'Additional Course Information'); // Add headers
-                        } else if (index <= data.length) {
-                            rowData.push(data[index - 1].course_description, data[index - 1].additional_course_information); // Add data
+                        if (row.trim().length > 0) { // Check for non-empty rows
+                            var rowData = row.split(',');
+                            if (index === 0) {
+                                rowData.push('Course Description', 'Additional Course Information'); // Add headers
+                            } else if (index <= data.length) {
+                                rowData.push(data[index - 1].course_description, data[index - 1].additional_course_information); // Add data
+                            }
+                            csvData.push(rowData.join(','));
                         }
-                        csvData.push(rowData.join(','));
                     });
                     return csvData.join('\n');
                 }
@@ -157,6 +159,7 @@ $(document).ready(function() {
         select: {
             style: 'multi',
             selector: 'td:nth-child(8)',
+            className: 'no-background-color', // disable row highlighting
             headerCheckbox: false
         },
         paging:   true,
