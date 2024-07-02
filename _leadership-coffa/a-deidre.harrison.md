@@ -5,7 +5,7 @@ layout: bio-coffa
 permalink: /coffa/bio/deidre-harrison/
 name : Ms. Deidre Harrison
 department: Office of Management and Budget
-title: Deputy Controller Performing the Delegated Duties of the Controller
+title: Deputy Controller
 source: coffa
 ---
 
