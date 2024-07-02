@@ -27,6 +27,17 @@
   border: 0px !important;
   background-color: white;
 }
+
+#myTable.dataTable thead th {
+    background-color: rgb(237, 243, 243);
+    border-bottom: 1.5px solid rgb(99, 156, 153);
+    border-top: 2px solid rgb(99, 156, 153);
+}
+
+#myTable.dataTable tbody td {
+    border-bottom: .5px solid rgb(99, 156, 153);
+    border-top: .5px solid rgb(99, 156, 153);
+}
 /*
 #training-download-buttons{
   flex-direction: column;

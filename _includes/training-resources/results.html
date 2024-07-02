@@ -10,7 +10,7 @@
     </div>
   </section>
 
-  <div class="career-search-results-filter-pagination flex-wrap">
+  <div class="career-search-results-filter-pagination flex-wrap padding-bottom-2">
       {% assign post_count = site.cards | size %}
       {% assign default_page_size = 10 %}
       {% assign post_pages = post_count | divided_by: default_page_size %}
@@ -50,7 +50,7 @@
     </tbody>
 </table>
 
-  <div class="career-search-results-filter-pagination flex-wrap margin-bottom-205">
+  <div class="career-search-results-filter-pagination flex-wrap margin-bottom-205 padding-top-2">
     <div class="career-search-results-pagination-wrapper card-content-color">
       <button type="button" class="training-page-left" aria-label="left pagination bottom" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="training-page-right" aria-label="right pagination bottom">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
     </div>
