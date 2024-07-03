@@ -12,7 +12,7 @@
     "course_duration_attribute": "Months",
     "job_series": ["0501 Financial Administration and Program Support", "0510 Accounting"],
     "gs_level": ["GS 14-15"],
-    "competency": "Accountability"
+    "competency": ["Accountability", "Business Process Improvement", "Conflict Management"]
   },
   {
     "course_title": "Effective Grants Manager (GRNT7025)",

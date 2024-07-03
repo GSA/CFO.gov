@@ -82,6 +82,7 @@
 <script>
 $(document).ready(function() {
     var priceColumn = {{ columns.price }};
+    var competencyColumn = {{ columns.competency }};
     var gsLevelColumn = {{ columns.gs_level }};
     var jobSeriesColumn = {{ columns.job_series }};
 
@@ -151,7 +152,20 @@ $(document).ready(function() {
           { data: 'course_credit_type', render: function(data) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '' },
           { data: 'price', render: function (data, type, row, meta) { return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });}},
           { "orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
-          { data: 'competency', render: function (data, type, row, meta) { return data.toLowerCase().replace(/[\s,]+/g, '-'); }, defaultContent: '', visible: false},
+          {
+              data: 'competency',
+              render: function (data, type, row, meta) {
+                  if (Array.isArray(data)) {
+                      return data.map(function(item) {
+                          return item.toLowerCase().replace(/[\s,]+/g, '-');
+                      }).join(', ');
+                  } else {
+                      return data.toLowerCase().replace(/[\s,]+/g, '-');
+                  }
+              },
+              defaultContent: ''
+          },
+          // { data: 'competency', render: function (data, type, row, meta) { return data.toLowerCase().replace(/[\s,]+/g, '-'); }, defaultContent: '', visible: false},
           { data: 'job_series', render: function (data, type, row, meta) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '', visible: false},
           { data: 'gs_level', render: function (data, type, row, meta) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '', visible: false}
         ],
@@ -170,7 +184,7 @@ $(document).ready(function() {
     table.on('draw.dt', function() {
       $('.cfo-pagination-page').text(table.page.info().page + 1);
       $('.cfo-pagination-pages').text(table.page.info().pages);
-      $('.cfo-pagination-results').text(table.page.info().recordsTotal);
+      $('.cfo-pagination-results').text(table.page.info().recordsDisplay);
       updateButtonState();
     });
 
@@ -391,14 +405,14 @@ $(document).ready(function() {
                         return false;
                     }
                 } else if (columnIndex == 'competency') {
-                  var competencyValues = Array.from(activeFilters['competency']);
-                  if (competencyValues.length > 0) {
-                      var found = competencyValues.some(value => {
-                          return data.some(columnData => columnData.includes(value));
-                      });
-                      if (!found) {
-                          return false;
-                      }
+                  var filterValues = Array.from(activeFilters['competency']); //selected checkboxes from filter
+                  columnData = data[competencyColumn];
+                  var competencyValues = columnData.split(',').map(value => value.trim()); //competencies for this row
+                  var found = filterValues.some(filterValue => {
+                      return competencyValues.includes(filterValue);
+                  });
+                  if (!found) {
+                      return false;
                   }
                 } else if (columnIndex == jobSeriesColumn) {
                   var jobSeriesValues = columnData.split(',').map(value => value.trim());
