@@ -136,13 +136,13 @@ input#career-advancement-search-input-training-resources {
   width: 30%;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 821px) {
   input#career-advancement-search-input {
     width: 27rem;
   }
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 820) {
   input#career-advancement-search-input {
     width: 23rem;
   }
@@ -255,7 +255,7 @@ input#career-advancement-search-input-training-resources {
   max-width: 87.5rem !important;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 640px) {
    .search {
         flex-direction: column;
    }
@@ -286,6 +286,13 @@ input#career-advancement-search-input-training-resources {
 
   a{
     overflow-wrap: break-word !important;
+  }
+}
+
+@media (max-width: 820px) {
+  #career-download-buttons{
+    flex-direction: column;
+    width: 100% !important;
   }
 }
 
