@@ -4,7 +4,7 @@
     <label class="text-bold label-color" style="font-size:24px;">FILTER YOUR RESULTS</label>
     <div id="secondary-skip" class="facets-panel bg-filter padding-y-3 radius-md padding-x-3 text-color margin-top-2">
 
-        <label class="margin-top-0 text-color font-sans-xs text-bold">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></label>
+        <label class="margin-top-0 text-color font-sans-xs text-bold">Job Series<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series" aria-label="Information about filtering your search"></i></label>
         <div class="display-flex flex-column margin-top-2 tr-filter-list">
             {% assign series_array = "" | split: "," %}
 
@@ -33,7 +33,7 @@
             {% endfor %}
         </div>
 
-        <label class="text-color font-sans-xs text-bold">GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level"></i></label>
+        <label class="text-color font-sans-xs text-bold">GS Level<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by GS-level" aria-label="Information about filtering your search"></i></label>
         <div class="display-flex flex-column margin-top-2 tr-filter-list">
             {% assign level_array = "" | split: "," %}
 
@@ -63,7 +63,7 @@
         </div>
 
         <div class="career-competency-level-1-input-group">
-            <label class="font-sans-xs text-color text-bold margin-bottom-105">Job Specific Technical <br> Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="You may further filter by selecting job-specific competencies (i.e., specialized knowledge is required for each job series)"></i></label>
+            <label class="font-sans-xs text-color text-bold margin-bottom-105">Job Specific Technical <br> Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="You may further filter by selecting job-specific competencies (i.e., specialized knowledge is required for each job series)" aria-label="Information about filtering your search"></i></label>
             <div class="career-input-group">
                 <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border" for="job-career-competency-select-all" id="job-career-competency-select"><strong>SELECT ALL</strong></label>
                 <input style="position: absolute; left: -9999px;" type="checkbox" id="job-career-competency-select-all"/>
@@ -136,7 +136,7 @@
             {% endfor %}
         </div>
         <div class="career-competency-level-1-input-group">
-            <label class="font-sans-xs text-color text-bold margin-bottom-105">General Career <br />Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right"  title="General competencies are the same for all Federal employees."></i></label>
+            <label class="font-sans-xs text-color text-bold margin-bottom-105">General Career <br />Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right"  title="General competencies are the same for all Federal employees." aria-label="Information about filtering your search"></i></label>
             <div class="career-input-group">
                 <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border" for="general-career-competency-select-all" id="general-career-competency-select"><strong>SELECT ALL</strong></label>
                 <input style="position: absolute; left: -9999px;" type="checkbox" id="general-career-competency-select-all"/>
@@ -199,9 +199,7 @@
 
         <hr class="rounded" style="border-top: 5px solid black;">
         <p style="font-size: 20px; font-weight: bold;">Additional Filters</p>
-        <div class="career-competency-level-1-input-group">
-          <label class="font-sans-xs text-color text-bold margin-bottom-105">Price Band<span class="usa-tooltip"><i class="fa fa-info-circle margin-left-1 font-size-16 usa-tooltip__trigger" data-position="right" title="" aria-describedby="tooltip-689498" tabindex="0"></i><span class="usa-tooltip__body" id="tooltip-689498" role="tooltip" aria-hidden="true">General competencies are the same for all Federal employees.</span></span></label>
-        </div>
+        <label class="margin-top-0 text-color font-sans-xs text-bold">Price Band<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by price range" aria-label="Information about filtering your search"></i></label>
         <div class="display-flex flex-column margin-top-2">
           <button type="button" aria-label="Price Band 0" data-min="0" data-max="500" data-column-num="{{ columns.price }}" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$0 - $500</button>
           <button type="button" aria-label="Price Band 500" data-min="500" data-max="1000" data-column-num="{{ columns.price }}" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$500 - $1,000</button>
@@ -209,7 +207,7 @@
           <button type="button" aria-label="Price Band 2000" data-min="2000" data-max="10000" data-column-num="{{ columns.price }}" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$2,000 - $10,000</button>
         </div>
 
-        <label class="margin-top-0 text-color font-sans-xs text-bold">Training Providers<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></label>
+        <label class="margin-top-0 text-color font-sans-xs text-bold">Training Providers<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by training providers" aria-label="Information about filtering your search"></i></label>
         <div class="display-flex flex-column margin-top-2">
             {% assign series_array = "" | split: "," %}
 
@@ -233,7 +231,7 @@
             {% endfor %}
         </div>
 
-        <label class="margin-top-0 text-color font-sans-xs text-bold">Course Credit Type<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></label>
+        <label class="margin-top-0 text-color font-sans-xs text-bold">Course Credit Type<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by course credit type" aria-label="Information about filtering your search"></i></label>
         <div class="display-flex flex-column margin-top-2">
             {% assign series_array = "" | split: "," %}
 
@@ -257,7 +255,7 @@
             {% endfor %}
         </div>
 
-        <label class="margin-top-0 text-color font-sans-xs text-bold">Learning Modality<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by Federal job series"></i></label>
+        <label class="margin-top-0 text-color font-sans-xs text-bold">Learning Modality<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by learning modality" aria-label="Information about filtering your search"></i></label>
         <div class="display-flex flex-column margin-top-2">
             {% assign series_array = "" | split: "," %}
 
