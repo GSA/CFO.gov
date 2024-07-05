@@ -65,8 +65,8 @@
         <div class="career-competency-level-1-input-group">
             <label class="font-sans-xs text-color text-bold margin-bottom-105">Job Specific Technical <br> Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="You may further filter by selecting job-specific competencies (i.e., specialized knowledge is required for each job series)" aria-label="Information about filtering your search"></i></label>
             <div class="career-input-group">
-                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border" for="job-career-competency-select-all" id="job-career-competency-select"><strong>SELECT ALL</strong></label>
-                <input style="position: absolute; left: -9999px;" type="checkbox" id="job-career-competency-select-all"/>
+                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border" for="job-career-competency-select-all-training" id="job-career-competency-select-training"><strong>SELECT ALL</strong></label>
+                <input style="position: absolute; left: -9999px;" type="checkbox" id="job-career-competency-select-all-training"/>
             </div>
         </div>
         <div class="display-flex flex-column">
@@ -101,7 +101,7 @@
                             <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}" class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                             <div class="career-competency-level-3-input-group">
                                 <div class="career-input-group">
-                                    <label for="{{ competency_group_id | downcase }}" class="deselect-all-button career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}"><strong class="cpt-strong">SELECT ALL</strong></label>
+                                    <label for="{{ competency_group_id | downcase }}" class="deselect-all-button career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}-training"><strong class="cpt-strong">SELECT ALL</strong></label>
                                     <input type="checkbox"
                                            id="{{ competency_group_id | downcase}}"
                                            data-filter="competency"
@@ -138,8 +138,8 @@
         <div class="career-competency-level-1-input-group">
             <label class="font-sans-xs text-color text-bold margin-bottom-105">General Career <br />Competencies<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right"  title="General competencies are the same for all Federal employees." aria-label="Information about filtering your search"></i></label>
             <div class="career-input-group">
-                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border" for="general-career-competency-select-all" id="general-career-competency-select"><strong>SELECT ALL</strong></label>
-                <input style="position: absolute; left: -9999px;" type="checkbox" id="general-career-competency-select-all"/>
+                <label class="usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border" for="general-career-competency-select-all-training" id="general-career-competency-select-training"><strong>SELECT ALL</strong></label>
+                <input style="position: absolute; left: -9999px;" type="checkbox" id="general-career-competency-select-all-training"/>
             </div>
         </div>
         <div class="display-flex flex-column">
@@ -154,7 +154,7 @@
                             <button type="button" id="competency-group-button-{{ competency_group_id | downcase }}"  class="usa-button usa-button--unstyled text-no-underline text-color career-competency-toggle-button" aria-label="{{ competency_group }}, collapsed"><i class='fa fa-plus'></i> <b>{{ competency_group }}</b></button>
                             <div class="career-competency-level-3-input-group">
                                 <div class="career-input-group">
-                                    <label for="{{ competency_group_id | downcase }}" class="deselect-all-button career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}"><strong class="cpt-strong">SELECT ALL</strong></label>
+                                    <label for="{{ competency_group_id | downcase }}" class="deselect-all-button career-competency-input-groups-label text-underline text-accent-cool-darker display-inline-block font-sans-3xs" id="competency-group-label-{{ competency_group_id | downcase }}-training"><strong class="cpt-strong">SELECT ALL</strong></label>
                                     <input
                                         type="checkbox"
                                         id="{{ competency_group_id | downcase}}"

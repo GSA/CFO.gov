@@ -530,56 +530,60 @@ $(document).ready(function() {
     //table.columns(".testFind").search(searchKeyword).draw();
   })
 
-  $('.deselect-all-button').on('click', function () {
-    var $btn = $(this);
-    if($btn.data('state') == 'enabled') {
-      var compGroup = this.id.split('competency-group-label-')[1];
-      switch (compGroup) {
-        case 'primary':
-        primaryComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-');
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'secondary':
-        secondaryComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'alternate':
-        alternateComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          console.log('comp ', comp);
-          console.log('activeFilters ', activeFilters);
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'personal':
-        personalComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'leading':
-        leadingComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'projects':
-        projectsComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          activeFilters['competency'].delete(comp)
-        });
-        break
-      }
-      console.log('filters ', activeFilters)
-      table.draw();
+    function toggleCheckboxes(group) {
+        event.preventDefault();
+        const $checkboxes = $(`input[data-group="${group}"]`);
+        const $label = $(`#competency-group-label-${group}-training`);
+        console.log("sdfa", $checkboxes);
+        console.log("3312", $label);
+
+        if ($label.data('state') === 'enabled') {
+            // Deselect all checkboxes
+            $checkboxes.prop('checked', false).change();
+            $label.html('<strong>SELECT ALL</strong>');
+            $label.data('state', 'disabled');
+        } else {
+            // Select all checkboxes
+            $checkboxes.prop('checked', true).change();
+            $label.html('<strong>DE-SELECT ALL</strong>');
+            $label.data('state', 'enabled');
+        }
+        table.draw();
     }
-  })
 
+    function toggleAllCheckboxes(event, competencyType) {
+        event.preventDefault();
+        var groups = [];
+        if (competencyType === 'job-career-competency-select-training') {
+            groups = ['primary', 'secondary', 'alternate'];
+        } else {
+            groups = ['personal', 'leading', 'projects'];
+        }
+        const $globalLabel = $(`#${competencyType}`);
+        const shouldSelectAll = $globalLabel.text().trim() === 'SELECT ALL';
 
+        groups.forEach(group => {
+            const $checkboxes = $(`input[data-group="${group}"]`);
+            const $label = $(`#competency-group-label-${group}-training`);
+
+            $checkboxes.prop('checked', shouldSelectAll).change();
+            $label.html(shouldSelectAll ? '<strong>DE-SELECT ALL</strong>' : '<strong>SELECT ALL</strong>');
+            $label.data('state', shouldSelectAll ? 'enabled' : 'disabled');
+        });
+        $globalLabel.html(shouldSelectAll ? '<strong>DE-SELECT ALL</strong>' : '<strong>SELECT ALL</strong>');
+        table.draw();
+    }
+
+    ['primary', 'secondary', 'alternate', 'personal', 'leading', 'projects'].forEach(group => {
+        const $button = $(`#competency-group-label-${group}-training`);
+        $button.on('click', () => toggleCheckboxes(group));
+    });
+
+    // Add event listener for the global select all button
+    const $jobCareerAll = $('#job-career-competency-select-all-training');
+    $jobCareerAll.on('click', (event) => toggleAllCheckboxes(event, 'job-career-competency-select-training'));
+    const $generalSelectAll = $('#general-career-competency-select-all-training');
+    $generalSelectAll.on('click', (event) => toggleAllCheckboxes(event, 'general-career-competency-select-training'));
 
     function onHashChange() {
 
