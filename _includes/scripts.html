@@ -350,21 +350,21 @@ $(document).ready(function() {
             table.rows().select();
             $button.data('op', 'deselect-all').text('DESELECT ALL COURSES');
             var selectedRows = table.rows({ selected: true }).count();
-            $('#training-download-button-2').prop('aria-disabled', selectedRows === 0).prop('disabled', false);
-            $('#training-download-button-3').prop('aria-disabled', selectedRows === 0).prop('disabled', false);
+            $('#training-download-button-2').attr('aria-disabled', selectedRows === 0).prop('disabled', false);
+            $('#training-download-button-3').attr('aria-disabled', selectedRows === 0).prop('disabled', false);
         } else {
             table.rows().deselect();
             $button.data('op', 'select-all').text('SELECT ALL COURSES');
-            $('#training-download-button-2').prop('aria-disabled', true).prop('disabled', true);
-            $('#training-download-button-3').prop('aria-disabled', true).prop('disabled', true);
+            $('#training-download-button-2').attr('aria-disabled', true).prop('disabled', true);
+            $('#training-download-button-3').attr('aria-disabled', true).prop('disabled', true);
         }
     });
 
     // Event handler for row selection/deselection
     table.on('select deselect', function() {
         var selectedRows = table.rows({ selected: true }).count();
-        $('#training-download-button-2').prop('aria-disabled', selectedRows === 0).prop('disabled', selectedRows === 0);
-        $('#training-download-button-3').prop('aria-disabled', selectedRows === 0).prop('disabled', selectedRows === 0);
+        $('#training-download-button-2').attr('aria-disabled', selectedRows === 0).prop('disabled', selectedRows === 0);
+        $('#training-download-button-3').attr('aria-disabled', selectedRows === 0).prop('disabled', selectedRows === 0);
     });
 
     // Event handler for PDF download button
