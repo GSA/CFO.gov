@@ -4,8 +4,22 @@ const parse = require('csv-parse').parse;
 // Define the path to your CSV file
 const csvFilePath = 'assets/CPTT/courses.csv';
 const cardsFile = './CPTT/cards.json';
-const cards = require(cardsFile);
+let cards = [];
+// Try to load the cards file
+try {
+  cards = require(cardsFile);
+  if (!Array.isArray(cards) || cards.length === 0) {
+    throw new Error('No cards found in the cards file.');
+  }
+} catch (error) {
+  console.error(`Error loading cards file: ${error.message}`);
+  process.exit(1); // Exit the script with a failure code
+}
+
 const competencyDescriptions = require('./CPTT/competency_descriptions.json');
+const coursesFilePath = 'assets/CPTT/courses.json';
+
+let courses = [];
 
 function buildCards() {
 
@@ -74,23 +88,27 @@ function buildCards() {
     .pipe(parse({ columns: true }))
     .on('data', function (row) {
       addCourse(row);
-
     })
     .on('end', function () {
+      for (let course of courses) {
+        course.job_series = Array.from(new Set(course.job_series));
+        course.gs_level = Array.from(new Set(course.gs_level));
+      }
+
       let count = 0;
-      for (var card of cards) {
+      for (let card of cards) {
         let relevant_courses = getCoursesForCard(card);
         let output = `---
 layout: career-planning-landing
 category: career
-title: ${card.jobSeriesFull} ${card.careerLevel} ${card.competency}
+title: ${card.jobSeriesFull} ${card.careerLevel} ${card.competency || ''}
 series: ${card.jobSeries}
 job_series_title: ${card.jobSeriesTitle}
 job_series: ${card.jobSeriesFull}
 career_level: ${card.careerLevel}
 permalink: ${card.permalink}
 functional_competency_designation: ${card.competencyDesignation}
-competency: ${card.competency.replace(/\//g, ' ')}
+competency: ${card.competency ? card.competency.replace(/\//g, ' ') : ''}
 competency_group: ${card.competencyGroup}
 competency_description: ${card.compDesc}
 level: "${card.gsLevel}"
@@ -114,15 +132,14 @@ filters: ${card.filters}
     <dl class="text-base card-content-color">${card.profLevelMarkup}</dl>
   </div>
 </div>`;
-        let filename = `_cards/0${card.jobSeries}-${card.competencyGroup.replace(/ /g, '-')}-${card.competency.replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-')}-${card.careerLevel}.md`;
+        let filename = `_cards/0${card.jobSeries}-${card.competencyGroup.replace(/ /g, '-')}-${card.competency ? card.competency.replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-') : ''}-${card.careerLevel}.md`;
         fs.writeFileSync(filename, output);
         count++;
       }
       console.log(`CSV Parsed into ${count} files.`);
-
+      fs.writeFileSync(coursesFilePath, JSON.stringify(courses, null, 2));
+      console.log(`Courses written to ${coursesFilePath}`);
     });
-
-
 }
 
 function getGsLevel(level) {
@@ -193,34 +210,71 @@ function getProfLevelDef(competency, level) {
   return '';
 }
 
-function addCourse (course) {
+function addCourse(row) {
+  const course = {
+    course_title: row.course_title,
+    training_providers: row.training_providers,
+    link: row.link,
+    course_credit_type: row.course_credit_type,
+    price: parseFloat(row.price.replace(/[^0-9.-]+/g, "")),
+    learning_modality: row.learning_modality,
+    course_description: row.course_description,
+    additional_course_information: row.additional_course_information,
+    course_duration_num: parseInt(row.course_duration_num, 10),
+    course_duration_attribute: row.course_duration_attribute,
+    job_series: [],
+    gs_level: [],
+    competency: []
+  };
+
+  for (let i = 1; i <= 10; i++) {
+    if (row[`competency_${i}`]) {
+      course.competency.push(row[`competency_${i}`]);
+    }
+  }
+
   for (let card of cards) {
+    card.courses_list = card.courses_list || []; // Ensure courses_list is initialized
     for (let i = 1; i <= 10; i++) {
-      if (card[`competency`] === course[`competency_${i}`] && isInclude(course[`proficiency_levels_${i}`], card.levels)) {
-        let courseNameList = course.course_title.replace(/:/g, "&#58;");
+      if (card[`competency`] === row[`competency_${i}`] && isInclude(row[`proficiency_levels_${i}`], card.levels)) {
+        let courseNameList = row.course_title.replace(/:/g, "&#58;");
         card.courses_list.push({
           name: courseNameList,
-          link: course.link,
-          institution: course.institution
+          link: row.link,
+          institution: row.training_providers
         });
+        // Add job_series and gs_level to the course
+        course.job_series.push(mapJobSeries(card.jobSeries));
+        course.gs_level.push("GS " + card.gsLevel);
         // Break out of the loop if a match is found
         break;
       }
     }
   }
 
+  courses.push(course);
 }
 
-function getCoursesForCard (card) {
+function mapJobSeries(num) {
+  let mapping = {
+    501: "0501 Financial Administration and Program Support",
+    510: "0510 Accounting",
+    511: "0511 Auditing",
+    560: "0560 Budget Analysis"
+  };
+  return mapping[num] || '';
+}
+
+function getCoursesForCard(card) {
   let relevant_courses = '';
   card.courses_list = card.courses_list.sort((a, b) => a.name > b.name ? 1 : -1);
   for (let course of card.courses_list) {
-    if(course.link !== '') {
+    if (course.link !== '') {
       relevant_courses += `\n- <a href="${course.link}" aria-label="${course.name} - ${course.link}">${course.name}</a>, ${course.institution}`;
     }
     else {
       relevant_courses += `\n- ${course.name}`;
-      if(course.institution !== '') {
+      if (course.institution !== '') {
         relevant_courses += `, ${course.institution}`;
       }
     }
