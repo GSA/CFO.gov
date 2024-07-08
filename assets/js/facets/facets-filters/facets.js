@@ -48,11 +48,11 @@ $(document).ready(function () {
 
         // Looping through all the Cards
         res.forEach(item => {
-            // Getting all items for competency filter 
+            // Getting all items for competency filter
             if (!facetGlobalVars.competency.includes(item.competency)) {
                 facetGlobalVars.competency.push(item.competency);
             }
-            // Getting all items for competency  group filter 
+            // Getting all items for competency  group filter
             if (!facetGlobalVars.competency_group.includes(item.competency_group)) {
                 facetGlobalVars.competency_group.push(item.competency_group);
             }
@@ -66,7 +66,7 @@ $(document).ready(function () {
         $("input:checkbox").each(function () {
             if(window.location.href.split('/training-resources/').length < 2) {
                 $(this).prop('checked', false);
-            }  
+            }
         });
 
         // For 508 when tabbing on select all for job specific
@@ -134,7 +134,7 @@ $(document).ready(function () {
                                     resetFilterBlocks();
                                 }
                                 $("#" + eventId + "-button").remove();
-                                if (!facetGlobalVars.inProgressCheckAll) {
+                                if (!facetGlobalVars.inProgressCheckAll && !/training\-resources/.test(window.location.href)) {
                                     $().getSearch();
                                 }
                             }
@@ -171,7 +171,7 @@ $(document).ready(function () {
                         // if(url.length > 1) {
                         //     enableDisableCompetencies(true);
                         // }
-                        
+
                     }
 
                     if (checked) {
@@ -215,7 +215,7 @@ $(document).ready(function () {
                             resetFilterBlocks();
                         }
                         $("#" + eventId + "-button").remove();
-                        if (!facetGlobalVars.inProgressCheckAll) {
+                        if (!facetGlobalVars.inProgressCheckAll && !/training\-resources/.test(window.location.href)) {
                             $().getSearch();
                         }
                     }
@@ -364,5 +364,5 @@ $(document).ready(function () {
                 }
             });
         });
-    };   
+    };
 });
