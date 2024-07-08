@@ -220,7 +220,7 @@ function addCourse(row) {
     learning_modality: row.learning_modality,
     course_description: row.course_description,
     additional_course_information: row.additional_course_information,
-    course_duration_num: parseInt(row.course_duration_num, 10),
+    course_duration_num: parseFloat(row.course_duration_num),
     course_duration_attribute: row.course_duration_attribute,
     job_series: [],
     gs_level: [],
