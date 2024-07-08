@@ -79,6 +79,7 @@
 {% assign projects = site.cards | where: 'competency_group', 'Projects' | map: 'competency' | uniq | sort %}
 
 <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/facets/facets-filters/training-filters.js"></script> -->
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/n.js"></script>
 <script>
 $(document).ready(function() {
     var priceColumn = {{ columns.price }};
@@ -414,7 +415,7 @@ $(document).ready(function() {
 
     // $.fn.dataTable.ext.search.push(
     //     function(settings, data, dataIndex) {
-          
+
     //       data.forEach(item => {
     //         console.log('item ', item);
     //         if(item.toLowerCase().indexOf(searchKeyword.toLowerCase() != -1)) {
@@ -425,7 +426,7 @@ $(document).ready(function() {
     //       return match;
     //   });
 
-   
+
 
      $('#career-advancement-search-input-training-resources').autocomplete({
       source: function (request, response) {
@@ -504,8 +505,6 @@ $(document).ready(function() {
         event.preventDefault();
         const $checkboxes = $(`input[data-group="${group}"]`);
         const $label = $(`#competency-group-label-${group}-training`);
-        console.log("sdfa", $checkboxes);
-        console.log("3312", $label);
 
         if ($label.data('state') === 'enabled') {
             // Deselect all checkboxes
@@ -518,6 +517,7 @@ $(document).ready(function() {
             $label.html('<strong>DE-SELECT ALL</strong>');
             $label.data('state', 'enabled');
         }
+        updateSelectAllState(group);
         table.draw();
     }
 
@@ -544,9 +544,34 @@ $(document).ready(function() {
         table.draw();
     }
 
+    function updateSelectAllState(competencyType) {
+        const groups = competencyType === 'job-career-competency-select-training' ? ['primary', 'secondary', 'alternate'] : ['personal', 'leading', 'projects'];
+
+        let allChecked = true;
+        groups.forEach(group => {
+            const $checkboxes = $(`input[data-group="${group}"]`);
+            let groupAllChecked = true;
+            $checkboxes.each(function() {
+                if (!$(this).prop('checked')) {
+                    allChecked = false;
+                    groupAllChecked = false;
+                    return false;
+                }
+            });
+            const $groupLabel = $(`#competency-group-label-${group}-training`);
+            $groupLabel.html(groupAllChecked ? '<strong>DE-SELECT ALL</strong>' : '<strong>SELECT ALL</strong>');
+            $groupLabel.data('state', groupAllChecked ? 'enabled' : 'disabled');
+        });
+
+        const $globalLabel = $(`#${competencyType}`);
+        $globalLabel.html(allChecked ? '<strong>DE-SELECT ALL</strong>' : '<strong>SELECT ALL</strong>');
+    }
+
     ['primary', 'secondary', 'alternate', 'personal', 'leading', 'projects'].forEach(group => {
         const $button = $(`#competency-group-label-${group}-training`);
         $button.on('click', () => toggleCheckboxes(group));
+        const competencyType = group === 'primary' || group === 'secondary' || group === 'alternate' ? 'job-career-competency-select-training' : 'general-career-competency-select-training';
+        $(`input[data-group="${group}"]`).on('change', () => updateSelectAllState(competencyType));
     });
 
     // Add event listener for the global select all button
