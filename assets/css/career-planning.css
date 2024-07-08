@@ -61,9 +61,29 @@
   top: -16px;
 }
 
+.training-course_buttons__label {
+  position: relative;
+  top: -16px;
+}
+
 .training-course-button {
   position: relative;
   top: -6px;
+}
+
+.export-content-buttons {
+  position: relative;
+  top: -11px;
+}
+
+.export-content-text-tr {
+  position: relative;
+  top: -15px;
+}
+
+.margin-top-negative {
+  position: relative;
+  top: -28px;
 }
 
 .export-content-text {
@@ -148,9 +168,15 @@ input#career-advancement-search-input-training-resources {
   }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 821px) {
   input#career-advancement-search-input-training-resources {
     width: 27rem;
+  }
+}
+
+@media screen and (max-width: 820) {
+  input#career-advancement-search-input-training-resources {
+    width: 23rem;
   }
 }
 
@@ -284,6 +310,23 @@ input#career-advancement-search-input-training-resources {
     width: 100% !important;
   }
 
+  #training-download-buttons{
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .training-download-button-1{
+    width: 100% !important;
+  }
+
+  #training-download-button-2{
+    width: 100% !important;
+  }
+
+  #training-download-button-3{
+    width: 100% !important;
+  }
+
   a{
     overflow-wrap: break-word !important;
   }
@@ -291,6 +334,11 @@ input#career-advancement-search-input-training-resources {
 
 @media (max-width: 820px) {
   #career-download-buttons{
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  #training-download-buttons{
     flex-direction: column;
     width: 100% !important;
   }
