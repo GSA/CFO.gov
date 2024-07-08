@@ -17,6 +17,9 @@ proficiency_level_definition: " Applies the competency in considerably difficult
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AUDT8012" aria-label="Creative and Critical Thinking for Auditors (AUDT8012) - https://www.LearnAtGSUSA.com/AUDT8012">Creative and Critical Thinking for Auditors (AUDT8012)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/MGMT8102" aria-label="Decision Making and Problem Solving (MGMT8102) - https://www.LearnAtGSUSA.com/MGMT8102">Decision Making and Problem Solving (MGMT8102)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.skillsoft.com/channel/design-thinking-methodology-fd3a4369-61cc-45d3-8960-d5b20427e489?cta=feds" aria-label="Design Thinking Methodology Channel - https://www.skillsoft.com/channel/design-thinking-methodology-fd3a4369-61cc-45d3-8960-d5b20427e489?cta=feds">Design Thinking Methodology Channel</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/innovation-creativity-ceb468e0-e718-11e6-9835-f723b46a2688?cta=feds" aria-label="Innovation & Creativity Channel - https://www.skillsoft.com/channel/innovation-creativity-ceb468e0-e718-11e6-9835-f723b46a2688?cta=feds">Innovation & Creativity Channel</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/leading-innovation-042afe20-c400-11e7-bfa9-ef5e1a5e569f?cta=feds" aria-label="Leading Innovation Channel (SLDP) - https://www.skillsoft.com/channel/leading-innovation-042afe20-c400-11e7-bfa9-ef5e1a5e569f?cta=feds">Leading Innovation Channel (SLDP)</a>, Skillsoft
 - <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 filters: Personal-Innovative-Thinking GS-14-15 series-0501
 ---

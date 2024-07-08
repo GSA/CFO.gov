@@ -15,9 +15,8 @@ level: "10-13"
 behavior_illustrations: " Reviews pay authorization documents, determines and processes entitlements, identifies and corrects rejected actions ?  Applies knowledge of pay regulations to process resolution of complicated cases"
 proficiency_level_definition: " Applies the competency in difficult situations  Requires occasional guidance  Demonstrates understanding of concepts and processes ?  Applies the competency in considerably difficult situations  Generally requires little or no guidance  Demonstrates broad understanding of concepts and processes"
 relevant_courses: 
-- New Course Coming Soon!
-- <a href="https://www.LearnAtGSUSA.com/PADM7001" aria-label="Pay Setting for FWS Positions (PADM7001) - https://www.LearnAtGSUSA.com/PADM7001">Pay Setting for FWS Positions (PADM7001)</a>, Graduate School USA (GSUSA)
-- <a href="https://www.LearnAtGSUSA.com/PADM7002" aria-label="Pay Setting for GS Positions (PADM7002) - https://www.LearnAtGSUSA.com/PADM7002">Pay Setting for GS Positions (PADM7002)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688?cta=feds" aria-label="Accounting Channel - https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688?cta=feds">Accounting Channel</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/compensation-benefits-cbcbb200-211a-11e7-a974-1962c7e6a20b?cta=feds" aria-label="Compensation & Benefits Channel - https://www.skillsoft.com/channel/compensation-benefits-cbcbb200-211a-11e7-a974-1962c7e6a20b?cta=feds">Compensation & Benefits Channel</a>, Skillsoft
 - <a href="https://www.LearnAtGSUSA.com/STAF9004" aria-label="Pay Setting&#58; Federal Wage System (STAF9004) - https://www.LearnAtGSUSA.com/STAF9004">Pay Setting&#58; Federal Wage System (STAF9004)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/STAF9002" aria-label="Pay Setting&#58; General Schedule (STAF9002) - https://www.LearnAtGSUSA.com/STAF9002">Pay Setting&#58; General Schedule (STAF9002)</a>, Graduate School USA (GSUSA)
 filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-10-13 series-0501

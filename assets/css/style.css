@@ -19,6 +19,10 @@
 .dt-buttons {
     display: none;
 }
+table.dataTable tbody tr {
+    height: 92px;
+}
+
 .training-page-left, .training-page-right {
   cursor: pointer;
   padding: 7px 12px;

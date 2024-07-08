@@ -15,7 +15,10 @@ level: "10-13"
 behavior_illustrations: " Understands and uses advanced features of common tools used for securely collaborating in a virtual work environment  Identifies and learns how to use new, emerging, or specialized collaboration tools securely in a virtual environment  Considers accessiblity features when collaborating virtually"
 proficiency_level_definition: " Applies the competency in difficult situations  Requires occasional guidance  Demonstrates understanding of concepts and processes"
 relevant_courses: 
+- <a href="https://www.skillsoft.com/channel/leading-virtually-f161ebe0-c400-11e7-bfa9-ef5e1a5e569f?cta=feds" aria-label="Leading Virtually Channel (SLDP) - https://www.skillsoft.com/channel/leading-virtually-f161ebe0-c400-11e7-bfa9-ef5e1a5e569f?cta=feds">Leading Virtually Channel (SLDP)</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/managing-virtual-teams-502775a1-155b-11e7-84ad-c7901500d497?cta=feds" aria-label="Managing Virtual Teams Channel - https://www.skillsoft.com/channel/managing-virtual-teams-502775a1-155b-11e7-84ad-c7901500d497?cta=feds">Managing Virtual Teams Channel</a>, Skillsoft
 - <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
+- <a href="https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds" aria-label="Virtual Collaboration Channel - https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds">Virtual Collaboration Channel</a>, Skillsoft
 - <a href="https://www.LearnAtGSUSA.com/ACQI8030" aria-label="Virtual Contract Management (ACQI8030) - https://www.LearnAtGSUSA.com/ACQI8030">Virtual Contract Management (ACQI8030)</a>, Graduate School USA (GSUSA)
 filters: Personal-Digital-Collaboration GS-10-13 series-0501
 ---

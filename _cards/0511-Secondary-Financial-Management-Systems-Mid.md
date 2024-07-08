@@ -18,8 +18,10 @@ relevant_courses:
 - <a href="https://www.LearnAtGSUSA.com/AUDT8043" aria-label="Assessing the Reliability of Computer Processed Data (AUDT8043) - https://www.LearnAtGSUSA.com/AUDT8043">Assessing the Reliability of Computer Processed Data (AUDT8043)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT7200" aria-label="Counterintelligence for Information Security Assessment and Protection (AUDT7200) - https://www.LearnAtGSUSA.com/AUDT7200">Counterintelligence for Information Security Assessment and Protection (AUDT7200)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912) - https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8?cta=feds" aria-label="Financial Analysis Channel - https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8?cta=feds">Financial Analysis Channel</a>, Skillsoft
 - <a href="https://www.LearnAtGSUSA.com/AUDT8029" aria-label="Information Systems Auditing (AUDT8029) - https://www.LearnAtGSUSA.com/AUDT8029">Information Systems Auditing (AUDT8029)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003) - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.skillsoft.com/channel/sap-end-user-74ad34c4-d983-4ca4-bfe0-316d6c89c4aa?cta=feds" aria-label="SAP End User Channel - https://www.skillsoft.com/channel/sap-end-user-74ad34c4-d983-4ca4-bfe0-316d6c89c4aa?cta=feds">SAP End User Channel</a>, Skillsoft
 filters: Secondary-Financial-Management-Systems GS-10-13 series-0511
 ---
 

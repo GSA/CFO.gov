@@ -79,6 +79,7 @@
 {% assign projects = site.cards | where: 'competency_group', 'Projects' | map: 'competency' | uniq | sort %}
 
 <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/facets/facets-filters/training-filters.js"></script> -->
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/n.js"></script>
 <script>
 $(document).ready(function() {
     var priceColumn = {{ columns.price }};
@@ -147,10 +148,10 @@ $(document).ready(function() {
           { data: null, "className": 'dt-control', "orderable": false, "defaultContent": ''}, //accordion columnn
           { data: 'course_title', render: function(data, type, row) { return '<a href="' + (row.link || '#') + '" target="_blank" rel="noopener noreferrer">' + (data || '') + '</a>'; }, "className": "testFind" },
           { data: 'training_providers', defaultContent: '', "className": "testFind" },
-          { data: 'course_duration_num', render: function(data, type, row) {return '' + data.toString() + ' ' + row.course_duration_attribute + '';}, defaultContent: '', "className": "testFind"  },
+          { data: 'course_duration_num', render: function(data, type, row) { return data ? (data.toString() + ' ' + row.course_duration_attribute) : ''; }, defaultContent: '', "className": "testFind"  },
           { data: 'learning_modality', defaultContent: '' },
           { data: 'course_credit_type', render: function(data) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '' },
-          { data: 'price', render: function (data, type, row, meta) { return '$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 });}},
+          { data: 'price', render: function (data, type, row, meta) { return data ? ('$' + data.toLocaleString('en-US', { minimumFractionDigits: 2 })) : ''; }},
           { "orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
           {
               data: 'competency',
@@ -163,9 +164,9 @@ $(document).ready(function() {
                       return data.toLowerCase().replace(/[\s,]+/g, '-');
                   }
               },
-              defaultContent: ''
+              defaultContent: '',
+              visible: false
           },
-          // { data: 'competency', render: function (data, type, row, meta) { return data.toLowerCase().replace(/[\s,]+/g, '-'); }, defaultContent: '', visible: false},
           { data: 'job_series', render: function (data, type, row, meta) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '', visible: false},
           { data: 'gs_level', render: function (data, type, row, meta) { return Array.isArray(data) ? data.join(', ') : (data || ''); }, defaultContent: '', visible: false}
         ],
@@ -258,34 +259,6 @@ $(document).ready(function() {
         window.history.replaceState({}, "", "/training-resources/");
     });
 
-    // var createButtonEvents = function ($buttons) {
-    //   $buttons.filter("button").each(function () {
-    //     const button = $(this);
-    //     button.on('click', function (evt) {
-    //       evt.preventDefault();
-    //       if (button[0].id.match('competency-group-button')) {
-    //         $(this).parent().siblings().slideToggle();
-    //         $(this).find('i').toggleClass('fa-plus fa-minus');
-    //         // Set aria label
-    //         let ariaLabel = $(this).find('i').hasClass('fa-plus') ? ', collapsed' : ', expanded';
-    //         $(this).attr('aria-label', $(this).text() + ariaLabel);
-    //       } else {
-    //         if (!ifExists(evt.target.id)) {
-    //           console.log("if not");
-    //         } else {
-    //           // removeCriteria('button', evt.target.id);
-    //           console.log("remove crit");
-    //         }
-    //         if (button[0].id.match('series') || button[0].id.match('GS')) {
-    //           // enableDisabledCompetencies();
-    //           console.log("enable compet");
-    //         }
-    //       }
-    //     });
-    //   });
-    // };
-    // createButtonEvents($('button'));
-
     // Event handler for checkboxes
     $('input[type="checkbox"]:not(.dt-select-checkbox)').on('change', function() {
         var $checkbox = $(this);
@@ -313,15 +286,13 @@ $(document).ready(function() {
                   '<div class="tablet:grid-col">' +
                   '<dl>' +
                   '<dt>Course Description</dt>' +
-                  "<p></p>" + //placeholder for empty data
-                  // "<p>" + d['course_description'] + "</p>" +
+                  "<p>" + d['course_description'] + "</p>" +
                   '</dl>' +
                   '</div>' +
                   '<div class="tablet:grid-col">' +
                   '<dl>' +
                   '<dt>Additional Course Information</dt>' +
-                  "<p></p>" + //placeholder for empty data
-                  // "<p>" + d['additional_course_information'] + "</p>" +
+                  "<p>" + d['additional_course_information'] + "</p>" +
                   '</dl>' +
                   '</div>' +
               '</div>' +
@@ -444,7 +415,7 @@ $(document).ready(function() {
 
     // $.fn.dataTable.ext.search.push(
     //     function(settings, data, dataIndex) {
-          
+
     //       data.forEach(item => {
     //         console.log('item ', item);
     //         if(item.toLowerCase().indexOf(searchKeyword.toLowerCase() != -1)) {
@@ -455,7 +426,7 @@ $(document).ready(function() {
     //       return match;
     //   });
 
-   
+
 
      $('#career-advancement-search-input-training-resources').autocomplete({
       source: function (request, response) {
@@ -530,56 +501,84 @@ $(document).ready(function() {
     //table.columns(".testFind").search(searchKeyword).draw();
   })
 
-  $('.deselect-all-button').on('click', function () {
-    var $btn = $(this);
-    if($btn.data('state') == 'enabled') {
-      var compGroup = this.id.split('competency-group-label-')[1];
-      switch (compGroup) {
-        case 'primary':
-        primaryComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-');
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'secondary':
-        secondaryComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'alternate':
-        alternateComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          console.log('comp ', comp);
-          console.log('activeFilters ', activeFilters);
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'personal':
-        personalComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'leading':
-        leadingComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          activeFilters['competency'].delete(comp)
-        });
-        break
-        case 'projects':
-        projectsComps.forEach(comp => {
-          comp = comp.toLowerCase().replaceAll(', ', '-').replaceAll(' ','-')
-          activeFilters['competency'].delete(comp)
-        });
-        break
-      }
-      console.log('filters ', activeFilters)
-      table.draw();
+    function toggleCheckboxes(group) {
+        event.preventDefault();
+        const $checkboxes = $(`input[data-group="${group}"]`);
+        const $label = $(`#competency-group-label-${group}-training`);
+
+        if ($label.data('state') === 'enabled') {
+            // Deselect all checkboxes
+            $checkboxes.prop('checked', false).change();
+            $label.html('<strong>SELECT ALL</strong>');
+            $label.data('state', 'disabled');
+        } else {
+            // Select all checkboxes
+            $checkboxes.prop('checked', true).change();
+            $label.html('<strong>DE-SELECT ALL</strong>');
+            $label.data('state', 'enabled');
+        }
+        updateSelectAllState(group);
+        table.draw();
     }
-  })
 
+    function toggleAllCheckboxes(event, competencyType) {
+        event.preventDefault();
+        var groups = [];
+        if (competencyType === 'job-career-competency-select-training') {
+            groups = ['primary', 'secondary', 'alternate'];
+        } else {
+            groups = ['personal', 'leading', 'projects'];
+        }
+        const $globalLabel = $(`#${competencyType}`);
+        const shouldSelectAll = $globalLabel.text().trim() === 'SELECT ALL';
 
+        groups.forEach(group => {
+            const $checkboxes = $(`input[data-group="${group}"]`);
+            const $label = $(`#competency-group-label-${group}-training`);
+
+            $checkboxes.prop('checked', shouldSelectAll).change();
+            $label.html(shouldSelectAll ? '<strong>DE-SELECT ALL</strong>' : '<strong>SELECT ALL</strong>');
+            $label.data('state', shouldSelectAll ? 'enabled' : 'disabled');
+        });
+        $globalLabel.html(shouldSelectAll ? '<strong>DE-SELECT ALL</strong>' : '<strong>SELECT ALL</strong>');
+        table.draw();
+    }
+
+    function updateSelectAllState(competencyType) {
+        const groups = competencyType === 'job-career-competency-select-training' ? ['primary', 'secondary', 'alternate'] : ['personal', 'leading', 'projects'];
+
+        let allChecked = true;
+        groups.forEach(group => {
+            const $checkboxes = $(`input[data-group="${group}"]`);
+            let groupAllChecked = true;
+            $checkboxes.each(function() {
+                if (!$(this).prop('checked')) {
+                    allChecked = false;
+                    groupAllChecked = false;
+                    return false;
+                }
+            });
+            const $groupLabel = $(`#competency-group-label-${group}-training`);
+            $groupLabel.html(groupAllChecked ? '<strong>DE-SELECT ALL</strong>' : '<strong>SELECT ALL</strong>');
+            $groupLabel.data('state', groupAllChecked ? 'enabled' : 'disabled');
+        });
+
+        const $globalLabel = $(`#${competencyType}`);
+        $globalLabel.html(allChecked ? '<strong>DE-SELECT ALL</strong>' : '<strong>SELECT ALL</strong>');
+    }
+
+    ['primary', 'secondary', 'alternate', 'personal', 'leading', 'projects'].forEach(group => {
+        const $button = $(`#competency-group-label-${group}-training`);
+        $button.on('click', () => toggleCheckboxes(group));
+        const competencyType = group === 'primary' || group === 'secondary' || group === 'alternate' ? 'job-career-competency-select-training' : 'general-career-competency-select-training';
+        $(`input[data-group="${group}"]`).on('change', () => updateSelectAllState(competencyType));
+    });
+
+    // Add event listener for the global select all button
+    const $jobCareerAll = $('#job-career-competency-select-all-training');
+    $jobCareerAll.on('click', (event) => toggleAllCheckboxes(event, 'job-career-competency-select-training'));
+    const $generalSelectAll = $('#general-career-competency-select-all-training');
+    $generalSelectAll.on('click', (event) => toggleAllCheckboxes(event, 'general-career-competency-select-training'));
 
     function onHashChange() {
 

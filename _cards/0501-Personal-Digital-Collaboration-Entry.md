@@ -17,7 +17,9 @@ proficiency_level_definition: " Applies the competency in the simplest situation
 relevant_courses: 
 - <a href="https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx" aria-label="Governmental Environment (live, virtual) - https://www.agacgfm.org/CGFM/Candidates/PreparingforExams/CGFMVirtualCourses.aspx">Governmental Environment (live, virtual)</a>, AGA
 - <a href="https://cgfm.learnupon.com/store/2300-cgfm-course-1-governmental-environment-sections-i-vii-bundle?is_bundle=1" aria-label="Governmental Environment (online, self-paced) - https://cgfm.learnupon.com/store/2300-cgfm-course-1-governmental-environment-sections-i-vii-bundle?is_bundle=1">Governmental Environment (online, self-paced)</a>, AGA
+- <a href="https://www.skillsoft.com/channel/managing-virtual-teams-502775a1-155b-11e7-84ad-c7901500d497?cta=feds" aria-label="Managing Virtual Teams Channel - https://www.skillsoft.com/channel/managing-virtual-teams-502775a1-155b-11e7-84ad-c7901500d497?cta=feds">Managing Virtual Teams Channel</a>, Skillsoft
 - <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
+- <a href="https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds" aria-label="Virtual Collaboration Channel - https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds">Virtual Collaboration Channel</a>, Skillsoft
 - <a href="https://www.LearnAtGSUSA.com/ACQI8030" aria-label="Virtual Contract Management (ACQI8030) - https://www.LearnAtGSUSA.com/ACQI8030">Virtual Contract Management (ACQI8030)</a>, Graduate School USA (GSUSA)
 filters: Personal-Digital-Collaboration GS-7-9 series-0501
 ---
