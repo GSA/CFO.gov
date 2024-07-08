@@ -2573,31 +2573,6 @@
     ]
   },
   {
-    "course_title": "Increasing Personal Effectiveness (COMM7027)",
-    "training_providers": "Graduate School USA (GSUSA)",
-    "link": "https://www.LearnAtGSUSA.com/COMM7027",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "Not offered",
-    "additional_course_information": "",
-    "course_duration_num": null,
-    "course_duration_attribute": "Days",
-    "job_series": [
-      "0501 Financial Administration and Program Support",
-      "0510 Accounting",
-      "0511 Auditing",
-      "0560 Budget Analysis"
-    ],
-    "gs_level": [
-      "GS 7-9",
-      "GS 10-13"
-    ],
-    "competency": [
-      "Oral Communications"
-    ]
-  },
-  {
     "course_title": "Presentation and Briefing Skills for Auditors (AUDT8522)",
     "training_providers": "Graduate School USA (GSUSA)",
     "link": "https://www.LearnAtGSUSA.com/AUDT8522",
@@ -5250,54 +5225,6 @@
     ]
   },
   {
-    "course_title": "Pay Setting for FWS Positions (PADM7001)",
-    "training_providers": "Graduate School USA (GSUSA)",
-    "link": "https://www.LearnAtGSUSA.com/PADM7001",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "Not Offered",
-    "additional_course_information": "",
-    "course_duration_num": null,
-    "course_duration_attribute": "Days",
-    "job_series": [
-      "0501 Financial Administration and Program Support",
-      "0510 Accounting",
-      "0511 Auditing",
-      "0560 Budget Analysis"
-    ],
-    "gs_level": [
-      "GS 10-13"
-    ],
-    "competency": [
-      "Payroll Concepts, Policies and Principles"
-    ]
-  },
-  {
-    "course_title": "Pay Setting for GS Positions (PADM7002)",
-    "training_providers": "Graduate School USA (GSUSA)",
-    "link": "https://www.LearnAtGSUSA.com/PADM7002",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "Not Offered",
-    "additional_course_information": "",
-    "course_duration_num": null,
-    "course_duration_attribute": "Days",
-    "job_series": [
-      "0501 Financial Administration and Program Support",
-      "0510 Accounting",
-      "0511 Auditing",
-      "0560 Budget Analysis"
-    ],
-    "gs_level": [
-      "GS 10-13"
-    ],
-    "competency": [
-      "Payroll Concepts, Policies and Principles"
-    ]
-  },
-  {
     "course_title": "Pay Setting: Federal Wage System (STAF9004)",
     "training_providers": "Graduate School USA (GSUSA)",
     "link": "https://www.LearnAtGSUSA.com/STAF9004",
@@ -5367,30 +5294,6 @@
     ],
     "competency": [
       "Developing Others"
-    ]
-  },
-  {
-    "course_title": "Basic Labor Relations (LABR7051)",
-    "training_providers": "Graduate School USA (GSUSA)",
-    "link": "https://www.LearnAtGSUSA.com/LABR7051",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "Not Offered",
-    "additional_course_information": "",
-    "course_duration_num": null,
-    "course_duration_attribute": "Days",
-    "job_series": [
-      "0501 Financial Administration and Program Support",
-      "0510 Accounting",
-      "0511 Auditing",
-      "0560 Budget Analysis"
-    ],
-    "gs_level": [
-      "GS 14-15"
-    ],
-    "competency": [
-      "Human Capital Management"
     ]
   },
   {
@@ -6405,21 +6308,6 @@
     ]
   },
   {
-    "course_title": "LHL 0230 Machine Learning",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
-  },
-  {
     "course_title": "PEBU 0361 Accounting Analytics",
     "training_providers": "George Mason University",
     "link": "https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2408917",
@@ -6761,81 +6649,6 @@
     "competency": [
       "Influencing and Negotiating"
     ]
-  },
-  {
-    "course_title": "PMP 0400 Project Management Essentials",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
-  },
-  {
-    "course_title": "PMP 0401 Project Management Certification: PMP® Exam Preparation",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
-  },
-  {
-    "course_title": "PMP 0402 Project Estimating, Measures, and Controls",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
-  },
-  {
-    "course_title": "PMP 0406 Managing Project Risk",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
-  },
-  {
-    "course_title": "PMP 0407 Agile Fundamentals",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
   },
   {
     "course_title": "PEBU 0402 Leading Change",
@@ -7201,21 +7014,6 @@
     "competency": [
       "Data Analytics, Management, and Visualization"
     ]
-  },
-  {
-    "course_title": "LHL 0220 Data Wrangling, Visualization & Reporting",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
   },
   {
     "course_title": "PEBU 0361 Accounting Analytics",
@@ -7793,51 +7591,6 @@
     "competency": [
       "Contract Management"
     ]
-  },
-  {
-    "course_title": "LHL 0210 Programming for Data Science",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
-  },
-  {
-    "course_title": "PEBU 0361 Accounting Analytics",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
-  },
-  {
-    "course_title": "PEBU 0361 Accounting Analytics",
-    "training_providers": "George Mason University",
-    "link": "no longer available",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "no longer available",
-    "additional_course_information": "no longer available",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [],
-    "gs_level": [],
-    "competency": []
   },
   {
     "course_title": "PEBU 0603 Fundamentals of Information Security",
@@ -8804,35 +8557,6 @@
       "Budget Formulation, Justification, and Presentation",
       "Fundamentals and Operations of Finance",
       "Fundamentals and Operations of Budget"
-    ]
-  },
-  {
-    "course_title": "Changes: Reporting on Federal Land (3.1)",
-    "training_providers": "AGA",
-    "link": "https://aga.learnupon.com/store/2370356-changes-reporting-on-federal-land-course-3-1",
-    "course_credit_type": "CPE",
-    "price": 59,
-    "learning_modality": "Asynchronous",
-    "course_description": "The Federal Accounting Standards Advisory Board recently issued new requirements for reporting on federal land. Certain requirements are effective immediately - in fiscal year 2022 - while others will be effective in fiscal year 2026. This course will help you meet the current information requirements and prepare for the changes that will be effective in fiscal year 2026. ",
-    "additional_course_information": "Self-paced course, with online access for 90 days.",
-    "course_duration_num": 1,
-    "course_duration_attribute": "Hours",
-    "job_series": [
-      "0501 Financial Administration and Program Support",
-      "0510 Accounting",
-      "0511 Auditing",
-      "0560 Budget Analysis"
-    ],
-    "gs_level": [
-      "GS 7-9",
-      "GS 10-13",
-      "GS 14-15"
-    ],
-    "competency": [
-      "Accounting Concepts, Policies and Principles",
-      "Financial Reporting",
-      "Fundamentals and Operations of Finance",
-      "Fundamentals and Operations of Accounting"
     ]
   },
   {
@@ -13502,57 +13226,6 @@
     ],
     "competency": [
       "Business Process Improvement"
-    ]
-  },
-  {
-    "course_title": "CON 360: Contracting for Decision Makers",
-    "training_providers": "Management Concepts",
-    "link": "https://www.managementconcepts.com/course/id/1360?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "",
-    "additional_course_information": "",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [
-      "0501 Financial Administration and Program Support",
-      "0510 Accounting",
-      "0511 Auditing",
-      "0560 Budget Analysis"
-    ],
-    "gs_level": [
-      "GS 7-9",
-      "GS 10-13"
-    ],
-    "competency": [
-      "Mission and Culture",
-      "Decision Making",
-      "Decision Support"
-    ]
-  },
-  {
-    "course_title": "Diversity of Thought: Fostering a Diverse and Inclusive Workplace",
-    "training_providers": "Management Concepts",
-    "link": "https://www.managementconcepts.com/course/id/4097?utm_source=CFOportal&utm_medium=listing&utm_campaign=CFOTTEP&utm_id=23FM",
-    "course_credit_type": "",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "",
-    "additional_course_information": "",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "job_series": [
-      "0501 Financial Administration and Program Support",
-      "0510 Accounting",
-      "0511 Auditing",
-      "0560 Budget Analysis"
-    ],
-    "gs_level": [
-      "GS 14-15"
-    ],
-    "competency": [
-      "Leveraging Diversity"
     ]
   },
   {
