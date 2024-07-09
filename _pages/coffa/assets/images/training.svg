@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="104" viewBox="0 0 115 104">
+  <defs>
+    <clipPath id="clip-training">
+      <rect width="115" height="104"/>
+    </clipPath>
+  </defs>
+  <g id="training" clip-path="url(#clip-training)">
+    <rect width="115" height="104" fill="#fff"/>
+    <g id="Group_7" data-name="Group 7" transform="translate(15.626 13.596)">
+      <g id="Group_8" data-name="Group 8">
+        <path id="Path_22" data-name="Path 22" d="M55.345,64.647h-2.39a2.283,2.283,0,0,0-2.283,2.283v46.151h67.35V66.93a2.283,2.283,0,0,0-2.283-2.283h-2.2" transform="translate(-42.507 -54.23)" fill="none" stroke="#093468" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_23" data-name="Path 23" d="M147.258,4.605H104.565A4.345,4.345,0,0,0,100.22,8.95V37.212a4.345,4.345,0,0,0,4.345,4.345h1.886v6.306l5.946-6.306h34.861a4.345,4.345,0,0,0,4.345-4.345V8.95A4.345,4.345,0,0,0,147.258,4.605Z" transform="translate(-84.072 -3.863)" fill="none" stroke="#43a36a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_24" data-name="Path 24" d="M86.8,381.893H4.605l7.423-16.651h67.35Z" transform="translate(-3.863 -306.391)" fill="none" stroke="#093468" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <circle id="Ellipse_14" data-name="Ellipse 14" cx="11.02" cy="11.02" r="11.02" transform="translate(30.82 8.038)" fill="none" stroke="#43a36a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_25" data-name="Path 25" d="M248.925,87.612l-10.2-5.89V93.5Z" transform="translate(-200.258 -68.554)" fill="none" stroke="#43a36a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_10" data-name="Line 10" x1="10.457" transform="translate(57.069 50.963)" fill="none" stroke="#093468" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_11" data-name="Line 11" x1="35.458" transform="translate(16.154 50.963)" fill="none" stroke="#43a36a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_26" data-name="Path 26" d="M325.771,302.142a2.728,2.728,0,1,1-2.717-2.717A2.743,2.743,0,0,1,325.771,302.142Z" transform="translate(-268.702 -251.179)" fill="none" stroke="#43a36a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

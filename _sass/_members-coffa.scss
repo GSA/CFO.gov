@@ -1,0 +1,116 @@
+.container {
+}
+
+.left{
+  width: 30%;
+  float:left;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+}
+
+.leftSeal{
+  width: 48%;
+  float:left;
+  height: 100px;
+}
+
+.leftSeal img.seal{
+    max-width: 90% !important;
+}
+
+.left img.photo {
+  width: 90%;
+  object-fit:cover;
+}
+
+.left img.seal {
+  width: 100%;
+  object-fit: cover;
+  height: 135px;
+}
+
+.right {
+  width:70%;
+  float: right;
+  height: 135px;
+}
+
+
+
+
+.headerMember{
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+
+.boarderBottom{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.right p {
+  padding: 5px;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.rightSeal {
+  width:50%;
+  float: right;
+  height: 135px;
+  text-align: center;
+  
+}
+
+.rightSeal p {
+  padding: 10px;
+  margin-top: 0px;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nameSeal {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bio-photo {
+  float: left;
+  width: 210px;
+  height: 210px;
+  margin-right:24px;
+  border-radius: 10px;
+}
+
+.name-leader {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text-leader {
+  font-size: 14px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+
+.title {
+  font-size: 13px;
+  line-height: 10px;
+  font-weight: 500;
+}
+
+.fade_line {
+  margin: 25px 0;
+  height: 2px;
+  background: black;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%,#a9aeb1));
+}

@@ -25,8 +25,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
+coffabaseurl: "/coffa"
 logo: /assets/images/logos/CFO-Logo-Color.svg
 jfmip-logo: /assets/images/logos/jfmip-logo-plain.png
+coffa-logo: /assets/images/logos/COFFA-Color-L.png
 
 
 # Twitter handle. Only the handle, not the URL.
@@ -81,8 +83,8 @@ primary_navigation:
   - name: Our Work
     url: /
     children:
-      - name: Federal Financial Assistance
-        url: "/federal-financial-assistance/"
+      - name: COFFA
+        url: "/coffa/"
       - name: Federal Financial Reporting
         url: "/federal-financial-reporting/"
       - name: Financial Management Workforce
@@ -107,6 +109,7 @@ primary_navigation:
   - name: Training Resources
     url: /training-resources/
 
+
 secondary_navigation:
   - name: Contact Us
     url: "mailto:CFOC.support@gsa.gov"
@@ -123,6 +126,10 @@ secondary_navigation_jfmip:
   - name: Contact Us
     url: "mailto:JFMIP@fiscal.treasury.gov"
 
+secondary_navigation_coffa:
+  - name: Contact Us
+    url: "mailto:coffa.support@gsa.gov"
+
 payment-accuracy-navigation:
   - name: About
     url: /about-payment-accuracy/
@@ -134,6 +141,26 @@ payment-accuracy-navigation:
     url: /payment-accuracy-resources/
   - name: FAQ
     url: /payment-accuracy-FAQ/
+
+primary_navigation_coffa:
+  - name: About Us
+    url: /coffa/
+    children:
+      - name: The COFFA
+        url: "/coffa/about-the-coffa/"
+      - name: Members
+        url: "/coffa/members/"
+      - name: The Support Team
+        url: "/coffa/support/"
+  - name: Major Initiatives
+    url: "/coffa/"
+    children:
+      - name: Uniform Guidance
+        url: "/coffa/uniform-guidance-coffa/"
+ #     - name: Training
+ #      url: "/coffa/training-coffa/"
+  - name: Resources
+    url: "/coffa/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*"
 
 jfmip-navigation:
 #  - name: Current Initiatives
@@ -150,6 +177,7 @@ footer:
     frpc-email: Realpropertypolicy@gsa.gov
     cxo-email: cxofellowship@gsa.gov
     jfmip-email: JFMIP@fiscal.treasury.gov
+    coffa-email: COFFA.support@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
 #
@@ -176,6 +204,8 @@ collections:
     output: true
     permalink: /:path/
   leadership:
+    output: true
+  leadership-coffa:
     output: true
   members:
     output: true
