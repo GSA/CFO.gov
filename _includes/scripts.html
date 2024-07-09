@@ -71,15 +71,8 @@
 
 {% assign jsonData = site.data.coursesJ %}
 {% assign columns = site.data.columns %}
-{% assign primaryComp = site.cards | where: 'competency_group', 'Primary' | map: 'competency' | uniq | sort %}
-{% assign secondary = site.cards | where: 'competency_group', 'Secondary' | map: 'competency' | uniq | sort %}
-{% assign alternateComp = site.cards | where: 'competency_group', 'Alternate' | map: 'competency' | uniq | sort %}
-{% assign personal = site.cards | where: 'competency_group', 'Personal' | map: 'competency' | uniq | sort %}
-{% assign leading = site.cards | where: 'competency_group', 'Leading' | map: 'competency' | uniq | sort %}
-{% assign projects = site.cards | where: 'competency_group', 'Projects' | map: 'competency' | uniq | sort %}
 
 <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/facets/facets-filters/training-filters.js"></script> -->
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/n.js"></script>
 <script>
 $(document).ready(function() {
     var priceColumn = {{ columns.price }};
@@ -89,12 +82,6 @@ $(document).ready(function() {
 
     // JSON data to populate the table
     const data = {{ jsonData | jsonify }};
-    const primaryComps = {{ primaryComp | jsonify }};
-    const secondaryComps = {{ secondary | jsonify }};
-    const alternateComps = {{ alternateComp | jsonify }};
-    const personalComps = {{ personal | jsonify }};
-    const leadingComps = {{ leading | jsonify }};
-    const projectsComps = {{ projects | jsonify }};
 
     // Initialize DataTable with custom configs
     var table = $('#myTable').DataTable({
@@ -180,6 +167,7 @@ $(document).ready(function() {
         paging:   true,
         ordering: false // Disable sorting for all columns
     });
+    $(table.table().container()).css('overflow-x', 'auto');
 
     //update pagination on every draw
     table.on('draw.dt', function() {
