@@ -73,13 +73,9 @@
 
     $(document).on("click", '.view-applicable-courses', function(){
       let val = $(this).val()
-      console.log('click works');
-      console.log(facetGlobalVars.data, ' data');
-      console.log('card.series ', val);
       let filters = val.split(' ');
-      console.log('filters', filters);
-      let href = "/training-resources/#series=" + filters[2] + "&level=" + filters[1] + "&competency=" + filters[0];
-      //window.location.href=href; 
+      let href = location.pathname + "?series=" + filters[2] + "&level=" + filters[1] + "&competency=" + filters[0];
+      //window.location.href=href;
 
       });
 
@@ -405,9 +401,9 @@
           }
         }
       }
-      
+
       csvrows.push(['"' + card.series + ' ' + card.title + '"', '"=""' + card.level + '"""', '"' + card.competency + '"', '"' + card.competency_group + '"', '"' + card.competency_description + '"', '"' + strBI + '"', '"' + strPLD + '"', '"' + strCL + '"']);
-      
+
     }
 
     let csvContent = "data:text/csv;charset=utf-8,";
@@ -424,7 +420,7 @@
     link.setAttribute("aria-label", "Download csv");
     document.body.appendChild(link); // Required for FF
 
-    link.click(); 
+    link.click();
 
   }
 

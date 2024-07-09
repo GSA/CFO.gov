@@ -11,7 +11,7 @@
   </section>
 
   <div class="career-search-results-filter-pagination flex-wrap padding-bottom-2">
-      {% assign post_count = site.cards | size %}
+      {% assign post_count = site.data.coursesJ | size %}
       {% assign default_page_size = 10 %}
       {% assign post_pages = post_count | divided_by: default_page_size %}
       {% assign full_pages = post_pages | times: default_page_size %}
