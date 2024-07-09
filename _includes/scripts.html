@@ -442,9 +442,9 @@ $(document).ready(function() {
           else if (item.course_credit_type.toLowerCase().indexOf(normalized) != -1) {
             return stripHtmlTags(item.course_credit_type);
           }
-          else if (item.price.toString().indexOf(normalized) != -1) {
-            return stripHtmlTags(item.price);
-          }
+          // else if (item.price.toString().indexOf(normalized) != -1) {
+          //   return stripHtmlTags(item.price);
+          // }
           return null;
         });
         outputs = outputs.filter(function (x) { return !!x }).filter((item, index, self) => self.indexOf(item) === index);
