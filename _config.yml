@@ -106,6 +106,8 @@ primary_navigation:
     url: /cxo-fellows/
   - name: Career Planning & Training Tool
     url: /career-planning-training-tool/
+  - name: Training Resources
+    url: /training-resources/
 
 
 secondary_navigation:
@@ -304,6 +306,3 @@ sass:
   quiet_deps: true
   style: compressed
   verbose: true
-
-
-

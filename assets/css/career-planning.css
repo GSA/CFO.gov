@@ -38,6 +38,12 @@
   cursor: pointer;
 }
 
+.search-container-cptt {
+  display: grid;
+  text-align: right;
+  margin-top: 25px;
+}
+
 .search-container {
   display: flex;
   text-align: right;
@@ -47,6 +53,50 @@
 .career-search__label {
   position: absolute;
   top: -45px;
+  text-align: left;
+}
+
+.training-course__label {
+  position: relative;
+  top: -16px;
+}
+
+.training-course_buttons__label {
+  position: relative;
+  top: -16px;
+}
+
+.training-course-button {
+  position: relative;
+  top: -6px;
+}
+
+.export-content-buttons {
+  position: relative;
+  top: -11px;
+}
+
+.export-content-text-tr {
+  position: relative;
+  top: -15px;
+}
+
+.margin-top-negative {
+  position: relative;
+  top: -28px;
+}
+
+.export-content-text {
+  position: relative;
+  top: -2px;
+}
+
+.float-right {
+  float:right;
+}
+
+.center-button {
+  justify-content: space-evenly;
 }
 
 .career-search-results-heading {
@@ -92,14 +142,41 @@ input#career-advancement-search-input {
   width: 230px;
 }
 
+input#career-advancement-search-input-training-resources {
+  width: 230px;
+}
+
 #cfo-search-button {
   height: 2.5rem;
   width: 30%;
 }
 
-@media screen and (min-width: 750px) {
+#cfo-search-button-tr {
+  height: 2.5rem;
+  width: 30%;
+}
+
+@media screen and (min-width: 821px) {
   input#career-advancement-search-input {
     width: 27rem;
+  }
+}
+
+@media screen and (max-width: 820) {
+  input#career-advancement-search-input {
+    width: 23rem;
+  }
+}
+
+@media screen and (min-width: 821px) {
+  input#career-advancement-search-input-training-resources {
+    width: 27rem;
+  }
+}
+
+@media screen and (max-width: 820) {
+  input#career-advancement-search-input-training-resources {
+    width: 23rem;
   }
 }
 
@@ -148,6 +225,11 @@ input#career-advancement-search-input {
 .text-offscreen {
   position: absolute;
   left: -9999px;
+}
+
+.return-button {
+  padding-left: .6em;
+  padding-top: 1em;
 }
 
 /* .career-search-results-heading {
@@ -213,7 +295,7 @@ input#career-advancement-search-input {
 
   #career-download-buttons{
     flex-direction: column;
-    width: 100% !important;   
+    width: 100% !important;
   }
 
   .career-download-button-1{
@@ -228,15 +310,54 @@ input#career-advancement-search-input {
     width: 100% !important;
   }
 
+  #training-download-buttons{
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .training-download-button-1{
+    width: 100% !important;
+  }
+
+  #training-download-button-2{
+    width: 100% !important;
+  }
+
+  #training-download-button-3{
+    width: 100% !important;
+  }
+
   a{
     overflow-wrap: break-word !important;
   }
+}
+
+@media (max-width: 820px) {
+  #career-download-buttons{
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  #training-download-buttons{
+    flex-direction: column;
+    width: 100% !important;
+  }
+}
+
+.text-size {
+  font-size:24px;
 }
 
 @media screen and (max-width: 460px) {
   .search-container{
     display: block;
   }
+
+@media screen and (max-width: 460px) {
+  .text-size {
+    font-size:16px;
+  }
+}
 
   form.usa-search{
     display: block !important;

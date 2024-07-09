@@ -15,6 +15,8 @@ level: "10-13"
 behavior_illustrations: " Partners with community leaders to develop neighborhood action plans  Cultivates relationships with community stakeholders to validate usefulness of proposed products and services  Identifies improved ways to manage public resources"
 proficiency_level_definition: " Applies the competency in considerably difficult situations  Generally requires little or no guidance  Demonstrates broad understanding of concepts and processes"
 relevant_courses: 
+- <a href="https://www.skillsoft.com/channel/leader-as-motivator-3b0712bc-86b3-42b3-950b-65d0fc50cf6c?cta=feds" aria-label="Leader as Motivator Channel (SLDP) - https://www.skillsoft.com/channel/leader-as-motivator-3b0712bc-86b3-42b3-950b-65d0fc50cf6c?cta=feds">Leader as Motivator Channel (SLDP)</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/motivating-people-a588dbe0-e718-11e6-9835-f723b46a2688?cta=feds" aria-label="Motivating People Channel - https://www.skillsoft.com/channel/motivating-people-a588dbe0-e718-11e6-9835-f723b46a2688?cta=feds">Motivating People Channel</a>, Skillsoft
 - <a href="https://www.agacgfm.org/Events/NLT/Home.aspx" aria-label="National Leadership Training (NLT) - multi-competency training - https://www.agacgfm.org/Events/NLT/Home.aspx">National Leadership Training (NLT) - multi-competency training</a>, AGA
 - <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
 filters: Personal-Public-Service-Motivation GS-10-13 series-0501

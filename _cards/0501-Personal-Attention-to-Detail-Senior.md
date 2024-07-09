@@ -15,7 +15,9 @@ level: "14-15"
 behavior_illustrations: " Develops processes and procedures to ensure production of high quality work products"
 proficiency_level_definition: " Applies the competency in exceptionally difficult situations  Serves as a key resource and advises others  Demonstrates comprehensive, expert understanding of concepts and processes"
 relevant_courses: 
-- New Course Coming Soon!
+- <a href="https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688?cta=feds" aria-label="Administrative Skills Channel - https://www.skillsoft.com/channel/administrative-skills-34e4e1c0-e71a-11e6-9835-f723b46a2688?cta=feds">Administrative Skills Channel</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/personal-productivity-f99a21a0-e71b-11e6-9835-f723b46a2688?cta=feds" aria-label="Personal Productivity Channel - https://www.skillsoft.com/channel/personal-productivity-f99a21a0-e71b-11e6-9835-f723b46a2688?cta=feds">Personal Productivity Channel</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/quality-management-ccfb2291-2120-11e7-ac46-dd5c3d0e46dd?belt=58615?cta=feds" aria-label="Quality Management Channel - https://www.skillsoft.com/channel/quality-management-ccfb2291-2120-11e7-ac46-dd5c3d0e46dd?belt=58615?cta=feds">Quality Management Channel</a>, Skillsoft
 filters: Personal-Attention-to-Detail GS-14-15 series-0501
 ---
 

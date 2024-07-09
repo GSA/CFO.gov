@@ -15,7 +15,9 @@ level: "14-15"
 behavior_illustrations: " Displays proficiency in a wide range of virtual collaboration tools, platforms, and apps  Leads initiatives, projects, and complex tasks while using digital collaboration tools  Searches out new tools for secure use that can improve virtual workplace productivity  Facilitates virtual engagements using a variety of collaboration tools"
 proficiency_level_definition: " Applies the competency in considerably difficult situations  Generally requires little or no guidance  Demonstrates broad understanding of concepts and processes"
 relevant_courses: 
-- New Course Coming Soon!
+- <a href="https://www.skillsoft.com/channel/leading-virtually-f161ebe0-c400-11e7-bfa9-ef5e1a5e569f?cta=feds" aria-label="Leading Virtually Channel (SLDP) - https://www.skillsoft.com/channel/leading-virtually-f161ebe0-c400-11e7-bfa9-ef5e1a5e569f?cta=feds">Leading Virtually Channel (SLDP)</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/managing-virtual-teams-502775a1-155b-11e7-84ad-c7901500d497?cta=feds" aria-label="Managing Virtual Teams Channel - https://www.skillsoft.com/channel/managing-virtual-teams-502775a1-155b-11e7-84ad-c7901500d497?cta=feds">Managing Virtual Teams Channel</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds" aria-label="Virtual Collaboration Channel - https://www.skillsoft.com/channel/virtual-collaboration-14b2dd20-dc20-11e7-9fe8-1b7f5fcc733d?cta=feds">Virtual Collaboration Channel</a>, Skillsoft
 filters: Personal-Digital-Collaboration GS-14-15 series-0510
 ---
 
