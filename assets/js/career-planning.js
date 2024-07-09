@@ -71,6 +71,16 @@
       generatePDF(cards);
     });
 
+    $(document).on("click", '.view-applicable-courses', function(){
+      let val = $(this).val()
+      let filters = val.split(' ');
+      let href = location.pathname + "?series=" + filters[2] + "&level=" + filters[1] + "&competency=" + filters[0];
+      //window.location.href=href;
+
+      });
+
+
+
     // button click event handler for Download CSV report button
     downloadButtonCSV = $('#career-download-buttons').find('[data-op="download-selected-csv"]').click(function () {
       let cards = [];
@@ -391,9 +401,9 @@
           }
         }
       }
-      
+
       csvrows.push(['"' + card.series + ' ' + card.title + '"', '"=""' + card.level + '"""', '"' + card.competency + '"', '"' + card.competency_group + '"', '"' + card.competency_description + '"', '"' + strBI + '"', '"' + strPLD + '"', '"' + strCL + '"']);
-      
+
     }
 
     let csvContent = "data:text/csv;charset=utf-8,";
@@ -410,7 +420,7 @@
     link.setAttribute("aria-label", "Download csv");
     document.body.appendChild(link); // Required for FF
 
-    link.click(); 
+    link.click();
 
   }
 

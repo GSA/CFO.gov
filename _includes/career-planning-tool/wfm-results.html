@@ -78,29 +78,8 @@
                     <div class="grid-row grid-gap">
                         {{ card.content }}
                     </div>
-                    <div class="course-list">
-                        <p class="font-body-md card-display card-text-color"><strong>VENDOR COURSE LISTINGS:</strong></p>
-                        <div class="short-list">
-                            {% if card.relevant_courses.size != 0 %}
-                            <ul class="usa-list" role="list">
-                                {% for course in card.relevant_courses limit:3 %}
-                                <li role="listitem" class="card-content-color li-width">{{ course | replace: '">', '" target="_blank" >'}}</li>
-                                {% endfor %}
-                            </ul>
-                            {% endif %}
-                        </div>
-                        {% if card.relevant_courses.size > 3 %}
-                        <div class="full-list display-none">
-                            <ul class="usa-list margin-top-05" role="list">
-                                {% for course in card.relevant_courses offset:3 %}
-                                <li role="listitem" class="card-content-color li-width">{{ course | replace: '">', '" target="_blank" >'}}</li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                        <div class="text-center margin-top-3">
-                            <button class="show-more usa-button usa-button--outline border-0 bg-white" data-more-text="Show More" data-less-text="Show Less" data-index="{{forloop.index}}" aria-label="Show More card number {{forloop.index}}">Show More</button>
-                        </div>
-                        {% endif %}
+                    <div class="grid-row center-button">
+                        <a href="{{ site.baseurl }}/training-resources/#series=0{{card.series}}&level=GS {{card.level}}&competency={{card.competency}}&competencygroup={{card.competency_group}}" class="usa-button usa-button--outline margin-bottom-1 button-border view-applicable-courses">VIEW APPLICABLE TRAINING COURSES</a>
                     </div>
                 </div>
             </div>

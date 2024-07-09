@@ -1255,6 +1255,13 @@ a.checked {
   }
 }
 
+#career-advancement-search-input-training-resources {
+  max-width: 75%;
+  @media screen and (max-width: 685px) {
+    max-width: 100%;
+  }
+}
+
 .font-size-16{
   font-size: 16px;
 }

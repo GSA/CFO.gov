@@ -26,7 +26,6 @@ $.fn.extend({
      * Uses enableDisableCompetencies and the createResults
      */
     getSearch: function () {
-        // console.log(facetGlobalVars);
         facetGlobalVars.results = [];
         // create a count of the the items displayed and display it.
         // count all search results for an item as a sanity check and make a spread sheet.

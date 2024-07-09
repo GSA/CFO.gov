@@ -15,7 +15,8 @@ level: "7-9"
 behavior_illustrations: " Processes routine financial and accounting transactions to ensure pay integrity ?  Processes standardized pay actions to establish or update accounts and correct discrepancies"
 proficiency_level_definition: " Applies the competency in the simplest situations  Requires close and extensive guidance  Demonstrates awareness of concepts and processes ?  Applies the competency in somewhat difficult situations  Requires frequent guidance  Demonstrates familiarity with concepts and processes"
 relevant_courses: 
-- New Course Coming Soon!
+- <a href="https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688?cta=feds" aria-label="Accounting Channel - https://www.skillsoft.com/channel/accounting-f1554bc0-e714-11e6-9835-f723b46a2688?cta=feds">Accounting Channel</a>, Skillsoft
+- <a href="https://www.skillsoft.com/channel/compensation-benefits-cbcbb200-211a-11e7-a974-1962c7e6a20b?cta=feds" aria-label="Compensation & Benefits Channel - https://www.skillsoft.com/channel/compensation-benefits-cbcbb200-211a-11e7-a974-1962c7e6a20b?cta=feds">Compensation & Benefits Channel</a>, Skillsoft
 filters: Alternate-Payroll-Concepts-Policies-and-Principles GS-7-9 series-0510
 ---
 

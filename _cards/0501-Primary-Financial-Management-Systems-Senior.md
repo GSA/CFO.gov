@@ -16,8 +16,10 @@ behavior_illustrations: " Identifies functional processes, requirements or inter
 proficiency_level_definition: " Applies the competency in considerably difficult situations  Generally requires little or no guidance  Demonstrates broad understanding of concepts and processes"
 relevant_courses: 
 - <a href="https://www.LearnAtGSUSA.com/AUDT8912" aria-label="Enterprise Risk Management&#58; Executive Seminar (AUDT8912) - https://www.LearnAtGSUSA.com/AUDT8912">Enterprise Risk Management&#58; Executive Seminar (AUDT8912)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8?cta=feds" aria-label="Financial Analysis Channel - https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8?cta=feds">Financial Analysis Channel</a>, Skillsoft
 - <a href="https://www.LearnAtGSUSA.com/AUDT8003" aria-label="Managers and Auditors Roles in Assessing Internal Controls (AUDT8003) - https://www.LearnAtGSUSA.com/AUDT8003">Managers and Auditors Roles in Assessing Internal Controls (AUDT8003)</a>, Graduate School USA (GSUSA)
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409660" aria-label="PEBU 0603 Fundamentals of Information Security - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409660">PEBU 0603 Fundamentals of Information Security</a>, George Mason University
+- <a href="https://www.skillsoft.com/channel/sap-end-user-74ad34c4-d983-4ca4-bfe0-316d6c89c4aa?cta=feds" aria-label="SAP End User Channel - https://www.skillsoft.com/channel/sap-end-user-74ad34c4-d983-4ca4-bfe0-316d6c89c4aa?cta=feds">SAP End User Channel</a>, Skillsoft
 filters: Primary-Financial-Management-Systems GS-14-15 series-0501
 ---
 

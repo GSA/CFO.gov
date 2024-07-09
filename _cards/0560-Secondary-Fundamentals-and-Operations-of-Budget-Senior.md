@@ -15,7 +15,7 @@ level: "14-15"
 behavior_illustrations: " Provides some analysis and makes recommendations, on exceptionally difficult information from reports, systems and accounts using various standardized procedures under strict time constraints"
 proficiency_level_definition: " Applies the competency in exceptionally difficult situations  Serves as a key resource and advises others  Demonstrates comprehensive, expert understanding of concepts and processes"
 relevant_courses: 
-- New Course Coming Soon!
+- <a href="https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8?cta=feds" aria-label="Budgeting Channel - https://www.skillsoft.com/channel/budgeting-9a5b47a0-f91d-11e6-aad2-6b3c03be7fe8?cta=feds">Budgeting Channel</a>, Skillsoft
 filters: Secondary-Fundamentals-and-Operations-of-Budget GS-14-15 series-0560
 ---
 
