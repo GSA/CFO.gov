@@ -244,7 +244,7 @@ $(document).ready(function() {
 
         // Apply the filters
         table.draw();
-        window.history.replaceState({}, "", "/training-resources/");
+        window.history.replaceState({}, "", location.pathname);
     });
 
     // Event handler for checkboxes
