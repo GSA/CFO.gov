@@ -142,6 +142,25 @@ $(document).ready(function () {
       // Draw the table
       table.draw();
 
+      function countNonEmptyCollections(obj) {
+        let count = 0;
+        Object.keys(obj).forEach(key => {
+          const value = obj[key];
+          if (Array.isArray(value) && value.length > 0) {
+            // Count non-empty arrays
+            count++;
+          } else if (value instanceof Set && value.size > 0) {
+            // Count non-empty sets
+            count++;
+          }
+        });
+        if (count ==  0) {
+          $("#career-facet-remove-all-filters-button-training").css('display', 'none');
+        }  else {
+          $("#career-facet-remove-all-filters-button-training").css('display', 'block');
+        }
+      }
+
       // Object to store active filters for each column
       var activeFilters = {};
       var minBtn = 0;
@@ -181,7 +200,7 @@ $(document).ready(function () {
           activeFilters[columnIndex].clear();
           activeFilters[columnIndex].add('all');
         }
-
+        countNonEmptyCollections(activeFilters);
         // Apply the filters
         table.draw();
         window.history.replaceState({}, "", "/training-resources/");
@@ -202,6 +221,7 @@ $(document).ready(function () {
         } else {
           activeFilters['competency'].delete(filterValue);
         }
+        countNonEmptyCollections(activeFilters);
         // Apply the filters
         table.draw();
       });
@@ -238,6 +258,15 @@ $(document).ready(function () {
         else {
           row.child(format(row.data())).show();
         }
+      });
+
+      // Event handler for clear all
+      $("#career-facet-remove-all-filters-button-training").on('click', function () {
+        activeFilters = {};
+        $('.filterBtn').removeClass('active');
+        $('input[type="checkbox"]').prop('checked', false).change();
+        $("#career-facet-remove-all-filters-button-training").css('display', 'none');
+        table.draw();
       });
 
       // Event handler for "Select All" / "Deselect All" button
