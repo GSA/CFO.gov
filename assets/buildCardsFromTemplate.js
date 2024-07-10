@@ -136,6 +136,19 @@ filters: ${card.filters}
         fs.writeFileSync(filename, output);
         count++;
       }
+
+      //add column indices
+      const columnIndices = {
+        training_providers: 2,
+        learning_modality: 4,
+        course_credit_type: 5,
+        price: 6,
+        competency: 8,
+        job_series: 9,
+        gs_level: 10
+      };
+      courses.unshift(columnIndices);
+
       console.log(`CSV Parsed into ${count} files.`);
       fs.writeFileSync(coursesFilePath, JSON.stringify(courses, null, 2));
       console.log(`Courses written to ${coursesFilePath}`);

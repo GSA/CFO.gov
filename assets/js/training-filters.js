@@ -12,7 +12,7 @@ $(document).ready(function () {
     }
   }
 
-  // Use .then() for further processing
+  // processing courses
   fetchData().then(data => {
     if (data && data.length > 0) {
       var priceColumn = data[0].price;
@@ -22,7 +22,6 @@ $(document).ready(function () {
 
       // JSON data to populate the table
       const courses = data.slice(1);
-      console.log("fda", courses[0]);
 
       // Initialize DataTable with custom configs
       var table = $('#training-courses-table').DataTable({
