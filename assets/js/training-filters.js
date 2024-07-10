@@ -22,6 +22,7 @@ $(document).ready(function () {
 
       // JSON data to populate the table
       const courses = data.slice(1);
+      console.log("fda", courses[0]);
 
       // Initialize DataTable with custom configs
       var table = $('#training-courses-table').DataTable({
@@ -351,26 +352,28 @@ $(document).ready(function () {
             let duration = stripHtmlTags(item.course_duration_num + item.course_duration_attribute);
             let value = item.course_title;
             // Search by title
-            if (value.toLowerCase().indexOf(normalized) != -1) {
-              return stripHtmlTags(value);
+            if (value && typeof value === 'string') {
+              if (value.toLowerCase().indexOf(normalized) != -1) {
+                return stripHtmlTags(value);
+              }
+              else if (item.training_providers.toLowerCase().indexOf(normalized) != -1) {
+                return stripHtmlTags(item.training_providers);
+              }
+              // Search by Proficiency Level Definition
+              else if (duration.toLowerCase().indexOf(normalized) != -1) {
+                return duration;
+              }
+              // Search by Behavioral Illustrations
+              else if (item.learning_modality.toLowerCase().indexOf(normalized) != -1) {
+                return stripHtmlTags(item.learning_modality);
+              }
+              else if (item.course_credit_type.toLowerCase().indexOf(normalized) != -1) {
+                return stripHtmlTags(item.course_credit_type);
+              }
             }
-            else if (item.training_providers.toLowerCase().indexOf(normalized) != -1) {
-              return stripHtmlTags(item.training_providers);
+            else if (item.price.toString().indexOf(normalized) != -1) {
+              return stripHtmlTags(item.price);
             }
-            // Search by Proficiency Level Definition
-            else if (duration.toLowerCase().indexOf(normalized) != -1) {
-              return duration;
-            }
-            // Search by Behavioral Illustrations
-            else if (item.learning_modality.toLowerCase().indexOf(normalized) != -1) {
-              return stripHtmlTags(item.learning_modality);
-            }
-            else if (item.course_credit_type.toLowerCase().indexOf(normalized) != -1) {
-              return stripHtmlTags(item.course_credit_type);
-            }
-            // else if (item.price.toString().indexOf(normalized) != -1) {
-            //   return stripHtmlTags(item.price);
-            // }
             return null;
           });
           outputs = outputs.filter(function (x) { return !!x }).filter((item, index, self) => self.indexOf(item) === index);
