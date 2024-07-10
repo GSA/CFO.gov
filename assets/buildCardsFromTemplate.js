@@ -17,12 +17,11 @@ try {
 }
 
 const competencyDescriptions = require('./CPTT/competency_descriptions.json');
-const coursesFilePath = 'assets/CPTT/courses.json';
+const coursesFilePath = '_data/coursesJ.json';
 
 let courses = [];
 
 function buildCards() {
-
   for (let card of cards) {
     // Format data.
     card.jobSeries = card['JOB SERIES:'];
@@ -224,7 +223,8 @@ function addCourse(row) {
     course_duration_attribute: row.course_duration_attribute,
     job_series: [],
     gs_level: [],
-    competency: []
+    competency: [],
+    filters: []
   };
 
   for (let i = 1; i <= 10; i++) {
@@ -243,9 +243,10 @@ function addCourse(row) {
           link: row.link,
           institution: row.training_providers
         });
-        // Add job_series and gs_level to the course
+        // Add job_series, gs_level, and filters to the course
         course.job_series.push(mapJobSeries(card.jobSeries));
         course.gs_level.push("GS " + card.gsLevel);
+        course.filters.push(card.filters);
         // Break out of the loop if a match is found
         break;
       }
