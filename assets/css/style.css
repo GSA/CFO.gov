@@ -32,13 +32,13 @@ table.dataTable tbody tr {
   background-color: white;
 }
 
-#myTable.dataTable thead th {
+#training-courses-table.dataTable thead th {
     background-color: rgb(237, 243, 243);
     border-bottom: 1.5px solid rgb(99, 156, 153);
     border-top: 2px solid rgb(99, 156, 153);
 }
 
-#myTable.dataTable tbody td {
+#training-courses-table.dataTable tbody td {
     border-bottom: .5px solid rgb(99, 156, 153);
     border-top: .5px solid rgb(99, 156, 153);
 }
