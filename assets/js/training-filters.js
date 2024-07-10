@@ -1,7 +1,7 @@
 $(document).ready(function () {
   async function fetchData() {
     try {
-      const response = await fetch('/assets/CPTT/courses.json');
+      const response = await fetch('../assets/CPTT/courses.json');
       if (!response.ok) {
         throw new Error('Network response was not ok for courses.json');
       }
