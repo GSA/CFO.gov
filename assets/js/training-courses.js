@@ -8,7 +8,19 @@ $(document).ready(function () {
   }
   var priceColumn = columns.price;
 
-  $.getJSON('/assets/CPTT/courses.json', function (data) {
+  function getPathPrefix() {
+    var path = window.location.pathname;
+    var prefix = path.replace('/training-resources', '');
+    if (prefix.endsWith('/')) {
+      prefix = prefix.slice(0, -1);
+    }
+    return prefix;
+  }
+
+  var pathPrefix = getPathPrefix();
+  var jsonFilePath = pathPrefix + '/assets/CPTT/courses.json';
+
+  $.getJSON(jsonFilePath, function (data) {
 
     // Initialize DataTable with custom configs
     var table = $('#myTable').DataTable({
