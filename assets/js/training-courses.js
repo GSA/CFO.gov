@@ -168,6 +168,8 @@ $(document).ready(function () {
       const selectedJobSeries = $('.job-series-filter.active').map(function() { return $(this).data('job-series'); }).get();
       const selectedCompetencies = $('.competency-filter:checked').map(function() { return $(this).data('competency'); }).get();
 
+      const filterCount = selectedGsLevels.length + selectedJobSeries.length + selectedCompetencies.length;
+
       // If no filters are selected, use wildcards
       if (selectedGsLevels.length === 0) selectedGsLevels.push('.*');
       if (selectedJobSeries.length === 0) selectedJobSeries.push('.*');
@@ -183,10 +185,10 @@ $(document).ready(function () {
 
       table.column(8).search(filterRegex, true, false).draw();
 
-      if (selectedGsLevels + selectedJobSeries + selectedCompetencies ==  0) {
-        $("#career-facet-remove-all-filters-button-training").css('display', 'none');
+      if (filterCount ==  0) {
+        $("#career-facet-remove-all-filters-button-training").hide();
       }  else {
-        $("#career-facet-remove-all-filters-button-training").css('display', 'block');
+        $("#career-facet-remove-all-filters-button-training").show();
       }
     }
 
@@ -281,11 +283,14 @@ $(document).ready(function () {
     $("#career-facet-remove-all-filters-button-training").on('click', function () {
       activeFilters = {};
       $('.filterBtn').removeClass('active');
-      $('input[type="checkbox"]').prop('checked', false).change();
+      $('input[type="checkbox"]').prop('checked', false);
       $("#career-facet-remove-all-filters-button-training").css('display', 'none');
       $('.gs-level-filter').removeClass('active');
       $('.job-series-filter').removeClass('active');
-      table.draw();
+      updateSelectAllState('job-career-competency-select-training');
+      updateSelectAllState('general-career-competency-select-training');
+      filterTable();
+      $(this).hide();
     });
 
     // Event handler for "Select All" / "Deselect All" button
