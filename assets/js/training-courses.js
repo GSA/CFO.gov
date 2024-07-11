@@ -156,6 +156,13 @@ $(document).ready(function () {
           count++;
         }
       });
+
+      const selectedGsLevels = $('.gs-level-filter.active').map(function() { return $(this).data('gs-level'); }).get();
+      const selectedJobSeries = $('.job-series-filter.active').map(function() { return $(this).data('job-series'); }).get();
+      const selectedCompetencies = $('.competency-filter:checked').map(function() { return $(this).data('competency'); }).get();
+      const filterCount = selectedGsLevels.length + selectedJobSeries.length + selectedCompetencies.length;
+      count += filterCount;
+
       if (count ==  0) {
         $("#career-facet-remove-all-filters-button-training").css('display', 'none');
       }  else {
@@ -167,8 +174,6 @@ $(document).ready(function () {
       const selectedGsLevels = $('.gs-level-filter.active').map(function() { return $(this).data('gs-level'); }).get();
       const selectedJobSeries = $('.job-series-filter.active').map(function() { return $(this).data('job-series'); }).get();
       const selectedCompetencies = $('.competency-filter:checked').map(function() { return $(this).data('competency'); }).get();
-
-      const filterCount = selectedGsLevels.length + selectedJobSeries.length + selectedCompetencies.length;
 
       // If no filters are selected, use wildcards
       if (selectedGsLevels.length === 0) selectedGsLevels.push('.*');
@@ -185,11 +190,7 @@ $(document).ready(function () {
 
       table.column(8).search(filterRegex, true, false).draw();
 
-      if (filterCount ==  0) {
-        $("#career-facet-remove-all-filters-button-training").hide();
-      }  else {
-        $("#career-facet-remove-all-filters-button-training").show();
-      }
+      countNonEmptyCollections(activeFilters);
     }
 
     $('.gs-level-filter, .job-series-filter').on('click', function() {
