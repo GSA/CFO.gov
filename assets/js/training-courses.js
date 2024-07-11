@@ -303,7 +303,8 @@ $(document).ready(function () {
                 0: [0, 500],
                 500: [500, 1000],
                 1000: [1000, 2000],
-                2000: [2000, 10000]
+                2000: [2000, 10000],
+                10000: [10000, 20000]
               };
               var isInRange = filterValues.some(filterValue => {
                 if (rangeMappings[filterValue]) {
