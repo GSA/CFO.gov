@@ -182,6 +182,12 @@ $(document).ready(function () {
       }).flat().join('|');
 
       table.column(8).search(filterRegex, true, false).draw();
+
+      if (selectedGsLevels + selectedJobSeries + selectedCompetencies ==  0) {
+        $("#career-facet-remove-all-filters-button-training").css('display', 'none');
+      }  else {
+        $("#career-facet-remove-all-filters-button-training").css('display', 'block');
+      }
     }
 
     $('.gs-level-filter, .job-series-filter').on('click', function() {
@@ -277,6 +283,8 @@ $(document).ready(function () {
       $('.filterBtn').removeClass('active');
       $('input[type="checkbox"]').prop('checked', false).change();
       $("#career-facet-remove-all-filters-button-training").css('display', 'none');
+      $('.gs-level-filter').removeClass('active');
+      $('.job-series-filter').removeClass('active');
       table.draw();
     });
 
