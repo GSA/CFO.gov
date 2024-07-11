@@ -144,28 +144,11 @@ $(document).ready(function () {
     // Draw the table
     table.draw();
 
-    function countNonEmptyCollections(obj) {
-      let count = 0;
-      Object.keys(obj).forEach(key => {
-        const value = obj[key];
-        if (Array.isArray(value) && value.length > 0) {
-          // Count non-empty arrays
-          count++;
-        } else if (value instanceof Set && value.size > 0) {
-          // Count non-empty sets
-          count++;
-        }
-      });
-
-      const selectedGsLevels = $('.gs-level-filter.active').map(function() { return $(this).data('gs-level'); }).get();
-      const selectedJobSeries = $('.job-series-filter.active').map(function() { return $(this).data('job-series'); }).get();
-      const selectedCompetencies = $('.competency-filter:checked').map(function() { return $(this).data('competency'); }).get();
-      const filterCount = selectedGsLevels.length + selectedJobSeries.length + selectedCompetencies.length;
-      count += filterCount;
-
-      if (count ==  0) {
+    function countNonEmptyCollections() {
+      if (table.page.info().recordsDisplay == table.page.info().recordsTotal) {
         $("#career-facet-remove-all-filters-button-training").css('display', 'none');
-      }  else {
+      }
+      else {
         $("#career-facet-remove-all-filters-button-training").css('display', 'block');
       }
     }
@@ -190,7 +173,7 @@ $(document).ready(function () {
 
       table.column(8).search(filterRegex, true, false).draw();
 
-      countNonEmptyCollections(activeFilters);
+      countNonEmptyCollections();
     }
 
     $('.gs-level-filter, .job-series-filter').on('click', function() {
@@ -241,9 +224,9 @@ $(document).ready(function () {
         activeFilters[columnIndex].clear();
         activeFilters[columnIndex].add('all');
       }
-      countNonEmptyCollections(activeFilters);
       // Apply the filters
       table.draw();
+      countNonEmptyCollections();
       window.history.replaceState({}, "", location.pathname);
     });
 
@@ -290,6 +273,8 @@ $(document).ready(function () {
       $('.job-series-filter').removeClass('active');
       updateSelectAllState('job-career-competency-select-training');
       updateSelectAllState('general-career-competency-select-training');
+      $('#career-advancement-search-input-training-resources').val('');
+      $('#cfo-search-button-tr').click();
       filterTable();
       $(this).hide();
     });
@@ -429,8 +414,8 @@ $(document).ready(function () {
 
     $('#cfo-search-button-tr').on('click', function () {
       searchKeyword = $("#career-advancement-search-input-training-resources").val().trim().split('...')[0];
-
       table.search(searchKeyword).draw();
+      countNonEmptyCollections();
     })
 
     function toggleCheckboxes(group) {
