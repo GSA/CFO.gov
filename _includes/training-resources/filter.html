@@ -28,7 +28,8 @@
                     aria-label="Series-{{ series }}"
                     data-filter="{{ series }}"
                     data-column-num="{{ columns.job_series }}"
-                    class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
+                    data-job-series="series-{{ series_id }}"
+                    class="job-series-filter usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
                 >{{ series }}</button>
             {% endfor %}
         </div>
@@ -57,7 +58,8 @@
                 aria-label="GS Level - {{ level }}"
                 data-filter="GS {{ level }}"
                 data-column-num="{{ columns.gs_level }}"
-                class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
+                data-gs-level="GS-{{ level }}"
+                class="gs-level-filter usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
             >GS {{ level }}</button>
             {% endfor %}
         </div>
@@ -119,6 +121,8 @@
                                 <div class="career-input-group margin-top-105">
                                     <input type="checkbox"
                                            id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
+                                           class="competency-filter"
+                                           data-competency="{{ competency_group_id }}-{{ competency_id }}"
                                            data-filter="competency"
                                            data-major-group="job-specific"
                                            data-group="{{ competency_group_id | downcase }}"
@@ -175,6 +179,8 @@
                                         <input
                                             type="checkbox"
                                             id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
+                                            class="competency-filter"
+                                            data-competency="{{ competency_group_id }}-{{ competency_id }}"
                                             data-filter="competency"
                                             data-major-group="general"
                                             data-group="{{ competency_group_id | downcase }}"

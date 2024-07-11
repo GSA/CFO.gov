@@ -5,6 +5,7 @@ const parse = require('csv-parse').parse;
 const csvFilePath = 'assets/CPTT/courses.csv';
 const cardsFile = './CPTT/cards.json';
 let cards = [];
+
 // Try to load the cards file
 try {
   cards = require(cardsFile);
@@ -22,7 +23,6 @@ const coursesFilePath = 'assets/CPTT/courses.json';
 let courses = [];
 
 function buildCards() {
-
   for (let card of cards) {
     // Format data.
     card.jobSeries = card['JOB SERIES:'];
@@ -90,11 +90,6 @@ function buildCards() {
       addCourse(row);
     })
     .on('end', function () {
-      for (let course of courses) {
-        course.job_series = Array.from(new Set(course.job_series));
-        course.gs_level = Array.from(new Set(course.gs_level));
-      }
-
       let count = 0;
       for (let card of cards) {
         let relevant_courses = getCoursesForCard(card);
@@ -139,6 +134,11 @@ filters: ${card.filters}
       console.log(`CSV Parsed into ${count} files.`);
       fs.writeFileSync(coursesFilePath, JSON.stringify(courses, null, 2));
       console.log(`Courses written to ${coursesFilePath}`);
+
+      // New action: Write count of courses to _data/courses.yml
+      const coursesCountContent = `count: ${courses.length}`;
+      fs.writeFileSync('_data/courses_meta.yml', coursesCountContent);
+      console.log(`Courses count written to _data/courses_meta.yml`);
     });
 }
 
@@ -222,16 +222,8 @@ function addCourse(row) {
     additional_course_information: row.additional_course_information,
     course_duration_num: parseFloat(row.course_duration_num),
     course_duration_attribute: row.course_duration_attribute,
-    job_series: [],
-    gs_level: [],
-    competency: []
+    filters: []
   };
-
-  for (let i = 1; i <= 10; i++) {
-    if (row[`competency_${i}`]) {
-      course.competency.push(row[`competency_${i}`]);
-    }
-  }
 
   for (let card of cards) {
     card.courses_list = card.courses_list || []; // Ensure courses_list is initialized
@@ -243,9 +235,8 @@ function addCourse(row) {
           link: row.link,
           institution: row.training_providers
         });
-        // Add job_series and gs_level to the course
-        course.job_series.push(mapJobSeries(card.jobSeries));
-        course.gs_level.push("GS " + card.gsLevel);
+        // Add filters to the course
+        course.filters.push(card.filters);
         // Break out of the loop if a match is found
         break;
       }
