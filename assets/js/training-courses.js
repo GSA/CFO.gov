@@ -135,7 +135,7 @@ $(document).ready(function () {
       updateButtonState();
     });
 
-    $('#per-page-top').change(function () {
+    $('#per-page-top, #per-page-bot').change(function () {
       var length = $(this).val();
       table.page.len(length).draw();
       updateButtonState();
@@ -143,6 +143,32 @@ $(document).ready(function () {
 
     // Draw the table
     table.draw();
+
+    function countNonEmptyCollections(obj) {
+      let count = 0;
+      Object.keys(obj).forEach(key => {
+        const value = obj[key];
+        if (Array.isArray(value) && value.length > 0) {
+          // Count non-empty arrays
+          count++;
+        } else if (value instanceof Set && value.size > 0) {
+          // Count non-empty sets
+          count++;
+        }
+      });
+
+      const selectedGsLevels = $('.gs-level-filter.active').map(function() { return $(this).data('gs-level'); }).get();
+      const selectedJobSeries = $('.job-series-filter.active').map(function() { return $(this).data('job-series'); }).get();
+      const selectedCompetencies = $('.competency-filter:checked').map(function() { return $(this).data('competency'); }).get();
+      const filterCount = selectedGsLevels.length + selectedJobSeries.length + selectedCompetencies.length;
+      count += filterCount;
+
+      if (count ==  0) {
+        $("#career-facet-remove-all-filters-button-training").css('display', 'none');
+      }  else {
+        $("#career-facet-remove-all-filters-button-training").css('display', 'block');
+      }
+    }
 
     function filterTable() {
       const selectedGsLevels = $('.gs-level-filter.active').map(function() { return $(this).data('gs-level'); }).get();
@@ -163,6 +189,8 @@ $(document).ready(function () {
       }).flat().join('|');
 
       table.column(8).search(filterRegex, true, false).draw();
+
+      countNonEmptyCollections(activeFilters);
     }
 
     $('.gs-level-filter, .job-series-filter').on('click', function() {
@@ -213,7 +241,7 @@ $(document).ready(function () {
         activeFilters[columnIndex].clear();
         activeFilters[columnIndex].add('all');
       }
-
+      countNonEmptyCollections(activeFilters);
       // Apply the filters
       table.draw();
       window.history.replaceState({}, "", location.pathname);
@@ -250,6 +278,20 @@ $(document).ready(function () {
       } else {
         row.child(format(row.data())).show();
       }
+    });
+
+    // Event handler for clear all
+    $("#career-facet-remove-all-filters-button-training").on('click', function () {
+      activeFilters = {};
+      $('.filterBtn').removeClass('active');
+      $('input[type="checkbox"]').prop('checked', false);
+      $("#career-facet-remove-all-filters-button-training").css('display', 'none');
+      $('.gs-level-filter').removeClass('active');
+      $('.job-series-filter').removeClass('active');
+      updateSelectAllState('job-career-competency-select-training');
+      updateSelectAllState('general-career-competency-select-training');
+      filterTable();
+      $(this).hide();
     });
 
     // Event handler for "Select All" / "Deselect All" button
@@ -303,7 +345,8 @@ $(document).ready(function () {
                 0: [0, 500],
                 500: [500, 1000],
                 1000: [1000, 2000],
-                2000: [2000, 10000]
+                2000: [2000, 10000],
+                10000: [10000, 15000]
               };
               var isInRange = filterValues.some(filterValue => {
                 if (rangeMappings[filterValue]) {
