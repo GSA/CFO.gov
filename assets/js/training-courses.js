@@ -135,7 +135,7 @@ $(document).ready(function () {
       updateButtonState();
     });
 
-    $('#per-page-top').change(function () {
+    $('#per-page-top, #per-page-bot').change(function () {
       var length = $(this).val();
       table.page.len(length).draw();
       updateButtonState();
