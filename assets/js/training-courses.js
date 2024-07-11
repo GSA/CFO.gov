@@ -277,7 +277,6 @@ $(document).ready(function () {
       $('#cfo-search-button-tr').click();
       filterTable();
       $(this).hide();
-      table.draw();
     });
 
     // Event handler for "Select All" / "Deselect All" button
