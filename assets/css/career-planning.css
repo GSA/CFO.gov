@@ -232,6 +232,10 @@ input#career-advancement-search-input-training-resources {
   padding-top: 1em;
 }
 
+.align-center {
+  align-self: center;
+}
+
 /* .career-search-results-heading {
   flex: 2;
 }

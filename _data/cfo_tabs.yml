@@ -31,3 +31,70 @@
   path: /career-planning-training-tool/experiencing-issues-want-to-share-feedback/
   content: |
     <p>Please contact us at <a href="mailto:CFOC.Support@gsa.gov">CFOC.Support@gsa.gov </a> with any feedback, questions, or concerns.</p>
+- name: about-the-course-providers
+  title: About the Course Providers
+  path: /career-planning-training-tool/about-the-course-providers/
+  content: |
+    <p>paragraph 1</p>
+    <p>paragraph 2</p>
+    <p>paragraph 3</p>
+    <div class="grid-row">
+      <div class="grid-col-3 grid-row">
+        <div class="grid-col-2 align-center">
+          <img src="../[site_baseurl]/assets/img/usa-icons/file_present.svg"/>
+        </div>
+        <div class="grid-col-10">
+          <p>AGA</p>
+        </div>
+      </div>
+      <div class="grid-col-3 grid-row">
+        <div class="grid-col-2 align-center">
+          <img src="../[site_baseurl]/assets/img/usa-icons/school.svg"/>
+        </div>
+        <div class="grid-col-10">
+          <p>Data Society</p>
+        </div>
+      </div>
+      <div class="grid-col-3 grid-row">
+        <div class="grid-col-2 align-center">
+          <img src="../[site_baseurl]/assets/img/usa-icons/forum.svg"/>
+        </div>
+        <div class="grid-col-10">
+          <p>Emeritus</p>
+        </div>
+      </div>
+      <div class="grid-col-3 grid-row">
+        <div class="grid-col-2 align-center">
+          <img src="../[site_baseurl]/assets/img/usa-icons/bookmark.svg"/>
+        </div>
+        <div class="grid-col-10">
+          <p>George Mason University</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-row">
+        <div class="grid-col-3 grid-row">
+          <div class="grid-col-2 align-center">
+            <img src="../[site_baseurl]/assets/img/usa-icons/bathtub.svg"/>
+          </div>
+          <div class="grid-col-10">
+            <p>Graduate School USA (GSUSA)</p>
+          </div>
+        </div>
+        <div class="grid-col-3 grid-row">
+          <div class="grid-col-2 align-center">
+            <img src="../[site_baseurl]/assets/img/usa-icons/bedding.svg"/>
+          </div>
+          <div class="grid-col-10">
+            <p>Management Concepts</p>
+          </div>
+        </div>
+        <div class="grid-col-3 grid-row">
+          <div class="grid-col-2 align-center">
+            <img src="../[site_baseurl]/assets/img/usa-icons/local_cafe.svg"/>
+          </div>
+          <div class="grid-col-10">
+            <p>Skillsoft</p>
+          </div>
+        </div>
+      </div>
