@@ -7,11 +7,11 @@
     "build-cards": "node assets/buildCards.js"
   },
   "dependencies": {
+    "@uswds/uswds": "3.8.1",
     "csv": "^6.0.5",
     "csv-writer": "^1.6.0",
     "jquery": "3.6.4",
-    "react-redux": "^7.2.9",
-    "uswds": "^2.14.0"
+    "react-redux": "^7.2.9"
   },
   "devDependencies": {
     "a11y": "^0.5.1",
