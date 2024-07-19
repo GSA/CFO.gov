@@ -35,7 +35,7 @@ keyword: Resources
     <div class="grid-container">
         <div class="usa-graphic-list__row grid-row grid-gap">
             {% include resources-filters-coffa.html %}
-            {% include resources-data.html %}
+            {% include resources-data-coffa.html %}
         </div>
     </div>
 </section>
