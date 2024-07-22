@@ -3,7 +3,7 @@
 <div class="usa-media-block tablet:grid-col-9">
     <p class="filter-count margin-top-0 text-gray-50 text-thin"></p>
     <div class="resources">
-        {% assign resources_group = site.external_resources  | sort: "fiscal_year" | reverse | group_by: "fiscal_year" %}
+        {% assign resources_group = site.external_coffa_resources  | sort: "fiscal_year" | reverse | group_by: "fiscal_year" %}
         {% for resources in resources_group %}
         {% assign sorted_resources = resources.items | sort: 'subtitle' %}
         {% for resource in sorted_resources %}
