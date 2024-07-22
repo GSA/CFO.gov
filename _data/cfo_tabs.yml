@@ -32,8 +32,8 @@
   content: |
     <p>Please contact us at <a href="mailto:CFOC.Support@gsa.gov">CFOC.Support@gsa.gov </a> with any feedback, questions, or concerns.</p>
 - name: about-the-course-providers
-  title: About the Course Providers
-  path: /career-planning-training-tool/about-the-course-providers/
+  title: About the Training Course Providers
+  path: /career-planning-training-tool/about-the-traininng-course-providers/
   content: |
     <p>paragraph 1</p>
     <p>paragraph 2</p>
