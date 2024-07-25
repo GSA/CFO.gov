@@ -4,9 +4,16 @@ layout: default
 title: Priority
 
 ---
-
+{% if page.type == "career-planning-training-tool" %}
+<section class="usa-hero grid-container about-the-council cptt-div-height {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
+{% else %}
 <section class="usa-hero grid-container about-the-council {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
+{% endif %}
+    {% if page.type == "career-planning-training-tool" %}
+    <div class="grid-row grid-gap flex-align-center cptt-div-height">
+    {% else %}
     <div class="grid-row grid-gap flex-align-center div-height">
+    {% endif %}
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.svg"
                  alt="{{ page.type }}" />
