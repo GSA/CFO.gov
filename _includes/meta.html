@@ -20,6 +20,7 @@ site, this is the place to do it.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title and meta description
       ================================================== -->
+    <script src="{{ site.baseurl }}/assets/js/uswds-init.min.js?{{ site.time | date: '%s%N' }}"></script>
     {% if page.url contains "cxo-fellows" or page.url contains "payment-accuracy" or page.url contains "frpc" or page.url contains "jfmip" %}
     <title>{{page.title}}</title>
     <meta property="og:title" content="{{page.title}}">
@@ -40,7 +41,7 @@ site, this is the place to do it.
     {% endif %}
 
     <meta property="og:type" content="article">
-    <link rel="canonical" href="{{site.baseurl}}/">
+    <link rel="canonical" href="{{site.baseurl}}/{{canonical}}">
     <meta property="og:url" content="{{site.baseurl}}/">
     <!-- Favicons
       ================================================== -->

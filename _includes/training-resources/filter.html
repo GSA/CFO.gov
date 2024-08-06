@@ -28,7 +28,8 @@
                     aria-label="Series-{{ series }}"
                     data-filter="{{ series }}"
                     data-column-num="{{ columns.job_series }}"
-                    class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
+                    data-job-series="series-{{ series_id }}"
+                    class="job-series-filter usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
                 >{{ series }}</button>
             {% endfor %}
         </div>
@@ -57,7 +58,8 @@
                 aria-label="GS Level - {{ level }}"
                 data-filter="GS {{ level }}"
                 data-column-num="{{ columns.gs_level }}"
-                class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
+                data-gs-level="GS-{{ level }}"
+                class="gs-level-filter usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color bg-button radius-lg border-1px button-border"
             >GS {{ level }}</button>
             {% endfor %}
         </div>
@@ -119,6 +121,8 @@
                                 <div class="career-input-group margin-top-105">
                                     <input type="checkbox"
                                            id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
+                                           class="competency-filter"
+                                           data-competency="{{ competency_group_id }}-{{ competency_id }}"
                                            data-filter="competency"
                                            data-major-group="job-specific"
                                            data-group="{{ competency_group_id | downcase }}"
@@ -175,6 +179,8 @@
                                         <input
                                             type="checkbox"
                                             id="{{ competency_group_id | downcase }}-{{ competency_id | downcase }}"
+                                            class="competency-filter"
+                                            data-competency="{{ competency_group_id }}-{{ competency_id }}"
                                             data-filter="competency"
                                             data-major-group="general"
                                             data-group="{{ competency_group_id | downcase }}"
@@ -205,6 +211,7 @@
           <button type="button" aria-label="Price Band 500" data-min="500" data-max="1000" data-column-num="{{ columns.price }}" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$500 - $1,000</button>
           <button type="button" aria-label="Price Band 1000" data-min="1000" data-max="2000" data-column-num="{{ columns.price }}" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$1,000 - $2,000</button>
           <button type="button" aria-label="Price Band 2000" data-min="2000" data-max="10000" data-column-num="{{ columns.price }}" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$2,000 - $10,000</button>
+          <button type="button" aria-label="Price Band 10000" data-min="10000" data-max="15000" data-column-num="{{ columns.price }}" class="filterBtn usa-button padding-1 margin-bottom-2 margin-right-0 text-bold text-color border-1px bg-button radius-lg button-border">$10,000 - $15,000</button>
         </div>
 
         <label class="margin-top-0 text-color font-sans-xs text-bold">Training Providers<i class="fa fa-info-circle usa-tooltip margin-left-1 font-size-16" data-position="right" title="Filter your search by training providers" aria-label="Information about filtering your search"></i></label>

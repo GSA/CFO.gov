@@ -15,6 +15,9 @@ assets/uswds/
 assets/js/uswds.js
 assets/js/uswds.min.js
 assets/js/uswds.min.js.map
+assets/js/uswds-init.js
+assets/js/uswds-init.min.js
+assets/js/uswds-init.min.js.map
 _pages/payment-accuracy/assets/fonts/
 !_pages/payment-accuracy/assets/fonts/.gitkeep
 _pages/payment-accuracy/assets/img/

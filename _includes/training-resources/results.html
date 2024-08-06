@@ -1,7 +1,7 @@
 <div id="career-advancement-results-container" class="tablet:grid-col-7 desktop:grid-col-8 padding-right-4 padding-top-8">
   <section class="margin-bottom-1">
-    <div id="career-search-results-filter-remove-all-button" class="margin-y-1">
-      <a href="javascript:void(0)" class="text-color" id="career-facet-remove-all-filters-button"><strong>Clear All</strong></a>
+    <div id="career-search-results-filter-remove-all-button-training" class="margin-y-1">
+      <a href="javascript:void(0)" class="text-color" id="career-facet-remove-all-filters-button-training" style="display: none;"><strong>Clear All</strong></a>
     </div>
   </section>
   <section>
@@ -11,7 +11,7 @@
   </section>
 
   <div class="career-search-results-filter-pagination flex-wrap padding-bottom-2">
-      {% assign post_count = site.data.coursesJ | size %}
+      {% assign post_count = site.data.courses_meta.count %}
       {% assign default_page_size = 10 %}
       {% assign post_pages = post_count | divided_by: default_page_size %}
       {% assign full_pages = post_pages | times: default_page_size %}
@@ -43,6 +43,7 @@
             <th>Credit Type</th>
             <th>Price</th>
             <th>Select for Download</th>
+            <th>Filters</th>
         </tr>
     </thead>
     <tbody>
