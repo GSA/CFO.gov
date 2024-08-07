@@ -26,75 +26,23 @@
   path: /career-planning-training-tool/coming-next/
   content: |
     <p>The initial version of the CPTT is modest in scope and budget, intended to demonstrate its value and relevance to federal leadership and the broader federal community. It is explicitly referenced in the current President's Management Agenda (PMA), and the CFOC Workforce Modernization Committee continues to work with the PMA Team to develop this critical initiative. In the coming year, we hope to evolve many of the CPTT's features, including updating competency cards and broadening the scope to include additional job series relevant to the Federal Financial Assistance workforce.</p>
+- name: about-the-course-providers
+  title: About the Training Course Providers
+  path: /career-planning-training-tool/about-the-traininng-course-providers/
+  content: |
+    <p>Within this CPTT initiative we’ve teamed with several training course providers (below). They have vetted, and competitively-selected, courses that directly apply to specific CPTT career competencies. As you navigate the tool, and the courses, you will learn more about their offerings. Below are document links containing additional helpful information about each provider. Each information link will generally summarize the scope of their course offerings, provide details about their purchasing process, and offer other information that may be informative when making a purchase decision.</p>
+    <ul>
+      <li><a href="../../assets/files/CPTT-AGA-Awareness-Content.pptx">AGA</a></li>
+      <li><a href="../../assets/files/CPTT-Data-Society-Awareness-Content.pptx">Data Society</a></li>
+      <li>Emeritus</li>
+      <li><a href="../../assets/files/CPTT-GMU-Awareness-Content.pdf">George Mason University</a></li>
+      <li><a href="../../assets/files/CPTT-GSUSA-Awareness-Content.pptx">Graduate School USA</a></li>
+      <li><a href="../../assets/files/CPTT-Management-Concepts-Awareness-Content.pptx">Management Concepts</a></li>
+      <li><a href="../../assets/files/CPTT-Skillsoft-Awareness-Content.pptx">Skillsoft</a></li>
+    </ul>
+
 - name: experiencing-issues-want-to-share-feedback
   title: Experiencing Issues? Want to Share Feedback?
   path: /career-planning-training-tool/experiencing-issues-want-to-share-feedback/
   content: |
     <p>Please contact us at <a href="mailto:CFOC.Support@gsa.gov">CFOC.Support@gsa.gov </a> with any feedback, questions, or concerns.</p>
-- name: about-the-course-providers
-  title: About the Training Course Providers
-  path: /career-planning-training-tool/about-the-traininng-course-providers/
-  content: |
-    <p>paragraph 1</p>
-    <p>paragraph 2</p>
-    <p>paragraph 3</p>
-    <div class="grid-row">
-      <div class="grid-col-3 grid-row">
-        <div class="grid-col-2 align-center">
-          <img src="[site_baseurl]/assets/img/usa-icons/school.svg"/>
-        </div>
-        <div class="grid-col-10">
-          <p>AGA</p>
-        </div>
-      </div>
-      <div class="grid-col-3 grid-row">
-        <div class="grid-col-2 align-center">
-          <img src="[site_baseurl]/assets/img/usa-icons/school.svg"/>
-        </div>
-        <div class="grid-col-10">
-          <p>Data Society</p>
-        </div>
-      </div>
-      <div class="grid-col-3 grid-row">
-        <div class="grid-col-2 align-center">
-          <img src="[site_baseurl]/assets/img/usa-icons/school.svg"/>
-        </div>
-        <div class="grid-col-10">
-          <p>Emeritus</p>
-        </div>
-      </div>
-      <div class="grid-col-3 grid-row">
-        <div class="grid-col-2 align-center">
-          <img src="[site_baseurl]/assets/img/usa-icons/school.svg"/>
-        </div>
-        <div class="grid-col-10">
-          <p>George Mason University</p>
-        </div>
-      </div>
-    </div>
-    <div class="grid-row">
-        <div class="grid-col-3 grid-row">
-          <div class="grid-col-2 align-center">
-            <img src="[site_baseurl]/assets/img/usa-icons/school.svg"/>
-          </div>
-          <div class="grid-col-10">
-            <p>Graduate School USA (GSUSA)</p>
-          </div>
-        </div>
-        <div class="grid-col-3 grid-row">
-          <div class="grid-col-2 align-center">
-            <img src="[site_baseurl]/assets/img/usa-icons/school.svg"/>
-          </div>
-          <div class="grid-col-10">
-            <p>Management Concepts</p>
-          </div>
-        </div>
-        <div class="grid-col-3 grid-row">
-          <div class="grid-col-2 align-center">
-            <img src="[site_baseurl]/assets/img/usa-icons/school.svg"/>
-          </div>
-          <div class="grid-col-10">
-            <p>Skillsoft</p>
-          </div>
-        </div>
-      </div>
