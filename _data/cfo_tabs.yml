@@ -22,7 +22,7 @@
      <p>Once the user has identified a knowledge gap, they can use the embedded web links to view available external training options. When selecting a course to pursue, users should follow their respective agency's policy for purchasing training.</p>
      <p>Click here to access for additional information about this initiative. </p>
 - name: coming-next
-  title: Coming Next
+  title: Future Enhancements
   path: /career-planning-training-tool/coming-next/
   content: |
     <p>The initial version of the CPTT is modest in scope and budget, intended to demonstrate its value and relevance to federal leadership and the broader federal community. It is explicitly referenced in the current President's Management Agenda (PMA), and the CFOC Workforce Modernization Committee continues to work with the PMA Team to develop this critical initiative. In the coming year, we hope to evolve many of the CPTT's features, including updating competency cards and broadening the scope to include additional job series relevant to the Federal Financial Assistance workforce.</p>
@@ -35,7 +35,7 @@
       <li><a href="../../assets/files/CPTT-AGA-Awareness-Content.pptx">AGA</a></li>
       <li><a href="../../assets/files/CPTT-Data-Society-Awareness-Content.pptx">Data Society</a></li>
       <li>Emeritus</li>
-      <li><a href="../../assets/files/CPTT-GMU-Awareness-Content.pdf">George Mason University</a></li>
+      <li><a href="../../assets/files/CPTT-GMU-Awareness-Content.pdf" target="_blank">George Mason University</a></li>
       <li><a href="../../assets/files/CPTT-GSUSA-Awareness-Content.pptx">Graduate School USA</a></li>
       <li><a href="../../assets/files/CPTT-Management-Concepts-Awareness-Content.pptx">Management Concepts</a></li>
       <li><a href="../../assets/files/CPTT-Skillsoft-Awareness-Content.pptx">Skillsoft</a></li>
