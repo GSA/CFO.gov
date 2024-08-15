@@ -2,7 +2,7 @@
 layout: resources-landing
 title: "Uniform Guidance: Title 2 of the Code of Federal Regulations"
 subtitle: "Uniform Guidance: Title 2 of the Code of Federal Regulations"
-permalink: /resources/uniform-guidance/
+permalink: /coffa/resources/uniform-guidance/
 filters: federal-financial-assistance guidance 2013
 fiscal_year: 2013
 ---

@@ -2,7 +2,7 @@
 layout: resources-landing
 title: "Innovation Exchange Sessions"
 subtitle: "Innovation Exchange Sessions"
-permalink: /external_resources_coffa/innovation-exchanges/
+permalink: /coffa/resources/innovation-exchanges/
 filters: federal-financial-assistance training omb 2022
 fiscal_year: 2022
 ---

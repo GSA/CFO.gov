@@ -3,7 +3,7 @@ layout: resources-landing
 title: "Federal Financial Assistance Training"
 subtitle: "Federal Financial Assistance Training"
 filters: federal-financial-assistance training omb
-permalink: /resources/federal-financial-assistance-training/
+permalink: /coffa/resources/federal-financial-assistance-training/
 fiscal_year:
 ---
 
