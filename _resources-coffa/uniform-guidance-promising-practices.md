@@ -2,7 +2,7 @@
 layout: resources-landing
 title: 'Uniform Guidance: Promising Practices in Implementation'
 subtitle: Uniform Guidance Promising Practices in Implementation
-permalink: /coffa/resources/uniform-guidance-promising-practices-in-implementation/
+permalink: /resources-coffa/uniform-guidance-promising-practices-in-implementation/
 date: July 05, 2016
 author: CFO Council 
 has_date: 'yes'

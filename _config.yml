@@ -211,6 +211,8 @@ collections:
     output: true
   resources:
     output: true
+  resources-coffa:
+    output: true
   cxo_resources:
     output: true
   cards:
