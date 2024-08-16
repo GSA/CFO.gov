@@ -7,7 +7,7 @@ keyword: Resources
 ---
 
 <section class="usa-hero grid-container about-the-council margin-bottom-5">
-    <div class="grid-row grid-gap flex-align-center">
+    <div class="grid-row grid-gap flex-align-center div-height">
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/resources.svg"
                  alt="Resources Logo" />
