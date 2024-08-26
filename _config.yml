@@ -211,11 +211,15 @@ collections:
     output: true
   resources:
     output: true
+  resources-coffa:
+    output: true
   cxo_resources:
     output: true
   cards:
     output: false
   external_resources:
+    output: false
+  external_resources_coffa:
     output: false
   external_cxo_resources:
     output: false

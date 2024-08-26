@@ -1,0 +1,54 @@
+<!--********Resources folder**************-->
+
+<div class="usa-media-block tablet:grid-col-9">
+    <p class="filter-count margin-top-0 text-gray-50 text-thin"></p>
+    <div class="resources">
+        {% assign resources_group = site.resources-coffa | concat: site.external_resources_coffa  | sort: "fiscal_year" | reverse | group_by: "fiscal_year" %}
+        {% for resources in resources_group %}
+        {% assign sorted_resources = resources.items | sort: 'subtitle' %}
+        {% for resource in sorted_resources %}
+        {% assign className = resource.filters | split: ' ' | first %}
+        <div class="tablet:grid-col-4  grid-spacing policy {{ resource.filters }}">
+            <!-- adds star icon on new resources for 30 days -->
+            {% if resource.post-date %}
+            {% assign days = 30 | times: 24 | times: 60 | times: 60 %}
+            {% assign end_date = resource.post-date | date: '%s' | plus: days %}
+            {% assign today_date = 'now' | date: '%s' | plus: 0 %}
+            {% if today_date < end_date %}
+            <img class="new-resource-icon" src="{{ site.baseurl }}/assets/images/star.svg" alt="an icon for newly posted resource">
+            {% endif %}
+            {% endif %}
+            <div class="border-top-1 {{className}}-border bg-white padding-2 shadow-5 members-hover" style="height:330px">
+                {% if resource.permalink %}
+                <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ resource.permalink }}">
+                    {% elsif resource.doc-link %}
+                    <a class="no-style anchor-fill" href="{{ resource.doc-link }}">
+                        {% elsif resource.external_link %}
+                        <a class="no-style anchor-fill" href="{{ resource.external_link }}" aria-label="{% if resource.aria-label %} {{resource.aria-label}} {% endif %}">
+                            {% elsif resource.link %}
+                            <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ resource.link }}">
+                                {% endif %}
+                                <div class="text-container">
+                                    <strong><p style="font-size:15px">{{ resource.subtitle }}</p></strong>
+                                    {% assign filters = resource.filters | split: ' ' %}
+                                    {% for filter in filters  limit: 2 %}
+                                    {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
+                                    {% if has_link == 'No' %}
+                                    <p class="title-resources">{{ filter | upcase }}</p>
+                                    {% else %}
+                                    {% assign hyphen_filter = filter | split: '-' %}
+                                    <p class="title-resources">
+                                        {% for second_filter in hyphen_filter %}
+                                        {{ second_filter | upcase }}
+                                        {% endfor %}
+                                    </p>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </a>
+            </div>
+        </div>
+        {% endfor %}
+        {% endfor %}
+    </div>
+</div>
