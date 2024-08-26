@@ -22,10 +22,25 @@
      <p>Once the user has identified a knowledge gap, they can use the embedded web links to view available external training options. When selecting a course to pursue, users should follow their respective agency's policy for purchasing training.</p>
      <p>Click here to access for additional information about this initiative. </p>
 - name: coming-next
-  title: Coming Next
+  title: Future Enhancements
   path: /career-planning-training-tool/coming-next/
   content: |
     <p>The initial version of the CPTT is modest in scope and budget, intended to demonstrate its value and relevance to federal leadership and the broader federal community. It is explicitly referenced in the current President's Management Agenda (PMA), and the CFOC Workforce Modernization Committee continues to work with the PMA Team to develop this critical initiative. In the coming year, we hope to evolve many of the CPTT's features, including updating competency cards and broadening the scope to include additional job series relevant to the Federal Financial Assistance workforce.</p>
+- name: about-the-course-providers
+  title: About the Training Course Providers
+  path: /career-planning-training-tool/about-the-traininng-course-providers/
+  content: |
+    <p>Within this CPTT initiative we’ve teamed with several training course providers (below). They have vetted, and competitively-selected, courses that directly apply to specific CPTT career competencies. As you navigate the tool, and the courses, you will learn more about their offerings. Below are document links containing additional helpful information about each provider. Each information link will generally summarize the scope of their course offerings, provide details about their purchasing process, and offer other information that may be informative when making a purchase decision.</p>
+    <ul>
+      <li><a href="../../assets/files/CPTT-AGA-Awareness-Content.pdf" target="_blank">AGA</a></li>
+      <li><a href="../../assets/files/CPTT-Data-Society-Awareness-Content.pdf" target="_blank">Data Society</a></li>
+      <li>Emeritus</li>
+      <li><a href="../../assets/files/CPTT-GMU-Awareness-Content.pdf" target="_blank">George Mason University</a></li>
+      <li><a href="../../assets/files/CPTT-GSUSA-Awareness-Content-2.pdf" target="_blank">Graduate School USA</a></li>
+      <li><a href="../../assets/files/CPTT-Management-Concepts-Awareness-Content.pdf" target="_blank">Management Concepts</a></li>
+      <li><a href="../../assets/files/CPTT-Skillsoft-Awareness-Content.pdf" target="_blank">Skillsoft</a></li>
+    </ul>
+
 - name: experiencing-issues-want-to-share-feedback
   title: Experiencing Issues? Want to Share Feedback?
   path: /career-planning-training-tool/experiencing-issues-want-to-share-feedback/
