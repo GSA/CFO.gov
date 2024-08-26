@@ -105,6 +105,11 @@ box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
   background-position: -200px -43px;
   background-color:transparent;
 }
+@media (max-width: 846px) {
+  .ui-tabs-vertical {
+    background-image: none;
+  }
+}
 .tabSection{
   background-image: url("../images/blue-back.png");
   background-repeat: no-repeat;
