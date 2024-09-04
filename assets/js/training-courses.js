@@ -235,7 +235,7 @@ $(document).ready(function () {
       return (
         '<div class="grid-container">' +
         '<div class="grid-row">' +
-        '<div class="tablet:grid-col">' +
+        '<div class="tablet:grid-col description-column-width">' +
         '<dl>' +
         '<dt>Course Description</dt>' +
         "<p>" + d['course_description'] + "</p>" +

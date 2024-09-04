@@ -5,6 +5,14 @@
     display: none;
 }
 
+.margin-bottom-training-button {
+  margin-bottom: 1.5rem;
+}
+
+.description-column-width {
+  margin-right: 2em;
+}
+
 .dt-search {
     display: none;
 }
