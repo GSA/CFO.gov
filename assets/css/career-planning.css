@@ -44,6 +44,32 @@
   margin-top: 25px;
 }
 
+/* container */
+.responsive-two-column-grid {
+  display:block;
+}
+
+/* columns */
+.responsive-two-column-grid > * {
+  padding:1rem;
+}
+
+.responsive-float {
+  float: right;
+}
+
+/* tablet breakpoint */
+@media (min-width:800px) {
+  .responsive-two-column-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .responsive-float {
+    display: inline-block;
+  }
+}
+
 .search-container {
   display: flex;
   text-align: right;
@@ -289,9 +315,6 @@ input#career-advancement-search-input-training-resources {
    .search {
         flex-direction: column;
    }
-    .width {
-        width: 92% !important;
-    }
   .ui-dialog{
     width: 90% !important;
     margin-left: 20px;

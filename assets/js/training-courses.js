@@ -24,6 +24,11 @@ $(document).ready(function () {
 
     // Initialize DataTable with custom configs
     var table = $('#myTable').DataTable({
+      responsive: {
+        details: {
+          display: $.fn.dataTable.Responsive.display.childRow
+        }
+      },
       data: data,
       dom: 'Bfrt',
       buttons: [
@@ -95,6 +100,8 @@ $(document).ready(function () {
           }
         },
         {"orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
+        {data: "course_description", defaultContent: ''},
+        {data: "additional_course_information", defaultContent: ''},
         { data: 'filters', visible: false }
       ],
       createdRow: (row, data, index) => {
@@ -252,16 +259,16 @@ $(document).ready(function () {
       );
     }
 
-    table.on('click', 'td.dt-control', function (e) {
-      let tr = e.target.closest('tr');
-      let row = table.row(tr);
+    // table.on('click', 'td.dt-control', function (e) {
+    //   let tr = e.target.closest('tr');
+    //   let row = table.row(tr);
 
-      if (row.child.isShown()) {
-        row.child.hide();
-      } else {
-        row.child(format(row.data())).show();
-      }
-    });
+    //   if (row.child.isShown()) {
+    //     row.child.hide();
+    //   } else {
+    //     row.child(format(row.data())).show();
+    //   }
+    // });
 
     // Event handler for clear all
     $("#career-facet-remove-all-filters-button-training").on('click', function () {
