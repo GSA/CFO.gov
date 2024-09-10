@@ -80,7 +80,7 @@
                 '</div>';
         }
         var urlBase = window.location.href.split('/career-planning-tool/');
-        coursesDiv.innerHTML = '<div class="grid-row center-button"> <a href= "'+ urlBase[0] + '/training-resources/#series=' + item.series + '&level=GS ' + item.level +'&competency='+item.competency +'&competencygroup='+item.competency_group +'" class="usa-button usa-button--outline margin-bottom-1 button-border view-applicable-courses">VIEW APPLICABLE TRAINING COURSES</a></div>';
+        coursesDiv.innerHTML = '<div class="grid-row center-button"> <a href= "'+ urlBase[0] + '/training-resources/#series=' + item.series + '&level=GS ' + item.level +'&competency='+item.competency +'&competencygroup='+item.competency_group +'" class="usa-button usa-button--outline margin-bottom-1 button-border view-applicable-courses" aria-label="View applicable training courses for job series ' + item.series + ', GS level ' + item.level + ', competency ' + item.competency +'">VIEW APPLICABLE TRAINING COURSES</a></div>';
         outerDiv3.append(coursesDiv);
 
         const selectButtonWrapper = document.createElement('div');
