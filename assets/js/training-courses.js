@@ -105,9 +105,9 @@ $(document).ready(function () {
           }
         },
         {"orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
+        { data: 'filters', visible: false },
         {data: "course_description", defaultContent: ''},
-        {data: "additional_course_information", defaultContent: ''},
-        { data: 'filters', visible: false }
+        {data: "additional_course_information", defaultContent: ''}
       ],
       createdRow: (row, data, index) => {
         row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);
