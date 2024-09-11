@@ -28,6 +28,8 @@ relevant_courses:
 - <a href="https://www.skillsoft.com/channel/managing-risk-f80bf9d0-e716-11e6-9835-f723b46a2688?cta=feds" aria-label="Managing Risk Channel - https://www.skillsoft.com/channel/managing-risk-f80bf9d0-e716-11e6-9835-f723b46a2688?cta=feds">Managing Risk Channel</a>, Skillsoft
 - <a href="https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417807" aria-label="PEBU 0425 Managing the Business Enterprise - https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417807">PEBU 0425 Managing the Business Enterprise</a>, George Mason University
 - <a href="https://www.agacgfm.org/Events/PDT/PDT-Home.aspx" aria-label="Professional Development Training (PDT) - multi-competency training - https://www.agacgfm.org/Events/PDT/PDT-Home.aspx">Professional Development Training (PDT) - multi-competency training</a>, AGA
+- <a href="Red Flags of Infrastructure Fraud (AUDT8005) | Graduate School USA" aria-label="Red Flags of Infrastructure Fraud (AUDT8005) - Red Flags of Infrastructure Fraud (AUDT8005) | Graduate School USA">Red Flags of Infrastructure Fraud (AUDT8005)</a>, Graduate School USA (GSUSA)
+- <a href="Red Flags of Infrastructure Fraud for Investigators (INVG8030) | Graduate School USA" aria-label="Red Flags of Infrastructure Fraud for Investigators (INVG8030) - Red Flags of Infrastructure Fraud for Investigators (INVG8030) | Graduate School USA">Red Flags of Infrastructure Fraud for Investigators (INVG8030)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.agacgfm.org/Training/Webinars.aspx" aria-label="Webinar - Risk Management - https://www.agacgfm.org/Training/Webinars.aspx">Webinar - Risk Management</a>, AGA
 filters: Secondary-Risk-Management GS-7-9 series-0511
 ---
