@@ -21,7 +21,7 @@ relevant_courses:
 - <a href="https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives" aria-label="Data Literacy for Executives - https://datasociety.meldr.ai/courses/DataScienceLiteracy/DataLiteracyForExecutives">Data Literacy for Executives</a>, Data Society
 - <a href="https://www.LearnAtGSUSA.com/AUDT8034" aria-label="Effective Audit Resolution, Follow-up and Implementation (AUDT8034) - https://www.LearnAtGSUSA.com/AUDT8034">Effective Audit Resolution, Follow-up and Implementation (AUDT8034)</a>, Graduate School USA (GSUSA)
 - <a href="https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8?cta=feds" aria-label="Financial Analysis Channel - https://www.skillsoft.com/channel/financial-analysis-db9a0210-f91d-11e6-aad2-6b3c03be7fe8?cta=feds">Financial Analysis Channel</a>, Skillsoft
-- <a href="Making Your Case to Prosecute Fraud for Investigators (INVG8010) | Graduate School USA" aria-label="Making your Case to Prosecute Fraud for Investigators (INVG8010) - Making Your Case to Prosecute Fraud for Investigators (INVG8010) | Graduate School USA">Making your Case to Prosecute Fraud for Investigators (INVG8010)</a>, Graduate School USA (GSUSA)
+- <a href="https://www.graduateschool.edu/courses/making-your-case-to-prosecute-fraud-for-investigators" aria-label="Making your Case to Prosecute Fraud for Investigators (INVG8010) - https://www.graduateschool.edu/courses/making-your-case-to-prosecute-fraud-for-investigators">Making your Case to Prosecute Fraud for Investigators (INVG8010)</a>, Graduate School USA (GSUSA)
 filters: Primary-Decision-Support GS-14-15 series-0560
 ---
 
