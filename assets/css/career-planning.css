@@ -55,18 +55,27 @@
 }
 
 .responsive-float {
-  float: right;
+  display: inline-block;
+}
+
+.responsive-size {
+  width: 269px;
+  max-width: 100%;
 }
 
 /* tablet breakpoint */
-@media (min-width:800px) {
+@media (min-width:820px) {
   .responsive-two-column-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
   }
 
   .responsive-float {
-    display: inline-block;
+    float: right;
+  }
+
+  .responsive-size {
+    width:fit-content;
   }
 }
 
@@ -315,6 +324,7 @@ input#career-advancement-search-input-training-resources {
    .search {
         flex-direction: column;
    }
+
   .ui-dialog{
     width: 90% !important;
     margin-left: 20px;
@@ -589,6 +599,10 @@ div[data-card-filter] {
     border-left: 0.25rem solid #4f9e991a !important;
     border-right: 0.25rem solid #4f9e991a !important;
     padding-bottom: 1rem !important;
+}
+
+.max-width-cptt-courses {
+  max-width: 810px;
 }
 
 .bg-accent-warm.usa-accordion__button:hover {

@@ -29,6 +29,11 @@ $(document).ready(function () {
           display: $.fn.dataTable.Responsive.display.childRow
         }
       },
+      columnDefs: [
+        { responsivePriority: 1, targets: 7},
+        { responsivePriority: 10001, targets: 9},
+        { responsivePriority: 10002, targets: 10},
+      ],
       data: data,
       dom: 'Bfrt',
       buttons: [
