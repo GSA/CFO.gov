@@ -256,7 +256,7 @@
       doc.moveDown(1);
       const parser = new DOMParser();
 
-      if (card.relevant_courses.length == 0) {
+      if (!card.relevant_courses || card.relevant_courses.length === 0) {
         doc.font(norm).text('No Courses yet.');
       }
       else {
