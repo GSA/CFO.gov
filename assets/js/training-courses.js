@@ -53,6 +53,7 @@ $(document).ready(function () {
         },
         {
           extend: 'pdfHtml5',
+          orientation: 'landscape',
           exportOptions: {
             modifier: {
               selected: true
