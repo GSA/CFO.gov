@@ -363,7 +363,7 @@
       var strCL = "";
       items = [];
 
-      if (card.relevant_courses.length == 0) {
+      if (!card.relevant_courses || card.relevant_courses.length === 0) {
         strCL = 'No Courses yet.';
       }
       else {
