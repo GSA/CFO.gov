@@ -39,7 +39,6 @@
 }
 
 .search-container-cptt {
-  display: grid;
   text-align: right;
   margin-top: 25px;
 }
@@ -54,13 +53,14 @@
   padding:1rem;
 }
 
-.responsive-float {
-  display: inline-block;
+.responsive-size {
+  width: 326px;
+  max-width: 100%;
 }
 
-.responsive-size {
-  width: 269px;
-  max-width: 100%;
+
+.responsive-float {
+  float: left;
 }
 
 /* tablet breakpoint */
@@ -70,12 +70,36 @@
       grid-template-columns: 1fr 1fr;
   }
 
-  .responsive-float {
-    float: right;
+  input#career-advancement-search-input {
+    width: 230px;
+  }
+
+  #cfo-search-button {
+    height: 2.5rem;
+    width: 30%;
+  }
+
+  #cfo-search-button-tr {
+    height: 2.5rem;
+    width: 30%;
+  }
+  
+  input#career-advancement-search-input-training-resources {
+    width: 230px;
+  }
+
+  .search-container-cptt {
+    display: grid;
+    text-align: right;
+    margin-top: 25px;
   }
 
   .responsive-size {
     width:fit-content;
+  }
+
+  .responsive-float {
+    float: right;
   }
 }
 
@@ -174,21 +198,21 @@
 }
 
 input#career-advancement-search-input {
-  width: 230px;
+  width: 90%;
 }
 
 input#career-advancement-search-input-training-resources {
-  width: 230px;
+  width: 90%;
 }
 
 #cfo-search-button {
   height: 2.5rem;
-  width: 30%;
+  width: 90%;
 }
 
 #cfo-search-button-tr {
   height: 2.5rem;
-  width: 30%;
+  width: 90%;
 }
 
 @media screen and (min-width: 821px) {
