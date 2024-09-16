@@ -81,7 +81,10 @@ $(document).ready(function () {
         }
       ],
       columns: [
-        {data: null, "className": 'dt-control', "orderable": false, "defaultContent": ''}, //accordion columnn
+        //{data: null, "className": 'dt-control', "orderable": false, "defaultContent": ''}, //accordion columnn
+        {data: null, "className": 'dt-control', "orderable": false,  render: function (data, type, row) {
+          return '<div aria-label="row drop down"></div>';
+        }, "defaultContent": ''},
         {
           data: 'course_title', render: function (data, type, row) {
             return '<a href="' + (row.link || '#') + '" target="_blank" rel="noopener noreferrer">' + (data || '') + '</a>';
