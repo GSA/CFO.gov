@@ -219,11 +219,21 @@ input#career-advancement-search-input-training-resources {
   input#career-advancement-search-input {
     width: 27rem;
   }
+
+  #cfo-search-button {
+    height: 2.5rem;
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 820) {
   input#career-advancement-search-input {
     width: 23rem;
+  }
+
+  #cfo-search-button {
+    height: 2.5rem;
+    width: 90%;
   }
 }
 
@@ -231,11 +241,21 @@ input#career-advancement-search-input-training-resources {
   input#career-advancement-search-input-training-resources {
     width: 27rem;
   }
+
+  #cfo-search-button-tr {
+    height: 2.5rem;
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 820) {
   input#career-advancement-search-input-training-resources {
     width: 23rem;
+  }
+
+  #cfo-search-button-tr {
+    height: 2.5rem;
+    width: 90%;
   }
 }
 
