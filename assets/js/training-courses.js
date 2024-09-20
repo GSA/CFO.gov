@@ -24,6 +24,16 @@ $(document).ready(function () {
 
     // Initialize DataTable with custom configs
     var table = $('#myTable').DataTable({
+      responsive: {
+        details: {
+          display: $.fn.dataTable.Responsive.display.childRow
+        }
+      },
+      columnDefs: [
+        { responsivePriority: 1, targets: 7},
+        { responsivePriority: 10001, targets: 9},
+        { responsivePriority: 10002, targets: 10},
+      ],
       data: data,
       dom: 'Bfrt',
       buttons: [
@@ -72,7 +82,10 @@ $(document).ready(function () {
         }
       ],
       columns: [
-        {data: null, "className": 'dt-control', "orderable": false, "defaultContent": ''}, //accordion columnn
+        //{data: null, "className": 'dt-control', "orderable": false, "defaultContent": ''}, //accordion columnn
+        {data: null, "className": 'dt-control', "orderable": false,  render: function (data, type, row) {
+          return '<div aria-label="row drop down"></div>';
+        }, "defaultContent": ''},
         {
           data: 'course_title', render: function (data, type, row) {
             return '<a href="' + (row.link || '#') + '" target="_blank" rel="noopener noreferrer">' + (data || '') + '</a>';
@@ -96,7 +109,9 @@ $(document).ready(function () {
           }
         },
         {"orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
-        { data: 'filters', visible: false }
+        { data: 'filters', visible: false },
+        {data: "course_description", defaultContent: ''},
+        {data: "additional_course_information", defaultContent: ''}
       ],
       createdRow: (row, data, index) => {
         row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);
@@ -253,16 +268,16 @@ $(document).ready(function () {
       );
     }
 
-    table.on('click', 'td.dt-control', function (e) {
-      let tr = e.target.closest('tr');
-      let row = table.row(tr);
+    // table.on('click', 'td.dt-control', function (e) {
+    //   let tr = e.target.closest('tr');
+    //   let row = table.row(tr);
 
-      if (row.child.isShown()) {
-        row.child.hide();
-      } else {
-        row.child(format(row.data())).show();
-      }
-    });
+    //   if (row.child.isShown()) {
+    //     row.child.hide();
+    //   } else {
+    //     row.child(format(row.data())).show();
+    //   }
+    // });
 
     // Event handler for clear all
     $("#career-facet-remove-all-filters-button-training").on('click', function () {

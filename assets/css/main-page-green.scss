@@ -287,6 +287,20 @@ color:#005ea2;
   height: 22rem;
 }
 
+@media screen and (max-width: 820px) {
+  .cptt-div-height {
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .cptt-div-height {
+    height: 52rem;
+  }
+}
+
+
+
 .ui-tabs-active a {
     color: #3b7673;
     font-weight: bold;
