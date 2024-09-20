@@ -1,4 +1,4 @@
-<div id="career-advancement-results-container" class="tablet:grid-col-7 desktop:grid-col-8 padding-right-4 padding-top-8">
+<div id="career-advancement-results-container" class="tablet:grid-col-7 desktop:grid-col-8 padding-right-4 padding-top-8 max-width-cptt-courses">
   <section class="margin-bottom-1">
     <div id="career-search-results-filter-remove-all-button-training" class="margin-y-1">
       <a href="javascript:void(0)" class="text-color" id="career-facet-remove-all-filters-button-training" style="display: none;"><strong>Clear All</strong></a>
@@ -20,7 +20,7 @@
           {% assign post_pages = post_pages | plus: 1 %}
       {% endif %}
       <div class="career-search-results-pagination-wrapper card-content-color">
-          <button type="button" class="training-page-left" aria-label="left pagination top" disabled aria-disabled="true">&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="training-page-right" aria-label="right pagination top">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
+          <button type="button" class="training-page-left" aria-label="left pagination top" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="training-page-right" aria-label="right pagination top">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
       </div>
       <div class="career-search-results-page-size-wrapper card-content-color margin">
       <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-top">RESULTS PER PAGE: </label>
@@ -32,18 +32,20 @@
       </div>
   </div>
 
-  <table id="myTable" class="display">
+  <table id="myTable" class="display" aria-label="CPTT Courses">
     <thead>
         <tr>
-            <th></th>
-            <th>Course Title</th>
-            <th>Training Providers</th>
-            <th>Duration</th>
-            <th>Learning Modality</th>
-            <th>Credit Type</th>
-            <th>Price</th>
-            <th>Select for Download</th>
-            <th>Filters</th>
+            <th id="dropdown-table-column" scope="col"></th>
+            <th scope="col">Course Title</th>
+            <th scope="col">Training Providers</th>
+            <th scope="col">Duration</th>
+            <th scope="col">Learning Modality</th>
+            <th scope="col">Credit Type</th>
+            <th scope="col">Price</th>
+            <th scope="col">Select for Download</th>
+            <th scope="col">Filters</th>
+            <th scope="col">Course Description</th>
+            <th scope="col">Additional Course Information</th>
         </tr>
     </thead>
     <tbody>
@@ -53,7 +55,7 @@
 
   <div class="career-search-results-filter-pagination flex-wrap margin-bottom-205 padding-top-2">
     <div class="career-search-results-pagination-wrapper card-content-color">
-      <button type="button" class="training-page-left" aria-label="left pagination bottom" disabled aria-disabled="true">&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="training-page-right" aria-label="right pagination bottom">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
+      <button type="button" class="training-page-left" aria-label="left pagination bottom" disabled>&#60; <span class="usa-sr-only">Page left</span></button> <p class="cfo-pagination-text cfo-pagination-page">1</p>/<p class="cfo-pagination-text cfo-pagination-pages">{{ post_pages }}</p> RESULTS PER PAGE <button type="button" class="training-page-right" aria-label="right pagination bottom">&#62; <span class="usa-sr-only">Page right</span></button> <p class="cfo-pagination-text cfo-pagination-results">{{ post_count }}</p>
     </div>
     <div class="career-search-results-page-size-wrapper card-content-color margin">
       <label class="usa-label display-inline font-ui-3xs text-normal" for="per-page-bot">RESULTS PER PAGE: </label>

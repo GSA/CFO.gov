@@ -39,9 +39,68 @@
 }
 
 .search-container-cptt {
-  display: grid;
   text-align: right;
   margin-top: 25px;
+}
+
+/* container */
+.responsive-two-column-grid {
+  display:block;
+}
+
+/* columns */
+.responsive-two-column-grid > * {
+  padding:1rem;
+}
+
+.responsive-size {
+  width: 326px;
+  max-width: 100%;
+}
+
+
+.responsive-float {
+  float: left;
+}
+
+/* tablet breakpoint */
+@media (min-width:820px) {
+  .responsive-two-column-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  input#career-advancement-search-input {
+    width: 230px;
+  }
+
+  #cfo-search-button {
+    height: 2.5rem;
+    width: 30%;
+  }
+
+  #cfo-search-button-tr {
+    height: 2.5rem;
+    width: 30%;
+  }
+  
+  input#career-advancement-search-input-training-resources {
+    width: 230px;
+  }
+
+  .search-container-cptt {
+    display: grid;
+    text-align: right;
+    margin-top: 25px;
+  }
+
+  .responsive-size {
+    width:fit-content;
+  }
+
+  .responsive-float {
+    float: right;
+  }
 }
 
 .search-container {
@@ -139,26 +198,31 @@
 }
 
 input#career-advancement-search-input {
-  width: 230px;
+  width: 90%;
 }
 
 input#career-advancement-search-input-training-resources {
-  width: 230px;
+  width: 90%;
 }
 
 #cfo-search-button {
   height: 2.5rem;
-  width: 30%;
+  width: 90%;
 }
 
 #cfo-search-button-tr {
   height: 2.5rem;
-  width: 30%;
+  width: 90%;
 }
 
 @media screen and (min-width: 821px) {
   input#career-advancement-search-input {
     width: 27rem;
+  }
+
+  #cfo-search-button {
+    height: 2.5rem;
+    width: 30%;
   }
 }
 
@@ -166,17 +230,32 @@ input#career-advancement-search-input-training-resources {
   input#career-advancement-search-input {
     width: 23rem;
   }
+
+  #cfo-search-button {
+    height: 2.5rem;
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 821px) {
   input#career-advancement-search-input-training-resources {
     width: 27rem;
   }
+
+  #cfo-search-button-tr {
+    height: 2.5rem;
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 820) {
   input#career-advancement-search-input-training-resources {
     width: 23rem;
+  }
+
+  #cfo-search-button-tr {
+    height: 2.5rem;
+    width: 90%;
   }
 }
 
@@ -289,9 +368,7 @@ input#career-advancement-search-input-training-resources {
    .search {
         flex-direction: column;
    }
-    .width {
-        width: 92% !important;
-    }
+
   .ui-dialog{
     width: 90% !important;
     margin-left: 20px;
@@ -566,6 +643,10 @@ div[data-card-filter] {
     border-left: 0.25rem solid #4f9e991a !important;
     border-right: 0.25rem solid #4f9e991a !important;
     padding-bottom: 1rem !important;
+}
+
+.max-width-cptt-courses {
+  max-width: 810px;
 }
 
 .bg-accent-warm.usa-accordion__button:hover {

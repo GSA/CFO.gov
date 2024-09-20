@@ -23,37 +23,35 @@ attached:
 
 {% include  training-resources/header.html %}
 <div class="grid-container-widescreen">
-    <a id="main-content"></a>
+    <div id="main-content"></div>
     <div>
         <!-- HTML elements for search -->
         <section class="career-search-results-header grid-row margin-top-7 tablet:margin-top-10">
-            <div class="search-container grid-col-5 flex-justify flex-wrap tablet:flex-no-wrap">
-                <form class="usa-search margin-right-2" role="search">
-                    <div class="margin-top-0 career-search__label text-bold label-color text-size">
-                        <label for="career-advancement-search-input-training-resources">SEARCH COURSES</label>
-                    </div>
-                    <div class="tablet:display-block display-flex flex-justify search margin-bottom-1">
-                        <input type="text" id="career-advancement-search-input-training-resources" class="usa-input margin-top-0 search-border radius-md margin-bottom-1 width" type="search" name="search">
-                        <button class="usa-button bg-search margin-bottom-1 width text-green" type="submit" id="cfo-search-button-tr" title="Search">
-                            <span>SEARCH</span>
-                        </button>
-                    </div>
-                </form>
-            </div>
-            <div class="grid-col-1">
-
-            </div>
-            <div class="grid-col-6">
-                <div div class="float-right">
-                    <label for="training-download-buttons" class="text-bold training-course_buttons__label label-color float-right margin-bottom-1 text-size" >EXPORT CONTENT FROM THIS PAGE</label>
-                    <div id="training-download-buttons" class="export-content-buttons tablet:display-block display-flex flex-justify">
-                        <button id="training-download-button-1" class="training-download-button-1 usa-button usa-button--outline margin-bottom-1 button-border" data-position="top" data-op="select-all">SELECT ALL COURSES</button>
-                        <button id="training-download-button-2" class="usa-button usa-button--outline margin-bottom-1 usa-tooltip button-border" data-position="top" data-op="download-selected-pdf" disabled aria-disabled="true" title="This feature will allow you to download a report of all selected information cards in PDF file format.">DOWNLOAD PDF</button>
-                        <button id="training-download-button-3" class="usa-button usa-button--outline margin-bottom-1 usa-tooltip button-border" data-position="top" data-op="download-selected-csv" disabled aria-disabled="true" title="This feature will allow you to download a report of all selected information cards in CSV file format.">DOWNLOAD CSV</button>
+            <div class="responsive-two-column-grid">
+                <div class="search-container flex-justify flex-wrap tablet:flex-no-wrap">
+                    <form class="usa-search margin-right-2" role="search">
+                        <div class="margin-top-0 career-search__label text-bold label-color text-size">
+                            <label for="career-advancement-search-input-training-resources">SEARCH COURSES</label>
+                        </div>
+                        <div class="tablet:display-block display-flex flex-justify search margin-bottom-1">
+                            <input type="text" id="career-advancement-search-input-training-resources" class="usa-input margin-top-0 search-border radius-md margin-bottom-1 width" type="search" name="search">
+                            <button class="usa-button bg-search margin-bottom-1 width text-green" type="submit" id="cfo-search-button-tr" title="Search">
+                                <span>SEARCH</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <div div class="float-right">
+                        <label for="training-download-buttons" class="text-bold training-course_buttons__label label-color responsive-float margin-bottom-1 text-size" >EXPORT CONTENT FROM THIS PAGE</label>
+                        <div id="training-download-buttons" class="export-content-buttons tablet:display-block responsive-float display-flex flex-justify">
+                            <button id="training-download-button-1" class="training-download-button-1 usa-button usa-button--outline margin-bottom-1 button-border" data-position="top" data-op="select-all">SELECT ALL COURSES</button>
+                            <button id="training-download-button-2" class="usa-button usa-button--outline margin-bottom-1 usa-tooltip button-border" data-position="top" data-op="download-selected-pdf" disabled title="This feature will allow you to download a report of all selected information cards in PDF file format.">DOWNLOAD PDF</button>
+                            <button id="training-download-button-3" class="usa-button usa-button--outline margin-bottom-1 usa-tooltip button-border" data-position="top" data-op="download-selected-csv" disabled title="This feature will allow you to download a report of all selected information cards in CSV file format.">DOWNLOAD CSV</button>
+                        </div>
                     </div>
                 </div>
             </div>
-          
         </section>
         <div class="usa-graphic-list__row grid-row grid-gap ogp-grid">
             {% include  training-resources/filter.html %}
