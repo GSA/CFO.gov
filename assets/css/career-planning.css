@@ -248,6 +248,14 @@ input#career-advancement-search-input-training-resources {
   }
 }
 
+.no-right-padding {
+  margin-right: 0rem;
+}
+
+.small-right-padding {
+  margin-right: .2rem;
+}
+
 @media screen and (max-width: 820) {
   input#career-advancement-search-input-training-resources {
     width: 23rem;
