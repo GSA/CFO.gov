@@ -5,6 +5,8 @@ $(document).ready(function () {
     learning_modality: 4,
     course_credit_type: 5,
     price: 6,
+    course_description: 7,
+    additional_course_information: 8,
   }
   var priceColumn = columns.price;
 
@@ -30,9 +32,9 @@ $(document).ready(function () {
         }
       },
       columnDefs: [
-        { responsivePriority: 1, targets: 7},
-        { responsivePriority: 10001, targets: 9},
-        { responsivePriority: 10002, targets: 10},
+        { responsivePriority: 1, targets: 9},
+        { responsivePriority: 10001, targets: 7},
+        { responsivePriority: 10002, targets: 8},
       ],
       data: data,
       dom: 'Bfrt',
@@ -43,23 +45,23 @@ $(document).ready(function () {
             modifier: {
               selected: true
             },
-            columns: ':gt(0):lt(6)',
+            columns: ':gt(0):lt(8)',
           },
-          customize: function (csv) {
-            var csvData = [];
-            csv.split('\n').forEach(function (row, index) {
-              if (row.trim().length > 0) { // Check for non-empty rows
-                var rowData = row.split(',');
-                if (index === 0) {
-                  rowData.push('Course Description', 'Additional Course Information'); // Add headers
-                } else if (index <= data.length) {
-                  rowData.push(data[index - 1].course_description, data[index - 1].additional_course_information); // Add data
-                }
-                csvData.push(rowData.join(','));
-              }
-            });
-            return csvData.join('\n');
-          }
+          // customize: function (csv) {
+          //   var csvData = [];
+          //   csv.split('\n').forEach(function (row, index) {
+          //     if (row.trim().length > 0) { // Check for non-empty rows
+          //       var rowData = row.split(',');
+          //       if (index === 0) {
+          //         rowData.push('Course Description', 'Additional Course Information'); // Add headers
+          //       } else if (index <= data.length) {
+          //         rowData.push(data[index - 1].course_description, data[index - 1].additional_course_information); // Add data
+          //       }
+          //       csvData.push(rowData.join(','));
+          //     }
+          //   });
+          //   return csvData.join('\n');
+          // }
         },
         {
           extend: 'pdfHtml5',
@@ -68,17 +70,17 @@ $(document).ready(function () {
             modifier: {
               selected: true
             },
-            columns: ':gt(0):lt(6)',
+            columns: ':gt(0):lt(8)',
           },
-          customize: function (doc) {
-            var body = doc.content[1].table.body;
-            body[0].push('Course Description', 'Additional Course Information'); // Add headers
-            data.forEach(function (rowData, index) {
-              if (index < body.length - 1) {
-                body[index + 1].push(rowData.course_description, rowData.additional_course_information); // Add data
-              }
-            });
-          }
+          // customize: function (doc) {
+          //   var body = doc.content[1].table.body;
+          //   body[0].push('Course Description', 'Additional Course Information'); // Add headers
+          //   data.forEach(function (rowData, index) {
+          //     if (index < body.length - 1) {
+          //       body[index + 1].push(rowData.course_description, rowData.additional_course_information); // Add data
+          //     }
+          //   });
+          // }
         }
       ],
       columns: [
@@ -108,17 +110,17 @@ $(document).ready(function () {
             return data ? ('$' + data.toLocaleString('en-US', {minimumFractionDigits: 2})) : '';
           }
         },
-        {"orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
-        { data: 'filters', visible: false },
         {data: "course_description", defaultContent: ''},
-        {data: "additional_course_information", defaultContent: ''}
+        {data: "additional_course_information", defaultContent: ''},
+        {"orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
+        { data: 'filters', visible: false }
       ],
       createdRow: (row, data, index) => {
-        row.querySelector(':nth-child(7)').setAttribute("data-filter", data["price"]);
+        row.querySelector(':nth-child(9)').setAttribute("data-filter", data["price"]);
       },
       select: {
         style: 'multi',
-        selector: 'td:nth-child(8)',
+        selector: 'td:nth-child(10)',
         className: 'no-background-color', // disable row highlighting
         headerCheckbox: false
       },
@@ -187,7 +189,7 @@ $(document).ready(function () {
         }).flat();
       }).flat().join('|');
 
-      table.column(8).search(filterRegex, true, false).draw();
+      table.column(10).search(filterRegex, true, false).draw();
 
       countNonEmptyCollections();
     }
@@ -323,6 +325,7 @@ $(document).ready(function () {
 
     // Event handler for PDF download button
     $('#training-download-button-2').on('click', function () {
+      console.log('selected rows ', table.rows({selected: true}))
       table.button('.buttons-pdf').trigger();
     });
 
