@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Career Planning & Training Tool! (in Beta)
+title: Welcome to the Career Planning & Training Tool!
 layout: priority-copy
 permalink: /career-planning-training-tool/
 aliases:
