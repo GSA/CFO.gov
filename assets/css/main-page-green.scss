@@ -291,11 +291,23 @@ color:#005ea2;
   .cptt-div-height {
     height: 40rem;
   }
+
+  .about-the-council {
+    background-image: url('../images/Abstract-Green-Hero-Image.png');
+    background-color: #000;
+    height: 22rem;
+}
 }
 
 @media screen and (max-width: 390px) {
   .cptt-div-height {
     height: 52rem;
+  }
+
+  .about-the-council {
+    background-image: url('../images/Abstract-Green-Hero-Image.png');
+    background-color: #000;
+    height: 26rem;
   }
 }
 
@@ -1050,6 +1062,16 @@ abbr{
   height: 10rem;
   width: 10rem;
   border-radius: 50%; 
+}
+
+@media (max-width: 821px) {
+  .circle-card {
+    background: white;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%; 
+    margin-top: 2rem;
+  }
 }
 
 .video-container {
