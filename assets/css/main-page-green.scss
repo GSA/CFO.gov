@@ -1421,6 +1421,7 @@ a.checked {
     color: #225d5a;
 }
 
+//no longer used after uswds upgrade
 // @media screen and (min-width: 640px) {
 //     .usa-banner__button[aria-expanded="true"]::after {
 //         background-color: transparent !important;
@@ -1459,34 +1460,34 @@ a.checked {
 //     }
 // }
 
-@media screen and (max-width: 640px) {
-    .usa-banner__button[aria-expanded="true"]::after {
-        border: 0;
-        background-image: url("../img/close-blue-60v-alt.svg"), linear-gradient(transparent, transparent);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: 1rem;
-        content: '';
-        display: inline-block;
-        height: 3rem;
-        width: 3rem;
-        margin-left: 0;
-        background-color: transparent !important;
-    }
+// @media screen and (max-width: 640px) {
+//     .usa-banner__button[aria-expanded="true"]::after {
+//         border: 0;
+//         background-image: url("../img/close-blue-60v-alt.svg"), linear-gradient(transparent, transparent);
+//         background-repeat: no-repeat;
+//         background-position: center center;
+//         background-size: 1rem;
+//         content: '';
+//         display: inline-block;
+//         height: 3rem;
+//         width: 3rem;
+//         margin-left: 0;
+//         background-color: transparent !important;
+//     }
 
-    .usa-banner__header-action::after {
-        background-image: url("../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: 0.5rem;
-        content: '';
-        display: inline-block;
-        height: 0.5rem;
-        width: 0.5rem;
-        margin-left: 2px;
-        background-color: transparent !important;
-    }
-}
+//     .usa-banner__header-action::after {
+//         background-image: url("../img/angle-arrow-down-primary.svg"), linear-gradient(transparent, transparent);
+//         background-repeat: no-repeat;
+//         background-position: center center;
+//         background-size: 0.5rem;
+//         content: '';
+//         display: inline-block;
+//         height: 0.5rem;
+//         width: 0.5rem;
+//         margin-left: 2px;
+//         background-color: transparent !important;
+//     }
+// }
 
 @media (min-width: 64em)
 {
