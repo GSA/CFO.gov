@@ -4,17 +4,12 @@
   content: |
     <p>Title 2 of the Code of Federal Regulations, also known as the “Uniform Guidance”, consists of Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards. It was issued by The Office of Management and Budget’s (OMB) on December 26, 2013 and was compiled from previously separate OMB circulars that addressed separately administrative requirements, audits, and cost principles for specific entities such as States and local governments, non-profit organizations, institutions of higher education, and Indian Tribes. The overarching goal of the Uniform Guidance is to improve program performance, reduce the administrative burden on award recipients and mitigate the risk of the inappropriate use of Federal funds. 2 CFR is considered guidance and not regulation.</p> 
     <p>OMB Guidance contained in Title 2 Subtitle A and applicable to Federal financial assistance includes 2 CFR 25 Universal Identifier and System for Award Management; 2 CFR 170 Reporting Subaward and Executive Compensation Information; and 2 CFR 180 OMB Guidelines to Agencies on Governmentwide Debarment and Suspension, and Part 184 Buy America Preferences for Infrastructure Projects. The guidance also includes several appendices, including Appendix I: Full Text of Notice of Funding Opportunity. Agencies publish their own regulations adopting the Uniform Guidance, with some exceptions, in Subtitle B of 2 CFR.</p>
-    <h2>April 4, 2024: Uniform Guidance Revisions Launch</h2>
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/935454224?h=5962b7e124&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="OMB Announces Release of the 2024 Uniform Grants Guidance"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-- name: uniform-guidance
-  title: Uniform Guidance Revisions & Resources
-  path: /coffa/uniform-guidance-coffa/revisions-and-resources/
-  content: |
-    <p>In 2024, OMB released an updated version of the Uniform Guidance. This page contains information that supports the implementation of these revisions, both for Federal practitioners and recipients. Information related to prior revisions is available for reference as well.</p>
 - name: "2024"
-  title: "2024"
+  title: "2024 Revisions & Resources"
   path: /coffa/uniform-guidance-coffa/2024/
   content: |
+    <p>In 2024, OMB released an updated version of the Uniform Guidance. This page contains information that supports the implementation of these revisions, both for Federal practitioners and recipients. Information related to prior revisions is available for reference as well.</p>
+
     <p><b>2024 Revisions</b></p>
       <ul>
         <li> <a class="text-black" href="https://www.federalregister.gov/documents/2024/04/22/2024-07496/guidance-for-federal-financial-assistance"> Federal Register Notice </a> </li>
@@ -22,10 +17,22 @@
         <li> <a class="text-black" href="https://www.cfo.gov/assets/files/2-CFR-Crosswalk-2024.xlsx"> 2 CFR Crosswalk 2024 </li>
         <li> <a class="text-black" href="https://www.whitehouse.gov/wp-content/uploads/2024/04/M-24-11-Revisions-to-2-CFR.pdf"> Implementation Memorandum (M-24-11) on revisions </a> </li>
         <li> <a class="text-black" href="https://www.cfo.gov/assets/files/FY-2024-Revisions-to-2-CFR-Supplementary-Information-for-Federal-Agency-Implementation.pdf">Federal Agency Implementation</a> </li>
-        <li> <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf"> Reference Guides </a> </li>
+        <li> Reference Guides: 
+          <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf"> Evaluation</a>, 
+          <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf#page=3"> Data</a>,
+          <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf#page=5"> Community Engagement</a>,
+          <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf#page=7"> NOFOs</a>,
+          <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf#page=9"> Labor</a>,
+          <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf#page=11"> Burden Reduction</a>
+        </li>
       </ul>
+    <h2>April 4, 2024: Uniform Guidance Revisions Launch</h2>
+    <div style="padding:56.25% 0 0 0;position:relative;">
+      <iframe src="https://player.vimeo.com/video/935454224?h=5962b7e124&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="OMB Announces Release of the 2024 Uniform Grants Guidance"></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
 - name: "2020"
-  title: "2020"
+  title: "2020 Revisions & Resources"
   path: /coffa/uniform-guidance-coffa/2020/
   content: |
     <p><b>2020 Revisions</b></p>
@@ -41,7 +48,7 @@
         <li> <a class="text-black" href="https://www.cfo.gov/assets/files/Sec.889-of-2019-NDAA_FAQ_20201124.pdf"> FAQ on Prohibition on Telecommunications </a> </li>
       </ul>
 - name: "2013"
-  title: "2013"
+  title: "2013 Revisions & Resources"
   path: /coffa/uniform-guidance-coffa/2013/
   content: |
     <p><b>2013 Release of Uniform Guidance</b></p>
