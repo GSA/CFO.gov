@@ -1,5 +1,5 @@
 - name: overview
-  title: Overview
+  title: Overview 123
   path: /coffa/uniform-guidance-coffa/overview/
   content: |
     <p>Title 2 of the Code of Federal Regulations, also known as the “Uniform Guidance”, consists of Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards. It was issued by The Office of Management and Budget’s (OMB) on December 26, 2013 and was compiled from previously separate OMB circulars that addressed separately administrative requirements, audits, and cost principles for specific entities such as States and local governments, non-profit organizations, institutions of higher education, and Indian Tribes. The overarching goal of the Uniform Guidance is to improve program performance, reduce the administrative burden on award recipients and mitigate the risk of the inappropriate use of Federal funds. 2 CFR is considered guidance and not regulation.</p> 
@@ -9,7 +9,6 @@
   path: /coffa/uniform-guidance-coffa/2024/
   content: |
     <p>In 2024, OMB released an updated version of the Uniform Guidance. This page contains information that supports the implementation of these revisions, both for Federal practitioners and recipients. Information related to prior revisions is available for reference as well.</p>
-
     <p><b>2024 Revisions</b></p>
       <ul>
         <li> <a class="text-black" href="https://www.federalregister.gov/documents/2024/04/22/2024-07496/guidance-for-federal-financial-assistance"> Federal Register Notice </a> </li>
