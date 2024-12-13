@@ -653,7 +653,7 @@ var trim = String.prototype.trim ? function (str) {
   return str.replace(RE_TRIM, '');
 };
 var queryById = function (id) {
-  return this.querySelector('[id="' + id.replace(/"/g, '\\"') + '"]');
+  return this.querySelector('[id="' + id.replace(/(["\\])/g, '\\$1') + '"]');
 };
 module.exports = function resolveIds(ids, doc) {
   if (typeof ids !== 'string') {
