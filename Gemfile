@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gem 'jekyll', '~> 4.3.3'
 gem 'jekyll-sass-converter', '~> 3.0'
-
+gem 'jekyll-liquify', "0.0.2"
 gem "webrick" # not included in jekyll directly until 4.3.0 https://github.com/jekyll/jekyll/pull/8524
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
