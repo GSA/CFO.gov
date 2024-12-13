@@ -20,7 +20,11 @@
     "minimist": "^1.2.8",
     "rimraf": "^3.0.2"
   },
-  "resolutions": {
-    "minimist": "1.2.8"
+  "overrides": {
+    "cross-spawn": "^6.0.6",
+    "trim":">=0.0.3",
+    "tough-cookie": ">=4.1.4",
+    "got": ">=11.8.5",
+    "trim-newlines": ">=5.0.0"
   }
 }
