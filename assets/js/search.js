@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         pagerLinks +=
             '<span class="margin-2">Page ' +
-            page +
+            encodeHTML(page) +
             " of " +
             Math.ceil(totalResults / resultsPerPage) +
             "</span>";
@@ -123,5 +123,13 @@ document.addEventListener("DOMContentLoaded", function () {
             searchParams.append("page", pageNumber);
         }
         return currentURL.toString();
+    }
+
+    function encodeHTML(str) {
+        return str.replace(/&/g, "&amp;")
+                  .replace(/</g, "&lt;")
+                  .replace(/>/g, "&gt;")
+                  .replace(/"/g, "&quot;")
+                  .replace(/'/g, "&#39;");
     }
 });
