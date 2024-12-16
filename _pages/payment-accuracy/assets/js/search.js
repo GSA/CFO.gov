@@ -1,3 +1,5 @@
+import DOMPurify from 'dompurify';
+
 document.addEventListener("DOMContentLoaded", function () {
     var searchResults = document.getElementById("search-results");
     var pathParts = window.location.pathname.split("/payment-accuracy/");
@@ -105,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         pagerLinks +=
             '<span class="margin-2">Page ' +
-            page +
+            DOMPurify.sanitize(page) +
             " of " +
             Math.ceil(totalResults / resultsPerPage) +
             "</span>";
