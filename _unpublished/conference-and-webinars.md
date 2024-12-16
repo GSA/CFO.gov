@@ -9,7 +9,7 @@ The Joint Financial Management Improvement Program (JFMIP), a cooperative undert
 
 Registration for federal employees will be done through their agency's Intragovernmental Payment and Collection System. Vendors with government contracts or Federal Government employees using their own funds will register through Pay.gov. Registration will open in the mid-March timeframe. More information to follow.
 
-Please send suggestions for session topics to [JFMIP@fiscal.treasury.gov](JFMIP@fiscal.treasury.gov) or [JFMIPCPE@gao.gov](JFMIPCPE@gao.gov)
+Please send suggestions for session topics to [JFMIPCPE@gao.gov](JFMIPCPE@gao.gov) or [JFMIPCPE@gao.gov](JFMIPCPE@gao.gov)
 
 ###CALL FOR NOMINEES - DONALD L. SCANTLEBURY MEMORIAL AWARD
 
