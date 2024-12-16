@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(function (posts) {
                 totalResults = posts.web.total;
                 document.getElementById("search-params").innerHTML =
-                    urlParams.get("query");
+                    DOMPurify.sanitize(urlParams.get("query"));
                 document.getElementById("search-keyword").innerHTML =
-                    urlParams.get("query");
+                    DOMPurify.sanitize(urlParams.get("query"));
                 document.getElementById("results-count").innerHTML = totalResults;
 
                 if (posts.web.results.length > 0) {
