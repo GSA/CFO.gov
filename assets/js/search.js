@@ -1,3 +1,5 @@
+import DOMPurify from 'dompurify';
+
 document.addEventListener("DOMContentLoaded", function () {
     var searchResults = document.getElementById("search-results");
     var pathParts = window.location.pathname.split("/payment-accuracy/");
@@ -44,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(function (posts) {
                 totalResults = posts.web.total;
                 document.getElementById("search-params").innerHTML =
-                    urlParams.get("query");
+                    DOMPurify.sanitize(urlParams.get("query"));
                 document.getElementById("search-keyword").innerHTML =
-                    urlParams.get("query");
+                    DOMPurify.sanitize(urlParams.get("query"));
                 document.getElementById("results-count").innerHTML = totalResults;
 
                 if (posts.web.results.length > 0) {

@@ -12,7 +12,8 @@
     "csv-writer": "^1.6.0",
     "jquery": "3.6.4",
     "react-redux": "^7.2.9",
-    "striptags": "^3.2.0"
+    "striptags": "^3.2.0",
+    "dompurify": "^3.2.3"
   },
   "devDependencies": {
     "a11y": "^0.5.1",
@@ -22,7 +23,7 @@
   },
   "overrides": {
     "cross-spawn": "^6.0.6",
-    "trim":">=0.0.3",
+    "trim": ">=0.0.3",
     "tough-cookie": ">=4.1.4",
     "got": ">=11.8.5",
     "trim-newlines": ">=5.0.0"
