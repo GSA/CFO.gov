@@ -1,0 +1,28 @@
+{% comment %}
+This template used by CFO Tabs feature. Include your data to render.
+{% endcomment %}
+
+{% assign data = include.data %}
+
+<div id="cfo-tabs" class="grid-row clearfix">
+  <ul class="tablet:grid-col-3 shadow-5">
+    {% for tab in data %}
+    <li>
+      <a href="#{{ tab.name }}"
+         role="tab"
+         aria-controls="{{ tab.name }}"
+         data-path="{{site.baseurl}}{{ tab.path }}"
+         id="tab-btn-{{ tab.name }}"
+         class="text-no-underline text-base-darker font-sans-md"
+      >{{ tab.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  {% for tab in data %}
+  <div id="{{ tab.name }}" tabindex="0" role="tabpanel" aria-labelledby="tab-btn-{{ tab.name }}"
+       class="tablet:grid-col-9 ui-tabs-panel ui-corner-bottom ui-widget-content padding-4">
+    {{ tab.content | replace: '[site_baseurl]', site.baseurl }}
+  </div>
+  {% endfor %}
+
+</div>
