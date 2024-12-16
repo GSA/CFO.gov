@@ -184,7 +184,7 @@ $(document).ready(function () {
       const filterRegex = selectedGsLevels.map(gsLevel => {
         return selectedJobSeries.map(jobSeries => {
           return selectedCompetencies.map(competency => {
-            return `${competency.replace('*', '.*')} ${gsLevel.replace('*', '.*')} ${jobSeries.replace('*', '.*')}`;
+            return `${competency.replace(/\*/g, '.*')} ${gsLevel.replace(/\*/g, '.*')} ${jobSeries.replace(/\*/g, '.*')}`;
           });
         }).flat();
       }).flat().join('|');
