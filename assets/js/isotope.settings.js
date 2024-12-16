@@ -21,7 +21,9 @@ jQuery(document).ready(function ($) {
     var initHash = "archive_area=" + encodeURIComponent(initialFilter);
 
     // Apply the new hash to the URI, triggering onHahschange()
-    location.hash = initHash;
+    if (location.pathname !== '/coffa/resource') {
+        location.hash = initHash;
+    }
 
     // Filter isotope
     $container.isotope({
