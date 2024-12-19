@@ -29,6 +29,7 @@ import DOMPurify from 'dompurify';
 }(function ($) {
     'use strict';
     var Slick = window.Slick || {};
+    var DOMPurify = require('dompurify');
 
     Slick = (function () {
 
@@ -1649,7 +1650,7 @@ import DOMPurify from 'dompurify';
         if ($imgsToLoad.length) {
 
             image = $imgsToLoad.first();
-            imageSource = image.attr('data-lazy');
+            imageSource = DOMPurify.sanitize(image.attr('data-lazy'));
             imageToLoad = document.createElement('img');
 
             imageToLoad.onload = function () {
