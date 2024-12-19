@@ -1489,7 +1489,7 @@
 
                 };
 
-                imageToLoad.src = imageSource;
+                imageToLoad.src = encodeURI(imageSource);
 
             });
 
