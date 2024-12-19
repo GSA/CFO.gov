@@ -1639,6 +1639,12 @@
 
         tryCount = tryCount || 1;
 
+        function sanitizeUrl(url) {
+            var a = document.createElement('a');
+            a.href = url;
+            return a.href;
+        }
+
         var _ = this,
             $imgsToLoad = $('img[data-lazy]', _.$slider),
             image,
@@ -1648,7 +1654,7 @@
         if ($imgsToLoad.length) {
 
             image = $imgsToLoad.first();
-            imageSource = image.attr('data-lazy');
+            imageSource = sanitizeUrl(image.attr('data-lazy'));
             imageToLoad = document.createElement('img');
 
             imageToLoad.onload = function () {
