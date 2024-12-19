@@ -1641,7 +1641,7 @@
 
         function sanitizeUrl(url) {
             var a = document.createElement('a');
-            a.href = url;
+            a.href = encodeURI(url);
             return a.href;
         }
 
