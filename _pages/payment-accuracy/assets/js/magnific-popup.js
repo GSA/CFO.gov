@@ -89,7 +89,7 @@
         },
         _getCloseBtn = function(type) {
             if(type !== _currPopupType || !mfp.currTemplate.closeBtn) {
-                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', mfp.st.tClose ) );
+                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', DOMPurify.sanitize(mfp.st.tClose)) );
                 _currPopupType = type;
             }
             return mfp.currTemplate.closeBtn;
