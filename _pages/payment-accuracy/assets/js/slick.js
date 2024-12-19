@@ -1467,7 +1467,7 @@
                     image
                         .animate({ opacity: 0 }, 100, function () {
                             image
-                                .attr('src', imageSource)
+                                .attr('src', encodeURI(imageSource))
                                 .animate({ opacity: 1 }, 200, function () {
                                     image
                                         .removeAttr('data-lazy')
