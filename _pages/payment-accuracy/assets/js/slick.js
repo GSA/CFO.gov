@@ -14,18 +14,18 @@
  Issues: http://github.com/kenwheeler/slick/issues
 
  */
-/* global window, document, define, jQuery, setInterval, clearInterval */
+/* global window, document, define, jQuery, setInterval, clearInterval, DOMPurify */
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
-        define(['jquery'], factory);
+        define(['jquery', 'dompurify'], factory);
     } else if (typeof exports !== 'undefined') {
-        module.exports = factory(require('jquery'));
+        module.exports = factory(require('jquery'), require('dompurify'));
     } else {
-        factory(jQuery);
+        factory(jQuery, DOMPurify);
     }
 
-}(function ($) {
+}(function ($, DOMPurify) {
     'use strict';
     var Slick = window.Slick || {};
 
@@ -1459,7 +1459,7 @@
             $('img[data-lazy]', imagesScope).each(function () {
 
                 var image = $(this),
-                    imageSource = $(this).attr('data-lazy'),
+                    imageSource = DOMPurify.sanitize($(this).attr('data-lazy')),
                     imageToLoad = document.createElement('img');
 
                 imageToLoad.onload = function () {
