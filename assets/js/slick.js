@@ -1696,7 +1696,7 @@ import DOMPurify from 'dompurify';
 
             };
 
-            imageToLoad.src = imageSource;
+            imageToLoad.src = encodeURI(imageSource);
 
         } else {
 
