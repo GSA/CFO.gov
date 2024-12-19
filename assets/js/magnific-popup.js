@@ -506,7 +506,8 @@
                 _mfpTrigger('FirstMarkupParse', markup);
 
                 if(markup) {
-                    mfp.currTemplate[type] = $(markup);
+                    var sanitizedMarkup = $.parseHTML(markup);
+                    mfp.currTemplate[type] = $(sanitizedMarkup);
                 } else {
                     // if there is no markup found we just define that template is parsed
                     mfp.currTemplate[type] = true;
