@@ -102,8 +102,6 @@ primary_navigation:
   - name: <abbr title="Federal Real Property Council">FRPC</abbr>
     url: "/frpc/"
 
-  - name: CXO Fellows
-    url: /cxo-fellows/
   - name: Career Planning & Training Tool
     url: /career-planning-training-tool/
 
@@ -122,7 +120,7 @@ secondary_navigation_cxo:
 
 secondary_navigation_jfmip:
   - name: Contact Us
-    url: "mailto:JFMIP@fiscal.treasury.gov"
+    url: "mailto:JFMIPCPE@gao.gov"
 
 secondary_navigation_coffa:
   - name: Contact Us
@@ -174,7 +172,7 @@ footer:
     email: CFOC.support@gsa.gov
     frpc-email: Realpropertypolicy@gsa.gov
     cxo-email: cxofellowship@gsa.gov
-    jfmip-email: JFMIP@fiscal.treasury.gov
+    jfmip-email: JFMIPCPE@gao.gov
     coffa-email: COFFA.support@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration

@@ -58,7 +58,7 @@
                 // Inserting the attribute to open a link in a new tab on each link
                 let relevant_course = item.relevant_courses[i];
                 if (typeof (relevant_course) === 'string' && relevant_course.indexOf('">') >= 0) {
-                    relevant_course = relevant_course.replace('>', ' target="_blank" >');
+                    relevant_course = relevant_course.replace(/>/g, ' target="_blank" >');
                 }
                 coursesMarkup += '<li role="listitem" class="card-content-color li-width">' + relevant_course + '</li>';
             }
@@ -70,7 +70,7 @@
                 // Inserting the attribute to open a link in a new tab on each link
                 let relevant_course = item.relevant_courses[i];
                 if (typeof (relevant_course) === 'string' && relevant_course.indexOf('">') >= 0) {
-                    relevant_course = relevant_course.replace('>', ' target="_blank" >');
+                    relevant_course = relevant_course.replace(/>/g, ' target="_blank" >');
                 }
                 coursesMarkup += '<li role="listitem" class="card-content-color li-width">' + relevant_course + '</li>';
             }
