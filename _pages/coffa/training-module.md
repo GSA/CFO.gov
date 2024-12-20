@@ -1,7 +1,7 @@
 ---
 layout: coffa-default
 title: Training Module
-permalink: /coffa/training-coffa/overview
+permalink: /coffa/training-coffa
 description:
 ---
 

@@ -23,7 +23,7 @@ window.addEventListener('pageshow', function(event) {
         '/major-legislation',
         '/payment-integrity',
         '/coffa/uniform-guidance-coffa',
-        '/coffa/training-coffa/overview'
+        '/coffa/training-coffa'
     ];
 
     var shouldReload = urlsToCheck.some(function(url) {

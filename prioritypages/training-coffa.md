@@ -1,10 +1,10 @@
 ---
 layout: priority-copy-coffa
 title: "Coffa Module Training"
-permalink: /coffa/training-coffa/overview/
+permalink: /coffa/training-coffa/
 aliases:
   - /coffa/training-coffa/
-  - /coffa/training-coffa/overview/
+  # - /coffa/training-coffa/overview/
   - /coffa/training-coffa/module-1/
   - /coffa/training-coffa/module-2/
   - /coffa/training-coffa/module-3/
