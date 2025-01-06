@@ -11,6 +11,7 @@
   path: /coffa/training-coffa/module-1/
   content: |+
     <h3>Module 1 - Coming Soon</h3>
+    <div><p>more information will be added here...</p></div>
 
         
 - name: "module-2"
