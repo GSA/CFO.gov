@@ -14,18 +14,18 @@
  Issues: http://github.com/kenwheeler/slick/issues
 
  */
-/* global window, document, define, jQuery, setInterval, clearInterval */
+/* global window, document, define, jQuery, setInterval, clearInterval, DOMPurify */
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
-        define(['jquery'], factory);
+        define(['jquery', 'dompurify'], factory);
     } else if (typeof exports !== 'undefined') {
-        module.exports = factory(require('jquery'));
+        module.exports = factory(require('jquery'), require('dompurify'));
     } else {
-        factory(jQuery);
+        factory(jQuery, DOMPurify);
     }
 
-}(function ($) {
+}(function ($, DOMPurify) {
     'use strict';
     var Slick = window.Slick || {};
 
@@ -1459,7 +1459,7 @@
             $('img[data-lazy]', imagesScope).each(function () {
 
                 var image = $(this),
-                    imageSource = $(this).attr('data-lazy'),
+                    imageSource = DOMPurify.sanitize($(this).attr('data-lazy')),
                     imageToLoad = document.createElement('img');
 
                 imageToLoad.onload = function () {
@@ -1467,7 +1467,7 @@
                     image
                         .animate({ opacity: 0 }, 100, function () {
                             image
-                                .attr('src', imageSource)
+                                .attr('src', encodeURI(imageSource))
                                 .animate({ opacity: 1 }, 200, function () {
                                     image
                                         .removeAttr('data-lazy')
@@ -1489,7 +1489,7 @@
 
                 };
 
-                imageToLoad.src = imageSource;
+                imageToLoad.src = encodeURI(imageSource);
 
             });
 
@@ -1639,6 +1639,12 @@
 
         tryCount = tryCount || 1;
 
+        function sanitizeUrl(url) {
+            var a = document.createElement('a');
+            a.href = encodeURI(url);
+            return a.href;
+        }
+
         var _ = this,
             $imgsToLoad = $('img[data-lazy]', _.$slider),
             image,
@@ -1648,7 +1654,7 @@
         if ($imgsToLoad.length) {
 
             image = $imgsToLoad.first();
-            imageSource = image.attr('data-lazy');
+            imageSource = sanitizeUrl(image.attr('data-lazy'));
             imageToLoad = document.createElement('img');
 
             imageToLoad.onload = function () {

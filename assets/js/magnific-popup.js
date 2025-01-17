@@ -353,7 +353,11 @@
             $('html').css(windowStyles);
 
             // add everything to DOM
-            mfp.bgOverlay.add(mfp.wrap).prependTo( mfp.st.prependTo || $(document.body) );
+            var prependToElement = $(document.body);
+            if (mfp.st.prependTo) {
+                prependToElement = $(document).find(mfp.st.prependTo);
+            }
+            mfp.bgOverlay.add(mfp.wrap).prependTo(prependToElement);
 
             // Save last focused element
             mfp._lastFocusedEl = document.activeElement;
@@ -506,7 +510,8 @@
                 _mfpTrigger('FirstMarkupParse', markup);
 
                 if(markup) {
-                    mfp.currTemplate[type] = $(markup);
+                    var sanitizedMarkup = $.parseHTML(markup);
+                    mfp.currTemplate[type] = $(sanitizedMarkup);
                 } else {
                     // if there is no markup found we just define that template is parsed
                     mfp.currTemplate[type] = true;
