@@ -10,7 +10,7 @@ description:
     <div class="grid-row grid-gap flex-align-center">
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
             <img class="circle-card tablet:float-left"  src="{{site.baseurl}}/assets/images/logos/training.svg"
-                 alt="Coffa Training Logo" />
+                 alt="COFFA Training Logo" />
         </div>
         <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
             <div class="priority-tag-line">
