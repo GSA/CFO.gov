@@ -15,6 +15,7 @@
 
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
+import DOMPurify from 'dompurify';
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -28,6 +29,7 @@
 }(function ($) {
     'use strict';
     var Slick = window.Slick || {};
+    var DOMPurify = require('dompurify');
 
     Slick = (function () {
 
@@ -1459,7 +1461,7 @@
             $('img[data-lazy]', imagesScope).each(function () {
 
                 var image = $(this),
-                    imageSource = $(this).attr('data-lazy'),
+                    imageSource = DOMPurify.sanitize($(this).attr('data-lazy')),
                     imageToLoad = document.createElement('img');
 
                 imageToLoad.onload = function () {
@@ -1648,7 +1650,7 @@
         if ($imgsToLoad.length) {
 
             image = $imgsToLoad.first();
-            imageSource = image.attr('data-lazy');
+            imageSource = DOMPurify.sanitize(image.attr('data-lazy'));
             imageToLoad = document.createElement('img');
 
             imageToLoad.onload = function () {
@@ -1695,7 +1697,7 @@
 
             };
 
-            imageToLoad.src = imageSource;
+            imageToLoad.src = encodeURI(imageSource);
 
         } else {
 

@@ -18,9 +18,11 @@
 # Be sure to edit the values below
 ##########################################################################################
 
+
 email: contact@example.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 coffabaseurl: "/coffa"
@@ -28,11 +30,13 @@ logo: /assets/images/logos/CFO-Logo-Color.svg
 jfmip-logo: /assets/images/logos/jfmip-logo-plain.png
 coffa-logo: /assets/images/logos/COFFA-Color-L.png
 
+
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
 
 # Configuration for Google Analytics, add your UA code here:
 google_analytics_ua: UA-????????-??
+
 
 dap_agency: GSA
 # USAID   - Agency for International Development
@@ -67,97 +71,96 @@ dap_agency: GSA
 
 # Site Navigation
 primary_navigation:
-- name: About Us
-  url: /
-  children:
-  - name: The  CFO Council
-    url: /about-the-council/
-  - name: Members
-    url: /members/
-  - name: The Support Team
-    url: /support/
-- name: Our Work
-  url: /
-  children:
-  - name: COFFA
-    url: "/coffa/"
-  - name: Federal Financial Reporting
-    url: "/federal-financial-reporting/"
-  - name: Financial Management Workforce
-    url: "/workforce-modernization/"
-  - name: Major Legislation
-    url: "/major-legislation/"
-  - name: Payment Integrity
-    url: "/payment-integrity/"
-  - name: Payment Integrity & Fraud Symposium
-    url: "/payment-integrity-fraud-symposium/"
-- name: Resources
-  url: "/resources/"
-- name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
-  url: "/jfmip/"
-- name: <abbr title="Federal Real Property Council">FRPC</abbr>
-  url: "/frpc/"
+  - name: About Us
+    url: /
+    children:
+      - name: The  CFO Council
+        url: /about-the-council/
+      - name: Members
+        url: /members/
+      - name: The Support Team
+        url: /support/
+  - name: Our Work
+    url: /
+    children:
+      - name: COFFA
+        url: "/coffa/"
+      - name: Federal Financial Reporting
+        url: "/federal-financial-reporting/"
+      - name: Financial Management Workforce
+        url: "/workforce-modernization/"
+      - name: Major Legislation
+        url:  "/major-legislation/"
+      - name: Payment Integrity
+        url: "/payment-integrity/"
+      - name: Payment Integrity & Fraud Symposium
+        url: "/payment-integrity-fraud-symposium/"
+  - name: Resources
+    url: "/resources/"
+  - name: <abbr title="Joint Financial Management Improvement Program">JFMIP</abbr>
+    url: "/jfmip/"
+  - name: <abbr title="Federal Real Property Council">FRPC</abbr>
+    url: "/frpc/"
 
-- name: CXO Fellows
-  url: /cxo-fellows/
-- name: Career Planning & Training Tool
-  url: /career-planning-training-tool/
+  - name: Career Planning & Training Tool
+    url: /career-planning-training-tool/
+
 
 secondary_navigation:
-- name: Contact Us
-  url: "mailto:CFOC.support@gsa.gov"
+  - name: Contact Us
+    url: "mailto:CFOC.support@gsa.gov"
 
 secondary_navigation_frpc:
-- name: Contact Us
-  url: "mailto:Realpropertypolicy@gsa.gov"
+  - name: Contact Us
+    url: "mailto:Realpropertypolicy@gsa.gov"
 
 secondary_navigation_cxo:
-- name: Contact Us
-  url: "mailto:cxofellowship@gsa.gov"
+  - name: Contact Us
+    url: "mailto:cxofellowship@gsa.gov"
 
 secondary_navigation_jfmip:
-- name: Contact Us
-  url: "mailto:JFMIP@fiscal.treasury.gov"
+  - name: Contact Us
+    url: "mailto:JFMIPCPE@gao.gov"
 
 secondary_navigation_coffa:
-- name: Contact Us
-  url: "mailto:coffa.support@gsa.gov"
+  - name: Contact Us
+    url: "mailto:coffa.support@gsa.gov"
 
 payment-accuracy-navigation:
-- name: About
-  url: /about-payment-accuracy/
-- name: Program Scorecards
-  url: /payment-accuracy-high-priority-programs/
-- name: The Numbers
-  url: /payment-accuracy-the-numbers/
-- name: Resources
-  url: /payment-accuracy-resources/
-- name: FAQ
-  url: /payment-accuracy-FAQ/
+  - name: About
+    url: /about-payment-accuracy/
+  - name: Program Scorecards
+    url: /payment-accuracy-high-priority-programs/
+  - name: The Numbers
+    url: /payment-accuracy-the-numbers/
+  - name: Resources
+    url: /payment-accuracy-resources/
+  - name: FAQ
+    url: /payment-accuracy-FAQ/
 
 primary_navigation_coffa:
-- name: About Us
-  url: /coffa/
-  children:
-  - name: The COFFA
-    url: "/coffa/about-the-coffa/"
-  - name: Members
-    url: "/coffa/members/"
-  - name: The Support Team
-    url: "/coffa/support/"
-- name: Major Initiatives
-  url: "/coffa/"
-  children:
-  - name: Uniform Guidance
-    url: "/coffa/uniform-guidance-coffa/"
-  - name: Training
-    url: "#"
-    # url: "/coffa/training-coffa/"
-- name: Resources
-  url: "/coffa/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*"
+  - name: About Us
+    url: /coffa/
+    children:
+      - name: The COFFA
+        url: "/coffa/about-the-coffa/"
+      - name: Members
+        url: "/coffa/members/"
+      - name: The Support Team
+        url: "/coffa/support/"
+  - name: Major Initiatives
+    url: "/coffa/"
+    children:
+      - name: Uniform Guidance
+        url: "/coffa/uniform-guidance-coffa/"
+      - name: Training
+        url: "#"
+ 
+  - name: Resources
+    url: "/coffa/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*"
 
-jfmip-navigation: #  - name: Current Initiatives
-
+jfmip-navigation:
+#  - name: Current Initiatives
 #    url: /
 #    children:
 #      - name: Improper Payment Initiative
@@ -170,7 +173,7 @@ footer:
     email: CFOC.support@gsa.gov
     frpc-email: Realpropertypolicy@gsa.gov
     cxo-email: cxofellowship@gsa.gov
-    jfmip-email: JFMIP@fiscal.treasury.gov
+    jfmip-email: JFMIPCPE@gao.gov
     coffa-email: COFFA.support@gsa.gov
     text: General Services Administration & the Office of Management and Budget
 # Search.gov configuration
@@ -226,11 +229,11 @@ markdown: kramdown
 
 url: "https://www.cfo.gov"
 plugins:
-- jekyll-feed
-- jekyll-paginate-v2
-- jekyll-redirect-from
-- jekyll-sitemap
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -276,30 +279,30 @@ pagination:
   #indexpage: "index.html"
 
 exclude:
-- package.json
-- package-lock.json
-- README.md
-- CONTRIBUTING.md
-- LICENSE.md
-- degit.json
-- vendor
-- node_modules
-- Gemfile
-- Gemfile.lock
-- _pages/empty.md
-- _unpublished
+  - package.json
+  - package-lock.json
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - degit.json
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - _pages/empty.md
+  - _unpublished
 
 autoprefixer:
   browsers:
-  - "> 2%"
-  - "last 2 versions"
-  - "IE 11"
-  - "not dead"
+    - "> 2%"
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
 
 sass:
   sass_dir: _sass
   load_paths:
-  - node_modules/@uswds/uswds/packages
+    - node_modules/@uswds/uswds/packages
   sourcemap: development
   quiet_deps: true
   style: compressed
