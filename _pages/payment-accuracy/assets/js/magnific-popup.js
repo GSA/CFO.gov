@@ -4,15 +4,15 @@
 ;(function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
-        define(['jquery'], factory);
+        define(['jquery', 'dompurify'], factory);
     } else if (typeof exports === 'object') {
         // Node/CommonJS
-        factory(require('jquery'));
+        factory(require('jquery'), require('dompurify'));
     } else {
         // Browser globals
-        factory(window.jQuery || window.Zepto);
+        factory(window.jQuery || window.Zepto, window.DOMPurify);
     }
-}(function($) {
+}(function($, DOMPurify) {
 
     /*>>core*/
     /**
@@ -89,7 +89,8 @@
         },
         _getCloseBtn = function(type) {
             if(type !== _currPopupType || !mfp.currTemplate.closeBtn) {
-                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', mfp.st.tClose) );
+                var sanitizedTitle = DOMPurify.sanitize(mfp.st.tClose);
+                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', sanitizedTitle) );
                 _currPopupType = type;
             }
             return mfp.currTemplate.closeBtn;
