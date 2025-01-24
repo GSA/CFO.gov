@@ -90,7 +90,8 @@
         _getCloseBtn = function(type) {
             if(type !== _currPopupType || !mfp.currTemplate.closeBtn) {
                 var sanitizedTitle = DOMPurify.sanitize(mfp.st.tClose);
-                mfp.currTemplate.closeBtn = $( mfp.st.closeMarkup.replace('%title%', sanitizedTitle) );
+                mfp.st.tClose = $('<div>').text(mfp.st.tClose).html(); // Escape text content
+                mfp.currTemplate.closeBtn = $(mfp.st.closeMarkup.replace('%title%', mfp.st.tClose));
                 _currPopupType = type;
             }
             return mfp.currTemplate.closeBtn;
