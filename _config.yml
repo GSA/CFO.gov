@@ -153,8 +153,9 @@ primary_navigation_coffa:
     children:
       - name: Uniform Guidance
         url: "/coffa/uniform-guidance-coffa/"
- #     - name: Training
- #      url: "/coffa/training-coffa/"
+      - name: Training
+        url: "#"
+ 
   - name: Resources
     url: "/coffa/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*"
 

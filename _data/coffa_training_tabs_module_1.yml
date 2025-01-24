@@ -1,0 +1,42 @@
+- name: overview
+  title: Overview
+  path: /coffa/training-coffa
+  content: |
+    <h2>Coming Soon</h2>
+
+    <div><p> description </p></div>
+
+- name: "module-1"
+  title: "module 1"
+  path: /coffa/training-coffa/module-1/
+  content: |+
+    <h3>Module 1 - Coming Soon</h3>
+    <div><p>more information will be added here...</p></div>
+
+        
+- name: "module-2"
+  title: "module 2"
+  path: /coffa/training-coffa/module-2/
+  content: |
+    <h3>Module 2 - Coming Soon</h3>
+    <div><p>more information will be added here...</p></div>
+
+- name: "module-3"
+  title: "module 3"
+  path: /coffa/training-coffa/module-3/
+  content: |
+    <h3>Module 3 - Coming Soon</h3>
+    <div><p>more information will be added here...</p></div>
+
+- name: "module-4"
+  title: "module 4"
+  path: /coffa/training-coffa/module-4/
+  content: >
+    <h3>Module 4 - Coming Soon</h3> <div><p>more information will be added here...</p></div>
+
+- name: "module-5"
+  title: "module 5"
+  path: /coffa/training-coffa/module-5/
+  content: |
+    
+    <h3>Module 5 - Coming Soon</h3> <div><p>more information will be added here...</p></div>

@@ -21,7 +21,8 @@ window.addEventListener('pageshow', function(event) {
         '/workforce-modernization',
         '/major-legislation',
         '/payment-integrity',
-        '/coffa/uniform-guidance-coffa'
+        '/coffa/uniform-guidance-coffa',
+        '/coffa/training-coffa'
     ];
 
     var shouldReload = urlsToCheck.some(function(url) {

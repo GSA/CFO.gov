@@ -8,7 +8,7 @@ title: Priority
 <section class="usa-hero grid-container about-the-council {% unless page.priority_icons %} margin-bottom-4{% endunless %}">
     <div class="grid-row grid-gap flex-align-center div-height">
         <div class="tablet:grid-col-auto tablet:grid-offset-1 text-center">
-            <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/training.svg"
+            <img class="circle-card tablet:float-left" src="{{site.baseurl}}/assets/images/logos/{{ page.type }}.svg"
                  alt="{{ page.type }}" />
         </div>
         <div class="tablet:grid-col-8 margin-left-2 margin-right-2">
@@ -90,7 +90,6 @@ title: Priority
 
     {% if page.type == "uniform-guidance-coffa" %}
     {% include cfo-tabs.html data = site.data.coffa_ug_tabs %}
-    {% endif %}
     {% if page.type == "training-coffa" %}
     {% include coffa-tabs.html data = site.data.coffa_training_tabs_module_1 %}
     {% endif %}
