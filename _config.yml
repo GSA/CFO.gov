@@ -89,8 +89,8 @@ primary_navigation:
         url: "/federal-financial-reporting/"
       - name: Financial Management Workforce
         url: "/workforce-modernization/"
-      - name: Major Legislation
-        url:  "/major-legislation/"
+      # - name: Major Legislation
+      #   url:  "/major-legislation/"
       - name: Payment Integrity
         url: "/payment-integrity/"
       - name: Payment Integrity & Fraud Symposium
@@ -153,8 +153,9 @@ primary_navigation_coffa:
     children:
       - name: Uniform Guidance
         url: "/coffa/uniform-guidance-coffa/"
- #     - name: Training
- #      url: "/coffa/training-coffa/"
+      - name: Training
+        url: "#"
+ 
   - name: Resources
     url: "/coffa/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*"
 
