@@ -89,8 +89,8 @@ primary_navigation:
         url: "/federal-financial-reporting/"
       - name: Financial Management Workforce
         url: "/workforce-modernization/"
-      - name: Major Legislation
-        url:  "/major-legislation/"
+      # - name: Major Legislation
+      #   url:  "/major-legislation/"
       - name: Payment Integrity
         url: "/payment-integrity/"
       - name: Payment Integrity & Fraud Symposium
