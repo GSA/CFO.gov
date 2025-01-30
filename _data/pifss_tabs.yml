@@ -12,13 +12,23 @@
         Lastly, this series serves as an idea launchpad for fascinating and productive breakout room discussions.
     </p>
 - name: calendar
-  title: 2023 Calendar of Events
+  title: Upcoming & Past Events
   path: /payment-integrity-fraud-symposium/calendar/
   content: |
     <p>
-        Learn more about the events this year! 2023 is an exciting year for making improvements in Payment Integrity and Fraud Prevention. Click below to learn more.
+        Listed below are the previous events conducted throughout 2023 and 2024.
     </p>
     <div class="usa-accordion usa-accordion--bordered">
+        <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a1">
+                Dec. 12 ‘24 - Payment Integrity & Fraud Prevention Symposium
+            </button>
+        </h2>
+        <div id="b-a1" class="usa-accordion__content usa-prose">
+            <p class="word-line">
+                This session spoke about the "Red Flags of Infrastructure Fraud".The Infrastructure Investment and Jobs Act (IIJA) provides over $1.2 trillion in federal spending over the next five years mostly in grants and contracts to states and local governments for public transit, railways, power grids, electric vehicles and buses, ferries, airports, waterways, climate change, broadband internet, environmental protection, drinking water, and transformation safety. This program of fast-moving money, with untested controls, provides vast opportunities for fraud and waste. Auditors, investigators, and grants and contract managers at all levels of government will need to be especially vigilant for possible schemes and red flag indicators of fraud that robs the public of funds.
+            </p>
+        </div>
         <h2 class="usa-accordion__heading">
             <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a1">
                 February 22 CIO Council Innovation Committee Symposium
