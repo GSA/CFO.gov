@@ -15,7 +15,6 @@
 
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
-import DOMPurify from 'dompurify';
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -29,7 +28,6 @@ import DOMPurify from 'dompurify';
 }(function ($) {
     'use strict';
     var Slick = window.Slick || {};
-    var DOMPurify = require('dompurify');
 
     Slick = (function () {
 

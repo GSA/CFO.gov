@@ -1,4 +1,3 @@
-import DOMPurify from 'dompurify';
 
 document.addEventListener("DOMContentLoaded", function () {
     var searchResults = document.getElementById("search-results");
