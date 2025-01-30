@@ -34,7 +34,7 @@
                 Sept. 16 ‘24 - Payment Integrity & Fraud Symposium
             </button>
         </h2>
-        <div id="b-a1" class="usa-accordion__content usa-prose">
+        <div id="b-a2" class="usa-accordion__content usa-prose">
             <p class="word-line">
                 This event was held at GSA and opened to both remote and in-person participants.This engaging session included:
             </p>
@@ -52,7 +52,7 @@
                 May 23 ‘24 - Fraud Symposium
             </button>
         </h2>
-        <div id="b-a1" class="usa-accordion__content usa-prose">
+        <div id="b-a3" class="usa-accordion__content usa-prose">
             <p class="word-line">
                 In FY23, 52 federal agencies made approximately 740,566 awards totaling $1.1 T in public funding.  Fraud and other compliance risks exist in every single one of these awards. This session framed the problem, provided a big picture view of the key risks, highlighted the strategic findings of recent oversight reports, and offered ideas on how we might better mitigate these problems to help ensure every grant dollar is used wisely. 
             </p>
@@ -62,7 +62,7 @@
                 Feb. 13 ‘24 - Emerging Experience with AI & Fraud Virtual Symposium (AI Focused Encore Session)
             </button>
         </h2>
-        <div id="b-a1" class="usa-accordion__content usa-prose">
+        <div id="b-a4" class="usa-accordion__content usa-prose">
             <p class="word-line">
                 Due to overwhelming popularity, we hosted an encore of the Artificial Intelligence focused session. This session included:
             </p>
@@ -77,7 +77,7 @@
                 February 22 CIO Council Innovation Committee Symposium
             </button>
         </h2>
-        <div id="b-a1" class="usa-accordion__content usa-prose">
+        <div id="b-a5" class="usa-accordion__content usa-prose">
             <p class="word-line">
                 The Federal Chief Information Officers (CIO) Council Innovation Committee accelerates the adoption of new practices, processes, and technologies in the U.S. Government. This in-person/hybrid symposium session, sponsored by the Innovation Committee, included the following topics:
             </p>
@@ -95,7 +95,7 @@
                 April 25 CFOC Virtual Symposium
             </button>
         </h2>
-        <div id="b-a2" class="usa-accordion__content usa-prose">
+        <div id="b-a6" class="usa-accordion__content usa-prose">
             <p class="word-line">This lunchtime virtual session covered several interesting and engaging topics, including:</p>
             <ul>
                 <li>Delivering Payment Integrity to Prevent Fraud and Improper Payments</li>
@@ -109,7 +109,7 @@
                 June 22 CFOC Symposium
             </button>
         </h2>
-        <div id="b-a3" class="usa-accordion__content usa-prose">
+        <div id="b-a7" class="usa-accordion__content usa-prose">
             <p class="word-line">
                 The virtual symposium held on June 22 from 11 to 1 PM discussed the following topics:
             </p>
@@ -130,7 +130,7 @@
                 September 14 CFOC Symposium (Upcoming &mdash; All Day at GSA)
             </button>
         </h2>
-        <div id="b-a4" class="usa-accordion__content usa-prose">
+        <div id="b-a8" class="usa-accordion__content usa-prose">
             <p class="word-line">
                 We are very excited to formally invite Federal payment integrity, and fraud risk management, professionals to the next Symposium event which will be in hybrid format hosted at the GSA facility on Thursday September 14. For those attending in-person, registration will begin at 9:15 with sessions starting at 10:00 am and concluding at 3:30 pm (with a one-hour break for lunch).
             </p>
@@ -154,7 +154,7 @@
                     Emerging Experiences with AI and Fraud (Virtual CFOC Symposium Event Dec 6th 12-1 PM)
                 </button>
             </h2>
-            <div id="b-a5" class="usa-accordion__content usa-prose">
+            <div id="b-a9" class="usa-accordion__content usa-prose">
                 <p class="word-line">Our next exciting event in the Symposium series will be on <u>December 6<sup>th</sup></u>, over lunch, virtually from <u>12:00-1:00 PM</u>. Advance registration is required to receive the invite and Zoom link.</p>
 
                 <p class="word-line">At this upcoming session we'll bring <strong>Artificial Intelligence</strong> to the center of our community's focus! During this session we'll hear about:</p>
