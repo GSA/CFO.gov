@@ -30,7 +30,50 @@
             </p>
         </div>
         <h2 class="usa-accordion__heading">
-            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a1">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a2">
+                Sept. 16 ‘24 - Payment Integrity & Fraud Symposium
+            </button>
+        </h2>
+        <div id="b-a1" class="usa-accordion__content usa-prose">
+            <p class="word-line">
+                This event was held at GSA and opened to both remote and in-person participants.This engaging session included:
+            </p>
+            <ul>
+                <li><b>Direct in-person access to “Innovation Hall” experts who shared insights about the latest success stories in advancing fraud detection and prevention.</li>
+                <li><b>Strategic lessons learned from government-wide efforts to advance payment integrity</li>
+                <li><b>An inside scoop on the CFO Council “Anti Fraud Playbook”</li>
+                <li><b>Leveraging Blockchain to help Reduce/Eliminate Improper Payment Fraud Risks:</b> A session presented by NSF, NARA, and MITRE.</li>
+                <li><b>Key updates from the highly successful “CFOC Payment Integrity Working Group” about their journey in building a Government-wide Fraud Risk Catalog</li>
+                <li><b>Ample opportunities for community networking</li>
+            </ul>
+        </div>
+        <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a3">
+                May 23 ‘24 - Fraud Symposium
+            </button>
+        </h2>
+        <div id="b-a1" class="usa-accordion__content usa-prose">
+            <p class="word-line">
+                In FY23, 52 federal agencies made approximately 740,566 awards totaling $1.1 T in public funding.  Fraud and other compliance risks exist in every single one of these awards. This session framed the problem, provided a big picture view of the key risks, highlighted the strategic findings of recent oversight reports, and offered ideas on how we might better mitigate these problems to help ensure every grant dollar is used wisely. 
+            </p>
+        </div>
+        <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a4">
+                Feb. 13 ‘24 - Emerging Experience with AI & Fraud Virtual Symposium (AI Focused Encore Session)
+            </button>
+        </h2>
+        <div id="b-a1" class="usa-accordion__content usa-prose">
+            <p class="word-line">
+                Due to overwhelming popularity, we hosted an encore of the Artificial Intelligence focused session. This session included:
+            </p>
+            <ul>
+                <li><b>Cross-Government Insights: A powerful overview of the state of the Federal AI community and emerging fraud threat vectors.</li>
+                <li><b>Hands-on Expertise: As the in-depth part of this session, and part of our effort to bring best practices to the fore, many heard from SSA about the types of AI fraud they’re seeing and descriptions of the tools (some AI-based) they’re using to fight fraud. They also demonstrated how easy it is for malicious actors to acquire and use AI tools to perpetrate fraud.</li>
+                <li><b>YOUR Experiences!: Through an interactive part of the session, many were asked to share what them and their agencies have experienced and are doing to fight AI fraud.</li>
+            </ul>
+        </div>
+        <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a5">
                 February 22 CIO Council Innovation Committee Symposium
             </button>
         </h2>
@@ -48,7 +91,7 @@
             </ul>
         </div>
         <h2 class="usa-accordion__heading">
-            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a2">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a6">
                 April 25 CFOC Virtual Symposium
             </button>
         </h2>
@@ -62,7 +105,7 @@
             <p class="word-line">A copy of the presentation slides can be found <a href="[site_baseurl]/assets/files/CFOC-4-25-23-Meeting-Slides.pdf">here</a>.</p>
         </div>
         <h2 class="usa-accordion__heading">
-            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a3">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a7">
                 June 22 CFOC Symposium
             </button>
         </h2>
@@ -83,7 +126,7 @@
             </ul>
         </div>
         <h2 class="usa-accordion__heading">
-            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a4">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a8">
                 September 14 CFOC Symposium (Upcoming &mdash; All Day at GSA)
             </button>
         </h2>
@@ -107,7 +150,7 @@
             </p>
         </div>
             <h2 class="usa-accordion__heading">
-                <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a5">
+                <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a9">
                     Emerging Experiences with AI and Fraud (Virtual CFOC Symposium Event Dec 6th 12-1 PM)
                 </button>
             </h2>
