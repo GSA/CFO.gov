@@ -31,11 +31,11 @@ keyword: Resources
         <h2 class="margin-bottom-0">Frequently Searched Items</h2>
             <ul>
                 <li><a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200?toc=1">Title 2 of the CFR</a></li>
-                <li><a href="https://www.whitehouse.gov/wp-content/uploads/2024/04/M-24-11-Revisions-to-2-CFR.pdf">OMB M-24-11: Reducing Burden in the Administration of Federal Financial Assistance</a></li>
+                <li><a href="{{ site.baseurl }}/assets/files/M-24-11-Revisions-to-2-CFR.pdf">OMB M-24-11: Reducing Burden in the Administration of Federal Financial Assistance</a></li>
                 <li><a href="https://simpler.grants.gov/">Simpler Grants.gov</a></li>
-                <li><a href="https://www.hrsa.gov/grants/simpler-nofos">HHS Simpler NOFO Pilot</a></li>
-                <li><a href="https://www.whitehouse.gov/omb/management/made-in-america/build-america-buy-america-act-federal-financial-assistance/">Build America, Buy America Act</a></li>
-                <li><a href="https://www.cfo.gov/coffa/assets/files/Revised-American-Rescue-Plan-Assistance-Listings_10-29-2021.pdf">The American Rescue Plan Act (ARP) of 2021 COVID-19 Financial Assistance Programs</a></li>
+                <!-- <li><a href="https://www.hrsa.gov/grants/simpler-nofos">HHS Simpler NOFO Pilot</a></li> -->
+                <!-- <li><a href="https://www.whitehouse.gov/omb/management/made-in-america/build-america-buy-america-act-federal-financial-assistance/">Build America, Buy America Act</a></li> -->
+                <!-- <li><a href="https://www.cfo.gov/coffa/assets/files/Revised-American-Rescue-Plan-Assistance-Listings_10-29-2021.pdf">The American Rescue Plan Act (ARP) of 2021 COVID-19 Financial Assistance Programs</a></li> -->
             </ul>
         <h2 class="margin-bottom-0">Related Resources</h2>
     </div>
