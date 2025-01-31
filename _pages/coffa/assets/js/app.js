@@ -38,6 +38,9 @@ $('#return-top').on('click', function (e) {
     e.preventDefault();
     $([document.documentElement, document.body]).animate({
         scrollTop: 0
-    }, 200);
+    }, 200, function() {
+        document.body.setAttribute('tabindex', '-1');
+        document.body.focus();
+    });
     return false;
 });
