@@ -17,7 +17,7 @@
         <li> <a class="text-black" href="https://www.cfo.gov/assets/files/2-CFR-Crosswalk-2024.xlsx"> 2 CFR Crosswalk 2024 </li>
         <li> <a class="text-black" href="https://www.whitehouse.gov/wp-content/uploads/2024/04/M-24-11-Revisions-to-2-CFR.pdf"> Implementation Memorandum (M-24-11) on revisions </a> </li>
         <li> <a class="text-black" href="https://www.cfo.gov/assets/files/FY-2024-Revisions-to-2-CFR-Supplementary-Information-for-Federal-Agency-Implementation.pdf">Federal Agency Implementation</a> </li>
-        <li> <a class="text-black" href="[site_baseurl]/assets/files/2%20CFR%20Supplemental%20Information%201-30-25.pdf">Additional Implementation Information</a> </li>
+        <li> <a class="text-black" href="[site_baseurl]/assets/files/2%20CFR%20Supplemental%20Information.pdf">Additional Implementation Information</a> </li>
         <li> Reference Guides: 
           <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf"> Evaluation</a>, 
           <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf#page=3"> Data</a>,
@@ -27,7 +27,7 @@
           <a class="text-black" href="https://www.cfo.gov/assets/files/Uniform%20Guidance%20_Reference%20Guides%20FINAL%204-2024.pdf#page=11"> Burden Reduction</a>
         </li>
         <li> <a class="text-black" href="[site_baseurl]/assets/files/Key%20Revisions%20to%20Title%202.pdf">2 CFR: Key Changes</a> </li>
-        <li> <a class="text-black" href="[site_baseurl]/assets/files/2%20CFR%20Revised%20FAQs%201-30-25.pdf">2 CFR Frequently Asked Questions</a> </li>
+        <li> <a class="text-black" href="[site_baseurl]/assets/files/2%20CFR%20Revised%20FAQs.pdf">2 CFR Frequently Asked Questions</a> </li>
       </ul>
 - name: "2020"
   title: "2020 Revisions & Resources"
