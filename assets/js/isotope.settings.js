@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
 
     // Add the years to the data-filter attribute of the filter-list-not-archived
     $("#filter-list-not-archived").attr("data-filter", years.join(", "));
-    var initialFilter = years.join(", ");
+    var initialFilter = years.join(", ") + ":not(.archived)"
 
     // Create initial hash
     var initHash = "archive_area=" + encodeURIComponent(initialFilter);
