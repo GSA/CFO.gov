@@ -21,11 +21,11 @@
      <p>Federal employees can use the career planning tool in a variety of ways. After selecting the appropriate filters for their current job series and GS-level, employees can use the information shown on the cards as a checklist to evaluate their current knowledge needs. Employees can also use the tool to research recommended knowledge and skills to be proficient in other job series or GS levels (i.e., to support a lateral career shift or advancement). Supervisors can use the tool to help identify critical experience and training needs for subordinate development.</p>
      <p>Once the user has identified a knowledge gap, they can use the embedded web links to view available external training options. When selecting a course to pursue, users should follow their respective agency's policy for purchasing training.</p>
      <p>Click here to access for additional information about this initiative. </p>
-- name: coming-next
-  title: Future Enhancements
-  path: /career-planning-training-tool/coming-next/
-  content: |
-    <p>The initial version of the CPTT is modest in scope and budget, intended to demonstrate its value and relevance to federal leadership and the broader federal community. It is explicitly referenced in the current President's Management Agenda (PMA), and the CFOC Workforce Modernization Committee continues to work with the PMA Team to develop this critical initiative. In the coming year, we hope to evolve many of the CPTT's features, including updating competency cards and broadening the scope to include additional job series relevant to the Federal Financial Assistance workforce.</p>
+# - name: coming-next
+#   title: Future Enhancements
+#   path: /career-planning-training-tool/coming-next/
+#   content: |
+#     <p>The initial version of the CPTT is modest in scope and budget, intended to demonstrate its value and relevance to federal leadership and the broader federal community. It is explicitly referenced in the current President's Management Agenda (PMA), and the CFOC Workforce Modernization Committee continues to work with the PMA Team to develop this critical initiative. In the coming year, we hope to evolve many of the CPTT's features, including updating competency cards and broadening the scope to include additional job series relevant to the Federal Financial Assistance workforce.</p>
 - name: about-the-course-providers
   title: About the Training Course Providers
   path: /career-planning-training-tool/about-the-traininng-course-providers/
