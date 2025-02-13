@@ -291,6 +291,7 @@ exclude:
   - Gemfile.lock
   - _pages/empty.md
   - _unpublished
+  - cxo/
 
 autoprefixer:
   browsers:
