@@ -78,6 +78,8 @@ primary_navigation:
         url: /about-the-council/
       - name: Members
         url: /members/
+      - name: Sitemap Test page
+        url: "/test-sitemap/"
       - name: The Support Team
         url: /support/
   - name: Our Work
