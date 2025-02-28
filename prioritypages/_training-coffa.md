@@ -2,6 +2,7 @@
 layout: priority-copy-coffa
 title: "COFFA Module Training"
 permalink: /coffa/training-coffa/
+published: False
 aliases:
   - /coffa/training-coffa/
   # - /coffa/training-coffa/overview/
