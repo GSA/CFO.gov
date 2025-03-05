@@ -63,6 +63,7 @@ keyword: COFFA Priority Areas, COFFA Council, CFOC members, Members
         <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
             {% for council_member in site.data.council_members_coffa %}
             <div class="tablet:grid-col-4 container padding-105">
+                {% if council_member.agency != "U.S. Agency for International Development" and council_member.agency != "Office of Personnel Management" %}
                 <a href="{{ council_member.website_url }}" target="_blank" class="height-full display-block text-no-underline text-ink">
                     <div class="leftSeal">
                         <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{council_member.agency | slugify}}.png" alt="{{ council_member.agency }} seal">
@@ -73,6 +74,18 @@ keyword: COFFA Priority Areas, COFFA Council, CFOC members, Members
                         </p>
                     </div>
                 </a>
+                {% else %}
+                <div class="height-full display-block text-no-underline text-ink">
+                    <div class="leftSeal">
+                        <img class="seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{council_member.agency | slugify}}.png" alt="{{ council_member.agency }} seal">
+                    </div>
+                    <div class="rightSeal">
+                        <p>
+                            <span class="nameSeal">{{ council_member.agency }}</span>
+                        </p>
+                    </div>
+                </div>
+                {% endif %}
             </div>
             {% endfor %}
         </div>  
