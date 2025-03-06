@@ -22,8 +22,6 @@ window.addEventListener('pageshow', function(event) {
         '/financial-management-workforce',
         '/major-legislation',
         '/payment-integrity',
-        '/coffa/uniform-guidance-coffa',
-        '/coffa/training-coffa'
     ];
 
     var shouldReload = urlsToCheck.some(function(url) {
