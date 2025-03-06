@@ -84,7 +84,7 @@ primary_navigation:
     url: /
     children:
       - name: COFFA
-        url: "/coffa/"
+        url: "https://www.coffa.gov"
       - name: Federal Financial Reporting
         url: "/federal-financial-reporting/"
       - name: Financial Management Workforce
@@ -138,26 +138,6 @@ payment-accuracy-navigation:
   - name: FAQ
     url: /payment-accuracy-FAQ/
 
-primary_navigation_coffa:
-  - name: About Us
-    url: /coffa/
-    children:
-      - name: The COFFA
-        url: "/coffa/about-the-coffa/"
-      - name: Members
-        url: "/coffa/members/"
-      - name: The Support Team
-        url: "/coffa/support/"
-  - name: Major Initiatives
-    url: "/coffa/"
-    children:
-      - name: Uniform Guidance
-        url: "/coffa/uniform-guidance-coffa/"
-      - name: Training
-        url: "#"
- 
-  - name: Resources
-    url: "/coffa/resources/#focus_area=.federal-financial-assistance&sub_focus_area=*&type=*&source=*&fiscal_year=*"
 
 jfmip-navigation:
 #  - name: Current Initiatives
