@@ -19,74 +19,11 @@ fiscal_year: 2022
             </thead>
             <tbody>
                 <tr>
-                  <td>May 19, 2022</td> 
-                  <td>Federal Demonstration Partnership Expanded Clearinghouse</td>
-                  <td>
-                    <a href="{{ site.baseurl }}/wp-content/uploads/2022/FDP EC OMB GIE slides - Final .pdf" title="Federal Demonstration Partnership Expanded Clearinghouse">View the Presentation</a>
-                    <a href="https://vimeo.com/713468352/4083d4805c" title="Federal Demonstration Partnership Expanded Clearinghouse Recording">Watch the recording</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>April 21, 2022</td>
-                  <td>Transition of the Federal Audit Clearinghouse for Single Audit Submissions</td>
-                  <td>
-                    <a href="{{ site.baseurl }}/wp-content/uploads/2022/20220421-April IEX FAC Slides.pdf" title="Transition of the Federal Audit Clearinghouse for Single Audit Submissions">View the Presentation</a>
-                    <a href="https://vimeo.com/702983024/ec4e715952" title="Transition of the Federal Audit Clearinghouse for Single Audit Submissions Recording">Watch the recording</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>March 17, 2022</td>
-                  <td>Fixed Amount Awards and Other Innovative Award Designs</td>
-                  <td>
-                    <a href="{{ site.baseurl }}/wp-content/uploads/2021/20220317 Innovation Exchange Presentation FAA.FINAL.pdf" title="Fixed Amount Awards and Other Innovative Award Designs">View the Presentation</a>
-                    <a href="https://vimeo.com/691001113/fd32aad4cd" title="Fixed Amount Awards and Other Innovative Award Designs Recording">Watch the recording</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>February 17, 2022</td>
-                  <td>Book Talk: Power to the Public</td>
-                  <td>
-                    <a href="https://vimeo.com/680621466/a2da2fec17" title="Book Talk: Power to the Public Recording">Watch the recording</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>January 20, 2022</td>
-                  <td>Data Standards to Reduce Grantee Burden, Automate Data Collection</td>
-                  <td>
-                    <a href="{{ site.baseurl }}/wp-content/uploads/2022/01/20220120 GRANTS PRESENTATION.pdf" title="Data Standards to Reduce Grantee Burden, Automate Data Collection">View the Presentation</a>
-                    <a href="https://vimeo.com/671135926/5de21a77cb" title="Data Standards to Reduce Grantee Burden, Automate Data Collection Recording">Watch the recording</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>December 16, 2021</td>
-                  <td>Innovative Equity Practices</td>
-                  <td>
-                    <a href="{{ site.baseurl }}/wp-content/uploads/2021/20211216 Grants Innovation Exchange Session Final.pdf" title="Innovative Equity Practices">View the Presentation</a>
-                    <a href="https://vimeo.com/658751047" title="Innovative Equity Practices Recording">Watch the recording</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>November 18, 2021</td>
-                  <td>New Unique Entity ID (SAM)</td>
-                  <td>
-                    <a href="{{ site.baseurl }}/wp-content/uploads/2021/11/November Innovation Exchange UEI - Nov 18 2021.pdf" title="New Unique Entity ID (SAM)">View the Presentation</a>
-                    <a href="https://vimeo.com/648667847" title="New Unique Entity ID (SAM) Recording">Watch the recording</a>
-                  </td>
-                </tr>
-                <tr>
                   <td>October 21, 2021</td>
                   <td>Advancing Improved and Equitable Outcomes in Early Care and Education with Federal Relief Funds</td>
                   <td>
                     <a href="{{ site.baseurl }}/wp-content/uploads/2021/211021-Third-Sector-ARPA-Childcare-Stabilization-Funding.pdf" title="Advancing Improved and Equitable Outcomes in Early Care and Education with Federal Relief Funds">View the Presentation</a>
                     <a href="https://vimeo.com/639278161" title="Advancing Improved and Equitable Outcomes in Early Care and Education with Federal Relief Funds Recording">Watch the recording</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>September 16, 2021</td>
-                  <td>Local Foods, Local Places Program</td>
-                  <td>
-                    <a href="{{ site.baseurl }}/wp-content/uploads/2021/OMB-GrantsInnovExchnge-LFLP7--9-16-21.pdf" title="Local Foods, Local Places Program">View the Presentation</a>
-                    <a href="https://vimeo.com/612742414" title="Local Foods, Local Places Program Recording">Watch the recording</a>
                   </td>
                 </tr>
                 <tr>
@@ -103,22 +40,6 @@ fiscal_year: 2022
                   <td>
                     <a href="{{ site.baseurl }}/wp-content/uploads/2021/Equity and Innovation in Grants Management Presentation.pdf" title="Improving Equity in Federal Grants Management">View the Presentation</a>
                     <a href="https://player.vimeo.com/video/569039356?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Improving Equity in Federal Grants Management Recording">Watch the recording</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>May 20, 2021</td>
-                  <td>Improving Federal Grants Management</td>
-                  <td>
-                    <a href="{{ site.baseurl }}/wp-content/uploads/2021/OMB Grants Innovation Exchange May 20 2021 revised final sent 051721.pdf" title="Improving Federal Grants Management">View the Presentation</a>
-                    <a href="https://vimeo.com/712090051/aff882f30c" title="Improving Federal Grants Management Recording">Watch the recording</a><br>
-                  </td>
-                </tr>
-                <tr>
-                  <td>April 22, 2021</td>
-                  <td>2 CFR Revisions and M-20-21 Guidance</td>
-                  <td>
-                    <a href="{{ site.baseurl }}/wp-content/uploads/2021/April-Grants-Innovation-Exchange.pdf" title="2 CFR Revisions and M-20-21 Guidance">View the Presentation</a>
-                    <a href="https://vimeo.com/712086330/87f3c76944" title="2 CFR Revisions and M-20-21 Guidance Recording">Watch the recording</a><br>
                   </td>
                 </tr>
                 <tr>
