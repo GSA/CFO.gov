@@ -83,8 +83,6 @@ primary_navigation:
   - name: Our Work
     url: /
     children:
-      - name: COFFA
-        url: "https://www.coffa.gov"
       - name: Federal Financial Reporting
         url: "/federal-financial-reporting/"
       - name: Financial Management Workforce
