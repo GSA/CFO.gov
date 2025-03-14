@@ -14,7 +14,7 @@
                 {% assign className = resource.filters | split: ' ' | first %}
                 <div class="tablet:grid-col-4 grid-spacing policy {{ resource.filters }}">
                     {% if resource.filters contains 'archived' or resource.fiscal_year <= end_year %}
-                        <span class="archived-label">archived</span>
+                        <span class="archived-label">Archived</span>
                     {% endif %}
 
                     <!-- Adds star icon on new resources for 30 days -->
