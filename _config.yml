@@ -164,8 +164,8 @@ searchgov:
   affiliate: cfoc # replace this with your search.gov account
   access_key: 7zdoD3jfIA3XVL-Oo90qp31mCdqWg5qbk_95HxXDGAk= # This is placeholder. Not private.
   # This renders the results within the page instead of sending to user to search.gov.
-  inline: true
-  #inline: false
+  #inline: true
+  inline: false
   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   # If you do not want to present search suggestions, set this value to false.
   suggestions: true
