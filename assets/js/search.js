@@ -6,10 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
         var formElement = document.getElementById("search_form");
         formElement.action = pathParts[0] + '/payment-accuracy/search/';
     }
-    var pathPartsffa = window.location.pathname.split("/coffa/");
+    var pathPartsffa = window.location.pathname.split("/cfo/");
+    console.log("pathPartsffa "+pathPartsffa);
     if(pathPartsffa.length === 2) {
         var formElement = document.getElementById("search_form");
-        formElement.action = pathPartsffa[0] + '/coffa/search/';
+        formElement.action = pathPartsffa[0] + '/cfo/search/';
     }
     if (searchResults !== null) {
         var searchgovParams = document.getElementById("searchgov-params");
@@ -106,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         pagerLinks +=
             '<span class="margin-2">Page ' +
-            encodeHTML(page) +
+            page +
             " of " +
             Math.ceil(totalResults / resultsPerPage) +
             "</span>";
@@ -126,11 +127,11 @@ document.addEventListener("DOMContentLoaded", function () {
         return currentURL.toString();
     }
 
-    function encodeHTML(str) {
-        return str.replace(/&/g, "&amp;")
-                  .replace(/</g, "&lt;")
-                  .replace(/>/g, "&gt;")
-                  .replace(/"/g, "&quot;")
-                  .replace(/'/g, "&#39;");
-    }
+    // function encodeHTML(str) {
+    //     return str.replace(/&/g, "&amp;")
+    //               .replace(/</g, "&lt;")
+    //               .replace(/>/g, "&gt;")
+    //               .replace(/"/g, "&quot;")
+    //               .replace(/'/g, "&#39;");
+    // }
 });
