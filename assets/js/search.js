@@ -113,7 +113,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "</span>";
         if (totalResults > (page * resultsPerPage)) {
             pagerLinks += '<a href="' + getLinkToPage(parseInt(page) + 1) + '" aria-label="Next page">Next >></a>';
-            pagerLinks += '&nbsp;&nbsp;&nbsp;<span class="margin-2"> Powered by Search.gov </span>';
+            //pagerLinks += '&nbsp;&nbsp;&nbsp;<span class="margin-2"> Powered by Search.gov </span>';
+            pagerLinks += '<div class="grid-col-auto"><p class="margin-top-0">Powered by Search.gov</p></div>';
         }
         pager.innerHTML = pagerLinks;
     }
