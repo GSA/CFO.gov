@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 return res.json();
             })
             .then(function (posts) {
-                 = posts.web.total;
+                totalResults = posts.web.total;
                 document.getElementById("search-params").innerHTML =
                     DOMPurify.sanitize(urlParams.get("query"));
                 document.getElementById("search-keyword").innerHTML =
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (posts.web.results.length > 0) {
                     document
                         .getElementById("search-results")
-                        .classList.remove("displtotalResultsay-none");
+                        .classList.remove("display-none");
                     document.getElementById("no-results").classList.add("display-none");
                     for (item in posts.web.results) {
                         render_result(
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "</span>";
         if (totalResults > (page * resultsPerPage)) {
             pagerLinks += '<a href="' + getLinkToPage(parseInt(page) + 1) + '" aria-label="Next page">Next >></a>';
-            pagerLinks += '&nbsp;&nbsp;&nbsp;&nbsp;<span class="margin-2"> Powered by Search.gov </span>';
+            pagerLinks += '&nbsp;&nbsp;&nbsp;<span class="margin-2"> Powered by Search.gov </span>';
         }
         pager.innerHTML = pagerLinks;
     }
