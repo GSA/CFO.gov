@@ -1,7 +1,9 @@
 
 document.addEventListener("DOMContentLoaded", function () {
+    console.log("In DOMContentLoaded event handler");
     var searchResults = document.getElementById("search-results");
     var pathParts = window.location.pathname.split("/payment-accuracy/");
+    console.log("In DOMContentLoaded path-parts are");
     if (pathParts.length === 2) {
         var formElement = document.getElementById("search_form");
         formElement.action = pathParts[0] + '/payment-accuracy/search/';
