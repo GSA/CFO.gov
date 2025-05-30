@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
         var formElement = document.getElementById("search_form");
         formElement.action = pathParts[0] + '/payment-accuracy/search/';
     }
-    var pathPartsffa = window.location.pathname.split("/cfo/");
-    console.log("pathPartsffa "+pathPartsffa);
-    if(pathPartsffa.length === 2) {
+    var pathPartsCFO = window.location.pathname.split("/cfo/");
+    console.log("pathPartsCFO is : "+pathPartsCFO);
+    if(pathPartsCFO.length === 2) {
         var formElement = document.getElementById("search_form");
-        formElement.action = pathPartsffa[0] + '/cfo/search/';
+        formElement.action = pathPartsCFO[0] + '/cfo/search/';
     }
     if (searchResults !== null) {
         var searchgovParams = document.getElementById("searchgov-params");
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var searchEndpoint = new URL(
             searchgovParams.dataset.endpoint + "/api/v2/search/i14y"
         );
-        var resultsPerPage = 20;
+        var resultsPerPage = 15;
         var page = urlParams.get("page") ?? 1;
         var offset = (page - 1) * resultsPerPage;
         var totalResults = 0;
