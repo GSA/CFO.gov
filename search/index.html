@@ -1,7 +1,7 @@
 ---
 permalink: /search/
 layout: default
-title: Search Results2
+title: Search Results
 ---
 
 <section class="usa-hero grid-container about-the-council margin-bottom-2">
@@ -15,6 +15,7 @@ title: Search Results2
 </section>
 <section class="usa-graphic-list grid-container">
 {% if site.searchgov %}
+<div>HELLO IF</div>
 <div class="display-none"
 id="searchgov-params"
 data-endpoint="{{site.searchgov.endpoint}}"
@@ -32,6 +33,7 @@ data-access-key="{{site.searchgov.access_key}}",
 <div id="pager" class="text-center margin-top-5"></div>
 
 {% if site.searchgov.affiliate == "federalist-uswds-example" %}
+<div>HELLO INNER-IF</div>
   <div class="usa-alert usa-alert--info">
     <div class="usa-alert__body">
       This is an example. You will need to configure your site with search.gov to see the correct search results. To do this:
@@ -46,6 +48,7 @@ data-access-key="{{site.searchgov.access_key}}",
   </div>
 {% endif %}
 {% else %}
+<div>HELLO ELSE</div>
 <script>
   window.location = "/";
 </script>
