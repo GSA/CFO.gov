@@ -100,24 +100,43 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function update_pager() {
+        var page = urlParams.get("page") ?? 1;
         var pager = document.getElementById("pager");
         var pagerLinks = "";
+		var totalPages = Math.ceil(totalResults / resultsPerPage);
 
         pager.innerHTML = "";
-        if (page > 1) {
-            pagerLinks += '<a href="' + getLinkToPage(page - 1) + '" aria-label="Previous page"><< Prev</a>';
+        
+        if (page > 1){
+		    pagerLinks += '<a href="' + getLinkToPage(1) + '" aria-label="First page" class="pager-button">First</a>';
         }
-        pagerLinks +=
-            '<span class="margin-2">Page ' +
-            page +
-            " of " +
-            Math.ceil(totalResults / resultsPerPage) +
-            "</span>";
-        if (totalResults > (page * resultsPerPage)) {
-            pagerLinks += '<a href="' + getLinkToPage(parseInt(page) + 1) + '" aria-label="Next page">Next >></a>';
-            //pagerLinks += '&nbsp;&nbsp;&nbsp;<span class="margin-2"> Powered by Search.gov </span>';
-        }
-        pagerLinks += '<div class="usa-footer__contact-info grid-row grid-gap"><div class="grid-col-auto"><p class="margin-top-0">Powered by Search.gov</p></div></div>';
+		
+		if (totalPages > 5 && page > 5) {
+			pagerLinks += '<span style="font-weight: bold;" class="margin-2">...</span>';
+		}
+
+		var start = Math.max(2, page - 3);
+		for (var i = start; i < page; i++) {
+			pagerLinks += '<a href="' + getLinkToPage(i) + '" aria-label="Page ' + i + '" class="pager-button">' + i + '</a>';
+		}
+
+		pagerLinks += '<span class="margin-2, pager-button-current">Page ' + page + " of " + totalPages + "</span>";
+        
+		var end = Math.min((totalPages - 1), ((1*page) + 3));
+		for (var j = (1*page) + 1; j <= end; j++) {
+			pagerLinks += '<a href="' + getLinkToPage(j) + '" aria-label="Page ' + j + '" class="pager-button">' + j + '</a>';
+		}
+
+		if (totalPages > 5 && page < totalPages - 4) {
+			pagerLinks += '<span style="font-weight: bold;" class="margin-2">...</span>';
+		}
+
+        if( totalPages > 1 && page < totalPages){
+            pagerLinks += '<a href="' + getLinkToPage(totalPages) + '" aria-label="Last page" class="pager-button">Last</a>';
+        }		
+
+        pagerLinks += '<div class="usa-footer__contact-info grid-row grid-gap"><div class="grid-col-auto"><p class="margin-top-0">Powered by <strong>Search.gov</strong></p></div></div>';
+        
         pager.innerHTML = pagerLinks;
     }
 
