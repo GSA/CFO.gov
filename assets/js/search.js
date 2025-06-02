@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("In DOMContentLoaded event handler");
+    console.log("In assets/js DOMContentLoaded event handler");
     var searchResults = document.getElementById("search-results");
     var pathParts = window.location.pathname.split("/payment-accuracy/");
     console.log("In DOMContentLoaded path-parts are");
