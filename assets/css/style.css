@@ -63,3 +63,32 @@ table.dataTable tbody tr {
 #training-download-button-3{
   width: 100% !important;
 } */
+
+
+.pager-button {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 6px;
+    border: 2px solid #0004ff; /* blue border color */
+    border-radius: 4px; /* rounded rectangle */
+    background-color: transparent; /* no background color */
+    color: #0004ff; /* blue text color */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pager-button-current {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 6px;
+    border: 2px solid #350111; /* blue border color */
+    border-radius: 4px; /* rounded rectangle */
+    background-color: transparent; /* no background color */
+    color: #000000; /* blue text color */
+    text-decoration: none;
+    cursor: initial;
+}
+.pager-button:hover {
+    background-color: #e2e6ea; /* light gray background color on hover */
+}
+
