@@ -1,5 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
+    console.log ("In paymentAccuracy js-search DOMContentLoaded event handler.");
     var searchResults = document.getElementById("search-results");
     var pathParts = window.location.pathname.split("/payment-accuracy/");
     if (pathParts.length === 2) {
