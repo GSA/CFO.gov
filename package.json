@@ -10,7 +10,7 @@
     "@uswds/uswds": "3.8.1",
     "csv": "^6.0.5",
     "csv-writer": "^1.6.0",
-    "dompurify": "^3.2.3",
+    "dompurify": "^3.2.6",
     "jquery": "3.6.4",
     "react-redux": "^7.2.9",
     "striptags": "^3.2.0"
