@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var searchEndpoint = new URL(
             searchgovParams.dataset.endpoint + "/api/v2/search/i14y"
         );
-        var resultsPerPage = 15;
+        var resultsPerPage = 20;
         var page = urlParams.get("page") ?? 1;
         var offset = (page - 1) * resultsPerPage;
         var totalResults = 0;
