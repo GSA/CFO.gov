@@ -7,6 +7,7 @@
     "build-cards": "node assets/buildCards.js"
   },
   "dependencies": {
+    "@babel/runtime": "^7.27.4",
     "@uswds/uswds": "3.8.1",
     "csv": "^6.0.5",
     "csv-writer": "^1.6.0",
