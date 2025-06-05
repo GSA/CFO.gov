@@ -1,15 +1,15 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("In assets/js DOMContentLoaded event handler");
+
     var searchResults = document.getElementById("search-results");
     var pathParts = window.location.pathname.split("/payment-accuracy/");
-    console.log("In DOMContentLoaded path-parts are");
+    
     if (pathParts.length === 2) {
         var formElement = document.getElementById("search_form");
         formElement.action = pathParts[0] + '/payment-accuracy/search/';
     }
     var pathPartsCFO = window.location.pathname.split("/cfo/");
-    console.log("pathPartsCFO is : "+pathPartsCFO);
+    
     if(pathPartsCFO.length === 2) {
         var formElement = document.getElementById("search_form");
         formElement.action = pathPartsCFO[0] + '/cfo/search/';
@@ -79,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             })
             .catch(function (ex) {
-                console.log("parsing failed", ex);
             })
             .finally(function (e) {
                 if (document.getElementById("search-results").childNodes.length == 0) {
@@ -150,11 +149,4 @@ document.addEventListener("DOMContentLoaded", function () {
         return currentURL.toString();
     }
 
-    // function encodeHTML(str) {
-    //     return str.replace(/&/g, "&amp;")
-    //               .replace(/</g, "&lt;")
-    //               .replace(/>/g, "&gt;")
-    //               .replace(/"/g, "&quot;")
-    //               .replace(/'/g, "&#39;");
-    // }
 });
