@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     var pathPartsCFO = window.location.pathname.split("/cfo/");
     
+    
     if(pathPartsCFO.length === 2) {
         var formElement = document.getElementById("search_form");
         formElement.action = pathPartsCFO[0] + '/cfo/search/';
