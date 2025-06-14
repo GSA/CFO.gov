@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             })
             .catch(function (ex) {
-                console.log("parsing failed", ex);
+
             })
             .finally(function (e) {
                 if (document.getElementById("search-results").childNodes.length == 0) {
