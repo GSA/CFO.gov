@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
 
     var searchResults = document.getElementById("search-results");
@@ -137,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         pagerLinks += '<div class="usa-footer__contact-info grid-row grid-gap"><div class="grid-col-auto"><p class="margin-top-0">Powered by <strong>Search.gov</strong></p></div></div>';
         
-        pager.innerHTML = pagerLinks;
+        pager.innerHTML = DOMPurify.sanitize(pagerLinks);
     }
 
     function getLinkToPage(pageNumber) {
