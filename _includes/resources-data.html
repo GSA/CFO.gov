@@ -40,12 +40,12 @@
 
                         <div class="text-container">
                             <strong><p style="font-size:15px">{{ resource.subtitle }}</p></strong>
-                            
                             {% assign filters = resource.filters | split: ' ' %}
                             {% for filter in filters limit: 2 %}
                                 {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture %}
                                 {% if has_link == 'No' %}
                                     <p class="title-resources">{{ filter | upcase }}</p>
+                                   
                                 {% else %}
                                     {% assign hyphen_filter = filter | split: '-' %}
                                     <p class="title-resources">
@@ -53,8 +53,10 @@
                                             {{ second_filter | upcase }}
                                         {% endfor %}
                                     </p>
+
                                 {% endif %}
                             {% endfor %}
+                             <p class="title-resources">{{ resource.council}}</p>
                         </div>
                         </a>
                     </div>

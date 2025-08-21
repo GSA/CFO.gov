@@ -2,7 +2,7 @@
 
 <div class="usa-media-block tablet:grid-col-3">
 
-    <a class="usa-button usa-button--outline border-0 margin-bottom-2" href="{{ site.baseurl }}/resources/#focus_area=*&sub_focus_area=*&type=*&source=*&fiscal_year=*">Reset Filter</a>
+    <a class="usa-button usa-button--outline border-0 margin-bottom-2" href="{{ site.baseurl }}/resources/#focus_area=*&sub_focus_area=*&type=*&source=*&fiscal_year=*&council=*">Reset Filter</a>
 
     <nav id="filter" class="filters" aria-label="filter menu">
 
@@ -52,8 +52,13 @@
             <li><a aria-label="Filter by Type: OMB" role="checkbox" href="javascript:void(0)" data-filter=".omb">OMB</a></li>
             <li><a aria-label="Filter by Type: White House" role="checkbox" href="javascript:void(0)" data-filter=".white-house">White House</a></li>
         </ul>
-
-
+        <h3 class="filter-title">Filter by Council</h3>
+        <ul class="filter-list" data-filter-group="council">
+            <li><a aria-label="Filter by Type: CFOC" role="checkbox" href="javascript:void(0)" data-filter=".cfoc">CFOC</a></li>
+            <li><a aria-label="Filter by Type: COFFA" role="checkbox" href="javascript:void(0)" data-filter=".coffa">COFFA</a></li>
+            <li><a aria-label="Filter by Type: FRPC" role="checkbox" href="javascript:void(0)" data-filter=".frpc">FRPC</a></li>
+           
+        </ul>
         <h3 class="filter-title">Filter by Fiscal Year</h3>
         <ul class="filter-list" data-filter-group="fiscal_year">
             <li><a aria-label="Filter by Type: 1991" role="checkbox" href="javascript:void(0)" data-filter=".1991">1991</a></li>
