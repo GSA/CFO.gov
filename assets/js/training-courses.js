@@ -20,7 +20,7 @@ $(document).ready(function () {
   }
 
   var pathPrefix = getPathPrefix();
-  var jsonFilePath = pathPrefix + '/assets/CPTT/courses.json';
+  var jsonFilePath = pathPrefix + '/assets/CPTT/courseswithrating.json';
 
   $.getJSON(jsonFilePath, function (data) {
 

@@ -19,7 +19,7 @@ try {
 }
 
 const competencyDescriptions = require('./CPTT/competency_descriptions.json');
-const coursesFilePath = 'assets/CPTT/courses.json';
+const coursesFilePath = 'assets/CPTT/courseswithrating.json';
 
 let courses = [];
 
