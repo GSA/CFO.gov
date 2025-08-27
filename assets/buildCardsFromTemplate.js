@@ -219,6 +219,7 @@ function addCourse(row) {
     course_credit_type: row.course_credit_type,
     price: parseFloat(row.price.replace(/[^0-9.-]+/g, "")),
     learning_modality: row.learning_modality,
+    rating: parseFloat(row.rating),
     course_description: striptags(row.course_description),
     additional_course_information: striptags(row.additional_course_information),
     course_duration_num: parseFloat(row.course_duration_num),
