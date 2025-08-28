@@ -32,9 +32,10 @@ $(document).ready(function () {
         }
       },
       columnDefs: [
-        { responsivePriority: 1, targets: 9},
-        { responsivePriority: 10001, targets: 7},
-        { responsivePriority: 10002, targets: 8},
+        { responsivePriority: 1, targets: 10},
+        { responsivePriority: 10001, targets: 8},
+        { responsivePriority: 10002, targets: 9},
+        { responsivePriority: 10003, targets: 6},
       ],
       data: data,
       dom: 'Bfrt',
@@ -100,6 +101,8 @@ $(document).ready(function () {
           }, defaultContent: '', "className": "testFind"
         },
         {data: 'learning_modality', defaultContent: ''},
+        
+        {data: 'rating', defaultContent: ''},
         {
           data: 'course_credit_type', render: function (data) {
             return Array.isArray(data) ? data.join(', ') : (data || '');
