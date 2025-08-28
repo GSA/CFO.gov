@@ -39,6 +39,7 @@ function buildCards() {
     card.competency = card['COMPETENCY:'];
     card.jobSeriesTitle = getJobSeries(card['JOB SERIES:']);
     card.competencyGroup = card['TYPE:'];
+    card.rating = card['APPLICABLE PROFICIENCY RATINGS'];
     card.gsLevel = getGsLevel(card.careerLevel);
     card.permalink = '/cardsNew/' + card.jobSeries + '-' + card.competency.replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-') + '-' + card.careerLevel;
     card.competencyDesignation = card['Functional Competency Designation'];
@@ -108,6 +109,7 @@ competency: ${card.competency ? card.competency.replace(/\//g, ' ') : ''}
 competency_group: ${card.competencyGroup}
 competency_description: ${card.compDesc}
 level: "${card.gsLevel}"
+rating: "${card.rating}"
 behavior_illustrations: "${Object.values(card.behavior).join(' ? ').replace(/(\r\n|\n|\r|\t)/gm, ' ')}"
 proficiency_level_definition: "${Object.values(card.prof).join(' ? ').replace(/(\r\n|\n|\r|\t)/gm, ' ')}"
 relevant_courses: ${relevant_courses || ''}
