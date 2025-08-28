@@ -101,8 +101,6 @@ $(document).ready(function () {
           }, defaultContent: '', "className": "testFind"
         },
         {data: 'learning_modality', defaultContent: ''},
-        
-        {data: 'rating', defaultContent: ''},
         {
           data: 'course_credit_type', render: function (data) {
             return Array.isArray(data) ? data.join(', ') : (data || '');
@@ -116,6 +114,9 @@ $(document).ready(function () {
         {data: "course_description", defaultContent: ''},
         {data: "additional_course_information", defaultContent: ''},
         {"orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
+         
+        {data: 'rating', defaultContent: ''},
+       
         { data: 'filters', visible: false }
       ],
       createdRow: (row, data, index) => {
