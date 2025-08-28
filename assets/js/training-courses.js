@@ -115,7 +115,7 @@ $(document).ready(function () {
         {data: "additional_course_information", defaultContent: ''},
         {"orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
          
-        {data: 'rating', defaultContent: ''},
+        {data: 'rating', defaultContent: 'Not Rated'},
        
         { data: 'filters', visible: false }
       ],
