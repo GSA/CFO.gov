@@ -46,7 +46,7 @@ $(document).ready(function () {
             modifier: {
               selected: true
             },
-            columns: ':gt(0):lt(8)',
+            columns: ':gt(0):lt(9)',
           },
           // customize: function (csv) {
           //   var csvData = [];
@@ -71,7 +71,7 @@ $(document).ready(function () {
             modifier: {
               selected: true
             },
-            columns: ':gt(0):lt(8)',
+            columns: ':gt(0):lt(9)',
           },
           // customize: function (doc) {
           //   var body = doc.content[1].table.body;
