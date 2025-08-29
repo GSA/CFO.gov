@@ -46,7 +46,7 @@ $(document).ready(function () {
             modifier: {
               selected: true
             },
-            columns: ':gt(0):not(:eq(7)):not(:eq(8))',
+            columns: ':gt(0):lt(9)',
           },
           // customize: function (csv) {
           //   var csvData = [];
