@@ -33,8 +33,9 @@ $(document).ready(function () {
       },
       columnDefs: [
         { responsivePriority: 1, targets: 9},
-        { responsivePriority: 10001, targets: 7},
-        { responsivePriority: 10002, targets: 8},
+        {targets:[7,8], className:'none'},
+       // { responsivePriority: 10001, targets: 7},
+       // { responsivePriority: 10002, targets: 8},
         // { responsivePriority: 10003, targets: 6},
       ],
       data: data,
