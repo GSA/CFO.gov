@@ -157,6 +157,7 @@ jQuery(document).ready(function ($) {
         var type = location.hash.match(/type=([^&]+)/i);
         var source = location.hash.match(/source=([^&]+)/i);
         var fiscal_year = location.hash.match(/fiscal_year=([^&]+)/i);
+        var council = location.hash.match(/council=([^&]+)/i);
         var archive_area = location.hash.match(/archive_area=([^&]+)/i);
         // var status = location.hash.match( /status=([^&]+)/i );
         var sorts = location.hash.match(/sort=([^&]+)/i);
@@ -172,7 +173,7 @@ jQuery(document).ready(function ($) {
         hashFilter["fiscal_year"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["filter-list-not-archived"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["archive_area"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
-        hashFilter["council"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
+        hashFilter["council"] = council ? decodeURIComponent(council[1]) : "*";
         // hashFilter["status"] = status ? status[1] : "*";
         hashFilter["sorts"] = sorts ? sorts[1] : "";
 
