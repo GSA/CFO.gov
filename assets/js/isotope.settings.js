@@ -172,7 +172,7 @@ jQuery(document).ready(function ($) {
         hashFilter["fiscal_year"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["filter-list-not-archived"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["archive_area"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
-        hashFilter["council"] = council ? decodeURIComponent(council[1]) : "*";
+        hashFilter["council"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
         // hashFilter["status"] = status ? status[1] : "*";
         hashFilter["sorts"] = sorts ? sorts[1] : "";
 
