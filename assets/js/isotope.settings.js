@@ -129,7 +129,7 @@ jQuery(document).ready(function ($) {
         // Current hash value
         var hashFilter = getHashFilter();
         // Concatenate priority_area and type for Isotope filtering
-        var theFilter = hashFilter["focus_area"] + hashFilter["sub_focus_area"] + hashFilter["type"] + hashFilter["source"] + hashFilter["fiscal_year"] + hashFilter["archive_area"] + hashFilter["council"];
+        var theFilter = hashFilter["focus_area"] + hashFilter["sub_focus_area"] + hashFilter["type"] + hashFilter["sources"] + hashFilter["fiscal_year"] + hashFilter["archive_area"] + hashFilter["council"];
 
 
         if (hashFilter) {
