@@ -109,7 +109,13 @@ jQuery(document).ready(function ($) {
         
 
         // Create new hash
-        var newHash = "focus_area=" + encodeURIComponent(filters["focus_area"]) + "&sub_focus_area=" + encodeURIComponent(filters["sub_focus_area"]) +  "&council=" + encodeURIComponent(filters["council"]) + "&type=" + encodeURIComponent(filters["type"]) + "&source=" + encodeURIComponent(filters["source"]) + "&fiscal_year=" + encodeURIComponent(filters["fiscal_year"]) + "&archive_area=" + encodeURIComponent(filters["archive_area"]);
+        var newHash = "focus_area=" + encodeURIComponent(filters["focus_area"])
+         + "&sub_focus_area=" + encodeURIComponent(filters["sub_focus_area"])
+          +  "&council=" + encodeURIComponent(filters["council"]) 
+          + "&type=" + encodeURIComponent(filters["type"])
+           + "&source=" + encodeURIComponent(filters["source"])
+            + "&fiscal_year=" + encodeURIComponent(filters["fiscal_year"])
+             + "&archive_area=" + encodeURIComponent(filters["archive_area"]);
         // + "&status=" + encodeURIComponent( filters["status"] );
         // If sort value exists, add it to hash
         if (sortValue) {
@@ -144,10 +150,10 @@ jQuery(document).ready(function ($) {
             }
 
             // Toggle checked status of filter buttons
-        //    $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
-          //  $(".filter-list").find("[data-filter='" + hashFilter["focus_area"] + "'],[data-filter='" + hashFilter["sub_focus_area"] + "'],[data-filter='" + hashFilter["type"] + "'],[data-filter='" + hashFilter["source_filter"] + "'][data-filter='" + hashFilter["type"] + "'],[data-filter='" + hashFilter["archive_area"] + "'],[data-filter='" + hashFilter["council"] + "'],[data-filter='" + hashFilter["fiscal_year"] + "']").addClass("checked").attr("aria-checked", "true");
+            $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
+            $(".filter-list").find("[data-filter='" + hashFilter["focus_area"] + "'],[data-filter='" + hashFilter["sub_focus_area"] + "'],[data-filter='" + hashFilter["type"] + "'],[data-filter='" + hashFilter["source_filter"] + "'][data-filter='" + hashFilter["type"] + "'],[data-filter='" + hashFilter["archive_area"] + "'],[data-filter='" + hashFilter["council"] + "'],[data-filter='" + hashFilter["fiscal_year"] + "']").addClass("checked").attr("aria-checked", "true");
             //,[data-filter='" + hashFilter["status"] + "']
-            $(".filter-list").find("[data-filter='" + hashFilter["source"] + "']']").addClass("checked").attr("aria-checked", "true");
+         
         }
     } // onHahschange
 
