@@ -176,7 +176,7 @@ jQuery(document).ready(function ($) {
         hashFilter["focus_area"] = focus_area ? decodeURIComponent(focus_area[1]) : "*";
         hashFilter["sub_focus_area"] = sub_focus_area ? decodeURIComponent(sub_focus_area[1]) : "*";
         hashFilter["type"] = type ? decodeURIComponent(type[1]) : "*";
-        hashFilter["sources"] = sources ? decodeURIComponent(sources[1]) : "*";
+        hashFilter["sources"] =  "*";
         hashFilter["fiscal_year"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["filter-list-not-archived"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["archive_area"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
