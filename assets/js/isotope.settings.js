@@ -113,7 +113,7 @@ jQuery(document).ready(function ($) {
          + "&sub_focus_area=" + encodeURIComponent(filters["sub_focus_area"])
           +  "&council=" + encodeURIComponent(filters["council"]) 
           + "&type=" + encodeURIComponent(filters["type"])
-           + "&sources=" + encodeURIComponent(filters["source"])
+           + "&source =" + encodeURIComponent(filters["source"])
             + "&fiscal_year=" + encodeURIComponent(filters["fiscal_year"])
              + "&archive_area=" + encodeURIComponent(filters["archive_area"]);
         // + "&status=" + encodeURIComponent( filters["status"] );
