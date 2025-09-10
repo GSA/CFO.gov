@@ -235,6 +235,18 @@ function onHashChange() {
     }
 }
 
+ // Optionally hide entire groups if all children are hidden
+ $(".filter-list").each(function() {
+    let visibleItems = $(this).find("li:visible").length;
+    if (visibleItems === 0) {
+        $(this).prev("h3").hide(); // hide section header
+        $(this).hide();
+    } else {
+        $(this).prev("h3").show();
+        $(this).show();
+    }
+});
+
 // When the hash changes, run onHashchange
 window.onhashchange = onHashChange;
 
