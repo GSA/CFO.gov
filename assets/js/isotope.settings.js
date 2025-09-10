@@ -188,10 +188,58 @@ jQuery(document).ready(function ($) {
         return hashFilter;
     } // getHashFilter
 
-    // When the hash changes, run onHashchange
-    window.onhashchange = onHashChange;
+    
 
-    // When the page loads for the first time, run onHashChange
-    onHashChange();
+
+    // Hide filters that are not associated with any currently visible card
+function updateAvailableFilters() {
+    if (!iso) return;
+
+    // Collect all classes from currently visible items
+    let validClasses = new Set();
+    iso.filteredItems.forEach(item => {
+        item.element.classList.forEach(cls => {
+            validClasses.add("." + cls); // prepend "." to match data-filter values
+        });
+    });
+
+    // Loop over all filter buttons
+    $(".filter-list a").each(function() {
+        let filterVal = $(this).attr("data-filter");
+
+        // Show only if this filter is present in at least one visible card
+        if (validClasses.has(filterVal) || filterVal === "*") {
+            $(this).parent().show();
+        } else {
+            $(this).parent().hide();
+        }
+    });
+}
+
+function onHashChange() {
+    // Current hash value
+    var hashFilter = getHashFilter();
+    var theFilter = hashFilter["focus_area"] + hashFilter["sub_focus_area"] + hashFilter["type"] + hashFilter["source"] + hashFilter["fiscal_year"] + hashFilter["archive_area"] + hashFilter["council"];
+
+    if (hashFilter) {
+        $container.isotope({
+            filter: theFilter,
+            sortBy: hashFilter["sorts"]
+        });
+
+        updateFilterCount();
+
+        updateAvailableFilters();
+
+    
+    }
+}
+
+// When the hash changes, run onHashchange
+window.onhashchange = onHashChange;
+
+// When the page loads for the first time, run onHashChange
+onHashChange();
+updateAvailableFilters();
 
 });
