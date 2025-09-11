@@ -86,6 +86,7 @@ jQuery(document).ready(function ($) {
         filters["source"] = hashFilter["source"];
         filters["fiscal_year"] = hashFilter["fiscal_year"];
         filters["archive_area"] = hashFilter["archive_area"];
+        filters["council"] = hashFilter["council"];
 
         // filters["status"] = hashFilter["status"];
         // data-filter attribute of clicked button
@@ -95,7 +96,7 @@ jQuery(document).ready(function ($) {
         // data-filter-group key for the current nav group
         var filterGroup = $navGroup.attr("data-filter-group");
         // If the current data-filter attribute matches the current filter,
-        if (currentFilter == hashFilter["focus_area"] || currentFilter == hashFilter["sub_focus_area"] || currentFilter == hashFilter["type"] || currentFilter == hashFilter["source"] || currentFilter == hashFilter["fiscal_year"] || currentFilter == hashFilter["archive_area"]) {
+        if (currentFilter == hashFilter["focus_area"] || currentFilter == hashFilter["sub_focus_area"] || currentFilter == hashFilter["type"] || currentFilter == hashFilter["source"] || currentFilter == hashFilter["fiscal_year"] || currentFilter == hashFilter["archive_area"] || currentFilter==hashFilter["council"]) {
             // Reset group filter as the user has unselected the button
             filters[filterGroup] = "*";
         } else {
@@ -108,7 +109,7 @@ jQuery(document).ready(function ($) {
         
 
         // Create new hash
-        var newHash = "focus_area=" + encodeURIComponent(filters["focus_area"]) + "&sub_focus_area=" + encodeURIComponent(filters["sub_focus_area"]) + "&type=" + encodeURIComponent(filters["type"]) + "&source=" + encodeURIComponent(filters["source"]) + "&fiscal_year=" + encodeURIComponent(filters["fiscal_year"]) + "&archive_area=" + encodeURIComponent(filters["archive_area"]);
+        var newHash = "focus_area=" + encodeURIComponent(filters["focus_area"]) + "&sub_focus_area=" + encodeURIComponent(filters["sub_focus_area"]) +  "&council=" + encodeURIComponent(filters["council"]) + "&type=" + encodeURIComponent(filters["type"]) + "&source=" + encodeURIComponent(filters["source"]) + "&fiscal_year=" + encodeURIComponent(filters["fiscal_year"]) + "&archive_area=" + encodeURIComponent(filters["archive_area"]);
         // + "&status=" + encodeURIComponent( filters["status"] );
         // If sort value exists, add it to hash
         if (sortValue) {
@@ -122,7 +123,7 @@ jQuery(document).ready(function ($) {
         // Current hash value
         var hashFilter = getHashFilter();
         // Concatenate priority_area and type for Isotope filtering
-        var theFilter = hashFilter["focus_area"] + hashFilter["sub_focus_area"] + hashFilter["type"] + hashFilter["source"] + hashFilter["fiscal_year"] + hashFilter["archive_area"];
+        var theFilter = hashFilter["focus_area"] + hashFilter["sub_focus_area"] + hashFilter["type"] + hashFilter["source"] + hashFilter["fiscal_year"] + hashFilter["archive_area"] + hashFilter["council"];
 
 
         if (hashFilter) {
@@ -171,6 +172,7 @@ jQuery(document).ready(function ($) {
         hashFilter["fiscal_year"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["filter-list-not-archived"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["archive_area"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
+        hashFilter["council"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
         // hashFilter["status"] = status ? status[1] : "*";
         hashFilter["sorts"] = sorts ? sorts[1] : "";
 
