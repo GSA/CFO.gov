@@ -207,8 +207,23 @@ jQuery(document).ready(function ($) {
                 let filterVal = $(this).attr("data-filter");
 
                 if (filterGroup === "archive_area") {
-                    // Show if there are archived items in current filtered set OR if selected
-                    let hasArchivedVisible = iso.filteredItems.some(itm =>
+                    // ✅ Check for archived items ignoring archive filter itself
+                    let currentHash = getHashFilter();
+                    let testFilters = [];
+                    Object.keys(currentHash).forEach(key => {
+                        if (
+                            key !== "archive_area" &&
+                            key !== "sorts" &&
+                            currentHash[key] !== "*" &&
+                            currentHash[key] !== ""
+                        ) {
+                            testFilters.push(currentHash[key]);
+                        }
+                    });
+                    let testFilterString = testFilters.join("") || "*";
+
+                    let hasArchivedVisible = iso.items.some(itm =>
+                        $(itm.element).is(testFilterString) &&
                         itm.element.classList.contains("archived")
                     );
 
