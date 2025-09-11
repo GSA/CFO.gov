@@ -205,6 +205,22 @@ jQuery(document).ready(function ($) {
 
             $list.find("a").each(function () {
                 let filterVal = $(this).attr("data-filter");
+
+                if (filterGroup === "archive_area") {
+                    // Show if there are archived items in current filtered set OR if selected
+                    let hasArchivedVisible = iso.filteredItems.some(itm =>
+                        itm.element.classList.contains("archived")
+                    );
+
+                    if (hasArchivedVisible || $(this).hasClass("checked")) {
+                        $(this).parent().show();
+                    } else {
+                        $(this).parent().hide();
+                    }
+                    return; // skip normal logic for archive_area
+                }
+
+                // Normal filter logic
                 if (
                     filterVal === "*" ||
                     $(this).hasClass("checked") ||
@@ -218,8 +234,7 @@ jQuery(document).ready(function ($) {
 
             let visibleItems = $list.find("li:visible").length;
 
-            // Keep archive_area group always visible
-            if (visibleItems === 0 && filterGroup !== "archive_area") {
+            if (visibleItems === 0) {
                 $list.prev("h3").hide();
                 $list.hide();
             } else {
