@@ -99,7 +99,7 @@ jQuery(document).ready(function ($) {
             "&sub_focus_area=" + encodeURIComponent(filters["sub_focus_area"]) +
             "&council=" + encodeURIComponent(filters["council"]) +
             "&type=" + encodeURIComponent(filters["type"]) +
-            "&source=" + encodeURIComponent(filters["source"]) + // fixed space bug
+            "&source=" + encodeURIComponent(filters["source"]) +
             "&fiscal_year=" + encodeURIComponent(filters["fiscal_year"]) +
             "&archive_area=" + encodeURIComponent(filters["archive_area"]);
 
@@ -111,18 +111,21 @@ jQuery(document).ready(function ($) {
 
     function onHashChange() {
         var hashFilter = getHashFilter();
-        var theFilter =
-            hashFilter["focus_area"] +
-            hashFilter["sub_focus_area"] +
-            hashFilter["type"] +
-            hashFilter["source"] +
-            hashFilter["fiscal_year"] +
-            hashFilter["archive_area"] +
-            hashFilter["council"];
+
+        // Build an array of active filters
+        let activeFilters = [];
+        Object.keys(hashFilter).forEach(key => {
+            if (key !== "sorts" && hashFilter[key] !== "*" && hashFilter[key] !== "") {
+                activeFilters.push(hashFilter[key]);
+            }
+        });
+
+        // Join all filters for AND logic
+        let theFilter = activeFilters.join("");
 
         if (hashFilter) {
             $container.isotope({
-                filter: theFilter,
+                filter: theFilter || "*",
                 sortBy: hashFilter["sorts"]
             });
 
@@ -175,7 +178,7 @@ jQuery(document).ready(function ($) {
         return hashFilter;
     }
 
-    // 👇 NEW FUNCTION: dynamically hide irrelevant filters
+    // 👇 UPDATED FUNCTION: dynamically hide irrelevant filters
     function updateAvailableFilters() {
         if (!iso) return;
 
@@ -197,7 +200,10 @@ jQuery(document).ready(function ($) {
         });
 
         $(".filter-list").each(function () {
-            $(this).find("a").each(function () {
+            let $list = $(this);
+            let filterGroup = $list.data("filter-group");
+
+            $list.find("a").each(function () {
                 let filterVal = $(this).attr("data-filter");
                 if (
                     filterVal === "*" ||
@@ -210,13 +216,15 @@ jQuery(document).ready(function ($) {
                 }
             });
 
-            let visibleItems = $(this).find("li:visible").length;
-            if (visibleItems === 0) {
-                $(this).prev("h3").hide();
-                $(this).hide();
+            let visibleItems = $list.find("li:visible").length;
+
+            // Keep archive_area group always visible
+            if (visibleItems === 0 && filterGroup !== "archive_area") {
+                $list.prev("h3").hide();
+                $list.hide();
             } else {
-                $(this).prev("h3").show();
-                $(this).show();
+                $list.prev("h3").show();
+                $list.show();
             }
         });
     }
