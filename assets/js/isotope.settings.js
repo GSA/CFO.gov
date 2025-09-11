@@ -207,7 +207,7 @@ jQuery(document).ready(function ($) {
                 let filterVal = $(this).attr("data-filter");
 
                 if (filterGroup === "archive_area") {
-                    // ✅ Use Isotope's internal matcher to check for archived items
+                    // ✅ Build filter string without archive_area
                     let currentHash = getHashFilter();
                     let testFilters = [];
                     Object.keys(currentHash).forEach(key => {
@@ -222,15 +222,13 @@ jQuery(document).ready(function ($) {
                     });
                     let testFilterString = testFilters.join("") || "*";
 
-                    // Isotope builds filter test internally
-                    let testFn = iso.options.getFilterTest
-                        ? iso.options.getFilterTest(testFilterString)
-                        : function (elem) { return $(elem).is(testFilterString); };
-
+                    // Check if archived docs would be visible without archive filter
                     let hasArchivedVisible = iso.items.some(itm =>
-                        testFn(itm.element) &&
-                        itm.element.classList.contains("archived")
+                        $(itm.element).is(testFilterString) &&
+                        $(itm.element).hasClass("archived")
                     );
+
+                    console.log("Archive filter check →", hasArchivedVisible, "using selector:", testFilterString);
 
                     if (hasArchivedVisible || $(this).hasClass("checked")) {
                         $(this).parent().show();
