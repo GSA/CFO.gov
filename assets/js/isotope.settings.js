@@ -1,4 +1,4 @@
-// Filter based on two factors + alphabetical sort
+// Filter based on multiple factors + alphabetical sort
 // Uses URI hash as trigger allowing direct links etc
 // Based on: http://isotope.metafizzy.co/filtering.html#url-hash
 
@@ -26,7 +26,7 @@ jQuery(document).ready(function ($) {
         location.hash = initHash;
     }
 
-    // Filter isotope
+    // Filter isotope (initial setup)
     $container.isotope({
         itemSelector: ".policy",
         layoutMode: "masonry",
@@ -109,23 +109,41 @@ jQuery(document).ready(function ($) {
         location.hash = newHash;
     }
 
+    // 👇 Custom filter function for Isotope
+    function combinedFilter(itemElem) {
+        let $el = $(itemElem);
+        let hf = getHashFilter();
+
+        // Council
+        if (hf.council !== "*" && !$el.is(hf.council)) return false;
+
+        // Focus Area
+        if (hf.focus_area !== "*" && !$el.is(hf.focus_area)) return false;
+
+        // Sub Focus
+        if (hf.sub_focus_area !== "*" && !$el.is(hf.sub_focus_area)) return false;
+
+        // Type
+        if (hf.type !== "*" && !$el.is(hf.type)) return false;
+
+        // Source
+        if (hf.source !== "*" && !$el.is(hf.source)) return false;
+
+        // Fiscal year
+        if (hf.fiscal_year !== "*" && !$el.is(hf.fiscal_year)) return false;
+
+        // Archive (special)
+        if (hf.archive_area !== "*" && !$el.is(hf.archive_area)) return false;
+
+        return true;
+    }
+
     function onHashChange() {
         var hashFilter = getHashFilter();
 
-        // Build an array of active filters
-        let activeFilters = [];
-        Object.keys(hashFilter).forEach(key => {
-            if (key !== "sorts" && hashFilter[key] !== "*" && hashFilter[key] !== "") {
-                activeFilters.push(hashFilter[key]);
-            }
-        });
-
-        // Join all filters for AND logic
-        let theFilter = activeFilters.join("");
-
         if (hashFilter) {
             $container.isotope({
-                filter: theFilter || "*",
+                filter: combinedFilter,
                 sortBy: hashFilter["sorts"]
             });
 
@@ -207,28 +225,12 @@ jQuery(document).ready(function ($) {
                 let filterVal = $(this).attr("data-filter");
 
                 if (filterGroup === "archive_area") {
-                    // ✅ Build filter string without archive_area
-                    let currentHash = getHashFilter();
-                    let testFilters = [];
-                    Object.keys(currentHash).forEach(key => {
-                        if (
-                            key !== "archive_area" &&
-                            key !== "sorts" &&
-                            currentHash[key] !== "*" &&
-                            currentHash[key] !== ""
-                        ) {
-                            testFilters.push(currentHash[key]);
-                        }
-                    });
-                    let testFilterString = testFilters.join("") || "*";
-
-                    // Check if archived docs would be visible without archive filter
-                    let hasArchivedVisible = iso.items.some(itm =>
-                        $(itm.element).is(testFilterString) &&
+                    // ✅ Show only if archived items exist in current results
+                    let hasArchivedVisible = iso.filteredItems.some(itm =>
                         $(itm.element).hasClass("archived")
                     );
 
-                    console.log("Archive filter check →", hasArchivedVisible, "using selector:", testFilterString);
+                    console.log("Archive filter check →", hasArchivedVisible);
 
                     if (hasArchivedVisible || $(this).hasClass("checked")) {
                         $(this).parent().show();
