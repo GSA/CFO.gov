@@ -202,6 +202,7 @@ jQuery(document).ready(function ($) {
         $(".filter-list").each(function () {
             $(this).find("a").each(function () {
                 let filterVal = $(this).attr("data-filter");
+                filterVal = filterVal === 'archive_area' ? 'archived' : filterVal;
                 if (
                     filterVal === "*" ||
                     $(this).hasClass("checked") ||
