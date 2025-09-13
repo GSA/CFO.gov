@@ -118,6 +118,7 @@ jQuery(document).ready(function ($) {
             hashFilter["source"] +
             hashFilter["fiscal_year"] +
             hashFilter["archive_area"] +
+            hashFilter["filter-list-not-archived"]+
             hashFilter["council"];
 
         if (hashFilter) {
@@ -143,7 +144,8 @@ jQuery(document).ready(function ($) {
                 "[data-filter='" + hashFilter["type"] + "'], " +
                 "[data-filter='" + hashFilter["source"] + "'], " +
                 "[data-filter='" + hashFilter["archive_area"] + "'], " +
-                "[data-filter='" + hashFilter["council"] + "'], " +
+                "[data-filter='" + hashFilter["council"] + "'], " + 
+                "[data-filter='" + hashFilter["filter-list-not-archived"] + "'], " + 
                 "[data-filter='" + hashFilter["fiscal_year"] + "']"
             ).addClass("checked").attr("aria-checked", "true");
 
