@@ -180,7 +180,7 @@ jQuery(document).ready(function ($) {
     // 👇 NEW FUNCTION: dynamically hide irrelevant filters
     function updateAvailableFilters() {
         if (!iso) return;
-
+    
         // If no filtering applied (show all items), show everything
         if (iso.filteredItems.length === iso.items.length) {
             $(".filter-list li").show();
@@ -190,18 +190,22 @@ jQuery(document).ready(function ($) {
             });
             return;
         }
-
+    
         let validClasses = new Set();
         iso.filteredItems.forEach(item => {
             item.element.classList.forEach(cls => {
                 validClasses.add("." + cls);
             });
         });
-
+    
         $(".filter-list").each(function () {
-            $(this).find("a").each(function () {
+            let $group = $(this);
+            let isAlwaysVisible = $group.attr("id") === "filter-list-not-archived";
+    
+            $group.find("a").each(function () {
                 let filterVal = $(this).attr("data-filter");
                 filterVal = filterVal === 'archive_area' ? 'archived' : filterVal;
+    
                 if (
                     filterVal === "*" ||
                     $(this).hasClass("checked") ||
@@ -212,14 +216,15 @@ jQuery(document).ready(function ($) {
                     $(this).parent().hide();
                 }
             });
-
-            let visibleItems = $(this).find("li:visible").length;
-            if (visibleItems === 0) {
-                $(this).prev("h3").hide();
-                $(this).hide();
+    
+            let visibleItems = $group.find("li:visible").length;
+    
+            if (visibleItems === 0 && !isAlwaysVisible) {
+                $group.prev("h3").hide();
+                $group.hide();
             } else {
-                $(this).prev("h3").show();
-                $(this).show();
+                $group.prev("h3").show();
+                $group.show();
             }
         });
     }
