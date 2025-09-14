@@ -227,7 +227,6 @@ jQuery(document).ready(function ($) {
 
     // When the hash changes, run onHashchange
     window.onhashchange = onHashChange;
-
     // When the page loads for the first time
     onHashChange();
     updateAvailableFilters();
