@@ -13,7 +13,6 @@ jQuery(document).ready(function ($) {
     }
 
     let notArchivedFilter = notArchivedYears.join(", ");
-
     // Add the years to the data-filter attribute of the filter-list-not-archived
     $("#filter-list-not-archived").attr("data-filter", notArchivedFilter);
     var initialFilter = notArchivedFilter;
