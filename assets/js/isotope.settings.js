@@ -147,6 +147,8 @@ jQuery(document).ready(function ($) {
             $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
             $(".filter-list").find("[data-filter='" + hashFilter["focus_area"] + "'],[data-filter='" + hashFilter["sub_focus_area"] + "'],[data-filter='" + hashFilter["type"] + "'],[data-filter='" + hashFilter["council"] + "'],[data-filter='" + hashFilter["source"] + "'],[data-filter='" + hashFilter["type"] + "'],[data-filter='" + hashFilter["archive_area"] + "'],[data-filter='" + hashFilter["fiscal_year"] + "']").addClass("checked").attr("aria-checked", "true");
             //,[data-filter='" + hashFilter["status"] + "']
+
+            updateFilterVisibility(iso.filteredItems.map(item => item.element));
         }
     } // onHahschange
 
@@ -186,5 +188,52 @@ jQuery(document).ready(function ($) {
 
     // When the page loads for the first time, run onHashChange
     onHashChange();
+
+    function updateFilterVisibility(visibleElements) {
+        let validFocusAreas = new Set();
+        let validSubFocusAreas = new Set();
+        let validTypes = new Set();
+        let validSources = new Set();
+        let validFiscalYears = new Set();
+        let validCouncils = new Set();
+        let validArchiveStates = new Set();
+
+        visibleElements.forEach(el => {
+            let $el = $(el);
+            validFocusAreas.add($el.attr("data-focus_area"));
+            validSubFocusAreas.add($el.attr("data-sub_focus_area"));
+            validTypes.add($el.attr("data-type"));
+            validSources.add($el.attr("data-source"));
+            validFiscalYears.add($el.attr("data-fiscal_year"));
+            validCouncils.add($el.attr("data-council"));
+            if ($el.hasClass("archived")) {
+                validArchiveStates.add("archived");
+            } else {
+                validArchiveStates.add("not-archived");
+            }
+        });
+
+        function toggleFilterButtons(groupSelector, validSet, isClassBased = true) {
+            $(groupSelector).each(function () {
+                let val = $(this).attr("data-filter");
+                if (isClassBased) {
+                    val = val.replace(".", "");
+                }
+                if (validSet.has(val) || val === "*") {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        }
+
+        toggleFilterButtons(".filter-list[data-filter-group='focus_area'] a", validFocusAreas);
+        toggleFilterButtons(".filter-list[data-filter-group='sub_focus_area'] a", validSubFocusAreas);
+        toggleFilterButtons(".filter-list[data-filter-group='type'] a", validTypes);
+        toggleFilterButtons(".filter-list[data-filter-group='source'] a", validSources);
+        toggleFilterButtons(".filter-list[data-filter-group='fiscal_year'] a", validFiscalYears);
+        toggleFilterButtons(".filter-list[data-filter-group='council'] a", validCouncils);
+        toggleFilterButtons(".filter-list[data-filter-group='archive_area'] a", validArchiveStates);
+    }
 
 });
