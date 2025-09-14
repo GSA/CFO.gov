@@ -143,8 +143,7 @@ jQuery(document).ready(function ($) {
     
         $(".filter-list").each(function () {
             const $list = $(this);
-            const $title = $list.prev("h3");
-            const isArchiveGroup = $list.attr("data-filter-group") === "archive_area";
+            const isArchiveFilterList = $list.attr("data-filter-group") === "archive_area";
     
             $list.find("a").each(function () {
                 const $link = $(this);
@@ -153,24 +152,19 @@ jQuery(document).ready(function ($) {
                 const shouldShow =
                     filterVal === "*" ||
                     $link.hasClass("checked") ||
-                    validClasses.has(filterVal);
+                    validClasses.has(filterVal) ||
+                    (isArchiveFilterList && hasArchived); // ✅ force show if archived items exist
     
-                // ✅ Force show archive filter if archived items exist
-                if (isArchiveGroup && filterVal === ".archived" && hasArchived) {
-                    $link.parent().show();
-                } else {
-                    $link.parent().toggle(shouldShow);
-                }
+                $link.parent().toggle(shouldShow);
             });
     
             const visibleItems = $list.find("li:visible").length;
     
-            // ✅ Force show archive filter group if archived items exist
-            if (isArchiveGroup && hasArchived) {
-                $title.show();
+            if (isArchiveFilterList && hasArchived) {
+                $list.prev("h3").show();
                 $list.show();
             } else {
-                $title.toggle(visibleItems > 0);
+                $list.prev("h3").toggle(visibleItems > 0);
                 $list.toggle(visibleItems > 0);
             }
         });
