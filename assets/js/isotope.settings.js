@@ -136,16 +136,6 @@ jQuery(document).ready(function ($) {
             item.element.classList.contains("archived")
         );
     
-        // If no filtering applied (show all items), show everything
-        if (iso.filteredItems.length === iso.items.length) {
-            $(".filter-list li").show();
-            $(".filter-list").each(function () {
-                $(this).prev("h3").show();
-                $(this).show();
-            });
-            return;
-        }
-    
         const validClasses = new Set();
         iso.filteredItems.forEach(item => {
             item.element.classList.forEach(cls => validClasses.add("." + cls));
@@ -153,25 +143,30 @@ jQuery(document).ready(function ($) {
     
         $(".filter-list").each(function () {
             const $list = $(this);
-            const isArchiveFilter = $list.attr("id") === "filter-list-not-archived";
+            const isArchiveFilterList = $list.attr("data-filter-group") === "archive_area";
     
             $list.find("a").each(function () {
                 const $link = $(this);
-                let filterVal = $link.attr("data-filter");
+                const filterVal = $link.attr("data-filter");
     
-                // Normalize archive filter check
                 const shouldShow =
                     filterVal === "*" ||
                     $link.hasClass("checked") ||
                     validClasses.has(filterVal) ||
-                    (isArchiveFilter && hasArchived); // 👈 force show if archived items exist
+                    (isArchiveFilterList && hasArchived); // ✅ force show if archived items exist
     
                 $link.parent().toggle(shouldShow);
             });
     
             const visibleItems = $list.find("li:visible").length;
-            $list.prev("h3").toggle(visibleItems > 0);
-            $list.toggle(visibleItems > 0);
+    
+            if (isArchiveFilterList && hasArchived) {
+                $list.prev("h3").show();
+                $list.show();
+            } else {
+                $list.prev("h3").toggle(visibleItems > 0);
+                $list.toggle(visibleItems > 0);
+            }
         });
     }
 
