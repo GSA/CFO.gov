@@ -197,36 +197,49 @@ jQuery(document).ready(function ($) {
         let validFiscalYears = new Set();
         let validCouncils = new Set();
         let validArchiveStates = new Set();
-
+    
         visibleElements.forEach(el => {
             let $el = $(el);
-            validFocusAreas.add($el.attr("data-focus_area"));
-            validSubFocusAreas.add($el.attr("data-sub_focus_area"));
-            validTypes.add($el.attr("data-type"));
-            validSources.add($el.attr("data-source"));
-            validFiscalYears.add($el.attr("data-fiscal_year"));
-            validCouncils.add($el.attr("data-council"));
+    
+            // Safely extract attributes
+            validFocusAreas.add($el.attr("data-focus_area") || "");
+            validSubFocusAreas.add($el.attr("data-sub_focus_area") || "");
+            validTypes.add($el.attr("data-type") || "");
+            validSources.add($el.attr("data-source") || "");
+            validFiscalYears.add($el.attr("data-fiscal_year") || "");
+            validCouncils.add($el.attr("data-council") || "");
+    
+            // Archive status: use class presence
             if ($el.hasClass("archived")) {
                 validArchiveStates.add("archived");
             } else {
                 validArchiveStates.add("not-archived");
             }
         });
-
+    
+        // Debug: log what values are being detected
+        console.log("Visible Focus Areas:", [...validFocusAreas]);
+        console.log("Visible Councils:", [...validCouncils]);
+        console.log("Archive States:", [...validArchiveStates]);
+    
+        // Helper to show/hide filter buttons
         function toggleFilterButtons(groupSelector, validSet, isClassBased = true) {
             $(groupSelector).each(function () {
                 let val = $(this).attr("data-filter");
+                if (!val) return;
+    
                 if (isClassBased) {
-                    val = val.replace(".", "");
+                    val = val.replace(".", "").replace(":not(.archived)", ""); // Normalize compound filters
                 }
-                if (validSet.has(val) || val === "*") {
+    
+                if (validSet.has(val) || val === "*" || validSet.has("")) {
                     $(this).show();
                 } else {
                     $(this).hide();
                 }
             });
         }
-
+    
         toggleFilterButtons(".filter-list[data-filter-group='focus_area'] a", validFocusAreas);
         toggleFilterButtons(".filter-list[data-filter-group='sub_focus_area'] a", validSubFocusAreas);
         toggleFilterButtons(".filter-list[data-filter-group='type'] a", validTypes);
