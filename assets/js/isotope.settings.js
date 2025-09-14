@@ -1,55 +1,45 @@
-// Filter based on two factors + alphabetical sort
-// Uses URI hash as trigger allowing direct links etc
-// Based on: http://isotope.metafizzy.co/filtering.html#url-hash
-
 jQuery(document).ready(function ($) {
-    var $container = $(".resources");
-    let currentYear = new Date().getFullYear();
+    const $container = $(".resources");
+    const currentYear = new Date().getFullYear();
     const archivedYears = 7;
     const endYear = currentYear - archivedYears;
-    let notArchivedYears = [];
+    const notArchivedYears = [];
+
     for (let i = currentYear; i >= endYear; i--) {
         notArchivedYears.push(`.${i}:not(.archived)`);
     }
 
-    let notArchivedFilter = notArchivedYears.join(", ");
-
-    // Add the years to the data-filter attribute of the filter-list-not-archived
+    const notArchivedFilter = notArchivedYears.join(", ");
     $("#filter-list-not-archived").attr("data-filter", notArchivedFilter);
-    var initialFilter = notArchivedFilter;
+    const initialFilter = notArchivedFilter;
+    const initHash = "archive_area=" + encodeURIComponent(initialFilter);
 
-    // Create initial hash
-    var initHash = "archive_area=" + encodeURIComponent(initialFilter);
-
-    // Apply the new hash to the URI, triggering onHashchange()
-    if (location.pathname == '/coffa/resources' && !location.hash) {
+    if (location.pathname === '/coffa/resources' && !location.hash) {
         location.hash = initHash;
     }
 
-    // Filter isotope
     $container.isotope({
         itemSelector: ".policy",
         layoutMode: "masonry",
         getSortData: {
             date: "p",
-            title: ".title" // add alphabetical sorting
+            title: ".title"
         },
-        filter: initialFilter,
+        filter: initialFilter
     });
 
-    var iso = $container.data("isotope");
-    var $filterCount = $(".filter-count");
+    const iso = $container.data("isotope");
+    const $filterCount = $(".filter-count");
 
     function updateFilterCount() {
-        if (iso != null) {
-            $filterCount.text(iso.filteredItems.length + " items");
+        if (iso) {
+            $filterCount.text(`${iso.filteredItems.length} items`);
         }
     }
 
-    // Alphabetical sort
-    var sortValue = false;
+    let sortValue = false;
     $(".sort").on("click", function () {
-        var currentHash = location.hash;
+        const currentHash = location.hash;
         if ($(this).hasClass("checked")) {
             sortValue = false;
             location.hash = currentHash.replace(/&sort=([^&]+)/i, "");
@@ -59,130 +49,89 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    // Set up filters array with default values
-    var filters = {};
+    const filters = {};
 
-    // When a button is pressed, run filterSelect
     $(".filter-list a").on("click", filterSelect);
 
     function filterSelect() {
-        var hashFilter = getHashFilter();
+        const hashFilter = getHashFilter();
 
-        filters["focus_area"] = hashFilter["focus_area"];
-        filters["sub_focus_area"] = hashFilter["sub_focus_area"];
-        filters["type"] = hashFilter["type"];
-        filters["source"] = hashFilter["source"];
-        filters["fiscal_year"] = hashFilter["fiscal_year"];
-        filters["archive_area"] = hashFilter["archive_area"];
-        filters["council"] = hashFilter["council"];
+        const filterGroups = [
+            "focus_area", "sub_focus_area", "type", "source",
+            "fiscal_year", "archive_area", "council"
+        ];
 
-        var currentFilter = $(this).attr("data-filter");
-        var $navGroup = $(this).parents(".filter-list");
-        var filterGroup = $navGroup.attr("data-filter-group");
+        filterGroups.forEach(group => {
+            filters[group] = hashFilter[group];
+        });
 
-        if (
-            currentFilter == hashFilter["focus_area"] ||
-            currentFilter == hashFilter["sub_focus_area"] ||
-            currentFilter == hashFilter["type"] ||
-            currentFilter == hashFilter["source"] ||
-            currentFilter == hashFilter["fiscal_year"] ||
-            currentFilter == hashFilter["archive_area"] ||
-            currentFilter == hashFilter["council"]
-        ) {
-            filters[filterGroup] = "*";
-        } else {
-            filters[filterGroup] = $(this).attr("data-filter");
-        }
+        const currentFilter = $(this).attr("data-filter");
+        const $navGroup = $(this).parents(".filter-list");
+        const filterGroup = $navGroup.attr("data-filter-group");
 
-        var newHash =
-            "focus_area=" + encodeURIComponent(filters["focus_area"]) +
-            "&sub_focus_area=" + encodeURIComponent(filters["sub_focus_area"]) +
-            "&council=" + encodeURIComponent(filters["council"]) +
-            "&type=" + encodeURIComponent(filters["type"]) +
-            "&source=" + encodeURIComponent(filters["source"]) + // fixed space bug
-            "&fiscal_year=" + encodeURIComponent(filters["fiscal_year"]) +
-            "&archive_area=" + encodeURIComponent(filters["archive_area"]);
+        filters[filterGroup] = (currentFilter === hashFilter[filterGroup]) ? "*" : currentFilter;
+
+        let newHash = filterGroups.map(group =>
+            `${group}=${encodeURIComponent(filters[group])}`
+        ).join("&");
 
         if (sortValue) {
-            newHash = newHash + "&sort=" + encodeURIComponent(sortValue);
+            newHash += "&sort=" + encodeURIComponent(sortValue);
         }
+
         location.hash = newHash;
     }
 
     function onHashChange() {
-        var hashFilter = getHashFilter();
-        var theFilter =
-            hashFilter["focus_area"] +
-            hashFilter["sub_focus_area"] +
-            hashFilter["type"] +
-            hashFilter["source"] +
-            hashFilter["fiscal_year"] +
-            hashFilter["archive_area"] +
-            hashFilter["filter-list-not-archived"]+
-            hashFilter["council"];
+        const hashFilter = getHashFilter();
 
-        if (hashFilter) {
-            $container.isotope({
-                filter: theFilter,
-                sortBy: hashFilter["sorts"]
-            });
+        const filterParts = [
+            hashFilter["focus_area"],
+            hashFilter["sub_focus_area"],
+            hashFilter["type"],
+            hashFilter["source"],
+            hashFilter["fiscal_year"],
+            hashFilter["archive_area"],
+            hashFilter["council"]
+        ];
 
-            updateFilterCount();
+        const theFilter = filterParts.filter(f => f && f !== "*").join("");
 
-            // Toggle checked status of sort button
-            if (hashFilter["sorts"]) {
-                $(".sort").addClass("checked");
-            } else {
-                $(".sort").removeClass("checked");
-            }
+        $container.isotope({
+            filter: theFilter || "*",
+            sortBy: hashFilter["sorts"]
+        });
 
-            // Toggle checked status of filter buttons
-            $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
-            $(".filter-list").find(
-                "[data-filter='" + hashFilter["focus_area"] + "'], " +
-                "[data-filter='" + hashFilter["sub_focus_area"] + "'], " +
-                "[data-filter='" + hashFilter["type"] + "'], " +
-                "[data-filter='" + hashFilter["source"] + "'], " +
-                "[data-filter='" + hashFilter["archive_area"] + "'], " +
-                "[data-filter='" + hashFilter["council"] + "'], " + 
-                "[data-filter='" + hashFilter["filter-list-not-archived"] + "'], " + 
-                "[data-filter='" + hashFilter["fiscal_year"] + "']"
-            ).addClass("checked").attr("aria-checked", "true");
+        updateFilterCount();
 
-            // 👇 dynamic filter update
-            updateAvailableFilters();
-        }
+        $(".sort").toggleClass("checked", !!hashFilter["sorts"]);
+
+        $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
+        $(".filter-list").find(
+            filterParts.map(f => `[data-filter='${f}']`).join(", ")
+        ).addClass("checked").attr("aria-checked", "true");
+
+        updateAvailableFilters();
     }
 
     function getHashFilter() {
-        var focus_area = location.hash.match(/focus_area=([^&]+)/i);
-        var sub_focus_area = location.hash.match(/sub_focus_area=([^&]+)/i);
-        var type = location.hash.match(/type=([^&]+)/i);
-        var source = location.hash.match(/source=([^&]+)/i);
-        var fiscal_year = location.hash.match(/fiscal_year=([^&]+)/i);
-        var council = location.hash.match(/council=([^&]+)/i);
-        var archive_area = location.hash.match(/archive_area=([^&]+)/i);
-        var sorts = location.hash.match(/sort=([^&]+)/i);
+        const hashFilter = {};
+        const keys = [
+            "focus_area", "sub_focus_area", "type", "source",
+            "fiscal_year", "archive_area", "council", "sort"
+        ];
 
-        var hashFilter = {};
-        hashFilter["focus_area"] = focus_area ? decodeURIComponent(focus_area[1]) : "*";
-        hashFilter["sub_focus_area"] = sub_focus_area ? decodeURIComponent(sub_focus_area[1]) : "*";
-        hashFilter["type"] = type ? decodeURIComponent(type[1]) : "*";
-        hashFilter["source"] = source ? decodeURIComponent(source[1]) : "*";
-        hashFilter["fiscal_year"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
-        hashFilter["filter-list-not-archived"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
-        hashFilter["archive_area"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
-        hashFilter["council"] = council ? decodeURIComponent(council[1]) : "*";
-        hashFilter["sorts"] = sorts ? sorts[1] : "";
+        keys.forEach(key => {
+            const match = location.hash.match(new RegExp(`${key}=([^&]+)`, "i"));
+            hashFilter[key === "sort" ? "sorts" : key] = match ? decodeURIComponent(match[1]) : "*";
+        });
 
         return hashFilter;
     }
 
-    // 👇 NEW FUNCTION: dynamically hide irrelevant filters
     function updateAvailableFilters() {
         if (!iso) return;
 
-        // If no filtering applied (show all items), show everything
         if (iso.filteredItems.length === iso.items.length) {
             $(".filter-list li").show();
             $(".filter-list").each(function () {
@@ -192,43 +141,27 @@ jQuery(document).ready(function ($) {
             return;
         }
 
-        let validClasses = new Set();
+        const validClasses = new Set();
         iso.filteredItems.forEach(item => {
-            item.element.classList.forEach(cls => {
-                validClasses.add("." + cls);
-            });
+            item.element.classList.forEach(cls => validClasses.add("." + cls));
         });
 
         $(".filter-list").each(function () {
             $(this).find("a").each(function () {
                 let filterVal = $(this).attr("data-filter");
                 filterVal = filterVal === 'archive_area' ? 'archived' : filterVal;
-                if (
-                    filterVal === "*" ||
-                    $(this).hasClass("checked") ||
-                    validClasses.has(filterVal)
-                ) {
-                    $(this).parent().show();
-                } else {
-                    $(this).parent().hide();
-                }
+
+                const shouldShow = filterVal === "*" || $(this).hasClass("checked") || validClasses.has(filterVal);
+                $(this).parent().toggle(shouldShow);
             });
 
-            let visibleItems = $(this).find("li:visible").length;
-            if (visibleItems === 0) {
-                $(this).prev("h3").hide();
-                $(this).hide();
-            } else {
-                $(this).prev("h3").show();
-                $(this).show();
-            }
+            const visibleItems = $(this).find("li:visible").length;
+            $(this).prev("h3").toggle(visibleItems > 0);
+            $(this).toggle(visibleItems > 0);
         });
     }
 
-    // When the hash changes, run onHashchange
     window.onhashchange = onHashChange;
-    
-    // When the page loads for the first time
     onHashChange();
     updateAvailableFilters();
 });
