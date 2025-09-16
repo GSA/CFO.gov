@@ -6,7 +6,7 @@ permalink: /resources/seminars-payment-integrity/
 date: July 02, 2023
 has_date: 'no'
 back_to_button: 'yes'
-filters: payment-integrity training omb 2021
+filters: payment-integrity cfoc training omb 2021
 fiscal_year: 2021
 ---
 <h2>Purpose</h2>
