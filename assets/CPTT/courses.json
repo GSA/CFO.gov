@@ -2406,108 +2406,6 @@
     ]
   },
   {
-    "course_title": "FASAB Overview and Update",
-    "training_providers": "AGA",
-    "link": "https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=24",
-    "course_credit_type": "CPE",
-    "price": 6000,
-    "learning_modality": "Hybrid",
-    "course_description": "Gain an overview of FASAB concepts and standards, the standard-setting process and an update regarding FASAB’s most recent projects.",
-    "additional_course_information": "The price is reflective of a group of up to 30 people. ",
-    "course_duration_num": 6.5,
-    "course_duration_attribute": "Hours",
-    "filters": [
-      "Secondary-Accounting-Analysis GS-7-9 series-0501",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0501",
-      "Primary-Financial-Reporting GS-7-9 series-0501",
-      "Primary-Financial-Stewardship GS-7-9 series-0501",
-      "Secondary-Accounting-Analysis GS-10-13 series-0501",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0501",
-      "Primary-Financial-Reporting GS-10-13 series-0501",
-      "Primary-Financial-Stewardship GS-10-13 series-0501",
-      "Alternate-Fundamentals-and-Operations-of-Accounting GS-10-13 series-0501",
-      "Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0501",
-      "Primary-Accounting-Analysis GS-7-9 series-0510",
-      "Primary-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0510",
-      "Primary-Financial-Reporting GS-7-9 series-0510",
-      "Primary-Financial-Stewardship GS-7-9 series-0510",
-      "Secondary-Fundamentals-and-Operations-of-Accounting GS-7-9 series-0510",
-      "Primary-Accounting-Analysis GS-10-13 series-0510",
-      "Primary-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0510",
-      "Primary-Financial-Reporting GS-10-13 series-0510",
-      "Primary-Financial-Stewardship GS-10-13 series-0510",
-      "Secondary-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0510",
-      "Secondary-Accounting-Analysis GS-7-9 series-0511",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0511",
-      "Primary-Financial-Stewardship GS-7-9 series-0511",
-      "Secondary-Accounting-Analysis GS-10-13 series-0511",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0511",
-      "Primary-Financial-Stewardship GS-10-13 series-0511",
-      "Alternate-Fundamentals-and-Operations-of-Accounting GS-10-13 series-0511",
-      "Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0511",
-      "Secondary-Accounting-Analysis GS-7-9 series-0560",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0560",
-      "Primary-Financial-Stewardship GS-7-9 series-0560",
-      "Secondary-Accounting-Analysis GS-10-13 series-0560",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0560",
-      "Primary-Financial-Stewardship GS-10-13 series-0560",
-      "Alternate-Fundamentals-and-Operations-of-Accounting GS-10-13 series-0560",
-      "Alternate-Fundamentals-and-Operations-of-Accounting GS-14-15 series-0560"
-    ]
-  },
-  {
-    "course_title": "Budget Development and Execution",
-    "training_providers": "AGA",
-    "link": "https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=8",
-    "course_credit_type": "CPE",
-    "price": 6000,
-    "learning_modality": "Hybrid",
-    "course_description": "This course offers an understanding of the concepts and practices of governmental budget preparation and execution processes. All aspects of the budget cycle, from formulation, review, appropriation, budget execution and reporting will be analyzed.",
-    "additional_course_information": "The price is reflective of a group of up to 30 people. ",
-    "course_duration_num": 6.5,
-    "course_duration_attribute": "Hours",
-    "filters": [
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0501",
-      "Alternate-Budget-Concepts-Policies-and-Principles GS-7-9 series-0501",
-      "Secondary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0501",
-      "Secondary-Fundamentals-and-Operations-of-Finance GS-7-9 series-0501",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0501",
-      "Alternate-Budget-Concepts-Policies-and-Principles GS-10-13 series-0501",
-      "Secondary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0501",
-      "Alternate-Fundamentals-and-Operations-of-Budget GS-10-13 series-0501",
-      "Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0501",
-      "Primary-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0510",
-      "Alternate-Budget-Concepts-Policies-and-Principles GS-7-9 series-0510",
-      "Secondary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0510",
-      "Primary-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0510",
-      "Alternate-Budget-Concepts-Policies-and-Principles GS-10-13 series-0510",
-      "Secondary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0510",
-      "Alternate-Fundamentals-and-Operations-of-Budget GS-10-13 series-0510",
-      "Alternate-Fundamentals-and-Operations-of-Finance GS-10-13 series-0510",
-      "Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0510",
-      "Alternate-Fundamentals-and-Operations-of-Finance GS-14-15 series-0510",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0511",
-      "Alternate-Budget-Concepts-Policies-and-Principles GS-7-9 series-0511",
-      "Secondary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0511",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0511",
-      "Alternate-Budget-Concepts-Policies-and-Principles GS-10-13 series-0511",
-      "Secondary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0511",
-      "Alternate-Fundamentals-and-Operations-of-Budget GS-10-13 series-0511",
-      "Alternate-Fundamentals-and-Operations-of-Finance GS-10-13 series-0511",
-      "Alternate-Fundamentals-and-Operations-of-Budget GS-14-15 series-0511",
-      "Alternate-Fundamentals-and-Operations-of-Finance GS-14-15 series-0511",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-7-9 series-0560",
-      "Primary-Budget-Concepts-Policies-and-Principles GS-7-9 series-0560",
-      "Primary-Budget-Formulation-Justification-and-Presentation GS-7-9 series-0560",
-      "Secondary-Fundamentals-and-Operations-of-Budget GS-7-9 series-0560",
-      "Alternate-Accounting-Concepts-Policies-and-Principles GS-10-13 series-0560",
-      "Primary-Budget-Concepts-Policies-and-Principles GS-10-13 series-0560",
-      "Primary-Budget-Formulation-Justification-and-Presentation GS-10-13 series-0560",
-      "Alternate-Fundamentals-and-Operations-of-Finance GS-10-13 series-0560",
-      "Alternate-Fundamentals-and-Operations-of-Finance GS-14-15 series-0560"
-    ]
-  },
-  {
     "course_title": "Internal Controls at the Operating Level:  Practical Perspectives on Assessment, Evaluation and Reporting",
     "training_providers": "AGA",
     "link": "https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=32",
@@ -3056,31 +2954,6 @@
     ]
   },
   {
-    "course_title": "Working Papers and Audit Evidence",
-    "training_providers": "AGA",
-    "link": "https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=41",
-    "course_credit_type": "CPE",
-    "price": 6000,
-    "learning_modality": "Hybrid",
-    "course_description": "This course addresses the AICPA and Yellow Book standards for audit documentation, standard working paper techniques, and potential working paper problems and ways to avoid them.",
-    "additional_course_information": "The price is reflective of a group of up to 30 people. ",
-    "course_duration_num": 6.5,
-    "course_duration_attribute": "Hours",
-    "filters": [
-      "Alternate-Audit-Concepts-Policies-and-Principles GS-7-9 series-0501",
-      "Alternate-Audit-Concepts-Policies-and-Principles GS-10-13 series-0501",
-      "Alternate-Audit-Concepts-Policies-and-Principles GS-7-9 series-0510",
-      "Alternate-Audit-Concepts-Policies-and-Principles GS-10-13 series-0510",
-      "Primary-Audit-Concepts-Policies-and-Principles GS-7-9 series-0511",
-      "Primary-Audit-Planning-and-Management GS-7-9 series-0511",
-      "Primary-Audit-Concepts-Policies-and-Principles GS-10-13 series-0511",
-      "Primary-Audit-Planning-and-Management GS-10-13 series-0511",
-      "Primary-Audit-Planning-and-Management GS-14-15 series-0511",
-      "Alternate-Audit-Concepts-Policies-and-Principles GS-7-9 series-0560",
-      "Alternate-Audit-Concepts-Policies-and-Principles GS-10-13 series-0560"
-    ]
-  },
-  {
     "course_title": "Data Reliability Assessments",
     "training_providers": "AGA",
     "link": "https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=19",
@@ -3210,56 +3083,6 @@
     ]
   },
   {
-    "course_title": "Developing and Conducting Effective and Efficient Performance Audit Programs",
-    "training_providers": "AGA",
-    "link": "https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=20",
-    "course_credit_type": "CPE",
-    "price": 6000,
-    "learning_modality": "Hybrid",
-    "course_description": "This course addresses the three essentials of audit planning: doing the right thing, doing it right and documenting the process.",
-    "additional_course_information": "The price is reflective of a group of up to 30 people. ",
-    "course_duration_num": 6.5,
-    "course_duration_attribute": "Hours",
-    "filters": [
-      "Primary-Audit-Planning-and-Management GS-7-9 series-0511",
-      "Primary-Audit-Reporting GS-7-9 series-0511",
-      "Primary-Audit-Planning-and-Management GS-10-13 series-0511",
-      "Primary-Audit-Planning-and-Management GS-14-15 series-0511"
-    ]
-  },
-  {
-    "course_title": "Avoiding Problems in Conducting Single Audits",
-    "training_providers": "AGA",
-    "link": "https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=6",
-    "course_credit_type": "CPE",
-    "price": 6000,
-    "learning_modality": "Hybrid",
-    "course_description": "The Single Audit Act of 1984 requires a single, organization-wide financial and compliance audit for state and local governments. For many years, federal IGs have complained about the quality of single audits. This course is designed to assist auditors who conduct single audits to avoid the concerns raised by the IGs.",
-    "additional_course_information": "The price is reflective of a group of up to 30 people. ",
-    "course_duration_num": 6.5,
-    "course_duration_attribute": "Hours",
-    "filters": [
-      "Primary-Decision-Support---Audit-Execution GS-7-9 series-0511",
-      "Primary-Decision-Support---Audit-Execution GS-10-13 series-0511"
-    ]
-  },
-  {
-    "course_title": "Developing Audit Findings",
-    "training_providers": "AGA",
-    "link": "https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=21",
-    "course_credit_type": "CPE",
-    "price": 6000,
-    "learning_modality": "Hybrid",
-    "course_description": "Gain a thorough understanding of the five attributes of an audit finding, and learn how to analyze each finding to ensure that all necessary elements are present.",
-    "additional_course_information": "The price is reflective of a group of up to 30 people. ",
-    "course_duration_num": 6.5,
-    "course_duration_attribute": "Hours",
-    "filters": [
-      "Primary-Decision-Support---Audit-Execution GS-7-9 series-0511",
-      "Primary-Decision-Support---Audit-Execution GS-10-13 series-0511"
-    ]
-  },
-  {
     "course_title": "Ethics Focus: Gifts and Activities (course 2.3)",
     "training_providers": "AGA",
     "link": "https://aga.learnupon.com/store/3493881-ethics-focus-gifts-and-activities-course-2-3",
@@ -3283,60 +3106,6 @@
       "Personal-Integrity-and-Honesty GS-7-9 series-0560",
       "Personal-Integrity-and-Honesty GS-10-13 series-0560",
       "Personal-Integrity-and-Honesty GS-14-15 series-0560"
-    ]
-  },
-  {
-    "course_title": "Managerial Leadership",
-    "training_providers": "AGA",
-    "link": "https://www.agacgfm.org/Training/GroupTraining/CourseDetails.aspx?ID=50",
-    "course_credit_type": "CPE",
-    "price": 6000,
-    "learning_modality": "Hybrid",
-    "course_description": "Organizational leadership is the process of influencing others to achieve organizational goals.  This course examines the foundational tenets of leadership, organizational behavior and leadership theories, providing a basic understanding for the development of an individual's leadership style.  This course further includes basic principles of human behavior often used by managers in directing individuals and groups in organizations.",
-    "additional_course_information": "The price is reflective of a group of up to 30 people. ",
-    "course_duration_num": 6.5,
-    "course_duration_attribute": "Hours",
-    "filters": [
-      "Projects-Business-Process-Improvement GS-7-9 series-0501",
-      "Leading-Conflict-Management GS-7-9 series-0501",
-      "Personal-Critical-Thinking GS-7-9 series-0501",
-      "Personal-Interpersonal-Skills GS-7-9 series-0501",
-      "Personal-Oral-Communications GS-7-9 series-0501",
-      "Projects-Team-Building GS-7-9 series-0501",
-      "Projects-Business-Process-Improvement GS-10-13 series-0501",
-      "Leading-Conflict-Management GS-10-13 series-0501",
-      "Personal-Oral-Communications GS-10-13 series-0501",
-      "Projects-Team-Building GS-10-13 series-0501",
-      "Projects-Business-Process-Improvement GS-7-9 series-0510",
-      "Leading-Conflict-Management GS-7-9 series-0510",
-      "Personal-Critical-Thinking GS-7-9 series-0510",
-      "Personal-Interpersonal-Skills GS-7-9 series-0510",
-      "Personal-Oral-Communications GS-7-9 series-0510",
-      "Projects-Team-Building GS-7-9 series-0510",
-      "Projects-Business-Process-Improvement GS-10-13 series-0510",
-      "Leading-Conflict-Management GS-10-13 series-0510",
-      "Personal-Oral-Communications GS-10-13 series-0510",
-      "Projects-Team-Building GS-10-13 series-0510",
-      "Projects-Business-Process-Improvement GS-7-9 series-0511",
-      "Leading-Conflict-Management GS-7-9 series-0511",
-      "Personal-Critical-Thinking GS-7-9 series-0511",
-      "Personal-Interpersonal-Skills GS-7-9 series-0511",
-      "Personal-Oral-Communications GS-7-9 series-0511",
-      "Projects-Team-Building GS-7-9 series-0511",
-      "Projects-Business-Process-Improvement GS-10-13 series-0511",
-      "Leading-Conflict-Management GS-10-13 series-0511",
-      "Personal-Oral-Communications GS-10-13 series-0511",
-      "Projects-Team-Building GS-10-13 series-0511",
-      "Projects-Business-Process-Improvement GS-7-9 series-0560",
-      "Leading-Conflict-Management GS-7-9 series-0560",
-      "Personal-Critical-Thinking GS-7-9 series-0560",
-      "Personal-Interpersonal-Skills GS-7-9 series-0560",
-      "Personal-Oral-Communications GS-7-9 series-0560",
-      "Projects-Team-Building GS-7-9 series-0560",
-      "Projects-Business-Process-Improvement GS-10-13 series-0560",
-      "Leading-Conflict-Management GS-10-13 series-0560",
-      "Personal-Oral-Communications GS-10-13 series-0560",
-      "Projects-Team-Building GS-10-13 series-0560"
     ]
   },
   {
@@ -7209,24 +6978,6 @@
     ]
   },
   {
-    "course_title": "PEBU 0361 Accounting Analytics",
-    "training_providers": "George Mason University",
-    "link": "https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2408917",
-    "course_credit_type": "CPE",
-    "price": 2100,
-    "learning_modality": "In-person",
-    "course_description": "This course involves the collection, storage, and processing of financial and non-financial data used to report information to internal and external users. The focus is on relational database systems to capture the business processes of an organization and the internal controls embedded in those processes.",
-    "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
-    "course_duration_num": 24,
-    "course_duration_attribute": "Hours",
-    "filters": [
-      "Secondary-Data-Analytics-Management-and-Visualization GS-7-9 series-0501",
-      "Secondary-Data-Analytics-Management-and-Visualization GS-7-9 series-0510",
-      "Secondary-Data-Analytics-Management-and-Visualization GS-7-9 series-0511",
-      "Secondary-Data-Analytics-Management-and-Visualization GS-7-9 series-0560"
-    ]
-  },
-  {
     "course_title": "PEBU 0503 Data Analytics Strategic Leadership",
     "training_providers": "George Mason University",
     "link": "https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409106",
@@ -7672,24 +7423,6 @@
     ]
   },
   {
-    "course_title": "PEBU 0361 Accounting Analytics",
-    "training_providers": "George Mason University",
-    "link": "https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2408921",
-    "course_credit_type": "CPE",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "",
-    "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "filters": [
-      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0501",
-      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0510",
-      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0511",
-      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0560"
-    ]
-  },
-  {
     "course_title": "PEBU 0671 Managing Data Quality and Integrity",
     "training_providers": "George Mason University",
     "link": "https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2417784",
@@ -7709,23 +7442,6 @@
       "Secondary-Data-Analytics-Management-and-Visualization GS-14-15 series-0511",
       "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0560",
       "Secondary-Data-Analytics-Management-and-Visualization GS-14-15 series-0560"
-    ]
-  },
-  {
-    "course_title": "PEBU 0361 Accounting Analytics",
-    "training_providers": "George Mason University",
-    "link": "https://cpe.gmu.edu/courses-and-programs/courses/gsa-cptt/gsa-cptt-pebu-0361-accounting-analytics.php",
-    "course_credit_type": "CPE",
-    "price": null,
-    "learning_modality": "",
-    "course_description": "duplicate listing",
-    "additional_course_information": "duplicate listing",
-    "course_duration_num": null,
-    "course_duration_attribute": "",
-    "filters": [
-      "Primary-Decision-Support GS-10-13 series-0501",
-      "Primary-Decision-Support GS-10-13 series-0510",
-      "Primary-Decision-Support GS-10-13 series-0560"
     ]
   },
   {
@@ -8126,24 +7842,6 @@
       "Secondary-Risk-Management GS-14-15 series-0510",
       "Secondary-Risk-Management GS-14-15 series-0511",
       "Secondary-Risk-Management GS-14-15 series-0560"
-    ]
-  },
-  {
-    "course_title": "PEBU 0361 Accounting Analytics",
-    "training_providers": "George Mason University",
-    "link": "https://cpe.gmu.edu/courses-and-programs/courses/gsa-cptt/gsa-cptt-pebu-0361-accounting-analytics.php",
-    "course_credit_type": "CPE",
-    "price": 2100,
-    "learning_modality": "In-person",
-    "course_description": "This course involves the collection, storage, and processing of financial and non-financial data used to report information to internal and external users. The focus is on relational database systems to capture the business processes of an organization and the internal controls embedded in those processes.",
-    "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
-    "course_duration_num": 24,
-    "course_duration_attribute": "Hours",
-    "filters": [
-      "Secondary-Robotic-Process-Automation GS-14-15 series-0501",
-      "Secondary-Robotic-Process-Automation GS-14-15 series-0510",
-      "Secondary-Robotic-Process-Automation GS-14-15 series-0511",
-      "Secondary-Robotic-Process-Automation GS-14-15 series-0560"
     ]
   },
   {
