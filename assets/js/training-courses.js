@@ -33,10 +33,8 @@ $(document).ready(function () {
       },
       columnDefs: [
         { responsivePriority: 1, targets: 9},
-        {targets:[7,8], className:'none'},
-       // { responsivePriority: 10001, targets: 7},
-       // { responsivePriority: 10002, targets: 8},
-        // { responsivePriority: 10003, targets: 6},
+        { responsivePriority: 10001, targets: 7},
+        { responsivePriority: 10002, targets: 8},
       ],
       data: data,
       dom: 'Bfrt',
@@ -47,7 +45,7 @@ $(document).ready(function () {
             modifier: {
               selected: true
             },
-            columns: ':gt(0):lt(9)',
+            columns: ':gt(0):lt(8)',
           },
           // customize: function (csv) {
           //   var csvData = [];
@@ -72,7 +70,7 @@ $(document).ready(function () {
             modifier: {
               selected: true
             },
-            columns: ':gt(0):lt(9)',
+            columns: ':gt(0):lt(8)',
           },
           // customize: function (doc) {
           //   var body = doc.content[1].table.body;
@@ -115,9 +113,6 @@ $(document).ready(function () {
         {data: "course_description", defaultContent: ''},
         {data: "additional_course_information", defaultContent: ''},
         {"orderable": false, "render": DataTable.render.select(), "defaultContent": ''},
-         
-        {data: 'rating', defaultContent: 'Not Rated'},
-       
         { data: 'filters', visible: false }
       ],
       createdRow: (row, data, index) => {
