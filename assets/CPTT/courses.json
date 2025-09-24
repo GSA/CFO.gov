@@ -16635,8 +16635,7 @@
     "filters": [
       "Personal-Technology-Proficiency GS-10-13 series-0501",
       "Personal-Technology-Proficiency GS-7-9 series-0510",
-      "Personal-Technology-Proficiency GS-10-13 series-0511",
-      "Personal-Technology-Proficiency GS-10-13 series-0560"
+      "Personal-Technology-Proficiency GS-10-13 series-0510"
     ]
   },
   {
@@ -16651,10 +16650,9 @@
     "course_duration_num": null,
     "course_duration_attribute": "Hours",
     "filters": [
-      "Personal-Technology-Proficiency GS-10-13 series-0501",
       "Personal-Technology-Proficiency GS-7-9 series-0510",
-      "Personal-Technology-Proficiency GS-10-13 series-0511",
-      "Personal-Technology-Proficiency GS-10-13 series-0560"
+      "Personal-Technology-Proficiency GS-10-13 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0511"
     ]
   },
   {
@@ -16669,10 +16667,9 @@
     "course_duration_num": 35,
     "course_duration_attribute": "Hours",
     "filters": [
-      "Personal-Technology-Proficiency GS-10-13 series-0501",
-      "Personal-Technology-Proficiency GS-7-9 series-0510",
-      "Personal-Technology-Proficiency GS-10-13 series-0511",
-      "Personal-Technology-Proficiency GS-10-13 series-0560"
+      "Projects-Project-Management GS-10-13 series-0501",
+      "Projects-Project-Management GS-10-13 series-0510",
+      "Projects-Project-Management GS-7-9 series-0511"
     ]
   },
   {
@@ -16689,8 +16686,8 @@
     "filters": [
       "Personal-Technology-Proficiency GS-10-13 series-0501",
       "Personal-Technology-Proficiency GS-7-9 series-0510",
-      "Personal-Technology-Proficiency GS-10-13 series-0511",
-      "Personal-Technology-Proficiency GS-10-13 series-0560"
+      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0501",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-7-9 series-0510"
     ]
   },
   {
@@ -16707,8 +16704,10 @@
     "filters": [
       "Personal-Technology-Proficiency GS-10-13 series-0501",
       "Personal-Technology-Proficiency GS-7-9 series-0510",
-      "Personal-Technology-Proficiency GS-10-13 series-0511",
-      "Personal-Technology-Proficiency GS-10-13 series-0560"
+      "Personal-Technology-Proficiency GS-10-13 series-0510",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0501",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-7-9 series-0510",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0510"
     ]
   },
   {
@@ -16725,8 +16724,10 @@
     "filters": [
       "Personal-Technology-Proficiency GS-10-13 series-0501",
       "Personal-Technology-Proficiency GS-7-9 series-0510",
-      "Personal-Technology-Proficiency GS-10-13 series-0511",
-      "Personal-Technology-Proficiency GS-10-13 series-0560"
+      "Personal-Technology-Proficiency GS-10-13 series-0510",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0501",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-7-9 series-0510",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0510"
     ]
   },
   {
@@ -16741,10 +16742,10 @@
     "course_duration_num": 4,
     "course_duration_attribute": "Hours",
     "filters": [
-      "Personal-Technology-Proficiency GS-10-13 series-0501",
       "Personal-Technology-Proficiency GS-7-9 series-0510",
-      "Personal-Technology-Proficiency GS-10-13 series-0511",
-      "Personal-Technology-Proficiency GS-10-13 series-0560"
+      "Personal-Technology-Proficiency GS-10-13 series-0510",
+      "Projects-Business-Process-Improvement GS-7-9 series-0510",
+      "Projects-Business-Process-Improvement GS-10-13 series-0510"
     ]
   },
   {
@@ -16759,10 +16760,12 @@
     "course_duration_num": 40,
     "course_duration_attribute": "Hours",
     "filters": [
-      "Personal-Technology-Proficiency GS-10-13 series-0501",
-      "Personal-Technology-Proficiency GS-7-9 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0510",
       "Personal-Technology-Proficiency GS-10-13 series-0511",
-      "Personal-Technology-Proficiency GS-10-13 series-0560"
+      "Personal-Technology-Proficiency GS-10-13 series-0560",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0510",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0511",
+      "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0560"
     ]
   }
 ]
