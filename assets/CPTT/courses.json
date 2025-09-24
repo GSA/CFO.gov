@@ -16632,7 +16632,12 @@
     "additional_course_information": "Mason Career Academy gives professionals access to 90+ online training courses and industry-recognized technical certs through Coursera, the global online learning platform. Ideal for individuals in career transitions or seeking to upskill, take any course you want, whenever you want. Take any course you want. Learn new skills, explore a new subject, or advance your career goals.",
     "course_duration_num": null,
     "course_duration_attribute": "Hours",
-    "filters": []
+    "filters": [
+      "Personal-Technology-Proficiency GS-10-13 series-0501",
+      "Personal-Technology-Proficiency GS-7-9 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0511",
+      "Personal-Technology-Proficiency GS-10-13 series-0560"
+    ]
   },
   {
     "course_title": "CRSA 0500 Mason Career Academy Plus",
@@ -16645,7 +16650,12 @@
     "additional_course_information": "Mason Career Academy PLUS provides unlimited access to 7000+ professional certifications and specializations across all industry content in the Coursera catalog, including advanced level content and credentials, as well Gen AI courses. Gain credentials from industry leaders and prepare for in-demand careers in tech, business, data science, and more. Access to PLUS gives you unlimited flexible learning and shareable certificates to boost your resume.",
     "course_duration_num": null,
     "course_duration_attribute": "Hours",
-    "filters": []
+    "filters": [
+      "Personal-Technology-Proficiency GS-10-13 series-0501",
+      "Personal-Technology-Proficiency GS-7-9 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0511",
+      "Personal-Technology-Proficiency GS-10-13 series-0560"
+    ]
   },
   {
     "course_title": "Project Management Certificate Series ",
@@ -16658,7 +16668,12 @@
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 35,
     "course_duration_attribute": "Hours",
-    "filters": []
+    "filters": [
+      "Personal-Technology-Proficiency GS-10-13 series-0501",
+      "Personal-Technology-Proficiency GS-7-9 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0511",
+      "Personal-Technology-Proficiency GS-10-13 series-0560"
+    ]
   },
   {
     "course_title": "UTIT 0103 AI-900T00 Microsoft Azure AI Fundamentals",
@@ -16671,7 +16686,12 @@
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 8,
     "course_duration_attribute": "Hours",
-    "filters": []
+    "filters": [
+      "Personal-Technology-Proficiency GS-10-13 series-0501",
+      "Personal-Technology-Proficiency GS-7-9 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0511",
+      "Personal-Technology-Proficiency GS-10-13 series-0560"
+    ]
   },
   {
     "course_title": "UTIT 0300 Introduction to Python",
@@ -16684,7 +16704,12 @@
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 24,
     "course_duration_attribute": "Hours",
-    "filters": []
+    "filters": [
+      "Personal-Technology-Proficiency GS-10-13 series-0501",
+      "Personal-Technology-Proficiency GS-7-9 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0511",
+      "Personal-Technology-Proficiency GS-10-13 series-0560"
+    ]
   },
   {
     "course_title": "UTIT 0301 CompTIA Server+",
@@ -16697,7 +16722,12 @@
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 40,
     "course_duration_attribute": "Hours",
-    "filters": []
+    "filters": [
+      "Personal-Technology-Proficiency GS-10-13 series-0501",
+      "Personal-Technology-Proficiency GS-7-9 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0511",
+      "Personal-Technology-Proficiency GS-10-13 series-0560"
+    ]
   },
   {
     "course_title": "UTIT 0304 AI for Business Professionals (AIBIZ™)",
@@ -16710,7 +16740,12 @@
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 4,
     "course_duration_attribute": "Hours",
-    "filters": []
+    "filters": [
+      "Personal-Technology-Proficiency GS-10-13 series-0501",
+      "Personal-Technology-Proficiency GS-7-9 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0511",
+      "Personal-Technology-Proficiency GS-10-13 series-0560"
+    ]
   },
   {
     "course_title": "UTIT 0307 Certified Artificial Intelligence (AI) Practitioner (CAIP)",
@@ -16723,6 +16758,11 @@
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 40,
     "course_duration_attribute": "Hours",
-    "filters": []
+    "filters": [
+      "Personal-Technology-Proficiency GS-10-13 series-0501",
+      "Personal-Technology-Proficiency GS-7-9 series-0510",
+      "Personal-Technology-Proficiency GS-10-13 series-0511",
+      "Personal-Technology-Proficiency GS-10-13 series-0560"
+    ]
   }
 ]
