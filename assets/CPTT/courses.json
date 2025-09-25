@@ -2765,7 +2765,7 @@
     ]
   },
   {
-    "course_title": "Governmental Financial Management and Control (online, self-paced)",
+    "course_title": "Governmental Financial Management and Control (online, on-demand)",
     "training_providers": "AGA",
     "link": "https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1",
     "course_credit_type": "Certification",
@@ -2838,7 +2838,7 @@
     ]
   },
   {
-    "course_title": "Governmental Financial Management and Control (online, self-paced)",
+    "course_title": "Governmental Financial Management and Control (online, on-demand)",
     "training_providers": "AGA",
     "link": "https://cgfm.learnupon.com/store/2584-cgfm-course-3-governmental-financial-management-and-control-sections-i-v-bundle?is_bundle=1",
     "course_credit_type": "Certification",
@@ -6584,7 +6584,7 @@
     "link": "https://cpe.gmu.edu/courses-and-programs/courses/gsa-cptt/gsa-cptt-pebu-0407-conflict-management.php",
     "course_credit_type": "CPE",
     "price": 700,
-    "learning_modality": "In-person",
+    "learning_modality": "Hybrid",
     "course_description": "Manages and resolves conflicts, grievances, confrontations, or disagreements in a constructive manner to minimize negative (personal) impact",
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 8,
@@ -6606,7 +6606,7 @@
     "link": "https://cpe.gmu.edu/courses-and-programs/courses/gsa-cptt/gsa-cptt-pebu-0314-leadership-development-i.php",
     "course_credit_type": "CPE",
     "price": 2100,
-    "learning_modality": "In-person",
+    "learning_modality": "Virtual",
     "course_description": "Program focuses on building skills related to teamwork, negotiation, conflict, adaptation, and the like for those that are early in their careers. The puropse of this program is to utilize the science behind such topics as personality, relationships, and work performance to improve work practices, communication, and, ultimately individual and group effectiveness.",
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 24,
@@ -7126,7 +7126,7 @@
     "link": "https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409729",
     "course_credit_type": "CPE",
     "price": 1400,
-    "learning_modality": "In-person",
+    "learning_modality": "Hybrid",
     "course_description": "This course will introduce participants to concept of customer centricity and outline frameworks and tools to translate their organization’s mission and goals to an actionable customer-focused strategy. It will illustrate how businesses create and deliver value with 5Cs analysis (customer, company, collaborators, competitors, and context) and leveraging the marketing mix. It will also introduce effective customer segmentation techniques and provide hands-on practice for managing and targeting multiple customer segments in a simulated environment.",
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 16,
@@ -7312,7 +7312,7 @@
     "link": "https://masoncpe.gmu.edu/search/publicCourseSearchDetails.do?method=load&courseId=2409624",
     "course_credit_type": "CPE",
     "price": 2100,
-    "learning_modality": "In-person",
+    "learning_modality": "Hybrid",
     "course_description": "This course will examine how economic transactions are measured and reported in financial statements using generally accepted accounting principles to help users of accounting information to make financing, operating, and investing decisions for businesses. Students will learn how to record, analyze, interpret, and communicate financial information in accordance with applicable professional and regulatory authoritative literature.",
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 24,
@@ -7866,7 +7866,7 @@
     "link": "https://cpe.gmu.edu/courses-and-programs/courses/gsa-cptt/gsa-cptt-pebu-0738-advanced-topics-in-fraud.php",
     "course_credit_type": "CPE",
     "price": 700,
-    "learning_modality": "In-person",
+    "learning_modality": "Synchronous",
     "course_description": "Course will cover advanced topics in forensic accounting. The focus will be on contemporary issues in fraud. Examples of topics include litigation support, money laundering, consumer fraud, bankruptcy, divorce and tax fraud, fraud in e-commerce, insurance fraud and mortgage fraud. The course will provide a comprehensive look at fraud investigation.",
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 8,
@@ -7882,7 +7882,7 @@
     "link": "https://cpe.gmu.edu/courses-and-programs/courses/gsa-cptt/gsa-cptt-pebu-0771-audit-analytics.php",
     "course_credit_type": "CPE",
     "price": 700,
-    "learning_modality": "In-person",
+    "learning_modality": "Synchronous",
     "course_description": "Conducts audits in accordance with Generally Accepted Government Auditing Standards (GAGAS) or Generally Accepted Auditing Standards (GAAS) to provide value-added recommendations that enable better utilization of resources and improvement of mission effectiveness.",
     "additional_course_information": "This course is taught by instructors who are experienced, successful project management practitioners, and have held executive / senior management positions in government, public- and private-sector businesses, and non-profit organizations. ",
     "course_duration_num": 8,
@@ -16766,6 +16766,62 @@
       "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0510",
       "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0511",
       "Secondary-Data-Analytics-Management-and-Visualization GS-10-13 series-0560"
+    ]
+  },
+  {
+    "course_title": "Webinar - Data Analytics and/or Fraud",
+    "training_providers": "AGA",
+    "link": "https://www.agacgfm.org/webinar/data-analytics-and-or-fraud/",
+    "course_credit_type": "CPE",
+    "price": 99,
+    "learning_modality": "Virtual",
+    "course_description": "Interactive webinar focusing on data analytics and/or fraud.",
+    "additional_course_information": "",
+    "course_duration_num": 1.5,
+    "course_duration_attribute": "Hours",
+    "filters": [
+      "Secondary-Risk-Management GS-10-13 series-0501",
+      "Secondary-Risk-Management GS-10-13 series-0510",
+      "Secondary-Risk-Management GS-7-9 series-0511",
+      "Secondary-Risk-Management GS-10-13 series-0511"
+    ]
+  },
+  {
+    "course_title": "Ethical Conduct for Executive Branch Employees (course 2.2)",
+    "training_providers": "AGA",
+    "link": "https://www.agacgfm.org/webinar/data-analytics-and-or-fraud/",
+    "course_credit_type": "CPE",
+    "price": 59,
+    "learning_modality": "Asynchronous",
+    "course_description": "The Office of Government Ethics establishes standards of ethical conduct for employees in the executive branch of the federal government. These standards are based on 14 general principles. Knowledge of the principles and standards is essential for those employed in the executive branch, important for those serving as contractors, and helpful for those working in state and local government.",
+    "additional_course_information": "Self-paced course, with online access for 90 days.",
+    "course_duration_num": 1.5,
+    "course_duration_attribute": "Hours",
+    "filters": [
+      "Personal-Integrity-and-Honesty GS-7-9 series-0501",
+      "Personal-Integrity-and-Honesty GS-10-13 series-0501",
+      "Personal-Integrity-and-Honesty GS-14-15 series-0501",
+      "Personal-Integrity-and-Honesty GS-7-9 series-0510",
+      "Personal-Integrity-and-Honesty GS-10-13 series-0510"
+    ]
+  },
+  {
+    "course_title": "Webinar - Ethics",
+    "training_providers": "AGA",
+    "link": "https://www.agacgfm.org/webinar/data-analytics-and-or-fraud/",
+    "course_credit_type": "CPE",
+    "price": 99,
+    "learning_modality": "Virtual",
+    "course_description": "Bi-annual webinar focusing on creating and maintain ethical standards and practices as they pertain to government financial management.",
+    "additional_course_information": "",
+    "course_duration_num": 1.5,
+    "course_duration_attribute": "Hours",
+    "filters": [
+      "Personal-Integrity-and-Honesty GS-7-9 series-0501",
+      "Personal-Integrity-and-Honesty GS-10-13 series-0501",
+      "Personal-Integrity-and-Honesty GS-14-15 series-0501",
+      "Personal-Integrity-and-Honesty GS-7-9 series-0510",
+      "Personal-Integrity-and-Honesty GS-10-13 series-0510"
     ]
   }
 ]
