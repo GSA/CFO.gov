@@ -175,7 +175,8 @@ jQuery(document).ready(function ($) {
     function updateAvailableFilters() {
         if (!iso) return;
 
-        // If no filtering applied (show all items), show everything
+        const archiveFilterSelector = '[data-filter=".archived"]';
+
         if (iso.filteredItems.length === iso.items.length) {
             $(".filter-list li").show();
             $(".filter-list").each(function () {
@@ -185,7 +186,7 @@ jQuery(document).ready(function ($) {
             return;
         }
 
-        let validClasses = new Set();
+        const validClasses = new Set();
         iso.filteredItems.forEach(item => {
             item.element.classList.forEach(cls => {
                 validClasses.add("." + cls);
@@ -193,27 +194,42 @@ jQuery(document).ready(function ($) {
         });
 
         $(".filter-list").each(function () {
-            $(this).find("a").each(function () {
-                let filterVal = $(this).attr("data-filter");
-                filterVal = filterVal === 'archive_area' ? 'archived' : filterVal;
+            const $filterGroup = $(this);
+            const groupName = $filterGroup.attr("data-filter-group");
+            let groupHasVisibleItems = false;
+
+            $filterGroup.find("li").each(function () {
+                const $li = $(this);
+                const $link = $li.find("a");
+                let filterVal = ($link.attr("data-filter") || "").trim();
+
+                const isArchiveFilter = groupName === "archive_area" || filterVal === ".archived";
+
+                if (isArchiveFilter) {
+                    $li.show();
+                    groupHasVisibleItems = true;
+                    return;
+                }
+
                 if (
                     filterVal === "*" ||
-                    $(this).hasClass("checked") ||
+                    $link.hasClass("checked") ||
                     validClasses.has(filterVal)
                 ) {
-                    $(this).parent().show();
+                    $li.show();
+                    groupHasVisibleItems = true;
                 } else {
-                    $(this).parent().hide();
+                    $li.hide();
                 }
             });
 
-            let visibleItems = $(this).find("li:visible").length;
-            if (visibleItems === 0) {
-                $(this).prev("h3").hide();
-                $(this).hide();
+            const isArchiveGroup = groupName === "archive_area";
+            if (groupHasVisibleItems || isArchiveGroup) {
+                $filterGroup.prev("h3").show();
+                $filterGroup.show();
             } else {
-                $(this).prev("h3").show();
-                $(this).show();
+                $filterGroup.prev("h3").hide();
+                $filterGroup.hide();
             }
         });
     }
