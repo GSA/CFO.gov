@@ -101,15 +101,15 @@ jQuery(document).ready(function ($) {
 
     function onHashChange() {
         var hashFilter = getHashFilter();
-        var theFilter =
-            hashFilter["focus_area"] +
-            hashFilter["sub_focus_area"] +
-            hashFilter["type"] +
-            hashFilter["source"] +
-            hashFilter["fiscal_year"] +
-            hashFilter["archive_area"] +
-            hashFilter["filter-list-not-archived"]+
-            hashFilter["council"];
+        var theFilter = [
+            hashFilter["focus_area"],
+            hashFilter["sub_focus_area"],
+            hashFilter["type"],
+            hashFilter["source"],
+            hashFilter["fiscal_year"],
+            hashFilter["archive_area"],
+            hashFilter["council"]
+        ].filter(f => f && f !== "*").join(" ");
 
         if (hashFilter) {
             $container.isotope({
@@ -134,8 +134,7 @@ jQuery(document).ready(function ($) {
                 "[data-filter='" + hashFilter["type"] + "'], " +
                 "[data-filter='" + hashFilter["source"] + "'], " +
                 "[data-filter='" + hashFilter["archive_area"] + "'], " +
-                "[data-filter='" + hashFilter["council"] + "'], " + 
-                "[data-filter='" + hashFilter["filter-list-not-archived"] + "'], " + 
+                "[data-filter='" + hashFilter["council"] + "'], " +
                 "[data-filter='" + hashFilter["fiscal_year"] + "']"
             ).addClass("checked").attr("aria-checked", "true");
 
@@ -160,7 +159,6 @@ jQuery(document).ready(function ($) {
         hashFilter["type"] = type ? decodeURIComponent(type[1]) : "*";
         hashFilter["source"] = source ? decodeURIComponent(source[1]) : "*";
         hashFilter["fiscal_year"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
-        hashFilter["filter-list-not-archived"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["archive_area"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
         hashFilter["council"] = council ? decodeURIComponent(council[1]) : "*";
         hashFilter["sorts"] = sorts ? sorts[1] : "";
