@@ -5,9 +5,12 @@
 jQuery(document).ready(function ($) {
     var $container = $(".resources");
     let notArchivedFilter = ":not(.archived)";
+
     // Add the years to the data-filter attribute of the filter-list-not-archived
     $("#filter-list-not-archived").attr("data-filter", notArchivedFilter);
+
     var initialFilter = notArchivedFilter;
+
     // Create initial hash
     var initHash = "archive_area=" + encodeURIComponent(initialFilter);
 
@@ -101,15 +104,15 @@ jQuery(document).ready(function ($) {
 
     function onHashChange() {
         var hashFilter = getHashFilter();
-        var theFilter = [
-            hashFilter["focus_area"],
-            hashFilter["sub_focus_area"],
-            hashFilter["type"],
-            hashFilter["source"],
-            hashFilter["fiscal_year"],
-            hashFilter["archive_area"],
-            hashFilter["council"]
-        ].filter(f => f && f !== "*").join(" ");
+        var theFilter =
+            hashFilter["focus_area"] +
+            hashFilter["sub_focus_area"] +
+            hashFilter["type"] +
+            hashFilter["source"] +
+            hashFilter["fiscal_year"] +
+            hashFilter["archive_area"] +
+            hashFilter["filter-list-not-archived"] +
+            hashFilter["council"];
 
         if (hashFilter) {
             $container.isotope({
@@ -135,6 +138,7 @@ jQuery(document).ready(function ($) {
                 "[data-filter='" + hashFilter["source"] + "'], " +
                 "[data-filter='" + hashFilter["archive_area"] + "'], " +
                 "[data-filter='" + hashFilter["council"] + "'], " +
+                "[data-filter='" + hashFilter["filter-list-not-archived"] + "'], " +
                 "[data-filter='" + hashFilter["fiscal_year"] + "']"
             ).addClass("checked").attr("aria-checked", "true");
 
@@ -159,6 +163,7 @@ jQuery(document).ready(function ($) {
         hashFilter["type"] = type ? decodeURIComponent(type[1]) : "*";
         hashFilter["source"] = source ? decodeURIComponent(source[1]) : "*";
         hashFilter["fiscal_year"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
+        hashFilter["filter-list-not-archived"] = fiscal_year ? decodeURIComponent(fiscal_year[1]) : "*";
         hashFilter["archive_area"] = archive_area ? decodeURIComponent(archive_area[1]) : "*";
         hashFilter["council"] = council ? decodeURIComponent(council[1]) : "*";
         hashFilter["sorts"] = sorts ? sorts[1] : "";
@@ -215,6 +220,7 @@ jQuery(document).ready(function ($) {
 
     // When the hash changes, run onHashchange
     window.onhashchange = onHashChange;
+
     // When the page loads for the first time
     onHashChange();
     updateAvailableFilters();
