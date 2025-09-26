@@ -4,7 +4,7 @@
 
 jQuery(document).ready(function ($) {
     var $container = $(".resources");
-    let notArchivedFilter = ":not(.archived)";
+    let notArchivedFilter = ".policy:not(.archived)";
     // Add the years to the data-filter attribute of the filter-list-not-archived
     $("#filter-list-not-archived").attr("data-filter", notArchivedFilter);
     var initialFilter = notArchivedFilter;
