@@ -4,17 +4,11 @@
 
 jQuery(document).ready(function ($) {
     var $container = $(".resources");
-    let currentYear = new Date().getFullYear();
-    const archivedYears = 7;
-    const endYear = currentYear - archivedYears;
-    let notArchivedYears = [];
-    for (let i = currentYear; i >= endYear; i--) {
-        notArchivedYears.push(`.${i}:not(.archived)`);
-    }
+    let notArchivedFilter = ":not(.archived)";
 
-    let notArchivedFilter = notArchivedYears.join(", ");
     // Add the years to the data-filter attribute of the filter-list-not-archived
     $("#filter-list-not-archived").attr("data-filter", notArchivedFilter);
+
     var initialFilter = notArchivedFilter;
 
     // Create initial hash
@@ -117,7 +111,7 @@ jQuery(document).ready(function ($) {
             hashFilter["source"] +
             hashFilter["fiscal_year"] +
             hashFilter["archive_area"] +
-            hashFilter["filter-list-not-archived"]+
+            hashFilter["filter-list-not-archived"] +
             hashFilter["council"];
 
         if (hashFilter) {
@@ -143,8 +137,8 @@ jQuery(document).ready(function ($) {
                 "[data-filter='" + hashFilter["type"] + "'], " +
                 "[data-filter='" + hashFilter["source"] + "'], " +
                 "[data-filter='" + hashFilter["archive_area"] + "'], " +
-                "[data-filter='" + hashFilter["council"] + "'], " + 
-                "[data-filter='" + hashFilter["filter-list-not-archived"] + "'], " + 
+                "[data-filter='" + hashFilter["council"] + "'], " +
+                "[data-filter='" + hashFilter["filter-list-not-archived"] + "'], " +
                 "[data-filter='" + hashFilter["fiscal_year"] + "']"
             ).addClass("checked").attr("aria-checked", "true");
 
@@ -226,6 +220,7 @@ jQuery(document).ready(function ($) {
 
     // When the hash changes, run onHashchange
     window.onhashchange = onHashChange;
+
     // When the page loads for the first time
     onHashChange();
     updateAvailableFilters();
