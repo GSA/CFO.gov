@@ -3,9 +3,6 @@
 <div class="usa-media-block tablet:grid-col-9">
     <p class="filter-count margin-top-0 text-gray-50 text-thin"></p>
     <div class="resources">
-        {% assign current_year = "now" | date: "%Y" %}
-        {% assign archived_years = 7 %}
-        {% assign end_year = current_year | minus: archived_years %}
         
         {% assign resources_group = site.resources | concat: site.external_resources | sort: "fiscal_year" | reverse | group_by: "fiscal_year" %}
         {% for resources in resources_group %}
@@ -13,7 +10,7 @@
             {% for resource in sorted_resources %}
                 {% assign className = resource.filters | split: ' ' | first %}
                 <div class="tablet:grid-col-4 grid-spacing policy {{ resource.filters }}">
-                    {% if resource.filters contains 'archived' or resource.fiscal_year <= end_year %}
+                    {% if resource.filters contains 'archived' %}
                         <span class="archived-label">Archived</span>
                     {% endif %}
 

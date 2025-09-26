@@ -4,19 +4,10 @@
 
 jQuery(document).ready(function ($) {
     var $container = $(".resources");
-    let currentYear = new Date().getFullYear();
-    const archivedYears = 7;
-    const endYear = currentYear - archivedYears;
-    let notArchivedYears = [];
-    for (let i = currentYear; i >= endYear; i--) {
-        notArchivedYears.push(`.${i}:not(.archived)`);
-    }
-
-    let notArchivedFilter = notArchivedYears.join(", ");
+    let notArchivedFilter = ":not(.archived)";
     // Add the years to the data-filter attribute of the filter-list-not-archived
     $("#filter-list-not-archived").attr("data-filter", notArchivedFilter);
     var initialFilter = notArchivedFilter;
-
     // Create initial hash
     var initHash = "archive_area=" + encodeURIComponent(initialFilter);
 
