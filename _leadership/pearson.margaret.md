@@ -4,5 +4,5 @@ bio-image-alt-text: Margaret Pearson
 layout: bio
 name : Ms. Margaret Pearson
 department: the Office of Management and Budget
-title: DOffice of Federal Financial Management
+title: Office of Federal Financial Management
 ---
